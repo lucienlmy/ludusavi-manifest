@@ -3,15 +3,14 @@ name: SyncFork
 on:
   schedule:
     - cron: '*/30 * * * *' # every 30 minutes
-  workflow_dispatch: # on button click
+  workflow_dispatch:
 
 jobs:
   sync:
-
     runs-on: ubuntu-latest
 
     steps:
-      uses: tgymnich/fork-sync@v2.0.10
+      - uses: tgymnich/fork-sync@v2.0.10
         with:
           owner: mtkennerly
           base: master
