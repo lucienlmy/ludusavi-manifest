@@ -30685,7 +30685,6 @@
 * [Yomi](https://www.pcgamingwiki.com/wiki/?curid=38416)
 * [Yomi Alliance](https://www.pcgamingwiki.com/wiki/?curid=150898)
 * [Yon Paradox](https://www.pcgamingwiki.com/wiki/?curid=43147)
-* [Yooka-Replaylee](https://www.pcgamingwiki.com/wiki/?curid=197929)
 * [Yoot Tower](https://www.pcgamingwiki.com/wiki/?curid=194878)
 * [Yore VR](https://www.pcgamingwiki.com/wiki/?curid=51867)
 * [Yorg](https://www.pcgamingwiki.com/wiki/?curid=70565)
