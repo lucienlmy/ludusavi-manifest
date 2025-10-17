@@ -1892,6 +1892,7 @@
 * [Asset Flip Simulator](https://www.pcgamingwiki.com/wiki/?curid=92949)
 * [Asset Flip Tycoon Simulator](https://www.pcgamingwiki.com/wiki/?curid=156768)
 * [Assetto Corsa EVO](https://www.pcgamingwiki.com/wiki/?curid=196569)
+* [Assetto Corsa Rally](https://www.pcgamingwiki.com/wiki/?curid=209751)
 * [ASTA](https://www.pcgamingwiki.com/wiki/?curid=61329)
 * [ASTA Online V2 CBT](https://www.pcgamingwiki.com/wiki/?curid=63958)
 * [Astaria](https://www.pcgamingwiki.com/wiki/?curid=130404)
