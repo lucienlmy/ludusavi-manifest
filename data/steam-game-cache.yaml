@@ -630721,6 +630721,12 @@
     japanese: 仁王３
     schinese: 仁王３
     tchinese: 仁王３
+3681810:
+  installDir: Blue Protocol Star Resonance
+  launch:
+    - config:
+        oslist: windows
+      executable: bpsr/BPSR_STEAM.exe
 3684610:
   installDir: s.p.l.i.t
   launch:

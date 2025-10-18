@@ -89037,6 +89037,13 @@ Blooming Nightshade:
   steam:
     id: 1148400
 Bloons Adventure Time TD:
+  files:
+    "<root>/userdata/<storeUserId>/979060":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: bloons-adventure-time-td
   installDir:
@@ -89766,6 +89773,15 @@ Blue Protocol:
         - config
       when:
         - os: windows
+  installDir:
+    Blue Protocol Star Resonance: {}
+  launch:
+    "<base>/bpsr/BPSR_STEAM.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3681810
 Blue Reflection:
   files:
     "<winDocuments>/KoeiTecmo/BLUE REFLECTION":
@@ -229373,6 +229389,14 @@ Eo:
 EoSD for Busy Person:
   files:
     "<winDocuments>/カスガソフト/忙しい人のためのこうまきょう":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+EoSD for Busy Person Extra:
+  files:
+    "<winDocuments>/カスガソフト/忙しい人のためのこうまきょうEXTRA":
       tags:
         - config
         - save
@@ -495495,6 +495519,14 @@ PC Gamer Digital:
           - store: steam
   steam:
     id: 92500
+PCB for Busy Person:
+  files:
+    "<winDocuments>/カスガソフト/忙しい人のためのようようむ":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 PCSX2:
   files:
     "<base>/gamesettings":

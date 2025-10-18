@@ -28644,6 +28644,7 @@ Bloons Adventure Time TD:
   steam: 979060
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Ninja Kiwi\\Bloons Adventure Time TD\\}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{p|uid}}\\979060}}"
 Bloons Card Storm:
   pageId: 202372
   steam: 2876550
@@ -28855,6 +28856,7 @@ Blue Protocol:
   steam: 2139230
 "Blue Protocol: Star Resonance":
   pageId: 209739
+  steam: 3681810
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\bokura}}"
 Blue Reflection:
@@ -73151,6 +73153,11 @@ EoSD for Busy Person:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\カスガソフト\\忙しい人のためのこうまきょう\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\カスガソフト\\忙しい人のためのこうまきょう\\}}"
+EoSD for Busy Person Extra:
+  pageId: 209817
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\カスガソフト\\忙しい人のためのこうまきょうEXTRA\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\カスガソフト\\忙しい人のためのこうまきょうEXTRA\\}}"
 Eon:
   pageId: 156666
   steam: 1056060
@@ -159237,6 +159244,11 @@ PC Gamer Digital:
     - "{{Game data/saves|Windows|-}}"
 PC-Man:
   pageId: 163335
+PCB for Busy Person:
+  pageId: 209820
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\カスガソフト\\忙しい人のためのようようむ\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\カスガソフト\\忙しい人のためのようようむ\\}}"
 PCSX2:
   pageId: 88518
   templates:
