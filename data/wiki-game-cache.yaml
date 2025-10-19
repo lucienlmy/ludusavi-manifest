@@ -138748,6 +138748,8 @@ Michelle Kwan Figure Skating:
 Micro Car Crash Online Le Go!:
   pageId: 149323
   steam: 1150480
+Micro Commandos:
+  pageId: 209864
 Micro Cosmic Worlds:
   pageId: 65231
   steam: 655580
@@ -240139,6 +240141,8 @@ Touhou Monster TD ~ 幻想乡妖怪塔防:
   templates:
     - "{{Game data/config|Windows| {{p|hkcu}}\\Software\\MyACG Studio\\THMTD\\}}"
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{p|uid}}\\1671350\\}}"
+    - "{{Game data/saves|OS X|{{P|steam}}/userdata/{{p|uid}}/1671350/}}"
+    - "{{Game data/saves|Linux|{{P|steam}}/userdata/{{p|uid}}/1671350/}}"
 Touhou Multi Scroll Shooting:
   pageId: 144281
   steam: 1125000
@@ -248621,6 +248625,9 @@ Upload Labs:
     - 3606990
     - 3958950
     - 3958960
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Upload Labs\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Upload Labs\\savegame.dat}}"
 Uppers:
   cloud:
     steam: true

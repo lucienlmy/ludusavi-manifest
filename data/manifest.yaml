@@ -748210,6 +748210,10 @@ Touhou Monster TD ~ 幻想乡妖怪塔防:
       when:
         - os: windows
           store: steam
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
   installDir:
     TouhouMonsterTD: {}
   launch:
@@ -772355,14 +772359,16 @@ Upload Labs:
   cloud:
     steam: true
   files:
-    "<winAppData>/Upload Labs/**/*.dat":
+    "<winAppData>/Upload Labs/config.dat":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<xdgData>/Upload Labs/**/*.dat":
+    "<winAppData>/Upload Labs/savegame.dat":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
+        - os: windows
   id:
     lutris: upload-labs
     steamExtra:

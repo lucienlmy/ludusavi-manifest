@@ -16313,6 +16313,7 @@
 * [Mickey's Space Adventure](https://www.pcgamingwiki.com/wiki/?curid=147121)
 * [Mickey's Typing Adventure](https://www.pcgamingwiki.com/wiki/?curid=48627)
 * [Micro Car Crash Online Le Go!](https://www.pcgamingwiki.com/wiki/?curid=149323)
+* [Micro Commandos](https://www.pcgamingwiki.com/wiki/?curid=209864)
 * [Micro Cosmic Worlds](https://www.pcgamingwiki.com/wiki/?curid=65231)
 * [Micro Machines V4](https://www.pcgamingwiki.com/wiki/?curid=87806)
 * [Micro Mages](https://www.pcgamingwiki.com/wiki/?curid=134540)
