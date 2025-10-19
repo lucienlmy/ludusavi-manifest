@@ -564239,7 +564239,7 @@
       executable: NINJA GAIDEN SIGMA2.exe
       type: default
   nameLocalized:
-    japanese: "【NINJA GAIDEN: マスターコレクション】 NINJA GAIDEN Σ2"
+    japanese: "NINJA GAIDEN Σ2 【NINJA GAIDEN: マスターコレクション】"
 1580970:
   installDir: Samorost 1
   launch:
@@ -629662,6 +629662,7 @@
       description: Edith
       executable: SteamGame.exe
       type: editor
+3509130: {}
 3511620:
   installDir: Super Spy Violet
   launch:

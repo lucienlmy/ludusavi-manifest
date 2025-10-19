@@ -469195,6 +469195,11 @@ Nickelodeon All-Star Brawl 2:
             store: steam
   steam:
     id: 1620040
+Nickelodeon Splat Pack:
+  cloud:
+    steam: true
+  steam:
+    id: 3509130
 Nicktoons & The Dice of Destiny:
   files:
     "<winLocalAppData>/Dice/Saved/SaveGames/**/*.sav":

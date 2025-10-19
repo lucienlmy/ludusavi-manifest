@@ -45122,6 +45122,8 @@ Connected Hearts - Visual novel:
 "Connectionism:Pain Control":
   pageId: 114412
   steam: 941350
+"Connie & Bonnie's Birthday BlastOff":
+  pageId: 209838
 Conquer:
   pageId: 81079
   steam: 779240
@@ -47538,6 +47540,8 @@ Crazy Forest 2:
   steam: 655150
 Crazy Frog Racer:
   pageId: 87815
+Crazy Frog Racer 2:
+  pageId: 209850
 Crazy Golf:
   pageId: 208265
   templates:
@@ -60041,6 +60045,10 @@ Die Drei ??? - Geheimnis der Schattenhelden:
     steam: true
   pageId: 77986
   steam: 735620
+Die Hard:
+  pageId: 209842
+"Die Hard 2: Die Harder":
+  pageId: 209844
 Die Hard Trilogy:
   lutris: die-hard-trilogy
   pageId: 126976
@@ -61407,6 +61415,8 @@ Disney Universe:
   pageId: 55230
 "Disney's Animated Storybook: Hercules":
   pageId: 200838
+"Disney's Animated Storybook: Pocahontas":
+  pageId: 209840
 "Disney's Animated Storybook: Toy Story":
   pageId: 54857
 "Disney's Chicken Little":
@@ -150726,6 +150736,11 @@ Nickelodeon Extreme Tennis:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Nor\\Saved\\SaveGames}}"
 Nickelodeon Party Blast:
   pageId: 88322
+Nickelodeon Splat Pack:
+  cloud:
+    steam: true
+  pageId: 209848
+  steam: 3509130
 Nickelodeon Toon Twister 3-D:
   pageId: 183489
   renamedFrom:
