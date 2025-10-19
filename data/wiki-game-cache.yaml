@@ -3433,6 +3433,13 @@ A Summer with the Shiba Inu:
     steam: true
   pageId: 142113
   steam: 916030
+"A Summer's End: Hong Kong 1986":
+  lutris: a-summers-end-hong-kong-1986
+  pageId: 209835
+  steam: 1111370
+  steamSide:
+    - 1231060
+    - 1386600
 A Sun Of Salt:
   pageId: 108008
   steam: 919150
@@ -27619,6 +27626,9 @@ Blippo+:
     steam: true
   pageId: 208787
   steam: 3323850
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}/AppData/LocalLow/Noble Robot/Blippo+}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}/AppData/LocalLow/Noble Robot/Blippo+}}"
 Bliss:
   pageId: 49165
   steam: 315450
@@ -56323,19 +56333,21 @@ Deathlands:
 Deathless Dungeon:
   pageId: 135724
   steam: 1026610
-Deathless. Tales of Old Rus:
-  cloud:
-    steam: true
-  pageId: 195834
-  steam: 2727210
-  steamSide:
-    - 2981660
-    - 3014920
 "Deathless: The City's Thirst":
   cloud:
     steam: true
   pageId: 45924
   steam: 410910
+"Deathless: The Hero Quest":
+  cloud:
+    steam: true
+  pageId: 195834
+  renamedFrom:
+    - Deathless. Tales of Old Rus
+  steam: 2727210
+  steamSide:
+    - 2981660
+    - 3014920
 "Deathlike: Awakening":
   pageId: 55285
   steam: 570230
@@ -125034,6 +125046,14 @@ Lego Marvel Super Heroes 2:
   pageId: 107076
 "Lego My Style: Preschool":
   pageId: 106760
+Lego Party:
+  cloud:
+    steam: true
+  pageId: 209557
+  steam: 1969370
+  templates:
+    - "{{Game data/config|Steam|{{P|appdata}}\\LocalLow\\SMG\\Steam\\LEGO® Party!\\{{P|uid}}\\}}"
+    - "{{Game data/config|Steam|{{P|appdata}}\\LocalLow\\SMG\\LEGO® Party!\\states\\}}"
 "Lego Pirates of the Caribbean: The Video Game":
   cloud:
     gog: true
@@ -127699,6 +127719,9 @@ Little Nightmares III:
     - 2088785
     - 2088786
     - 2170190
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\LittleNightmaresIII\\Saved\\SaveGames\\OptionSettings.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\LittleNightmaresIII\\Saved\\SaveGames}}"
 "Little Noah: Scion of Paradise":
   cloud:
     steam: true
@@ -156716,7 +156739,7 @@ OpenRCT2:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/OpenRCT2/}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/OpenRCT2/}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\OpenRCT2\\save\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/OpenRCT2/}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/OpenRCT2/save}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/OpenRCT2/}}"
 OpenTTD:
   cloud:
@@ -192433,7 +192456,13 @@ Shank 2:
   steam: 289050
 "Shantae Advance: Risky Revolution":
   cloud:
+    gog: true
     steam: true
+  gog: 1424160819
+  gogSide:
+    - 1452250570
+    - 1957407489
+  lutris: shantae-advance-risky-revolution
   pageId: 204817
   steam: 3055950
   steamSide:
@@ -206110,6 +206139,11 @@ Star Trek Timelines:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\System\\khg.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+"Star Trek: Voyager - Across the Unknown":
+  pageId: 209645
+  steam: 2643390
+  steamSide:
+    - 4054540
 "Star Trek: Voyager - Elite Force":
   cloud:
     gog: true
@@ -215991,6 +216025,7 @@ System Shock 2:
   cloud:
     steam: true
   gog: 1448370350
+  lutris: system-shock-2-25th-anniversary-remaster
   pageId: 143198
   renamedFrom:
     - System Shock 2 Enhanced Edition

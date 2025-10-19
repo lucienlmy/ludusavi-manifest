@@ -484239,6 +484239,24 @@
   launch:
     - executable: Dream Jump Adventure/Dream Jump Adventure.exe
       type: default
+1111370:
+  installDir: "A Summer's End - Hong Kong 1986"
+  launch:
+    - config:
+        oslist: windows
+      executable: HK1986.exe
+      type: none
+    - config:
+        oslist: macos
+      executable: HK1986.app
+      type: none
+    - config:
+        oslist: linux
+      executable: HK1986.sh
+      type: none
+  nameLocalized:
+    schinese: "A Summer's End 夏天的一天 — 香港 1986"
+    tchinese: "A Summer's End 夏天的一天 — 香港 1986"
 1111380:
   cloud:
     saves:
@@ -549835,6 +549853,27 @@
         oslist: windows
       executable: PMKM-32.exe
 1392860:
+  cloud:
+    saves:
+      - path: LittleNightmaresIII/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: LittleNightmaresIII/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: LittleNightmaresIII/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataRoaming
+      - path: LittleNightmaresIII/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinSavedGames
+  installDir: Little Nightmares III
+  launch:
+    - config:
+        oslist: windows
+      description: Updated Exe Name (Dev)
+      executable: LittleNightmaresIII.exe
+      type: default
   nameLocalized:
     japanese: リトルナイトメア3
     koreana: 리틀 나이트메어 3
@@ -590784,6 +590823,25 @@
     - config:
         oslist: linux
       executable: Building.x86_64
+1969370:
+  cloud:
+    saves:
+      - path: "SMG/LEGO® Party!/{64BitSteamID}"
+        pattern: userdata
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Lego Party
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LEGO Party.exe
+      type: default
+    - config:
+        betakey: development
+        oslist: macos
+      executable: LEGO Party.app
 1969440:
   installDir: Sunday Gold
   launch:
@@ -617251,6 +617309,7 @@
         oslist: windows
       description: Use OpenGL3 - Choose this if the above option does not work on your device
       executable: oblinparty.exe
+2643390: {}
 2644330:
   cloud:
     saves:

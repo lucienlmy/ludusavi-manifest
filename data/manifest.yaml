@@ -11183,6 +11183,29 @@ A Summer with the Shiba Inu:
             store: steam
   steam:
     id: 916030
+"A Summer's End: Hong Kong 1986":
+  id:
+    lutris: a-summers-end-hong-kong-1986
+    steamExtra:
+      - 1231060
+      - 1386600
+  installDir:
+    "A Summer's End - Hong Kong 1986": {}
+  launch:
+    "<base>/HK1986.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/HK1986.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/HK1986.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1111370
 A Sun Of Salt:
   installDir:
     A Sun Of Salt: {}
@@ -85795,13 +85818,12 @@ Blippo+:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Noble Robot/Blippo+/**/*.*":
+    "<home>/AppData/LocalLow/Noble Robot/Blippo+":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Noble Robot/Blippo+/*.*":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     Blippo+: {}
   launch:
@@ -176608,24 +176630,7 @@ Deathless Dungeon:
   steam:
     id: 1026610
 Deathless. Tales of Old Rus:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/1CGS/Deathless/**/*.device":
-      when:
-        - store: steam
-  id:
-    steamExtra:
-      - 2981660
-      - 3014920
-  installDir:
-    Deathless Tales of Old Rus: {}
-  launch:
-    "<base>/Deathless.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2727210
+  alias: "Deathless: The Hero Quest"
 "Deathless: The City's Thirst":
   cloud:
     steam: true
@@ -176647,6 +176652,25 @@ Deathless. Tales of Old Rus:
             store: steam
   steam:
     id: 410910
+"Deathless: The Hero Quest":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/1CGS/Deathless/**/*.device":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 2981660
+      - 3014920
+  installDir:
+    Deathless Tales of Old Rus: {}
+  launch:
+    "<base>/Deathless.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2727210
 "Deathlike: Awakening":
   installDir:
     Deathlike: {}
@@ -390154,6 +390178,32 @@ Lego Marvel Super Heroes 2:
             store: steam
   steam:
     id: 405310
+Lego Party:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/LocalLow/SMG/LEGO® Party!/states":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/LocalLow/SMG/Steam/LEGO® Party!/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Lego Party: {}
+  launch:
+    "<base>/LEGO Party.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1969370
 "Lego Pirates of the Caribbean: The Video Game":
   cloud:
     gog: true
@@ -398307,6 +398357,17 @@ Little Nightmares II:
 Little Nightmares III:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/LittleNightmaresIII/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/LittleNightmaresIII/Saved/SaveGames/OptionSettings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: little-nightmares-iii--1
     steamExtra:
@@ -398314,6 +398375,13 @@ Little Nightmares III:
       - 2088785
       - 2088786
       - 2170190
+  installDir:
+    Little Nightmares III: {}
+  launch:
+    "<base>/LittleNightmaresIII.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1392860
 "Little Noah: Scion of Paradise":
@@ -487431,6 +487499,10 @@ OpenRCT2:
     "<home>/Library/Application Support/OpenRCT2":
       tags:
         - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/OpenRCT2/save":
+      tags:
         - save
       when:
         - os: mac
@@ -599190,6 +599262,7 @@ Shank 2:
     id: 289050
 "Shantae Advance: Risky Revolution":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/WayForward/Shantae Advance_ Risky Revolution/_savedata/savefileShantae":
@@ -599198,7 +599271,13 @@ Shank 2:
         - save
       when:
         - os: windows
+  gog:
+    id: 1424160819
   id:
+    gogExtra:
+      - 1452250570
+      - 1957407489
+    lutris: shantae-advance-risky-revolution
     steamExtra:
       - 3646360
   installDir:
@@ -642256,6 +642335,12 @@ Star Trek Timelines:
         - os: windows
   id:
     lutris: star-trek-the-next-generation-klingon-honor-guard
+"Star Trek: Voyager - Across the Unknown":
+  id:
+    steamExtra:
+      - 4054540
+  steam:
+    id: 2643390
 "Star Trek: Voyager - Elite Force":
   cloud:
     gog: true
@@ -673490,6 +673575,8 @@ System Shock 2 Enhanced Edition:
         - os: windows
   gog:
     id: 1448370350
+  id:
+    lutris: system-shock-2-25th-anniversary-remaster
   installDir:
     System Shock 2 Remastered: {}
   steam:
