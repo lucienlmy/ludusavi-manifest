@@ -20240,6 +20240,9 @@ Ball X Pit:
   lutris: ball-x-pit
   pageId: 209708
   steam: 2062430
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
 Ball fall:
   pageId: 138844
   steam: 857590
@@ -61388,6 +61391,14 @@ Disney Princess Majestic Quest:
   pageId: 166680
 Disney Sing It:
   pageId: 209422
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Disney Interactive Studios\\Disney Sing It}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Disney Interactive Studios\\Disney Sing It}}"
+"Disney Sing It: High School Musical 3 - Senior Year":
+  pageId: 209443
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Disney Interactive Studios\\Disney Sing It HSM3}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Disney Interactive Studios\\Disney Sing It HSM3}}"
 Disney Solitaire:
   pageId: 170972
 Disney Speedstorm:
@@ -146852,6 +146863,9 @@ NASCAR 2000:
   steam: 1439300
   templates:
     - "{{Game data/saves|Steam|{{P|localappdata}}\\NascarNext\\Saved\\SaveGames}}"
+NASCAR 25:
+  pageId: 209852
+  steam: 3873970
 NASCAR Arcade Rush:
   pageId: 188417
   renamedFrom:

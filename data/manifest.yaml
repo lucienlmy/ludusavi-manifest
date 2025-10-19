@@ -63742,13 +63742,11 @@ Ball X Pit:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Kenny Sun/BALL x PIT/*.yankai":
+    "<home>/AppData/LocalLow/Kenny Sun/BALL x PIT":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Kenny Sun/BALL x PIT/*.yankai":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: ball-x-pit
   installDir:
@@ -192319,6 +192317,22 @@ Disney Planes:
             store: steam
   steam:
     id: 319080
+Disney Sing It:
+  files:
+    "<winAppData>/Disney Interactive Studios/Disney Sing It":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+"Disney Sing It: High School Musical 3 - Senior Year":
+  files:
+    "<winAppData>/Disney Interactive Studios/Disney Sing It HSM3":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 Disney Speedstorm:
   installDir:
     DisneySpeedstorm: {}
@@ -457620,6 +457634,9 @@ NARWHAR Project Hornwhale:
             store: steam
   steam:
     id: 1439300
+NASCAR 25:
+  steam:
+    id: 3873970
 NASCAR Arcade Rush:
   files:
     "<winLocalAppData>/Nascar/Saved/Config/Windows":
