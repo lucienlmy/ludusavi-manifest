@@ -598416,6 +598416,22 @@
         oslist: windows
       executable: GrannyRemake/Granny.exe
       type: default
+2110840:
+  cloud:
+    saves:
+      - path: Legends of Amberland II/save
+        pattern: "*.sav"
+        root: WinAppDataRoaming
+      - path: save
+        pattern: "*.sav"
+        root: WinAppDataRoaming
+  installDir: Legends of Amberland II
+  launch:
+    - config:
+        oslist: windows
+      description: The Game
+      executable: LegendsOfAmberland2.exe
+      type: default
 2111170:
   cloud:
     saves:
@@ -630415,6 +630431,17 @@
           - Linux
         recursive: true
         root: LinuxXdgDataHome
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: LinuxXdgDataHome
+        useInstead: WinAppDataRoaming
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
   installDir: Upload Labs
   launch:
     - config:

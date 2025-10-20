@@ -29158,6 +29158,8 @@ Boet Fighter:
 Bogatyr:
   pageId: 151070
   steam: 1170190
+Boggle:
+  pageId: 209883
 Bohemian Killing:
   pageId: 42203
   steam: 492220
@@ -48508,6 +48510,8 @@ Crix:
 Cro Magnon:
   pageId: 102461
   steam: 885320
+Cro-Mag Rally:
+  pageId: 209872
 CroNix:
   pageId: 47211
   steam: 343630
@@ -69212,6 +69216,8 @@ ESPN NFL Primetime 2002:
   cloud:
     steam: true
   pageId: 201741
+"ESPN's 2-Minute Drill":
+  pageId: 209874
 ESPORTS HERO:
   pageId: 138952
   steam: 1046270
@@ -77853,6 +77859,8 @@ Factory Manager:
     steam: true
   pageId: 104737
   steam: 877380
+Factory Mogul:
+  pageId: 209866
 Factory Town:
   cloud:
     gog: true
@@ -124600,6 +124608,15 @@ Legends of Aethereus:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Settings.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Threegates\\Legends of Aethereus\\}}"
+"Legends of Amberland II: The Song of Trees":
+  cloud:
+    gog: true
+    steam: true
+  pageId: 209880
+  steam: 2110840
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Legends of Amberland II\\config.ini}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Legends of Amberland II\\save\\}}"
 "Legends of Amberland: The Forgotten Crown":
   cloud:
     gog: true
@@ -219936,6 +219953,7 @@ Terrible Laboratory:
   pageId: 126236
   steam: 985430
 Terrifier The ARTcade Game:
+  lutris: terrifier-the-artcade-game
   pageId: 205471
   steam: 3130400
 Territory Idle:
@@ -248627,7 +248645,9 @@ Upload Labs:
     - 3958960
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Upload Labs\\config.dat}}"
+    - "{{Game data/config|Linux|~/.local/share/Upload Labs/config.dat}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Upload Labs\\savegame.dat}}"
+    - "{{Game data/saves|Linux|~/.local/share/Upload Labs/savegame.dat}}"
 Uppers:
   cloud:
     steam: true

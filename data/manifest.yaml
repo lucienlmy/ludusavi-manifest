@@ -388768,6 +388768,30 @@ Legends of Aethereus:
             store: steam
   steam:
     id: 248410
+"Legends of Amberland II: The Song of Trees":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/Legends of Amberland II/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Legends of Amberland II/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Legends of Amberland II: {}
+  launch:
+    "<base>/LegendsOfAmberland2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2110840
 "Legends of Amberland: The Forgotten Crown":
   cloud:
     gog: true
@@ -686226,6 +686250,8 @@ Terrible Laboratory:
   steam:
     id: 985430
 Terrifier The ARTcade Game:
+  id:
+    lutris: terrifier-the-artcade-game
   steam:
     id: 3130400
 Territory Idle:
@@ -772359,6 +772385,16 @@ Upload Labs:
   cloud:
     steam: true
   files:
+    "<home>/.local/share/Upload Labs/config.dat":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/Upload Labs/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: linux
     "<winAppData>/Upload Labs/config.dat":
       tags:
         - config
