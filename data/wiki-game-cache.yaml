@@ -18034,6 +18034,7 @@ Automobilista:
 Automobilista 2:
   cloud:
     steam: true
+  lutris: automobilista-2
   pageId: 139566
   steam: 1066890
   templates:
@@ -111033,6 +111034,7 @@ InVokeR:
 InZOI:
   cloud:
     steam: true
+  lutris: inzoi
   pageId: 197183
   steam: 2456740
   steamSide:
@@ -125670,10 +125672,15 @@ Lesbian Voyeur Simulator:
   pageId: 175163
   steam: 1247930
 Lessaria:
+  cloud:
+    steam: true
   pageId: 209305
   steam: 2461280
   steamSide:
     - 3976470
+    - 4075280
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Rockbee\\Lessaria RTS\\Saves\\*.txt}}"
 Lessons learned:
   pageId: 108286
   steam: 918030
@@ -151573,6 +151580,8 @@ Ninja Gaiden 2 Black:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\KoeiTecmo\\NINJAGAIDEN3RE\\{{P|uid}}\\CHAPSSAVE\\|{{P|userprofile\\Documents}}\\KoeiTecmo\\NINJAGAIDEN3RE\\{{P|uid}}\\REPLYSAVE\\|{{P|userprofile\\Documents}}\\KoeiTecmo\\NINJAGAIDEN3RE\\{{P|uid}}\\REPLYTRIALSSAVE\\|{{P|userprofile\\Documents}}\\KoeiTecmo\\NINJAGAIDEN3RE\\{{P|uid}}\\STORYSAV\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\946B6A6E.NINJAGAIDEN3RazorsEdge_dkffhzhmh6pmy\\SystemAppData\\wgs}}"
 Ninja Gaiden 4:
+  cloud:
+    steam: true
   lutris: ninja-gaiden-4
   pageId: 201052
   steam: 2627260
@@ -189017,6 +189026,15 @@ Schoolboys! Ayumi:
 "Schrodinger's cat simulator - PT":
   pageId: 155991
   steam: 1204870
+Schrott:
+  lutris: schrott
+  pageId: 209897
+  steam: 2427070
+  steamSide:
+    - 3749530
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\IvyJuiceGames\\Schrott}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\IvyJuiceGames\\Schrott}}"
 "Schrödinger's Cat and the Raiders of the Lost Quark":
   pageId: 26164
   steam: 295490
@@ -191161,6 +191179,7 @@ Serious Sam Fusion 2017:
   steam: 552450
   templates:
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\552450\\local\\SeriousSam2017_VR.ini}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\552450\\remote\\}}"
 "Serious Sam VR: The Last Hope":
   cloud:
     steam: true
@@ -229049,6 +229068,8 @@ The Lost Goblin Tower:
 The Lost Island:
   pageId: 45541
   steam: 416260
+The Lost Island of Alanna:
+  pageId: 209899
 "The Lost Island:Battle Royale":
   pageId: 151645
   steam: 1147270
@@ -246898,6 +246919,7 @@ UnMetal:
     - "{{Game data/config|Windows|{{P|game}}\\unmetal_config.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\game_unmetal.sav|{{P|game}}\\game_part_*.sav}}"
 UnReal World:
+  gog: 1425108206
   pageId: 37241
   steam: 351700
   steamSide:
@@ -250195,6 +250217,7 @@ Vampire of the Sands:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Early Morning Studio\\Vampire's Fall: Origins}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Early Morning Studio\\Vampire's Fall_ Origins}}"
 "Vampire: The Masquerade - Bloodhunt":
+  lutris: vampire-the-masquerade-bloodhunt
   pageId: 169169
   renamedFrom:
     - Bloodhunt

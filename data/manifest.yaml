@@ -56575,6 +56575,8 @@ Automobilista 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: automobilista-2
   installDir:
     Automobilista 2: {}
   launch:
@@ -346702,6 +346704,7 @@ InZOI:
       when:
         - os: windows
   id:
+    lutris: inzoi
     steamExtra:
       - 3887680
   installDir:
@@ -391730,9 +391733,26 @@ Lesbian Voyeur Simulator:
   steam:
     id: 1247930
 Lessaria:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Rockbee/Lessaria RTS/Saves/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3976470
+      - 4075280
+  installDir:
+    Lessaria: {}
+  launch:
+    "<base>/Lessaria.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2461280
 Lessons learned:
@@ -471636,8 +471656,16 @@ Ninja Gaiden 2 Black:
   steam:
     id: 1369760
 Ninja Gaiden 4:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/NINJAGAIDEN4/*.dat":
+      when:
+        - store: steam
   id:
     lutris: ninja-gaiden-4
+  installDir:
+    NINJAGAIDEN4: {}
   steam:
     id: 2627260
 Ninja Gaiden Σ:
@@ -588303,6 +588331,20 @@ Schoolboys! Ayumi:
     "1": {}
   steam:
     id: 1204870
+Schrott:
+  files:
+    "<home>/AppData/LocalLow/IvyJuiceGames/Schrott":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: schrott
+    steamExtra:
+      - 3749530
+  steam:
+    id: 2427070
 "Schrödinger's Cat and the Raiders of the Lost Quark":
   installDir:
     "Schrodinger's Cat And The Raiders Of The Lost Quark": {}
@@ -595156,6 +595198,12 @@ Serious Sam Fusion 2017:
     "<root>/userdata/<storeUserId>/552450/local/SeriousSam2017_VR.ini":
       tags:
         - config
+      when:
+        - os: windows
+          store: steam
+    "<root>/userdata/<storeUserId>/552450/remote":
+      tags:
+        - save
       when:
         - os: windows
           store: steam
@@ -766935,6 +766983,8 @@ UnMetal:
   steam:
     id: 1203710
 UnReal World:
+  gog:
+    id: 1425108206
   id:
     steamExtra:
       - 505100
@@ -776533,6 +776583,8 @@ Vampire of the Sands:
         - config
       when:
         - os: windows
+  id:
+    lutris: vampire-the-masquerade-bloodhunt
   installDir:
     Bloodhunt: {}
   launch:

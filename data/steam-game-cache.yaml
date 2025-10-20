@@ -610567,6 +610567,7 @@
     thai: "Summoners War: Sky Arena"
     turkish: "Summoners War: Hava Arenası"
     vietnamese: Summoners War
+2427070: {}
 2427410:
   cloud:
     saves:
@@ -612331,6 +612332,17 @@
     turkish: "Teenage Mutant Ninja Kaplumbağaların: Mutantları Serbest Bırakıldı"
     ukrainian: Підлітки-мутанти черепашки-ніндзя - мутанти на волі
 2461280:
+  cloud:
+    saves:
+      - path: /Rockbee/Lessaria RTS/Saves/
+        pattern: "*.txt"
+        root: WinAppDataLocalLow
+  installDir: Lessaria
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Lessaria.exe
   nameLocalized:
     schinese: 莱萨里亚：英雄之歌
 2461850:
@@ -616919,7 +616931,62 @@
   launch:
     - arguments: "-FeatureLevelES31 -azure_pc_mode"
       executable: Azure.exe
-2627260: {}
+2627260:
+  cloud:
+    saves:
+      - path: NINJAGAIDEN4
+        pattern: "*.dat"
+        root: WinAppDataLocal
+  installDir: NINJAGAIDEN4
+  launch:
+    - config:
+        betakey: qa_test
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: game_qa_qa_test
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: " release"
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: staging
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: sq_shield
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: review_build
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: review_build_0625
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
+    - config:
+        betakey: ms_ap_signed
+        osarch: "64"
+        oslist: windows
+      executable: NINJAGAIDEN4-Steam.exe
+      type: default
 2627780:
   cloud:
     saves:
