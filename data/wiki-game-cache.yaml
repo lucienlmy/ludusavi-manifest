@@ -12029,6 +12029,9 @@ Angry Video Game Nerd I & II Deluxe:
   lutris: angry-video-game-nerd-i-ii-deluxe
   pageId: 162662
   steam: 1162960
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Screenwave Media Inc_\\Angry Video Game Nerd I _ II Deluxe\\playerInfo.dat}}"
+    - "{{Game data/saves|Linux|/home/{{P|userprofile}}/.config/unity3d/Screenwave Media Inc_/Angry Video Game Nerd I _ II Deluxe/playerInfo.dat}}"
 "Angry Video Game Nerd II: ASSimilation":
   pageId: 37475
   steam: 409660
@@ -55436,6 +55439,8 @@ Deadlight:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\LOTDGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\LOTDGame\\Save\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\423950\\remote\\}}"
+Deadline:
+  pageId: 209892
 Deadliners:
   pageId: 65325
   steam: 671290
@@ -69212,6 +69217,8 @@ ESPER:
     steam: true
   pageId: 99522
   steam: 792340
+ESPN Extreme Games:
+  pageId: 209894
 ESPN NFL Primetime 2002:
   cloud:
     steam: true

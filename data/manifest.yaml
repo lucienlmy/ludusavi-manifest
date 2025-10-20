@@ -38049,11 +38049,16 @@ Angry Video Game Nerd Adventures:
     id: 237740
 Angry Video Game Nerd I & II Deluxe:
   files:
-    "<base>/SavesDir/*.sav":
+    /home/<home>/.config/unity3d/Screenwave Media Inc_/Angry Video Game Nerd I _ II Deluxe/playerInfo.dat:
+      tags:
+        - save
       when:
-        - store: steam
+        - os: linux
+    "<home>/AppData/LocalLow/Screenwave Media Inc_/Angry Video Game Nerd I _ II Deluxe/playerInfo.dat":
+      tags:
+        - save
+      when:
         - os: windows
-          store: steam
   gog:
     id: 1350359233
   id:
