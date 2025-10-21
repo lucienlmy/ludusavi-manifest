@@ -61521,11 +61521,17 @@ Disparity:
 Dispatch:
   pageId: 157273
   steam: 1208740
-Dispatch (AdHoc):
+Dispatch (2025):
   cloud:
     steam: true
+  malformed: true
   pageId: 205211
+  renamedFrom:
+    - Dispatch (AdHoc)
   steam: 2592160
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Config\\WindowsNoEditor}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Saved\\SaveGames}}"
 Dispatcher:
   pageId: 45651
   steam: 341980
@@ -78487,6 +78493,11 @@ Fallen Earth:
   steam: 113420
   steamSide:
     - 113404
+Fallen Elf Freya:
+  pageId: 209915
+  steam: 2651440
+  steamSide:
+    - 3524640
 Fallen Emiya:
   pageId: 104543
   steam: 904970
@@ -80929,6 +80940,14 @@ Felix the Reaper:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Fell Seal\\saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Fell Seal/saves}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/Fell Seal/saves}}"
+Fellowship:
+  pageId: 209920
+  steam: 2352620
+  steamSide:
+    - 4082970
+    - 4082980
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\fellowship\\Saved\\Config\\Windows}}"
 "Felt That: Boxing":
   pageId: 205233
   steam: 3763840
@@ -90423,6 +90442,8 @@ Gear Up:
     steam: true
   pageId: 48867
   steam: 214420
+Gear Works:
+  pageId: 209922
 Gear.Club Stradale:
   pageId: 176106
 Gear.Club Unlimited 2 Ultimate Edition:
@@ -114259,8 +114280,12 @@ Isonzo:
     - "{{Game data/config|Linux|{{P|linuxhome}}/.config/unity3d/WW1 Game Series/Isonzo/}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1556790\\remote\\}}"
 Isopod:
+  cloud:
+    steam: true
   pageId: 205246
   steam: 2053910
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Isopod\\*.sav}}"
 Isotiles:
   pageId: 63694
   steam: 654440
@@ -136289,12 +136314,12 @@ MechWarrior 3:
   pageId: 4350
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\options.ini|{{p|game}}\\RESOURCE\\Pilots\\{{p|uid}}\\options.mw4}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\RESOURCE\\Pilots\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\RESOURCE\\Pilots\\|{{p|game}}\\RESOURCE\\VariantsMercs\\*.mw4|{{p|game}}\\RESOURCE\\VariantsMTMP3\\*.mw4}}"
 "MechWarrior 4: Vengeance":
   pageId: 3082
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\options.ini|{{p|game}}\\resource\\pilots\\{{p|uid}}\\options.mw4}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\resource\\pilots\\{{p|uid}}}}"
+    - "{{Game data/config|Windows|{{p|game}}\\options.ini|{{p|game}}\\optionsx.ini|{{p|game}}\\resource\\pilots\\{{p|uid}}\\options.mw4|{{p|game}}\\resource\\Pilotsx\\{{p|uid}}\\options.mw4}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\resource\\pilots\\{{p|uid}}|{{p|game}}\\resource\\Pilotsx\\{{p|uid}}|{{p|game}}\\resource\\variants\\*.mw4|{{p|game}}\\resource\\Variantsx\\*.mw4}}"
 "MechWarrior 5: Clans":
   cloud:
     epic: true
@@ -148544,6 +148569,9 @@ Necesse:
     steam: true
   pageId: 153553
   steam: 1169040
+  steamSide:
+    - 2977400
+    - 3947840
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Roaming\\Necesse\\cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Necesse/cfg}}"
@@ -159905,8 +159933,14 @@ Painkiller:
     - "{{Game data/config|Windows|{{p|game}}\\Bin\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames}}"
 Painkiller (2025):
+  cloud:
+    steam: true
   pageId: 202495
   steam: 2300120
+  steamSide:
+    - 3751350
+    - 3751360
+    - 3751400
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Painkiller\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Painkiller\\Saved\\SaveGames\\}}"
@@ -228349,6 +228383,11 @@ The Legend of Excalipurr:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savefile\\}}"
+The Legend of Khiimori:
+  pageId: 209913
+  steam: 2697000
+  steamSide:
+    - 3669260
 The Legend of Korra:
   cloud:
     steam: true
@@ -235638,8 +235677,8 @@ Thief:
   pageId: 2797
   steam: 211740
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SAVES}}"
+    - "{{Game data/config|Windows|{{p|game}}\\*.cfg|{{p|game}}\\*.ini|{{p|game}}\\SAVES\\cfg*.bnd}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVES\\game*.sav}}"
 Thief Simulator:
   cloud:
     gog: true
@@ -235696,8 +235735,8 @@ Thief Town:
   pageId: 146
   steam: 211600
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\*.cfg|{{p|game}}\\*.ini|{{p|game}}\\SAVES\\cfg****.bnd}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SAVES\\game****.sav}}"
+    - "{{Game data/config|Windows|{{p|game}}\\*.cfg|{{p|game}}\\*.ini|{{p|game}}\\SAVES\\cfg*.bnd}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVES\\game*.sav}}"
 Thievery:
   pageId: 99978
   steam: 882700
@@ -246047,8 +246086,12 @@ UNI TURRET:
 URBO:
   cloud:
     steam: true
+  lutris: urbo
   pageId: 193541
   steam: 2141770
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Door 407\\URBO\\|{{p|userprofile\\appdata\\locallow}}\\Door 407\\URBO\\Settings.txt}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Door 407\\URBO\\Profiles\\Default\\Profile.sav|{{p|userprofile\\appdata\\locallow}}\\Door 407\\URBO\\Profiles\\Default\\Saves\\*_Save.sav}}"
 URO:
   cloud:
     steam: true
@@ -248470,11 +248513,15 @@ Unsouled:
   pageId: 151224
   steam: 1042920
 Unspottable:
+  lutris: unspottable
   pageId: 173684
   steam: 1243960
   steamSide:
     - 1325050
     - 1442730
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\GrosChevaux\\Unspottable\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/GrosChevaux/Unspottable/prefs}}"
 Unstoppable Gorg:
   cloud:
     steam: true
@@ -248580,12 +248627,13 @@ Untitled Goose Game:
   cloud:
     epic: true
     steam: true
+  lutris: untitled-goose-game
   pageId: 108968
   steam: 837470
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\House House\\Untitled Goose Game}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\House House\\Untitled Goose Game\\|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\ControlBinding_*.xml}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/House House/Untitled Goose Game/|{{p|osxhome}}/Library/Application Support/se.househou.untitled-goose-game/|{{p|osxhome}}/Library/Preferences/se.househou.untitled-goose-game.plist}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\House House\\Untitled Goose Game\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame0.save|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame1.save|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame2.save}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/House House/Untitled Goose Game/|{{p|osxhome}}/Library/Application Support/se.househou.untitled-goose-game/}}"
 Unto the End:
   cloud:
@@ -250282,6 +250330,7 @@ Vampire of the Sands:
 "Vampire: The Masquerade - Bloodlines 2":
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1308733567
   gogSide:
@@ -250290,6 +250339,9 @@ Vampire of the Sands:
   lutris: vampire-the-masquerade-bloodlines-2
   pageId: 131333
   steam: 532790
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Bloodlines2\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Bloodlines2\\Steam\\Saved\\SaveGames\\*.sav}}"
 "Vampire: The Masquerade - Coteries of New York":
   cloud:
     gog: true

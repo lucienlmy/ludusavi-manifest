@@ -594501,7 +594501,20 @@
         oslist: windows
       executable: start_protected_game.exe
       type: default
-2053910: {}
+2053910:
+  cloud:
+    saves:
+      - path: Isopod
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Isopod
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Isopod.exe
+      type: default
 2054640:
   installDir: Futanari Sex - The Birthday Massage
   launch:
@@ -602129,7 +602142,13 @@
       type: default
   nameLocalized:
     japanese: 剣と魔法と学園モノ。Anniversary Edition
-2195910: {}
+2195910:
+  installDir: Darkenstein 3D
+  launch:
+    - config:
+        oslist: windows
+      executable: Darkenstein3D.exe
+      type: default
 2196170:
   installDir: Clad in Iron Chincha Islands 1866
   launch:
@@ -606315,7 +606334,20 @@
   launch:
     - executable: Game.exe
 2300070: {}
-2300120: {}
+2300120:
+  cloud:
+    saves:
+      - path: Painkiller/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Painkiller
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Painkiller.exe
+      type: default
 2300300:
   cloud:
     saves:
@@ -608092,6 +608124,18 @@
   nameLocalized:
     schinese: 小大冒险：紫色帝国
     tchinese: 小大冒險：紫色帝國
+2352620:
+  installDir: Fellowship
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: fellowship.exe
+      type: default
+  nameLocalized:
+    sc_schinese: 秘境战盟
+    schinese: 秘境战盟
+    tchinese: 秘境戰盟
 2353060: {}
 2353280:
   cloud:
@@ -617765,6 +617809,15 @@
         oslist: windows
       executable: intravenous2_mercenarism.exe
       type: default
+2651440:
+  installDir: Fallen Elf Freya
+  launch:
+    - executable: Fallen Elf Freya.exe
+  nameLocalized:
+    english: Fallen Elf Freya
+    japanese: 堕落エルフ・フレイヤ
+    schinese: 堕落精灵·芙蕾雅
+    tchinese: 墮落精靈·芙蕾雅
 2653790:
   installDir: Exit8
   launch:
@@ -619005,6 +619058,9 @@
         oslist: windows
       executable: Miss Neko Pirates.exe
       type: default
+2697000:
+  nameLocalized:
+    german: Die Legende von Khiimori
 2697470:
   cloud:
     saves:

@@ -167696,6 +167696,13 @@ Darkenstein 3D:
   id:
     steamExtra:
       - 3007770
+  installDir:
+    Darkenstein 3D: {}
+  launch:
+    "<base>/Darkenstein3D.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2195910
 Darkest Depths:
@@ -192602,11 +192609,24 @@ Disparity:
 Dispatch:
   steam:
     id: 1208740
-Dispatch (AdHoc):
+Dispatch (2025):
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dispatch/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Dispatch/Saved/SaveGames":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 2592160
+Dispatch (AdHoc):
+  alias: Dispatch (2025)
 Dispatcher:
   files:
     "<winLocalAppData>/Disp1/Saved/SaveGames":
@@ -245239,6 +245259,18 @@ Fallen Earth:
           - store: steam
   steam:
     id: 113420
+Fallen Elf Freya:
+  id:
+    steamExtra:
+      - 3524640
+  installDir:
+    Fallen Elf Freya: {}
+  launch:
+    "<base>/Fallen Elf Freya.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2651440
 Fallen Emiya:
   steam:
     id: 904970
@@ -252187,6 +252219,27 @@ Felix the Reaper:
             store: steam
   steam:
     id: 699170
+Fellowship:
+  files:
+    "<winLocalAppData>/fellowship/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4082970
+      - 4082980
+  installDir:
+    Fellowship: {}
+  launch:
+    "<base>/fellowship.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2352620
 "Felt That: Boxing":
   steam:
     id: 3763840
@@ -356926,6 +356979,22 @@ Isonzo:
   steam:
     id: 1556790
 Isopod:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Isopod/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Isopod: {}
+  launch:
+    "<base>/Isopod.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2053910
 Isotiles:
@@ -425318,6 +425387,16 @@ MechWarrior 3:
         - config
       when:
         - os: windows
+    "<base>/RESOURCE/VariantsMTMP3/*.mw4":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/RESOURCE/VariantsMercs/*.mw4":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/options.ini":
       tags:
         - config
@@ -425332,6 +425411,26 @@ MechWarrior 3:
         - config
       when:
         - os: windows
+    "<base>/optionsx.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/resource/Pilotsx/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/resource/Pilotsx/<storeUserId>/options.mw4":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/resource/Variantsx/*.mw4":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/resource/pilots/<storeUserId>":
       tags:
         - save
@@ -425340,6 +425439,11 @@ MechWarrior 3:
     "<base>/resource/pilots/<storeUserId>/options.mw4":
       tags:
         - config
+      when:
+        - os: windows
+    "<base>/resource/variants/*.mw4":
+      tags:
+        - save
       when:
         - os: windows
 "MechWarrior 5: Clans":
@@ -462568,6 +462672,10 @@ Necesse:
         - save
       when:
         - os: linux
+  id:
+    steamExtra:
+      - 2977400
+      - 3947840
   installDir:
     Necesse: {}
   launch:
@@ -497313,6 +497421,8 @@ Painkiller:
   steam:
     id: 39530
 Painkiller (2025):
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Painkiller/Saved/Config/WindowsNoEditor":
       tags:
@@ -497324,6 +497434,19 @@ Painkiller (2025):
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 3751350
+      - 3751360
+      - 3751400
+  installDir:
+    Painkiller: {}
+  launch:
+    "<base>/Painkiller.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2300120
 "Painkiller: Hell & Damnation":
@@ -711919,6 +712042,12 @@ The Legend of Excalipurr:
         - os: windows
 "The Legend of Heroes: Zero no Kiseki Kai":
   alias: "The Legend of Heroes: Trails from Zero"
+The Legend of Khiimori:
+  id:
+    steamExtra:
+      - 3669260
+  steam:
+    id: 2697000
 The Legend of Korra:
   cloud:
     steam: true
@@ -734106,7 +734235,22 @@ Thief:
   cloud:
     gog: true
   files:
-    "<base>/SAVES":
+    "<base>/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SAVES/cfg*.bnd":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SAVES/game*.sav":
       tags:
         - save
       when:
@@ -764362,13 +764506,23 @@ URBO:
   cloud:
     steam: true
   files:
-    "<home>/.local/share/Steam/steamapps/compatdata/2529130/pfx/drive_c/users/steamuser/AppData/LocalLow/Door 407/URBO/Profiles/*.sav":
+    "<home>/AppData/LocalLow/Door 407/URBO/Profiles/Default/Profile.sav":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Door 407/URBO/Profiles/**/*.sav":
+        - os: windows
+    "<home>/AppData/LocalLow/Door 407/URBO/Profiles/Default/Saves/*_Save.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Door 407/URBO/Settings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: urbo
   installDir:
     URBO: {}
   launch:
@@ -764376,6 +764530,10 @@ URBO:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Door 407/URBO:
+      tags:
+        - config
   steam:
     id: 2141770
 URO:
@@ -771791,7 +771949,14 @@ Unsouled:
   steam:
     id: 1042920
 Unspottable:
+  files:
+    "<xdgConfig>/unity3d/GrosChevaux/Unspottable/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
+    lutris: unspottable
     steamExtra:
       - 1325050
       - 1442730
@@ -771810,6 +771975,10 @@ Unspottable:
       - when:
           - os: mac
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/GrosChevaux/Unspottable:
+      tags:
+        - config
   steam:
     id: 1243960
 Unstoppable Gorg:
@@ -772133,7 +772302,22 @@ Untitled Goose Game:
     epic: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/House House/Untitled Goose Game":
+    "<home>/AppData/LocalLow/House House/Untitled Goose Game/ControlBinding_*.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/House House/Untitled Goose Game/savegame0.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/House House/Untitled Goose Game/savegame1.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/House House/Untitled Goose Game/savegame2.save":
       tags:
         - save
       when:
@@ -772155,6 +772339,8 @@ Untitled Goose Game:
         - config
       when:
         - os: mac
+  id:
+    lutris: untitled-goose-game
   installDir:
     Untitled Goose Game: {}
   launch:
@@ -776754,13 +776940,17 @@ Vampire of the Sands:
 "Vampire: The Masquerade - Bloodlines 2":
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<base>/Bloodlines2/Saved/SaveGames/*.sav":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/Bloodlines2/Steam/Saved/SaveGames/**/*.sav":
+    "<winLocalAppData>/Bloodlines2/Steam/Saved/SaveGames/*.sav":
+      tags:
+        - save
       when:
         - os: windows
           store: steam
