@@ -471647,6 +471647,8 @@ Ninja Gaiden 2 Black:
         - save
       when:
         - os: windows
+  id:
+    lutris: ninja-gaiden-2-black
   installDir:
     NINJAGAIDEN2BLACK: {}
   launch:
