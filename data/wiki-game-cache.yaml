@@ -15277,8 +15277,10 @@ Arthur and the Revenge of Maltazard:
   pageId: 172708
 "Arthur's 1st Grade":
   pageId: 193075
+  steam: 4056560
 "Arthur's 2nd Grade":
   pageId: 193073
+  steam: 4056570
 "Arthur's Birthday":
   pageId: 147526
   steam: 2471140
@@ -15294,6 +15296,7 @@ Arthur and the Revenge of Maltazard:
   steam: 2471170
 "Arthur's Kindergarten":
   pageId: 193079
+  steam: 4056580
 "Arthur's Knights II: The Secret of Merlin":
   pageId: 157686
   templates:
@@ -145618,6 +145621,21 @@ My Doctor is a Futanari:
 My Ex-Boyfriend the Space Tyrant:
   pageId: 49871
   steam: 312970
+My Ex-future Family:
+  cloud:
+    steam: true
+  lutris: my-ex-future-family
+  pageId: 209908
+  steam: 2134860
+  steamSide:
+    - 2351750
+    - 2599110
+    - 2731560
+    - 2731570
+    - 2778450
+    - 3097580
+    - 3097890
+    - 3158710
 My Exotic Farm:
   pageId: 123737
   steam: 965970
@@ -207434,6 +207452,9 @@ Starsand Island:
   steam: 2966320
   steamSide:
     - 3864220
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SeedLab\\StarsandIsland\\steam.pre\\steam__{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SeedLab\\StarsandIsland\\steam.pre\\steam__{{P|uid}}\\Save}}"
 Starscape:
   pageId: 41333
   steam: 20700
@@ -232764,6 +232785,7 @@ The Source of the Nightmare Storms:
 The Space Bar:
   cloud:
     steam: true
+  lutris: the-space-bar
   pageId: 111326
   steam: 2253580
   templates:
@@ -240281,8 +240303,10 @@ Touhou Seikaen ~ Blue Devil in the Belvedere:
   pageId: 192391
   steam: 1140150
   templates:
-    - "{{Game data/config|Windows| {{p|userprofile\\appdata\\locallow}}\\AliothStudio\\LBoL\\ | \t{{p|hkcu}}\\Software\\AliothStudio\\LBoL\\}}"
-    - "{{Game data/saves|Windows| {{p|userprofile\\appdata\\locallow}}\\AliothStudio\\LBoL\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\AliothStudio\\LBoL\\|{{p|hkcu}}\\Software\\AliothStudio\\LBoL\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/AliothStudio/LBoL/}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\AliothStudio\\LBoL\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/AliothStudio/LBoL/}}"
 "Touhou: New World":
   cloud:
     steam: true

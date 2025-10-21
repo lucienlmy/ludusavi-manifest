@@ -197350,7 +197350,51 @@
   launch:
     - executable: tlpsl.exe
       type: none
-532790: {}
+532790:
+  cloud:
+    saves:
+      - path: Bloodlines2/Steam/Saved/SaveGames/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: Bloodlines2/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Bloodlines 2
+  launch:
+    - arguments: "-NOSCREENMESSAGES Culture=En-Us"
+      config:
+        betakey: legacy_baseline
+        oslist: windows
+      executable: Frasier.exe
+    - arguments: "-Culture=En-Us"
+      config:
+        betakey: legacy_release
+        oslist: windows
+      executable: Frasier.exe
+    - arguments: "-NOSCREENMESSAGES Culture=En-Us"
+      config:
+        betakey: legacy_playtest
+        oslist: windows
+      executable: Frasier.exe
+    - arguments: "--pdxlEnableSteamDeckCompatibilityMode"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Default launcher option
+      executable: Launcher/dowser.exe
+      type: default
+    - arguments: "--pdxlEnableSteamDeckCompatibilityMode"
+      config:
+        betakey: influencer_demo1
+        osarch: "64"
+        oslist: windows
+      description: Skip Launcher
+      executable: Bloodlines2.exe
 532800:
   installDir: ComPet
   launch:
@@ -497585,6 +497629,10 @@
     - config:
         oslist: macos
       executable: LBoL.app
+    - config:
+        oslist: windows
+      description: Start ModLoader
+      executable: ModTheLBoL.Desktop.exe
   nameLocalized:
     english: "Touhou: Lost Branch of Legend"
     japanese: 東方光耀夜 〜 Lost Branch of Legend
@@ -599319,6 +599367,75 @@
         oslist: windows
       executable: SteamWorld Build.exe
       type: default
+2134860:
+  cloud:
+    saves:
+      - path: RenPy/meff-1546676460
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: RenPy/meff-1546676460
+            replace: Library/Renpy/meff-1546676460
+        root: WinAppDataRoaming
+        useInstead: MacHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: RenPy/meff-1546676460
+            replace: ".renpy/meff-1546676460"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: My Ex-future Family
+  launch:
+    - config:
+        oslist: windows
+      description: MEFF
+      executable: MEFF.exe
+      type: default
+    - config:
+        oslist: macos
+      description: MEFF
+      executable: "MEFF.app\\Contents\\MacOS\\MEFF"
+      type: default
+    - config:
+        oslist: linux
+      description: MEFF
+      executable: MEFF.sh
+      type: default
+    - config:
+        oslist: windows
+        ownsdlc: "2778450"
+      description: MEFF Whai if...
+      executable: "MEFF_What_if\\MEFF_What_if.exe"
+      type: option1
+    - config:
+        oslist: macos
+        ownsdlc: "2778450"
+      description: MEFF Whai if...
+      executable: "MEFF_What_if.app\\Contents\\MacOS\\MEFF_What_if"
+      type: option1
+    - config:
+        oslist: linux
+        ownsdlc: "2778450"
+      description: MEFF Whai if...
+      executable: "MEFF_What_if\\MEFF_What_if.sh"
+      type: option1
+    - config:
+        oslist: windows
+        ownsdlc: "3097580"
+      description: Artbook
+      executable: artbook_2_0_steam.exe
+      type: option1
+    - config:
+        oslist: macos
+        ownsdlc: "3097580"
+      description: Artbook
+      executable: "flipbook.app\\Contents\\MacOS\\FlipBookMac"
+      type: option1
 2134970:
   cloud:
     saves:
@@ -631445,4 +631562,7 @@
         oslist: windows
       executable: Robot Mil.exe
       type: default
+4056560: {}
+4056570: {}
+4056580: {}
 3221903386: {}

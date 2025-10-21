@@ -48307,6 +48307,12 @@ Arthur and the Invisibles:
         - os: windows
   id:
     lutris: arthur-and-the-invisibles
+"Arthur's 1st Grade":
+  steam:
+    id: 4056560
+"Arthur's 2nd Grade":
+  steam:
+    id: 4056570
 "Arthur's Birthday":
   installDir:
     "Arthur's Birthday": {}
@@ -48342,6 +48348,9 @@ Arthur and the Invisibles:
           - store: steam
   steam:
     id: 2471170
+"Arthur's Kindergarten":
+  steam:
+    id: 4056580
 "Arthur's Knights II: The Secret of Merlin":
   files:
     "<base>/Save":
@@ -453536,6 +453545,49 @@ My Ex-Boyfriend the Space Tyrant:
             store: steam
   steam:
     id: 312970
+My Ex-future Family:
+  cloud:
+    steam: true
+  files:
+    "<home>/.renpy/meff-1546676460":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Renpy/meff-1546676460":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/RenPy/meff-1546676460":
+      when:
+        - store: steam
+  id:
+    lutris: my-ex-future-family
+    steamExtra:
+      - 2351750
+      - 2599110
+      - 2731560
+      - 2731570
+      - 2778450
+      - 3097580
+      - 3097890
+      - 3158710
+  installDir:
+    My Ex-future Family: {}
+  launch:
+    "<base>/MEFF.app/Contents/MacOS/MEFF":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/MEFF.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/MEFF.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2134860
 My Exotic Farm:
   installDir:
     My Exotic Farm: {}
@@ -646089,6 +646141,17 @@ Starsand:
   steam:
     id: 1380220
 Starsand Island:
+  files:
+    "<home>/AppData/LocalLow/SeedLab/StarsandIsland/steam.pre/steam__<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SeedLab/StarsandIsland/steam.pre/steam__<storeUserId>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3864220
@@ -725422,6 +725485,8 @@ The Space Bar:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-space-bar
   installDir:
     The Space Bar: {}
   launch:
@@ -748580,6 +748645,12 @@ Touhou Seikaen ~ Blue Devil in the Belvedere:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/AliothStudio/LBoL":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
   installDir:
     LBoL: {}
   launch:
@@ -748590,6 +748661,10 @@ Touhou Seikaen ~ Blue Devil in the Belvedere:
     "<base>/LBoL.exe":
       - arguments: "--nomod"
         when:
+          - os: windows
+            store: steam
+    "<base>/ModTheLBoL.Desktop.exe":
+      - when:
           - os: windows
             store: steam
   registry:
@@ -776634,6 +776709,15 @@ Vampire of the Sands:
   cloud:
     epic: true
     steam: true
+  files:
+    "<base>/Bloodlines2/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Bloodlines2/Steam/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1308733567
   id:
@@ -776641,6 +776725,15 @@ Vampire of the Sands:
       - 1829472765
       - 1851649095
     lutris: vampire-the-masquerade-bloodlines-2
+  installDir:
+    Bloodlines 2: {}
+  launch:
+    "<base>/Launcher/dowser.exe":
+      - arguments: "--pdxlEnableSteamDeckCompatibilityMode"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 532790
 "Vampire: The Masquerade - Coteries of New York":
