@@ -51384,6 +51384,8 @@ Assetto Corsa Competizione:
   steam:
     id: 805550
 Assetto Corsa EVO:
+  id:
+    lutris: assetto-corsa-evo
   installDir:
     Assetto Corsa EVO: {}
   launch:
@@ -173474,6 +173476,9 @@ DeadCore:
 DeadCore Redux:
   cloud:
     steam: true
+  id:
+    steamExtra:
+      - 3726710
   steam:
     id: 3484260
 DeadEye:
@@ -382168,28 +382173,6 @@ Labyrinth Escape:
             store: steam
   steam:
     id: 654950
-Labyrinth Of The Demon King:
-  cloud:
-    steam: true
-  files:
-    "<winLocalAppData>/Shinigami/Saved/Config/WindowsNoEditor":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/Shinigami/Saved/SaveGames":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    Labyrinth Of The Demon King: {}
-  launch:
-    "<base>/Shinigami.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1804010
 Labyrinth Simulator:
   installDir:
     Labyrinth Simulator: {}
@@ -382300,6 +382283,28 @@ Labyrinth of Touhou 2:
           - store: steam
   steam:
     id: 1131920
+Labyrinth of the Demon King:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Shinigami/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Shinigami/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Labyrinth Of The Demon King: {}
+  launch:
+    "<base>/Shinigami.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1804010
 Labyrinth of the Witch:
   cloud:
     steam: true
@@ -612010,6 +612015,8 @@ Skin Deep:
         - save
       when:
         - os: windows
+  id:
+    lutris: skin-deep
   installDir:
     Skin Deep: {}
   launch:
@@ -741759,6 +741766,8 @@ To a T:
     "<winLocalAppData>/Project_T/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  id:
+    lutris: to-a-t
   installDir:
     T: {}
   launch:
@@ -771352,6 +771361,41 @@ Unreal Heroes:
         workingDir: "<base>/system"
   steam:
     id: 13200
+Unreal Life:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/hako life/UNREAL_LIFE/config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/hako life/UNREAL_LIFE/savedatas":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: unreal-life
+    steamExtra:
+      - 1464980
+  installDir:
+    UNREAL LIFE: {}
+  launch:
+    "<base>/UNREAL_LIFE.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/UNREAL_LIFE.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/hako life/UNREAL_LIFE:
+      tags:
+        - config
+  steam:
+    id: 1335560
 Unreal Maze Survival:
   installDir:
     Unreal Maze Survival: {}

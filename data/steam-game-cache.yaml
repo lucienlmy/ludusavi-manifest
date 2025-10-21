@@ -544041,6 +544041,40 @@
         oslist: macos
       executable: "Alisa DC (Mac).app\\Contents\\MacOS\\Alisa DC (Mac)"
       type: default
+1335560:
+  cloud:
+    saves:
+      - path: hako life/UNREAL_LIFE
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: hako life/UNREAL_LIFE
+            replace: net.unreal-life.UNREALLIFE
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: UNREAL LIFE
+  launch:
+    - config:
+        oslist: windows
+      executable: UNREAL_LIFE.exe
+      type: none
+    - config:
+        oslist: macos
+      executable: UNREAL_LIFE.app
+      type: none
+  nameLocalized:
+    french: UNREAL LIFE
+    german: UNREAL LIFE
+    italian: UNREAL LIFE
+    japanese: アンリアルライフ
+    koreana: 언리얼 라이프 (UNREAL LIFE)
+    schinese: 非现实生活
+    spanish: UNREAL LIFE
+    tchinese: 非現實生活
 1335790:
   cloud:
     saves:
@@ -607626,30 +607660,6 @@
         oslist: windows
       executable: DkkStm.exe
       type: default
-    - config:
-        betakey: dev_debug_utf8
-        osarch: "64"
-        oslist: windows
-      description: "Lang:Traditional Chinese"
-      executable: DkkStm_tcn_debug.exe
-    - config:
-        betakey: dev_debug_utf8
-        osarch: "64"
-        oslist: windows
-      description: "Lang:Simplified Chinese"
-      executable: DkkStm_scn_debug.exe
-    - config:
-        betakey: dev_nodebug_utf8
-        osarch: "64"
-        oslist: windows
-      description: "Lang:Traditional Chinese"
-      executable: DkkStm_tcn_nodebug.exe
-    - config:
-        betakey: dev_nodebug_utf8
-        osarch: "64"
-        oslist: windows
-      description: "Lang:Simplified Chinese"
-      executable: DkkStm_scn_nodebug.exe
   nameLocalized:
     japanese: ドカポンキングダム コネクト
 2338770:
@@ -624286,7 +624296,7 @@
       executable: GameBootstrapper.exe
       type: default
     - config:
-        betakey: "develop,shipping,precheck,temporary,qatemporary,program1,promotion,spec-qa"
+        betakey: "develop,shipping,precheck,temporary,qatemporary,program1,promotion,spec-qa,promotion-external-01"
         osarch: "64"
         oslist: windows
       description: EACLauncherを使用せずに起動（デバッグ用）

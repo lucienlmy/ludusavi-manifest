@@ -16282,6 +16282,7 @@ Assetto Corsa Competizione:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assetto Corsa Competizione\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Assetto Corsa Competizione\\Savegames\\}}"
 Assetto Corsa EVO:
+  lutris: assetto-corsa-evo
   pageId: 196569
   steam: 3058630
 Assetto Corsa Rally:
@@ -55348,6 +55349,8 @@ DeadCore Redux:
     steam: true
   pageId: 203395
   steam: 3484260
+  steamSide:
+    - 3726710
 DeadEye:
   pageId: 132931
   steam: 1048150
@@ -122510,14 +122513,6 @@ Labyrinth:
 Labyrinth Escape:
   pageId: 64250
   steam: 654950
-Labyrinth Of The Demon King:
-  cloud:
-    steam: true
-  pageId: 201925
-  steam: 1804010
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Shinigami\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Shinigami\\Saved\\SaveGames\\}}"
 Labyrinth Simulator:
   pageId: 46380
   steam: 391520
@@ -122559,6 +122554,16 @@ Labyrinth of Touhou 2:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CUBETYPE\\tohoLaby}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\CUBETYPE\\tohoLaby\\}}"
+Labyrinth of the Demon King:
+  cloud:
+    steam: true
+  pageId: 201925
+  renamedFrom:
+    - Labyrinth Of The Demon King
+  steam: 1804010
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Shinigami\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Shinigami\\Saved\\SaveGames\\}}"
 Labyrinth of the Witch:
   cloud:
     steam: true
@@ -196600,6 +196605,7 @@ Skimmerz:
 Skin Deep:
   cloud:
     steam: true
+  lutris: skin-deep
   pageId: 122884
   steam: 301280
   templates:
@@ -237965,6 +237971,7 @@ To a T:
   cloud:
     steam: true
     xbox: true
+  lutris: to-a-t
   pageId: 204847
   steam: 1875320
 To the Capital:
@@ -248313,6 +248320,17 @@ Unreal Heroes:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\System\\Unreal2.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\|{{p|game}}\\System\\User.ini}}"
+Unreal Life:
+  cloud:
+    steam: true
+  lutris: unreal-life
+  pageId: 209910
+  steam: 1335560
+  steamSide:
+    - 1464980
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\hako life\\UNREAL_LIFE\\|{{p|userprofile\\appdata\\locallow}}\\hako life\\UNREAL_LIFE\\config}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\hako life\\UNREAL_LIFE\\savedatas\\}}"
 Unreal Maze Survival:
   pageId: 130342
   steam: 1046430
