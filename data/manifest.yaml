@@ -276095,17 +276095,11 @@ G.A.M.E.S:
     id: 1432220
 "G.I. Joe: Wrath of Cobra":
   files:
-    "<home>/.config/unity3d/MaplePoweredGames/Medusa":
+    "<home>/AppData/LocalLow/Maple Powered Games/GI Joe Wrath of Cobra":
+      tags:
+        - config
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Maple Powered Games/Medusa":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/unity.MaplePoweredGames.Medusa":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   gog:
     id: 1509544145
   installDir:
@@ -471840,9 +471834,12 @@ Ninja Gaiden 4:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/NINJAGAIDEN4/*.dat":
+    "<winLocalAppData>/NINJAGAIDEN4/SlotData_0.dat,GameData.dat,SystemData.vdf":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: ninja-gaiden-4
   installDir:
@@ -587604,6 +587601,8 @@ Scarf:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/VUGAMES/Scarface:
       tags:
         - config
+  steam:
+    id: 4113570
 Scarlet Fantasy:
   installDir:
     Scarlet Fantasy: {}
@@ -776962,6 +776961,12 @@ Vampire of the Sands:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Bloodlines2/Steam/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
     "<winLocalAppData>/Bloodlines2/Steam/Saved/SaveGames/*.sav":
       tags:
         - save

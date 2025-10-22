@@ -33033,6 +33033,8 @@ Bump+Smack:
 Bumper:
   pageId: 39964
   steam: 509850
+Bumper Wars:
+  pageId: 209937
 Bumpy Road:
   pageId: 179860
 Bunch of Heroes:
@@ -88402,6 +88404,8 @@ G.A.M.E.S:
   gog: 1509544145
   pageId: 199565
   steam: 2516170
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Maple Powered Games\\GI Joe Wrath of Cobra\\}}"
 G.R.E.E.N. The Life Algorithm:
   pageId: 142052
   steam: 1037090
@@ -116372,6 +116376,8 @@ Journey to the Savage Planet:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Towers\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Towers\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Towers\\Saved\\SaveGames\\}}"
+"Journey's End":
+  pageId: 209935
 "Journey: Benjamin's Adventures":
   pageId: 58301
   steam: 584040
@@ -151647,6 +151653,9 @@ Ninja Gaiden 4:
   lutris: ninja-gaiden-4
   pageId: 201052
   steam: 2627260
+  templates:
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\NINJAGAIDEN4\\SlotData_0.dat,GameData.dat,SystemData.vdf}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\NINJAGAIDEN4\\SlotData_0.dat,GameData.dat,SystemData.vdf}}"
 "Ninja Gaiden II: The Dark Sword of Chaos":
   pageId: 176111
 Ninja Gaiden Σ:
@@ -188769,6 +188778,7 @@ Scarf:
 "Scarface: The World Is Yours":
   lutris: scarface-the-world-is-yours
   pageId: 22057
+  steam: 4113570
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Classes\\VirtualStore\\MACHINE\\SOFTWARE\\{{p|wow64}}\\VUGames\\Scarface\\|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\VUGAMES\\Scarface\\}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
@@ -250350,6 +250360,7 @@ Vampire of the Sands:
   pageId: 131333
   steam: 532790
   templates:
+    - "{{Game data/config|Steam|{{p|localappdata}}\\Bloodlines2\\Steam\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Bloodlines2\\Saved\\SaveGames\\*.sav}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Bloodlines2\\Steam\\Saved\\SaveGames\\*.sav}}"
 "Vampire: The Masquerade - Coteries of New York":
