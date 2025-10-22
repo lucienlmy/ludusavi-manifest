@@ -192623,6 +192623,9 @@ Dispatch (2025):
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 3920290
   steam:
     id: 2592160
 Dispatch (AdHoc):
@@ -215981,6 +215984,17 @@ EA Sports FC 25:
 EA Sports FC 26:
   cloud:
     origin: true
+  files:
+    "<winLocalAppData>/EA SPORTS FC 26/fcsetup.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/EA SPORTS FC 26/settings":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     FC 26: {}
   steam:

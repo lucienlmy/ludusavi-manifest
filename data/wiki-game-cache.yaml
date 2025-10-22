@@ -15437,6 +15437,8 @@ Artizens:
   steam: 339540
   steamSide:
     - 354570
+Artus et le grimoire secret:
+  pageId: 209929
 Arvale:
   cloud:
     steam: true
@@ -32667,6 +32669,8 @@ Bugaboo Pocket:
   steam: 1985740
 Bugdom:
   pageId: 168700
+Bugdom 2:
+  pageId: 209927
 Buggos:
   cloud:
     steam: true
@@ -61524,11 +61528,12 @@ Dispatch:
 Dispatch (2025):
   cloud:
     steam: true
-  malformed: true
   pageId: 205211
   renamedFrom:
     - Dispatch (AdHoc)
   steam: 2592160
+  steamSide:
+    - 3920290
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Config\\WindowsNoEditor}}"
     - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Saved\\SaveGames}}"
@@ -68965,6 +68970,9 @@ EA Sports FC 26:
     origin: true
   pageId: 209029
   steam: 3405690
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\EA SPORTS FC 26\\fcsetup.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\EA SPORTS FC 26\\settings}}"
 EA Sports FC Online:
   pageId: 201118
 EA Sports PGA Tour:
@@ -132681,6 +132689,8 @@ Magic Nations:
 Magic Pixel Picross:
   pageId: 67189
   steam: 687600
+Magic Pockets:
+  pageId: 209931
 Magic Potion Destroyer:
   pageId: 69382
   steam: 676910
