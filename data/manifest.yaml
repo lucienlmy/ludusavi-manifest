@@ -57273,8 +57273,28 @@ Avernum:
 "Avernum 4: Greed and Glory":
   cloud:
     steam: true
+  files:
+    "<home>/Library/Application Support/Spiderweb Software/Avernum 4 Greed and Glory Saved Games":
+      when:
+        - os: mac
+          store: steam
+    "<winDocuments>/Spiderweb Software/Avernum 4 Greed and Glory Saved Games":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1127187147
+  installDir:
+    Avernum 4 Greed and Glory: {}
+  launch:
+    "<base>/Avernum 4 Greed and Glory.app/Contents/MacOS/Avernum 4 Greed and Glory":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Avernum 4 Greed and Glory.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3882020
 Avernum II:
@@ -167704,6 +167724,11 @@ Darkenstein 3D:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Rowye/Darkenstein3D:
+      tags:
+        - config
+        - save
   steam:
     id: 2195910
 Darkest Depths:
@@ -192627,6 +192652,12 @@ Dispatch (2025):
   id:
     steamExtra:
       - 3920290
+  installDir:
+    Dispatch: {}
+  launch:
+    "<base>/Dispatch.exe":
+      - when:
+          - store: steam
   steam:
     id: 2592160
 Dispatch (AdHoc):
@@ -214559,14 +214590,12 @@ Dying Light 2 Stay Human:
       tags:
         - config
       when:
-        - os: windows
-          store: steam
+        - store: steam
     "<root>/userdata/<storeUserId>/3008130/remote/out/save":
       tags:
         - save
       when:
-        - os: windows
-          store: steam
+        - store: steam
     "<winDocuments>/dying light the beast/out":
       tags:
         - config
@@ -247303,6 +247332,31 @@ Fantasy Little Jobs:
     Fantasy Little Jobs: {}
   steam:
     id: 1125360
+"Fantasy Maiden Wars: Dream of the Stray Dreamer":
+  files:
+    "<winLocalAppData>/fmw_dosd/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/fmw_dosd/savedata/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: fantasy-maiden-wars-dream-of-the-stray-dreamer
+    steamExtra:
+      - 3935350
+  installDir:
+    Fantasy Maiden Wars DoSD: {}
+  launch:
+    "<base>/fmw_dosd.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3575980
 Fantasy Monarch:
   installDir:
     Fantasy Monarch: {}
@@ -619911,6 +619965,12 @@ Snow Mercy:
   steam:
     id: 1167610
 Snow Moto Racing Freedom:
+  files:
+    "<home>/AppData/LocalLow/Zordix AB/SnowMotoRacingFreedom":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Snow Moto Racing Freedom: {}
   launch:
@@ -619924,6 +619984,10 @@ Snow Moto Racing Freedom:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Zordix AB/SnowMotoRacingFreedom:
+      tags:
+        - config
   steam:
     id: 587400
 Snow Rider:

@@ -53531,6 +53531,9 @@ Darkenstein 3D:
   steam: 2195910
   steamSide:
     - 3007770
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Rowye\\Darkenstein3D}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Rowye\\Darkenstein3D}}"
 Darker:
   pageId: 208725
 Darkest Depths:
@@ -68373,9 +68376,9 @@ Dying Light 2 Stay Human:
   pageId: 197178
   steam: 3008130
   templates:
-    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3008130\\remote\\out\\profiles}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\3008130\\remote\\out\\profiles}}"
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\dying light the beast\\out}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3008130\\remote\\out\\save}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\3008130\\remote\\out\\save}}"
 Dying Star:
   cloud:
     steam: true
@@ -79394,6 +79397,15 @@ Fantasy Kingdom Simulator:
 Fantasy Little Jobs:
   pageId: 144731
   steam: 1125360
+"Fantasy Maiden Wars: Dream of the Stray Dreamer":
+  lutris: fantasy-maiden-wars-dream-of-the-stray-dreamer
+  pageId: 209950
+  steam: 3575980
+  steamSide:
+    - 3935350
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\fmw_dosd\\savedata\\config.json}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\fmw_dosd\\savedata\\}}"
 Fantasy Monarch:
   pageId: 139282
   steam: 949680
@@ -198982,6 +198994,9 @@ Snow Mercy:
 Snow Moto Racing Freedom:
   pageId: 60301
   steam: 587400
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Zordix AB\\SnowMotoRacingFreedom}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Zordix AB\\SnowMotoRacingFreedom}}"
 Snow Rider:
   pageId: 208298
   templates:

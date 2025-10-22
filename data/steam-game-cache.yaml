@@ -616371,7 +616371,15 @@
   launch:
     - executable: F1Manager24.exe
 2591790: {}
-2592160: {}
+2592160:
+  cloud:
+    saves:
+      - path: Dispatch/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Dispatch
+  launch:
+    - executable: Dispatch.exe
 2593320:
   nameLocalized:
     english: Catechesis
@@ -630372,6 +630380,15 @@
         oslist: linux
       executable: Serre.sh
       type: default
+3575980:
+  installDir: Fantasy Maiden Wars DoSD
+  launch:
+    - config:
+        oslist: windows
+      executable: fmw_dosd.exe
+      type: default
+  nameLocalized:
+    japanese: 幻想少女大戦 - DREAM OF THE STRAY DREAMER -
 3576590:
   installDir: S3
   launch:
@@ -631544,7 +631561,31 @@
 3865080: {}
 3866380: {}
 3873970: {}
-3882020: {}
+3882020:
+  cloud:
+    saves:
+      - path: Spiderweb Software/Avernum 4 Greed and Glory Saved Games
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+      - path: Spiderweb Software/Avernum 4 Greed and Glory Saved Games
+        pattern: "*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
+  installDir: Avernum 4 Greed and Glory
+  launch:
+    - config:
+        oslist: windows
+      executable: Avernum 4 Greed and Glory.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "Avernum 4 Greed and Glory.app\\Contents\\MacOS\\Avernum 4 Greed and Glory"
+      type: default
 3883910: {}
 3884520: {}
 3888420: {}
