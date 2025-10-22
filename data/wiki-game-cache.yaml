@@ -20251,7 +20251,7 @@ Ball X Pit:
   pageId: 209708
   steam: 2062430
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
 Ball fall:
   pageId: 138844
@@ -36351,7 +36351,7 @@ Carrion:
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/Phobia/Carrion/}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Phobia\\Carrion\\saves\\*.crn|{{p|USERPROFILE}}\\AppData\\LocalLow\\Phobia\\Carrion\\saves\\*.crn.backup<ref>{{Refcheck|user=Taylor.mabby654|date=2024-07-01|comment=backup files}}</ref>|{{p|USERPROFILE}}\\AppData\\LocalLow\\Phobia\\Carrion\\saves\\xmas_special\\*.crn<ref>{{Refcheck|user=Taylor.mabby654|date=2024-07-01|comment=Greatest Time of Year DLC save data}}</ref>|{{p|USERPROFILE}}\\AppData\\LocalLow\\Phobia\\Carrion\\saves\\xmas_special\\*.crn.backup<ref>{{Refcheck|user=Taylor.mabby654|date=2024-07-01|comment=backup files for Greatest Time of Year DLC save data}}</ref>}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DevolverDigital.CarrionWin10_6kzv4j18v0c96\\SystemAppData\\wgs\\}}"
-    - "{{Game data/config|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Phobia\\Carrion\\_steam_{{p|uid}}\\saves\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Phobia\\Carrion\\_steam_{{p|uid}}\\saves\\}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Phobia/Carrion/}}"
 Carrotting Brain:
   pageId: 45922
@@ -40440,8 +40440,8 @@ Chrono Ark:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Roaming\\Godat\\app_userdata\\Chrono Gear- Warden of Time\\system_settings.json}}"
     - "{{Game data/config|Linux|~/.local/share/godot/app_userdata/Chrono Gear- Warden of Time/system_settings.json}}"
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Roaming\\Godat\\app_userdata\\Chrono Gear- Warden of Time\\save}}"
-    - "{{Game data/config|Linux|~/.local/share/godot/app_userdata/Chrono Gear- Warden of Time/save}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Roaming\\Godat\\app_userdata\\Chrono Gear- Warden of Time\\save}}"
+    - "{{Game data/saves|Linux|~/.local/share/godot/app_userdata/Chrono Gear- Warden of Time/save}}"
 Chrono Ghost:
   pageId: 125211
   steam: 983760
@@ -61538,7 +61538,7 @@ Dispatch (2025):
     - 3920290
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Config\\WindowsNoEditor}}"
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Dispatch\\Saved\\SaveGames}}"
 Dispatcher:
   pageId: 45651
   steam: 341980
@@ -88405,7 +88405,7 @@ G.A.M.E.S:
   pageId: 199565
   steam: 2516170
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Maple Powered Games\\GI Joe Wrath of Cobra\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Maple Powered Games\\GI Joe Wrath of Cobra\\}}"
 G.R.E.E.N. The Life Algorithm:
   pageId: 142052
   steam: 1037090
@@ -117013,6 +117013,14 @@ Jurassic World Evolution 2:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Frontier Developments\\Jurassic World Evolution 2\\Config_Local}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Jurassic World Evolution 2}}"
+Jurassic World Evolution 3:
+  cloud:
+    steam: true
+  pageId: 209941
+  steam: 2958130
+  steamSide:
+    - 3651190
+    - 3651200
 Juro Janosik:
   cloud:
     steam: true
@@ -125147,7 +125155,7 @@ Lego Party:
   steam: 1969370
   templates:
     - "{{Game data/config|Steam|{{P|appdata}}\\LocalLow\\SMG\\Steam\\LEGO® Party!\\{{P|uid}}\\}}"
-    - "{{Game data/config|Steam|{{P|appdata}}\\LocalLow\\SMG\\LEGO® Party!\\states\\}}"
+    - "{{Game data/saves|Steam|{{P|appdata}}\\LocalLow\\SMG\\LEGO® Party!\\states\\}}"
 "Lego Pirates of the Caribbean: The Video Game":
   cloud:
     gog: true
@@ -151654,8 +151662,8 @@ Ninja Gaiden 4:
   pageId: 201052
   steam: 2627260
   templates:
-    - "{{Game data/saves|Steam|{{p|localappdata}}\\NINJAGAIDEN4\\SlotData_0.dat,GameData.dat,SystemData.vdf}}"
-    - "{{Game data/saves|Steam|{{p|localappdata}}\\NINJAGAIDEN4\\SlotData_0.dat,GameData.dat,SystemData.vdf}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\NINJAGAIDEN4\\SlotData_0.dat|{{p|localappdata}}\\NINJAGAIDEN4\\GameData.dat|{{p|localappdata}}\\NINJAGAIDEN4\\SystemData.vdf}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\NINJAGAIDEN4\\SlotData_0.dat|{{p|localappdata}}\\NINJAGAIDEN4\\GameData.dat|{{p|localappdata}}\\NINJAGAIDEN4\\SystemData.vdf}}"
 "Ninja Gaiden II: The Dark Sword of Chaos":
   pageId: 176111
 Ninja Gaiden Σ:
@@ -152310,7 +152318,7 @@ No Way Out - A Dead Realm Tale:
   steam: 3180070
   templates:
     - "{{Game data/config|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3180070\\remote\\MetaPrefsData.sav|{{p|hkcu}}\\Software\\Trioskaz\\NoImNotAHuman\\}}"
-    - "{{Game data/config|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3180070\\remote\\GameSaveData.sav}}"
+    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3180070\\remote\\GameSaveData.sav}}"
 No1Left:
   pageId: 44535
   steam: 409580
@@ -162891,7 +162899,7 @@ Perfect Tides:
   steam: 1172800
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Perfect Tides\\agssave.999}}"
-    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Perfect Tides\\agssave.*}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Perfect Tides\\agssave.*}}"
 Perfect Universe:
   pageId: 44425
   steam: 405720
@@ -168436,7 +168444,7 @@ PowerWash Simulator 2:
 Powerdrome:
   pageId: 197771
   templates:
-    - "{{Game data/saves|Windows|{{P|game}}\\saves}}"
+    - "{{Game data/config|Windows|{{P|game}}\\saves}}"
     - "{{Game data/saves|Windows|{{P|game}}\\saves}}"
 Powerdrome (1990):
   pageId: 197774
@@ -196765,7 +196773,7 @@ Skript:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Southpaw Games\\Skul\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Southpaw Games\\Skul\\}}"
-    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\Neowiz.SkulTheHeroSlayer_r4z3116tdh636\\SystemAppData\\wgs\\{{p|uid}}\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Neowiz.SkulTheHeroSlayer_r4z3116tdh636\\SystemAppData\\wgs\\{{p|uid}}\\}}"
 Skull Feast:
   pageId: 89359
   steam: 815030
@@ -205843,7 +205851,7 @@ Star Nomad 2:
     - "Star Ocean: The Last Hope"
   steam: 609150
   templates:
-    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\STAR OCEAN - THE LAST HOPE - 4K & Full HD Remaster\\SaveData\\{{p|uid}}\\SYS-DATA.BIN}}"
+    - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\My Games\\STAR OCEAN - THE LAST HOPE - 4K & Full HD Remaster\\SaveData\\{{p|uid}}\\SYS-DATA.BIN}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\STAR OCEAN - THE LAST HOPE - 4K & Full HD Remaster\\SaveData\\{{p|uid}}\\USR-DATA*.BIN}}"
 "Star Ocean: The Second Story R":
   cloud:
@@ -211691,6 +211699,7 @@ Sumerian Six:
   steamSide:
     - 2981640
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\SumerianSix\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SumerianSix\\Saved\\SaveGames\\*.sav}}"
 Sumerians:
   pageId: 154301
@@ -220032,7 +220041,7 @@ Terraria:
   steam: 105600
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Terraria\\config.json|{{p|userprofile\\Documents}}\\My Games\\Terraria\\input profiles.json}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\105600\\remote\\favorites.json}}"
+    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\105600\\remote\\favorites.json}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Terraria/}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Terraria/config.json|{{p|xdgdatahome}}/Terraria/favorites.json|{{p|xdgdatahome}}/Terraria/input_profiles.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Terraria\\}}"
@@ -241259,10 +241268,8 @@ Trails in the Sky 1st Chapter:
     - 3889390
     - 3889400
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 1st Chapter\\setting.json}}"
-    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\CLE\\Sora_no_Kiseki_the_1st\\setting.json}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 1st Chapter\\savedata\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\CLE\\Sora_no_Kiseki_the_1st\\savedata\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 1st Chapter\\setting.json|{{P|userprofile}}\\Saved Games\\CLE\\Sora_no_Kiseki_the_1st\\setting.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 1st Chapter\\savedata\\|{{P|userprofile}}\\Saved Games\\CLE\\Sora_no_Kiseki_the_1st\\savedata\\}}"
 Trails of the Black Sun:
   pageId: 150537
   steam: 1152940

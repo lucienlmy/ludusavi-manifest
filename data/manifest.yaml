@@ -63762,6 +63762,7 @@ Ball X Pit:
   files:
     "<home>/AppData/LocalLow/Kenny Sun/BALL x PIT":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -113605,7 +113606,7 @@ Carrion:
   files:
     "<home>/AppData/LocalLow/Phobia/Carrion/_steam_<storeUserId>/saves":
       tags:
-        - config
+        - save
       when:
         - os: windows
           store: steam
@@ -126937,7 +126938,7 @@ Chrono Ark:
   files:
     "<home>/.local/share/godot/app_userdata/Chrono Gear- Warden of Time/save":
       tags:
-        - config
+        - save
       when:
         - os: linux
     "<home>/.local/share/godot/app_userdata/Chrono Gear- Warden of Time/system_settings.json":
@@ -126947,7 +126948,7 @@ Chrono Ark:
         - os: linux
     "<winLocalAppData>/Roaming/Godat/app_userdata/Chrono Gear- Warden of Time/save":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<winLocalAppData>/Roaming/Godat/app_userdata/Chrono Gear- Warden of Time/system_settings.json":
@@ -192620,7 +192621,7 @@ Dispatch (2025):
         - os: windows
     "<winLocalAppData>/Dispatch/Saved/SaveGames":
       tags:
-        - config
+        - save
       when:
         - os: windows
   id:
@@ -276097,7 +276098,7 @@ G.A.M.E.S:
   files:
     "<home>/AppData/LocalLow/Maple Powered Games/GI Joe Wrath of Cobra":
       tags:
-        - config
+        - save
       when:
         - os: windows
   gog:
@@ -365265,6 +365266,30 @@ Jurassic World Evolution 2:
             store: steam
   steam:
     id: 1244460
+Jurassic World Evolution 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3/<storeUserId>/Config/*_remote.config.xml":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3/<storeUserId>/Saves":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3651190
+      - 3651200
+  installDir:
+    Jurassic World Evolution 3: {}
+  launch:
+    "<base>/JWE3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2958130
 Juro Janosik:
   cloud:
     steam: true
@@ -390321,7 +390346,7 @@ Lego Party:
   files:
     "<winAppData>/LocalLow/SMG/LEGO® Party!/states":
       tags:
-        - config
+        - save
       when:
         - os: windows
           store: steam
@@ -471834,12 +471859,24 @@ Ninja Gaiden 4:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/NINJAGAIDEN4/SlotData_0.dat,GameData.dat,SystemData.vdf":
+    "<winLocalAppData>/NINJAGAIDEN4/GameData.dat":
       tags:
+        - config
         - save
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/NINJAGAIDEN4/SlotData_0.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/NINJAGAIDEN4/SystemData.vdf":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     lutris: ninja-gaiden-4
   installDir:
@@ -473818,7 +473855,7 @@ No Way Out - A Dead Realm Tale:
   files:
     "<root>/userdata/<storeUserId>/3180070/remote/GameSaveData.sav":
       tags:
-        - config
+        - save
       when:
         - store: steam
     "<root>/userdata/<storeUserId>/3180070/remote/MetaPrefsData.sav":
@@ -506285,7 +506322,7 @@ Perfect Tides:
   files:
     "<home>/Saved Games/Perfect Tides/agssave.*":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<home>/Saved Games/Perfect Tides/agssave.999":
@@ -523740,6 +523777,7 @@ Powerdrome:
   files:
     "<base>/saves":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -612420,7 +612458,7 @@ Skript:
         - os: windows
     "<winLocalAppData>/Packages/Neowiz.SkulTheHeroSlayer_r4z3116tdh636/SystemAppData/wgs/<storeUserId>":
       tags:
-        - config
+        - save
       when:
         - os: windows
           store: microsoft
@@ -641359,7 +641397,7 @@ Star Nomad 2:
   files:
     "<winDocuments>/My Games/STAR OCEAN - THE LAST HOPE - 4K & Full HD Remaster/SaveData/<storeUserId>/SYS-DATA.BIN":
       tags:
-        - save
+        - config
       when:
         - os: windows
           store: steam
@@ -659251,6 +659289,11 @@ Sumerian Six:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/SumerianSix/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/SumerianSix/Saved/SaveGames/*.sav":
       tags:
         - save
@@ -686347,7 +686390,7 @@ Terraria:
         - store: steam
     "<root>/userdata/<storeUserId>/105600/remote/favorites.json":
       tags:
-        - save
+        - config
       when:
         - store: steam
     "<root>/userdata/<storeUserId>/105600/remote/players/*.plr":
