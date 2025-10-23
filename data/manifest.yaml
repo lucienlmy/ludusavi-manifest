@@ -16087,6 +16087,32 @@ Absoloot:
   steam:
     id: 555700
 Absolum:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Absolum_SaveGame_Steam/Config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Absolum_SaveGame_Steam/Save.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3713610
+      - 3812410
+  installDir:
+    Absolum: {}
+  launch:
+    "<base>/x64.steam/Absolum.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/x64.steam"
   steam:
     id: 1904480
 Absolute Adventure Zero:
@@ -17976,6 +18002,8 @@ Across the Line:
   steam:
     id: 491800
 Across the Obelisk:
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/Dreamsite Games/AcrossTheObelisk/<storeUserId>":
       when:
@@ -17988,6 +18016,23 @@ Across the Obelisk:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: across-the-obelisk
+    steamExtra:
+      - 1421400
+      - 2168960
+      - 2325780
+      - 2511580
+      - 2666340
+      - 2879680
+      - 2879690
+      - 3185630
+      - 3185640
+      - 3185650
+      - 3473700
+      - 3473720
+      - 3795420
+      - 4013420
   installDir:
     Across the Obelisk: {}
   launch:
@@ -42968,6 +43013,12 @@ Aqua Lungers:
   steam:
     id: 820640
 Aqua Moto Racing Utopia:
+  files:
+    "<home>/AppData/LocalLow/Zordix AB/AquaMotoRacingUtopia":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Aqua Moto Racing Utopia: {}
   launch:
@@ -42976,6 +43027,10 @@ Aqua Moto Racing Utopia:
         when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Zordix AB/AquaMotoRacingUtopia:
+      tags:
+        - config
   steam:
     id: 468100
 Aqua Pals:
@@ -93022,6 +93077,18 @@ Boomer Rampage:
             store: steam
   steam:
     id: 770520
+Boomerang Breaker:
+  files:
+    "<base>/Level/editor":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Ganymede/Boomerang:
+      tags:
+        - config
+        - save
 Boomerang Fu:
   cloud:
     steam: true
@@ -93728,6 +93795,8 @@ Borderlands 4:
         - save
       when:
         - os: windows
+  id:
+    lutris: borderlands-4
   installDir:
     Borderlands 4: {}
   launch:
@@ -199726,6 +199795,21 @@ Double Dragon Neon:
   steam:
     id: 252350
 Double Dragon Revive:
+  files:
+    "<base>/ProjectDD/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/DoubleDragonRevive/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DoubleDragonRevive: {}
+  launch:
+    "<base>/LaunchGame.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3012220
 Double Dragon Trilogy:
@@ -463474,6 +463558,14 @@ Need for Madness:
             store: steam
   steam:
     id: 343330
+"Need for Russia 4: Moscow Nights":
+  files:
+    "<winAppData>/RedDotGames/need4russia4":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 "Need for Seed: Bird Simulator":
   steam:
     id: 724960
@@ -579977,6 +580069,21 @@ SOMOS:
             store: steam
   steam:
     id: 706510
+SOPA - Tale of the Stolen Potato:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3038540
+  installDir:
+    SOPA: {}
+  launch:
+    "<base>/SOPA/Sopa.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1935330
 SOS:
   installDir:
     SOS: {}
@@ -612459,6 +612566,13 @@ Skjoldur Story:
             store: steam
   steam:
     id: 1051580
+Skoki Narciarskie 2005:
+  files:
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
 Skool Daze Reskooled:
   installDir:
     SkoolDaze_Reskooled: {}
@@ -821672,19 +821786,38 @@ Zaccaria Pinball:
   cloud:
     steam: true
   files:
-    "<home>/.magicpixel/Zaccaria_Pinball/settings.xml":
+    "<home>/.magicpixel/Zaccaria_Pinball":
+      tags:
+        - save
       when:
         - os: linux
-          store: steam
-    "<home>/Library/Application Support/Zaccaria_Pinball/settings.xml":
+    "<home>/Library/Application Support/Zaccaria_Pinball":
+      tags:
+        - save
       when:
         - os: mac
-          store: steam
-    "<winDocuments>/Zaccaria_Pinball/settings.xml":
+    "<winLocalAppData>/MagicPixel/Zaccaria_Pinball":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
+    lutris: zaccaria-pinball
     steamExtra:
+      - 3672
+      - 13889
+      - 14022
+      - 14902
+      - 60524
+      - 60525
+      - 60526
+      - 60528
+      - 60529
+      - 60530
+      - 60531
+      - 60532
+      - 60533
       - 478030
       - 478031
       - 478032
@@ -821722,6 +821855,75 @@ Zaccaria Pinball:
       - 485145
       - 485146
       - 486190
+      - 538760
+      - 555360
+      - 570120
+      - 605430
+      - 613520
+      - 623790
+      - 645250
+      - 673320
+      - 690660
+      - 699090
+      - 731080
+      - 753120
+      - 765830
+      - 771110
+      - 794170
+      - 814100
+      - 830650
+      - 859430
+      - 859500
+      - 876970
+      - 876971
+      - 907420
+      - 907421
+      - 929520
+      - 953800
+      - 970630
+      - 974400
+      - 991730
+      - 999070
+      - 1012010
+      - 1029680
+      - 1029820
+      - 1083100
+      - 1093410
+      - 1130690
+      - 1159530
+      - 1194440
+      - 1210090
+      - 1210091
+      - 1259110
+      - 1273630
+      - 1333510
+      - 1377690
+      - 1418860
+      - 1467010
+      - 1549470
+      - 1597540
+      - 1669210
+      - 1728730
+      - 1843040
+      - 2127000
+      - 2722350
+      - 3439200
+      - 3439370
+      - 3439560
+      - 3439630
+      - 3439860
+      - 3551240
+      - 3551250
+      - 3551260
+      - 3551270
+      - 3551280
+      - 3776430
+      - 3776440
+      - 3776450
+      - 3776460
+      - 3776470
+      - 4022120
+      - 4097430
   installDir:
     Zaccaria Pinball: {}
   launch:

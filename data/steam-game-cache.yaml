@@ -151009,19 +151009,23 @@
 444930:
   cloud:
     saves:
-      - path: Zaccaria_Pinball
-        pattern: settings.xml
-        root: WinMyDocuments
+      - path: MagicPixel/Zaccaria_Pinball
+        pattern: "*settings.xml"
+        root: WinAppDataLocal
     overrides:
-      - addPath: ""
-        os: MacOS
+      - os: MacOS
         osCompare: "="
-        root: WinMyDocuments
+        pathTransforms:
+          - find: MagicPixel/Zaccaria_Pinball
+            replace: Zaccaria_Pinball
+        root: WinAppDataLocal
         useInstead: MacAppSupport
-      - addPath: ".magicpixel/"
-        os: Linux
+      - os: Linux
         osCompare: "="
-        root: WinMyDocuments
+        pathTransforms:
+          - find: MagicPixel/Zaccaria_Pinball
+            replace: ".magicpixel/Zaccaria_Pinball"
+        root: WinAppDataLocal
         useInstead: LinuxHome
   installDir: Zaccaria Pinball
   launch:
@@ -538631,6 +538635,18 @@
         oslist: windows
       description: Play OakGame (Test) - gbxre
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
+    - config:
+        betakey: gbxinternal1
+        osarch: "64"
+        oslist: windows
+      description: Play Borderlands4 Bootstrap
+      executable: Borderlands4.exe
+    - config:
+        betakey: gbxinternal2
+        osarch: "64"
+        oslist: windows
+      description: Play Borderlands4 Bootstrap
+      executable: Borderlands4.exe
   nameLocalized:
     japanese: ボーダーランズ®4
     koreana: 보더랜드® 4
@@ -586455,6 +586471,25 @@
       executable: World Championship Boxing Manager 2.exe
       type: default
 1904480:
+  cloud:
+    saves:
+      - path: Absolum_SaveGame_Steam
+        pattern: Save.bin
+        root: WinAppDataLocal
+  installDir: Absolum
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Retail
+      executable: "x64.steam\\Absolum.exe"
+      type: default
+      workingdir: x64.steam
+    - config:
+        betakey: development
+      description: NON RETAIL
+      executable: "x64.NON_RETAIL\\Absolum.exe"
+      workingdir: x64.NON_RETAIL
   nameLocalized:
     japanese: Absolum (アブソラム)
     koreana: 압솔룸
@@ -588672,6 +588707,13 @@
         osarch: "64"
         oslist: windows
       executable: VeiledExperts/Binaries/Win64/VeiledExperts-Win64-Shipping_BE.exe
+      type: default
+1935330:
+  installDir: SOPA
+  launch:
+    - config:
+        oslist: windows
+      executable: SOPA/Sopa.exe
       type: default
 1935660:
   cloud:
@@ -624761,6 +624803,22 @@
     english: CRUELTY
     japanese: クルーエルティ
 3012220:
+  cloud:
+    saves:
+      - path: "ProjectDD/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: gameinstall
+      - path: "DoubleDragonRevive/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: DoubleDragonRevive
+  launch:
+    - config:
+        oslist: windows
+      executable: LaunchGame.exe
+      type: default
   nameLocalized:
     english: Double Dragon Revive
     japanese: ダブルドラゴン リヴァイヴ

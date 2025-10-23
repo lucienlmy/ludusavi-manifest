@@ -4979,8 +4979,16 @@ Absoloot:
   pageId: 57123
   steam: 555700
 Absolum:
+  cloud:
+    steam: true
   pageId: 205429
   steam: 1904480
+  steamSide:
+    - 3713610
+    - 3812410
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Absolum_SaveGame_Steam\\Config.txt}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Absolum_SaveGame_Steam\\Save.bin}}"
 Absolute Adventure Zero:
   pageId: 105185
   steam: 893370
@@ -5653,8 +5661,26 @@ Across the Line:
   pageId: 57428
   steam: 491800
 Across the Obelisk:
+  cloud:
+    steam: true
+  lutris: across-the-obelisk
   pageId: 209693
   steam: 1385380
+  steamSide:
+    - 1421400
+    - 2168960
+    - 2325780
+    - 2511580
+    - 2666340
+    - 2879680
+    - 2879690
+    - 3185630
+    - 3185640
+    - 3185650
+    - 3473700
+    - 3473720
+    - 3795420
+    - 4013420
   templates:
     - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\Dreamsite Games}}}}"
 Across the Rhine:
@@ -13527,6 +13553,9 @@ Aqua Lungers:
 Aqua Moto Racing Utopia:
   pageId: 42388
   steam: 468100
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Zordix AB\\AquaMotoRacingUtopia}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Zordix AB\\AquaMotoRacingUtopia}}"
 Aqua Pals:
   pageId: 191740
   steam: 2597190
@@ -29860,6 +29889,11 @@ Boomer Rampage:
     steam: true
   pageId: 78518
   steam: 770520
+Boomerang Breaker:
+  pageId: 209968
+  templates:
+    - "{{Game data/config|Windows|{{P|HKCU}}\\Software\\Ganymede\\Boomerang}}"
+    - "{{Game data/saves|Windows|{{P|HKCU}}\\Software\\Ganymede\\Boomerang|{{P|game}}\\Level\\editor}}"
 Boomerang Fu:
   cloud:
     steam: true
@@ -30134,6 +30168,7 @@ Borderlands 4:
   cloud:
     epic: true
     steam: true
+  lutris: borderlands-4
   pageId: 197180
   steam: 1285190
   templates:
@@ -30775,6 +30810,8 @@ Boyfriend Dungeon:
   steam: 674930
   templates:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\20748KitfoxGamesInc.BoyfriendDungeon_ndj3659pgnjmr\\SystemAppData}}"
+"Boyz Don't Cry":
+  pageId: 209529
 Braid:
   cloud:
     steam: true
@@ -141728,7 +141765,7 @@ Momonga Pinball Adventures:
   pageId: 39003
   steam: 491560
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Paladin Studios\\Momonga Pinball Adventures<ref>{{Refcheck|user=Darthsidiouspt|date=2025-07-13|comment=}}</ref>}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Paladin Studios\\Momonga Pinball Adventures<ref>{{Refcheck|user=DarthSidiousPT|date=2025-07-13|comment=}}</ref>}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Paladin Studios\\Momonga Pinball Adventures<ref>{{Refurl|url=https://steamcommunity.com/app/491560/discussions/0/350542683209606863/#c3203747342901017932|title=Steam Discussions - Path to save file?|date=2025-07-13}}</ref>}}"
 "Mompreneur: Pizza Cooking Life Sim":
   pageId: 155821
@@ -148845,6 +148882,11 @@ Need for Kill 2D:
 Need for Madness:
   pageId: 86891
   steam: 343330
+"Need for Russia 4: Moscow Nights":
+  pageId: 209621
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\RedDotGames\\need4russia4}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\RedDotGames\\need4russia4}}"
 "Need for Seed: Bird Simulator":
   pageId: 77832
   steam: 724960
@@ -157832,6 +157874,8 @@ Ortus Regni:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Orwell\\profile*.osg}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\491950\\remote\\profile*.osg}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/My Games/Orwell/profile*.osg}}"
+Oscar:
+  pageId: 209967
 Oscar Mike VR:
   cloud:
     steam: true
@@ -186340,6 +186384,14 @@ SOMOS:
     steam: true
   pageId: 113064
   steam: 706510
+SOPA - Tale of the Stolen Potato:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 209585
+  steam: 1935330
+  steamSide:
+    - 3038540
 SOS:
   pageId: 73044
   steam: 619080
@@ -196765,6 +196817,12 @@ Skjoldur Story:
     steam: true
   pageId: 132935
   steam: 1051580
+Skoki Narciarskie 2003:
+  pageId: 209537
+Skoki Narciarskie 2005:
+  pageId: 209545
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Skool Daze Reskooled:
   pageId: 94263
   steam: 524430
@@ -245051,7 +245109,7 @@ Turbo Pug:
   pageId: 37656
   steam: 418070
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Space Cat Studios\\Turbo Pug<ref>{{Refcheck|user=Darthsidiouspt|date=2025-07-27|comment=}}</ref>}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Space Cat Studios\\Turbo Pug<ref>{{Refcheck|user=DarthSidiousPT|date=2025-07-27|comment=}}</ref>}}"
 Turbo Pug 3D:
   pageId: 41547
   steam: 528510
@@ -264990,9 +265048,23 @@ Zaba The Frog:
 Zaccaria Pinball:
   cloud:
     steam: true
+  lutris: zaccaria-pinball
   pageId: 33541
   steam: 444930
   steamSide:
+    - 3672
+    - 13889
+    - 14022
+    - 14902
+    - 60524
+    - 60525
+    - 60526
+    - 60528
+    - 60529
+    - 60530
+    - 60531
+    - 60532
+    - 60533
     - 478030
     - 478031
     - 478032
@@ -265030,6 +265102,80 @@ Zaccaria Pinball:
     - 485145
     - 485146
     - 486190
+    - 538760
+    - 555360
+    - 570120
+    - 605430
+    - 613520
+    - 623790
+    - 645250
+    - 673320
+    - 690660
+    - 699090
+    - 731080
+    - 753120
+    - 765830
+    - 771110
+    - 794170
+    - 814100
+    - 830650
+    - 859430
+    - 859500
+    - 876970
+    - 876971
+    - 907420
+    - 907421
+    - 929520
+    - 953800
+    - 970630
+    - 974400
+    - 991730
+    - 999070
+    - 1012010
+    - 1029680
+    - 1029820
+    - 1083100
+    - 1093410
+    - 1130690
+    - 1159530
+    - 1194440
+    - 1210090
+    - 1210091
+    - 1259110
+    - 1273630
+    - 1333510
+    - 1377690
+    - 1418860
+    - 1467010
+    - 1549470
+    - 1597540
+    - 1669210
+    - 1728730
+    - 1843040
+    - 2127000
+    - 2722350
+    - 3439200
+    - 3439370
+    - 3439560
+    - 3439630
+    - 3439860
+    - 3551240
+    - 3551250
+    - 3551260
+    - 3551270
+    - 3551280
+    - 3776430
+    - 3776440
+    - 3776450
+    - 3776460
+    - 3776470
+    - 4022120
+    - 4097430
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\MagicPixel\\Zaccaria_Pinball}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\MagicPixel\\Zaccaria_Pinball}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Zaccaria_Pinball}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.magicpixel/Zaccaria_Pinball}}"
 Zach-Like:
   lutris: zach-like
   pageId: 139007
