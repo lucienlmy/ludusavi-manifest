@@ -624395,6 +624395,16 @@
       executable: "WindowsNoEditor\\TrainSimWorld.exe"
       type: default
 2968420:
+  cloud:
+    saves:
+      - path: FuturLab/PowerWash Simulator 2/PC_Steam
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: PowerWash Simulator 2
+  launch:
+    - executable: PowerWash Simulator 2.exe
+      type: default
   nameLocalized:
     schinese: 冲就完事模拟器2
 2969380:
@@ -627151,6 +627161,36 @@
 3166050:
   nameLocalized:
     russian: Ну и поездка
+3167020:
+  cloud:
+    saves:
+      - path: TeamSoda/Duckov/
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Escape from Duckov
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Duckov.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Duckov.app
+      type: default
+  nameLocalized:
+    english: Escape From Duckov
+    japanese: エスケープ フロム ダッコフ
+    sc_schinese: 逃离鸭科夫
+    schinese: 逃离鸭科夫
+    tchinese: 逃離鴨科夫
 3167920:
   nameLocalized:
     english: Low-Budget Repairs

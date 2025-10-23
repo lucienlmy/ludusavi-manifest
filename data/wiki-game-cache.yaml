@@ -63818,8 +63818,12 @@ Double Dragon Neon:
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Wayforward Technologies\\DoubleDragon\\}}"
 Double Dragon Revive:
+  cloud:
+    steam: true
   pageId: 200175
   steam: 3012220
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\DoubleDragonRevive\\ProjectDD\\Saved\\SaveGames\\{{p|uid}}\\*.sav|{{p|localappdata}}\\DoubleDragonRevive\\ProjectDD\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Double Dragon Trilogy:
   cloud:
     steam: true
@@ -73929,6 +73933,14 @@ Escape From Cozy Island:
 Escape From Darkmoor Manor:
   pageId: 49173
   steam: 335740
+Escape From Duckov:
+  cloud:
+    steam: true
+  lutris: escape-from-duckov
+  pageId: 209998
+  steam: 3167020
+  steamSide:
+    - 3464460
 Escape From Earth:
   pageId: 144053
   steam: 1045310
@@ -118473,7 +118485,8 @@ Keep Driving:
   pageId: 202796
   steam: 2756920
   templates:
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\KeepDriving}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\KeepDriving\\savedata}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\KeepDriving\\savedata}}"
 "Keep It Cool, Man":
   cloud:
     steam: true
@@ -148651,7 +148664,7 @@ Necesse:
     - "{{Game data/config|Windows|{{p|appdata}}\\Roaming\\Necesse\\cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Necesse/cfg}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/Necesse/cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Roaming\\Necesse\\saves\\*}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Necesse\\saves}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Necesse/saves}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Necesse/saves}}"
 Neckbeardia:
@@ -168499,8 +168512,11 @@ PowerWash Simulator:
 PowerWash Simulator 2:
   cloud:
     steam: true
+    xbox: true
   pageId: 207066
   steam: 2968420
+  templates:
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\FuturLab\\PowerWash Simulator 2\\PC_Steam\\}}"
 Powerdrome:
   pageId: 197771
   templates:
@@ -243713,6 +243729,8 @@ Trick and Treat - Visual Novel:
   steam: 555210
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\game\\saves\\ | {{p|appdata}}\\RenPy\\TrickandTreat-1413512286\\}}"
+Trick or Treat:
+  pageId: 209994
 Trick-Track!:
   pageId: 128827
 TrickStyle:

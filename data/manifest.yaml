@@ -199795,14 +199795,19 @@ Double Dragon Neon:
   steam:
     id: 252350
 Double Dragon Revive:
+  cloud:
+    steam: true
   files:
-    "<base>/ProjectDD/Saved/SaveGames/<storeUserId>/*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/DoubleDragonRevive/Saved/SaveGames/<storeUserId>/*.sav":
+    "<base>/DoubleDragonRevive/ProjectDD/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/DoubleDragonRevive/ProjectDD/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     DoubleDragonRevive: {}
   launch:
@@ -231751,6 +231756,35 @@ Escape From Darkmoor Manor:
             store: steam
   steam:
     id: 335740
+Escape From Duckov:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/TeamSoda/Duckov/**/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/TeamSoda/Duckov/**/*.sav":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: escape-from-duckov
+    steamExtra:
+      - 3464460
+  installDir:
+    Escape from Duckov: {}
+  launch:
+    "<base>/Duckov.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Duckov.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3167020
 Escape From Earth:
   installDir:
     Escape From Earth: {}
@@ -369703,8 +369737,9 @@ Keep Driving:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/KeepDriving":
+    "<winLocalAppData>/KeepDriving/savedata":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -462825,14 +462860,14 @@ Necesse:
         - save
       when:
         - os: mac
+    "<winAppData>/Necesse/saves":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/Roaming/Necesse/cfg":
       tags:
         - config
-      when:
-        - os: windows
-    "<winAppData>/Roaming/Necesse/saves":
-      tags:
-        - save
       when:
         - os: windows
     "<xdgConfig>/Necesse/cfg":
@@ -523919,6 +523954,19 @@ PowerWash Simulator:
 PowerWash Simulator 2:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/FuturLab/PowerWash Simulator 2/PC_Steam":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    PowerWash Simulator 2: {}
+  launch:
+    "<base>/PowerWash Simulator 2.exe":
+      - when:
+          - store: steam
   steam:
     id: 2968420
 Powerdrome:
