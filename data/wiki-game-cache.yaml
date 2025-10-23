@@ -161051,6 +161051,8 @@ Paradise Lost:
   renamedFrom:
     - Paradise Lost
   steam: 752030
+Paradise Rescue:
+  pageId: 209992
 Paradise Trails:
   pageId: 178931
   steam: 1746650
@@ -189330,6 +189332,11 @@ Scotophobia:
     steam: true
   pageId: 196290
   steam: 3008300
+Scott Pilgrim EX:
+  cloud:
+    steam: true
+  pageId: 209990
+  steam: 2640950
 "Scott Pilgrim vs. The World: The Game":
   pageId: 163313
   renamedFrom:
@@ -239605,6 +239612,9 @@ Tormented Souls 2:
   gog: 1154651073
   pageId: 190874
   steam: 2464280
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\SaveGames\\}}"
 Tormentor X Punisher:
   cloud:
     discord: true

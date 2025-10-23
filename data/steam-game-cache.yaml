@@ -543450,6 +543450,8 @@
         oslist: windows
       executable: Becastled.exe
       type: default
+  nameLocalized:
+    schinese: Becastled - 月兽围城
 1330470:
   cloud:
     saves:
@@ -607970,6 +607972,8 @@
       type: default
   nameLocalized:
     japanese: ドカポンキングダム コネクト
+    schinese: 托克朋王国 DOKAPON KINGDOM 连结
+    tchinese: 多卡波王國 DOKAPON KINGDOM 連結
 2338770:
   installDir: NBA 2K24
   launch:
@@ -612871,6 +612875,8 @@
     tchinese: 機動戰隊VS
 2464280:
   nameLocalized:
+    japanese: Tormented Souls 2 (苦悶の魂２)
+    koreana: Tormented Souls 2 (토멘티드 소울즈 2)
     schinese: 受折磨的灵魂2
     tchinese: 受折磨的靈魂2
 2464520:
@@ -617734,6 +617740,7 @@
   nameLocalized:
     english: Cat Warrior
     schinese: 吃喵一剑
+2640950: {}
 2641470:
   installDir: Spectre Divide
   launch:

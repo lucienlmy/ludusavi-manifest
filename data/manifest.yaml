@@ -589139,6 +589139,11 @@ Scotophobia:
             store: steam
   steam:
     id: 3008300
+Scott Pilgrim EX:
+  cloud:
+    steam: true
+  steam:
+    id: 2640950
 "Scott Pilgrim vs. The World: The Game":
   files:
     "<home>/Saved Games/Scott":
@@ -746538,6 +746543,17 @@ Tormented Souls 2:
   cloud:
     epic: true
     steam: true
+  files:
+    "<winLocalAppData>/TormentedSouls2/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TormentedSouls2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1154651073
   steam:
