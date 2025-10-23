@@ -554817,7 +554817,241 @@
       executable: macOS/Very Very Valet.app/Contents/MacOS/Very Very Valet
       type: default
       workingdir: macOS
-1449110: {}
+1449110:
+  cloud:
+    saves:
+      - path: Arkansas
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+      - path: TheOuterWorlds2
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: TheOuterWorlds2
+  launch:
+    - config:
+        betakey: latest_mainline
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: latest_mainline
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+    - config:
+        betakey: vs_build
+        osarch: "64"
+        oslist: windows
+      description: Vertical Slice Test Configuration
+      executable: ArkansasTest.exe
+      type: option2
+    - config:
+        betakey: vs_build
+        osarch: "64"
+        oslist: windows
+      description: Vertical Slice Shipping Configuration
+      executable: Arkansas.exe
+      type: option3
+    - arguments: "-ExecCmds=\"stat fps,DisableAllScreenMessages,oei.ShowTextReview 0\""
+      config:
+        betakey: team_playtest
+        osarch: "64"
+        oslist: windows
+      description: Blind Playtester Mode
+      executable: ArkansasDev.exe
+      type: option1
+    - arguments: "-ExecCmds=\"stat fps,DisableAllScreenMessages,oei.ShowTextReview 0\""
+      config:
+        betakey: alpha_playtest
+        osarch: "64"
+        oslist: windows
+      description: Alpha Release Build in Test Config
+      executable: ArkansasTest.exe
+      type: option2
+    - config:
+        betakey: qa_test3
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: qa_test3
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+    - config:
+        betakey: qa_test3
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+    - config:
+        betakey: latest_mainline_shipping
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+    - config:
+        betakey: rift_lab_demo
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: ArkansasDev.exe
+      type: default
+    - config:
+        betakey: latest_mainline
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+    - arguments: "-ExecCmds=DisableAllScreenMessages"
+      config:
+        betakey: rift_lab_demo
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: ArkansasTest.exe
+    - config:
+        betakey: rift_lab_demo
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: Arkansas.exe
+    - config:
+        betakey: latest_mainline_shipping
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3729850"
+      description: Open Artbook & Soundtrack
+      executable: Artbook/TOW2Artbook.exe
+    - config:
+        betakey: lastverified
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: lastverified
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option1
+    - config:
+        betakey: user_research
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option1
+    - config:
+        betakey: hpsdemo
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        betakey: hpsdemo_shipping
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        betakey: tomb_demo_shipping
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        betakey: latest_release_shipping
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        betakey: se_review
+        osarch: "64"
+        oslist: windows
+      executable: Arkansas.exe
+      type: default
+    - config:
+        betakey: latest_release
+      description: Launch Dev Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: latest_release
+      description: Launch Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option1
+    - config:
+        betakey: latest_release
+      description: Launch Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option1
+    - config:
+        betakey: release-1.0.0.0
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        betakey: mockreviewerbranch
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        betakey: esrb_branch
+      executable: TheOuterWorlds2Test.exe
+    - config:
+        betakey: latest_release_final
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3729850"
+      description: Open Artbook & Soundtrack
+      executable: Artbook/TOW2Artbook.exe
+    - config:
+        oslist: windows
+      executable: TheOuterWorlds2.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3729850"
+      description: Open Artbook & Soundtrack
+      executable: Artbook/TOW2Artbook.exe
+    - config:
+        betakey: combat2_review
+        osarch: "64"
+        oslist: windows
+      executable: ArkansasTest.exe
+      type: default
+    - config:
+        betakey: integrated_prototype
+        osarch: "64"
+        oslist: windows
+      executable: ArkansasTest.exe
+      type: default
+    - config:
+        betakey: ms_playtest
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: ArkansasDev.exe
+      type: option1
+    - config:
+        betakey: ms_playtest
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: ArkansasTest.exe
+      type: option2
+    - config:
+        betakey: ms_playtest
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: Arkansas.exe
+      type: option3
+    - config:
+        betakey: vs_build
+        osarch: "64"
+        oslist: windows
+      description: Vertical Slice Development Configuration
+      executable: ArkansasDev.exe
+      type: option1
 1449200:
   cloud:
     saves:

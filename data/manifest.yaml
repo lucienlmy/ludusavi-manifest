@@ -369704,8 +369704,10 @@ Keep Driving:
     steam: true
   files:
     "<winLocalAppData>/KeepDriving":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Keep Driving: {}
   launch:
@@ -718495,6 +718497,22 @@ The Outer Worlds:
 The Outer Worlds 2:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Arkansas":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/TheOuterWorlds2":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    TheOuterWorlds2: {}
+  launch:
+    "<base>/TheOuterWorlds2.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1449110
 "The Outer Worlds: Spacer's Choice Edition":

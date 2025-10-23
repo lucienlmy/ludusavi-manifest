@@ -118472,6 +118472,8 @@ Keep Driving:
     steam: true
   pageId: 202796
   steam: 2756920
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\KeepDriving}}"
 "Keep It Cool, Man":
   cloud:
     steam: true
