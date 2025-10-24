@@ -612874,6 +612874,22 @@
     schinese: 机动战队VS
     tchinese: 機動戰隊VS
 2464280:
+  cloud:
+    saves:
+      - path: TormentedSouls2/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: TormentedSouls2/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Tormented Souls 2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: TormentedSouls2.exe
+      type: default
   nameLocalized:
     japanese: Tormented Souls 2 (苦悶の魂２)
     koreana: Tormented Souls 2 (토멘티드 소울즈 2)
@@ -622335,7 +622351,10 @@
     schinese: 兽猎突袭
     tchinese: 兽猎突袭
 2827820: {}
-2827960: {}
+2827960:
+  installDir: House Builder 2
+  launch:
+    - executable: HouseBuilder2Full.exe
 2828490:
   cloud:
     saves:

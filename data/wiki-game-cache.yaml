@@ -11223,6 +11223,8 @@ Amnesia:
 Amok:
   pageId: 44042
   steam: 446780
+Amok (1996):
+  pageId: 209634
 Amon:
   pageId: 76531
   steam: 729340
@@ -12929,6 +12931,11 @@ Antaria Online:
 Antegods:
   pageId: 60355
   steam: 410350
+Antek:
+  pageId: 209502
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Antek\\user data\\profiles}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Antek\\user data\\saves}}"
 Antenna:
   pageId: 43690
   steam: 443580
@@ -32481,6 +32488,7 @@ Bubli:
 Bubsy 4D:
   cloud:
     steam: true
+    xbox: true
   gog: 1844328427
   lutris: bubsy-4d
   pageId: 207240
@@ -42520,8 +42528,13 @@ Cloudpunk:
     - 1875880403
     - 1897092010
     - 1940486602
+  lutris: cloudpunk
   pageId: 122480
   steam: 746850
+  steamSide:
+    - 1291400
+    - 1536370
+    - 1643930
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ION LANDS\\Cloudpunk\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Ion Lands\\Cloudpunk\\}}"
@@ -117082,6 +117095,8 @@ Jurassic World Evolution 3:
   steamSide:
     - 3651190
     - 3651200
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Jurassic World Evolution 3}\\{{p|uid}}\\Saves}}"
 Juro Janosik:
   cloud:
     steam: true
@@ -159906,6 +159921,7 @@ Pachansky Mathematics 2+2=8:
 Pacific Drive:
   cloud:
     steam: true
+    xbox: true
   pageId: 193168
   steam: 1458140
   steamSide:
@@ -164496,6 +164512,7 @@ Pinball FX:
   pageId: 176721
   steam: 2328760
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\PinballFX\\Saved\\Config\\WindowsNoEditor\\*.ini}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\PinballFX_STEAM\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Pinball FX2:
   cloud:

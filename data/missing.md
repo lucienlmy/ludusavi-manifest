@@ -1266,6 +1266,7 @@
 * [Ammo Pigs: Armed and Delicious](https://www.pcgamingwiki.com/wiki/?curid=108080)
 * [Amnesia](https://www.pcgamingwiki.com/wiki/?curid=175950)
 * [Amok](https://www.pcgamingwiki.com/wiki/?curid=44042)
+* [Amok (1996)](https://www.pcgamingwiki.com/wiki/?curid=209634)
 * [Amon](https://www.pcgamingwiki.com/wiki/?curid=76531)
 * [Among Ripples](https://www.pcgamingwiki.com/wiki/?curid=48901)
 * [Among Ripples: Shallow Waters](https://www.pcgamingwiki.com/wiki/?curid=139745)

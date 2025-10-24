@@ -41018,6 +41018,18 @@ Antaria Online:
 Antegods:
   steam:
     id: 410350
+Antek:
+  files:
+    "<winAppData>/Antek/user data/profiles":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Antek/user data/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 Antenna:
   files:
     "<winLocalAppData>/Antenna":
@@ -133574,6 +133586,11 @@ Cloudpunk:
       - 1875880403
       - 1897092010
       - 1940486602
+    lutris: cloudpunk
+    steamExtra:
+      - 1291400
+      - 1536370
+      - 1643930
   installDir:
     Cloudpunk: {}
   launch:
@@ -333816,6 +333833,12 @@ House Builder:
 House Builder 2:
   id:
     lutris: house-builder-2
+  installDir:
+    House Builder 2: {}
+  launch:
+    "<base>/HouseBuilder2Full.exe":
+      - when:
+          - store: steam
   steam:
     id: 2827960
 "House Dating VR: Cute Korean Girl, Sehyun":
@@ -365442,14 +365465,11 @@ Jurassic World Evolution 3:
   cloud:
     steam: true
   files:
-    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3/<storeUserId>/Config/*_remote.config.xml":
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3}/<storeUserId>/Saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3/<storeUserId>/Saves":
-      when:
-        - os: windows
-          store: steam
   id:
     steamExtra:
       - 3651190
@@ -511152,6 +511172,11 @@ Pinball FX:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/PinballFX/Saved/Config/WindowsNoEditor/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/PinballFX_STEAM/Saved/SaveGames/<storeUserId>/*.sav":
       tags:
         - save
@@ -746604,6 +746629,14 @@ Tormented Souls 2:
         - os: windows
   gog:
     id: 1154651073
+  installDir:
+    Tormented Souls 2: {}
+  launch:
+    "<base>/TormentedSouls2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2464280
 Tormentor X Punisher:
