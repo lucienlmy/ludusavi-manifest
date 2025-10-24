@@ -48375,9 +48375,37 @@ Arthur and the Invisibles:
   id:
     lutris: arthur-and-the-invisibles
 "Arthur's 1st Grade":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Arthur First Grade/Users/*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Arthur's 1st Grade": {}
+  launch:
+    "<base>/ArthurF1.exe":
+      - when:
+          - store: steam
   steam:
     id: 4056560
 "Arthur's 2nd Grade":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Arthur Second Grade/Users/*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Arthur's 2nd Grade": {}
+  launch:
+    "<base>/ArthurS1.exe":
+      - when:
+          - store: steam
   steam:
     id: 4056570
 "Arthur's Birthday":
@@ -48416,6 +48444,20 @@ Arthur and the Invisibles:
   steam:
     id: 2471170
 "Arthur's Kindergarten":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Arthur Kindergarten/Users/*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Arthur's Kindergarten": {}
+  launch:
+    "<base>/ArthurK1.exe":
+      - when:
+          - store: steam
   steam:
     id: 4056580
 "Arthur's Knights II: The Secret of Merlin":
@@ -95213,6 +95255,26 @@ Bounty Killer:
     steam: true
   steam:
     id: 599490
+Bounty Star:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Dinogod/Bounty Star/Steam/<storeUserId>":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Dinogod/Bounty Star/Steam/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    Bounty Star: {}
+  launch:
+    "<base>/BountyStar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1497430
 Bounty Train:
   cloud:
     gog: true
@@ -132393,6 +132455,8 @@ Clock Tower (2024):
         - save
       when:
         - os: windows
+  gog:
+    id: 1104123739
   installDir:
     Clock Tower Rewind: {}
   launch:
@@ -255234,6 +255298,7 @@ Final Fantasy Tactics - The Ivalice Chronicles:
       when:
         - os: windows
   id:
+    lutris: final-fantasy-tactics-the-ivalice-chronicles
     steamExtra:
       - 58597
       - 1294130
@@ -365466,7 +365531,7 @@ Jurassic World Evolution 3:
   cloud:
     steam: true
   files:
-    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3}/<storeUserId>/Saves":
+    "<home>/Saved Games/Frontier Developments/Jurassic World Evolution 3/<storeUserId>/Saves":
       tags:
         - save
       when:
@@ -510904,6 +510969,7 @@ Pillars of Eternity:
       - 1354196345
       - 1581770611
       - 2125256630
+    lutris: pillars-of-eternity-ii-deadfire
   installDir:
     Pillars of Eternity II: {}
   launch:
@@ -517094,10 +517160,16 @@ Plants vs. Zombies:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/PopCap Games/PvZ Replanted":
+    "<home>/AppData/LocalLow/PopCap Games/PvZ Replanted/<storeUserId>/settings.dat":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/PopCap Games/PvZ Replanted/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     PVZ Replanted: {}
   launch:
@@ -663320,6 +663392,24 @@ Super Fancy Pants Adventure:
             store: steam
   steam:
     id: 668210
+Super Fantasy Kingdom:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Super Fantasy Games/Super Fantasy Kingdom/*.data":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Super Fantasy Kingdom: {}
+  launch:
+    "<base>/Super Fantasy Kingdom.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2289750
 Super Flail:
   installDir:
     SUPER FLAIL: {}
@@ -682252,9 +682342,27 @@ Tattletail:
     id: 568090
 Tattoo Tycoon:
   cloud:
+    epic: true
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Crazybunch/Tattoo Tycoon/savegames/*.*banana":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1120345369
+  id:
+    steamExtra:
+      - 3815930
+      - 3815940
+  installDir:
+    Tattoo Tycoon: {}
+  launch:
+    "<base>/Tattoo Tycoon - Game/Tattoo Tycoon.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2375260
 Tau Defense:
@@ -800739,6 +800847,11 @@ Where Time Stood Still:
             store: steam
   steam:
     id: 814580
+Where Winds Meet:
+  id:
+    lutris: where-winds-meet
+  steam:
+    id: 3564740
 Where are My Pipes?:
   installDir:
     Where are My Pipes: {}

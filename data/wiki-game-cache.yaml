@@ -15312,11 +15312,19 @@ Arthur and the Invisibles:
 Arthur and the Revenge of Maltazard:
   pageId: 172708
 "Arthur's 1st Grade":
+  cloud:
+    steam: true
   pageId: 193075
   steam: 4056560
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Arthur First Grade\\Users\\*.DAT}}"
 "Arthur's 2nd Grade":
+  cloud:
+    steam: true
   pageId: 193073
   steam: 4056570
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Arthur Second Grade\\Users\\*.DAT}}"
 "Arthur's Birthday":
   pageId: 147526
   steam: 2471140
@@ -15331,8 +15339,12 @@ Arthur and the Revenge of Maltazard:
   pageId: 187049
   steam: 2471170
 "Arthur's Kindergarten":
+  cloud:
+    steam: true
   pageId: 193079
   steam: 4056580
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Arthur Kindergarten\\Users\\*.DAT}}"
 "Arthur's Knights II: The Secret of Merlin":
   pageId: 157686
   templates:
@@ -30604,6 +30616,12 @@ Bounty Killer:
     steam: true
   pageId: 59840
   steam: 599490
+Bounty Star:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 210013
+  steam: 1497430
 Bounty Train:
   cloud:
     gog: true
@@ -42143,6 +42161,7 @@ Clock Tower:
 "Clock Tower: Rewind":
   cloud:
     steam: true
+  gog: 1104123739
   pageId: 188644
   renamedFrom:
     - Clock Tower (2024)
@@ -54516,7 +54535,6 @@ Days Gone:
   gogSide:
     - 1183726056
   lutris: days-gone
-  malformed: true
   pageId: 166851
   steam: 1259420
   steamSide:
@@ -81970,6 +81988,7 @@ Final Fantasy IX:
 Final Fantasy Tactics - The Ivalice Chronicles:
   cloud:
     steam: true
+  lutris: final-fantasy-tactics-the-ivalice-chronicles
   pageId: 205155
   steam: 1004640
   steamSide:
@@ -117097,7 +117116,7 @@ Jurassic World Evolution 3:
     - 3651190
     - 3651200
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Jurassic World Evolution 3}\\{{p|uid}}\\Saves}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Jurassic World Evolution 3\\{{p|uid}}\\Saves}}"
 Juro Janosik:
   cloud:
     steam: true
@@ -164404,6 +164423,7 @@ Pillars of Eternity:
     - 1354196345
     - 1581770611
     - 2125256630
+  lutris: pillars-of-eternity-ii-deadfire
   pageId: 57045
   steam: 560130
   templates:
@@ -166427,6 +166447,9 @@ Plants vs. Zombies:
     steam: true
   pageId: 206651
   steam: 3654560
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\PopCap Games\\PvZ Replanted\\{{P|uid}}\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\PopCap Games\\PvZ Replanted\\{{P|uid}}\\}}"
 "Planty's Residence":
   pageId: 199540
   steam: 3181160
@@ -212809,6 +212832,12 @@ Super Fancy Pants Adventure:
     - "{{Game data/config|OS X|{{P|steam}}\\Users\\YourName\\Library\\Application Support\\Steam\\userdata\\{{P|uid}}\\668210\\remote}}"
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\668210\\remote}}"
     - "{{Game data/saves|OS X|{{P|steam}}\\Users\\YourName\\Library\\Application Support\\Steam\\userdata\\{{P|uid}}\\668210\\remote}}"
+Super Fantasy Kingdom:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 210012
+  steam: 2289750
 Super Fighter:
   pageId: 143386
 Super Flail:
@@ -218795,10 +218824,16 @@ Tattletail:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Waygetter Electronics\\Tattletail<ref name=\"gamedata\"/>}}"
 Tattoo Tycoon:
   cloud:
+    epic: true
     steam: true
   gog: 1120345369
   pageId: 206590
   steam: 2375260
+  steamSide:
+    - 3815930
+    - 3815940
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Crazybunch\\Tattoo Tycoon\\savegames\\*.*banana}}"
 Tau Defense:
   pageId: 142163
   steam: 1107860
@@ -230534,6 +230569,7 @@ The Outer Worlds:
 The Outer Worlds 2:
   cloud:
     steam: true
+    xbox: true
   pageId: 169262
   steam: 1449110
 "The Outer Worlds: Spacer's Choice Edition":
@@ -250496,6 +250532,7 @@ Vampire of the Sands:
     - 1829472765
     - 1851649095
   lutris: vampire-the-masquerade-bloodlines-2
+  malformed: true
   pageId: 131333
   steam: 532790
   templates:
@@ -258274,6 +258311,10 @@ Where They Cremate the Roadkill:
 Where Time Stood Still:
   pageId: 88832
   steam: 814580
+Where Winds Meet:
+  lutris: where-winds-meet
+  pageId: 210019
+  steam: 3564740
 Where are My Pipes?:
   pageId: 132365
   steam: 1037000

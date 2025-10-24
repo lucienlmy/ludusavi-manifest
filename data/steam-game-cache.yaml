@@ -558543,6 +558543,28 @@
         oslist: windows
       executable: OpenRoads.exe
       type: default
+1497430:
+  cloud:
+    saves:
+      - path: "Dinogod/Bounty Star/Steam/{64BitSteamID}/"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Dinogod/Bounty Star/Steam/{64BitSteamID}/"
+            replace: ".config/unity3d/Dinogod/Bounty Star/Steam/{64BitSteamID}/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Bounty Star
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: BountyStar.exe
+      type: default
 1497440:
   cloud:
     saves:
@@ -606254,6 +606276,26 @@
       description: temporary launch settings
       executable: Crab God.exe
       type: default
+2289750:
+  cloud:
+    saves:
+      - path: Super Fantasy Games/Super Fantasy Kingdom
+        pattern: "*.data"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Super Fantasy Kingdom
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Super Fantasy Kingdom.exe
+      type: default
+  nameLocalized:
+    japanese: Super Fantasy Kingdom スーパー・ファンタジー・キングダム
+    koreana: Super Fantasy Kingdom 슈퍼 판타지 킹덤
+    schinese: 超级幻想王国 Super Fantasy Kingdom
+    tchinese: 超級幻想王國 Super Fantasy Kingdom
 2290000:
   cloud:
     saves:
@@ -609227,7 +609269,19 @@
       type: default
   nameLocalized:
     schinese: "寻宝英雄：力量手套 Heroes Of Loot: Gauntlet Of Power"
-2375260: {}
+2375260:
+  cloud:
+    saves:
+      - path: Crazybunch/Tattoo Tycoon/savegames
+        pattern: "*.*banana"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Tattoo Tycoon
+  launch:
+    - config:
+        oslist: windows
+      executable: Tattoo Tycoon - Game/Tattoo Tycoon.exe
+      type: default
 2375530:
   installDir: Descenders Next
   launch:
@@ -630679,6 +630733,12 @@
 3561320: {}
 3561600: {}
 3564500: {}
+3564740:
+  nameLocalized:
+    japanese: 風燕伝：Where Winds Meet
+    koreana: 연운
+    schinese: 燕云十六声
+    tchinese: 燕雲十六聲
 3565680: {}
 3566200:
   cloud:
@@ -632064,8 +632124,44 @@
         oslist: windows
       executable: Robot Mil.exe
       type: default
-4056560: {}
-4056570: {}
-4056580: {}
+4056560:
+  cloud:
+    saves:
+      - path: Arthur First Grade/Users
+        pattern: "*.DAT"
+        root: WinMyDocuments
+  installDir: "Arthur's 1st Grade"
+  launch:
+    - executable: ArthurF1.exe
+      type: default
+    - description: Activity Center
+      executable: ArthurF2.exe
+      type: option1
+4056570:
+  cloud:
+    saves:
+      - path: Arthur Second Grade/Users
+        pattern: "*.DAT"
+        root: WinMyDocuments
+  installDir: "Arthur's 2nd Grade"
+  launch:
+    - executable: ArthurS1.exe
+      type: default
+    - description: Activity Center
+      executable: ArthurS2.exe
+      type: option1
+4056580:
+  cloud:
+    saves:
+      - path: Arthur Kindergarten/Users
+        pattern: "*.DAT"
+        root: WinMyDocuments
+  installDir: "Arthur's Kindergarten"
+  launch:
+    - executable: ArthurK1.exe
+      type: default
+    - description: Activity Center
+      executable: ArthurK2.exe
+      type: option1
 4113570: {}
 3221903386: {}
