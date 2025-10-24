@@ -80830,6 +80830,7 @@ Fear the Night:
   steam: 764920
 Fear the Spotlight:
   cloud:
+    epic: true
     steam: true
   lutris: fear-the-spotlight
   pageId: 198729
@@ -232374,6 +232375,12 @@ The Shapeshifting Detective:
 The Shattered Blade:
   pageId: 144993
   steam: 1129410
+The Shattered Sky:
+  lutris: touhou-rakuryuusei-the-shattered-sky
+  pageId: 210011
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\script\\ShatteredSky\\DATA\\|{{p|game}}\\script\\ShatteredSky\\replay\\}}"
 The Shattering:
   cloud:
     gog: true

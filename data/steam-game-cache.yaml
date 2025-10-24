@@ -19021,12 +19021,6 @@
       executable: Game/x64dxvk/RRRE64.exe
       type: option2
       workingdir: Game/x64dxvk
-    - config:
-        oslist: windows
-      description: RaceRoom (32 bit)
-      executable: Game/RRRE.exe
-      type: option3
-      workingdir: Game
 211580:
   installDir: Wanderlust Rebirth
   launch:

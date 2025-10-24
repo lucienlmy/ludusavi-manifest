@@ -251756,6 +251756,7 @@ Fear the Night:
     id: 764920
 Fear the Spotlight:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/CozyGamePals/Fear The Spotlight":
@@ -724343,6 +724344,25 @@ The Shattered Blade:
             store: steam
   steam:
     id: 1129410
+The Shattered Sky:
+  files:
+    "<base>/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/script/ShatteredSky/DATA":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/script/ShatteredSky/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: touhou-rakuryuusei-the-shattered-sky
 The Shattering:
   cloud:
     gog: true
