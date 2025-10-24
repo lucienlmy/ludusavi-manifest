@@ -155929,6 +155929,7 @@ Once Upon A Tile:
 Once Upon a Katamari:
   cloud:
     steam: true
+  lutris: once-upon-a-katamari--1
   pageId: 206671
   steam: 1880620
 Once Upon a Time in Roswell:
@@ -239645,8 +239646,12 @@ Tormented Souls 2:
   gog: 1154651073
   pageId: 190874
   steam: 2464280
+  steamSide:
+    - 3908350
+    - 4084230
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/config|Windows|{{P|game}}\\TormentedSouls2\\Config\\DefaultGameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\SaveGames\\}}"
 Tormentor X Punisher:
   cloud:

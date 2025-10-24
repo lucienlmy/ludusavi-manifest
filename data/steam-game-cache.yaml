@@ -584616,6 +584616,16 @@
     schinese: 绝递必达
     tchinese: 絕遞必達
 1880620:
+  cloud:
+    saves:
+      - path: "Bandai Namco Entertainment/Once Upon A KATAMARI/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.bin"
+        root: WinAppDataLocal
+  installDir: OnceUponaKATAMARI
+  launch:
+    - config:
+        oslist: windows
+      executable: OnceUponaKATAMARI.exe
   nameLocalized:
     japanese: ワンス・アポン・ア・塊魂
     koreana: 옛날 옛적에 괴혼

@@ -484810,6 +484810,19 @@ Once Upon A Tile:
 Once Upon a Katamari:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Bandai Namco Entertainment/Once Upon A KATAMARI/Saved/SaveGames/<storeUserId>/*.bin":
+      when:
+        - store: steam
+  id:
+    lutris: once-upon-a-katamari--1
+  installDir:
+    OnceUponaKATAMARI: {}
+  launch:
+    "<base>/OnceUponaKATAMARI.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1880620
 Once Upon a Time in Roswell:
@@ -746617,6 +746630,11 @@ Tormented Souls 2:
     epic: true
     steam: true
   files:
+    "<base>/TormentedSouls2/Config/DefaultGameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/TormentedSouls2/Saved/Config/Windows/GameUserSettings.ini":
       tags:
         - config
@@ -746629,6 +746647,10 @@ Tormented Souls 2:
         - os: windows
   gog:
     id: 1154651073
+  id:
+    steamExtra:
+      - 3908350
+      - 4084230
   installDir:
     Tormented Souls 2: {}
   launch:
