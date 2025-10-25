@@ -66819,6 +66819,13 @@ Bass Blocks:
             store: steam
   steam:
     id: 400220
+"Bass Pro Shops: Trophy Bass 2007":
+  files:
+    "<base>/WORK/bin/autoexec.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Bassline Sinker:
   installDir:
     Bassline Sinker: {}
@@ -85178,6 +85185,14 @@ Bleak:
   steam:
     id: 1173220
 Bleak Haven:
+  installDir:
+    Bleak Haven: {}
+  launch:
+    "<base>/Bleak Haven.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3566840
 Bleak Sword DX:
@@ -123175,6 +123190,17 @@ Chicken Rider:
   steam:
     id: 871550
 "Chicken Run: Eggstraction":
+  files:
+    "<base>/CR2/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Wildcat: {}
+  launch:
+    "<base>/CR2.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3419690
 Chicken Shoot Gold:
@@ -309255,6 +309281,9 @@ Halo Online:
           - store: steam
   steam:
     id: 459220
+"Halo: Campaign Evolved":
+  steam:
+    id: 2806050
 "Halo: Combat Evolved":
   files:
     "<winDocuments>/HLMD":
@@ -332968,6 +332997,19 @@ Hot Takes:
   steam:
     id: 253390
 "Hot Wheels Let's Race: Ultimate Speed":
+  files:
+    "<winLocalAppData>/Hwr/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "Hot Wheels Let's Race Ultimate Speed": {}
+  launch:
+    "<base>/Hwr/Binaries/Win64/Hwr-Win64-ShippingDRM.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3040910
 "Hot Wheels Monster Trucks: Stunt Mayhem":
@@ -386469,6 +386511,18 @@ Lawnmower Game:
             store: steam
   steam:
     id: 1064090
+Lawnmower Racing Mania 2007:
+  files:
+    "<base>/Saves/<storeUserId>/Profile.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Saves/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Laws of Civilization:
   files:
     "<home>/AppData/LocalLow/Damian Bernardi/Lawgivers/*.locparty":
@@ -398736,18 +398790,16 @@ Little Nightmares Enhanced Edition:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Little Nightmares Enhanced Edition/Saved/Config/WindowsNoEditor/GameUserSettings.ini":
+    "<winLocalAppData>/Little Nightmares Enhanced Edition/Saved/Config/WindowsNoEditor/*.ini":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/Little Nightmares Enhanced Edition/Saved/Config/WindowsNoEditor/Input.ini":
-      when:
-        - os: windows
-          store: steam
     "<winLocalAppData>/Little Nightmares Enhanced Edition/Saved/SaveGames/*.sav":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Little Nightmares Enhanced Edition: {}
   launch:
@@ -608567,6 +608619,7 @@ Silent Hill 3:
     lutris: silent-hill-4-the-room
 Silent Hill f:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/SHf/Saved/Config/Windows/GameUserSettings.ini":
@@ -608589,7 +608642,12 @@ Silent Hill f:
         - save
       when:
         - os: windows
+  gog:
+    id: 1901861030
   id:
+    gogExtra:
+      - 1662307978
+      - 1763303612
     lutris: silent-hill-f
   installDir:
     SILENT HILL f: {}
@@ -615438,9 +615496,24 @@ Slay the Spire:
     origin: true
     steam: true
   files:
+    "<base>/SlayTheSpire.app/Contents/Resources/betaPreferences":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<base>/SlayTheSpire.app/Contents/Resources/preferences":
+      tags:
+        - save
+      when:
+        - os: mac
     "<base>/SlayTheSpire.app/Contents/Resources/preferences/STSGameplaySettings":
       tags:
         - config
+      when:
+        - os: mac
+    "<base>/SlayTheSpire.app/Contents/Resources/runs":
+      tags:
+        - save
       when:
         - os: mac
     "<base>/SlayTheSpire.app/Contents/Resources/saves":
@@ -615451,7 +615524,9 @@ Slay the Spire:
     "<base>/betaPreferences":
       tags:
         - config
+        - save
       when:
+        - os: windows
         - os: linux
     "<base>/info.displayconfig":
       tags:
@@ -615462,8 +615537,16 @@ Slay the Spire:
     "<base>/preferences":
       tags:
         - config
+        - save
       when:
         - os: windows
+        - os: linux
+    "<base>/runs":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
     "<base>/saves":
       tags:
         - save
@@ -667771,6 +667854,27 @@ Superhero League of Hoboken:
             store: steam
   steam:
     id: 1104470
+Superhero Simulator:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/mightyraccoon! Studios/Superhero Simulator/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: superhero-simulator
+    steamExtra:
+      - 4013180
+  installDir:
+    Superhero Simulator: {}
+  launch:
+    "<base>/Superhero Simulator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3531260
 Superhot:
   cloud:
     epic: true
@@ -718698,14 +718802,11 @@ The Outer Worlds 2:
   cloud:
     steam: true
   files:
-    "<home>/Saved Games/Arkansas":
-      when:
-        - os: windows
-          store: steam
     "<home>/Saved Games/TheOuterWorlds2":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     TheOuterWorlds2: {}
   launch:

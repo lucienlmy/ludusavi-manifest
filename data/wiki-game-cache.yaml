@@ -1924,6 +1924,7 @@ $1 Ride:
   pageId: 144419
   steam: 1143420
 "7554: Glorious Memories Revived":
+  malformed: true
   pageId: 162011
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\setting.xml}}"
@@ -21247,6 +21248,10 @@ Basment Dwellers:
 Bass Blocks:
   pageId: 46460
   steam: 400220
+"Bass Pro Shops: Trophy Bass 2007":
+  pageId: 210026
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\WORK\\bin\\autoexec.cfg}}"
 "Bass Pro Shops: Trophy Hunter 2007":
   pageId: 192139
 Bassline Sinker:
@@ -69218,7 +69223,6 @@ ELEX II:
   gog: 1937944261
   gogSide:
     - 1744688785
-  malformed: true
   pageId: 169305
   steam: 900040
   templates:
@@ -99030,6 +99034,9 @@ Halo Wars 2:
     - "{{Game data/config|Steam|{{p|localappdata}}\\Halo Wars\\GameConfig.dat}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.BulldogThreshold_8wekyb3d8bbwe\\SystemAppData\\wgs\\0009000004A4B138_6FA9010088A3442BA8B18CF53D64D3E9\\0059769F9205496C9CE1349E2BD749A4\\}}"
     - "{{Game data/saves|Steam|{{p|game}}\\savegame\\}}"
+"Halo: Campaign Evolved":
+  pageId: 210024
+  steam: 2806050
 "Halo: Combat Evolved":
   lutris: halo-combat-evolved
   pageId: 1298
@@ -123973,6 +123980,11 @@ Lawnmower Game:
 "Lawnmower Game 4: The Final Cut":
   pageId: 135269
   steam: 1064090
+Lawnmower Racing Mania 2007:
+  pageId: 210028
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Saves\\Config.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\{{p|uid}}\\Profile.dat}}"
 Laws of Civilization:
   pageId: 135231
   steam: 683940
@@ -127892,6 +127904,9 @@ Little Nightmares Enhanced Edition:
     xbox: true
   pageId: 205706
   steam: 2149010
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Little Nightmares Enhanced Edition\\Saved\\Config\\WindowsNoEditor\\*.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Little Nightmares Enhanced Edition\\Saved\\SaveGames\\*.sav}}"
 Little Nightmares II:
   cloud:
     gog: true
@@ -195487,8 +195502,13 @@ Silent Hill 3:
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 Silent Hill f:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1901861030
+  gogSide:
+    - 1662307978
+    - 1763303612
   lutris: silent-hill-f
   pageId: 202288
   steam: 2947440
@@ -197683,10 +197703,10 @@ Slay the Spire:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\preferences\\|{{P|localappdata}}\\Packages\\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\info.displayconfig|{{P|localappdata}}\\Packages\\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\twitchconfig.txt}}"
     - "{{Game data/config|OS X|{{P|game}}/SlayTheSpire.app/Contents/Resources/preferences/STSGameplaySettings}}"
     - "{{Game data/config|Linux|{{p|game}}/betaPreferences/|{{P|game}}/info.displayconfig|{{P|game}}/twitchconfig.txt}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\betaPreferences\\|{{p|game}}\\preferences\\|{{p|game}}\\runs\\|{{p|game}}\\saves\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\saves\\}}"
-    - "{{Game data/saves|OS X|{{P|game}}/SlayTheSpire.app/Contents/Resources/saves/}}"
-    - "{{Game data/saves|Linux|{{p|game}}/saves/}}"
+    - "{{Game data/saves|OS X|{{P|game}}/SlayTheSpire.app/Contents/Resources/betaPreferences/|{{P|game}}/SlayTheSpire.app/Contents/Resources/preferences/|{{P|game}}/SlayTheSpire.app/Contents/Resources/runs/|{{P|game}}/SlayTheSpire.app/Contents/Resources/saves/}}"
+    - "{{Game data/saves|Linux|{{p|game}}/betaPreferences/|{{p|game}}/preferences/|{{p|game}}/runs/|{{p|game}}/saves/}}"
 Slay the Spire 2:
   pageId: 194315
   steam: 2868840
@@ -214227,6 +214247,14 @@ Superhero League of Hoboken:
   gog: 1605503821
   pageId: 131615
   steam: 1104470
+Superhero Simulator:
+  cloud:
+    steam: true
+  lutris: superhero-simulator
+  pageId: 210021
+  steam: 3531260
+  steamSide:
+    - 4013180
 Superhot:
   cloud:
     epic: true
@@ -230572,6 +230600,8 @@ The Outer Worlds 2:
     xbox: true
   pageId: 169262
   steam: 1449110
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\TheOuterWorlds2\\}}"
 "The Outer Worlds: Spacer's Choice Edition":
   cloud:
     epic: true
@@ -250532,7 +250562,6 @@ Vampire of the Sands:
     - 1829472765
     - 1851649095
   lutris: vampire-the-masquerade-bloodlines-2
-  malformed: true
   pageId: 131333
   steam: 532790
   templates:

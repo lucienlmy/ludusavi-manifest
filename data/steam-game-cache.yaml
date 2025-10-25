@@ -622009,6 +622009,7 @@
 2805850:
   nameLocalized:
     schinese: 艾特尔：神祇之路
+2806050: {}
 2806640:
   cloud:
     saves:
@@ -625845,7 +625846,21 @@
       type: default
   nameLocalized:
     russian: Приключения Капитана Блада
-3040910: {}
+3040910:
+  cloud:
+    saves:
+      - path: "Hwr\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: "Hot Wheels Let's Race Ultimate Speed"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Hwr\\Binaries\\Win64\\Hwr-Win64-ShippingDRM.exe"
+      type: default
 3041770:
   cloud:
     saves:
@@ -629896,6 +629911,16 @@
     schinese: 检疫区：最后一站
     tchinese: "《Quarantine Zone: The Last Check》"
 3419690:
+  cloud:
+    saves:
+      - path: CR2/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Wildcat
+  launch:
+    - config:
+        oslist: windows
+      executable: CR2.exe
   nameLocalized:
     brazilian: "A Fuga das Galinhas: A Missão"
     danish: "Flugten fra hønsegården: Ægstraktion"
@@ -630521,6 +630546,20 @@
 3529690:
   nameLocalized:
     schinese: 惊悚故事：雪孩子
+3531260:
+  cloud:
+    saves:
+      - path: mightyraccoon! Studios/Superhero Simulator
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Superhero Simulator
+  launch:
+    - config:
+        oslist: windows
+      executable: Superhero Simulator.exe
+      type: default
 3533730:
   installDir: Project Fletcher
   launch:
@@ -630780,7 +630819,28 @@
     - executable: LEAP_LANSimulator.exe
   nameLocalized:
     schinese: 联机迷踪 LAN Party Adventures
-3566840: {}
+3566840:
+  installDir: Bleak Haven
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Bleak Haven.exe
+      type: default
+    - arguments: "-dx11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: "DirectX 11 - Use if the game crashes or performs poorly (low end visuals, FSR not supported)"
+      executable: Bleak Haven.exe
+      type: config
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 12 - Use for the best perfomance (only high end PCs)
+      executable: Bleak Haven.exe
+      type: config
 3571800:
   installDir: Pogo Stick Champion
   launch:
