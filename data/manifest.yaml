@@ -108630,12 +108630,18 @@ Call of Duty Black Ops Cold War:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Packages/38985CA0.PCCallofDutyInfiniteWarfare_5bkah9njm3e9g/LocalState":
-      tags:
-        - config
+    "<base>/players2/config_mp.cfg":
       when:
-        - os: windows
-          store: microsoft
+        - store: steam
+    "<base>/players2/keys_mp.cfg":
+      when:
+        - store: steam
+    "<base>/players2/savegame.svg":
+      when:
+        - store: steam
+    "<base>/players2/settings.zip.iw7":
+      when:
+        - store: steam
   id:
     lutris: call-of-duty-infinite-warfare
   installDir:
@@ -379874,6 +379880,20 @@ Krinkle Krusher:
             store: steam
   steam:
     id: 435010
+KrissX:
+  installDir:
+    KrissX: {}
+  launch:
+    "<base>/KrissX.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/KrissX.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 23140
 Kristala:
   cloud:
     steam: true
@@ -441794,6 +441814,15 @@ Mold on Pizza:
             store: steam
   steam:
     id: 387870
+Mole Control:
+  installDir:
+    Mole Control: {}
+  launch:
+    "<base>/MoleControl.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 23130
 Mole Game:
   installDir:
     Mole: {}
@@ -650535,6 +650564,7 @@ Stellar Blade:
       when:
         - os: windows
   id:
+    lutris: stellar-bladetm
     steamExtra:
       - 3564860
       - 3596170
@@ -718807,6 +718837,17 @@ The Outer Worlds 2:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Arkansas/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/Microsoft.OE-Arkansas_8wekyb3d8bbwe/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     TheOuterWorlds2: {}
   launch:
@@ -820051,6 +820092,17 @@ Your Diary+:
             store: steam
   steam:
     id: 761700
+Your Doodles Are Bugged!:
+  cloud:
+    steam: true
+  installDir:
+    Your Doodles Are Bugged!: {}
+  launch:
+    "<base>/YourDoodlesAreBugged.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 95500
 Your Dry Delight:
   cloud:
     steam: true

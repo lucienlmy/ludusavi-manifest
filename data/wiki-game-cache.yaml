@@ -34801,7 +34801,6 @@ Call of Duty 2:
   pageId: 32597
   steam: 292730
   templates:
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\38985CA0.PCCallofDutyInfiniteWarfare_5bkah9njm3e9g\\LocalState}}"
     - "{{Game data/config|Steam|{{p|game}}\\{{folder|players2}}\\{{file|config_mp.cfg}}|{{p|game}}\\{{folder|players2}}\\{{file|settings.zip.iw7}}|{{p|game}}\\{{folder|players2}}\\{{file|user_keys_sp_0.cfg}}|{{p|game}}\\{{folder|players2}}\\{{file|user_keys_mp_0.cfg}}}}"
     - "{{Game data/saves|Steam|{{P|game}}\\{{folder|players2}}\\{{file|settings.zip.iw7}}|{{P|game}}\\{{folder|players2}}\\{{file|savegame.svg}}|{{P|game}}\\{{folder|players2}}\\{{file|upshd.dat}}}}"
 "Call of Duty: Mobile":
@@ -121780,6 +121779,9 @@ Krieg:
 Krinkle Krusher:
   pageId: 41825
   steam: 435010
+KrissX:
+  pageId: 210037
+  steam: 23140
 Kristala:
   cloud:
     steam: true
@@ -141720,6 +141722,9 @@ Mold on Pizza:
     steam: true
   pageId: 41417
   steam: 387870
+Mole Control:
+  pageId: 210035
+  steam: 23130
 Mole Game:
   pageId: 156537
   steam: 1158410
@@ -208865,6 +208870,7 @@ Stellar Blade:
   cloud:
     epic: true
     steam: true
+  lutris: stellar-bladetm
   pageId: 201491
   steam: 3489700
   steamSide:
@@ -230601,7 +230607,9 @@ The Outer Worlds 2:
   pageId: 169262
   steam: 1449110
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/Arkansas/Saved/Config/Windows/}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\TheOuterWorlds2\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.OE-Arkansas_8wekyb3d8bbwe\\SystemAppData\\wgs\\{{p|uid}}\\}}"
 "The Outer Worlds: Spacer's Choice Edition":
   cloud:
     epic: true
@@ -264539,6 +264547,11 @@ Your Car Shooter:
 Your Diary+:
   pageId: 104299
   steam: 761700
+Your Doodles Are Bugged!:
+  cloud:
+    steam: true
+  pageId: 210031
+  steam: 95500
 Your Dry Delight:
   cloud:
     steam: true

@@ -6819,6 +6819,19 @@
   installDir: Droplitz
   launch:
     - executable: Cascade.exe
+23130:
+  installDir: Mole Control
+  launch:
+    - executable: MoleControl.exe
+23140:
+  installDir: KrissX
+  launch:
+    - config:
+        oslist: windows
+      executable: KrissX.exe
+    - config:
+        oslist: macos
+      executable: KrissX.app
 23150:
   installDir: Fluttabyes
   launch:
@@ -14126,6 +14139,10 @@
         oslist: macos
       description: Launch
       executable: ibbobb.app
+95500:
+  installDir: Your Doodles Are Bugged!
+  launch:
+    - executable: YourDoodlesAreBugged.exe
 95700:
   installDir: The Cat and the Coup
   launch:
@@ -539844,6 +539861,7 @@
         oslist: windows
       executable: totono_Steam.exe
   nameLocalized:
+    koreana: 당신과 그녀와 그녀의 사랑
     schinese: 你和她和她的恋爱。
 1293830:
   installDir: ForzaHorizon4
