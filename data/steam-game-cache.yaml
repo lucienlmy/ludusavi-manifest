@@ -631468,6 +631468,7 @@
         oslist: windows
       executable: Midnight.exe
       type: default
+3657210: {}
 3659280:
   installDir: OffTheGrid
   launch:

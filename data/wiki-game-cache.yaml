@@ -10522,17 +10522,23 @@ Amalgam:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Valve\\Source\\amalgam\\Settings}}"
     - "{{Game data/saves|Windows|{{p|game}}\\amalgam\\save\\||{{p|game}}\\amalgam\\cfg\\config.cfg<ref>{{Refcheck|user=Taylor.mabby654|date=2024-09-22|comment=Contains chapter progress}}</ref>}}"
 Amanda the Adventurer:
+  lutris: amanda-the-adventurer
   pageId: 189513
   steam: 2166060
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\MangledMaw\\Amanda The Adventurer\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\MangledMaw\\Amanda The Adventurer\\}}"
 Amanda the Adventurer 2:
+  lutris: amanda-the-adventurer-2
   pageId: 198612
   steam: 2826800
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\MangledMaw\\Amanda The Adventurer 2\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\MangledMaw\\Amanda The Adventurer 2\\}}"
+Amanda the Adventurer 3:
+  lutris: amanda-the-adventurer-3
+  pageId: 210048
+  steam: 3657210
 "Amanda's Sticker Book":
   pageId: 124139
   steam: 985640
@@ -42855,6 +42861,7 @@ Cocoon:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\GeometricInteractive\\Cocoon\\|{{p|userprofile\\appdata\\locallow}}\\GeometricInteractive\\Cocoon\\{{p|uid}}\\UniverseSettingsSave.far}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\GeometricInteractive\\Cocoon\\{{p|uid}}\\UniverseProgressSave.far}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\AnnapurnaInteractive.UniverseProject_c96c51jf6wkvm\\SystemAppData\\wgs\\{{p|uid}}\\[ID]\\<ref>{{Refcheck|user=Martan|date=2024-01-27|comment={{store feature|Xbox Game Pass}} version}}</ref>}}"
+    - "{{Game data/saves|Steam|%USERPROFILE%\\AppData\\LocalLow\\GeometricInteractive\\Cocoon}}"
 Code 18:
   pageId: 199582
 Code 7:
@@ -80857,8 +80864,8 @@ Fear the Spotlight:
   pageId: 198729
   steam: 1959390
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}/AppData/LocalLow/CozyGamePals/Fear The Spotlight/}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}/AppData/LocalLow/CozyGamePals/Fear The Spotlight/game_*.dat}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\CozyGamePals\\Fear The Spotlight\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\CozyGamePals\\Fear The Spotlight\\game_*.dat}}"
 Fear the Wolves:
   pageId: 99796
   steam: 819500
@@ -86858,6 +86865,7 @@ Fresh Body:
   pageId: 52780
   steam: 550840
 Fresh Start Cleaning Simulator:
+  lutris: fresh-start-cleaning-simulator
   pageId: 201866
   steam: 1856030
   templates:
@@ -156739,7 +156747,8 @@ Onirism:
   pageId: 134685
   steam: 1057640
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Crimson Tales\\Onirism}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Crimson Tales\\Onirism\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Crimson Tales\\Onirism\\}}"
 Onironauta:
   pageId: 72783
   steam: 712610
@@ -207150,8 +207159,8 @@ StarCraft:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Starcraft\\CSettings.json}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Blizzard/StarCraft/CSettings.json}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Starcraft\\Characters\\{{P|uid}}}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Blizzard/StarCraft/Characters/{{P|uid}}}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Starcraft\\Characters\\{{P|uid}}|{{P|userprofile\\Documents}}\\Starcraft\\Save\\{{P|uid}}|{{P|userprofile\\Documents}}\\Starcraft\\maps\\replays\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Blizzard/StarCraft/Characters/{{P|uid}}|{{p|osxhome}}/Library/Application Support/Blizzard/StarCraft/Save/{{P|uid}}|{{p|osxhome}}/Library/Application Support/Blizzard/StarCraft/maps/replays/}}"
 StarCraft II:
   lutris: starcraft-ii
   pageId: 109
@@ -214653,7 +214662,8 @@ Supreme Snowboarding:
   lutris: supreme-snowboarding
   pageId: 179891
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\rd_config.txt}}"
+    - "{{Game data/config|Windows|{{p|game}}\\rd_config.txt|{{p|game}}\\Data\\Detail_Config.txt|{{p|game}}\\Data\\Sound_Config.txt}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saved_Data\\}}"
 "Supreme: Pizza Empire":
   cloud:
     steam: true

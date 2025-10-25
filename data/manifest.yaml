@@ -33325,6 +33325,8 @@ Amanda the Adventurer:
         - save
       when:
         - os: windows
+  id:
+    lutris: amanda-the-adventurer
   installDir:
     Amanda the Adventurer: {}
   launch:
@@ -33341,6 +33343,8 @@ Amanda the Adventurer 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: amanda-the-adventurer-2
   installDir:
     Amanda the Adventurer 2: {}
   launch:
@@ -33350,6 +33354,11 @@ Amanda the Adventurer 2:
             store: steam
   steam:
     id: 2826800
+Amanda the Adventurer 3:
+  id:
+    lutris: amanda-the-adventurer-3
+  steam:
+    id: 3657210
 "Amanda's Sticker Book":
   installDir:
     AmandasStickerBook: {}
@@ -134693,6 +134702,11 @@ Cocoon:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/GeometricInteractive/Cocoon":
+      tags:
+        - save
+      when:
+        - store: steam
     "<home>/AppData/LocalLow/GeometricInteractive/Cocoon/<storeUserId>/UniverseProgressSave.far":
       tags:
         - save
@@ -271483,6 +271497,8 @@ Fresh Start Cleaning Simulator:
         - save
       when:
         - os: windows
+  id:
+    lutris: fresh-start-cleaning-simulator
   installDir:
     Cleaning Simulator: {}
   launch:
@@ -487412,6 +487428,7 @@ Onirism:
   files:
     "<home>/AppData/LocalLow/Crimson Tales/Onirism":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -645015,12 +645032,32 @@ StarCraft:
         - save
       when:
         - os: mac
+    "<home>/Library/Application Support/Blizzard/StarCraft/Save/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Blizzard/StarCraft/maps/replays":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winDocuments>/Starcraft/CSettings.json":
       tags:
         - config
       when:
         - os: windows
     "<winDocuments>/Starcraft/Characters/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Starcraft/Save/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Starcraft/maps/replays":
       tags:
         - save
       when:
@@ -669113,6 +669150,21 @@ Supreme Ruler Ultimate:
     id: 73220
 Supreme Snowboarding:
   files:
+    "<base>/Data/Detail_Config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/Sound_Config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Saved_Data":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/rd_config.txt":
       tags:
         - config
