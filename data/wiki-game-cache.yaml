@@ -108053,6 +108053,11 @@ Hunter:
 Hunter Brick Ball:
   pageId: 96829
   steam: 874130
+"Hunter Dan's Bowfishing Survival Gauntlet":
+  pageId: 210039
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Profiles\\Config.ini|{{p|game}}\\Profiles\\Stats.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.pro}}"
 Hunter Gatherer:
   pageId: 48401
   steam: 359070
@@ -115290,6 +115295,7 @@ Jambo:
 "James Bond 007: The Stealth Affair":
   pageId: 147397
 "James Cameron's Avatar: The Game":
+  lutris: james-camerons-avatartm-the-game
   pageId: 4228
   steam: 33280
   templates:
@@ -132553,6 +132559,7 @@ Mafia III:
 "Mafia: The Old Country":
   cloud:
     steam: true
+  lutris: mafia-the-old-country
   pageId: 197174
   steam: 1941540
   templates:
@@ -142210,6 +142217,7 @@ Monster Capture King:
 Monster Care Simulator:
   cloud:
     steam: true
+  lutris: monster-care-simulator
   pageId: 208809
   steam: 3288270
 Monster Castle:
@@ -178556,6 +178564,16 @@ Rememoried:
 Remind Yourself:
   pageId: 51931
   steam: 538470
+"Remington Super Slam Hunting: Africa":
+  pageId: 210041
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Super Slam Africa\\Config.ini|{{p|userprofile\\Documents}}\\Super Slam Africa\\Config.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Super Slam Africa\\*.sav}}"
+"Remington Super Slam Hunting: Alaska":
+  pageId: 210046
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Super Slam Alaska\\Config.ini|{{p|userprofile\\Documents}}\\Super Slam Alaska\\Config.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Super Slam Alaska\\*.sav}}"
 Remnant II:
   cloud:
     epic: true
@@ -185889,6 +185907,7 @@ S.R.A.C.S:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Stalker2\\Saved\\Config\\Windows\\|{{p|localappdata}}\\Stalker2\\Saved\\GameSettings\\AppliedSettings.cfg|{{p|localappdata}}\\Stalker2\\Saved\\CustomizeControls.cfg}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Stalker2\\Saved\\SaveGames}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Stalker2\\Saved\\STEAM\\SaveGames|{{p|localappdata}}\\Stalker2\\Saved\\STEAM\\*.sav|{{p|localappdata}}\\Stalker2\\Saved\\STEAM\\*.bak}}"
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\Stalker2\\Saved\\GOG\\SaveGames|{{p|localappdata}}\\Stalker2\\Saved\\GOG\\*.sav|{{p|localappdata}}\\Stalker2\\Saved\\GOG\\*.bak}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\GSCGameWorld.S.T.A.L.K.E.R.2HeartofChernobyl_6fr1t1rwfarwt\\SystemAppData\\xgs\\{{p|uid}}\\SaveGames}}"
 "S.T.A.L.K.E.R.: Call of Pripyat":
   cloud:
@@ -206767,8 +206786,8 @@ Star Wars Outlaws:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\GameData\\base\\*.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/*.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\base\\saves\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/saves/}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\base\\saves\\|{{p|game}}\\GameData\\base\\screenshots\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/saves/|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/screenshots/}}"
 "Star Wars: Jedi Knight - Mysteries of the Sith":
   cloud:
     gog: true
@@ -206795,8 +206814,8 @@ Star Wars Outlaws:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\GameData\\base\\*.cfg}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Jedi Knight II/base/*.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\base\\saves\\}}"
-    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Jedi Knight II/base/saves/}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\base\\saves\\|{{p|game}}\\GameData\\base\\screenshots\\}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Jedi Knight II/base/saves/|{{P|osxhome}}/Library/Application Support/Jedi Knight II/base/screenshots/}}"
 "Star Wars: Knights of the Old Republic":
   cloud:
     discord: true
@@ -206892,7 +206911,9 @@ Star Wars Outlaws:
   steam: 455910
   templates:
     - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\LucasArts Entertainment Company LLC\\Rogue Squadron\\v1.0}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\PlayerProfiles}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\PlayerProfiles\\}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\ROGUE\\PlayerProfiles\\}}"
+    - "{{Game data/saves|GOG.com|{{p|game}}\\ROGUE\\PlayerProfiles\\}}"
 "Star Wars: Shadows of the Empire":
   gog: 1449669419
   lutris: star-wars-shadows-of-the-empire
@@ -208802,23 +208823,25 @@ Stein.world:
 Steins;Gate:
   cloud:
     steam: true
+  lutris: steinsgate
   pageId: 18608
   steam: 412830
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Nitroplus\\STEINS;GATE}}"
-    - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS;GATE\\eng}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Nitroplus\\STEINS;GATE}}"
-    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS;GATE\\eng}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Nitroplus\\STEINS;GATE\\}}"
+    - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS;GATE\\eng\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Nitroplus\\STEINS;GATE\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS;GATE\\eng\\SAVEDATA.DAT}}"
 Steins;Gate 0:
   cloud:
     steam: true
+  lutris: steinsgate-0
   pageId: 58201
   steam: 825630
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_dmm\\STEINS GATE 0}}"
-    - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS GATE 0}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_dmm\\STEINS GATE 0}}"
-    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS GATE 0}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_dmm\\STEINS GATE 0\\config.dat}}"
+    - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS GATE 0\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_dmm\\STEINS GATE 0\\SAVEDATA.DAT}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\STEINS GATE 0\\SAVEDATA.DAT}}"
 Steins;Gate Elite:
   cloud:
     steam: true

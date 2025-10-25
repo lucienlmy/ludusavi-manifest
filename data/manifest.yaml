@@ -336988,6 +336988,23 @@ Hunter Brick Ball:
             store: steam
   steam:
     id: 874130
+"Hunter Dan's Bowfishing Survival Gauntlet":
+  files:
+    "<base>/Profiles/<storeUserId>.pro":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Profiles/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Profiles/Stats.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Hunter Gatherer:
   installDir:
     Hunter Gatherer: {}
@@ -360101,6 +360118,8 @@ Jambo:
         - save
       when:
         - os: windows
+  id:
+    lutris: james-camerons-avatartm-the-game
   installDir:
     James Cameron Avatar: {}
   launch:
@@ -413585,6 +413604,8 @@ Mafia III:
         - config
       when:
         - os: windows
+  id:
+    lutris: mafia-the-old-country
   installDir:
     Mafia The Old Country: {}
   steam:
@@ -443395,6 +443416,8 @@ Monster Care Simulator:
     "<home>/AppData/LocalLow/Banana Tiger Studio/Monster Care Simulator":
       when:
         - store: steam
+  id:
+    lutris: monster-care-simulator
   installDir:
     Monster Care Simulator: {}
   launch:
@@ -555825,6 +555848,40 @@ Remind Yourself:
             store: steam
   steam:
     id: 538470
+"Remington Super Slam Hunting: Africa":
+  files:
+    "<winDocuments>/Super Slam Africa/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Super Slam Africa/Config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Super Slam Africa/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+"Remington Super Slam Hunting: Alaska":
+  files:
+    "<winDocuments>/Super Slam Alaska/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Super Slam Alaska/Config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Super Slam Alaska/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Remnant 2:
   alias: Remnant II
 Remnant II:
@@ -578578,6 +578635,24 @@ S.T.A.L.K.E.R. 2:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Stalker2/Saved/GOG/*.bak":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Stalker2/Saved/GOG/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Stalker2/Saved/GOG/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<winLocalAppData>/Stalker2/Saved/GameSettings/AppliedSettings.cfg":
       tags:
         - config
@@ -643838,12 +643913,22 @@ Star Wars Outlaws:
         - save
       when:
         - os: windows
+    "<base>/GameData/base/screenshots":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/Library/Application Support/Jedi Academy/base/*.cfg":
       tags:
         - config
       when:
         - os: mac
     "<home>/Library/Application Support/Jedi Academy/base/saves":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Jedi Academy/base/screenshots":
       tags:
         - save
       when:
@@ -643921,12 +644006,22 @@ Star Wars Outlaws:
         - save
       when:
         - os: windows
+    "<base>/GameData/base/screenshots":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/Library/Application Support/Jedi Knight II/base/*.cfg":
       tags:
         - config
       when:
         - os: mac
     "<home>/Library/Application Support/Jedi Knight II/base/saves":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Jedi Knight II/base/screenshots":
       tags:
         - save
       when:
@@ -644194,6 +644289,12 @@ Star Wars Outlaws:
         - save
       when:
         - os: windows
+    "<base>/ROGUE/PlayerProfiles":
+      tags:
+        - save
+      when:
+        - store: gog
+        - store: steam
   gog:
     id: 1421404950
   id:
@@ -650376,13 +650477,20 @@ Steins;Gate:
         - save
       when:
         - os: windows
-    "<winDocuments>/My Games/mages_steam/STEINS;GATE/eng":
+    "<winDocuments>/My Games/mages_steam/STEINS;GATE/eng/SAVEDATA.DAT":
       tags:
-        - config
         - save
       when:
         - os: windows
           store: steam
+    "<winDocuments>/My Games/mages_steam/STEINS;GATE/eng/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: steinsgate
   installDir:
     STEINS;GATE: {}
   launch:
@@ -650396,19 +650504,30 @@ Steins;Gate 0:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/mages_dmm/STEINS GATE 0":
+    "<winDocuments>/My Games/mages_dmm/STEINS GATE 0/SAVEDATA.DAT":
       tags:
-        - config
         - save
       when:
         - os: windows
-    "<winDocuments>/My Games/mages_steam/STEINS GATE 0":
+    "<winDocuments>/My Games/mages_dmm/STEINS GATE 0/config.dat":
       tags:
         - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/mages_steam/STEINS GATE 0/SAVEDATA.DAT":
+      tags:
         - save
       when:
         - os: windows
           store: steam
+    "<winDocuments>/My Games/mages_steam/STEINS GATE 0/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: steinsgate-0
   installDir:
     STEINS;GATE 0: {}
   launch:
