@@ -4011,6 +4011,7 @@
 * [Bygone Worlds: Drama at the Odeion](https://www.pcgamingwiki.com/wiki/?curid=77952)
 * [Bygone Worlds: Ephesus](https://www.pcgamingwiki.com/wiki/?curid=75604)
 * [Bygone Worlds: Jerusalem](https://www.pcgamingwiki.com/wiki/?curid=78086)
+* [Bylina](https://www.pcgamingwiki.com/wiki/?curid=210063)
 * [ByLo](https://www.pcgamingwiki.com/wiki/?curid=144488)
 * [Bystander](https://www.pcgamingwiki.com/wiki/?curid=76177)
 * [Byte Chaser](https://www.pcgamingwiki.com/wiki/?curid=125107)
