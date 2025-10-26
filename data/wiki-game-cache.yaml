@@ -10539,6 +10539,9 @@ Amanda the Adventurer 3:
   lutris: amanda-the-adventurer-3
   pageId: 210048
   steam: 3657210
+"Amanda the Adventurer: Pilot Episode":
+  lutris: amanda-the-adventurer-pilot-episode
+  pageId: 210073
 "Amanda's Sticker Book":
   pageId: 124139
   steam: 985640
@@ -61616,6 +61619,7 @@ Dispatch:
 Dispatch (2025):
   cloud:
     steam: true
+  lutris: dispatch--3
   pageId: 205211
   renamedFrom:
     - Dispatch (AdHoc)
@@ -76377,6 +76381,13 @@ Exodus from the Earth:
 "Exodus: Rising":
   pageId: 122892
   steam: 951770
+Exogate Initiative:
+  cloud:
+    steam: true
+  pageId: 210071
+  steam: 1681060
+  steamSide:
+    - 3402960
 Exogen VR:
   pageId: 134179
   steam: 1057130
@@ -78340,8 +78351,8 @@ Fairy Wars:
   pageId: 63107
   steam: 1100180
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th128\\th128.cfg}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th128\\scoreth128.dat|{{p|appdata}}\\ShanghaiAlice\\th128\\replay\\|{{p|appdata}}\\ShanghaiAlice\\th128\\snapshot\\}}"
 Fairy in a Jar:
   pageId: 125585
   renamedFrom:
@@ -85601,6 +85612,8 @@ Formula E powered by Virtually Live:
 "Formula E: Grand Prix":
   pageId: 66689
   steam: 683490
+Formula Karts:
+  pageId: 210065
 Formula One 97:
   pageId: 77448
 Formula One 99:
@@ -90618,6 +90631,8 @@ Gearend:
 "Gearguns: Tank Offensive":
   pageId: 40440
   steam: 526250
+Gearheads:
+  pageId: 210067
 Gears 5:
   cloud:
     steam: true
@@ -140723,6 +140738,14 @@ Mining Cats:
 Mining Industry Simulator:
   pageId: 49227
   steam: 321660
+Mining Mechs:
+  cloud:
+    steam: true
+  pageId: 210077
+  steam: 1603180
+  steamSide:
+    - 2695280
+    - 3379790
 Mining Rail:
   cloud:
     steam: true
@@ -198239,6 +198262,11 @@ Sloth Quest:
 "Sloth: Heart to Heart":
   pageId: 127700
   steam: 1015100
+Slots & Daggers:
+  cloud:
+    steam: true
+  pageId: 210083
+  steam: 3631290
 Slow Damage:
   pageId: 199608
 "Slow Down, Bull":
@@ -209906,11 +209934,12 @@ StoryMode - A Game About Crafting:
 Storyteller:
   cloud:
     steam: true
+  lutris: storyteller
   pageId: 186356
   steam: 1624540
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\storyteller\\Storyteller|{{P|hkcu}}\\Software\\storyteller\\Storyteller\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\storyteller\\Storyteller}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\storyteller\\Storyteller\\|{{p|userprofile\\AppData\\LocalLow}}\\storyteller\\Storyteller\\settings.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\storyteller\\Storyteller\\save0.txt|{{p|userprofile\\AppData\\LocalLow}}\\storyteller\\Storyteller\\save1.txt|{{p|userprofile\\AppData\\LocalLow}}\\storyteller\\Storyteller\\save2.txt}}"
 Strafe:
   cloud:
     gog: true
@@ -213426,6 +213455,15 @@ Super Metroid:
 Super Minesweeper attACK:
   pageId: 149678
   steam: 1151940
+Super Mining Mechs:
+  cloud:
+    steam: true
+  pageId: 210079
+  steam: 2830150
+  steamSide:
+    - 3244780
+    - 3379430
+    - 3487300
 Super Mixtape:
   pageId: 39221
   steam: 486660
@@ -219547,6 +219585,8 @@ Tempest:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\LionsShade\\Tempest\\Settings\\settings.tsf|{{P|hkcu}}\\Software\\LionsShade\\Tempest\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\LionsShade\\Tempest\\}}"
+Tempest 2000:
+  pageId: 210069
 Tempest 4000:
   cloud:
     gog: true
@@ -250541,6 +250581,7 @@ Vampire Survivors:
     epic: true
     steam: true
     xbox: true
+  lutris: vampire-survivors
   pageId: 174502
   steam: 1794680
   steamSide:

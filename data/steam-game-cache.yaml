@@ -566510,6 +566510,16 @@
     japanese: ミスター・クーのいろいろ
     schinese: 裂开了！裤先生
     tchinese: 裂開了！褲先生
+1603180:
+  cloud:
+    saves:
+      - path: Mining_Mechs
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Mining Mechs
+  launch:
+    - executable: Mining Mechs.exe
+      type: default
 1603300:
   installDir: Timothy Learys Mind MIrror
   launch:
@@ -572294,6 +572304,32 @@
       type: option1
   nameLocalized:
     japanese: FORSPOKEN
+1681060:
+  cloud:
+    saves:
+      - path: XenoBits/ExogateInitiative/SaveFiles
+        pattern: "*.exosave"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: XenoBits/ExogateInitiative/SaveFiles
+            replace: unity.XenoBits.ExogateInitiative
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: XenoBits/ExogateInitiative/SaveFiles
+            replace: ".config/unity3d/XenoBits/ExogateInitiative"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Exogate Initiative
+  launch:
+    - config:
+        oslist: windows
+      executable: Exogate.exe
 1681160:
   cloud:
     saves:
@@ -622478,6 +622514,15 @@
   nameLocalized:
     schinese: 永恒寒冬
 2830030: {}
+2830150:
+  cloud:
+    saves:
+      - path: Super_Mining_Mechs
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Super Mining Mechs
+  launch:
+    - executable: Super Mining Mechs.exe
 2834910:
   installDir: Rocksmith+
   launch:
@@ -631375,6 +631420,44 @@
       executable: launcheraki.x86_64
       type: default
 3631230: {}
+3631290:
+  cloud:
+    saves:
+      - path: Friedemann/SlotsAndDaggers
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Friedemann/SlotsAndDaggers
+        pattern: "*.tutProg"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Friedemann/SlotsAndDaggers
+            replace: Friedemann/SlotsAndDaggers
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Friedemann/SlotsAndDaggers
+            replace: ".config/unity3D/Friedemann/SlotsAndDaggers"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Slots and Daggers
+  launch:
+    - config:
+        oslist: windows
+      executable: Slots and Daggers.exe
+    - config:
+        oslist: macos
+      executable: Slots and Daggers.app
+  nameLocalized:
+    japanese: スロット＆ダガー | Slots & Daggers
+    koreana: 슬롯 앤 대거 | Slots & Daggers
+    schinese: 命运转轮 | Slots & Daggers
 3633410:
   cloud:
     saves:

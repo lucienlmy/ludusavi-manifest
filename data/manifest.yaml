@@ -33359,6 +33359,9 @@ Amanda the Adventurer 3:
     lutris: amanda-the-adventurer-3
   steam:
     id: 3657210
+"Amanda the Adventurer: Pilot Episode":
+  id:
+    lutris: amanda-the-adventurer-pilot-episode
 "Amanda's Sticker Book":
   installDir:
     AmandasStickerBook: {}
@@ -192851,6 +192854,7 @@ Dispatch (2025):
       when:
         - os: windows
   id:
+    lutris: dispatch--3
     steamExtra:
       - 3920290
   installDir:
@@ -239219,6 +239223,33 @@ Exodus from the Earth:
 "Exodus: Rising":
   steam:
     id: 951770
+Exogate Initiative:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/XenoBits/ExogateInitiative/*.exosave":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/XenoBits/ExogateInitiative/SaveFiles/*.exosave":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.XenoBits.ExogateInitiative/*.exosave":
+      when:
+        - os: mac
+          store: steam
+  id:
+    steamExtra:
+      - 3402960
+  installDir:
+    Exogate Initiative: {}
+  launch:
+    "<base>/Exogate.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1681060
 Exogen VR:
   installDir:
     Exogen VR: {}
@@ -244792,10 +244823,26 @@ Fairy Wars:
   cloud:
     steam: true
   files:
-    "<winAppData>/ShanghaiAlice/th128/**/*.*":
+    "<winAppData>/ShanghaiAlice/th128/replay":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winAppData>/ShanghaiAlice/th128/scoreth128.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th128/snapshot":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th128/th128.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     th128: {}
   launch:
@@ -438626,6 +438673,25 @@ Mining Industry Simulator:
             store: steam
   steam:
     id: 321660
+Mining Mechs:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Mining_Mechs":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 2695280
+      - 3379790
+  installDir:
+    Mining Mechs: {}
+  launch:
+    "<base>/Mining Mechs.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1603180
 Mining Rail:
   cloud:
     steam: true
@@ -617581,6 +617647,45 @@ Sloth Quest:
             store: steam
   steam:
     id: 1015100
+Slots & Daggers:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3D/Friedemann/SlotsAndDaggers/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3D/Friedemann/SlotsAndDaggers/*.tutProg":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/**/*.save":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/**/*.tutProg":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Friedemann/SlotsAndDaggers/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Friedemann/SlotsAndDaggers/*.tutProg":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Slots and Daggers: {}
+  launch:
+    "<base>/Slots and Daggers.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Slots and Daggers.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3631290
 "Slow Down, Bull":
   installDir:
     "Slow Down, Bull": {}
@@ -653808,12 +653913,28 @@ Storyteller:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/storyteller/Storyteller":
+    "<home>/AppData/LocalLow/storyteller/Storyteller/save0.txt":
       tags:
-        - config
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/storyteller/Storyteller/save1.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/storyteller/Storyteller/save2.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/storyteller/Storyteller/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: storyteller
   installDir:
     Storyteller: {}
   launch:
@@ -665327,6 +665448,26 @@ Super Minesweeper attACK:
             store: steam
   steam:
     id: 1151940
+Super Mining Mechs:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Super_Mining_Mechs":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 3244780
+      - 3379430
+      - 3487300
+  installDir:
+    Super Mining Mechs: {}
+  launch:
+    "<base>/Super Mining Mechs.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2830150
 Super Mixtape:
   installDir:
     SuperMixtape: {}
@@ -777601,6 +777742,7 @@ Vampire Survivors:
       when:
         - os: linux
   id:
+    lutris: vampire-survivors
     steamExtra:
       - 2230760
       - 2313550
