@@ -63909,6 +63909,10 @@ Ball X Pit:
         - os: windows
   id:
     lutris: ball-x-pit
+    steamExtra:
+      - 3651790
+      - 4008250
+      - 4091070
   installDir:
     BALLxPIT: {}
   launch:
@@ -167878,6 +167882,23 @@ DarkStory Online:
             store: steam
   steam:
     id: 601530
+Darkblade Ascent:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/OAMRogueLike/Saved/SaveGames":
+      when:
+        - store: steam
+  installDir:
+    Darkblade Ascent: {}
+  launch:
+    "<base>/OAMRogueLike.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2406370
 Darkblood Chronicles:
   installDir:
     Darkblood Chronicles: {}
@@ -168850,6 +168871,22 @@ Darkstone:
             store: steam
   steam:
     id: 320320
+Darkwater:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Targon Studios/Darkwater/*.clip":
+      when:
+        - store: steam
+  installDir:
+    Darkwater: {}
+  launch:
+    "<base>/Darkwater.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 619540
 "Darkwind: War on Wheels":
   installDir:
     darkwind: {}
@@ -223329,6 +223366,15 @@ Elemental War 2:
           - store: steam
   steam:
     id: 216390
+"Elemental: Reforged":
+  installDir:
+    Elemental Reforged: {}
+  launch:
+    "<base>/StardockLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3796960
 Elementals:
   steam:
     id: 1174230
@@ -294736,6 +294782,21 @@ Good Mourning:
             store: steam
   steam:
     id: 1338790
+Good Night Pan Pan:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    GoodNightPanPan: {}
+  launch:
+    "<base>/PanPan":
+      - when:
+          - store: steam
+  steam:
+    id: 3109270
 "Good Night, Knight":
   cloud:
     gog: true
@@ -580000,6 +580061,12 @@ SELF:
   steam:
     id: 3832650
 "SENSEs: Midnight":
+  files:
+    "<home>/AppData/LocalLow/SUZAKU llc/SENSEs_ Midnight":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     SENSEs Midnight: {}
   launch:
@@ -663795,12 +663862,15 @@ Super Fancy Pants Adventure:
     id: 668210
 Super Fantasy Kingdom:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Super Fantasy Games/Super Fantasy Kingdom/*.data":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1106055337
   installDir:
     Super Fantasy Kingdom: {}
   launch:
@@ -669940,6 +670010,17 @@ Survival Kingdom:
             store: steam
   steam:
     id: 534570
+Survival Machine:
+  cloud:
+    steam: true
+  installDir:
+    SurvivalMachine: {}
+  launch:
+    "<base>/SurvivalMachine.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1601330
 Survival Maze:
   installDir:
     Survival Maze: {}
@@ -679900,6 +679981,30 @@ Tales of Monkey Island:
             store: steam
   steam:
     id: 1034560
+Tales of Seikyu:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ACEEntertainment/Tales Of Seikyu/SteamSData/<storeUserId>/**/*.png":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/ACEEntertainment/Tales Of Seikyu/SteamSData/<storeUserId>/**/*.save":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3718710
+  installDir:
+    Tales of Seikyu: {}
+  launch:
+    "<base>/Tales Of Seikyu.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2340520
 Tales of Symphonia:
   cloud:
     steam: true
@@ -784669,6 +784774,33 @@ Vladik Brutal:
 Vladimir Putin Style:
   steam:
     id: 1187590
+Vlobs:
+  files:
+    "<xdgData>/godot/app_userdata/Vlobs/savegame.data":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/godot/app_userdata/Vlobs/settings.data":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: vlobs
+  installDir:
+    Vlobs: {}
+  launch:
+    "<base>/vlobs.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/vlobs.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2253080
 Vodka:
   cloud:
     steam: true
@@ -785822,6 +785954,55 @@ Volkstein:
             store: steam
   steam:
     id: 763200
+Volley Pals:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NAISU/Volley Pals/gamesave.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/NAISU/Volley Pals/gamesave.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/NAISU/Volley Pals/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  gog:
+    id: 1229617105
+  id:
+    gogExtra:
+      - 1433955293
+    lutris: volley-pals
+    steamExtra:
+      - 2320190
+  installDir:
+    Volley Pals: {}
+  launch:
+    "<base>/Volley Pals.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Volley Pals.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Volley Pals.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/NAISU/Volley Pals:
+      tags:
+        - config
+  steam:
+    id: 2170100
 Volleyball Fever:
   installDir:
     Volleyball: {}
@@ -786884,6 +787065,19 @@ Voyagers:
             store: steam
   steam:
     id: 1155800
+Voyagers of Nera:
+  id:
+    steamExtra:
+      - 3955500
+  installDir:
+    Voyagers of Nera: {}
+  launch:
+    "<base>/BoatGame.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - store: steam
+  steam:
+    id: 2686630
 Voyeur:
   installDir:
     Voyeur: {}

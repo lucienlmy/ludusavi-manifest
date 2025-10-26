@@ -19344,6 +19344,8 @@
   launch:
     - arguments: "-uplay_steam_mode"
       executable: Future Soldier.exe
+  nameLocalized:
+    schinese: 幽灵行动：未来战士
 212680:
   cloud:
     saves:
@@ -244177,6 +244179,17 @@
       executable: cyubeVR.sh
       type: vr
 619520: {}
+619540:
+  cloud:
+    saves:
+      - path: Targon Studios/Darkwater
+        pattern: "*.clip"
+        root: WinAppDataLocalLow
+  installDir: Darkwater
+  launch:
+    - config:
+        oslist: windows
+      executable: Darkwater.exe
 619550:
   installDir: Vision
   launch:
@@ -543438,6 +543451,13 @@
         oslist: windows
       executable: China_Builder_06.exe
       type: default
+    - arguments: "-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: "Compatibility Mode (no DirectX 12) — not recommended. Launches the game on platforms without DirectX 12 support. May result in low FPS, reduced visual quality, and stability issues. Use only if the default mode doesn’t work."
+      executable: China_Builder_06.exe
+      type: option1
   nameLocalized:
     schinese: 天朝上国
 1330460:
@@ -566241,6 +566261,11 @@
         oslist: windows
       executable: "WindowsNoEditor\\OptimizedGF.exe"
       type: vr
+1601330:
+  installDir: SurvivalMachine
+  launch:
+    - executable: SurvivalMachine.exe
+      type: default
 1601570:
   cloud:
     saves:
@@ -601241,6 +601266,100 @@
     - config:
         oslist: windows
       executable: NyxLauncher.exe
+2170100:
+  cloud:
+    saves:
+      - path: NAISU/Volley Pals
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: NAISU/Volley Pals
+        pattern: "*.sav"
+        recursive: true
+        root: MacAppSupport
+      - path: ".config/unity3d/NAISU/Volley Pals"
+        pattern: "*.sav"
+        recursive: true
+        root: LinuxHome
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: NAISU/Volley Pals
+            replace: NAISU/Volley Pals
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: NAISU/Volley Pals
+            replace: NAISU/Volley Pals
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: NAISU/Volley Pals
+            replace: ".config/unity3d/NAISU/Volley Pals"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: NAISU/Volley Pals
+            replace: NAISU/Volley Pals
+        root: MacAppSupport
+        useInstead: MacAppSupport
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: NAISU/Volley Pals
+            replace: NAISU/Volley Pals
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: NAISU/Volley Pals
+            replace: ".config/unity3d/NAISU/Volley Pals"
+        root: MacAppSupport
+        useInstead: LinuxHome
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ".config/unity3d/NAISU/Volley Pals"
+            replace: NAISU/Volley Pals
+        root: LinuxHome
+        useInstead: WinAppDataLocalLow
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ".config/unity3d/NAISU/Volley Pals"
+            replace: NAISU/Volley Pals
+        root: LinuxHome
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ".config/unity3d/NAISU/Volley Pals"
+            replace: ".config/unity3d/NAISU/Volley Pals"
+        root: LinuxHome
+        useInstead: LinuxHome
+  installDir: Volley Pals
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Volley Pals.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Volley Pals.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Volley Pals.x86_64
+      type: default
 2170370:
   cloud:
     saves:
@@ -605233,6 +605352,15 @@
   nameLocalized:
     japanese: 惑星開拓 - ファーランド
     schinese: 星球田园诗
+2253080:
+  installDir: Vlobs
+  launch:
+    - config:
+        oslist: windows
+      executable: vlobs.exe
+    - config:
+        oslist: linux
+      executable: vlobs.x86_64
 2253580:
   cloud:
     saves:
@@ -608128,6 +608256,35 @@
     french: Nickelodeon Junior Party Adventure
 2339330: {}
 2340130: {}
+2340520:
+  cloud:
+    saves:
+      - path: "ACEEntertainment/Tales Of Seikyu/SteamSData/{64BitSteamID}"
+        pattern: "*.save"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "ACEEntertainment/Tales Of Seikyu/SteamSData/{64BitSteamID}"
+        pattern: "*.png"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Tales of Seikyu
+  launch:
+    - config:
+        oslist: windows
+      executable: Tales Of Seikyu.exe
+      type: default
+  nameLocalized:
+    italian: I Racconti di Seikyu
+    japanese: 清宮物語
+    koreana: 세이큐 이야기
+    russian: Легенды Сейкю
+    sc_schinese: 青岚物语
+    schinese: 青岚物语
+    tchinese: 青嵐物語
 2340910:
   installDir: VDSC Battle Royal
   launch:
@@ -610607,6 +610764,20 @@
         oslist: windows
       description: Launch
       executable: First_Attempt.exe
+2406370:
+  cloud:
+    saves:
+      - path: OAMRogueLike/Saved/SaveGames
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Darkblade Ascent
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Darkblade Ascent
+      executable: OAMRogueLike.exe
+      type: default
 2406770:
   cloud:
     saves:
@@ -619312,6 +619483,11 @@
     - config:
         oslist: macos
       executable: mindovermagnet.app
+2686630:
+  installDir: Voyagers of Nera
+  launch:
+    - arguments: "-SaveToUserDir"
+      executable: BoatGame.exe
 2686900:
   cloud:
     saves:
@@ -626859,6 +627035,22 @@
   installDir: FlyKnight Prelude
   launch:
     - executable: FlyKnightPrelude.exe
+3109270:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: GoodNightPanPan
+  launch:
+    - executable: PanPan
+      type: default
 3109580:
   cloud:
     saves:
@@ -631849,6 +632041,11 @@
     schinese: 原子之心 2
     tchinese: 原子之心 2
 3789050: {}
+3796960:
+  installDir: Elemental Reforged
+  launch:
+    - executable: StardockLauncher.exe
+      type: default
 3799620:
   installDir: Super Cauldron
   launch:

@@ -20308,6 +20308,10 @@ Ball X Pit:
   lutris: ball-x-pit
   pageId: 209708
   steam: 2062430
+  steamSide:
+    - 3651790
+    - 4008250
+    - 4091070
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kenny Sun\\BALL x PIT\\}}"
@@ -53598,6 +53602,11 @@ DarkStory Online:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Tuttifrutti_Games\\Darkarta_ABHQ_CE\\*.sav}}"
     - "{{Game data/saves|Windows|{{p|APPDATA}}\\Tuttifrutti_Games\\Darkarta_ABHQ_CE\\*.sav}}"
+Darkblade Ascent:
+  cloud:
+    steam: true
+  pageId: 210089
+  steam: 2406370
 Darkblood Chronicles:
   pageId: 76575
   steam: 604920
@@ -53943,6 +53952,11 @@ Darkstone:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+Darkwater:
+  cloud:
+    steam: true
+  pageId: 210101
+  steam: 619540
 "Darkwind: War on Wheels":
   pageId: 49731
   steam: 295710
@@ -71358,6 +71372,9 @@ Elemental War 2:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\FallenEnchantress\\Prefs.ini}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\FallenEnchantress\\Saves\\}}"
+"Elemental: Reforged":
+  pageId: 210091
+  steam: 3796960
 Elementals:
   pageId: 151339
   steam: 1174230
@@ -94295,6 +94312,9 @@ Good Morning World:
 Good Mourning:
   pageId: 164717
   steam: 1338790
+Good Night Pan Pan:
+  pageId: 210099
+  steam: 3109270
 "Good Night, Knight":
   cloud:
     gog: true
@@ -186379,6 +186399,8 @@ SELF:
 "SENSEs: Midnight":
   pageId: 179120
   steam: 1664430
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SUZAKU llc\\SENSEs_ Midnight\\}}"
 SEPTEMBER 1999:
   pageId: 114968
   steam: 952250
@@ -212928,8 +212950,10 @@ Super Fancy Pants Adventure:
     - "{{Game data/saves|OS X|{{P|steam}}\\Users\\YourName\\Library\\Application Support\\Steam\\userdata\\{{P|uid}}\\668210\\remote}}"
 Super Fantasy Kingdom:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1106055337
   pageId: 210012
   steam: 2289750
 Super Fighter:
@@ -214900,6 +214924,11 @@ Survival Kingdom:
     steam: true
   pageId: 51569
   steam: 534570
+Survival Machine:
+  cloud:
+    steam: true
+  pageId: 210103
+  steam: 1601330
 Survival Maze:
   pageId: 92049
   steam: 842510
@@ -218079,6 +218108,13 @@ Tales of Monkey Island:
 "Tales of Nebezem: Red Peril":
   pageId: 129920
   steam: 1034560
+Tales of Seikyu:
+  cloud:
+    steam: true
+  pageId: 210097
+  steam: 2340520
+  steamSide:
+    - 3718710
 Tales of Symphonia:
   cloud:
     steam: true
@@ -252871,6 +252907,13 @@ Vladik Brutal:
 Vladimir Putin Style:
   pageId: 153378
   steam: 1187590
+Vlobs:
+  lutris: vlobs
+  pageId: 210084
+  steam: 2253080
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/godot/app_userdata/Vlobs/settings.data}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/godot/app_userdata/Vlobs/savegame.data}}"
 Vodka:
   cloud:
     steam: true
@@ -253227,6 +253270,22 @@ Volgarr the Viking II:
 Volkstein:
   pageId: 89557
   steam: 763200
+Volley Pals:
+  cloud:
+    steam: true
+  gog: 1229617105
+  gogSide:
+    - 1433955293
+  lutris: volley-pals
+  pageId: 210087
+  steam: 2170100
+  steamSide:
+    - 2320190
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\NAISU\\Volley Pals\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/NAISU/Volley Pals/prefs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\NAISU\\Volley Pals\\gamesave.sav}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/NAISU/Volley Pals/gamesave.sav}}"
 Volleyball Fever:
   pageId: 141231
   steam: 599590
@@ -253522,6 +253581,11 @@ Voyage to Farland:
 Voyagers:
   pageId: 148852
   steam: 1155800
+Voyagers of Nera:
+  pageId: 210093
+  steam: 2686630
+  steamSide:
+    - 3955500
 Voyeur:
   pageId: 147054
   steam: 1414500
