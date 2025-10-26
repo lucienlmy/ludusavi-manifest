@@ -504545,6 +504545,12 @@ Pax Augusta:
     id: 1989760
 Pax Dei:
   files:
+    "<winLocalAppData>/PaxDei/Saved/Config/WinGDKClient/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/PaxDei/Saved/Config/WindowsClient/GameUserSettings.ini":
       tags:
         - config

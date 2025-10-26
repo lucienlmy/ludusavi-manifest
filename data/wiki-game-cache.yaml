@@ -162308,6 +162308,7 @@ Pax Dei:
     - 2919400
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\PaxDei\\Saved\\Config\\WindowsClient\\GameUserSettings.ini}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\PaxDei\\Saved\\Config\\WinGDKClient\\GameUserSettings.ini}}"
 Pax Imperia:
   pageId: 203528
 "Pax Imperia: Eminent Domain":
@@ -186136,6 +186137,8 @@ SCAR Squadra Corse Alfa Romeo:
   templates:
     - "{{Game data/config|Windows|{{P|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves}}"
+SCARAB:
+  pageId: 210055
 SCARF (Isaac James):
   pageId: 137332
   steam: 844740
@@ -252432,6 +252435,8 @@ Virtual Islands:
   pageId: 209355
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
+Virtual Karts:
+  pageId: 210057
 Virtual Magic Kingdom:
   pageId: 161338
 Virtual Ninja VR:
