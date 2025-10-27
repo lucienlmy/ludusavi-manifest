@@ -621884,6 +621884,27 @@
   launch:
     - executable: Launch The Tortoise And The Hare.exe
       type: default
+2786660:
+  cloud:
+    saves:
+      - path: Outright Games Ltd/Barbie/
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Barbie Horse Trails
+  launch:
+    - executable: barbie.exe
+  nameLocalized:
+    french: Barbie™ Sentiers équestres
+    german: Barbie™ Reitwege
+    italian: Barbie™ Sentieri a cavallo
+    japanese: Barbie™ ホーストレイル
+    koreana: Barbie™ 호스 트레일
+    russian: Barbie™ Конные тропы
+    schinese: Barbie™ 马儿之旅
+    spanish: Barbie™ Rutas a caballo
+    tchinese: Barbie™ 馬背探險
+    turkish: Barbie™ At Patikaları
+    ukrainian: Barbie™ Кінні стежки
 2787320:
   cloud:
     saves:

@@ -13431,8 +13431,12 @@ Apolune:
 "Aporia: Beyond The Valley":
   cloud:
     steam: true
+  lutris: aporia-beyond-the-valley
   pageId: 62036
   steam: 573130
+  steamSide:
+    - 646880
+    - 669590
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\user\\system\\|{{p|game}}\\user\\profiles\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\user\\savegames\\}}"
@@ -20866,6 +20870,9 @@ Barbie Fashion Designer:
   pageId: 198080
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Barbie Horse Adventures - Riding Camp\\SaveGame\\}}"
+Barbie Horse Trails:
+  pageId: 210109
+  steam: 2786660
 Barbie Pet Rescue:
   pageId: 170646
 Barbie Sparkling Ice Show:
@@ -94315,6 +94322,9 @@ Good Mourning:
 Good Night Pan Pan:
   pageId: 210099
   steam: 3109270
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\PanPan\\Saved\\Config\\Windows|}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\PanPan\\Saved\\SaveGames|}}"
 "Good Night, Knight":
   cloud:
     gog: true
@@ -139246,6 +139256,8 @@ Microsoft Minesweeper:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Packages\\Microsoft.MicrosoftMinesweeper_8wekyb3d8bbwe\\LocalState\\}}"
 Microsoft Pinball Arcade:
   pageId: 11227
+Microsoft Return of Arcade:
+  pageId: 210105
 Microsoft Revenge of Arcade:
   pageId: 13002
 Microsoft Soccer:
@@ -189353,6 +189365,8 @@ Schrott:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Italic Pig\\Schrödinger's Cat and the Raiders of the Lost Quark\\}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Italic Pig\\Schrödinger's Cat and the Raiders of the Lost Quark\\catinfo_*}}"
+Sci-Fi Pinball:
+  pageId: 210107
 Sci-fi Chess:
   pageId: 91084
   steam: 833640
@@ -239169,8 +239183,8 @@ Tomb Raider II:
   pageId: 7003
   steam: 225300
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Core Design\\Tomb Raider II}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\savegame.*}}"
+    - "{{Game data/config|Windows|{{P|HKCU}}\\Software\\Core Design\\Tomb Raider II}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\savegame.*}}"
 "Tomb Raider III: Adventures of Lara Croft":
   gog: 1207663493
   gogSide:

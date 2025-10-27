@@ -42631,6 +42631,11 @@ Apolune:
         - config
       when:
         - os: windows
+  id:
+    lutris: aporia-beyond-the-valley
+    steamExtra:
+      - 646880
+      - 669590
   installDir:
     Aporia: {}
   launch:
@@ -65545,6 +65550,19 @@ Barbie Fashion Designer:
         - os: windows
   id:
     lutris: barbie-horse-adventures-riding-camp
+Barbie Horse Trails:
+  files:
+    "<home>/AppData/LocalLow/Outright Games Ltd/Barbie":
+      when:
+        - store: steam
+  installDir:
+    Barbie Horse Trails: {}
+  launch:
+    "<base>/barbie.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2786660
 Barbie Sparkling Ice Show:
   files:
     "<base>/Game.dat":
@@ -294784,11 +294802,16 @@ Good Mourning:
     id: 1338790
 Good Night Pan Pan:
   files:
-    "<base>/SavesDir/*.sav":
+    "<winLocalAppData>/PanPan/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
         - os: windows
-          store: steam
+    "<winLocalAppData>/PanPan/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     GoodNightPanPan: {}
   launch:
