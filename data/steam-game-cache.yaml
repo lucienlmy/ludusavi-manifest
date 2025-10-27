@@ -511152,6 +511152,19 @@
   nameLocalized:
     english: Project Oasis
     schinese: 绿洲计划
+1168870:
+  installDir: Mists of Noyah
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Mists_of_Noyah.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Mists of Noyah.x86_64
+      type: default
 1168880:
   cloud:
     saves:
@@ -540420,6 +540433,26 @@
     sc_schinese: 哥布林弹球
     schinese: 哥布林弹球 Peglin
     tchinese: 柏青哥布林 Peglin
+1296830:
+  cloud:
+    saves:
+      - path: "BadMudStudio\\WarmSnow\\Save"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: WarmSnow
+  launch:
+    - config:
+        oslist: windows
+      executable: WarmSnow.exe
+      type: none
+    - config:
+        ownsdlc: "2936000"
+      description: WarmSnow Artbook
+      executable: WarmSnow_Data/Artbook/ArtBook.pdf
+  nameLocalized:
+    sc_schinese: 暖雪 Warm Snow
 1296980:
   cloud:
     saves:
@@ -565696,6 +565729,39 @@
   nameLocalized:
     schinese: 洛蕾塔
     tchinese: 蘿厲塔
+1592670:
+  cloud:
+    saves:
+      - path: bilibiliGame/SodaCrisis
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: unity3d/
+        pattern: "*.es3"
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+      - path: /Library/Application Support/DevsOfReinitialized/CodeRI
+        pattern: "*.es3"
+        root: MacHome
+  installDir: Soda Crisis
+  launch:
+    - config:
+        oslist: windows
+      executable: SodaCrisis.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "Contents\\MacOS\\SodaCrisis"
+      type: none
+    - config:
+        oslist: linux
+      executable: SodaCrisisDemo.x86_64
+      type: none
+  nameLocalized:
+    english: Soda Crisis
+    schinese: 碳酸危机
 1592740:
   installDir: Railroad Ink Challenge
   launch:
@@ -588762,6 +588828,28 @@
         oslist: windows
       executable: BeautifulMysticSurvivors.exe
       type: default
+1930640:
+  cloud:
+    saves:
+      - path: DSGame/Lost2/SaveData
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: DSGame/Lost2/SaveData
+        pattern: "*.sav"
+        platforms:
+          - MacOS
+        root: MacAppSupport
+      - path: unity3d/DSGame/Lost2/SaveData
+        pattern: "*.sav"
+        platforms:
+          - Linux
+        root: LinuxXdgDataHome
+  installDir: Lost2
+  launch:
+    - executable: Lost2.exe
+      type: config
 1931010:
   cloud:
     saves:
@@ -590472,6 +590560,27 @@
   installDir: Terminal_Velocity_Boosted_Edition
   launch:
     - executable: terminal_velocity.exe
+1956600:
+  cloud:
+    saves:
+      - path: DSGame/Yusetsu
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: DSGame/Yusetsu/Admin
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Yusetsu
+  launch:
+    - config:
+        oslist: windows
+      executable: Yusetsu.exe
+      type: default
+  nameLocalized:
+    english: Yusetsu
 1956830:
   installDir: The Bathhouse  地獄銭湯
   launch:
@@ -596906,6 +597015,22 @@
         oslist: linux
       executable: frogs_steam_linux_x64
       type: default
+2080690:
+  cloud:
+    saves:
+      - path: "Vector3 Studio\\Sunkenland"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Sunkenland
+  launch:
+    - config:
+        oslist: windows
+      executable: Sunkenland.exe
+  nameLocalized:
+    schinese: 沉没之地
 2081080:
   cloud:
     saves:
@@ -623473,6 +623598,14 @@
   launch:
     - executable: SuperAliceDolls.exe
       type: default
+2887910:
+  installDir: BUMP! Superbrawl
+  launch:
+    - arguments: "-uplay_steam_mode"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Bump! SuperBrawl.exe
 2888860:
   installDir: Go! Go! Hamster Chef!
   launch:
@@ -624961,6 +625094,12 @@
       type: default
 2989840: {}
 2989930: {}
+2990600:
+  installDir: FiresideFeelings
+  launch:
+    - config:
+        osarch: "64"
+      executable: FiresideFeelings.exe
 2990640:
   cloud:
     saves:
@@ -628454,6 +628593,25 @@
       description: Carry The Glass DirectX 11
       executable: GlassCarriers.exe
 3263390: {}
+3265060:
+  cloud:
+    saves:
+      - path: DefaultCompany/Touhou Dystopian
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Touhou Dystopian
+  launch:
+    - config:
+        oslist: windows
+      executable: Touhou Dystopian.exe
+      type: default
+  nameLocalized:
+    english: Touhou Dystopian
+    japanese: 東方異域見聞 ~ Touhou Dystopian
+    tchinese: 東方異域見聞 ~ Touhou Dystopian
 3265070:
   cloud:
     saves:

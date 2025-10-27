@@ -19347,6 +19347,9 @@ BUILD:
 BULLETGROUNDS:
   pageId: 113642
   steam: 911380
+BUMP! Superbrawl:
+  pageId: 210118
+  steam: 2887910
 BUS SIMULATOR:
   pageId: 150285
   steam: 1172280
@@ -34825,8 +34828,8 @@ Call of Duty 2:
   pageId: 32597
   steam: 292730
   templates:
-    - "{{Game data/config|Steam|{{p|game}}\\{{folder|players2}}\\{{file|config_mp.cfg}}|{{p|game}}\\{{folder|players2}}\\{{file|settings.zip.iw7}}|{{p|game}}\\{{folder|players2}}\\{{file|user_keys_sp_0.cfg}}|{{p|game}}\\{{folder|players2}}\\{{file|user_keys_mp_0.cfg}}}}"
-    - "{{Game data/saves|Steam|{{P|game}}\\{{folder|players2}}\\{{file|settings.zip.iw7}}|{{P|game}}\\{{folder|players2}}\\{{file|savegame.svg}}|{{P|game}}\\{{folder|players2}}\\{{file|upshd.dat}}}}"
+    - "{{Game data/config|Steam|{{p|game}}\\players2\\config_mp.cfg|{{p|game}}\\players2\\settings.zip.iw7|{{p|game}}\\players2\\user_keys_sp_0.cfg|{{p|game}}\\players2\\user_keys_mp_0.cfg}}"
+    - "{{Game data/saves|Steam|{{P|game}}\\players2\\settings.zip.iw7|{{P|game}}\\players2\\savegame.svg|{{P|game}}\\players2\\upshd.dat}}"
 "Call of Duty: Mobile":
   pageId: 196222
   templates:
@@ -56779,6 +56782,9 @@ Deconstruction Simulator:
   lutris: deconstruction-simulator
   pageId: 209209
   steam: 2487150
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\DeconstructionSim\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\DeconstructionSim\\Saved\\SaveGames\\FullGame\\{{P|uid}}\\*.sav}}"
 Deconstructor:
   pageId: 95331
   steam: 862120
@@ -82740,6 +82746,13 @@ Fires at Midnight:
   steamSide:
     - 1368090
     - 1368390
+Fireside Feelings:
+  cloud:
+    steam: true
+  pageId: 210113
+  steam: 2990600
+  steamSide:
+    - 3805590
 Firestone Idle RPG:
   cloud:
     epic: true
@@ -129886,6 +129899,11 @@ Lost in the Tomb:
 Lost with Dinosaurs:
   pageId: 68925
   steam: 702200
+Lost2:
+  cloud:
+    steam: true
+  pageId: 210121
+  steam: 1930640
 "Lost: Via Domus":
   pageId: 52971
   steam: 15290
@@ -133669,7 +133687,9 @@ Mainframe Defenders:
     - 1597790
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\ZeroTheCat\\Mainframe\\*.ini|{{P|hkcu}}\\Software\\ZeroTheCat\\Mainframe\\}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/ZeroTheCat/Mainframe/*.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ZeroTheCat\\Mainframe\\current.sav}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/ZeroTheCat/Mainframe/current.sav}}"
 Mainland:
   pageId: 47962
   steam: 366800
@@ -141373,6 +141393,11 @@ Mistress of Maids:
 "Mistress of Maids: First Castle":
   pageId: 130145
   steam: 1035800
+Mists of Noyah:
+  pageId: 210131
+  steam: 1168870
+  steamSide:
+    - 2003460
 Mistward:
   cloud:
     steam: true
@@ -199563,6 +199588,11 @@ Sockventure:
 Socxel - Pixel Soccer:
   pageId: 61232
   steam: 586190
+Soda Crisis:
+  cloud:
+    steam: true
+  pageId: 210127
+  steam: 1592670
 Soda Drinker Pro:
   pageId: 43616
   steam: 347720
@@ -212295,6 +212325,9 @@ Sunken:
 Sunken (2018):
   pageId: 137302
   steam: 884470
+Sunkenland:
+  pageId: 210123
+  steam: 2080690
 Sunless Sea:
   cloud:
     epic: true
@@ -233690,10 +233723,13 @@ The Swordsmen X:
     - 891630
     - 891660
 The Séance of Blake Manor:
+  lutris: the-seance-of-blake-manor
   pageId: 165507
   renamedFrom:
     - Eldritch House
   steam: 1395520
+  steamSide:
+    - 3547180
 The Table at War:
   pageId: 54361
   steam: 555230
@@ -239861,8 +239897,7 @@ Tormented Souls 2:
     - 3908350
     - 4084230
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
-    - "{{Game data/config|Windows|{{P|game}}\\TormentedSouls2\\Config\\DefaultGameUserSettings.ini}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\Config\\Windows\\GameUserSettings.ini|{{P|game}}\\TormentedSouls2\\Config\\DefaultGameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TormentedSouls2\\Saved\\SaveGames\\}}"
 Tormentor X Punisher:
   cloud:
@@ -240416,6 +240451,11 @@ Touhou Double Focus:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\DoubleFocus\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\DoubleFocus\\}}"
+Touhou Dystopian:
+  cloud:
+    steam: true
+  pageId: 210117
+  steam: 3265060
 "Touhou Fairy Knockout: One Fairy to Rule Them All":
   cloud:
     steam: true
@@ -256252,6 +256292,16 @@ Warlords III:
 Warlords.IO:
   pageId: 121867
   steam: 899000
+Warm Snow:
+  cloud:
+    steam: true
+  pageId: 210125
+  steam: 1296830
+  steamSide:
+    - 2147220
+    - 2612950
+    - 2936000
+    - 3103920
 Warm Up!:
   pageId: 22682
   templates:
@@ -265114,6 +265164,11 @@ Yuppie Psycho:
 Yury:
   pageId: 49155
   steam: 321950
+Yusetsu:
+  cloud:
+    steam: true
+  pageId: 210129
+  steam: 1956600
 Yuso:
   cloud:
     steam: true

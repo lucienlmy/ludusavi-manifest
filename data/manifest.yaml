@@ -60934,6 +60934,18 @@ BUILD:
 BULLETGROUNDS:
   steam:
     id: 911380
+BUMP! Superbrawl:
+  installDir:
+    BUMP! Superbrawl: {}
+  launch:
+    "<base>/Bump! SuperBrawl.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2887910
 BUS SIMULATOR:
   installDir:
     BUS SIMULATOR: {}
@@ -108670,15 +108682,34 @@ Call of Duty Black Ops Cold War:
     steam: true
   files:
     "<base>/players2/config_mp.cfg":
-      when:
-        - store: steam
-    "<base>/players2/keys_mp.cfg":
+      tags:
+        - config
       when:
         - store: steam
     "<base>/players2/savegame.svg":
+      tags:
+        - save
       when:
         - store: steam
     "<base>/players2/settings.zip.iw7":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+    "<base>/players2/upshd.dat":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/players2/user_keys_mp_0.cfg":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/players2/user_keys_sp_0.cfg":
+      tags:
+        - config
       when:
         - store: steam
   id:
@@ -177936,10 +177967,16 @@ Deconstruction Simulator:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/DeconstructionSim/Saved/SaveGames/**/*.sav":
+    "<winLocalAppData>/DeconstructionSim/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/DeconstructionSim/Saved/SaveGames/FullGame/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: deconstruction-simulator
   installDir:
@@ -257625,6 +257662,21 @@ Fires at Midnight:
             store: steam
   steam:
     id: 1282140
+Fireside Feelings:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3805590
+  installDir:
+    FiresideFeelings: {}
+  launch:
+    "<base>/FiresideFeelings.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 2990600
 Firestone Idle RPG:
   cloud:
     epic: true
@@ -404934,6 +404986,26 @@ Lost with Dinosaurs:
             store: steam
   steam:
     id: 702200
+Lost2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DSGame/Lost2/SaveData/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/DSGame/Lost2/SaveData/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<xdgData>/unity3d/DSGame/Lost2/SaveData/*.sav":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Lost2: {}
+  steam:
+    id: 1930640
 "Lost: Via Domus":
   files:
     "<winDocuments>/Lost Via Domus":
@@ -416758,6 +416830,16 @@ Mainframe Defenders:
   cloud:
     steam: true
   files:
+    "<home>/.config/unity3d/ZeroTheCat/Mainframe/*.ini":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/ZeroTheCat/Mainframe/current.sav":
+      tags:
+        - save
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/ZeroTheCat/Mainframe/*.ini":
       tags:
         - config
@@ -440675,6 +440757,25 @@ Mistress of Maids:
           - store: steam
   steam:
     id: 1035800
+Mists of Noyah:
+  id:
+    steamExtra:
+      - 2003460
+  installDir:
+    Mists of Noyah: {}
+  launch:
+    "<base>/Mists of Noyah.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Mists_of_Noyah.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1168870
 Mistward:
   cloud:
     steam: true
@@ -621754,6 +621855,34 @@ Sockventure:
 Socxel - Pixel Soccer:
   steam:
     id: 586190
+Soda Crisis:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/bilibiliGame/SodaCrisis/*.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/DevsOfReinitialized/CodeRI/*.es3":
+      when:
+        - store: steam
+  installDir:
+    Soda Crisis: {}
+  launch:
+    "<base>/Contents/MacOS/SodaCrisis":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SodaCrisis.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SodaCrisisDemo.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1592670
 Soda Drinker Pro:
   installDir:
     Soda Drinker Pro: {}
@@ -661508,6 +661637,21 @@ Sunken (2018):
           - store: steam
   steam:
     id: 884470
+Sunkenland:
+  files:
+    "<home>/AppData/LocalLow/Vector3 Studio/Sunkenland":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Sunkenland: {}
+  launch:
+    "<base>/Sunkenland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2080690
 Sunless Sea:
   cloud:
     epic: true
@@ -728268,6 +728412,10 @@ The Swordsmen X:
   steam:
     id: 840140
 The Séance of Blake Manor:
+  id:
+    lutris: the-seance-of-blake-manor
+    steamExtra:
+      - 3547180
   steam:
     id: 1395520
 The Table at War:
@@ -748998,6 +749146,23 @@ Touhou Double Focus:
             store: steam
   steam:
     id: 1270670
+Touhou Dystopian:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DefaultCompany/Touhou Dystopian/**/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Touhou Dystopian: {}
+  launch:
+    "<base>/Touhou Dystopian.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3265060
 "Touhou Fairy Knockout: One Fairy to Rule Them All":
   cloud:
     steam: true
@@ -794311,6 +794476,29 @@ Warlords.IO:
             store: steam
   steam:
     id: 899000
+Warm Snow:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow/Save":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 2147220
+      - 2612950
+      - 2936000
+      - 3103920
+  installDir:
+    WarmSnow: {}
+  launch:
+    "<base>/WarmSnow.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1296830
 Warm Up!:
   files:
     "<base>/PLR":
@@ -821921,6 +822109,27 @@ Yury:
             store: steam
   steam:
     id: 321950
+Yusetsu:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DSGame/Yusetsu/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/DSGame/Yusetsu/Admin/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Yusetsu: {}
+  launch:
+    "<base>/Yusetsu.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1956600
 Yuso:
   cloud:
     steam: true
