@@ -32267,8 +32267,12 @@ Brotato:
   lutris: brotato
   pageId: 188573
   steam: 1942280
+  steamSide:
+    - 2868390
+    - 3281080
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Brotato\\{{p|uid}}\\*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Brotato/{{p|uid}}/*.json}}"
 Brother Bear:
   pageId: 97679
   templates:
@@ -58033,6 +58037,11 @@ Demon Hearts:
 Demon Horde Master:
   pageId: 47142
   steam: 380790
+Demon Hunt:
+  cloud:
+    steam: true
+  pageId: 210148
+  steam: 3039910
 Demon Hunter:
   pageId: 50855
   steam: 535530
@@ -74160,6 +74169,9 @@ Escape Simulator 2:
     steam: true
   pageId: 199961
   steam: 2879840
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Pine Studio\\Escape Simulator 2\\*.sav|{{p|game}}\\Pine Studio\\Escape Simulator 2\\LevelSaves\\*.sav|{{p|userprofile\\appdata\\locallow}}\\Pine Studio\\Escape Simulator 2\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Pine Studio/Escape Simulator 2}}"
 Escape Station:
   pageId: 40424
   steam: 527360
@@ -80414,6 +80426,14 @@ Fat Prisoner Simulator 2:
 FatEX Courier Simulator:
   pageId: 137322
   steam: 904850
+"Fata Deum: The God Sim":
+  cloud:
+    steam: true
+  pageId: 210152
+  steam: 1330360
+  steamSide:
+    - 3960210
+    - 3969160
 Fatal Burst:
   pageId: 89626
   steam: 818220
@@ -96612,6 +96632,11 @@ Ground Zero:
     steam: true
   pageId: 205730
   steam: 2340130
+Ground of Aces:
+  pageId: 210146
+  steam: 2308690
+  steamSide:
+    - 3851890
 GroundFall:
   pageId: 132664
   steam: 934260
@@ -117751,6 +117776,13 @@ Kagetsu Tohya:
 Kagura Douchuuki:
   pageId: 45936
   steam: 378790
+"Kagura Survivors: Endless Night":
+  cloud:
+    steam: true
+  pageId: 210140
+  steam: 2348120
+  steamSide:
+    - 3235000
 Kai Entity:
   pageId: 110704
   steam: 931620
@@ -129904,6 +129936,9 @@ Lost2:
     steam: true
   pageId: 210121
   steam: 1930640
+"Lost: Find":
+  pageId: 210136
+  steam: 1801650
 "Lost: Via Domus":
   pageId: 52971
   steam: 15290
@@ -213003,6 +213038,9 @@ Super Fantasy Kingdom:
   gog: 1106055337
   pageId: 210012
   steam: 2289750
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Super Fantasy Games\\Super Fantasy Kingdom\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Super Fantasy Games\\Super Fantasy Kingdom\\}}"
 Super Fighter:
   pageId: 143386
 Super Flail:
@@ -240829,6 +240867,14 @@ Tourists Kidnapped a Little Bear:
 "Tournament: Blood & Steel":
   pageId: 139027
   steam: 1040620
+Towa and the Guardians of the Sacred Tree:
+  cloud:
+    steam: true
+  pageId: 210142
+  steam: 1910090
+  steamSide:
+    - 3260020
+    - 3260030
 "Towaga: Among Shadows":
   cloud:
     steam: true
@@ -257684,6 +257730,17 @@ Wedding Witch:
   steam: 2529820
   steamSide:
     - 2638000
+Wee Tanks!:
+  cloud:
+    steam: true
+  lutris: wee-tanks
+  pageId: 210137
+  steam: 1797680
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Studio Kit\\Wee Tanks\\|{{p|userprofile\\appdata\\locallow}}\\Studio Kit\\Wee Tanks\\tank_settings.tnk}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Studio Kit/Wee Tanks/prefs|{{p|xdgconfighome}}/unity3d/Studio Kit/Wee Tanks/tank_settings.tnk}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Kit\\Wee Tanks\\inventory|{{p|userprofile\\appdata\\locallow}}\\Studio Kit\\Wee Tanks\\savedata.pdo|{{p|game}}/Maps/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Studio Kit/Wee Tanks/inventory|{{p|xdgconfighome}}/unity3d/Studio Kit/Wee Tanks/savedata.pdo|{{p|game}}/Maps/}}"
 Weebish Mines:
   pageId: 60936
   steam: 612140

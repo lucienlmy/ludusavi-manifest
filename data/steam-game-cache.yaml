@@ -543462,6 +543462,29 @@
     schinese: 对魔忍Collection：决战竞技场
     spanish: "Colección de Taimanin: Arena de Batalla"
     tchinese: 對魔忍Collection：決戰競技場
+1330360:
+  cloud:
+    saves:
+      - path: "42 Bits Entertainment/Fata Deum/Steam/{64BitSteamID}/Matches"
+        pattern: "*.gz"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "42 Bits Entertainment/Fata Deum/Steam/{64BitSteamID}"
+        pattern: MP.txt
+        root: WinAppDataLocalLow
+  installDir: Fata Deum
+  launch:
+    - arguments: "-featureOn StoreSteam"
+      config:
+        oslist: windows
+      executable: Fata Deum.exe
+      type: default
+  nameLocalized:
+    japanese: ファタ・デウム ゴッドシム
+    koreana: Fata Deum - 갓 시뮬레이터
+    russian: Fata Deum - Симулятор Бога
+    schinese: 神命 - 神祗模拟器
+    tchinese: 神命 - 神祗模擬器
 1330430:
   cloud:
     saves:
@@ -550256,7 +550279,51 @@
         oslist: windows
       executable: "At Eve's Wake.exe"
       type: default
-1395520: {}
+1395520:
+  cloud:
+    saves:
+      - path: Spooky Doorway/The Seance of Blake Manor
+        pattern: "*.savj"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Spooky Doorway/The Seance of Blake Manor
+        pattern: SOBMOptions
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Spooky Doorway/The Seance of Blake Manor
+            replace: ".config/unity3d/Spooky Doorway/The Seance of Blake Manor"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: The Seance of Blake Manor
+  launch:
+    - config:
+        oslist: windows
+      executable: The Seance of Blake Manor.exe
+      type: default
+    - config:
+        betakey: development
+        oslist: macos
+      executable: The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor
+      type: default
+    - arguments: "-force-vulkan"
+      config:
+        oslist: linux
+      executable: The Seance of Blake Manor.x86_64
+      type: default
+    - arguments: "-screen-quality \"Faster\" -screen-height 1080 -screen-width 1920"
+      config:
+        betakey: current
+      description: Reduced Quality Mode
+      executable: The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor
+    - arguments: "-screen-quality \"Very Low\" -screen-height 1080 -screen-width 1920"
+      config:
+        betakey: current
+        oslist: windows
+      description: Laptop Mode
+      executable: The Seance of Blake Manor.exe
 1397130:
   cloud:
     saves:
@@ -580068,6 +580135,27 @@
       executable: IndAnn.exe
       type: default
 1797350: {}
+1797680:
+  cloud:
+    saves:
+      - path: Maps
+        pattern: "*.zip"
+        root: gameinstall
+  installDir: Wee Tanks
+  launch:
+    - config:
+        oslist: windows
+      description: "WeE TaNkS "
+      executable: "./Wee Tanks.exe"
+      type: default
+    - config:
+        oslist: macos
+      executable: Contents/MacOS/Wee Tanks
+      type: default
+    - config:
+        oslist: linux
+      executable: Wee Tanks
+      type: default
 1798010:
   installDir: MegaMan_BattleNetwork_LegacyCollection_Vol1
   launch:
@@ -580241,6 +580329,13 @@
         osarch: "64"
         oslist: windows
       executable: Exodus/Binaries/Win64/Exodus-Win64-Shipping.exe
+1801650:
+  installDir: Lost Find
+  launch:
+    - config:
+        oslist: windows
+      executable: Lost Find.exe
+      type: default
 1802630:
   installDir: Futa Battle TD
   launch:
@@ -587413,6 +587508,20 @@
     koreana: 슈퍼로봇대전 Y
     schinese: 超级机器人大战Y
     tchinese: 超級機器人大戰Y
+1910090:
+  cloud:
+    saves:
+      - path: "BANDAI NAMCO Entertainment/Towa and the Guardians of the Sacred Tree/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.dat"
+        root: WinAppDataLocal
+  installDir: Towa and the Guardians of the Sacred Tree
+  launch:
+    - executable: Towa and the Guardians of the Sacred Tree.exe
+  nameLocalized:
+    japanese: トワと神樹の祈り子たち
+    koreana: 토와와 신목에 선택받은 아이들
+    schinese: 永久与神树的祈愿者
+    tchinese: 永久與神樹的祈願者
 1911220:
   cloud:
     saves:
@@ -589614,25 +589723,28 @@
       executable: Brotato.exe
       type: default
     - config:
+        oslist: linux
+      executable: Brotato.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Brotato.app
+      type: default
+    - config:
         betakey: modding
         oslist: windows
       executable: GodotWorkshopUtility.exe
       type: editor
     - config:
-        betakey: testing
-        oslist: windows
-      executable: GodotWorkshopUtility.exe
+        betakey: modding
+        oslist: linux
+      executable: GodotWorkshopUtility.x86_64
       type: editor
     - config:
-        betakey: testing
-        oslist: linux
-      executable: Brotato.x86_64
-      type: default
-    - config:
-        betakey: testing
+        betakey: modding
         oslist: macos
-      executable: Brotato.app
-      type: default
+      executable: GodotWorkshopUtility.app
+      type: editor
   nameLocalized:
     schinese: 土豆兄弟(Brotato)
 1942330:
@@ -607342,6 +607454,23 @@
   launch:
     - executable: ZanyGolf.exe
       type: default
+2308690:
+  installDir: Ground of Aces
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GroundOfAces.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: GroundOfAces.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: GroundOfAces
+      type: default
 2309440: {}
 2311190:
   installDir: Garten of Banban 3
@@ -608605,6 +608734,22 @@
         oslist: windows
       executable: SealWhatTheFun.exe
       type: default
+2348120:
+  cloud:
+    saves:
+      - path: Kagura_Survivors/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: KaguraSurvivors/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Kagura Survivors Endless Night
+  launch:
+    - executable: Kagura_Survivors.exe
+      type: default
+  nameLocalized:
+    japanese: "Kagura Survivors: エンドレスナイト"
+    schinese: 神乐幸存者：永夜
 2348540:
   nameLocalized:
     japanese: Berserk B.I.T.S
@@ -623526,6 +623671,39 @@
     tchinese: NBA 2K25
 2879530: {}
 2879840:
+  cloud:
+    saves:
+      - path: Pine Studio/Escape Simulator 2
+        pattern: "*.sav"
+        root: gameinstall
+      - path: Pine Studio/Escape Simulator 2/LevelSaves
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Pine Studio/Escape Simulator 2
+            replace: Pine Studio/Escape Simulator 2
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Pine Studio/Escape Simulator 2
+            replace: Pine Studio/Escape Simulator 2
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Escape Simulator 2
+  launch:
+    - config:
+        oslist: windows
+      executable: Escape Simulator 2.exe
+    - config:
+        oslist: macos
+      executable: EscapeSimulator2.app
+      type: default
   nameLocalized:
     english: Escape Simulator 2
     japanese: 脱出ルームシミュレーター2
@@ -626221,6 +626399,23 @@
       type: default
   nameLocalized:
     japanese: "Bubsy in: The Purrfect Collection (やまねこバブジーのパーフェクトコレクション)"
+3039910:
+  cloud:
+    saves:
+      - path: Massive Hug/Demon Hunt
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Massive Hug/Demon Hunt
+            replace: ".config/unity3d/Massive Hug/Demon Hunt"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Demon Hunt
+  launch:
+    - executable: Demon Hunt.exe
 3040220:
   cloud:
     saves:
@@ -632570,7 +632765,14 @@
     japanese: テニスの王子様　ぎゅ～っと！ ドキドキサバイバル Tie break ♡game
     schinese: 网球王子 心跳求生 Tie break ♡game
     tchinese: 網球王子 心跳求生 Tie break ♡game
-3909960: {}
+3909960:
+  installDir: Dementium - The Ward
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Dementium.exe
+      type: default
 3910180:
   installDir: Pumpkin Love
   launch:

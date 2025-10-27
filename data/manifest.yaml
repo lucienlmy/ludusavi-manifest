@@ -100758,6 +100758,11 @@ Brotato:
     epic: true
     steam: true
   files:
+    "<home>/Library/Application Support/Brotato/<storeUserId>/*.json":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winAppData>/Brotato/<storeUserId>/*.json":
       tags:
         - save
@@ -100765,12 +100770,23 @@ Brotato:
         - os: windows
   id:
     lutris: brotato
+    steamExtra:
+      - 2868390
+      - 3281080
   installDir:
     Brotato: {}
   launch:
+    "<base>/Brotato.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Brotato.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/Brotato.x86_64":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 1942280
@@ -181642,6 +181658,14 @@ Dementium II HD:
 "Dementium: The Ward":
   cloud:
     steam: true
+  installDir:
+    Dementium - The Ward: {}
+  launch:
+    "<base>/Dementium.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3909960
 "Demeo: PC Edition":
@@ -182115,6 +182139,25 @@ Demon Hearts:
 Demon Horde Master:
   steam:
     id: 380790
+Demon Hunt:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Massive Hug/Demon Hunt/*.es3":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Massive Hug/Demon Hunt/*.es3":
+      when:
+        - store: steam
+  installDir:
+    Demon Hunt: {}
+  launch:
+    "<base>/Demon Hunt.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3039910
 Demon Hunter:
   installDir:
     Demon Hunter: {}
@@ -232475,6 +232518,38 @@ Escape Simulator:
 Escape Simulator 2:
   cloud:
     steam: true
+  files:
+    "<base>/Pine Studio/Escape Simulator 2/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Pine Studio/Escape Simulator 2/LevelSaves/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Pine Studio/Escape Simulator 2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Pine Studio/Escape Simulator 2":
+      tags:
+        - save
+      when:
+        - os: mac
+  installDir:
+    Escape Simulator 2: {}
+  launch:
+    "<base>/Escape Simulator 2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/EscapeSimulator2.app":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 2879840
 Escape Station:
@@ -250579,6 +250654,30 @@ Fat Prisoner Simulator 2:
 FatEX Courier Simulator:
   steam:
     id: 904850
+"Fata Deum: The God Sim":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/42 Bits Entertainment/Fata Deum/Steam/<storeUserId>/MP.txt":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/42 Bits Entertainment/Fata Deum/Steam/<storeUserId>/Matches/**/*.gz":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 3960210
+      - 3969160
+  installDir:
+    Fata Deum: {}
+  launch:
+    "<base>/Fata Deum.exe":
+      - arguments: "-featureOn StoreSteam"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1330360
 Fatal Burst:
   files:
     "<home>/AppData/LocalLow/Square Gem Software/Fatal Stormer/Saves/*.sav":
@@ -301783,6 +301882,29 @@ Ground Zero:
     steam: true
   steam:
     id: 2340130
+Ground of Aces:
+  id:
+    steamExtra:
+      - 3851890
+  installDir:
+    Ground of Aces: {}
+  launch:
+    "<base>/GroundOfAces":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/GroundOfAces.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/GroundOfAces.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2308690
 GroundFall:
   installDir:
     GroundFall: {}
@@ -367520,6 +367642,27 @@ Kagura Douchuuki:
             store: steam
   steam:
     id: 378790
+"Kagura Survivors: Endless Night":
+  cloud:
+    steam: true
+  files:
+    "<base>/KaguraSurvivors/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Kagura_Survivors/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 3235000
+  installDir:
+    Kagura Survivors Endless Night: {}
+  launch:
+    "<base>/Kagura_Survivors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2348120
 Kai Entity:
   installDir:
     Kai Entity: {}
@@ -405006,6 +405149,16 @@ Lost2:
     Lost2: {}
   steam:
     id: 1930640
+"Lost: Find":
+  installDir:
+    Lost Find: {}
+  launch:
+    "<base>/Lost Find.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1801650
 "Lost: Via Domus":
   files:
     "<winDocuments>/Lost Via Domus":
@@ -664032,10 +664185,12 @@ Super Fantasy Kingdom:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Super Fantasy Games/Super Fantasy Kingdom/*.data":
+    "<home>/AppData/LocalLow/Super Fantasy Games/Super Fantasy Kingdom":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   gog:
     id: 1106055337
   installDir:
@@ -728412,10 +728567,37 @@ The Swordsmen X:
   steam:
     id: 840140
 The Séance of Blake Manor:
+  files:
+    "<home>/.config/unity3d/Spooky Doorway/The Seance of Blake Manor/*.savj":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Spooky Doorway/The Seance of Blake Manor/SOBMOptions":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Spooky Doorway/The Seance of Blake Manor/**/*.savj":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Spooky Doorway/The Seance of Blake Manor/SOBMOptions":
+      when:
+        - store: steam
   id:
     lutris: the-seance-of-blake-manor
     steamExtra:
       - 3547180
+  installDir:
+    The Seance of Blake Manor: {}
+  launch:
+    "<base>/The Seance of Blake Manor.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/The Seance of Blake Manor.x86_64":
+      - arguments: "-force-vulkan"
+        when:
+          - os: linux
+            store: steam
   steam:
     id: 1395520
 The Table at War:
@@ -750335,6 +750517,25 @@ Tourists Kidnapped a Little Bear:
             store: steam
   steam:
     id: 1040620
+Towa and the Guardians of the Sacred Tree:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/Towa and the Guardians of the Sacred Tree/Saved/SaveGames/<storeUserId>/*.dat":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 3260020
+      - 3260030
+  installDir:
+    Towa and the Guardians of the Sacred Tree: {}
+  launch:
+    "<base>/Towa and the Guardians of the Sacred Tree.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1910090
 "Towaga: Among Shadows":
   cloud:
     steam: true
@@ -798914,6 +799115,74 @@ Wedding Witch:
             store: steam
   steam:
     id: 2529820
+Wee Tanks!:
+  cloud:
+    steam: true
+  files:
+    "<base>/Maps":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<home>/AppData/LocalLow/Studio Kit/Wee Tanks/inventory":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Studio Kit/Wee Tanks/savedata.pdo":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Studio Kit/Wee Tanks/tank_settings.tnk":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgConfig>/unity3d/Studio Kit/Wee Tanks/inventory":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Studio Kit/Wee Tanks/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Studio Kit/Wee Tanks/savedata.pdo":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Studio Kit/Wee Tanks/tank_settings.tnk":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: wee-tanks
+  installDir:
+    Wee Tanks: {}
+  launch:
+    "<base>/Contents/MacOS/Wee Tanks":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Wee Tanks":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Wee Tanks.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Studio Kit/Wee Tanks:
+      tags:
+        - config
+  steam:
+    id: 1797680
 Weebish Mines:
   files:
     "<base>/*.arr":
