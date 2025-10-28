@@ -63898,6 +63898,11 @@ Double Dragon:
 Double Dragon Advance:
   pageId: 191060
   steam: 2086360
+Double Dragon Dodgeball:
+  cloud:
+    steam: true
+  pageId: 210174
+  steam: 1053540
 "Double Dragon Gaiden: Rise of the Dragons":
   cloud:
     steam: true
@@ -117016,6 +117021,8 @@ Jumper Tree:
 "Jumper: Speedrun":
   pageId: 69320
   steam: 688150
+"Jumpgate: The Reconstruction Initiative":
+  pageId: 210172
 Jumphobia Classic:
   pageId: 70068
   renamedFrom:

@@ -75170,8 +75170,14 @@ Bendy and the Ink Machine:
 Beneath:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Camel101/Beneath/**/*.txt":
+      when:
+        - store: steam
   gog:
     id: 1159670966
+  installDir:
+    Beneath: {}
   steam:
     id: 1593230
 Beneath Her Gaze:
@@ -200038,6 +200044,24 @@ Double Dragon Advance:
             store: steam
   steam:
     id: 2086360
+Double Dragon Dodgeball:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ARC SYSTEM WORKS CO_,LTD_/Double Dragon Dodgeball/Database/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DoubleDragonDodgeball: {}
+  launch:
+    "<base>/Double Dragon Dodgeball.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1053540
 "Double Dragon Gaiden: Rise of the Dragons":
   cloud:
     steam: true
@@ -292596,6 +292620,19 @@ GodOrEvil.Beta:
 Godbreakers:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Godbreakers/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Godbreakers: {}
+  launch:
+    "<base>/Godbreakers.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2687400
 Goddess of Math 数学女神:
@@ -586305,6 +586342,16 @@ Sangokushi Eiketsuden:
   steam:
     id: 628150
 Sanguine:
+  files:
+    "<home>/AppData/LocalLow/Seeker Studios/SanguineGame":
+      when:
+        - store: steam
+  installDir:
+    Sanguine: {}
+  launch:
+    "<base>/SanguineGame.exe":
+      - when:
+          - store: steam
   steam:
     id: 2825080
 Sanguine Sanctum:

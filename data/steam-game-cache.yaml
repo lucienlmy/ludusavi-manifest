@@ -457235,6 +457235,26 @@
     japanese: 九龍妖魔學園紀 ORIGIN OF ADVENTURE
     schinese: Kowloon High-School Chronicle
     tchinese: Kowloon High-School Chronicle
+1053540:
+  cloud:
+    saves:
+      - path: "ARC SYSTEM WORKS CO_,LTD_/Double Dragon Dodgeball/Database"
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: DoubleDragonDodgeball
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Double Dragon Dodgeball.exe
+      type: default
+  nameLocalized:
+    japanese: ダブルドラゴン ドッジボール
+    koreana: 더블 드래곤 피구
+    schinese: 双截龙躲避球
+    tchinese: 雙截龍躲避球
 1053560:
   installDir: "Saint Hazel's Horsepital"
   launch:
@@ -565905,6 +565925,19 @@
   nameLocalized:
     schinese: 伊始之地
 1593230:
+  cloud:
+    saves:
+      - path: "\\Camel101\\Beneath"
+        pattern: "*.txt"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Beneath
+  launch:
+    - arguments: 1875bvhj4yudAwhPo9r
+      config:
+        betakey: Combat
+      description: Combat demo
+      executable: Beneath.exe
   nameLocalized:
     schinese: 渊域
 1593350:
@@ -619790,7 +619823,20 @@
     - config:
         oslist: macos
       executable: ChurnVector.app
-2687400: {}
+2687400:
+  cloud:
+    saves:
+      - path: Godbreakers/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Godbreakers
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Godbreakers.exe
 2687970:
   installDir: TRIBES 3 Rivals
   launch:
@@ -622879,7 +622925,15 @@
     japanese: オールド スクール ラリー
     schinese: 旧日飞车
     tchinese: 舊日飛車
-2825080: {}
+2825080:
+  cloud:
+    saves:
+      - path: "\\Seeker Studios\\SanguineGame\\"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Sanguine
+  launch:
+    - executable: SanguineGame.exe
 2825530:
   cloud:
     saves:
