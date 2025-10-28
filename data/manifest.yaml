@@ -173450,6 +173450,9 @@ Dead Watch:
     steam: true
   steam:
     id: 3464670
+Dead Weight:
+  steam:
+    id: 2646720
 Dead Wishes:
   installDir:
     Dead Wishes: {}
@@ -178345,6 +178348,11 @@ Deep End:
 Deep Fear:
   steam:
     id: 601980
+Deep Fighter:
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Criterion Studios/Deep Fighter:
+      tags:
+        - config
 Deep GachiGASM:
   installDir:
     Deep GachiGASM: {}
@@ -273556,6 +273564,18 @@ Frostford:
             store: steam
   steam:
     id: 1213890
+Frosthaven:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Snapshot Games Inc/Frosthaven/Steam/<storeUserId>/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Frosthaven: {}
+  steam:
+    id: 2347080
 Frostpunk:
   cloud:
     epic: true
@@ -329888,6 +329908,7 @@ Hollow Throne:
     id: 338840
 Hollowbody:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Headware Games/Hollowbody":
@@ -823005,6 +823026,37 @@ ZED ZONE:
           - store: steam
   steam:
     id: 1211600
+ZEPHON:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Proxy Studios/Zephon/SavedGames":
+      when:
+        - store: steam
+    "<xdgConfig>/Proxy Studios/Zephon/SavedGames":
+      when:
+        - os: linux
+          store: steam
+  id:
+    steamExtra:
+      - 3301440
+      - 3301460
+      - 3301470
+      - 3607430
+      - 4046850
+  installDir:
+    ZEPHON: {}
+  launch:
+    "<base>/Binaries/Linux-x86_64/Zephon":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Binaries/Windows-x86_64/Zephon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1481170
 ZERO Sievert:
   cloud:
     steam: true

@@ -55339,6 +55339,9 @@ Dead Watch:
     steam: true
   pageId: 207116
   steam: 3464670
+Dead Weight:
+  pageId: 210180
+  steam: 2646720
 Dead Wishes:
   pageId: 126029
   steam: 1010970
@@ -56898,6 +56901,8 @@ Deep Fear:
   steam: 601980
 Deep Fighter:
   pageId: 182457
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Criterion Studios\\Deep Fighter}}"
 Deep GachiGASM:
   pageId: 75502
   steam: 744430
@@ -87550,6 +87555,11 @@ Frostage:
 Frostford:
   pageId: 155494
   steam: 1213890
+Frosthaven:
+  cloud:
+    steam: true
+  pageId: 210178
+  steam: 2347080
 Frostpunk:
   cloud:
     discord: true
@@ -105638,6 +105648,7 @@ Hollow Throne:
   steam: 338840
 Hollowbody:
   cloud:
+    gog: true
     steam: true
   gog: 1271165533
   pageId: 187045
@@ -265410,6 +265421,17 @@ ZED:
 ZED ZONE:
   pageId: 199562
   steam: 1211600
+ZEPHON:
+  cloud:
+    steam: true
+  pageId: 210176
+  steam: 1481170
+  steamSide:
+    - 3301440
+    - 3301460
+    - 3301470
+    - 3607430
+    - 4046850
 ZERO Sievert:
   cloud:
     steam: true
