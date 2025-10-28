@@ -149,6 +149,8 @@ $1 Ride:
   steam:
     id: 439550
 (Buried Tapes) The Cleaner:
+  id:
+    lutris: buried-tapes-the-cleaner
   installDir:
     (BURIED TAPES) The Cleaner: {}
   launch:
@@ -163,6 +165,21 @@ $1 Ride:
             store: steam
   steam:
     id: 3949740
+(Buried Tapes) The Parking:
+  installDir:
+    (BURIED TAPES) The Parking: {}
+  launch:
+    "<base>/(BURIED TAPES) The Parking.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/release/(BURIED TAPES) The Parking.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3949750
 (the) Gnorp Apologue:
   cloud:
     steam: true
@@ -28595,6 +28612,13 @@ Alex Kidd in the Enchanted Castle:
             store: steam
   steam:
     id: 457370
+"Alexander: The Heroes Hour":
+  files:
+    "<base>/SAVES":
+      tags:
+        - save
+      when:
+        - os: windows
 Alexia Crow and the Cave of Heroes:
   installDir:
     Alexia Crow: {}
@@ -100656,6 +100680,11 @@ Broken of Darkness:
             store: steam
   steam:
     id: 1199610
+"BrokenLore: Don’t Lie":
+  id:
+    lutris: brokenlore-dont-lie
+  steam:
+    id: 3886200
 Bronepoezd:
   installDir:
     Bronepoezd: {}
@@ -301231,6 +301260,11 @@ Grindstone:
         - config
   steam:
     id: 1818690
+Grindworm:
+  id:
+    lutris: grindworm
+  steam:
+    id: 3717830
 Grindzones:
   steam:
     id: 1074840
@@ -507964,6 +507998,10 @@ Persona 5 Tactica:
         when:
           - store: steam
         workingDir: "<base>/P5XLaunch"
+  registry:
+    HKEY_CURRENT_USER/Software/SEGA/p5x_en:
+      tags:
+        - config
   steam:
     id: 3061570
 Personal Disco VR:
@@ -814367,6 +814405,8 @@ Wreckout:
 Wreckreation:
   cloud:
     steam: true
+  id:
+    lutris: wreckreation
   steam:
     id: 1594040
 Wrench:

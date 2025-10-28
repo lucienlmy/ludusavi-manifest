@@ -373642,9 +373642,8 @@
     - config:
         betakey: mac_beta2
         oslist: macos
-      executable: MacOS/Control Ultimate Edition
+      executable: Control Ultimate Edition.app
       type: default
-      workingdir: MacOS
   nameLocalized:
     japanese: Control Ultimate Edition
     koreana: "Control Ultimate Edition : 컨트롤 얼티밋 에디션"
@@ -632308,6 +632307,7 @@
     tchinese: 沒落貴族的大小姐
 3710600: {}
 3710840: {}
+3717830: {}
 3720530: {}
 3727390: {}
 3730310:
@@ -632744,6 +632744,10 @@
       type: default
 3883910: {}
 3884520: {}
+3886200:
+  nameLocalized:
+    schinese: 破碎怪谈：切勿欺骗
+    tchinese: 破碎怪談：切勿欺騙
 3888420: {}
 3895130: {}
 3895170:
@@ -632831,6 +632835,18 @@
     - config:
         oslist: macos
       executable: (BURIED TAPES) The Cleaner.app
+      type: default
+3949750:
+  installDir: (BURIED TAPES) The Parking
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: release/(BURIED TAPES) The Parking.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: (BURIED TAPES) The Parking.app
       type: default
 3954580: {}
 3970690: {}

@@ -63,8 +63,12 @@ $1 Ride:
   steamSide:
     - 463190
 (Buried Tapes) The Cleaner:
+  lutris: buried-tapes-the-cleaner
   pageId: 209293
   steam: 3949740
+(Buried Tapes) The Parking:
+  pageId: 210165
+  steam: 3949750
 (the) Gnorp Apologue:
   cloud:
     steam: true
@@ -8583,6 +8587,8 @@ Akuya:
     steam: true
   pageId: 47661
   steam: 375020
+Al Unser Jr. Arcade Racing:
+  pageId: 210155
 "Al-Qadim: The Genie's Curse":
   cloud:
     gog: true
@@ -8992,6 +8998,10 @@ Alex Kidd in the Enchanted Castle:
   steam: 457370
 Alexander:
   pageId: 89017
+"Alexander: The Heroes Hour":
+  pageId: 210170
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\SAVES}}"
 Alexia Crow and the Cave of Heroes:
   pageId: 48012
   steam: 365280
@@ -32237,6 +32247,10 @@ Broken Ties:
 Broken of Darkness:
   pageId: 153648
   steam: 1199610
+"BrokenLore: Don’t Lie":
+  lutris: brokenlore-dont-lie
+  pageId: 210156
+  steam: 3886200
 Bronepoezd:
   pageId: 103721
   steam: 879620
@@ -53504,6 +53518,8 @@ Dark Veer:
     steam: true
   pageId: 148087
   steam: 1149700
+Dark Vengeance:
+  pageId: 210166
 Dark Visit:
   pageId: 99376
   steam: 880890
@@ -96406,6 +96422,10 @@ Grindstone:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Capybara Games\\Grindstone}}"
     - "{{Game data/saves|Epic Games Store|{{p|userprofile}}\\AppData\\LocalLow\\Capybara Games\\Grindstone\\EpicSaves}}"
+Grindworm:
+  lutris: grindworm
+  pageId: 210161
+  steam: 3717830
 Grindzones:
   pageId: 134969
   steam: 1074840
@@ -100682,6 +100702,8 @@ Havendock:
   gog: 1237961766
   pageId: 197109
   steam: 2020710
+Havoc:
+  pageId: 210159
 Havoc in Heaven:
   pageId: 91452
   steam: 824400
@@ -163412,6 +163434,8 @@ Persona 5 Tactica:
 "Persona 5: The Phantom X":
   pageId: 205711
   steam: 3061570
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\SEGA\\p5x_en}}"
 Personal Disco VR:
   pageId: 60734
   steam: 618350
@@ -262640,6 +262664,7 @@ Wreckout:
 Wreckreation:
   cloud:
     steam: true
+  lutris: wreckreation
   pageId: 180741
   steam: 1594040
 Wrench:
