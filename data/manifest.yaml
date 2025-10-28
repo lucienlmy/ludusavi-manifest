@@ -52642,6 +52642,74 @@ Astral Terra:
             store: steam
   steam:
     id: 266190
+Astral Throne:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Codex.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Custom.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Game.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/History.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Player.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.Aggregation.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.Encounters.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.Map.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.Npcs.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.RNG.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.Story.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.Team.bim":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Zero Sun Games/Astral Throne/Save/Temp.World.bim":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3407720
+      - 3407800
+  installDir:
+    Astral Throne: {}
+  launch:
+    "<base>/Astral Throne/Astral Throne.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2560500
 Astral Traveler:
   installDir:
     Astral Traveler: {}
@@ -88511,6 +88579,11 @@ Bloodgeon:
             store: steam
   steam:
     id: 790250
+Bloodgrounds:
+  cloud:
+    steam: true
+  steam:
+    id: 2507820
 Bloodhunt:
   alias: "Vampire: The Masquerade - Bloodhunt"
 Bloodia:
@@ -181701,6 +181774,10 @@ Dementium II HD:
 "Dementium: The Ward":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dementium - The Ward/saves/*.*":
+      when:
+        - store: steam
   installDir:
     Dementium - The Ward: {}
   launch:
@@ -306871,6 +306948,26 @@ HYBRIS - Pulse of Ruin:
 HYPER DRIVE - The Insane Gravity Race:
   steam:
     id: 679220
+HYPERBEAT:
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/LocalLow/Dreamware Media/HYPERBEAT":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    HYPERBEAT: {}
+  launch:
+    "<base>/HYPERBEAT.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2263360
 HYPERFIGHT Max Battle:
   installDir:
     HYPERFIGHT: {}
@@ -404288,6 +404385,26 @@ Lost Love Island:
             store: steam
   steam:
     id: 2676960
+"Lost Lullabies: The Orphanage Chronicles":
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Lost Lullabies An Orphanage Chronicles: {}
+  launch:
+    "<base>/LOSTLULLABIES.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/LostLullabies.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2903710
 Lost Marbles:
   cloud:
     steam: true
@@ -556415,6 +556532,7 @@ Remnant 2:
 Remnant II:
   cloud:
     epic: true
+    steam: true
   files:
     "<home>/Saved Games/Remnant2/Steam/<storeUserId>":
       tags:
@@ -609766,6 +609884,18 @@ Silly Polly Beast:
   id:
     steamExtra:
       - 3261690
+  installDir:
+    Silly Polly Beast: {}
+  launch:
+    "<base>/Silly Polly Beast.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Silly Polly Beast.x86_64":
+      - arguments: "-screen-fullscreen 0"
+        when:
+          - os: linux
+            store: steam
   steam:
     id: 1598780
 "Silmaris: Dice Kingdom":
@@ -610562,6 +610692,37 @@ Simon the Sorcerer 3D:
 Simon the Sorcerer Origins:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Smallthing Studios/Simon the Sorcerer Origins/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Smallthing Studios/Simon the Sorcerer Origins":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/Smallthing Studios/Simon the Sorcerer Origins":
+      tags:
+        - save
+      when:
+        - os: linux
+  installDir:
+    Simon the Sorcerer Origins: {}
+  launch:
+    "<base>/Simon the Sorcerer Origins.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Simon the Sorcerer Origins.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Simon the Sorcerer Origins.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 1939890
 "Simon the Sorcerer: 25th Anniversary Edition":
@@ -639275,6 +639436,8 @@ Spoorky:
   steam:
     id: 858080
 Spore:
+  cloud:
+    gog: true
   files:
     "<winAppData>/SPORE/Preferences":
       tags:
@@ -661860,6 +662023,23 @@ Sundered:
             store: steam
   steam:
     id: 535480
+Sunderfolk:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Secret Door/Sunderfolk/steam/<storeUserId>/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Sunderfolk: {}
+  launch:
+    "<base>/Sunderfolk.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2414270
 Sundown Refusal:
   steam:
     id: 886720
@@ -762576,6 +762756,17 @@ Turbo Dismount:
         - save
   steam:
     id: 263760
+Turbo Dismount 2:
+  installDir:
+    TurboDismount2: {}
+  launch:
+    "<base>/TurboDismount2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2280350
 Turbo Golf Racing:
   files:
     "<winLocalAppData>/Packages/SumoDigitalLtd.58971725B3110_fxgztw5m4nn00/SystemAppData/wgs":
@@ -814472,9 +814663,27 @@ Wreckout:
     id: 1153650
 Wreckreation:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Wreckreation/Saved/Config/WindowsNoEditor":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Wreckreation/Saved/SaveGames/*.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: wreckreation
+  installDir:
+    Wreckreation: {}
+  launch:
+    "<base>/Wreckreation.exe":
+      - when:
+          - store: steam
   steam:
     id: 1594040
 Wrench:

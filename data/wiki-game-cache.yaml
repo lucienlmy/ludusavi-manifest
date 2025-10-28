@@ -16703,6 +16703,14 @@ Astral Shipwright:
 Astral Terra:
   pageId: 45680
   steam: 266190
+Astral Throne:
+  cloud:
+    steam: true
+  pageId: 210190
+  steam: 2560500
+  steamSide:
+    - 3407720
+    - 3407800
 Astral Traveler:
   pageId: 66474
   steam: 618630
@@ -28494,6 +28502,11 @@ Bloodgeon:
     steam: true
   pageId: 150158
   steam: 790250
+Bloodgrounds:
+  cloud:
+    steam: true
+  pageId: 210182
+  steam: 2507820
 Bloodia:
   pageId: 136999
   steam: 1081940
@@ -98295,6 +98308,12 @@ HYBRIS - Pulse of Ruin:
 HYPER DRIVE - The Insane Gravity Race:
   pageId: 66231
   steam: 679220
+HYPERBEAT:
+  pageId: 210212
+  steam: 2263360
+  templates:
+    - "{{Game data/config|Windows|%AppData%\\LocalLow\\Dreamware Media\\HYPERBEAT}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 HYPERFIGHT Max Battle:
   pageId: 129707
   steam: 1005870
@@ -129670,6 +129689,11 @@ Lost Letters (of Seraphina):
 Lost Love Island:
   pageId: 201046
   steam: 2676960
+"Lost Lullabies: The Orphanage Chronicles":
+  cloud:
+    steam: true
+  pageId: 210209
+  steam: 2903710
 Lost Marbles:
   cloud:
     steam: true
@@ -178748,6 +178772,7 @@ Remind Yourself:
 Remnant II:
   cloud:
     epic: true
+    steam: true
     xbox: true
   pageId: 183623
   renamedFrom:
@@ -196129,6 +196154,10 @@ Simon the Sorcerer Origins:
     steam: true
   pageId: 205529
   steam: 1939890
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Smallthing Studios\\Simon the Sorcerer Origins\\*.dat}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Smallthing Studios/Simon the Sorcerer Origins}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Smallthing Studios/Simon the Sorcerer Origins}}"
 "Simon the Sorcerer's Pinball":
   pageId: 178731
 "Simon the Sorcerer's Puzzle Pack":
@@ -205222,6 +205251,8 @@ Spoorky:
   pageId: 120836
   steam: 858080
 Spore:
+  cloud:
+    gog: true
   gog: 1948823323
   lutris: spore
   pageId: 79498
@@ -212388,6 +212419,11 @@ Sundered:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Thunder Lotus Games\\Sundered\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Thunder Lotus Games.Sundered}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Thunder Lotus Games/Sundered}}"
+Sunderfolk:
+  cloud:
+    steam: true
+  pageId: 210188
+  steam: 2414270
 Sundown Refusal:
   pageId: 137130
   steam: 886720
@@ -245469,6 +245505,9 @@ Turbo Dismount:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Secret Exit Ltd.\\TurboDismount\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Secret Exit Ltd.\\TurboDismount\\}}"
+Turbo Dismount 2:
+  pageId: 210214
+  steam: 2280350
 Turbo Golf Racing:
   cloud:
     xbox: true
@@ -257078,6 +257117,8 @@ Watchlist:
 Water Bears VR:
   pageId: 34908
   steam: 394130
+Water Bugs:
+  pageId: 210192
 Water Clock:
   pageId: 104693
   steam: 895990
@@ -262681,10 +262722,14 @@ Wreckout:
   steam: 1153650
 Wreckreation:
   cloud:
+    gog: true
     steam: true
   lutris: wreckreation
   pageId: 180741
   steam: 1594040
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\Config\\WindowsNoEditor}}"
 Wrench:
   pageId: 114134
   steam: 936720

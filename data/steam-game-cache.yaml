@@ -566011,7 +566011,16 @@
   nameLocalized:
     schinese: 请交出器官
     tchinese: 請交出器官
-1594040: {}
+1594040:
+  cloud:
+    saves:
+      - path: Wreckreation/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Wreckreation
+  launch:
+    - executable: Wreckreation.exe
+      type: default
 1594210:
   cloud:
     saves:
@@ -566253,8 +566262,32 @@
     spanish: Vida En Una Pizza
     turkish: "Pizza'da Yaşam"
 1598780:
+  cloud:
+    saves:
+      - path: Andrei Chernyshov/Silly Polly Beast
+        pattern: "*.spb"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Andrei Chernyshov/Silly Polly Beast
+            replace: Andrei Chernyshov/Silly Polly Beast
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Silly Polly Beast
+  launch:
+    - config:
+        oslist: windows
+      executable: Silly Polly Beast.exe
+      type: default
+    - arguments: "-screen-fullscreen 0"
+      config:
+        oslist: linux
+      executable: Silly Polly Beast.x86_64
+      type: default
   nameLocalized:
-    japanese: バカなポリーは鬼となって
+    japanese: SILLY POLLY BEAST - バカなポリーは鬼となって
     schinese: 孤女困魇
     tchinese: 孤女困魘
 1599020:
@@ -589477,7 +589510,60 @@
       description: Shadows Over Loathing
       executable: "Shadows Over Loathing\\Shadows Over Loathing.exe"
       type: default
-1939890: {}
+1939890:
+  cloud:
+    saves:
+      - path: Smallthing Studios/Simon the Sorcerer Origins
+        pattern: "*.dat"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Smallthing Studios/Simon the Sorcerer Origins
+            replace: unity3d/Smallthing Studios/Simon the Sorcerer Origins
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Smallthing Studios/Simon the Sorcerer Origins
+            replace: Smallthing Studios/Simon the Sorcerer Origins
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Simon the Sorcerer Origins
+  launch:
+    - config:
+        oslist: linux
+      executable: Simon the Sorcerer Origins.x86_64
+      type: default
+    - config:
+        oslist: windows
+      executable: Simon the Sorcerer Origins.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Simon the Sorcerer Origins.app
+      type: default
+    - config:
+        oslist: windows
+        ownsdlc: "3823920"
+      description: Artbook
+      executable: Artbook/Artbook.pdf
+      type: option1
+    - config:
+        oslist: macos
+        ownsdlc: "3823920"
+      description: Artbook
+      executable: "./Artbook.sh"
+      type: option1
+    - config:
+        oslist: linux
+        ownsdlc: "3823920"
+      description: Artbook
+      executable: "./Artbook.sh"
+      type: option1
 1939920:
   cloud:
     saves:
@@ -605977,6 +606063,16 @@
         oslist: linux
       executable: Ringlorn Saga Gaiden.x86_64
       type: default
+2263360:
+  cloud:
+    saves:
+      - path: HYPERBEAT_Data/Saves
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+  installDir: HYPERBEAT
+  launch:
+    - executable: HYPERBEAT.exe
 2263780:
   nameLocalized:
     japanese: インバース
@@ -606458,6 +606554,15 @@
   launch:
     - description: "SQUARE ENIX AI Tech Preview: THE PORTOPIA SERIAL MURDER CASE"
       executable: PORTOPIA.exe
+2280350:
+  installDir: TurboDismount2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch
+      executable: TurboDismount2.exe
+      type: default
 2280390:
   installDir: Tennis Manager 2023
   launch:
@@ -611295,6 +611400,21 @@
         oslist: linux
       executable: pogo/pogo.x86.64
       type: default
+2414270:
+  cloud:
+    saves:
+      - path: "Secret Door\\Sunderfolk\\steam\\{64BitSteamID}\\save\\"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Sunderfolk
+  launch:
+    - config:
+        oslist: windows
+      executable: Sunderfolk.exe
+      type: default
 2414320:
   cloud:
     saves:
@@ -615206,6 +615326,10 @@
       executable: PestApocalypse.bin
       type: default
 2506890: {}
+2507820:
+  nameLocalized:
+    schinese: 角斗士血域 - Bloodgrounds
+    tchinese: 角鬥士血域 - Bloodgrounds
 2507950:
   installDir: Delta Force
   launch:
@@ -616842,6 +616966,78 @@
   nameLocalized:
     schinese: 夜不能魅
 2560210: {}
+2560500:
+  cloud:
+    saves:
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Game.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Player.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.Aggregation.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Codex.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Custom.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: History.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.Team.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.RNG.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.Encounters.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.Story.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.World.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.Npcs.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Zero Sun Games/Astral Throne/Save
+        pattern: Temp.Map.bim
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Astral Throne
+  launch:
+    - executable: "Astral Throne\\Astral Throne.exe"
+      type: default
 2561340: {}
 2561580:
   cloud:
@@ -624017,6 +624213,24 @@
     japanese: ８番のりば
     schinese: 8号站台
     tchinese: 8號月台
+2903710:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Lost Lullabies An Orphanage Chronicles
+  launch:
+    - config:
+        oslist: windows
+      executable: LostLullabies.exe
+    - config:
+        oslist: linux
+      executable: LOSTLULLABIES.x86_64
+  nameLocalized:
+    japanese: わたしはだあれ？
+    koreana: 내가 누군지 맞춰봐
+    schinese: 猜猜我是谁
 2903950:
   cloud:
     saves:
@@ -632881,6 +633095,11 @@
     schinese: 网球王子 心跳求生 Tie break ♡game
     tchinese: 網球王子 心跳求生 Tie break ♡game
 3909960:
+  cloud:
+    saves:
+      - path: Dementium - The Ward/saves
+        pattern: "*.*"
+        root: WinAppDataLocal
   installDir: Dementium - The Ward
   launch:
     - config:
