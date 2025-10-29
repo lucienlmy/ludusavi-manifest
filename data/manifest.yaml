@@ -175150,6 +175150,31 @@ Deadweight:
             store: steam
   steam:
     id: 385350
+"Deadzone: Rogue":
+  cloud:
+    steam: true
+  files:
+    "<base>/Valhalla/Saved/SaveGames/ValSaveGame-steam-3228590-*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Valhalla/Saved/SaveGames/ValSaveGame-steam-3228590-*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3883890
+      - 3897660
+  installDir:
+    Deadzone Rogue: {}
+  launch:
+    "<base>/DeadzoneSteam.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3228590
 "Dealer's Life":
   cloud:
     steam: true
@@ -333914,6 +333939,19 @@ Hotel Anatolia:
             store: steam
   steam:
     id: 601010
+Hotel Architect:
+  cloud:
+    steam: true
+  installDir:
+    Hotel Architect: {}
+  launch:
+    "<base>/HotelArchitect.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1602000
 Hotel Barcelona:
   cloud:
     steam: true
@@ -670508,6 +670546,21 @@ Surrogate:
             store: steam
   steam:
     id: 952140
+SurrounDead:
+  files:
+    "<winLocalAppData>/SurrounDead/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    SurrounDead: {}
+  launch:
+    "<base>/SurrounDead.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1645820
 Surrounded by mice:
   installDir:
     Surrounded by mice: {}
@@ -778707,12 +778760,14 @@ Vampire Survivors:
   id:
     lutris: vampire-survivors
     steamExtra:
+      - 2169090
       - 2230760
       - 2313550
       - 2690330
       - 2887680
       - 3210350
       - 3451100
+      - 3929770
   installDir:
     Vampire Survivors: {}
   launch:

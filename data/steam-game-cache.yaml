@@ -566737,6 +566737,16 @@
     schinese: 通古斯：禁区实录 - 增强版
     tchinese: 通古斯：禁區實錄 - 增強版
     ukrainian: "Тунгуска: Відвідування - Розширене видання"
+1602000:
+  installDir: Hotel Architect
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: HotelArchitect.exe
+      type: default
+  nameLocalized:
+    schinese: 酒店建筑师 Hotel Architect
 1602010:
   cloud:
     saves:
@@ -569956,6 +569966,32 @@
         oslist: windows
       executable: BeFunnyNow.exe
       type: default
+1645820:
+  cloud:
+    saves:
+      - path: SurrounDead/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: SurrounDead
+  launch:
+    - config:
+        oslist: windows
+      executable: SurrounDead.exe
+      type: default
+    - arguments: "-force -d3d11"
+      config:
+        oslist: windows
+      description: "SurrounDead DirectX 11 [Experimental]"
+      executable: SurrounDead.exe
+      type: option1
+    - arguments: "-force -vulkan"
+      config:
+        oslist: windows
+      description: "SurrounDead Vulkan [Experimental]"
+      executable: SurrounDead.exe
+      type: option1
 1646120:
   cloud:
     saves:
@@ -628843,6 +628879,28 @@
       type: default
   nameLocalized:
     japanese: スカーレッドサルベーション
+3228590:
+  cloud:
+    saves:
+      - path: Valhalla/Saved/SaveGames
+        pattern: ValSaveGame-steam-3228590-*.sav
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocal
+  installDir: Deadzone Rogue
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DeadzoneSteam.exe
+      type: default
+  nameLocalized:
+    schinese: 死域Rogue
+    tchinese: 死域Rogue
 3229100:
   cloud:
     saves:

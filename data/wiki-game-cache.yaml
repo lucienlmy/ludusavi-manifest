@@ -4112,6 +4112,8 @@ AH-64 Apache Air Assault:
 AHTS Ship Simulator:
   pageId: 65285
   steam: 670910
+AHx-1:
+  pageId: 210247
 AI Anomaly:
   pageId: 80557
   steam: 780570
@@ -55873,6 +55875,14 @@ Deadwater Saloon:
 Deadweight:
   pageId: 43422
   steam: 385350
+"Deadzone: Rogue":
+  cloud:
+    steam: true
+  pageId: 210255
+  steam: 3228590
+  steamSide:
+    - 3883890
+    - 3897660
 Deal or No Deal:
   pageId: 90806
 "Deal or No Deal: Secret Vault Games":
@@ -107030,6 +107040,11 @@ Hotel 19-95:
 Hotel Anatolia:
   pageId: 58836
   steam: 601010
+Hotel Architect:
+  cloud:
+    steam: true
+  pageId: 210251
+  steam: 1602000
 Hotel Barcelona:
   cloud:
     steam: true
@@ -186775,6 +186790,8 @@ SPACE/MECH/PILOT:
 "SPACERIFT: Arcanum System":
   pageId: 150802
   steam: 1148480
+"SPQR: The Empire's Darkest Hour":
+  pageId: 210250
 "SPYxANYA: Operation Memories":
   cloud:
     steam: true
@@ -215074,6 +215091,9 @@ Surrogate:
   steam: 952140
   steamSide:
     - 952220
+SurrounDead:
+  pageId: 210253
+  steam: 1645820
 Surrounded by mice:
   pageId: 135536
   steam: 1079430
@@ -250873,12 +250893,14 @@ Vampire Survivors:
   pageId: 174502
   steam: 1794680
   steamSide:
+    - 2169090
     - 2230760
     - 2313550
     - 2690330
     - 2887680
     - 3210350
     - 3451100
+    - 3929770
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\poncle\\Vampire Survivors}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Vampire_Survivors\\saves}}"
