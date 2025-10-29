@@ -554619,6 +554619,19 @@
         oslist: macos
       executable: "Contents\\MacOS\\Prank Call"
       type: default
+1442530:
+  cloud:
+    saves:
+      - path: OI_World/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Outbreak Island
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: OI_World.exe
+      type: default
 1442650:
   installDir: White Day VR Courage Test
   launch:
@@ -622344,6 +622357,7 @@
         oslist: macos
       executable: ANEURISM IV.app
       type: default
+2774040: {}
 2776860:
   cloud:
     saves:
@@ -623103,6 +623117,28 @@
       type: default
   nameLocalized:
     schinese: 异星装置：Atlas
+2818150:
+  cloud:
+    saves:
+      - path: CattleCountry
+        pattern: save_file_*.txt
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: Cattle Country
+  launch:
+    - config:
+        oslist: windows
+      executable: Cattle Country.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: CattleCountry
+      type: default
 2820110:
   installDir: Anno 1503 - History Edition
   launch:
@@ -628069,6 +628105,7 @@
         oslist: windows
       executable: TromboneChampUnflattened.exe
       type: openxr
+3152440: {}
 3152540:
   cloud:
     saves:
@@ -632959,6 +632996,11 @@
     - config:
         oslist: linux
       executable: SENSE_THE_GAME.sh
+3833280:
+  nameLocalized:
+    english: "Loulan: The Cursed Sand"
+    schinese: 楼兰：诅咒之沙
+    tchinese: 楼蘭：詛咒之沙
 3839180: {}
 3841510:
   nameLocalized:

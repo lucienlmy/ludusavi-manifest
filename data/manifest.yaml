@@ -117685,6 +117685,30 @@ Cattle Admission Challenge:
             store: steam
   steam:
     id: 943130
+Cattle Country:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/CattleCountry/save_file_*.txt":
+      when:
+        - store: steam
+    "<xdgData>/CattleCountry/save_file_*.txt":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Cattle Country: {}
+  launch:
+    "<base>/Cattle Country.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/CattleCountry":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2818150
 Cattle and Crops:
   cloud:
     steam: true
@@ -122383,6 +122407,7 @@ Chernobylite:
       - 1368530806
       - 1398898807
       - 1830836636
+    lutris: chernobylite
     steamExtra:
       - 1640500
       - 1797280
@@ -405611,6 +405636,9 @@ Louie Cooks:
             store: steam
   steam:
     id: 398480
+"Loulan: The Cursed Sand":
+  steam:
+    id: 3833280
 Love:
   cloud:
     epic: true
@@ -437933,6 +437961,18 @@ Minecraft Legends:
         - os: windows
           store: microsoft
     "<winAppData>/Minecraft Bedrock Preview/Users/<storeUserId>/games/com.mojang/minecraftpe/options.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winAppData>/Minecraft Bedrock/Users/<storeUserId>/games/com.mojang/minecraftWorlds":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winAppData>/Minecraft Bedrock/Users/<storeUserId>/games/com.mojang/minecraftpe/options.txt":
       tags:
         - config
       when:
@@ -493794,6 +493834,26 @@ Outbreak:
             store: steam
   steam:
     id: 514990
+Outbreak Island:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/OI_World/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 4090460
+  installDir:
+    Outbreak Island: {}
+  launch:
+    "<base>/OI_World.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1442530
 "Outbreak The Fedora Files: What Lydia Knows":
   installDir:
     Outbreak The Fedora Files What Lydia Knows: {}
@@ -668704,10 +668764,6 @@ SuperWurfels:
   steam:
     id: 672880
 Superball:
-  files:
-    "<winDocuments>/SBT/SingleGameSave_steam/<storeUserId>":
-      when:
-        - store: steam
   installDir:
     Superball: {}
   launch:
@@ -668715,6 +668771,10 @@ Superball:
       - arguments: "-platform=Steam"
         when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Pathea Entertainment/Superball:
+      tags:
+        - config
   steam:
     id: 1059110
 Superbike 2000:
@@ -694717,6 +694777,9 @@ The Book of Unwritten Tales 2:
             store: steam
   steam:
     id: 1432100
+"The Boss Gangsters: Nightlife":
+  steam:
+    id: 2774040
 The Botanist:
   installDir:
     The Botanist: {}
@@ -704157,6 +704220,9 @@ The Floor is Jelly:
             store: steam
   steam:
     id: 295750
+The Florist:
+  steam:
+    id: 3152440
 The Flower Collectors:
   cloud:
     gog: true

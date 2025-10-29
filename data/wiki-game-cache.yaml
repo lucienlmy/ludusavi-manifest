@@ -37684,6 +37684,11 @@ Cattle Admission Challenge:
 "Cattle Call: Hollywood Talent Manager":
   pageId: 114492
   steam: 943130
+Cattle Country:
+  cloud:
+    steam: true
+  pageId: 210242
+  steam: 2818150
 Cattle and Crops:
   cloud:
     steam: true
@@ -39073,6 +39078,7 @@ Chernobylite:
     - 1368530806
     - 1398898807
     - 1830836636
+  lutris: chernobylite
   pageId: 128686
   steam: 1016800
   steamSide:
@@ -130089,6 +130095,9 @@ Loud or Quiet:
 Louie Cooks:
   pageId: 45678
   steam: 398480
+"Loulan: The Cursed Sand":
+  pageId: 210233
+  steam: 3833280
 "Louvre: The Messenger":
   pageId: 179829
 Love:
@@ -140528,8 +140537,8 @@ Minecraft Legends:
   renamedFrom:
     - "Minecraft: Windows 10 Edition"
   templates:
-    - "{{Game data/config|Microsoft Store| {{p|localappdata}}\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftpe\\options.txt | {{p|localappdata}}\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftpe\\options.txt ''(Preview)''{{Note|Before Preview 1.21.120.21|name=\"Old Preview Location\"}} | {{p|appdata}}\\Minecraft Bedrock Preview\\Users\\{{p|uid}}\\games\\com.mojang\\minecraftpe\\options.txt ''(Preview)''{{Note|The file paths for Minecraft Preview were updated to {{Folder|{{p|appdata}}\\Minecraft Bedrock Preview}} in Preview 1.21.120.21. Worlds and content will be automatically moved over on first load.<ref>{{Refurl|url=https://feedback.minecraft.net/hc/en-us/articles/39436905010189-Minecraft-Beta-Preview-1-21-120-21|title=Minecraft Feedback - Minecraft Beta & Preview - 1.21.120.21|date=2025-09-12}}</ref>|name=\"New Preview Location\"}} }}"
-    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds\\ | {{p|localappdata}}\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds\\ ''(Preview)''{{Note|name=\"Old Preview Location\"}} | {{p|appdata}}\\Minecraft Bedrock Preview\\Users\\{{p|uid}}\\games\\com.mojang\\minecraftWorlds\\ ''(Preview)''{{Note|name=\"New Preview Location\"}} }}"
+    - "{{Game data/config|Microsoft Store\n| {{p|appdata}}\\Minecraft Bedrock\\Users\\{{p|uid}}\\games\\com.mojang\\minecraftpe\\options.txt \n| {{p|appdata}}\\Minecraft Bedrock Preview\\Users\\{{p|uid}}\\games\\com.mojang\\minecraftpe\\options.txt ''(Preview)''\n| {{p|localappdata}}\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftpe\\options.txt ''(Old)''{{Note|The file paths were updated to {{Folder|{{p|appdata}}\\Minecraft Bedrock}} in 1.21.120. Worlds and content will be automatically moved over on first load.<ref>{{Refurl|url=https://www.minecraft.net/en-us/article/minecraft--bedrock-edition-1-21-120#:~:text=File%20paths%20have%20been%20updated|title=Minecraft: Bedrock Edition 1.21.120|date=2025-10-28}}</ref>|name=\"Old Location\"}}\n| {{p|localappdata}}\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftpe\\options.txt ''(Old Preview)''{{Note|The file paths were updated to {{Folder|{{p|appdata}}\\Minecraft Bedrock Preview}} in Preview 1.21.120.21. Worlds and content will be automatically moved over on first load.<ref>{{Refurl|url=https://feedback.minecraft.net/hc/en-us/articles/39436905010189-Minecraft-Beta-Preview-1-21-120-21#:~:text=File%20paths%20have%20been%20updated|title=Minecraft Feedback - Minecraft Beta & Preview - 1.21.120.21|date=2025-09-12}}</ref>|name=\"Old Preview Location\"}}\n}}"
+    - "{{Game data/saves|Microsoft Store\n| {{p|appdata}}\\Minecraft Bedrock\\Users\\{{p|uid}}\\games\\com.mojang\\minecraftWorlds\\\n| {{p|appdata}}\\Minecraft Bedrock Preview\\Users\\{{p|uid}}\\games\\com.mojang\\minecraftWorlds\\ ''(Preview)''\n| {{p|localappdata}}\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds\\ ''(Old)''{{Note|name=\"Old Location\"}}\n| {{p|localappdata}}\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds\\ ''(Old Preview)''{{Note|name=\"Old Preview Location\"}}\n}}"
 "Minecraft: Education Edition":
   pageId: 168195
   templates:
@@ -158702,6 +158711,13 @@ Outback Survival:
 Outbreak:
   pageId: 39536
   steam: 514990
+Outbreak Island:
+  cloud:
+    steam: true
+  pageId: 210245
+  steam: 1442530
+  steamSide:
+    - 4090460
 "Outbreak The Fedora Files: What Lydia Knows":
   pageId: 195855
   steam: 2587130
@@ -214456,6 +214472,8 @@ Superball:
   renamedFrom:
     - Super Buckyball Tournament
   steam: 1059110
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Pathea Entertainment\\Superball}}"
 Superbike 2000:
   pageId: 76826
   templates:
@@ -222631,6 +222649,9 @@ The Book of Unwritten Tales 2:
   gog: 1915718900
   pageId: 194750
   steam: 1432100
+"The Boss Gangsters: Nightlife":
+  pageId: 210232
+  steam: 2774040
 The Botanist:
   pageId: 69342
   steam: 694790
@@ -225750,6 +225771,9 @@ The Floor is Jelly:
   steam: 295750
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\TheFloorIsJelly\\Local Store\\|{{P|appdata}}\\jelly\\Local Store\\{{Note|DRM-free}}}}"
+The Florist:
+  pageId: 210240
+  steam: 3152440
 The Flower Collectors:
   cloud:
     gog: true
@@ -237221,6 +237245,8 @@ Tides of Tomorrow:
   renamedFrom:
     - Tides of Tomorrow 🌊
   steam: 2678080
+Tides of War:
+  pageId: 210236
 Tidy Your Room Simulator:
   pageId: 88031
   steam: 811900
