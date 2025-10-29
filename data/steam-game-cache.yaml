@@ -287229,6 +287229,7 @@
     - executable: Saya_Steam.exe
       type: default
   nameLocalized:
+    koreana: 사야의 노래
     schinese: 沙耶之歌
     tchinese: 沙耶之歌
 702060: {}
@@ -407794,6 +407795,13 @@
     - config:
         oslist: windows
       executable: ZSKX3.exe
+      type: default
+944080:
+  installDir: Pode
+  launch:
+    - config:
+        oslist: windows
+      executable: Pode.exe
       type: default
 944100:
   installDir: Poisoner
@@ -595298,6 +595306,31 @@
         oslist: windows
       executable: Memory Puzzle - Futanari Doctor.exe
       type: default
+2052040:
+  cloud:
+    saves:
+      - path: My Games/Golden Lap/Saves
+        pattern: "*.json"
+        root: WinMyDocuments
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinMyDocuments
+        useInstead: MacHome
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinMyDocuments
+        useInstead: LinuxHome
+  installDir: Golden Lap
+  launch:
+    - config:
+        oslist: windows
+      executable: goldenlap.exe
+    - config:
+        oslist: macos
+      executable: goldenlap.app
 2052410:
   cloud:
     saves:
@@ -624029,6 +624062,14 @@
     sc_schinese: 菜市场模拟器
     schinese: 菜市场模拟器
     tchinese: 菜市場模擬器
+2878450:
+  installDir: Master of Command
+  launch:
+    - config:
+        oslist: windows
+      description: Master Of Command
+      executable: Master Of Command.exe
+      type: default
 2878600:
   installDir: Harry Potter Quidditch Champions
   launch:
@@ -625080,6 +625121,22 @@
         oslist: windows
       description: Game Exicutable
       executable: SilverFish.exe
+2942700:
+  cloud:
+    saves:
+      - path: HeroesProject/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Seed of Heroes
+  launch:
+    - config:
+        oslist: windows
+      executable: HeroesProject.exe
+      type: default
+  nameLocalized:
+    japanese: Seed of Heroes（シード・オブ・ヒーローズ）
 2943280:
   cloud:
     saves:
@@ -632509,6 +632566,15 @@
   nameLocalized:
     english: Stray Children
     japanese: ストレイチルドレン
+3653600:
+  installDir: This Isnt Just Tower Defense
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Start Game
+      executable: "This Isn't Just Tower Defense.exe"
+      type: default
 3654560:
   cloud:
     saves:

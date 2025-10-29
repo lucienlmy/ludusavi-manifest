@@ -293971,6 +293971,34 @@ Golden Krone Hotel:
             store: steam
   steam:
     id: 497800
+Golden Lap:
+  cloud:
+    steam: true
+  files:
+    "<home>/My Games/Golden Lap/Saves/*.json":
+      when:
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
+    "<winDocuments>/My Games/Golden Lap/Saves/*.json":
+      when:
+        - store: steam
+  id:
+    lutris: golden-lap
+  installDir:
+    Golden Lap: {}
+  launch:
+    "<base>/goldenlap.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/goldenlap.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2052040
 Golden Light:
   cloud:
     steam: true
@@ -348736,6 +348764,7 @@ Indiana Jones and the Fate of Atlantis:
     id: 6010
 Indiana Jones and the Great Circle:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Saved Games/MachineGames/TheGreatCircle/base":
@@ -348754,7 +348783,13 @@ Indiana Jones and the Great Circle:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1953447949
   id:
+    gogExtra:
+      - 1495206475
+      - 2027922987
+      - 2098118663
     lutris: indiana-jones-and-the-great-circle
     steamExtra:
       - 2830500
@@ -423634,6 +423669,19 @@ Master of ABC:
           - store: steam
   steam:
     id: 673820
+Master of Command:
+  id:
+    steamExtra:
+      - 4130010
+  installDir:
+    Master of Command: {}
+  launch:
+    "<base>/Master Of Command.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2878450
 Master of LinCard:
   files:
     "<base>/LinCard_Data/*.molc":
@@ -485777,9 +485825,12 @@ Once Upon a Katamari:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Bandai Namco Entertainment/Once Upon A KATAMARI/Saved/SaveGames/<storeUserId>/*.bin":
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/Once Upon A KATAMARI/Saved/SaveGames/<storeUserId>":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: once-upon-a-katamari--1
   installDir:
@@ -485789,6 +485840,10 @@ Once Upon a Katamari:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/BANDAI NAMCO Entertainment Inc./Once Upon A KATAMARI:
+      tags:
+        - config
   steam:
     id: 1880620
 Once Upon a Time in Roswell:
@@ -519962,6 +520017,16 @@ Pocoman:
             store: steam
   steam:
     id: 984360
+Pode:
+  installDir:
+    Pode: {}
+  launch:
+    "<base>/Pode.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 944080
 Podium Bash:
   installDir:
     Podium Bash: {}
@@ -593831,6 +593896,23 @@ Seed of Evil:
             store: steam
   steam:
     id: 892760
+Seed of Heroes:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/HeroesProject/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Seed of Heroes: {}
+  launch:
+    "<base>/HeroesProject.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2942700
 Seed of Life:
   cloud:
     steam: true
@@ -737015,6 +737097,17 @@ This Is the President:
             store: steam
   steam:
     id: 730430
+"This Isn't Just Tower Defense":
+  installDir:
+    This Isnt Just Tower Defense: {}
+  launch:
+    "<base>/This Isn't Just Tower Defense.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3653600
 This Land Is My Land:
   files:
     "<home>/AppData/LocalLow/Game Labs/This Land Is My Land":

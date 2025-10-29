@@ -94038,6 +94038,12 @@ Golden Krone Hotel:
     steam: true
   pageId: 51617
   steam: 497800
+Golden Lap:
+  cloud:
+    steam: true
+  lutris: golden-lap
+  pageId: 210281
+  steam: 2052040
 Golden Light:
   cloud:
     steam: true
@@ -111710,8 +111716,14 @@ Indiana Jones and the Fate of Atlantis:
     - "{{Game data/saves|Windows|{{P|appdata}}\\LucasArts\\Indiana Jones and the Fate of Atlantis\\}}"
 Indiana Jones and the Great Circle:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1953447949
+  gogSide:
+    - 1495206475
+    - 2027922987
+    - 2098118663
   lutris: indiana-jones-and-the-great-circle
   pageId: 192664
   steam: 2677660
@@ -135810,6 +135822,11 @@ Master of ABC:
     steam: true
   pageId: 66039
   steam: 673820
+Master of Command:
+  pageId: 210284
+  steam: 2878450
+  steamSide:
+    - 4130010
 Master of Defense:
   pageId: 204472
 Master of Dimensions:
@@ -156233,6 +156250,9 @@ Once Upon a Katamari:
   lutris: once-upon-a-katamari--1
   pageId: 206671
   steam: 1880620
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\Once Upon A KATAMARI\\Saved\\SaveGames\\{{p|uid}}\\|{{p|hkcu}}\\Software\\BANDAI NAMCO Entertainment Inc.\\Once Upon A KATAMARI\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\Once Upon A KATAMARI\\Saved\\SaveGames\\{{p|uid}}\\}}"
 Once Upon a Time in Roswell:
   pageId: 145789
   steam: 907500
@@ -167285,6 +167305,9 @@ Pocky & Rocky Reshrined:
 Pocoman:
   pageId: 128236
   steam: 984360
+Pode:
+  pageId: 210280
+  steam: 944080
 Podium Bash:
   pageId: 74512
   steam: 726610
@@ -190775,6 +190798,11 @@ Seed of Evil:
   lutris: seed-of-evil
   pageId: 105241
   steam: 892760
+Seed of Heroes:
+  cloud:
+    steam: true
+  pageId: 210273
+  steam: 2942700
 Seed of Life:
   cloud:
     steam: true
@@ -236516,6 +236544,9 @@ This Is the President:
   gog: 1346542028
   pageId: 173499
   steam: 730430
+"This Isn't Just Tower Defense":
+  pageId: 210277
+  steam: 3653600
 This Land Is My Land:
   pageId: 142145
   steam: 1069640
