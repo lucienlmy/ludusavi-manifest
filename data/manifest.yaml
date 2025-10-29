@@ -5288,7 +5288,7 @@ $1 Ride:
             store: steam
   steam:
     id: 502740
-500 CALIBER CONTRACTZ:
+500 Caliber Contractz:
   files:
     "<home>/AppData/LocalLow/Bryce Bucher/500 Caliber Contractz":
       tags:
@@ -169131,6 +169131,11 @@ Darkwood:
         - config
   steam:
     id: 274520
+Darkwood 2:
+  cloud:
+    steam: true
+  steam:
+    id: 3708010
 Darthy:
   installDir:
     DARTHY: {}
@@ -176306,6 +176311,39 @@ Death by Game Show:
             store: steam
   steam:
     id: 409730
+Death by Scrolling:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Terrible Toybox/Death by Scrolling/*.bin":
+      when:
+        - store: steam
+    "<winAppData>/Terrible Toybox/Death by Scrolling/*.bin":
+      when:
+        - os: windows
+          store: steam
+    "<xdgData>/Terrible Toybox/Death by Scrolling/*.bin":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Death By Scrolling: {}
+  launch:
+    "<base>/Death by Scrolling":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Death by Scrolling.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Death by Scrolling.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3773590
 Death end re;Quest:
   cloud:
     gog: true
@@ -184893,6 +184931,11 @@ Desktop Dungeons Rewind:
             store: steam
   steam:
     id: 909630
+Desktop Explorer:
+  id:
+    lutris: desktop-explorer
+  steam:
+    id: 2527160
 Desktop Girls:
   installDir:
     Desktop Girls: {}
@@ -245575,6 +245618,22 @@ Fall In Love - My Billionaire Boss:
             store: steam
   steam:
     id: 985690
+Fall in Labyrinth:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    FALL IN LABYRINTH: {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - store: steam
+  steam:
+    id: 1441840
 Fall of Civilization:
   installDir:
     Fall of Civilization: {}
@@ -306948,26 +307007,6 @@ HYBRIS - Pulse of Ruin:
 HYPER DRIVE - The Insane Gravity Race:
   steam:
     id: 679220
-HYPERBEAT:
-  files:
-    "<base>/Saves":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/LocalLow/Dreamware Media/HYPERBEAT":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    HYPERBEAT: {}
-  launch:
-    "<base>/HYPERBEAT.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2263360
 HYPERFIGHT Max Battle:
   installDir:
     HYPERFIGHT: {}
@@ -315209,6 +315248,8 @@ Heart in the Dark:
   steam:
     id: 1142890
 Heart of China:
+  cloud:
+    gog: true
   gog:
     id: 2142209510
 Heart of Crown:
@@ -318540,6 +318581,11 @@ Hellish Quart:
         - config
   steam:
     id: 1000360
+Hellmart:
+  cloud:
+    steam: true
+  steam:
+    id: 3762550
 "Hellmut: The Badass from Hell":
   cloud:
     gog: true
@@ -338977,6 +339023,28 @@ Hyperball:
     Hyperball: {}
   steam:
     id: 879580
+Hyperbeat:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Dreamware Media/HYPERBEAT":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    HYPERBEAT: {}
+  launch:
+    "<base>/HYPERBEAT.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2263360
 Hyperbolic Ignition:
   cloud:
     steam: true
@@ -367451,25 +367519,6 @@ KILL:
             store: steam
   steam:
     id: 515900
-KILL KNIGHT:
-  files:
-    "<home>/AppData/LocalLow/PlaySide Studios/KILL KNIGHT":
-      tags:
-        - save
-      when:
-        - os: windows
-  id:
-    steamExtra:
-      - 3229490
-  installDir:
-    KILL KNIGHT: {}
-  launch:
-    "<base>/KILL KNIGHT.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2694420
 KILL THE EMOJI - THE REMAKE:
   alias: "Kill the Emoji: The Remake"
 KILLRUN:
@@ -372282,6 +372331,25 @@ Kill It with Fire:
             store: steam
   steam:
     id: 1179210
+Kill Knight:
+  files:
+    "<home>/AppData/LocalLow/PlaySide Studios/KILL KNIGHT":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3229490
+  installDir:
+    KILL KNIGHT: {}
+  launch:
+    "<base>/KILL KNIGHT.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2694420
 Kill Switch:
   files:
     "<base>/Saves":
@@ -433780,6 +433848,20 @@ Miasmata:
         - save
       when:
         - os: windows
+"Michael Schumacher: Racing World Kart 2002":
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Terratools/MSRW Kart 2002/Options/ButtonMapping:
+      tags:
+        - config
+    HKEY_CURRENT_USER/SOFTWARE/Terratools/MSRW Kart 2002/Options/Controller_convert:
+      tags:
+        - config
+    HKEY_CURRENT_USER/SOFTWARE/Terratools/MSRW Kart 2002/Options/Settings:
+      tags:
+        - config
+    HKEY_CURRENT_USER/SOFTWARE/Terratools/MSRW Kart 2002/Settings:
+      tags:
+        - config
 "Michael Schumacher: World Tour Kart 2004":
   files:
     "<base>/savedata.sav":
@@ -476827,6 +476909,8 @@ North:
   steam:
     id: 461890
 North & South:
+  cloud:
+    gog: true
   gog:
     id: 1934438439
 North Side:
@@ -631645,6 +631729,11 @@ Space Punks:
   cloud:
     gog: true
   files:
+    "<base>/resource.cfg":
+      tags:
+        - config
+      when:
+        - os: dos
     "<base>/sq5":
       tags:
         - config
@@ -663478,8 +663567,7 @@ Super Bubsy:
   id:
     lutris: super-bubsy
 Super Buckyball Tournament:
-  steam:
-    id: 1059110
+  alias: Superball
 Super Bugman Extreme Ultra:
   files:
     "<winAppData>/SBEU/**/*.lvl":
@@ -668615,6 +668703,20 @@ SuperWurfels:
             store: steam
   steam:
     id: 672880
+Superball:
+  files:
+    "<winDocuments>/SBT/SingleGameSave_steam/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    Superball: {}
+  launch:
+    "<base>/SUPERBALL.exe":
+      - arguments: "-platform=Steam"
+        when:
+          - store: steam
+  steam:
+    id: 1059110
 Superbike 2000:
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/EA SPORTS/Superbike 2000:
@@ -668859,6 +668961,8 @@ Superfuse:
   steam:
     id: 1770080
 Superhero League of Hoboken:
+  cloud:
+    gog: true
   gog:
     id: 1605503821
   installDir:
@@ -738463,6 +738567,8 @@ Thundering Skies:
   steam:
     id: 725660
 Thunderscape:
+  cloud:
+    gog: true
   files:
     "<base>/OPTIONS.BIN":
       tags:
@@ -814676,6 +814782,8 @@ Wreckreation:
         - config
       when:
         - os: windows
+  gog:
+    id: 1535202607
   id:
     lutris: wreckreation
   installDir:

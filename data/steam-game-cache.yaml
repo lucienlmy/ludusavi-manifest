@@ -237435,7 +237435,9 @@
         oslist: linux
       executable: Moonlighter.x86_64
       type: none
-606160: {}
+606160:
+  nameLocalized:
+    schinese: 月球任务
 606190:
   installDir: Nighthaw-X3000
   launch:
@@ -459997,6 +459999,18 @@
       executable: Underground Watcher.exe
       type: default
 1059110:
+  cloud:
+    saves:
+      - path: "SBT/SingleGameSave_steam/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinMyDocuments
+  installDir: Superball
+  launch:
+    - arguments: "-platform=Steam"
+      description: Superball default
+      executable: SUPERBALL.exe
+      type: default
   nameLocalized:
     sc_schinese: 超级巴基球
     schinese: 超级巴基球
@@ -554490,6 +554504,20 @@
         oslist: windows
       executable: Zeepkist.exe
       type: default
+1441840:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.rvdata2"
+        root: gameinstall
+  installDir: FALL IN LABYRINTH
+  launch:
+    - arguments: "--in-process-gpu"
+      executable: Game.exe
+      type: none
+  nameLocalized:
+    english: FALL IN LABYRINTH
+    schinese: 迷宫物语 - FALL IN LABYRINTH
 1442170:
   cloud:
     saves:
@@ -616113,6 +616141,7 @@
       type: config
   nameLocalized:
     japanese: 鈴蘭の剣：この平和な世界のために
+2527160: {}
 2527390:
   installDir: DEAD RISING DELUXE REMASTER
   launch:
@@ -632630,6 +632659,12 @@
   nameLocalized:
     schinese: 没落贵族的大小姐
     tchinese: 沒落貴族的大小姐
+3708010:
+  nameLocalized:
+    japanese: Darkwood 2 ダークウッド 2
+    koreana: Darkwood 2 다크우드 2
+    schinese: 阴暗森林2 Darkwood 2
+    tchinese: 陰暗森林2 Darkwood 2
 3710600: {}
 3710840: {}
 3717830: {}
@@ -632686,6 +632721,7 @@
     schinese: 超级枪弹辩驳２×２
     tchinese: 超級槍彈辯駁２×２
 3751260: {}
+3762550: {}
 3763840: {}
 3764200:
   nameLocalized:
@@ -632704,6 +632740,41 @@
     japanese: 007 ファーストライト
     koreana: 007 퍼스트 라이트
     schinese: 007 初露锋芒
+3773590:
+  cloud:
+    saves:
+      - path: Terrible Toybox/Death by Scrolling
+        pattern: "*.bin"
+        root: MacAppSupport
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Terrible Toybox/Death by Scrolling
+            replace: Terrible Toybox/Death by Scrolling
+        root: MacAppSupport
+        useInstead: WinAppDataRoaming
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Terrible Toybox/Death by Scrolling
+            replace: Terrible Toybox/Death by Scrolling
+        root: MacAppSupport
+        useInstead: LinuxXdgDataHome
+  installDir: Death By Scrolling
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Death by Scrolling.exe
+    - config:
+        oslist: macos
+      executable: Death by Scrolling.app
+    - config:
+        oslist: linux
+      executable: Death by Scrolling
+  nameLocalized:
+    schinese: " 刷屏至死"
 3775050:
   installDir: DOGWALK
   launch:

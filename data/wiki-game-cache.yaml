@@ -1668,8 +1668,10 @@ $1 Ride:
   steam: 502740
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\_50years\\YEAR50.TXT}}"
-500 CALIBER CONTRACTZ:
+500 Caliber Contractz:
   pageId: 195633
+  renamedFrom:
+    - 500 CALIBER CONTRACTZ
   steam: 2571410
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Bryce Bucher\\500 Caliber Contractz\\optionsData*.es3}}"
@@ -54019,6 +54021,11 @@ Darkwood:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Acid Wizard Studio\\DARKWOOD\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Acid Wizard Studio/DARKWOOD/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Acid Wizard Studio/DARKWOOD/}}"
+Darkwood 2:
+  cloud:
+    steam: true
+  pageId: 210230
+  steam: 3708010
 Darthy:
   pageId: 44592
   steam: 404850
@@ -56240,6 +56247,11 @@ Death by Game Show:
   templates:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Oointah/Death by GameShow/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Oointah/Death by GameShow/PlayerData}}"
+Death by Scrolling:
+  cloud:
+    steam: true
+  pageId: 210224
+  steam: 3773590
 Death end re;Quest:
   cloud:
     gog: true
@@ -58858,6 +58870,10 @@ Desktop Dungeons Rewind:
 "Desktop Dynasties: Pro Football":
   pageId: 120778
   steam: 909630
+Desktop Explorer:
+  lutris: desktop-explorer
+  pageId: 210219
+  steam: 2527160
 Desktop Girls:
   pageId: 145945
   steam: 1044500
@@ -78592,6 +78608,11 @@ Fall Guys:
 Fall In Love - My Billionaire Boss:
   pageId: 140783
   steam: 985690
+Fall in Labyrinth:
+  cloud:
+    steam: true
+  pageId: 210226
+  steam: 1441840
 Fall of Civilization:
   pageId: 39013
   steam: 467010
@@ -98308,12 +98329,6 @@ HYBRIS - Pulse of Ruin:
 HYPER DRIVE - The Insane Gravity Race:
   pageId: 66231
   steam: 679220
-HYPERBEAT:
-  pageId: 210212
-  steam: 2263360
-  templates:
-    - "{{Game data/config|Windows|%AppData%\\LocalLow\\Dreamware Media\\HYPERBEAT}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 HYPERFIGHT Max Battle:
   pageId: 129707
   steam: 1005870
@@ -101047,6 +101062,8 @@ Heart in the Dark:
   pageId: 150331
   steam: 1142890
 Heart of China:
+  cloud:
+    gog: true
   gog: 2142209510
   pageId: 131855
 Heart of Crown:
@@ -102094,6 +102111,11 @@ Hellish Quart:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Kubold\\Hellish Quart}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kubold\\Hellish Quart\\HQuart.es3}}"
+Hellmart:
+  cloud:
+    steam: true
+  pageId: 210216
+  steam: 3762550
 "Hellmut: The Badass from Hell":
   cloud:
     gog: true
@@ -108677,6 +108699,16 @@ Hyperball:
   steam: 879580
 "Hyperballoid 2: Time Rider":
   pageId: 195921
+Hyperbeat:
+  cloud:
+    steam: true
+  pageId: 210212
+  renamedFrom:
+    - HYPERBEAT
+  steam: 2263360
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Dreamware Media\\HYPERBEAT}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Hyperbolic Ignition:
   cloud:
     steam: true
@@ -117710,13 +117742,6 @@ KEO:
 KILL:
   pageId: 36218
   steam: 515900
-KILL KNIGHT:
-  pageId: 200548
-  steam: 2694420
-  steamSide:
-    - 3229490
-  templates:
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\PlaySide Studios\\KILL KNIGHT}}"
 KILLRUN:
   cloud:
     steam: true
@@ -119265,6 +119290,15 @@ Kill It with Fire:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Kani\\Saved\\SaveGames\\*Settings_KIWF_*.sav|{{P|localappdata}}\\Kani\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Kani\\Saved\\SaveGames\\DefaultSlot_KIWF_*.sav}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\tinyBuildGames.KillItWithFire_3sz1pp2ynv2xe\\SystemAppData\\wgs}}"
+Kill Knight:
+  pageId: 200548
+  renamedFrom:
+    - KILL KNIGHT
+  steam: 2694420
+  steamSide:
+    - 3229490
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\PlaySide Studios\\KILL KNIGHT}}"
 Kill Switch:
   pageId: 87762
   templates:
@@ -139114,6 +139148,8 @@ Miasmata:
     - "{{Game data/saves|Windows|{{P|game}}\\Saves}}"
 "Michael Schumacher: Racing World Kart 2002":
   pageId: 88361
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Terratools\\MSRW Kart 2002\\Options\\ButtonMapping|{{p|hkcu}}\\SOFTWARE\\Terratools\\MSRW Kart 2002\\Options\\Controller_convert|{{p|hkcu}}\\SOFTWARE\\Terratools\\MSRW Kart 2002\\Options\\Settings|{{p|hkcu}}\\SOFTWARE\\Terratools\\MSRW Kart 2002\\Settings}}"
 "Michael Schumacher: World Tour Kart 2004":
   pageId: 88388
   templates:
@@ -153276,6 +153312,8 @@ North:
   pageId: 43356
   steam: 461890
 North & South:
+  cloud:
+    gog: true
   gog: 1934438439
   pageId: 169482
 North Side:
@@ -202757,6 +202795,7 @@ Space Punks:
   pageId: 10794
   steam: 10110
   templates:
+    - "{{Game data/config|DOS|{{p|game}}\\resource.cfg}}"
     - "{{Game data/config|Windows|{{p|game}}\\sq5}}"
     - "{{Game data/saves|Windows|{{p|game}}\\sq5\\SQ5SG.***}}"
 "Space Quest: Chapter I - The Sarien Encounter":
@@ -212813,9 +212852,6 @@ Super Bubble Pop:
 Super Bubsy:
   lutris: super-bubsy
   pageId: 36009
-Super Buckyball Tournament:
-  pageId: 142192
-  steam: 1059110
 Super Bugman Extreme Ultra:
   pageId: 77373
   steam: 756380
@@ -214415,6 +214451,11 @@ SuperTuxKart:
 SuperWurfels:
   pageId: 70094
   steam: 672880
+Superball:
+  pageId: 142192
+  renamedFrom:
+    - Super Buckyball Tournament
+  steam: 1059110
 Superbike 2000:
   pageId: 76826
   templates:
@@ -214514,6 +214555,8 @@ Superfuse:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Superfuse\\Saved\\SaveGames\\SuperfuseSaveGame_*.sav}}"
 Superhero League of Hoboken:
+  cloud:
+    gog: true
   gog: 1605503821
   pageId: 131615
   steam: 1104470
@@ -236994,6 +237037,8 @@ Thundering Skies:
   pageId: 76137
   steam: 725660
 Thunderscape:
+  cloud:
+    gog: true
   gog: 1207659463
   pageId: 14522
   templates:
@@ -262724,6 +262769,7 @@ Wreckreation:
   cloud:
     gog: true
     steam: true
+  gog: 1535202607
   lutris: wreckreation
   pageId: 180741
   steam: 1594040
