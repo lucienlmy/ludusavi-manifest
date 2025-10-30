@@ -96734,6 +96734,9 @@ Ground Zero:
     steam: true
   pageId: 205730
   steam: 2340130
+"Ground Zero Texas: Nuclear Edition":
+  pageId: 210308
+  steam: 1188160
 Ground of Aces:
   pageId: 210146
   steam: 2308690
@@ -119280,6 +119283,9 @@ Kids:
 Kids Learn:
   pageId: 102441
   steam: 890210
+"Kids On Site: Hard Hat Edition":
+  pageId: 210311
+  steam: 1955700
 Kids and Family Movie Trivia:
   pageId: 185786
 "Kids of Hellas: Back to Olympus":

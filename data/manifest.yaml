@@ -302213,6 +302213,16 @@ Ground Zero:
     steam: true
   steam:
     id: 2340130
+"Ground Zero Texas: Nuclear Edition":
+  installDir:
+    Ground Zero Texas - Nuclear Edition: {}
+  launch:
+    "<base>/Ground Zero Texas - Nuclear Edition.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1188160
 Ground of Aces:
   id:
     steamExtra:
@@ -372247,6 +372257,15 @@ Kids Learn:
             store: steam
   steam:
     id: 890210
+"Kids On Site: Hard Hat Edition":
+  installDir:
+    Kids On Site - Hard Hat Edition: {}
+  launch:
+    "<base>/Kids On Site - Hard Hat Edition.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1955700
 "Kids of Hellas: Back to Olympus":
   cloud:
     steam: true

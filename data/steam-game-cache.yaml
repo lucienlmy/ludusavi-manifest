@@ -519016,6 +519016,13 @@
         oslist: windows
       executable: CountryRoadVR.exe
       type: vr
+1188160:
+  installDir: Ground Zero Texas - Nuclear Edition
+  launch:
+    - config:
+        oslist: windows
+      executable: Ground Zero Texas - Nuclear Edition.exe
+      type: default
 1188190: {}
 1188200: {}
 1188240: {}
@@ -590731,6 +590738,10 @@
     - config:
         oslist: linux
       executable: SaveRoom.x86_64
+1955700:
+  installDir: Kids On Site - Hard Hat Edition
+  launch:
+    - executable: Kids On Site - Hard Hat Edition.exe
 1955800:
   installDir: Converbots
   launch:
