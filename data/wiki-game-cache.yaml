@@ -10280,6 +10280,9 @@ Alphaman:
   steam: 1068800
   steamSide:
     - 1179960
+Alpine Skater:
+  pageId: 210287
+  steam: 3994690
 Alpine Ski VR:
   pageId: 53956
   steam: 553110
@@ -66209,6 +66212,14 @@ Driftwood The Visual Novel:
 Drill Arena:
   pageId: 82694
   steam: 799610
+Drill Core:
+  cloud:
+    steam: true
+  pageId: 210292
+  steam: 2821800
+  steamSide:
+    - 3176040
+    - 3221300
 Drill Deal:
   pageId: 139591
   steam: 1083300
@@ -108940,6 +108951,9 @@ Hyphen:
 Hypnagogia Boundless Dreams:
   pageId: 205624
   steam: 1665500
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Raptorsoft\\Hypnagogia: Boundless Dreams}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Raptorsoft\\Hypnagogia: Boundless Dreams}}"
 Hypnocult:
   cloud:
     steam: true
@@ -137165,6 +137179,7 @@ Mega Man Maker:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\MegaMaker\\Levels\\}}"
 Mega Man Star Force Legacy Collection:
   pageId: 208278
+  steam: 3500390
 Mega Man X:
   lutris: mega-man-x
   pageId: 73402
@@ -141729,6 +141744,8 @@ Mobile Forces:
 Mobile Light Force:
   pageId: 47205
   steam: 379370
+Mobile Suit Baba:
+  pageId: 210302
 Mobile Suit Gundam Battle Operation 2:
   pageId: 176973
   steam: 1367080
@@ -204523,6 +204540,8 @@ Sphoxie:
     steam: true
   pageId: 94257
   steam: 486430
+"Spica, Chinatsu and Haruka's Enchanting, Marvelous, and quite frankly Elaborate quest to save their (cute) girlfriend!!!":
+  pageId: 210304
 Spice & Wolf VR:
   pageId: 135574
   renamedFrom:
@@ -241440,6 +241459,9 @@ Toxic Bunny HD:
     steam: true
   pageId: 49887
   steam: 305010
+Toxic Crusaders:
+  pageId: 210289
+  steam: 2303850
 Toxic Plumbing:
   pageId: 79870
   steam: 777050
@@ -265352,6 +265374,8 @@ Yucatan:
 Yuki Onna:
   pageId: 184210
   steam: 1191070
+"Yuki's Palpitating, Passionate, Phenomenal, and quite frankly Proficient quest for a (hot) girlfriend!!!":
+  pageId: 210299
 "Yukie: A Japanese Winter Fairy Tale":
   pageId: 63821
   steam: 352810

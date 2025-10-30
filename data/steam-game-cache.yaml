@@ -607581,6 +607581,7 @@
   nameLocalized:
     schinese: 小小贴纸铺
     tchinese: 小小貼紙鋪
+2303850: {}
 2304440:
   cloud:
     saves:
@@ -623265,6 +623266,14 @@
         oslist: windows
       executable: TheDarken.exe
       type: default
+2821800:
+  installDir: Drill Core
+  launch:
+    - config:
+        oslist: windows
+      executable: Drill Core.exe
+  nameLocalized:
+    schinese: 钻核公司 (Drill Core)
 2824490:
   cloud:
     saves:
@@ -631483,6 +631492,12 @@
   nameLocalized:
     russian: Другой мир
 3499790: {}
+3500390:
+  nameLocalized:
+    japanese: 流星のロックマン パーフェクトコレクション
+    koreana: ROCKMAN STAR FORCE PERFECT COLLECTION(유성의 록맨 퍼펙트 컬렉션)
+    schinese: 流星ROCKMAN 完美合集
+    tchinese: 流星ROCKMAN 完美合集
 3500810: {}
 3504570:
   cloud:
@@ -633424,6 +633439,13 @@
     koreana: 시티헌터
     schinese: 城市猎人
     tchinese: 城市獵人
+3994690:
+  installDir: Skateboard_Game
+  launch:
+    - config:
+        oslist: windows
+      executable: Skateboard_Game.exe
+      type: default
 4031890:
   nameLocalized:
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"

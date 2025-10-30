@@ -32515,6 +32515,16 @@ Alphaman:
             store: steam
   steam:
     id: 1068800
+Alpine Skater:
+  installDir:
+    Skateboard_Game: {}
+  launch:
+    "<base>/Skateboard_Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3994690
 Alpine Ski VR:
   installDir:
     Alpine Ski VR: {}
@@ -207356,6 +207366,22 @@ Drill Arena:
           - store: steam
   steam:
     id: 799610
+Drill Core:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3176040
+      - 3221300
+  installDir:
+    Drill Core: {}
+  launch:
+    "<base>/Drill Core.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2821800
 Drill Deal:
   installDir:
     Drill Deal: {}
@@ -339810,6 +339836,11 @@ Hypnagogia Boundless Dreams:
       - when:
           - os: mac
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Raptorsoft/Hypnagogia: Boundless Dreams":
+      tags:
+        - config
+        - save
   steam:
     id: 1665500
 Hypnocult:
@@ -427913,6 +427944,9 @@ Mega Man Maker:
         - config
       when:
         - os: windows
+Mega Man Star Force Legacy Collection:
+  steam:
+    id: 3500390
 Mega Man X:
   files:
     "<base>/MMX.GMS":
@@ -752263,6 +752297,9 @@ Toxic Bunny HD:
           - store: steam
   steam:
     id: 305010
+Toxic Crusaders:
+  steam:
+    id: 2303850
 Toxic Plumbing:
   installDir:
     TOXIC PLUMBING: {}
