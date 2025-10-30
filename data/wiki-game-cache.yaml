@@ -20551,6 +20551,14 @@ Balls!🤬🍆:
 BallsBlasterVR:
   pageId: 156382
   steam: 1222420
+Ballshit:
+  cloud:
+    steam: true
+  pageId: 210322
+  steam: 3516580
+  steamSide:
+    - 3923610
+    - 4012610
 Ballway:
   pageId: 65080
   steam: 654770
@@ -67241,11 +67249,13 @@ Dune Sea:
 "Dune: Awakening":
   cloud:
     steam: true
+  lutris: dune-awakening
   pageId: 183730
   steam: 1172710
   steamSide:
     - 3596810
   templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Config\\WindowsClient\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Cloud\\}}"
 "Dune: Imperium":
   pageId: 193738
@@ -69830,8 +69840,13 @@ Earth Under Siege:
   pageId: 49139
   steam: 324450
 Earth vs Mars:
+  cloud:
+    steam: true
   pageId: 201661
   steam: 3269230
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\corman\\Saved\\Config\\*.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\corman\\Saved\\SaveGames\\*.sav}}"
 "Earth: Year 2066":
   pageId: 81390
   steam: 290750
@@ -70294,8 +70309,10 @@ Echo Prime:
 Echo Royale:
   pageId: 132018
   steam: 1052370
-"Echo Tokyo: Intro":
+"Echo Tokyo: An Intro":
   pageId: 44813
+  renamedFrom:
+    - "Echo Tokyo: Intro"
   steam: 345700
   steamSide:
     - 372810
@@ -144167,6 +144184,8 @@ Mortal Kombat X:
     steam: true
   pageId: 205145
   steam: 3454980
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Mortal Kombat Legacy Kollection\\*.json|{{p|appdata}}\\Mortal Kombat Legacy Kollection\\replays\\*.replay}}"
 Mortal Manor:
   pageId: 79290
   steam: 772200
@@ -179602,6 +179621,7 @@ Resident Evil HD Remaster:
   cloud:
     gog: true
     steam: true
+  gog: 1999933307
   lutris: resident-evil-biohazard-hd-remaster
   pageId: 20009
   steam: 304240
@@ -179652,9 +179672,31 @@ Resident Evil Zero HD Remaster:
   cloud:
     gog: true
     steam: true
+  gog: 1612002354
+  gogSide:
+    - 1308272827
+    - 1319465586
+    - 1461513794
+    - 1547947059
+    - 1650909579
+    - 1954684549
+    - 2077010320
   lutris: resident-evil-0-biohazard-0-hd-remaster
   pageId: 30085
   steam: 339340
+  steamSide:
+    - 381710
+    - 381711
+    - 381712
+    - 381713
+    - 381714
+    - 381715
+    - 381716
+    - 381717
+    - 401340
+    - 401341
+    - 406140
+    - 430390
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CAPCOM\\RESIDENT EVIL 0 HD REMASTER\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\339340\\remote\\}}"
@@ -198569,6 +198611,9 @@ Slots & Daggers:
     steam: true
   pageId: 210083
   steam: 3631290
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Friedemann\\SlotsAndDaggers\\settings.settings|{{p|hkcu}}\\Software\\Friedemann\\SlotsAndDaggers\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Friedemann\\SlotsAndDaggers\\Progress\\|{{p|userprofile\\appdata\\locallow}}\\Friedemann\\SlotsAndDaggers\\Save\\}}"
 Slow Damage:
   pageId: 199608
 "Slow Down, Bull":
@@ -219773,6 +219818,7 @@ Tekken 8:
   cloud:
     steam: true
   lutris: tekken-8
+  malformed: true
   pageId: 182474
   steam: 1778820
   steamSide:
@@ -247997,12 +248043,14 @@ Undefeated:
     - 362980
     - 394080
 Undefeated (2019):
+  lutris: undefeated--1
   pageId: 141732
   steam: 1116960
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\UNDEFEATED\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\UNDEFEATED\\Saved\\SaveGames\\}}"
 "Undefeated: Genesis":
+  lutris: undefeated-genesis
   pageId: 207167
   steam: 2088020
 Undefined:
@@ -248281,6 +248329,9 @@ Underrail:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Underrail\\config.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Underrail\\Saves\\}}"
+"Underrail 2: Infusion":
+  pageId: 210320
+  steam: 694320
 Undersea Adventure:
   pageId: 185293
 Underspace:

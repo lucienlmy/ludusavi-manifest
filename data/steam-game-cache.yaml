@@ -283074,6 +283074,7 @@
   launch:
     - executable: "Launcher\\za4.exe"
       type: none
+694320: {}
 694370:
   installDir: Space Pilgrim Academy
   launch:
@@ -329091,15 +329092,8 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: idTechLauncher.exe
-      type: default
-    - config:
-        betakey: id-qa-smoke
-        osarch: "64"
-        oslist: windows
-      description: "DOOM Eternal: new launcher format"
       executable: launcher/idTechLauncher.exe
-      type: option1
+      type: default
 782340:
   installDir: Lake of Voices
   launch:
@@ -624341,6 +624335,29 @@
         oslist: windows
       executable: Rage_Of_The_Dragons_NEO.exe
 2893570:
+  cloud:
+    saves:
+      - path: "My Games/DRAGON QUEST I and II HD-2D Remake/Steam/{64BitSteamID}"
+        pattern: Capture*.sav
+        recursive: true
+        root: WinMyDocuments
+      - path: "My Games/DRAGON QUEST I and II HD-2D Remake/Steam/{64BitSteamID}"
+        pattern: "*SaveData*.sav"
+        recursive: true
+        root: WinMyDocuments
+      - path: "My Games/DRAGON QUEST I and II HD-2D Remake/Steam/{64BitSteamID}"
+        pattern: SystemData_0.sav
+        recursive: true
+        root: WinMyDocuments
+  installDir: DRAGON QUEST I and II HD-2D Remake
+  launch:
+    - config:
+        betakey: development_patch1
+      executable: DQIandIIHD2DRemake.exe
+    - arguments: "-logPSO"
+      config:
+        betakey: pso_collection
+      executable: DQIandIIHD2DRemake.exe
   nameLocalized:
     japanese: ドラゴンクエストI＆II
     koreana: 드래곤 퀘스트 I & II HD-2D Remake
@@ -629420,7 +629437,33 @@
     schinese: MindsEye 心之眼
     tchinese: MindsEye 心之眼
 3267460: {}
-3269230: {}
+3269230:
+  cloud:
+    saves:
+      - path: corman/Saved/Config
+        pattern: "*.ini"
+        recursive: true
+        root: WinAppDataLocal
+      - path: corman/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Earth vs Mars
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "corman\\Binaries\\Win64\\corman-Win64-Shipping.exe"
+      type: default
+      workingdir: "corman\\Binaries\\Win64\\"
+    - arguments: "corman\\Binaries\\Win64\\"
+      config:
+        betakey: playtest_development
+        osarch: "64"
+        oslist: windows
+      description: playtest_development
+      executable: "corman\\Binaries\\Win64\\corman.exe"
+      type: option1
 3270680:
   installDir: "Kota`s New Journey"
   launch:
@@ -631322,7 +631365,23 @@
   installDir: Cornerpond
   launch:
     - executable: Cornerpond.exe
-3454980: {}
+3454980:
+  cloud:
+    saves:
+      - path: Mortal Kombat Legacy Kollection
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Mortal Kombat Legacy Kollection/replays
+        pattern: "*.replay"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Mortal Kombat Legacy Kollection
+  launch:
+    - executable: mk_legacy_kollection.exe
+      type: default
 3459100: {}
 3461480:
   installDir: The New Kid on the Block
@@ -631647,6 +631706,30 @@
         osarch: "64"
         oslist: windows
       executable: Wuthering Waves.exe
+3516580:
+  cloud:
+    saves:
+      - path: "FUNTOO\\WJZT\\saveData\\0"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: 无基之谈
+  launch:
+    - config:
+        oslist: windows
+      executable: WJZT.exe
+      type: default
+  nameLocalized:
+    english: Ballshit
+    schinese: 无基之谈
+    tchinese: 無基之談
 3519530:
   installDir: Merge Maestro
   launch:

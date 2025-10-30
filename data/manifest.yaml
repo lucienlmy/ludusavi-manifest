@@ -64692,6 +64692,27 @@ BallsBlasterVR:
     BallsBlasterVR: {}
   steam:
     id: 1222420
+Ballshit:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/FUNTOO/WJZT/saveData/0":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3923610
+      - 4012610
+  installDir:
+    无基之谈: {}
+  launch:
+    "<base>/WJZT.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3516580
 Ballway:
   installDir:
     Ballway: {}
@@ -198927,7 +198948,7 @@ Doom Eternal:
   installDir:
     DOOMEternal: {}
   launch:
-    "<base>/idTechLauncher.exe":
+    "<base>/launcher/idTechLauncher.exe":
       - when:
           - bit: 64
             os: windows
@@ -202925,8 +202946,20 @@ Dragon Quest Heroes II:
 Dragon Quest I & II HD-2D Remake:
   cloud:
     steam: true
+  files:
+    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/**/*SaveData*.sav":
+      when:
+        - store: steam
+    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/**/Capture*.sav":
+      when:
+        - store: steam
+    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/**/SystemData_0.sav":
+      when:
+        - store: steam
   id:
     lutris: dragon-quest-i-ii-hd-2d-remake
+  installDir:
+    DRAGON QUEST I and II HD-2D Remake: {}
   steam:
     id: 2893570
 Dragon Quest III HD-2D Remake:
@@ -210907,7 +210940,13 @@ Dune Sea:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/DuneSandbox/Saved/Config/WindowsClient":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
+    lutris: dune-awakening
     steamExtra:
       - 3596810
   installDir:
@@ -218575,6 +218614,28 @@ Earth Under Siege:
   steam:
     id: 324450
 Earth vs Mars:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/corman/Saved/Config/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/corman/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Earth vs Mars: {}
+  launch:
+    "<base>/corman/Binaries/Win64/corman-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/corman/Binaries/Win64"
   steam:
     id: 3269230
 "Earth: Year 2066":
@@ -220048,7 +220109,7 @@ Echo Royale:
             store: steam
   steam:
     id: 1052370
-"Echo Tokyo: Intro":
+"Echo Tokyo: An Intro":
   files:
     "<base>/game/saves":
       tags:
@@ -220086,6 +220147,8 @@ Echo Royale:
             store: steam
   steam:
     id: 345700
+"Echo Tokyo: Intro":
+  alias: "Echo Tokyo: An Intro"
 "Echo Tokyo: Phoenix":
   installDir:
     Echo Tokyo Phoenix: {}
@@ -448899,6 +448962,23 @@ Mortal Kombat X:
 "Mortal Kombat: Legacy Kollection":
   cloud:
     steam: true
+  files:
+    "<winAppData>/Mortal Kombat Legacy Kollection/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Mortal Kombat Legacy Kollection/replays/*.replay":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Mortal Kombat Legacy Kollection: {}
+  launch:
+    "<base>/mk_legacy_kollection.exe":
+      - when:
+          - store: steam
   steam:
     id: 3454980
 Mortal Manor:
@@ -558927,6 +559007,8 @@ Resident Evil HD Remaster:
         - config
       when:
         - os: windows
+  gog:
+    id: 1999933307
   id:
     lutris: resident-evil-biohazard-hd-remaster
   installDir:
@@ -559036,8 +559118,31 @@ Resident Evil Zero HD Remaster:
         - config
       when:
         - os: windows
+  gog:
+    id: 1612002354
   id:
+    gogExtra:
+      - 1308272827
+      - 1319465586
+      - 1461513794
+      - 1547947059
+      - 1650909579
+      - 1954684549
+      - 2077010320
     lutris: resident-evil-0-biohazard-0-hd-remaster
+    steamExtra:
+      - 381710
+      - 381711
+      - 381712
+      - 381713
+      - 381714
+      - 381715
+      - 381716
+      - 381717
+      - 401340
+      - 401341
+      - 406140
+      - 430390
   installDir:
     Resident Evil 0: {}
   launch:
@@ -618629,28 +618734,21 @@ Slots & Daggers:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3D/Friedemann/SlotsAndDaggers/*.save":
+    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/Progress":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/.config/unity3D/Friedemann/SlotsAndDaggers/*.tutProg":
+        - os: windows
+    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/Save":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/**/*.save":
+        - os: windows
+    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/settings.settings":
+      tags:
+        - config
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/Friedemann/SlotsAndDaggers/**/*.tutProg":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Friedemann/SlotsAndDaggers/*.save":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Friedemann/SlotsAndDaggers/*.tutProg":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     Slots and Daggers: {}
   launch:
@@ -618662,6 +618760,10 @@ Slots & Daggers:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Friedemann/SlotsAndDaggers:
+      tags:
+        - config
   steam:
     id: 3631290
 "Slow Down, Bull":
@@ -770369,6 +770471,8 @@ Undefeated (2019):
         - save
       when:
         - os: windows
+  id:
+    lutris: undefeated--1
   installDir:
     UNDEFEATED: {}
   launch:
@@ -770378,6 +770482,8 @@ Undefeated (2019):
   steam:
     id: 1116960
 "Undefeated: Genesis":
+  id:
+    lutris: undefeated-genesis
   steam:
     id: 2088020
 Undefined:
@@ -771186,6 +771292,9 @@ Underrail:
           - store: steam
   steam:
     id: 250520
+"Underrail 2: Infusion":
+  steam:
+    id: 694320
 Underspace:
   cloud:
     steam: true
