@@ -40639,14 +40639,17 @@ Chronoraptor:
   pageId: 134614
   steam: 1049000
 Chronos:
+  lutris: chronos--1
   pageId: 128777
 "Chronos: Before the Ashes":
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1678001942
   gogSide:
     - 1772370360
+  lutris: chronos-before-the-ashes
   pageId: 163269
   steam: 967390
   templates:
@@ -55704,6 +55707,14 @@ Deadly Days:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Pixelsplit\\Deadly Days\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Pixelsplit\\Deadly Days\\ddsave}}"
+"Deadly Days: Roadtrip":
+  cloud:
+    steam: true
+  pageId: 210315
+  steam: 3026450
+  steamSide:
+    - 3883810
+    - 3883820
 Deadly Delivery:
   cloud:
     steam: true
@@ -179589,6 +179600,7 @@ Resident Evil 6:
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\418370\\remote\\win64_save\\}}"
 Resident Evil HD Remaster:
   cloud:
+    gog: true
     steam: true
   lutris: resident-evil-biohazard-hd-remaster
   pageId: 20009
@@ -179638,6 +179650,7 @@ Resident Evil Village:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/jp.co.capcom.VillageUS/Data/Library/Application Support/CAPCOM/Resident Evil Village/SaveData}}"
 Resident Evil Zero HD Remaster:
   cloud:
+    gog: true
     steam: true
   lutris: resident-evil-0-biohazard-0-hd-remaster
   pageId: 30085
@@ -252744,6 +252757,7 @@ Virtua Fighter 2 (2010):
 Virtua Fighter 5 R.E.V.O.:
   cloud:
     steam: true
+  lutris: virtua-fighter-5-revo
   pageId: 199440
   steam: 3112260
   templates:

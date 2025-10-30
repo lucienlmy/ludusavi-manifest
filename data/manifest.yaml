@@ -14223,6 +14223,12 @@ ARC Raiders:
         - config
       when:
         - os: windows
+  installDir:
+    Arc Raiders: {}
+  launch:
+    "<base>/PioneerGame.exe":
+      - when:
+          - store: steam
   steam:
     id: 1808500
 AREA 4643:
@@ -127607,8 +127613,12 @@ Chronoraptor:
             store: steam
   steam:
     id: 1049000
+Chronos:
+  id:
+    lutris: chronos--1
 "Chronos: Before the Ashes":
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -127622,6 +127632,7 @@ Chronoraptor:
   id:
     gogExtra:
       - 1772370360
+    lutris: chronos-before-the-ashes
   installDir:
     Chronos: {}
   launch:
@@ -166528,6 +166539,18 @@ Dark Miasma:
   steam:
     id: 1070440
 Dark Moon:
+  files:
+    "<home>/AppData/LocalLow/Jujubee/DM":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dark Moon: {}
+  launch:
+    "<base>/DM.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1105330
 Dark Mystery:
@@ -174572,6 +174595,31 @@ Deadly Days:
         - config
   steam:
     id: 740080
+"Deadly Days: Roadtrip":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/DDSurvivors/Saved/SaveGames/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/DDSurvivors/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 3883810
+      - 3883820
+  installDir:
+    Deadly Days Roadtrip: {}
+  launch:
+    "<base>/DDSurvivors.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3026450
 Deadly Delivery:
   cloud:
     steam: true
@@ -558865,6 +558913,7 @@ Resident Evil 6:
     id: 418370
 Resident Evil HD Remaster:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/304240/remote":
@@ -558973,6 +559022,7 @@ Resident Evil Village:
     id: 1196590
 Resident Evil Zero HD Remaster:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/339340/remote":
@@ -784435,10 +784485,12 @@ Virtua Fighter 5 R.E.V.O.:
         - save
       when:
         - os: windows
+  id:
+    lutris: virtua-fighter-5-revo
   installDir:
     VFREVO: {}
   launch:
-    "<base>/runtime/media/VFREVO.exe":
+    "<base>/runtime/media/start_protected_game.exe":
       - when:
           - store: steam
         workingDir: "<base>/runtime/media"

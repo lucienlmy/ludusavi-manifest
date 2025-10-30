@@ -481714,7 +481714,20 @@
         oslist: windows
       executable: Pakicetus.exe
       type: default
-1105330: {}
+1105330:
+  cloud:
+    saves:
+      - path: Jujubee/DM
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Dark Moon
+  launch:
+    - config:
+        oslist: windows
+      executable: DM.exe
 1105390: {}
 1105410:
   installDir: "Shine's Adventures 2 (Zombie Attack)"
@@ -580771,7 +580784,11 @@
   launch:
     - executable: Tag.exe
       type: default
-1808500: {}
+1808500:
+  installDir: Arc Raiders
+  launch:
+    - executable: PioneerGame.exe
+      type: default
 1808680:
   cloud:
     saves:
@@ -626647,6 +626664,40 @@
       description: Mac Launch Option
       executable: TRONCATALYST.app/Contents/MacOS/TRONCATALYST
       type: default
+3026450:
+  cloud:
+    saves:
+      - path: DDSurvivors/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: DDSurvivors/Saved/SaveGames
+            replace: DDSurvivors/Saved/SaveGames
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Deadly Days Roadtrip
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX11
+      executable: DDSurvivors.exe
+      type: default
+    - arguments: "-dx12"
+      config:
+        betakey: disabled
+        osarch: "64"
+        oslist: windows
+      description: "Experimental DirectX12 (might require 6GB+ VRam, might crash)"
+      executable: DDSurvivors.exe
+  nameLocalized:
+    japanese: デッドリーデイズ：ロードトリップ
+    koreana: "데들리 데이즈: 로드트립"
+    schinese: 死亡日：狂杀末路
 3027260:
   installDir: BEHEMOTH
   launch:
@@ -627954,7 +628005,12 @@
         root: WinAppDataRoaming
   installDir: VFREVO
   launch:
-    - executable: runtime/media/VFREVO.exe
+    - executable: runtime/media/start_protected_game.exe
+      workingdir: runtime/media/
+    - config:
+        betakey: release
+      description: VFREVO.exe を実行（EAC無効）
+      executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/
 3115160: {}
 3117820:
