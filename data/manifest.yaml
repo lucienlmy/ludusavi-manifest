@@ -32285,6 +32285,11 @@ Alpha Mike Foxtrot:
     Alpha Mike Foxtrot: {}
   steam:
     id: 689620
+Alpha Nomos:
+  id:
+    lutris: alpha-nomos
+  steam:
+    id: 2529960
 Alpha Polaris:
   files:
     "<home>/Saved Games/Alpha Polaris":
@@ -40142,7 +40147,7 @@ Anomaly Defenders:
         - save
       when:
         - store: steam
-    "<winAppData>/11bitstudios/Anomaly Defense":
+    "<winAppData>/11bitstudios/Anomaly Defenders":
       tags:
         - config
         - save
@@ -75222,6 +75227,8 @@ Bendy and the Dark Revival:
   steam:
     id: 1063660
 Bendy and the Ink Machine:
+  cloud:
+    epic: true
   files:
     "<home>/.config/unity3d/Joey Drew Studios/Bendy and the Ink Machine/Saves":
       tags:
@@ -259491,6 +259498,7 @@ Five Nations:
     id: 2287520
 "Five Nights at Freddy's: Into the Pit":
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Mega Cat Studios/Five Nights at Freddy's Into the Pit/<storeUserId>":
@@ -285313,6 +285321,48 @@ Genocide:
         - save
       when:
         - os: windows
+Genokids:
+  cloud:
+    steam: true
+  files:
+    "<base>/Nukefist/Genokids/SAVEDATA/<storeUserId>/MachineAgnostic/**/*.sav":
+      when:
+        - store: steam
+    "<home>/.config/unity3d/Nukefist/Genokids/SAVEDATA/<storeUserId>/MachineAgnostic/**/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Nukefist/Genokids/SAVEDATA/<storeUserId>/MachineAgnostic/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Nukefist/Genokids/SAVEDATA/<storeUserId>/MachineAgnostic/**/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Nukefist/Genokids/SAVEDATA/<storeUserId>/MachineAgnostic/**/*.sav":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: genokids
+  installDir:
+    Genokids: {}
+  launch:
+    "<base>/Genokids.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Genokids.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Mac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1239360
 Genome Guardian:
   cloud:
     steam: true
@@ -376962,7 +377012,7 @@ Kiss or Kill VR:
     VR Trivia Battle: {}
   steam:
     id: 670830
-"Kiss: Psycho Circus: The Nightmare Child":
+"Kiss: Psycho Circus - The Nightmare Child":
   files:
     "<base>/autoexec.cfg":
       tags:
@@ -376994,6 +377044,8 @@ Kiss or Kill VR:
         - config
       when:
         - os: windows
+"Kiss: Psycho Circus: The Nightmare Child":
+  alias: "Kiss: Psycho Circus - The Nightmare Child"
 Kissing Simulator:
   installDir:
     Kissing Simulator: {}
@@ -522827,6 +522879,8 @@ Poppy Playtime:
         - save
       when:
         - os: windows
+  id:
+    lutris: poppy-playtime
   installDir:
     Poppy Playtime: {}
   launch:
@@ -656880,6 +656934,18 @@ Street Striker:
             store: steam
   steam:
     id: 1628940
+"Street Tennis: The Next Generation Champions":
+  files:
+    "<base>/Data/CONFIG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/SAVES":
+      tags:
+        - save
+      when:
+        - os: windows
 Street Tuning Evolution:
   cloud:
     steam: true
@@ -773071,21 +773137,6 @@ Unleashed:
     id: 838690
 Unleashed Recompiled:
   files:
-    "<home>/.config/UnleashedRecomp/config.toml":
-      tags:
-        - config
-      when:
-        - os: linux
-    "<home>/.config/UnleashedRecomp/mlsave":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/.config/UnleashedRecomp/save":
-      tags:
-        - save
-      when:
-        - os: linux
     "<winAppData>/UnleashedRecomp/config.toml":
       tags:
         - config
@@ -773101,6 +773152,21 @@ Unleashed Recompiled:
         - save
       when:
         - os: windows
+    "<xdgConfig>/UnleashedRecomp/config.toml":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/UnleashedRecomp/mlsave":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/UnleashedRecomp/save":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     lutris: sonic-unleashed
   registry:

@@ -532706,6 +532706,48 @@
       description: Single-Player - Chapter 2
       executable: "GH Single-player\\Chapter2\\GravewoodHigh.exe"
       type: option1
+1239360:
+  cloud:
+    saves:
+      - path: "Nukefist/Genokids/SAVEDATA/{64BitSteamID}/MachineAgnostic"
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxHome
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxXdgConfigHome
+  installDir: Genokids
+  launch:
+    - config:
+        oslist: windows
+      executable: Genokids.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Mac.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Genokids.x86_64
+      type: default
 1239520:
   installDir: Madden NFL 21
   launch:
@@ -611692,6 +611734,9 @@
       - path: "MGSDelta_Foxhunt/Saved/SaveGames/{64BitSteamID}/Foxhunt"
         pattern: EnhancedInputUserSettings.sav
         root: WinAppDataLocal
+      - path: "MGSDelta_Foxhunt/Saved/SaveGames/{64BitSteamID}/Foxhunt"
+        pattern: GorLocalSave.sav
+        root: WinAppDataLocal
   installDir: MGSDelta
   launch:
     - executable: MGSDelta.exe
@@ -616303,6 +616348,7 @@
         oslist: windows
       executable: PleasureParty2.exe
       type: default
+2529960: {}
 2530170:
   cloud:
     saves:

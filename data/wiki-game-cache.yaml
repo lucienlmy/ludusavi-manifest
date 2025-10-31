@@ -10208,6 +10208,10 @@ Alpha Mission II:
   cloud:
     xbox: true
   pageId: 168740
+Alpha Nomos:
+  lutris: alpha-nomos
+  pageId: 210328
+  steam: 2529960
 Alpha Polaris:
   pageId: 45954
   steam: 405780
@@ -12702,9 +12706,9 @@ Anomaly Defenders:
   pageId: 17029
   steam: 294750
   templates:
-    - "{{Game data/config|Windows|{{p|APPDATA}}\\11bitstudios\\Anomaly Defense\\}}"
+    - "{{Game data/config|Windows|{{p|APPDATA}}\\11bitstudios\\Anomaly Defenders\\}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.Anomaly Defenders/config.bin}}"
-    - "{{Game data/saves|Windows|{{p|APPDATA}}\\11bitstudios\\Anomaly Defense\\}}"
+    - "{{Game data/saves|Windows|{{p|APPDATA}}\\11bitstudios\\Anomaly Defenders\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.Anomaly Defenders/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{P|uid}}/294750/}}"
 Anomaly Korea:
@@ -24251,6 +24255,8 @@ Bendy and the Dark Revival:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Joey Drew Studios\\Bendy and the Dark Revival\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Joey Drew Studios\\Bendy and the Dark Revival\\data\\}}"
 Bendy and the Ink Machine:
+  cloud:
+    epic: true
   gog: 1351324631
   pageId: 61608
   steam: 622650
@@ -83373,6 +83379,7 @@ Five Nations:
   steam: 2287520
 "Five Nights at Freddy's: Into the Pit":
   cloud:
+    epic: true
     steam: true
   pageId: 196837
   steam: 2638370
@@ -91318,6 +91325,12 @@ Genocide:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Baseq\\config.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Baseq\\save\\}}"
+Genokids:
+  cloud:
+    steam: true
+  lutris: genokids
+  pageId: 210330
+  steam: 1239360
 Genome Guardian:
   cloud:
     steam: true
@@ -120859,8 +120872,10 @@ Kiss Pinball:
 Kiss or Kill VR:
   pageId: 78810
   steam: 670830
-"Kiss: Psycho Circus: The Nightmare Child":
+"Kiss: Psycho Circus - The Nightmare Child":
   pageId: 161392
+  renamedFrom:
+    - "Kiss: Psycho Circus: The Nightmare Child"
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg|{{p|game}}\\default.cfg|{{p|game}}\\server.cfg|{{p|game}}\\server_bighead.cfg|{{p|game}}\\profiles\\{{p|uid}}.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
@@ -168165,6 +168180,7 @@ Poppy Kart:
 Poppy Kart 2:
   pageId: 175303
 Poppy Playtime:
+  lutris: poppy-playtime
   pageId: 173242
   steam: 1721470
   templates:
@@ -210923,6 +210939,11 @@ Street Racing Syndicate:
 Street Striker:
   pageId: 173551
   steam: 1628940
+"Street Tennis: The Next Generation Champions":
+  pageId: 209612
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Data\\CONFIG}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Data\\SAVES}}"
 Street Tuning Evolution:
   cloud:
     steam: true
@@ -248909,9 +248930,9 @@ Unleashed Recompiled:
     - Sonic Unleashed (Unleashed Recompiled)
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\UnleashedRecomp\\config.toml|{{p|hkcu}}\\Software\\UnleashedRecomp\\}}"
-    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/UnleashedRecomp/config.toml}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/UnleashedRecomp/config.toml}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\UnleashedRecomp\\save\\|{{P|appdata}}\\UnleashedRecomp\\mlsave\\}}"
-    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/UnleashedRecomp/save/|{{P|linuxhome}}/.config/UnleashedRecomp/mlsave/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/UnleashedRecomp/save/|{{p|xdgconfighome}}/UnleashedRecomp/mlsave/}}"
 "Unlight: SchizoChronicle":
   pageId: 94391
   steam: 816810
