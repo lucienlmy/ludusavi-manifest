@@ -51900,6 +51900,19 @@ Asterix & Obelix XXL Romastered:
   steam:
     id: 1894730
 "Asterix & Obelix: Mission Babylon":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Microids/Asterix & Obelix - Babylon mission/**/save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Babylon: {}
+  launch:
+    "<base>/Asterix & Obelix - Babylon mission.exe":
+      - when:
+          - store: steam
   steam:
     id: 3489240
 "Asterix & Obelix: Slap Them All!":
@@ -749781,6 +749794,12 @@ Totally Accurate Battle Simulator:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/LandfallGames.TotallyAccurateBattleSimulator_r2vq7k2y0v9ct/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     Totally Accurate Battle Simulator: {}
   launch:
@@ -749792,6 +749811,10 @@ Totally Accurate Battle Simulator:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Landfall Games/Totally Accurate Battle Simulator:
+      tags:
+        - config
   steam:
     id: 508440
 Totally Accurate Battlegrounds:
@@ -784669,6 +784692,8 @@ Virtua Fighter 2 (2010):
   steam:
     id: 71115
 Virtua Fighter 5 R.E.V.O.:
+  alias: Virtua Fighter 5 R.E.V.O. World Stage
+Virtua Fighter 5 R.E.V.O. World Stage:
   cloud:
     steam: true
   files:

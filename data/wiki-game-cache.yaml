@@ -16503,6 +16503,8 @@ Asterix & Obelix XXL 2:
   pageId: 185036
   steam: 1894730
 "Asterix & Obelix: Mission Babylon":
+  cloud:
+    steam: true
   pageId: 206568
   steam: 3489240
 "Asterix & Obelix: Slap Them All!":
@@ -240641,7 +240643,9 @@ Totally Accurate Battle Simulator:
   pageId: 39747
   steam: 508440
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Landfall Games\\Totally Accurate Battle Simulator}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Landfall Games\\Totally Accurate Battle Simulator\\Saved\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\LandfallGames.TotallyAccurateBattleSimulator_r2vq7k2y0v9ct\\SystemAppData\\wgs}}"
 Totally Accurate Battlegrounds:
   pageId: 97029
   steam: 823130
@@ -252833,11 +252837,13 @@ Virtua Fighter 2 (2010):
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SEGA Mega Drive Classics\\setup.dat|{{p|userprofile\\Documents}}\\SEGA Genesis Classics\\setup.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SEGA Mega Drive Classics\\0033\\|{{p|userprofile\\Documents}}\\SEGA Genesis Classics\\0033\\}}"
-Virtua Fighter 5 R.E.V.O.:
+Virtua Fighter 5 R.E.V.O. World Stage:
   cloud:
     steam: true
   lutris: virtua-fighter-5-revo
   pageId: 199440
+  renamedFrom:
+    - Virtua Fighter 5 R.E.V.O.
   steam: 3112260
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\SEGA\\VFREVO\\Steam}}"

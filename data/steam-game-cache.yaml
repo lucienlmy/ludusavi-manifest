@@ -631626,6 +631626,17 @@
   nameLocalized:
     czech: "Brány Skeldalu 2: Pátý učedník"
 3489240:
+  cloud:
+    saves:
+      - path: "Microids\\Asterix & Obelix - Babylon mission"
+        pattern: save
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Babylon
+  launch:
+    - executable: Asterix & Obelix - Babylon mission.exe
   nameLocalized:
     french: Astérix & Obélix - Mission Babylone
     spanish: Astérix & Obélix - Mission Babylon
@@ -633620,12 +633631,8 @@
       type: default
 3937550:
   nameLocalized:
-    english: Yakuza Kiwami 3 & Dark Ties
-    french: Yakuza Kiwami 3 ve Dark Ties
-    italian: Yakuza Kiwami 3 e Dark Ties
     japanese: 龍が如く 極３ / 龍が如く３外伝 Dark Ties
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
-    latam: Yakuza Kiwami 3 y Dark Ties
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
 3949740:
