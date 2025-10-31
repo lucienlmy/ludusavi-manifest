@@ -59666,6 +59666,8 @@ Azure Striker Gunvolt 2:
   steam:
     id: 1065180
 Azure Striker Gunvolt Trilogy Enhanced:
+  cloud:
+    steam: true
   files:
     "<home>/Saved Games/INTI CREATES/<storeUserId>/GunvoltTE":
       tags:
@@ -129362,6 +129364,27 @@ Cities in Motion 2:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 2427730
+      - 2427731
+      - 2427740
+      - 2427741
+      - 2427742
+      - 2427743
+      - 2427744
+      - 2427745
+      - 2427746
+      - 2887600
+      - 2945610
+      - 2945630
+      - 2945640
+      - 3054840
+      - 3055040
+      - 3055080
+      - 3350700
+      - 3535990
+      - 3740440
   installDir:
     Cities Skylines II: {}
   launch:
@@ -202972,15 +202995,24 @@ Dragon Quest I & II HD-2D Remake:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/**/*SaveData*.sav":
+    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/*SaveData*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/**/Capture*.sav":
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/Capture*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/**/SystemData_0.sav":
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/DRAGON QUEST I and II HD-2D Remake/Steam/<storeUserId>/SystemData_0.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: dragon-quest-i-ii-hd-2d-remake
   installDir:
@@ -274035,7 +274067,17 @@ Frostpunk 2:
     id: 1728870436
   id:
     gogExtra:
+      - 1203259845
+      - 1240486570
+      - 1693356838
+      - 1714660411
       - 1800456002
+      - 1967910805
+      - 2072738332
+    steamExtra:
+      - 2791490
+      - 2791500
+      - 2791510
   installDir:
     Frostpunk2: {}
   launch:
@@ -667043,11 +667085,16 @@ Super Panda Adventures:
   steam:
     id: 311190
 Super People:
+  id:
+    steamExtra:
+      - 1619990
+      - 3619270
+      - 3728160
   installDir:
     SUPER PEOPLE: {}
   launch:
     "<base>/BravoHotelClient.exe":
-      - arguments: "-ApiPhase=\"review2s\" -ServicePlatform=Steam"
+      - arguments: "-ApiPhase=\"prods\" -ServicePlatform=Steam"
         when:
           - bit: 64
             os: windows
