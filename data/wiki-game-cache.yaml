@@ -60925,6 +60925,10 @@ Dinocide:
     steam: true
   pageId: 44888
   steam: 423900
+Dinocop:
+  lutris: dinocop
+  pageId: 210334
+  steam: 3187010
 Dinodrifters:
   cloud:
     steam: true
@@ -70399,6 +70403,10 @@ Echoes of the End:
 "Echoes of the Fey: The Last Sacrament":
   pageId: 94617
   steam: 858830
+Echoes of the Living:
+  lutris: echoes-of-the-living
+  pageId: 210332
+  steam: 2173460
 "Echoes of the Past: The Citadels of Time":
   pageId: 125537
   steam: 995890
@@ -119687,7 +119695,6 @@ Kimagure Temptation:
   gog: 1389150184
   gogSide:
     - 1631801277
-  malformed: true
   pageId: 174429
   steam: 1642260
   templates:
@@ -258174,8 +258181,12 @@ Welcome To Cathouse（欢迎来到猫咪花园）:
   pageId: 136447
   steam: 1079330
 Welcome To The Dark Place:
+  lutris: welcome-to-the-dark-place
   pageId: 145306
   steam: 1135700
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\ZeekerssRBLX\\Welcome To The Dark Place}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ZeekerssRBLX\\Welcome To The Dark Place}}"
 Welcome To The Dreamscape:
   pageId: 99408
   steam: 878980

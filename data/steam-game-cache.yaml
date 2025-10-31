@@ -495767,7 +495767,14 @@
   nameLocalized:
     japanese: Unpacking アンパッキング
     koreana: Unpacking 언패킹
-1135700: {}
+1135700:
+  installDir: Welcome To The Dark Place
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Welcome To The Dark Place.exe
+      type: none
 1135710:
   installDir: Peace Restored
   launch:
@@ -601966,6 +601973,7 @@
         oslist: macos
       executable: mybabydragon.app
       type: default
+2173460: {}
 2173730:
   installDir: DANGO REMASTERED
   launch:
@@ -605710,6 +605718,21 @@
       executable: Game.exe
       type: default
 2246670:
+  cloud:
+    saves:
+      - path: "BANDAI NAMCO Entertainment/Tales of Xillia Remastered/Save/{64BitSteamID}"
+        pattern: "*.data"
+        root: WinAppDataLocalLow
+  installDir: Tales of Xillia Remastered
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Tales of Xillia Remastered.exe
+    - config:
+        ownsdlc: "2833370"
+      description: Digital Artbook & Soundtrack
+      executable: "Artbook and SoundTrack\\Digital Artbook and SoundTrack.exe"
   nameLocalized:
     japanese: テイルズ オブ エクシリア リマスター
     koreana: 테일즈 오브 엑실리아 리마스터
@@ -622571,6 +622594,8 @@
       type: default
 2782500:
   nameLocalized:
+    japanese: 逆水寒(Justice)
+    koreana: 역수한
     schinese: 逆水寒
     tchinese: 逆水寒
 2784470:
@@ -628735,6 +628760,7 @@
         oslist: windows
       executable: Gex.exe
       type: default
+3187010: {}
 3188910:
   installDir: Waifu
   launch:

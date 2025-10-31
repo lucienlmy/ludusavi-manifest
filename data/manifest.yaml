@@ -191154,6 +191154,11 @@ Dinocide:
             store: steam
   steam:
     id: 423900
+Dinocop:
+  id:
+    lutris: dinocop
+  steam:
+    id: 3187010
 Dinodrifters:
   cloud:
     steam: true
@@ -220405,6 +220410,11 @@ Echoes of the End:
             store: steam
   steam:
     id: 858830
+Echoes of the Living:
+  id:
+    lutris: echoes-of-the-living
+  steam:
+    id: 2173460
 "Echoes of the Past: The Citadels of Time":
   installDir:
     "Echoes of the Past The Citadels of Time Collector's Edition": {}
@@ -681301,6 +681311,18 @@ Tales of Symphonia:
 Tales of Xillia Remastered:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/BANDAI NAMCO Entertainment/Tales of Xillia Remastered/Save/<storeUserId>/*.data":
+      when:
+        - store: steam
+  installDir:
+    Tales of Xillia Remastered: {}
+  launch:
+    "<base>/Tales of Xillia Remastered.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2246670
 Tales of Zestiria:
@@ -800473,6 +800495,23 @@ Welcome To Cathouse（欢迎来到猫咪花园）:
   steam:
     id: 1079330
 Welcome To The Dark Place:
+  files:
+    "<home>/AppData/LocalLow/ZeekerssRBLX/Welcome To The Dark Place":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: welcome-to-the-dark-place
+  installDir:
+    Welcome To The Dark Place: {}
+  launch:
+    "<base>/Welcome To The Dark Place.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1135700
 Welcome To The Dreamscape:
