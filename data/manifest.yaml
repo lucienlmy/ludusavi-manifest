@@ -149961,6 +149961,13 @@ Crazy Forest:
 Crazy Forest 2:
   steam:
     id: 655150
+Crazy Frog Racer:
+  files:
+    "<base>/crazy.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Crazy Golf:
   files:
     "<base>/CrazyGolf.ini":
@@ -590559,6 +590566,17 @@ Scooby-Doo! and the Spooky Swamp:
     HKEY_CURRENT_USER/Software/WarnerBros/ScoobyDoo2:
       tags:
         - config
+ScootX:
+  installDir:
+    ScootX: {}
+  launch:
+    "<base>/ScootX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3800340
 Scorb VR:
   installDir:
     Scorbvr: {}
@@ -694577,6 +694595,9 @@ The Black Death:
             store: steam
   steam:
     id: 412450
+The Black Ice:
+  steam:
+    id: 3254050
 The Black Knight:
   installDir:
     The Black Knight: {}

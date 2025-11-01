@@ -629454,6 +629454,7 @@
     koreana: 그림 가디언즈 서번트 오브 더 다크
     schinese: 少女魔役
     tchinese: 少女魔役
+3254050: {}
 3255110: {}
 3255380:
   installDir: LUNAR Remastered Collection
@@ -633320,6 +633321,14 @@
       config:
         oslist: linux
       executable: "dosbox\\dosbox"
+      type: default
+3800340:
+  installDir: ScootX
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ScootX.exe
       type: default
 3802620: {}
 3805420:

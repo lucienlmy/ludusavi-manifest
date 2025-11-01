@@ -47748,6 +47748,8 @@ Crazy Forest 2:
   steam: 655150
 Crazy Frog Racer:
   pageId: 87815
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\crazy.cfg}}"
 Crazy Frog Racer 2:
   pageId: 209850
 Crazy Golf:
@@ -189814,6 +189816,9 @@ Scooby-Doo! and the Spooky Swamp:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\WarnerBros\\ScoobyDoo2}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Scooby2\\}}"
+ScootX:
+  pageId: 210354
+  steam: 3800340
 Scooter War3z:
   pageId: 203567
 Scorb VR:
@@ -222639,6 +222644,9 @@ The Black Death:
   steam: 412450
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Plague\\Config\\}}"
+The Black Ice:
+  pageId: 210352
+  steam: 3254050
 The Black Knight:
   pageId: 124100
   steam: 991490
