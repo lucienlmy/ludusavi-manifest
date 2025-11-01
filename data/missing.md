@@ -997,7 +997,6 @@
 * [Alaska](https://www.pcgamingwiki.com/wiki/?curid=82760)
 * [Albedon Wars](https://www.pcgamingwiki.com/wiki/?curid=136883)
 * [Albert Mort - Desert Heat](https://www.pcgamingwiki.com/wiki/?curid=65882)
-* [Albion Online](https://www.pcgamingwiki.com/wiki/?curid=91074)
 * [Alcatraz: VR Escape Room](https://www.pcgamingwiki.com/wiki/?curid=55556)
 * [Alchemelee](https://www.pcgamingwiki.com/wiki/?curid=155584)
 * [Alchemist](https://www.pcgamingwiki.com/wiki/?curid=55734)

@@ -27884,6 +27884,10 @@ Albion Online:
           - os: windows
             store: steam
         workingDir: "<base>/launcher"
+  registry:
+    HKEY_CURRENT_USER/Software/Sandbox Interactive GmbH/Albion Online Client:
+      tags:
+        - config
   steam:
     id: 761890
 "Alcatraz: Prison Escape":
@@ -432602,6 +432606,36 @@ Metal Slug Defense:
             store: steam
   steam:
     id: 356310
+Metal Slug Tactics:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Leikir Studio/Metal Slug Tactics/Save/Options":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Leikir Studio/Metal Slug Tactics/Save/Profile#":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Leikir Studio/Metal Slug Tactics/Save/Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1366624267
+  installDir:
+    MST: {}
+  launch:
+    "<base>/Metal Slug Tactics.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1590760
 Metal Slug X:
   cloud:
     gog: true
@@ -482204,6 +482238,8 @@ Octopath Traveler:
 Octopath Traveler 0:
   cloud:
     steam: true
+  id:
+    lutris: octopath-traveler-0
   steam:
     id: 3014320
 Octopath Traveler II:
@@ -764214,6 +764250,8 @@ Turok (2015):
       tags:
         - config
 "Turok: Origins":
+  id:
+    lutris: turok-origins
   steam:
     id: 1967610
 Turret Architect:
@@ -808924,6 +808962,8 @@ Witchball:
 Witchbrook:
   cloud:
     steam: true
+  id:
+    lutris: witchbrook
   steam:
     id: 1846700
 Witchcraft:

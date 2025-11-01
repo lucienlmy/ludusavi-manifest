@@ -8770,6 +8770,8 @@ Albion:
 Albion Online:
   pageId: 91074
   steam: 761890
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Sandbox Interactive GmbH\\Albion Online Client}}"
 "Alcatraz: Prison Escape":
   lutris: alcatraz-prison-escape
   pageId: 187057
@@ -99214,6 +99216,7 @@ Halloweenistry 2:
 Halls of Torment:
   cloud:
     steam: true
+    xbox: true
   lutris: halls-of-torment
   pageId: 187340
   steam: 2218750
@@ -138726,6 +138729,17 @@ Metal Slug Defense:
     - 362590
   templates:
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\356310\\remote\\user.dat}}"
+Metal Slug Tactics:
+  cloud:
+    gog: true
+    steam: true
+    xbox: true
+  gog: 1366624267
+  pageId: 169164
+  steam: 1590760
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Leikir Studio\\Metal Slug Tactics\\Save\\Options}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Leikir Studio\\Metal Slug Tactics\\Save\\Profiles|{{p|userprofile\\appdata\\locallow}}\\Leikir Studio\\Metal Slug Tactics\\Save\\Profile#\\}}"
 Metal Slug X:
   cloud:
     gog: true
@@ -155029,6 +155043,7 @@ Octopath Traveler:
 Octopath Traveler 0:
   cloud:
     steam: true
+  lutris: octopath-traveler-0
   pageId: 208581
   steam: 3014320
 Octopath Traveler II:
@@ -246025,6 +246040,7 @@ Turok (2015):
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Acclaim\\Turok4\\1.0\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 "Turok: Origins":
+  lutris: turok-origins
   pageId: 200168
   steam: 1967610
 Turret Architect:
@@ -260859,6 +260875,8 @@ Witchball:
 Witchbrook:
   cloud:
     steam: true
+    xbox: true
+  lutris: witchbrook
   pageId: 207035
   steam: 1846700
 Witchcraft:
