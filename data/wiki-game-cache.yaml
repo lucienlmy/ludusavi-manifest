@@ -35395,6 +35395,7 @@ CandyVenture:
   pageId: 137250
   steam: 791300
 Canine:
+  gog: 2141270817
   pageId: 189644
   steam: 2334780
 Cannabis:
@@ -65549,6 +65550,11 @@ Dread Delusion:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Lovely Hellplace\\Dread Delusion}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Lovely Hellplace\\Dread Delusion}}"
+Dread Flats:
+  cloud:
+    steam: true
+  pageId: 210346
+  steam: 3114900
 Dread Nautical:
   cloud:
     gog: true
@@ -83850,6 +83856,8 @@ Flesh Eaters:
 Flesh Feast:
   pageId: 202573
 Flesh Made Fear:
+  cloud:
+    steam: true
   pageId: 203877
   steam: 3316350
 Flesh Water:
@@ -91638,6 +91646,10 @@ Get Off My Lawn!:
 Get Out:
   pageId: 134635
   steam: 1060890
+Get Out!:
+  lutris: get-out--2
+  pageId: 210348
+  steam: 1548320
 Get Over Here:
   pageId: 46805
   steam: 393950
@@ -210755,6 +210767,7 @@ Stray Cat Crossing:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save*.rvdata2}}"
 Stray Children:
+  lutris: stray-children
   pageId: 205134
   steam: 3649490
 "Stray Gods: The Roleplaying Musical":
@@ -235223,8 +235236,14 @@ The Warden:
 The Wardrobe:
   cloud:
     steam: true
+  lutris: "https://lutris.net/games/the-wardrobe/"
   pageId: 52424
   steam: 497730
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\save}}"
+    - "{{Game data/config|Linux|{{P|steam}}\\save}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\save}}"
+    - "{{Game data/saves|Linux|{{P|steam}}/save}}"
 The Warhorn:
   pageId: 75161
   steam: 660920

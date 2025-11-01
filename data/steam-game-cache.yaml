@@ -562188,6 +562188,14 @@
         oslist: windows
       executable: LetsBuildAZoo.exe
       type: default
+1548320:
+  installDir: GET OUT!
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GETOUT/HistoricallyAccurateJam.exe
+      type: default
 1548750:
   cloud:
     saves:
@@ -601365,6 +601373,16 @@
       executable: jbmod.sh
       type: default
 2159900:
+  cloud:
+    saves:
+      - path: Decks_Data/StreamingAssets/.Modules
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
+  installDir: Decks of the Damned
+  launch:
+    - executable: Decks.exe
+      type: default
   nameLocalized:
     schinese: 诅咒之牌
 2160010: {}
@@ -601984,7 +602002,10 @@
         oslist: macos
       executable: mybabydragon.app
       type: default
-2173460: {}
+2173460:
+  installDir: Echoes of the Living
+  launch:
+    - executable: EOTL.exe
 2173730:
   installDir: DANGO REMASTERED
   launch:
@@ -628111,6 +628132,21 @@
       description: VFREVO.exe を実行（EAC無効）
       executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/
+3114900:
+  cloud:
+    saves:
+      - path: "project_A\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: DREAD FLATS
+  launch:
+    - executable: DREAD FLATS.exe
+  nameLocalized:
+    schinese: 凶寓
+    tchinese: 兇寓
 3115160: {}
 3117820:
   cloud:
@@ -630048,6 +630084,17 @@
       executable: "The Third Pig\\TheThirdPig.exe"
       type: default
 3316350:
+  cloud:
+    saves:
+      - path: Flesh_Made_Fear/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: FleshMadeFear
+  launch:
+    - config:
+        oslist: windows
+      executable: FleshMadeFear.exe
+      type: default
   nameLocalized:
     japanese: フレッシュ　メイド　フィアー
     koreana: 살점으로 빚어낸 공포
@@ -632032,7 +632079,17 @@
       type: default
 3542500: {}
 3545060: {}
-3547420: {}
+3547420:
+  cloud:
+    saves:
+      - path: Ire/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Ire A Prologue
+  launch:
+    - executable: Ire.exe
 3549220:
   installDir: Tennis Manager 2025
   launch:
@@ -632822,6 +632879,16 @@
     schinese: 冰汽时代1886
     tchinese: 冰汽時代1886
 3649490:
+  cloud:
+    saves:
+      - path: oniongames/StrayChildren/dat
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: StrayChildren
+  launch:
+    - executable: StrayChildren.exe
   nameLocalized:
     english: Stray Children
     japanese: ストレイチルドレン

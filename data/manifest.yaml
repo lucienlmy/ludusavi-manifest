@@ -110489,6 +110489,8 @@ CandyVenture:
   steam:
     id: 791300
 Canine:
+  gog:
+    id: 2141270817
   installDir:
     CANINE: {}
   launch:
@@ -178242,6 +178244,16 @@ Decker:
 Decks of the Damned:
   cloud:
     steam: true
+  files:
+    "<base>/Decks_Data/StreamingAssets/.Modules/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    Decks of the Damned: {}
+  launch:
+    "<base>/Decks.exe":
+      - when:
+          - store: steam
   steam:
     id: 2159900
 "Decline's Drops":
@@ -205113,6 +205125,22 @@ Dread Delusion:
         - config
   steam:
     id: 1574240
+Dread Flats:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/project_A/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DREAD FLATS: {}
+  launch:
+    "<base>/DREAD FLATS.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3114900
 Dread Nautical:
   cloud:
     gog: true
@@ -220458,6 +220486,12 @@ Echoes of the End:
 Echoes of the Living:
   id:
     lutris: echoes-of-the-living
+  installDir:
+    Echoes of the Living: {}
+  launch:
+    "<base>/EOTL.exe":
+      - when:
+          - store: steam
   steam:
     id: 2173460
 "Echoes of the Past: The Citadels of Time":
@@ -261043,6 +261077,19 @@ Flesh Eaters:
   steam:
     id: 383580
 Flesh Made Fear:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Flesh_Made_Fear/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    FleshMadeFear: {}
+  launch:
+    "<base>/FleshMadeFear.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3316350
 Flesh Water:
@@ -286348,6 +286395,19 @@ Get Out:
             store: steam
   steam:
     id: 1060890
+Get Out!:
+  id:
+    lutris: get-out--2
+  installDir:
+    GET OUT!: {}
+  launch:
+    "<base>/GETOUT/HistoricallyAccurateJam.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1548320
 Get Over Here:
   installDir:
     Get Over Here: {}
@@ -355986,6 +356046,17 @@ Iragon 18+:
 "Ire: A Prologue":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Ire/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Ire A Prologue: {}
+  launch:
+    "<base>/Ire.exe":
+      - when:
+          - store: steam
   steam:
     id: 3547420
 Iridescence:
@@ -656402,6 +656473,19 @@ Stray Cat Crossing:
   steam:
     id: 385330
 Stray Children:
+  files:
+    "<home>/AppData/LocalLow/oniongames/StrayChildren/dat/*.dat":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: stray-children
+  installDir:
+    StrayChildren: {}
+  launch:
+    "<base>/StrayChildren.exe":
+      - when:
+          - store: steam
   steam:
     id: 3649490
 "Stray Gods: The Roleplaying Musical":
@@ -732743,6 +732827,18 @@ The Warden:
 The Wardrobe:
   cloud:
     steam: true
+  files:
+    "<root>/save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+  id:
+    lutris: "https://lutris.net/games/the-wardrobe/"
   installDir:
     The Wardrobe: {}
   launch:
