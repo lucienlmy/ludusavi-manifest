@@ -12519,6 +12519,7 @@ Annie Amber:
   pageId: 153171
   steam: 1174390
 "Anno 117: Pax Romana":
+  lutris: anno-117-pax-romana
   pageId: 200306
   steam: 3274580
 Anno 1404:
@@ -64038,6 +64039,7 @@ Double Dragon Neon:
 Double Dragon Revive:
   cloud:
     steam: true
+  lutris: double-dragon-revive
   pageId: 200175
   steam: 3012220
   templates:
@@ -166281,6 +166283,8 @@ Placement:
     steam: true
   pageId: 70643
   steam: 700920
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Placement\\}}"
 Plague Hunter:
   pageId: 105639
   steam: 746530
@@ -170951,6 +170955,9 @@ Project Mix:
   pageId: 201295
   steam: 2439770
 Project Motor Racing:
+  cloud:
+    steam: true
+  lutris: project-motor-racing
   pageId: 205859
   steam: 299970
   steamSide:
@@ -187399,6 +187406,8 @@ Sacred:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Ascaron Entertainment\\Sacred 2}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Ascaron Entertainment\\Sacred 2}}"
 "Sacred 2: Remaster":
+  cloud:
+    steam: true
   pageId: 206704
   steam: 3906660
 Sacred 3:
@@ -210787,6 +210796,8 @@ Stray Cat Crossing:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save*.rvdata2}}"
 Stray Children:
+  cloud:
+    steam: true
   lutris: stray-children
   pageId: 205134
   steam: 3649490
@@ -216504,7 +216515,10 @@ Syberia:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Syberia Saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.microids.syberia.univ/Data/Library/Application Support/Syberia/}}"
 Syberia - Remastered:
+  cloud:
+    steam: true
   gog: 1221479835
+  lutris: syberia-remastered
   pageId: 204663
   steam: 3660220
 Syberia 3:
@@ -218613,6 +218627,8 @@ Tales of Xillia Remastered:
     steam: true
   pageId: 207235
   steam: 2246670
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BANDAI NAMCO Entertainment\\Tales of Xillia Remastered\\Save\\{{p|uid}}\\*.data}}"
 Tales of Zestiria:
   cloud:
     steam: true
@@ -237696,6 +237712,7 @@ Timberborn:
     - 1237620
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\Saves}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\ExperimentalSaves{{note|Only used for the Experimental branch of the game.}}}}"
 Timberman:
   cloud:
     steam: true
@@ -247338,6 +247355,11 @@ Ultimate Epic Battle Simulator:
     steam: true
   pageId: 61014
   steam: 616560
+Ultimate Epic Battle Simulator 2:
+  cloud:
+    steam: true
+  pageId: 210365
+  steam: 1468720
 Ultimate Fatal Octopus:
   cloud:
     steam: true

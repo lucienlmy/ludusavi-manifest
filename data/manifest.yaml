@@ -39499,6 +39499,8 @@ Annie Amber:
   steam:
     id: 1174390
 "Anno 117: Pax Romana":
+  id:
+    lutris: anno-117-pax-romana
   steam:
     id: 3274580
 Anno 1404:
@@ -200460,6 +200462,8 @@ Double Dragon Revive:
         - save
       when:
         - os: windows
+  id:
+    lutris: double-dragon-revive
   installDir:
     DoubleDragonRevive: {}
   launch:
@@ -516605,33 +516609,11 @@ Placement:
   cloud:
     steam: true
   files:
-    "<home>/.Placement/*.sav":
+    "<winAppData>/Placement":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-        - os: linux
-          store: steam
-    "<home>/.Placement/progress":
-      when:
-        - os: mac
-          store: steam
-        - os: linux
-          store: steam
-    "<home>/.Placement/settings.cfg":
-      when:
-        - os: mac
-          store: steam
-        - os: linux
-          store: steam
-    "<winAppData>/Placement/*.sav":
-      when:
-        - store: steam
-    "<winAppData>/Placement/progress":
-      when:
-        - store: steam
-    "<winAppData>/Placement/settings.cfg":
-      when:
-        - store: steam
+        - os: windows
   installDir:
     Placement: {}
   launch:
@@ -531643,7 +531625,10 @@ Project Mix:
   steam:
     id: 2439770
 Project Motor Racing:
+  cloud:
+    steam: true
   id:
+    lutris: project-motor-racing
     steamExtra:
       - 1291102
   steam:
@@ -583003,6 +582988,8 @@ Sacred:
   steam:
     id: 225640
 "Sacred 2: Remaster":
+  cloud:
+    steam: true
   steam:
     id: 3906660
 Sacred 3:
@@ -656527,6 +656514,8 @@ Stray Cat Crossing:
   steam:
     id: 385330
 Stray Children:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/oniongames/StrayChildren/dat/*.dat":
       when:
@@ -674885,8 +674874,12 @@ Syberia:
   steam:
     id: 46500
 Syberia - Remastered:
+  cloud:
+    steam: true
   gog:
     id: 1221479835
+  id:
+    lutris: syberia-remastered
   steam:
     id: 3660220
 Syberia 3:
@@ -681511,8 +681504,10 @@ Tales of Xillia Remastered:
     steam: true
   files:
     "<home>/AppData/LocalLow/BANDAI NAMCO Entertainment/Tales of Xillia Remastered/Save/<storeUserId>/*.data":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Tales of Xillia Remastered: {}
   launch:
@@ -740594,6 +740589,11 @@ Timberborn:
     gog: true
     steam: true
   files:
+    "<winDocuments>/Timberborn/ExperimentalSaves":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Timberborn/Saves":
       tags:
         - save
@@ -764209,11 +764209,6 @@ Turok (2015):
           - bit: 64
             os: linux
             store: steam
-    "<base>/horus_x64.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 405830
 "Turok 3: Shadow of Oblivion Remastered":
@@ -768144,6 +768139,18 @@ Ultimate Epic Battle Simulator:
             store: steam
   steam:
     id: 616560
+Ultimate Epic Battle Simulator 2:
+  cloud:
+    steam: true
+  installDir:
+    UEBS2: {}
+  launch:
+    "<base>/UEBS2.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 1468720
 Ultimate Fatal Octopus:
   cloud:
     steam: true
