@@ -43542,9 +43542,14 @@ Ara Fell:
     steamExtra:
       - 3143380
       - 3143390
+      - 3143400
+      - 3143410
+      - 3143420
+      - 3143430
       - 3144790
       - 3144830
       - 3158790
+      - 3495280
   installDir:
     Ara History Untold: {}
   launch:
@@ -188040,6 +188045,27 @@ Devil in the Pines:
             store: steam
   steam:
     id: 959540
+DevilConnection:
+  cloud:
+    steam: true
+  files:
+    "<base>/_storage/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    でびるコネクショん: {}
+  launch:
+    "<base>/DevilConnection.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/DevilConnection.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3054820
 "DevilShaft: TheTower":
   installDir:
     DevilShaft TheTower: {}

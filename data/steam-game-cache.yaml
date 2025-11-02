@@ -627325,6 +627325,24 @@
   launch:
     - executable: Dice.exe
 3054690: {}
+3054820:
+  cloud:
+    saves:
+      - path: _storage
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+  installDir: でびるコネクショん
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DevilConnection.exe
+    - config:
+        oslist: macos
+      executable: DevilConnection.app
+  nameLocalized:
+    english: DevilConnection
 3054960:
   installDir: Into The Dread
   launch:

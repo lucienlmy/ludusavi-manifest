@@ -13745,9 +13745,14 @@ Ara Fell:
   steamSide:
     - 3143380
     - 3143390
+    - 3143400
+    - 3143410
+    - 3143420
+    - 3143430
     - 3144790
     - 3144830
     - 3158790
+    - 3495280
 Arabian Nights:
   gog: 1679826562
   lutris: arabian-nights--1
@@ -42197,6 +42202,8 @@ Cliff Empire:
 Cliff Hanger:
   pageId: 37008
   steam: 515200
+"Clifford the Big Red Dog: Thinking Adventures":
+  pageId: 210391
 "Cliffs of War: Fortress Defenders":
   pageId: 45775
   steam: 396540
@@ -59910,6 +59917,14 @@ Devil in the Pines:
 "Devil's Toy":
   pageId: 120937
   steam: 959540
+DevilConnection:
+  cloud:
+    steam: true
+  pageId: 210394
+  steam: 3054820
+  templates:
+    - "{{Game data/config|Windows|{{p|steamlibrary}}/steamapps/common/でびるコネクショん/_storage/DevilConnection_sf.sav}}"
+    - "{{Game data/saves|Windows|{{p|steamlibrary}}/steamapps/common/でびるコネクショん/_storage/DevilConnection_tyrano_data.sav}}"
 "DevilShaft: TheTower":
   pageId: 132349
   steam: 1054900
