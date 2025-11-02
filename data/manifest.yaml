@@ -22076,12 +22076,12 @@ Afterimage:
   files:
     "<winLocalAppData>/Afterimage/Saved/Config/WindowsNoEditor":
       tags:
-        - save
+        - config
       when:
         - os: windows
     "<winLocalAppData>/Afterimage/Saved/SaveGames":
       tags:
-        - config
+        - save
       when:
         - os: windows
   installDir:
@@ -293100,9 +293100,28 @@ God of Word:
   steam:
     id: 467320
 God of Yoga:
+  files:
+    "<winLocalAppData>/yoga/Saved/Config/Windows/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/yoga/Saved/SaveGames/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/yoga/Saved/ScreenShots/*.*":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 3756270
+  installDir:
+    YOGA: {}
+  launch:
+    "<base>/yoga.exe":
+      - when:
+          - store: steam
   steam:
     id: 3150170
 "God's Basement":

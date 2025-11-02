@@ -628363,6 +628363,26 @@
       executable: SKUFFISHING.exe
       type: default
 3150170:
+  cloud:
+    saves:
+      - path: yoga/Saved/SaveGames/
+        pattern: "*.*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: yoga/Saved/ScreenShots/
+        pattern: "*.*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: yoga/Saved/Config/Windows
+        pattern: "*.*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: YOGA
+  launch:
+    - executable: yoga.exe
   nameLocalized:
     tchinese: 緊繃情慾瑜珈
 3150440:

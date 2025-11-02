@@ -6923,8 +6923,8 @@ Afterimage:
   pageId: 173616
   steam: 1701520
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Afterimage\\Saved\\SaveGames\\}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Afterimage\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Afterimage\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Afterimage\\Saved\\SaveGames\\}}"
 Afterlife:
   cloud:
     steam: true
@@ -221985,6 +221985,8 @@ The Amazing Spider-Man 2:
 "The Amazing T.K's Suburban Nightmares":
   pageId: 153889
   steam: 1198570
+The Amazon Trail:
+  pageId: 210389
 The Amazonian Dread:
   pageId: 110792
   steam: 933900
