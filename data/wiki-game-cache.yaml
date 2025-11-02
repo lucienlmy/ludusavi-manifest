@@ -10555,6 +10555,8 @@ Amanda the Adventurer 2:
   lutris: amanda-the-adventurer-2
   pageId: 198612
   steam: 2826800
+  steamSide:
+    - 3392190
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\MangledMaw\\Amanda The Adventurer 2\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\MangledMaw\\Amanda The Adventurer 2\\}}"
@@ -56038,6 +56040,8 @@ Death Dojo:
 Death Fungeon:
   pageId: 103979
   steam: 897630
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\Death_Fungeon}}"
 Death Game+:
   pageId: 91945
   steam: 830810
@@ -56395,6 +56399,12 @@ Death end re;Quest 2:
 "Death from Unknown: Survival":
   pageId: 90324
   steam: 809550
+Death in a Party Act I:
+  pageId: 210378
+  steam: 3989570
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Death_in_a_Party\\config.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Death_in_a_Party\\}}"
 Death in the Water:
   pageId: 149015
   steam: 770490
@@ -68243,6 +68253,7 @@ Dusk:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1150392214
   pageId: 50963
   steam: 519860
@@ -101462,6 +101473,10 @@ Heaven Burns Red:
   steam: 1973710
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\wfs\\HeavenBurnsRed}}"
+Heaven Does Not Respond:
+  lutris: heaven-does-not-respond
+  pageId: 210384
+  steam: 3817240
 Heaven Dust:
   cloud:
     steam: true
@@ -154146,6 +154161,8 @@ Numeric:
 Numgeon:
   pageId: 123922
   steam: 990640
+Nun Massacre:
+  pageId: 210386
 Nunholy:
   cloud:
     steam: true
@@ -210801,6 +210818,8 @@ Stray Children:
   lutris: stray-children
   pageId: 205134
   steam: 3649490
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\oniongames\\StrayChildren\\dat\\*.dat}}"
 "Stray Gods: The Roleplaying Musical":
   cloud:
     gog: true
@@ -214932,6 +214951,7 @@ Supermarket Simulator:
 Supermarket Together:
   cloud:
     steam: true
+  lutris: supermarket-together
   pageId: 197020
   steam: 2709570
   templates:
@@ -247991,6 +248011,10 @@ Uncanny Valley:
   steam: 359580
   steamSide:
     - 360140
+Unchained:
+  lutris: unchained--2
+  pageId: 210380
+  steam: 3234310
 Uncharted Ocean:
   pageId: 150717
   renamedFrom:

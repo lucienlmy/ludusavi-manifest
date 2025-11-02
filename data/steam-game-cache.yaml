@@ -629251,6 +629251,13 @@
   installDir: "Amarillo's Butt Slapper"
   launch:
     - executable: "Amarillo's Butt Slapper.exe"
+3234310:
+  installDir: UNCHAINED
+  launch:
+    - config:
+        oslist: windows
+      executable: Unchained.exe
+      type: default
 3236280:
   cloud:
     saves:
@@ -631424,7 +631431,10 @@
   installDir: Something Took Her
   launch:
     - executable: Anaimationssss.exe
-3445490: {}
+3445490:
+  installDir: Angry Video Game Nerd 8-bit
+  launch:
+    - executable: AVGN8-Bit.exe
 3446190:
   cloud:
     saves:
@@ -633451,6 +633461,7 @@
   installDir: Logic Bombs
   launch:
     - executable: game.exe
+3817240: {}
 3820550: {}
 3825360: {}
 3832650:
@@ -633762,6 +633773,13 @@
     koreana: 시티헌터
     schinese: 城市猎人
     tchinese: 城市獵人
+3989570:
+  installDir: Death in a Party
+  launch:
+    - config:
+        oslist: windows
+      executable: Death in a Party.exe
+      type: default
 3994690:
   installDir: Skateboard_Game
   launch:

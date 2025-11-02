@@ -33394,6 +33394,8 @@ Amanda the Adventurer 2:
         - os: windows
   id:
     lutris: amanda-the-adventurer-2
+    steamExtra:
+      - 3392190
   installDir:
     Amanda the Adventurer 2: {}
   launch:
@@ -38133,6 +38135,12 @@ Angry Troll Simulator 2018:
   steam:
     id: 935790
 Angry Video Game Nerd 8-bit:
+  installDir:
+    Angry Video Game Nerd 8-bit: {}
+  launch:
+    "<base>/AVGN8-Bit.exe":
+      - when:
+          - store: steam
   steam:
     id: 3445490
 Angry Video Game Nerd Adventures:
@@ -175598,6 +175606,12 @@ Death Dojo:
   steam:
     id: 779610
 Death Fungeon:
+  files:
+    "<home>/AppData/Local/Death_Fungeon":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Death Fungeon: {}
   launch:
@@ -176662,6 +176676,27 @@ Death end re;Quest 2:
 "Death from Unknown: Survival":
   steam:
     id: 809550
+Death in a Party Act I:
+  files:
+    "<winLocalAppData>/Death_in_a_Party":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Death_in_a_Party/config.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Death in a Party: {}
+  launch:
+    "<base>/Death in a Party.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3989570
 Death in the Water:
   installDir:
     Death in the Water: {}
@@ -316539,6 +316574,11 @@ Heaven Burns Red:
         - config
   steam:
     id: 1973710
+Heaven Does Not Respond:
+  id:
+    lutris: heaven-does-not-respond
+  steam:
+    id: 3817240
 Heaven Dust:
   cloud:
     steam: true
@@ -656518,9 +656558,10 @@ Stray Children:
     steam: true
   files:
     "<home>/AppData/LocalLow/oniongames/StrayChildren/dat/*.dat":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: stray-children
   installDir:
@@ -669962,6 +670003,8 @@ Supermarket Together:
         - config
       when:
         - os: windows
+  id:
+    lutris: supermarket-together
   installDir:
     Supermarket Together: {}
   launch:
@@ -770223,6 +770266,18 @@ Uncanny Valley:
             store: steam
   steam:
     id: 359580
+Unchained:
+  id:
+    lutris: unchained--2
+  installDir:
+    UNCHAINED: {}
+  launch:
+    "<base>/Unchained.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3234310
 Uncharted Ocean:
   files:
     "<base>/SavesDir/*.sav":
