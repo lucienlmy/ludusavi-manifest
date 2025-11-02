@@ -80542,6 +80542,7 @@ Fast Food Simulator:
 Fast Food Tycoon:
   lutris: fast-food-tycoon
   pageId: 60840
+  steam: 4004630
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\{{p|wow64}}\\Software2000\\Pizza Syndicate\\Config}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
@@ -156237,14 +156238,13 @@ Omni Link:
   pageId: 50899
   steam: 529100
 OmniBus:
-  cloud:
-    steam: true
   gog: 1119659879
   pageId: 34176
   steam: 415740
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Save}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+    - "{{Game data/saves|Linux|{{p|game}}\\Save}}"
 OmniFootman:
   cloud:
     steam: true
@@ -228213,6 +228213,13 @@ The King of Fighters XIII:
     - "{{Game data/config|Windows|{{P|game}}\\profile\\input.config|{{P|game}}\\profile\\profile.dat}}"
     - "{{Game data/saves|Windows|{{P|game}}\\profile\\progress.bin}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/222940/remote/kofxiii/}}"
+The King of Fighters XIII Global Match:
+  cloud:
+    steam: true
+  pageId: 210401
+  steam: 3050220
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SavesDir\\*.sav}}"
 The King of Fighters XIV:
   cloud:
     gog: true

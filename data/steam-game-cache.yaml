@@ -338470,16 +338470,18 @@
         platforms:
           - Windows
         root: WinAppDataLocalLow
-  installDir: 2236ad
+  installDir: 2236 A.D. Universal Edition
   launch:
     - config:
         oslist: windows
-      executable: "2236 A.D. -Universal Edition-\\2236 A.D. -Universal Edition-.exe"
+      executable: 2236 A.D. -Universal Edition-.exe
       type: default
     - config:
         oslist: macos
-      executable: "2236 A.D. -Universal Edition-\\2236 A.D. -Universal Edition-.app"
+      executable: 2236 A.D. -Universal Edition-.app
       type: default
+  nameLocalized:
+    japanese: 西暦2236年
 800830:
   installDir: Floogen
   launch:
@@ -607606,6 +607608,8 @@
         oslist: macos
       executable: Farming Simulator 2025.app
       type: default
+  nameLocalized:
+    german: Landwirtschafts-Simulator 25
 2300660:
   cloud:
     saves:
@@ -627280,6 +627284,15 @@
       type: option1
   nameLocalized:
     japanese: ファントム・ブレイブ 幽霊船団と消えた英雄
+3050220:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: THE KING OF FIGHTERS XIII GLOBAL MATCH
+  launch:
+    - executable: game.exe
 3050490:
   cloud:
     saves:
@@ -633825,6 +633838,7 @@
         oslist: windows
       executable: Skateboard_Game.exe
       type: default
+4004630: {}
 4031890:
   nameLocalized:
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"

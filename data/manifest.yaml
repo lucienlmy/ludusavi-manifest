@@ -3347,13 +3347,13 @@ $1 Ride:
   id:
     lutris: 2236-ad
   installDir:
-    2236ad: {}
+    2236 A.D. Universal Edition: {}
   launch:
-    "<base>/2236 A.D. -Universal Edition-/2236 A.D. -Universal Edition-.app":
+    "<base>/2236 A.D. -Universal Edition-.app":
       - when:
           - os: mac
             store: steam
-    "<base>/2236 A.D. -Universal Edition-/2236 A.D. -Universal Edition-.exe":
+    "<base>/2236 A.D. -Universal Edition-.exe":
       - when:
           - os: windows
             store: steam
@@ -250998,6 +250998,8 @@ Fast Food Tycoon:
     HKEY_LOCAL_MACHINE/Software/WOW6432Node/Software2000/Pizza Syndicate/Config:
       tags:
         - config
+  steam:
+    id: 4004630
 Fast Food Tycoon 2:
   cloud:
     gog: true
@@ -485688,8 +485690,6 @@ Omni Link:
   steam:
     id: 529100
 OmniBus:
-  cloud:
-    steam: true
   files:
     "<base>/Save":
       tags:
@@ -485697,6 +485697,7 @@ OmniBus:
         - save
       when:
         - os: windows
+        - os: linux
   gog:
     id: 1119659879
   installDir:
@@ -711600,6 +711601,23 @@ The King of Fighters XIII:
             store: steam
   steam:
     id: 222940
+The King of Fighters XIII Global Match:
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    THE KING OF FIGHTERS XIII GLOBAL MATCH: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3050220
 The King of Fighters XIV:
   cloud:
     gog: true
