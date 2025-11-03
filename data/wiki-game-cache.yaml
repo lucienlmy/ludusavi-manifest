@@ -405,7 +405,7 @@ $1 Ride:
   steam: 2097720
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th185\\th185.cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th185\\scoreth185.dat | {{p|appdata}}\\ShanghaiAlice\\th185\\replay\\ | {{p|appdata}}\\ShanghaiAlice\\th185\\snapshot\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th185\\scoreth185.dat|{{p|appdata}}\\ShanghaiAlice\\th185\\scoreth185bak.dat|{{p|appdata}}\\ShanghaiAlice\\th185\\replay\\|{{p|appdata}}\\ShanghaiAlice\\th185\\snapshot\\}}"
 "101 Dalmatians: Escape from DeVil Manor":
   pageId: 176904
 101 Ways to Die:
@@ -4274,7 +4274,7 @@ ALPHA:
   steam: 1171880
 "ALTDEUS: Beyond Chronos":
   pageId: 175006
-  steam: 150208
+  steam: 1502080
 ALTERITY EXPERIENCE:
   cloud:
     steam: true
@@ -86268,7 +86268,7 @@ Fossilized Wonders:
   steam: 3671710
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\th20.cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\replay\\|{{p|appdata}}\\ShanghaiAlice\\th20\\snapshot\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20bak.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\replay\\|{{p|appdata}}\\ShanghaiAlice\\th20\\snapshot\\}}"
 Foto Flash:
   pageId: 80579
   steam: 778610
@@ -115869,6 +115869,12 @@ Jasmine Summer:
 Javva Juice:
   pageId: 55758
   steam: 524940
+Jawbreaker:
+  lutris: jawbreaker--4
+  pageId: 210431
+  steam: 2137460
+  steamSide:
+    - 2274660
 Jawns:
   pageId: 151716
   templates:
@@ -152778,6 +152784,12 @@ No Place for Bravery:
   gog: 1612879901
   pageId: 171973
   steam: 1039100
+No Players Online:
+  cloud:
+    steam: true
+  lutris: no-players-online--1
+  pageId: 209476
+  steam: 2701800
 No Prospects Company:
   pageId: 93963
   steam: 854640
@@ -180503,6 +180515,13 @@ Reveal The Deep:
   steam: 411560
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\userData}}"
+Reveil:
+  cloud:
+    steam: true
+  pageId: 88908
+  renamedFrom:
+    - Solos
+  steam: 809060
 Revelation:
   gog: 1834116710
   pageId: 169666
@@ -194174,6 +194193,14 @@ Shift 2 Unleashed:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SHIFT 2 UNLEASHED\\graphicsconfig.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SHIFT 2 UNLEASHED\\profiles\\default.sav}}"
+Shift 87:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1245507805
+  lutris: shift-87
+  pageId: 210419
+  steam: 2981650
 Shift Happens:
   cloud:
     steam: true
@@ -194715,6 +194742,8 @@ Shogun Showdown:
   steam: 2084000
   steamSide:
     - 3132940
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Roboatino\\ShogunShowdown}}"
 "Shogun's Empire: Hex Commander":
   cloud:
     steam: true
@@ -196460,6 +196489,7 @@ Simon the Sorcerer 3D:
   pageId: 14140
 Simon the Sorcerer Origins:
   cloud:
+    epic: true
     steam: true
   pageId: 205529
   steam: 1939890
@@ -200611,11 +200641,6 @@ Solo:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE}}"
-Solos:
-  cloud:
-    steam: true
-  pageId: 88908
-  steam: 809060
 Solraven:
   pageId: 44301
   steam: 437400
@@ -204862,6 +204887,8 @@ Spidersaurs:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Wayforward\\Spidersaurs\\wfEngine.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/1191620/remote/}}"
+"Spies VS Mercs: Bold: Networked Newt Action":
+  pageId: 210426
 Spiiiders:
   pageId: 70331
   steam: 711310
@@ -221675,6 +221702,8 @@ The Adventures of 00 Dilly:
 The Adventures of Alvis:
   pageId: 60724
   steam: 615160
+"The Adventures of Batman & Robin: Activity Center":
+  pageId: 210428
 The Adventures of Capitano Navarro:
   pageId: 66187
   steam: 671810
@@ -236907,6 +236936,10 @@ This was for you.:
 Tho maz:
   pageId: 64514
   steam: 668560
+"Thomas & Friends: The Great Festival Adventure":
+  pageId: 210429
+"Thomas & Friends: Trouble on the Tracks":
+  pageId: 210430
 Thomas Was Alone:
   pageId: 4694
   steam: 220780
@@ -248106,7 +248139,7 @@ Unconnected Marketeers:
   steam: 1566410
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th18\\th18.cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th18\\scoreth18.dat | {{p|appdata}}\\ShanghaiAlice\\th18\\replay | {{p|appdata}}\\ShanghaiAlice\\th18\\snapshot}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th18\\scoreth18.dat|{{p|appdata}}\\ShanghaiAlice\\th18\\scoreth18bak.dat|{{p|appdata}}\\ShanghaiAlice\\th18\\replay\\| {{p|appdata}}\\ShanghaiAlice\\th18\\snapshot\\}}"
 Unconventional Warfare:
   pageId: 139610
   steam: 831110
@@ -248765,7 +248798,7 @@ Unfinished Dream of All Living Ghost:
   steam: 2400340
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th19\\th19.cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th19\\scoreth19.dat | {{p|appdata}}\\ShanghaiAlice\\th19\\snapshot\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th19\\scoreth19.dat|{{p|appdata}}\\ShanghaiAlice\\th19\\scoreth19bak.dat|{{p|appdata}}\\ShanghaiAlice\\th19\\snapshot\\}}"
 Unforeseen Incidents:
   cloud:
     gog: true
@@ -252180,6 +252213,15 @@ Vertigo 2:
     steam: true
   pageId: 142329
   steam: 843390
+Vertigo Remastered:
+  cloud:
+    steam: true
+  lutris: vertigo-remastered
+  pageId: 210421
+  steam: 1318090
+  steamSide:
+    - 1336610
+    - 1432470
 Vertigo Void:
   cloud:
     steam: true
@@ -260228,6 +260270,12 @@ WindSoul:
     steam: true
   pageId: 63205
   steam: 631960
+Windblown:
+  lutris: windblown
+  pageId: 210416
+  steam: 1911610
+  steamSide:
+    - 3285350
 Windborne:
   cloud:
     steam: true

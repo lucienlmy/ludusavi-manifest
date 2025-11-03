@@ -1323,6 +1323,11 @@ $1 Ride:
         - save
       when:
         - os: windows
+    "<winAppData>/ShanghaiAlice/th185/scoreth185bak.dat":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/ShanghaiAlice/th185/snapshot":
       tags:
         - save
@@ -13778,8 +13783,10 @@ ALPHA:
   steam:
     id: 1171880
 "ALTDEUS: Beyond Chronos":
+  installDir:
+    ALTDEUSBeyondChronos: {}
   steam:
-    id: 150208
+    id: 1502080
 ALTERITY EXPERIENCE:
   cloud:
     steam: true
@@ -269124,6 +269131,11 @@ Fossilized Wonders:
         - save
       when:
         - os: windows
+    "<winAppData>/ShanghaiAlice/th20/scoreth20bak.dat":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/ShanghaiAlice/th20/snapshot":
       tags:
         - save
@@ -361864,6 +361876,21 @@ Javva Juice:
             store: steam
   steam:
     id: 524940
+Jawbreaker:
+  id:
+    lutris: jawbreaker--4
+    steamExtra:
+      - 2274660
+  installDir:
+    Jawbreaker: {}
+  launch:
+    "<base>/Jawbreaker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2137460
 Jawns:
   files:
     "<winAppData>/Jawns":
@@ -475247,6 +475274,13 @@ No Place for Bravery:
             store: steam
   steam:
     id: 1039100
+No Players Online:
+  cloud:
+    steam: true
+  id:
+    lutris: no-players-online--1
+  steam:
+    id: 2701800
 No Prospects Company:
   steam:
     id: 854640
@@ -561618,6 +561652,44 @@ Reveal The Deep:
             store: steam
   steam:
     id: 411560
+Reveil:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pixelsplit/REVEIL/**/Collectables":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Pixelsplit/REVEIL/**/Meta":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Pixelsplit/REVEIL/saves/**/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Pixelsplit/REVEIL/Collectables":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Pixelsplit/REVEIL/Meta":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Pixelsplit/REVEIL/saves/*.save":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    REVEIL: {}
+  launch:
+    "<base>/REVEIL.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/REVEIL.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 809060
 Revelation:
   gog:
     id: 1834116710
@@ -604164,6 +604236,43 @@ Shift 2 Unleashed:
           - store: steam
   steam:
     id: 47920
+Shift 87:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pixelsplit/Shift87/**/Meta":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Pixelsplit/Shift87/saves/**/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Pixelsplit/Shift87/Meta":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Pixelsplit/Shift87/saves/*.save":
+      when:
+        - os: mac
+          store: steam
+  gog:
+    id: 1245507805
+  id:
+    lutris: shift-87
+  installDir:
+    Shift 87: {}
+  launch:
+    "<base>/Shift87.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Shift87.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2981650
 Shift Happens:
   cloud:
     steam: true
@@ -605754,28 +605863,11 @@ Shogun Showdown:
     gog: true
     steam: true
   files:
-    "<home>/.config/unity3d/Roboatino/ShogunShowdown/RunSaveData.dat":
+    "<home>/AppData/LocalLow/Roboatino/ShogunShowdown":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/.config/unity3d/Roboatino/ShogunShowdown/SaveData.dat":
-      when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Roboatino/ShogunShowdown/RunSaveData.dat":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Roboatino/ShogunShowdown/SaveData.dat":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Roboatino/ShogunShowdown/RunSaveData.dat":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Roboatino/ShogunShowdown/SaveData.dat":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   gog:
     id: 1104084973
   id:
@@ -611480,6 +611572,7 @@ Simon the Sorcerer 3D:
     id: 1207658700
 Simon the Sorcerer Origins:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Smallthing Studios/Simon the Sorcerer Origins/*.dat":
@@ -625129,43 +625222,7 @@ Solo Flight:
   steam:
     id: 2373990
 Solos:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Pixelsplit/REVEIL/**/Collectables":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Pixelsplit/REVEIL/**/Meta":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Pixelsplit/REVEIL/saves/**/*.save":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Pixelsplit/REVEIL/Collectables":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Pixelsplit/REVEIL/Meta":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Pixelsplit/REVEIL/saves/*.save":
-      when:
-        - os: mac
-          store: steam
-  installDir:
-    REVEIL: {}
-  launch:
-    "<base>/REVEIL.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/REVEIL.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 809060
+  alias: Reveil
 Solraven:
   installDir:
     SOLRAVEN: {}
@@ -770499,6 +770556,11 @@ Unconnected Marketeers:
         - save
       when:
         - os: windows
+    "<winAppData>/ShanghaiAlice/th18/scoreth18bak.dat":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/ShanghaiAlice/th18/snapshot":
       tags:
         - save
@@ -772483,6 +772545,11 @@ Unfinished Dream of All Living Ghost:
     steam: true
   files:
     "<winAppData>/ShanghaiAlice/th19/scoreth19.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th19/scoreth19bak.dat":
       tags:
         - save
       when:
@@ -782621,6 +782688,23 @@ Vertigo 2:
     Vertigo 2: {}
   steam:
     id: 843390
+Vertigo Remastered:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Zulubo Productions/vertigo":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: vertigo-remastered
+    steamExtra:
+      - 1336610
+      - 1432470
+  installDir:
+    Vertigo Remastered: {}
+  steam:
+    id: 1318090
 Vertigo Void:
   cloud:
     steam: true
@@ -806849,6 +806933,20 @@ WindSoul:
     steam: true
   steam:
     id: 631960
+Windblown:
+  id:
+    lutris: windblown
+    steamExtra:
+      - 3285350
+  installDir:
+    Windblown: {}
+  launch:
+    "<base>/Windblown.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1911610
 Windborne:
   cloud:
     steam: true

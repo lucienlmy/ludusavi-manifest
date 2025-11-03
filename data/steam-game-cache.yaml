@@ -542626,6 +542626,21 @@
         oslist: windows
       executable: eggwife.exe
       type: default
+1318090:
+  cloud:
+    saves:
+      - path: Zulubo Productions/vertigo/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Vertigo Remastered
+  launch:
+    - config:
+        oslist: windows
+      executable: vertigo.exe
+      type: vr
 1318690:
   cloud:
     saves:
@@ -559168,6 +559183,16 @@
         oslist: windows
       executable: ChefSquad.exe
       type: default
+1502080:
+  installDir: ALTDEUSBeyondChronos
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ALTDEUS.exe
+      type: vr
+  nameLocalized:
+    schinese: "阿尔特斯: 超越時空"
 1502190:
   cloud:
     saves:
@@ -587839,6 +587864,15 @@
   installDir: Knightfall
   launch:
     - executable: Knightfall.exe
+1911610:
+  installDir: Windblown
+  launch:
+    - config:
+        oslist: windows
+      executable: Windblown.exe
+      type: default
+  nameLocalized:
+    schinese: 风中行者
 1911800:
   cloud:
     saves:
@@ -600536,6 +600570,13 @@
         oslist: linux
       executable: Ringlorn Saga.x86_64
       type: default
+2137460:
+  installDir: Jawbreaker
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Jawbreaker.exe
 2138010:
   installDir: A Clockwork Ley-Line Flowers Falling in the Morning Mist
   launch:
@@ -620656,6 +620697,11 @@
         oslist: windows
       executable: WindowsNoEditor/Maestro.exe
       type: vr
+2701800:
+  nameLocalized:
+    koreana: 접속자 없음
+    schinese: 无人在线 No Players Online
+    tchinese: 無人在線 No Players Online
 2702050:
   cloud:
     saves:
@@ -625792,6 +625838,39 @@
         oslist: windows
       executable: GamingCafeSimulator.exe
       type: default
+2981650:
+  cloud:
+    saves:
+      - path: Pixelsplit/Shift87
+        pattern: Meta
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Pixelsplit/Shift87/saves
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Pixelsplit/Shift87
+            replace: Pixelsplit/Shift87
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Shift 87
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Shift87.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Shift87.app
+      type: default
+  nameLocalized:
+    schinese: 《轮班87》
+    tchinese: 《輪班 87》
 2982340: {}
 2983140:
   cloud:
