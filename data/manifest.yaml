@@ -88198,6 +88198,21 @@ Blood of Mehran:
   cloud:
     epic: true
     steam: true
+  files:
+    "<home>/Library/Application Support/BloodofMehran/Saved/SaveGames/BloodofMehran/Saved/SaveGames/**/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/BloodofMehran/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Blood of Mehran: {}
+  launch:
+    "<base>/Blood of Mehran.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1714530
 Blood of Old - The Rise to Greatness!:
@@ -90164,6 +90179,7 @@ Blue Prince:
         - os: windows
           store: microsoft
   id:
+    lutris: blue-prince
     steamExtra:
       - 2984250
   installDir:
@@ -120744,6 +120760,8 @@ Change Ranger:
   steam:
     id: 926140
 "Change: A Little Story":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Change -A Little Story_Data/Image1/*.ini":
       when:
@@ -153245,6 +153263,10 @@ Crongdor the Barbarian:
   installDir:
     Cronos. The New Dawn: {}
   launch:
+    "<base>/Cronos.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Cronos.exe":
       - when:
           - bit: 64
@@ -222903,6 +222925,8 @@ Elden Ring Nightreign:
         - config
       when:
         - os: windows
+  id:
+    lutris: elden-ring-nightreign
   installDir:
     ELDEN RING NIGHTREIGN: {}
   launch:
@@ -308363,12 +308387,6 @@ Hades II:
     lutris: hades-ii
   installDir:
     Hades II: {}
-  launch:
-    "<base>/Hades II.app":
-      - arguments: /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false
-        when:
-          - os: mac
-            store: steam
   steam:
     id: 1145350
 "Hades' Star":
@@ -373520,6 +373538,8 @@ Killing Floor 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: killing-floor-3
   installDir:
     Nightfall: {}
   launch:
@@ -375658,6 +375678,7 @@ Kingdom Clicker:
       - 1485720934
       - 1774073357
       - 1893634777
+    lutris: kingdom-come-deliverance-ii
     steamExtra:
       - 3118100
       - 3118110
@@ -411763,6 +411784,15 @@ MILF:
 MILITARY:
   steam:
     id: 1170670
+MIMESIS:
+  installDir:
+    MIMESIS: {}
+  launch:
+    "<base>/MIMESIS.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2827200
 MIND SWITCH:
   installDir:
     MIND SWITCH: {}
@@ -432074,6 +432104,7 @@ Metal Drift:
     id: 32200
 Metal Eden:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/MetalEden/Saved/Config/Windows":
@@ -432088,6 +432119,8 @@ Metal Eden:
         - os: windows
   gog:
     id: 1253025084
+  id:
+    lutris: metal-eden
   installDir:
     Metal Eden: {}
   launch:
@@ -473718,6 +473751,8 @@ Ninja Gaiden Σ2:
         - os: windows
   gog:
     id: 1611835959
+  id:
+    lutris: ninja-gaiden-ragebound
   installDir:
     NINJA GAIDEN Ragebound: {}
   launch:
@@ -816011,6 +816046,7 @@ WtBoy:
       when:
         - os: windows
   id:
+    lutris: wuchang-fallen-feathers
     steamExtra:
       - 3653760
       - 3653770

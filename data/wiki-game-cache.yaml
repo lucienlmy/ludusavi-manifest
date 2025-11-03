@@ -29001,6 +29001,7 @@ Blue Prince:
   cloud:
     steam: true
     xbox: true
+  lutris: blue-prince
   pageId: 195237
   steam: 1569580
   steamSide:
@@ -38590,6 +38591,8 @@ Change Ranger:
   pageId: 112288
   steam: 926140
 "Change: A Little Story":
+  cloud:
+    steam: true
   pageId: 124249
   renamedFrom:
     - "Change : A Little Story"
@@ -71248,6 +71251,7 @@ Elden Ring:
 Elden Ring Nightreign:
   cloud:
     steam: true
+  lutris: elden-ring-nightreign
   pageId: 200143
   renamedFrom:
     - "Elden Ring: Nightreign"
@@ -119689,6 +119693,7 @@ Killing Floor 2:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\KillingFloor2\\KFGame\\Config\\}}"
 Killing Floor 3:
+  lutris: killing-floor-3
   pageId: 196566
   steam: 1430190
   templates:
@@ -120440,6 +120445,7 @@ Kingdom Clicker:
     - 1485720934
     - 1774073357
     - 1893634777
+  lutris: kingdom-come-deliverance-ii
   pageId: 194487
   steam: 1771300
   steamSide:
@@ -131975,6 +131981,9 @@ MILF:
 MILITARY:
   pageId: 153850
   steam: 1170670
+MIMESIS:
+  pageId: 210441
+  steam: 2827200
 MIND SWITCH:
   pageId: 141669
   steam: 1115820
@@ -138502,8 +138511,10 @@ Metal Drift:
   steam: 32200
 Metal Eden:
   cloud:
+    gog: true
     steam: true
   gog: 1253025084
+  lutris: metal-eden
   pageId: 203295
   renamedFrom:
     - METAL EDEN
@@ -152274,6 +152285,7 @@ Ninja Gaiden Σ2:
   cloud:
     steam: true
   gog: 1611835959
+  lutris: ninja-gaiden-ragebound
   pageId: 200133
   steam: 2542120
   templates:
@@ -263249,6 +263261,7 @@ WtBoy:
     epic: true
     steam: true
     xbox: true
+  lutris: wuchang-fallen-feathers
   pageId: 198652
   steam: 2277560
   steamSide:

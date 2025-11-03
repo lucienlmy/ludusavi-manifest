@@ -500045,6 +500045,21 @@
       description: Beta Default
       executable: Ship/Hades2.exe
       type: default
+    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false /BuildLabel=preview /SaveCollectionRateFloat=0 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport /SaveCollectionRateFloat=0.075 /SaveCollectionDeathInterval=10
+      config:
+        betakey: preview
+        osarch: "64"
+        oslist: windows
+      description: Preview Default
+      executable: Ship/Hades2.exe
+      type: default
+    - arguments: /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false /BuildLabel=preview
+      config:
+        betakey: preview
+        oslist: macos
+      description: Preview Default
+      executable: "./Hades II.app"
+      type: default
     - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.075 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport
       config:
         betakey: public
@@ -500085,6 +500100,7 @@
       type: option2
     - arguments: /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false
       config:
+        betakey: public
         oslist: macos
       description: Ship
       executable: "./Hades II.app"
@@ -553455,6 +553471,14 @@
       description: "Unprotected Nightly "
       executable: NightfallClient.exe
       type: option1
+    - arguments: "-noEAC"
+      config:
+        betakey: release_staging_test_teamcity
+        osarch: "64"
+        oslist: windows
+      description: Launch Release_Staging_Test
+      executable: "Nightfall\\Binaries\\Win64\\NightfallClient-Win64-Test.exe"
+      type: option1
     - arguments: "-logPSO"
       config:
         betakey: mainline_development
@@ -575323,7 +575347,29 @@
     arabic: فرسان الاقصى
     brazilian: "Fursan al-Aqsa: Os Cavaleiros da Mesquita de al-Aqsa"
     schinese: "Fursan al-Aqsa: 阿克萨清真寺的骑士"
-1714530: {}
+1714530:
+  cloud:
+    saves:
+      - path: BloodofMehran/Saved/SaveGames/
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: BloodofMehran/Saved/SaveGames/
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - addPath: BloodofMehran/Saved/SaveGames/
+        os: Windows
+        osCompare: "="
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+  installDir: Blood of Mehran
+  launch:
+    - config:
+        oslist: windows
+      executable: Blood of Mehran.exe
 1714580:
   cloud:
     saves:
@@ -582124,7 +582170,7 @@
       type: option1
     - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.client.Main --gameDir . --assetsDir ./assets"
       config:
-        betakey: operations_ots
+        betakey: open_test_srv
         osarch: "64"
         oslist: windows
       description: "STALCRAFT OTS — test server; use this launch option if you're outside the RU region."
@@ -598804,6 +598850,9 @@
       - path: ".config/Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
         pattern: "*.sav"
         root: LinuxHome
+      - path: "Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: MacAppSupport
     overrides:
       - os: Windows
         osCompare: "="
@@ -598819,6 +598868,20 @@
             replace: ".config/Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
         root: WinAppDataLocal
         useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Cronos/Saved/SaveGames/{64BitSteamID}"
+            replace: "Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: "Epic/Cronos/Saved/SaveGames/{64BitSteamID}"
+            replace: "Cronos/Saved/SaveGames/{64BitSteamID}"
+        root: MacAppSupport
+        useInstead: WinAppDataLocal
   installDir: Cronos. The New Dawn
   launch:
     - config:
@@ -599075,6 +599138,11 @@
       executable: "Cronos\\Binaries\\Win64\\Cronos.exe"
       type: option1
       workingdir: "Cronos\\Binaries\\Win64"
+    - config:
+        oslist: macos
+      description: Launch
+      executable: Cronos.app
+      type: default
     - config:
         betakey: pre_stable_edge
         osarch: "64"
@@ -619471,11 +619539,39 @@
       executable: Grounded2Test.exe
       type: option2
     - config:
+        betakey: retail_debug
+        osarch: "64"
+        oslist: windows
+      description: Grounded 2 Development Configuration
+      executable: Grounded2Dev.exe
+      type: option1
+    - config:
+        betakey: retail_debug
+        osarch: "64"
+        oslist: windows
+      description: Grounded 2 Test Configuration
+      executable: Grounded2Test.exe
+      type: option2
+    - config:
+        betakey: playsession
+        osarch: "64"
+        oslist: windows
+      description: Grounded 2 Test Configuration
+      executable: Grounded2Test.exe
+      type: option3
+    - config:
         osarch: "64"
         oslist: windows
         ownsdlc: "3788090"
       description: Open Artbook & Soundtrack
       executable: Artbook/Grounded2Artbook.exe
+    - config:
+        betakey: integration
+        osarch: "64"
+        oslist: windows
+      description: Grounded 2 Test Configuration
+      executable: Grounded2Test.exe
+      type: option3
     - config:
         betakey: release
         osarch: "64"
@@ -623548,6 +623644,15 @@
         oslist: windows
       executable: Amanda The Adventurer 2.exe
       type: default
+2827200:
+  installDir: MIMESIS
+  launch:
+    - executable: MIMESIS.exe
+  nameLocalized:
+    japanese: ミメシス
+    koreana: 미메시스
+    schinese: 迷魅狩猎
+    tchinese: 迷魅狩獵
 2827230:
   installDir: WildAssaultEA
   launch:
