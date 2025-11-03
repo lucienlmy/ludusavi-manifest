@@ -632497,6 +632497,9 @@
   launch:
     - executable: ArthurSC.exe
       type: default
+3582980:
+  nameLocalized:
+    japanese: ミラノのアルバイトこれくしょん
 3585630:
   installDir: this game will end in 205 clicks
   launch:

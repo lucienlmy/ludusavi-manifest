@@ -436826,6 +436826,11 @@ MilMo:
             store: steam
   steam:
     id: 896590
+"Milano's Odd Job Collection":
+  cloud:
+    steam: true
+  steam:
+    id: 3582980
 Milanoir:
   cloud:
     gog: true
@@ -491193,10 +491198,11 @@ Orblitz:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Feverdream Softworks/Orbo's Odyssey/SaveData/*.orbo":
+    "<home>/AppData/LocalLow/Feverdream Softworks/Orbo's Odyssey/SaveData":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: orbos-odyssey
   installDir:

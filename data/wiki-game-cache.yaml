@@ -140255,6 +140255,11 @@ Miko Mole:
 MilMo:
   pageId: 102261
   steam: 896590
+"Milano's Odd Job Collection":
+  cloud:
+    steam: true
+  pageId: 210435
+  steam: 3582980
 Milanoir:
   cloud:
     gog: true
@@ -157941,6 +157946,8 @@ Orblitz:
   lutris: orbos-odyssey
   pageId: 199737
   steam: 2539960
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Feverdream Softworks\\Orbo's Odyssey\\SaveData}}"
 Orborun:
   pageId: 26983
   steam: 308580
