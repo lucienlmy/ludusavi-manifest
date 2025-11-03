@@ -83458,6 +83458,7 @@ Five Nations:
   cloud:
     epic: true
     steam: true
+  lutris: five-nights-at-freddys-into-the-pit
   pageId: 196837
   steam: 2638370
   templates:
@@ -138867,8 +138868,15 @@ Metal as Phuk:
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
 "Metal: Hellsinger":
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 2040522527
+  gogSide:
+    - 1079168140
+    - 1141915110
+    - 1347852284
+    - 2099900144
   pageId: 165418
   steam: 1061910
   steamSide:
@@ -199484,8 +199492,12 @@ Sniper Elite V2 Remastered:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Sniper Elite V2 Remastered\\PC_ProfileSaves\\{{p|uid}}}}"
 Sniper Elite VR:
+  lutris: sniper-elite-vr
   pageId: 133545
   steam: 752480
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Just Add Water\\SniperEliteVR\\SettingsData}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Just Add Water\\SniperEliteVR\\ProgressionSaveData}}"
 "Sniper Elite: Nazi Zombie Army":
   cloud:
     steam: true
@@ -240430,7 +240442,9 @@ Tormented Souls:
   steam: 1367590
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\duale-abstractd\\Tormented Souls Release\\}}"
+    - "{{Game data/config|GOG.com|{{P|userprofile\\appdata\\locallow}}\\duale-abstractd\\Tormented Souls Release GOG\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\duale-abstractd\\Tormented Souls Release\\Saves\\}}"
+    - "{{Game data/saves|GOG.com|{{P|userprofile\\appdata\\locallow}}\\duale-abstractd\\Tormented Souls Release GOG\\Saves\\}}"
 Tormented Souls 2:
   cloud:
     epic: true

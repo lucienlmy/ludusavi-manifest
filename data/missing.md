@@ -23471,7 +23471,6 @@
 * [Sniper 3D Assassin: Free to Play](https://www.pcgamingwiki.com/wiki/?curid=112240)
 * [Sniper Blacklist](https://www.pcgamingwiki.com/wiki/?curid=41667)
 * [Sniper Commando Attack](https://www.pcgamingwiki.com/wiki/?curid=141720)
-* [Sniper Elite VR](https://www.pcgamingwiki.com/wiki/?curid=133545)
 * [Sniper Fodder](https://www.pcgamingwiki.com/wiki/?curid=97940)
 * [Sniper Fury](https://www.pcgamingwiki.com/wiki/?curid=62801)
 * [Sniper Hunter Adventure 3D](https://www.pcgamingwiki.com/wiki/?curid=72808)

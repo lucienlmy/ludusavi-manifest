@@ -259705,6 +259705,8 @@ Five Nations:
         - save
       when:
         - os: windows
+  id:
+    lutris: five-nights-at-freddys-into-the-pit
   installDir:
     "Five Nights at Freddy's Into the Pit": {}
   launch:
@@ -433003,6 +433005,7 @@ Metal as Phuk:
     id: 662210
 "Metal: Hellsinger":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/TheOutsiders/Metal":
@@ -433016,7 +433019,14 @@ Metal as Phuk:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 2040522527
   id:
+    gogExtra:
+      - 1079168140
+      - 1141915110
+      - 1347852284
+      - 2099900144
     steamExtra:
       - 2252490
       - 2386360
@@ -621425,6 +621435,19 @@ Sniper Elite V2 Remastered:
   steam:
     id: 728740
 Sniper Elite VR:
+  files:
+    "<home>/AppData/LocalLow/Just Add Water/SniperEliteVR/ProgressionSaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Just Add Water/SniperEliteVR/SettingsData":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: sniper-elite-vr
   installDir:
     Sniper Elite VR: {}
   steam:
@@ -748973,6 +748996,18 @@ Tormented Souls:
         - config
       when:
         - os: windows
+    "<home>/AppData/LocalLow/duale-abstractd/Tormented Souls Release GOG":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<home>/AppData/LocalLow/duale-abstractd/Tormented Souls Release GOG/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<home>/AppData/LocalLow/duale-abstractd/Tormented Souls Release/Saves":
       tags:
         - save

@@ -129162,6 +129162,13 @@
     - executable: game.exe
       type: none
 407310:
+  cloud:
+    saves:
+      - path: save
+        pattern: "*.sd"
+        platforms:
+          - Windows
+        root: gameinstall
   installDir: NEKO-NIN exHeart
   launch:
     - executable: nekonin.exe
