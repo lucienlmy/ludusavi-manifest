@@ -613308,6 +613308,27 @@
   launch:
     - executable: RadiantSilvergun.exe
 2451040: {}
+2451100:
+  cloud:
+    saves:
+      - path: TeenageAstronauts/LittleRocketLab
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: TeenageAstronauts/LittleRocketLab
+        pattern: "*.backup"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: TeenageAstronauts/LittleRocketLab
+            replace: ".config/unity3d/TeenageAstronauts/LittleRocketLab"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Little Rocket Lab
+  launch:
+    - executable: LittleRocketLab.exe
+      type: default
 2451320:
   cloud:
     saves:
@@ -623723,7 +623744,10 @@
       workingdir: Windows
   nameLocalized:
     schinese: 永恒寒冬
-2830030: {}
+2830030:
+  nameLocalized:
+    japanese: MOTORSLICE モータースライス
+    schinese: 废都电锯姬
 2830150:
   cloud:
     saves:
@@ -624774,6 +624798,7 @@
     german: ÜberSoldier
     russian: "Восточный фронт: Неизвестная война"
     tchinese: UberSoldier 基因戰士
+2906320: {}
 2907010:
   cloud:
     saves:
@@ -628671,6 +628696,18 @@
   installDir: Hydroponics Farm and Store Simulator
   launch:
     - executable: Hydroponics Farm and Store Simulator.exe
+3153020:
+  cloud:
+    saves:
+      - path: "TylerRayGames\\Skatehouse"
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+  installDir: Skatehouse
+  launch:
+    - config:
+        oslist: windows
+      executable: Skatehouse.exe
+      type: default
 3155730:
   cloud:
     saves:
@@ -630264,6 +630301,18 @@
     japanese: 銀河の先駆者
     russian: Галактический авангард
     schinese: 银河先锋
+3309750:
+  installDir: "As Long As You're Here"
+  launch:
+    - config:
+        oslist: windows
+      executable: "As Long As You're Here.exe"
+    - config:
+        oslist: macos
+      executable: AsLongAsYoureHere.app
+  nameLocalized:
+    japanese: As Long As You’re Here　あなたがここにいる限り
+    schinese: "只愿有你 - As Long As You're Here"
 3314060:
   installDir: The Sims Legacy Collection
   launch:
@@ -631660,6 +631709,7 @@
         osarch: "64"
         oslist: windows
       executable: CheatersCheetah.exe
+3440070: {}
 3444480:
   cloud:
     saves:
@@ -633135,6 +633185,8 @@
       executable: DFDT.exe
       type: default
 3641000: {}
+3641830: {}
+3643170: {}
 3645160:
   nameLocalized:
     japanese: フロストパンク1886
@@ -633419,6 +633471,12 @@
 3710840: {}
 3717830: {}
 3720530: {}
+3726250:
+  installDir: My Little Cafe Nightmare
+  launch:
+    - config:
+        oslist: windows
+      executable: MyLittleCoffeeNightmare.exe
 3727390: {}
 3730310:
   nameLocalized:
@@ -634009,6 +634067,7 @@
         oslist: macos
       executable: (BURIED TAPES) The Parking.app
       type: default
+3950020: {}
 3954580: {}
 3970690: {}
 3983000: {}
@@ -634096,5 +634155,6 @@
     - description: Activity Center
       executable: ArthurK2.exe
       type: option1
+4105240: {}
 4113570: {}
 3221903386: {}

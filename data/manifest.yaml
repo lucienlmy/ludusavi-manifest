@@ -15487,12 +15487,12 @@ Abathor:
   cloud:
     steam: true
   files:
-    "<base>/options.ini":
+    "<home>/AppData/Local/Abathor/options.ini":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/Abathor/saves/*.dat":
+    "<home>/AppData/Local/Abathor/saves/*.dat":
       tags:
         - save
       when:
@@ -49187,6 +49187,22 @@ As Far as the Eye:
 "As If Dreaming When You're Wide Awake":
   steam:
     id: 845370
+"As Long As You're Here":
+  id:
+    lutris: as-long-as-youre-here
+  installDir:
+    "As Long As You're Here": {}
+  launch:
+    "<base>/As Long As You're Here.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/AsLongAsYoureHere.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 3309750
 As We Know It:
   installDir:
     As We Know It: {}
@@ -120175,6 +120191,13 @@ Chainsaw Warrior:
             store: steam
   steam:
     id: 32120
+Chakana:
+  cloud:
+    steam: true
+  id:
+    lutris: chakana
+  steam:
+    id: 4105240
 Chalkship:
   cloud:
     steam: true
@@ -191250,6 +191273,11 @@ DinoTrek:
     DinoTrek: {}
   steam:
     id: 925170
+Dinoblade:
+  id:
+    lutris: dinoblade
+  steam:
+    id: 3440070
 Dinobreak:
   installDir:
     Dinobreak: {}
@@ -210425,6 +210453,9 @@ Duet:
             store: steam
   steam:
     id: 292600
+Duet Night Abyss:
+  steam:
+    id: 3950020
 Dujanah:
   installDir:
     Dujanah: {}
@@ -400245,6 +400276,32 @@ Little Red Riding Hood:
 Little Reds Forest Fun:
   steam:
     id: 1021700
+Little Rocket Lab:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/TeenageAstronauts/LittleRocketLab/*.backup":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/TeenageAstronauts/LittleRocketLab/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/TeenageAstronauts/LittleRocketLab/*.backup":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/TeenageAstronauts/LittleRocketLab/*.save":
+      when:
+        - store: steam
+  installDir:
+    Little Rocket Lab: {}
+  launch:
+    "<base>/LittleRocketLab.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2451100
 Little Savior / リトルセイバー:
   files:
     "<winAppData>/Sorceryforce/LittleSavior01/App/1/5/**/*.save":
@@ -450844,6 +450901,8 @@ Motorhead (2015):
 Motorslice:
   cloud:
     steam: true
+  id:
+    lutris: motorslice
   steam:
     id: 2830030
 Motorsport Manager:
@@ -456122,6 +456181,20 @@ My Little Bomb:
             store: steam
   steam:
     id: 774261
+My Little Cafe Nightmare:
+  id:
+    lutris: my-little-cafe-nightmare
+    steamExtra:
+      - 3960880
+  installDir:
+    My Little Cafe Nightmare: {}
+  launch:
+    "<base>/MyLittleCoffeeNightmare.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3726250
 My Little Farmies:
   id:
     lutris: my-little-farmies
@@ -495142,6 +495215,11 @@ Outlaw Golf:
         - config
       when:
         - os: windows
+    "<base>/SaveGame":
+      tags:
+        - save
+      when:
+        - os: windows
 Outlaws:
   cloud:
     steam: true
@@ -496689,6 +496767,9 @@ Overlord II:
             store: steam
   steam:
     id: 306670
+Overnight Interview:
+  steam:
+    id: 3641830
 Overpass:
   cloud:
     steam: true
@@ -568618,6 +568699,11 @@ Roadside Assistance Simulator:
             store: steam
   steam:
     id: 302440
+Roadside Research:
+  id:
+    lutris: roadside-research
+  steam:
+    id: 3643170
 Roadwarden:
   cloud:
     gog: true
@@ -613617,6 +613703,26 @@ Skateboarding pro:
             store: steam
   steam:
     id: 908090
+Skatehouse:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/TylerRayGames/Skatehouse/*.es3":
+      when:
+        - store: steam
+  id:
+    lutris: skatehouse
+    steamExtra:
+      - 3645850
+  installDir:
+    Skatehouse: {}
+  launch:
+    "<base>/Skatehouse.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3153020
 Skatemasta Tcheco:
   installDir:
     Skatemasta Tcheco: {}
@@ -803017,6 +803123,11 @@ Wheelz2:
             store: steam
   steam:
     id: 792970
+Whelm:
+  id:
+    lutris: whelm
+  steam:
+    id: 2906320
 When I Was Young:
   cloud:
     steam: true

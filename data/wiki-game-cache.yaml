@@ -4783,13 +4783,14 @@ Abasralsa:
 Abathor:
   cloud:
     steam: true
+    xbox: true
   pageId: 200245
   steam: 2295610
   steamSide:
     - 2459640
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\options.ini}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Abathor\\saves\\*.dat}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\Local\\Abathor\\options.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\Local\\Abathor\\saves\\*.dat}}"
 "Abathor: Atlantis Landing":
   pageId: 200243
   steam: 2358610
@@ -15607,6 +15608,10 @@ As Far as the Eye:
 "As If Dreaming When You're Wide Awake":
   pageId: 93090
   steam: 845370
+"As Long As You're Here":
+  lutris: as-long-as-youre-here
+  pageId: 210476
+  steam: 3309750
 As We Know It:
   pageId: 93357
   steam: 806490
@@ -23653,6 +23658,8 @@ BeatShips:
 Beatcrash:
   pageId: 134988
   steam: 1064360
+Beatdown:
+  pageId: 210460
 Beater Spirit:
   pageId: 34493
   steam: 482120
@@ -25207,6 +25214,8 @@ Big Pogo Man:
     steam: true
   pageId: 148527
   steam: 1173270
+Big Red Racing:
+  pageId: 209642
 "Big Rigs: Over the Road Racing":
   pageId: 367
   steam: 3598130
@@ -35375,6 +35384,8 @@ Candy Land:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\CandyLnd.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\CandyLnd.sav}}"
+Candy Land Adventure:
+  pageId: 210455
 Candy Machine:
   pageId: 56786
   steam: 581980
@@ -38383,6 +38394,12 @@ Chainsaw Warrior:
   steam: 32120
 "Chak's Temple":
   pageId: 197758
+Chakana:
+  cloud:
+    steam: true
+  lutris: chakana
+  pageId: 210474
+  steam: 4105240
 Chalkship:
   cloud:
     steam: true
@@ -60972,6 +60989,10 @@ DinoSystem:
 DinoTrek:
   pageId: 110338
   steam: 925170
+Dinoblade:
+  lutris: dinoblade
+  pageId: 210456
+  steam: 3440070
 Dinobreak:
   pageId: 195825
   steam: 1932180
@@ -67156,6 +67177,9 @@ Duet:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Duet\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Duet/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Duet/*-data.db}}"
+Duet Night Abyss:
+  pageId: 210457
+  steam: 3950020
 Dujanah:
   pageId: 70082
   steam: 681240
@@ -97847,6 +97871,8 @@ Gunman Taco Truck:
 Gunman Tales:
   pageId: 95065
   steam: 760320
+Gunmetal:
+  pageId: 210463
 Gunmetal Arcadia:
   cloud:
     steam: true
@@ -128396,6 +128422,12 @@ Little Red Riding Hood:
 Little Reds Forest Fun:
   pageId: 127263
   steam: 1021700
+Little Rocket Lab:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 209586
+  steam: 2451100
 Little Savior / リトルセイバー:
   pageId: 135236
   steam: 1074150
@@ -144811,6 +144843,7 @@ Motorhead (2015):
 Motorslice:
   cloud:
     steam: true
+  lutris: motorslice
   pageId: 204581
   steam: 2830030
 Motorsport Manager:
@@ -146469,6 +146502,12 @@ My Little Blacksmith Shop:
 My Little Bomb:
   pageId: 79214
   steam: 774261
+My Little Cafe Nightmare:
+  lutris: my-little-cafe-nightmare
+  pageId: 210478
+  steam: 3726250
+  steamSide:
+    - 3960880
 My Little Farmies:
   lutris: my-little-farmies
   pageId: 82822
@@ -159160,6 +159199,7 @@ Outlaw Golf:
   pageId: 202591
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame}}"
 Outlaws:
   cloud:
     steam: true
@@ -159664,6 +159704,9 @@ Overlord II:
 "Overlord: Fellowship of Evil":
   pageId: 35314
   steam: 306670
+Overnight Interview:
+  pageId: 210486
+  steam: 3641830
 Overpass:
   cloud:
     steam: true
@@ -182789,6 +182832,10 @@ Roads of Rome 3:
 Roadside Assistance Simulator:
   pageId: 49597
   steam: 302440
+Roadside Research:
+  lutris: roadside-research
+  pageId: 210464
+  steam: 3643170
 Roadwarden:
   cloud:
     gog: true
@@ -193882,6 +193929,8 @@ ShellShock Live:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\KChamp Games\\ShellShock Live}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\KChamp Games\\ShellShock Live\\}}"
+Shellshock:
+  pageId: 210467
 "Shellshock 2: Blood Trails":
   lutris: shellshock-2-blood-trails
   pageId: 63375
@@ -197192,6 +197241,14 @@ Skateboard Park Tycoon:
 Skateboarding pro:
   pageId: 104091
   steam: 908090
+Skatehouse:
+  cloud:
+    steam: true
+  lutris: skatehouse
+  pageId: 210473
+  steam: 3153020
+  steamSide:
+    - 3645850
 Skatemasta Tcheco:
   pageId: 137100
   steam: 619320
@@ -240650,6 +240707,8 @@ Total Lockdown:
   steam: 1121710
   steamSide:
     - 1249140
+Total Mayhem:
+  pageId: 210472
 Total Miner:
   pageId: 78320
   steam: 347600
@@ -259060,6 +259119,10 @@ Wheely:
 Wheelz2:
   pageId: 89634
   steam: 792970
+Whelm:
+  lutris: whelm
+  pageId: 210468
+  steam: 2906320
 When I Was Young:
   cloud:
     steam: true
