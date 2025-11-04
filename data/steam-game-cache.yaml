@@ -614547,6 +614547,16 @@
     tchinese: 《海綿寶寶：海洋巨頭之亂》
     turkish: "SpongeBob SquarePants: Titans of the Tide"
     ukrainian: "Губка Боб Квадратні Штани: Титани течій"
+2479740:
+  installDir: Pieces of me
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Pieces_0f_me.exe
+      type: default
+  nameLocalized:
+    russian: Кусочки меня
 2479810:
   installDir: Gray Zone Warfare
   launch:

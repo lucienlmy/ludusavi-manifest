@@ -45480,6 +45480,8 @@ Arena 8:
   steam:
     id: 856730
 "Arena Breakout: Infinite":
+  id:
+    lutris: arena-breakout-infinite
   installDir:
     ABInfinite: {}
   launch:
@@ -512007,6 +512009,30 @@ Piece of Memory:
 Pieces of Eight:
   steam:
     id: 803500
+Pieces of Me:
+  files:
+    "<winLocalAppData>/Pieces_0f_me/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Pieces_0f_me/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: pieces-of-me
+  installDir:
+    Pieces of me: {}
+  launch:
+    "<base>/Pieces_0f_me.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2479740
 "Pieces of Me: Northbound":
   installDir:
     Pieces of Me NorthBound: {}
@@ -779978,6 +780004,18 @@ Vampire of the Sands:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Bloodlines2/GOG/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/Bloodlines2/GOG/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<winLocalAppData>/Bloodlines2/Steam/Saved/Config/Windows":
       tags:
         - config

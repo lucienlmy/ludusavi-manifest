@@ -14411,6 +14411,7 @@ Arena 8:
   pageId: 93742
   steam: 856730
 "Arena Breakout: Infinite":
+  lutris: arena-breakout-infinite
   pageId: 195225
   steam: 2073620
 Arena Gods:
@@ -164801,6 +164802,13 @@ Piece of Wonder:
 Pieces of Eight:
   pageId: 91600
   steam: 803500
+Pieces of Me:
+  lutris: pieces-of-me
+  pageId: 210512
+  steam: 2479740
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Pieces_0f_me\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Pieces_0f_me\\Saved\\SaveGames\\}}"
 "Pieces of Me: Northbound":
   pageId: 155717
   steam: 1202090
@@ -251428,8 +251436,10 @@ Vampire of the Sands:
   pageId: 131333
   steam: 532790
   templates:
+    - "{{Game data/config|GOG.com|{{p|localappdata}}\\Bloodlines2\\GOG\\Saved\\Config\\Windows}}"
     - "{{Game data/config|Steam|{{p|localappdata}}\\Bloodlines2\\Steam\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Bloodlines2\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\Bloodlines2\\GOG\\Saved\\SaveGames\\*.sav}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Bloodlines2\\Steam\\Saved\\SaveGames\\*.sav}}"
 "Vampire: The Masquerade - Coteries of New York":
   cloud:
