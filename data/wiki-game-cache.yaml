@@ -45497,6 +45497,7 @@ Conspiracy - KGB:
     - "{{Game data/config|Windows|{{p|game}}\\config.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\CWMDSaveGame\\*.sav}}"
 Constance:
+  lutris: constance--1
   pageId: 195987
   steam: 2313700
 Constant C:
@@ -59483,6 +59484,10 @@ Detective Hayseed - The Cloning Madness:
 Detective Hunt - Crownston City PD:
   pageId: 42946
   steam: 464240
+"Detective Instinct: Farewell, My Beloved":
+  lutris: detective-instinct-farewell-my-beloved
+  pageId: 210506
+  steam: 2689930
 Detective Jackie - Mystic Case:
   pageId: 150375
   steam: 1148450
@@ -72643,6 +72648,16 @@ Empty Town:
 "Empyre: Lords of the Sea Gates":
   pageId: 70521
   steam: 696810
+Empyreal:
+  cloud:
+    steam: true
+  pageId: 210491
+  steam: 1377700
+  steamSide:
+    - 3514930
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/Empyreal/Saved/Config/Windows/}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/Empyreal/Saved/SaveGames/}}"
 Empyrean:
   cloud:
     steam: true
@@ -74386,6 +74401,7 @@ Escape Simulator 2:
   pageId: 199961
   steam: 2879840
   templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Pine Studio\\Escape Simulator 2\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Pine Studio\\Escape Simulator 2\\*.sav|{{p|game}}\\Pine Studio\\Escape Simulator 2\\LevelSaves\\*.sav|{{p|userprofile\\appdata\\locallow}}\\Pine Studio\\Escape Simulator 2\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Pine Studio/Escape Simulator 2}}"
 Escape Station:
@@ -152949,6 +152965,10 @@ No Umbrellas Allowed:
   steam: 1301390
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\HoochooGameStudios\\No Umbrellas Allowed\\Synced Saves}}"
+No Vacation for an Executioner:
+  lutris: no-vacation-for-an-executioner
+  pageId: 210501
+  steam: 2949120
 No Way Home:
   pageId: 155181
 No Way Out:
@@ -193119,6 +193139,8 @@ Shadows of Adam:
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Shadows of Adam\\Local Storage\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Shadows of Adam/Local Storage/}}"
+Shadows of Cairn:
+  pageId: 210504
 Shadows of Doubt:
   cloud:
     gog: true
@@ -234641,6 +234663,10 @@ The Thirst of Hearts:
 The Thrill of the Fight:
   pageId: 35142
   steam: 494150
+The Time I Have Left:
+  lutris: the-time-i-have-left
+  pageId: 210493
+  steam: 1918830
 "The Time Machine: Trapped in Time":
   pageId: 179839
 The Time Of Awakening:
@@ -250222,6 +250248,10 @@ V-Rally Multiplayer Championship Edition:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
+V.A Proxy:
+  lutris: va-proxy
+  pageId: 210499
+  steam: 2063390
 V.I.P.:
   pageId: 172563
 V.L.A.D.i.K:
@@ -250317,6 +250347,9 @@ VHS:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Rewindapp\\VHS}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Rewindapp\\VHS}}"
+VHS Bodycam:
+  pageId: 210508
+  steam: 3907620
 VHSoverdose:
   pageId: 40072
   steam: 517480

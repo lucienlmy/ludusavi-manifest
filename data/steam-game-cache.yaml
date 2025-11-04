@@ -548923,6 +548923,21 @@
   nameLocalized:
     schinese: Soulworker (灵魂行者)
     tchinese: Soulworker (靈魂行者)
+1377700:
+  cloud:
+    saves:
+      - path: Empyreal/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Empyreal
+  launch:
+    - config:
+        oslist: windows
+      executable: Empyreal.exe
+      type: default
+  nameLocalized:
+    schinese: 至高天
 1377920:
   installDir: Big Mutha Truckers 2
   launch:
@@ -588353,6 +588368,7 @@
   installDir: Artistic Girl 1
   launch:
     - executable: ArtisticGirl1.exe
+1918830: {}
 1919470:
   cloud:
     saves:
@@ -596275,6 +596291,7 @@
         oslist: windows
       executable: Joe Wander.exe
       type: default
+2063390: {}
 2063510:
   cloud:
     saves:
@@ -620573,6 +620590,9 @@
         oslist: windows
       executable: FishVerse.exe
       type: default
+2689930:
+  nameLocalized:
+    japanese: 探偵の眼：さらば、最愛の人よ
 2690190: {}
 2693060:
   installDir: Garten of Banban 7
@@ -625588,6 +625608,7 @@
         oslist: windows
       executable: The House of Da Vinci VR.exe
       type: vr
+2949120: {}
 2949240: {}
 2949320:
   cloud:
@@ -633987,6 +634008,7 @@
     japanese: テニスの王子様　ぎゅ～っと！ ドキドキサバイバル Tie break ♡game
     schinese: 网球王子 心跳求生 Tie break ♡game
     tchinese: 網球王子 心跳求生 Tie break ♡game
+3907620: {}
 3909960:
   cloud:
     saves:

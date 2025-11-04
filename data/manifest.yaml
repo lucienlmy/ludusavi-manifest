@@ -142986,6 +142986,8 @@ Consortium Remastered:
       when:
         - os: windows
 Constance:
+  id:
+    lutris: constance--1
   steam:
     id: 2313700
 Constant C:
@@ -186759,6 +186761,11 @@ Detective Hunt - Crownston City PD:
             store: steam
   steam:
     id: 464240
+"Detective Instinct: Farewell, My Beloved":
+  id:
+    lutris: detective-instinct-farewell-my-beloved
+  steam:
+    id: 2689930
 Detective Jackie - Mystic Case:
   installDir:
     Jackie: {}
@@ -227339,6 +227346,32 @@ Empty Town:
             store: steam
   steam:
     id: 696810
+Empyreal:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Empyreal/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Empyreal/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3514930
+  installDir:
+    Empyreal: {}
+  launch:
+    "<base>/Empyreal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1377700
 Empyrean:
   cloud:
     steam: true
@@ -233133,6 +233166,7 @@ Escape Simulator 2:
         - os: windows
     "<home>/AppData/LocalLow/Pine Studio/Escape Simulator 2":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -475697,6 +475731,11 @@ No Umbrellas Allowed:
             store: steam
   steam:
     id: 1301390
+No Vacation for an Executioner:
+  id:
+    lutris: no-vacation-for-an-executioner
+  steam:
+    id: 2949120
 No Way Out:
   cloud:
     steam: true
@@ -730883,6 +730922,11 @@ The Thrill of the Fight:
     The Thrill of the Fight: {}
   steam:
     id: 494150
+The Time I Have Left:
+  id:
+    lutris: the-time-i-have-left
+  steam:
+    id: 1918830
 The Time Of Awakening:
   steam:
     id: 951090
@@ -776910,6 +776954,11 @@ V-Rally Multiplayer Championship Edition:
         - save
       when:
         - os: windows
+V.A Proxy:
+  id:
+    lutris: va-proxy
+  steam:
+    id: 2063390
 V.L.A.D.i.K:
   installDir:
     V.L.A.D.i.K: {}
@@ -777206,6 +777255,9 @@ VHS:
         - save
   steam:
     id: 3074340
+VHS Bodycam:
+  steam:
+    id: 3907620
 VHSoverdose:
   installDir:
     VHSoverdose: {}
