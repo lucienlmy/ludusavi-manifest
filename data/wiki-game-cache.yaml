@@ -14226,6 +14226,11 @@ Archery:
 Archery Blast:
   pageId: 87940
   steam: 806470
+Archery Club:
+  cloud:
+    steam: true
+  lutris: archery-club
+  pageId: 210517
 Archery Kings VR:
   pageId: 87573
   steam: 802340
@@ -182867,7 +182872,6 @@ Roadside Research:
 Roadwarden:
   cloud:
     gog: true
-    steam: true
   gog: 1763268053
   gogSide:
     - 1371608867
@@ -245743,6 +245747,12 @@ Try not to die:
 Try to Fall Asleep:
   pageId: 81802
   steam: 791770
+Try to Fly:
+  cloud:
+    steam: true
+  lutris: try-to-fly
+  pageId: 210515
+  steam: 2058800
 Try to Seize Me:
   pageId: 91859
   steam: 822750

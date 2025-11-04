@@ -44887,6 +44887,11 @@ Archery Blast:
           - store: steam
   steam:
     id: 806470
+Archery Club:
+  cloud:
+    steam: true
+  id:
+    lutris: archery-club
 Archery Kings VR:
   installDir:
     Archery Kings VR: {}
@@ -568772,7 +568777,6 @@ Roadside Research:
 Roadwarden:
   cloud:
     gog: true
-    steam: true
   files:
     "<home>/.renpy/roadwarden":
       tags:
@@ -763083,6 +763087,24 @@ Try to Fall Asleep:
             store: steam
   steam:
     id: 791770
+Try to Fly:
+  cloud:
+    steam: true
+  id:
+    lutris: try-to-fly
+  installDir:
+    Try to Fly: {}
+  launch:
+    "<base>/Try to Fly.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TryToFly.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2058800
 Try to Seize Me:
   installDir:
     Try to seize me: {}

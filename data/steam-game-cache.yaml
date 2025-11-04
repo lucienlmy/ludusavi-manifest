@@ -595915,6 +595915,17 @@
   installDir: Monster Energy Supercross - The Official Videogame 6
   launch:
     - executable: supercross6.exe
+2058800:
+  installDir: Try to Fly
+  launch:
+    - config:
+        oslist: windows
+      executable: Try to Fly.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: TryToFly.app
+      type: default
 2058980:
   cloud:
     saves:
