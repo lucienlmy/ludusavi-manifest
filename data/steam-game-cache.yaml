@@ -453070,12 +453070,6 @@
           - Windows
         recursive: true
         root: WinSavedGames
-      - path: My Games/Farthest Frontier/Save
-        pattern: "*"
-        platforms:
-          - Windows
-        recursive: true
-        root: WinMyDocuments
       - path: Farthest Frontier/Save
         pattern: "*"
         platforms:
@@ -561570,6 +561564,25 @@
       executable: Bin/MacOS/FBW.exe
       type: default
       workingdir: Bin/MacOS/
+1541370:
+  cloud:
+    saves:
+      - path: UltimateTheaterSimulator_Data/SaveData
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: UltimateTheaterSimulator_Data/SaveData
+        pattern: "*.save"
+        platforms:
+          - MacOS
+        root: MacAppSupport
+  installDir: UltimateTheaterSimulator
+  launch:
+    - config:
+        oslist: windows
+      executable: UltimateTheaterSimulator.exe
+      type: default
 1541790:
   cloud:
     saves:
@@ -631444,6 +631457,7 @@
         oslist: windows
       executable: UIUniverse.exe
       type: default
+3402720: {}
 3403540: {}
 3404260: {}
 3405340:
@@ -633403,6 +633417,7 @@
       description: B&S NEO EU
       executable: /UE4/BNSR/Binaries/Win64/BNSR.exe
       type: option1
+3669620: {}
 3671710:
   cloud:
     saves:
@@ -633473,6 +633488,25 @@
         osarch: "64"
         oslist: linux
       executable: split_Linux/split.x86_64
+3690010:
+  cloud:
+    saves:
+      - path: WhoDoor/Saved/SaveGames/
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: "Who's at the door"
+  launch:
+    - config:
+        betakey: WhoDoor.exe
+        oslist: windows
+      executable: WhoDoor.exe
+      type: default
+  nameLocalized:
+    koreana: 후즈 앳 더 도어
+    schinese: 谁在门外?
+    tchinese: 誰在門外?
 3692730: {}
 3698680:
   cloud:

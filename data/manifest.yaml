@@ -38342,17 +38342,11 @@ Anima Flux:
     gog: true
     steam: true
   files:
-    "<home>/.config/unity3d/AvantajPrim/AnimaFlux/LocalStorageData/<storeUserId>":
+    "<xdgConfig>/unity3d/AvantajPrim/AnimaFlux/prefs":
+      tags:
+        - config
       when:
         - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/AvantajPrim/AnimaFlux/LocalStorageData/<storeUserId>":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/AvantajPrim/AnimaFlux/LocalStorageData/<storeUserId>":
-      when:
-        - os: mac
-          store: steam
   gog:
     id: 1860935568
   id:
@@ -98280,6 +98274,11 @@ Breakout:
             store: steam
   steam:
     id: 955790
+Breakout (2000):
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Atari/Breakout/Setup:
+      tags:
+        - config
 Breakout Beyond:
   cloud:
     epic: true
@@ -131890,6 +131889,9 @@ Clea:
             store: steam
   steam:
     id: 981020
+Clean Up Earth:
+  steam:
+    id: 3402720
 Clean VR:
   installDir:
     CleanVR: {}
@@ -413884,7 +413886,7 @@ Mad Max:
         - save
       when:
         - os: mac
-    "<root>/userdata/<root>/234140/remote":
+    "<root>/userdata/<storeUserId>/234140/remote":
       tags:
         - save
       when:
@@ -461261,6 +461263,8 @@ NOCE:
     "<home>/AppData/LocalLow/Lapsus Games/NODE/SavedGame.dat":
       when:
         - store: steam
+  gog:
+    id: 1537862169
   installDir:
     NODE: {}
   launch:
@@ -589818,8 +589822,6 @@ Scarf:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/VUGAMES/Scarface:
       tags:
         - config
-  steam:
-    id: 4113570
 Scarlet Fantasy:
   installDir:
     Scarlet Fantasy: {}
@@ -638365,11 +638367,15 @@ Spin Evolution:
   steam:
     id: 1021240
 Spin Hero:
+  cloud:
+    steam: true
   files:
     "<winAppData>/Godot/app_userdata/Spin Hero/*.save":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: spin-hero
   installDir:
     Spin Hero: {}
   launch:
@@ -675260,7 +675266,21 @@ Syberia:
     id: 46500
 Syberia - Remastered:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Virtuallyz Gaming/Syberia - Remastered/SteamSaves/<storeUserId>/slot_*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Virtuallyz Gaming/Syberia - Remastered/SteamSaves/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1221479835
   id:
@@ -769155,6 +769175,31 @@ Ultimate Summer Boat:
             store: steam
   steam:
     id: 664460
+Ultimate Theater Simulator:
+  cloud:
+    steam: true
+  files:
+    "<base>/UltimateTheaterSimulator_Data/SaveData/*.save":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/UltimateTheaterSimulator_Data/SaveData/*.save":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: ultimate-theater-simulator
+    steamExtra:
+      - 3810460
+  installDir:
+    UltimateTheaterSimulator: {}
+  launch:
+    "<base>/UltimateTheaterSimulator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1541370
 Ultimate Tic-Tac-Toe:
   cloud:
     steam: true
@@ -795654,6 +795699,11 @@ Warhammer Quest:
             store: steam
   steam:
     id: 910450
+Warhammer Survivors:
+  cloud:
+    steam: true
+  steam:
+    id: 3669620
 "Warhammer Underworlds: Online":
   gog:
     id: 1153941202
@@ -805193,6 +805243,20 @@ Who wants to strip this babe? Hentai Streamer Girl:
 "Who's Your Santa !?":
   steam:
     id: 633370
+"Who's at the door?":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/WhoDoor/Saved/SaveGames":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: whos-at-the-door
+  installDir:
+    "Who's at the door": {}
+  steam:
+    id: 3690010
 "Who's in the Box?":
   installDir:
     "Who's in the Box": {}

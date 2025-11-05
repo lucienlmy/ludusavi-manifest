@@ -12146,6 +12146,8 @@ Anima Flux:
   renamedFrom:
     - "Lost in Sky: Violent Seed"
   steam: 763180
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/AvantajPrim/AnimaFlux/prefs}}"
 "Anima Gate of Memories: I & II Remastered":
   pageId: 205151
   steam: 3592140
@@ -31485,6 +31487,8 @@ Breakout:
   steam: 955790
 Breakout (2000):
   pageId: 209428
+  templates:
+    - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\Atari\\Breakout\\Setup}}"
 Breakout Beyond:
   cloud:
     epic: true
@@ -42014,6 +42018,9 @@ Clazer:
 Clea:
   pageId: 124579
   steam: 981020
+Clean Up Earth:
+  pageId: 210529
+  steam: 3402720
 Clean VR:
   pageId: 136601
   steam: 1071090
@@ -59868,6 +59875,7 @@ Devil May Cry HD Collection:
   cloud:
     gog: true
   gog: 1351925727
+  malformed: true
   pageId: 83070
   steam: 631510
   steamSide:
@@ -85139,6 +85147,8 @@ Football Manager 2024:
     - 2687760
 Football Manager 2024 Touch:
   pageId: 195313
+Football Manager 26:
+  pageId: 210528
 Football Manager 3:
   pageId: 177480
 Football Manager Live:
@@ -132686,7 +132696,7 @@ Mad Max:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Steam/userdata/{{p|uid}}/234140/local/Backup Saves}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/feral-interactive/Mad Max/VFS/User/AppData/Roaming/WB Games/Mad Max/Backup Saves/GameSave*.sav}}"
     - "{{Game data/saves|EA app|{{p|userprofile\\Documents}}\\WB Games\\Mad Max\\Saves\\GameSave*.sav}}"
-    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\WB Games\\Mad Max\\Backup Saves\\GameSave*.sav|{{p|steam}}\\userdata\\{{p|steam}}\\234140\\remote\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\WB Games\\Mad Max\\Backup Saves\\GameSave*.sav|{{p|steam}}\\userdata\\{{p|uid}}\\234140\\remote\\}}"
 Mad Muzzles:
   pageId: 64286
   steam: 661800
@@ -148251,6 +148261,7 @@ NOCE:
   cloud:
     epic: true
     steam: true
+  gog: 1537862169
   pageId: 206238
   steam: 2757670
 NOISZ:
@@ -189577,7 +189588,6 @@ Scarf:
 "Scarface: The World Is Yours":
   lutris: scarface-the-world-is-yours
   pageId: 22057
-  steam: 4113570
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Classes\\VirtualStore\\MACHINE\\SOFTWARE\\{{p|wow64}}\\VUGames\\Scarface\\|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\VUGAMES\\Scarface\\}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
@@ -205041,6 +205051,9 @@ Spin Evolution:
   pageId: 131998
   steam: 1021240
 Spin Hero:
+  cloud:
+    steam: true
+  lutris: spin-hero
   pageId: 203146
   steam: 2917350
 Spin Master:
@@ -216700,11 +216713,15 @@ Syberia:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.microids.syberia.univ/Data/Library/Application Support/Syberia/}}"
 Syberia - Remastered:
   cloud:
+    gog: true
     steam: true
   gog: 1221479835
   lutris: syberia-remastered
   pageId: 204663
   steam: 3660220
+  templates:
+    - "{{Game data/config|Steam|{{P|localappdata}}\\Virtuallyz Gaming\\Syberia - Remastered\\SteamSaves\\settings.dat}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\Virtuallyz Gaming\\Syberia - Remastered\\SteamSaves\\{{P|uid}}\\slot_*.dat}}"
 Syberia 3:
   cloud:
     gog: true
@@ -247743,6 +247760,14 @@ Ultimate Sudoku Collection:
 Ultimate Summer Boat:
   pageId: 66484
   steam: 664460
+Ultimate Theater Simulator:
+  cloud:
+    steam: true
+  lutris: ultimate-theater-simulator
+  pageId: 210536
+  steam: 1541370
+  steamSide:
+    - 3810460
 Ultimate Tic-Tac-Toe:
   cloud:
     steam: true
@@ -256754,6 +256779,11 @@ Warhammer Quest:
   gog: 1219832871
   pageId: 124366
   steam: 910450
+Warhammer Survivors:
+  cloud:
+    steam: true
+  pageId: 210540
+  steam: 3669620
 "Warhammer Underworlds: Online":
   gog: 1153941202
   pageId: 135726
@@ -259799,6 +259829,12 @@ Who wants to strip this babe? Hentai Streamer Girl:
   renamedFrom:
     - "Who's your Santa !?"
   steam: 633370
+"Who's at the door?":
+  cloud:
+    steam: true
+  lutris: whos-at-the-door
+  pageId: 210526
+  steam: 3690010
 "Who's in the Box?":
   pageId: 91098
   steam: 823710
