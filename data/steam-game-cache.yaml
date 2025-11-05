@@ -540756,6 +540756,21 @@
       workingdir: "dosbox_windows\\"
 1297570: {}
 1297900: {}
+1298080:
+  installDir: Almost My Floor Test
+  launch:
+    - config:
+        oslist: windows
+      executable: AlmostMyFloor.exe
+      type: none
+    - config:
+        oslist: linux
+      executable: Almost My Floor Linux.x86_64
+      type: none
+    - config:
+        oslist: macos
+      executable: "AlmostMyFloorMac.app\\Contents\\MacOS\\AlmostMyFloor"
+      type: none
 1298140:
   cloud:
     saves:
@@ -542181,6 +542196,7 @@
       type: none
   nameLocalized:
     schinese: 特级厨师
+1313110: {}
 1313140:
   cloud:
     saves:
@@ -573152,6 +573168,43 @@
       type: none
   nameLocalized:
     polish: Najlepszy miesiąc życia!
+1684410:
+  cloud:
+    saves:
+      - path: SealDev/Seal World
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SealDev/Seal World
+            replace: SealDev/Seal World
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: SealDev/Seal World
+            replace: ".config/unity3d/SealDev/Seal World"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: SealWorld
+  launch:
+    - config:
+        oslist: windows
+      executable: Seal World.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Contents/MacOS/Seal World
+      type: default
+    - config:
+        oslist: linux
+      executable: Seal World.x86_64
+      type: default
+  nameLocalized:
+    japanese: アザラシの世界
 1684760:
   installDir: Two Clusters Cold Haven
   launch:
@@ -600511,6 +600564,7 @@
   launch:
     - executable: RabbitSteel.exe
 2132890: {}
+2133850: {}
 2134320:
   installDir: ENA Dream BBQ
   launch:
@@ -616579,6 +616633,17 @@
         oslist: windows
       executable: Texnoplazm.exe
       type: default
+2528110:
+  installDir: Baseball Club
+  launch:
+    - config:
+        oslist: windows
+      executable: Baseball Club.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: BaseballClub.app
+      type: default
 2529820:
   installDir: Wedding Witch
   launch:
@@ -630235,6 +630300,19 @@
   installDir: Monster Care Simulator
   launch:
     - executable: Monster Care Simulator.exe
+3288840:
+  installDir: Carnage Battle Arena
+  launch:
+    - config:
+        oslist: windows
+      executable: Carnage Battle Arena.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Carnage Battle Arena.app
+    - config:
+        oslist: linux
+      executable: Carnage Battle Arena.x86_64
 3289090:
   installDir: Ghost Master Resurrection
   launch:
@@ -632588,6 +632666,18 @@
       type: openxr
 3561320: {}
 3561600: {}
+3563700:
+  installDir: Car Driving School Simulator
+  launch:
+    - config:
+        oslist: windows
+      executable: Car Driving School Simulator.exe
+    - config:
+        oslist: macos
+      executable: Car Driving School Simulator.app
+    - config:
+        oslist: linux
+      executable: Car Driving School Simulator.x86_64
 3564500: {}
 3564740:
   nameLocalized:
@@ -633018,6 +633108,7 @@
   nameLocalized:
     english: "KUUKIYOMI: Consider It World - Thailand Ver."
     thai: "KUUKIYOMI: Consider It World - Thailand Ver."
+3606780: {}
 3606890:
   cloud:
     saves:

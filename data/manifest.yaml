@@ -31654,6 +31654,40 @@ Almost Home Now:
             store: steam
   steam:
     id: 1994230
+Almost My Floor:
+  files:
+    "<xdgConfig>/unity3d/PotataCompany/AlmostMyFloor":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/PotataCompany/AlmostMyFloor/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: almost-my-floor
+    steamExtra:
+      - 1768890
+      - 2439080
+  installDir:
+    Almost My Floor Test: {}
+  launch:
+    "<base>/Almost My Floor Linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/AlmostMyFloor.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/AlmostMyFloorMac.app/Contents/MacOS/AlmostMyFloor":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1298080
 Almost There:
   cloud:
     steam: true
@@ -66684,6 +66718,24 @@ Base Raid:
 Base Squad 49:
   steam:
     id: 462060
+Baseball Club:
+  cloud:
+    steam: true
+  id:
+    lutris: baseball-club
+  installDir:
+    Baseball Club: {}
+  launch:
+    "<base>/Baseball Club.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/BaseballClub.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2528110
 Baseball Kings VR:
   files:
     "<base>/SavesDir/*.sav":
@@ -100510,6 +100562,8 @@ Broken Pieces:
 Broken Reality:
   gog:
     id: 1441606886
+  id:
+    lutris: broken-reality
   installDir:
     Broken Reality: {}
   launch:
@@ -100524,6 +100578,11 @@ Broken Reality:
         - save
   steam:
     id: 757480
+Broken Reality 2000:
+  id:
+    lutris: broken-reality-2000
+  steam:
+    id: 2133850
 Broken Roads:
   cloud:
     gog: true
@@ -112055,6 +112114,28 @@ Car Demolition Clicker:
           - store: steam
   steam:
     id: 705740
+Car Driving School Simulator:
+  cloud:
+    steam: true
+  id:
+    lutris: car-driving-school-simulator
+  installDir:
+    Car Driving School Simulator: {}
+  launch:
+    "<base>/Car Driving School Simulator.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Car Driving School Simulator.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Car Driving School Simulator.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3563700
 Car Jacker 2:
   files:
     "<base>/config.ini":
@@ -113621,6 +113702,26 @@ Carmen Sandiego:
           - store: steam
   steam:
     id: 2475300
+Carnage Battle Arena:
+  cloud:
+    steam: true
+  installDir:
+    Carnage Battle Arena: {}
+  launch:
+    "<base>/Carnage Battle Arena.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Carnage Battle Arena.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Carnage Battle Arena.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3288840
 Carnage Racing:
   cloud:
     steam: true
@@ -127963,6 +128064,13 @@ Chunks:
     Chunks: {}
   steam:
     id: 402800
+Chunky Jump!:
+  cloud:
+    steam: true
+  id:
+    lutris: chunky-jump
+  steam:
+    id: 3606780
 Chunky Orbits:
   installDir:
     Chunky Orbits: {}
@@ -156707,6 +156815,7 @@ Crystal Story II:
       when:
         - os: windows
   id:
+    lutris: crystal-story-ii
     steamExtra:
       - 346480
   installDir:
@@ -173739,6 +173848,8 @@ Dead Tropics:
 Dead Watch:
   cloud:
     steam: true
+  id:
+    lutris: dead-watch
   steam:
     id: 3464670
 Dead Weight:
@@ -316209,16 +316320,16 @@ Heartbeat:
   cloud:
     steam: true
   files:
-    "<base>/nwjs.app/Contents/Resources/app.nw/save/*.rpgsave":
+    "<base>/www/save":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-    "<base>/www/save/*.rpgsave":
-      when:
-        - os: windows
-          store: steam
         - os: linux
-          store: steam
+    "<base>/www/save/config.rpgsave":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     steamExtra:
       - 985110
@@ -494978,6 +495089,8 @@ Outcome:
         - save
       when:
         - os: windows
+  id:
+    lutris: outcore-desktop-adventure
   installDir:
     Outcore: {}
   launch:
@@ -564828,6 +564941,41 @@ Rift of the NecroDancer:
     steamExtra:
       - 3029150
       - 3467170
+      - 3550070
+      - 3550080
+      - 3550090
+      - 3559850
+      - 3626830
+      - 3627050
+      - 3627060
+      - 3627070
+      - 3627090
+      - 3627100
+      - 3627110
+      - 3627120
+      - 3627130
+      - 3627140
+      - 3627150
+      - 3627160
+      - 3627170
+      - 3627180
+      - 3627190
+      - 3725270
+      - 3725280
+      - 3725290
+      - 3725300
+      - 3725310
+      - 3898480
+      - 3898490
+      - 3898500
+      - 3898510
+      - 3898520
+      - 3898530
+      - 3898540
+      - 3898550
+      - 3898560
+      - 3898570
+      - 3898580
   installDir:
     RiftOfTheNecroDancerOSTVolume1: {}
   launch:
@@ -592982,6 +593130,37 @@ Seal Guardian:
             store: steam
   steam:
     id: 741620
+Seal World:
+  cloud:
+    steam: true
+  files:
+    "<xdgConfig>/unity3d/SealDev/Seal World":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/SealDev/Seal World/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
+  installDir:
+    SealWorld: {}
+  launch:
+    "<base>/Contents/MacOS/Seal World":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Seal World.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Seal World.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1684410
 Seal of Evil:
   cloud:
     gog: true
@@ -614985,6 +615164,13 @@ Sky Battles:
             store: steam
   steam:
     id: 346670
+Sky Beneath:
+  cloud:
+    steam: true
+  id:
+    lutris: sky-beneath
+  steam:
+    id: 1313110
 Sky Brawl:
   installDir:
     Sky Brawl: {}
@@ -735119,6 +735305,8 @@ The World II (Hunting BOSS):
 The World Is Drowning:
   cloud:
     steam: true
+  id:
+    lutris: the-world-is-drowning
   steam:
     id: 2539360
 "The World Is Ruled According to Sexual Prowess So I'm Playing Dirty to Get My Harem Episode 1":
@@ -805554,6 +805742,7 @@ Wife Quest:
         - os: mac
           store: steam
   id:
+    lutris: wife-quest
     steamExtra:
       - 1627460
       - 1744540

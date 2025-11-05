@@ -9986,6 +9986,18 @@ Almost Alive:
 Almost Home Now:
   pageId: 180287
   steam: 1994230
+Almost My Floor:
+  cloud:
+    xbox: true
+  lutris: almost-my-floor
+  pageId: 210551
+  steam: 1298080
+  steamSide:
+    - 1768890
+    - 2439080
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/PotataCompany/AlmostMyFloor/prefs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/PotataCompany/AlmostMyFloor}}"
 Almost There:
   cloud:
     steam: true
@@ -21225,6 +21237,12 @@ Base Raid:
 Base Squad 49:
   pageId: 43207
   steam: 462060
+Baseball Club:
+  cloud:
+    steam: true
+  lutris: baseball-club
+  pageId: 210564
+  steam: 2528110
 Baseball Kings VR:
   pageId: 87571
   steam: 802300
@@ -32178,11 +32196,16 @@ Broken Pieces:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BrokenPieces\\Saved\\SaveGames\\}}"
 Broken Reality:
   gog: 1441606886
+  lutris: broken-reality
   pageId: 78846
   steam: 757480
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Dynamic Media Triad\\The Broken Reality\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Dynamic Media Triad\\The Broken Reality\\}}"
+Broken Reality 2000:
+  lutris: broken-reality-2000
+  pageId: 210555
+  steam: 2133850
 Broken Roads:
   cloud:
     gog: true
@@ -35858,6 +35881,12 @@ Car Crash Online:
 Car Demolition Clicker:
   pageId: 73649
   steam: 705740
+Car Driving School Simulator:
+  cloud:
+    steam: true
+  lutris: car-driving-school-simulator
+  pageId: 210570
+  steam: 3563700
 Car Jacker 2:
   pageId: 203921
   templates:
@@ -36365,6 +36394,11 @@ Carmen Sandiego Returns:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
+Carnage Battle Arena:
+  cloud:
+    steam: true
+  pageId: 210567
+  steam: 3288840
 Carnage Racing:
   cloud:
     steam: true
@@ -40775,6 +40809,12 @@ Chucky:
 Chunks:
   pageId: 43648
   steam: 402800
+Chunky Jump!:
+  cloud:
+    steam: true
+  lutris: chunky-jump
+  pageId: 210550
+  steam: 3606780
 Chunky Orbits:
   pageId: 51133
   steam: 535190
@@ -49923,6 +49963,7 @@ Crystal Shard Adventure Bundle:
 Crystal Story II:
   cloud:
     steam: true
+  lutris: crystal-story-ii
   pageId: 37721
   steam: 344860
   steamSide:
@@ -55458,6 +55499,7 @@ Dead Tropics:
 Dead Watch:
   cloud:
     steam: true
+  lutris: dead-watch
   pageId: 207116
   steam: 3464670
 Dead Weight:
@@ -101386,6 +101428,9 @@ Heartbeat:
   steam: 984560
   steamSide:
     - 985110
+  templates:
+    - "{{Game data/config|Linux|{{p|game}}/www/save/config.rpgsave}}"
+    - "{{Game data/saves|Linux|{{p|game}}/www/save}}"
 Heartbound:
   pageId: 63052
   steam: 567380
@@ -159140,6 +159185,7 @@ Outcome:
 "Outcore: Desktop Adventure":
   cloud:
     steam: true
+  lutris: outcore-desktop-adventure
   pageId: 184055
   steam: 1275670
   templates:
@@ -181584,6 +181630,41 @@ Rift of the NecroDancer:
   steamSide:
     - 3029150
     - 3467170
+    - 3550070
+    - 3550080
+    - 3550090
+    - 3559850
+    - 3626830
+    - 3627050
+    - 3627060
+    - 3627070
+    - 3627090
+    - 3627100
+    - 3627110
+    - 3627120
+    - 3627130
+    - 3627140
+    - 3627150
+    - 3627160
+    - 3627170
+    - 3627180
+    - 3627190
+    - 3725270
+    - 3725280
+    - 3725290
+    - 3725300
+    - 3725310
+    - 3898480
+    - 3898490
+    - 3898500
+    - 3898510
+    - 3898520
+    - 3898530
+    - 3898540
+    - 3898550
+    - 3898560
+    - 3898570
+    - 3898580
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Brace Yourself Games\\Rift of the NecroDancer\\Saves\\}}"
 "Rift's Cave":
@@ -190631,6 +190712,14 @@ Seal Guardian:
     steam: true
   pageId: 77207
   steam: 741620
+Seal World:
+  cloud:
+    steam: true
+  pageId: 210562
+  steam: 1684410
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/SealDev/Seal World/prefs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/SealDev/Seal World}}"
 Seal of Evil:
   cloud:
     gog: true
@@ -197698,6 +197787,12 @@ Sky Ball:
 Sky Battles:
   pageId: 48389
   steam: 346670
+Sky Beneath:
+  cloud:
+    steam: true
+  lutris: sky-beneath
+  pageId: 210568
+  steam: 1313110
 Sky Brawl:
   pageId: 121243
   steam: 929450
@@ -236059,6 +236154,7 @@ The Works of Mercy:
 The World Is Drowning:
   cloud:
     steam: true
+  lutris: the-world-is-drowning
   pageId: 207120
   steam: 2539360
 "The World Is Ruled According to Sexual Prowess So I'm Playing Dirty to Get My Harem Episode 1":
@@ -259916,6 +260012,7 @@ Wienne:
 Wife Quest:
   cloud:
     steam: true
+  lutris: wife-quest
   pageId: 175538
   steam: 1554600
   steamSide:
