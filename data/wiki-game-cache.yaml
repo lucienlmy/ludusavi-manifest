@@ -14245,6 +14245,7 @@ Archery Club:
     steam: true
   lutris: archery-club
   pageId: 210517
+  steam: 2278820
 Archery Kings VR:
   pageId: 87573
   steam: 802340
@@ -19444,6 +19445,9 @@ Baba Is You:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Baba_Is_You\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Baba_Is_You}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Baba_Is_You}}"
+Babbdi:
+  pageId: 210589
+  steam: 2240530
 Babel Climbers:
   pageId: 148673
   renamedFrom:
@@ -84973,6 +84977,11 @@ Fool!:
     steam: true
   pageId: 136511
   steam: 1080250
+Foolish Mortals:
+  gog: 1432087047
+  lutris: foolish-mortals
+  pageId: 209528
+  steam: 1848440
 Foosball - Street Edition:
   pageId: 50438
   steam: 280830
@@ -120763,8 +120772,16 @@ Kingdom of Loot:
   pageId: 60766
   steam: 466220
 Kingdom of Night:
+  cloud:
+    steam: true
+  gog: 1259735298
+  gogSide:
+    - 1217761856
+  lutris: kingdom-of-night
   pageId: 139715
   steam: 1094600
+  steamSide:
+    - 1695580
 Kingdom of the Dead:
   gog: 1883002201
   pageId: 189462
@@ -182908,6 +182925,9 @@ Road to Guangdong:
 Road to Vostok:
   pageId: 205935
   steam: 1963610
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Road to Vostok}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Road to Vostok}}"
 Road to your City:
   pageId: 126356
   steam: 494050
@@ -185371,6 +185391,8 @@ Rubico:
 "Rubik's Cube VR":
   pageId: 114814
   steam: 948940
+"Rubik's Games":
+  pageId: 210575
 "Ruby & Majesty: Treasure Team":
   cloud:
     steam: true
@@ -198157,6 +198179,14 @@ Skyscraper Simulator:
     - 1705536970
   pageId: 35499
   steam: 367600
+Skystrider:
+  cloud:
+    steam: true
+  lutris: skystrider
+  pageId: 210581
+  steam: 2434450
+  steamSide:
+    - 3149410
 Skytropolis:
   cloud:
     steam: true
@@ -201586,6 +201616,8 @@ Sonic Rumble:
   lutris: sonic-rumble
   pageId: 200761
   steam: 2951690
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\SonicRumble_Data}}"
 Sonic Rush 3D:
   pageId: 204875
   templates:
@@ -211994,7 +212026,9 @@ Stupid Raft Battle Simulator:
     - 780490
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\Settings.dat|{{P|hkcu}}\\Software\\Cultic Games\\STYGIAN}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/prefs|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Settings.dat}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\SavedGames}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Profiles}}"
 "Styx: Blades of Greed":
   pageId: 202061
   steam: 3290690

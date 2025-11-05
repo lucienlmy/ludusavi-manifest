@@ -476420,7 +476420,10 @@
         oslist: linux
       executable: Helvetii.x86_64
       type: default
-1094600: {}
+1094600:
+  nameLocalized:
+    schinese: 闇夜王国
+    tchinese: 闇夜王國
 1094630:
   cloud:
     saves:
@@ -510314,7 +510317,14 @@
         oslist: windows
       executable: SwissKnife.exe
       type: default
-1166940: {}
+1166940:
+  installDir: DeadStaticDrive
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DeadStaticDrive.exe
+      type: default
 1166980:
   cloud:
     saves:
@@ -583705,6 +583715,17 @@
     schinese: 游戏开发物语 (Game Dev Story)
     tchinese: 遊戲發展國++ (Game Dev Story)
     thai: เรื่องราวคนสร้างเกม (Game Dev Story)
+1848440:
+  installDir: FoolishMortals
+  launch:
+    - config:
+        oslist: windows
+      executable: FoolishMortals.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: FoolishMortals.app
+      type: default
 1848450:
   cloud:
     saves:
@@ -605751,6 +605772,18 @@
         oslist: macos
       executable: Spilled!.app
       type: default
+2240530:
+  installDir: BABBDI
+  launch:
+    - config:
+        oslist: windows
+      executable: Babbdi.exe
+    - config:
+        oslist: linux
+      executable: BABBDI_1.2.5.x86_64
+    - config:
+        oslist: macos
+      executable: BABBDI_Mac_1.2.5.app
 2240620: {}
 2241390:
   cloud:
@@ -606926,6 +606959,17 @@
     koreana: "명말: 공허의 깃털"
     schinese: 明末：渊虚之羽
     tchinese: 明末：淵虛之羽
+2278820:
+  installDir: Archery Club
+  launch:
+    - config:
+        oslist: windows
+      executable: Archery Club.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: ArcheryClub.app
+      type: default
 2279160: {}
 2279280: {}
 2279330:
@@ -612632,6 +612676,13 @@
     - config:
         oslist: windows
       executable: KingOfSilence.exe
+      type: default
+2434450:
+  installDir: Skystrider
+  launch:
+    - config:
+        oslist: windows
+      executable: "Skystrider\\Skystrider.exe"
       type: default
 2435090:
   cloud:
@@ -625753,7 +625804,10 @@
   launch:
     - executable: LHPC.exe
       type: default
-2951690: {}
+2951690:
+  installDir: SonicRumble
+  launch:
+    - executable: GameLauncher.exe
 2952690:
   cloud:
     saves:

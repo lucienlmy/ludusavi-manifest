@@ -44920,6 +44920,19 @@ Archery Club:
     steam: true
   id:
     lutris: archery-club
+  installDir:
+    Archery Club: {}
+  launch:
+    "<base>/Archery Club.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ArcheryClub.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2278820
 Archery Kings VR:
   installDir:
     Archery Kings VR: {}
@@ -61234,6 +61247,24 @@ Baba Is You:
             store: steam
   steam:
     id: 736260
+Babbdi:
+  installDir:
+    BABBDI: {}
+  launch:
+    "<base>/BABBDI_1.2.5.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/BABBDI_Mac_1.2.5.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Babbdi.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2240530
 Babel Climbers:
   files:
     "<home>/AppData/LocalLow/Nianless Games/Babel Climbers/*.es3":
@@ -173679,6 +173710,14 @@ Dead State:
   steam:
     id: 239840
 Dead Static Drive:
+  installDir:
+    DeadStaticDrive: {}
+  launch:
+    "<base>/DeadStaticDrive.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1166940
 Dead Stop:
@@ -264396,6 +264435,24 @@ Fool!:
             store: steam
   steam:
     id: 1080250
+Foolish Mortals:
+  gog:
+    id: 1432087047
+  id:
+    lutris: foolish-mortals
+  installDir:
+    FoolishMortals: {}
+  launch:
+    "<base>/FoolishMortals.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/FoolishMortals.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1848440
 Foosball - Street Edition:
   installDir:
     Foosball Street Edition: {}
@@ -376536,6 +376593,16 @@ Kingdom of Loot:
   steam:
     id: 466220
 Kingdom of Night:
+  cloud:
+    steam: true
+  gog:
+    id: 1259735298
+  id:
+    gogExtra:
+      - 1217761856
+    lutris: kingdom-of-night
+    steamExtra:
+      - 1695580
   steam:
     id: 1094600
 Kingdom of the Dead:
@@ -568776,6 +568843,13 @@ Road to Guangdong:
   steam:
     id: 995840
 Road to Vostok:
+  files:
+    "<winAppData>/Godot/app_userdata/Road to Vostok":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   steam:
     id: 1963610
 Road to your City:
@@ -616479,6 +616553,22 @@ Skyscraper Simulator:
             store: steam
   steam:
     id: 367600
+Skystrider:
+  cloud:
+    steam: true
+  id:
+    lutris: skystrider
+    steamExtra:
+      - 3149410
+  installDir:
+    Skystrider: {}
+  launch:
+    "<base>/Skystrider/Skystrider.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2434450
 Skytropolis:
   cloud:
     steam: true
@@ -627669,8 +627759,20 @@ Sonic Robo Blast 2 Kart:
   id:
     lutris: sonic-robo-blast-2-kart
 Sonic Rumble:
+  files:
+    "<base>/SonicRumble_Data":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: sonic-rumble
+  installDir:
+    SonicRumble: {}
+  launch:
+    "<base>/GameLauncher.exe":
+      - when:
+          - store: steam
   steam:
     id: 2951690
 Sonic Rush 3D:
@@ -659846,6 +659948,21 @@ Stupid Raft Battle Simulator:
   cloud:
     gog: true
   files:
+    "<home>/.config/unity3d/Cultic Games/STYGIAN/Profiles":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Cultic Games/STYGIAN/Settings.dat":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Cultic Games/STYGIAN/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/Cultic Games/STYGIAN/SavedGames":
       tags:
         - save
