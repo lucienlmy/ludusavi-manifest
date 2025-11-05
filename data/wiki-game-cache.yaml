@@ -67420,7 +67420,7 @@ Dune Sea:
   steamSide:
     - 3596810
   templates:
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Config\\WindowsClient\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Config\\WindowsClient\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Cloud\\}}"
 "Dune: Imperium":
   pageId: 193738
@@ -106494,6 +106494,9 @@ Homing Shapes:
 Homo Flimsy:
   pageId: 99926
   steam: 876270
+Homura Hime:
+  pageId: 210599
+  steam: 3201470
 Honey Comb Home:
   pageId: 127233
   steam: 1020810
@@ -186532,6 +186535,9 @@ Rymdkapsel:
     - "{{Game data/saves|Windows|{{p|appdata}}\\grapefrukt games\\rymdkapsel\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/rymdkapsel/}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/com.grapefrukt.games.rymdkapsel1/}}"
+Ryne-Arca:
+  pageId: 210597
+  steam: 3720440
 "Rynn's Adventure: Trouble in the Enchanted Forest":
   pageId: 34843
   steam: 420500
@@ -199659,6 +199665,7 @@ Sniper Elite:
 Sniper Elite 4:
   cloud:
     steam: true
+  lutris: sniper-elite-4
   pageId: 31703
   steam: 312660
   templates:
@@ -205682,6 +205689,12 @@ Splitter Critters:
     steam: true
   pageId: 81749
   steam: 473780
+Splittown:
+  cloud:
+    steam: true
+  lutris: splittown
+  pageId: 210595
+  steam: 2117400
 Splodey:
   cloud:
     steam: true
@@ -238061,8 +238074,7 @@ Timberborn:
   steamSide:
     - 1237620
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\Saves}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\ExperimentalSaves{{note|Only used for the Experimental branch of the game.}}}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\Saves|{{P|userprofile\\Documents}}\\Timberborn\\ExperimentalSaves{{note|Only used for the Experimental branch of the game.}}}}"
 Timberman:
   cloud:
     steam: true
@@ -252806,6 +252818,10 @@ Video Blogger Story:
   renamedFrom:
     - Video blogger Story
   steam: 470600
+Video Game:
+  lutris: video-game
+  pageId: 210590
+  steam: 924310
 Video Game Trivia:
   pageId: 185778
   steam: 2182910

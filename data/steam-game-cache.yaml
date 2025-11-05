@@ -22624,6 +22624,13 @@
       description: Launch with Console
       executable: insurgency.sh
       type: none
+    - arguments: "-console -crashinprocess"
+      config:
+        betakey: battleye
+        oslist: windows
+      description: Launch with Console
+      executable: insurgency.exe
+      workingdir: bin
 222900:
   installDir: Dead Island Epidemic
   launch:
@@ -512918,6 +512925,13 @@
         oslist: windows
       executable: "Launcher\\FuncomLauncher.exe"
       type: default
+    - arguments: "-fls=dev"
+      config:
+        betakey: playtest
+        osarch: "64"
+        oslist: windows
+      executable: DuneSandbox-Win64-Test.exe
+      type: default
     - config:
         betakey: "staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test\t"
         osarch: "64"
@@ -599891,6 +599905,41 @@
   launch:
     - executable: Test_C.exe
 2117160: {}
+2117400:
+  cloud:
+    saves:
+      - path: All Seeing Eye/Splittown/Savegames
+        pattern: "*.dat"
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: All Seeing Eye/Splittown/Savegames
+            replace: All Seeing Eye/Splittown/Savegames
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: All Seeing Eye/Splittown/Savegames
+            replace: ".local/share/All Seeing Eye/Splittown/Savegames"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Splittown
+  launch:
+    - config:
+        oslist: windows
+      executable: Splittown.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Splittown.app
+      type: default
+    - config:
+        oslist: linux
+      executable: start
+      type: default
 2117440:
   installDir: Lollypop
   launch:
@@ -629444,6 +629493,20 @@
         oslist: windows
       executable: sab_ship.exe
       type: default
+3201470:
+  cloud:
+    saves:
+      - path: CrimsonDusk/HomuraHime
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Homura Hime Demo
+  launch:
+    - executable: HomuraHime.exe
+  nameLocalized:
+    japanese: 炎姫 体験版
+    schinese: 炎姬 体验版
+    tchinese: 炎姬 體驗版
 3203170: {}
 3204020:
   cloud:
@@ -633691,6 +633754,7 @@
 3710600: {}
 3710840: {}
 3717830: {}
+3720440: {}
 3720530: {}
 3726250:
   installDir: My Little Cafe Nightmare

@@ -211329,7 +211329,7 @@ Dune Sea:
         - os: windows
     "<winLocalAppData>/DuneSandbox/Saved/Config/WindowsClient":
       tags:
-        - save
+        - config
       when:
         - os: windows
   id:
@@ -332308,6 +332308,19 @@ Homo Flimsy:
             store: steam
   steam:
     id: 876270
+Homura Hime:
+  files:
+    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime/**/*.*":
+      when:
+        - store: steam
+  installDir:
+    Homura Hime Demo: {}
+  launch:
+    "<base>/HomuraHime.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3201470
 Honey Comb Home:
   steam:
     id: 1020810
@@ -580208,6 +580221,9 @@ Rymdkapsel:
             store: steam
   steam:
     id: 253790
+Ryne-Arca:
+  steam:
+    id: 3720440
 "Rynn's Adventure: Trouble in the Enchanted Forest":
   files:
     "<home>/AppData/LocalLow/Arcane Four Studios/Rynn_s Adventure/*.dat":
@@ -621755,6 +621771,8 @@ Sniper Elite 4:
         - save
       when:
         - os: windows
+  id:
+    lutris: sniper-elite-4
   installDir:
     Sniper Elite 4: {}
   launch:
@@ -640345,6 +640363,40 @@ Splitter Critters:
             store: steam
   steam:
     id: 473780
+Splittown:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/All Seeing Eye/Splittown/Savegames/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/All Seeing Eye/Splittown/Savegames/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/All Seeing Eye/Splittown/Savegames/*.dat":
+      when:
+        - store: steam
+  id:
+    lutris: splittown
+  installDir:
+    Splittown: {}
+  launch:
+    "<base>/Splittown.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Splittown.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/start":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2117400
 Splodey:
   cloud:
     steam: true
@@ -784174,6 +784226,20 @@ Vidar:
 Video Blogger Story:
   steam:
     id: 470600
+Video Game:
+  id:
+    lutris: video-game
+  installDir:
+    VIDEO GAME: {}
+  launch:
+    "<base>/VIDEO GAME.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: mac
+            store: steam
+  steam:
+    id: 924310
 Video Game Trivia:
   installDir:
     Video Game Trivia: {}
