@@ -768099,6 +768099,9 @@ USAGIRI:
             store: steam
   steam:
     id: 1574870
+USS Darkstar:
+  id:
+    lutris: uss-darkstar
 USSR 2021:
   steam:
     id: 645210

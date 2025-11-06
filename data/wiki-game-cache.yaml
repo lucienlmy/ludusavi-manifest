@@ -247396,6 +247396,7 @@ USAGIRI:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Angry Cat Studios\\USC Counterforce\\}}"
 USS Darkstar:
+  lutris: uss-darkstar
   pageId: 206183
 USSR 2021:
   pageId: 132739
