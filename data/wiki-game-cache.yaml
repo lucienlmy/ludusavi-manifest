@@ -64983,7 +64983,7 @@ Dragon Quest I & II HD-2D Remake:
   pageId: 202896
   steam: 2893570
   templates:
-    - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST I and II HD-2D Remake\\Steam\\{{p|uid}}\\Capture*.sav|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST I and II HD-2D Remake\\Steam\\{{p|uid}}\\*SaveData*.sav|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST I and II HD-2D Remake\\Steam\\{{p|uid}}\\SystemData_0.sav}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST I and II HD-2D Remake\\Steam\\{{p|uid}}\\SaveGames}}"
 Dragon Quest III HD-2D Remake:
   cloud:
     steam: true
@@ -134474,6 +134474,14 @@ Mall Mayhem:
     steam: true
   pageId: 73446
   steam: 629400
+Mall Simulator:
+  cloud:
+    steam: true
+  lutris: mall-simulator
+  pageId: 210609
+  steam: 3180150
+  steamSide:
+    - 3582710
 Mall Town:
   pageId: 139025
   steam: 875160
@@ -142981,6 +142989,7 @@ Monster Hunter Stories:
 Monster Hunter Wilds:
   cloud:
     steam: true
+  lutris: monster-hunter-wilds
   pageId: 191636
   steam: 2246340
   templates:
@@ -150879,6 +150888,9 @@ Neverball:
 Neverdark:
   pageId: 130718
   steam: 1036430
+Neverending AI Storybook:
+  pageId: 210602
+  steam: 3554810
 Neverending Nightmares:
   cloud:
     steam: true
@@ -194438,6 +194450,10 @@ Shift 87:
   lutris: shift-87
   pageId: 210419
   steam: 2981650
+Shift At Midnight:
+  lutris: shift-at-midnight
+  pageId: 210611
+  steam: 3722330
 Shift Happens:
   cloud:
     steam: true
@@ -212040,7 +212056,7 @@ Stupid Raft Battle Simulator:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\Settings.dat|{{P|hkcu}}\\Software\\Cultic Games\\STYGIAN}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/prefs|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Settings.dat}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\SavedGames}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\SavedGames|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\Profiles}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Profiles}}"
 "Styx: Blades of Greed":
   pageId: 202061
@@ -252822,6 +252838,8 @@ Video Game:
   lutris: video-game
   pageId: 210590
   steam: 924310
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\VIDEO_GAME\\Save.ini}}"
 Video Game Trivia:
   pageId: 185778
   steam: 2182910

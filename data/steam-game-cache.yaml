@@ -606031,6 +606031,8 @@
         oslist: windows
       executable: MonsterHunterWilds.exe
       type: default
+  nameLocalized:
+    japanese: モンスターハンターワイルズ
 2246470:
   cloud:
     saves:
@@ -629241,6 +629243,17 @@
       type: default
   nameLocalized:
     schinese: 寻找伪人
+3180150:
+  cloud:
+    saves:
+      - path: "\\F13 Games\\Mall Simulator\\Data"
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Mall Simulator
+  launch:
+    - executable: Mall Simulator.exe
 3180240:
   cloud:
     saves:
@@ -632682,6 +632695,11 @@
       description: Tennis Manager 25 (Vulkan - Experimental)
       executable: Tennis Manager 25.exe
       type: option3
+3554810:
+  installDir: NeverendingAIstorybook
+  launch:
+    - description: Main Binary
+      executable: NeverendingAIstorybook.exe
 3554930:
   installDir: The Bright Path
   launch:
@@ -633756,6 +633774,7 @@
 3717830: {}
 3720440: {}
 3720530: {}
+3722330: {}
 3726250:
   installDir: My Little Cafe Nightmare
   launch:
