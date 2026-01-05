@@ -26751,7 +26751,6 @@
 * [The Grand Canyon VR Experience](https://www.pcgamingwiki.com/wiki/?curid=46120)
 * [The Grand Heist](https://www.pcgamingwiki.com/wiki/?curid=142283)
 * [The Grand Museum VR](https://www.pcgamingwiki.com/wiki/?curid=103213)
-* [The Grandfather](https://www.pcgamingwiki.com/wiki/?curid=43217)
 * [The Grave Digger](https://www.pcgamingwiki.com/wiki/?curid=48064)
 * [The Graveyard](https://www.pcgamingwiki.com/wiki/?curid=41311)
 * [The Great Art Race](https://www.pcgamingwiki.com/wiki/?curid=56212)

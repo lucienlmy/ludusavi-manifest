@@ -620019,6 +620019,44 @@
         oslist: linux
       executable: GoForaPunch.sh
       type: default
+2575370:
+  cloud:
+    saves:
+      - path: CrashableStudios/Wildwood Down/
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: CrashableStudios/Wildwood Down/
+        pattern: "*.jpg"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: CrashableStudios/Wildwood Down/
+            replace: CrashableStudios/Wildwood Down/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: CrashableStudios/Wildwood Down/
+            replace: ".config/unity3d/CrashableStudios/Wildwood Down/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Wildwood Down
+  launch:
+    - config:
+        oslist: windows
+      executable: Wildwood Down.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Wildwood Down Mac.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Wildwood Down.exe
+      type: default
 2575900:
   cloud:
     saves:
@@ -634806,6 +634844,7 @@
       type: default
   nameLocalized:
     japanese: リアルバウト餓狼伝説2 ～THE NEWCOMERS～
+3360280: {}
 3360780:
   cloud:
     saves:
@@ -638230,6 +638269,10 @@
 3720440: {}
 3720530: {}
 3722330: {}
+3722600:
+  installDir: Classroom 9-B
+  launch:
+    - executable: Last Term.exe
 3726250:
   installDir: My Little Cafe Nightmare
   launch:

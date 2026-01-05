@@ -200810,12 +200810,6 @@ Doom (1993):
     gog: true
     steam: true
   files:
-    "<base>/DOOMDATA":
-      tags:
-        - config
-        - save
-      when:
-        - os: dos
     "<base>/Ultimate Doom for Windows 95":
       tags:
         - config
@@ -390392,6 +390386,17 @@ Last Survivor:
 Last Tale:
   steam:
     id: 608560
+Last Term:
+  id:
+    lutris: last-term
+  installDir:
+    Classroom 9-B: {}
+  launch:
+    "<base>/Last Term.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3722600
 Last Tide:
   files:
     "<winLocalAppData>/DR/Saved/Config/WindowsNoEditor":
@@ -651796,6 +651801,11 @@ Star Wars Outlaws:
         - save
       when:
         - os: windows
+    "<base>/cloudsaves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - store: steam
     "<base>/swkotor2.ini":
       tags:
         - config
@@ -678853,6 +678863,9 @@ Sushido vs. Zombies:
 Suspended Workshops:
   steam:
     id: 602660
+Suspicious Holes:
+  steam:
+    id: 3360280
 Suspicious Slide:
   installDir:
     Suspicious Slide: {}
@@ -713299,23 +713312,6 @@ The Grand Museum VR:
     The Grand Museum VR: {}
   steam:
     id: 896240
-The Grandfather:
-  id:
-    steamExtra:
-      - 466960
-  installDir:
-    The Grandfather: {}
-  launch:
-    "<base>/The Grandfather Mac.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/The Grandfather.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 433750
 The Grandmaster:
   cloud:
     steam: true
@@ -714967,6 +714963,8 @@ The HinterLands:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-history-channel-battle-for-the-pacific
   installDir:
     History Channel Battle for the Pacific: {}
   launch:
@@ -814208,6 +814206,52 @@ Wildmender:
             store: steam
   steam:
     id: 1599330
+Wildwood Down:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/CrashableStudios/Wildwood Down/*.jpg":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/CrashableStudios/Wildwood Down/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/CrashableStudios/Wildwood Down/*.jpg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CrashableStudios/Wildwood Down/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/CrashableStudios/Wildwood Down/*.jpg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CrashableStudios/Wildwood Down/*.save":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: wildwood-down
+    steamExtra:
+      - 2699080
+      - 3886740
+  installDir:
+    Wildwood Down: {}
+  launch:
+    "<base>/Wildwood Down Mac.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Wildwood Down.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 2575370
 "Will Fight for Food: Super Actual Sellout: Game of the Hour":
   cloud:
     steam: true
