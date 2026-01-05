@@ -1974,6 +1974,7 @@ $1 Ride:
   pageId: 87361
   steam: 806580
 7th Legion:
+  state: outdated
   gog: 1207660773
   pageId: 15356
   steam: 327910
@@ -20486,7 +20487,6 @@ Baldr Sky:
     - "{{Game data/config|Windows|{{p|game}}\\baldur.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Baldur's Gate 3":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -28991,7 +28991,6 @@ Bloodsports.TV:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\bscotm2gd*}}"
 "Bloodstained: Ritual of the Night":
-  state: outdated
   cloud:
     gog: true
     origin: true
@@ -51992,6 +51991,7 @@ Cyberia:
     - "{{Game data/config|DOS|{{P|game}}\\JOY.DEF}}"
     - "{{Game data/saves|DOS|{{P|game}}\\*.LOG}}"
 "Cyberia 2: Resurrection":
+  state: outdated
   cloud:
     gog: true
   gog: 1430388542
@@ -56078,6 +56078,7 @@ Dead Seater:
   pageId: 200630
   steam: 1570080
 Dead Secret:
+  lutris: dead-secret
   pageId: 43939
   steam: 402260
   templates:
@@ -110878,6 +110879,7 @@ I Wanna Be the Cat:
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\IWannaBeTheCat\\}}"
 I Wanna Be the Guy:
+  state: outdated
   pageId: 164183
   renamedFrom:
     - I Wanna Be The Guy
@@ -158568,7 +158570,6 @@ One Final Chaos:
   pageId: 45966
   steam: 409610
 One Finger Death Punch:
-  state: outdated
   lutris: one-finger-death-punch
   pageId: 15990
   steam: 264200
@@ -162604,6 +162605,7 @@ Pain-to-win:
   pageId: 82209
   steam: 727690
 Painkiller:
+  state: outdated
   cloud:
     gog: true
   gog: 1207658715
@@ -182617,7 +182619,6 @@ Return to Cube Planet:
   pageId: 136562
   steam: 1083330
 Return to Dark Castle:
-  state: outdated
   cloud:
     steam: true
   pageId: 212578
@@ -196190,7 +196191,6 @@ Shatterline:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Shatterline\\2961AB5C4C274EAB9B13CCC6A9306D6A}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Shatterline\\}}"
 Shaun White Skateboarding:
-  state: outdated
   cloud:
     uplay: true
   pageId: 160759
@@ -203137,6 +203137,7 @@ Solitaire (Sanuk Games):
   pageId: 72599
   steam: 539300
 Solitaire (XP):
+  state: outdated
   malformed: true
   pageId: 166480
 Solitaire (baKno Games):
@@ -203975,7 +203976,6 @@ Sonic Robo Blast 2:
     - "{{Game data/saves|Windows|{{p|game}}\\gamedata.dat}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb/gamedata.dat}}"
 Sonic Robo Blast 2 Kart:
-  state: outdated
   lutris: sonic-robo-blast-2-kart
   pageId: 171307
   templates:
@@ -230763,7 +230763,6 @@ The Inverse:
   pageId: 202814
   steam: 2263780
 The Invincible:
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -236445,6 +236444,7 @@ The Sims 2:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA Games\\The Sims 2\\|{{p|userprofile\\Documents}}\\EA Games\\The Sims™ 2 Ultimate Collection\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Aspyr/The Sims 2|~/Library/Containers/com.aspyr.sims2.appstore/Data/Library/Application Support/Aspyr/The Sims 2 ''(Mac App Store version)''<ref>{{Refurl|url=https://support.aspyr.com/hc/en-us/articles/360056571831-How-to-find-my-Saves-and-Game-Folder|title=How to find my Saves and Game Folder - Aspyr|date=May 2023}}</ref>}}"
 The Sims 2 Legacy Collection:
+  state: outdated
   lutris: the-simstm-2-legacy-collection
   malformed: true
   pageId: 206788
@@ -250168,7 +250168,6 @@ UEFA Euro 2004:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\UEFA EURO 2004\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\UEFA EURO 2004\\}}"
 UEFA Euro 2008:
-  state: outdated
   pageId: 89186
 UEFA Euro 96:
   pageId: 89741
@@ -261023,6 +261022,7 @@ Waterloo:
   pageId: 149172
   steam: 1157860
 Waterpark Simulator:
+  state: outdated
   cloud:
     steam: true
   pageId: 209161

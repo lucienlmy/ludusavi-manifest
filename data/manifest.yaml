@@ -175133,6 +175133,8 @@ Dead Secret:
         - save
       when:
         - os: windows
+  id:
+    lutris: dead-secret
   installDir:
     Dead Secret: {}
   launch:
