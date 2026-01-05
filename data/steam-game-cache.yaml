@@ -537040,13 +537040,6 @@
       executable: PAYDAY3Client.exe
       type: option1
     - config:
-        betakey: milestone_2023_feb
-        osarch: "64"
-        oslist: windows
-      description: old Game version
-      executable: PAYDAY3.exe
-      type: option2
-    - config:
         betakey: ue5_test
         osarch: "64"
         oslist: windows
@@ -537059,63 +537052,13 @@
         oslist: windows
       description: Play Playtest
       executable: PAYDAY3.exe
-    - arguments: "-matchmakinggroup 1994 "
-      config:
-        betakey: koch_dev_build
+    - config:
+        betakey: qa_testing_3
         osarch: "64"
         oslist: windows
-      description: Play for Koch Media
+      description: Use this option
       executable: PAYDAY3.exe
-      type: option3
-    - config:
-        betakey: milestone_2023_march
-        osarch: "64"
-        oslist: windows
-      description: Partners_old
-      executable: ShooterGame.exe
-      type: default
-    - config:
-        betakey: milestone_2023_feb
-        osarch: "64"
-        oslist: windows
-      description: Partners_old
-      executable: ShooterGame.exe
-      type: default
-    - config:
-        betakey: milestone_2022_december
-        osarch: "64"
-        oslist: windows
-      description: Partners_old
-      executable: ShooterGame.exe
-      type: default
-    - config:
-        betakey: plaion_stable
-        osarch: "64"
-        oslist: windows
-      description: Partners_old
-      executable: ShooterGame.exe
-      type: default
-    - config:
-        betakey: milestone_2023_may
-        osarch: "64"
-        oslist: windows
-      description: old Game version
-      executable: PAYDAY3.exe
-      type: option2
-    - config:
-        betakey: milestone_2023_march
-        osarch: "64"
-        oslist: windows
-      description: old Game version
-      executable: PAYDAY3.exe
-      type: option2
-    - config:
-        betakey: milestone_2023_feb_exclusive
-        osarch: "64"
-        oslist: windows
-      description: old Game version
-      executable: PAYDAY3.exe
-      type: option2
+      type: option1
   nameLocalized:
     schinese: "PAYDAY3 (收获日3)  "
 1272110:
@@ -605818,6 +605761,10 @@
       config:
         betakey: carnival_anim
       executable: Carnival.exe
+    - config:
+        betakey: "carnival_vr_dev_1,carnival_vr_dev_2,carnival_vr_dev_3,carnival_vr_dev_4,carnival_vr_dev_5,carnival_vr_dev_6,carnival_vr_dev_7,carnival_vr_development,carnival_vr_shipping,carnival_dev_vr_development,carnival_dev_vr_shipping"
+      executable: FNAF_SOTM.exe
+      type: vr
 2215430:
   cloud:
     saves:
@@ -632241,6 +632188,7 @@
   installDir: Hydroponics Farm and Store Simulator
   launch:
     - executable: Hydroponics Farm and Store Simulator.exe
+3152710: {}
 3153020:
   cloud:
     saves:

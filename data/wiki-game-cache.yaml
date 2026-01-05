@@ -4464,6 +4464,7 @@ ARC:
   pageId: 144459
   steam: 1124550
 ARC Raiders:
+  state: outdated
   pageId: 173630
   steam: 1808500
   templates:
@@ -4890,6 +4891,7 @@ Aberoth:
   pageId: 121415
   steam: 794830
 Abiotic Factor:
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -8144,6 +8146,7 @@ Air Raid Over Britain:
   pageId: 88824
   steam: 812460
 "Air Raid: This Is Not a Drill":
+  state: outdated
   pageId: 212593
 Air Tactical:
   pageId: 71686
@@ -9264,7 +9267,6 @@ Alice in Wonderland - Hidden Objects:
   pageId: 51559
   steam: 523160
 "Alice: Madness Returns":
-  state: outdated
   cloud:
     origin: true
   lutris: alice-madness-returns
@@ -9735,6 +9737,7 @@ Aliens in the Yard:
   pageId: 64596
   steam: 648190
 Aliens versus Predator:
+  state: outdated
   gog: 1207665883
   lutris: aliens-versus-predator-classic-2000
   pageId: 8248
@@ -11077,6 +11080,7 @@ American Civil War - The Blue and the Gray:
     - "{{Game data/config|Windows|{{p|game}}\\settings.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\DATA\\saved_games}}"
 American Conquest:
+  state: outdated
   gog: 1207662803
   gogSide:
     - 1207659004
@@ -11598,6 +11602,7 @@ Ana The Game:
   pageId: 90228
   steam: 811090
 Anachronox:
+  state: outdated
   gog: 1207659012
   lutris: anachronox
   pageId: 2981
@@ -16460,15 +16465,6 @@ Assassin 2015:
     - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\625\\|{{p|uplay}}\\savegames\\{{p|uid}}\\632\\}}"
 "Assassin's Creed: Pirates":
   pageId: 69296
-"Assassin's Creed: Revelations":
-  cloud:
-    uplay: true
-  lutris: assassins-creed-revelations
-  pageId: 223
-  steam: 201870
-  templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Revelations\\ACRevelations.ini}}"
-    - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\40\\|{{p|LOCALAPPDATA}}\\Ubisoft Game Launcher\\savegame_storage\\{{p|uid}}\\40\\}}"
 Assassination Box:
   cloud:
     steam: true
@@ -16587,6 +16583,7 @@ Asset Flip Tycoon Simulator:
   pageId: 156768
   steam: 1205370
 Assetto Corsa:
+  state: outdated
   lutris: assetto-corsa
   pageId: 12223
   steam: 244210
@@ -16604,13 +16601,6 @@ Assetto Corsa EVO:
   lutris: assetto-corsa-evo
   pageId: 196569
   steam: 3058630
-Assetto Corsa Rally:
-  lutris: assetto-corsa-rally
-  pageId: 209751
-  steam: 3917090
-  templates:
-    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\Local\\acr\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\acr\\Saved\\SaveGames\\PlayerDataSaveSlot.sav}}"
 "Astalon: Tears of the Earth":
   cloud:
     gog: true
@@ -20503,6 +20493,7 @@ Baldr Sky:
     - "{{Game data/config|Windows|{{p|game}}\\baldur.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Baldur's Gate 3":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -21223,6 +21214,7 @@ Barbie Explorer:
   lutris: barbie-explorer
   pageId: 170618
 Barbie Fashion Designer:
+  state: outdated
   lutris: barbie-fashion-designer
   pageId: 170638
 "Barbie Horse Adventures: Mystery Ride":
@@ -21335,6 +21327,7 @@ Barn Finders:
   pageId: 141332
   steam: 1052210
 Barnyard:
+  state: outdated
   lutris: barnyard
   pageId: 155236
   templates:
@@ -23373,6 +23366,7 @@ Beam Breakers:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 BeamNG.drive:
+  state: outdated
   cloud:
     steam: true
   lutris: beamngdrive
@@ -24534,6 +24528,7 @@ BellyBots:
   pageId: 42053
   steam: 493100
 Belonging:
+  state: outdated
   pageId: 212595
   steam: 2081580
 Below:
@@ -25684,6 +25679,7 @@ Bikerz:
   pageId: 140789
   steam: 1092580
 "Bikini Beach: Stunt Racer":
+  state: outdated
   pageId: 88302
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Common\\savegame.usr}}"
@@ -25869,6 +25865,7 @@ BioMech:
   pageId: 144727
   steam: 1139130
 BioShock:
+  state: outdated
   cloud:
     gog: true
   gog: 1269268081
@@ -25909,6 +25906,7 @@ BioShock 2 Remastered:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\BioshockHD\\Bioshock2\\SaveGames\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|userprofile\\Documents}}\\My Games\\Bioshock Epic HD\\Bioshock2\\{{p|uid}}\\SaveGames\\}}"
 BioShock Infinite:
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -26671,6 +26669,7 @@ Black Legend:
   steamSide:
     - 1567150
 Black Mesa:
+  state: outdated
   cloud:
     steam: true
   pageId: 24761
@@ -29007,6 +29006,7 @@ Bloodsports.TV:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\bscotm2gd*}}"
 "Bloodstained: Ritual of the Night":
+  state: outdated
   cloud:
     gog: true
     origin: true
@@ -30571,6 +30571,7 @@ Borderlands:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Borderlands\\WillowGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Borderlands\\SaveData\\}}"
 Borderlands 2:
+  state: outdated
   cloud:
     epic: true
     steam: true
@@ -30677,6 +30678,7 @@ Borderlands 4:
     - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\My Games\\Borderlands 4\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\documents}}\\My Games\\Borderlands 4\\Saved\\SaveGames\\{{P|uid}}\\}}"
 "Borderlands: Game of the Year Enhanced":
+  state: outdated
   cloud:
     steam: true
   lutris: borderlands-goty-enhanced
@@ -34218,6 +34220,7 @@ Butterfly Dream Shadow:
   pageId: 126288
   steam: 856060
 Butterfly Moment:
+  state: outdated
   pageId: 70491
   steam: 711530
 Butterfly Soup:
@@ -34984,6 +34987,7 @@ Caesar II:
     - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
     - "{{Game data/saves|Mac OS|{{p|game}}\\*.sav}}"
 Caesar III:
+  state: outdated
   gog: 1207658835
   lutris: caesar-iii
   pageId: 5922
@@ -35272,6 +35276,7 @@ Call of Duty 2:
     - "{{Game data/config|Windows|{{p|game}}\\main\\players\\{{p|uid}}\\*.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\main\\players\\}}"
 "Call of Duty 4: Modern Warfare":
+  state: outdated
   lutris: call-of-duty-4-modern-warfare
   pageId: 912
   steam: 7940
@@ -35365,6 +35370,7 @@ Call of Duty 2:
     - "{{Game data/config|Windows|{{P|game}}\\players\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\players\\}}"
 "Call of Duty: Ghosts":
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -35413,6 +35419,7 @@ Call of Duty 2:
     - "{{Game data/config|Windows|{{p|game}}\\players\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\players\\save\\|{{p|game}}\\players\\settings_c.zip.iw4|{{p|game}}\\players\\settings_s.zip.iw4}}"
 "Call of Duty: Modern Warfare 2 Campaign Remastered":
+  state: outdated
   lutris: call-of-duty-modern-warfare-2-campaign-remastered
   pageId: 158844
   templates:
@@ -35567,7 +35574,6 @@ Call of the Ocean:
   pageId: 77608
   steam: 630670
 Call of the Sea:
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -35665,6 +35671,7 @@ Callisto:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Super_Callys_World_Steam}}"
 "Cally's Trials":
+  state: outdated
   cloud:
     steam: true
   pageId: 33802
@@ -37197,6 +37204,7 @@ Cartoon Hero:
   pageId: 78651
   steam: 772190
 Cartoon Jukebox:
+  state: outdated
   lutris: cartoon-jukebox
   pageId: 197700
 Cartoon Kreedz:
@@ -39488,6 +39496,7 @@ Chase:
   pageId: 108502
   steam: 867390
 Chaser:
+  state: outdated
   gog: 1207658894
   lutris: chaser
   pageId: 14593
@@ -43677,6 +43686,7 @@ Code Tracer:
   pageId: 148970
   steam: 1155390
 Code Vein:
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -43782,7 +43792,6 @@ Codename Silver:
     - "{{Game data/config|DOS|{{p|game}}\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
 "Codename: Outbreak":
-  state: outdated
   gog: 1434357748
   lutris: venom-codename-outbreak
   pageId: 58083
@@ -45156,6 +45165,16 @@ Command & Conquer Remastered Collection:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\ra2.ini|{{p|game}}\\ra2md.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
+"Command & Conquer: Red Alert 3":
+  cloud:
+    origin: true
+    steam: true
+  lutris: command-and-conquer-red-alert-3
+  pageId: 3140
+  steam: 17480
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Red Alert 3\\Profiles\\{{p|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Red Alert 3\\Profiles\\{{p|uid}}\\|{{p|userprofile}}\\Saved Games\\Red Alert 3\\}}"
 "Command & Conquer: Red Alert 3 - Uprising":
   cloud:
     steam: true
@@ -46520,6 +46539,7 @@ Contrasted:
   pageId: 92279
   steam: 803960
 Control:
+  state: outdated
   cloud:
     epic: true
     gog: true
@@ -48084,6 +48104,7 @@ Crash And Burn Racing:
 Crash Bandicoot:
   pageId: 194879
 "Crash Bandicoot 4: It's About Time":
+  state: outdated
   cloud:
     steam: true
   pageId: 166524
@@ -48193,14 +48214,6 @@ Crashday:
   pageId: 57603
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\savegame\\}}"
-Crashday Redline Edition:
-  cloud:
-    steam: true
-  pageId: 65390
-  steam: 508980
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Crashday\\config\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Crashday\\}}"
 Crashdrive 3D:
   pageId: 169902
 Crashed Lander:
@@ -48614,11 +48627,6 @@ Crazy Stone Deep Learning -The First Edition-:
 Crazy Tank:
   pageId: 121363
   steam: 946290
-Crazy Taxi:
-  pageId: 57938
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\taxi.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\CRAZYTAXI_DC\\}}"
 Crazy Taxi (2011):
   lutris: crazy-taxi
   pageId: 166397
@@ -49642,6 +49650,7 @@ CrossCells:
     - "{{Game data/saves|Windows|{{P|game}}\\saves\\slot*.save}}"
     - "{{Game data/saves|Linux|{{P|game}}/saves/slot*.save}}"
 CrossCode:
+  state: outdated
   cloud:
     discord: true
     gog: true
@@ -56141,7 +56150,6 @@ Dead Space (2023):
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Dead Space (2023)\\settings\\steam}}"
     - "{{Game data/saves|EA app|{{p|userprofile\\Documents}}\\Dead Space (2023)\\settings\\}}"
 Dead Space 2:
-  state: outdated
   cloud:
     origin: true
   lutris: dead-space-2
@@ -60968,6 +60976,7 @@ DiRT Rally:
     - "{{Game data/saves|Windows|{{p|game}}\\Profile\\Player\\Saves}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\310560\\}}"
 DiRT Rally 2.0:
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -70109,6 +70118,7 @@ Dystopian Nights:
     - The Architect (2019)
   steam: 973320
 Dystopika:
+  state: outdated
   cloud:
     steam: true
   gog: 1174160330
@@ -75996,6 +76006,7 @@ Eternam:
   pageId: 80601
   steam: 781250
 Eternights:
+  state: outdated
   cloud:
     steam: true
   pageId: 178030
@@ -78231,6 +78242,7 @@ F-22 Lightning 3:
     - "{{Game data/config|Windows|{{p|game}}\\FDNYFireFighter.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\}}"
 F.E.A.R.:
+  state: outdated
   gog: 1423058413
   lutris: fear
   malformed: true
@@ -78269,7 +78281,6 @@ F.E.A.R. Online:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
 F.E.A.R. Perseus Mandate:
-  state: outdated
   gog: 1423058413
   lutris: fear-perseus-mandate
   pageId: 1362
@@ -78649,16 +78660,6 @@ FATE:
   gog: 1128601888
   pageId: 50416
   steam: 276890
-"FBC: Firebreak":
-  cloud:
-    steam: true
-    xbox: true
-  lutris: fbc-firebreak
-  pageId: 198499
-  steam: 2272540
-  templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Remedy\\FBCFirebreak\\|{{P|localappdata}}\\Packages\\Remedy.184765F694B43_a0f1gph4eb81p\\SystemAppData\\}}"
-    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Remedy.184765F694B43_a0f1gph4eb81p\\SystemAppData\\wgs}}"
 FBI Mania:
   pageId: 57279
   steam: 569840
@@ -84569,7 +84570,6 @@ Five Nations:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Mega Cat Studios\\Five Nights at Freddy's Into the Pit\\{{p|uid}}}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Mega Cat Studios\\Five Nights at Freddy's Into the Pit\\{{p|uid}}}}"
 "Five Nights at Freddy's: Secret of the Mimic":
-  state: outdated
   pageId: 202325
   steam: 2215390
   templates:
@@ -87358,6 +87358,7 @@ Forza Horizon 3:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Packages\\Microsoft.OpusPG_8wekyb3d8bbwe\\TempState\\scratch\\User_PCLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Packages\\Microsoft.OpusPG_8wekyb3d8bbwe\\SystemAppData\\wgs\\}}"
 Forza Horizon 4:
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -87623,6 +87624,7 @@ Foxus:
   pageId: 62835
   steam: 644130
 Foxy Dumplings:
+  state: outdated
   pageId: 212223
 FoxyLand:
   pageId: 73248
@@ -93259,6 +93261,7 @@ Ghostbusters II:
     - "{{Game data/config|Windows|{{p|localappdata}}\\GHOSTBUSTERS (tm)\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GHOSTBUSTERS (tm)\\}}"
 "Ghostbusters: The Video Game Remastered":
+  state: outdated
   pageId: 137763
   steam: 1449280
   templates:
@@ -93352,6 +93355,7 @@ Ghostrunner:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Ghostrunner\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Ghostrunner\\Saved\\save.data|{{P|localappdata}}\\Ghostrunner\\Saved\\SaveGames\\{{p|uid}}\\}}"
 Ghostrunner 2:
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -93432,6 +93436,7 @@ Ghostship Chronicles:
 "Ghostware: Trespasser":
   pageId: 181695
 "Ghostwire: Tokyo":
+  state: outdated
   cloud:
     epic: true
     steam: true
@@ -96584,6 +96589,7 @@ Grand Theft Auto IV:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\GTA Liberty City Stories User Files\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GTA Liberty City Stories User Files\\}}"
 Grand Theft Auto V:
+  state: outdated
   lutris: grand-theft-auto-v
   pageId: 17708
   steam: 271590
@@ -100657,12 +100663,6 @@ Halo 4:
     - "{{Game data/config|Steam|{{p|userprofile}}\\AppData\\LocalLow\\MCC\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.Chelan_8wekyb3d8bbwe\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\976730\\remote\\{{p|uid}}\\Saves\\}}"
-"Halo 5: Forge":
-  cloud:
-    xbox: true
-  pageId: 32871
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Packages\\Microsoft.Halo5Forge_8wekyb3d8bbwe\\LocalState}}"
 Halo Beats!:
   pageId: 156563
   steam: 1224900
@@ -103494,6 +103494,7 @@ Hellbender:
     - "{{Game data/config|Windows|{{p|game}}\\system\\HELLBEND.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\*.hel}}"
 "Hellblade: Senua's Sacrifice":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -106844,7 +106845,6 @@ Hitman GO:
   templates:
     - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\205930\\remote}}"
 "Hitman: World of Assassination":
-  state: outdated
   cloud:
     epic: true
     steam: true
@@ -108916,6 +108916,9 @@ House Of Decay:
     steam: true
   pageId: 204836
   steam: 2899350
+"House Of Horror: Outside Is Better":
+  pageId: 212597
+  steam: 3152710
 House Of Plague 0:
   pageId: 109216
   steam: 882380
@@ -122010,33 +122013,6 @@ Kingdom Clicker:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\user.cfg|{{p|userprofile}}\\Saved Games\\kingdomcome\\profiles\\default\\*.xml|}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\kingdomcome\\saves\\}}"
-"Kingdom Come: Deliverance II":
-  state: outdated
-  cloud:
-    epic: true
-    steam: true
-  gog: 1248083010
-  gogSide:
-    - 1141344806
-    - 1225642085
-    - 1340091827
-    - 1485720934
-    - 1774073357
-    - 1893634777
-  lutris: kingdom-come-deliverance-ii
-  pageId: 194487
-  steam: 1771300
-  steamSide:
-    - 3118100
-    - 3118110
-    - 3118120
-    - 3119920
-    - 3368600
-    - 3368620
-    - 3406020
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\user.cfg|{{p|userprofile}}\\Saved Games\\kingdomcome2\\profiles\\default\\*.xml|}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\kingdomcome2\\saves\\}}"
 Kingdom Defense:
   pageId: 77028
   steam: 756260
@@ -125757,6 +125733,9 @@ Last Survivor:
 Last Tale:
   pageId: 59470
   steam: 608560
+Last Term:
+  state: outdated
+  pageId: 212590
 Last Tide:
   pageId: 102089
   steam: 858590
@@ -126391,6 +126370,7 @@ Left 4 Dead:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\left4dead\\cfg\\config.cfg|{{p|game}}\\left4dead\\cfg\\video.txt}}"
 Left 4 Dead 2:
+  state: outdated
   cloud:
     steam: true
   lutris: left-4-dead-2
@@ -126480,6 +126460,7 @@ Leftovers KO!:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\Crystal Dynamics\\Legacy of Kain: Soul Reaver\\1.00.000}}"
     - "{{Game data/saves|Windows|{{P|game}}\\savegame.her}}"
 "Legacy of Kain: Soul Reaver 1 & 2 Remastered":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -126766,7 +126747,6 @@ Legend of the Tetrarchs:
 "Legenda: Poselství trůnu 2":
   pageId: 195188
 Legendary:
-  state: outdated
   pageId: 12941
   steam: 16730
   templates:
@@ -127065,7 +127045,6 @@ Lego Alpha Team:
   pageId: 207259
   steam: 2215200
 "Lego Batman: The Videogame":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -127223,13 +127202,6 @@ Lego Horizon Adventures:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/Lucasarts/LEGOIndianaJones/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\LucasArts\\LEGOIndianaJones\\SavedGames\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/Lucasarts/LEGOIndianaJones/SavedGames/SaveGame*.LEGOIndianaJones_SavedGame}}"
-Lego Island:
-  state: outdated
-  lutris: lego-island
-  pageId: 6644
-  templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Mindscape\\LEGO Island\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}}}"
 "Lego Island 2: The Brickster's Revenge":
   lutris: lego-island-2-the-bricksters-revenge
   pageId: 34930
@@ -140391,7 +140363,6 @@ Metal Gear Solid - Master Collection Version:
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\287700\\local\\|{{p|steam}}\\userdata\\{{p|uid}}\\311340\\remote\\}}"
     - "{{Game data/saves|Steam|{{p|linuxhome}}/.steam/steam/userdata/{{p|uid}}/311340/remote/}}"
 "Metal Gear Solid Δ: Snake Eater":
-  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -141326,7 +141297,6 @@ Microsoft Flight Simulator (2020):
     - "{{Game data/config|Microsoft Store|\n{{p|localappdata}}\\Packages\\Microsoft.FlightSimulator_8wekyb3d8bbwe\\LocalCache\\|\n{{p|localappdata}}\\Packages\\Microsoft.FlightSimulator_8wekyb3d8bbwe\\SystemAppData\\wgs\\{{P|uid}}\\{{note|Settings are serialized via Xbox SDK, but e.g. input profiles will be plain xml, so can just try opening each file in notepad until the desired file is found.}}}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1250410\\remote\\}}"
 Microsoft Flight Simulator 2000:
-  state: outdated
   lutris: microsoft-flight-simulator-2000
   pageId: 173447
 Microsoft Flight Simulator 2002:
@@ -142576,6 +142546,7 @@ Minecraft Legends:
     - "{{Game data/config|Windows|{{P|appdata}}\\Minecraft Legends\\{{P|uid}}\\minecraftpe\\local}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Minecraft Legends\\{{P|uid}}\\}}"
 "Minecraft: Bedrock Edition":
+  state: outdated
   pageId: 26177
   renamedFrom:
     - "Minecraft: Windows 10 Edition"
@@ -146210,6 +146181,7 @@ Mortal Kombat X:
     - "{{Game data/config|Windows|{{p|appdata}}\\MK10\\options.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\307780\\remote\\user\\}}"
 "Mortal Kombat: Legacy Kollection":
+  state: outdated
   cloud:
     steam: true
   pageId: 205145
@@ -148717,9 +148689,12 @@ My Wet Leto Comic:
   pageId: 157039
   steam: 1185530
 My Winter Car:
-  state: outdated
+  lutris: my-winter-car
   pageId: 211441
   steam: 4164420
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Amistech\\My Winter Car\\options.txt|{{P|hkcu}}\\Software\\Amistech\\My Winter Car\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Amistech\\My Winter Car\\}}"
 My Work Is Not Yet Done:
   pageId: 157207
   steam: 1207690
@@ -151469,7 +151444,6 @@ Need for Speed Unbound:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Criterion Games\\Need for Speed(TM) Hot Pursuit Remastered\\config.NFS11Save|{{p|userprofile\\Documents}}\\Criterion Games\\Need for Speed(TM) Hot Pursuit Remastered\\Save\\Default\\MUD64.8.NFS11Save}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Criterion Games\\Need for Speed(TM) Hot Pursuit Remastered\\Save\\Default\\}}"
 "Need for Speed: Most Wanted":
-  state: outdated
   lutris: need-for-speed-most-wanted
   pageId: 2119
   templates:
@@ -151512,7 +151486,6 @@ Need for Speed Unbound:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\NFSTR\\settings\\*}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\NFSTR\\settings\\*}}"
 "Need for Speed: Undercover":
-  state: outdated
   cloud:
     origin: true
   lutris: need-for-speed-undercover
@@ -154669,7 +154642,6 @@ No Longer Home:
     - "{{Game data/config|Windows|{{p|game}}\\Run\\engine.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Run\\savegame}}"
 "No Man's Sky":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -158636,6 +158608,7 @@ One Final Chaos:
   pageId: 45966
   steam: 409610
 One Finger Death Punch:
+  state: outdated
   lutris: one-finger-death-punch
   pageId: 15990
   steam: 264200
@@ -161067,6 +161040,7 @@ Outbuddies:
     - "{{Game data/config|Windows|{{P|appdata}}\\outbuddies\\settings|{{P|appdata}}\\outbuddies\\inputs}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\outbuddies\\}}"
 Outburst:
+  state: outdated
   pageId: 65496
   steam: 669710
 Outcast:
@@ -162048,6 +162022,7 @@ PAW Patrol World:
   pageId: 191296
   steam: 1952520
 PBA Pro Bowling:
+  state: outdated
   cloud:
     steam: true
   lutris: pba-pro-bowling
@@ -164937,87 +164912,7 @@ Pay for picture Vol.02:
     steam: true
   pageId: 151044
   steam: 1073360
-Payday 2:
-  state: outdated
-  cloud:
-    epic: true
-    steam: true
-  lutris: payday-2
-  pageId: 7608
-  steam: 218620
-  steamSide:
-    - 218630
-    - 247450
-    - 251040
-    - 254260
-    - 259380
-    - 259381
-    - 264610
-    - 267380
-    - 267381
-    - 267382
-    - 271110
-    - 274160
-    - 274161
-    - 275590
-    - 284430
-    - 288900
-    - 306110
-    - 306690
-    - 311050
-    - 318720
-    - 320030
-    - 323500
-    - 326710
-    - 328860
-    - 328861
-    - 330010
-    - 330490
-    - 330491
-    - 330492
-    - 331040
-    - 331900
-    - 337660
-    - 337661
-    - 338950
-    - 338951
-    - 338952
-    - 339480
-    - 344140
-    - 348090
-    - 348091
-    - 349830
-    - 351890
-    - 358150
-    - 366660
-    - 368870
-    - 374300
-    - 374301
-    - 375380
-    - 375381
-    - 375382
-    - 375383
-    - 375384
-    - 375385
-    - 384020
-    - 384021
-    - 401650
-    - 408460
-    - 412280
-    - 422400
-    - 422430
-    - 433730
-    - 441600
-    - 450660
-    - 468410
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\PAYDAY 2\\renderer_settings.xml}}"
-    - "{{Game data/config|Linux|{{P|xdgdatahome}}/.local/share/Starbreeze/Payday2/renderer_settings.xml}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\PAYDAY 2\\saves\\{{P|uid}}\\}}"
-    - "{{Game data/saves|Linux|{{p|steam}}/userdata/{{p|uid}}/218620/remote/}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/218620/remote/}}"
 Payday 3:
-  state: outdated
   lutris: payday-3
   pageId: 167361
   steam: 1272080
@@ -165199,6 +165094,7 @@ Peggle Extreme:
   templates:
     - "{{Game data/saves|Windows|{{p|programdata}}\\Steam\\PeggleExtreme\\userdata}}"
 Peggle Nights:
+  state: outdated
   pageId: 15446
   steam: 3540
   templates:
@@ -171344,6 +171240,7 @@ Praey for the Gods:
   templates:
     - "{{Game data/saves|Windows|{{p|UserProfile}}\\AppData\\LocalLow\\No Matter Studios\\Praey For the Gods\\}}"
 Pragmata:
+  state: outdated
   cloud:
     steam: true
   lutris: pragmata
@@ -173299,6 +173196,7 @@ Project RPG:
   pageId: 156772
   steam: 1207850
 Project Rampage VR:
+  state: outdated
   pageId: 91785
   steam: 808550
 "Project Reality: Battlefield 2":
@@ -179476,6 +179374,7 @@ Real Warfare 1242:
   pageId: 113320
   steam: 839010
 Real World Golf:
+  state: outdated
   pageId: 212545
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Real World Golf\\settings}}"
@@ -180230,6 +180129,7 @@ Red Dead Redemption:
     - "{{Game data/config|Windows|\n{{P|userprofile\\Documents}}\\Rockstar Games\\Red Dead Redemption\\gabindings.xml|\n{{P|userprofile\\Documents}}\\Rockstar Games\\Red Dead Redemption\\graphicsOptions.xml|\n{{P|userprofile\\Documents}}\\Rockstar Games\\Red Dead Redemption\\options.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\Red Dead Redemption\\Profiles\\{{P|uid}}\\{{note|Game will successfully load decrypted save from PS4 (RDR2SAVE0.SAV) but will not award previously earned trophies.<ref>{{Refcheck|user=EthanBB|date=2025-01-23|comment=}}</ref>}}}}"
 Red Dead Redemption 2:
+  state: outdated
   lutris: red-dead-redemption-ii
   pageId: 147599
   steam: 1174180
@@ -180595,6 +180495,7 @@ Redcon:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\Local\\Hexage\\Redcon\\}}"
 Redeemer:
+  state: outdated
   cloud:
     steam: true
   lutris: redeemer
@@ -181296,6 +181197,7 @@ Relivium:
   pageId: 157474
   steam: 1183350
 Reload:
+  state: outdated
   cloud:
     steam: true
   pageId: 48703
@@ -181977,6 +181879,7 @@ Resident Evil 2:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\CAPCOM\\RESIDENT EVIL2}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves|{{p|game}}\\savedata}}"
 Resident Evil 2 (2019):
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -181990,6 +181893,7 @@ Resident Evil 2 (2019):
     - "{{Game data/config|Windows|{{p|game}}\\re2_config.ini}}"
     - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\883710\\remote\\}}"
 Resident Evil 3 (2020):
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -182019,6 +181923,7 @@ Resident Evil 4:
     - "{{Game data/config|Windows|{{p|game}}/SetupTool.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}/SaveData.dat}}"
 Resident Evil 4 (2023):
+  state: outdated
   cloud:
     steam: true
   pageId: 178020
@@ -182072,6 +181977,7 @@ Resident Evil 4 Ultimate HD Edition:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Capcom\\RE4\\|{{p|game}}\\BIO4\\input.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\254700\\remote\\}}"
 Resident Evil 5:
+  state: outdated
   cloud:
     steam: true
   lutris: resident-evil-5
@@ -182764,6 +182670,7 @@ Return to Cube Planet:
   pageId: 136562
   steam: 1083330
 Return to Dark Castle:
+  state: outdated
   cloud:
     steam: true
   pageId: 212578
@@ -182804,6 +182711,7 @@ Return to Monkey Island:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Terrible Toybox/Return to Monkey Island/}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Terrible Toybox/Return to Monkey Island/save.bin|{{p|xdgdatahome}}/Terrible Toybox/Return to Monkey Island/Savegame*.png|{{p|xdgdatahome}}/Terrible Toybox/Return to Monkey Island/Savegame*.save}}"
 Return to Mysterious Island:
+  state: outdated
   gog: 1207659084
   lutris: return-to-mysterious-island
   pageId: 14532
@@ -183660,6 +183568,7 @@ Ride:
     - "{{Game data/config|Windows|{{p|appdata}}\\Milestone\\Ride\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Milestone\\Ride\\Saves\\}}"
 "Ride 'em Low":
+  state: outdated
   cloud:
     steam: true
   pageId: 40552
@@ -183955,7 +183864,6 @@ Rigonauts:
   pageId: 40753
   steam: 214100
 Rigs of Rods:
-  state: outdated
   lutris: rigs-of-rods/
   pageId: 189509
   renamedFrom:
@@ -184915,6 +184823,7 @@ River City Melee Mach!!:
   pageId: 70579
   steam: 544630
 "River City Ransom: Underground":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -185175,21 +185084,6 @@ Road to Vostok:
 Road to your City:
   pageId: 126356
   steam: 494050
-RoadCraft:
-  state: outdated
-  cloud:
-    epic: true
-    steam: true
-  pageId: 201206
-  steam: 2104890
-  steamSide:
-    - 3470710
-    - 3510890
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\RoadCraft\\}}"
-    - "{{Game data/config|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\RoadCraft\\}}"
-    - "{{Game data/saves|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\save\\}}"
 RoadRunner:
   pageId: 138912
   steam: 1097940
@@ -191986,6 +191880,7 @@ Scania Truck Driving Simulator:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SCANIA Truck Driving Simulator\\config.cfg|{{p|userprofile\\Documents}}\\SCANIA Truck Driving Simulator\\profile\\{{p|uid}}\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SCANIA Truck Driving Simulator\\leaderboards\\}}"
 Scanner Sombre:
+  state: outdated
   cloud:
     gog: true
   gog: 1420469009
@@ -196235,6 +196130,7 @@ SharpShooter3D:
   pageId: 49931
   steam: 288630
 "Shashingo: Learn Japanese With Photography":
+  state: outdated
   cloud:
     steam: true
   lutris: shashingo-learn-japanese-with-photography
@@ -196352,6 +196248,7 @@ Shatterline:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Shatterline\\2961AB5C4C274EAB9B13CCC6A9306D6A}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Shatterline\\}}"
 Shaun White Skateboarding:
+  state: outdated
   cloud:
     uplay: true
   pageId: 160759
@@ -197398,6 +197295,7 @@ Shogun Showdown:
   pageId: 139049
   steam: 1093760
 "Shogun: Total War":
+  state: outdated
   cloud:
     gog: true
   gog: 1874325037
@@ -198204,6 +198102,7 @@ Sickness:
   renamedFrom:
     - Civilization II
 "Sid Meier's Civilization III":
+  state: outdated
   gog: 1471405734
   lutris: sid-meiers-civilization-iii-complete
   pageId: 3168
@@ -198375,6 +198274,7 @@ Sickness:
     - "{{Game data/saves|PC booter|A:\\|B:\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\disks}}"
 "Sid Meier's Pirates! (2004)":
+  state: outdated
   gog: 1445250653
   lutris: sid-meiers-pirates
   pageId: 2133
@@ -199027,6 +198927,7 @@ SimCity (1989):
   lutris: simcity
   pageId: 8440
 SimCity (2013):
+  state: outdated
   lutris: simcity-2013
   pageId: 4442
   templates:
@@ -202525,6 +202426,7 @@ SnowRunner:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\SnowRunner\\base\\storage\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\FocusHomeInteractiveSA.SnowRunnerWindows10_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
 Snowball Run:
+  state: outdated
   pageId: 212599
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\client.ini|{{p|game}}\\level.cfg}}"
@@ -203287,6 +203189,7 @@ Solid Aether:
 "Solid State Pinball: Tristan":
   pageId: 171264
 Solitaire:
+  state: outdated
   pageId: 26913
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Solitaire\\}}"
@@ -203938,6 +203841,7 @@ Sonic CD (2012):
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\200940\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\200940\\}}"
 "Sonic Colors: Ultimate":
+  state: outdated
   cloud:
     epic: true
     steam: true
@@ -204294,6 +204198,7 @@ Sons of Valhalla:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Pixel Chest Games\\Sons of Valhalla\\saves\\*.sav}}"
 Sons of the Forest:
+  state: outdated
   cloud:
     steam: true
   pageId: 165847
@@ -207352,6 +207257,7 @@ Spellcrafter:
   pageId: 48014
   steam: 315680
 Spellcross:
+  state: outdated
   pageId: 212542
 Spelldrifter:
   cloud:
@@ -209721,7 +209627,6 @@ Star Trek Timelines:
     - "{{Game data/config|Windows|{{p|game}}\\ARMADA.PRF}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 "Star Trek: Armada II":
-  state: outdated
   cloud:
     gog: true
   gog: 1174788223
@@ -209771,6 +209676,7 @@ Star Trek Timelines:
     - "{{Game data/config|Windows|{{p|game}}\\system\\DS9.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 "Star Trek: Elite Force II":
+  state: outdated
   cloud:
     gog: true
   gog: 2125201406
@@ -209789,6 +209695,7 @@ Star Trek Timelines:
     - "{{Game data/config|Windows|{{p|game}}\\Sgens.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVEGAME\\}}"
 "Star Trek: Hidden Evil":
+  state: outdated
   gog: 1365309818
   lutris: star-trek-hidden-evil
   pageId: 171321
@@ -210374,6 +210281,7 @@ Star Wars Outlaws:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Starfighter\\1.0\\|{{p|hklm}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Starfighter\\1.0\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save Games\\default\\SFSave*}}"
 "Star Wars: TIE Fighter":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -218786,6 +218694,9 @@ Sushido vs. Zombies:
 Suspended Workshops:
   pageId: 59421
   steam: 602660
+Suspicious Holes:
+  state: outdated
+  pageId: 212586
 Suspicious Slide:
   pageId: 156194
   steam: 1206470
@@ -223071,6 +222982,7 @@ Telecube Halloween:
   pageId: 121803
   steam: 955540
 Teleforum:
+  state: outdated
   cloud:
     steam: true
   lutris: teleforum
@@ -226645,6 +226557,7 @@ The Chronicles of Quiver Dick:
   pageId: 99582
   steam: 846880
 "The Chronicles of Riddick: Assault on Dark Athena":
+  state: outdated
   gog: 1207659070
   lutris: the-chronicles-of-riddick-assault-on-dark-athena
   pageId: 2134
@@ -227023,6 +226936,7 @@ The Creature:
   pageId: 141744
   steam: 1119110
 The Crew:
+  state: outdated
   cloud:
     uplay: true
   lutris: the-crew
@@ -227687,6 +227601,7 @@ The Desolate Hope:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\tdh*.txt}}"
 The Desolate Room:
+  state: outdated
   pageId: 167458
   renamedFrom:
     - The desolate room
@@ -227926,6 +227841,7 @@ The Dreamwalkers:
     - The DreamWalkers - a low fantasy visual novel
   steam: 1175400
 The Drifter:
+  state: outdated
   cloud:
     steam: true
   gog: 1629486561
@@ -229025,6 +228941,7 @@ The Final Take:
   pageId: 33508
   steam: 400510
 The Finals:
+  state: outdated
   pageId: 181915
   steam: 2073850
   templates:
@@ -229696,6 +229613,7 @@ The Grand Museum VR:
   pageId: 103213
   steam: 896240
 The Grandfather:
+  state: outdated
   pageId: 43217
   steam: 433750
   steamSide:
@@ -230226,8 +230144,10 @@ The HinterLands:
   pageId: 42842
   steam: 454260
 "The History Channel - Civil War: The Battle of Bull Run - Take Command: 1861":
-  state: outdated
   pageId: 191996
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\CWBR.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saved Games}}"
 "The History Channel: Alamo - Fight for Independence":
   pageId: 191990
   templates:
@@ -232100,6 +232020,7 @@ The Last of Us Part I:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\The Last of Us Part I\\users\\{{P|uid}}\\screeninfo.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\The Last of Us Part I\\users\\{{P|uid}}\\savedata\\}}"
 The Last of Us Part II Remastered:
+  state: outdated
   cloud:
     epic: true
     steam: true
@@ -233897,6 +233818,7 @@ The Museum of ThroughView:
   pageId: 67547
   steam: 689210
 The Music Machine:
+  state: outdated
   pageId: 37715
   steam: 359040
   steamSide:
@@ -236515,7 +236437,6 @@ The Signal from Tölva:
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\457760\\remote\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.steam/steam/userdata/{{p|uid}}/457760/remote/SavedGames/}}"
 The Signifier:
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -236528,6 +236449,8 @@ The Signifier:
   steam: 1082930
   steamSide:
     - 1571240
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Playmestudio\\thesignifier}}"
 The Silence Outside:
   pageId: 76547
   steam: 744720
@@ -236613,6 +236536,7 @@ The Sims 2 Legacy Collection:
     - "{{Game data/config|Windows|{{p|game}}\\TSData\\Res\\Config|{{p|hkcu}}\\SOFTWARE\\Electronic Arts\\The Sims 2 Ultimate Collection 25}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA Games\\The Sims 2 Legacy\\}}"
 The Sims 3:
+  state: outdated
   lutris: the-sims-3
   pageId: 4253
   steam: 47890
@@ -237756,6 +237680,7 @@ The Thing With Mistletoes:
     - "{{Game data/config|Windows|{{p|game}}\\renpy\\config.py}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\renpy\\The Thing With Mistletoes-1387675185\\|{{p|game}}\\game\\saves\\}}"
 "The Thing: Remastered":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -242029,6 +241954,7 @@ Titan Quest:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Titan Quest\\|{{p|userprofile\\Documents}}\\My Games\\Titan Quest - Immortal Throne\\}}"
     - "{{Game data/saves|Steam|{{p|game}}\\}}"
 Titan Quest Anniversary Edition:
+  state: outdated
   cloud:
     discord: true
     gog: true
@@ -242460,6 +242386,7 @@ Together VR:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TogetherVR\\Saved\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TogetherVR\\Saved\\SaveGames\\}}"
 Together We Live:
+  state: outdated
   pageId: 76309
   renamedFrom:
     - Stand by You
@@ -243142,6 +243069,7 @@ Tomb Raider IV-VI Remastered:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame.*}}"
     - "{{Game data/saves|Mac OS|{{p|game}}\\}}"
 "Tomb Raider: Underworld":
+  state: outdated
   cloud:
     gog: true
   gog: 1900745791
@@ -244115,6 +244043,7 @@ Total Tank Simulator:
     - 201276
     - 201278
 "Total War: Three Kingdoms":
+  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -248156,6 +248085,7 @@ Trine:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.frozenbyte/trine/}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\35700\\}}"
 Trine 2:
+  state: outdated
   cloud:
     discord: true
     gog: true
@@ -248178,20 +248108,6 @@ Trine 2:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Trine2/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.frozenbyte/Trine2/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/35720/remote/}}"
-"Trine 3: The Artifacts of Power":
-  cloud:
-    discord: true
-    steam: true
-  gog: 1431599567
-  lutris: trine-3-the-artifacts-of-power
-  pageId: 24291
-  steam: 319910
-  templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Trine3\\options.txt}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.frozenbyte/Trine3}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Trine3\\}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.frozenbyte/Trine3}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/319910/remote/}}"
 "Trine 4: The Nightmare Prince":
   cloud:
     gog: true
@@ -250343,6 +250259,7 @@ UEFA Euro 2004:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\UEFA EURO 2004\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\UEFA EURO 2004\\}}"
 UEFA Euro 2008:
+  state: outdated
   pageId: 89186
 UEFA Euro 96:
   pageId: 89741
@@ -253089,6 +253006,7 @@ Untitled Goose Game:
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame0.save|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame1.save|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame2.save}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/House House/Untitled Goose Game/|{{p|osxhome}}/Library/Application Support/se.househou.untitled-goose-game/}}"
 "Untitled Hand Game: Titled Edition":
+  state: outdated
   pageId: 212547
   steam: 3448930
 Unto the End:
@@ -256731,8 +256649,10 @@ Virtual Skipper 4:
 Virtual Skipper 5:
   pageId: 191472
 "Virtual Skipper 5: 32nd America's Cup - The Game":
-  state: outdated
   pageId: 191475
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\32nd America's Cup\\Config}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\32nd America's Cup\\Profiles|{{P|userprofile\\Documents}}\\32nd America's Cup\\Scores|{{P|userprofile\\Documents}}\\32nd America's Cup\\Tracks}}"
 Virtual Skydiving:
   pageId: 132341
   steam: 1053090
@@ -263623,6 +263543,7 @@ Wildfrost:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Deadpan Games\\Wildfrost}}"
 Wildgate:
+  state: outdated
   lutris: wildgate
   pageId: 206469
   steam: 3504780
@@ -267082,7 +267003,6 @@ Wytchwood:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
 "Włatcy móch: Wrzód na dópie":
-  state: outdated
   pageId: 206201
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\save}}"
@@ -267196,7 +267116,6 @@ X-Blades:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\X-Men Legends 2\\Save\\}}"
 "X-Men Origins: Wolverine - Uncaged Edition":
-  state: outdated
   pageId: 24495
   renamedFrom:
     - "X-Men Origins: Wolverine"
@@ -268245,6 +268164,7 @@ Yakuza Kiwami:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\SEGAofAmericaInc.YakuzaKiwamiPC_s751p9cej88mt\\SystemAppData\\wgs\\{{p|uid}}\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\834530\\remote\\}}"
 Yakuza Kiwami (2025):
+  state: outdated
   cloud:
     steam: true
   pageId: 211990

@@ -51715,41 +51715,6 @@ Asphyxia:
             store: steam
   steam:
     id: 260210
-"Assassin's Creed: Revelations":
-  cloud:
-    uplay: true
-  files:
-    "<root>/savegames/<storeUserId>/40":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: uplay
-    "<winDocuments>/Assassin's Creed Revelations/ACRevelations.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/Ubisoft Game Launcher/savegame_storage/<storeUserId>/40":
-      tags:
-        - save
-      when:
-        - os: windows
-  id:
-    lutris: assassins-creed-revelations
-  installDir:
-    "Assassin's Creed Revelations": {}
-  launch:
-    "<base>/ACRMP.exe":
-      - arguments: "-uplay_steam_mode"
-        when:
-          - store: steam
-    "<base>/ACRSP.exe":
-      - arguments: "-uplay_steam_mode"
-        when:
-          - store: steam
-  steam:
-    id: 201870
 Assassination Box:
   cloud:
     steam: true
@@ -52128,30 +52093,6 @@ Assetto Corsa EVO:
             store: steam
   steam:
     id: 3058630
-Assetto Corsa Rally:
-  files:
-    "<home>/AppData/Local/acr/Saved/Config/Windows/GameUserSettings.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<home>/AppData/Local/acr/Saved/SaveGames/PlayerDataSaveSlot.sav":
-      tags:
-        - save
-      when:
-        - os: windows
-  id:
-    lutris: assetto-corsa-rally
-  installDir:
-    Assetto Corsa Rally: {}
-  launch:
-    "<base>/acr/Binaries/Win64/acr.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 3917090
 "Astalon: Tears of the Earth":
   cloud:
     gog: true
@@ -141468,6 +141409,42 @@ Command & Conquer Remastered Collection:
           - store: steam
   steam:
     id: 2229850
+"Command & Conquer: Red Alert 3":
+  cloud:
+    origin: true
+    steam: true
+  files:
+    "<home>/Saved Games/Red Alert 3":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Red Alert 3/Profiles/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Red Alert 3/Profiles/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: command-and-conquer-red-alert-3
+  installDir:
+    Command and Conquer Red Alert 3: {}
+  launch:
+    "<base>/Data/WorldBuilder.exe":
+      - when:
+          - store: steam
+    "<base>/Support/EA Help/Electronic_Arts_Technical_Support.htm":
+      - when:
+          - store: steam
+    "<base>/runme.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 17480
 "Command & Conquer: Red Alert 3 - Uprising":
   cloud:
     steam: true
@@ -150920,29 +150897,6 @@ Crashday:
         - save
       when:
         - os: windows
-Crashday Redline Edition:
-  cloud:
-    steam: true
-  files:
-    "<winLocalAppData>/Crashday":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Crashday/config":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    Crashday: {}
-  launch:
-    "<base>/crashday.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 508980
 Crashed Lander:
   installDir:
     Crashed Lander: {}
@@ -152100,18 +152054,6 @@ Crazy Stone Deep Learning -The First Edition-:
 Crazy Tank:
   steam:
     id: 946290
-Crazy Taxi:
-  files:
-    "<base>/CRAZYTAXI_DC":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<base>/taxi.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
 Crazy Taxi (2011):
   files:
     "<winDocuments>/SEGA/Crazy Taxi/CRAZYTAXI_DC":
@@ -245198,36 +245140,6 @@ FATE:
           - store: steam
   steam:
     id: 276890
-"FBC: Firebreak":
-  cloud:
-    steam: true
-  files:
-    "<winLocalAppData>/Packages/Remedy.184765F694B43_a0f1gph4eb81p/SystemAppData":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/Packages/Remedy.184765F694B43_a0f1gph4eb81p/SystemAppData/wgs":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
-    "<winLocalAppData>/Remedy/FBCFirebreak":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: fbc-firebreak
-  installDir:
-    FBCFirebreak: {}
-  launch:
-    "<base>/FBCFirebreak.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2272540
 FBI Mania:
   steam:
     id: 569840
@@ -313193,13 +313105,6 @@ Halo 4:
           store: microsoft
   steam:
     id: 1064273
-"Halo 5: Forge":
-  files:
-    "<winLocalAppData>/Packages/Microsoft.Halo5Forge_8wekyb3d8bbwe/LocalState":
-      tags:
-        - config
-      when:
-        - os: windows
 Halo Beats!:
   installDir:
     Halo Beats!: {}
@@ -338318,6 +338223,9 @@ House Of Decay:
     steam: true
   steam:
     id: 2899350
+"House Of Horror: Outside Is Better":
+  steam:
+    id: 3152710
 House Of Plague 0:
   steam:
     id: 882380
@@ -379122,49 +379030,6 @@ Kingdom Clicker:
             store: steam
   steam:
     id: 379430
-"Kingdom Come: Deliverance II":
-  cloud:
-    epic: true
-    steam: true
-  files:
-    "<base>/user.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<home>/Saved Games/kingdomcome2/profiles/default/*.xml":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<home>/Saved Games/kingdomcome2/saves":
-      tags:
-        - save
-      when:
-        - os: windows
-  gog:
-    id: 1248083010
-  id:
-    gogExtra:
-      - 1141344806
-      - 1225642085
-      - 1340091827
-      - 1485720934
-      - 1774073357
-      - 1893634777
-    lutris: kingdom-come-deliverance-ii
-    steamExtra:
-      - 3118100
-      - 3118110
-      - 3118120
-      - 3119920
-      - 3368600
-      - 3368620
-      - 3406020
-  installDir:
-    KingdomComeDeliverance2: {}
-  steam:
-    id: 1771300
 Kingdom Defense:
   installDir:
     Kingdom Defense: {}
@@ -395251,13 +395116,6 @@ Lego Horizon Adventures:
           - store: steam
   steam:
     id: 32330
-Lego Island:
-  id:
-    lutris: lego-island
-  registry:
-    HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Mindscape/LEGO Island:
-      tags:
-        - config
 "Lego Island 2: The Brickster's Revenge":
   files:
     "<base>/_data/Save00.lgo":
@@ -461367,10 +461225,18 @@ My Wet Leto Comic:
     id: 1185530
 My Winter Car:
   files:
-    "<home>/AppData/LocalLow/Amistech/My Winter Car/*.txt":
+    "<home>/AppData/LocalLow/Amistech/My Winter Car":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<home>/AppData/LocalLow/Amistech/My Winter Car/options.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: my-winter-car
   installDir:
     My Winter Car: {}
   launch:
@@ -461379,6 +461245,10 @@ My Winter Car:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Amistech/My Winter Car:
+      tags:
+        - config
   steam:
     id: 4164420
 My Work Is Not Yet Done:
@@ -510777,118 +510647,6 @@ Pay for picture Vol.02:
             store: steam
   steam:
     id: 1073360
-Payday 2:
-  cloud:
-    epic: true
-    steam: true
-  files:
-    "<root>/userdata/<storeUserId>/218620/remote":
-      tags:
-        - save
-      when:
-        - store: steam
-        - os: linux
-          store: steam
-    "<winLocalAppData>/PAYDAY 2/renderer_settings.xml":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/PAYDAY 2/saves/<storeUserId>":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<xdgData>/.local/share/Starbreeze/Payday2/renderer_settings.xml":
-      tags:
-        - config
-      when:
-        - os: linux
-  id:
-    lutris: payday-2
-    steamExtra:
-      - 218630
-      - 247450
-      - 251040
-      - 254260
-      - 259380
-      - 259381
-      - 264610
-      - 267380
-      - 267381
-      - 267382
-      - 271110
-      - 274160
-      - 274161
-      - 275590
-      - 284430
-      - 288900
-      - 306110
-      - 306690
-      - 311050
-      - 318720
-      - 320030
-      - 323500
-      - 326710
-      - 328860
-      - 328861
-      - 330010
-      - 330490
-      - 330491
-      - 330492
-      - 331040
-      - 331900
-      - 337660
-      - 337661
-      - 338950
-      - 338951
-      - 338952
-      - 339480
-      - 344140
-      - 348090
-      - 348091
-      - 349830
-      - 351890
-      - 358150
-      - 366660
-      - 368870
-      - 374300
-      - 374301
-      - 375380
-      - 375381
-      - 375382
-      - 375383
-      - 375384
-      - 375385
-      - 384020
-      - 384021
-      - 401650
-      - 408460
-      - 412280
-      - 422400
-      - 422430
-      - 433730
-      - 441600
-      - 450660
-      - 468410
-  installDir:
-    PAYDAY 2: {}
-  launch:
-    "<base>/payday2.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/payday2_release":
-      - when:
-          - bit: 64
-            os: linux
-            store: steam
-    "<base>/payday2_win32_release.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 218620
 Payday 3:
   files:
     "<winLocalAppData>/PAYDAY3/Saved/Config/WindowsClient/GameUserSettings.ini":
@@ -573803,37 +573561,6 @@ Road to your City:
             store: steam
   steam:
     id: 494050
-RoadCraft:
-  cloud:
-    epic: true
-    steam: true
-  files:
-    "<winLocalAppData>/RoadCraft":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Saber/RoadCraftGame/storage/steam/user/<storeUserId>/Main/config":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Saber/RoadCraftGame/storage/steam/user/<storeUserId>/Main/save":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: steam
-  id:
-    steamExtra:
-      - 3470710
-      - 3510890
-  installDir:
-    RoadCraft: {}
-  steam:
-    id: 2104890
 RoadRunner:
   steam:
     id: 1097940
@@ -715204,6 +714931,18 @@ The HinterLands:
             store: steam
   steam:
     id: 454260
+"The History Channel - Civil War: The Battle of Bull Run - Take Command: 1861":
+  files:
+    "<base>/CWBR.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
 "The History Channel: Alamo - Fight for Independence":
   files:
     "<base>/Profiles":
@@ -734270,9 +734009,11 @@ The Signifier:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Playmestudio/thesignifier/**/*.xml":
+    "<home>/AppData/LocalLow/Playmestudio/thesignifier":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1461644805
   id:
@@ -767808,52 +767549,6 @@ Trine 2:
             store: steam
   steam:
     id: 35720
-"Trine 3: The Artifacts of Power":
-  cloud:
-    steam: true
-  files:
-    "<home>/.frozenbyte/Trine3":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
-    "<root>/userdata/<storeUserId>/319910/remote":
-      tags:
-        - save
-      when:
-        - store: steam
-    "<winAppData>/Trine3":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/Trine3/options.txt":
-      tags:
-        - config
-      when:
-        - os: windows
-  gog:
-    id: 1431599567
-  id:
-    lutris: trine-3-the-artifacts-of-power
-  installDir:
-    Trine 3: {}
-  launch:
-    "<base>/Trine3Launcher.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/trine3.sh":
-      - when:
-          - os: linux
-            store: steam
-    "<base>/trine3_launcher.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 319910
 "Trine 4: The Nightmare Prince":
   cloud:
     gog: true
@@ -793411,6 +793106,28 @@ Virtual Rogue:
     id: 448090
 Virtual Romance Club:
   alias: ViRo Playspace
+"Virtual Skipper 5: 32nd America's Cup - The Game":
+  files:
+    "<winDocuments>/32nd America's Cup/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/32nd America's Cup/Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/32nd America's Cup/Scores":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/32nd America's Cup/Tracks":
+      tags:
+        - save
+      when:
+        - os: windows
 Virtual Skydiving:
   installDir:
     Virtual Skydiving: {}
