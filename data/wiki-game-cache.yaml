@@ -1838,6 +1838,13 @@ $1 Ride:
 7 Bones and 7 Stones - The Ritual:
   pageId: 74586
   steam: 712080
+7 Days Blood Moons:
+  lutris: 7-days-blood-moons
+  pageId: 212643
+  steam: 2312280
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Prefs\\gameOptions.sdf|\n{{p|userprofile}}\\AppData\\LocalLow\\The Fun Pimps\\7 Days Blood Moons}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\The Fun Pimps\\7 Days Blood Moons\\Saves}}"
 7 Days a Skeptic:
   pageId: 200298
 7 Days in Dream:
@@ -1974,7 +1981,6 @@ $1 Ride:
   pageId: 87361
   steam: 806580
 7th Legion:
-  state: outdated
   gog: 1207660773
   pageId: 15356
   steam: 327910
@@ -27370,6 +27376,9 @@ Bladeline VR:
     steam: true
   pageId: 121681
   steam: 778110
+  templates:
+    - "{{Game data/config|Windows|%LOCALAPPDATA%\\BladeLine\\Saved\\Config\\WindowsNoEditor\\|Not confirmed (Unreal Engine 4 default).}}"
+    - "{{Game data/saves|Windows|<SteamLibrary>\\steamapps\\common\\Bladeline VR\\BladeLine\\SaveGames\\<SteamID64>\\|Steam Cloud syncs *.sav.}}"
 Bladenet:
   pageId: 72063
   steam: 684300
@@ -45914,7 +45923,6 @@ Conflict Zone:
     - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\Pivotal Games\\Conflict Desert Storm\\Device Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\SCi\\DesertStorm\\{{note|Retail version}}|{{p|game}}}}"
 "Conflict: Desert Storm II":
-  state: outdated
   lutris: conflict-desert-storm-ii
   pageId: 26306
   templates:
@@ -46268,7 +46276,6 @@ Constructor:
     - "{{Game data/config|DOS|{{p|game}}\\SETTINGS}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
 Constructor HD:
-  state: outdated
   cloud:
     steam: true
   pageId: 61236
@@ -46514,7 +46521,6 @@ Contrasted:
   pageId: 92279
   steam: 803960
 Control:
-  state: outdated
   cloud:
     epic: true
     gog: true
@@ -56079,12 +56085,12 @@ Dead Seater:
   pageId: 200630
   steam: 1570080
 Dead Secret:
-  state: outdated
   lutris: dead-secret
   pageId: 43939
   steam: 402260
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Robot Invader\\Dead Secret\\}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Robot Invader\\Dead Secret|{{P|userprofile\\appdata\\locallow}}\\Robot Invader\\Dead Secret\\ds.settings}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Robot Invader\\Dead Secret\\ds.save}}"
 Dead Secret Circle:
   pageId: 92245
   steam: 671920
@@ -87999,7 +88005,6 @@ Free Road:
   pageId: 91997
   steam: 820700
 Free Running:
-  state: outdated
   lutris: free-running
   pageId: 152745
   steam: 254940
@@ -103459,7 +103464,6 @@ Hellbender:
     - "{{Game data/config|Windows|{{p|game}}\\system\\HELLBEND.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\*.hel}}"
 "Hellblade: Senua's Sacrifice":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -135121,6 +135125,8 @@ Magical Girl D - Futanari RPG:
   pageId: 172914
   steam: 1666640
 Magical Girl Witch Trials:
+  cloud:
+    steam: true
   pageId: 211738
   steam: 3101040
   templates:
@@ -193629,6 +193635,10 @@ Sega GT:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.sgs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Segagt.sgs}}"
+Sega Marine Fishing:
+  pageId: 212647
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\save_dir}}"
 Sega Mega Drive and Genesis Classics:
   cloud:
     steam: true
@@ -195543,6 +195553,14 @@ Shadows of time:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Adventure Productions\\SotV2 ''(SD version)''|{{P|hkcu}}\\Software\\Adventure Productions\\SotV2_HD ''(HD version)''}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Shadows on the Vatican Act II\\ ''(SD version)''|{{P|userprofile}}\\Saved Games\\Shadows on the Vatican Act II HD\\ ''(HD version)''}}"
+"Shadows on the Vatican: Nightingale":
+  cloud:
+    steam: true
+  lutris: shadows-on-the-vatican-nightingale
+  pageId: 212645
+  steam: 1182530
+  steamSide:
+    - 1687270
 Shadows over Loathing:
   cloud:
     steam: true
@@ -197217,7 +197235,6 @@ Shogun Showdown:
   pageId: 139049
   steam: 1093760
 "Shogun: Total War":
-  state: outdated
   cloud:
     gog: true
   gog: 1874325037
@@ -203117,8 +203134,6 @@ Solitaire (Sanuk Games):
   pageId: 72599
   steam: 539300
 Solitaire (XP):
-  state: outdated
-  malformed: true
   pageId: 166480
 Solitaire (baKno Games):
   pageId: 77822
@@ -231727,7 +231742,6 @@ The Last NightMary - A Lenda do Cabeça de Cuia:
   steamSide:
     - 446860
 The Last Ninja:
-  state: outdated
   pageId: 212621
 The Last One:
   pageId: 65134
@@ -233719,7 +233733,6 @@ The Museum of ThroughView:
   pageId: 67547
   steam: 689210
 The Music Machine:
-  state: outdated
   pageId: 37715
   steam: 359040
   steamSide:
@@ -243061,13 +243074,6 @@ Tonetaker VR:
   steam: 1145050
 Tongue of the Fatman:
   pageId: 145658
-Tonic Trouble:
-  state: outdated
-  lutris: tonic-trouble
-  pageId: 14475
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\GAMEDATA\\OPTIONS|{{p|windir}}\\UBISOFT\\UBI.INI}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\GAMEDATA\\SaveGame}}"
 Tonic Trouble Special Edition:
   pageId: 146807
   templates:

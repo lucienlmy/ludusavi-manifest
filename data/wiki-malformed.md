@@ -6,7 +6,6 @@
 * [I Wanna Be the Guy](https://www.pcgamingwiki.com/wiki/?curid=164183)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
-* [Solitaire (XP)](https://www.pcgamingwiki.com/wiki/?curid=166480)
 * [Sonic Heroes](https://www.pcgamingwiki.com/wiki/?curid=19831)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Trek: Elite Force II](https://www.pcgamingwiki.com/wiki/?curid=6375)

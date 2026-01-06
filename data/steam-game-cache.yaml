@@ -423079,6 +423079,10 @@
         betakey: ebranch
       executable: BusSimulator20.exe
       type: none
+  nameLocalized:
+    japanese: バスシミュレーター21
+    schinese: 巴士模拟器 21
+    tchinese: 《模擬公車 21》
 976600: {}
 976620:
   cloud:
@@ -517110,6 +517114,21 @@
         oslist: macos
       executable: "reky.app\\Contents\\MacOS\\reky"
       type: default
+1182530:
+  cloud:
+    saves:
+      - path: "BinaryCharm\\Nightingale"
+        pattern: "*.bcar"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Nightingale
+  launch:
+    - config:
+        oslist: windows
+      executable: Nightingale.exe
+      type: default
 1182590:
   installDir: Hueor
   launch:
@@ -609953,6 +609972,14 @@
         oslist: linux
       executable: Frogun Encore.x86_64
       type: default
+2312280:
+  installDir: 7DaysBloodMoons
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: 7DaysBloodMoons.exe
+      type: default
 2313020:
   cloud:
     saves:
@@ -631549,13 +631576,16 @@
         pattern: GameSave*.nson
         root: WinAppDataLocalLow
       - path: "Re,AER/manosaba/Saves_v1"
-        pattern: GameQuickSave*.nson
+        pattern: GameAutoSave*.nson
         root: WinAppDataLocalLow
       - path: "Re,AER/manosaba/Saves_v1"
         pattern: GlobalSave.nson
         root: WinAppDataLocalLow
       - path: "Re,AER/manosaba/Saves_v1"
         pattern: Settings.json
+        root: WinAppDataLocalLow
+      - path: "Re,AER/manosaba/Saves_v1"
+        pattern: GameQuickSave*.nson
         root: WinAppDataLocalLow
     overrides:
       - os: MacOS

@@ -5841,6 +5841,35 @@ $1 Ride:
             store: steam
   steam:
     id: 712080
+7 Days Blood Moons:
+  files:
+    "<base>/Prefs/gameOptions.sdf":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/The Fun Pimps/7 Days Blood Moons":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/The Fun Pimps/7 Days Blood Moons/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 7-days-blood-moons
+  installDir:
+    7DaysBloodMoons: {}
+  launch:
+    "<base>/7DaysBloodMoons.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2312280
 7 Days in Dream:
   installDir:
     game: {}
@@ -84827,10 +84856,21 @@ Bladeline VR:
   cloud:
     steam: true
   files:
-    "<base>/BladeLine/SaveGames/<storeUserId>/*.sav":
+    "<winLocalAppData>/BladeLine/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    Not confirmed (Unreal Engine 4 default).:
+      tags:
+        - config
+      when:
+        - os: windows
+    Steam Cloud syncs *.sav.:
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Bladeline VR: {}
   steam:
@@ -175128,9 +175168,14 @@ Dead Seater:
     id: 1570080
 Dead Secret:
   files:
-    "<home>/AppData/LocalLow/Robot Invader/Dead Secret":
+    "<home>/AppData/LocalLow/Robot Invader/Dead Secret/ds.save":
       tags:
         - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Robot Invader/Dead Secret/ds.settings":
+      tags:
+        - config
       when:
         - os: windows
   id:
@@ -175147,6 +175192,10 @@ Dead Secret:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Robot Invader/Dead Secret:
+      tags:
+        - config
   steam:
     id: 402260
 Dead Secret Circle:
@@ -419825,6 +419874,8 @@ Magical Girl D - Futanari RPG:
   steam:
     id: 1666640
 Magical Girl Witch Trials:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Re,AER/manosaba/Saves_v1":
       tags:
@@ -600419,6 +600470,13 @@ Sega GT:
         - config
       when:
         - os: windows
+Sega Marine Fishing:
+  files:
+    "<base>/save_dir":
+      tags:
+        - save
+      when:
+        - os: windows
 Sega Mega Drive and Genesis Classics:
   cloud:
     steam: true
@@ -606387,6 +606445,27 @@ Shadows of time:
         - config
   steam:
     id: 378630
+"Shadows on the Vatican: Nightingale":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BinaryCharm/Nightingale/**/*.bcar":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: shadows-on-the-vatican-nightingale
+    steamExtra:
+      - 1687270
+  installDir:
+    Nightingale: {}
+  launch:
+    "<base>/Nightingale.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1182530
 Shadows over Loathing:
   cloud:
     steam: true
@@ -754543,25 +754622,6 @@ Tonetaker VR:
     Tonetaker VR: {}
   steam:
     id: 1145050
-Tonic Trouble:
-  files:
-    "<base>/GAMEDATA/OPTIONS":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<base>/GAMEDATA/SaveGame":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winDir>/UBISOFT/UBI.INI":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: tonic-trouble
 Tonic Trouble Special Edition:
   files:
     "<base>/GameData/Options":
