@@ -392509,44 +392509,6 @@ Left 4 Dead:
             store: steam
   steam:
     id: 500
-Left 4 Dead 2:
-  cloud:
-    steam: true
-  files:
-    "<base>/left4dead2/cfg/config.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<root>/userdata/<storeUserId>/550/remote":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: steam
-        - os: linux
-          store: steam
-  id:
-    lutris: left-4-dead-2
-    steamExtra:
-      - 322070
-  installDir:
-    Left 4 Dead 2: {}
-  launch:
-    "<base>/hl2.sh":
-      - arguments: "-game left4dead2 -steam"
-        when:
-          - os: mac
-            store: steam
-          - os: linux
-            store: steam
-    "<base>/left4dead2.exe":
-      - arguments: "-steam"
-        when:
-          - os: windows
-            store: steam
-  steam:
-    id: 550
 Left Alive:
   cloud:
     steam: true
@@ -426228,41 +426190,6 @@ Marty Thinks 4D:
 Maru:
   steam:
     id: 1150300
-Marvel Cosmic Invasion:
-  files:
-    "<home>/.local/share/GSE Saves/2753970/remote/GameSave.sav":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/.local/share/GSE Saves/settings/configs.user.ini":
-      tags:
-        - config
-      when:
-        - os: linux
-    "<winDocuments>/Tribute Games/MARVELCosmicInvasion/GameSave.sav":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winDocuments>/Tribute Games/MARVELCosmicInvasion/Settings.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    MARVEL Cosmic Invasion: {}
-  launch:
-    "<base>/Game":
-      - when:
-          - os: linux
-            store: steam
-    "<base>/Game.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2753970
 Marvel End Time Arena:
   installDir:
     MARVEL END TIME ARENA: {}
@@ -461231,6 +461158,8 @@ My Wet Leto Comic:
   steam:
     id: 1185530
 My Winter Car:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Amistech/My Winter Car":
       tags:
@@ -694873,6 +694802,8 @@ Terra Incognito - Antarctica 1911:
     id: 911420
 Terra Invicta:
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/TerraInvicta/Saves":
@@ -734269,32 +734200,6 @@ The Sims 2:
         - os: windows
   id:
     lutris: the-sims-2
-The Sims 2 Legacy Collection:
-  files:
-    "<base>/TSData/Res/Config":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winDocuments>/EA Games/The Sims 2 Legacy":
-      tags:
-        - save
-      when:
-        - os: windows
-  id:
-    lutris: the-simstm-2-legacy-collection
-  installDir:
-    The Sims 2 Legacy Collection: {}
-  launch:
-    "<base>/EP9/TSBin/Sims2EP9.exe":
-      - when:
-          - store: steam
-  registry:
-    HKEY_CURRENT_USER/SOFTWARE/Electronic Arts/The Sims 2 Ultimate Collection 25:
-      tags:
-        - config
-  steam:
-    id: 3314070
 The Sims 3:
   files:
     "<base>/Game/Bin/Default.ini":
@@ -806100,9 +806005,16 @@ Waterpark Simulator:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/CayPlay/WaterparkSimulator/**/*.es3":
+    "<home>/AppData/LocalLow/CayPlay/WaterparkSimulator/settings.json":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/CayPlay/WaterparkSimulator/slots":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     WaterPark Simulator: {}
   launch:

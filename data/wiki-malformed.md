@@ -3,6 +3,7 @@
 * [Dead Space 2](https://www.pcgamingwiki.com/wiki/?curid=2841)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
+* [I Wanna Be the Guy](https://www.pcgamingwiki.com/wiki/?curid=164183)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Solitaire (XP)](https://www.pcgamingwiki.com/wiki/?curid=166480)
@@ -12,5 +13,4 @@
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [The Sims 2 Legacy Collection](https://www.pcgamingwiki.com/wiki/?curid=206788)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)

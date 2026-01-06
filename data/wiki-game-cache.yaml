@@ -45914,6 +45914,7 @@ Conflict Zone:
     - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\Pivotal Games\\Conflict Desert Storm\\Device Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\SCi\\DesertStorm\\{{note|Retail version}}|{{p|game}}}}"
 "Conflict: Desert Storm II":
+  state: outdated
   lutris: conflict-desert-storm-ii
   pageId: 26306
   templates:
@@ -46267,6 +46268,7 @@ Constructor:
     - "{{Game data/config|DOS|{{p|game}}\\SETTINGS}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
 Constructor HD:
+  state: outdated
   cloud:
     steam: true
   pageId: 61236
@@ -51991,7 +51993,6 @@ Cyberia:
     - "{{Game data/config|DOS|{{P|game}}\\JOY.DEF}}"
     - "{{Game data/saves|DOS|{{P|game}}\\*.LOG}}"
 "Cyberia 2: Resurrection":
-  state: outdated
   cloud:
     gog: true
   gog: 1430388542
@@ -56078,6 +56079,7 @@ Dead Seater:
   pageId: 200630
   steam: 1570080
 Dead Secret:
+  state: outdated
   lutris: dead-secret
   pageId: 43939
   steam: 402260
@@ -87997,6 +87999,7 @@ Free Road:
   pageId: 91997
   steam: 820700
 Free Running:
+  state: outdated
   lutris: free-running
   pageId: 152745
   steam: 254940
@@ -110879,7 +110882,7 @@ I Wanna Be the Cat:
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\IWannaBeTheCat\\}}"
 I Wanna Be the Guy:
-  state: outdated
+  malformed: true
   pageId: 164183
   renamedFrom:
     - I Wanna Be The Guy
@@ -126333,19 +126336,6 @@ Left 4 Dead:
   steam: 500
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\left4dead\\cfg\\config.cfg|{{p|game}}\\left4dead\\cfg\\video.txt}}"
-Left 4 Dead 2:
-  state: outdated
-  cloud:
-    steam: true
-  lutris: left-4-dead-2
-  pageId: 144
-  steam: 550
-  steamSide:
-    - 322070
-  templates:
-    - "{{Game data/config|Windows|{{P|game}}\\left4dead2\\cfg\\config.cfg}}"
-    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{P|uid}}\\550\\remote\\}}"
-    - "{{Game data/saves|Linux|{{p|steam}}\\userdata\\{{P|uid}}\\550\\remote\\}}"
 Left Alive:
   cloud:
     steam: true
@@ -137125,16 +137115,6 @@ Marty Thinks 4D:
 Maru:
   pageId: 150992
   steam: 1150300
-Marvel Cosmic Invasion:
-  cloud:
-    xbox: true
-  pageId: 203746
-  steam: 2753970
-  templates:
-    - "{{Game data/config|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\Settings.cfg}}"
-    - "{{Game data/config|Linux|~/.local/share/GSE Saves/settings/configs.user.ini}}"
-    - "{{Game data/saves|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\GameSave.sav}}"
-    - "{{Game data/saves|Linux|~/.local/share/GSE Saves/2753970/remote/GameSave.sav}}"
 Marvel End Time Arena:
   pageId: 87509
   steam: 790650
@@ -142509,7 +142489,6 @@ Minecraft Legends:
     - "{{Game data/config|Windows|{{P|appdata}}\\Minecraft Legends\\{{P|uid}}\\minecraftpe\\local}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Minecraft Legends\\{{P|uid}}\\}}"
 "Minecraft: Bedrock Edition":
-  state: outdated
   pageId: 26177
   renamedFrom:
     - "Minecraft: Windows 10 Edition"
@@ -148651,6 +148630,8 @@ My Wet Leto Comic:
   pageId: 157039
   steam: 1185530
 My Winter Car:
+  cloud:
+    steam: true
   lutris: my-winter-car
   pageId: 211441
   steam: 4164420
@@ -162605,7 +162586,6 @@ Pain-to-win:
   pageId: 82209
   steam: 727690
 Painkiller:
-  state: outdated
   cloud:
     gog: true
   gog: 1207658715
@@ -223598,6 +223578,8 @@ Terra Incognito - Antarctica 1911:
   steam: 911420
 Terra Invicta:
   cloud:
+    epic: true
+    gog: true
     steam: true
     xbox: true
   gog: 1235051722
@@ -231744,6 +231726,9 @@ The Last NightMary - A Lenda do Cabeça de Cuia:
   steam: 407300
   steamSide:
     - 446860
+The Last Ninja:
+  state: outdated
+  pageId: 212621
 The Last One:
   pageId: 65134
   steam: 601380
@@ -236443,15 +236428,6 @@ The Sims 2:
     - "{{Game data/config|Windows|{{p|game}}\\TSData\\Res\\Config}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA Games\\The Sims 2\\|{{p|userprofile\\Documents}}\\EA Games\\The Sims™ 2 Ultimate Collection\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Aspyr/The Sims 2|~/Library/Containers/com.aspyr.sims2.appstore/Data/Library/Application Support/Aspyr/The Sims 2 ''(Mac App Store version)''<ref>{{Refurl|url=https://support.aspyr.com/hc/en-us/articles/360056571831-How-to-find-my-Saves-and-Game-Folder|title=How to find my Saves and Game Folder - Aspyr|date=May 2023}}</ref>}}"
-The Sims 2 Legacy Collection:
-  state: outdated
-  lutris: the-simstm-2-legacy-collection
-  malformed: true
-  pageId: 206788
-  steam: 3314070
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\TSData\\Res\\Config|{{p|hkcu}}\\SOFTWARE\\Electronic Arts\\The Sims 2 Ultimate Collection 25}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA Games\\The Sims 2 Legacy\\}}"
 The Sims 3:
   lutris: the-sims-3
   pageId: 4253
@@ -243086,6 +243062,7 @@ Tonetaker VR:
 Tongue of the Fatman:
   pageId: 145658
 Tonic Trouble:
+  state: outdated
   lutris: tonic-trouble
   pageId: 14475
   templates:
@@ -252914,7 +252891,6 @@ Untitled Goose Game:
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame0.save|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame1.save|{{p|userprofile\\AppData\\LocalLow}}\\House House\\Untitled Goose Game\\savegame2.save}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/House House/Untitled Goose Game/|{{p|osxhome}}/Library/Application Support/se.househou.untitled-goose-game/}}"
 "Untitled Hand Game: Titled Edition":
-  state: outdated
   pageId: 212547
   steam: 3448930
 Unto the End:
@@ -261022,11 +260998,13 @@ Waterloo:
   pageId: 149172
   steam: 1157860
 Waterpark Simulator:
-  state: outdated
   cloud:
     steam: true
   pageId: 209161
   steam: 3293260
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\CayPlay\\WaterparkSimulator\\settings.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\CayPlay\\WaterparkSimulator\\slots}}"
 Waterside Chirping:
   cloud:
     steam: true

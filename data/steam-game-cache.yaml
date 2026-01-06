@@ -634034,6 +634034,9 @@
         oslist: windows
       executable: WaterparkSimulator.exe
       type: default
+  nameLocalized:
+    schinese: 水上乐园模拟器
+    tchinese: 水上樂園模擬器
 3294570:
   installDir: Killer Depths
   launch:

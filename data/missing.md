@@ -26968,6 +26968,7 @@
 * [The Last Monster Master](https://www.pcgamingwiki.com/wiki/?curid=72678)
 * [The Last Night](https://www.pcgamingwiki.com/wiki/?curid=63646)
 * [The Last Night: The First Invation](https://www.pcgamingwiki.com/wiki/?curid=92995)
+* [The Last Ninja](https://www.pcgamingwiki.com/wiki/?curid=212621)
 * [The last of Trolls](https://www.pcgamingwiki.com/wiki/?curid=143790)
 * [The Last One](https://www.pcgamingwiki.com/wiki/?curid=65134)
 * [The Last Operator](https://www.pcgamingwiki.com/wiki/?curid=87878)
