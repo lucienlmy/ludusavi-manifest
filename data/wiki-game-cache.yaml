@@ -29003,6 +29003,7 @@ Bloodsports.TV:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\bscotm2gd*}}"
 "Bloodstained: Ritual of the Night":
+  state: outdated
   cloud:
     gog: true
     origin: true
@@ -32682,6 +32683,8 @@ Broken Spell 2:
   lutris: broken-sword-2-the-smoking-mirror
   pageId: 16485
   steam: 580440
+  templates:
+    - "{{Game data/config|Windows|(For the original that comes with the remaster) {{P|appdata}}\\ScummVM\\Saved Games\\}}"
 "Broken Sword II: The Smoking Mirror - Remastered":
   cloud:
     gog: true
@@ -50268,7 +50271,6 @@ Cryospace:
   pageId: 180034
   steam: 1460010
 Cryostasis:
-  state: outdated
   cloud:
     steam: true
   gog: 1207659011
@@ -60993,7 +60995,6 @@ Diablo:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Blizzard Entertainment\\Diablo\\}}"
     - "{{Game data/saves|Windows|\n{{p|game}}\\*.sv|\n{{P|game}}\\dx\\*.sv|\n{{P|game}}\\hellfire\\*.hsv}}"
 Diablo II:
-  state: outdated
   lutris: diablo-ii
   pageId: 595
   templates:
@@ -84471,6 +84472,7 @@ Five Hearts Under One Roof:
   steam: 3021100
 Five Hearts Under One Roof Season 2:
   cloud:
+    gog: true
     steam: true
   pageId: 211827
   steam: 3731020
@@ -86401,6 +86403,11 @@ Forastero:
   steam: 2401280
 Forbes Corporate Warrior:
   pageId: 211703
+Forbidden Art:
+  pageId: 151101
+  renamedFrom:
+    - The Haunted House VR Ep. 1
+  steam: 1166140
 Forbidden Clicker Party:
   pageId: 80466
   steam: 783200
@@ -103524,7 +103531,6 @@ Hellcard:
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\R2G_Hellcard}}"
 Helldivers:
-  state: outdated
   cloud:
     steam: true
   pageId: 30063
@@ -103535,7 +103541,6 @@ Helldivers:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Arrowhead\\Helldivers\\saves}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\394510\\}}"
 Helldivers 2:
-  state: outdated
   cloud:
     steam: true
   pageId: 187411
@@ -110892,8 +110897,6 @@ I Wanna Be the Cat:
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\IWannaBeTheCat\\}}"
 I Wanna Be the Guy:
-  state: outdated
-  malformed: true
   pageId: 164183
   renamedFrom:
     - I Wanna Be The Guy
@@ -117747,7 +117750,6 @@ Jetstream:
   pageId: 108776
   steam: 738860
 "Jett: The Far Shore":
-  state: outdated
   cloud:
     epic: true
     steam: true
@@ -122502,7 +122504,7 @@ Kira:
 Kirigiriso:
   pageId: 198769
 Kirikou:
-  state: outdated
+  lutris: kirikou
   pageId: 172466
 Kisaragi no Hougyoku:
   pageId: 51427
@@ -128445,7 +128447,6 @@ Life Is Strange Remastered:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Square Enix\\Life is Strange_ Before the Storm\\RemasteredSaves\\{{P|uid}}\\Preferences\\PrefData.Save}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Square Enix\\Life is Strange_ Before the Storm\\RemasteredSaves\\{{P|uid}}\\SLOT_{{code|##}}\\*.Save}}"
 "Life Is Strange: Double Exposure":
-  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -132600,7 +132601,6 @@ Lucky VS Aliens:
 "Lucky's Tale":
   pageId: 75933
 "Lucky's Tale VR":
-  state: outdated
   pageId: 173613
   steam: 1803840
 Lucy -The Eternity She Wished For-:
@@ -134520,7 +134520,6 @@ Maestro:
     - "Maestro: Notes of Life Collector's Edition"
   steam: 786100
 Mafia:
-  state: outdated
   cloud:
     discord: true
     gog: true
@@ -139007,7 +139006,6 @@ Mega Man Legacy Collection 2:
     - "{{Game data/config|Windows|{{p|appdata}}\\MegaMan2\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\MegaMan2\\}}"
 Mega Man Legends:
-  state: outdated
   pageId: 73408
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\MEGAMAN.CFG}}"
@@ -140800,7 +140798,6 @@ Metro 2033 Redux:
     - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\}}"
 Metro Awakening:
-  state: outdated
   cloud:
     steam: true
   lutris: metro-awakening
@@ -161384,7 +161381,7 @@ Over the Alps:
   pageId: 147815
   steam: 1227400
 Over the Hedge:
-  state: outdated
+  lutris: over-the-hedge
   pageId: 88459
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Activision\\Over the Hedge\\Save\\savegame\\settings##}}"
@@ -163834,11 +163831,14 @@ Parasite:
   pageId: 44926
   steam: 434270
 Parasite Mutant:
-  state: outdated
   cloud:
     steam: true
+  gog: 2024142270
+  lutris: parasite-mutant
   pageId: 209191
   steam: 3983000
+  steamSide:
+    - 4234670
 Paratopic:
   lutris: paratopic
   pageId: 109384
@@ -164514,7 +164514,6 @@ Pathologic:
     - "{{Game data/config|Windows|{{P|game}}\\data}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves}}"
 Pathologic 2:
-  state: outdated
   cloud:
     xbox: true
   gog: 1076642617
@@ -178664,7 +178663,6 @@ Rayman:
     - "{{Game data/config|Windows|{{p|windir}}\\Ubisoft\\ubi.ini{{Note|Retail releases only.}}|{{p|game}}\\Data\\Options\\|{{p|game}}\\ubi.ini{{Note|Digital releases only.}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\SaveGame\\}}"
 "Rayman 3: Hoodlum Havoc":
-  state: outdated
   gog: 1207658947
   lutris: rayman-3-hoodlum-havoc
   pageId: 9397
@@ -181878,6 +181876,7 @@ Resident Evil 4:
     - "{{Game data/config|Windows|{{p|game}}/SetupTool.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}/SaveData.dat}}"
 Resident Evil 4 (2023):
+  state: outdated
   cloud:
     steam: true
   pageId: 178020
@@ -191767,7 +191766,6 @@ Say No! More:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Thunderful Publishing\\SayNoMore\\{{P|uid}}\\|{{P|hkcu}}\\Software\\Thunderful Publishing\\SayNoMore\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Thunderful Publishing\\SayNoMore\\{{P|uid}}\\}}"
 Saya no Uta ~ The Song of Saya:
-  state: outdated
   cloud:
     gog: true
   gog: 1541066319
@@ -222373,7 +222371,6 @@ Tasty Blue:
   pageId: 37961
   steam: 345200
 Tasty Planet:
-  state: outdated
   pageId: 74247
   steam: 687540
 Tasty Planet Forever:
@@ -226505,7 +226502,6 @@ The Chronicles of Quiver Dick:
   pageId: 99582
   steam: 846880
 "The Chronicles of Riddick: Assault on Dark Athena":
-  state: outdated
   gog: 1207659070
   lutris: the-chronicles-of-riddick-assault-on-dark-athena
   pageId: 2134
@@ -228885,7 +228881,6 @@ The Final Take:
   pageId: 33508
   steam: 400510
 The Finals:
-  state: outdated
   pageId: 181915
   steam: 2073850
   templates:
@@ -229159,6 +229154,7 @@ The Forgotten:
   pageId: 156414
   steam: 1126640
 The Forgotten City:
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -229930,11 +229926,6 @@ The Hateful Dead:
 The Haunted Graveyard:
   pageId: 113974
   steam: 931930
-The Haunted House VR Ep. 1:
-  cloud:
-    steam: true
-  pageId: 151101
-  steam: 1166140
 "The Haunted House VR Movie Ep. 1 \"Missing\"":
   pageId: 153442
   steam: 1178260
@@ -230571,6 +230562,9 @@ The Incredible Friends:
   renamedFrom:
     - The incredible friends
   steam: 1197840
+The Incredible Hulk:
+  state: outdated
+  pageId: 80170
 The Incredible Machine:
   pageId: 66557
   templates:
@@ -239126,6 +239120,9 @@ The Zombiest Adventures in the Perverted Age of Enlightenment with a Pinch of Wo
 The Zwuggels - A Beach Holiday Adventure for Kids:
   pageId: 66035
   steam: 663370
+The alley:
+  pageId: 212661
+  steam: 4181410
 The beauties&zombies of beach for VR:
   pageId: 74640
   steam: 724940
@@ -252068,7 +252065,6 @@ Unexplored:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Unexplored/save/*}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Unexplored/save/*}}"
 "Unexplored 2: The Wayfarer's Legacy":
-  state: outdated
   cloud:
     steam: true
   gog: 1674273685
@@ -259687,7 +259683,6 @@ Warhalla:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\EternalCrusade\\Saved\\Config\\WindowsClient\\GameUserSettings.ini}}"
 "Warhammer 40,000: Fire Warrior":
-  state: outdated
   cloud:
     gog: true
   gog: 1394528466
@@ -259695,7 +259690,7 @@ Warhalla:
   pageId: 58401
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\fw.config.xml|{{p|game}}\\active_fwp.dat}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Data\\FireWarrior.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Data\\FireWarrior.dat|{{p|game}}\\Data\\Saves\\FW.dat{{note|GOG Preservation Program version}}}}"
 "Warhammer 40,000: Freeblade":
   pageId: 183981
 "Warhammer 40,000: Gladius - Relics of War":
@@ -264399,7 +264394,6 @@ Witch Hunt:
     - "Witch Hunters: Stolen Beauty Collector's Edition"
   steam: 597280
 Witch It:
-  state: outdated
   cloud:
     steam: true
   lutris: witch-it

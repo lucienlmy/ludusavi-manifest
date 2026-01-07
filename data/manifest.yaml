@@ -101731,6 +101731,12 @@ Broken Spell 2:
   steam:
     id: 262940
 "Broken Sword II: The Smoking Mirror":
+  files:
+    (For the original that comes with the remaster) <winAppData>/ScummVM/Saved Games:
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207658707
   id:
@@ -261988,6 +261994,7 @@ Five Hearts Under One Roof:
     id: 3021100
 Five Hearts Under One Roof Season 2:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/Storytaco/FHUOR2/SteamSaveDir/*.sav":
@@ -268547,6 +268554,11 @@ Forastero:
     lutris: forastero
   steam:
     id: 2401280
+Forbidden Art:
+  installDir:
+    ForbiddenArt: {}
+  steam:
+    id: 1166140
 Forbidden Clicker Party:
   installDir:
     Forbidden Clicker Party: {}
@@ -380663,6 +380675,9 @@ Kira:
         - save
   steam:
     id: 801120
+Kirikou:
+  id:
+    lutris: kirikou
 Kisaragi no Hougyoku:
   installDir:
     Kisaragi no Hougyoku: {}
@@ -500244,6 +500259,8 @@ Over the Hedge:
         - save
       when:
         - os: windows
+  id:
+    lutris: over-the-hedge
 Over the Hill:
   cloud:
     steam: true
@@ -507518,6 +507535,12 @@ Parasite:
 Parasite Mutant:
   cloud:
     steam: true
+  gog:
+    id: 2024142270
+  id:
+    lutris: parasite-mutant
+    steamExtra:
+      - 4234670
   steam:
     id: 3983000
 Paratopic:
@@ -714516,12 +714539,7 @@ The Haunted Graveyard:
   steam:
     id: 931930
 The Haunted House VR Ep. 1:
-  cloud:
-    steam: true
-  installDir:
-    ForbiddenArt: {}
-  steam:
-    id: 1166140
+  alias: Forbidden Art
 "The Haunted House VR Movie Ep. 1 \"Missing\"":
   steam:
     id: 1178260
@@ -742130,6 +742148,9 @@ The Zwuggels - A Beach Holiday Adventure for Kids:
             store: steam
   steam:
     id: 663370
+The alley:
+  steam:
+    id: 4181410
 The beauties&zombies of beach for VR:
   installDir:
     The beauties&zombies of beach for VR: {}
@@ -802362,6 +802383,11 @@ Warhalla:
     gog: true
   files:
     "<base>/Data/FireWarrior.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Data/Saves/FW.dat":
       tags:
         - save
       when:
