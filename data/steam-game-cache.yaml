@@ -585614,7 +585614,7 @@
 1864000:
   cloud:
     saves:
-      - path: www/save
+      - path: www/cloudsave
         pattern: "*.rpgsave"
         platforms:
           - Windows
@@ -601484,6 +601484,31 @@
       executable: Game.exe
       type: default
 2124480:
+  cloud:
+    saves:
+      - path: Respark_Data/StreamingAssets/Savedata
+        pattern: "*.json"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Respark_Data/StreamingAssets/Savedata
+            replace: Respark.app/Contents/Resources/Data/StreamingAssets/Savedata
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Respark
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Respark.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Respark.app/Contents/MacOS/Respark
+      type: default
   nameLocalized:
     japanese: リスパーク
 2124490:
@@ -639413,6 +639438,7 @@
       executable: mywintercar.exe
 4176460: {}
 4198090: {}
+4202710: {}
 4210700:
   installDir: Chicky Blocks
   launch:

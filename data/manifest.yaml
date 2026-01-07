@@ -204639,21 +204639,6 @@ Dragon Ball Xenoverse 2:
           - store: steam
   steam:
     id: 2072560
-"Dragon Ball: Sparking! Zero":
-  cloud:
-    steam: true
-  files:
-    "<base>/SaveGame/<storeUserId>":
-      when:
-        - store: steam
-  installDir:
-    DRAGON BALL Sparking! ZERO: {}
-  launch:
-    "<base>/SparkingZERO.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1790600
 "Dragon Ball: The Breakers":
   cloud:
     steam: true
@@ -332906,6 +332891,11 @@ Hocus 2:
             store: steam
   steam:
     id: 1460610
+Hocus Focus:
+  cloud:
+    steam: true
+  steam:
+    id: 4202710
 Hocus Pocus:
   cloud:
     gog: true
@@ -564803,9 +564793,29 @@ Resort:
   steam:
     id: 869060
 Respark:
+  files:
+    "<base>/Respark.app/Contents/Resources/Data/StreamingAssets/Savedata/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<base>/Respark_Data/StreamingAssets/Savedata/**/*.json":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 3204890
+  installDir:
+    Respark: {}
+  launch:
+    "<base>/Respark.app/Contents/MacOS/Respark":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Respark.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2124480
 Respawn Man:
@@ -716380,25 +716390,6 @@ The Incredible Friends:
           - store: steam
   steam:
     id: 1197840
-The Incredible Hulk:
-  files:
-    "<winDocuments>/The Incredible Hulk":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    The Incredible Hulk: {}
-  launch:
-    "<base>/Launcher.exe":
-      - when:
-          - store: steam
-  registry:
-    HKEY_CURRENT_USER/Software/The Incredible Hulk/Video:
-      tags:
-        - config
-  steam:
-    id: 10510
 The Incredible Machine:
   files:
     "<base>/*.TIM":
