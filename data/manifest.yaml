@@ -25023,6 +25023,12 @@ Agony VR:
 Agreeee:
   id:
     lutris: agreeee
+  installDir:
+    Agreeee: {}
+  launch:
+    "<base>/Agreeee.exe":
+      - when:
+          - store: steam
   steam:
     id: 3757210
 "Agricola: All Creatures Big and Small":
@@ -447536,6 +447542,8 @@ MonGirlTile:
   steam:
     id: 964110
 Monaco 2:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Monaco 2/Saves/*.*":
       when:
@@ -577725,6 +577733,11 @@ RogueCraft Squadron:
             store: steam
   steam:
     id: 1000810
+RogueDiceR:
+  cloud:
+    steam: true
+  steam:
+    id: 3636060
 RogueLite:
   installDir:
     Roguelite: {}
@@ -716408,6 +716421,27 @@ The Incredible Friends:
           - store: steam
   steam:
     id: 1197840
+The Incredible Hulk:
+  files:
+    "<winDocuments>/The Incredible Hulk":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: the-incredible-hulk-the-official-videogame
+  installDir:
+    The Incredible Hulk: {}
+  launch:
+    "<base>/Launcher.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/The Incredible Hulk/Video:
+      tags:
+        - config
+  steam:
+    id: 10510
 The Incredible Machine:
   files:
     "<base>/*.TIM":

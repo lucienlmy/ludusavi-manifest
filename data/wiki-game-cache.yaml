@@ -3787,7 +3787,6 @@ A-Vroom!:
   pageId: 149360
   steam: 1159070
 A.D. 2044:
-  state: outdated
   gog: 2075976504
   pageId: 76799
   templates:
@@ -7869,7 +7868,6 @@ Agony VR:
   pageId: 173793
   steam: 1493430
 Agreeee:
-  state: outdated
   lutris: agreeee
   pageId: 211015
   steam: 3757210
@@ -16677,7 +16675,6 @@ Asterix & Obelix:
     - "{{Game data/config|DOS|{{p|game}}\\OBELIXW.CFG}}"
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Infogrames\\Asterix & Obelix}}"
 Asterix & Obelix XXL:
-  state: outdated
   pageId: 133728
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SAVE\\AOXXL.sav}}"
@@ -29003,7 +29000,6 @@ Bloodsports.TV:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\bscotm2gd*}}"
 "Bloodstained: Ritual of the Night":
-  state: outdated
   cloud:
     gog: true
     origin: true
@@ -43675,7 +43671,6 @@ Code Tracer:
   pageId: 148970
   steam: 1155390
 Code Vein:
-  state: outdated
   cloud:
     steam: true
     xbox: true
@@ -56092,7 +56087,6 @@ Dead Seater:
   pageId: 200630
   steam: 1570080
 Dead Secret:
-  state: outdated
   lutris: dead-secret
   pageId: 43939
   steam: 402260
@@ -144087,6 +144081,8 @@ MonGirlTile:
   pageId: 125466
   steam: 964110
 Monaco 2:
+  cloud:
+    steam: true
   pageId: 203374
   steam: 1063030
 Monaco Grand Prix Racing Simulation 2:
@@ -181876,7 +181872,6 @@ Resident Evil 4:
     - "{{Game data/config|Windows|{{p|game}}/SetupTool.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}/SaveData.dat}}"
 Resident Evil 4 (2023):
-  state: outdated
   cloud:
     steam: true
   pageId: 178020
@@ -184772,7 +184767,6 @@ River City Melee Mach!!:
   pageId: 70579
   steam: 544630
 "River City Ransom: Underground":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -186370,6 +186364,11 @@ Rogue in the Void:
 RogueCraft Squadron:
   pageId: 127649
   steam: 1000810
+RogueDiceR:
+  cloud:
+    steam: true
+  pageId: 212606
+  steam: 3636060
 RogueLite:
   pageId: 123493
   steam: 975600
@@ -229154,7 +229153,6 @@ The Forgotten:
   pageId: 156414
   steam: 1126640
 The Forgotten City:
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -230563,8 +230561,12 @@ The Incredible Friends:
     - The incredible friends
   steam: 1197840
 The Incredible Hulk:
-  state: outdated
+  lutris: the-incredible-hulk-the-official-videogame
   pageId: 80170
+  steam: 10510
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\The Incredible Hulk\\Video}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\The Incredible Hulk}}"
 The Incredible Machine:
   pageId: 66557
   templates:

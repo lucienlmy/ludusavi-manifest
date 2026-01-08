@@ -637781,6 +637781,7 @@
     schinese: 遗忘之海
     tchinese: 遺忘之海
 3634520: {}
+3636060: {}
 3636620:
   cloud:
     saves:
@@ -638441,6 +638442,9 @@
       executable: CarDealerLifeSimulator.exe
       type: default
 3757210:
+  installDir: Agreeee
+  launch:
+    - executable: Agreeee.exe
   nameLocalized:
     english: Agreeee
     japanese: 利用規約に同意したい
