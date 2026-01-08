@@ -97359,13 +97359,15 @@ GreedFall:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\GreedFall\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GreedFall\\{{code|*}}.fsav}}"
-"GreedFall 2: The Dying World":
+"GreedFall II: The Dying World":
   cloud:
     steam: true
   gog: 2015990447
+  lutris: greedfall-ii-the-dying-world
   pageId: 192535
   renamedFrom:
     - GreedFall 2
+    - "GreedFall 2: The Dying World"
   steam: 1997660
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\GreedFall 2\\*.fsav}}"
@@ -168367,8 +168369,6 @@ Plague Inc.:
   steam: 246620
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ndemic Creations\\Plague Inc: Evolved}}"
-    - "{{Game data/config|OS X|Unknown. Please fill in this info.}}"
-    - "{{Game data/config|Linux|Unknown. Please fill in this info.}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profile\\Games-Gen\\Saves}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/.local/share/Ndemic Creations/Plague Inc. Evolved/Saves}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Ndemic Creations/Plague Inc. Evolved/Saves}}"
@@ -172347,6 +172347,9 @@ Pro Evolution Soccer 2008:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KONAMI\\Pro Evolution Soccer 2008\\save\\}}"
 Pro Evolution Soccer 2009:
   pageId: 154950
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KONAMI\\Pro Evolution Soccer 2009}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KONAMI\\Pro Evolution Soccer 2009\\save}}"
 Pro Evolution Soccer 2010:
   pageId: 154952
 Pro Evolution Soccer 2011:
@@ -205001,6 +205004,8 @@ Space Bound:
 Space Break:
   pageId: 104435
   steam: 910700
+Space Bucks:
+  pageId: 212679
 Space Bugs:
   pageId: 114922
   steam: 950910
@@ -215012,6 +215017,10 @@ Suchawira World Traveler:
   steam: 1574270
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SuckerforLoveBackup\\efs_data\\*.dat|{{P|game}}\\efs_data\\*.dat}}"
+Sudden Attack 2:
+  pageId: 212668
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
 Sudden Strike:
   cloud:
     gog: true
@@ -268338,6 +268347,7 @@ Yerah:
     gog: true
     steam: true
   gog: 1619000895
+  lutris: yes-your-grace-snowfall
   pageId: 187784
   steam: 1373090
   templates:

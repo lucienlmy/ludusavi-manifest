@@ -594576,7 +594576,7 @@
       executable: GreedFall2.exe
       type: default
     - config:
-        betakey: "compatibility,demo_ign,nacon,partners_amd,partners_intel,partners_loca,partners_nvidia,playtest,preview_event,qa_external,qa_external_trunk,spiders_dev,spiders_qa,spiders_stable_debug,nacon_trunk,video,gamescom_qa,lqa_external,nacon_gate"
+        betakey: "nacon,qa_external,qa_external_trunk,spiders_dev,spiders_qa,spiders_stable_debug,nacon_trunk,video,lqa_external,nacon_gate,studio_debug,external_debug,compatibility_debug,ratings,beta_vip_debug,partners_internal"
         osarch: "64"
         oslist: windows
       description: GreedFall 2 - DebugOpt
