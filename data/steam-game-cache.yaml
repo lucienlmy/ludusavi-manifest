@@ -557669,6 +557669,23 @@
         oslist: windows
       executable: KM.exe
       type: none
+1468260:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Leaf Blower Revolution
+  launch:
+    - config:
+        oslist: windows
+      executable: game.exe
 1468400:
   nameLocalized:
     schinese: 梦想屋：游戏

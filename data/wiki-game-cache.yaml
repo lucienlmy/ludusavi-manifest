@@ -126123,6 +126123,22 @@ Leaf Blower Co.:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\LeafBlowerSim\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\LeafBlowerSim\\Saved\\SaveGames}}"
+Leaf Blower Revolution:
+  cloud:
+    steam: true
+  pageId: 212681
+  steam: 1468260
+  steamSide:
+    - 1482630
+    - 1482631
+    - 1482632
+    - 1716410
+    - 1873910
+    - 2125730
+    - 2239260
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\blow_the_leaves_away}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\blow_the_leaves_away}}"
 Leaf it Alone:
   cloud:
     steam: true

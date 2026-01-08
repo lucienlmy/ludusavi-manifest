@@ -391797,6 +391797,34 @@ Leaf Blower Co.:
           - store: steam
   steam:
     id: 3571710
+Leaf Blower Revolution:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/blow_the_leaves_away":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 1482630
+      - 1482631
+      - 1482632
+      - 1716410
+      - 1873910
+      - 2125730
+      - 2239260
+  installDir:
+    Leaf Blower Revolution: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1468260
 Leaf it Alone:
   cloud:
     steam: true
