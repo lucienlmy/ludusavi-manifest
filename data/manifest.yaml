@@ -734332,6 +734332,32 @@ The Sims 2:
         - os: windows
   id:
     lutris: the-sims-2
+The Sims 2 Legacy Collection:
+  files:
+    "<base>/TSData/Res/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/EA Games/The Sims 2 Legacy":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: the-simstm-2-legacy-collection
+  installDir:
+    The Sims 2 Legacy Collection: {}
+  launch:
+    "<base>/EP9/TSBin/Sims2EP9.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Electronic Arts/The Sims 2 Ultimate Collection 25:
+      tags:
+        - config
+  steam:
+    id: 3314070
 The Sims 3:
   files:
     "<base>/Game/Bin/Default.ini":

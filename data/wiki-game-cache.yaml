@@ -236463,6 +236463,13 @@ The Sims 2:
     - "{{Game data/config|Windows|{{p|game}}\\TSData\\Res\\Config}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA Games\\The Sims 2\\|{{p|userprofile\\Documents}}\\EA Games\\The Sims™ 2 Ultimate Collection\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Aspyr/The Sims 2|~/Library/Containers/com.aspyr.sims2.appstore/Data/Library/Application Support/Aspyr/The Sims 2 ''(Mac App Store version)''<ref>{{Refurl|url=https://support.aspyr.com/hc/en-us/articles/360056571831-How-to-find-my-Saves-and-Game-Folder|title=How to find my Saves and Game Folder - Aspyr|date=May 2023}}</ref>}}"
+The Sims 2 Legacy Collection:
+  lutris: the-simstm-2-legacy-collection
+  pageId: 206788
+  steam: 3314070
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\TSData\\Res\\Config|{{p|hkcu}}\\SOFTWARE\\Electronic Arts\\The Sims 2 Ultimate Collection 25}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA Games\\The Sims 2 Legacy\\}}"
 The Sims 3:
   lutris: the-sims-3
   pageId: 4253
