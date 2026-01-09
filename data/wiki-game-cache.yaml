@@ -19835,6 +19835,8 @@ Back to the Dawn:
 Back to the Egg!:
   pageId: 69591
   steam: 705640
+"Back to the Future: Part III":
+  pageId: 212694
 "Back to the Future: The Game":
   gog: 1207659097
   lutris: back-to-the-future-the-game
@@ -84469,6 +84471,7 @@ Five Hearts Under One Roof Season 2:
   cloud:
     gog: true
     steam: true
+  gog: 1889101756
   pageId: 211827
   steam: 3731020
 Five Keys to Exit:
@@ -189555,11 +189558,6 @@ SUGURI:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\system.dat|{{p|game}}\\record.dat}}"
-SULFUR:
-  cloud:
-    steam: true
-  pageId: 205997
-  steam: 2124120
 SUM:
   pageId: 102675
   steam: 899100
@@ -215259,6 +215257,16 @@ Suite 776:
 "Suki's Spooky Romance":
   pageId: 93983
   steam: 847940
+Sulfur:
+  cloud:
+    steam: true
+  pageId: 205997
+  renamedFrom:
+    - SULFUR
+  steam: 2124120
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Perfect Random\\Sulfur\\PlayerSetting_*}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Perfect Random\\Sulfur\\*.es3}}"
 Sullen:
   pageId: 55183
   steam: 547210

@@ -262015,6 +262015,8 @@ Five Hearts Under One Roof Season 2:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1889101756
   installDir:
     Five Hearts Under One Roof season2: {}
   launch:
@@ -587637,23 +587639,6 @@ SUGURI:
           - store: steam
   steam:
     id: 262240
-SULFUR:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Perfect Random/Sulfur/*.es3":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    SULFUR: {}
-  launch:
-    "<base>/Sulfur.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2124120
 SUM:
   files:
     "<base>/SavesDir/*.json":
@@ -667824,6 +667809,28 @@ Suite 776:
             store: steam
   steam:
     id: 847940
+Sulfur:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Perfect Random/Sulfur/*.es3":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    SULFUR: {}
+  launch:
+    "<base>/Sulfur.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Perfect Random/Sulfur/PlayerSetting_*:
+      tags:
+        - config
+  steam:
+    id: 2124120
 Sullen:
   installDir:
     Sullen: {}
