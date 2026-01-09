@@ -7323,6 +7323,7 @@ Age of Empires:
     - 2805510
     - 2805520
     - 3080080
+    - 3219700
     - 3793540
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Games\\Age of Empires 2 DE\\{{p|uid}}\\profile\\}}"
@@ -126405,6 +126406,8 @@ Leftovers KO!:
   lutris: leftovers-ko
   pageId: 205306
   steam: 3169060
+Legacy:
+  pageId: 212685
 "Legacy of Dorn: Herald of Oblivion":
   cloud:
     steam: true
@@ -263193,6 +263196,11 @@ Wick:
   steam: 418300
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Hellbent Games\\Wick\\}}"
+Wicked Seed:
+  cloud:
+    steam: true
+  pageId: 212688
+  steam: 2767530
 Wicked Witches:
   pageId: 45471
   steam: 411630

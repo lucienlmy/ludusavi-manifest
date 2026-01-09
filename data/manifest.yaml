@@ -23254,6 +23254,7 @@ Age of Empires II (2013):
       - 2805510
       - 2805520
       - 3080080
+      - 3219700
       - 3793540
   installDir:
     AoE2DE: {}
@@ -813013,6 +813014,11 @@ Wick:
         - config
   steam:
     id: 418300
+Wicked Seed:
+  cloud:
+    steam: true
+  steam:
+    id: 2767530
 Wicked Witches:
   installDir:
     Wicked Witches: {}
