@@ -271597,6 +271597,43 @@ Forza Horizon 4:
     ForzaHorizon4: {}
   steam:
     id: 1293830
+Forza Horizon 5:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/1551360/remote/<storeUserId>":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winLocalAppData>/ForzaHorizon5/User_SteamLocalStorageDirectory/ConnectedStorage/ForzaUserConfigSelections":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Packages/Microsoft.624F8B84B80_8wekyb3d8bbwe/LocalCache/Local/User_GamingLocalStorageDirectory/ConnectedStorage/ForzaUserConfigSelections/UserConfigSelections":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/Microsoft.624F8B84B80_8wekyb3d8bbwe/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  installDir:
+    ForzaHorizon5: {}
+  launch:
+    "<base>/ForzaHorizon5.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1551360
 Forza Horizon 6:
   steam:
     id: 2483190
@@ -374831,6 +374868,9 @@ Keiko Everlasting:
             store: steam
   steam:
     id: 852630
+Kejora:
+  steam:
+    id: 1410400
 Kek Story:
   steam:
     id: 575730
@@ -509627,10 +509667,25 @@ Pathologic 2:
   steam:
     id: 505230
 Pathologic 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Ice-Pick Lodge/Pathologic 3/Saves":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1567359699
   id:
     lutris: pathologic-3
+  installDir:
+    Pathologic 3: {}
+  launch:
+    "<base>/Pathologic3.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3199650
 "Pathologic 3: Quarantine":

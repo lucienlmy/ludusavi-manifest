@@ -87349,6 +87349,17 @@ Forza Horizon 4:
     - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon4\\User_PCLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.SunriseBaseGame_8wekyb3d8bbwe\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\1293830\\remote\\}}"
+Forza Horizon 5:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 169274
+  steam: 1551360
+  templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.624F8B84B80_8wekyb3d8bbwe\\LocalCache\\Local\\User_GamingLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\UserConfigSelections}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon5\\User_SteamLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.624F8B84B80_8wekyb3d8bbwe\\SystemAppData\\wgs\\}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1551360\\remote\\{{P|uid}}\\}}"
 Forza Horizon 6:
   cloud:
     xbox: true
@@ -120567,6 +120578,9 @@ Keepsake:
 Keiko Everlasting:
   pageId: 96271
   steam: 852630
+Kejora:
+  pageId: 212700
+  steam: 1410400
 Kek Story:
   pageId: 58894
   steam: 575730
@@ -164545,6 +164559,8 @@ Pathologic 2:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Ice-Pick Lodge\\Pathologic 2\\Saves\\}}"
     - "{{Game data/saves|Microsoft Store}}"
 Pathologic 3:
+  cloud:
+    steam: true
   gog: 1567359699
   lutris: pathologic-3
   pageId: 204311

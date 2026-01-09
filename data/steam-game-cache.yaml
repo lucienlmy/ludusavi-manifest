@@ -551901,6 +551901,7 @@
     koreana: Sons of Valhalla 선즈 오브 발할라
     schinese: 英灵殿之子 Sons of Valhalla
     tchinese: 英靈殿之子 Sons of Valhalla
+1410400: {}
 1410640:
   cloud:
     saves:
@@ -632910,7 +632911,21 @@
     - executable: INAYAH.exe
   nameLocalized:
     schinese: 伊娜雅：断世之光
-3199650: {}
+3199650:
+  cloud:
+    saves:
+      - path: Ice-Pick Lodge/Pathologic 3/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Pathologic 3
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Pathologic3.exe
 3200060:
   installDir: 東風谷早苗の神風とともに
   launch:
