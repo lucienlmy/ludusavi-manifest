@@ -109060,6 +109060,8 @@ Cahors Sunset:
 Cairn:
   cloud:
     steam: true
+  gog:
+    id: 1300489906
   id:
     lutris: cairn--3
   steam:
@@ -300131,6 +300133,8 @@ Granado Espada:
   steam:
     id: 319730
 "Granblue Fantasy Versus: Rising":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/GBVSR/Saved/SaveGames":
       tags:
@@ -346862,6 +346866,8 @@ Ibb & obb:
   steam:
     id: 95400
 Icarus:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Icarus/Saved/Config/WindowsNoEditor":
       tags:

@@ -35059,6 +35059,7 @@ Cahors Sunset:
 Cairn:
   cloud:
     steam: true
+  gog: 1300489906
   lutris: cairn--3
   pageId: 206361
   steam: 1588550
@@ -96429,6 +96430,8 @@ Granado Espada:
   steamSide:
     - 663090
 "Granblue Fantasy Versus: Rising":
+  cloud:
+    steam: true
   pageId: 189097
   steam: 2157560
   templates:
@@ -111590,6 +111593,8 @@ Ibb & obb:
     - "{{Game data/config|Linux|{{P|game}}/usersettings.cfg}}"
     - "{{Game data/saves|Steam|{{P|steam}}/userdata/{{P|uid}}/95400/remote/}}"
 Icarus:
+  cloud:
+    steam: true
   pageId: 173388
   steam: 1149460
   steamSide:
