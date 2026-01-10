@@ -214523,9 +214523,6 @@
     saves:
       - path: LostEmber/Saved/SaveGames
         pattern: "*.sav"
-        root: gameinstall
-      - path: LostEmber/Saved/SaveGames
-        pattern: "*.sav"
         platforms:
           - Windows
         root: WinAppDataLocal
@@ -474018,7 +474015,7 @@
   nameLocalized:
     koreana: 원피스 해적무쌍 4
     schinese: ONE PIECE 海贼无双4
-    tchinese: ONE PIECE海賊無雙4
+    tchinese: ONE PIECE 海賊無雙4
 1089100:
   installDir: Power Block
   launch:
@@ -539630,6 +539627,7 @@
       type: default
   nameLocalized:
     schinese: 冲就完事模拟器
+1290060: {}
 1290220:
   cloud:
     saves:
@@ -569500,6 +569498,13 @@
       description: Play Palworld
       executable: Palworld.exe
       type: default
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Palworld (DirectX 12)
+      executable: Palworld.exe
+      type: option1
   nameLocalized:
     japanese: Palworld / パルワールド
     koreana: Palworld / 팰월드

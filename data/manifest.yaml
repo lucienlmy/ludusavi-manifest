@@ -52144,6 +52144,12 @@ Assetto Corsa Competizione:
   steam:
     id: 805550
 Assetto Corsa EVO:
+  files:
+    "<winDocuments>/ACE":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: assetto-corsa-evo
   installDir:
@@ -163581,6 +163587,9 @@ D.C. S***storm:
             store: steam
   steam:
     id: 793640
+D.E.E.P. Battle of Jove:
+  steam:
+    id: 1290060
 "D.F.R.: The Light":
   installDir:
     D.F.R. The Light: {}
@@ -436660,6 +436669,14 @@ Metal Slug Attack Reloaded:
             store: steam
   steam:
     id: 2322440
+Metal Slug Collection PC:
+  files:
+    "<base>/mslug.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 Metal Slug Defense:
   cloud:
     steam: true
@@ -552983,6 +553000,9 @@ Rampage Ragdoll:
             store: steam
   steam:
     id: 775790
+Rampage World Tour:
+  id:
+    lutris: rampage-world-tour
 Rampage of the Dead:
   installDir:
     Rampage of the Dead: {}
@@ -568371,7 +568391,9 @@ Rhythm Doctor:
     "<base>/User":
       tags:
         - config
+        - save
       when:
+        - os: windows
         - os: mac
     "<home>/.config/unity3d/7th Beat Games/Rhythm Doctor":
       tags:

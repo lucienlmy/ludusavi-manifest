@@ -16602,6 +16602,8 @@ Assetto Corsa EVO:
   lutris: assetto-corsa-evo
   pageId: 196569
   steam: 3058630
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\ACE\\}}"
 "Astalon: Tears of the Earth":
   cloud:
     gog: true
@@ -52279,6 +52281,9 @@ D.A.T.A:
 D.C. S***storm:
   pageId: 82351
   steam: 793640
+D.E.E.P. Battle of Jove:
+  pageId: 212723
+  steam: 1290060
 "D.F.R.: The Light":
   pageId: 76559
   steam: 747750
@@ -140519,6 +140524,9 @@ Metal Slug Attack Reloaded:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MSAR\\Saved\\SaveGames\\save.sav}}"
 Metal Slug Collection PC:
   pageId: 140399
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\mslug.dat}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\mslug.dat}}"
 Metal Slug Defense:
   cloud:
     steam: true
@@ -178231,6 +178239,9 @@ Rampage Online:
 Rampage Ragdoll:
   pageId: 79250
   steam: 775790
+Rampage World Tour:
+  lutris: rampage-world-tour
+  pageId: 212576
 Rampage of the Dead:
   pageId: 100278
   steam: 890640
@@ -183282,7 +183293,7 @@ Rhythm Doctor:
     - "{{Game data/config|Windows|%AppData%/LocalLow/7th Beat Games\\Rhythm Doctor\\}}"
     - "{{Game data/config|OS X|{{p|game}}\\User\\}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/7th Beat Games/Rhythm Doctor}}"
-    - "{{Game data/saves|Windows|%AppData%/LocalLow/7th Beat Games\\Rhythm Doctor\\}}"
+    - "{{Game data/saves|Windows|%AppData%/LocalLow/7th Beat Games\\Rhythm Doctor\\|{{p|game}}/User}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.7thbeat.RhythmDoctor}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/7th Beat Games/Rhythm Doctor}}"
 Rhythm Girl:
