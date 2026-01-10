@@ -631740,6 +631740,14 @@
   launch:
     - executable: BBH.exe
 3103780:
+  cloud:
+    saves:
+      - path: save
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
   installDir: DRAPLINE
   launch:
     - config:
@@ -638541,7 +638549,10 @@
     english: Agreeee
     japanese: 利用規約に同意したい
     schinese: 同意用户协议
-3762550: {}
+3762550:
+  nameLocalized:
+    schinese: 地狱超市
+    tchinese: 地獄超商
 3763470: {}
 3763840: {}
 3764200:

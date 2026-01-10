@@ -206792,6 +206792,14 @@ Draoi:
   steam:
     id: 818070
 Drapline:
+  cloud:
+    steam: true
+  files:
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     DRAPLINE: {}
   launch:
@@ -346880,6 +346888,7 @@ Icarus:
       when:
         - os: windows
   id:
+    lutris: icarus--1
     steamExtra:
       - 1648531
       - 1671080
@@ -556020,6 +556029,18 @@ Ready or Not:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/Packages/VOIDInteractive.ReadyorNot_wzdj6a56z6mzp/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/ReadyOrNot/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/ReadyOrNot/Saved/Config/Windows":
       tags:
         - config

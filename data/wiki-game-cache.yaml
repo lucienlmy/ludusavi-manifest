@@ -4378,7 +4378,7 @@ ANDROMALIUS:
     - 1909960
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\ThinkingStars\\Anno\\|{{P|userprofile}}\\AppData\\LocalLow\\Thinkingstars\\Anno\\SavesDir\\GameData.db}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Thinkingstars\\Anno\\SavesDir\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Thinkingstars\\Anno\\SavesDir\\<ref>{{Refurl|url=https://steamcommunity.com/app/1368030/discussions/0/3194747223938860169/|title=Steam Community Discussions - Bugs/General Feedbacks Discussion|date=2026-01-10}}</ref>}}"
 ANOIX:
   pageId: 92021
   steam: 840590
@@ -66318,8 +66318,13 @@ Draoi:
   pageId: 104733
   steam: 818070
 Drapline:
+  cloud:
+    steam: true
   pageId: 202109
   steam: 3103780
+  templates:
+    - "{{Game data/saves|Windows}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Draugen:
   cloud:
     gog: true
@@ -111595,6 +111600,7 @@ Ibb & obb:
 Icarus:
   cloud:
     steam: true
+  lutris: icarus--1
   pageId: 173388
   steam: 1149460
   steamSide:
@@ -179284,7 +179290,9 @@ Ready or Not:
     - 3015760
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\ReadyOrNot\\Saved\\Config\\Windows}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\ReadyOrNot\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\ReadyOrNot\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\VOIDInteractive.ReadyorNot_wzdj6a56z6mzp\\SystemAppData\\wgs}}"
 "Ready, Aim, Splat!":
   pageId: 55948
   steam: 559170
