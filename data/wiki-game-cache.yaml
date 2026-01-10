@@ -35757,6 +35757,13 @@ Can You Eat by Yourself:
 Can You find it?:
   pageId: 113910
   steam: 929600
+Can of Wormholes:
+  cloud:
+    steam: true
+  pageId: 212701
+  steam: 1295320
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\muntedfinger\\CanOfWormholes}}"
 "Can't Drive This":
   pageId: 39103
   steam: 466980
@@ -42320,6 +42327,17 @@ Claire:
     - 326270
   templates:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Hailstorm Games\\Claire}}"
+Claire a la Mode:
+  cloud:
+    steam: true
+  lutris: claire-a-la-mode
+  pageId: 212705
+  steam: 2292860
+  steamSide:
+    - 3368260
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Colorgrave\\CLAIRE\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Colorgrave\\CLAIRE\\}}"
 Claire de Lune:
   cloud:
     steam: true
@@ -121186,6 +121204,9 @@ Killer Frequency:
   lutris: killer-frequency
   pageId: 197310
   steam: 1903620
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Team17\\KillerFrequency\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Team17\\KillerFrequency\\{{p|uid}}\\*.sav}}"
 Killer Gin:
   pageId: 152827
   steam: 1164480
@@ -164560,7 +164581,9 @@ Pathologic 2:
     - "{{Game data/saves|Microsoft Store}}"
 Pathologic 3:
   cloud:
+    gog: true
     steam: true
+    xbox: true
   gog: 1567359699
   lutris: pathologic-3
   pageId: 204311
@@ -173813,6 +173836,8 @@ Psychedelica of the Black Butterfly:
 Psychiatrist Simulator:
   pageId: 82035
   steam: 791590
+Psychic Detective:
+  pageId: 212708
 Psychic Isolation:
   pageId: 68088
   steam: 650820
@@ -247889,6 +247914,15 @@ Tricky Cow:
     steam: true
   pageId: 141524
   steam: 1120160
+Tricky Doors:
+  cloud:
+    steam: true
+  lutris: tricky-doors
+  pageId: 212711
+  steam: 2552850
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Five-BN Games\\TrickyDoors_F2P\\steam\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2552850\\remote\\}}"
 Tricky Fox:
   cloud:
     steam: true
@@ -263050,6 +263084,10 @@ Whiteout:
   pageId: 203545
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Konami\\Whiteout}}"
+Whitestone:
+  lutris: whitestone
+  pageId: 212703
+  steam: 2324700
 Whitetail Challenge:
   pageId: 35228
   steam: 489050

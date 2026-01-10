@@ -49078,6 +49078,12 @@ Arthur and the Invisibles:
       when:
         - os: windows
 "Arthur's Math Carnival":
+  installDir:
+    "Arthur's Math Games": {}
+  launch:
+    "<base>/Carnival.exe":
+      - when:
+          - store: steam
   steam:
     id: 4056590
 "Arthur's Pet Chase":
@@ -49098,6 +49104,16 @@ Arthur and the Invisibles:
   steam:
     id: 3579320
 "Arthur's Preschool":
+  files:
+    "<base>/Users/*.DAT":
+      when:
+        - store: steam
+  installDir:
+    "Arthur's Preschool": {}
+  launch:
+    "<base>/ARTHURP1.EXE":
+      - when:
+          - store: steam
   steam:
     id: 4056600
 "Arthur's Quest: Battle for the Kingdom":
@@ -49113,6 +49129,17 @@ Arthur and the Invisibles:
       when:
         - os: windows
 "Arthur's Reading Games":
+  files:
+    "<base>/1999/ARD/*.txt":
+      when:
+        - store: steam
+  installDir:
+    "Arthur's Reading Games": {}
+  launch:
+    "<base>/2001/LIBRARY.EXE":
+      - when:
+          - store: steam
+        workingDir: "<base>/2001"
   steam:
     id: 4056610
 "Arthur's Reading Race":
@@ -111204,6 +111231,36 @@ Can You find it?:
             store: steam
   steam:
     id: 929600
+Can of Wormholes:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/muntedfinger/CanOfWormholes":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Can of Wormholes: {}
+  launch:
+    "<base>/Can of Wormholes.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/bin32/canofwormholes.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+        workingDir: "<base>/bin32"
+    "<base>/bin64/canofwormholes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/bin64"
+  steam:
+    id: 1295320
 "Can't Drive This":
   installDir:
     CantDriveThis: {}
@@ -132341,6 +132398,29 @@ Claire:
         - save
   steam:
     id: 252830
+Claire a la Mode:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Colorgrave/CLAIRE":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: claire-a-la-mode
+    steamExtra:
+      - 3368260
+  installDir:
+    Claire a la Mode: {}
+  launch:
+    "<base>/CLAIRE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2292860
 Claire de Lune:
   cloud:
     steam: true
@@ -316120,6 +316200,23 @@ Harry Potter and the Prisoner of Azkaban:
       when:
         - os: windows
 Harry and the Haunted House:
+  installDir:
+    Harry and the Haunted House: {}
+  launch:
+    "<base>/ScummVM/scummvm":
+      - arguments: "--config=\"../harryhh.ini\" --zoom-splash=white harryhh"
+        when:
+          - os: linux
+            store: steam
+    "<base>/ScummVM/scummvm.exe":
+      - arguments: "--config=\"harryhh.ini\" --no-console --zoom-splash=white harryhh"
+        when:
+          - os: windows
+            store: steam
+    "<base>/start.sh":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4056630
 "Harry's Burgers":
@@ -376754,8 +376851,11 @@ Killer Frequency:
     steam: true
   files:
     "<home>/AppData/LocalLow/Team17/KillerFrequency/<storeUserId>/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: killer-frequency
   installDir:
@@ -376766,6 +376866,10 @@ Killer Frequency:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Team17/KillerFrequency:
+      tags:
+        - config
   steam:
     id: 1903620
 Killer Gin:
@@ -403504,6 +403608,23 @@ Little Miss Lonely:
   steam:
     id: 651820
 Little Monster at School:
+  installDir:
+    Little Monster at School: {}
+  launch:
+    "<base>/ScummVM/scummvm":
+      - arguments: "--config=\"../lilmonster.ini\" --zoom-splash=white lilmonster"
+        when:
+          - os: linux
+            store: steam
+    "<base>/ScummVM/scummvm.exe":
+      - arguments: "--config=\"lilmonster.ini\" --no-console --zoom-splash=white lilmonster"
+        when:
+          - os: windows
+            store: steam
+    "<base>/start.sh":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4056640
 "Little Mouse's Encyclopedia":
@@ -418870,6 +418991,12 @@ Mages of Mystralia:
   steam:
     id: 652950
 "Maggie's Farmyard Adventure":
+  installDir:
+    "Maggie's Farmyard Adventure": {}
+  launch:
+    "<base>/Launch Maggie's Farmyard Adventure.bat":
+      - when:
+          - store: steam
   steam:
     id: 3996530
 "Maggie's Movies - Camera, Action!":
@@ -509668,6 +509795,7 @@ Pathologic 2:
     id: 505230
 Pathologic 3:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Ice-Pick Lodge/Pathologic 3/Saves":
@@ -767133,6 +767261,31 @@ Tricky Cow:
             store: steam
   steam:
     id: 1120160
+Tricky Doors:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2552850/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Five-BN Games/TrickyDoors_F2P/steam/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: tricky-doors
+  installDir:
+    Tricky Doors: {}
+  launch:
+    "<base>/trickydoors.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2552850
 Tricky Fox:
   cloud:
     steam: true
@@ -812614,6 +812767,18 @@ Whiteout:
     HKEY_CURRENT_USER/SOFTWARE/Konami/Whiteout:
       tags:
         - config
+Whitestone:
+  id:
+    lutris: whitestone
+  installDir:
+    Whitestone: {}
+  launch:
+    "<base>/Whitestone.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2324700
 Whitetail Challenge:
   installDir:
     Whitetail Challenge: {}

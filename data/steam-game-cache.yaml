@@ -540517,6 +540517,38 @@
       type: none
   nameLocalized:
     japanese: サガ フロンティア リマスター
+1295320:
+  cloud:
+    saves:
+      - path: "muntedfinger/CanOfWormholes/saves/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "muntedfinger/CanOfWormholes/saves/{64BitSteamID}"
+            replace: "muntedfinger/CanOfWormholes/saves/{64BitSteamID}"
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Can of Wormholes
+  launch:
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: "bin32\\canofwormholes.exe"
+      type: default
+      workingdir: bin32
+    - config:
+        oslist: macos
+      executable: Can of Wormholes.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin64\\canofwormholes.exe"
+      type: default
+      workingdir: bin64
 1295500:
   cloud:
     saves:
@@ -609427,6 +609459,19 @@
     koreana: Blacksmith Master 블랙스미스 마스터
     schinese: 铁匠大师 Blacksmith Master
     tchinese: 鐵匠大師 Blacksmith Master
+2292860:
+  cloud:
+    saves:
+      - path: Colorgrave/CLAIRE/
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Claire a la Mode
+  launch:
+    - config:
+        oslist: windows
+      executable: CLAIRE.exe
 2293380: {}
 2295610:
   cloud:
@@ -610658,6 +610703,13 @@
     koreana: 소닉 더 헤지혹 살인 사건
     schinese: 刺猬索尼克谋杀案
     tchinese: 刺猬索尼克的謀殺懸案
+2324700:
+  installDir: Whitestone
+  launch:
+    - config:
+        oslist: windows
+      executable: Whitestone.exe
+      type: default
 2325290:
   installDir: Sky Children of the Light
   launch:
@@ -619722,6 +619774,13 @@
         oslist: windows
       executable: MuscleNinjaVr.exe
       type: vr
+2552850:
+  installDir: Tricky Doors
+  launch:
+    - config:
+        oslist: windows
+      executable: trickydoors.exe
+      type: default
 2553870:
   installDir: The Genesis Order
   launch:
@@ -639315,7 +639374,11 @@
         oslist: windows
       executable: Skateboard_Game.exe
       type: default
-3996530: {}
+3996530:
+  installDir: "Maggie's Farmyard Adventure"
+  launch:
+    - executable: "Launch Maggie's Farmyard Adventure.bat"
+      type: default
 4004630: {}
 4012810: {}
 4016300:
@@ -639404,11 +639467,73 @@
     - description: Activity Center
       executable: ArthurK2.exe
       type: option1
-4056590: {}
-4056600: {}
-4056610: {}
-4056630: {}
-4056640: {}
+4056590:
+  installDir: "Arthur's Math Games"
+  launch:
+    - executable: Carnival.exe
+      type: default
+4056600:
+  cloud:
+    saves:
+      - path: Users
+        pattern: "*.DAT"
+        root: gameinstall
+  installDir: "Arthur's Preschool"
+  launch:
+    - executable: ARTHURP1.EXE
+      type: default
+    - description: Activity Center
+      executable: ARTHURP2.EXE
+      type: option1
+4056610:
+  cloud:
+    saves:
+      - path: 1999/ARD
+        pattern: "*.txt"
+        root: gameinstall
+  installDir: "Arthur's Reading Games"
+  launch:
+    - executable: 2001/LIBRARY.EXE
+      type: default
+      workingdir: "2001"
+    - description: 1999 Version
+      executable: 1999/Launch.bat
+      type: option1
+      workingdir: "1999"
+4056630:
+  installDir: Harry and the Haunted House
+  launch:
+    - arguments: "--config=\"../harryhh.ini\" --zoom-splash=white harryhh"
+      config:
+        oslist: linux
+      executable: "ScummVM\\scummvm"
+      type: default
+    - config:
+        oslist: macos
+      executable: start.sh
+      type: default
+    - arguments: "--config=\"harryhh.ini\" --no-console --zoom-splash=white harryhh"
+      config:
+        oslist: windows
+      executable: "ScummVM\\scummvm.exe"
+      type: default
+4056640:
+  installDir: Little Monster at School
+  launch:
+    - arguments: "--config=\"lilmonster.ini\" --no-console --zoom-splash=white lilmonster"
+      config:
+        oslist: windows
+      executable: "ScummVM\\scummvm.exe"
+      type: default
+    - arguments: "--config=\"../lilmonster.ini\" --zoom-splash=white lilmonster"
+      config:
+        oslist: linux
+      executable: "ScummVM\\scummvm"
+      type: default
+    - config:
+        oslist: macos
+      executable: start.sh
+      type: default
 4058000: {}
 4061090: {}
 4078430:
