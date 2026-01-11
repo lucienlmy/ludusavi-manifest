@@ -509951,13 +509951,22 @@ Pathologic 3:
     steam: true
   files:
     "<home>/AppData/LocalLow/Ice-Pick Lodge/Pathologic 3/Saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<home>/AppData/LocalLow/Ice-Pick Lodge/Pathologic 3/Settings":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1567359699
   id:
     lutris: pathologic-3
+    steamExtra:
+      - 4250480
+      - 4318180
   installDir:
     Pathologic 3: {}
   launch:
@@ -584473,6 +584482,22 @@ Rush Rover:
           - store: steam
   steam:
     id: 438320
+Rush Rush Rally Reloaded:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Rush Rush Rally Reloaded: {}
+  launch:
+    "<base>/Rush Rush Rally Reloaded.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2065610
 Rush for Berlin:
   files:
     "<base>/Profiles":

@@ -597751,6 +597751,18 @@
       type: default
   nameLocalized:
     schinese: 黑暗逃生2
+2065610:
+  cloud:
+    saves:
+      - path: "."
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Rush Rush Rally Reloaded
+  launch:
+    - config:
+        oslist: windows
+      description: Rush Rush Rally Reloaded
+      executable: Rush Rush Rally Reloaded.exe
 2065840:
   cloud:
     saves:

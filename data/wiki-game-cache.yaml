@@ -93555,6 +93555,8 @@ Giant Celebration:
 "Giant Cop: Justice Above All":
   pageId: 39430
   steam: 451080
+Giant Killers:
+  pageId: 212749
 Giant Life:
   pageId: 135628
   steam: 1081250
@@ -164674,6 +164676,12 @@ Pathologic 3:
   lutris: pathologic-3
   pageId: 204311
   steam: 3199650
+  steamSide:
+    - 4250480
+    - 4318180
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Ice-Pick Lodge\\Pathologic 3\\Settings\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Ice-Pick Lodge\\Pathologic 3\\Saves\\}}"
 "Pathologic 3: Quarantine":
   pageId: 204316
   steam: 3389330
@@ -188556,6 +188564,11 @@ Rush Rally Origins:
 Rush Rover:
   pageId: 54955
   steam: 438320
+Rush Rush Rally Reloaded:
+  cloud:
+    steam: true
+  pageId: 212747
+  steam: 2065610
 Rush for Berlin:
   pageId: 41211
   steam: 40320
@@ -258621,7 +258634,6 @@ Wandering Sword:
   cloud:
     steam: true
   lutris: wandering-sword
-  malformed: true
   pageId: 212735
   steam: 1876890
 Wandering Willows:
