@@ -65623,6 +65623,14 @@ Dragon Ball Xenoverse 2:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\DRAGON BALL GEKISHIN SQUADRA\\Saved\\SaveGames\\{{P|uid}}\\settingdata.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\DRAGON BALL GEKISHIN SQUADRA\\Saved\\SaveGames\\{{P|uid}}\\savedata.bin}}"
+"Dragon Ball: Sparking! Zero":
+  cloud:
+    steam: true
+  pageId: 191679
+  steam: 1790600
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\{{folder|SparkingZERO}}\\{{folder|Saved}}\\{{folder|Config}}\\{{folder|Windows}}\\{{file|Engine.ini}}|{{P|localappdata}}\\{{folder|SparkingZERO}}\\{{folder|Saved}}\\{{folder|Config}}\\{{folder|Windows}}\\{{file|GameUserSettings.ini}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\{{folder|SaveGame}}\\{{folder|{{p|uid}}}}\\{{file|MainGameSaveData}}|{{p|game}}\\{{folder|SaveGame}}\\{{folder|{{p|uid}}}}\\{{file|SystemSaveData}}}}"
 "Dragon Ball: The Breakers":
   cloud:
     steam: true
@@ -92860,6 +92868,7 @@ Geostorm:
     - 1134174017
     - 1921557920
     - 1933599411
+  lutris: gerda-a-flame-in-winter
   pageId: 182491
   steam: 1771360
   templates:
@@ -119594,6 +119603,8 @@ Ka Mate:
     steam: true
   pageId: 67944
   steam: 636490
+"Ka'Roo":
+  pageId: 212751
 "Kaan: Barbarian's Blade":
   pageId: 169071
   templates:
@@ -232837,6 +232848,7 @@ The Lighthouse:
   pageId: 137360
   steam: 957270
 The Lightkeeper:
+  lutris: the-lightkeeper--3
   pageId: 208308
   steam: 3612850
 The Line:

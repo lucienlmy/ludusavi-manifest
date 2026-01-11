@@ -204743,6 +204743,21 @@ Dragon Ball Xenoverse 2:
           - store: steam
   steam:
     id: 2072560
+"Dragon Ball: Sparking! Zero":
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveGame/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    DRAGON BALL Sparking! ZERO: {}
+  launch:
+    "<base>/SparkingZERO.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1790600
 "Dragon Ball: The Breakers":
   cloud:
     steam: true
@@ -289118,6 +289133,7 @@ Geostorm:
       - 1134174017
       - 1921557920
       - 1933599411
+    lutris: gerda-a-flame-in-winter
   installDir:
     Gerda: {}
   launch:
@@ -722866,6 +722882,8 @@ The Lighthouse:
   steam:
     id: 957270
 The Lightkeeper:
+  id:
+    lutris: the-lightkeeper--3
   installDir:
     The Lightkeeper: {}
   launch:
