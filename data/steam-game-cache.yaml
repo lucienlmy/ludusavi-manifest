@@ -70309,6 +70309,28 @@
     - description: Launch
       executable: play.exe
 322170:
+  cloud:
+    saves:
+      - path: GeometryDash
+        pattern: CCGameManager.dat
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: GeometryDash
+        pattern: CCLocalLevels.dat
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: GeometryDash
+        pattern: CCGameManager.dat
+        platforms:
+          - MacOS
+        root: MacAppSupport
+      - path: GeometryDash
+        pattern: CCLocalLevels.dat
+        platforms:
+          - MacOS
+        root: MacAppSupport
   installDir: Geometry Dash
   launch:
     - config:
@@ -538228,6 +538250,18 @@
         oslist: macos
       executable: Aquamarine.app
       type: default
+1280780:
+  installDir: War on the Sea
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: WarOnTheSea.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: WarOnTheSea.app
+      type: default
 1280930:
   cloud:
     saves:
@@ -593221,6 +593255,24 @@
     schinese: 轨道连结 - Railbound
     tchinese: 軌道連結 - Railbound
 1967610: {}
+1967630:
+  cloud:
+    saves:
+      - path: Odinsoft/Survival Fountain of Youth
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Survival Fountain of Youth
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Survival Fountain of Youth.exe
+      type: default
+  nameLocalized:
+    schinese: 求生岛：不老泉传说
 1967870:
   installDir: Ballads at Midnight
   launch:

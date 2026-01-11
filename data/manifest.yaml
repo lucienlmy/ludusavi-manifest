@@ -288842,6 +288842,8 @@ Geometry Dash:
         - save
       when:
         - os: windows
+  id:
+    lutris: geometry-dash
   installDir:
     Geometry Dash: {}
   launch:
@@ -488028,7 +488030,7 @@ Of the Devil:
   files:
     "<home>/AppData/LocalLow/Nth Circle Studios/of the Devil":
       tags:
-        - config
+        - save
       when:
         - os: windows
   id:
@@ -488036,6 +488038,7 @@ Of the Devil:
     steamExtra:
       - 3124580
       - 3124590
+      - 3124600
   installDir:
     of the Devil: {}
   launch:
@@ -532066,6 +532069,11 @@ Prey (2017):
       - 1419994872
       - 1914819310
     lutris: prey
+    steamExtra:
+      - 277639
+      - 609380
+      - 865670
+      - 1967880
   installDir:
     Prey: {}
   launch:
@@ -577591,6 +577599,7 @@ Rogue Loops:
     id: 3275010
 Rogue Lords:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -577603,6 +577612,7 @@ Rogue Lords:
     gogExtra:
       - 1217083139
       - 1331679155
+    lutris: rogue-lords
     steamExtra:
       - 1556061
   installDir:
@@ -678562,6 +678572,22 @@ Survival Zombies The Inverted Evolution:
 Survival or Die:
   steam:
     id: 1110290
+"Survival: Fountain of Youth":
+  files:
+    "<home>/AppData/LocalLow/Odinsoft/Survival Fountain of Youth":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Survival Fountain of Youth: {}
+  launch:
+    "<base>/Survival Fountain of Youth.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1967630
 "Survival: Last Day":
   steam:
     id: 851080
@@ -800998,6 +801024,21 @@ War on Folvos:
           - store: steam
   steam:
     id: 317380
+War on the Sea:
+  installDir:
+    War on the Sea: {}
+  launch:
+    "<base>/WarOnTheSea.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/WarOnTheSea.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1280780
 "War, the Game":
   cloud:
     steam: true

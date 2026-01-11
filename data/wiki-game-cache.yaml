@@ -92790,6 +92790,7 @@ Geometry Boxer:
   pageId: 92253
   steam: 840620
 Geometry Dash:
+  lutris: geometry-dash
   pageId: 25652
   steam: 322170
   templates:
@@ -157526,11 +157527,10 @@ Of the Devil:
   steamSide:
     - 3124580
     - 3124590
+    - 3124600
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Nth Circle Studios\\of the Devil\\}}"
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Nth Circle Studios\\of the Devil}}"
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Nth Circle Studios\\of the Devil\\}}"
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Nth Circle Studios\\of the Devil}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Nth Circle Studios\\of the Devil\\}}"
 Off Grid:
   cloud:
     steam: true
@@ -171693,6 +171693,12 @@ Prey (2017):
   lutris: prey
   pageId: 33371
   steam: 480490
+  steamSide:
+    - 277639
+    - 609380
+    - 741820
+    - 865670
+    - 1967880
   templates:
     - "{{Game data/config|Epic Games Launcher|{{p|userprofile}}\\Saved Games\\Arkane Studios\\Prey_Epic\\}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile}}\\Saved Games\\Arkane Studios\\Prey_MS\\}}"
@@ -186381,12 +186387,14 @@ Rogue Loops:
   steam: 3275010
 Rogue Lords:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1538637664
   gogSide:
     - 1217083139
     - 1331679155
+  lutris: rogue-lords
   pageId: 161693
   steam: 1069690
   steamSide:
@@ -193019,6 +193027,8 @@ Sea Legends:
   renamedFrom:
     - "Sea Legends: Phantasmal Light Collector's Edition"
   steam: 323280
+Sea Life Safari:
+  pageId: 212765
 Sea Salt:
   cloud:
     gog: true
@@ -218543,6 +218553,9 @@ Survival or Die:
   renamedFrom:
     - Survival or die
   steam: 1110290
+"Survival: Fountain of Youth":
+  pageId: 212763
+  steam: 1967630
 "Survival: Last Day":
   pageId: 94505
   steam: 851080
@@ -259137,6 +259150,9 @@ War on Folvos:
   steam: 317380
 War on Terror:
   pageId: 192726
+War on the Sea:
+  pageId: 212767
+  steam: 1280780
 "War, the Game":
   cloud:
     steam: true
