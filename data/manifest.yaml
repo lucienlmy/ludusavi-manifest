@@ -240648,6 +240648,38 @@ Evil Tonight:
         - config
       when:
         - os: windows
+Evil West:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/HighMoon/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/HighMoon/Saved/SaveGames/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1636740686
+  id:
+    gogExtra:
+      - 2012256665
+    steamExtra:
+      - 1997840
+  installDir:
+    Evil West: {}
+  launch:
+    "<base>/EvilWest.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1065310
 Evil Wizard:
   cloud:
     steam: true
@@ -293933,6 +293965,25 @@ Glory by Example:
             store: steam
   steam:
     id: 516450
+Glory of Deep Skies:
+  files:
+    "<base>/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/script/th_gods/Data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/script/th_gods/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: touhou-mukyuushi-glory-of-deep-skies
 Glory of the Self-Styled Diehard Girl:
   installDir:
     Glory of the Self-Styled Diehard girl: {}
@@ -379258,6 +379309,49 @@ Kingdom Clicker:
             store: steam
   steam:
     id: 379430
+"Kingdom Come: Deliverance II":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<base>/user.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/kingdomcome2/profiles/default/*.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/kingdomcome2/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1248083010
+  id:
+    gogExtra:
+      - 1141344806
+      - 1225642085
+      - 1340091827
+      - 1485720934
+      - 1774073357
+      - 1893634777
+    lutris: kingdom-come-deliverance-ii
+    steamExtra:
+      - 3118100
+      - 3118110
+      - 3118120
+      - 3119920
+      - 3368600
+      - 3368620
+      - 3406020
+  installDir:
+    KingdomComeDeliverance2: {}
+  steam:
+    id: 1771300
 Kingdom Defense:
   installDir:
     Kingdom Defense: {}
@@ -487912,6 +488006,32 @@ Of Ships & Scoundrels:
           - store: steam
   steam:
     id: 933830
+Of the Devil:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Nth Circle Studios/of the Devil":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: of-the-devil
+    steamExtra:
+      - 3124580
+      - 3124590
+  installDir:
+    of the Devil: {}
+  launch:
+    "<base>/of the Devil.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Nth Circle Studios/of the Devil:
+      tags:
+        - config
+  steam:
+    id: 2739630
 Off Grid:
   cloud:
     steam: true
@@ -540326,6 +540446,9 @@ Puppy Doge VR:
 PuppyStory:
   steam:
     id: 605530
+Purble Place 3D:
+  steam:
+    id: 2764530
 Pure:
   cloud:
     steam: true
@@ -540649,6 +540772,24 @@ Purple Noise Echo:
             store: steam
   steam:
     id: 1085540
+Purple Place - Classic Games:
+  installDir:
+    Purple Place: {}
+  launch:
+    "<base>/Mac.app/Contents/MacOS/Purple Place":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Purple Place.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/PurplePlace.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1117090
 Purple Saturn Day:
   gog:
     id: 1255495986
@@ -799229,6 +799370,24 @@ Wandering Star:
             store: steam
   steam:
     id: 907870
+Wandering Sword:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Wandering_Sword/Saved/<storeUserId>/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: wandering-sword
+  installDir:
+    Wandering Sword: {}
+  launch:
+    "<base>/JH.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1876890
 Wandering Willows:
   installDir:
     Wandering Willows: {}

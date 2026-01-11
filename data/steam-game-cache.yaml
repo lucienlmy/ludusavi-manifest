@@ -227804,6 +227804,11 @@
         platforms:
           - Windows
         root: WinAppDataLocal
+      - path: FalloutShelter
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Fallout Shelter
   launch:
     - executable: FalloutShelter.exe
@@ -487131,6 +487136,21 @@
         oslist: windows
       executable: wdnp.exe
       type: default
+1117090:
+  installDir: Purple Place
+  launch:
+    - config:
+        oslist: windows
+      executable: Purple Place.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: PurplePlace.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: "Mac.app\\Contents\\MacOS\\Purple Place"
+      type: default
 1117110: {}
 1117120:
   installDir: The Cross
@@ -586401,6 +586421,21 @@
     - config:
         oslist: windows
       executable: I Am Your Beast.exe
+1876890:
+  cloud:
+    saves:
+      - path: "Wandering_Sword/Saved/{64BitSteamID}/SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Wandering Sword
+  launch:
+    - executable: JH.exe
+  nameLocalized:
+    english: Wandering Sword
+    schinese: 逸剑风云决
+    tchinese: 逸劍風雲決
 1877020:
   cloud:
     saves:
@@ -624752,6 +624787,17 @@
     japanese: REYNATIS/レナティス
     koreana: 레나티스
     tchinese: 雷納提斯
+2739630:
+  cloud:
+    saves:
+      - path: Nth Circle Studios/of the Devil/NaninovelData/Saves
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: of the Devil
+  launch:
+    - executable: of the Devil.exe
 2739830:
   cloud:
     saves:
@@ -625409,6 +625455,7 @@
     koreana: Sandustry 샌더스트리
     schinese: 沙金工业 Sandustry
     tchinese: 沙金工業 Sandustry
+2764530: {}
 2765460:
   installDir: Star Trek Legends
   launch:

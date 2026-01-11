@@ -77118,6 +77118,21 @@ Evil Tonight:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\save\\Config.sav}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+Evil West:
+  cloud:
+    gog: true
+    steam: true
+    xbox: true
+  gog: 1636740686
+  gogSide:
+    - 2012256665
+  pageId: 165656
+  steam: 1065310
+  steamSide:
+    - 1997840
+  templates:
+    - "{{Game data/config|Windows|{{P|LOCALAPPDATA}}\\HighMoon\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{P|LOCALAPPDATA}}\\HighMoon\\Saved\\SaveGames\\{{p|uid}}\\}}"
 Evil Wizard:
   cloud:
     steam: true
@@ -94404,6 +94419,12 @@ Glory by Example:
     steam: true
   pageId: 36840
   steam: 516450
+Glory of Deep Skies:
+  lutris: touhou-mukyuushi-glory-of-deep-skies
+  pageId: 212733
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\script\\th_gods\\Data\\|{{p|game}}\\script\\th_gods\\replay\\}}"
 Glory of the Roman Empire:
   pageId: 275
 Glory of the Self-Styled Diehard Girl:
@@ -122044,6 +122065,32 @@ Kingdom Clicker:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\user.cfg|{{p|userprofile}}\\Saved Games\\kingdomcome\\profiles\\default\\*.xml|}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\kingdomcome\\saves\\}}"
+"Kingdom Come: Deliverance II":
+  cloud:
+    epic: true
+    steam: true
+  gog: 1248083010
+  gogSide:
+    - 1141344806
+    - 1225642085
+    - 1340091827
+    - 1485720934
+    - 1774073357
+    - 1893634777
+  lutris: kingdom-come-deliverance-ii
+  pageId: 194487
+  steam: 1771300
+  steamSide:
+    - 3118100
+    - 3118110
+    - 3118120
+    - 3119920
+    - 3368600
+    - 3368620
+    - 3406020
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\user.cfg|{{p|userprofile}}\\Saved Games\\kingdomcome2\\profiles\\default\\*.xml|}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\kingdomcome2\\saves\\}}"
 Kingdom Defense:
   pageId: 77028
   steam: 756260
@@ -151371,6 +151418,10 @@ Need for Kill 2D:
 Need for Madness:
   pageId: 86891
   steam: 343330
+Need for Russia:
+  pageId: 212602
+Need for Russia 2:
+  pageId: 212601
 Need for Russia 3:
   pageId: 209624
 "Need for Russia 4: Moscow Nights":
@@ -157453,6 +157504,20 @@ Of Orcs and Men:
 Of Ships & Scoundrels:
   pageId: 126285
   steam: 933830
+Of the Devil:
+  cloud:
+    steam: true
+  lutris: of-the-devil
+  pageId: 212653
+  steam: 2739630
+  steamSide:
+    - 3124580
+    - 3124590
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Nth Circle Studios\\of the Devil\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Nth Circle Studios\\of the Devil}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Nth Circle Studios\\of the Devil\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Nth Circle Studios\\of the Devil}}"
 Off Grid:
   cloud:
     steam: true
@@ -161075,6 +161140,8 @@ Outbuddies:
 Outburst:
   pageId: 65496
   steam: 669710
+Outburst (1998):
+  pageId: 212609
 Outcast:
   gog: 1207658853
   lutris: outcast
@@ -162688,7 +162755,7 @@ Painkiller:
     - 3200
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Bin\\config.ini}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\SaveGames\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\SaveGames}}"
 Painkiller (2025):
   cloud:
     steam: true
@@ -166735,6 +166802,8 @@ Picross.io:
 Pictassembler:
   pageId: 153893
   steam: 1204540
+Pictionary:
+  pageId: 212611
 PictoQuest:
   cloud:
     steam: true
@@ -174317,6 +174386,9 @@ Puppy Doge VR:
 PuppyStory:
   pageId: 59804
   steam: 605530
+Purble Place 3D:
+  pageId: 212727
+  steam: 2764530
 Pure:
   cloud:
     steam: true
@@ -174430,6 +174502,9 @@ Purple Hills:
 Purple Noise Echo:
   pageId: 142003
   steam: 1085540
+Purple Place - Classic Games:
+  pageId: 212725
+  steam: 1117090
 Purple Saturn Day:
   gog: 1255495986
   pageId: 165150
@@ -258542,6 +258617,13 @@ Wandering Owl:
 Wandering Star:
   pageId: 124262
   steam: 907870
+Wandering Sword:
+  cloud:
+    steam: true
+  lutris: wandering-sword
+  malformed: true
+  pageId: 212735
+  steam: 1876890
 Wandering Willows:
   pageId: 41248
   steam: 37270
