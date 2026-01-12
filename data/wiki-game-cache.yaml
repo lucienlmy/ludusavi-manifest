@@ -5964,6 +5964,15 @@ Acute Art VR Museum:
 Ad Exitum:
   pageId: 43045
   steam: 444990
+Ad Fundum:
+  cloud:
+    steam: true
+  lutris: ad-fundum
+  pageId: 212786
+  steam: 2647820
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Oldbut Gold\\Ad Fundum\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Oldbut Gold\\Ad Fundum\\Saves\\}}"
 Ad Infinitum:
   cloud:
     gog: true
@@ -59930,6 +59939,12 @@ Despelote:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\solimporta\\despelote\\{{P|uid}}\\Despelote\\despel.ote | {{p|hkcu}}\\Software\\solimporta\\despelote\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\solimporta\\despelote\\{{P|uid}}\\Despelote\\despel.ote}}"
+Despera Drops:
+  cloud:
+    steam: true
+  lutris: desperadrops
+  pageId: 212785
+  steam: 3291080
 "Desperados 2: Cooper's Revenge":
   gog: 1207658985
   pageId: 19593

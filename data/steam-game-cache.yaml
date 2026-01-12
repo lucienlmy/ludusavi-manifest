@@ -622022,6 +622022,43 @@
     sc_schinese: 灵魂面甲
     schinese: 灵魂面甲(Soulmask)
 2646720: {}
+2647820:
+  cloud:
+    saves:
+      - path: Oldbut Gold/Ad Fundum
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Oldbut Gold/Ad Fundum
+            replace: Oldbut Gold/Ad Fundum
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Oldbut Gold/Ad Fundum
+            replace: unity3d/Ad Fundum
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Ad Fundum
+  launch:
+    - config:
+        oslist: windows
+      executable: Ad Fundum.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Ad Fundum.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Ad Fundum.x86_64
+      type: default
 2648050:
   cloud:
     saves:
@@ -634298,6 +634335,21 @@
 3290690:
   nameLocalized:
     schinese: "冥河 : 贪婪之刃"
+3291080:
+  cloud:
+    saves:
+      - path: "D3PUBLISHER\\DesperaDrops\\Save"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: DesperaDrops
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DesperaDrops.exe
+      type: default
 3292260:
   installDir: Amenti
   launch:

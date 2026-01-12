@@ -18961,6 +18961,39 @@ Ad Exitum:
             store: steam
   steam:
     id: 444990
+Ad Fundum:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Oldbut Gold/Ad Fundum/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ad-fundum
+  installDir:
+    Ad Fundum: {}
+  launch:
+    "<base>/Ad Fundum.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Ad Fundum.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Ad Fundum.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Oldbut Gold/Ad Fundum:
+      tags:
+        - config
+  steam:
+    id: 2647820
 Ad Infinitum:
   cloud:
     gog: true
@@ -187584,6 +187617,26 @@ Despelote:
         - config
   steam:
     id: 2367820
+Despera Drops:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/D3PUBLISHER/DesperaDrops/Save":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: desperadrops
+  installDir:
+    DesperaDrops: {}
+  launch:
+    "<base>/DesperaDrops.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3291080
 "Desperados 2: Cooper's Revenge":
   files:
     "<base>/data/configuration/game":
