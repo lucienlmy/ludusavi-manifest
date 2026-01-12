@@ -16756,7 +16756,9 @@ Abyssus:
   id:
     steamExtra:
       - 3853680
+      - 3853790
       - 3853800
+      - 4168330
   installDir:
     Abyssus: {}
   launch:
@@ -41641,6 +41643,13 @@ Anthelion:
             store: steam
   steam:
     id: 494000
+Anthem:
+  files:
+    "<winDocuments>/BioWare/Anthem/settings/ProfileOptions_profile":
+      tags:
+        - config
+      when:
+        - os: windows
 Anthology of Fear:
   files:
     "<base>/Anthology of Fear_Data/StreamingAssets/*.aof":

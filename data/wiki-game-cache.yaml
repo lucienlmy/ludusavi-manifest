@@ -5199,7 +5199,9 @@ Abyssus:
   steam: 1721110
   steamSide:
     - 3853680
+    - 3853790
     - 3853800
+    - 4168330
 Abzû:
   cloud:
     discord: true
@@ -13166,7 +13168,7 @@ Anthelion:
 Anthem:
   pageId: 63532
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\{{folder|BioWare}}\\{{folder|Anthem}}\\{{folder|settings}}\\{{file|ProfileOptions_profile}}}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\BioWare\\Anthem\\settings\\ProfileOptions_profile}}"
 Anthology of Fear:
   pageId: 142225
   steam: 1092530
