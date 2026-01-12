@@ -614855,6 +614855,24 @@
   launch:
     - executable: VtmJustice.exe
       type: vr
+2431880:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: High Sea Saga DX
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 大海賊クエスト島DX
+    koreana: 대해적 스토리 DX (High Sea Saga DX)
+    schinese: 大海贼探险物语DX (High Sea Saga DX)
+    tchinese: 大海賊探險物語DX (High Sea Saga DX)
+    thai: เรื่องราวยอดโจรสลัดDX (High Sea Saga DX)
 2432100:
   cloud:
     saves:
@@ -629107,7 +629125,7 @@
       executable: Anning.release.exe
       type: option1
     - config:
-        betakey: "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_05, external_01, external_02, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02, "
+        betakey: "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_05, external_01, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02"
       description: Profile Build
       executable: Anning.profile.exe
       type: option2
@@ -633361,6 +633379,23 @@
     - config:
         oslist: windows
       executable: UmamusumePrettyDerby.exe
+3224840:
+  cloud:
+    saves:
+      - path: game/saves/
+        pattern: "*"
+        root: gameinstall
+  installDir: Sophie The Girl From The Zone
+  launch:
+    - config:
+        oslist: windows
+      executable: SophieTheGirlFromTheZone.exe
+    - config:
+        oslist: macos
+      executable: SophieTheGirlFromTheZone.app
+    - config:
+        oslist: linux
+      executable: SophieTheGirlFromTheZone.sh
 3225260:
   installDir: Diluvian Ultra Awakening
   launch:
@@ -635274,6 +635309,30 @@
       executable: taweret_Shipping_Playfab_Steam_x64.exe
       type: default
 3367820: {}
+3368250:
+  cloud:
+    saves:
+      - path: SQRT3/Delicious The First Course/GameSaves
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SQRT3/Delicious_ The First Course/GameSaves
+            replace: com.SQRT3.Delicious-The-First-Course/GameSaves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Delicious The First Course
+  launch:
+    - config:
+        oslist: windows
+      executable: Delicious The First Course.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: D01.app/Contents/MacOS/Delicious The First Course
+      type: default
 3368940:
   installDir: Someone is behind you
   launch:

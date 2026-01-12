@@ -58607,6 +58607,11 @@ Deleveled:
 Delicious - Moms vs Dads:
   pageId: 78024
   steam: 736930
+Delicious - The First Course:
+  pageId: 212768
+  steam: 3368250
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\SQRT3\\Delicious The First Course\\GameSaves\\}}}}"
 Delicious! Pretty Girls Mahjong Solitaire:
   cloud:
     steam: true
@@ -103970,6 +103975,7 @@ HenTris:
 Henchman Story:
   cloud:
     steam: true
+  lutris: henchman-story
   pageId: 173371
   steam: 1449510
   templates:
@@ -106184,6 +106190,12 @@ High School Simulator:
 "High School: bisexual experience":
   pageId: 104263
   steam: 909860
+High Sea Saga DX:
+  malformed: true
+  pageId: 212776
+  steam: 2431880
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\saves\\{{p|uid}}\\}}"
 High Seas Trader:
   pageId: 71994
   templates:
@@ -150801,7 +150813,7 @@ Naruto Online:
   pageId: 185574
   steam: 1020790
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1020790\\remote\\}}"
 "Naruto to Boruto: Shinobi Striker":
   cloud:
@@ -204373,6 +204385,11 @@ Sophica - Temples Of Mystery:
 "Sophie's Guardian":
   pageId: 52209
   steam: 530830
+"Sophie: The Girl From The Zone":
+  cloud:
+    steam: true
+  pageId: 212780
+  steam: 3224840
 Sophont:
   cloud:
     steam: true

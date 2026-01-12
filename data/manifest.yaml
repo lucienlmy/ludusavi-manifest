@@ -183322,6 +183322,28 @@ Delicious - Moms vs Dads:
             store: steam
   steam:
     id: 736930
+Delicious - The First Course:
+  files:
+    "<home>/AppData/LocalLow/SQRT3/Delicious The First Course/GameSaves/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/SQRT3/Delicious The First Course/GameSaves/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Delicious The First Course: {}
+  launch:
+    "<base>/D01.app/Contents/MacOS/Delicious The First Course":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Delicious The First Course.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3368250
 Delicious! Pretty Girls Mahjong Solitaire:
   cloud:
     steam: true
@@ -323058,6 +323080,8 @@ Henchman Story:
         - save
       when:
         - os: windows
+  id:
+    lutris: henchman-story
   installDir:
     Henchman Story: {}
   launch:
@@ -330181,6 +330205,22 @@ High School Simulator:
 "High School: bisexual experience":
   steam:
     id: 909860
+High Sea Saga DX:
+  files:
+    "<base>/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    High Sea Saga DX: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2431880
 "High Seas, High Profits!":
   cloud:
     steam: true
@@ -467683,6 +467723,11 @@ Naruto Online:
   cloud:
     steam: true
   files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<root>/userdata/<storeUserId>/1020790/remote":
       tags:
         - save
@@ -634220,6 +634265,30 @@ Sophica - Temples Of Mystery:
     "Sophie's Guardian": {}
   steam:
     id: 530830
+"Sophie: The Girl From The Zone":
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+  installDir:
+    Sophie The Girl From The Zone: {}
+  launch:
+    "<base>/SophieTheGirlFromTheZone.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SophieTheGirlFromTheZone.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SophieTheGirlFromTheZone.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3224840
 Sophont:
   cloud:
     steam: true
