@@ -495827,33 +495827,26 @@
 1135260:
   cloud:
     saves:
-      - path: WiredProductions/TheFalconeer
-        pattern: "*.dat"
+      - path: Wired Productions/TheFalconeer
+        pattern: save.dat
         root: WinAppDataLocalLow
-    overrides:
-      - os: Linux
-        osCompare: "="
-        pathTransforms:
-          - find: WiredProductions/TheFalconeer
-            replace: ".config/unity3d/WiredProductions/TheFalconeer"
+      - path: Wired Productions/TheFalconeer
+        pattern: achievements.dat
         root: WinAppDataLocalLow
-        useInstead: LinuxHome
   installDir: TheFalconeer
   launch:
-    - config:
-        oslist: windows
+    - description: The Falconeer Revolution Remaster (2025)
       executable: TheFalconeer.exe
-      type: default
-    - config:
-        osarch: "64"
-        oslist: linux
-      description: SteamDeck + Linux Build
-      executable: TheFalconeer.x86_64
-      type: default
+      type: option1
     - config:
         oslist: windows
-      description: The Falconeer VR (regular game controller required)
-      executable: VRBuildSteam/TheFalconeerVR.exe
+      description: The Falconeer (2020 Legacy Version)
+      executable: /Legacy/TheFalconeer.exe
+      type: option1
+    - config:
+        oslist: windows
+      description: The Falconeer VR (2020 Legacy Version)
+      executable: /Legacy/VRBuildSteam/TheFalconeerVR.exe
       type: vr
   nameLocalized:
     schinese: 空战猎鹰
@@ -597175,6 +597168,7 @@
         oslist: windows
       executable: SnowballProject.exe
       type: default
+2057760: {}
 2058030:
   installDir: Zombie Army VR
   launch:
@@ -638772,6 +638766,26 @@
     schinese: "阿西, 美女室友竟然...？2"
     tchinese: "阿西, 美女室友竟然...？2"
 3734010: {}
+3741860:
+  cloud:
+    saves:
+      - path: Vital Shell
+        pattern: "*.res"
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: Vital Shell
+  launch:
+    - config:
+        oslist: windows
+      executable: VitalShell.exe
+    - config:
+        oslist: linux
+      executable: VitalShell_Linux.exe.x86_64
 3743220:
   cloud:
     saves:

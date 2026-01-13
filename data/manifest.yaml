@@ -236725,6 +236725,16 @@ Eslander:
     Eslander: {}
   steam:
     id: 1069250
+Esoteric Ebb:
+  cloud:
+    steam: true
+  id:
+    lutris: esoteric-ebb
+    steamExtra:
+      - 2128090
+      - 2310250
+  steam:
+    id: 2057760
 Esper - Make You Live Again:
   cloud:
     steam: true
@@ -355475,6 +355485,12 @@ Ink Plane:
             store: steam
   steam:
     id: 922150
+InkBall:
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/InkBall:
+      tags:
+        - config
+        - save
 InkSplosion:
   installDir:
     InkSplosion: {}
@@ -443326,6 +443342,12 @@ Minesweep World:
             store: steam
   steam:
     id: 1129200
+Minesweeper:
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/winmine:
+      tags:
+        - config
+        - save
 Minesweeper Peak VR:
   installDir:
     Minesweeper peak VR: {}
@@ -540639,6 +540661,18 @@ Puppy Doge VR:
 PuppyStory:
   steam:
     id: 605530
+Purble Place:
+  files:
+    "<home>/Saved Games/Microsoft Games/Purble Place":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/Purble Place":
+      tags:
+        - config
+      when:
+        - os: windows
 Purble Place 3D:
   steam:
     id: 2764530
@@ -631360,6 +631394,12 @@ Solitaire (Sanuk Games):
             store: steam
   steam:
     id: 539300
+Solitaire (XP):
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/Solitaire:
+      tags:
+        - config
+        - save
 Solitaire (baKno Games):
   installDir:
     Solitaire: {}
@@ -666524,6 +666564,8 @@ Stupid Raft Battle Simulator:
         - os: windows
   gog:
     id: 2038001955
+  id:
+    lutris: styx-master-of-shadows
   installDir:
     Styx: {}
   launch:
@@ -711076,16 +711118,6 @@ The Falconeer:
       - 2079521155
   installDir:
     TheFalconeer: {}
-  launch:
-    "<base>/TheFalconeer.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/TheFalconeer.x86_64":
-      - when:
-          - bit: 64
-            os: linux
-            store: steam
   steam:
     id: 1135260
 "The Falconers: Moonlight":
@@ -794641,6 +794673,35 @@ Vita3K:
         - save
       when:
         - os: windows
+Vital Shell:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Vital Shell/*.res":
+      when:
+        - store: steam
+    "<xdgData>/Vital Shell/*.res":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: vital-shell
+    steamExtra:
+      - 3886220
+      - 3928280
+  installDir:
+    Vital Shell: {}
+  launch:
+    "<base>/VitalShell.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/VitalShell_Linux.exe.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3741860
 Vitamin Girl:
   files:
     "<winLocalAppData>/VitaminGirl/Saved/SaveGames/*.sav":
@@ -831754,12 +831815,12 @@ Youropa:
     id: 640120
 Yourself!Fitness:
   files:
-    "<base>/<storeUserId>.yfp":
+    "<base>/gameData/<storeUserId>.yfp":
       tags:
         - save
       when:
         - os: windows
-    "<base>/fitness.ini":
+    "<base>/gameData/fitness.ini":
       tags:
         - config
       when:

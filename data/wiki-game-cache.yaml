@@ -75746,6 +75746,15 @@ Eslander:
   steam: 1069250
 "Esoteria: Techno-Assassin of the Future":
   pageId: 166543
+Esoteric Ebb:
+  cloud:
+    steam: true
+  lutris: esoteric-ebb
+  pageId: 212823
+  steam: 2057760
+  steamSide:
+    - 2128090
+    - 2310250
 España 1936:
   pageId: 172043
   renamedFrom:
@@ -114366,6 +114375,9 @@ Ink Plane:
   steam: 922150
 InkBall:
   pageId: 166484
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\InkBall}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Microsoft\\InkBall}}"
 InkSplosion:
   pageId: 91164
   steam: 827450
@@ -142815,6 +142827,9 @@ Minesweep World:
   steam: 1129200
 Minesweeper:
   pageId: 166482
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\winmine}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Microsoft\\winmine}}"
 Minesweeper Peak VR:
   pageId: 134951
   steam: 1074330
@@ -174463,6 +174478,11 @@ Puppy Doge VR:
 PuppyStory:
   pageId: 59804
   steam: 605530
+Purble Place:
+  pageId: 13130
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Purble Place}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Purble Place}}"
 Purble Place 3D:
   pageId: 212727
   steam: 2764530
@@ -203405,6 +203425,9 @@ Solitaire (Sanuk Games):
   steam: 539300
 Solitaire (XP):
   pageId: 166480
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\Solitaire}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Microsoft\\Solitaire}}"
 Solitaire (baKno Games):
   pageId: 77822
   steam: 748540
@@ -214846,6 +214869,7 @@ Stupid Raft Battle Simulator:
     gog: true
     steam: true
   gog: 2038001955
+  lutris: styx-master-of-shadows
   pageId: 20406
   steam: 242640
   templates:
@@ -257099,6 +257123,15 @@ Vita3K:
   pageId: 181469
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Vita3K\\Vita3K\\ux0\\user\\00\\}}"
+Vital Shell:
+  cloud:
+    steam: true
+  lutris: vital-shell
+  pageId: 212825
+  steam: 3741860
+  steamSide:
+    - 3886220
+    - 3928280
 Vitamin Girl:
   pageId: 72832
   steam: 718910
@@ -269300,8 +269333,8 @@ Youropa:
 Yourself!Fitness:
   pageId: 202482
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\fitness.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\{{p|uid}}.yfp}}"
+    - "{{Game data/config|Windows|{{p|game}}\\gameData\\fitness.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\gameData\\{{p|uid}}.yfp}}"
 Yousei:
   pageId: 108816
   steam: 771380
