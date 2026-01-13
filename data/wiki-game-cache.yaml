@@ -31544,6 +31544,10 @@ Brave Dungeon:
 Brave Dungeon II:
   pageId: 123515
   steam: 980220
+Brave Dwarves Creeping Shadows:
+  lutris: my-winter-car
+  pageId: 212371
+  steam: 4164420
 "Brave Earth: Prologue":
   cloud:
     gog: true
@@ -32007,6 +32011,12 @@ Brewer:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\BrewmasterMain\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BrewmasterMain\\Saved\\SaveGames\\}}"
+Brews & Bastards:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 212820
+  steam: 2556240
 Brian Lara Cricket:
   pageId: 91703
 "Brian Lara Cricket '96":
@@ -52464,6 +52474,7 @@ DCL - The Game:
   pageId: 108380
   steam: 501850
 DCS World:
+  malformed: true
   pageId: 22540
   steam: 223750
   templates:
@@ -57908,6 +57919,7 @@ Deep Rock Galactic:
     steam: true
     xbox: true
   lutris: deep-rock-galactic
+  malformed: true
   pageId: 55221
   steam: 548430
   steamSide:
@@ -80406,7 +80418,7 @@ Fantastic 4:
   renamedFrom:
     - Fantastic Four
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Activision\\Fantastic Four\\|{{p|hkcu}}\\Software\\Activision\\F4\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Activision\\Fantastic Four|{{p|hkcu}}\\Software\\Activision\\F4}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Fantastic Four\\}}"
 Fantastic 4 In A Row 2:
   pageId: 41613
@@ -95144,7 +95156,7 @@ God of Yoga:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\One More Level\\GodsTrigger\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\One More Level\\Gods_Trigger}}"
-    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\488730\\remote\\save}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\488730\\remote\\save<ref>{{Refurl|url=https://godstrigger.support.techland.pl/en/support/solutions/articles/15000021900-pc-save-files-location|title=Techland Support - PC save files location|date=2026-01-12}}</ref>}}"
 GodOrEvil.Beta:
   pageId: 144614
   steam: 1140700
@@ -106208,6 +106220,9 @@ High School Simulator:
   pageId: 104263
   steam: 909860
 High Sea Saga DX:
+  cloud:
+    steam: true
+    xbox: true
   malformed: true
   pageId: 212776
   steam: 2431880
@@ -133998,6 +134013,7 @@ MX vs. ATV All Out:
   pageId: 71952
   steam: 520940
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MXvsATVAllOut\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MXvsATVAllOut\\Saved\\SaveGames\\}}"
 MX vs. ATV Legends:
   cloud:
@@ -134005,7 +134021,7 @@ MX vs. ATV Legends:
   pageId: 180991
   steam: 1205970
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\MX2021\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MX2021\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\MX2021\\Saved\\SaveGames\\*.sav}}"
 MX vs. ATV Reflex:
   cloud:
@@ -137668,6 +137684,7 @@ Mass Effect Legendary Edition:
   cloud:
     origin: true
   lutris: mass-effecttm-legendary-edition
+  malformed: true
   pageId: 165160
   steam: 1328670
   steamSide:
@@ -148482,6 +148499,12 @@ My Little Kitties:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Melbot Studios\\MLP}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Melbot Studios\\MLP}}"
+"My Little Pony: A Zephyr Heights Mystery":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 212821
+  steam: 2235440
 "My Little Pony: Best Friends Ball":
   pageId: 166205
 "My Little Pony: Crystal Princess - The Runaway Rainbow":
@@ -175867,6 +175890,9 @@ Quarantine Circular:
     - "{{Game data/config|DOS|{{p|game}}\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\}}"
 "Quarantine Zone: The Last Check":
+  cloud:
+    steam: true
+    xbox: true
   pageId: 206552
   steam: 3419520
   steamSide:
@@ -201195,6 +201221,10 @@ Sleeping Dogs:
 Sleeping Valley:
   pageId: 51284
   steam: 538590
+"Sleepover: reWake":
+  lutris: my-winter-car
+  pageId: 212372
+  steam: 4164420
 Sleepwalker (1993):
   pageId: 91498
   renamedFrom:
@@ -214808,6 +214838,7 @@ Stupid Raft Battle Simulator:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\SavedGames|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\Profiles}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Profiles}}"
 "Styx: Blades of Greed":
+  lutris: styx-blades-of-greed
   pageId: 202061
   steam: 3290690
 "Styx: Master of Shadows":
@@ -230524,8 +230555,8 @@ The House of the Dead:
 The House of the Dead 2:
   pageId: 80222
   templates:
-    - "{{Game data/config|Windows|* C:\\Program Files (x86)\\SEGA\\THE HOUSE OF THE DEAD 2\\Hod2.ini}}"
-    - "{{Game data/saves|Windows|* C:\\Program Files (x86)\\SEGA\\THE HOUSE OF THE DEAD 2\\pol\\tv2.bin\n* C:\\Program Files (x86)\\SEGA\\THE HOUSE OF THE DEAD 2\\pol\\komono_0.bin\n* C:\\Program Files (x86)\\SEGA\\THE HOUSE OF THE DEAD 2\\tex\\scr_tod_itm_itamidome2.bin\n* C:\\Program Files (x86)\\SEGA\\THE HOUSE OF THE DEAD 2\\pol\\bg_adv19.bin\n\n: ''tv2.bin contains most if not all save data location.''\n: ''However, the \"Date Modified\" attribute is not set by the game. \n: ''All four of the files are modified according to Process Monitor.}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Hod2.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\pol\\tv2.bin|{{p|game}}\\pol\\komono_0.bin|{{p|game}}\\tex\\scr_tod_itm_itamidome2.bin|{{p|game}}\\pol\\bg_adv19.bin}}"
 "The House of the Dead 2: Remake":
   cloud:
     gog: true
@@ -252871,6 +252902,7 @@ Unravel Two:
 Unreal:
   gog: 1207658679
   lutris: unreal-gold
+  malformed: true
   pageId: 1529
   steam: 13250
   templates:

@@ -106918,6 +106918,8 @@
       description: Launch
       executable: runner.sh
       type: none
+  nameLocalized:
+    schinese: 神界：原罪增强版
 373440:
   installDir: Stargazer
   launch:
@@ -146194,6 +146196,9 @@
         oslist: macos
       executable: Divinity - Original Sin 2.app
       type: default
+  nameLocalized:
+    schinese: 神界：原罪2 - 终极版
+    tchinese: 神界：原罪2 - 終極版
 435210:
   installDir: Intergalactic Road Warriors
   launch:
@@ -345860,6 +345865,8 @@
         oslist: windows
       executable: GH.exe
       type: default
+  nameLocalized:
+    schinese: 绿色地狱
 815390:
   installDir: Psi Cards
   launch:
@@ -607408,6 +607415,34 @@
   launch:
     - executable: Urban Flow.exe
 2235430: {}
+2235440:
+  installDir: My Little Pony 2
+  launch:
+    - config:
+        oslist: windows
+      executable: MyLittlePonyZephyrHeights.exe
+      type: default
+  nameLocalized:
+    brazilian: "My Little Pony: Mistério em Zephyr Heights"
+    danish: "My Little Pony: Et mysterium i Zephyr Heights"
+    dutch: "My Little Pony: Tuuloshuipun mysteeri"
+    finnish: "My Little Pony: Tuuloshuipun mysteeri"
+    french: "My Little Pony : Mystère à Hauts-de-Zéphyr"
+    german: "My Little Pony: Das Geheimnis von Zephyr Heights"
+    italian: "My Little Pony: Mistero alle Cime di Zefiro"
+    japanese: マイリトルポニー：ゼファー・ハイツの謎
+    koreana: "마이 리틀 포니: 제피르 하이츠 미스터리"
+    latam: "My Little Pony: un misterio en Zephyr Heights"
+    norwegian: "My Little Pony: Et Zephyr Heights-mysterium"
+    polish: "My Little Pony: Zagadka Zefirowych Wzgórz"
+    portuguese: "My Little Pony: Um Mistério em Zephyr Heights"
+    schinese: 小马宝莉：西风高地谜团
+    spanish: "My Little Pony: Misterio en los Altos de Céfiro"
+    swedish: "My Little Pony: Mysteriet på Sefyrhöjden"
+    tchinese: 彩虹小馬：微風高地之謎
+    turkish: "My Little Pony: Bir Tanyele Tepesi Gizemi"
+    ukrainian: "My Little Pony: таємниця Зефірних гір"
+    vietnamese: "Pony bé nhỏ:  Bí ẩn của Zephyr Heights"
 2235800:
   installDir: Futapunk 2069
   launch:
@@ -619929,6 +619964,18 @@
   nameLocalized:
     english: Summon
     ukrainian: Повістка
+2556240:
+  cloud:
+    saves:
+      - path: UnderTheTavern/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Brews & Bastards
+  launch:
+    - config:
+        oslist: windows
+      executable: UnderTheTavern.exe
+      type: default
 2556950:
   installDir: Midnight Prowl
   launch:
@@ -636015,6 +636062,21 @@
         oslist: windows
       executable: BongoCat.exe
 3419520:
+  cloud:
+    saves:
+      - path: "QZSim/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Quarantine Zone The Last Check
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: QZSim.exe
+      type: default
   nameLocalized:
     schinese: 检疫区：最后一站
     tchinese: "《Quarantine Zone: The Last Check》"

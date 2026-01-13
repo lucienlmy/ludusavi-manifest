@@ -98000,6 +98000,24 @@ Brave Dungeon:
 Brave Dungeon II:
   steam:
     id: 980220
+Brave Dwarves Creeping Shadows:
+  files:
+    "<home>/AppData/LocalLow/Amistech/My Winter Car/*.txt":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: my-winter-car
+  installDir:
+    My Winter Car: {}
+  launch:
+    "<base>/mywintercar.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4164420
 "Brave Earth: Prologue":
   cloud:
     gog: true
@@ -99648,6 +99666,22 @@ Brewer:
             store: steam
   steam:
     id: 1569200
+Brews & Bastards:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/UnderTheTavern/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Brews & Bastards: {}
+  launch:
+    "<base>/UnderTheTavern.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2556240
 Brian Lara International Cricket 2007:
   installDir:
     Brian Lara International Cricket 2007: {}
@@ -330268,6 +330302,8 @@ High School Simulator:
   steam:
     id: 909860
 High Sea Saga DX:
+  cloud:
+    steam: true
   files:
     "<base>/saves/<storeUserId>":
       tags:
@@ -416518,6 +416554,11 @@ MX vs. ATV All Out:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/MXvsATVAllOut/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/MXvsATVAllOut/Saved/SaveGames":
       tags:
         - save
@@ -416538,7 +416579,7 @@ MX vs. ATV Legends:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/MX2021/Saved/Config/WindowsNoEditor/GameUserSettings.ini":
+    "<winLocalAppData>/MX2021/Saved/Config/WindowsNoEditor":
       tags:
         - config
       when:
@@ -460632,6 +460673,18 @@ My Little Kitties:
             store: steam
   steam:
     id: 1600780
+"My Little Pony: A Zephyr Heights Mystery":
+  cloud:
+    steam: true
+  installDir:
+    My Little Pony 2: {}
+  launch:
+    "<base>/MyLittlePonyZephyrHeights.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2235440
 My Little Riding Champion:
   installDir:
     My Little Riding Champion: {}
@@ -545303,9 +545356,24 @@ Quarantine Circular:
       when:
         - os: dos
 "Quarantine Zone: The Last Check":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/QZSim/Saved/SaveGames/<storeUserId>/**/*.*":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 3525400
+  installDir:
+    Quarantine Zone The Last Check: {}
+  launch:
+    "<base>/QZSim.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3419520
 Quarries of Scred:
@@ -624078,6 +624146,24 @@ Sleeping Valley:
             store: steam
   steam:
     id: 538590
+"Sleepover: reWake":
+  files:
+    "<home>/AppData/LocalLow/Amistech/My Winter Car/*.txt":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: my-winter-car
+  installDir:
+    My Winter Car: {}
+  launch:
+    "<base>/mywintercar.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4164420
 Sleepwalker:
   alias: Sleepwalker (1993)
 Sleepwalker (1993):
@@ -666417,6 +666503,8 @@ Stupid Raft Battle Simulator:
   steam:
     id: 779290
 "Styx: Blades of Greed":
+  id:
+    lutris: styx-blades-of-greed
   steam:
     id: 3290690
 "Styx: Master of Shadows":
@@ -716256,6 +716344,33 @@ The House of the Dead:
     "<base>/thotd.cfg":
       tags:
         - config
+      when:
+        - os: windows
+The House of the Dead 2:
+  files:
+    "<base>/Hod2.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/pol/bg_adv19.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/pol/komono_0.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/pol/tv2.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/tex/scr_tod_itm_itamidome2.bin":
+      tags:
+        - save
       when:
         - os: windows
 "The House of the Dead 2: Remake":
