@@ -32015,8 +32015,11 @@ Brews & Bastards:
   cloud:
     steam: true
     xbox: true
+  lutris: brews-and-bastards
   pageId: 212820
   steam: 2556240
+  steamSide:
+    - 2806760
 Brian Lara Cricket:
   pageId: 91703
 "Brian Lara Cricket '96":
@@ -35784,6 +35787,7 @@ Can You find it?:
 Can of Wormholes:
   cloud:
     steam: true
+  lutris: can-of-wormholes
   pageId: 212701
   steam: 1295320
   templates:
@@ -76548,6 +76552,12 @@ Evacuation:
     - 1340750
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Evan_v_3_3_3}}"
+Evanescent Existence:
+  lutris: lenen-mugenri-evanescent-existence
+  pageId: 212833
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\replay_dat\\|{{p|game}}\\save_dat\\}}"
 Evasion:
   pageId: 75159
   steam: 683000
@@ -145864,7 +145874,10 @@ Moonrise Fall:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Moonrise_Fall_1v02}}"
 Moons of Madness:
   cloud:
+    gog: true
     steam: true
+  gog: 1612211775
+  lutris: moons-of-madness
   pageId: 139534
   steam: 1012840
   templates:
@@ -172828,6 +172841,10 @@ Professional Baseball Spirits 2024-2025:
     steam: true
   pageId: 201144
   steam: 2051010
+Professional Bull Rider 2:
+  pageId: 212827
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\PBR.ini}}"
 Professional Construction - The Simulation:
   pageId: 36742
   steam: 502450
@@ -184050,6 +184067,9 @@ Rifter:
     steam: true
   pageId: 51084
   steam: 46370
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\RigNRoll_{{LocalizedPath|Language Code}}\\{{P|uid}}\\{{P|uid}}.ini}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\RigNRoll_{{LocalizedPath|Language Code}}\\}}"
 "Rig or Skill: PC Brawl":
   pageId: 88011
   steam: 746010
@@ -210040,6 +210060,8 @@ Star Trek Timelines:
     - "{{Game data/config|Windows|{{p|game}}\\System\\khg.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Star Trek: Voyager - Across the Unknown":
+  cloud:
+    steam: true
   pageId: 209645
   steam: 2643390
   steamSide:
@@ -222688,6 +222710,13 @@ Tasty Static:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\tinsanity\\Tasty Static}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\tinsanity\\Tasty Static}}"
+Tatari:
+  lutris: tatari
+  pageId: 212841
+  steam: 1847420
+  steamSide:
+    - 2496460
+    - 3788930
 Tatsu:
   pageId: 36684
   steam: 445070
@@ -256868,6 +256897,8 @@ Virtual Robots - Robot Programming Simulator:
 Virtual Rogue:
   pageId: 43672
   steam: 448090
+Virtual Safari:
+  pageId: 212851
 Virtual Skipper:
   pageId: 191479
 Virtual Skipper 4:

@@ -5262,6 +5262,8 @@
   installDir: Ghost Recon
   launch:
     - executable: ghostrecon.exe
+  nameLocalized:
+    schinese: 幽灵行动
 15310:
   installDir: The Settlers Heritage of Kings
   launch:
@@ -573905,6 +573907,10 @@
         oslist: windows
       executable: RoboCop.exe
       type: default
+    - config:
+        oslist: macos
+      executable: RoboCop.app
+      type: default
   nameLocalized:
     schinese: 机械战警：暴戾都市
     tchinese: 机械战警：暴戾都市
@@ -580412,6 +580418,11 @@
   installDir: Jedi Survivor
   launch:
     - executable: "link2ea://launchgame/1774580?platform=steam&theme=applejack"
+    - config:
+        betakey: eap_td_dev
+      description: "STAR WARS Jedi: Survivor™ - Development"
+      executable: "SwGame\\Binaries\\Win64\\SwGame.exe"
+      type: default
   nameLocalized:
     japanese: STAR WARS ジェダイ：サバイバー™
     koreana: "스타워즈 제다이: 서바이버™"
@@ -584970,6 +584981,18 @@
     schinese: 游戏开发物语 (Game Dev Story)
     tchinese: 遊戲發展國++ (Game Dev Story)
     thai: เรื่องราวคนสร้างเกม (Game Dev Story)
+1847420:
+  cloud:
+    saves:
+      - path: Hidden Tower Studios/Tatari/Saves
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Tatari
+  launch:
+    - config:
+        oslist: windows
+      executable: Tatari.exe
 1848440:
   installDir: FoolishMortals
   launch:
@@ -616154,6 +616177,18 @@
       type: option2
     - arguments: "-nvaftermath -aftermathall -gpucrashdebugging"
       config:
+        betakey: release.2.0
+      description: Dev Exe
+      executable: AvowedDev.exe
+      type: option1
+    - arguments: "-nvaftermath -aftermathall -gpucrashdebugging"
+      config:
+        betakey: release.2.0
+      description: Test Exe
+      executable: AvowedTest.exe
+      type: option1
+    - arguments: "-nvaftermath -aftermathall -gpucrashdebugging"
+      config:
         betakey: release.1.4
         osarch: "64"
         oslist: windows
@@ -619500,7 +619535,7 @@
       executable: FlightSimulator2024.exe
       type: default
     - config:
-        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a,beta_test"
+        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a,beta_test, brumby_beta"
         osarch: "64"
         oslist: windows
       description: Launch MSFS 2024 Dev Build
@@ -621927,7 +621962,9 @@
         oslist: windows
       description: Use OpenGL3 - Choose this if the above option does not work on your device
       executable: oblinparty.exe
-2643390: {}
+2643390:
+  nameLocalized:
+    schinese: 星际迷航：航海家号 - 穿越未知
 2644330:
   cloud:
     saves:
@@ -632205,7 +632242,7 @@
     - executable: runtime/media/start_protected_game.exe
       workingdir: runtime/media/
     - config:
-        betakey: release
+        betakey: "release,for_razer"
       description: VFREVO.exe を実行（EAC無効）
       executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/

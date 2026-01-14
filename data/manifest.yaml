@@ -99673,6 +99673,10 @@ Brews & Bastards:
     "<winLocalAppData>/UnderTheTavern/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  id:
+    lutris: brews-and-bastards
+    steamExtra:
+      - 2806760
   installDir:
     Brews & Bastards: {}
   launch:
@@ -111324,6 +111328,8 @@ Can of Wormholes:
         - save
       when:
         - os: windows
+  id:
+    lutris: can-of-wormholes
   installDir:
     Can of Wormholes: {}
   launch:
@@ -238947,6 +238953,25 @@ Evacuation:
             store: steam
   steam:
     id: 1110050
+Evanescent Existence:
+  files:
+    "<base>/replay_dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_dat/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: lenen-mugenri-evanescent-existence
 Evasion:
   installDir:
     Evasion: {}
@@ -452580,6 +452605,7 @@ Moonrise Fall:
     id: 1035110
 Moons of Madness:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/MoonsOfMadness/Saved/Config/WindowsNoEditor":
@@ -452592,6 +452618,10 @@ Moons of Madness:
         - save
       when:
         - os: windows
+  gog:
+    id: 1612211775
+  id:
+    lutris: moons-of-madness
   installDir:
     Moons of Madness: {}
   launch:
@@ -535423,6 +535453,13 @@ Professional Baseball Spirits 2024-2025:
             store: steam
   steam:
     id: 2051010
+Professional Bull Rider 2:
+  files:
+    "<base>/PBR.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Professional Construction - The Simulation:
   installDir:
     Professional Construction - The Simulation: {}
@@ -570459,14 +570496,16 @@ Rifter:
   cloud:
     steam: true
   files:
-    "<winDocuments>/my games/RigNRoll_usa_ws/**/*.spsv":
+    "<winDocuments>/My Games/RigNRoll_Language Code":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winDocuments>/my games/RigNRoll_usa_ws/**/*.tga":
+    "<winDocuments>/My Games/RigNRoll_Language Code/<storeUserId>/<storeUserId>.ini":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   installDir:
     Rig n Roll: {}
   launch:
@@ -575053,6 +575092,10 @@ RoboCop (2003):
   installDir:
     Robocop Rogue City: {}
   launch:
+    "<base>/RoboCop.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/RoboCop.exe":
       - when:
           - os: windows
@@ -651632,6 +651675,8 @@ Star Trek Timelines:
   id:
     lutris: star-trek-the-next-generation-klingon-honor-guard
 "Star Trek: Voyager - Across the Unknown":
+  cloud:
+    steam: true
   id:
     steamExtra:
       - 4054540
@@ -691673,6 +691718,25 @@ Tasty Static:
         - save
       when:
         - os: windows
+Tatari:
+  files:
+    "<home>/AppData/LocalLow/Hidden Tower Studios/Tatari/Saves/**/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: tatari
+    steamExtra:
+      - 2496460
+      - 3788930
+  installDir:
+    Tatari: {}
+  launch:
+    "<base>/Tatari.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1847420
 Tatsu:
   installDir:
     Tatsu: {}
