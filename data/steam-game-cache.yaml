@@ -363774,51 +363774,6 @@
       executable: AT.exe
       type: default
     - config:
-        betakey: dev_release-v2.20
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3279960"
-      description: Remaster dev_release-v2.20
-      executable: dlc/Remaster/AT.exe
-      type: option1
-      workingdir: dlc/Remaster
-    - config:
-        betakey: development-v2.20
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3841290"
-      description: Remaster development-v2.20
-      executable: dlc/RemasterDebug/AT.exe
-      type: option2
-      workingdir: dlc/RemasterDebug
-    - config:
-        betakey: " qa-release-v2.20"
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3279960"
-      description: Remaster qa-release-v2.20
-      executable: dlc/Remaster/AT.exe
-      type: option1
-      workingdir: dlc/Remaster
-    - config:
-        betakey: qa-debug-v2.20
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3841290"
-      description: Remaster qa-debug-v2.20
-      executable: dlc/RemasterDebug/AT.exe
-      type: option2
-      workingdir: dlc/RemasterDebug
-    - config:
-        betakey: review
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3279960"
-      description: Remaster review
-      executable: dlc/Remaster/AT.exe
-      type: option1
-      workingdir: dlc/Remaster
-    - config:
         osarch: "64"
         oslist: windows
         ownsdlc: "3279960"
@@ -363826,6 +363781,14 @@
       executable: dlc/Remaster/AT.exe
       type: option1
       workingdir: dlc/Remaster
+    - config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3841290"
+      description: Remaster Development
+      executable: dlc/RemasterDebug/AT.exe
+      type: option2
+      workingdir: dlc/RemasterDebug
   nameLocalized:
     japanese: ドラゴンボールZ KAKAROT
     koreana: 드래곤볼 Z 카카로트
@@ -512996,7 +512959,7 @@
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280
         osarch: "64"
         oslist: windows
       description: Dev Endpoints (EOS)
@@ -513004,7 +512967,7 @@
       type: option1
     - arguments: "-steam"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280
         osarch: "64"
         oslist: windows
       description: Prod Endpoints (EOS)
@@ -541861,10 +541824,6 @@
   launch:
     - config:
         betakey: default
-      executable: TOTClient.exe
-      type: default
-    - config:
-        betakey: release-4-2
       executable: start_protected_game.exe
       type: default
     - config:
