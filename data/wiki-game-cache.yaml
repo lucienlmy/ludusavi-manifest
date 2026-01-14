@@ -43529,6 +43529,8 @@ ClusterDisaster:
 ClusterPuck 99:
   pageId: 48893
   steam: 337960
+Clusterball:
+  pageId: 212859
 Clustertruck:
   gog: 1661530902
   pageId: 37020
@@ -86427,6 +86429,7 @@ For a Better Country:
   steam: 1131420
 "For the Glory: A Europa Universalis Game":
   gog: 1442576067
+  lutris: for-the-glory-a-europa-universalis-game
   pageId: 22254
   steam: 42810
   templates:
@@ -210370,6 +210373,7 @@ Star Wars Outlaws:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/*.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GameData\\base\\saves\\|{{p|game}}\\GameData\\base\\screenshots\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/saves/|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/screenshots/}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/openjk/base/saves/<ref>OpenJK saves location</ref>}}"
 "Star Wars: Jedi Knight - Mysteries of the Sith":
   cloud:
     gog: true
@@ -242913,8 +242917,8 @@ Tom & Jerry:
     - 212673
     - 2028055
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Ubisoft\\Tom Clancy's Ghost Recon Future Soldier\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Ubisoft\\Tom Clancy's Ghost Recon Future Soldier\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Ubisoft\\Tom Clancy's Ghost Recon Future Soldier}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Ubisoft\\Tom Clancy's Ghost Recon Future Soldier}}"
 "Tom Clancy's H.A.W.X":
   pageId: 9019
   steam: 21900
@@ -256146,6 +256150,7 @@ Victoria II:
   cloud:
     origin: true
   gog: 1423218604
+  lutris: victoria-complete
   pageId: 13012
   steam: 42980
   templates:

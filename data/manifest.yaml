@@ -268670,6 +268670,8 @@ For a Better Country:
         - os: windows
   gog:
     id: 1442576067
+  id:
+    lutris: for-the-glory-a-europa-universalis-game
   installDir:
     For The Glory: {}
   launch:
@@ -652427,6 +652429,11 @@ Star Wars Outlaws:
         - save
       when:
         - os: mac
+    "<xdgData>/openjk/base/saves":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 1428935726
   id:
@@ -791814,6 +791821,8 @@ Victoria II:
         - os: windows
   gog:
     id: 1423218604
+  id:
+    lutris: victoria-complete
   installDir:
     Victoria Revolutions: {}
   launch:
