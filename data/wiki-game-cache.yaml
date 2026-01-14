@@ -210527,7 +210527,7 @@ Star Wars Outlaws:
   pageId: 19464
   steam: 32350
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Starfighter\\1.0\\|{{p|hklm}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Starfighter\\1.0\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Starfighter\\1.0|{{p|hklm}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Starfighter\\1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save Games\\default\\SFSave*}}"
 "Star Wars: TIE Fighter":
   cloud:
