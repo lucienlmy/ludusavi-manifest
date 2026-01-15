@@ -626414,6 +626414,15 @@
   nameLocalized:
     schinese: 艾特尔：神祇之路
 2806050: {}
+2806120:
+  installDir: BIO GODDESS
+  launch:
+    - executable: BioGoddess.exe
+      type: default
+  nameLocalized:
+    english: "Bio Goddess : Doomsday Begins"
+    schinese: "生化女神 : 末日开端"
+    tchinese: "生化女神 : 末日開端"
 2806640:
   cloud:
     saves:
@@ -639754,6 +639763,7 @@
         oslist: windows
       executable: game.exe
       type: default
+4026510: {}
 4031890:
   nameLocalized:
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"

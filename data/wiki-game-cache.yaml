@@ -25825,6 +25825,12 @@ Binky show:
     steam: true
   pageId: 177392
   steam: 1625950
+"Bio Goddess : Doomsday Begins":
+  pageId: 212876
+  steam: 2806120
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\ZSchoolStudio\\BioGoddess\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ZSchoolStudio\\BioGoddess\\}}"
 Bio Inc. Redemption:
   cloud:
     steam: true
@@ -132655,6 +132661,9 @@ Lucid Cycle:
 Lucid Dream:
   pageId: 88063
   steam: 773090
+Lucid Falls:
+  pageId: 212878
+  steam: 4026510
 Lucid Nina:
   pageId: 144797
   steam: 1144290
@@ -183975,6 +183984,9 @@ Rift Fishing:
     steam: true
   pageId: 211796
   steam: 4061090
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\RiftFishing\\Saved\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\RiftFishing\\Saved\\}}"
 Rift Keeper:
   pageId: 93343
   steam: 843360

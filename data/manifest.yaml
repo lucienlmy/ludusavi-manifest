@@ -80093,6 +80093,22 @@ Binky show:
     steam: true
   steam:
     id: 1625950
+"Bio Goddess : Doomsday Begins":
+  files:
+    "<home>/AppData/LocalLow/ZSchoolStudio/BioGoddess":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    BIO GODDESS: {}
+  launch:
+    "<base>/BioGoddess.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2806120
 Bio Inc. Redemption:
   cloud:
     steam: true
@@ -412146,6 +412162,9 @@ Lucid Dream:
             store: steam
   steam:
     id: 773090
+Lucid Falls:
+  steam:
+    id: 4026510
 Lucid Nina:
   installDir:
     Lucid Nina: {}
@@ -570312,6 +570331,13 @@ Rift Coaster HD Remastered VR:
 Rift Fishing:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/RiftFishing/Saved":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   steam:
     id: 4061090
 Rift Keeper:
