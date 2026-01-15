@@ -28758,6 +28758,7 @@ Blood of Mehran:
   cloud:
     epic: true
     steam: true
+  lutris: blood-of-mehran
   pageId: 208671
   steam: 1714530
 Blood of Old - The Rise to Greatness!:
@@ -32334,6 +32335,7 @@ Bright Memory:
     - 1779097696
     - 1873841175
     - 2096998203
+  malformed: true
   pageId: 157489
   steam: 1178830
   steamSide:
@@ -57048,6 +57050,7 @@ Death Ray Manta:
 Death Relives:
   cloud:
     steam: true
+  lutris: death-relives
   pageId: 205910
   steam: 1987400
 Death Rings of Jupiter:
@@ -123815,6 +123818,13 @@ Kosta Projekt:
   steam: 3270680
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Kota's New Journey\\www\\save}}"
+Kotama and Academy Citadel:
+  cloud:
+    steam: true
+  pageId: 212886
+  steam: 3639650
+  steamSide:
+    - 3846250
 Koth:
   cloud:
     steam: true
@@ -127397,6 +127407,12 @@ Lego Horizon Adventures:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/Lucasarts/LEGOIndianaJones/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\LucasArts\\LEGOIndianaJones\\SavedGames\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/Lucasarts/LEGOIndianaJones/SavedGames/SaveGame*.LEGOIndianaJones_SavedGame}}"
+Lego Island:
+  lutris: lego-island
+  pageId: 6644
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Mindscape\\LEGO Island\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 "Lego Island 2: The Brickster's Revenge":
   lutris: lego-island-2-the-bricksters-revenge
   pageId: 34930
@@ -133425,6 +133441,7 @@ Luto:
   cloud:
     epic: true
     steam: true
+  lutris: luto
   pageId: 206265
   steam: 1729740
   templates:
@@ -187883,6 +187900,7 @@ Rue Valley:
   steam: 2126190
 "Ruff's Bone":
   pageId: 186456
+  steam: 4056660
 Ruffy and the Riverside:
   cloud:
     epic: true
@@ -191827,6 +191845,7 @@ Saturday of Piercing Screams:
   pageId: 144101
   steam: 1128160
 Saturn:
+  lutris: saturn--1
   pageId: 205575
   steam: 2742840
 Saturnalia:
@@ -201739,8 +201758,12 @@ Sludge Life 2:
   cloud:
     steam: true
   gog: 1672345980
+  lutris: sludge-life-2
   pageId: 186011
   steam: 2275150
+  steamSide:
+    - 2275160
+    - 2464850
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\*.txt}}"
 Slug Blast:

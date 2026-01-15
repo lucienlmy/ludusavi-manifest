@@ -630011,16 +630011,9 @@
       description: "Launch [RD]"
       executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
       workingdir: "ph_ft\\work\\bin\\x64"
-    - config:
-        betakey: ext-events
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
-      description: Launch RWP
-      executable: DyingLightGame_TheBeast_x64_rwp.cmd
     - arguments: "-nopopups"
       config:
-        betakey: patch02-daily
+        betakey: "dev-daily,third-party,patch05-daily,patch05-hotfix"
         osarch: "64"
         oslist: windows
         ownsdlc: "3061860"
@@ -630029,96 +630022,9 @@
       workingdir: "ph_ft\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: patch02-daily
+        betakey: "dev-daily,patch05-daily,patch05-hotfix"
         osarch: "64"
         oslist: windows
-        ownsdlc: "3061860"
-      description: Launch RWP
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: patch03-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
-      description: Launch RWP
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: patch03-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
-      description: "Launch [RD][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: patch04-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
-      description: "Launch [RD][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: patch04-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
-      description: Launch RWP
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: dev-daily
-        osarch: "64"
-        oslist: windows
-      description: "Launch [RD][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: dev-daily
-        osarch: "64"
-        oslist: windows
-      description: "Launch [RWP][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: third-party
-        osarch: "64"
-        oslist: windows
-      description: "Launch [RD][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: internal-publishing
-        osarch: "64"
-        oslist: windows
-      description: "Launch [RD][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_ft_x64_rd.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: mph-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
-      description: "Launch [RD][NOPOPUPS]"
-      executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
-      workingdir: "ph_ft\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: mph-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "3061860"
       description: "Launch [RWP][NOPOPUPS]"
       executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
       workingdir: "ph_ft\\work\\bin\\x64"
@@ -633514,7 +633420,17 @@
     schinese: 終天教団
     tchinese: 終天教團
 3218100: {}
-3218630: {}
+3218630:
+  cloud:
+    saves:
+      - path: ViJuDa/Super Woden Rally Edge/Save
+        pattern: "*.*"
+        root: WinAppDataLocalLow
+  installDir: Super Woden Rally Edge
+  launch:
+    - config:
+        oslist: windows
+      executable: Super Woden Rally Edge.exe
 3219630: {}
 3223070: {}
 3223120:
@@ -638265,6 +638181,53 @@
         oslist: windows
       executable: DFDT.exe
       type: default
+3639650:
+  cloud:
+    saves:
+      - path: "AtomStringCompany/KotamaAcademyCitadel/{64BitSteamID}/Clound"
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "AtomStringCompany/KotamaAcademyCitadel/{64BitSteamID}/Clound"
+            replace: "unity.AtomStringCompany.KotamaAcademyCitadel/{64BitSteamID}/Clound"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "AtomStringCompany/KotamaAcademyCitadel/{64BitSteamID}/Clound"
+            replace: "unity3d/AtomStringCompany/KotamaAcademyCitadel/{64BitSteamID}/Clound"
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "AtomStringCompany/KotamaAcademyCitadel/{64BitSteamID}/Clound"
+            replace: "unity3d/AtomStringCompany/KotamaAcademyCitadel/{64BitSteamID}/Clound"
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: KotamaAcademyCitadel
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: KotamaAcademyCitadel.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: KotamaAcademyCitadel.bin
+      type: default
+  nameLocalized:
+    english: Kotama and Academy Citadel
+    japanese: 少女と学園城
+    koreana: 코타마 & 아카데미 시타델
+    schinese: 少女与学院城
+    tchinese: 少女與學院城
 3641000: {}
 3641830: {}
 3643170: {}
@@ -639919,6 +639882,23 @@
       executable: "ScummVM\\scummvm.exe"
       type: default
     - arguments: "--config=\"../lilmonster.ini\" --zoom-splash=white lilmonster"
+      config:
+        oslist: linux
+      executable: "ScummVM\\scummvm"
+      type: default
+    - config:
+        oslist: macos
+      executable: start.sh
+      type: default
+4056660:
+  installDir: "Ruff's Bone"
+  launch:
+    - arguments: "--config=\"ruff.ini\" --no-console --zoom-splash=white ruff"
+      config:
+        oslist: windows
+      executable: "ScummVM\\scummvm.exe"
+      type: default
+    - arguments: "--config=\"../ruff.ini\" --zoom-splash=white ruff"
       config:
         oslist: linux
       executable: "ScummVM\\scummvm"

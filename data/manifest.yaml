@@ -89192,6 +89192,8 @@ Blood of Mehran:
     "<winLocalAppData>/BloodofMehran/Saved/SaveGames/**/*.sav":
       when:
         - store: steam
+  id:
+    lutris: blood-of-mehran
   installDir:
     Blood of Mehran: {}
   launch:
@@ -178224,6 +178226,8 @@ Death Relives:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: death-relives
   installDir:
     DeathRelives: {}
   steam:
@@ -384697,6 +384701,43 @@ Kosta Projekt:
             store: steam
   steam:
     id: 3270680
+Kotama and Academy Citadel:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/AtomStringCompany/KotamaAcademyCitadel/<storeUserId>/Clound/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.AtomStringCompany.KotamaAcademyCitadel/<storeUserId>/Clound/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/AtomStringCompany/KotamaAcademyCitadel/<storeUserId>/Clound/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/unity3d/AtomStringCompany/KotamaAcademyCitadel/<storeUserId>/Clound/*.json":
+      when:
+        - os: linux
+          store: steam
+  id:
+    steamExtra:
+      - 3846250
+  installDir:
+    KotamaAcademyCitadel: {}
+  launch:
+    "<base>/KotamaAcademyCitadel.bin":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/KotamaAcademyCitadel.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3639650
 Koth:
   cloud:
     steam: true
@@ -395770,6 +395811,13 @@ Lego Horizon Adventures:
           - store: steam
   steam:
     id: 32330
+Lego Island:
+  id:
+    lutris: lego-island
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Mindscape/LEGO Island:
+      tags:
+        - config
 "Lego Island 2: The Brickster's Revenge":
   files:
     "<base>/_data/Save00.lgo":
@@ -414700,6 +414748,8 @@ Luto:
         - save
       when:
         - os: windows
+  id:
+    lutris: luto
   installDir:
     Luto: {}
   launch:
@@ -582296,6 +582346,26 @@ Rue Valley:
             store: steam
   steam:
     id: 2126190
+"Ruff's Bone":
+  installDir:
+    "Ruff's Bone": {}
+  launch:
+    "<base>/ScummVM/scummvm":
+      - arguments: "--config=\"../ruff.ini\" --zoom-splash=white ruff"
+        when:
+          - os: linux
+            store: steam
+    "<base>/ScummVM/scummvm.exe":
+      - arguments: "--config=\"ruff.ini\" --no-console --zoom-splash=white ruff"
+        when:
+          - os: windows
+            store: steam
+    "<base>/start.sh":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 4056660
 Ruffy and the Riverside:
   cloud:
     epic: true
@@ -594494,6 +594564,8 @@ Saturday of Piercing Screams:
   steam:
     id: 1128160
 Saturn:
+  id:
+    lutris: saturn--1
   installDir:
     Saturn: {}
   launch:
@@ -626030,6 +626102,11 @@ Sludge Life 2:
         - os: windows
   gog:
     id: 1672345980
+  id:
+    lutris: sludge-life-2
+    steamExtra:
+      - 2275160
+      - 2464850
   installDir:
     SLUDGE LIFE 2: {}
   launch:
@@ -676509,6 +676586,17 @@ Super Woden GP 2:
 "Super Woden: Rally Edge":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/ViJuDa/Super Woden Rally Edge/Save/*.*":
+      when:
+        - store: steam
+  installDir:
+    Super Woden Rally Edge: {}
+  launch:
+    "<base>/Super Woden Rally Edge.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3218630
 Super X Chess:
