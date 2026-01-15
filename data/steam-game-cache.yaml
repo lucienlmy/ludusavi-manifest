@@ -198385,7 +198385,7 @@
       workingdir: "ph\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: patch23-daily
+        betakey: patch25-daily
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -198418,23 +198418,6 @@
       description: "Launch DL2 [RD, NO POPUPS]"
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
-    - config:
-        betakey: patch22-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RWP]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_ft_x64_rwp.exe"
-      workingdir: "ph\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: patch22-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RD, NO POPUPS]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
-      workingdir: "ph\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
         betakey: patch24-daily
@@ -198461,7 +198444,7 @@
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rwp.exe"
       workingdir: "ph\\work\\bin\\x64"
     - config:
-        betakey: patch23-daily
+        betakey: patch25-daily
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -198469,7 +198452,7 @@
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
     - config:
-        betakey: patch23-daily
+        betakey: patch25-daily
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -555956,6 +555939,27 @@
       executable: TheOuterWorlds2.exe
       type: option3
     - config:
+        betakey: release-1.0.6.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: release-1.0.6.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option2
+    - config:
+        betakey: release-1.0.6.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option3
+    - config:
         betakey: ms_playtest
         oslist: windows
       description: Arkansas Test Configuration
@@ -600802,6 +600806,14 @@
       type: option1
       workingdir: Cronos.app/Contents/MacOS/
     - config:
+        betakey: lqa_edge
+        osarch: "64"
+        oslist: windows
+      description: Dev build
+      executable: "Cronos\\Binaries\\Win64\\Cronos.exe"
+      type: option1
+      workingdir: "Cronos\\Binaries\\Win64"
+    - config:
         betakey: personal_1
         osarch: "64"
         oslist: windows
@@ -609041,6 +609053,44 @@
   nameLocalized:
     schinese: 破碎怪谈：无光破晓
     tchinese: 破碎怪談：無光破曉
+2283380:
+  cloud:
+    saves:
+      - path: Batovi Games Studio/Charrua Soccer/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Batovi Games Studio/Charrua Soccer/
+            replace: Batovi Games Studio/Charrua Soccer
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Batovi Games Studio/Charrua Soccer/
+            replace: ".config/unity3d/Batovi Games Studio/Charrua Soccer"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Charrua Soccer
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Charrua Soccer.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: charruasoccer.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: charruasoccer.app
+      type: default
 2285630:
   cloud:
     saves:

@@ -42467,6 +42467,12 @@ Apache Longbow:
         - config
       when:
         - os: windows
+    "<root>/steamapps/common/Apache Longbow/cloud_saves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1207659006
   installDir:
@@ -123325,6 +123331,38 @@ Charpi:
             store: steam
   steam:
     id: 694670
+Charrua Soccer:
+  files:
+    "<home>/.config/unity3d/Batovi Games Studio/Charrua Soccer*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Batovi Games Studio/Charrua Soccer":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Batovi Games Studio/Charrua Soccer*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Charrua Soccer: {}
+  launch:
+    "<base>/Charrua Soccer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/charruasoccer.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/charruasoccer.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 2283380
 "Charterstone: Digital Edition":
   cloud:
     gog: true
@@ -694626,6 +694664,8 @@ Tennis Antics:
         - os: windows
   gog:
     id: 1849814746
+  id:
+    lutris: tennis-antics--1
   installDir:
     Tennis Antics: {}
   launch:
