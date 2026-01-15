@@ -581790,6 +581790,29 @@
         oslist: windows
       executable: IndAnn.exe
       type: default
+1796790:
+  cloud:
+    saves:
+      - path: World 2 Studio Inc/Chef RPG
+        pattern: "*.dat"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "\\World 2 Studio Inc\\Chef RPG"
+            replace: com.World2StudioInc.ChefRPG
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Chef RPG
+  launch:
+    - config:
+        oslist: windows
+      executable: Chef RPG.exe
+    - config:
+        oslist: macos
+      executable: ChefRPG.app
 1797350: {}
 1797680:
   cloud:

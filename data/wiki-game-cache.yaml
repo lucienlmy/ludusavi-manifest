@@ -33637,6 +33637,15 @@ Bulletstorm VR:
     steam: true
   pageId: 190818
   steam: 2451320
+"Bulletstorm: Full Clip Edition":
+  cloud:
+    origin: true
+    steam: true
+  pageId: 54255
+  steam: 501590
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Bulletstorm Full Clip Edition\\StormGame\\Config\\|\n{{p|userprofile\\Documents}}\\My Games\\Bulletstorm Lite\\StormGame\\Config\\}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\501590\\remote\\|\n{{p|userprofile\\Documents}}\\My Games\\Bulletstorm Lite\\StormGame\\SaveData\\}}"
 Bulls town:
   pageId: 124239
   steam: 971390
@@ -39687,6 +39696,13 @@ Chef:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Inner Void Interactive\\Chef_ A Restaurant Tycoon Game\\GameSettings.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Inner Void Interactive\\Chef_ A Restaurant Tycoon Game\\}}"
+Chef RPG:
+  cloud:
+    steam: true
+  pageId: 212884
+  steam: 1796790
+  steamSide:
+    - 3213570
 "Chef Solitaire: USA":
   pageId: 44958
   steam: 432190
@@ -110718,6 +110734,9 @@ Hyss:
   steam: 982540
 Hytale:
   pageId: 164963
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\UserData\\Settings.json}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\UserData\\Saves\\}}"
 Här kommer Pippi Långstrump:
   pageId: 122971
 Höllenjob:
@@ -212428,6 +212447,7 @@ Steelrising:
     - 1160980912
     - 1499117088
     - 1859288464
+  lutris: steelrising
   pageId: 161697
   steam: 1283400
   steamSide:
@@ -213074,6 +213094,7 @@ Still Wakes the Deep:
     epic: true
     steam: true
     xbox: true
+  lutris: still-wakes-the-deep
   pageId: 195818
   steam: 1622910
   templates:
@@ -264945,6 +264966,7 @@ Witchfire:
   cloud:
     epic: true
     steam: true
+  lutris: witchfire
   pageId: 154545
   steam: 3156770
   templates:

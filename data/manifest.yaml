@@ -104597,6 +104597,42 @@ Bulletstorm VR:
     Thunder-publish: {}
   steam:
     id: 2451320
+"Bulletstorm: Full Clip Edition":
+  cloud:
+    origin: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/501590/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/Bulletstorm Full Clip Edition/StormGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Bulletstorm Lite/StormGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Bulletstorm Lite/StormGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Bulletstorm Full Clip Edition: {}
+  launch:
+    "<base>/Binaries/Win64/StormGame-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 501590
 Bulls town:
   installDir:
     Bulls town_Windows: {}
@@ -123980,6 +124016,33 @@ Chef:
     id: 886900
 Chef - A Restaurant Tycoon Game:
   alias: Chef
+Chef RPG:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/World 2 Studio Inc/Chef RPG/**/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/World 2 Studio Inc/Chef RPG/*.dat":
+      when:
+        - os: mac
+          store: steam
+  id:
+    steamExtra:
+      - 3213570
+  installDir:
+    Chef RPG: {}
+  launch:
+    "<base>/Chef RPG.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ChefRPG.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1796790
 "Chef Solitaire: USA":
   files:
     "<winProgramData>/The Revills Games/Chef Solitaire USA SE/ChefSolitaire.ini":
@@ -344107,6 +344170,18 @@ Hyss:
             store: steam
   steam:
     id: 982540
+Hytale:
+  files:
+    "<base>/UserData/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/UserData/Settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
 Höllenjob:
   files:
     "<base>/Highscores.xml":
@@ -659073,6 +659148,7 @@ Steelrising:
       - 1160980912
       - 1499117088
       - 1859288464
+    lutris: steelrising
     steamExtra:
       - 2004260
       - 2021370
@@ -660886,6 +660962,8 @@ Still Wakes the Deep:
         - config
       when:
         - os: windows
+  id:
+    lutris: still-wakes-the-deep
   installDir:
     Still Wakes the Deep: {}
   launch:
@@ -818445,6 +818523,8 @@ Witchfire:
         - save
       when:
         - os: windows
+  id:
+    lutris: witchfire
   installDir:
     Witchfire: {}
   launch:
