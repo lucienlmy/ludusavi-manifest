@@ -117117,6 +117117,8 @@ Castle of Cthulhu:
           store: steam
   gog:
     id: 1741932835
+  id:
+    lutris: castle-of-heart-retold
   installDir:
     Castle of Heart Retold: {}
   launch:
@@ -423926,6 +423928,7 @@ Mandragora:
       - 1383188955
       - 1741018751
       - 1779823135
+    lutris: mandragora-whispers-of-the-witch-tree
     steamExtra:
       - 3333090
       - 3352590

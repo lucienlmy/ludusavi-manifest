@@ -37599,6 +37599,7 @@ Castle of Dr. Brain:
     gog: true
     steam: true
   gog: 1741932835
+  lutris: castle-of-heart-retold
   pageId: 204735
   steam: 3386900
 Castle of Illusion:
@@ -49199,6 +49200,8 @@ Crime Cities:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SETUP.SCR}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
+Crime City:
+  pageId: 212900
 Crime Girl:
   cloud:
     steam: true
@@ -136421,6 +136424,7 @@ Mandagon:
     - 1383188955
     - 1741018751
     - 1779823135
+  lutris: mandragora-whispers-of-the-witch-tree
   pageId: 200528
   renamedFrom:
     - Mandragora
