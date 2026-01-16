@@ -24649,6 +24649,7 @@ Beneath:
   cloud:
     steam: true
   gog: 1159670966
+  lutris: beneath
   pageId: 193801
   steam: 1593230
 Beneath Her Gaze:
@@ -24678,6 +24679,11 @@ Beneath a Steel Sky:
 Beneath steel clouds:
   pageId: 155658
   steam: 1198260
+Benefitship:
+  cloud:
+    steam: true
+  pageId: 212891
+  steam: 2404000
 "Benjamin Blümchen: Das Bauernhofspiel":
   pageId: 200904
 "Benjamin Blümchen: Das Berufespiel":
@@ -110739,7 +110745,9 @@ Hytale:
   pageId: 164963
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\UserData\\Settings.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Settings.json}}"
     - "{{Game data/saves|Windows|{{p|game}}\\UserData\\Saves\\}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Saves/}}"
 Här kommer Pippi Långstrump:
   pageId: 122971
 Höllenjob:
@@ -124336,6 +124344,9 @@ Kyle Is Famous:
   steam: 1186740
   steamSide:
     - 1188090
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/John Szymanski/Kyle is Famous/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/John Szymanski/Kyle is Famous/NoSaveData.savedata}}"
 Kyle Simulator:
   pageId: 141214
   steam: 1104220
@@ -173937,6 +173948,8 @@ Prototype 2:
   lutris: prototype-2
   pageId: 3245
   steam: 115320
+  steamSide:
+    - 115340
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Activision\\Prototype 2\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Prototype 2\\}}"
@@ -175981,6 +175994,7 @@ Quarantine Circular:
   cloud:
     steam: true
     xbox: true
+  lutris: quarantine-zone-the-last-check
   pageId: 206552
   steam: 3419520
   steamSide:
@@ -223703,6 +223717,10 @@ Tennis Antics:
 Tennis Arcade VR:
   pageId: 78493
   steam: 751730
+Tennis Critters:
+  pageId: 212896
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}|{{p|game}}\\common|{{p|game}}\\common\\client|{{p|game}}\\common\\server|{{p|game}}\\tennis\\client|{{p|game}}\\tennis\\client\\scripts}}"
 Tennis Elbow 2013:
   cloud:
     steam: true
@@ -226397,6 +226415,8 @@ The Bug Butcher:
   steam: 350740
   templates:
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Awfully Nice Studios\\The Bug Butcher\\}}"
+The Bugs Bunny Cartoon Workshop:
+  pageId: 212894
 The Bugs Bunny Hare-Brained Adventure:
   lutris: the-bugs-bunny-hare-brained-adventure
   pageId: 90837
@@ -233873,6 +233893,7 @@ The Midnight Sanctuary:
 The Midnight Walk:
   cloud:
     steam: true
+  lutris: the-midnight-walk
   pageId: 204178
   steam: 2863640
   templates:

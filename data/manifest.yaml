@@ -76236,6 +76236,8 @@ Beneath:
         - store: steam
   gog:
     id: 1159670966
+  id:
+    lutris: beneath
   installDir:
     Beneath: {}
   steam:
@@ -76346,6 +76348,34 @@ Beneath steel clouds:
             store: steam
   steam:
     id: 1198260
+Benefitship:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+    "<home>/Library/Renpy/Benefitship-1686508355":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Benefitship: {}
+  launch:
+    "<base>/Benefitship.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Benefitship.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Benefitship.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2404000
 Benjamin Johnson:
   steam:
     id: 672960
@@ -344186,6 +344216,16 @@ Hytale:
         - config
       when:
         - os: windows
+    "<home>/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Settings.json":
+      tags:
+        - config
+      when:
+        - os: linux
 Höllenjob:
   files:
     "<base>/Highscores.xml":
@@ -386291,10 +386331,16 @@ Kyle Is Famous:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/John Szymanski/Kyle is Famous/*.savedata":
+    "<xdgConfig>/unity3d/John Szymanski/Kyle is Famous":
+      tags:
+        - config
       when:
-        - os: windows
-          store: steam
+        - os: linux
+    "<xdgConfig>/unity3d/John Szymanski/Kyle is Famous/NoSaveData.savedata":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     steamExtra:
       - 1188090
@@ -417174,6 +417220,14 @@ MaSzyna:
         - config
       when:
         - os: windows
+  installDir:
+    MaSzyna: {}
+  launch:
+    "<base>/Starter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1033030
 Maabus:
@@ -539043,6 +539097,8 @@ Prototype 2:
         - os: windows
   id:
     lutris: prototype-2
+    steamExtra:
+      - 115340
   installDir:
     Prototype 2: {}
   launch:
@@ -545619,6 +545675,7 @@ Quarantine Circular:
         - os: windows
           store: steam
   id:
+    lutris: quarantine-zone-the-last-check
     steamExtra:
       - 3525400
   installDir:
@@ -694871,6 +694928,33 @@ Tennis Arcade VR:
     Tennis Arcade VR: {}
   steam:
     id: 751730
+Tennis Critters:
+  files:
+    "<base>/common":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/common/client":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/common/server":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/tennis/client":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/tennis/client/scripts":
+      tags:
+        - config
+      when:
+        - os: windows
 Tennis Elbow 2013:
   cloud:
     steam: true
@@ -726044,6 +726128,8 @@ The Midnight Walk:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-midnight-walk
   installDir:
     The Midnight Walk: {}
   launch:

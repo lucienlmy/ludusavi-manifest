@@ -447962,7 +447962,27 @@
         oslist: windows
       executable: Shoot The Zombirds VR.exe
       type: vr
-1033030: {}
+1033030:
+  cloud:
+    saves:
+      - path: Maszyna/
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Maszyna/
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: MaSzyna
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Default simulator starting mode (starter)
+      executable: Starter.exe
+      type: default
 1033080:
   installDir: Letters - a written adventure
   launch:
@@ -613903,6 +613923,39 @@
     - config:
         oslist: windows
       executable: GunsAndWings.exe
+2404000:
+  cloud:
+    saves:
+      - path: game/saves
+        pattern: "*"
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: game/saves
+            replace: Library/Renpy/Benefitship-1686508355
+        root: gameinstall
+        useInstead: MacHome
+  installDir: Benefitship
+  launch:
+    - config:
+        oslist: windows
+      description: Run Benefitship on Windows
+      executable: Benefitship.exe
+      type: default
+    - config:
+        oslist: linux
+      description: Run Benefitship on Linux
+      executable: Benefitship.sh
+      type: default
+    - config:
+        oslist: macos
+      description: Run Benefitship on macOS
+      executable: Benefitship.app
+      type: default
+  nameLocalized:
+    japanese: ベネフィットシップ
 2404370:
   cloud:
     saves:
