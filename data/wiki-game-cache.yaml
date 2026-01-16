@@ -181500,6 +181500,11 @@ Reload:
     steam: true
   pageId: 48703
   steam: 330370
+Relooted:
+  cloud:
+    steam: true
+  pageId: 212898
+  steam: 3255890
 Relow:
   pageId: 151022
   steam: 966070
@@ -232490,11 +232495,13 @@ The Legend of Excalipurr:
   templates:
     - "{{Game data/config|Windows| {{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savefile\\}}"
-"The Legend of Heroes: Trails beyond the Horizon":
+"The Legend of Heroes: Trails Beyond the Horizon":
   cloud:
     steam: true
   gog: 1162370103
   pageId: 203154
+  renamedFrom:
+    - "The Legend of Heroes: Trails beyond the Horizon"
   steam: 3319980
   steamSide:
     - 3316940

@@ -562892,6 +562892,11 @@ Reload:
             store: steam
   steam:
     id: 330370
+Relooted:
+  cloud:
+    steam: true
+  steam:
+    id: 3255890
 Relow:
   installDir:
     Relow: {}
@@ -722146,7 +722151,7 @@ The Legend of Excalipurr:
   alias: "The Legend of Heroes: Trails through Daybreak"
 "The Legend of Heroes: Kuro no Kiseki II - Crimson Sin":
   alias: "The Legend of Heroes: Trails through Daybreak II"
-"The Legend of Heroes: Trails beyond the Horizon":
+"The Legend of Heroes: Trails Beyond the Horizon":
   cloud:
     steam: true
   files:
