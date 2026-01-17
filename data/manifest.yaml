@@ -102054,6 +102054,8 @@ Broken of Darkness:
   steam:
     id: 2283250
 "BrokenLore: Don't Watch":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/DontWatch/Saved/SaveGames/*.sav":
       when:
@@ -102104,6 +102106,13 @@ Broken of Darkness:
     lutris: brokenlore-unfollow
     steamExtra:
       - 2301460
+  installDir:
+    UNFOLLOW: {}
+  launch:
+    "<base>/Unfollow.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2133830
 Bronepoezd:
@@ -106831,6 +106840,8 @@ Bye Sweet Carole:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: bye-sweet-carole
   installDir:
     Bye Sweet Carole: {}
   launch:
@@ -125446,6 +125457,10 @@ Chico:
         - os: windows
   id:
     lutris: chicory-a-colorful-tale
+    steamExtra:
+      - 1123930
+      - 1635470
+      - 2446380
   installDir:
     Chicory A Colorful Tale: {}
   launch:
@@ -312808,7 +312823,7 @@ Half-Life Legacy:
     Half-Life Legacy: {}
   launch:
     "<base>/hl.exe":
-      - arguments: "-game hlc -steam"
+      - arguments: "-game hlc -steam +_setaddons_folder 1"
         when:
           - os: windows
             store: steam
@@ -460969,6 +460984,15 @@ My Little Kitties:
 "My Little Pony: A Zephyr Heights Mystery":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Packages/OutrightGames.MLP2_bnrbc155f0j86/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  id:
+    lutris: my-little-pony-a-zephyr-heights-mystery
   installDir:
     My Little Pony 2: {}
   launch:
@@ -666879,6 +666903,17 @@ Stupid Raft Battle Simulator:
   steam:
     id: 779290
 "Styx: Blades of Greed":
+  files:
+    "<winLocalAppData>/Styx3/Saved/Config/WindowsClient":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Styx3/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: styx-blades-of-greed
   steam:
@@ -768254,11 +768289,6 @@ Tricky Towers:
         - config
       when:
         - os: linux
-    "<home>/AppData/LocalLow/WeirdBeard/Tricky Towers":
-      tags:
-        - save
-      when:
-        - os: windows
   id:
     steamExtra:
       - 481360
@@ -768279,6 +768309,9 @@ Tricky Towers:
           - os: linux
             store: steam
   registry:
+    HKEY_CURRENT_USER/SOFTWARE/WeirdBeard/Tricky Towers:
+      tags:
+        - save
     HKEY_CURRENT_USER/Software/WeirdBeard/Tricky Towers:
       tags:
         - config

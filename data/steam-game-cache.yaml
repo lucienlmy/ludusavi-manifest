@@ -602255,6 +602255,11 @@
         oslist: windows
       executable: Pose.exe
 2133830:
+  installDir: UNFOLLOW
+  launch:
+    - config:
+        oslist: windows
+      executable: Unfollow.exe
   nameLocalized:
     schinese: 破碎怪谈：恶意取关
     tchinese: 破碎怪談：惡意取關
@@ -638060,16 +638065,9 @@
         pattern: "*.cfg"
         recursive: true
         root: gameinstall
-      - path: darkstarclassic/SAVE
-        pattern: "*.*"
-        root: gameinstall
-      - path: darkstarclassic
-        pattern: "*.cfg"
-        recursive: true
-        root: gameinstall
   installDir: Half-Life Legacy
   launch:
-    - arguments: "-game hlc -steam"
+    - arguments: "-game hlc -steam +_setaddons_folder 1"
       config:
         oslist: windows
       executable: hl.exe
@@ -638092,6 +638090,12 @@
         ownsdlc: "3620910"
       description: CURIO DEV
       executable: hl.exe
+    - arguments: "-game hlc -steam +_setaddons_folder 0"
+      config:
+        oslist: windows
+      description: Half-Life Legacy with all Workshop Content disabled
+      executable: hl.exe
+      type: option2
 3620480:
   nameLocalized:
     japanese: ぱる♡わーるど！ ～もう友達(パル)じゃいられない～

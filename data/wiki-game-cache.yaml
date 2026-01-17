@@ -32776,6 +32776,8 @@ Broken of Darkness:
   pageId: 212260
   steam: 2283250
 "BrokenLore: Don't Watch":
+  cloud:
+    steam: true
   lutris: brokenlore-dont-watch
   pageId: 212250
   steam: 2351330
@@ -34330,6 +34332,7 @@ ByLo:
 Bye Sweet Carole:
   cloud:
     steam: true
+  lutris: bye-sweet-carole
   pageId: 207338
   steam: 2428980
 "Bye-Bye, Wacky Planet":
@@ -40161,6 +40164,10 @@ Chico:
   lutris: chicory-a-colorful-tale
   pageId: 145574
   steam: 1123450
+  steamSide:
+    - 1123930
+    - 1635470
+    - 2446380
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\paintdog\\settings}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.greglobanov.chicory/}}"
@@ -148597,8 +148604,11 @@ My Little Kitties:
   cloud:
     steam: true
     xbox: true
+  lutris: my-little-pony-a-zephyr-heights-mystery
   pageId: 212821
   steam: 2235440
+  templates:
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\OutrightGames.MLP2_bnrbc155f0j86\\SystemAppData\\wgs}}"
 "My Little Pony: Best Friends Ball":
   pageId: 166205
 "My Little Pony: Crystal Princess - The Runaway Rainbow":
@@ -214972,6 +214982,9 @@ Stupid Raft Battle Simulator:
   lutris: styx-blades-of-greed
   pageId: 202061
   steam: 3290690
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Styx3\\Saved\\Config\\WindowsClient}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Styx3\\Saved\\SaveGames}}"
 "Styx: Master of Shadows":
   cloud:
     gog: true
@@ -248290,7 +248303,7 @@ Tricky Towers:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\WeirdBeard\\Tricky Towers\\}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/WeirdBeard/Tricky Towers/}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\WeirdBeard\\Tricky Towers\\}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\WeirdBeard\\Tricky Towers\\}}"
 Tricky Truck:
   pageId: 205690
   renamedFrom:
