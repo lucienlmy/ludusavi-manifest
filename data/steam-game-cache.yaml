@@ -627209,6 +627209,12 @@
         pattern: "*"
         recursive: true
         root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: Great God Grove
   launch:
     - config:
@@ -627216,6 +627222,10 @@
       description: Windows default launch
       executable: Great God Grove.exe
       type: default
+    - config:
+        oslist: macos
+      description: MacOS default launch
+      executable: Great God Grove.app
 2840770:
   installDir: AFOP
   launch:

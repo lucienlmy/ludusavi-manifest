@@ -148602,7 +148602,6 @@ My Little Kitties:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Melbot Studios\\MLP}}"
 "My Little Pony: A Zephyr Heights Mystery":
   cloud:
-    steam: true
     xbox: true
   lutris: my-little-pony-a-zephyr-heights-mystery
   pageId: 212821
@@ -244517,7 +244516,7 @@ Totally Reliable Delivery Service:
     - 1106850
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\We're Five Games\\Totally Reliable Delivery Service}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\We're Five Games\\Totally Reliable Delivery Service\\progress.dad}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\We're Five Games\\Totally Reliable Delivery Service\\progress.dad\n| {{P|hkcu}}\\SOFTWARE\\We're Five Games\\Totally Reliable Delivery Service\\}}"
 Totally Spies! Cyber Mission:
   pageId: 199092
   steam: 2793950

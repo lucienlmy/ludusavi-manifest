@@ -303290,6 +303290,10 @@ Great God Grove:
     "<home>/AppData/LocalLow/LimboLane/Great God Grove/PlayerData":
       when:
         - store: steam
+    "<home>/Library/Application Support/LimboLane/Great God Grove/PlayerData":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1481043620
   id:
@@ -303300,6 +303304,10 @@ Great God Grove:
   installDir:
     Great God Grove: {}
   launch:
+    "<base>/Great God Grove.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Great God Grove.exe":
       - when:
           - os: windows
@@ -460982,8 +460990,6 @@ My Little Kitties:
   steam:
     id: 1600780
 "My Little Pony: A Zephyr Heights Mystery":
-  cloud:
-    steam: true
   files:
     "<winLocalAppData>/Packages/OutrightGames.MLP2_bnrbc155f0j86/SystemAppData/wgs":
       tags:
@@ -758747,6 +758753,9 @@ Totally Reliable Delivery Service:
           - os: linux
             store: steam
   registry:
+    "HKEY_CURRENT_USER/SOFTWARE/We're Five Games/Totally Reliable Delivery Service":
+      tags:
+        - save
     "HKEY_CURRENT_USER/Software/We're Five Games/Totally Reliable Delivery Service":
       tags:
         - config
