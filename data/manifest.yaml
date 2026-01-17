@@ -90032,6 +90032,14 @@ Bloodthief:
       when:
         - os: linux
           store: steam
+    "<home>/.local/share/godot/app_userdata/Bloodthief/user_progress_1.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/godot/app_userdata/Bloodthief/user_progress_2.json":
+      when:
+        - os: linux
+          store: steam
     "<home>/.local/share/godot/app_userdata/Bloodthief/user_settings_v2.json":
       when:
         - os: linux
@@ -90040,6 +90048,12 @@ Bloodthief:
       when:
         - store: steam
     "<winAppData>/Godot/app_userdata/Bloodthief/user_progress.json":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Bloodthief/user_progress_1.json":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Bloodthief/user_progress_2.json":
       when:
         - store: steam
     "<winAppData>/Godot/app_userdata/Bloodthief/user_settings_v2.json":
@@ -223128,6 +223142,8 @@ Echoes of the End:
         - save
       when:
         - os: windows
+  id:
+    lutris: echoes-of-the-end
   installDir:
     Echoes_of_the_End: {}
   launch:
@@ -360013,6 +360029,8 @@ Iragon 18+:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: ire-a-prologue
   installDir:
     Ire A Prologue: {}
   launch:
@@ -412046,6 +412064,11 @@ Lovestory:
             store: steam
   steam:
     id: 888640
+Lovish:
+  cloud:
+    steam: true
+  steam:
+    id: 2959010
 Low Desert Punk:
   files:
     "<base>/SavesDir/**/*.sav":
@@ -676693,9 +676716,11 @@ Super Woden GP 2:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/ViJuDa/Super Woden Rally Edge/Save/*.*":
+    "<home>/AppData/LocalLow/ViJuDa/Super Woden Rally Edge/Save":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Super Woden Rally Edge: {}
   launch:

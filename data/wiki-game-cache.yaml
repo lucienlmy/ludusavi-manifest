@@ -71511,6 +71511,7 @@ Echoes of Aetheria:
 Echoes of the End:
   cloud:
     steam: true
+  lutris: echoes-of-the-end
   pageId: 205250
   steam: 2821610
   templates:
@@ -115713,6 +115714,7 @@ Iragon 18+:
 "Ire: A Prologue":
   cloud:
     steam: true
+  lutris: ire-a-prologue
   pageId: 206847
   steam: 3547420
 Iridescence:
@@ -132617,6 +132619,11 @@ Lovers of Aether:
 Lovestory:
   pageId: 104937
   steam: 888640
+Lovish:
+  cloud:
+    steam: true
+  pageId: 212925
+  steam: 2959010
 Low Desert Punk:
   pageId: 70665
   steam: 709400
@@ -217914,6 +217921,8 @@ Super Woden GP 2:
     steam: true
   pageId: 212157
   steam: 3218630
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ViJuDa\\Super Woden Rally Edge\\Save\\}}"
 Super X Chess:
   pageId: 121375
   steam: 814990
