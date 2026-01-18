@@ -204847,12 +204847,12 @@ Dragon Age II:
   installDir:
     Dragon Age Ultimate Edition: {}
   launch:
-    "<base>/\"docs":
-      - when:
-          - store: steam
     "<base>/DAOriginsLauncher.exe":
       - arguments: ""
         when:
+          - store: steam
+    "<base>/docs/EA Help/Electronic_Arts_Technical_Support.htm":
+      - when:
           - store: steam
   steam:
     id: 47810
@@ -344284,6 +344284,16 @@ Hytale:
         - config
       when:
         - os: linux
+    "<xdgData>/Hytale/UserData/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/Hytale/UserData/Settings.json":
+      tags:
+        - config
+      when:
+        - os: linux
 Höllenjob:
   files:
     "<base>/Highscores.xml":
@@ -382881,6 +382891,7 @@ Knights and Merchants:
     gogExtra:
       - 1362328577
       - 1942405627
+    lutris: knights-and-merchants
     steamExtra:
       - 986240
   installDir:
@@ -529755,6 +529766,7 @@ Post Trauma:
       when:
         - os: windows
   id:
+    lutris: post-trauma
     steamExtra:
       - 1817150
   installDir:
@@ -593859,6 +593871,8 @@ Santa Claus in Trouble:
         - save
       when:
         - os: windows
+  id:
+    lutris: santa-claus-in-trouble
 Santa Claus in Trouble (2020):
   alias: Santa Claus in Trouble (HD)
 Santa Claus in Trouble (HD):
@@ -593890,6 +593904,8 @@ Santa Claus in Trouble (HD):
         - config
       when:
         - store: steam
+  id:
+    lutris: santa-claus-in-trouble-hd
   installDir:
     Santa Claus in Trouble: {}
   launch:
@@ -666895,6 +666911,8 @@ Stupid Raft Battle Simulator:
     id: 1777704954
   id:
     lutris: stygian-outer-gods
+    steamExtra:
+      - 4060460
   installDir:
     Stygian - Outer Gods: {}
   launch:
@@ -680294,6 +680312,15 @@ Sven Co-op:
             store: steam
   steam:
     id: 225840
+"Sven-Goran Eriksson's World Challenge":
+  alias: "Sven-Göran Eriksson's World Challenge"
+"Sven-Göran Eriksson's World Challenge":
+  files:
+    "<base>/options.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Svoboda:
   steam:
     id: 848640

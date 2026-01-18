@@ -11325,7 +11325,7 @@
       description: Default
       executable: DAOriginsLauncher.exe
     - description: View Support Information
-      executable: "\"docs"
+      executable: "docs\\EA Help\\Electronic_Arts_Technical_Support.htm"
 47850:
   installDir: FIFA Manager 11
   launch:

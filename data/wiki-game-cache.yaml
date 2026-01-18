@@ -110761,9 +110761,9 @@ Hytale:
   pageId: 164963
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\UserData\\Settings.json}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Settings.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Settings.json|{{p|xdgdatahome}}/Hytale/UserData/Settings.json}}"
     - "{{Game data/saves|Windows|{{p|game}}\\UserData\\Saves\\}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Saves/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Saves/|{{p|xdgdatahome}}/Hytale/UserData/Saves/}}"
 Här kommer Pippi Långstrump:
   pageId: 122971
 Höllenjob:
@@ -123241,6 +123241,7 @@ Knights and Merchants:
   gogSide:
     - 1362328577
     - 1942405627
+  lutris: knights-and-merchants
   pageId: 17475
   steam: 253900
   steamSide:
@@ -170977,6 +170978,7 @@ Post Soviet Zombies:
 Post Trauma:
   cloud:
     steam: true
+  lutris: post-trauma
   pageId: 178334
   steam: 1750030
   steamSide:
@@ -191666,6 +191668,7 @@ Sansar:
   pageId: 123442
   steam: 586110
 Santa Claus in Trouble:
+  lutris: santa-claus-in-trouble
   pageId: 30309
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.txt}}"
@@ -191673,6 +191676,7 @@ Santa Claus in Trouble:
 Santa Claus in Trouble (HD):
   cloud:
     steam: true
+  lutris: santa-claus-in-trouble-hd
   pageId: 165813
   renamedFrom:
     - Santa Claus in Trouble (2020)
@@ -214988,6 +214992,8 @@ Stupid Raft Battle Simulator:
   lutris: stygian-outer-gods
   pageId: 202155
   steam: 2581410
+  steamSide:
+    - 4060460
 "Stygian: Reign of the Old Ones":
   cloud:
     gog: true
@@ -219160,6 +219166,8 @@ Sven Co-op:
   pageId: 155217
   renamedFrom:
     - "Sven-Goran Eriksson's World Challenge"
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\options.dat}}"
 "Sven-Göran Eriksson's World Manager":
   pageId: 155215
   renamedFrom:
