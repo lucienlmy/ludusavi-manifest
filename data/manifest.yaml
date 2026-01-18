@@ -66050,6 +66050,23 @@ Bang! Bang!:
             store: steam
   steam:
     id: 651380
+Bang! Gunship Elite:
+  files:
+    "<base>/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/controls.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
 Bang! Howdy:
   installDir:
     Bang Howdy: {}
@@ -359008,6 +359025,29 @@ Intravenous 2:
             store: steam
   steam:
     id: 2651330
+Intrepid Izzy:
+  cloud:
+    steam: true
+  files:
+    "<base>/izzy.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/slot*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Intrepid Izzy: {}
+  launch:
+    "<base>/Intrepid-Izzy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 908560
 Intro Maker:
   files:
     "<base>/SavesDir/*.sav":
@@ -809202,6 +809242,16 @@ WeakWood Throne:
   steam:
     id: 760990
 Weakless:
+  cloud:
+    gog: true
+  gog:
+    id: 1993411830
+  id:
+    gogExtra:
+      - 1400817830
+    lutris: weakless
+    steamExtra:
+      - 1669400
   installDir:
     Weakless: {}
   launch:
@@ -817518,6 +817568,7 @@ Winter Ember:
   id:
     gogExtra:
       - 1961132948
+    lutris: winter-ember
     steamExtra:
       - 1495880
   installDir:

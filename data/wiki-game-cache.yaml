@@ -11137,6 +11137,8 @@ American Hero:
     - 1160264518
   lutris: american-hero
   pageId: 171969
+American Idol (2002):
+  pageId: 212944
 "American McGee's Alice":
   lutris: american-mcgees-alice
   pageId: 17504
@@ -21043,6 +21045,9 @@ Bang! Bang!:
   steam: 651380
 Bang! Gunship Elite:
   pageId: 210723
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.cfg|{{p|game}}\\controls.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Bang! Howdy:
   pageId: 66269
   steam: 675810
@@ -115390,6 +115395,14 @@ Intravenous 2:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\intravenous2_mercenarism\\}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\intravenous2_mercenarism\\savegames\\}}"
+Intrepid Izzy:
+  cloud:
+    steam: true
+  pageId: 212940
+  steam: 908560
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\izzy.sav}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\slot*.sav}}"
 Intro Maker:
   pageId: 88116
   steam: 812180
@@ -262029,8 +262042,16 @@ WeakWood Throne:
   pageId: 80933
   steam: 760990
 Weakless:
+  cloud:
+    gog: true
+  gog: 1993411830
+  gogSide:
+    - 1400817830
+  lutris: weakless
   pageId: 139478
   steam: 1072620
+  steamSide:
+    - 1669400
 Weapon Shop Fantasy:
   cloud:
     steam: true
@@ -264664,6 +264685,7 @@ Winter Ember:
   gog: 1804958929
   gogSide:
     - 1961132948
+  lutris: winter-ember
   pageId: 165124
   steam: 1417880
   steamSide:

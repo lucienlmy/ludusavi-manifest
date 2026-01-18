@@ -391524,6 +391524,18 @@
       executable: crazy_maze.exe
       type: none
 908510: {}
+908560:
+  cloud:
+    saves:
+      - path: "."
+        pattern: slot*.sav
+        root: gameinstall
+  installDir: Intrepid Izzy
+  launch:
+    - config:
+        oslist: windows
+      executable: Intrepid-Izzy.exe
+      type: default
 908590:
   installDir: Combiner the Card Game
   launch:
