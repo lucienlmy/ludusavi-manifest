@@ -123856,8 +123856,9 @@ Kotama and Academy Citadel:
     steam: true
   pageId: 212886
   steam: 3639650
-  steamSide:
-    - 3846250
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/AtomStringCompany/KotamaAcademyCitadel/{{P|uid}}/Clound/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/AtomStringCompany/KotamaAcademyCitadel/{{P|uid}}/Clound/}}"
 Koth:
   cloud:
     steam: true
@@ -137055,6 +137056,8 @@ Mario Kart 64 (Recompiled):
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\MarioKart64Recompiled\\controls.json<br>{{P|localappdata}}\\MarioKart64Recompiled\\general.json<br>{{P|localappdata}}\\MarioKart64Recompiled\\graphics.json<br>{{P|localappdata}}\\MarioKart64Recompiled\\sound.json}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MarioKart64Recompiled\\saves\\}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/MarioKart64Recompiled/saves}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/MarioKart64Recompiled/saves}}"
 Mario Kart 64 (SpaghettiKart):
   pageId: 205626
 Mario Teaches Typing:
@@ -194304,6 +194307,7 @@ Sengoku Rance:
     gog: true
   gog: 1567591607
   pageId: 175892
+  steam: 3867170
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\System40.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveData}}"
@@ -217106,6 +217110,8 @@ Super Mario 64 (Coop Deluxe):
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/sm64coopdx/sm64config.txt}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\sm64ex-coop\\sm64_save_file.bin|{{P|appdata}}\\sm64ex-coop\\sav\\}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/sm64coopdx/sm64_save_file.bin|{{P|xdgdatahome}}/sm64coopdx/sav/}}"
+Super Mario 64 (Ghostship):
+  pageId: 212957
 Super Mario 64 (sm64ex):
   pageId: 160103
   renamedFrom:
@@ -232544,9 +232550,29 @@ The Legend of Excalipurr:
   steam: 3319980
   steamSide:
     - 3316940
+    - 4166130
+    - 4214380
+    - 4214390
+    - 4214400
+    - 4214410
+    - 4214420
+    - 4214430
+    - 4214440
+    - 4214450
+    - 4214460
+    - 4214470
+    - 4214480
+    - 4214490
+    - 4214500
+    - 4214510
+    - 4214520
+    - 4214530
+    - 4214560
+    - 4214570
+    - 4214590
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\CLE\\Kai_no_Kiseki\\<br>{{p|userprofile}}\\Saved Games\\Falcom\\Kai\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\CLE\\Kai_no_Kiseki\\savedata<br>{{p|userprofile}}\\Saved Games\\Falcom\\Kai\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\CLE\\Kai_no_Kiseki\\|{{p|userprofile}}\\Saved Games\\Falcom\\Kai\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\CLE\\Kai_no_Kiseki\\savedata|{{p|userprofile}}\\Saved Games\\Falcom\\Kai\\}}"
 "The Legend of Heroes: Trails from Zero":
   cloud:
     gog: true
