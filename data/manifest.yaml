@@ -439150,6 +439150,18 @@ Micro Cosmic Worlds:
     Micro Cosmic Worlds: {}
   steam:
     id: 655580
+Micro Machines V4:
+  files:
+    "<base>/<storeUserId>.pro":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/videocfg.bin":
+      tags:
+        - config
+      when:
+        - os: windows
 Micro Machines World Series:
   cloud:
     steam: true

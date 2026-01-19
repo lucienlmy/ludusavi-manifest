@@ -141413,8 +141413,8 @@ Micro Machines:
 Micro Machines V4:
   pageId: 87806
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\videocfg.bin}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\{{p|uid}}.pro}}"
 Micro Machines World Series:
   cloud:
     steam: true
