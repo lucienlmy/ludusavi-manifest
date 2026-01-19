@@ -63606,11 +63606,6 @@ Dogfight Elite:
   gog: 1313679424
   pageId: 177418
   steam: 1704630
-"Dogfight: Battle for the Pacific":
-  pageId: 203413
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Config.dat}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Scores.dat}}"
 Doggie Dash:
   pageId: 194629
 Doggo Dig Down:
@@ -104737,6 +104732,7 @@ Herdling:
   cloud:
     steam: true
     xbox: true
+  lutris: herdling
   pageId: 207280
   steam: 3047750
 Here & Elsewhere:
@@ -131648,7 +131644,9 @@ Lost Ember:
   cloud:
     epic: true
     steam: true
+    xbox: true
   gog: 1593085742
+  lutris: lost-ember-rekindled-edition
   pageId: 208573
   steam: 3086580
 "Lost Ember: VR Edition":
@@ -162860,6 +162858,17 @@ Pacific Strike:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\PS.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\*.SAV}}"
+"Pacific Warriors II: Dogfight":
+  pageId: 203413
+  renamedFrom:
+    - "Dogfight: Battle for the Pacific"
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Scores.dat}}"
+"Pacific Warriors: Air Combat Action":
+  pageId: 212970
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Configs}}"
 Pacify:
   cloud:
     steam: true
@@ -207629,6 +207638,9 @@ Spellcrafter:
   steam: 315680
 Spellcross:
   pageId: 212542
+  templates:
+    - "{{Game data/config|DOS|{{P|game}}\\}}"
+    - "{{Game data/saves|DOS|{{P|game}}\\SAVE\\}}"
 Spelldrifter:
   cloud:
     epic: true

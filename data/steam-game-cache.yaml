@@ -629170,7 +629170,18 @@
       executable: The House of Da Vinci VR.exe
       type: vr
 2949120: {}
-2949240: {}
+2949240:
+  installDir: Homeworld Vast Reaches
+  launch:
+    - config:
+        betakey: default
+      description: OpenXR
+      executable: HomeworldVastReaches.exe
+      type: openxr
+    - config:
+        betakey: demo
+      executable: HomeworldVastReachesDemo.exe
+      type: openxr
 2949320:
   cloud:
     saves:
@@ -631869,11 +631880,6 @@
     saves:
       - path: LostEmber/Saved/SaveGames
         pattern: "*.sav"
-        root: gameinstall
-      - path: LostEmberRekindled/Saved/SaveGames
-        pattern: "*.sav"
-        platforms:
-          - Windows
         root: WinAppDataLocal
   installDir: Lost Ember Rekindled Edition
   launch:

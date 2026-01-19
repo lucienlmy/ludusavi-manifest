@@ -198432,17 +198432,7 @@ Dogfight Elite:
   steam:
     id: 1704630
 "Dogfight: Battle for the Pacific":
-  files:
-    "<base>/Config.dat":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<base>/Scores.dat":
-      tags:
-        - save
-      when:
-        - os: windows
+  alias: "Pacific Warriors II: Dogfight"
 Doggo Dig Down:
   cloud:
     steam: true
@@ -325307,6 +325297,8 @@ Herdling:
     "<home>/AppData/LocalLow/Okomotive/Herdling/*.save":
       when:
         - store: steam
+  id:
+    lutris: herdling
   installDir:
     Herdling: {}
   launch:
@@ -335649,6 +335641,8 @@ Homeworld Remastered Edition:
   steam:
     id: 281610
 "Homeworld: Vast Reaches":
+  installDir:
+    Homeworld Vast Reaches: {}
   steam:
     id: 2949240
 Homicidal All-Stars:
@@ -408839,15 +408833,13 @@ Lost Ember:
     epic: true
     steam: true
   files:
-    "<base>/LostEmber/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/LostEmber/Saved/SaveGames/*.sav":
       when:
         - store: steam
-    "<winLocalAppData>/LostEmberRekindled/Saved/SaveGames/*.sav":
-      when:
-        - os: windows
-          store: steam
   gog:
     id: 1593085742
+  id:
+    lutris: lost-ember-rekindled-edition
   installDir:
     Lost Ember Rekindled Edition: {}
   launch:
@@ -504479,6 +504471,25 @@ Pacific Strike:
         - config
       when:
         - os: dos
+"Pacific Warriors II: Dogfight":
+  files:
+    "<base>/Config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Scores.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+"Pacific Warriors: Air Combat Action":
+  files:
+    "<base>/Configs":
+      tags:
+        - config
+      when:
+        - os: windows
 Pacify:
   cloud:
     steam: true
@@ -644201,6 +644212,13 @@ Spellcrafter:
             store: steam
   steam:
     id: 315680
+Spellcross:
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: dos
 Spelldrifter:
   cloud:
     epic: true
