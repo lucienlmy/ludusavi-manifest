@@ -11139,6 +11139,8 @@ American Hero:
   pageId: 171969
 American Idol (2002):
   pageId: 212944
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\AmIdol.ini}}"
 "American McGee's Alice":
   lutris: american-mcgees-alice
   pageId: 17504
@@ -48107,6 +48109,13 @@ Crafting Dead:
 Crafting Tycoon:
   pageId: 77313
   steam: 757440
+Craftlings:
+  cloud:
+    steam: true
+  pageId: 212975
+  steam: 1771110
+  steamSide:
+    - 4013720
 Craftopia:
   cloud:
     steam: true
@@ -115764,6 +115773,11 @@ IrisPlus:
 Iro Hero:
   pageId: 95961
   steam: 709750
+"Iron Aces: Heroes of WWII":
+  pageId: 212981
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Pilots.dat|{{p|game}}\\Scores.dat}}"
 Iron Armada:
   pageId: 58047
   steam: 581910
@@ -181266,6 +181280,12 @@ Regions of Ruin:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\voxGames\\Regions of Ruin\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Regions of Ruin_Data\\gameData.json}}"
+"Regions of Ruin: Runegate":
+  lutris: regions-of-ruin-runegate--1
+  pageId: 212979
+  steam: 1375750
+  steamSide:
+    - 4019140
 Regular Human Basketball:
   cloud:
     discord: true

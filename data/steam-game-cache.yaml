@@ -549145,6 +549145,9 @@
     japanese: 帰ってきた 魔界村
     schinese: 经典回归 魔界村
     tchinese: 經典回歸 魔界村
+1375750:
+  nameLocalized:
+    schinese: 废墟国度：符文之门
 1376070:
   installDir: Rushdown Revolt - Open Alpha
   launch:
@@ -580248,6 +580251,17 @@
   launch:
     - executable: Crypto Girls.exe
       type: none
+1771110:
+  cloud:
+    saves:
+      - path: Ariano Games GmbH/Craftlings
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Craftlings
+  launch:
+    - executable: Craftlings.exe
+      type: default
 1771300:
   cloud:
     saves:

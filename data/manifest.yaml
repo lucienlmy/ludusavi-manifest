@@ -35060,6 +35060,13 @@ American Hero:
     gogExtra:
       - 1160264518
     lutris: american-hero
+American Idol (2002):
+  files:
+    "<base>/AmIdol.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 "American McGee's Alice":
   files:
     "<base>/base/config.cfg":
@@ -150806,6 +150813,24 @@ Crafting Tycoon:
             store: steam
   steam:
     id: 757440
+Craftlings:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Ariano Games GmbH/Craftlings":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 4013720
+  installDir:
+    Craftlings: {}
+  launch:
+    "<base>/Craftlings.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1771110
 Craftopia:
   cloud:
     steam: true
@@ -360198,6 +360223,23 @@ Iro Hero:
             store: steam
   steam:
     id: 709750
+"Iron Aces: Heroes of WWII":
+  files:
+    "<base>/Pilots.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Scores.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Iron Armada:
   installDir:
     Iron Armada: {}
@@ -562121,6 +562163,13 @@ Regions of Ruin:
         - config
   steam:
     id: 680360
+"Regions of Ruin: Runegate":
+  id:
+    lutris: regions-of-ruin-runegate--1
+    steamExtra:
+      - 4019140
+  steam:
+    id: 1375750
 Regular Human Basketball:
   cloud:
     steam: true
