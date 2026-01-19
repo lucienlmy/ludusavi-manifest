@@ -591453,7 +591453,7 @@
       type: option1
     - arguments: "-LOG"
       config:
-        betakey: "daily,weekly,erbbranch,2k_internal,staging,day_15,freeride,image_stability,image_stability_pc,sptm"
+        betakey: "daily,weekly,erbbranch,2k_internal,staging,day_15,freeride,image_stability,image_stability_pc,sptm,hotfix"
       description: Nero - Test (Optimization / Logs)
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
       type: option2
@@ -591464,12 +591464,12 @@
       type: option1
     - arguments: "-LOG"
       config:
-        betakey: "daily,weekly,2k_internal,staging,day_15,freeride,image_stability,image_stability_pc,sptm"
+        betakey: "daily,weekly,2k_internal,staging,day_15,freeride,image_stability,image_stability_pc,sptm,hotfix"
       description: Nero - Dev (No Optimizations / All Logs)
       executable: "\\Nero\\Binaries\\Win64\\Nero.exe"
       type: option1
     - config:
-        betakey: "daily_shipping,weekly_shipping,staging_shipping,external_tech_shipping,release,day_15_shipping,preview,compat_testing,freeride_shipping,image_stability_shipping,image_stability_pc_shipping,sptm_shipping,security"
+        betakey: "daily_shipping,weekly_shipping,staging_shipping,external_tech_shipping,release,day_15_shipping,preview,compat_testing,freeride_shipping,image_stability_shipping,image_stability_pc_shipping,sptm_shipping,hotfix_shipping"
       description: Nero - Shipping (No Cheats)
       executable: "\\MafiaTheOldCountry\\Binaries\\Win64\\MafiaTheOldCountry.exe"
       type: option1
