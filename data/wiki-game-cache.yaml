@@ -100779,7 +100779,7 @@ Halo 2:
   pageId: 3537
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\Halo 2\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Microsoft\\Halo 2\\Saved Games\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Microsoft\\Halo 2\\Saved Games\\|{{p|userprofile}}\\Saved Games\\Halo 2\\}}"
 "Halo 2: Anniversary":
   cloud:
     steam: true
@@ -120407,6 +120407,11 @@ Karos:
 Karos Returns:
   pageId: 47067
   steam: 371310
+Karous:
+  cloud:
+    steam: true
+  pageId: 212987
+  steam: 4090420
 Karradash - The Lost Dungeons:
   pageId: 68184
   steam: 682020
@@ -180653,6 +180658,11 @@ Red Island:
   steam: 1114740
   steamSide:
     - 1115490
+Red Jets:
+  pageId: 212985
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Pilots.dat}}"
 "Red Johnson's Chronicles - 1+2 - Steam Special Edition":
   pageId: 49681
   steam: 312050

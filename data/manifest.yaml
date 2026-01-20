@@ -313635,6 +313635,11 @@ Hallway Simulator 2020:
     id: 1105870
 Halo 2:
   files:
+    "<home>/Saved Games/Halo 2":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winLocalAppData>/Microsoft/Halo 2/Saved Games":
       tags:
         - save
@@ -374316,6 +374321,11 @@ Karos Returns:
             store: steam
   steam:
     id: 371310
+Karous:
+  cloud:
+    steam: true
+  steam:
+    id: 4090420
 Karradash - The Lost Dungeons:
   installDir:
     Karradash - The Lost Dungeons: {}
@@ -560075,6 +560085,18 @@ Red Island:
           - store: steam
   steam:
     id: 1114740
+Red Jets:
+  files:
+    "<base>/Config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Pilots.dat":
+      tags:
+        - save
+      when:
+        - os: windows
 "Red Johnson's Chronicles - 1+2 - Steam Special Edition":
   files:
     "<winAppData>/Anuman/RedJohnson/GAME":
