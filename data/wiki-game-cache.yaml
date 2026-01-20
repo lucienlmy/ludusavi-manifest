@@ -84476,6 +84476,11 @@ Fishing on the Fly:
     - 1636430555
   pageId: 167907
   steam: 1264250
+Fishlike:
+  cloud:
+    steam: true
+  pageId: 212989
+  steam: 3062970
 Fishman:
   pageId: 144228
   steam: 1110350
@@ -95607,6 +95612,8 @@ Golden Light:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\MrPink\\GoldenLight\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\MrPink\\Golden Light}}"
+Golden Nugget:
+  pageId: 212991
 Golden Panic:
   pageId: 63476
   steam: 614550
@@ -202190,6 +202197,8 @@ Smugglers V:
 Smurf Racer:
   pageId: 207915
 Smurfs Kart:
+  cloud:
+    steam: true
   pageId: 188791
   steam: 1911220
 Smush:

@@ -262107,6 +262107,26 @@ Fishing on the Fly:
             store: steam
   steam:
     id: 1264250
+Fishlike:
+  cloud:
+    steam: true
+  files:
+    "<base>/Fishlike_Data/UserData/<storeUserId>/**/*.json":
+      when:
+        - store: steam
+  installDir:
+    Fishlike: {}
+  launch:
+    "<base>/Fishlike.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Fishlike.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3062970
 Fishman:
   installDir:
     fishman: {}
@@ -627336,6 +627356,8 @@ Smugglers V:
   steam:
     id: 326230
 Smurfs Kart:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Eden Games/Smurfs Kart/*.ghost":
       when:

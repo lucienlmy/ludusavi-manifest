@@ -626572,6 +626572,16 @@
         platforms:
           - Windows
         root: WinMyDocuments
+      - path: Battlefield 6/settings/steam/
+        pattern: PROFSAVEbf6mp
+        platforms:
+          - Windows
+        root: WinMyDocuments
+      - path: Battlefield 6/settings/steam/
+        pattern: PROFSAVEbf6sp
+        platforms:
+          - Windows
+        root: WinMyDocuments
   installDir: Battlefield 6
   launch:
     - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test"
@@ -631629,6 +631639,22 @@
   installDir: Unplagued
   launch:
     - executable: Unplagued.exe
+3062970:
+  cloud:
+    saves:
+      - path: "Fishlike_Data/UserData/{64BitSteamID}"
+        pattern: "*.json"
+        recursive: true
+        root: gameinstall
+  installDir: Fishlike
+  launch:
+    - config:
+        oslist: windows
+      executable: Fishlike.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Fishlike.x86_64
 3063050:
   installDir: あうんちゃんのお困りですよね!霊夢さん!
   launch:
