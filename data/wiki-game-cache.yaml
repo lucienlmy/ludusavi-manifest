@@ -14882,6 +14882,8 @@ Arkhelom 3D:
   steam: 373670
 "Arknights: Endfield":
   pageId: 190804
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Gryphline\\Endfield}}"
 Arkshot:
   pageId: 37628
   steam: 468800
@@ -29363,6 +29365,10 @@ Blue Archive:
   steam: 3557620
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Nexon Games\\Blue Archive\\}}"
+Blue Archive (JP):
+  pageId: 212998
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\YostarJP\\Blue Archive\\}}"
 Blue Bird:
   pageId: 39624
   steam: 434600
@@ -33367,6 +33373,8 @@ Buggos:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Intrepid Marmot\\Buggos}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Intrepid Marmot\\Buggos\\*.Bug}}"
+Buggy (1998):
+  pageId: 212994
 Buggy (2015):
   pageId: 47375
   steam: 379340
@@ -241271,6 +241279,8 @@ Tides of Tomorrow:
   renamedFrom:
     - Tides of Tomorrow 🌊
   steam: 2678080
+  steamSide:
+    - 3951580
 Tides of War:
   pageId: 210236
 Tidy Your Room Simulator:

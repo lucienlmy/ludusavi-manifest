@@ -46813,6 +46813,11 @@ Arkhelom 3D:
             store: steam
   steam:
     id: 373670
+"Arknights: Endfield":
+  registry:
+    HKEY_CURRENT_USER/Software/Gryphline/Endfield:
+      tags:
+        - config
 Arkshot:
   installDir:
     Arkshot: {}
@@ -91057,6 +91062,13 @@ Blue Archive:
             store: steam
   steam:
     id: 3557620
+Blue Archive (JP):
+  files:
+    "<home>/AppData/LocalLow/YostarJP/Blue Archive":
+      tags:
+        - config
+      when:
+        - os: windows
 Blue Bird:
   files:
     "<base>/game/saves/*.save":
@@ -748628,6 +748640,9 @@ Tides of Existence:
   steam:
     id: 1068480
 Tides of Tomorrow:
+  id:
+    steamExtra:
+      - 3951580
   steam:
     id: 2678080
 Tides of Tomorrow 🌊:
