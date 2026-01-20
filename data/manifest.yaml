@@ -91051,6 +91051,11 @@ Blue Archive:
         - config
       when:
         - os: windows
+    "<home>/AppData/LocalLow/YostarJP/Blue Archive":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     BlueArchive: {}
   launch:
@@ -416407,9 +416412,16 @@ MINImax Tinyverse:
     id: 914700
 "MIO: Memories in Orbit":
   cloud:
+    epic: true
     steam: true
+  files:
+    "<winLocalAppData>/MIO/Saves/Steam/<storeUserId>/*.save":
+      when:
+        - store: steam
   id:
     lutris: mio-memories-in-orbit
+  installDir:
+    MIO: {}
   steam:
     id: 1672810
 MIR4:
@@ -442533,6 +442545,8 @@ Minami Lane:
         - config
       when:
         - os: mac
+  id:
+    lutris: minami-lane
   installDir:
     Minami Lane: {}
   launch:
@@ -656497,6 +656511,8 @@ Starship Troopers - Terran Command:
 "Starship Troopers: Ultimate Bug War!":
   cloud:
     steam: true
+  gog:
+    id: 1766747976
   steam:
     id: 2321780
 "Starship: Nova Strike":
@@ -694769,6 +694785,8 @@ Tempo Wizard:
 Tempopo:
   cloud:
     steam: true
+  id:
+    lutris: tempopo
   installDir:
     Tempopo: {}
   launch:

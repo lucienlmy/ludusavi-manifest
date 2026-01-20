@@ -29364,7 +29364,7 @@ Blue Archive:
   pageId: 205475
   steam: 3557620
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Nexon Games\\Blue Archive\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Nexon Games\\Blue Archive\\{{note|Global Steam version}}|{{p|userprofile}}\\AppData\\LocalLow\\YostarJP\\Blue Archive\\{{note|Japan Yostar version}}}}"
 Blue Archive (JP):
   pageId: 212998
   templates:
@@ -133965,7 +133965,9 @@ MINImax Tinyverse:
   steam: 914700
 "MIO: Memories in Orbit":
   cloud:
+    epic: true
     steam: true
+    xbox: true
   lutris: mio-memories-in-orbit
   pageId: 205203
   steam: 1672810
@@ -142602,6 +142604,7 @@ Minami Lane:
   cloud:
     steam: true
     xbox: true
+  lutris: minami-lane
   pageId: 194955
   steam: 2678990
   templates:
@@ -211631,6 +211634,7 @@ Starship Troopers:
 "Starship Troopers: Ultimate Bug War!":
   cloud:
     steam: true
+  gog: 1766747976
   pageId: 211691
   steam: 2321780
 "Starship: Nova Strike":
@@ -223703,6 +223707,7 @@ Tempopo:
   cloud:
     steam: true
     xbox: true
+  lutris: tempopo
   pageId: 203526
   steam: 318840
 Temporal Shift:

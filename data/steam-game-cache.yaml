@@ -573173,7 +573173,31 @@
         oslist: windows
       executable: TSOA.exe
       type: default
-1672810: {}
+1672810:
+  cloud:
+    saves:
+      - path: "MIO/Saves/Steam/{64BitSteamID}"
+        pattern: "*.save"
+        root: WinAppDataLocal
+  installDir: MIO
+  launch:
+    - description: "MIO: Memories in Orbit"
+      executable: mio.exe
+      type: option1
+    - config:
+        ownsdlc: "3397440"
+      description: Without DRM (Dev Only)
+      executable: mio.nodrm.exe
+      type: option2
+    - config:
+        ownsdlc: "3397440"
+      description: Old exe name for compatibility
+      executable: flamby.exe
+      type: option3
+    - config:
+        ownsdlc: "3397440"
+      description: Without DRM - Old exe name for compatibility (Dev Only)
+      executable: flamby.nodrm.exe
 1672970:
   installDir: MinecraftDungeons
   launch:
