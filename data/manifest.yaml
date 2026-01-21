@@ -21288,6 +21288,11 @@ Aequitas Orbis:
     gog: true
     steam: true
   files:
+    "<home>/Library/Application Support/Daedalic Entertainment GmbH/Aer/aersave.fks":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winLocalAppData>/Daedalic Entertainment GmbH/Aer/aersave.fks":
       tags:
         - save
@@ -255802,6 +255807,9 @@ Fearmonium:
           - store: steam
   steam:
     id: 2961530
+Fearwoods:
+  steam:
+    id: 3296990
 "Feast Your Eyes: Little Marshmallow":
   cloud:
     steam: true
@@ -280556,6 +280564,18 @@ G.A.M.E.S:
           - store: steam
   steam:
     id: 844020
+"G.I. Combat: Episode 1: Battle of Normandy":
+  files:
+    "<base>/Game/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/options.sav":
+      tags:
+        - config
+      when:
+        - os: windows
 "G.I. Joe: Operation Blackout":
   cloud:
     steam: true
@@ -285783,6 +285803,8 @@ Gardens Inc. - From Rakes to Riches:
         - save
       when:
         - os: windows
+  id:
+    lutris: gardens-inc-from-rakes-to-riches
   installDir:
     Gardens Inc: {}
   launch:
@@ -285792,6 +285814,8 @@ Gardens Inc. - From Rakes to Riches:
   steam:
     id: 279420
 "Gardens Inc. 2: The Road to Fame":
+  id:
+    lutris: gardens-inc-2-the-road-to-fame
   installDir:
     Gardens Inc. 2 The Road to Fame: {}
   launch:
@@ -285800,6 +285824,9 @@ Gardens Inc. - From Rakes to Riches:
           - store: steam
   steam:
     id: 301260
+"Gardens Inc. 3: A Bridal Pursuit":
+  id:
+    lutris: gardens-inc-3-a-bridal-pursuit
 Gare Sapphire Mechs:
   installDir:
     Gare Sapphire Mechs: {}
@@ -374834,6 +374861,7 @@ Kathy Rain:
   gog:
     id: 1133886710
   id:
+    lutris: kathy-rain-2-soothsayer
     steamExtra:
       - 2643950
   installDir:
@@ -374881,6 +374909,7 @@ Kathy Rain:
     gogExtra:
       - 1083730174
       - 1621944214
+    lutris: kathy-rain-directors-cut
     steamExtra:
       - 1782060
   installDir:
@@ -397423,6 +397452,9 @@ Lenin - The Lion:
             store: steam
   steam:
     id: 839850
+Lenin Street Geek Shop:
+  steam:
+    id: 3225880
 "Lenna's Inception":
   cloud:
     steam: true
@@ -712377,6 +712409,8 @@ The Fermi Paradox:
   steam:
     id: 291840
 The Few:
+  id:
+    lutris: the-few
   installDir:
     TheFew: {}
   launch:
@@ -742929,6 +742963,9 @@ The Witcher:
           - os: windows
             store: steam
   registry:
+    HKEY_CURRENT_USER/Software/CD Projekt RED/Witcher/Bindings:
+      tags:
+        - config
     HKEY_CURRENT_USER/Software/CD Projekt RED/Witcher/Settings:
       tags:
         - config

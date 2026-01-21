@@ -633672,6 +633672,12 @@
     schinese: 迷失在只有雌性精灵的村庄，必须让所有人怀孕才能离开
     spanish: Me perdí en una aldea de elfas y no podré irme hasta embarazarlas a todas
     tchinese: 迷失於只有雌性妖精的村莊，直到讓所有人受孕才能離開
+3225880:
+  nameLocalized:
+    english: Lenin Street Geek Shop
+    japanese: レーニン通りギークショップ
+    russian: Ларек на улице Ленина
+    schinese: 列宁街小摊
 3226360: {}
 3226450: {}
 3226460:
@@ -634628,6 +634634,7 @@
   nameLocalized:
     schinese: 天之少女
     tchinese: 天之少女
+3296990: {}
 3299820: {}
 3299920: {}
 3300410:

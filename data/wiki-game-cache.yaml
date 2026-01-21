@@ -6665,6 +6665,7 @@ Aequitas Orbis:
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Aer/config.ini}}"
     - "{{Game data/saves|GOG.com|{{p|localappdata}}\\GOG.com\\Galaxy\\Applications\\49854609386510630\\Storage\\Shared\\Files\\aersave.fks}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Daedalic Entertainment GmbH\\Aer\\aersave.fks}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Daedalic Entertainment GmbH/Aer/aersave.fks}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Aer/aersave.fks}}"
 Aerannis:
   pageId: 46458
@@ -82395,6 +82396,9 @@ Fearmonium:
 "Fears to Fathom: Woodbury Getaway":
   pageId: 208712
   steam: 2961530
+Fearwoods:
+  pageId: 213034
+  steam: 3296990
 "Feast Your Eyes: Little Marshmallow":
   cloud:
     steam: true
@@ -90169,6 +90173,11 @@ G-Sector:
 G.A.M.E.S:
   pageId: 141554
   steam: 844020
+"G.I. Combat: Episode 1: Battle of Normandy":
+  pageId: 213025
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\options.sav}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save}}"
 "G.I. Joe: Operation Blackout":
   cloud:
     steam: true
@@ -91787,14 +91796,19 @@ Gardener the Ripper:
   pageId: 93198
   steam: 852080
 Gardens Inc. - From Rakes to Riches:
+  lutris: gardens-inc-from-rakes-to-riches
   pageId: 50530
   steam: 279420
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Nitreal Games\\Gardens Inc\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Nitreal Games\\Gardens Inc\\}}"
 "Gardens Inc. 2: The Road to Fame":
+  lutris: gardens-inc-2-the-road-to-fame
   pageId: 50216
   steam: 301260
+"Gardens Inc. 3: A Bridal Pursuit":
+  lutris: gardens-inc-3-a-bridal-pursuit
+  pageId: 213030
 Gardenscapes (2009):
   pageId: 180970
 Gare Sapphire Mechs:
@@ -120573,6 +120587,7 @@ Kathy Rain:
     gog: true
     steam: true
   gog: 1133886710
+  lutris: kathy-rain-2-soothsayer
   pageId: 199534
   steam: 1466390
   steamSide:
@@ -120589,6 +120604,7 @@ Kathy Rain:
   gogSide:
     - 1083730174
     - 1621944214
+  lutris: kathy-rain-directors-cut
   pageId: 166170
   steam: 1395030
   steamSide:
@@ -128019,6 +128035,9 @@ Lemurzin:
 Lenin - The Lion:
   pageId: 93349
   steam: 839850
+Lenin Street Geek Shop:
+  pageId: 213023
+  steam: 3225880
 "Lenna's Inception":
   cloud:
     steam: true
@@ -229363,6 +229382,7 @@ The Fermi Paradox:
   pageId: 50960
   steam: 291840
 The Few:
+  lutris: the-few
   pageId: 50035
   steam: 300320
 The Fidelio Incident:
@@ -239427,7 +239447,7 @@ The Witcher:
   steamSide:
     - 9810
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\CD Projekt RED\\Witcher\\Settings\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\CD Projekt RED\\Witcher\\Settings\\|{{p|hkcu}}\\Software\\CD Projekt RED\\Witcher\\Bindings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\The Witcher\\saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.cdprojektred.TheWitcher/GameDocuments/The Witcher/saves/}}"
 "The Witcher 2: Assassins of Kings":
