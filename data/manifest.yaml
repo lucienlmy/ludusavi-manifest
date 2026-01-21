@@ -2882,6 +2882,15 @@ $1 Ride:
   steam:
     id: 668620
 1Heart:
+  files:
+    "<winAppData>/1Heart":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: 1heart
   installDir:
     1Heart: {}
   launch:
@@ -75753,11 +75762,17 @@ Bejeweled:
     id: 3350
 Bejeweled 2:
   files:
+    "<winProgramData>/PopCap Games/Bejeweled2/users":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winProgramData>/Steam/Bejeweled2/users":
       tags:
         - save
       when:
         - os: windows
+          store: steam
   installDir:
     Bejeweled 2 Deluxe: {}
   launch:
@@ -154541,6 +154556,8 @@ Crimson Snow:
         - save
       when:
         - os: windows
+  id:
+    lutris: crimson-snow
   installDir:
     Crimson Snow: {}
   launch:
@@ -195936,6 +195953,8 @@ Disorder (2025):
     "<winLocalAppData>/disorder/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  id:
+    lutris: disorder--5
   installDir:
     DISORDER: {}
   steam:
@@ -393464,6 +393483,44 @@ Left 4 Dead:
             store: steam
   steam:
     id: 500
+Left 4 Dead 2:
+  cloud:
+    steam: true
+  files:
+    "<base>/left4dead2/cfg/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/550/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+        - os: linux
+          store: steam
+  id:
+    lutris: left-4-dead-2
+    steamExtra:
+      - 322070
+  installDir:
+    Left 4 Dead 2: {}
+  launch:
+    "<base>/hl2.sh":
+      - arguments: "-game left4dead2 -steam"
+        when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+    "<base>/left4dead2.exe":
+      - arguments: "-steam"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 550
 Left Alive:
   cloud:
     steam: true
@@ -410292,6 +410349,7 @@ Lost in Random:
       - 1801348230
       - 1904447838
       - 1946124717
+    lutris: lost-in-random-the-eternal-die
     steamExtra:
       - 3478380
       - 3573930
@@ -727506,6 +727564,8 @@ The Mute House:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-mute-house
   installDir:
     The Mute House: {}
   launch:

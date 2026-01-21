@@ -875,8 +875,12 @@ $1 Ride:
   pageId: 95929
   steam: 668620
 1Heart:
+  lutris: 1heart
   pageId: 49520
   steam: 270190
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\1Heart}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\1Heart}}"
 1Quest:
   pageId: 34875
   steam: 332710
@@ -24501,7 +24505,8 @@ Bejeweled 2:
   pageId: 12258
   steam: 3300
   templates:
-    - "{{Game data/saves|Windows|{{p|programdata}}\\Steam\\Bejeweled2\\users}}"
+    - "{{Game data/saves|Windows|{{p|programdata}}\\PopCap Games\\Bejeweled2\\users}}"
+    - "{{Game data/saves|Steam|{{p|programdata}}\\Steam\\Bejeweled2\\users}}"
 Bejeweled 3:
   cloud:
     origin: true
@@ -49379,6 +49384,7 @@ Crimson Skies:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\}}"
 Crimson Snow:
+  lutris: crimson-snow
   pageId: 183607
   steam: 2067790
   templates:
@@ -62809,6 +62815,7 @@ Disorder (2025):
   cloud:
     steam: true
     xbox: true
+  lutris: disorder--5
   pageId: 200373
   steam: 1332340
 Disoriented:
@@ -126664,6 +126671,18 @@ Left 4 Dead:
   steam: 500
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\left4dead\\cfg\\config.cfg|{{p|game}}\\left4dead\\cfg\\video.txt}}"
+Left 4 Dead 2:
+  cloud:
+    steam: true
+  lutris: left-4-dead-2
+  pageId: 144
+  steam: 550
+  steamSide:
+    - 322070
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\left4dead2\\cfg\\config.cfg}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{P|uid}}\\550\\remote\\}}"
+    - "{{Game data/saves|Linux|{{p|steam}}\\userdata\\{{P|uid}}\\550\\remote\\}}"
 Left Alive:
   cloud:
     steam: true
@@ -132120,6 +132139,7 @@ Lost in Random:
     - 1801348230
     - 1904447838
     - 1946124717
+  lutris: lost-in-random-the-eternal-die
   pageId: 202464
   steam: 2564520
   steamSide:
@@ -234352,6 +234372,7 @@ The Mutational:
   pageId: 156712
   steam: 652780
 The Mute House:
+  lutris: the-mute-house
   pageId: 201279
   renamedFrom:
     - THE MUTE HOUSE
