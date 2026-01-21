@@ -621582,6 +621582,7 @@
   launch:
     - executable: 420BLAZEIT2.exe
       type: default
+2624870: {}
 2626910:
   installDir: Lotnicy
   launch:
@@ -627485,6 +627486,7 @@
   nameLocalized:
     schinese: "阿嘓大冒险: 绿色之旅"
     tchinese: "阿嘓大冒險: 綠色之旅"
+2855590: {}
 2856450:
   installDir: Dimensionals
   launch:
@@ -631688,6 +631690,14 @@
       type: default
   nameLocalized:
     english: Reimu Needs Help!? Aunn-chan to the Rescue!
+3064810:
+  installDir: Strategos
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Strategos.exe
+      type: default
 3065800:
   nameLocalized:
     japanese: マラソン
@@ -635445,6 +635455,19 @@
   installDir: Digseum
   launch:
     - executable: Digseum.exe
+3362660:
+  cloud:
+    saves:
+      - path: Saber Interactive/WWZVR
+        pattern: savedata.json
+        root: WinAppDataLocalLow
+      - path: Saber Interactive/WWZVR
+        pattern: filesave
+        root: WinAppDataLocalLow
+  installDir: WWZ VR
+  launch:
+    - executable: wwzvr.exe
+      type: vr
 3363310:
   installDir: ReThink Evolved 6
   launch:
@@ -639844,7 +639867,18 @@
         oslist: macos
       executable: (BURIED TAPES) The Parking.app
       type: default
-3950020: {}
+3950020:
+  installDir: Duet Night Abyss
+  launch:
+    - config:
+        oslist: windows
+      executable: EM/Binaries/Win64/EM-Win64-Shipping.exe
+      type: default
+    - config:
+        betakey: 26.1.16firsttest
+        oslist: windows
+      executable: EM/Binaries/Win64/EM-Win64-Shipping.exe
+      type: default
 3954580: {}
 3970690: {}
 3978420:

@@ -7193,6 +7193,9 @@ Agatha Christie - Death on the Nile (2025):
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Microids\\Agatha Christie - Hercule Poirot_ The First Cases\\GameData_v3.bin}}"
 "Agatha Christie - Hercule Poirot: The London Case":
+  cloud:
+    gog: true
+    steam: true
   gog: 1138549039
   gogSide:
     - 1566838012
@@ -7219,6 +7222,9 @@ Agatha Christie - Death on the Nile (2025):
   steamSide:
     - 5683
 "Agatha Christie: Murder on the Orient Express (2023)":
+  cloud:
+    gog: true
+    steam: true
   gog: 1408221873
   gogSide:
     - 1368113440
@@ -27922,6 +27928,7 @@ Bleak:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Forsaken\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Forsaken\\Saved\\SaveGames\\}}"
 Bleak Haven:
+  lutris: bleak-haven
   pageId: 205583
   steam: 3566840
 Bleak Sword:
@@ -123181,6 +123188,9 @@ Knight of the Hamsters:
   steam: 328650
   steamSide:
     - 344970
+"Knight's Path":
+  pageId: 213012
+  steam: 2855590
 KnightOut:
   cloud:
     steam: true
@@ -128770,6 +128780,16 @@ Life Is Strange Remastered:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Chronos\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\My Games\\LifeIsStrangeDoubleExposure\\Steam\\Saved\\*.sav}}"
+"Life Is Strange: Reunion":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 213008
+  steam: 2624870
+  steamSide:
+    - 3977730
+    - 3977740
+    - 4340990
 "Life Is Strange: True Colors":
   cloud:
     steam: true
@@ -177725,6 +177745,9 @@ Radish:
 Radium:
   pageId: 48463
   steam: 355410
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Radium}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Radium}}"
 "Radline: Quarantine":
   pageId: 58091
   steam: 592390
@@ -214073,6 +214096,9 @@ Stratego Multiplayer:
 Stratego Single Player:
   pageId: 54792
   steam: 491670
+Strategos:
+  pageId: 213010
+  steam: 3064810
 "Strategy & Tactics: Dark Ages":
   pageId: 54780
   steam: 508300
@@ -221604,6 +221630,7 @@ Tainted Fate:
     - 1698788752
     - 1798335080
     - 2109111209
+  lutris: tainted-grail-the-fall-of-avalon
   pageId: 168648
   steam: 1466060
   steamSide:
@@ -232182,10 +232209,14 @@ The Last Exterminator:
     - 2562780
 The Last Faith:
   cloud:
+    gog: true
     steam: true
   gog: 1916795609
+  lutris: the-last-faith
   pageId: 191838
   steam: 1274600
+  steamSide:
+    - 3905110
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Kumi Souls Games\\The Last Faith\\}}"
 The Last Federation:
@@ -266475,6 +266506,11 @@ World War Z:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Saber\\WWZ\\client\\storage\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\699130\\remote\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\MadDogGamesLLC.WWZBaseGamePC_6wkgvezv94m76\\SystemAppData\\wgs}}"
+World War Z VR:
+  cloud:
+    steam: true
+  pageId: 213014
+  steam: 3362660
 "World War Zero: Iron Storm":
   lutris: iron-storm
   pageId: 76801

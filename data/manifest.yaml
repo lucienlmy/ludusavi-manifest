@@ -22856,6 +22856,9 @@ Agatha Christie - Death on the Nile (2025):
   steam:
     id: 1573720
 "Agatha Christie - Hercule Poirot: The London Case":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<home>/AppData/LocalLow/Microids/Poirot London/*.bin":
       when:
@@ -22917,6 +22920,9 @@ Agatha Christie - Death on the Nile (2025):
   steam:
     id: 39620
 "Agatha Christie: Murder on the Orient Express (2023)":
+  cloud:
+    gog: true
+    steam: true
   gog:
     id: 1408221873
   id:
@@ -86444,6 +86450,8 @@ Bleak:
   steam:
     id: 1173220
 Bleak Haven:
+  id:
+    lutris: bleak-haven
   installDir:
     Bleak Haven: {}
   launch:
@@ -213016,6 +213024,13 @@ Duet:
   steam:
     id: 292600
 Duet Night Abyss:
+  installDir:
+    Duet Night Abyss: {}
+  launch:
+    "<base>/EM/Binaries/Win64/EM-Win64-Shipping.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3950020
 Dujanah:
@@ -382619,6 +382634,9 @@ Knight of the Hamsters:
             store: steam
   steam:
     id: 328650
+"Knight's Path":
+  steam:
+    id: 2855590
 KnightOut:
   cloud:
     steam: true
@@ -399943,6 +399961,16 @@ Life Is Strange Remastered:
             store: steam
   steam:
     id: 1874000
+"Life Is Strange: Reunion":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3977730
+      - 3977740
+      - 4340990
+  steam:
+    id: 2624870
 "Life Is Strange: True Colors":
   cloud:
     steam: true
@@ -551316,6 +551344,13 @@ Radish:
   steam:
     id: 1148830
 Radium:
+  files:
+    "<winAppData>/Radium":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Radium: {}
   launch:
@@ -664077,6 +664112,17 @@ Stratego Single Player:
             store: steam
   steam:
     id: 491670
+Strategos:
+  installDir:
+    Strategos: {}
+  launch:
+    "<base>/Strategos.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3064810
 "Strategy & Tactics: Dark Ages":
   files:
     "<base>/rms/<storeUserId>":
@@ -687891,6 +687937,7 @@ Tainted Grail:
       - 1698788752
       - 1798335080
       - 2109111209
+    lutris: tainted-grail-the-fall-of-avalon
     steamExtra:
       - 3681950
       - 3687050
@@ -721106,6 +721153,7 @@ The Last Exterminator:
     id: 811760
 The Last Faith:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Kumi Souls Games/The Last Faith":
@@ -721116,6 +721164,10 @@ The Last Faith:
           store: steam
   gog:
     id: 1916795609
+  id:
+    lutris: the-last-faith
+    steamExtra:
+      - 3905110
   installDir:
     The Last Faith: {}
   launch:
@@ -823139,6 +823191,20 @@ World War Z:
         workingDir: "<base>/en_us/client/bin/pc"
   steam:
     id: 699130
+World War Z VR:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Saber Interactive/WWZVR/filesave":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Saber Interactive/WWZVR/savedata.json":
+      when:
+        - store: steam
+  installDir:
+    WWZ VR: {}
+  steam:
+    id: 3362660
 "World War Zero: Iron Storm":
   files:
     "<base>/SaveGames":
