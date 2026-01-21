@@ -3723,6 +3723,11 @@
       description: Launch With 2KLauncher
       executable: "2KLauncher\\LauncherPatcher.exe"
       workingdir: "Binaries\\Win32"
+    - config:
+        betakey: proton_test
+        oslist: linux
+      description: Windows Executable Test
+      executable: "Binaries\\Win32\\BioShockInfinite.exe"
   nameLocalized:
     japanese: バイオショック インフィニット　コンプリート・エディション
     koreana: "바이오쇼크 인피니트: 컴플리트 에디션"
@@ -15453,6 +15458,8 @@
       executable: "old_xna_version\\Owlboy.exe"
       type: option1
       workingdir: "old_xna_version\\"
+  nameLocalized:
+    schinese: 猫头鹰男孩
 116100:
   installDir: Super Toy Cars
   launch:

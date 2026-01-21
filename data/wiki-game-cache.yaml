@@ -212563,6 +212563,7 @@ Steel Seed:
   cloud:
     epic: true
     steam: true
+  lutris: steel-seed
   pageId: 202197
   steam: 458430
   steamSide:
@@ -220804,6 +220805,15 @@ TKO:
 "TMM: Entourage":
   pageId: 60297
   steam: 556310
+"TMNT: Teenage Mutant Ninja Turtles":
+  pageId: 72635
+  renamedFrom:
+    - TMNT
+    - Teenage Mutant Ninja Turtles (2007)
+  steam: 21990
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\TMNTConfig.ini|{{p|appdata}}\\TMNT\\Hardware.ini}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TMNT}}"
 TNN Motorsports Hardcore TR:
   pageId: 46933
   steam: 393540
@@ -223356,14 +223366,6 @@ Teenage Mutant Ninja Turtles (2003):
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\SaveSetting.dat}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SaveGame.dat}}"
-Teenage Mutant Ninja Turtles (2007):
-  pageId: 72635
-  renamedFrom:
-    - TMNT
-  steam: 21990
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\TMNTConfig.ini}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TMNT}}"
 "Teenage Mutant Ninja Turtles 2: Battle Nexus":
   pageId: 124685
   templates:

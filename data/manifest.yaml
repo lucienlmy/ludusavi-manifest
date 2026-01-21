@@ -659388,6 +659388,7 @@ Steel Seed:
       when:
         - os: windows
   id:
+    lutris: steel-seed
     steamExtra:
       - 3002050
       - 3626510
@@ -685424,7 +685425,32 @@ TKO:
   steam:
     id: 556310
 TMNT:
-  alias: Teenage Mutant Ninja Turtles (2007)
+  alias: "TMNT: Teenage Mutant Ninja Turtles"
+"TMNT: Teenage Mutant Ninja Turtles":
+  files:
+    "<base>/TMNTConfig.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/TMNT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/TMNT/Hardware.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Teenage Mutant Ninja Turtles: {}
+  launch:
+    "<base>/TMNT.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 21990
 TNN Motorsports Hardcore TR:
   installDir:
     TNN Motorsports Hardcore TR: {}
@@ -693645,25 +693671,7 @@ Teenage Mutant Ninja Turtles (2003):
       when:
         - os: windows
 Teenage Mutant Ninja Turtles (2007):
-  files:
-    "<base>/TMNTConfig.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winAppData>/TMNT":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    Teenage Mutant Ninja Turtles: {}
-  launch:
-    "<base>/TMNT.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 21990
+  alias: "TMNT: Teenage Mutant Ninja Turtles"
 "Teenage Mutant Ninja Turtles 2: Battle Nexus":
   files:
     "<base>/TMNT2.ini":
