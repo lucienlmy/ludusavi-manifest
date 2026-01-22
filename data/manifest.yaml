@@ -179806,12 +179806,14 @@ Deathless. Tales of Old Rus:
     id: 410910
 "Deathless: The Hero Quest":
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/1CGS/Deathless/**/*.device":
       when:
         - store: steam
   id:
+    lutris: deathless-tales-of-old-rus
     steamExtra:
       - 2981660
       - 3014920
@@ -193909,6 +193911,18 @@ Dinoku:
 Dinolords:
   steam:
     id: 2587620
+Dinosaur:
+  files:
+    "<base>/GameData/SaveGame":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDir>/UbiSoft/ubi.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Dinosaur Bone Digging:
   installDir:
     Dinosaur Bone Digging: {}
@@ -195838,17 +195852,7 @@ Disney Universe:
   steam:
     id: 338300
 "Disney's Dinosaur":
-  files:
-    "<base>/GameData/SaveGame":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winDir>/UbiSoft/ubi.ini":
-      tags:
-        - config
-      when:
-        - os: windows
+  alias: Dinosaur
 "Disney's Hercules":
   files:
     "<base>/DISNEY.INI":
@@ -318435,6 +318439,12 @@ Havendock:
           store: steam
   gog:
     id: 1237961766
+  id:
+    gogExtra:
+      - 2002335854
+      - 2080199412
+    steamExtra:
+      - 4156780
   installDir:
     Havendock: {}
   launch:
@@ -374425,6 +374435,18 @@ Karos Returns:
 Karous:
   cloud:
     steam: true
+  files:
+    "<base>/savedataK1R/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Karous: {}
+  launch:
+    "<base>/Karous.exe":
+      - when:
+          - store: steam
   steam:
     id: 4090420
 Karradash - The Lost Dungeons:
@@ -567947,10 +567969,12 @@ Reus 2:
       - 1227600218
       - 1393809785
       - 1556747210
+      - 2005515160
     steamExtra:
       - 3010540
       - 3333960
       - 3564800
+      - 4131780
   installDir:
     Reus2: {}
   launch:
@@ -585966,6 +585990,7 @@ Rusted Warfare - RTS:
   alias: Rusted Warfare
 Rustler:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/JutsuGames/Rustler":
@@ -693029,12 +693054,14 @@ Team Fortress 2:
   steam:
     id: 440
 Team Fortress 2 Classic:
+  alias: Team Fortress 2 Classified
+Team Fortress 2 Classic (2014):
+  alias: Team Fortress 2 Classified
+Team Fortress 2 Classified:
   id:
-    lutris: team-fortress-2-classic
+    lutris: team-fortress-2-classified
   steam:
     id: 3545060
-Team Fortress 2 Classic (2014):
-  alias: Team Fortress 2 Classic
 Team Fortress Classic:
   files:
     "<base>/Half-Life/tfc":
@@ -696994,10 +697021,12 @@ Terraforming Mars:
     id: 2013033253
   id:
     gogExtra:
+      - 1106627922
       - 1337100717
       - 1504654780
       - 1864827001
       - 1908827032
+      - 1919358665
       - 2010739260
     lutris: terraforming-mars
     steamExtra:
@@ -697005,6 +697034,8 @@ Terraforming Mars:
       - 1785010
       - 2625120
       - 2948100
+      - 2948110
+      - 4143120
   installDir:
     Terraforming Mars: {}
   launch:
@@ -712430,6 +712461,12 @@ The Fermi Paradox:
   steam:
     id: 291840
 The Few:
+  files:
+    "<winAppData>/TheFew/Local Store/#SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: the-few
   installDir:

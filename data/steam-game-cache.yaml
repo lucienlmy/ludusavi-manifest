@@ -594804,7 +594804,7 @@
       executable: GreedFall2.exe
       type: default
     - config:
-        betakey: "nacon,qa_external,qa_external_trunk,spiders_dev,spiders_qa,spiders_stable_debug,nacon_trunk,video,lqa_external,nacon_gate,studio_debug,external_debug,compatibility_debug,ratings,beta_vip_debug,partners_internal"
+        betakey: "nacon,qa_external,qa_external_trunk,spiders_dev,spiders_qa,spiders_stable_debug,nacon_trunk,video,lqa_external,nacon_gate,studio_debug,external_debug,compatibility_debug,ratings,beta_vip_debug,partners_internal,influence"
         osarch: "64"
         oslist: windows
       description: GreedFall 2 - DebugOpt
@@ -617470,7 +617470,9 @@
         oslist: windows
       executable: RethinkLite.exe
       type: default
-2483190: {}
+2483190:
+  nameLocalized:
+    schinese: 极限竞速：地平线6
 2484110:
   installDir: FF7EC
   launch:
@@ -640146,6 +640148,14 @@
     schinese: 星球大战：银河赛车手™
     tchinese: 星際大戰：銀河賽車手™
 4090420:
+  cloud:
+    saves:
+      - path: savedataK1R
+        pattern: "*.json"
+        root: gameinstall
+  installDir: Karous
+  launch:
+    - executable: Karous.exe
   nameLocalized:
     english: Karous
     japanese: カラス

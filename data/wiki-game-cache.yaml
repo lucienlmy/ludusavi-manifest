@@ -57567,7 +57567,9 @@ Deathless Dungeon:
   steam: 410910
 "Deathless: The Hero Quest":
   cloud:
+    epic: true
     steam: true
+  lutris: deathless-tales-of-old-rus
   pageId: 195834
   renamedFrom:
     - Deathless. Tales of Old Rus
@@ -62023,6 +62025,13 @@ Dinoku:
 Dinolords:
   pageId: 197337
   steam: 2587620
+Dinosaur:
+  pageId: 88400
+  renamedFrom:
+    - "Disney's Dinosaur"
+  templates:
+    - "{{Game data/config|Windows|{{p|windir}}\\UbiSoft\\ubi.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\SaveGame\\}}"
 Dinosaur Adventure:
   pageId: 177106
 Dinosaur Adventure 3-D:
@@ -62776,11 +62785,6 @@ Disney Universe:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Disney Interactive Studios\\Chicken Little 2}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Disney Interactive Studios\\Chicken Little 2\\SaveGames}}"
-"Disney's Dinosaur":
-  pageId: 88400
-  templates:
-    - "{{Game data/config|Windows|{{p|windir}}\\UbiSoft\\ubi.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\SaveGame\\}}"
 "Disney's Hercules":
   gog: 1117508714
   pageId: 40470
@@ -102478,8 +102482,13 @@ Haven Park:
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/BubbleStudio/HavenPark/game.save}}"
 Havendock:
   gog: 1237961766
+  gogSide:
+    - 2002335854
+    - 2080199412
   pageId: 197109
   steam: 2020710
+  steamSide:
+    - 4156780
 Havoc:
   pageId: 210159
 Havoc in Heaven:
@@ -120458,6 +120467,8 @@ Karous:
     steam: true
   pageId: 212987
   steam: 4090420
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savedataK1R\\*.json}}"
 Karradash - The Lost Dungeons:
   pageId: 68184
   steam: 682020
@@ -183251,12 +183262,14 @@ Reus 2:
     - 1227600218
     - 1393809785
     - 1556747210
+    - 2005515160
   pageId: 195421
   steam: 1875060
   steamSide:
     - 3010540
     - 3333960
     - 3564800
+    - 4131780
   templates:
     - "{{Game data/saves|Windows|{{path|userprofile\\appdata\\locallow}}\\Abbey Games\\Reus 2|{{path|userprofile\\appdata\\locallow}}\\Abbey Games\\{{LocalizedPath|造物主 2}}<ref>{{refurl|url=https://steamdb.info/app/1875060/info/|title=SteamDB name_localized schinese|date=2024}}</ref>}}"
 Reveal:
@@ -189092,6 +189105,7 @@ Rusted Warfare:
   steam: 647960
 Rustler:
   cloud:
+    epic: true
     steam: true
   pageId: 94152
   steam: 844260
@@ -223153,11 +223167,12 @@ Team Fortress 2:
   steam: 440
   templates:
     - "{{Game data/config|Steam|{{p|game}}\\tf\\cfg\\}}"
-Team Fortress 2 Classic:
-  lutris: team-fortress-2-classic
+Team Fortress 2 Classified:
+  lutris: team-fortress-2-classified
   pageId: 201384
   renamedFrom:
     - Team Fortress 2 Classic (2014)
+    - Team Fortress 2 Classic
   steam: 3545060
 Team Fortress Classic:
   lutris: team-fortress-classic
@@ -224375,10 +224390,12 @@ Terraforming Mars:
     gog: true
   gog: 2013033253
   gogSide:
+    - 1106627922
     - 1337100717
     - 1504654780
     - 1864827001
     - 1908827032
+    - 1919358665
     - 2010739260
   lutris: terraforming-mars
   pageId: 82896
@@ -224388,6 +224405,8 @@ Terraforming Mars:
     - 1785010
     - 2625120
     - 2948100
+    - 2948110
+    - 4143120
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\LuckyHammers\\Terraforming Mars\\Saves\\BaseConfiguration\\Configuration|{{P|hkcu}}\\Software\\LuckyHammers\\Terraforming Mars\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\LuckyHammers\\Terraforming Mars\\Saves\\LocalGameSave\\}}"
@@ -229394,6 +229413,8 @@ The Few:
   lutris: the-few
   pageId: 50035
   steam: 300320
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TheFew\\Local Store\\#SaveGames}}"
 The Fidelio Incident:
   pageId: 62673
   steam: 632070
