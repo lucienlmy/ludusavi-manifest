@@ -56885,6 +56885,9 @@ Deadweight:
   steamSide:
     - 3883890
     - 3897660
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Valhalla\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Valhalla\\Saved\\SaveGames\\}}"
 Deal or No Deal:
   pageId: 90806
 "Deal or No Deal: Secret Vault Games":
@@ -268815,11 +268818,17 @@ Yakuza Kiwami 2 (2025):
     steam: true
   pageId: 211991
   steam: 3717340
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Sega\\YakuzaKiwami2_R\\Steam\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Sega\\YakuzaKiwami2_R\\Steam\\{{P|uid}}\\}}"
 Yakuza Kiwami 3 & Dark Ties:
   cloud:
     steam: true
   pageId: 208855
   steam: 3937550
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Sega\\YakuzaKiwami3\\Steam\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Sega\\YakuzaKiwami3\\Steam\\{{P|uid}}\\}}"
 "Yakuza: Like a Dragon":
   cloud:
     gog: true

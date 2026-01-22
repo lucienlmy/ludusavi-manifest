@@ -177687,13 +177687,16 @@ Deadweight:
   cloud:
     steam: true
   files:
-    "<base>/Valhalla/Saved/SaveGames/ValSaveGame-steam-3228590-*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/Valhalla/Saved/SaveGames/ValSaveGame-steam-3228590-*.sav":
+    "<winLocalAppData>/Valhalla/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Valhalla/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3883890
@@ -829901,18 +829904,16 @@ Yakuza Kiwami 2 (2025):
   cloud:
     steam: true
   files:
-    "<winAppData>/Sega/YakuzaKiwami2_R/Steam/<storeUserId>/**/*.dds":
+    "<winAppData>/Sega/YakuzaKiwami2_R/Steam":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winAppData>/Sega/YakuzaKiwami2_R/Steam/<storeUserId>/**/*.sav":
+    "<winAppData>/Sega/YakuzaKiwami2_R/Steam/<storeUserId>":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winAppData>/Sega/YakuzaKiwami2_R/Steam/<storeUserId>/**/*.sys":
-      when:
-        - os: windows
-          store: steam
   installDir:
     Yakuza Kiwami 2 R: {}
   launch:
@@ -829927,6 +829928,17 @@ Yakuza Kiwami 2 (2025):
 Yakuza Kiwami 3 & Dark Ties:
   cloud:
     steam: true
+  files:
+    "<winAppData>/Sega/YakuzaKiwami3/Steam":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Sega/YakuzaKiwami3/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
   steam:
     id: 3937550
 "Yakuza: Like a Dragon":

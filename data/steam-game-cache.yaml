@@ -633706,6 +633706,12 @@
   cloud:
     saves:
       - path: Valhalla/Saved/SaveGames
+        pattern: ValSaveGame@steam3228590*.sav
+        root: gameinstall
+      - path: Valhalla/Saved/SaveGames
+        pattern: ValGlobalSave@steam3228590*.sav
+        root: gameinstall
+      - path: Valhalla/Saved/SaveGames
         pattern: ValSaveGame-steam-3228590-*.sav
         root: gameinstall
     overrides:
