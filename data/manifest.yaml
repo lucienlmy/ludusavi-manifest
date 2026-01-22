@@ -636569,6 +636569,8 @@ Soulslayer:
         - os: windows
   gog:
     id: 1383972634
+  id:
+    lutris: soulslinger-envoy-of-death
   installDir:
     Soulslinger - Envoy of Death: {}
   launch:
@@ -636576,6 +636578,9 @@ Soulslayer:
       - when:
           - store: steam
       - arguments: "-dx11"
+        when:
+          - store: steam
+      - arguments: "-noShader"
         when:
           - store: steam
   steam:
@@ -666929,6 +666934,19 @@ Stuck In Time:
             store: steam
   steam:
     id: 1814010
+"Studio System : Guardian Angel":
+  cloud:
+    steam: true
+  installDir:
+    Studio System Guardian Angel: {}
+  launch:
+    "<base>/studio-system.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2194790
 "Study of Unusual: Forest of Secrets":
   installDir:
     Study of Unusual Forest of Secrets: {}
@@ -729390,6 +729408,8 @@ The Outer Worlds 2:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: the-outer-worlds-2
   installDir:
     TheOuterWorlds2: {}
   launch:

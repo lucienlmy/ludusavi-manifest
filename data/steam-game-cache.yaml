@@ -605248,6 +605248,14 @@
         oslist: windows
       executable: BeachHead Rogue.exe
       type: default
+2194790:
+  installDir: Studio System Guardian Angel
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: studio-system.exe
+      type: default
 2194810:
   installDir: SEX with HITLER 2
   launch:
@@ -614994,6 +615002,9 @@
       executable: Soulslinger.exe
     - arguments: "-dx11"
       description: DirectX 11
+      executable: Soulslinger.exe
+    - arguments: "-noShader"
+      description: Skip shader compilation (expect stutters!)
       executable: Soulslinger.exe
 2429350:
   cloud:

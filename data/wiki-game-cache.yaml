@@ -205155,6 +205155,7 @@ Soulslayer:
     gog: true
     steam: true
   gog: 1383972634
+  lutris: soulslinger-envoy-of-death
   pageId: 192621
   steam: 2429240
   templates:
@@ -215037,6 +215038,11 @@ Stuck In Time:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\LoopOdyssey\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\LoopOdyssey\\}}"
+"Studio System : Guardian Angel":
+  cloud:
+    steam: true
+  pageId: 213040
+  steam: 2194790
 "Study of Unusual: Forest of Secrets":
   pageId: 103077
   steam: 897550
@@ -234949,6 +234955,7 @@ The Outer Worlds 2:
   cloud:
     steam: true
     xbox: true
+  lutris: the-outer-worlds-2
   pageId: 169262
   steam: 1449110
   templates:
