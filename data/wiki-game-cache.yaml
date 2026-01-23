@@ -18072,6 +18072,12 @@ Attractorache:
   steamSide:
     - 943870
     - 943871
+Attrax:
+  lutris: attrax
+  pageId: 213059
+  steam: 3103420
+  steamSide:
+    - 3276780
 "Attrition: Nuclear Domination":
   pageId: 59737
   steam: 392870
@@ -19633,8 +19639,11 @@ BR Logic Pack:
   pageId: 41281
   steam: 35800
 "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT":
+  lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
   pageId: 201707
   steam: 3191050
+  steamSide:
+    - 3476440
 "BRG's Alice in Wonderland Visual Novel":
   pageId: 136712
   steam: 1065870
@@ -28186,6 +28195,7 @@ Blink the Bulb:
 Blippo+:
   cloud:
     steam: true
+  lutris: blippo-plus
   pageId: 208787
   steam: 3323850
   templates:
@@ -225747,6 +225757,15 @@ The Art of Fight:
 The Art of Knuckle Sandwich:
   pageId: 67631
   steam: 691920
+The Art of Reflection:
+  cloud:
+    steam: true
+  lutris: the-art-of-reflection
+  pageId: 213061
+  steam: 2290770
+  steamSide:
+    - 2991000
+    - 4163780
 The Artefacts lost in the Galaxy:
   pageId: 155711
   steam: 1052750

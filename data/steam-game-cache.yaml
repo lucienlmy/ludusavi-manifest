@@ -609536,6 +609536,36 @@
   installDir: Donut Adventure
   launch:
     - executable: main.exe
+2290770:
+  cloud:
+    saves:
+      - path: "ArtOfReflection/{64BitSteamID}"
+        pattern: "*.save"
+        root: WinAppDataRoaming
+      - path: "ArtOfReflection/{64BitSteamID}"
+        pattern: mostrecentslot.slot
+        root: WinAppDataRoaming
+      - path: "ArtOfReflection/{64BitSteamID}"
+        pattern: mirrorgununlocked.txt
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: The Art of Reflection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ArtOfReflection.exe
+      type: default
 2291020:
   cloud:
     saves:
@@ -632148,6 +632178,15 @@
   installDir: BigBuckHunter_UltimateTrophy
   launch:
     - executable: BBH.exe
+3103420:
+  cloud:
+    saves:
+      - path: "SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Attrax
+  launch:
+    - executable: Attrax.exe
 3103780:
   cloud:
     saves:
@@ -635041,8 +635080,14 @@
   installDir: Blippo+
   launch:
     - config:
+        osarch: "64"
         oslist: windows
       executable: Blippo+.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Blippo+.app
+      type: default
 3324100:
   installDir: Sidewalk Simulator
   launch:

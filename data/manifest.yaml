@@ -56451,6 +56451,23 @@ Attractorache:
           - store: steam
   steam:
     id: 940520
+Attrax:
+  files:
+    "<base>/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: attrax
+    steamExtra:
+      - 3276780
+  installDir:
+    Attrax: {}
+  launch:
+    "<base>/Attrax.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3103420
 "Attrition: Nuclear Domination":
   steam:
     id: 392870
@@ -61687,6 +61704,10 @@ BR Logic Pack:
   steam:
     id: 35800
 "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT":
+  id:
+    lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
+    steamExtra:
+      - 3476440
   installDir:
     AVIAOZIN3: {}
   launch:
@@ -87286,12 +87307,19 @@ Blippo+:
         - save
       when:
         - os: windows
+  id:
+    lutris: blippo-plus
   installDir:
     Blippo+: {}
   launch:
+    "<base>/Blippo+.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Blippo+.exe":
       - when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 3323850
@@ -701318,6 +701346,58 @@ The Art of Fight:
 The Art of Knuckle Sandwich:
   steam:
     id: 691920
+The Art of Reflection:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/ArtOfReflection/<storeUserId>/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/ArtOfReflection/<storeUserId>/mirrorgununlocked.txt":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/ArtOfReflection/<storeUserId>/mostrecentslot.slot":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/ArtOfReflection/<storeUserId>/*.save":
+      when:
+        - store: steam
+    "<winAppData>/ArtOfReflection/<storeUserId>/mirrorgununlocked.txt":
+      when:
+        - store: steam
+    "<winAppData>/ArtOfReflection/<storeUserId>/mostrecentslot.slot":
+      when:
+        - store: steam
+    "<xdgData>/ArtOfReflection/<storeUserId>/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/ArtOfReflection/<storeUserId>/mirrorgununlocked.txt":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/ArtOfReflection/<storeUserId>/mostrecentslot.slot":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: the-art-of-reflection
+    steamExtra:
+      - 2991000
+      - 4163780
+  installDir:
+    The Art of Reflection: {}
+  launch:
+    "<base>/ArtOfReflection.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2290770
 The Artefacts lost in the Galaxy:
   installDir:
     The Artefacts lost in the Galaxy: {}
