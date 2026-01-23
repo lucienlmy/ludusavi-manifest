@@ -622477,6 +622477,13 @@
     japanese: 堕落エルフ・フレイヤ
     schinese: 堕落精灵·芙蕾雅
     tchinese: 墮落精靈·芙蕾雅
+2653240:
+  installDir: "Knight's Path The Tournament"
+  launch:
+    - config:
+        oslist: windows
+      executable: KP_TheTournament.exe
+      type: default
 2653790:
   installDir: Exit8
   launch:
@@ -637016,7 +637023,19 @@
         oslist: windows
       executable: fe1.exe
       type: default
-3504580: {}
+3504580:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.srm"
+        root: gameinstall
+  installDir: Fighting Force Collection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: fighting-force.exe
+      type: default
 3504780:
   installDir: Wildgate
   launch:

@@ -106945,13 +106945,19 @@ ByLo:
     id: 1127620
 Bye Sweet Carole:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Meangrip/Bye Sweet Carole/*.savj":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+  gog:
+    id: 1628931490
   id:
+    gogExtra:
+      - 2011803633
     lutris: bye-sweet-carole
   installDir:
     Bye Sweet Carole: {}
@@ -239865,6 +239871,10 @@ Everdell:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: everdell
+    steamExtra:
+      - 3029430
   installDir:
     Everdell: {}
   launch:
@@ -258309,6 +258319,20 @@ Fighting Force:
 Fighting Force Collection:
   cloud:
     steam: true
+  files:
+    "<base>/*.srm":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Fighting Force Collection: {}
+  launch:
+    "<base>/fighting-force.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3504580
 "Fighting Frenzy: Swole Simulator":
@@ -382775,6 +382799,16 @@ Knight of the Hamsters:
 "Knight's Path":
   steam:
     id: 2855590
+"Knight's Path: The Tournament":
+  installDir:
+    "Knight's Path The Tournament": {}
+  launch:
+    "<base>/KP_TheTournament.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2653240
 KnightOut:
   cloud:
     steam: true

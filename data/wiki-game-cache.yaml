@@ -34369,10 +34369,16 @@ ByLo:
   steam: 1127620
 Bye Sweet Carole:
   cloud:
+    gog: true
     steam: true
+  gog: 1628931490
+  gogSide:
+    - 2011803633
   lutris: bye-sweet-carole
   pageId: 207338
   steam: 2428980
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Meangrip\\Bye Sweet Carole\\*.savj}}"
 "Bye-Bye, Wacky Planet":
   pageId: 37433
   steam: 492130
@@ -76839,8 +76845,11 @@ Everdeep Aurora:
     - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\Nautilus Games\\Everdeep Aurora\\SaveData}}"
     - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Nautilus Games\\Everdeep Aurora\\SaveData}}"
 Everdell:
+  lutris: everdell
   pageId: 213057
   steam: 1722840
+  steamSide:
+    - 3029430
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Dire Wolf Digital\\Everdell\\savedgames\\}}"
 Everdream Valley:
@@ -83191,6 +83200,8 @@ Fighting Force Collection:
     steam: true
   pageId: 211570
   steam: 3504580
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\*.srm}}"
 "Fighting Frenzy: Swole Simulator":
   pageId: 141070
   steam: 1101340
@@ -123249,6 +123260,9 @@ Knight of the Hamsters:
 "Knight's Path":
   pageId: 213012
   steam: 2855590
+"Knight's Path: The Tournament":
+  pageId: 213071
+  steam: 2653240
 KnightOut:
   cloud:
     steam: true
@@ -162920,6 +162934,10 @@ Pac-Man and the Ghostly Adventures:
     - "{{Game data/saves|Windows|{{P|game}}\\slot#.dat}}"
 Pac-in-Time:
   pageId: 162097
+PacFish:
+  pageId: 213074
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 PacaPlus:
   pageId: 60081
   steam: 610610
@@ -169836,6 +169854,10 @@ Pliksim:
 Plith:
   pageId: 42736
   steam: 339110
+Ploing2:
+  pageId: 213067
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 Plot of the Druid:
   pageId: 157442
   steam: 1108170
@@ -191276,6 +191298,10 @@ Samba Shooter:
 Samhain World:
   pageId: 61528
   steam: 618840
+Sammy the Suricate in Lion Land:
+  pageId: 213065
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 Samoliotik:
   pageId: 43957
   steam: 449680
@@ -210660,7 +210686,7 @@ Star Wars Outlaws:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/*.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GameData\\base\\saves\\|{{p|game}}\\GameData\\base\\screenshots\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/saves/|{{p|osxhome}}/Library/Application Support/Jedi Academy/base/screenshots/}}"
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/openjk/base/saves/<ref>OpenJK saves location</ref>}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/openjk/base/saves/<ref>OpenJK saves location</ref>}}"
 "Star Wars: Jedi Knight - Mysteries of the Sith":
   cloud:
     gog: true
