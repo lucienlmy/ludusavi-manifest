@@ -154379,6 +154379,10 @@ Crimson Defense:
   steam:
     id: 824710
 Crimson Desert:
+  cloud:
+    steam: true
+  id:
+    lutris: crimson-desert
   steam:
     id: 3321460
 Crimson Earth:
@@ -220950,6 +220954,16 @@ Eagle Island:
         - config
       when:
         - os: windows
+    "<xdgConfig>/Eagle Island/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/Eagle Island/config.ini":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1998187672
   installDir:

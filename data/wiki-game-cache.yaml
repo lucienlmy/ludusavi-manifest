@@ -49331,6 +49331,9 @@ Crimson Defense:
   pageId: 90943
   steam: 824710
 Crimson Desert:
+  cloud:
+    steam: true
+  lutris: crimson-desert
   pageId: 200185
   steam: 3321460
 Crimson Earth:
@@ -70840,7 +70843,9 @@ Eagle Island:
   steam: 681110
   templates:
     - "{{Game data/config|Windows|{{p|APPDATA}}\\Eagle Island\\config.ini}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/Eagle Island/config.ini}}"
     - "{{Game data/saves|Windows|{{p|APPDATA}}\\Eagle Island\\Saves\\}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Eagle Island/Saves/}}"
 Earache Extreme Metal Racing:
   pageId: 202347
   templates:
