@@ -239815,6 +239815,27 @@ Everdeep Aurora:
             store: steam
   steam:
     id: 2251400
+Everdell:
+  files:
+    "<home>/AppData/LocalLow/Dire Wolf Digital/Everdell/savedgames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Everdell: {}
+  launch:
+    "<base>/Everdell.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Everdell.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1722840
 Everdream Valley:
   cloud:
     gog: true
@@ -246739,6 +246760,8 @@ Fable (2021):
 Fable (2025):
   alias: Fable (2026)
 Fable (2026):
+  id:
+    lutris: fable--1
   steam:
     id: 2769570
 Fable Anniversary:
@@ -499609,6 +499632,13 @@ Out for Blood:
   steam:
     id: 674060
 Out of Action:
+  installDir:
+    Out of Action: {}
+  launch:
+    "<base>/OutOfAction.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1670780
 Out of Ammo:
@@ -585991,6 +586021,7 @@ Rusted Warfare - RTS:
 Rustler:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/JutsuGames/Rustler":
@@ -585998,6 +586029,8 @@ Rustler:
         - save
       when:
         - os: windows
+  gog:
+    id: 2058719826
   installDir:
     Rustler: {}
   launch:
@@ -601877,6 +601910,15 @@ Sega Bass Fishing (Steam):
           - store: steam
   steam:
     id: 71240
+Sega Football Club Champions:
+  installDir:
+    SegaFCC: {}
+  launch:
+    "<base>/FootballClubChampions.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3271000
 Sega GT:
   files:
     "<base>/Segagt.sgs":
@@ -733103,6 +733145,13 @@ The Rogue Prince of Persia:
         - save
       when:
         - os: windows
+    "<winAppData>/EvilEmpire/The Rogue Prince of Persia":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: the-rogue-prince-of-persia
   installDir:
     The Rogue Prince Of Persia: {}
   launch:
@@ -772957,6 +773006,7 @@ Turbo Pug:
     HKEY_CURRENT_USER/SOFTWARE/Space Cat Studios/Turbo Pug:
       tags:
         - config
+        - save
   steam:
     id: 418070
 Turbo Pug 3D:

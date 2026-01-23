@@ -542573,6 +542573,10 @@
         pattern: "*.json"
         recursive: true
         root: gameinstall
+      - path: saves
+        pattern: "*.mp"
+        recursive: true
+        root: gameinstall
     overrides:
       - os: Windows
         osCompare: "="
@@ -572971,7 +572975,13 @@
     sc_schinese: 火山的女儿
     schinese: 火山的女儿
 1670160: {}
-1670780: {}
+1670780:
+  installDir: Out of Action
+  launch:
+    - config:
+        oslist: windows
+      executable: OutOfAction.exe
+      type: default
 1670870:
   cloud:
     saves:
@@ -577113,6 +577123,17 @@
         osarch: "64"
         oslist: windows
       executable: Hamster on Rails.exe
+      type: default
+1722840:
+  installDir: Everdell
+  launch:
+    - config:
+        oslist: windows
+      executable: Everdell.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Everdell.app
       type: default
 1722860:
   installDir: Munchkin Digital
@@ -634217,6 +634238,14 @@
   nameLocalized:
     english: "Hina-chan's Sticker Survival"
     japanese: のりきれ！雛ちゃんスタンプ
+3271000:
+  installDir: SegaFCC
+  launch:
+    - executable: FootballClubChampions.exe
+  nameLocalized:
+    japanese: プロサッカークラブをつくろう！
+    schinese: SEGA 新创造球会
+    tchinese: SEGA 新創造球會
 3272300:
   installDir: Yasuke Simulator
   launch:

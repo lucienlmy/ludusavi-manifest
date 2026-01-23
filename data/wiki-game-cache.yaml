@@ -76823,6 +76823,11 @@ Everdeep Aurora:
   templates:
     - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\Nautilus Games\\Everdeep Aurora\\SaveData}}"
     - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Nautilus Games\\Everdeep Aurora\\SaveData}}"
+Everdell:
+  pageId: 213057
+  steam: 1722840
+  templates:
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Dire Wolf Digital\\Everdell\\savedgames\\}}"
 Everdream Valley:
   cloud:
     gog: true
@@ -79237,6 +79242,7 @@ Faaast Penguin:
 Fable (1996):
   pageId: 195600
 Fable (2026):
+  lutris: fable--1
   pageId: 162121
   renamedFrom:
     - Fable (2021)
@@ -173636,6 +173642,8 @@ Project Rampage VR:
   steam: 808550
 "Project Reality: Battlefield 2":
   pageId: 206921
+Project Reforged:
+  pageId: 213050
 Project Reignition:
   pageId: 202149
   templates:
@@ -189106,7 +189114,9 @@ Rusted Warfare:
 Rustler:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gog: 2058719826
   pageId: 94152
   steam: 844260
   templates:
@@ -194187,6 +194197,9 @@ Sega Bass Fishing (Steam):
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\*.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SEGA\\Dreamcast Collection\\SEGA Bass Fishing\\}}"
+Sega Football Club Champions:
+  pageId: 213055
+  steam: 3271000
 Sega GT:
   pageId: 123050
   templates:
@@ -236195,11 +236208,12 @@ The Rogue Prince of Persia:
   cloud:
     steam: true
     uplay: true
+  lutris: the-rogue-prince-of-persia
   pageId: 194318
   steam: 2717880
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\EvilEmpire\\The Rogue Prince of Persia}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\userdata\\saves}}"
+    - "{{Game data/saves|Windows|\n{{p|game}}\\userdata\\saves|{{p|appdata}}\\EvilEmpire\\The Rogue Prince of Persia\\}}"
 "The Rollingball's Melody":
   pageId: 46006
   steam: 409310
@@ -249898,7 +249912,8 @@ Turbo Pug:
   pageId: 37656
   steam: 418070
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Space Cat Studios\\Turbo Pug<ref>{{Refcheck|user=DarthSidiousPT|date=2025-07-27|comment=}}</ref>}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Space Cat Studios\\Turbo Pug}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Space Cat Studios\\Turbo Pug<ref>{{Refcheck|user=DarthSidiousPT|date=2025-07-27|comment=}}</ref>}}"
 Turbo Pug 3D:
   pageId: 41547
   steam: 528510
