@@ -8970,6 +8970,13 @@ Alchemy Classic:
     steam: true
   pageId: 121255
   steam: 823310
+Alchemy Factory:
+  cloud:
+    steam: true
+  pageId: 213078
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\AlchemyFactory\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\AlchemyFactory\\Saved\\SaveGames}}"
 Alchemy Garden:
   cloud:
     steam: true
@@ -117976,6 +117983,11 @@ JetFighter 2015:
   pageId: 194088
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\City Interactive\\Jet Fighter 6\\}}"
+"JetFighter V: Homeland Protector":
+  pageId: 213081
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Pilots.dat}}"
 "JetFighter: The Adventure":
   pageId: 186520
 JetFly:
@@ -155201,6 +155213,7 @@ No Prospects Company:
 No Rest for the Wicked:
   cloud:
     steam: true
+  lutris: no-rest-for-the-wicked--1
   pageId: 194481
   steam: 1371980
   templates:
@@ -225906,6 +225919,7 @@ The Backrooms:
   pageId: 140773
   steam: 1116520
 The Backrooms 1998 - Found Footage Survival Horror Game:
+  gog: 1292919708
   pageId: 202329
   steam: 1985930
 The Backrooms Game:
@@ -241449,6 +241463,8 @@ Tides of Existence:
   pageId: 152993
   steam: 1068480
 Tides of Tomorrow:
+  gog: 1175822148
+  lutris: tides-of-tomorrow
   pageId: 206747
   renamedFrom:
     - Tides of Tomorrow 🌊

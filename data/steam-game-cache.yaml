@@ -548692,6 +548692,14 @@
         pattern: "*.dat"
         recursive: true
         root: WinAppDataLocalLow
+      - path: Moon Studios/NoRestForTheWicked/DataStore
+        pattern: "*.cerimal"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: SavesDirMoon Studios/NoRestForTheWicked/DataStorePTR
+        pattern: "*.cerimal"
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: NoRestForTheWicked
   launch:
     - executable: NoRestForTheWicked.exe

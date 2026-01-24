@@ -28491,6 +28491,20 @@ Alchemy Classic:
             store: steam
   steam:
     id: 823310
+Alchemy Factory:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/AlchemyFactory/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/AlchemyFactory/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 Alchemy Garden:
   cloud:
     steam: true
@@ -366960,6 +366974,18 @@ JetFighter 2015:
     HKEY_CURRENT_USER/SOFTWARE/City Interactive/Jet Fighter 6:
       tags:
         - config
+"JetFighter V: Homeland Protector":
+  files:
+    "<base>/Config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Pilots.dat":
+      tags:
+        - save
+      when:
+        - os: windows
 JetFly:
   files:
     "<winAppData>/MMFApplications/Fb.sav":
@@ -480862,6 +480888,8 @@ No Rest for the Wicked:
         - save
       when:
         - os: windows
+  id:
+    lutris: no-rest-for-the-wicked--1
   installDir:
     NoRestForTheWicked: {}
   launch:
@@ -701803,6 +701831,8 @@ The Backrooms:
   steam:
     id: 1116520
 The Backrooms 1998 - Found Footage Survival Horror Game:
+  gog:
+    id: 1292919708
   installDir:
     The Backrooms 1998 - Found Footage Backroom Survival Horror Game: {}
   launch:
@@ -749052,7 +749082,10 @@ Tides of Existence:
   steam:
     id: 1068480
 Tides of Tomorrow:
+  gog:
+    id: 1175822148
   id:
+    lutris: tides-of-tomorrow
     steamExtra:
       - 3951580
   steam:
