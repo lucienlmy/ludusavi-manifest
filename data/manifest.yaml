@@ -26917,6 +26917,8 @@ Airport Simulator 2018:
 Airport Simulator 2019:
   cloud:
     steam: true
+  id:
+    lutris: airport-simulator-2019
   installDir:
     Airport Simulator 2019: {}
   launch:
@@ -46900,6 +46902,8 @@ Arktrum:
   steam:
     id: 1180960
 Arlo The Rabbit:
+  id:
+    lutris: arlo-the-rabbit
   installDir:
     ArloTheRabbitPC: {}
   launch:
@@ -71239,6 +71243,9 @@ Battlefield Play4Free:
         - config
       when:
         - os: windows
+Battlefield REDSEC:
+  steam:
+    id: 3028330
 Battlefield Supremacy:
   steam:
     id: 916560
@@ -114829,6 +114836,8 @@ Cards of Knight:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: cards-of-knight
   installDir:
     Cards of Knight: {}
   launch:
@@ -221580,6 +221589,24 @@ Earth Under Siege:
             store: steam
   steam:
     id: 324450
+Earth of Oryn:
+  id:
+    steamExtra:
+      - 2401050
+      - 4048640
+  installDir:
+    Earth of Oryn: {}
+  launch:
+    "<base>/Earth of Oryn.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Earth of Oryn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1972450
 Earth vs Mars:
   cloud:
     steam: true
@@ -324538,6 +324565,8 @@ Hentai Memory Puzzles:
   steam:
     id: 958560
 Hentai Milf Quiz:
+  id:
+    lutris: hentai-milf-quiz
   installDir:
     Hentai Milf Quiz: {}
   launch:
@@ -466391,17 +466420,11 @@ NIMRODS:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Fiveamp/NIMRODS/*.json":
+    "<home>/AppData/LocalLow/Fiveamp/NIMRODS":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Fiveamp/NIMRODS/**/*.json":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/fiveamp/NIMRODS/*.json":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     NIMRODS: {}
   launch:
@@ -499779,6 +499802,17 @@ Out for Blood:
   steam:
     id: 674060
 Out of Action:
+  files:
+    "<winLocalAppData>/OutOfAction/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/OutOfAction/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Out of Action: {}
   launch:
@@ -583238,6 +583272,8 @@ Rugby League Team Manager 3:
   steam:
     id: 1154080
 Rugby Union Team Manager 2015:
+  id:
+    lutris: rugby-union-team-manager-2015
   installDir:
     Rugby Union Team Manager 2015: {}
   launch:
@@ -583248,6 +583284,11 @@ Rugby Union Team Manager 2015:
   steam:
     id: 328830
 Rugby Union Team Manager 2017:
+  id:
+    lutris: rugby-union-team-manager-2017
+    steamExtra:
+      - 723800
+      - 1051480
   installDir:
     Rugby Union Team Manager 2017: {}
   launch:
@@ -650426,6 +650467,14 @@ Star Baron:
   steam:
     id: 856160
 Star Birds:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Toukana Interactive/Star Birds/GameFiles":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: star-birds
     steamExtra:
@@ -672155,6 +672204,12 @@ Super Beam:
   steam:
     id: 793740
 Super Bernie World:
+  files:
+    "<winAppData>/KitsuneGames":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 1947550

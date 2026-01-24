@@ -593717,6 +593717,15 @@
         oslist: linux
       executable: shotgun_king
       type: default
+1972450:
+  installDir: Earth of Oryn
+  launch:
+    - config:
+        oslist: windows
+      executable: Earth of Oryn.exe
+    - config:
+        oslist: macos
+      executable: Earth of Oryn.app
 1973040:
   installDir: Hunt for Junk
   launch:
@@ -624796,6 +624805,20 @@
   nameLocalized:
     japanese: 戦国無双４ DX
 2719750:
+  cloud:
+    saves:
+      - path: Toukana Interactive/Star Birds/GameFiles
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Toukana Interactive/Star Birds/GameFiles
+        pattern: "*.meta"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Toukana Interactive/Star Birds/GameFiles
+        pattern: "*.png"
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: StarBirds
   launch:
     - config:
@@ -630994,6 +631017,31 @@
     - config:
         oslist: linux
       executable: NordHold.x86_64
+3028330:
+  nameLocalized:
+    brazilian: Battlefield™ REDSEC
+    czech: Battlefield™ REDSEC
+    danish: Battlefield™ REDSEC
+    dutch: Battlefield™ REDSEC
+    english: Battlefield™ REDSEC
+    finnish: Battlefield™ REDSEC
+    french: Battlefield™ REDSEC
+    german: Battlefield™ REDSEC
+    italian: Battlefield™ REDSEC
+    japanese: Battlefield™ REDSEC
+    koreana: Battlefield™ REDSEC
+    latam: Battlefield™ REDSEC
+    norwegian: Battlefield™ REDSEC
+    polish: Battlefield™ REDSEC
+    portuguese: Battlefield™ REDSEC
+    russian: Battlefield™ REDSEC
+    schinese: 战地风云™ 禁区冲突
+    spanish: Battlefield™ REDSEC
+    swedish: Battlefield™ REDSEC
+    tchinese: 戰地風雲™ 禁區衝突
+    thai: Battlefield™ REDSEC
+    turkish: Battlefield™ REDSEC
+    ukrainian: Battlefield™ REDSEC
 3028500:
   installDir: "Cakey's Twisted Bakery"
   launch:

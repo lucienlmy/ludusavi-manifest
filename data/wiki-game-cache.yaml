@@ -8468,6 +8468,7 @@ Airport Simulator 2015:
 Airport Simulator 2019:
   cloud:
     steam: true
+  lutris: airport-simulator-2019
   pageId: 93997
   renamedFrom:
     - Airport Simulator 2018
@@ -14920,6 +14921,7 @@ Arktrum:
   pageId: 151195
   steam: 1180960
 Arlo The Rabbit:
+  lutris: arlo-the-rabbit
   pageId: 94545
   steam: 854450
 ArmZ:
@@ -22856,6 +22858,9 @@ Battlefield Play4Free:
   pageId: 22444
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Battlefield Play4Free\\}}"
+Battlefield REDSEC:
+  pageId: 213104
+  steam: 3028330
 Battlefield Supremacy:
   pageId: 109842
   steam: 916560
@@ -36851,6 +36856,7 @@ Cards of Cthulhu:
 Cards of Knight:
   cloud:
     steam: true
+  lutris: cards-of-knight
   pageId: 114520
   steam: 943440
 "Carefree Capers: Shaping Up!":
@@ -71050,6 +71056,12 @@ Earth Space Colonies:
 Earth Under Siege:
   pageId: 49139
   steam: 324450
+Earth of Oryn:
+  pageId: 213109
+  steam: 1972450
+  steamSide:
+    - 2401050
+    - 4048640
 Earth vs Mars:
   cloud:
     steam: true
@@ -104487,6 +104499,7 @@ Hentai Memory Puzzles:
   pageId: 121264
   steam: 958560
 Hentai Milf Quiz:
+  lutris: hentai-milf-quiz
   pageId: 176799
   steam: 1339890
 Hentai Mizugi:
@@ -150497,6 +150510,8 @@ NIMRODS:
   renamedFrom:
     - "NIMRODS: GunCraft Survivor"
   steam: 2086430
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Fiveamp\\NIMRODS}}"
 NIRO:
   lutris: nero
   pageId: 206312
@@ -161320,6 +161335,9 @@ Out for Blood:
 Out of Action:
   pageId: 207264
   steam: 1670780
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\OutOfAction\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\OutOfAction\\Saved\\SaveGames}}"
 Out of Ammo:
   pageId: 37469
   steam: 451840
@@ -188256,11 +188274,16 @@ Rugby League Team Manager 3:
   pageId: 155737
   steam: 1154080
 Rugby Union Team Manager 2015:
+  lutris: rugby-union-team-manager-2015
   pageId: 49211
   steam: 328830
 Rugby Union Team Manager 2017:
+  lutris: rugby-union-team-manager-2017
   pageId: 53838
   steam: 528640
+  steamSide:
+    - 723800
+    - 1051480
 Rugby World Cup 2015:
   pageId: 46550
   steam: 365750
@@ -209665,6 +209688,8 @@ Star Baron:
   pageId: 98104
   steam: 856160
 Star Birds:
+  cloud:
+    steam: true
   lutris: star-birds
   pageId: 208203
   steam: 2719750
@@ -209673,6 +209698,8 @@ Star Birds:
     - 3957040
     - 4002820
     - 4005820
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Toukana Interactive\\Star Birds\\GameFiles}}"
 Star Boss:
   pageId: 75093
   steam: 519890
@@ -216597,6 +216624,8 @@ Super Bernie World:
   steam: 1258040
   steamSide:
     - 1947550
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\KitsuneGames}}"
 "Super Bit Adventure: Paragons of Life":
   pageId: 87077
   steam: 778640
