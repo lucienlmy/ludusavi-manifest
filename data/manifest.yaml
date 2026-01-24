@@ -86493,6 +86493,7 @@ Bleak:
   gog:
     id: 2135168204
   id:
+    lutris: bleak-faith-forsaken
     steamExtra:
       - 1482230
   installDir:
@@ -208136,6 +208137,25 @@ DreadOut 3:
     steam: true
   steam:
     id: 3500810
+DreadOut Remastered Collection:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Digital Happiness/DreadOut Remastered Collection":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3858020
+  installDir:
+    DreadOut Remastered Collection: {}
+  launch:
+    "<base>/DreadOut Remastered Collection.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3500800
 "DreadOut: Keepers of The Dark":
   cloud:
     steam: true
@@ -232637,6 +232657,8 @@ Enola:
         - config
       when:
         - os: windows
+  id:
+    lutris: enotria-the-last-song
   installDir:
     Enotria: {}
   launch:
@@ -425239,16 +425261,6 @@ Marathon Infinity:
     id: 2398520
 Marathon Recompiled:
   files:
-    "<home>/.config/MarathonRecomp/config.toml":
-      tags:
-        - config
-      when:
-        - os: linux
-    "<home>/.config/MarathonRecomp/save":
-      tags:
-        - save
-      when:
-        - os: linux
     "<home>/Library/Application Support/MarathonRecomp/config.toml":
       tags:
         - config
@@ -425269,6 +425281,16 @@ Marathon Recompiled:
         - save
       when:
         - os: windows
+    "<xdgConfig>/MarathonRecomp/config.toml":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/MarathonRecomp/save":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     lutris: sonic-the-hedgehog-473de878-5a9f-402e-a282-86a7460fc1d2
 Marauder:

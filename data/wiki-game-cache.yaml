@@ -13078,6 +13078,8 @@ Another Star:
 Another Try:
   pageId: 153962
   steam: 1197220
+Another War:
+  pageId: 213089
 Another World:
   cloud:
     gog: true
@@ -27942,6 +27944,7 @@ Bleak:
     gog: true
     steam: true
   gog: 2135168204
+  lutris: bleak-faith-forsaken
   pageId: 180560
   steam: 1173220
   steamSide:
@@ -66744,6 +66747,13 @@ DreadOut 3:
     steam: true
   pageId: 204612
   steam: 3500810
+DreadOut Remastered Collection:
+  cloud:
+    steam: true
+  pageId: 213084
+  steam: 3500800
+  steamSide:
+    - 3858020
 "DreadOut: Keepers of The Dark":
   cloud:
     steam: true
@@ -74532,6 +74542,7 @@ Enola:
 "Enotria: The Last Song":
   cloud:
     steam: true
+  lutris: enotria-the-last-song
   pageId: 207279
   steam: 2102450
   templates:
@@ -136899,10 +136910,10 @@ Marathon Recompiled:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\MarathonRecomp\\config.toml}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/MarathonRecomp/config.toml}}"
-    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/MarathonRecomp/config.toml}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/MarathonRecomp/config.toml}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\MarathonRecomp\\save\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/MarathonRecomp/save/}}"
-    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/MarathonRecomp/save/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/MarathonRecomp/save/}}"
 Marauder:
   pageId: 50480
   steam: 289600
@@ -258811,6 +258822,8 @@ WWE 2K25:
     steam: true
   pageId: 200721
   steam: 2878960
+WWF Panda Junior:
+  pageId: 213086
 WWF Raw:
   pageId: 35829
 "WWF WrestleMania: The Arcade Game":

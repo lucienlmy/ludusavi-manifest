@@ -636999,6 +636999,19 @@
     koreana: ROCKMAN STAR FORCE PERFECT COLLECTION(유성의 록맨 퍼펙트 컬렉션)
     schinese: 流星ROCKMAN 完美合集
     tchinese: 流星ROCKMAN 完美合集
+3500800:
+  cloud:
+    saves:
+      - path: Digital Happiness/DreadOut Remastered Collection
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: DreadOut Remastered Collection
+  launch:
+    - executable: DreadOut Remastered Collection.exe
+      type: default
 3500810: {}
 3504560:
   cloud:
