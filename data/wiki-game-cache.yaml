@@ -18266,6 +18266,8 @@ Aurum Kings:
   steam: 848460
   steamSide:
     - 850420
+Auryn Quest:
+  pageId: 213099
 Aussie Battler Tanks:
   pageId: 132122
   steam: 1002180
@@ -83651,8 +83653,10 @@ Final Fantasy VII Remake Intergrade:
   steam: 1462040
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\WinGDK\\}}"
     - "{{Game data/saves|Epic Games Store|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\EOS\\}}"
     - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\Steam\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
 Final Fantasy VII Windows Edition:
   cloud:
     xbox: true
@@ -111112,6 +111116,10 @@ I Have Lived:
   steam: 1176040
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\IHLSBMCILSIREIKTFTDL * Release PC\\www\\save\\}}"
+I Have No Change:
+  lutris: i-have-no-change
+  pageId: 213097
+  steam: 3426150
 "I Have No Mouth, and I Must Scream":
   cloud:
     gog: true
@@ -233254,6 +233262,7 @@ The Legions of Rome:
 The Lego Movie 2 Videogame:
   cloud:
     gog: true
+    steam: true
   gog: 1637297034
   gogSide:
     - 1639182085
@@ -258529,10 +258538,12 @@ WARNO:
   gog: 1178636130
   gogSide:
     - 1183034457
+    - 1192476557
     - 1201696884
     - 1318668097
     - 1344356078
     - 1353804474
+    - 1613829054
     - 1786565271
     - 2037360311
     - 2050814742
@@ -258555,6 +258566,13 @@ WARNO:
     - 3333270
     - 3363540
     - 3484700
+    - 3601220
+    - 3628420
+    - 3690960
+    - 3746630
+    - 3828990
+    - 4030770
+    - 4100510
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\EugenSystems\\WARNO\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\EugenSystems\\WARNO\\}}"

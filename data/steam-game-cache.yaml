@@ -602341,6 +602341,12 @@
         oslist: windows
       executable: Pose.exe
 2133830:
+  cloud:
+    saves:
+      - path: Unfollow/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
   installDir: UNFOLLOW
   launch:
     - config:
@@ -636417,6 +636423,9 @@
   installDir: Guncaster
   launch:
     - executable: GUNCASTER.exe
+3426150:
+  nameLocalized:
+    russian: Размена не Будет
 3428080:
   cloud:
     saves:

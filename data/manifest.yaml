@@ -102228,6 +102228,10 @@ Broken of Darkness:
   steam:
     id: 3014520
 "BrokenLore: Unfollow":
+  files:
+    "<winLocalAppData>/Unfollow/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: brokenlore-unfollow
     steamExtra:
@@ -259510,6 +259514,18 @@ Final Fantasy VII Remake Intergrade:
       when:
         - os: windows
           store: steam
+    "<winDocuments>/My Games/FINAL FANTASY VII REMAKE/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/39EA002F.EXED1_n746a19ndrrjg/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     FINAL FANTASY VII REMAKE: {}
   launch:
@@ -345296,6 +345312,11 @@ I Have Lived:
             store: steam
   steam:
     id: 1176040
+I Have No Change:
+  id:
+    lutris: i-have-no-change
+  steam:
+    id: 3426150
 "I Have No Mouth, and I Must Scream":
   cloud:
     gog: true
@@ -723914,6 +723935,7 @@ The Legions of Rome:
 The Lego Movie 2 Videogame:
   cloud:
     gog: true
+    steam: true
   files:
     "<home>/Library/Application Support/Feral Interactive/The LEGO Movie 2":
       tags:
@@ -799002,10 +799024,12 @@ WARNO:
   id:
     gogExtra:
       - 1183034457
+      - 1192476557
       - 1201696884
       - 1318668097
       - 1344356078
       - 1353804474
+      - 1613829054
       - 1786565271
       - 2037360311
       - 2050814742
@@ -799026,6 +799050,13 @@ WARNO:
       - 3333270
       - 3363540
       - 3484700
+      - 3601220
+      - 3628420
+      - 3690960
+      - 3746630
+      - 3828990
+      - 4030770
+      - 4100510
   installDir:
     WARNO: {}
   launch:
