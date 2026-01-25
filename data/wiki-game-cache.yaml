@@ -11105,9 +11105,12 @@ American Arcadia:
 American Chopper:
   pageId: 200495
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\*.gm}}"
+    - "{{Game data/config|Windows|{{p|game}}\\autoexec.gm|{{p|game}}\\config.crs|{{p|game}}\\config.gm|{{p|game}}\\debug.gm}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 "American Chopper 2: Full Throttle":
   pageId: 200497
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\American Chopper 2\\Save}}"
 American Civil War - The Blue and the Gray:
   pageId: 172045
 "American Civil War: Gettysburg":
@@ -21126,6 +21129,12 @@ Banished Castle VR:
     - "{{Game data/config|Steam|{{p|localappdata}}\\Banishers Ghosts of New Eden\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Banishers Ghosts of New Eden\\Saved\\SaveGames\\Steam\\{{p|UID}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.NewWorldBanishers_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
+"Banjo Kazooie (Banjo: Recompiled)":
+  pageId: 213120
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BanjoRecompiled\\saves}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/saves}}"
+    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/saves}}"
 "Bank Limit: Advanced Battle Racing":
   cloud:
     steam: true
@@ -45992,6 +46001,7 @@ Concrete and Steel:
   pageId: 42860
   steam: 444830
 Concubine:
+  lutris: concubine
   pageId: 206972
   steam: 2426120
   templates:
@@ -241641,6 +241651,7 @@ Tiger-Heli:
 Tigershark:
   gog: 1759577042
   pageId: 14510
+  steam: 3254250
 "Tigger's Honey Hunt":
   pageId: 124659
   templates:

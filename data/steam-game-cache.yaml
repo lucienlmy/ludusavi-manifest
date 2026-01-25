@@ -634197,6 +634197,13 @@
   installDir: The Black Ice
   launch:
     - executable: TheBlackIce.exe
+3254250:
+  installDir: Tigershark
+  launch:
+    - config:
+        oslist: windows
+      executable: tigershark.exe
+      type: default
 3255110: {}
 3255380:
   installDir: LUNAR Remastered Collection

@@ -34979,9 +34979,36 @@ American Arcadia:
     id: 1249040
 American Chopper:
   files:
-    "<base>/*.gm":
+    "<base>/autoexec.gm":
       tags:
         - config
+      when:
+        - os: windows
+    "<base>/config.crs":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/config.gm":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/debug.gm":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+"American Chopper 2: Full Throttle":
+  files:
+    "<winDocuments>/American Chopper 2/Save":
+      tags:
+        - save
       when:
         - os: windows
 "American Civil War: Gettysburg":
@@ -66243,6 +66270,23 @@ Banished Castle VR:
             store: steam
   steam:
     id: 1493640
+"Banjo Kazooie (Banjo: Recompiled)":
+  files:
+    "<home>/.config/BanjoRecompiled/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/BanjoRecompiled/saves":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winLocalAppData>/BanjoRecompiled/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Bank Limit: Advanced Battle Racing":
   cloud:
     steam: true
@@ -144077,6 +144121,8 @@ Concubine:
         - save
       when:
         - os: windows
+  id:
+    lutris: concubine
   installDir:
     Concubine: {}
   launch:
@@ -749523,6 +749569,15 @@ Tiger-Heli:
 Tigershark:
   gog:
     id: 1759577042
+  installDir:
+    Tigershark: {}
+  launch:
+    "<base>/tigershark.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3254250
 Tiki Galore:
   installDir:
     Tiki Galore: {}
