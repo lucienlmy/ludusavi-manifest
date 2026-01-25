@@ -48091,6 +48091,7 @@
       executable: 100OrangeJuice.app
   nameLocalized:
     japanese: 100％おれんじじゅ～すっ！
+    koreana: 100% 오렌지 주스
 282860:
   installDir: Masterspace
   launch:
@@ -589735,6 +589736,61 @@
     japanese: たすけて！おつかれさとり様
     koreana: 도와주세요! 사토리님
     schinese: 帮我想起吧！觉大人
+1914980:
+  cloud:
+    saves:
+      - path: "GolfingInAether\\Saved\\SaveGames"
+        pattern: "*cloud.sav"
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "GolfingInAether\\Saved\\SaveGames"
+            replace: ".config/Epic/GolfingInAether/Saved/SaveGames"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "GolfingInAether\\Saved\\SaveGames"
+            replace: Epic/GolfingInAether/Saved/SaveGames
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: GolfingInAether
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GolfingInAether.exe
+      type: default
+    - arguments: "-dx11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Launch with DirectX 11 (for older PCs)
+      executable: GolfingInAether.exe
+    - arguments: "-FeatureLevelES31"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Launch with ES 3.1 (for low-end PCs)
+      executable: GolfingInAether.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: GolfingInAether.sh
+      type: default
+    - arguments: "-FeatureLevelES31"
+      config:
+        osarch: "64"
+        oslist: linux
+      description: Launch with ES 3.1 (for low-end PCs)
+      executable: GolfingInAether.sh
+    - config:
+        oslist: macos
+      executable: "GolfingInAether.app\\Contents\\MacOS\\GolfingInAether-Mac-Shipping"
+      type: default
 1916290:
   installDir: One Night With Stalin
   launch:
@@ -609119,6 +609175,9 @@
       - path: Documents/The Mobius Machine/Saves
         pattern: "*"
         root: WindowsHome
+      - path: Madruga Works/The Mobius Machine/Saves
+        pattern: "*"
+        root: WinAppDataLocalLow
   installDir: The Mobius Machine
   launch:
     - config:

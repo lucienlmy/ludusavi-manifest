@@ -66362,6 +66362,98 @@ Banished Castle VR:
         - config
       when:
         - os: windows
+"Banjo-Kazooie (Banjo: Recompiled)":
+  files:
+    "<home>/.config/BanjoRecompiled/controls.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/general.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/mods.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/sound.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/BanjoRecompiled/controls.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/general.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/mods.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/saves":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/sound.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winLocalAppData>/BanjoRecompiled/controls.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/general.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/mods.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/sound.json":
+      tags:
+        - config
+      when:
+        - os: windows
 "Bank Limit: Advanced Battle Racing":
   cloud:
     steam: true
@@ -298877,6 +298969,74 @@ GolfTopia:
             store: steam
   steam:
     id: 1144020
+Golfing in Aether:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/GolfingInAether/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/GolfingInAether/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/GolfingInAether/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/53027Vetron.GolfinginAether_dpb5cs2cqbbry/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  id:
+    steamExtra:
+      - 2138970
+      - 2168440
+      - 2168441
+      - 2293060
+      - 2577930
+      - 2999530
+  installDir:
+    GolfingInAether: {}
+  launch:
+    "<base>/GolfingInAether.app/Contents/MacOS/GolfingInAether-Mac-Shipping":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/GolfingInAether.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-dx11"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-FeatureLevelES31"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/GolfingInAether.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+      - arguments: "-FeatureLevelES31"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1914980
 Golfing over It with Alva Majo:
   cloud:
     steam: true
@@ -448802,6 +448962,12 @@ Momentum:
 Momentum Mod:
   cloud:
     steam: true
+  files:
+    "<base>/momentum/cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 669270
 Mommy:
@@ -727585,10 +727751,29 @@ The Missing Few:
   steam:
     id: 842910
 The Mobius Machine:
+  cloud:
+    steam: true
   files:
-    "<home>/Documents/The Mobius Machine/Saves":
+    "<home>/AppData/LocalLow/Madruga Works/The Mobius Machine/Saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Madruga Works/The Mobius Machine/Settings/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/The Mobius Machine/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/The Mobius Machine/Settings/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     The Mobius Machine: {}
   launch:
@@ -786410,6 +786595,7 @@ V Rising:
       when:
         - os: windows
   id:
+    lutris: v-rising
     steamExtra:
       - 1829350
       - 1983900

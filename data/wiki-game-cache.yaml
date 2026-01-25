@@ -21138,6 +21138,15 @@ Banished Castle VR:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BanjoRecompiled\\saves}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/saves}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/saves}}"
+"Banjo-Kazooie (Banjo: Recompiled)":
+  pageId: 213119
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BanjoRecompiled\\general.json|{{P|localappdata}}\\BanjoRecompiled\\graphics.json|{{P|localappdata}}\\BanjoRecompiled\\controls.json|{{P|localappdata}}\\BanjoRecompiled\\sound.json|{{P|localappdata}}\\BanjoRecompiled\\mods.json}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/general.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/graphics.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/controls.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/sound.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/mods.json}}"
+    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/general.json|{{P|linuxhome}}/.config/BanjoRecompiled/graphics.json|{{P|linuxhome}}/.config/BanjoRecompiled/controls.json|{{P|linuxhome}}/.config/BanjoRecompiled/sound.json|{{P|linuxhome}}/.config/BanjoRecompiled/mods.json}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BanjoRecompiled\\saves}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/saves}}"
+    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/saves}}"
 "Bank Limit: Advanced Battle Racing":
   cloud:
     steam: true
@@ -95949,6 +95958,24 @@ GolfTopia:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\MinMax Games\\Golftopia\\Options}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\MinMax Games\\Golftopia\\Cloud\\SavedData}}"
+Golfing in Aether:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 213127
+  steam: 1914980
+  steamSide:
+    - 2138970
+    - 2168440
+    - 2168441
+    - 2293060
+    - 2577930
+    - 2999530
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\GolfingInAether\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\GolfingInAether\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\GolfingInAether\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\53027Vetron.GolfinginAether_dpb5cs2cqbbry\\SystemAppData\\wgs}}"
 Golfing over It with Alva Majo:
   cloud:
     steam: true
@@ -144530,6 +144557,8 @@ Momentum Mod:
     steam: true
   pageId: 185765
   steam: 669270
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\momentum\\cfg}}"
 Mommy:
   pageId: 156471
   steam: 1204220
@@ -234403,8 +234432,14 @@ The Missing Few:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\ARC SYSTEM WORKS CO_,LTD_\\The MISSING\\SaveData\\|{{p|hkcu}}\\SOFTWARE\\ARC SYSTEM WORKS CO.,LTD.\\The MISSING\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\ARC SYSTEM WORKS CO_,LTD_\\The MISSING\\SaveData\\}}"
 The Mobius Machine:
+  cloud:
+    steam: true
+  malformed: true
   pageId: 189831
   steam: 2281940
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Madruga Works\\The Mobius Machine\\Settings\\settings.sav<ref>{{Refurl|url=https://store.steampowered.com/news/app/2281940/view/510725510503858521|title=Steam Community|date=2026-01-25}}</ref>|{{P|userprofile}}\\Documents\\The Mobius Machine\\Settings\\settings.sav{{note|Prior to version 1.2.3|name=prior-to}}}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Madruga Works\\The Mobius Machine\\Saves\\|{{P|userprofile}}\\Documents\\The Mobius Machine\\Saves\\{{note|name=prior-to}}}}"
 The Moment We Met:
   pageId: 121558
   steam: 882940
@@ -254253,6 +254288,7 @@ V Nekotorom Tsarstve:
 V Rising:
   cloud:
     steam: true
+  lutris: v-rising
   pageId: 177705
   steam: 1604030
   steamSide:
