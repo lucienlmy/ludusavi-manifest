@@ -66272,19 +66272,94 @@ Banished Castle VR:
     id: 1493640
 "Banjo Kazooie (Banjo: Recompiled)":
   files:
+    "<home>/.config/BanjoRecompiled/controls.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/general.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/BanjoRecompiled/mods.json":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/.config/BanjoRecompiled/saves":
       tags:
         - save
       when:
         - os: linux
+    "<home>/.config/BanjoRecompiled/sound.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/BanjoRecompiled/controls.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/general.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/mods.json":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/Library/Application Support/BanjoRecompiled/saves":
       tags:
         - save
       when:
         - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/sound.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winLocalAppData>/BanjoRecompiled/controls.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/general.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/mods.json":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/BanjoRecompiled/saves":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/sound.json":
+      tags:
+        - config
       when:
         - os: windows
 "Bank Limit: Advanced Battle Racing":
@@ -245952,6 +246027,36 @@ FATE:
           - store: steam
   steam:
     id: 276890
+"FBC: Firebreak":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Packages/Remedy.184765F694B43_a0f1gph4eb81p/SystemAppData":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/Remedy.184765F694B43_a0f1gph4eb81p/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Remedy/FBCFirebreak":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: fbc-firebreak
+  installDir:
+    FBCFirebreak: {}
+  launch:
+    "<base>/FBCFirebreak.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2272540
 FBI Mania:
   steam:
     id: 569840

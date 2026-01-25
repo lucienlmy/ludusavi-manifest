@@ -604661,34 +604661,22 @@
       executable: Warhammer 40000 Space Marine 2.exe
       type: default
       workingdir: "client_pc\\root\\bin\\pc"
-    - config:
-        betakey: "focus_marketing_recording, steam_features, fe_hw_nvidia_temp"
-        oslist: windows
-      description: SteamRetail
-      executable: "client_pc\\root\\bin\\pc\\MagnusClientSteamRetail.exe"
-      workingdir: "client_pc\\root\\bin\\pc\\"
-    - config:
-        betakey: test_pros_true_retail
-        oslist: windows
-      description: SteamEosBootstrapper
-      executable: "client_pc\\root\\bin\\pc\\MagnusClientEosBootstrapper.exe"
-      workingdir: "client_pc\\root\\bin\\pc\\"
     - arguments: "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
       config:
-        betakey: "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_livefocus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender"
+        betakey: "focus_test_dev, test_backend, test_backend, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender"
         oslist: windows
       description: Space Marine 2 Release EOS noEAC
       executable: "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperRelease.exe"
       workingdir: "client_pc\\root\\bin\\pc\\"
     - config:
-        betakey: "focus_test_dev, steam_features, natour,  test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev"
+        betakey: "focus_test_dev, test_backend,  steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev"
         oslist: windows
       description: Space Marine 2 Retail EOS noEAC
       executable: "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperRetail.exe"
       workingdir: "client_pc\\root\\bin\\pc\\"
     - arguments: "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
       config:
-        betakey: "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev, test_bender"
+        betakey: "focus_test_dev, test_backend, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev, test_bender"
         oslist: windows
       description: Space Marine 2 Profile EOS noEAC
       executable: "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperProfile.exe"
@@ -604698,52 +604686,21 @@
       description: Warhammer 40000 Retail
       executable: "client_pc\\root\\bin\\pc\\Warhammer 40000 Space Marine 2 - Retail.exe"
       workingdir: "client_pc\\root\\bin\\pc"
-    - arguments: "--startup --set /Config/Debug/ConsoleServerIp 10.12.45.5"
-      config:
-        betakey: anti-cheat_test
-      description: Warhammer debug build
-      executable: "client_pc\\root\\bin\\pc\\MagnusClientSteamRelease.exe"
-      workingdir: "client_pc\\root\\bin\\pc"
-    - arguments: "--cwd client_pc\\root\\bin\\pc"
-      config:
-        betakey: "anti-cheat_test, steam_features, test_bender, test_pros_true_retail, test_backend, patch_3x_steamfeats, test_retail"
-      description: Warhammer 40000 Space Marine 2 EAC
-      executable: Warhammer 40000 Space Marine 2.exe
-      workingdir: "client_pc\\root\\bin\\pc"
     - config:
-        betakey: "focus_marketing_recording, focus_playtest, fe_pgw, focus_prod_raw, test_steam_dev"
+        betakey: "focus_marketing_recording, focus_playtest, fe_pgw, focus_prod_raw, test_steam_dev, test_prod_steamfeats"
         oslist: windows
       description: Profile Launcher
       executable: launcher_pc_profile.bat
       type: option2
-    - arguments: "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json"
-      config:
-        betakey: "anti-cheat_test, test_backend, steam_features, steam_dev_live"
-      description: "AntiCheat Release MagnusEOS "
-      executable: MagnusEOSBootstrapperRelease.exe
-      workingdir: "client_pc\\root\\bin\\pc"
-    - config:
-        betakey: anti-cheat_test
-      description: "Warhammer 40000: Space Marine 2 "
-      executable: "client_pc\\root\\bin\\pc\\Warhammer 40000 Space Marine 2.exe"
-      workingdir: "client_pc\\root\\bin\\pc"
-    - arguments: "--cwd client_pc\\root\\bin\\pc --startup --set /Config/steam/epicCrossplayEnable false"
-      config:
-        betakey: "test_pros_true_retail, anti-cheat_test, test_backend"
-        oslist: windows
-      description: Warhammer 40000 Space Marine 2 EAC Only
-      executable: start_protected_game.exe
-      type: option2
-      workingdir: "client_pc\\root\\bin\\pc"
     - arguments: "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsProfile.json"
       config:
-        betakey: "patch_steamfeats, test_prod_steamfeats, steam_features, test_steamdeck, steam_dev_live, test_backend, test_bender, test_steam_dev, focus_playtest, focus_prod_dev, test_steam_dev, test_pvp"
+        betakey: "patch_steamfeats, test_prod_steamfeats, steam_features, test_steamdeck, steam_dev_live, test_backend, test_bender, test_steam_dev, focus_playtest, focus_prod_dev"
       description: Space Marine 2 EAC Profile
       executable: MagnusEOSBootstrapperProfile.exe
       workingdir: "client_pc\\root\\bin\\pc\\"
     - arguments: "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json"
       config:
-        betakey: "patch_steamfeats, test_prod_steamfeats, test_steam_dev, test_steamdeck, test_backend, test_bender, test_steam_dev, focus_playtest, focus_prod_dev, test_steam_dev"
+        betakey: "patch_steamfeats, test_prod_steamfeats, test_steam_dev, test_steamdeck, test_backend, test_bender, focus_playtest, focus_prod_dev, steam_dev_live"
       description: Space Marine 2 EAC Release
       executable: MagnusEOSBootstrapperRelease.exe
       workingdir: "client_pc\\root\\bin\\pc\\"
@@ -604753,15 +604710,9 @@
       description: Retail
       executable: "client_pc\\root\\bin\\pc\\MagnusClientRetail.exe"
       workingdir: "client_pc\\root\\bin\\pc"
-    - arguments: "--cwd client_pc\\root\\bin\\pc"
-      config:
-        betakey: "anti-cheat_test, test_retail, test_backend"
-        oslist: windows
-      description: Warhammer 40000 Space Marine 2 Epic Crossplay
-      executable: "client_pc\\root\\bin\\pc\\EpicOnlineServices\\start_epic_crossplay_game.exe"
     - arguments: "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRetail.json"
       config:
-        betakey: "test_prod_steamfeats, test_backend, patch_steamfeats, steam_features, test_steamdeck, test_bender, focus_playtest, focus_prod_dev, test_steam_dev, test_pvp"
+        betakey: "test_prod_steamfeats, test_backend, patch_steamfeats, test_steamdeck, test_bender, focus_playtest, focus_prod_dev, test_steam_dev"
       description: Space Marine 2 EAC Retail
       executable: MagnusEOSBootstrapperRetail.exe
       workingdir: "client_pc\\root\\bin\\pc"
@@ -604770,26 +604721,6 @@
       description: Artbook
       executable: "Artbook\\open.bat"
       type: option1
-    - arguments: "-anticheat_settings=SettingsRelease.json"
-      config:
-        betakey: test_steamdeck
-      description: Space Marine 2 EAC Release TEST
-      executable: MagnusEOSBootstrapperRelease.exe
-      workingdir: "client_pc\\root\\bin\\pc"
-    - config:
-        betakey: focus_marketing_recording
-        oslist: windows
-      description: Release
-      executable: "client_pc\\root\\bin\\pc\\MagnusClientRelease.exe"
-      type: option2
-      workingdir: "client_pc\\root\\bin\\pc"
-    - config:
-        betakey: focus_marketing_recording
-        oslist: windows
-      description: Retail
-      executable: "client_pc\\root\\bin\\pc\\MagnusClientRetail.exe"
-      type: option3
-      workingdir: "client_pc\\root\\bin\\pc"
     - config:
         betakey: "focus_marketing_recording, focus_playtest, fe_pgw, focus_prod_raw"
         oslist: windows
@@ -604800,19 +604731,6 @@
         oslist: windows
       description: Retail Launcher
       executable: launcher_pc_retail.bat
-    - config:
-        betakey: "test_backend, test_pros_true_retail, test_backend"
-        oslist: windows
-      description: "Warhammer 40.000: Space Marine 2 "
-      executable: "client_pc\\root\\bin\\pc\\Warhammer 40,000 Space Marine 2.exe"
-      workingdir: "client_pc\\root\\bin\\pc"
-    - config:
-        betakey: "focus_marketing_recording, steam_features, fe_hw_nvidia_temp"
-        oslist: windows
-      description: SteamRelease
-      executable: "client_pc\\root\\bin\\pc\\MagnusClientSteamRelease.exe"
-      type: option2
-      workingdir: "client_pc\\root\\bin\\pc"
   nameLocalized:
     schinese: "Warhammer 40,000: 星际战士2"
 2184570:
@@ -623981,6 +623899,10 @@
         oslist: windows
       executable: TheCrewMotorfest.exe
       type: default
+  nameLocalized:
+    japanese: ザ クルー：モーターフェス
+    schinese: 《飙酷车神：轰鸣盛典》
+    tchinese: 《飆酷車神：動力慶典》
 2699550: {}
 2701030: {}
 2701660:

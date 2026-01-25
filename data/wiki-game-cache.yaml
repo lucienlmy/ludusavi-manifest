@@ -21132,6 +21132,9 @@ Banished Castle VR:
 "Banjo Kazooie (Banjo: Recompiled)":
   pageId: 213120
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BanjoRecompiled\\general.json|{{P|localappdata}}\\BanjoRecompiled\\graphics.json|{{P|localappdata}}\\BanjoRecompiled\\controls.json|{{P|localappdata}}\\BanjoRecompiled\\sound.json|{{P|localappdata}}\\BanjoRecompiled\\mods.json}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/general.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/graphics.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/controls.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/sound.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/mods.json}}"
+    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/general.json|{{P|linuxhome}}/.config/BanjoRecompiled/graphics.json|{{P|linuxhome}}/.config/BanjoRecompiled/controls.json|{{P|linuxhome}}/.config/BanjoRecompiled/sound.json|{{P|linuxhome}}/.config/BanjoRecompiled/mods.json}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BanjoRecompiled\\saves}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/saves}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/saves}}"
@@ -78896,6 +78899,16 @@ FATE:
   gog: 1128601888
   pageId: 50416
   steam: 276890
+"FBC: Firebreak":
+  cloud:
+    steam: true
+    xbox: true
+  lutris: fbc-firebreak
+  pageId: 198499
+  steam: 2272540
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Remedy\\FBCFirebreak\\|{{P|localappdata}}\\Packages\\Remedy.184765F694B43_a0f1gph4eb81p\\SystemAppData\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Remedy.184765F694B43_a0f1gph4eb81p\\SystemAppData\\wgs}}"
 FBI Mania:
   pageId: 57279
   steam: 569840
