@@ -1273,6 +1273,7 @@ $1 Ride:
     epic: true
     xbox: true
   pageId: 202698
+  steam: 958520
 33 Rounds:
   pageId: 153366
   steam: 1194620
@@ -133434,6 +133435,7 @@ Lunapark VR:
 Lunar Eclipse:
   cloud:
     steam: true
+  lutris: lunar-eclipse
   pageId: 205367
   steam: 2953480
   templates:
@@ -161333,6 +161335,7 @@ Out for Blood:
   pageId: 65666
   steam: 674060
 Out of Action:
+  lutris: out-of-action
   pageId: 207264
   steam: 1670780
   templates:
@@ -204647,9 +204650,9 @@ Sonic Robo Blast 2:
   pageId: 169752
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.cfg}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.srb/config.cfg}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.srb2/config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\gamedata.dat}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb/gamedata.dat}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2/gamedata.dat}}"
 Sonic Robo Blast 2 Kart:
   lutris: sonic-robo-blast-2-kart
   pageId: 171307

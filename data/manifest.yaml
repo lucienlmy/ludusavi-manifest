@@ -3962,6 +3962,11 @@ $1 Ride:
     30th Century Post Office: {}
   steam:
     id: 626500
+33 Immortals:
+  cloud:
+    epic: true
+  steam:
+    id: 958520
 33 Rounds:
   installDir:
     33 Rounds: {}
@@ -414560,6 +414565,8 @@ Lunar Eclipse:
         - save
       when:
         - os: windows
+  id:
+    lutris: lunar-eclipse
   installDir:
     Lunar Eclipse: {}
   launch:
@@ -499813,6 +499820,8 @@ Out of Action:
         - save
       when:
         - os: windows
+  id:
+    lutris: out-of-action
   installDir:
     Out of Action: {}
   launch:
@@ -634797,12 +634806,12 @@ Sonic Robo Blast 2:
         - save
       when:
         - os: windows
-    "<home>/.srb/config.cfg":
+    "<home>/.srb2/config.cfg":
       tags:
         - config
       when:
         - os: linux
-    "<home>/.srb/gamedata.dat":
+    "<home>/.srb2/gamedata.dat":
       tags:
         - save
       when:
@@ -820744,6 +820753,10 @@ Wizordum:
   installDir:
     Wizordum: {}
   launch:
+    "<base>/Wizordum.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Wizordum.exe":
       - when:
           - os: windows

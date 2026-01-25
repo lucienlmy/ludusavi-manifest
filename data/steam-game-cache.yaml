@@ -414907,6 +414907,7 @@
         oslist: windows
       executable: TopDown.exe
       type: none
+958520: {}
 958560: {}
 958640:
   installDir: Super Turbo Sudoku
@@ -576647,6 +576648,11 @@
     - config:
         oslist: windows
       executable: Wizordum.exe
+      type: default
+    - config:
+        oslist: macos
+      description: Mac
+      executable: Wizordum.app
       type: default
 1715690:
   cloud:
