@@ -640361,7 +640361,11 @@
         oslist: linux
       executable: ZATO.sh
       type: default
-4128260: {}
+4128260:
+  installDir: Highguard
+  launch:
+    - executable: start_protected_game.exe
+      type: default
 4144090: {}
 4146000: {}
 4149610: {}

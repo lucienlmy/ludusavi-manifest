@@ -331428,6 +331428,12 @@ Higher Ground:
   steam:
     id: 820680
 Highguard:
+  installDir:
+    Highguard: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - when:
+          - store: steam
   steam:
     id: 4128260
 Highland Warriors:
@@ -422768,6 +422774,18 @@ Mahjong Solitaire Refresh:
     "<winProgramData>/TikGames/Mahjong Wisdom/saves":
       tags:
         - save
+      when:
+        - os: windows
+Mahjong Titans:
+  files:
+    "<home>/Saved Games/Microsoft Games/Mahjong Titans":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/Mahjong Titans":
+      tags:
+        - config
       when:
         - os: windows
 Mahjong Towers Eternity:
@@ -645810,6 +645828,18 @@ Spider Lander:
             store: steam
   steam:
     id: 959730
+Spider Solitaire:
+  files:
+    "<home>/Saved Games/Microsoft Games/Spider Solitaire":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/Spider Solitaire":
+      tags:
+        - config
+      when:
+        - os: windows
 Spider Solitaire F:
   installDir:
     Spider Solitaire F: {}

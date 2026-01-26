@@ -39984,8 +39984,8 @@ Chess Survivors:
 Chess Titans:
   pageId: 13128
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Chess Titans}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Chess Titans}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Chess Titans\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Chess Titans\\}}"
 Chess Ultra:
   cloud:
     steam: true
@@ -136087,6 +136087,11 @@ Mahjong Solitaire Refresh:
   pageId: 89158
   templates:
     - "{{Game data/saves|Windows|{{P|programdata}}\\TikGames\\Mahjong Wisdom\\saves}}"
+Mahjong Titans:
+  pageId: 213182
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Mahjong Titans\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Mahjong Titans\\}}"
 Mahjong Towers Eternity:
   pageId: 41139
   steam: 50950
@@ -174875,8 +174880,8 @@ PuppyStory:
 Purble Place:
   pageId: 13130
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Purble Place}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Purble Place}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Purble Place\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Purble Place\\}}"
 Purble Place 3D:
   pageId: 212727
   steam: 2764530
@@ -208188,6 +208193,11 @@ Spider Fear:
 Spider Lander:
   pageId: 121635
   steam: 959730
+Spider Solitaire:
+  pageId: 213186
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Spider Solitaire\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Spider Solitaire\\}}"
 Spider Solitaire F:
   cloud:
     xbox: true
