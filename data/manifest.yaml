@@ -85942,16 +85942,17 @@ Blasphemous 2:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/The Game Kitchen/Blasphemous 2/<storeUserId>/Savegames":
-      tags:
-        - save
-      when:
-        - os: windows
     "<home>/AppData/LocalLow/The Game Kitchen/Blasphemous 2/Savegames":
       tags:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/The Game Kitchen/Blasphemous 2/SteamUser_<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1747340100
   id:
@@ -85974,6 +85975,12 @@ Blasphemous 2:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/The Game Kitchen/Blasphemous 2:
+      tags:
+        - save
+      when:
+        - store: steam
   steam:
     id: 2114740
 Blasphemous II:
@@ -205427,9 +205434,31 @@ Dragon Ball Xenoverse 2:
   cloud:
     steam: true
   files:
-    "<base>/SaveGame/<storeUserId>":
+    "<base>/SaveGame/<storeUserId>/MainGameSaveData":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<base>/SaveGame/<storeUserId>/SystemSaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/SparkingZERO/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/SparkingZERO/Saved/Config/Windows/Engine.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    Windows/GameUserSettings.ini:
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     DRAGON BALL Sparking! ZERO: {}
   launch:

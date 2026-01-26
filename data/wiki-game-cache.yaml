@@ -5086,6 +5086,8 @@ Absolute Drift:
 Absolute Fall:
   pageId: 138752
   steam: 1091670
+Absolute Pinball:
+  pageId: 213174
 "Absolute Tactics: Daughters of Mercy":
   cloud:
     gog: true
@@ -27713,7 +27715,9 @@ Blasphemous 2:
     - 2500160
     - 2879370
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\Savegames|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\{{p|uid}}\\Savegames}}"
+    - "{{Game data/saves|Steam|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\SteamUser_{{p|uid}}\\|{{p|hkcu}}\\Software\\The Game Kitchen\\Blasphemous 2\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\Savegames\\}}"
+    - "{{Game data/saves|Steam|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\SteamUser_{{p|uid}}\\}}"
 Blast:
   pageId: 69450
   steam: 703260
@@ -65813,8 +65817,8 @@ Dragon Ball Xenoverse 2:
   pageId: 191679
   steam: 1790600
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\{{folder|SparkingZERO}}\\{{folder|Saved}}\\{{folder|Config}}\\{{folder|Windows}}\\{{file|Engine.ini}}|{{P|localappdata}}\\{{folder|SparkingZERO}}\\{{folder|Saved}}\\{{folder|Config}}\\{{folder|Windows}}\\{{file|GameUserSettings.ini}}}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\{{folder|SaveGame}}\\{{folder|{{p|uid}}}}\\{{file|MainGameSaveData}}|{{p|game}}\\{{folder|SaveGame}}\\{{folder|{{p|uid}}}}\\{{file|SystemSaveData}}}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SparkingZERO\\Saved\\Config\\Windows\\Engine.ini|{{P|localappdata}}\\SparkingZERO\\Saved\\Config\\|Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\{{p|uid}}\\MainGameSaveData|{{p|game}}\\SaveGame\\{{p|uid}}\\SystemSaveData}}"
 "Dragon Ball: The Breakers":
   cloud:
     steam: true
