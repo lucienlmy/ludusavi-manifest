@@ -18,6 +18,5 @@
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [The Mobius Machine](https://www.pcgamingwiki.com/wiki/?curid=189831)
 * [Unreal](https://www.pcgamingwiki.com/wiki/?curid=1529)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)

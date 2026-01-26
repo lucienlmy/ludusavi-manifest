@@ -139778,6 +139778,8 @@ Colony Prospector:
     id: 1091815649
   id:
     lutris: colony-ship-a-post-earth-role-playing-game
+    steamExtra:
+      - 1190730
   installDir:
     Colony Ship RPG: {}
   launch:
@@ -677673,6 +677675,11 @@ Super Woden GP 2:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/ViJuDa/Super Woden Rally Edge":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/ViJuDa/Super Woden Rally Edge/Save":
       tags:
         - save
@@ -811120,6 +811127,13 @@ Weird West:
           store: microsoft
   gog:
     id: 1421555971
+  id:
+    gogExtra:
+      - 1440202979
+    lutris: weird-west
+    steamExtra:
+      - 1781460
+      - 2063780
   installDir:
     Weird West: {}
   launch:

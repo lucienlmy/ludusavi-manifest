@@ -44529,6 +44529,8 @@ Colony Prospector:
   renamedFrom:
     - The New World
   steam: 648410
+  steamSide:
+    - 1190730
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\ColonyShipGame\\Saved\\SaveGames\n}}"
 Colony Siege:
@@ -137813,8 +137815,8 @@ Marvel Trading Card Game:
 "Marvel: Ultimate Alliance":
   pageId: 35730
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Activision\\Marvel Ultimate Alliance\\Settings\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Marvel Ultimate Alliance\\Save\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Activision\\Marvel Ultimate Alliance\\Settings}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Marvel Ultimate Alliance\\Save}}"
 "Marvel: Ultimate Alliance (2016)":
   cloud:
     steam: true
@@ -218269,6 +218271,7 @@ Super Woden GP 2:
   pageId: 212157
   steam: 3218630
   templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\ViJuDa\\Super Woden Rally Edge\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ViJuDa\\Super Woden Rally Edge\\Save\\}}"
 Super X Chess:
   pageId: 121375
@@ -234434,7 +234437,6 @@ The Missing Few:
 The Mobius Machine:
   cloud:
     steam: true
-  malformed: true
   pageId: 189831
   steam: 2281940
   templates:
@@ -262694,8 +262696,14 @@ Weird West:
     gog: true
     steam: true
   gog: 1421555971
+  gogSide:
+    - 1440202979
+  lutris: weird-west
   pageId: 157436
   steam: 1097350
+  steamSide:
+    - 1781460
+    - 2063780
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Nova\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Nova\\Saved\\SaveGames}}"
