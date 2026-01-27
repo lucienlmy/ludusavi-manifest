@@ -52762,6 +52762,7 @@ DJMax Respect V:
     - 1214810
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Neowiz\\DJMAX RESPECT V\\{{p|uid}}\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\Neowiz.DJMAXRESPECTV_r4z3116tdh636\\SystemAppData\\wgs\\}}"
 DJMax Trilogy:
   pageId: 134039
 DK Online:
@@ -71832,9 +71833,14 @@ Eden*:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\minori\\eden (English edition)\\sysparams.txt}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\minori\\eden (English edition)\\}}"
 "Edengate: The Edge of Life":
+  cloud:
+    steam: true
   gog: 1929021175
+  lutris: edengate-the-edge-of-life
   pageId: 195575
   steam: 1414650
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Edengate\\Config\\WindowsNoEditor}}"
 Edengrad:
   pageId: 39468
   steam: 381180
@@ -190124,6 +190130,9 @@ SOS Atlas:
 SOUNDART:
   pageId: 154107
   steam: 1144460
+SOWON:
+  pageId: 213213
+  steam: 2104560
 "SOYF: Shit On Your Friends":
   pageId: 63343
   steam: 648880

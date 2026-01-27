@@ -165121,6 +165121,12 @@ DJMax Respect V:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Neowiz.DJMAXRESPECTV_r4z3116tdh636/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     steamExtra:
       - 1214810
@@ -224192,12 +224198,18 @@ Eden*:
   steam:
     id: 315810
 "Edengate: The Edge of Life":
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/NRG/Saved/SaveGames/ReboundSaveGame/**/*.sav":
+    "<winLocalAppData>/Edengate/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1929021175
+  id:
+    lutris: edengate-the-edge-of-life
   installDir:
     Edengate The Edge of Life: {}
   launch:
@@ -589189,6 +589201,15 @@ SOUNDART:
     Soundart: {}
   steam:
     id: 1144460
+SOWON:
+  installDir:
+    SOWON: {}
+  launch:
+    "<base>/SOWON.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2104560
 "SOYF: Shit On Your Friends":
   installDir:
     SOYF: {}

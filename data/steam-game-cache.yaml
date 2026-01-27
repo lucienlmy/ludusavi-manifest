@@ -601176,6 +601176,10 @@
     koreana: 해적 공화국
     schinese: 海盗共和国
     tchinese: 海盜共和國
+2104560:
+  installDir: SOWON
+  launch:
+    - executable: SOWON.exe
 2104890:
   cloud:
     saves:
