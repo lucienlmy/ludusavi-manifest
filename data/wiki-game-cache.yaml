@@ -86487,6 +86487,9 @@ Football Manager 2024:
   steamSide:
     - 2473420
     - 2687760
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Sports Interactive\\Football Manager 2024\\Preferences\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Sports Interactive\\Football Manager 2024\\games\\}}"
 Football Manager 2024 Touch:
   pageId: 195313
 Football Manager 26:
@@ -88349,6 +88352,11 @@ Free the Animation:
 Free the Dragons:
   pageId: 135984
   steam: 1032220
+FreeCell:
+  pageId: 213192
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\FreeCell\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\FreeCell\\}}"
 FreeCell Quest:
   pageId: 37622
   steam: 364640
@@ -103055,6 +103063,11 @@ Heartomics 2:
 "Heartomics: Valkyries":
   pageId: 146098
   steam: 603210
+Hearts:
+  pageId: 213195
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Hearts\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Hearts\\}}"
 Hearts of Chaos:
   cloud:
     steam: true
@@ -106555,6 +106568,8 @@ Higher Ground:
 Highguard:
   pageId: 212070
   steam: 4128260
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Highguard\\Saved\\Config\\WindowsClient}}"
 Highland Warriors:
   pageId: 44295
   steam: 446460
@@ -107463,6 +107478,11 @@ Hokko Life:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Wonderscope\\Hokko Life\\SaveData\\sys.hks}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Wonderscope\\Hokko Life\\SaveData}}"
+"Hold 'Em":
+  pageId: 213202
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\HoldEm\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\HoldEm\\}}"
 Hold My Beer:
   pageId: 66154
   steam: 672020
@@ -143183,10 +143203,10 @@ Minesweep World:
   pageId: 143827
   steam: 1129200
 Minesweeper:
-  pageId: 166482
+  pageId: 213205
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\winmine}}"
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Microsoft\\winmine}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Minesweeper\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Minesweeper\\}}"
 Minesweeper Peak VR:
   pageId: 134951
   steam: 1074330
@@ -215244,6 +215264,8 @@ Stuck In Time:
     steam: true
   pageId: 213040
   steam: 2194790
+  templates:
+    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/2194790/remote/save0.xml}}"
 "Study of Unusual: Forest of Secrets":
   pageId: 103077
   steam: 897550

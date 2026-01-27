@@ -638541,7 +638541,16 @@
     schinese: 遗忘之海
     tchinese: 遺忘之海
 3634520: {}
-3636060: {}
+3636060:
+  cloud:
+    saves:
+      - path: Gampany/Dice
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: RogueDiceR
+  launch:
+    - executable: Dice.exe
 3636620:
   cloud:
     saves:

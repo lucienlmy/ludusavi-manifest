@@ -268771,20 +268771,16 @@ Football Manager 2024:
   cloud:
     steam: true
   files:
-    "<home>/Library/Application Support/Sports Interactive/Football Manager 2024/cloud/**/*.fmf":
+    "<winDocuments>/Sports Interactive/Football Manager 2024/games":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Sports Interactive/Football Manager 2024/cloud/games/*.fm":
+        - os: windows
+    "<winLocalAppData>/Sports Interactive/Football Manager 2024/Preferences":
+      tags:
+        - config
       when:
-        - os: mac
-          store: steam
-    "<winLocalAppData>/Sports Interactive/Football Manager 2024/cloud/**/*.fmf":
-      when:
-        - store: steam
-    "<winLocalAppData>/Sports Interactive/Football Manager 2024/cloud/games/*.fm":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: football-manager-2024
     steamExtra:
@@ -275211,6 +275207,18 @@ Free the Animation:
 Free the Dragons:
   steam:
     id: 1032220
+FreeCell:
+  files:
+    "<home>/Saved Games/Microsoft Games/FreeCell":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/FreeCell":
+      tags:
+        - config
+      when:
+        - os: windows
 FreeCell Quest:
   files:
     "<home>/.config/unity3d/Legend Studio/FreeCell Quest":
@@ -320457,6 +320465,18 @@ Heartomics 2:
             store: steam
   steam:
     id: 603210
+Hearts:
+  files:
+    "<home>/Saved Games/Microsoft Games/Hearts":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/Hearts":
+      tags:
+        - config
+      when:
+        - os: windows
 Hearts of Chaos:
   cloud:
     steam: true
@@ -331428,6 +331448,12 @@ Higher Ground:
   steam:
     id: 820680
 Highguard:
+  files:
+    "<winLocalAppData>/Highguard/Saved/Config/WindowsClient":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Highguard: {}
   launch:
@@ -334380,6 +334406,18 @@ Hokko Life:
             store: steam
   steam:
     id: 824000
+"Hold 'Em":
+  files:
+    "<home>/Saved Games/Microsoft Games/HoldEm":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/HoldEm":
+      tags:
+        - config
+      when:
+        - os: windows
 Hold My Beer:
   installDir:
     Hold My Beer: {}
@@ -444508,11 +444546,17 @@ Minesweep World:
   steam:
     id: 1129200
 Minesweeper:
-  registry:
-    HKEY_CURRENT_USER/Software/Microsoft/winmine:
+  files:
+    "<home>/Saved Games/Microsoft Games/Minesweeper":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Microsoft Games/Minesweeper":
       tags:
         - config
-        - save
+      when:
+        - os: windows
 Minesweeper Peak VR:
   installDir:
     Minesweeper peak VR: {}
@@ -579669,6 +579713,16 @@ RogueCraft Squadron:
 RogueDiceR:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Gampany/Dice":
+      when:
+        - store: steam
+  installDir:
+    RogueDiceR: {}
+  launch:
+    "<base>/Dice.exe":
+      - when:
+          - store: steam
   steam:
     id: 3636060
 RogueLite:
@@ -667590,6 +667644,12 @@ Stuck In Time:
 "Studio System : Guardian Angel":
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2194790/remote/save0.xml":
+      tags:
+        - save
+      when:
+        - store: steam
   installDir:
     Studio System Guardian Angel: {}
   launch:
