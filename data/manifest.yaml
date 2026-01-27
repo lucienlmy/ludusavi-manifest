@@ -137565,6 +137565,9 @@ Code Vein II:
     steam: true
   id:
     lutris: code-vein-ii
+    steamExtra:
+      - 3559240
+      - 3733960
   steam:
     id: 2362060
 Code World:
@@ -570740,6 +570743,8 @@ Ricochet Infinity:
         - save
       when:
         - os: windows
+  id:
+    lutris: ricochet-lost-worlds-recharged
 Ricochet Xtreme:
   files:
     "<base>/Ricochet.cfg":
@@ -570752,6 +570757,8 @@ Ricochet Xtreme:
         - save
       when:
         - os: windows
+  id:
+    lutris: ricochet-xtreme
 "Ricochet: Lost Worlds":
   files:
     "<base>/Ricochet Lost Worlds.cfg":

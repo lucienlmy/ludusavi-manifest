@@ -43865,6 +43865,9 @@ Code Vein II:
   lutris: code-vein-ii
   pageId: 205201
   steam: 2362060
+  steamSide:
+    - 3559240
+    - 3733960
 Code World:
   pageId: 70571
   steam: 708190
@@ -184116,11 +184119,13 @@ Ricochet Infinity:
   pageId: 58648
   steam: 596630
 "Ricochet Lost Worlds: Recharged":
+  lutris: ricochet-lost-worlds-recharged
   pageId: 175334
   templates:
     - "{{Game data/config|Windows|{{P|game}}/Ricochet Lost Worlds.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}/Stats.dat}}"
 Ricochet Xtreme:
+  lutris: ricochet-xtreme
   pageId: 175333
   templates:
     - "{{Game data/config|Windows|{{P|game}}/Ricochet.cfg}}"
