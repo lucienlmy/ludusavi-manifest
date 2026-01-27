@@ -211728,6 +211728,8 @@ Drosoph Hotel:
         - os: linux
   gog:
     id: 1254250206
+  id:
+    lutris: drova-forsaken-kin
   installDir:
     Drova - Forsaken Kin: {}
   launch:
@@ -510521,6 +510523,8 @@ PartyLine VR:
         - os: windows
   id:
     lutris: pascals-wager-definitive-edition
+    steamExtra:
+      - 1517910
   installDir:
     PascalsWager: {}
   launch:
@@ -556904,6 +556908,9 @@ Re;Lord 1 ~The Witch of Herfort and Stuffed Animals~:
             store: steam
   steam:
     id: 1502770
+"ReBlade: The Death Spiral":
+  steam:
+    id: 3489340
 ReBoot:
   alias: ReBoot (2016)
 ReBoot (2016):
@@ -602964,6 +602971,10 @@ Selfloss:
           store: steam
   gog:
     id: 1575028451
+  id:
+    lutris: selfloss
+    steamExtra:
+      - 3212270
   installDir:
     Selfloss: {}
   launch:

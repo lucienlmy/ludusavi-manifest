@@ -67796,6 +67796,7 @@ Drosoph Hotel:
     gog: true
     steam: true
   gog: 1254250206
+  lutris: drova-forsaken-kin
   pageId: 199111
   steam: 1585180
   templates:
@@ -164831,6 +164832,8 @@ PartyLine VR:
   lutris: pascals-wager-definitive-edition
   pageId: 166860
   steam: 1456650
+  steamSide:
+    - 1517910
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\TIPSWORKS\\PascalsWager\\Save }}"
 Pass The Time:
@@ -179599,6 +179602,9 @@ Re.poly:
     - 1341427174
   pageId: 174427
   steam: 1502770
+"ReBlade: The Death Spiral":
+  pageId: 213212
+  steam: 3489340
 ReBoot (2016):
   pageId: 52077
   renamedFrom:
@@ -194548,8 +194554,11 @@ Selfloss:
   cloud:
     steam: true
   gog: 1575028451
+  lutris: selfloss
   pageId: 137118
   steam: 1086620
+  steamSide:
+    - 3212270
 Selknam Defense:
   cloud:
     steam: true

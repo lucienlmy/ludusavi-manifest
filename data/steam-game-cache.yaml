@@ -566169,6 +566169,8 @@
       description: Drova Vulkan
       executable: Drova.x86_64
       type: option1
+  nameLocalized:
+    schinese: 困兽之国 Drova - Forsaken Kin
 1585220:
   cloud:
     saves:
@@ -636983,6 +636985,11 @@
   nameLocalized:
     french: Astérix & Obélix - Mission Babylone
     spanish: Astérix & Obélix - Mission Babylon
+3489340:
+  nameLocalized:
+    english: "ReBlade: The Death Spiral"
+    schinese: 蝼蚁之城
+    tchinese: 螻蟻之城
 3489490: {}
 3489700:
   cloud:

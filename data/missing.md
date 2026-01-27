@@ -21168,6 +21168,7 @@
 * [Rebirth (2019)](https://www.pcgamingwiki.com/wiki/?curid=137436)
 * [Rebirth Fantasy Online](https://www.pcgamingwiki.com/wiki/?curid=131849)
 * [Rebirth of Island](https://www.pcgamingwiki.com/wiki/?curid=43584)
+* [ReBlade: The Death Spiral](https://www.pcgamingwiki.com/wiki/?curid=213212)
 * [Reboant](https://www.pcgamingwiki.com/wiki/?curid=75853)
 * [Reboant - Endless Dawn](https://www.pcgamingwiki.com/wiki/?curid=91068)
 * [Rebons](https://www.pcgamingwiki.com/wiki/?curid=72199)
