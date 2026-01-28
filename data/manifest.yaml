@@ -62323,21 +62323,6 @@ Back 4 Blood:
           - store: steam
   steam:
     id: 2998600
-Back To Ashes:
-  id:
-    lutris: back-to-ashes
-    steamExtra:
-      - 1425290
-  installDir:
-    Back To Ashes: {}
-  launch:
-    "<base>/Back To Ashes.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1054700
 Back To Hell:
   installDir:
     Back To Hell: {}
@@ -62390,6 +62375,21 @@ Back to 1998:
             store: steam
   steam:
     id: 1037350
+Back to Ashes:
+  id:
+    lutris: back-to-ashes
+    steamExtra:
+      - 1425290
+  installDir:
+    Back To Ashes: {}
+  launch:
+    "<base>/Back To Ashes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1054700
 Back to Bed:
   cloud:
     steam: true
@@ -339657,11 +339657,6 @@ House Number 666:
             store: steam
   steam:
     id: 1162690
-House Of Decay:
-  cloud:
-    steam: true
-  steam:
-    id: 2899350
 "House Of Horror: Outside Is Better":
   steam:
     id: 3152710
@@ -339834,6 +339829,13 @@ House of Caravan:
         - save
   steam:
     id: 353550
+House of Decay:
+  cloud:
+    steam: true
+  id:
+    lutris: house-of-decay
+  steam:
+    id: 2899350
 House of Detention:
   id:
     steamExtra:
@@ -359476,6 +359478,8 @@ Into the Core:
 "Into the Dead: Our Darkest Days":
   cloud:
     steam: true
+  id:
+    lutris: into-the-dead-our-darkest-days
   installDir:
     Into the Dead Our Darkest Days: {}
   launch:
@@ -789853,6 +789857,11 @@ Vampire of the Sands:
             store: steam
   steam:
     id: 386160
+"Vampire's Fall 2":
+  cloud:
+    steam: true
+  steam:
+    id: 4264230
 "Vampire's Fall: Origins":
   cloud:
     gog: true
@@ -790713,6 +790722,7 @@ Vanran:
       when:
         - os: windows
   id:
+    lutris: vanran
     steamExtra:
       - 4314720
   steam:

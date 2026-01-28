@@ -19852,12 +19852,6 @@ Back 4 Blood:
     steam: true
   pageId: 203942
   steam: 2998600
-Back To Ashes:
-  lutris: back-to-ashes
-  pageId: 142328
-  steam: 1054700
-  steamSide:
-    - 1425290
 Back To Hell:
   pageId: 140950
   steam: 1109280
@@ -19869,6 +19863,14 @@ Back in 1995:
 Back to 1998:
   pageId: 132504
   steam: 1037350
+Back to Ashes:
+  lutris: back-to-ashes
+  pageId: 142328
+  renamedFrom:
+    - Back To Ashes
+  steam: 1054700
+  steamSide:
+    - 1425290
 Back to Bed:
   cloud:
     steam: true
@@ -109320,11 +109322,6 @@ House M.D.:
 House Number 666:
   pageId: 148763
   steam: 1162690
-House Of Decay:
-  cloud:
-    steam: true
-  pageId: 204836
-  steam: 2899350
 "House Of Horror: Outside Is Better":
   pageId: 212597
   steam: 3152710
@@ -109397,6 +109394,14 @@ House of Caravan:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Rosebud Games\\House of Caravan\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Rosebud Games\\House of Caravan\\}}"
+House of Decay:
+  cloud:
+    steam: true
+  lutris: house-of-decay
+  pageId: 204836
+  renamedFrom:
+    - House Of Decay
+  steam: 2899350
 House of Detention:
   pageId: 164354
   steam: 1293230
@@ -115527,6 +115532,7 @@ Into the Dead:
 "Into the Dead: Our Darkest Days":
   cloud:
     steam: true
+  lutris: into-the-dead-our-darkest-days
   pageId: 203333
   steam: 2239710
 Into the Flames:
@@ -255588,6 +255594,11 @@ Vampire Therapist:
 Vampire of the Sands:
   pageId: 47215
   steam: 386160
+"Vampire's Fall 2":
+  cloud:
+    steam: true
+  pageId: 213264
+  steam: 4264230
 "Vampire's Fall: Origins":
   cloud:
     gog: true
@@ -255860,6 +255871,7 @@ Vanquish:
   pageId: 35232
   steam: 437380
 Vanran:
+  lutris: vanran
   pageId: 213252
   steam: 3449370
   steamSide:
