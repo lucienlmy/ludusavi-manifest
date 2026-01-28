@@ -120855,12 +120855,12 @@
       executable: dowser
       type: default
     - config:
-        betakey: public atlantis_rising chonky_cats open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3  1.15.4
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10
         oslist: macos
       description: Launch game (skip launcher)
       executable: hoi4.app
     - config:
-        betakey: public atlantis_rising chonky_cats open_beta preview 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3  1.15.4
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10
         oslist: linux
       description: Launch game (skip launcher)
       executable: run_hoi4
@@ -120909,7 +120909,7 @@
       description: Launch game (1.7.1 and older)
       executable: hoi4
     - config:
-        betakey: public atlantis_rising chonky_cats open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10
         oslist: windows
       description: Launch game (skip launcher)
       executable: hoi4.exe
@@ -573316,6 +573316,7 @@
     saves:
       - path: Wield Interactive/The Fertile Crescent/Saves/
         pattern: "*.txt"
+        recursive: true
         root: WinAppDataLocalLow
     overrides:
       - os: MacOS
@@ -634556,6 +634557,7 @@
       description: DirectX 11 ( Best performance)
       executable: EllsTalesChairbound.exe
       type: option2
+3281520: {}
 3281900:
   cloud:
     saves:
@@ -640410,6 +640412,7 @@
     koreana: "골목길: 귀흔"
     schinese: 深巷
     tchinese: 深巷
+4184130: {}
 4198090: {}
 4202710: {}
 4210700:

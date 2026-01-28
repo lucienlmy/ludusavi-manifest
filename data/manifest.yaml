@@ -32946,6 +32946,8 @@ Alpine Ski VR:
   steam:
     id: 553110
 Alt-Frequencies:
+  cloud:
+    gog: true
   files:
     "<home>/AppData/LocalLow/Accidental Queens/Alt-Frequencies/SaveData.es3":
       tags:
@@ -51908,6 +51910,41 @@ Asphyxia:
             store: steam
   steam:
     id: 260210
+"Assassin's Creed: Revelations":
+  cloud:
+    uplay: true
+  files:
+    "<root>/savegames/<storeUserId>/40":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: uplay
+    "<winDocuments>/Assassin's Creed Revelations/ACRevelations.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Ubisoft Game Launcher/savegame_storage/<storeUserId>/40":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: assassins-creed-revelations
+  installDir:
+    "Assassin's Creed Revelations": {}
+  launch:
+    "<base>/ACRMP.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - store: steam
+    "<base>/ACRSP.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - store: steam
+  steam:
+    id: 201870
 Assassination Box:
   cloud:
     steam: true
@@ -62287,6 +62324,10 @@ Back 4 Blood:
   steam:
     id: 2998600
 Back To Ashes:
+  id:
+    lutris: back-to-ashes
+    steamExtra:
+      - 1425290
   installDir:
     Back To Ashes: {}
   launch:
@@ -71460,6 +71501,8 @@ Battlefield Play4Free:
       when:
         - os: windows
 Battlefield REDSEC:
+  cloud:
+    steam: true
   steam:
     id: 3028330
 Battlefield Supremacy:
@@ -224206,6 +224249,11 @@ Eden*:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Edengate/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1929021175
   id:
@@ -273581,6 +273629,11 @@ Foxus:
           - store: steam
   steam:
     id: 644130
+Foxy Dumplings:
+  cloud:
+    steam: true
+  steam:
+    id: 4184130
 FoxyLand:
   installDir:
     FLX: {}
@@ -351200,6 +351253,11 @@ Imperivm HD edition:
 Impire:
   cloud:
     steam: true
+  id:
+    steamExtra:
+      - 230900
+      - 230920
+      - 232930
   installDir:
     Impire: {}
   launch:
@@ -426423,6 +426481,10 @@ March of Empires:
   steam:
     id: 418110
 March of the Eagles:
+  id:
+    steamExtra:
+      - 254290
+      - 254291
   installDir:
     March of the Eagles: {}
   launch:
@@ -617488,6 +617550,11 @@ Sigils of Elohim:
         - save
   steam:
     id: 321480
+Sigma Star Saga DX:
+  cloud:
+    steam: true
+  steam:
+    id: 3281520
 "Sigma Theory: Global Cold War":
   cloud:
     gog: true
@@ -702420,6 +702487,8 @@ The Backrooms:
   steam:
     id: 1116520
 The Backrooms 1998 - Found Footage Survival Horror Game:
+  cloud:
+    gog: true
   gog:
     id: 1292919708
   installDir:
@@ -754545,6 +754614,23 @@ ToHeart (Remake):
             store: steam
   steam:
     id: 3380520
+ToHeart2:
+  files:
+    "<base>/CONFIG.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Sys.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
 ToaZZle:
   installDir:
     ToaZZle: {}

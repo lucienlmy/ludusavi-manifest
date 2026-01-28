@@ -10446,6 +10446,8 @@ Alpine Ski VR:
   pageId: 53956
   steam: 553110
 Alt-Frequencies:
+  cloud:
+    gog: true
   pageId: 132698
   steam: 1035050
   templates:
@@ -16513,6 +16515,15 @@ Assassin 2015:
     - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\625\\|{{p|uplay}}\\savegames\\{{p|uid}}\\632\\}}"
 "Assassin's Creed: Pirates":
   pageId: 69296
+"Assassin's Creed: Revelations":
+  cloud:
+    uplay: true
+  lutris: assassins-creed-revelations
+  pageId: 223
+  steam: 201870
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Revelations\\ACRevelations.ini}}"
+    - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\40\\|{{p|LOCALAPPDATA}}\\Ubisoft Game Launcher\\savegame_storage\\{{p|uid}}\\40\\}}"
 Assassination Box:
   cloud:
     steam: true
@@ -19842,8 +19853,11 @@ Back 4 Blood:
   pageId: 203942
   steam: 2998600
 Back To Ashes:
+  lutris: back-to-ashes
   pageId: 142328
   steam: 1054700
+  steamSide:
+    - 1425290
 Back To Hell:
   pageId: 140950
   steam: 1109280
@@ -22883,6 +22897,8 @@ Battlefield Play4Free:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Battlefield Play4Free\\}}"
 Battlefield REDSEC:
+  cloud:
+    steam: true
   pageId: 213104
   steam: 3028330
 Battlefield Supremacy:
@@ -71841,6 +71857,7 @@ Eden*:
   steam: 1414650
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Edengate\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Edengate\\SaveGames}}"
 Edengrad:
   pageId: 39468
   steam: 381180
@@ -87932,7 +87949,10 @@ Foxus:
   pageId: 62835
   steam: 644130
 Foxy Dumplings:
+  cloud:
+    steam: true
   pageId: 212223
+  steam: 4184130
 FoxyLand:
   pageId: 73248
   steam: 718320
@@ -112949,6 +112969,10 @@ Impire:
     steam: true
   pageId: 4954
   steam: 202130
+  steamSide:
+    - 230900
+    - 230920
+    - 232930
 Impixable:
   cloud:
     steam: true
@@ -137197,6 +137221,9 @@ March of Empires:
 March of the Eagles:
   pageId: 5292
   steam: 227760
+  steamSide:
+    - 254290
+    - 254291
 March of the Living:
   pageId: 43496
   steam: 458000
@@ -199162,6 +199189,11 @@ Sigils of Elohim:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Croteam\\Sigils of Elohim\\}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Croteam\\Sigils of Elohim\\}}"
+Sigma Star Saga DX:
+  cloud:
+    steam: true
+  pageId: 213224
+  steam: 3281520
 "Sigma Theory: Global Cold War":
   cloud:
     gog: true
@@ -226084,6 +226116,8 @@ The Backrooms:
   pageId: 140773
   steam: 1116520
 The Backrooms 1998 - Found Footage Survival Horror Game:
+  cloud:
+    gog: true
   gog: 1292919708
   pageId: 202329
   steam: 1985930
@@ -242970,6 +243004,8 @@ To End All Wars:
   steam: 312360
   steamSide:
     - 348750
+To Heart:
+  pageId: 204042
 To Hell With Dave:
   pageId: 122720
   steam: 971710
@@ -243084,15 +243120,21 @@ To the Top:
 "ToGather:Island":
   pageId: 152730
   steam: 1181440
-ToHeart:
-  pageId: 198758
-  renamedFrom:
-    - To Heart
 ToHeart (Remake):
   pageId: 201920
   renamedFrom:
     - To Heart (Remake)
   steam: 3380520
+ToHeart PSE:
+  pageId: 198758
+  renamedFrom:
+    - To Heart
+    - ToHeart
+ToHeart2:
+  pageId: 213229
+  templates:
+    - "{{Game data/config|Windows|\n{{p|game}}\\CONFIG.ini}}"
+    - "{{Game data/saves|Windows|\n{{p|game}}\\Sys.sav|{{p|game}}\\save_*.sav}}"
 ToaZZle:
   pageId: 88822
   steam: 817470
