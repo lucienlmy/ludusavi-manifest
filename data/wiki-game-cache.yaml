@@ -50003,10 +50003,14 @@ Crow:
   steam: 323430
 Crow Country:
   cloud:
+    gog: true
     steam: true
   gog: 1109825617
+  lutris: crow-country
   pageId: 194849
   steam: 1996010
+  steamSide:
+    - 3045190
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\SOFTWARE\\SFB Games\\Crow Country}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
@@ -129678,6 +129682,8 @@ Lilly Looking Through:
 "Lilly and Sasha: Nexus of Souls":
   pageId: 47787
   steam: 370040
+Lilo & Stitch Pinball:
+  pageId: 213254
 "Lilo & Stitch: Hawaiian Adventure":
   pageId: 184709
 "Lilo & Stitch: Trouble in Paradise":
@@ -154841,6 +154847,8 @@ Ninja Gaiden Σ2:
   lutris: ninja-gaiden-ragebound
   pageId: 200133
   steam: 2542120
+  steamSide:
+    - 3853890
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\SteamUser_{{p|uid}}\\}}"
 Ninja Gainyk:
@@ -244583,6 +244591,9 @@ Tormentor:
   lutris: tormentor
   pageId: 212133
   steam: 1493440
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/Tormentor/Saved/Config/Windows/}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/Tormentor/Saved/SaveGames/}}"
 Tormentor X Punisher:
   cloud:
     discord: true
@@ -255848,6 +255859,14 @@ Vanquish:
 "Vanquish: The Adventures of Lady Exton":
   pageId: 35232
   steam: 437380
+Vanran:
+  pageId: 213252
+  steam: 3449370
+  steamSide:
+    - 4314720
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Tyrant\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Tyrant\\Saved\\SaveGames\\}}"
 Vantage Master:
   pageId: 170752
   renamedFrom:

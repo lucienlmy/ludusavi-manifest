@@ -156586,6 +156586,7 @@ Crow:
     id: 323430
 Crow Country:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/Saves":
@@ -156595,6 +156596,10 @@ Crow Country:
         - os: windows
   gog:
     id: 1109825617
+  id:
+    lutris: crow-country
+    steamExtra:
+      - 3045190
   installDir:
     Crow Country: {}
   launch:
@@ -479859,6 +479864,8 @@ Ninja Gaiden Σ2:
     id: 1611835959
   id:
     lutris: ninja-gaiden-ragebound
+    steamExtra:
+      - 3853890
   installDir:
     NINJA GAIDEN Ragebound: {}
   launch:
@@ -758820,10 +758827,16 @@ Tormentor:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Tormentor/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Tormentor/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Tormentor/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1415559694
   id:
@@ -790687,6 +790700,23 @@ Vanquish:
             store: steam
   steam:
     id: 437380
+Vanran:
+  files:
+    "<winLocalAppData>/Tyrant/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Tyrant/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4314720
+  steam:
+    id: 3449370
 "Vantage: Primitive Survival Game":
   installDir:
     Vantage Primitive Survival Game: {}
