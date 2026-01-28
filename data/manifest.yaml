@@ -109655,6 +109655,7 @@ Cahors Sunset:
     id: 341700
 Cairn:
   cloud:
+    gog: true
     steam: true
   gog:
     id: 1300489906
@@ -137593,6 +137594,8 @@ Code Vein:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: code-vein
   installDir:
     CODE VEIN: {}
   launch:
@@ -575659,6 +575662,37 @@ Road to your City:
             store: steam
   steam:
     id: 494050
+RoadCraft:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winLocalAppData>/RoadCraft":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/RoadCraftGame/storage/steam/user/<storeUserId>/Main/config":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Saber/RoadCraftGame/storage/steam/user/<storeUserId>/Main/save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3470710
+      - 3510890
+  installDir:
+    RoadCraft: {}
+  steam:
+    id: 2104890
 RoadRunner:
   steam:
     id: 1097940

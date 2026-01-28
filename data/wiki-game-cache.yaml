@@ -35216,6 +35216,7 @@ Cahors Sunset:
   steam: 341700
 Cairn:
   cloud:
+    gog: true
     steam: true
   gog: 1300489906
   lutris: cairn--3
@@ -43871,6 +43872,7 @@ Code Vein:
   cloud:
     steam: true
     xbox: true
+  lutris: code-vein
   pageId: 91685
   steam: 678960
   templates:
@@ -67749,6 +67751,8 @@ Drop Cat:
   pageId: 157089
   steam: 1193470
 Drop Duchy:
+  cloud:
+    xbox: true
   pageId: 205375
   steam: 2525310
 Drop Hunt - Adventure Puzzle:
@@ -154308,6 +154312,8 @@ NightSky:
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/nightsky/EngineSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\nightsky\\default.ini}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/nightsky/Default.ini}}"
+NightStone:
+  pageId: 213266
 NightZ:
   pageId: 57788
   steam: 548480
@@ -154849,6 +154855,7 @@ Ninja Gaiden Σ2:
 "Ninja Gaiden: Ragebound":
   cloud:
     steam: true
+    xbox: true
   gog: 1611835959
   lutris: ninja-gaiden-ragebound
   pageId: 200133
@@ -185797,6 +185804,21 @@ Road to Vostok:
 Road to your City:
   pageId: 126356
   steam: 494050
+RoadCraft:
+  cloud:
+    epic: true
+    steam: true
+    xbox: true
+  pageId: 201206
+  steam: 2104890
+  steamSide:
+    - 3470710
+    - 3510890
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\RoadCraft\\}}"
+    - "{{Game data/config|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\RoadCraft\\}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\save\\}}"
 RoadRunner:
   pageId: 138912
   steam: 1097940
@@ -238341,6 +238363,7 @@ The Talos Principle 2:
   cloud:
     epic: true
     steam: true
+    xbox: true
   gog: 2069406260
   gogSide:
     - 1476747546
