@@ -323387,8 +323387,19 @@ Hellish Quart:
 Hellmart:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/GAZE IN GAMES/Hellmart/saves":
+      when:
+        - store: steam
   id:
     lutris: hellmart
+  installDir:
+    HELLMART: {}
+  launch:
+    "<base>/Hellmart.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3762550
 "Hellmut: The Badass from Hell":
@@ -708540,6 +708551,11 @@ The Daring Mermaid Expedition:
         - config
   steam:
     id: 1097790
+The Dark Eye (1995):
+  cloud:
+    steam: true
+  steam:
+    id: 4289030
 "The Dark Eye: Book of Heroes":
   cloud:
     steam: true

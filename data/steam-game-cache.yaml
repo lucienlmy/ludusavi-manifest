@@ -639300,6 +639300,18 @@
     japanese: 利用規約に同意したい
     schinese: 同意用户协议
 3762550:
+  cloud:
+    saves:
+      - path: GAZE IN GAMES/Hellmart/saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: HELLMART
+  launch:
+    - config:
+        oslist: windows
+      executable: Hellmart.exe
+      type: default
   nameLocalized:
     schinese: 地狱超市
     tchinese: 地獄超商
@@ -640449,4 +640461,5 @@
       description: Runes Card
       executable: CODES.BAT
 4264230: {}
+4289030: {}
 3221903386: {}
