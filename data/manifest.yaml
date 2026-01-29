@@ -91021,6 +91021,10 @@ Bloons TD 6:
           store: steam
   id:
     lutris: bloons-td-6
+    steamExtra:
+      - 2117950
+      - 3377850
+      - 4096360
   installDir:
     BloonsTD6: {}
   launch:
@@ -109657,6 +109661,7 @@ Cahors Sunset:
     id: 341700
 Cairn:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -109674,6 +109679,14 @@ Cairn:
     id: 1300489906
   id:
     lutris: cairn--3
+  installDir:
+    Cairn: {}
+  launch:
+    "<base>/Cairn.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1588550
 "Cairo's Tale: The Big Egg":
@@ -259563,6 +259576,7 @@ Final Fantasy III (2021):
   alias: Final Fantasy III
 Final Fantasy III (3D Remake):
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/FF3_Win32/<storeUserId>":
@@ -259575,6 +259589,8 @@ Final Fantasy III (3D Remake):
         - config
       when:
         - os: windows
+  gog:
+    id: 1436419216
   id:
     lutris: final-fantasy-iii
   installDir:
@@ -259603,6 +259619,7 @@ Final Fantasy IV (2021):
   alias: Final Fantasy IV
 Final Fantasy IV (3D Remake):
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/FF4/<storeUserId>":
@@ -259615,6 +259632,11 @@ Final Fantasy IV (3D Remake):
         - config
       when:
         - os: windows
+  gog:
+    id: 1633325078
+  id:
+    steamExtra:
+      - 1633325078
   installDir:
     Final Fantasy IV: {}
   launch:
@@ -259649,6 +259671,7 @@ Final Fantasy IV (3D Remake):
     id: 346830
 Final Fantasy IX:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/Settings.ini":
@@ -259667,6 +259690,8 @@ Final Fantasy IX:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1375008492
   installDir:
     FINAL FANTASY IX: {}
   launch:
@@ -260004,6 +260029,7 @@ Final Fantasy VIII (2013):
     id: 39150
 Final Fantasy VIII Remastered:
   cloud:
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/FINAL FANTASY VIII Remastered/Gamepass":
@@ -260030,6 +260056,8 @@ Final Fantasy VIII Remastered:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1086370078
   id:
     lutris: final-fantasy-viii-remastered
   installDir:
@@ -345824,10 +345852,29 @@ I Hate Santa:
   steam:
     id: 557730
 I Hate This Place:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/RockSquareThunder/I Hate This Place":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1552308959
   id:
     lutris: i-hate-this-place
+    steamExtra:
+      - 4332390
+      - 4354700
+  installDir:
+    I Hate This Place: {}
+  launch:
+    "<base>/I Hate This Place.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2604490
 I Have Lived:
@@ -512637,6 +512684,118 @@ Pay for picture Vol.02:
             store: steam
   steam:
     id: 1073360
+Payday 2:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/218620/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+        - os: linux
+          store: steam
+    "<winLocalAppData>/PAYDAY 2/renderer_settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/PAYDAY 2/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/.local/share/Starbreeze/Payday2/renderer_settings.xml":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: payday-2
+    steamExtra:
+      - 218630
+      - 247450
+      - 251040
+      - 254260
+      - 259380
+      - 259381
+      - 264610
+      - 267380
+      - 267381
+      - 267382
+      - 271110
+      - 274160
+      - 274161
+      - 275590
+      - 284430
+      - 288900
+      - 306110
+      - 306690
+      - 311050
+      - 318720
+      - 320030
+      - 323500
+      - 326710
+      - 328860
+      - 328861
+      - 330010
+      - 330490
+      - 330491
+      - 330492
+      - 331040
+      - 331900
+      - 337660
+      - 337661
+      - 338950
+      - 338951
+      - 338952
+      - 339480
+      - 344140
+      - 348090
+      - 348091
+      - 349830
+      - 351890
+      - 358150
+      - 366660
+      - 368870
+      - 374300
+      - 374301
+      - 375380
+      - 375381
+      - 375382
+      - 375383
+      - 375384
+      - 375385
+      - 384020
+      - 384021
+      - 401650
+      - 408460
+      - 412280
+      - 422400
+      - 422430
+      - 433730
+      - 441600
+      - 450660
+      - 468410
+  installDir:
+    PAYDAY 2: {}
+  launch:
+    "<base>/payday2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/payday2_release":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/payday2_win32_release.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 218620
 Payday 3:
   files:
     "<winLocalAppData>/PAYDAY3/Saved/Config/WindowsClient/GameUserSettings.ini":
@@ -565443,6 +565602,8 @@ Republique VR:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: republique-vr
   installDir:
     RepubliqueVR: {}
   steam:
@@ -754590,9 +754751,24 @@ To the Moon:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/Serenity Forge/To the Moon - Sigmund Minisode 1/UserSettings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Serenity Forge/To the Moon - Sigmund Minisode 2/UserSettings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/Serenity Forge/To the Moon/Savegame*.dat":
       tags:
         - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Serenity Forge/To the Moon/UserSettings.dat":
+      tags:
+        - config
       when:
         - os: windows
   gog:

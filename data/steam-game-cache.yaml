@@ -566362,6 +566362,19 @@
       executable: game.exe
       type: default
 1588550:
+  cloud:
+    saves:
+      - path: "TheGameBakers\\Cairn_RETAIL"
+        pattern: "*"
+        recursive: true
+        root: WinSavedGames
+  installDir: Cairn
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Cairn.exe
+      type: default
   nameLocalized:
     schinese: 孤山独影
     tchinese: 孤山獨影
@@ -621170,6 +621183,20 @@
       executable: DllLauncher64_r.exe
       type: option1
 2604490:
+  cloud:
+    saves:
+      - path: RockSquareThunder/I Hate This Place
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: I Hate This Place
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: I Hate This Place.exe
+      type: default
   nameLocalized:
     japanese: アイヘイト・ディス・プレイス
     koreana: 아이 헤이트 디스 플레이스
