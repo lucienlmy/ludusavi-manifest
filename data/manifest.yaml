@@ -109659,6 +109659,17 @@ Cairn:
   cloud:
     gog: true
     steam: true
+  files:
+    "<home>/Saved Games/TheGameBakers/Cairn_RETAIL/PERSISTENT/PLAYER":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/TheGameBakers/Cairn_RETAIL/SAVEGAMES/RETAIL/STORY":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1300489906
   id:
@@ -178233,6 +178244,11 @@ Dear Red - Extended:
 Dear diary:
   steam:
     id: 1073030
+"Dear me, I was...":
+  cloud:
+    steam: true
+  steam:
+    id: 3891510
 DearCraft:
   installDir:
     DearCraft: {}
@@ -265314,6 +265330,7 @@ Flint:
     gogExtra:
       - 1157250159
       - 1348861674
+    lutris: flint-the-treasure-of-oblivion
     steamExtra:
       - 3126610
   installDir:
@@ -330700,6 +330717,13 @@ Hidden Protector:
             store: steam
   steam:
     id: 838190
+Hidden Runaway:
+  files:
+    "<winProgramData>/Pendulo Studios/HR1/SAVEGAME":
+      tags:
+        - save
+      when:
+        - os: windows
 "Hidden Saga: Xamadeon Stone":
   cloud:
     steam: true
@@ -450291,6 +450315,8 @@ Monopoly (2012):
   steam:
     id: 221300
 Monopoly (2024):
+  cloud:
+    steam: true
   installDir:
     Monopoly: {}
   launch:
@@ -565391,6 +565417,7 @@ Republique Remastered:
     gogExtra:
       - 1423214546
       - 1423214759
+    lutris: republique-remastered
   installDir:
     Republique: {}
   launch:

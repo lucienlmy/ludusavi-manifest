@@ -35228,6 +35228,9 @@ Cairn:
   lutris: cairn--3
   pageId: 206361
   steam: 1588550
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\TheGameBakers\\Cairn_RETAIL\\PERSISTENT\\PLAYER}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\TheGameBakers\\Cairn_RETAIL\\SAVEGAMES\\RETAIL\\STORY}}"
 "Cairo's Tale: The Big Egg":
   pageId: 95349
   steam: 863470
@@ -57049,6 +57052,11 @@ Dear Red - Extended:
 Dear diary:
   pageId: 135131
   steam: 1073030
+"Dear me, I was...":
+  cloud:
+    steam: true
+  pageId: 213283
+  steam: 3891510
 DearCraft:
   pageId: 93359
   steam: 846850
@@ -85488,10 +85496,12 @@ Flint:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1317619868
   gogSide:
     - 1157250159
     - 1348861674
+  lutris: flint-the-treasure-of-oblivion
   pageId: 194176
   steam: 2366130
   steamSide:
@@ -106351,6 +106361,8 @@ Hidden Protector:
   steam: 838190
 Hidden Runaway:
   pageId: 79539
+  templates:
+    - "{{Game data/saves|Windows|{{P|programdata}}\\Pendulo Studios\\HR1\\SAVEGAME\\}}"
 "Hidden Saga: Xamadeon Stone":
   cloud:
     steam: true
@@ -145016,6 +145028,8 @@ Monopoly (2012):
   pageId: 40679
   steam: 221300
 Monopoly (2024):
+  cloud:
+    steam: true
   pageId: 198053
   steam: 2929170
 Monopoly Casino:
@@ -182376,6 +182390,7 @@ Republique Remastered:
   gogSide:
     - 1423214546
     - 1423214759
+  lutris: republique-remastered
   pageId: 22812
   steam: 317100
   templates:
