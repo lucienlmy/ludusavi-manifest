@@ -45761,6 +45761,8 @@ Arctic Awakening:
     id: 1925961964
   id:
     lutris: arctic-awakening
+    steamExtra:
+      - 4009660
   installDir:
     Arctic Awakening: {}
   launch:
@@ -219624,6 +219626,12 @@ Dystopika:
           store: steam
   gog:
     id: 1174160330
+  id:
+    gogExtra:
+      - 1369677215
+    lutris: dystopika
+    steamExtra:
+      - 3859970
   installDir:
     Dystopika: {}
   steam:
@@ -662064,22 +662072,11 @@ Sticky Business:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Spellgarden Games/Sticky Business/Saves/*.spell":
+    "<home>/AppData/LocalLow/Spellgarden Games/Sticky Business/Saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Spellgarden Games/Sticky Business/Saves/*.spellinfo":
-      when:
-        - os: windows
-          store: steam
-    "<home>/Library/Application Support/Spellgarden Games/Sticky Business/Saves/*.spell":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Spellgarden Games/Sticky Business/Saves/*.spellinfo":
-      when:
-        - os: mac
-          store: steam
   gog:
     id: 1383151060
   id:

@@ -14534,6 +14534,8 @@ Arctic Awakening:
   lutris: arctic-awakening
   pageId: 207080
   steam: 1275550
+  steamSide:
+    - 4009660
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\GoldFire Studios\\Arctic Awakening}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\GoldFire Studios\\Arctic Awakening\\Saves<ref name=\"Troubleshooting Guide\"/>}}"
@@ -70365,8 +70367,13 @@ Dystopika:
   cloud:
     steam: true
   gog: 1174160330
+  gogSide:
+    - 1369677215
+  lutris: dystopika
   pageId: 195931
   steam: 2379910
+  steamSide:
+    - 3859970
 Dystopy:
   pageId: 58293
   steam: 542850
@@ -213543,6 +213550,8 @@ Sticky Business:
     - 2667860
     - 3100090
     - 3639630
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Spellgarden Games\\Sticky Business\\Saves\\}}"
 Sticky Dildo Man:
   pageId: 148619
   steam: 1163830

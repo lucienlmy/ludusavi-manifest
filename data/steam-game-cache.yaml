@@ -577972,6 +577972,7 @@
       type: default
   nameLocalized:
     japanese: "Back to the Dawn ~ブレイク･ザ･アニマル･プリズン~ "
+    koreana: Back to the Dawn ~브레이크 더 애니멀 프리즌~
     schinese: 动物迷城
 1736270:
   installDir: They are coming
@@ -610126,6 +610127,16 @@
         platforms:
           - MacOS
         root: MacAppSupport
+      - path: Spellgarden Games/Sticky Business/Saves
+        pattern: "*.spellshared"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Spellgarden Games/Sticky Business/Saves
+        pattern: "*.spellshared"
+        platforms:
+          - MacOS
+        root: WinAppDataLocalLow
   installDir: Sticky Business
   launch:
     - config:
