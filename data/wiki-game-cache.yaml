@@ -19196,6 +19196,8 @@ Aztec Tower:
 Aztec Venture:
   pageId: 62586
   steam: 632830
+Aztec Wars:
+  pageId: 213326
 Aztecalypse:
   cloud:
     steam: true
@@ -71574,6 +71576,7 @@ Echelon (2001):
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Configs.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saved Games\\}}"
 "Echelon: Wind Warriors":
+  lutris: echelon-wind-warriors
   pageId: 23276
   steam: 311100
   templates:
@@ -89150,6 +89153,7 @@ Front Lines:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Forever Entertainment S_A_\\Front Mission 2_ Remake}}"
 "Front Mission 3: Remake":
   cloud:
+    gog: true
     steam: true
   gog: 1996664685
   gogSide:
@@ -148657,11 +148661,15 @@ Muv-Luv VR:
 Muv-Luv photonflowers*:
   pageId: 140717
   steam: 889700
+  templates:
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\889700\\remote\\*.uuc|{{p|steam}}\\userdata\\{{p|uid}}\\889700\\remote\\*.uux}}"
 Muv-Luv photonmelodies♮:
   cloud:
     steam: true
   pageId: 173971
   steam: 889710
+  templates:
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\889710\\remote\\*.uuc|{{p|steam}}\\userdata\\{{p|uid}}\\889710\\remote\\*.uux}}"
 Muzzleloaded:
   pageId: 124175
   steam: 982990
@@ -199714,6 +199722,8 @@ Silkbulb test:
   lutris: silkbulb-test
   pageId: 207169
   steam: 2468250
+Silkolene Honda Motocross GP:
+  pageId: 213328
 Silly Polly Beast:
   cloud:
     steam: true

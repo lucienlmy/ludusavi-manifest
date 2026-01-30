@@ -223306,6 +223306,8 @@ Echelon (2001):
   steam:
     id: 311080
 "Echelon: Wind Warriors":
+  id:
+    lutris: echelon-wind-warriors
   installDir:
     Echelon Wind Warriors: {}
   launch:
@@ -225883,9 +225885,15 @@ El Matador:
   installDir:
     El Matador: {}
   launch:
-    "<base>/pc_matador.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289280
@@ -277544,6 +277552,7 @@ Front Lines:
     id: 2865440
 "Front Mission 3: Remake":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/MegaPixel Studio S_A_/Front Mission 3 Remake":
@@ -460971,6 +460980,17 @@ Muv-Luv VR:
   steam:
     id: 456570
 Muv-Luv photonflowers*:
+  files:
+    "<root>/userdata/<storeUserId>/889700/remote/*.uuc":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/889700/remote/*.uux":
+      tags:
+        - save
+      when:
+        - store: steam
   installDir:
     Muv-Luv photonflowers: {}
   launch:
@@ -460983,6 +461003,17 @@ Muv-Luv photonflowers*:
 Muv-Luv photonmelodies♮:
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/889710/remote/*.uuc":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/889710/remote/*.uux":
+      tags:
+        - save
+      when:
+        - store: steam
   installDir:
     Muv-Luv photonmelodies: {}
   launch:
