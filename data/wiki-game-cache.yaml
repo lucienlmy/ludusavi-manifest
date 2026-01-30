@@ -3646,6 +3646,11 @@ A Way Out:
 A Week of Circus Terror:
   pageId: 41795
   steam: 498450
+"A Whisper of Fall: Jinyiwei":
+  cloud:
+    steam: true
+  pageId: 213317
+  steam: 4295810
 A Wild Catgirl Appears!:
   pageId: 45097
   steam: 429580
@@ -54849,6 +54854,9 @@ Darkfall Unholy Wars:
   steam: 227400
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Darkfall\\Character\\.\\.\\.\\*.cfg}}"
+Darkhaven:
+  pageId: 213314
+  steam: 3571870
 "Darkheart: Flight of the Harpies":
   pageId: 124028
   steam: 985070
@@ -89150,6 +89158,9 @@ Front Lines:
   steam: 3795900
   steamSide:
     - 4124120
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\MegaPixel Studio S.A.\\Front Mission 3 Remake}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\MegaPixel Studio S_A_\\Front Mission 3 Remake}}"
 Front Mission Evolved:
   cloud:
     steam: true
@@ -92994,6 +93005,11 @@ Genie:
     steam: true
   pageId: 65297
   steam: 663600
+"Genigods: Nezha":
+  cloud:
+    steam: true
+  pageId: 213323
+  steam: 4346690
 Genital Jousting:
   pageId: 53542
   steam: 469820
@@ -131710,7 +131726,7 @@ Lords of the Fallen:
     - 317203
     - 317208
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\|{{p|userprofile\\Documents}}\\Lords of the Fallen\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\|{{p|userprofile\\Documents}}\\Lords of the Fallen}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\265300\\remote\\}}"
     - "{{Game data/saves|GOG.com|{{p|localappdata}}\\GOG.com\\Galaxy\\Applications\\51225745408380260\\Storage\\Shared\\Files\\}}"
 Lords of the Fallen (2023):
@@ -178920,6 +178936,9 @@ RalliSport Challenge:
   templates:
     - "{{Game data/config|Windows|{{P|programdata}}\\Microsoft\\RalliSport Challenge}}"
     - "{{Game data/saves|Windows|{{P|programdata}}\\Microsoft\\RalliSport Challenge}}"
+Rally Arcade Classics:
+  pageId: 213318
+  steam: 2837580
 Rally Challenge:
   pageId: 22469
 Rally Championship Xtreme:
@@ -192243,6 +192262,8 @@ Santa Claus in Trouble ... Again!:
 Santa Claws:
   pageId: 153598
   steam: 694680
+"Santa Fe Mysteries: The Elk Moon Murder":
+  pageId: 213320
 Santa Ride!:
   pageId: 200502
   templates:

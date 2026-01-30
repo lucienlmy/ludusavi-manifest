@@ -11947,6 +11947,11 @@ A Week of Circus Terror:
             store: steam
   steam:
     id: 498450
+"A Whisper of Fall: Jinyiwei":
+  cloud:
+    steam: true
+  steam:
+    id: 4295810
 A Wild Catgirl Appears!:
   files:
     "<base>/game/saves":
@@ -171239,6 +171244,9 @@ Darkfall Unholy Wars:
           - store: steam
   steam:
     id: 227400
+Darkhaven:
+  steam:
+    id: 3571870
 "Darkheart: Flight of the Harpies":
   installDir:
     Darkheart Flight of the Harpies: {}
@@ -277537,6 +277545,12 @@ Front Lines:
 "Front Mission 3: Remake":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/MegaPixel Studio S_A_/Front Mission 3 Remake":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1996664685
   id:
@@ -277544,6 +277558,17 @@ Front Lines:
       - 1662355381
     steamExtra:
       - 4124120
+  installDir:
+    FRONT MISSION 3 Remake: {}
+  launch:
+    "<base>/Front Mission 3 Remake.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/MegaPixel Studio S.A./Front Mission 3 Remake:
+      tags:
+        - config
   steam:
     id: 3795900
 Front Mission Evolved:
@@ -289379,6 +289404,11 @@ Genie:
             store: steam
   steam:
     id: 663600
+"Genigods: Nezha":
+  cloud:
+    steam: true
+  steam:
+    id: 4346690
 Genital Jousting:
   files:
     "<home>/AppData/LocalLow/Free Lives/Genital Jousting/Config.butthole":
@@ -554664,6 +554694,20 @@ RalliSport Challenge:
         - save
       when:
         - os: windows
+Rally Arcade Classics:
+  installDir:
+    Rally Arcade Classics: {}
+  launch:
+    "<base>/RallyArcadeClassics.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/RallyArcadeClassics.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2837580
 Rally Championship Xtreme:
   files:
     "<base>/Data/Profiles":

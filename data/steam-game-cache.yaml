@@ -627364,6 +627364,15 @@
         oslist: linux
       executable: Counterpick Labs
       type: default
+2837580:
+  installDir: Rally Arcade Classics
+  launch:
+    - config:
+        oslist: windows
+      executable: RallyArcadeClassics.exe
+    - config:
+        oslist: linux
+      executable: RallyArcadeClassics.x86_64
 2837600:
   cloud:
     saves:
@@ -637872,6 +637881,7 @@
         oslist: windows
       executable: PogoStickChampion.exe
       type: default
+3571870: {}
 3574510:
   installDir: Serre
   launch:
@@ -639487,7 +639497,17 @@
     schinese: 原子之心 2
     tchinese: 原子之心 2
 3789050: {}
-3795900: {}
+3795900:
+  cloud:
+    saves:
+      - path: "MegaPixel Studio S_A_\\Front Mission 3 Remake"
+        pattern: "*.*"
+        root: WinAppDataLocalLow
+  installDir: FRONT MISSION 3 Remake
+  launch:
+    - config:
+        oslist: windows
+      executable: Front Mission 3 Remake.exe
 3796960:
   installDir: Elemental Reforged
   launch:
@@ -640515,4 +640535,15 @@
       executable: CODES.BAT
 4264230: {}
 4289030: {}
+4295810:
+  nameLocalized:
+    english: "A Whisper of Fall: Jinyiwei"
+    schinese: "一盏秋声:锦衣卫"
+    tchinese: "一盞秋聲:錦衣衛"
+4346690:
+  nameLocalized:
+    english: "Genigods: Nezha"
+    japanese: "太古の神:哪吒"
+    schinese: "古神:风里希"
+    tchinese: "古神:風裡希"
 3221903386: {}
