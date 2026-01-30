@@ -612471,6 +612471,20 @@
     schinese: 我的英雄学院 无尽正义
     tchinese: 我的英雄學院 無盡正義
 2362060:
+  cloud:
+    saves:
+      - path: "CodeVein2\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: CodeVein2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CodeVein2.exe
+      type: default
   nameLocalized:
     koreana: 코드 베인 II
     schinese: CODE VEIN 噬血代码 II
@@ -632546,6 +632560,11 @@
       description: VFREVO.exe を実行（EAC無効）
       executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/
+3113680:
+  installDir: Missing Banban
+  launch:
+    - executable: MissingBanban.exe
+      type: default
 3114900:
   cloud:
     saves:
@@ -634321,11 +634340,6 @@
         oslist: windows
       description: City Tales - Medieval Era
       executable: City Tales.exe
-      type: default
-    - config:
-        betakey: internal_dev
-      description: City Tales Auto-QA
-      executable: RMGLauncher.exe
       type: default
   nameLocalized:
     schinese: 筑城记：中世纪

@@ -42254,10 +42254,16 @@ City Survival Project:
 "City Tales: Medieval Era":
   cloud:
     steam: true
+  gog: 1789717023
+  gogSide:
+    - 1190770176
+    - 1713029676
+    - 1882016915
   pageId: 206604
   steam: 3265070
   steamSide:
     - 3645240
+    - 4246820
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Irregular Shapes\\City Tales\\saves\\{{p|uid}}\\}}"
 City VR:
@@ -144045,6 +144051,9 @@ MissileDancer:
 Missileman Origins:
   pageId: 39546
   steam: 461280
+Missing Banban:
+  pageId: 213296
+  steam: 3113680
 Missing Information:
   pageId: 200318
   steam: 408090
@@ -164349,6 +164358,7 @@ Paradise Cleaning!:
   pageId: 146078
   steam: 950460
 Paradise Cracked:
+  lutris: paradise-cracked
   pageId: 57943
 Paradise Killer:
   cloud:

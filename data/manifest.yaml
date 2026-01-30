@@ -132259,9 +132259,16 @@ City Survival Project:
         - save
       when:
         - os: windows
+  gog:
+    id: 1789717023
   id:
+    gogExtra:
+      - 1190770176
+      - 1713029676
+      - 1882016915
     steamExtra:
       - 3645240
+      - 4246820
   installDir:
     City Tales - Medieval Era: {}
   launch:
@@ -137635,11 +137642,24 @@ Code Vein:
 Code Vein II:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/CodeVein2/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: code-vein-ii
     steamExtra:
       - 3559240
       - 3733960
+  installDir:
+    CodeVein2: {}
+  launch:
+    "<base>/CodeVein2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2362060
 Code World:
@@ -447198,6 +447218,15 @@ Missileman Origins:
             store: steam
   steam:
     id: 461280
+Missing Banban:
+  installDir:
+    Missing Banban: {}
+  launch:
+    "<base>/MissingBanban.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3113680
 Missing Information:
   steam:
     id: 408090
@@ -508902,6 +508931,9 @@ Paradise Cleaning!:
             store: steam
   steam:
     id: 950460
+Paradise Cracked:
+  id:
+    lutris: paradise-cracked
 Paradise Killer:
   cloud:
     gog: true
