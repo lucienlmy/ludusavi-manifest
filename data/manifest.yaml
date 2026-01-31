@@ -168578,6 +168578,8 @@ Dark Earth:
         - save
       when:
         - os: windows
+  id:
+    lutris: dark-earth
 Dark Echo:
   cloud:
     steam: true
@@ -342977,6 +342979,29 @@ Hunter of Antiques:
           - store: steam
   steam:
     id: 945850
+"Hunter: The Reckoning - The Beast of Glenkildove":
+  cloud:
+    steam: true
+  id:
+    lutris: hunter-the-reckoning-the-beast-of-glenkildove
+  installDir:
+    Hunter The Reckoning — The Beast of Glenkildove: {}
+  launch:
+    "<base>/BeastOfGlenkildove":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/BeastOfGlenkildove.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hunter The Reckoning  The Beast of Glenkildove.app/Contents/MacOS/Hunter The Reckoning  The Beast of Glenkildove":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2417000
 HunterX:
   cloud:
     steam: true
@@ -477668,6 +477693,19 @@ Nickelodeon All-Star Brawl 2:
 Nickelodeon Splat Pack:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Nickelodeon Splat Pack":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Nickelodeon Splat Pack: {}
+  launch:
+    "<base>/NickelodeonSplatPack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3509130
 Nicktoons & The Dice of Destiny:
@@ -812814,6 +812852,7 @@ Werewolf Voice - Party Game:
   id:
     gogExtra:
       - 1527266173
+    lutris: werewolf-the-apocalypse-heart-of-the-forest
     steamExtra:
       - 1384410
   installDir:
@@ -812839,6 +812878,62 @@ Werewolf Voice - Party Game:
         - config
   steam:
     id: 1342620
+"Werewolf: The Apocalypse - Purgatory":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/.config/unity3d/Different Tales/Purgatory/Saves/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Different Tales/Purgatory/Saves/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Different Tales/Purgatory/Saves/*.json":
+      when:
+        - store: steam
+  gog:
+    id: 1235178901
+  id:
+    lutris: werewolf-the-apocalypse-purgatory
+  installDir:
+    Purgatory: {}
+  launch:
+    "<base>/Purgatory":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Purgatory.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2463980
+"Werewolf: The Apocalypse - The Book of Hungry Names":
+  cloud:
+    steam: true
+  installDir:
+    Werewolf The Apocalypse — The Book of Hungry Names: {}
+  launch:
+    "<base>/HungryNames":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/HungryNames.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Werewolf The Apocalypse  The Book of Hungry Names.app/Contents/MacOS/Werewolf The Apocalypse  The Book of Hungry Names":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2402280
 Werewolves Within:
   installDir:
     Werewolves Within: {}

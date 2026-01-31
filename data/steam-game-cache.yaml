@@ -614083,6 +614083,19 @@
     koreana: 역전검사 1&2 미츠루기 셀렉션
     schinese: 逆转检察官1&2 御剑精选集
     tchinese: 逆轉檢察官1&2 御劍精選集
+2402280:
+  installDir: Werewolf The Apocalypse — The Book of Hungry Names
+  launch:
+    - config:
+        oslist: windows
+      executable: HungryNames.exe
+    - config:
+        oslist: macos
+      executable: Werewolf The Apocalypse  The Book of Hungry Names.app/Contents/MacOS/Werewolf The Apocalypse  The Book of Hungry Names
+    - arguments: "--no-sandbox"
+      config:
+        oslist: linux
+      executable: HungryNames
 2403620:
   cloud:
     saves:
@@ -614562,6 +614575,19 @@
     tchinese: 鼠探：私家偵探
     turkish: "MOUSE: Kiralık Dedektif"
     ukrainian: Приватний детектив МАУС
+2417000:
+  installDir: Hunter The Reckoning — The Beast of Glenkildove
+  launch:
+    - config:
+        oslist: windows
+      executable: BeastOfGlenkildove.exe
+    - config:
+        oslist: macos
+      executable: Hunter The Reckoning  The Beast of Glenkildove.app/Contents/MacOS/Hunter The Reckoning  The Beast of Glenkildove
+    - arguments: "--no-sandbox"
+      config:
+        oslist: linux
+      executable: BeastOfGlenkildove
 2417580:
   cloud:
     saves:
@@ -616794,6 +616820,37 @@
     koreana: 기동전대 VS
     schinese: 机动战队VS
     tchinese: 機動戰隊VS
+2463980:
+  cloud:
+    saves:
+      - path: Different Tales/Purgatory/Saves
+        pattern: "*.json"
+        root: MacAppSupport
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: MacAppSupport
+        useInstead: LinuxHome
+  installDir: Purgatory
+  launch:
+    - config:
+        oslist: windows
+      description: full game
+      executable: Purgatory.exe
+      type: option1
+    - config:
+        oslist: macos
+      executable: Purgatory.app
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Purgatory
 2464280:
   cloud:
     saves:
@@ -637248,7 +637305,22 @@
       description: Edith
       executable: SteamGame.exe
       type: editor
-3509130: {}
+3509130:
+  cloud:
+    saves:
+      - path: Limited Run Games/Nickelodeon Splat Pack/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Nickelodeon Splat Pack
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: NickelodeonSplatPack.exe
+      type: default
 3509140: {}
 3511620:
   installDir: Super Spy Violet

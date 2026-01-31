@@ -53962,6 +53962,7 @@ Dark Drive:
   pageId: 91246
   steam: 822030
 Dark Earth:
+  lutris: dark-earth
   pageId: 60147
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
@@ -110383,6 +110384,12 @@ Hunter of Antiques:
 "Hunter's Trial: The fight never ends":
   pageId: 123766
   steam: 945850
+"Hunter: The Reckoning - The Beast of Glenkildove":
+  cloud:
+    steam: true
+  lutris: hunter-the-reckoning-the-beast-of-glenkildove
+  pageId: 213379
+  steam: 2417000
 HunterX:
   cloud:
     steam: true
@@ -201429,6 +201436,8 @@ Skyborn:
 SkydiVeR:
   pageId: 128187
   steam: 1024600
+Skydive!:
+  pageId: 213374
 Skydiving Simulator VR:
   pageId: 81534
   steam: 748670
@@ -263312,6 +263321,7 @@ Werewolf Voice - Party Game:
   gog: 1270634266
   gogSide:
     - 1527266173
+  lutris: werewolf-the-apocalypse-heart-of-the-forest
   pageId: 162127
   steam: 1342620
   steamSide:
@@ -263319,6 +263329,20 @@ Werewolf Voice - Party Game:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Different Tales\\Heart of the Forest\\Device\\devicesettings.json|{{P|hkcu}}\\SOFTWARE\\Different Tales\\Heart of the Forest\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Different Tales\\Heart of the Forest\\Saves\\}}"
+"Werewolf: The Apocalypse - Purgatory":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 1235178901
+  lutris: werewolf-the-apocalypse-purgatory
+  pageId: 213376
+  steam: 2463980
+"Werewolf: The Apocalypse - The Book of Hungry Names":
+  cloud:
+    steam: true
+  pageId: 213371
+  steam: 2402280
 Werewolves Within:
   pageId: 54588
   steam: 488950
