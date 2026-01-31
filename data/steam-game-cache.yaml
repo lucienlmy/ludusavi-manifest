@@ -639202,6 +639202,9 @@
 3710600: {}
 3710840: {}
 3714430: {}
+3717070:
+  nameLocalized:
+    japanese: 『WWE 2K26』
 3717330:
   cloud:
     saves:
@@ -640565,6 +640568,29 @@
     schinese: 深巷
     tchinese: 深巷
 4184130: {}
+4193270:
+  cloud:
+    saves:
+      - path: Loxarc/jsp2
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Loxarc/jsp2
+        pattern: "*.dat"
+        platforms:
+          - MacOS
+        root: MacAppSupport
+  installDir: JSP2_Loxarc
+  launch:
+    - config:
+        oslist: windows
+      executable: "Steam\\jsp2.exe"
+      type: default
+    - config:
+        oslist: macos
+      executable: "Steam\\jsp2.app"
+      type: default
 4198090: {}
 4202710: {}
 4210700:

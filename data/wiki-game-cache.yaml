@@ -19601,6 +19601,8 @@ BOKURA:
   steam: 1801110
   steamSide:
     - 2875550
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\LocalLow\\tokoronyori\\BOKURA}}"
 "BOMB: Who let the dogfight?":
   cloud:
     steam: true
@@ -33166,6 +33168,7 @@ Bubble Bobble:
   pageId: 127949
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\bubbob.cfg}}"
+    - "{{Game data/config|Windows|{{p|game}}\\bublbobl.cfg}}"
 Bubble Bobble (also featuring Rainbow Islands):
   pageId: 127024
 "Bubble Bobble 4 Friends: The Baron's Workshop":
@@ -43916,6 +43919,9 @@ Code Vein II:
   steamSide:
     - 3559240
     - 3733960
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\CodeVein2\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\CodeVein2\\Saved\\SaveGames\\}}"
 Code World:
   pageId: 70571
   steam: 708190
@@ -71207,6 +71213,12 @@ Earthbreakers:
     steam: true
   pageId: 155085
   steam: 1188870
+Earthen Miraculous Sword:
+  lutris: lenen-tasouken-earthen-miraculous-sword
+  pageId: 213355
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\replay_dat\\|{{p|game}}\\save_dat\\}}"
 Earthfall:
   pageId: 59401
   steam: 415590
@@ -117854,6 +117866,18 @@ Japan Stigmatized Property:
   lutris: japan-stigmatized-property
   pageId: 208857
   steam: 3809110
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Loxarc\\事故物件監視協会}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Loxarc\\事故物件監視協会\\savedata.dat}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Loxarc/jsp/savedata.dat}}"
+Japan Stigmatized Property 2:
+  lutris: japan-stigmatized-property-2
+  pageId: 213361
+  steam: 4193270
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Loxarc\\jsp2}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Loxarc\\jsp2\\savedata.dat}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Loxarc/jsp2/savedata.dat}}"
 "Japanese Rail Sim: Hakone Town of Natural Beauty and Hot Springs":
   cloud:
     steam: true
@@ -159162,6 +159186,7 @@ Once Upon A Puppet:
     epic: true
     steam: true
   gog: 1186628118
+  lutris: once-upon-a-puppet
   pageId: 203045
   steam: 1904880
   templates:
@@ -255871,6 +255896,7 @@ Vampire of the Sands:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DrawDistance\\VtM Coteries of New York\\Saves\\Settings.save|{{P|hkcu}}\\Software\\DrawDistance\\VtM Coteries of New York\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DrawDistance\\VtM Coteries of New York\\Saves\\}}"
 "Vampire: The Masquerade - Justice":
+  lutris: vampire-the-masquerade-justice
   pageId: 193164
   steam: 2431700
 "Vampire: The Masquerade - Night Road":
@@ -255925,6 +255951,7 @@ Vampire of the Sands:
 "Vampire: The Masquerade - Swansong":
   cloud:
     steam: true
+  lutris: vampire-the-masquerade-swansong
   pageId: 148254
   steam: 1299510
   templates:
@@ -259278,6 +259305,11 @@ WWE 2K25:
     steam: true
   pageId: 200721
   steam: 2878960
+WWE 2K26:
+  cloud:
+    steam: true
+  pageId: 213350
+  steam: 3717070
 WWF Panda Junior:
   pageId: 213086
 WWF Raw:

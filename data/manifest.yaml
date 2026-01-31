@@ -61540,6 +61540,12 @@ BOC:
   steam:
     id: 1159150
 BOKURA:
+  files:
+    "<winAppData>/LocalLow/tokoronyori/BOKURA":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 2875550
@@ -103267,6 +103273,11 @@ Bubble Bobble:
         - config
       when:
         - os: dos
+    "<base>/bublbobl.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 "Bubble Bobble 4 Friends: The Baron is Back!":
   alias: "Bubble Bobble 4 Friends: The Baron's Workshop"
 "Bubble Bobble 4 Friends: The Baron's Workshop":
@@ -137678,10 +137689,16 @@ Code Vein II:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/CodeVein2/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/CodeVein2/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/CodeVein2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: code-vein-ii
     steamExtra:
@@ -222155,6 +222172,25 @@ Earthbreakers:
     steam: true
   steam:
     id: 1188870
+Earthen Miraculous Sword:
+  files:
+    "<base>/replay_dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_dat/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: lenen-tasouken-earthen-miraculous-sword
 Earthfall:
   files:
     "<base>/ConfigDir/**/*.ini":
@@ -366600,14 +366636,16 @@ Japan Girls:
     id: 1303110
 Japan Stigmatized Property:
   files:
-    "<home>/AppData/LocalLow/Loxarc/事故物件監視協会/*.dat":
+    "<home>/AppData/LocalLow/Loxarc/事故物件監視協会/savedata.dat":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Library/Application Support/Loxarc/jsp/*.dat":
+    "<home>/Library/Application Support/Loxarc/jsp/savedata.dat":
+      tags:
+        - save
       when:
         - os: mac
-          store: steam
   id:
     lutris: japan-stigmatized-property
   installDir:
@@ -366621,8 +366659,43 @@ Japan Stigmatized Property:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Loxarc/事故物件監視協会:
+      tags:
+        - config
   steam:
     id: 3809110
+Japan Stigmatized Property 2:
+  files:
+    "<home>/AppData/LocalLow/Loxarc/jsp2/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Loxarc/jsp2/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: japan-stigmatized-property-2
+  installDir:
+    JSP2_Loxarc: {}
+  launch:
+    "<base>/Steam/jsp2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Steam/jsp2.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Loxarc/jsp2:
+      tags:
+        - config
+  steam:
+    id: 4193270
 "Japanese Rail Sim: Hakone Town of Natural Beauty and Hot Springs":
   cloud:
     steam: true
@@ -492932,6 +493005,8 @@ Once Upon A Puppet:
         - os: windows
   gog:
     id: 1186628118
+  id:
+    lutris: once-upon-a-puppet
   installDir:
     Once Upon a Puppet: {}
   launch:
@@ -790523,6 +790598,8 @@ Vampire of the Sands:
   steam:
     id: 1096410
 "Vampire: The Masquerade - Justice":
+  id:
+    lutris: vampire-the-masquerade-justice
   installDir:
     Vampire The Masquerade - Justice: {}
   steam:
@@ -790736,6 +790813,8 @@ Vampire of the Sands:
         - save
       when:
         - os: windows
+  id:
+    lutris: vampire-the-masquerade-swansong
   installDir:
     VTMS: {}
   launch:
@@ -800994,6 +801073,11 @@ WWE 2K25:
             store: steam
   steam:
     id: 2878960
+WWE 2K26:
+  cloud:
+    steam: true
+  steam:
+    id: 3717070
 WWF in Your House:
   id:
     lutris: wwf-in-your-house
