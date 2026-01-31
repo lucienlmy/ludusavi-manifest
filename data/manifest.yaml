@@ -3977,6 +3977,21 @@ $1 Ride:
   steam:
     id: 1194620
 "3564500":
+  installDir:
+    Team Fortress 2 Classified: {}
+  launch:
+    "<base>/tf2classified.sh":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/tf2classified_win64.exe":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3545060
 3571 The Game:
@@ -7109,13 +7124,13 @@ $1 Ride:
   installDir:
     9 Kings: {}
   launch:
+    "<base>/9Kings.app/Contents/MacOS/9Kings":
+      - when:
+          - os: mac
+            store: steam
     "<base>/9Kings.exe":
       - when:
           - os: windows
-            store: steam
-    "<base>/MacBuild.app/Contents/MacOS/9Kings":
-      - when:
-          - os: mac
             store: steam
   steam:
     id: 2784470
@@ -66427,6 +66442,11 @@ Banished Castle VR:
         - config
       when:
         - os: linux
+    "<home>/.config/BanjoRecompiled/mod_config":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/.config/BanjoRecompiled/mods.json":
       tags:
         - config
@@ -66457,6 +66477,11 @@ Banished Castle VR:
         - config
       when:
         - os: mac
+    "<home>/Library/Application Support/BanjoRecompiled/mod_config":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/Library/Application Support/BanjoRecompiled/mods.json":
       tags:
         - config
@@ -66483,6 +66508,11 @@ Banished Castle VR:
       when:
         - os: windows
     "<winLocalAppData>/BanjoRecompiled/graphics.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BanjoRecompiled/mod_config":
       tags:
         - config
       when:
@@ -221484,6 +221514,24 @@ Earn to Die 2:
             store: steam
   steam:
     id: 431590
+Earnest Evans Collection:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Earnest Evans Collection":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Earnest Evans Collection: {}
+  launch:
+    "<base>/EarnestEvans.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3640550
 Earth & Beyond:
   registry:
     HKEY_LOCAL_MACHINE/Software/WOW6432Node/Westwood Studios/Earth and Beyond:
@@ -272983,17 +273031,7 @@ Fossilized Wonders:
   cloud:
     steam: true
   files:
-    "<winAppData>/ShanghaiAlice/th20/replay":
-      tags:
-        - save
-      when:
-        - os: windows
     "<winAppData>/ShanghaiAlice/th20/scoreth20.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/ShanghaiAlice/th20/scoreth20bak.dat":
       tags:
         - save
       when:
@@ -452128,9 +452166,73 @@ Monster Train 2:
     "<home>/AppData/LocalLow/Shiny Shoe/MonsterTrain2/staging-save/saves/*.json":
       when:
         - store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/development-save/metagameSave.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/development-save/metagameSave.json.backup":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/development-save/preferences.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/development-save/run-history/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/development-save/saves/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/metagameSave.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/metagameSave.json.backup":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/preferences.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/run-history/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/saves/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/staging-save/metagameSave.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/staging-save/metagameSave.json.backup":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/staging-save/preferences.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/staging-save/run-history/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Shiny Shoe/MonsterTrain2/staging-save/saves/*.json":
+      when:
+        - os: mac
+          store: steam
   installDir:
     Monster Train 2: {}
   launch:
+    "<base>/Monster Train 2.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/MonsterTrain2.exe":
       - when:
           - bit: 64
@@ -480682,6 +480784,12 @@ Ninjahtic Mind Tricks:
 Nioh 3:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/KoeiTecmo/NIOH3/Savedata":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: nioh-3
   steam:
@@ -621754,6 +621862,9 @@ Skate Story:
             store: steam
   steam:
     id: 1263240
+Skate or Die:
+  id:
+    lutris: skate-or-die
 SkateBIRD:
   files:
     "<home>/AppData/LocalLow/Glass Bottom Games/SkateBIRD/saved_*.sav":
@@ -694210,6 +694321,21 @@ Team Fortress 2 Classic (2014):
 Team Fortress 2 Classified:
   id:
     lutris: team-fortress-2-classified
+  installDir:
+    Team Fortress 2 Classified: {}
+  launch:
+    "<base>/tf2classified.sh":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/tf2classified_win64.exe":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3545060
 Team Fortress Classic:
@@ -772707,6 +772833,8 @@ True Hentai Puzzle:
   steam:
     id: 780020
 True Love:
+  cloud:
+    steam: true
   files:
     "<base>/*/SAVE.*":
       when:
@@ -772718,6 +772846,8 @@ True Love:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2008084680
   id:
     steamExtra:
       - 1094700

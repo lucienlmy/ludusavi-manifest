@@ -13552,6 +13552,7 @@ Apex Legends:
     origin: true
     steam: true
   lutris: apex-legends
+  malformed: true
   pageId: 126989
   steam: 1172470
   templates:
@@ -21172,9 +21173,9 @@ Banished Castle VR:
 "Banjo-Kazooie (Banjo: Recompiled)":
   pageId: 213119
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\BanjoRecompiled\\general.json|{{P|localappdata}}\\BanjoRecompiled\\graphics.json|{{P|localappdata}}\\BanjoRecompiled\\controls.json|{{P|localappdata}}\\BanjoRecompiled\\sound.json|{{P|localappdata}}\\BanjoRecompiled\\mods.json}}"
-    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/general.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/graphics.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/controls.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/sound.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/mods.json}}"
-    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/general.json|{{P|linuxhome}}/.config/BanjoRecompiled/graphics.json|{{P|linuxhome}}/.config/BanjoRecompiled/controls.json|{{P|linuxhome}}/.config/BanjoRecompiled/sound.json|{{P|linuxhome}}/.config/BanjoRecompiled/mods.json}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BanjoRecompiled\\general.json|{{P|localappdata}}\\BanjoRecompiled\\graphics.json|{{P|localappdata}}\\BanjoRecompiled\\controls.json|{{P|localappdata}}\\BanjoRecompiled\\sound.json|{{P|localappdata}}\\BanjoRecompiled\\mods.json|{{P|localappdata}}\\BanjoRecompiled\\mod_config}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/general.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/graphics.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/controls.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/sound.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/mods.json|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/mod_config}}"
+    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/general.json|{{P|linuxhome}}/.config/BanjoRecompiled/graphics.json|{{P|linuxhome}}/.config/BanjoRecompiled/controls.json|{{P|linuxhome}}/.config/BanjoRecompiled/sound.json|{{P|linuxhome}}/.config/BanjoRecompiled/mods.json|{{P|linuxhome}}/.config/BanjoRecompiled/mod_config}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BanjoRecompiled\\saves}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/saves}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/saves}}"
@@ -71002,6 +71003,11 @@ Earn to Die 2:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\app.icf}}"
     - "{{Game data/saves|Windows|{{p|game}}\\profile.dat}}"
+Earnest Evans Collection:
+  cloud:
+    steam: true
+  pageId: 213345
+  steam: 3640550
 Ears of the Killer:
   pageId: 179132
 Earth & Beyond:
@@ -87814,7 +87820,7 @@ Fossilized Wonders:
   steam: 3671710
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\th20.cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20bak.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\replay\\|{{p|appdata}}\\ShanghaiAlice\\th20\\snapshot\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20.dat | {{p|appdata}}\\ShanghaiAlice\\th20\\snapshot\\}}"
 Foto Flash:
   pageId: 80579
   steam: 778610
@@ -155139,6 +155145,8 @@ Nioh 3:
   lutris: nioh-3
   pageId: 205142
   steam: 3681010
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\KoeiTecmo\\NIOH3\\Savedata\\}}"
 "Nioh: Complete Edition":
   cloud:
     epic: true
@@ -200685,6 +200693,9 @@ Skate Story:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\by Sam Eng\\SKATE STORY\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\by Sam Eng\\SKATE STORY\\}}"
+Skate or Die:
+  lutris: skate-or-die
+  pageId: 213340
 SkateBIRD:
   cloud:
     xbox: true
@@ -227992,6 +228003,8 @@ The Crazy Cookies!:
 The Creature:
   pageId: 141744
   steam: 1119110
+The Creed:
+  pageId: 213343
 The Crew:
   cloud:
     uplay: true
@@ -249931,6 +249944,9 @@ True Hentai Puzzle:
   pageId: 96049
   steam: 780020
 True Love:
+  cloud:
+    steam: true
+  gog: 2008084680
   pageId: 156127
   renamedFrom:
     - "True Love '95"
