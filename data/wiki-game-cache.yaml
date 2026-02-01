@@ -110384,6 +110384,12 @@ Hunter of Antiques:
 "Hunter's Trial: The fight never ends":
   pageId: 123766
   steam: 945850
+"Hunter: The Reckoning - A Time of Monsters":
+  cloud:
+    steam: true
+  lutris: hunter-the-reckoning-a-time-of-monsters
+  pageId: 213381
+  steam: 3970660
 "Hunter: The Reckoning - The Beast of Glenkildove":
   cloud:
     steam: true
@@ -134682,6 +134688,8 @@ MYTH:
   pageId: 51473
   steam: 366380
 MaSzyna:
+  cloud:
+    steam: true
   pageId: 141683
   steam: 1033030
   templates:
@@ -157563,8 +157571,11 @@ Observer:
     gog: true
     steam: true
   gog: 1449856523
+  lutris: observer
   pageId: 63218
   steam: 514900
+  steamSide:
+    - 939320
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TheObserver\\Saved\\Config\\WindowsNoEditor\\|{{p|localappdata}}\\TheObserver\\Saved\\SaveGames\\PlayerPreferences.sav}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/Epic/TheObserver/Saved/Config/LinuxNoEditor/}}"
@@ -209487,11 +209498,12 @@ Spring of Decadence:
   pageId: 99474
   steam: 884050
 "Sprint Cars: Road to Knoxville":
+  lutris: sprint-cars-road-to-knoxville
   pageId: 41351
   steam: 12590
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\save_data\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\save_data\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\save_data}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save_data}}"
 Sprint Vector:
   pageId: 63504
   steam: 590690
@@ -245230,6 +245242,9 @@ Total Tank Simulator:
     - "{{Game data/saves|Steam|{{p|appdata}}\\The Creative Assembly\\Warhammer\\Save_Games\\}}"
     - "{{Game data/saves|Epic Games Store|{{p|appdata}}\\The Creative Assembly\\Warhammer\\EOS\\Save Games\\}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/feral-interactive/Total War Warhammer/VFS/User/AppData/Roaming/The Creative Assembly/Warhammer/save_games/}}"
+"Total War: Warhammer 40,000":
+  pageId: 213385
+  steam: 4199910
 "Total War: Warhammer II":
   cloud:
     steam: true
@@ -263341,6 +263356,7 @@ Werewolf Voice - Party Game:
 "Werewolf: The Apocalypse - The Book of Hungry Names":
   cloud:
     steam: true
+  lutris: werewolf-the-apocalypse-the-book-of-hungry-names
   pageId: 213371
   steam: 2402280
 Werewolves Within:

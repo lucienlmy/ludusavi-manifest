@@ -640327,6 +640327,19 @@
       executable: EM/Binaries/Win64/EM-Win64-Shipping.exe
       type: default
 3954580: {}
+3970660:
+  installDir: Hunter The Reckoning — A Time of Monsters
+  launch:
+    - config:
+        oslist: windows
+      executable: TimeOfMonsters.exe
+    - config:
+        oslist: macos
+      executable: Hunter The Reckoning  A Time of Monsters.app/Contents/MacOS/Hunter The Reckoning  A Time of Monsters
+    - arguments: "--no-sandbox"
+      config:
+        oslist: linux
+      executable: TimeOfMonsters
 3970690: {}
 3978420:
   installDir: Doom 3
@@ -640664,6 +640677,12 @@
       executable: "Steam\\jsp2.app"
       type: default
 4198090: {}
+4199910:
+  nameLocalized:
+    japanese: "トータルウォー：ウォーハンマー40,000"
+    koreana: "토탈워: 워해머 40,000"
+    schinese: 全面战争：战锤40000
+    tchinese: 全軍破敵：戰鎚40000
 4202710: {}
 4210700:
   installDir: Chicky Blocks

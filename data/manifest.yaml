@@ -342979,6 +342979,29 @@ Hunter of Antiques:
           - store: steam
   steam:
     id: 945850
+"Hunter: The Reckoning - A Time of Monsters":
+  cloud:
+    steam: true
+  id:
+    lutris: hunter-the-reckoning-a-time-of-monsters
+  installDir:
+    Hunter The Reckoning — A Time of Monsters: {}
+  launch:
+    "<base>/Hunter The Reckoning  A Time of Monsters.app/Contents/MacOS/Hunter The Reckoning  A Time of Monsters":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TimeOfMonsters":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/TimeOfMonsters.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3970660
 "Hunter: The Reckoning - The Beast of Glenkildove":
   cloud:
     steam: true
@@ -418494,6 +418517,8 @@ MYTH:
   steam:
     id: 366380
 MaSzyna:
+  cloud:
+    steam: true
   files:
     "<base>/eu7.ini":
       tags:
@@ -488219,6 +488244,10 @@ Observer:
         - os: windows
   gog:
     id: 1449856523
+  id:
+    lutris: observer
+    steamExtra:
+      - 939320
   installDir:
     Observer: {}
   launch:
@@ -649650,6 +649679,8 @@ Spring of Decadence:
         - save
       when:
         - os: windows
+  id:
+    lutris: sprint-cars-road-to-knoxville
   installDir:
     Sprint Cars 2007: {}
   launch:
@@ -760525,6 +760556,9 @@ Total Tank Simulator:
             store: steam
   steam:
     id: 364360
+"Total War: Warhammer 40,000":
+  steam:
+    id: 4199910
 "Total War: Warhammer II":
   cloud:
     steam: true
@@ -812916,6 +812950,8 @@ Werewolf Voice - Party Game:
 "Werewolf: The Apocalypse - The Book of Hungry Names":
   cloud:
     steam: true
+  id:
+    lutris: werewolf-the-apocalypse-the-book-of-hungry-names
   installDir:
     Werewolf The Apocalypse — The Book of Hungry Names: {}
   launch:
