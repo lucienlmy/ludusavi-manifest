@@ -585009,6 +585009,17 @@
   launch:
     - executable: Iron Lung.exe
       type: default
+1846340:
+  installDir: EEP17
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: EEP17.exe
+      type: default
+  nameLocalized:
+    english: EEP 17 Rail- / Railway Construction and Train Simulation Game
+    french: EEP 17 Jeu de construction et de simulation ferroviaire
 1846380:
   installDir: Excalibur
   launch:
@@ -621475,6 +621486,13 @@
     - config:
         oslist: linux
       executable: Unyielding2.exe
+2615290:
+  installDir: Mostroscopy
+  launch:
+    - config:
+        oslist: windows
+      executable: Mostroscopy.exe
+      type: default
 2615540:
   cloud:
     saves:

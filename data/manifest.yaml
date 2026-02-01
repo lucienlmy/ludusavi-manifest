@@ -220348,6 +220348,16 @@ EEP 13:
             store: steam
   steam:
     id: 541270
+EEP 14:
+  installDir:
+    EEP14: {}
+  launch:
+    "<base>/EEP14.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 722190
 EEP 15:
   installDir:
     EEP15: {}
@@ -220368,6 +220378,17 @@ EEP 16 Expert:
             store: steam
   steam:
     id: 1151670
+EEP 17:
+  installDir:
+    EEP17: {}
+  launch:
+    "<base>/EEP17.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1846340
 EEP TSM Gotthardbahn Nordrampe Modul Erstfeld:
   installDir:
     EEP TSM Gotthard: {}
@@ -265461,6 +265482,8 @@ Flint:
   steam:
     id: 1146090
 "Flint: The Treasure of Oblivion":
+  alias: "Flint: Treasure of Oblivion"
+"Flint: Treasure of Oblivion":
   cloud:
     gog: true
     steam: true
@@ -456100,6 +456123,16 @@ Mostly Scared of Spiders:
             store: steam
   steam:
     id: 1032070
+Mostroscopy:
+  installDir:
+    Mostroscopy: {}
+  launch:
+    "<base>/Mostroscopy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2615290
 Motel Bondage:
   installDir:
     Motel Bondage: {}
@@ -460844,6 +460877,8 @@ Mutant Ops:
         - os: windows
   gog:
     id: 1226193907
+  id:
+    lutris: mutant-year-zero-road-to-eden
   installDir:
     Mutant Year Zero: {}
   launch:
