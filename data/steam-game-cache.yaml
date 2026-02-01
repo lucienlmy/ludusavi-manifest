@@ -613702,7 +613702,20 @@
         osarch: "64"
         oslist: windows
       executable: hollow-win64vc14-release.exe
-2397300: {}
+2397300:
+  cloud:
+    saves:
+      - path: HalfSwordUE5/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Half Sword
+  launch:
+    - config:
+        oslist: windows
+      executable: HalfSwordUE5.exe
+      type: default
 2397500:
   cloud:
     saves:

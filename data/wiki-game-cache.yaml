@@ -71221,7 +71221,7 @@ Earthen Miraculous Sword:
   lutris: lenen-tasouken-earthen-miraculous-sword
   pageId: 213355
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\config.dat}}"
+    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\replay_dat\\|{{p|game}}\\save_dat\\}}"
 Earthfall:
   pageId: 59401
@@ -76824,7 +76824,7 @@ Evanescent Existence:
   lutris: lenen-mugenri-evanescent-existence
   pageId: 212833
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\config.dat}}"
+    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\replay_dat\\|{{p|game}}\\save_dat\\}}"
 Evasion:
   pageId: 75159
@@ -100690,12 +100690,14 @@ Half Past Impossible:
   pageId: 77269
   steam: 758700
 Half Sword:
-  lutris: half_sword
+  cloud:
+    steam: true
+  lutris: half-sword
   pageId: 190699
   steam: 2397300
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\HalfSwordUE5\\Saved\\Config\\Windows|{{P|game}}\\HalfSwordUE5\\Saved\\Config\\Windows}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\HalfSwordUE5\\Saved\\SaveGames\\Settings.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\HalfSwordUE5\\Saved\\SaveGames}}"
 Half-Demon Shinobi:
   cloud:
     steam: true
@@ -129132,10 +129134,13 @@ Life Is Strange Remastered:
 "Life Is Strange: Before the Storm Remastered":
   cloud:
     steam: true
+  lutris: life-is-strange-before-the-storm-remastered
   pageId: 167270
   renamedFrom:
     - "Life is Strange: Before the Storm Remastered"
   steam: 1265930
+  steamSide:
+    - 1537870
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Square Enix\\Life is Strange_ Before the Storm\\RemasteredSaves\\{{P|uid}}\\Preferences\\PrefData.Save}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Square Enix\\Life is Strange_ Before the Storm\\RemasteredSaves\\{{P|uid}}\\SLOT_{{code|##}}\\*.Save}}"
@@ -129156,6 +129161,7 @@ Life Is Strange Remastered:
   cloud:
     steam: true
     xbox: true
+  lutris: life-is-strange-reunion
   pageId: 213008
   steam: 2624870
   steamSide:
@@ -180036,6 +180042,12 @@ Reaching for Petals:
 "Reaching for Petals: VR Edition":
   pageId: 72915
   steam: 720290
+Reactivate Majestical Imperial:
+  lutris: lenen-reiretsuden-reactivate-majestical-imperial
+  pageId: 213395
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\replay_dat\\|{{p|game}}\\save_dat\\}}"
 Reactivated:
   pageId: 134784
   steam: 1053600

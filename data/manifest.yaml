@@ -222187,12 +222187,8 @@ Earthen Miraculous Sword:
         - os: windows
     "<base>/save_dat":
       tags:
-        - save
-      when:
-        - os: windows
-    "<base>/save_dat/config.dat":
-      tags:
         - config
+        - save
       when:
         - os: windows
   id:
@@ -239841,12 +239837,8 @@ Evanescent Existence:
         - os: windows
     "<base>/save_dat":
       tags:
-        - save
-      when:
-        - os: windows
-    "<base>/save_dat/config.dat":
-      tags:
         - config
+        - save
       when:
         - os: windows
   id:
@@ -313245,6 +313237,8 @@ Half Past Impossible:
   steam:
     id: 758700
 Half Sword:
+  cloud:
+    steam: true
   files:
     "<base>/HalfSwordUE5/Saved/Config/Windows":
       tags:
@@ -313256,13 +313250,20 @@ Half Sword:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/HalfSwordUE5/Saved/SaveGames/Settings.sav":
+    "<winLocalAppData>/HalfSwordUE5/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
   id:
-    lutris: half_sword
+    lutris: half-sword
+  installDir:
+    Half Sword: {}
+  launch:
+    "<base>/HalfSwordUE5.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2397300
 Half-Demon Shinobi:
@@ -401023,6 +401024,10 @@ Life Is Strange Remastered:
         - save
       when:
         - os: windows
+  id:
+    lutris: life-is-strange-before-the-storm-remastered
+    steamExtra:
+      - 1537870
   installDir:
     LIS - Before the Storm Remastered: {}
   launch:
@@ -401066,6 +401071,7 @@ Life Is Strange Remastered:
   cloud:
     steam: true
   id:
+    lutris: life-is-strange-reunion
     steamExtra:
       - 3977730
       - 3977740
@@ -558111,6 +558117,21 @@ Reaching for Petals:
     Reaching for Petals VR Edition: {}
   steam:
     id: 720290
+Reactivate Majestical Imperial:
+  files:
+    "<base>/replay_dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: lenen-reiretsuden-reactivate-majestical-imperial
 Reactivated:
   installDir:
     Reactivated: {}
