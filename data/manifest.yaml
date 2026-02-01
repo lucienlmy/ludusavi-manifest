@@ -6054,6 +6054,10 @@ $1 Ride:
   steam:
     id: 1096240
 7 Mages:
+  id:
+    lutris: 7-mages
+    steamExtra:
+      - 497540
   installDir:
     7 Mages: {}
   launch:

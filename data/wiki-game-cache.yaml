@@ -1881,8 +1881,11 @@ $1 Ride:
   pageId: 139005
   steam: 1096240
 7 Mages:
+  lutris: 7-mages
   pageId: 35212
   steam: 446590
+  steamSide:
+    - 497540
 7 Pillars:
   pageId: 63964
   steam: 654640
