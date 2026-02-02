@@ -201122,6 +201122,17 @@ Don Bradman Cricket 17:
             store: steam
   steam:
     id: 868760
+"Don't Stop, Girlypop!":
+  installDir:
+    Incolatus: {}
+  launch:
+    "<base>/INCOLATUS.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2610650
 "Don't Tax Me, Bro!":
   installDir:
     "Don't Tax Me, Bro!": {}

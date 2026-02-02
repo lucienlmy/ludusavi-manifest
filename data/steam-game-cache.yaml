@@ -621357,6 +621357,17 @@
       type: default
   nameLocalized:
     schinese: 静脉注射2
+2610650:
+  installDir: Incolatus
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: INCOLATUS.exe
+      type: default
+  nameLocalized:
+    schinese: 暴走甜心！
+    tchinese: 暴走甜心！
 2611170: {}
 2612660:
   installDir: kama3_3ec67dc4e
