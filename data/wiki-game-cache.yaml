@@ -45052,6 +45052,8 @@ Comanche 4:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\c4.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\c4plyr.sav}}"
+"Comanche: Maximum Overkill":
+  pageId: 213419
 Combat:
   pageId: 7781
 Combat Air Patrol 2:
@@ -173381,6 +173383,8 @@ Pro Evolution Soccer 3:
   pageId: 154929
 Pro Evolution Soccer 4:
   pageId: 154933
+  templates:
+    - "{{Game data/saves|Windows|{{p|programfiles}}\\KONAMI\\Pro Evolution Soccer 4\\save\\}}"
 Pro Evolution Soccer 5:
   pageId: 154935
 Pro Evolution Soccer 6:
@@ -273108,6 +273112,8 @@ Zzzzz:
 "Путин против Инопланетян: На Закате Справедливости (Linehot Putin: All Stars)":
   pageId: 135695
   steam: 1014960
+"Роман Трахтенберг: В поисках идеального анекдота":
+  pageId: 213417
 Россия 2019:
   pageId: 130380
   steam: 1045010

@@ -6295,13 +6295,15 @@ $1 Ride:
   installDir:
     "7.62": {}
   launch:
-    "<base>/E6.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
             store: steam
-    "<base>/E6Config.exe":
+    "<base>/launcher-x64.exe":
       - when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289890
@@ -536797,6 +536799,13 @@ Pro Evolution Soccer 2019 Lite:
           - store: steam
   steam:
     id: 950100
+Pro Evolution Soccer 4:
+  files:
+    "C:/Program Files/KONAMI/Pro Evolution Soccer 4/save":
+      tags:
+        - save
+      when:
+        - os: windows
 Pro Evolution Soccer 6:
   files:
     "<winDocuments>/KONAMI/Pro Evolution Soccer 6":

@@ -52331,13 +52331,21 @@
   installDir: "7.62"
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: E6.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      description: Configure
+      executable: launcher-ia32.exe
+      type: default
     - config:
         oslist: windows
       description: Configure
       executable: E6Config.exe
+      type: option1
 289910:
   installDir: Ropeway Simulator 2014
   launch:
