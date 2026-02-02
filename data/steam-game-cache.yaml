@@ -637687,6 +637687,13 @@
       description: Team Fortress 2 Classified (Compatibility Fix)
       executable: tf2classified.sh
       type: option2
+    - arguments: "-steam -dxlevel 95"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Team Fortress 2 Classified (-dxlevel 95 fix)
+      executable: tf2classified_win64.exe
+      type: option3
 3546740:
   installDir: Champions Tactics Reforged
   launch:
