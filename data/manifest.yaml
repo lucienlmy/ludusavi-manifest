@@ -256346,6 +256346,28 @@ Fear the Spotlight:
             store: steam
   steam:
     id: 1959390
+Fear the Timeloop:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/FearTheTimeloop/Saved/SaveGames":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: fear-the-timeloop
+    steamExtra:
+      - 3167460
+  installDir:
+    Fear The Timeloop: {}
+  launch:
+    "<base>/FearTheTimeloop.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2918090
 Fear the Wolves:
   files:
     "<winLocalAppData>/FearTheWolves/Saved/Config/WindowsNoEditor":
@@ -471993,6 +472015,11 @@ Need for Speed Unbound:
         - config
 "Need for Speed: Underground 2":
   files:
+    "&lt;Wine prefix&gt;/drive_c/users/&lt;user&gt;/AppData/Local/NFS Underground 2":
+      tags:
+        - save
+      when:
+        - os: linux
     "<winLocalAppData>/NFS Underground 2":
       tags:
         - save
@@ -512577,18 +512604,6 @@ Pavel Quest:
 Pavilion:
   cloud:
     steam: true
-  files:
-    "<home>/.config/unity3d/Visiontrick Media/Pavilion/Visiontrick Media/Pavilion/userData.sav":
-      when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Visiontrick Media/Pavilion/userData.sav":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Visiontrick Media/Pavilion/Visiontrick Media/Pavilion/userData.sav":
-      when:
-        - os: mac
-          store: steam
   installDir:
     Pavilion: {}
   launch:
@@ -512604,6 +512619,10 @@ Pavilion:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Visiontrick Media/Pavilion:
+      tags:
+        - save
   steam:
     id: 417150
 Pavlov:
@@ -672519,7 +672538,7 @@ Sunrider Academy:
   cloud:
     gog: true
   files:
-    "<winAppData>/renpy/SHINRAI - Broken Beyond Despair-1413934444/*.save":
+    "<winAppData>/renpy/SunriderAcademy-1416887014/*.save":
       tags:
         - save
       when:

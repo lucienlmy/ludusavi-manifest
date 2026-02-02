@@ -82563,6 +82563,14 @@ Fear the Spotlight:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\CozyGamePals\\Fear The Spotlight\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\CozyGamePals\\Fear The Spotlight\\game_*.dat}}"
+Fear the Timeloop:
+  cloud:
+    steam: true
+  lutris: fear-the-timeloop
+  pageId: 213405
+  steam: 2918090
+  steamSide:
+    - 3167460
 Fear the Wolves:
   pageId: 99796
   steam: 819500
@@ -138864,6 +138872,8 @@ Maximum Archery The Game:
 Maximum Football:
   pageId: 206288
   steam: 1691280
+Maximum Force:
+  pageId: 213407
 Maximum Momentum:
   pageId: 153248
   steam: 1186680
@@ -152256,6 +152266,7 @@ Need for Speed Unbound:
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\EA Games\\Need for Speed Underground 2\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\NFS Underground 2\\}}"
+    - "{{Game data/saves|Linux|&lt;Wine prefix&gt;/drive_c/users/&lt;user&gt;/AppData/Local/NFS Underground 2/}}"
 "Need for Speed: World":
   pageId: 6921
   templates:
@@ -165562,6 +165573,8 @@ Pavilion:
     steam: true
   pageId: 39069
   steam: 417150
+  templates:
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Visiontrick Media\\Pavilion}}"
 Pavlov VR:
   cloud:
     steam: true
@@ -216831,7 +216844,7 @@ Sunrider Academy:
   steam: 340730
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\renpy\\SunriderAcademy-1416887014\\persistent}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\renpy\\SHINRAI - Broken Beyond Despair-1413934444\\*.save}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\renpy\\SunriderAcademy-1416887014\\*.save}}"
 "Sunrider: Liberation Day":
   cloud:
     gog: true

@@ -628924,6 +628924,21 @@
   nameLocalized:
     schinese: 拉杆英雄
     tchinese: 拉桿英雄
+2918090:
+  cloud:
+    saves:
+      - path: "FearTheTimeloop\\Saved\\SaveGames"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Fear The Timeloop
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: FearTheTimeloop.exe
+      type: default
 2918150:
   installDir: ONE PIECE Bounty Rush
   launch:
