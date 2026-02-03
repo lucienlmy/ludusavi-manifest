@@ -567084,6 +567084,8 @@ Resident Evil HD Remaster:
   steam:
     id: 1236300
 Resident Evil Requiem:
+  id:
+    lutris: resident-evil-requiem
   steam:
     id: 3764200
 Resident Evil Resistance:
@@ -582166,6 +582168,8 @@ Romeo Is A Dead Man:
 Romeo Is a Dead Man:
   cloud:
     steam: true
+  id:
+    lutris: romeo-is-a-dead-man
   steam:
     id: 3050900
 "Romero's Aftermath":

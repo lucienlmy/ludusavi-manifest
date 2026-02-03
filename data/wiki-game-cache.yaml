@@ -183032,6 +183032,7 @@ Resident Evil HD Remaster:
   pageId: 166166
   steam: 1236300
 Resident Evil Requiem:
+  lutris: resident-evil-requiem
   pageId: 205193
   steam: 3764200
 Resident Evil Resistance:
@@ -187988,6 +187989,8 @@ Romeo Is A Dead Man:
 Romeo Is a Dead Man:
   cloud:
     steam: true
+    xbox: true
+  lutris: romeo-is-a-dead-man
   pageId: 207128
   renamedFrom:
     - ROMEO IS A DEAD MAN
@@ -210357,6 +210360,7 @@ Star Fox 64 (Starship):
   pageId: 200383
   templates:
     - "{{Game data/config|Windows|In-game settings:<br>{{p|game}}\\default.sav<br>Decomp settings:<br>{{p|game}}\\starship.cfg.json}}"
+    - "{{Game data/saves|Windows|<br>{{p|game}}\\default.sav<br>}}"
 Star Garden:
   pageId: 209195
   steam: 3370970
