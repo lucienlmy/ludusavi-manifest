@@ -3303,6 +3303,7 @@ A Quiet Mind:
 "A Quiet Place: The Road Ahead":
   cloud:
     steam: true
+  lutris: a-quiet-place-the-road-ahead
   pageId: 195802
   steam: 2233120
   templates:
@@ -78605,6 +78606,7 @@ F-22 Lightning 3:
     - "{{Game data/saves|Windows|{{p|game}}\\LSLOT*.sav}}"
 "F-22: Air Dominance Fighter":
   pageId: 101495
+  steam: 3146140
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\PROGRAM\\game.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\PROGRAM\\players\\0\\}}"
@@ -215529,6 +215531,7 @@ Stronghold Crusader 2:
   steamSide:
     - 3030340
     - 3030350
+    - 4227730
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\Saves\\|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\Maps\\|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\UserWorkshopMaps\\|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\skirmishmasters.cfg}}"
@@ -250416,6 +250419,7 @@ Tungulus:
     - 1887959727
     - 1890893567
     - 1959865792
+  lutris: tunguska-the-visitation
   pageId: 170271
   steam: 1601970
   steamSide:

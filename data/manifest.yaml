@@ -10693,6 +10693,8 @@ A Quiet Mind:
         - save
       when:
         - os: windows
+  id:
+    lutris: a-quiet-place-the-road-ahead
   installDir:
     AQP: {}
   steam:
@@ -245257,6 +245259,8 @@ F-22 Lightning 3:
         - save
       when:
         - os: windows
+  steam:
+    id: 3146140
 "F.D.N.Y. Firefighter: American Hero":
   files:
     "<base>/FDNYFireFighter.cfg":
@@ -668191,6 +668195,7 @@ Stronghold Crusader 2:
     steamExtra:
       - 3030340
       - 3030350
+      - 4227730
   installDir:
     Stronghold Crusader Definitive Edition: {}
   launch:
@@ -774266,6 +774271,7 @@ Tungulus:
       - 1887959727
       - 1890893567
       - 1959865792
+    lutris: tunguska-the-visitation
     steamExtra:
       - 1836780
       - 2181860

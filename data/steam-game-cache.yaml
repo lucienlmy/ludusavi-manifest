@@ -567778,10 +567778,10 @@
       executable: Tunguska.exe
       type: default
   nameLocalized:
-    russian: "Тунгуска: Посещение - Расширенное издание"
-    schinese: 通古斯：禁区实录 - 增强版
-    tchinese: 通古斯：禁區實錄 - 增強版
-    ukrainian: "Тунгуска: Відвідування - Розширене видання"
+    russian: "Тунгуска: Посещение - Финальная версия"
+    schinese: 通古斯：禁区实录 - 终极剪辑版
+    tchinese: 通古斯：禁區實錄 - 終極剪輯版
+    ukrainian: "Тунгуска: Відвідування - Фінальна версія"
 1602000:
   installDir: Hotel Architect
   launch:
@@ -630947,53 +630947,44 @@
     saves:
       - path: Firefly Studios/Stronghold Crusader Definitive Edition/Saves
         pattern: "*.sav"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition/Maps
         pattern: "*.map"
-        platforms:
-          - Windows
+        root: WinAppDataLocalLow
+      - path: Firefly Studios/Stronghold Crusader Definitive Edition/CustomTrails
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Firefly Studios/Stronghold Crusader Definitive Edition/TrailMaker
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Firefly Studios/Stronghold Crusader Definitive Edition
+        pattern: custom_trails.cfg
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition
         pattern: skirmishmasters.cfg
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition
         pattern: settings.cfg
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition/Maps
         pattern: "*.tmp"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition/UserWorkshopMaps
         pattern: "*.map"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition/UserWorkshopMaps
         pattern: "*.data"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition/Saves
         pattern: "*.msv"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition
         pattern: coop.cfg
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition
         pattern: missons.cfg
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
   installDir: Stronghold Crusader Definitive Edition
   launch:
@@ -632984,6 +632975,7 @@
   nameLocalized:
     schinese: 寂静之国的波斯菊
     tchinese: 寂靜之國的波斯菊
+3146140: {}
 3146520:
   installDir: WEBFISHING
   launch:
