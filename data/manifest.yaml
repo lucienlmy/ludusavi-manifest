@@ -66077,6 +66077,9 @@ Bandit Simulator:
             store: steam
   steam:
     id: 1133040
+Bandit Trap:
+  steam:
+    id: 2982360
 Bandit the game:
   files:
     "<winLocalAppData>/Bandit/Saved/SaveGames/**/*.sav":
@@ -119411,19 +119414,11 @@ Cathedral 3-D:
   steam:
     id: 1091590
 Catherine Classic:
-  cloud:
-    steam: true
   files:
-    "<winAppData>/TheEccentricApe/Catherine":
-      tags:
-        - save
+    "<winAppData>/TheEccentricApe/Catherine/SaveGame.bin":
       when:
         - os: windows
-    "<winAppData>/TheEccentricApe/Catherine/AppSettings.ini":
-      tags:
-        - config
-      when:
-        - os: windows
+          store: steam
   installDir:
     CatherineClassic: {}
   launch:
@@ -430762,6 +430757,14 @@ Material Girl:
             store: steam
   steam:
     id: 644570
+"Math Blaster: Episode 1 - In Search of Spot":
+  files:
+    "<base>/MBWINCD/MB4.INI":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 Math Classroom Challenge:
   installDir:
     Math Classroom Challenge: {}
@@ -630748,6 +630751,11 @@ Snow Battle Princess Sayuki:
             store: steam
   steam:
     id: 1028760
+Snow Bros. Classic Collection:
+  cloud:
+    steam: true
+  steam:
+    id: 3233400
 Snow Clearing Driving Simulator:
   installDir:
     Snow Clearing Driving Simulator: {}

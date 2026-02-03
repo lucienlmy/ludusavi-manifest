@@ -630001,6 +630001,10 @@
   nameLocalized:
     schinese: 色彩枪2：平行宇宙
     tchinese: 色彩槍2：平行宇宙
+2982360:
+  nameLocalized:
+    schinese: 陷阱派对
+    tchinese: 陷阱派對
 2983140:
   cloud:
     saves:
@@ -634147,6 +634151,7 @@
   installDir: "Amarillo's Butt Slapper"
   launch:
     - executable: "Amarillo's Butt Slapper.exe"
+3233400: {}
 3234310:
   installDir: UNCHAINED
   launch:

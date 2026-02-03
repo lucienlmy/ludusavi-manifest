@@ -21072,6 +21072,9 @@ Bandit Point:
 Bandit Simulator:
   pageId: 145536
   steam: 1133040
+Bandit Trap:
+  pageId: 213433
+  steam: 2982360
 Bandit the game:
   pageId: 144439
   steam: 1133780
@@ -38336,13 +38339,9 @@ Cathedral 3-D:
   pageId: 151240
   steam: 1091590
 Catherine Classic:
-  cloud:
-    steam: true
+  malformed: true
   pageId: 124963
   steam: 893180
-  templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\TheEccentricApe\\Catherine\\AppSettings.ini}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TheEccentricApe\\Catherine\\}}"
 Catie in MeowmeowLand:
   cloud:
     gog: true
@@ -49458,6 +49457,7 @@ Crimson Defense:
 Crimson Desert:
   cloud:
     steam: true
+    xbox: true
   lutris: crimson-desert
   pageId: 200185
   steam: 3321460
@@ -138678,6 +138678,9 @@ Material Girl:
   pageId: 190558
 "Math Blaster: Episode 1 - In Search of Spot":
   pageId: 190567
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\MBWINCD\\MB4.INI}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\MBWINCD\\MB4.INI}}"
 "Math Blaster: Episode 2 - Secret of the Lost City":
   pageId: 190570
 Math Classroom Challenge:
@@ -203417,6 +203420,11 @@ Snow Battle Princess Sayuki:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\DefaultCompany\\Snow_Battle_Princess_SAYUKI\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\DefaultCompany\\Snow_Battle_Princess_SAYUKI\\}}"
+Snow Bros. Classic Collection:
+  cloud:
+    steam: true
+  pageId: 213430
+  steam: 3233400
 Snow Clearing Driving Simulator:
   pageId: 149559
   steam: 1155920
