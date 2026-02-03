@@ -236063,6 +236063,13 @@ Escape From Cozy Island:
             store: steam
   steam:
     id: 841840
+"Escape From Crimson Manor: Trapped Together":
+  id:
+    lutris: escape-from-crimson-manor-trapped-together
+    steamExtra:
+      - 4214870
+  steam:
+    id: 2345430
 Escape From Darkmoor Manor:
   installDir:
     Escape From Darkmoor Manor: {}
@@ -720417,6 +720424,11 @@ The Iron Oath:
             store: steam
   steam:
     id: 699330
+The Irony:
+  id:
+    lutris: the-irony
+  steam:
+    id: 3164230
 The Island Combat:
   installDir:
     The Island Combat: {}

@@ -75557,6 +75557,12 @@ Escape First 2:
 Escape From Cozy Island:
   pageId: 92261
   steam: 841840
+"Escape From Crimson Manor: Trapped Together":
+  lutris: escape-from-crimson-manor-trapped-together
+  pageId: 213421
+  steam: 2345430
+  steamSide:
+    - 4214870
 Escape From Darkmoor Manor:
   pageId: 49173
   steam: 335740
@@ -232041,6 +232047,10 @@ The Iron Oath:
   steam: 699330
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\LocalLow\\Curious Panda Games\\The Iron Oath\\saves}}"
+The Irony:
+  lutris: the-irony
+  pageId: 213428
+  steam: 3164230
 The Island Combat:
   pageId: 98856
   steam: 886310

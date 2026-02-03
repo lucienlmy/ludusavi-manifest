@@ -611693,6 +611693,7 @@
     tchinese: 《暗黑破壞神® IV》
     thai: Diablo® IV
     turkish: Diablo® IV
+2345430: {}
 2346550:
   installDir: Rise of Eros
   launch:
@@ -633158,6 +633159,19 @@
     tchinese: 刺客教條：暗影者
 3160140: {}
 3161220: {}
+3164230:
+  nameLocalized:
+    dutch: THE IRONY
+    french: THE IRONY
+    german: THE IRONY
+    italian: THE IRONY
+    japanese: THE IRONY
+    koreana: 아이러니
+    portuguese: THE IRONY
+    russian: THE IRONY
+    schinese: THE IRONY
+    spanish: THE IRONY
+    tchinese: THE IRONY
 3164330:
   installDir: Infinity Nikki
   launch:
