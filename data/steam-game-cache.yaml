@@ -626812,6 +626812,7 @@
   installDir: MontezumaDC
   launch:
     - executable: "Win32\\bin\\MonteDC.exe"
+2804430: {}
 2804680:
   cloud:
     saves:
@@ -628964,6 +628965,8 @@
         oslist: windows
       executable: FearTheTimeloop.exe
       type: default
+  nameLocalized:
+    schinese: 恐惧轮回 - Fear The Timeloop
 2918150:
   installDir: ONE PIECE Bounty Rush
   launch:
@@ -640781,6 +640784,7 @@
     - config:
         oslist: macos
       executable: Chicky Blocks.app
+4216180: {}
 4223290:
   nameLocalized:
     japanese: "ロックマン: デュアル オーバーライド"

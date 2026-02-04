@@ -61714,6 +61714,9 @@ BOTS:
             store: steam
   steam:
     id: 1184780
+BOTS 4 DEFENSE:
+  steam:
+    id: 2804430
 BOW MAN:
   installDir:
     BOW MAN: {}
@@ -206002,6 +206005,8 @@ Dragon Is Dead:
         - save
       when:
         - os: windows
+  id:
+    lutris: dragon-is-dead
   installDir:
     Dragon Is Dead: {}
   launch:
@@ -271213,6 +271218,10 @@ Forgiveness:
 Forgotlings:
   cloud:
     steam: true
+  id:
+    lutris: forgotlings
+    steamExtra:
+      - 2475580
   steam:
     id: 2059570
 Forgotten:
@@ -347641,6 +347650,16 @@ IFactor:
     lutris: igi-origins
   steam:
     id: 1186430
+IGNOBLE:
+  files:
+    Unknown:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4216180
 IGOR MAKS The Meme Lord:
   files:
     "<base>/user/**/*.igorek":

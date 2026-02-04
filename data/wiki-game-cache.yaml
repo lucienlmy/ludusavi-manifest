@@ -19644,6 +19644,9 @@ BOTOLO:
 BOTS:
   pageId: 152667
   steam: 1184780
+BOTS 4 DEFENSE:
+  pageId: 213452
+  steam: 2804430
 BOW MAN:
   pageId: 149121
   steam: 1159480
@@ -65999,6 +66002,7 @@ Dragon Iris:
 Dragon Is Dead:
   cloud:
     steam: true
+  lutris: dragon-is-dead
   pageId: 195523
   renamedFrom:
     - Dragon is Dead
@@ -87243,8 +87247,11 @@ Forgiveness:
 Forgotlings:
   cloud:
     steam: true
+  lutris: forgotlings
   pageId: 187758
   steam: 2059570
+  steamSide:
+    - 2475580
 Forgotten:
   pageId: 141150
   steam: 1097270
@@ -111848,6 +111855,12 @@ IFactor:
   lutris: igi-origins
   pageId: 151930
   steam: 1186430
+IGNOBLE:
+  pageId: 213449
+  steam: 4216180
+  templates:
+    - "{{Game data/config|Windows|Unknown}}"
+    - "{{Game data/saves|Windows|Unknown}}"
 IGOR MAKS The Meme Lord:
   pageId: 154221
   steam: 1128280
