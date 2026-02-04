@@ -230324,6 +230324,9 @@
         oslist: macos
       executable: Cat Quest.app/Contents/MacOS/Cat Quest
       type: default
+  nameLocalized:
+    japanese: キャットクエスト
+    schinese: 猫咪斗恶龙 Cat Quest
 593290: {}
 593330:
   cloud:
