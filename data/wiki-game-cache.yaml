@@ -3248,7 +3248,7 @@ A Place for the Unwilling:
     - 1096660
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\SETTINGS|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\USERINPUT}}"
-    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\SETTINGS|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\USERINPUT}}"
+    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\SETTINGS|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\USERINPUT|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\ENGINESETTINGS}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\SLOT*}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\SLOT*}}"
 "A Plague Tale: Requiem":
@@ -64466,6 +64466,9 @@ Donkey Kong:
   pageId: 200596
 Donkey Xote:
   pageId: 212325
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\video.cfg|{{p|game}}\\controls.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame.sav}}"
 Dontbegrey:
   pageId: 66462
   steam: 681490
@@ -66112,6 +66115,8 @@ Dragon Quest VII Reimagined:
     steam: true
   pageId: 208300
   steam: 2499860
+  templates:
+    - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST VII\\Steam\\{{p|uid}}\\release\\Saved\\SaveGames}}"
 Dragon Quest X:
   pageId: 59146
   templates:
@@ -184696,6 +184701,7 @@ Riding Star 2:
 Riding Star 3:
   cloud:
     steam: true
+  lutris: riding-star
   pageId: 50512
   renamedFrom:
     - Riding Star

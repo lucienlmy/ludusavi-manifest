@@ -572067,6 +572067,11 @@
         oslist: windows
       executable: Launcher.exe
       type: default
+    - config:
+        oslist: macos
+      description: Launch game (MacOS)
+      executable: Hitman WOA.app
+      type: default
 1659050:
   cloud:
     saves:

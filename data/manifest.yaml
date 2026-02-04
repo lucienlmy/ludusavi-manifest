@@ -10487,6 +10487,12 @@ A Place for the Unwilling:
         - config
       when:
         - store: steam
+    "<winDocuments>/My Games/A Plague Tale Innocence/ENGINESETTINGS":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
     "<winDocuments>/My Games/A Plague Tale Innocence/SETTINGS":
       tags:
         - config
@@ -201279,6 +201285,23 @@ Donjon Defense:
           - store: steam
   steam:
     id: 757230
+Donkey Xote:
+  files:
+    "<base>/SaveGame.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/controls.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/video.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Dontbegrey:
   installDir:
     dontbegrey: {}
@@ -206273,6 +206296,13 @@ Dragon Quest Treasures:
 Dragon Quest VII Reimagined:
   cloud:
     steam: true
+  files:
+    "<winDocuments>/My Games/DRAGON QUEST VII/Steam/<storeUserId>/release/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 2499860
 Dragon Quest X:
@@ -333916,6 +333946,10 @@ Hitman World of Assassination:
   installDir:
     HITMAN 3: {}
   launch:
+    "<base>/Hitman WOA.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Launcher.exe":
       - when:
           - os: windows
@@ -572220,6 +572254,8 @@ Riding Star 3:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: riding-star
   installDir:
     Riding Star 3: {}
   launch:
