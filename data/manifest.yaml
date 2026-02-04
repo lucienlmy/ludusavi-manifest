@@ -236679,6 +236679,12 @@ Escape The Manor:
   steam:
     id: 1225710
 Escape The Museum:
+  files:
+    "C:/ProgramData/EscapeTheMuseum":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Escape The Museum: {}
   launch:
@@ -411926,6 +411932,9 @@ Louie Cooks:
 "Loulan: The Cursed Sand":
   steam:
     id: 3833280
+"Louvre: The Messenger":
+  id:
+    lutris: the-messenger--1
 Love:
   cloud:
     epic: true

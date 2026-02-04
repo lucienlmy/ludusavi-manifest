@@ -46223,6 +46223,8 @@ Congo Bongo:
 Congo Merc:
   pageId: 54975
   steam: 510550
+"Congo: Descent Into Zinj":
+  pageId: 213445
 Congresswolf:
   cloud:
     steam: true
@@ -75751,6 +75753,8 @@ Escape The Manor:
 Escape The Museum:
   pageId: 50352
   steam: 298020
+  templates:
+    - "{{Game data/saves|Windows|C:\\ProgramData\\EscapeTheMuseum}}"
 Escape This:
   pageId: 43187
   steam: 467370
@@ -132660,6 +132664,7 @@ Louie Cooks:
   pageId: 210233
   steam: 3833280
 "Louvre: The Messenger":
+  lutris: the-messenger--1
   pageId: 179829
 Love:
   cloud:
