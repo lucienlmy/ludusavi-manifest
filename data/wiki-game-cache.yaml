@@ -215958,6 +215958,8 @@ Subnautica:
   lutris: subnautica
   pageId: 34653
   steam: 264710
+  steamSide:
+    - 1619300
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SNAppData\\SavedGames\\options\\options.bin}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/unity.Unknown Worlds.Subnautica/Subnautica/SavedGames/options/options.bin}}"
@@ -257309,6 +257311,7 @@ Viewfinder:
   templates:
     - "{{Game data/config|Windows|{{p|HKEY_CURRENT_USER}}\\SOFTWARE\\Sad Owl Studios\\Viewfinder\\<ref>{{Refcheck|user=grandta13|date=2023-09-08|comment=}}</ref>}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Sad Owl Studios\\Viewfinder\\*.sav|{{P|userprofile\\appdata\\locallow}}\\Sad Owl Studios\\Viewfinder\\*.bak<ref>{{Refcheck|user=Taylor.mabby654|date=2024-07-01|comment=backup files}}</ref>}}"
+    - "{{Game data/saves|Epic Games Launcher|{{P|userprofile\\appdata\\locallow}}\\Sad Owl Studios\\Viewfinder\\Epic Games Store\\*.sav|{{P|userprofile\\appdata\\locallow}}\\Sad Owl Studios\\Viewfinder\\Epic Games Store\\*.bak}}"
 Viewpoints:
   pageId: 66191
   steam: 667960

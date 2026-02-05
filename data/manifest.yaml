@@ -669473,6 +669473,8 @@ Subnautica:
         - os: mac
   id:
     lutris: subnautica
+    steamExtra:
+      - 1619300
   installDir:
     Subnautica: {}
   launch:
@@ -794854,6 +794856,16 @@ Viewfinder:
       when:
         - os: windows
     "<home>/AppData/LocalLow/Sad Owl Studios/Viewfinder/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Sad Owl Studios/Viewfinder/Epic Games Store/*.bak":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Sad Owl Studios/Viewfinder/Epic Games Store/*.sav":
       tags:
         - save
       when:
