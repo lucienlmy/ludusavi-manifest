@@ -311024,6 +311024,7 @@ Gylt:
     gogExtra:
       - 1145300524
       - 1460927714
+    lutris: gylt
     steamExtra:
       - 2484210
   installDir:
@@ -528074,6 +528075,11 @@ Poker Night at the Inventory:
             store: steam
   steam:
     id: 31280
+Poker Night at the Inventory (2026):
+  cloud:
+    steam: true
+  steam:
+    id: 3897800
 "Poker Pretty Girls Battle: Texas Hold'em":
   files:
     "<base>/Save":
@@ -720426,6 +720432,7 @@ The Invincible:
       - 1584868315
       - 1623348506
       - 1822609560
+    lutris: the-invincible
   installDir:
     The Invincible: {}
   launch:

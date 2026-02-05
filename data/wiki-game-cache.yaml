@@ -100011,6 +100011,7 @@ Gylt:
   gogSide:
     - 1145300524
     - 1460927714
+  lutris: gylt
   pageId: 188594
   steam: 2206210
   steamSide:
@@ -170604,6 +170605,11 @@ Poker Night at the Inventory:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Poker Night at the Inventory\\prefs.prop}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Poker Night at the Inventory\\*.save}}"
+Poker Night at the Inventory (2026):
+  cloud:
+    steam: true
+  pageId: 213476
+  steam: 3897800
 "Poker Pretty Girls Battle: Texas Hold'em":
   pageId: 45956
   steam: 407720
@@ -232047,6 +232053,7 @@ The Invincible:
     - 1584868315
     - 1623348506
     - 1822609560
+  lutris: the-invincible
   pageId: 169727
   steam: 731040
   templates:
