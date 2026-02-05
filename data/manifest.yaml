@@ -119425,11 +119425,19 @@ Cathedral 3-D:
   steam:
     id: 1091590
 Catherine Classic:
+  cloud:
+    steam: true
   files:
-    "<winAppData>/TheEccentricApe/Catherine/SaveGame.bin":
+    "<winAppData>/TheEccentricApe/Catherine":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winAppData>/TheEccentricApe/Catherine/AppSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     CatherineClassic: {}
   launch:
@@ -237037,10 +237045,22 @@ Escape from Tarkov:
         - config
       when:
         - os: windows
+  id:
+    lutris: escape-from-tarkov
+  installDir:
+    Escape from Tarkov: {}
+  launch:
+    "<base>/launcher/BsgLauncher.exe":
+      - arguments: "-LaunchFromSteam -GAME=eft"
+        when:
+          - store: steam
+        workingDir: "<base>/launcher"
   registry:
     HKEY_CURRENT_USER/Software/Battlestate Games/EscapeFromTarkov:
       tags:
         - config
+  steam:
+    id: 3932890
 "Escape from Tarkov: Arena":
   id:
     lutris: escape-from-tarkov

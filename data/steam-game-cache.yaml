@@ -640378,6 +640378,13 @@
       executable: system/SplinterCell2.exe
       type: default
 3932120: {}
+3932890:
+  installDir: Escape from Tarkov
+  launch:
+    - arguments: "-LaunchFromSteam -GAME=eft"
+      executable: "launcher\\BsgLauncher.exe"
+      type: default
+      workingdir: launcher
 3937550:
   nameLocalized:
     japanese: 龍が如く 極３ / 龍が如く３外伝 Dark Ties
