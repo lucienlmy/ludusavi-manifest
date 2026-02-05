@@ -206316,6 +206316,12 @@ Dragon Quest VII Reimagined:
       when:
         - os: windows
           store: steam
+  installDir:
+    DQ7R: {}
+  launch:
+    "<base>/DQ7R.exe":
+      - when:
+          - store: steam
   steam:
     id: 2499860
 Dragon Quest X:
@@ -337811,6 +337817,9 @@ Horizon Forbidden West:
         - config
   steam:
     id: 2420110
+Horizon Hunters Gathering:
+  steam:
+    id: 4244910
 Horizon Shift:
   files:
     "<winLocalAppData>/HorizonShift":
@@ -436806,12 +436815,28 @@ Men of War II:
     id: 63940
 Menace (2026):
   cloud:
+    gog: true
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Overhype Studios/Menace/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1812373738
   id:
+    lutris: menace--1
     steamExtra:
       - 2432870
+  installDir:
+    Menace: {}
+  launch:
+    "<base>/Menace.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2432860
 Mendel:
@@ -510025,6 +510050,11 @@ Paranormal Teens:
             store: steam
   steam:
     id: 549770
+"Paranormasight: The Mermaid's Curse":
+  cloud:
+    steam: true
+  steam:
+    id: 2701440
 "Paranormasight: The Seven Mysteries of Honjo":
   cloud:
     steam: true
@@ -525192,6 +525222,7 @@ Planet of Lana:
   id:
     gogExtra:
       - 2094167069
+    lutris: planet-of-lana
   installDir:
     Planet of Lana: {}
   launch:
@@ -525204,6 +525235,13 @@ Planet of Lana:
         - config
   steam:
     id: 1608230
+Planet of Lana II:
+  cloud:
+    steam: true
+  id:
+    lutris: planet-of-lana-ii-children-of-the-leaf
+  steam:
+    id: 2997230
 Planet of Mubu:
   steam:
     id: 602170
@@ -670773,10 +670811,16 @@ Suicide Simulator:
   steam:
     id: 703810
 "Suicide Squad: Kill the Justice League":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Suicide Squad - Kill the Justice League/Saved/SaveGames/OfflineSaves/*.sav":
       when:
         - store: steam
+  id:
+    lutris: suicide-squad-kill-the-justice-league
+    steamExtra:
+      - 2716350
   installDir:
     Suicide Squad Kill the Justice League: {}
   launch:

@@ -602304,7 +602304,10 @@
   installDir: Twitch Place
   launch:
     - executable: twitch place.exe
-2129530: {}
+2129530:
+  nameLocalized:
+    schinese: 生灵重塑
+    tchinese: 生灵重塑
 2129810:
   cloud:
     saves:
@@ -615316,6 +615319,25 @@
     japanese: WHITE ALBUM －綴られる冬の想い出－
     tchinese: 白色相簿：編綴的冬日回憶
 2432860:
+  cloud:
+    saves:
+      - path: "Overhype Studios\\Menace\\Saves\\"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: unity3d/Overhype Studios/Menace/Saves/
+        pattern: "*"
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+  installDir: Menace
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Menace.exe
+      type: default
   nameLocalized:
     japanese: MENACE メナス
     koreana: MENACE 메너스
@@ -617678,7 +617700,7 @@
       type: default
 2483190:
   nameLocalized:
-    schinese: 极限竞速：地平线6
+    schinese: 极限竞速：地平线 6
 2484110:
   installDir: FF7EC
   launch:
@@ -618431,6 +618453,15 @@
         oslist: windows
       executable: Garten of Banban 6.exe
 2499860:
+  cloud:
+    saves:
+      - path: "My Games/DRAGON QUEST VII/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        recursive: true
+        root: WinMyDocuments
+  installDir: DQ7R
+  launch:
+    - executable: DQ7R.exe
   nameLocalized:
     english: DRAGON QUEST VII Reimagined
     japanese: ドラゴンクエストVII Reimagined
@@ -619417,7 +619448,7 @@
   nameLocalized:
     japanese: 電車アタック
     schinese: 电车炫客
-    tchinese: 電車炫客
+    tchinese: 暴走獵車
 2524890:
   installDir: Pixel Gun 3D PC Edition
   launch:
@@ -619885,6 +619916,7 @@
 2535950: {}
 2536510:
   nameLocalized:
+    sc_schinese: 逆神者
     schinese: 逆神者
 2536530:
   cloud:
@@ -620999,6 +621031,9 @@
   installDir: FaaastPenguin
   launch:
     - executable: FaaastPenguinClient.exe
+    - config:
+        betakey: main_development
+      executable: FaaastPenguin.exe
   nameLocalized:
     japanese: Faaast Penguin / ファーストペンギン
     schinese: 一鹅当先 / Faaast Penguin
@@ -624145,6 +624180,12 @@
     tchinese: 《飆酷車神：動力慶典》
 2699550: {}
 2701030: {}
+2701440:
+  nameLocalized:
+    english: "PARANORMASIGHT: The Mermaid's Curse"
+    japanese: パラノマサイト FILE38 伊勢人魚物語
+    schinese: 灵视异闻 FILE38 伊势人鱼物语
+    tchinese: 靈視異聞 FILE38 伊勢人魚物語
 2701660:
   cloud:
     saves:
@@ -630376,6 +630417,7 @@
     portuguese: " Império das Formigas (2000)"
     spanish: " El Imperio de las Hormigas (2000)"
 2996790: {}
+2997230: {}
 2998600:
   cloud:
     saves:
@@ -640802,6 +640844,7 @@
     koreana: "록맨: 듀얼 오버라이드"
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
+4244910: {}
 4253970:
   installDir: Napoleon 1813
   launch:

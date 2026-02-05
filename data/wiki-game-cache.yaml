@@ -108674,6 +108674,9 @@ Horizon Forbidden West:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Guerrilla Games\\Horizon Forbidden West Complete Edition|{{p|userprofile\\documents}}\\Horizon Forbidden West Complete Edition\\{{p|uid}}\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Horizon Forbidden West Complete Edition\\{{p|uid}}\\}}"
+Horizon Hunters Gathering:
+  pageId: 213480
+  steam: 4244910
 Horizon Shift:
   pageId: 37409
   steam: 326120
@@ -140617,12 +140620,16 @@ Menace:
   pageId: 199651
 Menace (2026):
   cloud:
+    gog: true
     steam: true
   gog: 1812373738
+  lutris: menace--1
   pageId: 209244
   steam: 2432860
   steamSide:
     - 2432870
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Overhype Studios\\Menace\\Saves\\}}"
 Mendel:
   pageId: 109418
   steam: 899340
@@ -164697,6 +164704,11 @@ Paranormal Psychosis:
 Paranormal Teens:
   pageId: 55690
   steam: 549770
+"Paranormasight: The Mermaid's Curse":
+  cloud:
+    steam: true
+  pageId: 213487
+  steam: 2701440
 "Paranormasight: The Seven Mysteries of Honjo":
   cloud:
     steam: true
@@ -169714,12 +169726,20 @@ Planet of Lana:
   gog: 1812138501
   gogSide:
     - 2094167069
+  lutris: planet-of-lana
   pageId: 187322
   steam: 1608230
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Wishfully\\Planet of Lana\\|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana\\settings}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.PlanetofLana_8j53pwgd019sy\\SystemAppData\\wgs\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana\\*.sav}}"
+Planet of Lana II:
+  cloud:
+    steam: true
+    xbox: true
+  lutris: planet-of-lana-ii-children-of-the-leaf
+  pageId: 213481
+  steam: 2997230
 Planet of Mubu:
   pageId: 60097
   steam: 602170
@@ -216387,10 +216407,15 @@ Suicide Simulator:
   pageId: 69490
   steam: 703810
 "Suicide Squad: Kill the Justice League":
+  cloud:
+    steam: true
+  lutris: suicide-squad-kill-the-justice-league
   pageId: 162780
   renamedFrom:
     - "Suicide Squad: Kill The Justice League"
   steam: 315210
+  steamSide:
+    - 2716350
   templates:
     - "{{Game data/config|Steam|{{p|localappdata}}\\Suicide Squad - Kill the Justice League\\Saved\\Config\\Steam\\<some numbers>\\WindowsNoEditor\\}}"
 Suicideville:
