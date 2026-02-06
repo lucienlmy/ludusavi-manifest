@@ -37052,9 +37052,12 @@ Carmageddon TDR 2000:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Carmageddon Reincarnation\\savegames}}"
 "Carmageddon: Rogue Shift":
   cloud:
+    epic: true
     steam: true
   pageId: 211700
   steam: 1712100
+  templates:
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Carma\\Saved\\SaveGames\\Steam\\{{p|uid}}\\*.sav}}"
 Carmen Sandiego:
   cloud:
     xbox: true
@@ -66861,6 +66864,7 @@ DreadOut:
 DreadOut 2:
   cloud:
     steam: true
+  lutris: dreadout-2
   pageId: 111854
   steam: 945710
   templates:
@@ -103308,8 +103312,11 @@ Hearts of Iron IV:
 Heartworm:
   cloud:
     steam: true
+  lutris: heartworm
   pageId: 206195
   steam: 1257030
+  steamSide:
+    - 3940700
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}/AppData/LocalLow/Heartworm LLC/Heartworm/saves}}"
 Heat:
@@ -109475,6 +109482,7 @@ House Party:
   gog: 2056019722
   gogSide:
     - 1210973918
+    - 1321182038
     - 1414187153
     - 1422489941
     - 1522548024
@@ -109494,6 +109502,7 @@ House Party:
     - 2363800
     - 2783130
     - 3487780
+    - 4055790
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Eek\\House Party\\Saves}}"
 "House of 1000 Doors: Evil Inside":
@@ -133133,8 +133142,15 @@ Lovestory:
 Lovish:
   cloud:
     steam: true
+  gog: 1440487149
+  gogSide:
+    - 1421991394
+    - 2098302952
+  lutris: lovish
   pageId: 212925
   steam: 2959010
+  steamSide:
+    - 3830540
 Low Desert Punk:
   pageId: 70665
   steam: 709400
@@ -155276,6 +155292,7 @@ Nioh 3:
   pageId: 205142
   steam: 3681010
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\KoeiTecmo\\NIOH3\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\KoeiTecmo\\NIOH3\\Savedata\\}}"
 "Nioh: Complete Edition":
   cloud:
@@ -163184,6 +163201,7 @@ PUBG Training Camp:
 "PUBG: Blindspot":
   cloud:
     steam: true
+  lutris: pubg-blindspot
   pageId: 209051
   steam: 3143710
 PUBGNite:
@@ -225956,6 +225974,7 @@ The Adventures of Elena Temple:
 "The Adventures of Elliot: The Millennium Tales":
   cloud:
     steam: true
+  lutris: the-adventures-of-elliot-the-millennium-tales
   pageId: 213500
   steam: 3483510
 The Adventures of Fatman:

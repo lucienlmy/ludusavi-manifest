@@ -576274,7 +576274,18 @@
     russian: "ГВИНТ: Маг-Отступник"
     tchinese: 《昆特牌：異始法師》
     ukrainian: "ГВИНТ: Маг-відступник"
-1712100: {}
+1712100:
+  cloud:
+    saves:
+      - path: "Carma/Saved/SaveGames/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Carmageddon
+  launch:
+    - config:
+        oslist: windows
+      executable: Carma.exe
+      type: default
 1712350:
   cloud:
     saves:
@@ -639337,6 +639348,29 @@
     japanese: 七つの大罪：Origin
     koreana: "일곱 개의 대죄: Origin"
 3681010:
+  cloud:
+    saves:
+      - path: "KoeiTecmo\\NIOH3\\Savedata\\{64BitSteamID}\\"
+        pattern: SAVEDATA.BIN
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Nioh3
+  launch:
+    - config:
+        betakey: "default,test"
+        osarch: "64"
+        oslist: windows
+      executable: Nioh3.exe
+      type: default
+    - config:
+        betakey: "profile,test,rating,power_check,valve_profile,v1.01_profile,1229_profile"
+        osarch: "64"
+        oslist: windows
+      description: Daylight.exe
+      executable: Daylight.exe
+      type: option1
   nameLocalized:
     japanese: 仁王３
     schinese: 仁王３

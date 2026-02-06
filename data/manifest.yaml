@@ -115599,7 +115599,22 @@ Carmageddon TDR 2000:
     id: 249380
 "Carmageddon: Rogue Shift":
   cloud:
+    epic: true
     steam: true
+  files:
+    "<winLocalAppData>/Carma/Saved/SaveGames/Steam/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Carmageddon: {}
+  launch:
+    "<base>/Carma.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1712100
 Carmen Sandiego:
@@ -208617,6 +208632,8 @@ DreadOut 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: dreadout-2
   installDir:
     DreadOut 2: {}
   launch:
@@ -321049,6 +321066,10 @@ Heartworm:
         - save
       when:
         - os: windows
+  id:
+    lutris: heartworm
+    steamExtra:
+      - 3940700
   installDir:
     Heartworm: {}
   launch:
@@ -340039,6 +340060,7 @@ House Party:
   id:
     gogExtra:
       - 1210973918
+      - 1321182038
       - 1414187153
       - 1422489941
       - 1522548024
@@ -340056,6 +340078,7 @@ House Party:
       - 2363800
       - 2783130
       - 3487780
+      - 4055790
   installDir:
     House Party: {}
   launch:
@@ -413496,6 +413519,15 @@ Lovestory:
 Lovish:
   cloud:
     steam: true
+  gog:
+    id: 1440487149
+  id:
+    gogExtra:
+      - 1421991394
+      - 2098302952
+    lutris: lovish
+    steamExtra:
+      - 3830540
   installDir:
     Lovish: {}
   launch:
@@ -481187,6 +481219,11 @@ Nioh 3:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/KoeiTecmo/NIOH3":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/KoeiTecmo/NIOH3/Savedata":
       tags:
         - save
@@ -481194,6 +481231,8 @@ Nioh 3:
         - os: windows
   id:
     lutris: nioh-3
+  installDir:
+    Nioh3: {}
   steam:
     id: 3681010
 "Nioh: Complete Edition":
@@ -505530,6 +505569,8 @@ PUBG Training Camp:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: pubg-blindspot
   installDir:
     PUBG BLINDSPOT: {}
   launch:
@@ -701669,6 +701710,8 @@ The Adventures of Elena Temple:
 "The Adventures of Elliot: The Millennium Tales":
   cloud:
     steam: true
+  id:
+    lutris: the-adventures-of-elliot-the-millennium-tales
   steam:
     id: 3483510
 The Adventures of Fatman:
