@@ -221239,6 +221239,9 @@ EVE Vanguard:
         workingDir: "<base>/WindowsNoEditor/VkGame/Binaries/Win64"
   steam:
     id: 688480
+EVO Card:
+  steam:
+    id: 4372990
 EW/WE:
   installDir:
     EWWE: {}
@@ -413493,6 +413496,13 @@ Lovestory:
 Lovish:
   cloud:
     steam: true
+  installDir:
+    Lovish: {}
+  launch:
+    "<base>/Lovish.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2959010
 Low Desert Punk:

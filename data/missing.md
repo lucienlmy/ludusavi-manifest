@@ -8941,6 +8941,7 @@
 * [Eville](https://www.pcgamingwiki.com/wiki/?curid=182482)
 * [EvilMorph](https://www.pcgamingwiki.com/wiki/?curid=56998)
 * [EvilVEvil](https://www.pcgamingwiki.com/wiki/?curid=194534)
+* [EVO Card](https://www.pcgamingwiki.com/wiki/?curid=213508)
 * [Evo Explores](https://www.pcgamingwiki.com/wiki/?curid=37261)
 * [Evocation](https://www.pcgamingwiki.com/wiki/?curid=107926)
 * [Evolo.Evolution](https://www.pcgamingwiki.com/wiki/?curid=109922)
