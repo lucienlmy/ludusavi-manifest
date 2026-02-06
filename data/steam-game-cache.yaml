@@ -552002,7 +552002,13 @@
     koreana: Sons of Valhalla 선즈 오브 발할라
     schinese: 英灵殿之子 Sons of Valhalla
     tchinese: 英靈殿之子 Sons of Valhalla
-1410400: {}
+1410400:
+  installDir: Kejora
+  launch:
+    - config:
+        oslist: windows
+      executable: Kejora.exe
+      type: default
 1410640:
   cloud:
     saves:
@@ -612502,6 +612508,16 @@
     schinese: 超级忍 反攻的斩击
     tchinese: SHINOBI 反攻的斬擊
 2362050:
+  cloud:
+    saves:
+      - path: "BANDAI NAMCO Entertainment/MY HERO ACADEMIA Alls Justice/Saved/SaveGames/{Steam3AccountID}/"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: "MY HERO ACADEMIA All's Justice"
+  launch:
+    - executable: "HeroGame\\Binaries\\Win64\\AJGAME.exe"
   nameLocalized:
     japanese: 僕のヒーローアカデミア All’s Justice
     koreana: 나의 히어로 아카데미아 올즈 저스티스
@@ -627786,6 +627802,12 @@
   nameLocalized:
     japanese: 奈落
 2852150: {}
+2852190:
+  nameLocalized:
+    japanese: モンスターハンターストーリーズ3　～運命の双竜～
+    koreana: 몬스터헌터 스토리즈 3 엇갈린 운명
+    schinese: "Monster Hunter Stories 3: 命运双龙"
+    tchinese: "Monster Hunter Stories 3: 命運雙龍"
 2853730:
   installDir: Skull and Bones
   launch:
@@ -627854,7 +627876,29 @@
         oslist: windows
       executable: AbioticFactorServer.exe
       type: default
-2857910: {}
+2857910:
+  cloud:
+    saves:
+      - path: game/saves
+        pattern: "*.save"
+        root: gameinstall
+  installDir: Moonripple Lake
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Moonripple_Lake.exe
+      type: default
+    - config:
+        oslist: linux
+      description: Launch
+      executable: Moonripple_Lake.sh
+      type: default
+    - config:
+        oslist: macos
+      description: Launch
+      executable: Moonripple_Lake.app
+      type: default
 2859880: {}
 2861080:
   nameLocalized:
@@ -633004,7 +633048,22 @@
       executable: BillyBlade.exe
       type: default
 3139440: {}
-3143710: {}
+3143710:
+  cloud:
+    saves:
+      - path: Arc/Saved/SaveGames/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: PUBG BLINDSPOT
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: "Launch PUBG: BLINDSPOT"
+      executable: ArcClient_ZK.exe
+      type: default
 3144860: {}
 3145510:
   cloud:
@@ -637187,6 +637246,13 @@
     japanese: パッキングライフ
     koreana: 패킹 라이프
     schinese: 打包人生
+3483510:
+  nameLocalized:
+    english: "The Adventures of Elliot: The Millennium Tales"
+    japanese: 冒険家エリオットの千年物語
+    koreana: 모험가 엘리엇의 천 년 이야기
+    schinese: 冒险家艾略特的千年奇谭
+    tchinese: 冒險家艾略特的千年奇譚
 3483740:
   cloud:
     saves:
@@ -639608,6 +639674,13 @@
         oslist: macos
       executable: ASM_steam.app
 3743670: {}
+3743790:
+  nameLocalized:
+    french: "Thomas et ses amis™ : les merveilles de Sodor"
+    german: "Thomas & seine Freunde™: Die Wunder von Sodor"
+    japanese: きかんしゃトーマス™：ソドー島の不思議
+    schinese: 《托马斯和朋友™：多多岛奇观》
+    spanish: "Thomas y sus amigos™: las maravillas de Sodor"
 3744040: {}
 3746310: {}
 3749580: {}
@@ -639630,6 +639703,16 @@
         oslist: windows
       executable: CarDealerLifeSimulator.exe
       type: default
+3756010:
+  installDir: Super Bomberman Collection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: SUPER BOMBERMAN COLLECTION.exe
+      type: default
+  nameLocalized:
+    japanese: スーパーボンバーマン コレクション
 3757210:
   installDir: Agreeee
   launch:
@@ -640195,7 +640278,15 @@
     koreana: 사냥의 밤：소브린 신디케이트
     schinese: 狩猎之夜：主权辛迪加
     tchinese: 狩獵之夜：主權辛迪加
-3880350: {}
+3880350:
+  installDir: WTF AM I PLAYING
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Start
+      executable: WTF AM I PLAYING.exe
+      type: default
 3882020:
   cloud:
     saves:
@@ -640485,6 +640576,7 @@
         oslist: linux
       executable: TimeOfMonsters
 3970690: {}
+3977380: {}
 3978420:
   installDir: Doom 3
   launch:

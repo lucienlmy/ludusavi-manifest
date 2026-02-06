@@ -16803,6 +16803,7 @@ Asterix & Obelix XXL 2:
 "Asterix & Obelix: Mission Babylon":
   cloud:
     steam: true
+  lutris: asterix-and-obelix-mission-babylon
   pageId: 206568
   steam: 3489240
 "Asterix & Obelix: Slap Them All!":
@@ -32465,7 +32466,6 @@ Bright Memory:
     - 1779097696
     - 1873841175
     - 2096998203
-  malformed: true
   pageId: 157489
   steam: 1178830
   steamSide:
@@ -114003,6 +114003,7 @@ Indika:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1366870568
   gogSide:
     - 1074378828
@@ -118038,6 +118039,11 @@ Jaws of Extinction:
     steam: true
   pageId: 63634
   steam: 617850
+"Jaws: Retro Edition":
+  cloud:
+    steam: true
+  pageId: 213505
+  steam: 3977380
 Jaxon The Thief:
   pageId: 141829
   steam: 1113650
@@ -129752,6 +129758,7 @@ Like Clay:
 "Like a Dragon: Pirate Yakuza in Hawaii":
   cloud:
     steam: true
+    xbox: true
   pageId: 197885
   steam: 3061810
   templates:
@@ -140622,6 +140629,7 @@ Menace (2026):
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1812373738
   lutris: menace--1
   pageId: 209244
@@ -145437,6 +145445,11 @@ Monster Hunter Stories:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1277400\\remote\\}}"
+"Monster Hunter Stories 3: Twisted Reflection":
+  cloud:
+    steam: true
+  pageId: 213496
+  steam: 2852190
 Monster Hunter Wilds:
   cloud:
     steam: true
@@ -163166,6 +163179,8 @@ PUBG Training Camp:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TslGame\\Saved\\Config\\WindowsNoEditor\\}}"
 "PUBG: Blindspot":
+  cloud:
+    steam: true
   pageId: 209051
   steam: 3143710
 PUBGNite:
@@ -205044,7 +205059,6 @@ Sonic Generations:
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\71340\\}}"
 Sonic Heroes:
   lutris: sonic-heroes
-  malformed: true
   pageId: 19831
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Sega\\SONICHEROES\\sonic_h.ini}}"
@@ -208981,6 +208995,9 @@ Spirit of Midnight:
   steam: 551160
 Spirit of Speed 1937:
   pageId: 89145
+  templates:
+    - "{{Game data/config|Windows|<path-to-game>\\NotTheRegistry.txt}}"
+    - "{{Game data/saves|Windows|<path-to-game>\\SaveGames}}"
 Spirit of War:
   cloud:
     steam: true
@@ -217193,6 +217210,11 @@ Super Bomb Rush!:
   steam: 397810
   steamSide:
     - 432580
+Super Bomberman Collection:
+  cloud:
+    steam: true
+  pageId: 213498
+  steam: 3756010
 Super Bomberman R:
   cloud:
     steam: true
@@ -225928,6 +225950,11 @@ The Adventures of Elena Temple:
     steam: true
   pageId: 82880
   steam: 800190
+"The Adventures of Elliot: The Millennium Tales":
+  cloud:
+    steam: true
+  pageId: 213500
+  steam: 3483510
 The Adventures of Fatman:
   cloud:
     steam: true
@@ -230207,6 +230234,8 @@ The First Day:
   pageId: 138697
   steam: 1084420
 The First Descendant:
+  cloud:
+    xbox: true
   lutris: the-first-descendant
   pageId: 179322
   steam: 2074920
@@ -241397,6 +241426,9 @@ Tho maz:
   pageId: 210429
 "Thomas & Friends: Trouble on the Tracks":
   pageId: 210430
+"Thomas & Friends: Wonders of Sodor":
+  pageId: 213493
+  steam: 3743790
 Thomas Was Alone:
   pageId: 4694
   steam: 220780
@@ -271266,6 +271298,8 @@ Zanshin:
   pageId: 80549
   steam: 768550
 Zany Golf:
+  cloud:
+    gog: true
   gog: 1659423350
   pageId: 147585
   steam: 2308130

@@ -52702,6 +52702,8 @@ Asterix & Obelix XXL Romastered:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: asterix-and-obelix-mission-babylon
   installDir:
     Babylon: {}
   launch:
@@ -367188,6 +367190,11 @@ Jaws of Extinction:
     Jaws Of Extinction: {}
   steam:
     id: 617850
+"Jaws: Retro Edition":
+  cloud:
+    steam: true
+  steam:
+    id: 3977380
 Jaxon The Thief:
   installDir:
     Jaxon The Thief: {}
@@ -376808,6 +376815,13 @@ Keiko Everlasting:
   steam:
     id: 852630
 Kejora:
+  installDir:
+    Kejora: {}
+  launch:
+    "<base>/Kejora.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1410400
 Kek Story:
@@ -451470,6 +451484,11 @@ Monster Hunter Stories:
             store: steam
   steam:
     id: 1277400
+"Monster Hunter Stories 3: Twisted Reflection":
+  cloud:
+    steam: true
+  steam:
+    id: 2852190
 Monster Hunter Wilds:
   cloud:
     steam: true
@@ -454440,9 +454459,28 @@ Moonring:
   steam:
     id: 2373630
 Moonripple Lake:
+  files:
+    "<base>/game/saves/*.save":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 2871880
+  installDir:
+    Moonripple Lake: {}
+  launch:
+    "<base>/Moonripple_Lake.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Moonripple_Lake.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Moonripple_Lake.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 2857910
 Moonrise Fall:
@@ -462317,8 +462355,19 @@ My Heart Grows Fonder:
 "My Hero Academia: All's Justice":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/MY HERO ACADEMIA Alls Justice/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: my-hero-academia-alls-justice
+  installDir:
+    "MY HERO ACADEMIA All's Justice": {}
+  launch:
+    "<base>/HeroGame/Binaries/Win64/AJGAME.exe":
+      - when:
+          - store: steam
   steam:
     id: 2362050
 "My Hero: One's Justice":
@@ -505464,6 +505513,21 @@ PUBG Training Camp:
   steam:
     id: 578080
 "PUBG: Blindspot":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Arc/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    PUBG BLINDSPOT: {}
+  launch:
+    "<base>/ArcClient_ZK.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3143710
 PUBGNite:
@@ -673812,6 +673876,19 @@ Super Bomb Rush!:
             store: steam
   steam:
     id: 397810
+Super Bomberman Collection:
+  cloud:
+    steam: true
+  installDir:
+    Super Bomberman Collection: {}
+  launch:
+    "<base>/SUPER BOMBERMAN COLLECTION.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3756010
 Super Bomberman R:
   cloud:
     steam: true
@@ -701579,6 +701656,11 @@ The Adventures of Elena Temple:
             store: steam
   steam:
     id: 800190
+"The Adventures of Elliot: The Millennium Tales":
+  cloud:
+    steam: true
+  steam:
+    id: 3483510
 The Adventures of Fatman:
   cloud:
     steam: true
@@ -748591,6 +748673,9 @@ Tho maz:
             store: steam
   steam:
     id: 668560
+"Thomas & Friends: Wonders of Sodor":
+  steam:
+    id: 3743790
 Thomas Was Alone:
   files:
     "<home>/.config/unity3d/Mike Bithell/Thomas Was Alone":
@@ -801146,6 +801231,14 @@ WTF:
 WTF Am I Playing?!:
   id:
     lutris: wtf-am-i-playing
+  installDir:
+    WTF AM I PLAYING: {}
+  launch:
+    "<base>/WTF AM I PLAYING.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3880350
 WW Fantasy:
@@ -837059,6 +837152,8 @@ Zanshin:
   steam:
     id: 768550
 Zany Golf:
+  cloud:
+    gog: true
   gog:
     id: 1659423350
   installDir:
