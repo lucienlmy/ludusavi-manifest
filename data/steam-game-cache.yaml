@@ -640071,7 +640071,10 @@
   installDir: Logic Bombs
   launch:
     - executable: game.exe
-3817240: {}
+3817240:
+  installDir: windows
+  launch:
+    - executable: Heaven Does Not Respond.exe
 3820550: {}
 3825360: {}
 3832650:

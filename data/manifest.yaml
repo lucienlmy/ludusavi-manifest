@@ -208540,11 +208540,17 @@ DreadEye VR:
   steam:
     id: 692930
 DreadHaunt:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/DigitalHappiness/DreadHaunt":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: dreadhaunt
+    steamExtra:
+      - 3257830
   installDir:
     DreadHaunt: {}
   launch:
@@ -321273,6 +321279,12 @@ Heaven Burns Red:
 Heaven Does Not Respond:
   id:
     lutris: heaven-does-not-respond
+  installDir:
+    windows: {}
+  launch:
+    "<base>/Heaven Does Not Respond.exe":
+      - when:
+          - store: steam
   steam:
     id: 3817240
 Heaven Dust:

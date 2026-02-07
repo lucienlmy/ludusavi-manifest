@@ -66843,8 +66843,13 @@ DreadEye VR:
   pageId: 75035
   steam: 692930
 DreadHaunt:
+  cloud:
+    steam: true
+  lutris: dreadhaunt
   pageId: 182469
   steam: 1855580
+  steamSide:
+    - 3257830
 DreadOut:
   cloud:
     steam: true
