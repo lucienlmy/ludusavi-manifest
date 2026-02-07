@@ -565480,6 +565480,11 @@ Remyadry:
             store: steam
   steam:
     id: 867490
+"Ren & Stimpy: Happy Happy Joy Joy Collection":
+  cloud:
+    steam: true
+  steam:
+    id: 3504600
 Rena And Elin:
   files:
     "<home>/AppData/LocalLow/90s Studio/Rena and Elin/*.dat":
@@ -631017,6 +631022,18 @@ Snow Battle Princess Sayuki:
 Snow Bros. Classic Collection:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Snow Bros Collection":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Snow Bros Collection: {}
+  launch:
+    "<base>/SnowBros.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3233400
 Snow Clearing Driving Simulator:

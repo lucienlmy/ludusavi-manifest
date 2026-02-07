@@ -182466,6 +182466,11 @@ Remyadry:
   steam: 867490
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\*.dat}}"
+"Ren & Stimpy: Happy Happy Joy Joy Collection":
+  cloud:
+    steam: true
+  pageId: 213534
+  steam: 3504600
 Rena And Elin:
   pageId: 103777
   steam: 695510

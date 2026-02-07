@@ -634276,7 +634276,21 @@
   installDir: "Amarillo's Butt Slapper"
   launch:
     - executable: "Amarillo's Butt Slapper.exe"
-3233400: {}
+3233400:
+  cloud:
+    saves:
+      - path: Limited Run Games/Snow Bros Collection/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Snow Bros Collection
+  launch:
+    - config:
+        oslist: windows
+      executable: SnowBros.exe
+      type: default
 3234310:
   installDir: UNCHAINED
   launch:
@@ -637472,6 +637486,7 @@
         oslist: windows
       executable: fighting-force.exe
       type: default
+3504600: {}
 3504780:
   installDir: Wildgate
   launch:
