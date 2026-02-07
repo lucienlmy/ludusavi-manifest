@@ -513160,13 +513160,20 @@
         oslist: windows
       executable: "Launcher\\FuncomLauncher.exe"
       type: default
-    - arguments: "-fls=dev"
+    - arguments: "-ExecCmds=\"ShowFlag.VersionOsd 0\""
       config:
         betakey: playtest
         osarch: "64"
         oslist: windows
       executable: DuneSandbox-Win64-Test.exe
       type: default
+    - config:
+        betakey: playtest
+        osarch: "64"
+        oslist: windows
+      description: Development Configuration
+      executable: DuneSandbox.exe
+      type: option1
     - config:
         betakey: "staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test\t"
         osarch: "64"

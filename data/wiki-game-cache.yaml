@@ -68576,6 +68576,7 @@ Dune Sea:
   steam: 1172710
   steamSide:
     - 3596810
+    - 3596920
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Config\\WindowsClient\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Cloud\\}}"
@@ -79107,6 +79108,9 @@ FIFA 09:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\FIFA 09\\}}"
 FIFA 10:
   pageId: 91350
+  templates:
+    - "{{Game data/config|Windows|{{P|hklm}}\\Software\\{{P|wow64}}\\EA Sports\\FIFA 10\\|{{p|userprofile\\Documents}}\\FIFA 10\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\FIFA 10\\}}"
 FIFA 11:
   cloud:
     origin: true
@@ -186727,6 +186731,8 @@ Robotics;Notes Elite:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\Robotics Notes ELITE\\eng}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\Robotics Notes ELITE\\eng}}"
+Robotron X:
+  pageId: 213560
 "Robotron: 2084":
   pageId: 176054
 Robots:
@@ -234755,6 +234761,9 @@ The Matrix Online:
 The Maw:
   pageId: 15603
   steam: 26000
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\96898617\\26000\\local\\prefs.xml}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\96898617\\26000\\local}}"
 The Maze of Horror:
   pageId: 148455
   steam: 1170560
@@ -244802,6 +244811,7 @@ Top Punch:
 Top Racer Collection:
   cloud:
     steam: true
+    xbox: true
   pageId: 193050
   steam: 2214000
 Top Secret:

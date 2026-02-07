@@ -214363,6 +214363,7 @@ Dune Sea:
     lutris: dune-awakening
     steamExtra:
       - 3596810
+      - 3596920
   installDir:
     DuneAwakening: {}
   steam:
@@ -246634,6 +246635,18 @@ FIFA 09:
         - os: windows
   registry:
     HKEY_LOCAL_MACHINE/Software/WOW6432Node/EA Sports/FIFA 09:
+      tags:
+        - config
+FIFA 10:
+  files:
+    "<winDocuments>/FIFA 10":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/Software/WOW6432Node/EA Sports/FIFA 10:
       tags:
         - config
 FIFA 11:
@@ -728246,6 +728259,19 @@ The Matchless Kungfu:
   id:
     lutris: the-matrix-path-of-neo
 The Maw:
+  files:
+    "<root>/userdata/96898617/26000/local":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<root>/userdata/96898617/26000/local/prefs.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
   installDir:
     The Maw: {}
   launch:
