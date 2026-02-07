@@ -140098,6 +140098,9 @@ Megaquarium:
   lutris: megaquarium
   pageId: 75174
   steam: 600480
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Megaquarium\\Saves\\global.data}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Megaquarium\\Saves\\*.sav}}"
 Megatect:
   pageId: 45765
   steam: 369270
@@ -149089,6 +149092,9 @@ My Heart Grows Fonder:
   lutris: my-hero-academia-alls-justice
   pageId: 207345
   steam: 2362050
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\MY HERO ACADEMIA Alls Justice\\Saved\\Windows}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\MY HERO ACADEMIA Alls Justice\\Saved\\SaveGames\\{{P|uid}}}}"
 "My Hero: One's Justice":
   cloud:
     steam: true
@@ -164372,6 +164378,7 @@ Paper Toss VR:
   steam: 605860
 Paper Trail:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1758114530
@@ -180700,6 +180707,8 @@ Reanimal:
   lutris: reanimal
   pageId: 197182
   steam: 2129530
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Everholm\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Reanimation Inc.:
   pageId: 150188
   steam: 1089820

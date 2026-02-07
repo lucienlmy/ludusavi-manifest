@@ -435169,6 +435169,17 @@ Megaquarium:
   cloud:
     gog: true
     steam: true
+  files:
+    "<winDocuments>/My Games/Megaquarium/Saves/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Megaquarium/Saves/global.data":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1921788846
   id:
@@ -462410,10 +462421,16 @@ My Heart Grows Fonder:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/BANDAI NAMCO Entertainment/MY HERO ACADEMIA Alls Justice/Saved/SaveGames/<storeUserId>/*.sav":
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/MY HERO ACADEMIA Alls Justice/Saved/SaveGames/<storeUserId>":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/MY HERO ACADEMIA Alls Justice/Saved/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: my-hero-academia-alls-justice
   installDir:
@@ -509033,6 +509050,7 @@ Paper Toss VR:
     id: 605860
 Paper Trail:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -559899,6 +559917,12 @@ Realshot:
 Reanimal:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Everholm/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1209105161
   id:

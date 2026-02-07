@@ -432669,6 +432669,13 @@
       description: Wrath
       executable: wrath-steam
       type: default
+    - config:
+        betakey: 1c_branch
+        osarch: "64"
+        oslist: windows
+      description: Internal
+      executable: wrath-steam.exe
+      type: option1
 1000460: {}
 1000470:
   cloud:
