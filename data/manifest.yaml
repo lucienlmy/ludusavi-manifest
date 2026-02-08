@@ -74255,6 +74255,22 @@ Beat Saber:
       - 3535520
       - 3739820
       - 3804490
+      - 3842290
+      - 4002060
+      - 4084510
+      - 4185610
+      - 4185620
+      - 4185630
+      - 4185640
+      - 4185650
+      - 4185660
+      - 4185670
+      - 4185680
+      - 4185690
+      - 4185700
+      - 4185710
+      - 4185720
+      - 4374210
   installDir:
     Beat Saber: {}
   steam:
@@ -116872,6 +116888,8 @@ Casino Blackjack:
   steam:
     id: 800350
 Casino Inc.:
+  id:
+    lutris: casino-inc
   installDir:
     Casino Inc: {}
   launch:
@@ -327056,9 +327074,16 @@ Hero Must Die. Again:
   cloud:
     steam: true
   files:
-    "<winAppData>/Pyramid/HeroMustDie/*.*":
+    "<winAppData>/Pyramid/HeroMustDie":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<winAppData>/Pyramid/HeroMustDie/sys":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Hero must die again: {}
   launch:
@@ -559930,12 +559955,6 @@ Realshot:
 Reanimal:
   cloud:
     steam: true
-  files:
-    "<winLocalAppData>/Everholm/Saved/SaveGames/<storeUserId>/*.sav":
-      tags:
-        - save
-      when:
-        - os: windows
   gog:
     id: 1209105161
   id:

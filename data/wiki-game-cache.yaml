@@ -21794,6 +21794,8 @@ Bassmaster Fishing 2022:
     - 1796157
     - 1796158
     - 1796159
+  templates:
+    - "{{Game data/config|Windows|C:\\Users\\<Username>\\AppData\\Local\\BassmasterFishing\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
 Bastard:
   cloud:
     gog: true
@@ -24037,6 +24039,22 @@ Beat Saber:
     - 3535520
     - 3739820
     - 3804490
+    - 3842290
+    - 4002060
+    - 4084510
+    - 4185610
+    - 4185620
+    - 4185630
+    - 4185640
+    - 4185650
+    - 4185660
+    - 4185670
+    - 4185680
+    - 4185690
+    - 4185700
+    - 4185710
+    - 4185720
+    - 4374210
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\*.dat}}"
@@ -37484,6 +37502,7 @@ Casino Blackjack:
 Casino Games:
   pageId: 172774
 Casino Inc.:
+  lutris: casino-inc
   pageId: 48200
   steam: 361320
 Casino Mega Collection:
@@ -105309,6 +105328,9 @@ Hero Must Die. Again:
   renamedFrom:
     - Hero must die. again
   steam: 1054050
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Pyramid\\HeroMustDie\\sys}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Pyramid\\HeroMustDie\\}}"
 Hero Of The Forest:
   pageId: 149225
   steam: 1156650
@@ -180711,8 +180733,6 @@ Reanimal:
   lutris: reanimal
   pageId: 197182
   steam: 2129530
-  templates:
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Everholm\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Reanimation Inc.:
   pageId: 150188
   steam: 1089820
@@ -180782,6 +180802,8 @@ Rebel Galaxy Outlaw:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ndemic Creations\\Rebel Inc: Escalation}}"
 Rebel Moon Rising:
   pageId: 131317
+"Rebel Raiders: Operation Nighthawk":
+  pageId: 213571
 "Rebel Runner - Operation: Digital Code":
   pageId: 210885
 Rebel Wings:
@@ -220287,6 +220309,8 @@ Swimsanity!:
   steam: 877800
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Decoy Games\\Swimsanity}}"
+Swing:
+  pageId: 213566
 Swing Dunk (Beta):
   pageId: 156100
   steam: 798930
