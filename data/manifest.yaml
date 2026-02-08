@@ -30851,6 +30851,7 @@ Alien invasion:
     id: 1850050
 "Alien: Rogue Incursion Evolved Edition":
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Alien Rogue Incursion Evolved Edition/Saved/Config/Windows":
@@ -30863,6 +30864,10 @@ Alien invasion:
         - save
       when:
         - os: windows
+  id:
+    lutris: alien-rogue-incursion-evolved-edition
+    steamExtra:
+      - 3712120
   installDir:
     AlienRogueIncursionEE: {}
   launch:
@@ -31189,6 +31194,8 @@ Aliens&Asteroids:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: aliens-fireteam-elite
   installDir:
     Aliens Fireteam Elite: {}
   launch:
@@ -105282,7 +105289,19 @@ Bullyparade - DER Spiel:
     id: 656780
 "Bulwark Evolution: Falconeer Chronicles":
   files:
-    "<home>/AppData/LocalLow/Wired Productions/Bulwark/*.dat":
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/achievements.dat":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/save.dat":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/scen0.dat":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/scen1.dat":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/scen2.dat":
       when:
         - store: steam
   id:
@@ -115618,6 +115637,11 @@ Carmageddon TDR 2000:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/Carma/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Carma/Saved/SaveGames/Steam/<storeUserId>/*.sav":
       tags:
         - save
@@ -231968,6 +231992,11 @@ Endless Memories:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/EndlessMondayDnD/saves":
+      tags:
+        - save
+      when:
+        - os: windows
     "<xdgConfig>/EndlessMondayDnD/saves/*.sav":
       tags:
         - save
@@ -509118,6 +509147,8 @@ Paper Trail:
     gogExtra:
       - 1648915509
       - 1833660748
+    steamExtra:
+      - 3002320
   installDir:
     Paper Trail: {}
   launch:
@@ -599668,6 +599699,13 @@ Scrabble (1996):
       when:
         - os: windows
     "<base>/scrsave.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+Scrabble (1999):
+  files:
+    "<base>/Save":
       tags:
         - save
       when:
@@ -791485,6 +791523,28 @@ Vampires!:
             store: steam
   steam:
     id: 2532050
+"Vampires: Bloodlord Rising":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/VBR/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 2027926246
+  id:
+    lutris: vampires-bloodlord-rising
+  installDir:
+    Vampires Bloodlord Rising: {}
+  launch:
+    "<base>/VBR.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2191500
 "Vampires: Guide Them to Safety!":
   cloud:
     steam: true
@@ -801176,6 +801236,12 @@ WOUNDED:
   cloud:
     steam: true
   files:
+    "<root>/userdata/<storeUserId>/354160/remote/Save.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<winDocuments>/My Games/WRC5":
       tags:
         - config

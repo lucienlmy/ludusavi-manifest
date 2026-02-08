@@ -9738,9 +9738,13 @@ Alien invasion:
     - "{{Game data/saves|Windows|{{P|localappdata}}/Midnight/Saved/SaveGames/}}"
 "Alien: Rogue Incursion Evolved Edition":
   cloud:
+    epic: true
     steam: true
+  lutris: alien-rogue-incursion-evolved-edition
   pageId: 204307
   steam: 3655390
+  steamSide:
+    - 3712120
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Alien Rogue Incursion Evolved Edition\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Alien Rogue Incursion Evolved Edition\\Saved\\SaveGames}}"
@@ -9847,6 +9851,7 @@ Aliens&Asteroids:
   cloud:
     steam: true
     xbox: true
+  lutris: aliens-fireteam-elite
   pageId: 167017
   renamedFrom:
     - "Aliens: Fireteam"
@@ -37075,6 +37080,7 @@ Carmageddon TDR 2000:
   pageId: 211700
   steam: 1712100
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Carma\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Carma\\Saved\\SaveGames\\Steam\\{{p|uid}}\\*.sav}}"
 Carmen Sandiego:
   cloud:
@@ -74343,6 +74349,7 @@ Endless Memories:
   steam: 2262610
   templates:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/EndlessMondayDnD/user/settings.json}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\EndlessMondayDnD\\saves\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/EndlessMondayDnD/saves/*.sav}}"
 Endless Night:
   pageId: 54590
@@ -109888,6 +109895,8 @@ Hoyle Battling Ships and War:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\user*}}"
+Hoyle Board Games:
+  pageId: 213583
 Hoyle Bridge:
   pageId: 147361
 Hoyle Casino (2000):
@@ -164413,6 +164422,8 @@ Paper Trail:
     - 1833660748
   pageId: 185636
   steam: 1889740
+  steamSide:
+    - 3002320
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Newfangled\\Paper Trail\\settings.save}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Newfangled/Paper Trail/settings.save}}"
@@ -193650,6 +193661,10 @@ Scrabble (1996):
   templates:
     - "{{Game data/config|Windows|{{p|game}}/scrcfg.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}/scrsave.dat}}"
+Scrabble (1999):
+  pageId: 213578
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Scrabble Champion Edition:
   pageId: 177360
 Scrabble Complete:
@@ -256236,6 +256251,15 @@ Vampires!:
   templates:
     - "{{Game data/config|Windows| {{P|game}}\\VampiresMelody2_Data\\StreamingAssets}}"
     - "{{Game data/saves|Windows| {{P|game}}\\VampiresMelody2_Data\\StreamingAssets}}"
+"Vampires: Bloodlord Rising":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 2027926246
+  lutris: vampires-bloodlord-rising
+  pageId: 213580
+  steam: 2191500
 "Vampires: Guide Them to Safety!":
   cloud:
     steam: true
@@ -259399,6 +259423,7 @@ WORLDS at WAR (Monitors Only):
     - 398473
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\WRC5\\}}"
+    - "{{Game data/saves|Windows|{{P|Steam}}\\userdata\\{{P|uid}}\\354160\\remote\\Save.dat}}"
 "WRC 6: FIA World Rally Championship":
   cloud:
     steam: true

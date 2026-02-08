@@ -52553,7 +52553,19 @@
   cloud:
     saves:
       - path: Wired Productions/Bulwark
-        pattern: "*.dat"
+        pattern: save.dat
+        root: WinAppDataLocalLow
+      - path: Wired Productions/Bulwark
+        pattern: scen0.dat
+        root: WinAppDataLocalLow
+      - path: Wired Productions/Bulwark
+        pattern: scen1.dat
+        root: WinAppDataLocalLow
+      - path: Wired Productions/Bulwark
+        pattern: scen2.dat
+        root: WinAppDataLocalLow
+      - path: Wired Productions/Bulwark
+        pattern: achievements.dat
         root: WinAppDataLocalLow
   installDir: Bulwark
   launch:
@@ -605194,6 +605206,20 @@
     koreana: 동방 탄막 카구라 판타지아 로스트
     schinese: 东方弹幕神乐 失落幻想
     tchinese: 東方彈幕神樂 失落幻想
+2191500:
+  cloud:
+    saves:
+      - path: VBR/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Vampires Bloodlord Rising
+  launch:
+    - description: "Vampires: Bloodlord Rising"
+      executable: VBR.exe
+  nameLocalized:
+    schinese: "嗜血之王：崛起 | Vampires: Bloodlord Rising"
 2191770:
   cloud:
     saves:
@@ -641035,8 +641061,8 @@
 4295810:
   nameLocalized:
     english: "A Whisper of Fall: Jinyiwei"
-    schinese: "一盏秋声:锦衣卫"
-    tchinese: "一盞秋聲:錦衣衛"
+    schinese: 一盏秋声：锦衣卫
+    tchinese: 一盞秋聲：錦衣衛
 4346690:
   nameLocalized:
     english: "Genigods: Nezha"
