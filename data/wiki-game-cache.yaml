@@ -9684,8 +9684,6 @@ Alien Trilogy:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\TRILOGY.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\TRIL.SG*}}"
-Alien Vs Predator Jaguar Remake:
-  pageId: 208384
 Alien Weapon Test Grounds:
   pageId: 199084
   steam: 3123080
@@ -9701,6 +9699,10 @@ Alien grenadier:
 Alien invasion:
   pageId: 138783
   steam: 1087040
+Alien vs Predator Jaguar Remake:
+  pageId: 208384
+  renamedFrom:
+    - Alien Vs Predator Jaguar Remake
 "Alien: Isolation":
   cloud:
     epic: true
@@ -9776,6 +9778,24 @@ Aliens Invaded Our Planet:
   steam: 873930
 Aliens Online:
   pageId: 200277
+Aliens Versus Predator:
+  gog: 1207665883
+  lutris: aliens-versus-predator-classic-2000
+  pageId: 8248
+  renamedFrom:
+    - Aliens versus Predator
+  steam: 3730
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\video.cfg}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\User_Profiles}}"
+Aliens Versus Predator 2:
+  lutris: aliens-versus-predator-2
+  pageId: 754
+  renamedFrom:
+    - Aliens versus Predator 2
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\Player_0}}"
 Aliens X:
   pageId: 66681
   steam: 685230
@@ -9787,20 +9807,6 @@ Aliens in the Attic:
 Aliens in the Yard:
   pageId: 64596
   steam: 648190
-Aliens versus Predator:
-  gog: 1207665883
-  lutris: aliens-versus-predator-classic-2000
-  pageId: 8248
-  steam: 3730
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\video.cfg}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\User_Profiles}}"
-Aliens versus Predator 2:
-  lutris: aliens-versus-predator-2
-  pageId: 754
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\Player_0}}"
 Aliens vs. Predator (2010):
   lutris: aliens-vs-predator
   pageId: 4437
@@ -109899,6 +109905,8 @@ Hoyle Board Games:
   pageId: 213583
 Hoyle Bridge:
   pageId: 147361
+Hoyle Card Games:
+  pageId: 213586
 Hoyle Casino (2000):
   pageId: 181521
 "Hoyle Children's Collection":
@@ -218839,6 +218847,7 @@ Super Woden GP:
 Super Woden GP 2:
   cloud:
     steam: true
+  gog: 1886515539
   pageId: 212155
   steam: 2083210
 "Super Woden: Rally Edge":
@@ -219735,10 +219744,9 @@ Survivalist:
 "Survivalist: Invisible Strain":
   cloud:
     steam: true
+  lutris: survivalist-invisible-strain
   pageId: 136018
   steam: 1054510
-  steamSide:
-    - 1334380
 Survivalizm - The Animal Simulator:
   pageId: 59097
   steam: 597920

@@ -30984,6 +30984,44 @@ Aliens Invaded Our Planet:
           - store: steam
   steam:
     id: 873930
+Aliens Versus Predator:
+  files:
+    "<winLocalAppData>/Rebellion/AvP Classic/User_Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Rebellion/AvP Classic/video.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207665883
+  id:
+    lutris: aliens-versus-predator-classic-2000
+  installDir:
+    Aliens versus Predator Classic: {}
+  launch:
+    "<base>/Launcher/AvpGoldLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3730
+Aliens Versus Predator 2:
+  files:
+    "<base>/Save/Player_0":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/autoexec.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: aliens-versus-predator-2
 Aliens X:
   installDir:
     Aliens X: {}
@@ -31009,44 +31047,6 @@ Aliens in the Yard:
     AliensInTheYard: {}
   steam:
     id: 648190
-Aliens versus Predator:
-  files:
-    "<winLocalAppData>/Rebellion/AvP Classic/User_Profiles":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Rebellion/AvP Classic/video.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  gog:
-    id: 1207665883
-  id:
-    lutris: aliens-versus-predator-classic-2000
-  installDir:
-    Aliens versus Predator Classic: {}
-  launch:
-    "<base>/Launcher/AvpGoldLauncher.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 3730
-Aliens versus Predator 2:
-  files:
-    "<base>/Save/Player_0":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<base>/autoexec.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: aliens-versus-predator-2
 Aliens vs. Predator (2010):
   files:
     "<winLocalAppData>/AliensVsPredator":
@@ -440368,8 +440368,20 @@ Mevo and The Grooveriders:
 Mewgenics:
   cloud:
     steam: true
+  files:
+    "<winAppData>/Glaiel Games/Mewgenics/<storeUserId>/saves/*.sav":
+      when:
+        - store: steam
   id:
     lutris: mewgenics
+  installDir:
+    Mewgenics: {}
+  launch:
+    "<base>/Mewgenics.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 686060
 MewnBase:
@@ -565028,6 +565040,18 @@ Reload:
 Relooted:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Relooted/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Relooted: {}
+  launch:
+    "<base>/Relooted.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3255890
 Relow:
@@ -678996,6 +679020,8 @@ Super Woden GP 2:
       when:
         - os: linux
           store: steam
+  gog:
+    id: 1886515539
   installDir:
     Super Woden GP 2: {}
   launch:
@@ -681659,8 +681685,7 @@ Survivalist:
         - os: windows
           store: steam
   id:
-    steamExtra:
-      - 1334380
+    lutris: survivalist-invisible-strain
   installDir:
     Survivalist Invisible Strain: {}
   launch:
