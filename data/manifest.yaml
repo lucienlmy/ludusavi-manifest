@@ -77695,6 +77695,8 @@ Betrayer:
         - os: windows
   gog:
     id: 1090734724
+  id:
+    lutris: betrayer
   installDir:
     Betrayer: {}
   launch:
@@ -155439,8 +155441,21 @@ CrisisActionVR:
   steam:
     id: 648070
 "Crisol: Theater of Idols":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/CRToiPrototype/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: crisol-theater-of-idols
+  installDir:
+    Crisol Theater of Idols: {}
+  launch:
+    "<base>/CrisolTheaterOfIdols.exe":
+      - when:
+          - store: steam
   steam:
     id: 1790930
 Crispy Chicken:
@@ -423748,6 +423763,9 @@ Maid of Sker:
     gogExtra:
       - 1170043841
       - 1516554499
+    lutris: maid-of-sker
+    steamExtra:
+      - 1356980
   installDir:
     Maid of Sker: {}
   launch:
@@ -423758,6 +423776,9 @@ Maid of Sker:
             store: steam
   steam:
     id: 826940
+Maid of Sker VR:
+  steam:
+    id: 4005370
 Maiden & Spell:
   files:
     "<winLocalAppData>/MaidenSpell":
@@ -444544,6 +444565,17 @@ MindsEye:
         - os: windows
   id:
     lutris: mindseye
+    steamExtra:
+      - 3511550
+      - 3511560
+      - 3511570
+      - 3511580
+      - 3511590
+      - 3511600
+      - 3511940
+      - 3519570
+      - 3711570
+      - 3804130
   installDir:
     MindsEye: {}
   launch:
@@ -582536,15 +582568,43 @@ Romby:
 Romeo Is A Dead Man:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Grasshopper Manufacture/ROMEO IS A DEAD MAN/SavedGames/<storeUserId>/SevSaveProgress*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: romeo-is-a-dead-man
+  installDir:
+    ROMEO IS A DEAD MAN: {}
+  launch:
+    "<base>/SevGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3050900
 Romeo Is a Dead Man:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Grasshopper Manufacture/ROMEO IS A DEAD MAN/SavedGames/<storeUserId>/SevSaveSetting.sav":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     lutris: romeo-is-a-dead-man
+  installDir:
+    ROMEO IS A DEAD MAN: {}
+  launch:
+    "<base>/SevGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3050900
 "Romero's Aftermath":
@@ -775868,6 +775928,8 @@ Tux Racer:
         - config
       when:
         - os: windows
+  id:
+    lutris: tux-racer
 Tux and Fanny:
   gog:
     id: 2140464279
@@ -798311,16 +798373,6 @@ Voices from the Sea:
 Voices of the Void:
   files:
     "<winLocalAppData>/VotV":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/VotV/Saved/Config/WindowsNoEditor":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/VotV/Saved/SaveGames/data.sav":
       tags:
         - config
       when:

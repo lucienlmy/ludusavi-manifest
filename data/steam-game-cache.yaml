@@ -581718,7 +581718,18 @@
     koreana: 드래곤볼 스파킹! 제로
     schinese: 七龙珠 电光炸裂！ZERO
     tchinese: 七龍珠 電光炸裂！ZERO
-1790930: {}
+1790930:
+  cloud:
+    saves:
+      - path: CRToiPrototype/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Crisol Theater of Idols
+  launch:
+    - description: Test
+      executable: CrisolTheaterOfIdols.exe
 1791620:
   installDir: DISGAEA RPG
   launch:
@@ -631860,7 +631871,21 @@
       executable: TIMEGAL HD Remaster.exe
   nameLocalized:
     japanese: タイムギャル HDリマスター
-3050900: {}
+3050900:
+  cloud:
+    saves:
+      - path: "Grasshopper Manufacture/ROMEO IS A DEAD MAN/SavedGames/{64BitSteamID}"
+        pattern: SevSaveProgress*.sav
+        platforms:
+          - Windows
+        root: WinSavedGames
+  installDir: ROMEO IS A DEAD MAN
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: SevGame.exe
+      type: default
 3051470:
   cloud:
     saves:
@@ -639445,6 +639470,12 @@
           - Windows
         recursive: true
         root: WinAppDataLocal
+      - path: "KoeiTecmo\\NIOH3\\Savedata\\{64BitSteamID}\\"
+        pattern: BACKUP.BIN
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
   installDir: Nioh3
   launch:
     - config:
@@ -640766,6 +640797,7 @@
     - executable: "Launch Maggie's Farmyard Adventure.bat"
       type: default
 4004630: {}
+4005370: {}
 4012810: {}
 4016300:
   installDir: Beer Machine

@@ -25083,6 +25083,7 @@ Betrayer:
   cloud:
     gog: true
   gog: 1090734724
+  lutris: betrayer
   pageId: 9456
   steam: 243120
   templates:
@@ -25973,6 +25974,8 @@ Binky show:
     steam: true
   pageId: 177392
   steam: 1625950
+Bio F.R.E.A.K.S.:
+  pageId: 213605
 "Bio Goddess : Doomsday Begins":
   pageId: 212876
   steam: 2806120
@@ -49666,6 +49669,8 @@ CrisisActionVR:
   pageId: 65863
   steam: 648070
 "Crisol: Theater of Idols":
+  cloud:
+    steam: true
   lutris: crisol-theater-of-idols
   pageId: 205295
   steam: 1790930
@@ -136482,11 +136487,17 @@ Maid of Sker:
   gogSide:
     - 1170043841
     - 1516554499
+  lutris: maid-of-sker
   pageId: 122842
   steam: 826940
+  steamSide:
+    - 1356980
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Wales Interactive\\Maid of Sker}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Wales Interactive\\Maid of Sker}}"
+Maid of Sker VR:
+  pageId: 213612
+  steam: 4005370
 Maiden & Spell:
   pageId: 126404
   steam: 1004770
@@ -143305,9 +143316,20 @@ MindsEye:
   lutris: mindseye
   pageId: 203619
   steam: 3265250
+  steamSide:
+    - 3511550
+    - 3511560
+    - 3511570
+    - 3511580
+    - 3511590
+    - 3511600
+    - 3511940
+    - 3519570
+    - 3711570
+    - 3804130
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\MindsEye\\Saved\\Config}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\MindsEye\\Saved\\SaveGames}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MindsEye\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\MindsEye\\Saved\\SaveGames\\}}"
 Mindset:
   cloud:
     steam: true
@@ -188143,6 +188165,9 @@ Romeo Is a Dead Man:
   renamedFrom:
     - ROMEO IS A DEAD MAN
   steam: 3050900
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Grasshopper Manufacture\\ROMEO IS A DEAD MAN\\SavedGames\\{{p|uid}}\\SevSaveSetting.sav}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Grasshopper Manufacture\\ROMEO IS A DEAD MAN\\SavedGames\\{{p|uid}}\\SevSaveSetting.sav}}"
 "Romero's Aftermath":
   pageId: 46308
   steam: 349700
@@ -250985,6 +251010,7 @@ Turtle VR:
   pageId: 137466
   steam: 1063240
 Tux Racer:
+  lutris: tux-racer
   pageId: 59152
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\options.txt}}"
@@ -258519,12 +258545,12 @@ Voices from the Sea:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Voices from the Sea - Online\\Savegame\\}}"
 Voices of the Void:
   lutris: voices-of-the-void
+  malformed: true
   pageId: 192425
   renamedFrom:
     - Voices of the void
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\VotV\\Saved\\SaveGames\\data.sav|{{p|localappdata}}\\VotV\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\VotV\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\VotV\\|{{p|\n|{{Game data/config|Windows|{{p|localappdata}}\\VotV\\Saved\\SaveGames\\data.sav|{{p|localappdata}}\\VotV\\Saved\\Config\\WindowsNoEditor\\}}\n}}\n\n===Save game data location===\n{{Game data|\n|{{Game data/saves|Windows|{{p|localappdata}}\\VotV\\Saved\\SaveGames}}\n{{Game data/saves|Windows|{{p|localappdata}}\\VotV\\Assets}}\n}}\n\n==Video==\n{{Video|wsgf link=|widescreen wsgf award=|multimonitor wsgf award=|ultrawidescreen wsgf award=|4k ultra hd wsgf award=|widescreen resolution=true|widescreen resolution notes=You will need to add it yourself in {{p|localappdata}}\\VotV\\Assets\\res.txt|multimonitor=false|multimonitor notes=|ultrawidescreen=true|ultrawidescreen notes=You will need to add it yourself in {{p|localappdata}}\\VotV\\Assets\\res.txt|4k ultra hd=true|4k ultra hd notes=You will need to add it yourself in {{p|localappdata}}\\VotV\\Assets\\res.txt|fov=true|fov notes=Up to 180°.|windowed=true|windowed notes=May need to turn off Automatic Screen Resolution and press F11|borderless windowed=on|borderless windowed notes=May need to turn off Automatic Screen Resolution|anisotropic=false|anisotropic notes=|antialiasing=true|antialiasing notes=TAA, Unreal Engine AA|upscaling=true|upscaling tech=Unreal Engine Upscaling|upscaling notes=Slider 0 to 4.|framegen=false|framegen tech=|framegen notes=|vsync=true|vsync notes=|60 fps=true|60 fps notes=|120 fps=true|120 fps notes=|hdr=true|hdr notes=Labeled WIP|ray tracing=false|ray tracing notes=|color blind=true|color blind notes=Can Hue shift everything or add your own LUT texture filter}}\n\n===Supersampling===\n{{Fixbox|description=Enable SSAA|fix=# Go to the [[#Game data|configuration file(s) location]].\n# Open {{file|Engine.ini}}.\n# Add the following and save the file.\n<pre>\n[SystemSettings]\nr.ScreenPercentage=150\n</pre>\n\n'''Notes'''\n{{ii}} Values between 100 and 200 are recommended. Requires high-end GPU.}}\n\n==Input==\n{{Input|key remap=true|key remap notes=|acceleration option=false|acceleration option notes=|mouse sensitivity=true|mouse sensitivity notes=|mouse menu=true|mouse menu notes=|keyboard and mouse prompts=unknown|keyboard and mouse prompts notes=|invert mouse y-axis=true|invert mouse y-axis notes=X-axis can also be inverted.|touchscreen=false|touchscreen notes=|controller support=limited|controller support notes=Currently under very early WIP testing, only supports camera movement.|full controller=false|full controller notes=|controller remap=false|controller remap notes=|controller sensitivity=false|controller sensitivity notes=|invert controller y-axis=false|invert controller y-axis notes=|xinput controllers=false|xinput controllers notes=|xbox prompts=false|xbox prompts notes=|impulse triggers=false|impulse triggers notes=|dualshock 4=false|dualshock 4 notes=|dualshock prompts=false|dualshock prompts notes=|light bar support=false|light bar support notes=|dualshock 4 modes=false|dualshock 4 modes notes=|tracked motion controllers=false|tracked motion controllers notes=|tracked motion prompts=false|tracked motion prompts notes=|other controllers=false|other controllers notes=|other button prompts=false|other button prompts notes=|controller hotplug=false|controller hotplug notes=|haptic feedback=false|haptic feedback notes=|haptic feedback hd=|haptic feedback hd notes=|haptic feedback hd controller models=|digital movement supported=|digital movement supported notes=|simultaneous input=false|simultaneous input notes=|steam input api=false|steam input api notes=|steam hook input=false|steam hook input notes=|steam input presets=false|steam input presets notes=|steam controller prompts=false|steam controller prompts notes=|steam cursor detection=false|steam cursor detection notes=}}\n\n==Audio==\n{{Audio|separate volume=true|separate volume notes=Master, Effects, Ambience, UI, Music, Ambience music.|surround sound=true|surround sound notes=Up to 7.1<ref>{{Refcheck|user=Kamyk141|date=07-01-2024|comment=Tested using [[Special K]].}}</ref>|subtitles=false|subtitles notes=|closed captions=false|closed captions notes=|mute on focus lost=false|mute on focus lost notes=|eax support=|eax support notes=|royalty free audio=true|royalty free audio notes=|red book cd audio=|red book cd audio notes=|general midi audio=|general midi audio notes=}}\n\n{{L10n|content={{L10n/switch|language=English|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Belarusian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Bulgarian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Catalan|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Simplified Chinese|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Traditional Chinese|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Croatian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Czech|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Danish|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Dutch|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=French|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Estonian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Finnish|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=German|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Hungarian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Italian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Japanese|interface=limited|audio=n/a|subtitles=n/a|notes=Extremely barebones.{{cn|date=2026-02-10|reason=}}|fan=|ref=}}\n{{L10n/switch|language=Korean|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Polish|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Portuguese - Brazil|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Portuguese - Portugal|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Romanian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Russian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Serbian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Spanish - Spain|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Spanish - Latin America|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Swedish|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Turkish|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}\n{{L10n/switch|language=Ukrainian|interface=true|audio=n/a|subtitles=n/a|notes=|fan=|ref=}}}}\n\n==Other information==\n===API===\n{{API|direct3d versions=11, 12|direct3d notes=|directdraw versions=|directdraw notes=|wing=|wing notes=|opengl versions=|opengl notes=|glide versions=|glide notes=|software mode=|software mode notes=|mantle support=|mantle support notes=|metal support=|metal support notes=|vulkan versions=true|vulkan notes=Vulkan RHI (Rendering Hardware Interface)|dos modes=|dos modes notes=|shader model versions=5|shader model notes=|windows 32-bit exe=false|windows 64-bit exe=true|windows arm app=false|windows exe notes=|mac os x powerpc app=|macos intel 32-bit app=|macos intel 64-bit app=|macos arm app=|macos app notes=|linux powerpc app=|linux 32-bit executable=|linux 64-bit executable=|linux arm app=|linux 68k app=|linux executable notes=|mac os powerpc app=|mac os 68k app=|mac os executable notes=}}\n\n===Middleware===\n{{Middleware|physics=PhysX, APEX|physics notes=PhysX v3.4.0.0, APEX v1.4.0.0|audio=|audio notes=|interface=|interface notes=|input=|input notes=|cutscenes=|cutscenes notes=|multiplayer=|multiplayer notes=|anticheat=|anticheat notes=}}\n\n==System requirements==\n{{System requirements|OSfamily=Windows|minOS=10|minCPU=|minCPU2=|minRAM=8 GB|minHD=|minGPU=1080p resolution support|minGPU2=|minVRAM=3 GB|minDX=11|recOS=11|recCPU=|recCPU2=|recRAM=16 GB|recHD=|recGPU=|recGPU2=|recVRAM=6 GB|notes=}}\n\n{{References}}}}"
 Void:
   pageId: 36246
   steam: 503710
