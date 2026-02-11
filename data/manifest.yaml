@@ -154449,6 +154449,13 @@ Cricket 19:
             store: steam
   steam:
     id: 1028630
+Cricket 2004:
+  files:
+    "<winDocuments>/EA SPORTS/Cricket 2004/Cricket2004.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Cricket 22:
   cloud:
     steam: true
@@ -504865,6 +504872,22 @@ PASKA BATTLE STYLE!:
           - store: steam
   steam:
     id: 979760
+"PAW Patrol Rescue Wheels: Championship":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/PPR/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Project Paupa: {}
+  launch:
+    "<base>/PPR.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3291010
 PAW Patrol World:
   cloud:
     steam: true
@@ -687336,6 +687359,10 @@ THUGPRO:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/THUG Pro/Settings:
+      tags:
+        - config
 TILE:
   installDir:
     TILE: {}
@@ -758791,6 +758818,10 @@ Tonight We Riot:
         - save
       when:
         - os: windows
+  registry:
+    "HKEY_CURRENT_USER/Software/Activision/Tony Hawk's Underground/Settings":
+      tags:
+        - config
 "Tony Hawk's Underground 2":
   files:
     "<base>/Game/Save":
@@ -758798,6 +758829,10 @@ Tonight We Riot:
         - save
       when:
         - os: windows
+  registry:
+    "HKEY_CURRENT_USER/Software/Activision/Tony Hawk's Underground 2/Settings":
+      tags:
+        - config
 Tony Slopes:
   cloud:
     steam: true
@@ -775962,6 +775997,9 @@ Tux Racer:
         - config
       when:
         - os: windows
+  id:
+    lutris: tux-racer
+Tux Racer (2002):
   id:
     lutris: tux-racer
 Tux and Fanny:

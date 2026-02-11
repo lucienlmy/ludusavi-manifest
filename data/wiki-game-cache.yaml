@@ -49338,6 +49338,8 @@ Cricket 2002:
   pageId: 195669
 Cricket 2004:
   pageId: 195667
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\EA SPORTS\\Cricket 2004\\Cricket2004.ini}}"
 Cricket 2005:
   pageId: 195665
 Cricket 22:
@@ -123733,6 +123735,10 @@ Knights:
   steam: 476240
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Arzola's\\KNIGHTS\\*.dat | {{p|userprofile}}\\AppData\\LocalLow\\Arzola's\\KNIGHTS\\*.xml}}"
+Knights College:
+  pageId: 213630
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\KAIJYU-09\\KnightsCollege\\Utage\\SaveVisualNovel\\}}}}"
 Knights Hunt:
   pageId: 72995
   steam: 724430
@@ -162964,6 +162970,12 @@ PASHTET:
 PASKA BATTLE STYLE!:
   pageId: 122478
   steam: 979760
+"PAW Patrol Rescue Wheels: Championship":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 213632
+  steam: 3291010
 PAW Patrol World:
   cloud:
     steam: true
@@ -199936,6 +199948,7 @@ Silent Hunter:
   steam: 48110
 Silent Hunter II:
   gog: 1207658770
+  malformed: true
   pageId: 21224
   renamedFrom:
     - Silent Hunter 2
@@ -221588,6 +221601,7 @@ THRONE and Liberty:
 THUGPRO:
   pageId: 201453
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\THUG Pro\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 THiNK-X:
   pageId: 166361
@@ -244690,10 +244704,12 @@ Tonka Space Station:
 "Tony Hawk's Underground":
   pageId: 18775
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Activision\\Tony Hawk's Underground\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save\\}}"
 "Tony Hawk's Underground 2":
   pageId: 16325
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Activision\\Tony Hawk's Underground 2\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save\\}}"
 Tony Slopes:
   cloud:
@@ -251028,6 +251044,9 @@ Tux Racer:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\options.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\config\\}}"
+Tux Racer (2002):
+  lutris: tux-racer
+  pageId: 213629
 Tux and Fanny:
   gog: 2140464279
   pageId: 181431

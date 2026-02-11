@@ -635170,6 +635170,33 @@
 3290690:
   nameLocalized:
     schinese: "冥河 : 贪婪之刃"
+3291010:
+  cloud:
+    saves:
+      - path: PPR/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Project Paupa
+  launch:
+    - config:
+        oslist: windows
+      executable: PPR.exe
+  nameLocalized:
+    brazilian: "Patrulha Canina™Rescue Wheels™: Campeonato"
+    dutch: "PAW Patrol™ Rescue Wheels™: Racekampioen"
+    finnish: "PAW Patrol™ Rescue Wheels™: Ryhmä Haun mestaruussarja"
+    french: "PAW Patrol™, la Pat' Patrouille : Rescue Wheels™ - Championnat"
+    german: "PAW Patrol™ Rescue Wheels™: Meisterschaft"
+    japanese: PAW Patrol™ Rescue Wheels™：チャンピオンレース
+    polish: "Psi Patrol™ Rescue Wheels™: Mistrzostwa"
+    portuguese: "Patrulha Pata™ Rescue Wheels™: Campeonato"
+    russian: "Щенячий патруль™ Rescue Wheels™: Чемпионат"
+    schinese: 《汪汪队立大功™ Rescue Wheels™：锦标赛》
+    spanish: "PAW Patrol™ Rescue Wheels™: Championship"
+    tchinese: " 汪汪隊立大功™ Rescue Wheels™：冠軍賽"
+    turkish: "PAW Patrol™ Rescue Wheels™: Şampiyona"
+    ukrainian: "Щенячий патруль™ Rescue Wheels™: чемпіонат"
 3291080:
   cloud:
     saves:
