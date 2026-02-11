@@ -83748,6 +83748,7 @@ Black Skylands:
   id:
     gogExtra:
       - 2110062522
+    lutris: black-skylands
     steamExtra:
       - 1799480
   installDir:
@@ -279428,7 +279429,7 @@ Full Metal Schoolgirl:
         - save
       when:
         - os: windows
-    "<winLocalAppData>/MG/Saved/Config/Windows":
+    "<winLocalAppData>/MG/Saved/Config/Windows/GameUserSettings.ini":
       tags:
         - config
       when:
@@ -456871,6 +456872,24 @@ Moto VR:
   steam:
     id: 713500
 MotoGP 08:
+  files:
+    "<winAppData>/Capcom/MotoGP08/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Capcom/MotoGP08/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Capcom/MotoGP08/Settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: motogp-08
   installDir:
     MotoGP 08: {}
   launch:
@@ -565071,12 +565090,15 @@ Reload:
     id: 330370
 Relooted:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Relooted/Saved/SaveGames/*.sav":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: relooted
   installDir:
     Relooted: {}
   launch:
@@ -679168,6 +679190,18 @@ Super president How to rule the country:
             store: steam
   steam:
     id: 995480
+"Super-Bikes: Riding Challenge":
+  files:
+    "<base>/Config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
 SuperBike TT:
   installDir:
     SuperBike TT: {}
@@ -798372,7 +798406,22 @@ Voices from the Sea:
     id: 348620
 Voices of the Void:
   files:
-    "<winLocalAppData>/VotV":
+    "<winLocalAppData>/VotV/Assets":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/VotV/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/VotV/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/VotV/Saved/SaveGames/data.sav":
       tags:
         - config
       when:
