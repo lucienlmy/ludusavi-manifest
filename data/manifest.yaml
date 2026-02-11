@@ -101385,6 +101385,21 @@ Briks 2:
 Brilliant Bob:
   steam:
     id: 368900
+Brilliant Pagoda or Haze Castle:
+  files:
+    "<base>/replay_dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save_dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: lenen-teneisenki-brilliant-pagoda-or-haze-castle
 Brilliant Shadows - Part One of the Book of Gray Magic:
   installDir:
     Brilliant Shadows: {}
@@ -317584,6 +317599,9 @@ Harmony of the bravest:
   id:
     gogExtra:
       - 1679233535
+    lutris: harmony-the-fall-of-reverie
+    steamExtra:
+      - 2438080
   installDir:
     Harmony The Fall of Reverie: {}
   steam:
@@ -385551,6 +385569,7 @@ Koira:
       when:
         - store: steam
   id:
+    lutris: koira
     steamExtra:
       - 3602300
   installDir:
@@ -560072,6 +560091,17 @@ Realshot:
 Reanimal:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/UserMetaData.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1209105161
   id:
@@ -578123,13 +578153,29 @@ Robot Mil:
       when:
         - os: windows
           store: steam
+    "<home>/Library/Application Support/com.Dmytro-Nastenko.Robot-Mil/save.pref":
+      when:
+        - os: mac
+          store: steam
+    "<home>/snap/steam/common/.config/unity3d/Dmytro Nastenko/Robot Mil/save.pref":
+      when:
+        - os: linux
+          store: steam
   installDir:
     Robot Mil: {}
   launch:
+    "<base>/Robot Mil Mac.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Robot Mil.exe":
       - when:
           - bit: 64
             os: windows
+            store: steam
+    "<base>/RobotMil.x86_64":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 4053720
@@ -760882,6 +760928,7 @@ Total Tank Simulator:
     id: 227520
 "Total War: Attila":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.Creative Assembly/Attila/save_games":
@@ -760911,6 +760958,28 @@ Total Tank Simulator:
         - os: windows
   gog:
     id: 1156056129
+  id:
+    gogExtra:
+      - 1412131558
+      - 1446732697
+      - 1549551950
+      - 1742423813
+      - 1760557132
+      - 1843152133
+      - 1891863508
+      - 2124208414
+      - 2139980141
+    steamExtra:
+      - 335020
+      - 335030
+      - 343460
+      - 343461
+      - 343462
+      - 343463
+      - 343464
+      - 343660
+      - 357810
+      - 428730
   installDir:
     Total War Attila: {}
   launch:
@@ -760934,7 +761003,10 @@ Total Tank Simulator:
   gog:
     id: 2091181625
   id:
+    gogExtra:
+      - 2092028994
     steamExtra:
+      - 2574940
       - 2951630
   installDir:
     Total War PHARAOH: {}
@@ -760968,6 +761040,21 @@ Total Tank Simulator:
   gog:
     id: 1576420196
   id:
+    gogExtra:
+      - 1189657949
+      - 1268837515
+      - 1317633106
+      - 1348713202
+      - 1469423818
+      - 1550317499
+      - 1617513924
+      - 1638416159
+      - 1656413078
+      - 1659602018
+      - 1721970780
+      - 1771923822
+      - 1873588491
+      - 2036753079
     steamExtra:
       - 212301
       - 243660
@@ -832404,6 +832491,15 @@ Yakuza Kiwami 3 & Dark Ties:
         - save
       when:
         - os: windows
+  installDir:
+    YakuzaKiwami3: {}
+  launch:
+    "<base>/runtime/media/startup.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/runtime/media"
   steam:
     id: 3937550
 "Yakuza: Like a Dragon":

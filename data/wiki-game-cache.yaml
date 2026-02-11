@@ -32547,6 +32547,12 @@ Briks 2:
 Brilliant Bob:
   pageId: 47847
   steam: 368900
+Brilliant Pagoda or Haze Castle:
+  lutris: lenen-teneisenki-brilliant-pagoda-or-haze-castle
+  pageId: 213638
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\save_dat\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\replay_dat\\|{{p|game}}\\save_dat\\}}"
 Brilliant Shadows - Part One of the Book of Gray Magic:
   pageId: 37311
   steam: 409920
@@ -102217,8 +102223,11 @@ Harmony of the bravest:
   gog: 1431241334
   gogSide:
     - 1679233535
+  lutris: harmony-the-fall-of-reverie
   pageId: 185071
   steam: 1966420
+  steamSide:
+    - 2438080
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\HMY\\Saved\\Config\\Windows\\}}"
 HarmonyTD:
@@ -124149,6 +124158,7 @@ Koikoi:
 Koira:
   cloud:
     steam: true
+  lutris: koira
   pageId: 203007
   steam: 1626620
   steamSide:
@@ -180793,6 +180803,9 @@ Reanimal:
   lutris: reanimal
   pageId: 197182
   steam: 2129530
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\UserMetaData.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Reanimation Inc.:
   pageId: 150188
   steam: 1089820
@@ -245418,10 +245431,32 @@ Total Tank Simulator:
     - "{{Game data/config|Windows|{{p|appdata}}\\The Creative Assembly\\Arena\\scripts}}"
 "Total War: Attila":
   cloud:
+    gog: true
     steam: true
   gog: 1156056129
+  gogSide:
+    - 1412131558
+    - 1446732697
+    - 1549551950
+    - 1742423813
+    - 1760557132
+    - 1843152133
+    - 1891863508
+    - 2124208414
+    - 2139980141
   pageId: 22754
   steam: 325610
+  steamSide:
+    - 335020
+    - 335030
+    - 343460
+    - 343461
+    - 343462
+    - 343463
+    - 343464
+    - 343660
+    - 357810
+    - 428730
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\The Creative Assembly\\Attila\\scripts}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.Creative Assembly/Attila/scripts/}}"
@@ -245432,14 +245467,32 @@ Total Tank Simulator:
   cloud:
     steam: true
   gog: 2091181625
+  gogSide:
+    - 2092028994
   pageId: 188355
   steam: 1937780
   steamSide:
+    - 2574940
     - 2951630
 "Total War: Rome II":
   cloud:
     steam: true
   gog: 1576420196
+  gogSide:
+    - 1189657949
+    - 1268837515
+    - 1317633106
+    - 1348713202
+    - 1469423818
+    - 1550317499
+    - 1617513924
+    - 1638416159
+    - 1656413078
+    - 1659602018
+    - 1721970780
+    - 1771923822
+    - 1873588491
+    - 2036753079
   pageId: 7402
   steam: 214950
   steamSide:

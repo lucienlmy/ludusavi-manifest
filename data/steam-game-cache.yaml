@@ -20034,6 +20034,10 @@
         oslist: macos
       description: Unsupported macOS Intel Version (may2025_retail)
       executable: Rome2.app
+  nameLocalized:
+    koreana: "토탈워: 로마2 - 엠퍼러 에디션"
+    schinese: 全面战争：罗马2 - 帝皇版
+    tchinese: 全軍破敵：羅馬2－帝皇版
 214970:
   installDir: Intrusion 2
   launch:
@@ -72324,6 +72328,10 @@
       description: Launch
       executable: Attila
       type: none
+  nameLocalized:
+    koreana: "토탈워: 아틸라"
+    schinese: 全面战争：阿提拉
+    tchinese: 全軍破敵：阿提拉
 325630:
   installDir: Arms Dealer
   launch:
@@ -640714,6 +640722,34 @@
       type: default
       workingdir: launcher
 3937550:
+  cloud:
+    saves:
+      - path: "Sega/YakuzaKiwami3/Steam/{Steam3AccountID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "Sega/YakuzaKiwami3/Steam/{Steam3AccountID}"
+        pattern: "*.sys"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "Sega/YakuzaKiwami3/Steam/{Steam3AccountID}"
+        pattern: "*.dds"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: YakuzaKiwami3
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: runtime/media/startup.exe
+      type: default
+      workingdir: runtime/media/
   nameLocalized:
     japanese: 龍が如く 極３ / 龍が如く３外伝 Dark Ties
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
@@ -640866,12 +640902,30 @@
         platforms:
           - Windows
         root: WinAppDataLocalLow
+      - path: snap/steam/common/.config/unity3d/Dmytro Nastenko/Robot Mil/
+        pattern: save.pref
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: com.Dmytro-Nastenko.Robot-Mil/
+        pattern: save.pref
+        platforms:
+          - MacOS
+        root: MacAppSupport
   installDir: Robot Mil
   launch:
     - config:
         osarch: "64"
         oslist: windows
       executable: Robot Mil.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: RobotMil.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Robot Mil Mac.app
       type: default
 4054940: {}
 4056560:
