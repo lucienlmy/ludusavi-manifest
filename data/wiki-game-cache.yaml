@@ -49346,6 +49346,9 @@ Cricket 2000:
   pageId: 195671
 Cricket 2002:
   pageId: 195669
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\EA SPORTS\\Cricket 2002\\User\\settings.sgs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\EA SPORTS\\Cricket 2002\\User\\teams.tem}}"
 Cricket 2004:
   pageId: 195667
   templates:
@@ -121814,7 +121817,7 @@ Kill Switch:
   pageId: 87762
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Kill The Monster:
   pageId: 99902
   steam: 890910
@@ -188227,7 +188230,7 @@ Romeo Is a Dead Man:
     - ROMEO IS A DEAD MAN
   steam: 3050900
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Grasshopper Manufacture\\ROMEO IS A DEAD MAN\\SavedGames\\{{p|uid}}\\SevSaveSetting.sav}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SevGame\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Grasshopper Manufacture\\ROMEO IS A DEAD MAN\\SavedGames\\{{p|uid}}\\SevSaveSetting.sav}}"
 "Romero's Aftermath":
   pageId: 46308

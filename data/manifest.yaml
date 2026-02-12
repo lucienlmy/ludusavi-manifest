@@ -154467,6 +154467,18 @@ Cricket 19:
             store: steam
   steam:
     id: 1028630
+Cricket 2002:
+  files:
+    "<winDocuments>/EA SPORTS/Cricket 2002/User/settings.sgs":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/EA SPORTS/Cricket 2002/User/teams.tem":
+      tags:
+        - save
+      when:
+        - os: windows
 Cricket 2004:
   files:
     "<winDocuments>/EA SPORTS/Cricket 2004/Cricket2004.ini":
@@ -582762,8 +582774,12 @@ Romeo Is a Dead Man:
   files:
     "<home>/Saved Games/Grasshopper Manufacture/ROMEO IS A DEAD MAN/SavedGames/<storeUserId>/SevSaveSetting.sav":
       tags:
-        - config
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/SevGame/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
   id:
