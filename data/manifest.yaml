@@ -85491,6 +85491,7 @@ Blades of Avernum:
 Blades of Fire:
   cloud:
     epic: true
+    steam: true
   files:
     "<winDocuments>/MercurySteam/Blades of Fire/<storeUserId>":
       tags:
@@ -85506,6 +85507,8 @@ Blades of Fire:
         - os: windows
   id:
     lutris: blades-of-fire
+  steam:
+    id: 2091020
 Blades of Gory:
   installDir:
     Blades of Gory: {}
@@ -177037,9 +177040,20 @@ DeadCore:
 DeadCore Redux:
   cloud:
     steam: true
+  files:
+    "<base>/<storeUserId>/story.save":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 3726710
+  installDir:
+    DeadCore Redux: {}
+  launch:
+    "<base>/DeadCoreRedux.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3484260
 DeadEye:
@@ -191906,6 +191920,14 @@ Diablo II:
         - os: windows
   id:
     lutris: diablo-2-ressurected
+  installDir:
+    Diablo II Resurrected: {}
+  launch:
+    "<base>/D2R.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2536520
 Diablo III:
   files:
     "<home>/Library/Application Support/Blizzard/Diablo III/D3Prefs.txt":
@@ -322021,6 +322043,25 @@ Heavyweight Transport Simulator 3:
             store: steam
   steam:
     id: 964420
+"Hebereke: Enjoy Edition":
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/FCHEBEREKE/*.bin":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 2877330
+  installDir:
+    HEBEREKE: {}
+  launch:
+    "<base>/FCHEBEREKE.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2869000
 HecatoncheirStory:
   id:
     steamExtra:
@@ -372065,6 +372106,8 @@ Jurassic City Walk:
   steam:
     id: 378420
 Jurassic Park Classic Games Collection:
+  cloud:
+    steam: true
   files:
     "<home>/Saved Games/Limited Run Games/Jurassic Park Classic Games Collection":
       when:
@@ -374760,6 +374803,7 @@ Kandagawa Jet Girls:
   files:
     "<winDocuments>/Square Enix/Kane & Lynch 2 - Dog Days":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -418135,6 +418179,24 @@ MOBA GM:
             store: steam
   steam:
     id: 791990
+MODEL Debut3:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/FURYU Corporation/MODEL Debut3 #nicola/___SaveData":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "MODEL Debut3 #nicola": {}
+  launch:
+    "<base>/MODEL Debut3 #nicola.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3738910
 MOE:
   installDir:
     Moe: {}
@@ -557762,6 +557824,24 @@ Razenroth:
             store: steam
   steam:
     id: 340830
+Razenroth 2:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Enitvare/Razenroth2/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Razenroth 2: {}
+  launch:
+    "<base>/Razenroth2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1425370
 "Razerwire:Nanowars":
   cloud:
     steam: true
@@ -738196,6 +738276,13 @@ The Simpsons Arcade Game:
         - os: windows
   id:
     lutris: the-simpsons-hit-run
+"The Simpsons: Virtual Springfield":
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
 The Sims:
   files:
     "<base>/UserData":

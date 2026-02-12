@@ -553588,6 +553588,21 @@
   installDir: Botany Manor
   launch:
     - executable: Botany Manor.exe
+1425370:
+  cloud:
+    saves:
+      - path: Enitvare/Razenroth2/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+  installDir: Razenroth 2
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Razenroth2.exe
+      type: none
 1425730:
   cloud:
     saves:
@@ -600236,6 +600251,11 @@
     koreana: 다운타운 열혈이야기 SP
     schinese: 热血物语SP
     tchinese: 熱血物語SP
+2091020:
+  nameLocalized:
+    koreana: 블레이드 오브 파이어 Blades of Fire
+    schinese: 《烈焰之刃》 Blades of Fire
+    tchinese: 《烈焰之刃》 Blades of Fire
 2091220:
   installDir: Kach
   launch:
@@ -620025,6 +620045,33 @@
   nameLocalized:
     sc_schinese: 逆神者
     schinese: 逆神者
+2536520:
+  installDir: Diablo II Resurrected
+  launch:
+    - executable: D2R.exe
+  nameLocalized:
+    arabic: "Diablo II: Resurrected – النسخة الجحيمية"
+    brazilian: "Diablo II: Resurrected – Infernal Edition"
+    danish: "Diablo II: Resurrected – Infernal Edition"
+    dutch: "Diablo II: Resurrected – Infernal Edition"
+    finnish: "Diablo II: Resurrected – Infernal Edition"
+    french: "Diablo II: Resurrected – Infernal Edition"
+    german: "Diablo II: Resurrected – Infernal Edition"
+    italian: "Diablo II: Resurrected – Infernal Edition"
+    japanese: 「ディアブロ II リザレクテッド」 – 「獄炎エディション」
+    koreana: 디아블로 II 레저렉션 - 지옥불 에디션
+    latam: "Diablo II: Resurrected – Infernal Edition"
+    norwegian: "Diablo II: Resurrected – Infernal Edition"
+    polish: "Diablo II: Resurrected – Infernal Edition"
+    portuguese: "Diablo II: Resurrected – Edição Infernal"
+    russian: "Diablo II: Resurrected — издание Infernal"
+    schinese: 《暗黑破坏神2》重制版 - 终极包
+    spanish: "Diablo II: Resurrected – Infernal Edition"
+    swedish: "Diablo II: Resurrected – Infernal Edition"
+    tchinese: 《暗黑破壞神 II：獄火重生》煉獄版
+    thai: "Diablo II: Resurrected – Infernal Edition"
+    turkish: "Diablo II: Resurrected - Infernal Edition"
+    ukrainian: "Diablo II: Resurrected - Infernal Edition"
 2536530:
   cloud:
     saves:
@@ -628126,6 +628173,19 @@
       executable: "JETRUNNER\\Binaries\\Win64\\JetrunnerGame.exe"
       type: option2
 2868840: {}
+2869000:
+  cloud:
+    saves:
+      - path: FCHEBEREKE
+        pattern: "*.bin"
+        platforms:
+          - Windows
+        root: WinSavedGames
+  installDir: HEBEREKE
+  launch:
+    - executable: FCHEBEREKE.exe
+  nameLocalized:
+    japanese: へべれけ えんじょいえでそん
 2869510:
   cloud:
     saves:
@@ -637444,7 +637504,17 @@
         oslist: macos
       executable: Cast n Chill.app
       type: default
-3484260: {}
+3484260:
+  cloud:
+    saves:
+      - path: "./{64BitSteamID}/"
+        pattern: story.save
+        root: gameinstall
+  installDir: DeadCore Redux
+  launch:
+    - config:
+        oslist: windows
+      executable: DeadCoreRedux.exe
 3485900:
   cloud:
     saves:
@@ -639817,6 +639887,23 @@
     schinese: "阿西, 美女室友竟然...？2"
     tchinese: "阿西, 美女室友竟然...？2"
 3734010: {}
+3738910:
+  cloud:
+    saves:
+      - path: "FURYU Corporation\\MODEL Debut3 #nicola\\___SaveData"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: "MODEL Debut3 #nicola"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "MODEL Debut3 #nicola.exe"
+      type: default
+  nameLocalized:
+    japanese: "MODEL Debut3 #nicola/モデルデビュー3 ニコラ"
 3741860:
   cloud:
     saves:

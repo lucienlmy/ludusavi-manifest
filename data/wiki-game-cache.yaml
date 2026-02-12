@@ -4025,6 +4025,8 @@ ACL Pro Cornhole:
   steam: 1702130
   templates:
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1702130\\remote\\}}"
+"ACM 1918: Aerial Combat Manoeuvres":
+  pageId: 213643
 ACardShooter:
   cloud:
     steam: true
@@ -27576,8 +27578,10 @@ Blades of Exile:
 Blades of Fire:
   cloud:
     epic: true
+    steam: true
   lutris: blades-of-fire
   pageId: 202016
+  steam: 2091020
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\|{{p|localappdata}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\|{{p|localappdata}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\}}"
@@ -61341,6 +61345,7 @@ Diablo II:
 "Diablo II: Resurrected":
   lutris: diablo-2-ressurected
   pageId: 166778
+  steam: 2536520
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Diablo II Resurrected\\save}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Diablo II Resurrected|{{p|userprofile}}\\Documents\\Diablo II Resurrected\\Save}}"
@@ -103649,6 +103654,13 @@ Heavyweight Thunder:
 Heavyweight Transport Simulator 3:
   pageId: 138956
   steam: 964420
+"Hebereke: Enjoy Edition":
+  cloud:
+    steam: true
+  pageId: 213645
+  steam: 2869000
+  steamSide:
+    - 2877330
 HecatoncheirStory:
   pageId: 108442
   steam: 916640
@@ -119695,6 +119707,8 @@ Jurassic City Walk:
   pageId: 45513
   steam: 378420
 Jurassic Park Classic Games Collection:
+  cloud:
+    steam: true
   pageId: 191392
   steam: 2673080
 "Jurassic Park: Operation Genesis":
@@ -120594,7 +120608,7 @@ Kandagawa Jet Girls:
   pageId: 10993
   steam: 28000
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\IO Interactive\\Kane & Lynch 2: Dog Days\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\IO Interactive\\Kane & Lynch 2: Dog Days\\|{{p|userprofile\\Documents}}\\Square Enix\\Kane & Lynch 2 - Dog Days\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\{{p|uid}}\\28000\\|{{p|userprofile\\Documents}}\\Square Enix\\Kane & Lynch 2 - Dog Days\\}}"
 "Kane & Lynch: Dead Men":
   cloud:
@@ -134595,6 +134609,11 @@ MMX:
 MOBA GM:
   pageId: 92871
   steam: 791990
+MODEL Debut3:
+  cloud:
+    steam: true
+  pageId: 213650
+  steam: 3738910
 MOE:
   pageId: 125683
   steam: 959770
@@ -179990,6 +180009,13 @@ Razenroth:
   templates:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Enitvare/Razenroth/prefs}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Enitvare/Razenroth/Saves/*.drv}}"
+Razenroth 2:
+  cloud:
+    steam: true
+  pageId: 213640
+  steam: 1425370
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Enitvare\\Razenroth2\\Saves}}"
 "Razerwire:Nanowars":
   cloud:
     steam: true
@@ -206733,6 +206759,8 @@ Space Hole 2018:
 Space Hotel:
   pageId: 55716
   steam: 564900
+Space Hulk:
+  pageId: 213646
 Space Hulk (2013):
   pageId: 9169
   steam: 242570
@@ -237970,6 +237998,8 @@ The Simpsons Arcade Game:
     - "{{Game data/saves|Windows|{{p|game}}\\Save*}}"
 "The Simpsons: Virtual Springfield":
   pageId: 89975
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 The Sims:
   lutris: the-sims
   pageId: 1426
