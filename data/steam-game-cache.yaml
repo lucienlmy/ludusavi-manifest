@@ -613656,6 +613656,21 @@
       description: Ever17
       executable: GameE17_Steam.exe
       type: default
+2393160:
+  cloud:
+    saves:
+      - path: "FusionPlay/Nice Day For Fishing/{64BitSteamID}/"
+        pattern: savegame
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: nice day for fishing
+  launch:
+    - config:
+        oslist: windows
+      executable: NiceDayForFishing.exe
+  nameLocalized:
+    schinese: 钓鱼哥的奇妙冒险
 2393920:
   cloud:
     saves:

@@ -141922,6 +141922,8 @@ Mewgenics:
   lutris: mewgenics
   pageId: 193329
   steam: 686060
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Glaiel Games\\Mewgenics\\{{p|uid}}\\saves\\*.sav}}"
 MewnBase:
   cloud:
     steam: true
@@ -154262,6 +154264,11 @@ Nibiru:
 Nibû:
   pageId: 123884
   steam: 938320
+Nice Day for Fishing:
+  cloud:
+    steam: true
+  pageId: 213654
+  steam: 2393160
 Nice Jumper:
   pageId: 144248
   steam: 1128480
@@ -265400,6 +265407,7 @@ Willy Morgan and the Curse of Bone Town:
   gog: 1247772513
   gogSide:
     - 1466566692
+  malformed: true
   pageId: 145417
   renamedFrom:
     - Willy Morgan

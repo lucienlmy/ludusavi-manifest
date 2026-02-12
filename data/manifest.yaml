@@ -440492,8 +440492,10 @@ Mewgenics:
     steam: true
   files:
     "<winAppData>/Glaiel Games/Mewgenics/<storeUserId>/saves/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: mewgenics
   installDir:
@@ -478002,6 +478004,23 @@ Nibû:
             store: steam
   steam:
     id: 938320
+Nice Day for Fishing:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/FusionPlay/Nice Day For Fishing/<storeUserId>/savegame":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    nice day for fishing: {}
+  launch:
+    "<base>/NiceDayForFishing.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2393160
 Nice Jumper:
   id:
     steamExtra:
