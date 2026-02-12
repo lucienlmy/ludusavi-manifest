@@ -630270,6 +630270,14 @@
     schinese: 《轮班87》
     tchinese: 《輪班 87》
 2982340:
+  cloud:
+    saves:
+      - path: ChromaGun2/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: ChromaGun 2 Dye Hard
+  launch:
+    - executable: ChromaGun2.exe
   nameLocalized:
     schinese: 色彩枪2：平行宇宙
     tchinese: 色彩槍2：平行宇宙

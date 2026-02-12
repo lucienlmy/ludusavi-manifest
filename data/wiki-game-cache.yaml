@@ -3247,7 +3247,7 @@ A Place for the Unwilling:
     - 967380
     - 1096660
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\SETTINGS|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\USERINPUT}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\SETTINGS|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\USERINPUT|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\ENGINESETTINGS}}"
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\SETTINGS|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\USERINPUT|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\ENGINESETTINGS}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\A Plague Tale Innocence\\SLOT*}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\752590\\remote\\SLOT*}}"
@@ -11470,8 +11470,8 @@ Among Us:
   steam: 945360
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Innersloth\\Among Us\\|{{p|hkcu}}\\Software\\InnerSloth\\Among Us\\}}"
-    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\Innersloth.AmongUs_fw5x688tam7rm\\SystemAppData\\Helium\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Innersloth\\Among Us\\playerStats3}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Innersloth.AmongUs_fw5x688tam7rm\\SystemAppData\\wgs}}"
 Among Us 3D:
   pageId: 201693
   steam: 3168600
@@ -27636,6 +27636,7 @@ Blair Witch:
     - 1784854828
     - 1835035058
     - 1899596813
+  lutris: blair-witch
   pageId: 138398
   steam: 1092660
   steamSide:
@@ -37097,6 +37098,7 @@ Carmageddon TDR 2000:
   cloud:
     epic: true
     steam: true
+  gog: 1083038978
   pageId: 211700
   steam: 1712100
   templates:
@@ -41473,8 +41475,12 @@ Chrono (2024):
     - "{{Game data/saves|Windows|{{P|game}}/Chrono/Saved/SaveGames}}"
     - "{{Game data/saves|Linux|{{P|game}}/Chrono/Saved/SaveGames}}"
 Chrono Ark:
+  cloud:
+    steam: true
   pageId: 153866
   steam: 1188930
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\AlFine\\ChronoArk}}"
 "Chrono Cross: The Radical Dreamers Edition":
   cloud:
     steam: true
@@ -44190,6 +44196,7 @@ Coffee Talk:
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Toge Productions\\CTHB\\SaveData\\Steam\\{{p|uid}}}}"
 Coffee Talk Tokyo:
+  gog: 1655473839
   pageId: 200390
   steam: 3161220
 Coffee Trainer VR:
@@ -131340,7 +131347,9 @@ LoliTower:
   steam: 1160780
 Lollipop Chainsaw RePOP:
   cloud:
+    gog: true
     steam: true
+  gog: 1235084453
   pageId: 195795
   steam: 2658450
   templates:
@@ -155944,14 +155953,18 @@ Nobody Saves the World:
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1432050\\}}"
 Nobody Wants to Die:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1484887196
   gogSide:
     - 1530606523
     - 1799044905
+  lutris: nobody-wants-to-die
   pageId: 193695
   steam: 1939970
+  steamSide:
+    - 2996830
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\detnoir\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\detnoir\\Saved\\SaveGames\\*.sav}}"
@@ -159810,7 +159823,7 @@ One Piece Odyssey:
   pageId: 31279
   steam: 425220
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\425220\\remote\\SYSTEM-DATA\\}}"
 "One Piece: Pirate Warriors 3":
   lutris: one-piece-pirate-warriors-3
@@ -270399,6 +270412,7 @@ Yooka-Laylee:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Playtonic Ltd\\Yooka-Laylee\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Playtonic Ltd/Yooka-Laylee/}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Playtonic Ltd\\Yooka-Laylee\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Team17DigitalLimited.5848AC421674_j5x4vj4y67jhc\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Playtonic Ltd/Yooka-Laylee/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/360830/remote/}}"
 Yooka-Laylee and the Impossible Lair:

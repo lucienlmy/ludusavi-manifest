@@ -10492,6 +10492,7 @@ A Place for the Unwilling:
         - config
       when:
         - os: windows
+        - os: windows
           store: steam
     "<winDocuments>/My Games/A Plague Tale Innocence/SETTINGS":
       tags:
@@ -35939,9 +35940,9 @@ Among Us:
         - save
       when:
         - os: windows
-    "<winLocalAppData>/Packages/Innersloth.AmongUs_fw5x688tam7rm/SystemAppData/Helium":
+    "<winLocalAppData>/Packages/Innersloth.AmongUs_fw5x688tam7rm/SystemAppData/wgs":
       tags:
-        - config
+        - save
       when:
         - os: windows
           store: microsoft
@@ -85646,6 +85647,7 @@ Blair Witch:
       - 1784854828
       - 1835035058
       - 1899596813
+    lutris: blair-witch
     steamExtra:
       - 1141710
       - 1141711
@@ -115669,6 +115671,8 @@ Carmageddon TDR 2000:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1083038978
   installDir:
     Carmageddon: {}
   launch:
@@ -129148,10 +129152,20 @@ ChromaGun:
 "ChromaGun 2: Dye Hard":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/ChromaGun2/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: chromagun-2-dye-hard
     steamExtra:
       - 3408840
+  installDir:
+    ChromaGun 2 Dye Hard: {}
+  launch:
+    "<base>/ChromaGun2.exe":
+      - when:
+          - store: steam
   steam:
     id: 2982340
 ChromaSquares:
@@ -129827,18 +129841,14 @@ Chrono (2024):
   steam:
     id: 3015650
 Chrono Ark:
+  cloud:
+    steam: true
   files:
-    "<home>/.config/unity3d/AlFine/ChronoArk/AlFine/ChronoArk/**/*.sav":
+    "<home>/AppData/LocalLow/AlFine/ChronoArk":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/AlFine/ChronoArk/**/*.sav":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/unity.AlFine.ChronoArk/AlFine/ChronoArk/**/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     Chrono Ark: {}
   steam:
@@ -138527,6 +138537,8 @@ Coffee Talk:
   steam:
     id: 1663220
 Coffee Talk Tokyo:
+  gog:
+    id: 1655473839
   steam:
     id: 3161220
 Coffee Trainer VR:
@@ -407644,6 +407656,7 @@ LoliTower:
     id: 1160780
 Lollipop Chainsaw RePOP:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/lollipop/Saved/Config/Windows/*.ini":
@@ -407656,6 +407669,8 @@ Lollipop Chainsaw RePOP:
         - save
       when:
         - os: windows
+  gog:
+    id: 1235084453
   installDir:
     LOLLIPOP CHAINSAW RePOP: {}
   launch:
@@ -483069,6 +483084,7 @@ Nobody Saves the World:
     id: 1432050
 Nobody Wants to Die:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -483088,6 +483104,9 @@ Nobody Wants to Die:
     gogExtra:
       - 1530606523
       - 1799044905
+    lutris: nobody-wants-to-die
+    steamExtra:
+      - 2996830
   installDir:
     Nobody Wants to Die: {}
   launch:
@@ -494894,6 +494913,11 @@ One Piece Odyssey:
   cloud:
     steam: true
   files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<root>/userdata/<storeUserId>/425220/remote/SYSTEM-DATA":
       tags:
         - save
@@ -834206,6 +834230,12 @@ Yooka-Laylee:
         - save
       when:
         - store: steam
+    "<winLocalAppData>/Packages/Team17DigitalLimited.5848AC421674_j5x4vj4y67jhc/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<xdgConfig>/unity3d/Playtonic Ltd/Yooka-Laylee":
       tags:
         - config
