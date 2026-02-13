@@ -37949,6 +37949,9 @@ Castlevania Dominus Collection:
     - "{{Game data/config|Windows|{{P|game}}\\winbackup\\savecfg.txt}}"
     - "{{Game data/saves|Windows|{{P|game}}\\winbackup}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2369900\\remote\\}}"
+"Castlevania: Belmont's Curse":
+  pageId: 213723
+  steam: 4231820
 "Castlevania: Grimoire of Souls":
   pageId: 170733
 "Castlevania: Lords of Shadow":
@@ -55225,6 +55228,9 @@ Darwin Project:
   pageId: 57772
   steam: 572020
 "Darwin's Paradox!":
+  cloud:
+    steam: true
+  lutris: darwins-paradox
   pageId: 202295
   steam: 2989180
 "Darwin's Test":
@@ -56685,6 +56691,9 @@ Dead or Alive 6:
   steam: 838380
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\DEADORALIVE6}}"
+Dead or Alive 6 Last Round:
+  pageId: 213727
+  steam: 4144680
 Dead or Alive Xtreme Venus Vacation:
   pageId: 131566
   renamedFrom:
@@ -62134,6 +62143,7 @@ Dino Crisis:
   gogSide:
     - 1630229434
   pageId: 54209
+  steam: 4249130
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{P|wow64}}\\CAPCOM\\DINOCRISIS}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE*.dno}}"
@@ -62144,6 +62154,7 @@ Dino Crisis 2:
   gogSide:
     - 1630229434
   pageId: 147898
+  steam: 4249140
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\dino2.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\SAVE*.DAT}}"
@@ -141284,6 +141295,11 @@ Metal Gear Solid - Master Collection Version:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\mgs3_savedata_win\\{{P|uid}}\\launcher\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\mgs3_savedata_win\\{{P|uid}}\\}}"
+"Metal Gear Solid 4: Guns of the Patriots - Master Collection Version":
+  cloud:
+    steam: true
+  pageId: 213729
+  steam: 4184400
 "Metal Gear Solid V: Ground Zeroes":
   cloud:
     steam: true
@@ -141323,6 +141339,11 @@ Metal Gear Solid - Master Collection Version:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\*.cfg|{{p|game}}\\dxcfg.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\|{{p|game}}\\records.vr}}"
+"Metal Gear Solid: Peace Walker - Master Collection Version":
+  cloud:
+    steam: true
+  pageId: 213731
+  steam: 4184360
 Metal Gear Survive:
   cloud:
     steam: true
@@ -153566,11 +153587,13 @@ Neurowake:
 Neva:
   cloud:
     steam: true
+  lutris: neva
   pageId: 198477
   steam: 2420660
   steamSide:
     - 2482520
     - 3160860
+    - 3905410
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\nomada studio\\Neva\\{{p|uid}}\\Save01\\Config.gs}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/Config.gs}}"
@@ -154678,6 +154701,11 @@ Night of the Consumers:
   pageId: 164221
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\germfood\\NIGHT OF THE CONSUMERS}}"
+Night of the Dead:
+  cloud:
+    steam: true
+  pageId: 213725
+  steam: 1377380
 Night of the Full Moon:
   pageId: 132106
   steam: 769560
@@ -200034,6 +200062,10 @@ Silent Hill f:
     - "{{Game data/saves|Windows|{{p|public}}\\Public Documents\\Silent Hill Homecoming\\shv_save.bin}}"
 "Silent Hill: The Arcade":
   pageId: 195781
+"Silent Hill: Townfall":
+  lutris: silent-hill-townfall
+  pageId: 213717
+  steam: 1636440
 Silent Hope:
   cloud:
     steam: true
@@ -267117,6 +267149,8 @@ Wonderful Everyday Down the Rabbit-Hole:
   steam: 658620
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\UserData\\|{{p|steam}}\\steamapps\\common\\Wonderful Everyday Down the Rabbit-Hole\\UserData\\}}"
+Wonderland:
+  pageId: 213722
 Wonderland Trails:
   pageId: 114738
   steam: 947310

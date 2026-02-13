@@ -118194,6 +118194,9 @@ Castlevania Dominus Collection:
           - store: steam
   steam:
     id: 2369900
+"Castlevania: Belmont's Curse":
+  steam:
+    id: 4231820
 "Castlevania: Lords of Shadow":
   cloud:
     steam: true
@@ -172278,6 +172281,10 @@ Darwin Project:
   steam:
     id: 572020
 "Darwin's Paradox!":
+  cloud:
+    steam: true
+  id:
+    lutris: darwins-paradox
   steam:
     id: 2989180
 "Darwin's Test":
@@ -176960,6 +176967,9 @@ Dead or Alive 6:
             store: steam
   steam:
     id: 838380
+Dead or Alive 6 Last Round:
+  steam:
+    id: 4144680
 Dead or Alive Xtreme Venus Vacation:
   files:
     "<base>/DX11_global_data/savedata":
@@ -194237,10 +194247,18 @@ Dino Crisis:
   id:
     gogExtra:
       - 1630229434
+  installDir:
+    4249130_DinoCrisis: {}
+  launch:
+    "<base>/4249130_Launcher.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/CAPCOM/DINOCRISIS:
       tags:
         - config
+  steam:
+    id: 4249130
 Dino Crisis 2:
   cloud:
     gog: true
@@ -194260,6 +194278,14 @@ Dino Crisis 2:
   id:
     gogExtra:
       - 1630229434
+  installDir:
+    4249140_DinoCrisis2: {}
+  launch:
+    "<base>/4249140_Launcher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4249140
 Dino D-Day:
   cloud:
     steam: true
@@ -438725,6 +438751,11 @@ Metal Gear Solid - Master Collection Version:
             store: steam
   steam:
     id: 2131650
+"Metal Gear Solid 4: Guns of the Patriots - Master Collection Version":
+  cloud:
+    steam: true
+  steam:
+    id: 4184400
 "Metal Gear Solid Delta: Snake Eater":
   alias: "Metal Gear Solid Δ: Snake Eater"
 "Metal Gear Solid V: Ground Zeroes":
@@ -438835,6 +438866,11 @@ Metal Gear Solid - Master Collection Version:
         - os: windows
   gog:
     id: 1771973390
+"Metal Gear Solid: Peace Walker - Master Collection Version":
+  cloud:
+    steam: true
+  steam:
+    id: 4184360
 Metal Gear Survive:
   cloud:
     steam: true
@@ -475819,9 +475855,11 @@ Neva:
       when:
         - os: mac
   id:
+    lutris: neva
     steamExtra:
       - 2482520
       - 3160860
+      - 3905410
   installDir:
     Neva: {}
   launch:
@@ -479119,6 +479157,41 @@ Night of the Consumers:
     HKEY_CURRENT_USER/SOFTWARE/germfood/NIGHT OF THE CONSUMERS:
       tags:
         - config
+Night of the Dead:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saved/Avatars":
+      when:
+        - store: steam
+    "<base>/Saved/SaveGames":
+      when:
+        - store: steam
+    "<winLocalAppData>/LF/Saved/Avatars":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+    "<winLocalAppData>/LF/Saved/SaveGames":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+  installDir:
+    Night of the Dead: {}
+  launch:
+    "<base>/LF.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/StartGame (No Anti Cheat).bat":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1377380
 Night of the Full Moon:
   files:
     "<home>/AppData/LocalLow/ztgame/月圆之夜/UserinfoRecord":
@@ -619690,6 +619763,11 @@ Silent Hill f:
         workingDir: "<base>/Bin"
   steam:
     id: 19000
+"Silent Hill: Townfall":
+  id:
+    lutris: silent-hill-townfall
+  steam:
+    id: 1636440
 Silent Hope:
   cloud:
     steam: true

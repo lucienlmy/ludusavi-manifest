@@ -549379,6 +549379,55 @@
         oslist: macos
       executable: VampiresMelody.app/Contents/MacOS/VampiresMelody
       type: none
+1377380:
+  cloud:
+    saves:
+      - path: Saved/SaveGames
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: LF/Saved/SaveGames
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Saved/Avatars
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: LF/Saved/Avatars
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: LF/
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocal
+  installDir: Night of the Dead
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LF.exe
+      type: default
+    - config:
+        betakey: 1.3.2
+        osarch: "64"
+        oslist: windows
+      description: Previous Version (Under 2.X.X)
+      executable: LF.exe
+    - config:
+        betakey: 1.2.4
+        osarch: "64"
+        oslist: windows
+      description: Previous Version (Under 2.X.X)
+      executable: LF.exe
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: "Play Night of the Dead (Non_EasyAntiCheat, Non_Official)"
+      executable: StartGame (No Anti Cheat).bat
 1377580:
   installDir: Soulworker_GB
   launch:
@@ -570520,6 +570569,7 @@
   launch:
     - executable: portal2.exe
       type: default
+1636440: {}
 1636660:
   cloud:
     saves:
@@ -641287,6 +641337,7 @@
     - executable: start_protected_game.exe
       type: default
 4144090: {}
+4144680: {}
 4146000: {}
 4149610: {}
 4162690: {}
@@ -641311,6 +641362,8 @@
     schinese: 深巷
     tchinese: 深巷
 4184130: {}
+4184360: {}
+4184400: {}
 4193270:
   cloud:
     saves:
@@ -641358,8 +641411,21 @@
     koreana: "록맨: 듀얼 오버라이드"
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
+4231820: {}
 4233530: {}
 4244910: {}
+4249130:
+  installDir: 4249130_DinoCrisis
+  launch:
+    - executable: 4249130_Launcher.exe
+  nameLocalized:
+    japanese: DINO CRISIS
+4249140:
+  installDir: 4249140_DinoCrisis2
+  launch:
+    - executable: 4249140_Launcher.exe
+  nameLocalized:
+    japanese: DINO CRISIS 2
 4253970:
   installDir: Napoleon 1813
   launch:
