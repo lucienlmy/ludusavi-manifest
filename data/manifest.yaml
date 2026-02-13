@@ -2960,6 +2960,17 @@ $1 Ride:
           - store: steam
   steam:
     id: 1045930
+"1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde":
+  files:
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/WarnerBros/AnderthalbRitter:
+      tags:
+        - config
 2 Ninjas 1 Cup:
   installDir:
     2 Ninjas 1 Cup: {}
@@ -179263,6 +179274,11 @@ Death Stranding:
   steam:
     id: 3280350
 "Death Stranding 2: On the Beach":
+  cloud:
+    epic: true
+    steam: true
+  id:
+    lutris: death-stranding-2-on-the-beach
   steam:
     id: 3280350
 "Death Stranding Director's Cut":
@@ -272238,6 +272254,13 @@ Formula Car Racing Simulator:
             store: steam
   steam:
     id: 1221590
+Formula Challenge:
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
 Formula E powered by Virtually Live:
   installDir:
     Formula E powered by Virtually Live: {}
@@ -332069,6 +332092,10 @@ High on Life:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: high-on-life
+    steamExtra:
+      - 2447000
   installDir:
     HighOnLife: {}
   launch:
@@ -332080,6 +332107,19 @@ High on Life:
 High on Life 2:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/HighOnLife2/Saved/SaveGames/Slot*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: high-on-life-2
+  installDir:
+    HighOnLife2: {}
+  launch:
+    "<base>/HighOnLife2.exe":
+      - when:
+          - store: steam
   steam:
     id: 2069250
 HighFleet:
@@ -393439,9 +393479,13 @@ Lavender:
     id: 886710
 "Law & Order: Criminal Intent":
   files:
-    "<winDocuments>/ ??? /lawandorder":
+    "<base>/DATA/game/.options":
       tags:
         - config
+      when:
+        - os: windows
+    "<base>/DATA/game/game*.dat":
+      tags:
         - save
       when:
         - os: windows
@@ -393453,6 +393497,8 @@ Lavender:
         - save
       when:
         - os: windows
+  id:
+    lutris: law-order-legacies
   installDir:
     lawandorder: {}
   launch:
@@ -395209,6 +395255,8 @@ Leftovers KO!:
 "Legacy of Kain: Ascendance":
   cloud:
     steam: true
+  gog:
+    id: 1911062444
   steam:
     id: 4233530
 "Legacy of Kain: Blood Omen 2":
@@ -395262,7 +395310,10 @@ Leftovers KO!:
     id: 224300
 "Legacy of Kain: Defiance Remastered":
   cloud:
+    epic: true
     steam: true
+  gog:
+    id: 1818228492
   steam:
     id: 3747730
 "Legacy of Kain: Soul Reaver":
@@ -419284,6 +419335,9 @@ MachiaVillain:
 Machiavelli the Prince:
   gog:
     id: 2077138522
+  id:
+    gogExtra:
+      - 1374796729
   steam:
     id: 1297570
 Machina of the Planet Tree -Planet Ruler-:
@@ -557963,6 +558017,18 @@ Rayman Redemption:
         - os: windows
   id:
     lutris: rayman-redemption
+"Rayman: 30th Anniversary Edition":
+  installDir:
+    rayman30th: {}
+  launch:
+    "<base>/rayman30th.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4094670
 "Raymond's Obstacle Course":
   installDir:
     "Raymond's Obstacle Course": {}
@@ -560397,6 +560463,7 @@ Realshot:
     id: 779160
 Reanimal:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/*.sav":
@@ -560413,6 +560480,14 @@ Reanimal:
     id: 1209105161
   id:
     lutris: reanimal
+  installDir:
+    REANIMAL: {}
+  launch:
+    "<base>/Everholm/Binaries/Win64/REANIMAL.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2129530
 Reanimation Inc.:
@@ -580789,6 +580864,20 @@ Rogue Party:
   steam:
     id: 913090
 Rogue Point:
+  files:
+    "<winLocalAppData>/Tango/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Rogue Point: {}
+  launch:
+    "<base>/Tango.exe":
+      - arguments: splash
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1843840
 Rogue Port - Blue Nightmare:
@@ -791607,6 +791696,29 @@ Vampire of the Sands:
 "Vampire's Fall 2":
   cloud:
     steam: true
+  files:
+    "<home>/.config/unity3d/Early Morning Studio/Vampire's Fall 2/<storeUserId>":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Early Morning Studio/Vampire's Fall 2/<storeUserId>":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Early Morning Studio/Vampire's Fall 2/<storeUserId>":
+      when:
+        - os: mac
+          store: steam
+  id:
+    steamExtra:
+      - 4268190
+  installDir:
+    "Vampire's Fall 2": {}
+  launch:
+    "<base>/Vampire's Fall 2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4264230
 "Vampire's Fall: Origins":
@@ -816506,6 +816618,15 @@ Whipseey and the Lost Atlas:
             store: steam
   steam:
     id: 1034920
+Whirlight - No Time To Trip:
+  cloud:
+    steam: true
+  id:
+    lutris: whirlight-no-time-to-trip
+    steamExtra:
+      - 3001300
+  steam:
+    id: 2706980
 Whirlpool:
   installDir:
     Whirlpool: {}

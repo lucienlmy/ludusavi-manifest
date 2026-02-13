@@ -902,6 +902,9 @@ $1 Ride:
     - "{{Game data/saves|Windows|{{p|game}}\\www\\save\\}}"
 "1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde":
   pageId: 195713
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\WarnerBros\\AnderthalbRitter\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\saves\\}}"
 2 Ninjas 1 Cup:
   pageId: 56984
   steam: 576810
@@ -4419,7 +4422,7 @@ AO International Tennis:
   steam: 758410
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\AO Tennis\\config.ini}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\AO Tennis\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\AO Tennis}}"
 AO Tennis 2:
   cloud:
     steam: true
@@ -57409,6 +57412,10 @@ Death Stranding:
   pageId: 213704
   steam: 3280350
 "Death Stranding 2: On the Beach":
+  cloud:
+    epic: true
+    steam: true
+  lutris: death-stranding-2-on-the-beach
   pageId: 213700
   steam: 3280350
 "Death Stranding Director's Cut":
@@ -87561,6 +87568,8 @@ Formula Car Racing Simulator:
   steam: 1221590
 Formula Challenge:
   pageId: 209553
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Formula E powered by Virtually Live:
   pageId: 62647
   steam: 585000
@@ -106830,10 +106839,13 @@ High on Life:
   cloud:
     steam: true
     xbox: true
+  lutris: high-on-life
   pageId: 181153
   renamedFrom:
     - High On Life
   steam: 1583230
+  steamSide:
+    - 2447000
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Oregon\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\Oregon\\Saved\\Config\\WindowsNoEditor\\}}"
@@ -106843,6 +106855,7 @@ High on Life 2:
   cloud:
     steam: true
     xbox: true
+  lutris: high-on-life-2
   pageId: 205301
   steam: 2069250
 HighFleet:
@@ -126758,9 +126771,10 @@ Lavender:
 "Law & Order: Criminal Intent":
   pageId: 146686
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\ ??? \\lawandorder}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\ ??? \\lawandorder}}"
+    - "{{Game data/config|Windows|{{p|game}}\\DATA\\game\\.options}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\DATA\\game\\game*.dat}}"
 "Law & Order: Legacies":
+  lutris: law-order-legacies
   pageId: 60047
   steam: 205330
   templates:
@@ -127292,6 +127306,7 @@ Legacy:
 "Legacy of Kain: Ascendance":
   cloud:
     steam: true
+  gog: 1911062444
   pageId: 213709
   steam: 4233530
 "Legacy of Kain: Blood Omen 2":
@@ -127314,7 +127329,9 @@ Legacy:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Legacy of Kain - Defiance\\}}"
 "Legacy of Kain: Defiance Remastered":
   cloud:
+    epic: true
     steam: true
+  gog: 1818228492
   pageId: 213703
   steam: 3747730
 "Legacy of Kain: Soul Reaver":
@@ -135002,6 +135019,8 @@ MachiaVillain:
     - "{{Game data/saves|Windows|{{p|game}}\\MachiaVillain_Data\\Saves\\}}"
 Machiavelli the Prince:
   gog: 2077138522
+  gogSide:
+    - 1374796729
   pageId: 163330
   steam: 1297570
 Machina of the Planet Tree -Planet Ruler-:
@@ -180082,6 +180101,9 @@ Rayman Redemption:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\RaymanRedemption\\options.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\RaymanRedemption\\}}"
+"Rayman: 30th Anniversary Edition":
+  pageId: 213746
+  steam: 4094670
 "Raymond's Obstacle Course":
   pageId: 80561
   steam: 756980
@@ -180918,6 +180940,7 @@ Realshot:
   steam: 779160
 Reanimal:
   cloud:
+    gog: true
     steam: true
     xbox: true
   gog: 1209105161
@@ -256354,6 +256377,8 @@ Vampire of the Sands:
     steam: true
   pageId: 213264
   steam: 4264230
+  steamSide:
+    - 4268190
 "Vampire's Fall: Origins":
   cloud:
     gog: true
@@ -264642,6 +264667,14 @@ Whiplash - Crash Valley:
 Whipseey and the Lost Atlas:
   pageId: 136943
   steam: 1034920
+Whirlight - No Time To Trip:
+  cloud:
+    steam: true
+  lutris: whirlight-no-time-to-trip
+  pageId: 213744
+  steam: 2706980
+  steamSide:
+    - 3001300
 Whirlpool:
   pageId: 77246
   steam: 756220
@@ -265499,7 +265532,6 @@ Willy Morgan and the Curse of Bone Town:
   gog: 1247772513
   gogSide:
     - 1466566692
-  malformed: true
   pageId: 145417
   renamedFrom:
     - Willy Morgan

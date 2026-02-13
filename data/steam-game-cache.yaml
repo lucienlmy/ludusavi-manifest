@@ -584839,6 +584839,26 @@
   launch:
     - executable: Akimbot.exe
 1843840:
+  cloud:
+    saves:
+      - path: Tango/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Rogue Point
+  launch:
+    - arguments: splash
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Tango.exe
+      type: default
+    - config:
+        ownsdlc: "3756640"
+      description: Rogue Point - Artbook
+      executable: "Digital Artbook\\digitalextra.bat"
+      type: option1
   nameLocalized:
     schinese: 佣兵猎手
 1843860:
@@ -598719,6 +598739,16 @@
     spanish: Mi gran comisión de abejas 3
     swedish: Jag anlitade några bin 3
 2069250:
+  cloud:
+    saves:
+      - path: HighOnLife2/Saved/SaveGames
+        pattern: Slot*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: HighOnLife2
+  launch:
+    - executable: HighOnLife2.exe
   nameLocalized:
     schinese: 高能人生2
 2069640:
@@ -602480,6 +602510,41 @@
   launch:
     - executable: twitch place.exe
 2129530:
+  cloud:
+    saves:
+      - path: "REANIMAL/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: Everholm/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: "Everholm/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: REANIMAL
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Everholm/Binaries/Win64/REANIMAL.exe
+      type: default
+    - arguments: "-HideIngameHUD -ExecCmds=\"AutoTest.ShouldCapturePerformance 0\""
+      config:
+        betakey: review_build
+        osarch: "64"
+        oslist: windows
+      description: REVIEW copy of REANIMAL
+      executable: Everholm/Binaries/Win64/Everholm.exe
+      type: option1
+    - config:
+        betakey: external_review
+        osarch: "64"
+        oslist: windows
+      description: REANIMAL for External Review
+      executable: Everholm/Binaries/Win64/Everholm.exe
+      type: option1
   nameLocalized:
     schinese: 生灵重塑
     tchinese: 生灵重塑
@@ -624899,6 +624964,12 @@
         oslist: macos
       executable: "Hands of Necromancy II.app\\Contents\\MacOS\\handsofnecromancy2"
       type: default
+2706980:
+  nameLocalized:
+    japanese: ワールライト・タイムリミット
+    koreana: "훨라이트: 시공간을 넘은 여정"
+    schinese: 漩光奇旅：争分夺秒
+    tchinese: 漩光奇旅：爭分奪秒
 2707260:
   cloud:
     saves:
@@ -641294,6 +641365,20 @@
   nameLocalized:
     english: Karous
     japanese: カラス
+4094670:
+  installDir: rayman30th
+  launch:
+    - arguments: "-uplay_steam_mode"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: rayman30th.exe
+      type: default
+  nameLocalized:
+    japanese: レイマン 30周年エディション
+    koreana: "레이맨: 30주년 에디션"
+    schinese: 雷曼：30 周年纪念版
+    tchinese: 雷射超人：30 週年紀念版
 4095380: {}
 4096880: {}
 4097180: {}
@@ -641443,7 +641528,30 @@
         oslist: windows
       description: Runes Card
       executable: CODES.BAT
-4264230: {}
+4264230:
+  cloud:
+    saves:
+      - path: "Early Morning Studio/Vampire's Fall 2/{64BitSteamID}"
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: "Vampire's Fall 2"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Vampire's Fall 2.exe"
+      type: default
 4289030: {}
 4295810:
   nameLocalized:
