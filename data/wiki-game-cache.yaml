@@ -25768,6 +25768,9 @@ Big Tower Tiny Square:
     steam: true
   pageId: 77329
   steam: 751250
+Big Walk:
+  pageId: 213699
+  steam: 1478500
 BigBoy - Visual Crime Novel:
   pageId: 104443
   steam: 908690
@@ -27646,6 +27649,12 @@ Blair Witch:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Blairwitch\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\3951BlooberTeamS.A.BlairWitch_myqva651hxz16\\LocalCache\\Local\\Blairwitch\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Blairwitch\\Saved\\SaveGames\\}}"
+Blair Witch VR:
+  cloud:
+    steam: true
+  lutris: blair-witch-vr
+  pageId: 213697
+  steam: 1576350
 "Blair Witch Volume 1: Rustin Parr":
   pageId: 81895
   templates:
@@ -33009,8 +33018,10 @@ Brotato:
     - 2868390
     - 3281080
   templates:
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Brotato/{{p|uid}}/settings.json}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Brotato\\{{p|uid}}\\*.json}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Brotato/{{p|uid}}/*.json}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Brotato/{{p|uid}}/save_*.json}}"
 Brother Bear:
   pageId: 97679
   templates:
@@ -57383,6 +57394,14 @@ Death Stranding:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\505GAMESS.P.A.DeathStranding_tefn33qh9azfc\\SystemAppData\\xgs\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\KojimaProductions\\DeathStranding\\{{P|uid}}\\}}"
     - "{{Game data/saves|Epic Games Store|{{P|userprofile}}\\AppData\\LocalLow\\KojimaProductions\\DeathStranding\\{{P|uid}}\\}}"
+"Death Stranding 2: On The Beach":
+  cloud:
+    steam: true
+  pageId: 213704
+  steam: 3280350
+"Death Stranding 2: On the Beach":
+  pageId: 213700
+  steam: 3280350
 "Death Stranding Director's Cut":
   cloud:
     epic: true
@@ -62526,9 +62545,17 @@ Dischord:
   steam: 200670
 "Disciples: Domination":
   cloud:
+    epic: true
     steam: true
+  lutris: disciples-domination
   pageId: 206905
   steam: 2808560
+  steamSide:
+    - 4107980
+    - 4107990
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Kalypso Media\\Disciples_Domination\\Saves\\{{p|uid}}\\*.d5s}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Kalypso Media/Disciples_Domination/Saves/{{p|uid}}}}"
 "Disciples: Liberation":
   cloud:
     gog: true
@@ -73009,7 +73036,8 @@ Elements (1994):
 Elements of Destruction:
   pageId: 186602
   templates:
-    - "{{Game data/saves|Windows|{{P|programdata}}\\Frozen Codebase LLC\\Elements of Destruction\\save\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Frozen Codebase LLC\\Elements Of Destruction\\Video}}"
+    - "{{Game data/saves|Windows|{{P|programdata}}\\Frozen Codebase LLC\\Elements of Destruction\\save}}"
 Elements of War:
   pageId: 164667
   templates:
@@ -127250,6 +127278,11 @@ Legacy:
   steam: 389850
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Tin Man Games\\gw.heraldofoblivion\\}}"
+"Legacy of Kain: Ascendance":
+  cloud:
+    steam: true
+  pageId: 213709
+  steam: 4233530
 "Legacy of Kain: Blood Omen 2":
   gog: 1207659101
   lutris: legacy-of-kain-blood-omen-2
@@ -127268,6 +127301,11 @@ Legacy:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Legacy of Kain - Defiance\\|{{p|hkcu}}\\Software\\Crystal Dynamics\\Legacy of Kain: Defiance\\1.00.000}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Legacy of Kain - Defiance\\}}"
+"Legacy of Kain: Defiance Remastered":
+  cloud:
+    steam: true
+  pageId: 213703
+  steam: 3747730
 "Legacy of Kain: Soul Reaver":
   cloud:
     gog: true
@@ -154278,6 +154316,8 @@ Nice Day for Fishing:
     steam: true
   pageId: 213654
   steam: 2393160
+  templates:
+    - "{{Game data/saves|Windows|%appdata%\\..\\LocalLow\\FusionPlay\\Nice Day For Fishing\\}}"
 Nice Jumper:
   pageId: 144248
   steam: 1128480
@@ -173622,10 +173662,14 @@ Pro Evolution Soccer 2019 Lite:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KONAMI\\PRO EVOLUTION SOCCER 2019 LITE\\{{p|uid}}\\save\\}}"
 Pro Evolution Soccer 3:
   pageId: 154929
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\option.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Pro Evolution Soccer 4:
   pageId: 154933
   templates:
-    - "{{Game data/saves|Windows|{{p|programfiles}}\\KONAMI\\Pro Evolution Soccer 4\\save\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\option.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Pro Evolution Soccer 5:
   pageId: 154935
 Pro Evolution Soccer 6:
@@ -182796,7 +182840,10 @@ Repetendium:
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Repetendium}}"
 Replaced:
+  cloud:
+    steam: true
   gog: 1936811781
+  lutris: replaced
   pageId: 169280
   steam: 1663850
 Replay - VHS is not dead:

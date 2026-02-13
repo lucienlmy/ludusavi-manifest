@@ -79974,6 +79974,9 @@ Big Tower Tiny Square:
             store: steam
   steam:
     id: 751250
+Big Walk:
+  steam:
+    id: 1478500
 BigBoy - Visual Crime Novel:
   installDir:
     BigBoyVisualCrimeNovel: {}
@@ -85666,6 +85669,20 @@ Blair Witch:
             store: steam
   steam:
     id: 1092660
+Blair Witch VR:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BlairwitchVR/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: blair-witch-vr
+  installDir:
+    Blair Witch VR: {}
+  steam:
+    id: 1576350
 "Blair Witch Volume 1: Rustin Parr":
   files:
     "<base>/SYSTEM":
@@ -102735,6 +102752,16 @@ Brotato:
     epic: true
     steam: true
   files:
+    "<home>/.local/share/Brotato/<storeUserId>/save_*.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/Brotato/<storeUserId>/settings.json":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/Library/Application Support/Brotato/<storeUserId>/*.json":
       tags:
         - save
@@ -179220,6 +179247,14 @@ Death Stranding:
             store: steam
   steam:
     id: 1190460
+"Death Stranding 2: On The Beach":
+  cloud:
+    steam: true
+  steam:
+    id: 3280350
+"Death Stranding 2: On the Beach":
+  steam:
+    id: 3280350
 "Death Stranding Director's Cut":
   cloud:
     epic: true
@@ -195327,7 +195362,35 @@ Dischord:
     id: 200670
 "Disciples: Domination":
   cloud:
+    epic: true
     steam: true
+  files:
+    "<home>/Library/Application Support/Kalypso Media/Disciples_Domination/Saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Kalypso Media/Disciples_Domination/Saves/<storeUserId>/*.d5s":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: disciples-domination
+    steamExtra:
+      - 4107980
+      - 4107990
+  installDir:
+    Disciples Domination: {}
+  launch:
+    "<base>/Disciples_Domination.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/LauncherDisciplesDomination.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2808560
 "Disciples: Liberation":
@@ -227694,6 +227757,10 @@ Elements of Destruction:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Frozen Codebase LLC/Elements Of Destruction/Video:
+      tags:
+        - config
 Elements of War:
   files:
     "<base>/Data":
@@ -395113,6 +395180,11 @@ Leftovers KO!:
         - config
   steam:
     id: 389850
+"Legacy of Kain: Ascendance":
+  cloud:
+    steam: true
+  steam:
+    id: 4233530
 "Legacy of Kain: Blood Omen 2":
   files:
     "<winDocuments>/Blood Omen 2/Save *":
@@ -395162,6 +395234,11 @@ Leftovers KO!:
         - config
   steam:
     id: 224300
+"Legacy of Kain: Defiance Remastered":
+  cloud:
+    steam: true
+  steam:
+    id: 3747730
 "Legacy of Kain: Soul Reaver":
   cloud:
     gog: true
@@ -419244,6 +419321,10 @@ Machinarium:
             store: steam
     "<base>/Machinarium.exe":
       - when:
+          - os: windows
+            store: steam
+      - arguments: "-dx12"
+        when:
           - os: windows
             store: steam
     "<base>/Machinarium_old_32bit_DX9.exe":
@@ -478023,10 +478104,11 @@ Nice Day for Fishing:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/FusionPlay/Nice Day For Fishing/<storeUserId>/savegame":
+    "<winAppData>/../LocalLow/FusionPlay/Nice Day For Fishing":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     nice day for fishing: {}
   launch:
@@ -537375,9 +537457,26 @@ Pro Evolution Soccer 2019 Lite:
           - store: steam
   steam:
     id: 950100
+Pro Evolution Soccer 3:
+  files:
+    "<base>/option.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
 Pro Evolution Soccer 4:
   files:
-    "C:/Program Files/KONAMI/Pro Evolution Soccer 4/save":
+    "<base>/option.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
       tags:
         - save
       when:
@@ -566365,8 +566464,12 @@ Repetendium:
   steam:
     id: 2055500
 Replaced:
+  cloud:
+    steam: true
   gog:
     id: 1936811781
+  id:
+    lutris: replaced
   steam:
     id: 1663850
 Replay - VHS is not dead:

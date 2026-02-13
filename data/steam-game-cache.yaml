@@ -9801,6 +9801,7 @@
   launch:
     - config:
         oslist: windows
+      description: Play with OpenGL (Default)
       executable: Machinarium.exe
     - config:
         oslist: macos
@@ -9831,8 +9832,13 @@
       type: none
     - config:
         oslist: windows
-      description: Play DirectX 9 version (old)
+      description: Play with DirectX 9
       executable: Machinarium_old_32bit_DX9.exe
+    - arguments: "-dx12"
+      config:
+        oslist: windows
+      description: Play with DirectX 12
+      executable: Machinarium.exe
   nameLocalized:
     japanese: Machinarium  (マシナリウム)
     koreana: Machinarium (머시나리움)
@@ -558598,6 +558604,7 @@
   nameLocalized:
     english: Nyaruru Fishy Fight
     japanese: にゃるるファイト！
+1478500: {}
 1478650:
   cloud:
     saves:
@@ -565569,6 +565576,21 @@
         oslist: windows
       executable: The Shadow of Yidhra.exe
       type: none
+1576350:
+  cloud:
+    saves:
+      - path: "BlairwitchVR/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Blair Witch VR
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Blairwitch.exe
+      type: vr
 1577120:
   installDir: The Quarry
   launch:
@@ -614911,6 +614933,21 @@
         pattern: "*"
         recursive: true
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "nomada studio/Neva/{64BitSteamID}"
+            replace: "unity.nomada studio.Neva/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "nomada studio/Neva/{64BitSteamID}"
+            replace: ".config/unity3d/nomada studio/Neva/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: Neva
   launch:
     - config:
@@ -627215,7 +627252,31 @@
     schinese: 战地风云™ 6
     tchinese: 戰地風雲™ 6
 2808550: {}
-2808560: {}
+2808560:
+  cloud:
+    saves:
+      - path: "Kalypso Media\\Disciples_Domination\\Saves\\{64BitSteamID}"
+        pattern: "*.d5s"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Kalypso Media\\Disciples_Domination\\Saves\\{64BitSteamID}"
+            replace: "Kalypso Media\\Disciples_Domination\\Saves\\{64BitSteamID}"
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Disciples Domination
+  launch:
+    - config:
+        oslist: windows
+      executable: LauncherDisciplesDomination.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Disciples_Domination.app
+      type: default
 2808800:
   cloud:
     saves:
@@ -635066,6 +635127,7 @@
     koreana: 호라이즌 워커(Horizon Walker)
     schinese: 地平线行者(Horizon Walker)
     tchinese: 地平線行者(Horizon Walker)
+3280350: {}
 3281130:
   installDir: World of Outlaws 24
   launch:
@@ -639992,6 +640054,7 @@
     spanish: "Thomas y sus amigos™: las maravillas de Sodor"
 3744040: {}
 3746310: {}
+3747730: {}
 3749580: {}
 3751160:
   nameLocalized:
@@ -641295,6 +641358,7 @@
     koreana: "록맨: 듀얼 오버라이드"
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
+4233530: {}
 4244910: {}
 4253970:
   installDir: Napoleon 1813
