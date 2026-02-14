@@ -73535,6 +73535,8 @@ Beast Quest:
   id:
     lutris: beast-wars-transformers
 Beast of Reincarnation:
+  id:
+    lutris: beast-of-reincarnation
   steam:
     id: 2001760
 Beastiarium:
@@ -577355,8 +577357,26 @@ Roadside Assistance Simulator:
   steam:
     id: 302440
 Roadside Research:
+  files:
+    "<home>/.config/unity3d/CyberneticWalrus/Roadside Research/saves/CyberneticWalrus/Roadside Research/saves/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/CyberneticWalrus/Roadside Research/saves/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/CyberneticWalrus/Roadside Research/saves/CyberneticWalrus/Roadside Research/saves/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: roadside-research
+  installDir:
+    Roadside Research: {}
+  launch:
+    "<base>/Roadside Research.exe":
+      - when:
+          - store: steam
   steam:
     id: 3643170
 Roadwarden:
@@ -636165,6 +636185,7 @@ Songs of Silence:
       - 1917982173
       - 1984868726
       - 2133340084
+    lutris: songs-of-silence
     steamExtra:
       - 2591760
       - 2685660
@@ -658675,6 +658696,14 @@ Starsand Island:
   id:
     steamExtra:
       - 3864220
+  installDir:
+    StarsandIsland: {}
+  launch:
+    "<base>/StarsandIsland.exe":
+      - arguments: "-steamapp -silencelogin"
+        when:
+          - bit: 64
+            store: steam
   steam:
     id: 2966320
 Starscape:

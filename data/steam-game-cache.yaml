@@ -630296,12 +630296,30 @@
     tchinese: 女神異聞錄４ Revival
     thai: เพอร์โซนา 4 รีไววัล
 2966320:
+  cloud:
+    saves:
+      - path: "SeedLab/StarsandIsland/steam.pre/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "SeedLab/StarsandIsland/steam/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: StarsandIsland
+  launch:
+    - arguments: "-steamapp -silencelogin"
+      config:
+        osarch: "64"
+      description: DX11启动
+      executable: StarsandIsland.exe
+      type: default
   nameLocalized:
     brazilian: Starsand Island
     english: Starsand Island
     french: Starsand Island
     german: Starsand Island
-    japanese: Starsand Island
+    japanese: スターサンド・アイランド
     portuguese: Starsand Island
     schinese: 星砂岛
     tchinese: 星砂島
@@ -639491,7 +639509,29 @@
     japanese: アーネスト・エバンスCOLLECTION
 3641000: {}
 3641830: {}
-3643170: {}
+3643170:
+  cloud:
+    saves:
+      - path: CyberneticWalrus/Roadside Research/saves
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ".config/unity3d/CyberneticWalrus/Roadside Research/saves"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - addPath: CyberneticWalrus/Roadside Research/saves
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Roadside Research
+  launch:
+    - executable: Roadside Research.exe
+  nameLocalized:
+    schinese: 宇宙牌加油站
+    tchinese: 宇宙牌加油站
 3645160:
   nameLocalized:
     japanese: フロストパンク1886

@@ -23655,6 +23655,7 @@ Beast Quest:
   lutris: beast-wars-transformers
   pageId: 80068
 Beast of Reincarnation:
+  lutris: beast-of-reincarnation
   pageId: 205825
   steam: 2001760
 Beastiarium:
@@ -27982,6 +27983,7 @@ BlazBlue Centralfiction:
 "BlazBlue: Entropy Effect":
   cloud:
     steam: true
+    xbox: true
   pageId: 193134
   steam: 2273430
   templates:
@@ -91458,6 +91460,8 @@ Galak Zed:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/17-BIT/Galak-Z/}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveData.dat}}"
     - "{{Game data/saves|Linux|{{p|game}}/SaveData.dat}}"
+Galapagos:
+  pageId: 213760
 GalaxIverse:
   cloud:
     steam: true
@@ -170360,6 +170364,8 @@ Platinum Pinball:
 Platonic Paranoia:
   pageId: 135293
   steam: 1071720
+Platoon Leader:
+  pageId: 213758
 Platro:
   pageId: 40074
   steam: 527550
@@ -186486,6 +186492,8 @@ Roadside Assistance Simulator:
   pageId: 49597
   steam: 302440
 Roadside Research:
+  cloud:
+    xbox: true
   lutris: roadside-research
   pageId: 210464
   steam: 3643170
@@ -205139,6 +205147,7 @@ Songs of Silence:
     - 1917982173
     - 1984868726
     - 2133340084
+  lutris: songs-of-silence
   pageId: 194182
   steam: 2195410
   steamSide:
@@ -212544,6 +212553,8 @@ Starsand:
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Tunnel Vision Studio\\Starsand\\{{p|uid}}}}"
 Starsand Island:
+  cloud:
+    xbox: true
   pageId: 209726
   steam: 2966320
   steamSide:
