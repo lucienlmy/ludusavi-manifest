@@ -82722,6 +82722,9 @@ Fear the Timeloop:
   steam: 2918090
   steamSide:
     - 3167460
+  templates:
+    - "{{Game data/config|Windows|%LOCALAPPDATA%\\FearTheTimeloop\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|%LOCALAPPDATA%\\FearTheTimeloop\\Saved\\SaveGames}}"
 Fear the Wolves:
   pageId: 99796
   steam: 819500

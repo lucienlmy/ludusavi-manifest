@@ -629394,13 +629394,6 @@
     schinese: 拉杆英雄
     tchinese: 拉桿英雄
 2918090:
-  cloud:
-    saves:
-      - path: "FearTheTimeloop\\Saved\\SaveGames"
-        pattern: "*"
-        platforms:
-          - Windows
-        root: WinAppDataLocal
   installDir: Fear The Timeloop
   launch:
     - config:
@@ -635430,7 +635423,9 @@
   installDir: NINJAGAIDEN2BLACK
   launch:
     - executable: NINJAGAIDEN2BLACK.exe
-3288210: {}
+3288210:
+  nameLocalized:
+    schinese: 超级肉肉男孩 3D
 3288270:
   cloud:
     saves:

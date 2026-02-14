@@ -256722,10 +256722,16 @@ Fear the Timeloop:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/FearTheTimeloop/Saved/SaveGames":
+    "<winLocalAppData>/FearTheTimeloop/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/FearTheTimeloop/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: fear-the-timeloop
     steamExtra:
