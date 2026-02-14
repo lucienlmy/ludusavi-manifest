@@ -621710,6 +621710,20 @@
         osarch: "64"
       executable: Space Drop.exe
       type: openxr
+2608050:
+  cloud:
+    saves:
+      - path: Cats Hidden in Jingle Jam
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Cats Hidden in Jingle Jam
+  launch:
+    - config:
+        oslist: windows
+      executable: Cats Hidden in Jingle Jam.exe
+      type: default
 2608270:
   cloud:
     saves:

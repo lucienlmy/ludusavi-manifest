@@ -6132,7 +6132,7 @@ $1 Ride:
     id: 1023740
 7 Sins:
   files:
-    "<base>/GameSetup.exe":
+    "<base>/User.cfg":
       tags:
         - config
       when:
@@ -86119,6 +86119,7 @@ Blasphemous 2:
         - os: windows
     "<home>/AppData/LocalLow/The Game Kitchen/Blasphemous 2/SteamUser_<storeUserId>":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -86148,7 +86149,7 @@ Blasphemous 2:
   registry:
     HKEY_CURRENT_USER/Software/The Game Kitchen/Blasphemous 2:
       tags:
-        - save
+        - config
       when:
         - store: steam
   steam:
@@ -119808,6 +119809,27 @@ Cats Hidden in Christmas:
             store: steam
   steam:
     id: 2933990
+Cats Hidden in Jingle Jam:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Cats Hidden in Jingle Jam":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: cats-hidden-in-jingle-jam
+    steamExtra:
+      - 2723350
+  installDir:
+    Cats Hidden in Jingle Jam: {}
+  launch:
+    "<base>/Cats Hidden in Jingle Jam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2608050
 Cats Hidden in Paris:
   cloud:
     steam: true
@@ -138294,12 +138316,12 @@ Coffee Break (2005):
   files:
     "<base>/SavedGames/*.sav":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<base>/SavedGames/PREFS_CLIENT.CS":
       tags:
-        - save
+        - config
       when:
         - os: windows
   id:
@@ -495823,6 +495845,11 @@ One-armed robber:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/OAR/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     One-armed robber: {}
   launch:
@@ -506711,6 +506738,8 @@ Pacific Storm:
         - save
       when:
         - os: windows
+  id:
+    lutris: pacific-storm
   installDir:
     Pacific Storm: {}
   launch:
@@ -560500,14 +560529,14 @@ Reanimal:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/REANIMAL/Saved/Config/Windows/Engine.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/*.sav":
       tags:
         - save
-      when:
-        - os: windows
-    "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/UserMetaData.sav":
-      tags:
-        - config
       when:
         - os: windows
   gog:
@@ -680324,6 +680353,7 @@ Superhero Simulator:
     "<home>/AppData/LocalLow/mightyraccoon! Studios/Superhero Simulator":
       tags:
         - config
+        - save
       when:
         - os: windows
   id:
@@ -791682,6 +791712,12 @@ Vampire Survivors:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/poncle.VampireSurvivors_9pv5cyp4vwdsr/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<xdgConfig>/Vampire_Survivors_<storeUserId>/SaveData.sav":
       tags:
         - save

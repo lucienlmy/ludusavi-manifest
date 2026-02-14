@@ -1902,8 +1902,8 @@ $1 Ride:
 7 Sins:
   pageId: 90843
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\GameSetup.exe}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\User.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 7 Soccer:
   pageId: 86983
   steam: 788500
@@ -27810,7 +27810,7 @@ Blasphemous 2:
     - 2500160
     - 2879370
   templates:
-    - "{{Game data/saves|Steam|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\SteamUser_{{p|uid}}\\|{{p|hkcu}}\\Software\\The Game Kitchen\\Blasphemous 2\\}}"
+    - "{{Game data/config|Steam|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\SteamUser_{{p|uid}}\\|{{p|hkcu}}\\Software\\The Game Kitchen\\Blasphemous 2\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\Savegames\\}}"
     - "{{Game data/saves|Steam|{{P|userprofile\\appdata\\locallow}}\\The Game Kitchen\\Blasphemous 2\\SteamUser_{{p|uid}}\\}}"
 Blast:
@@ -38492,6 +38492,14 @@ Cats Hidden in Christmas:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Cats Hidden in Christmas}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Cats Hidden in Christmas}}"
+Cats Hidden in Jingle Jam:
+  cloud:
+    steam: true
+  lutris: cats-hidden-in-jingle-jam
+  pageId: 213765
+  steam: 2608050
+  steamSide:
+    - 2723350
 Cats Hidden in Paris:
   cloud:
     steam: true
@@ -44146,8 +44154,8 @@ Coffee Break (2005):
   lutris: coffee-break
   pageId: 211193
   templates:
-    - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\PREFS_CLIENT.CS}}"
-    - "{{Game data/config|Windows|{{p|game}}\\SavedGames\\*.sav}}"
+    - "{{Game data/config|Windows|{{p|game}}\\SavedGames\\PREFS_CLIENT.CS}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\*.sav}}"
 Coffee Crawl:
   cloud:
     steam: true
@@ -66724,7 +66732,7 @@ Drapline:
   pageId: 202109
   steam: 3103780
   templates:
-    - "{{Game data/saves|Windows}}"
+    - "{{Game data/config|Windows}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Draugen:
   cloud:
@@ -160138,6 +160146,7 @@ One-armed robber:
   steam: 2551020
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\OAR\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|%LOCALAPPDATA%\\OAR\\Saved\\SaveGames}}"
 One-eyed Jak:
   pageId: 46150
   steam: 396450
@@ -163675,6 +163684,7 @@ Pacific Liberation Force:
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
 Pacific Storm:
+  lutris: pacific-storm
   pageId: 23733
   steam: 11250
   templates:
@@ -180969,7 +180979,7 @@ Reanimal:
   pageId: 197182
   steam: 2129530
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\UserMetaData.sav}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\Config\\Windows\\Engine.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Reanimation Inc.:
   pageId: 150188
@@ -219340,7 +219350,7 @@ Superhero Simulator:
     - 4013180
   templates:
     - "{{Game data/config|Windows| \t{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
-    - "{{Game data/config|Windows| \t{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
+    - "{{Game data/saves|Windows| \t{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
 Superhot:
   cloud:
     epic: true
@@ -234378,8 +234388,7 @@ The Lion King:
   pageId: 148227
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Disney Interactive\\SPAG**}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SpagProgress.sav}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\HiScores.sav}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SpagProgress.sav|{{p|game}}\\HiScores.sav}}"
 "The Lion's Song":
   cloud:
     gog: true
@@ -256393,6 +256402,7 @@ Vampire Survivors:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\poncle\\Vampire Survivors}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Vampire_Survivors\\saves}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Vampire_Survivors_{{p|uid}}/SaveData.sav}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\poncle.VampireSurvivors_9pv5cyp4vwdsr\\SystemAppData\\wgs\\{{P|uid}}}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1794680\\remote\\SaveData}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|appdata}}\\Vampire_Survivors_EGS\\{{p|uid}}}}"
 Vampire Therapist:
@@ -257329,8 +257339,7 @@ Vermis Orbita:
   pageId: 211212
   steam: 1424600
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Gametopia Studios\\Verne\\offline-user\\no-sync\\SettingsVideo.json}}"
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Gametopia Studios\\Verne\\offline-user\\SettingsData.json}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Gametopia Studios\\Verne\\offline-user\\no-sync\\SettingsVideo.json|{{p|userprofile\\appdata\\locallow}}\\Gametopia Studios\\Verne\\offline-user\\SettingsData.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Gametopia Studios\\Verne\\offline-user\\}}"
 "Vernon's Legacy":
   pageId: 41511
@@ -258829,8 +258838,7 @@ Voices of the Void:
     - Voices of the void
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\VotV\\Saved\\SaveGames\\data.sav|{{p|localappdata}}\\VotV\\Saved\\Config\\WindowsNoEditor}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\VotV\\Saved\\SaveGames}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\VotV\\Assets}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\VotV\\Saved\\SaveGames|{{p|localappdata}}\\VotV\\Assets}}"
 Void:
   pageId: 36246
   steam: 503710
