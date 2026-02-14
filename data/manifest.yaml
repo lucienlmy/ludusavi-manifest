@@ -13576,6 +13576,7 @@ AI Limit:
     lutris: ai-limit
     steamExtra:
       - 3391010
+      - 3813800
   installDir:
     AI Limit: {}
   launch:
@@ -135135,6 +135136,8 @@ Climber Girl:
         - config
       when:
         - os: windows
+  id:
+    lutris: climber-girl
   installDir:
     Climber Girl: {}
   launch:
@@ -332108,10 +332111,17 @@ High on Life 2:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/HighOnLife2/Saved/SaveGames/Slot*.sav":
+    "<winLocalAppData>/HighOnLife2/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
           store: steam
+    "<winLocalAppData>/HighOnLife2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: high-on-life-2
   installDir:
@@ -411801,12 +411811,18 @@ Lost in Bardo:
   steam:
     id: 741730
 Lost in Harmony:
+  cloud:
+    steam: true
   files:
     "<winDocuments>/My Games/AutoSave/PlayerPrefs/save.dat":
       tags:
         - save
       when:
         - os: windows
+  gog:
+    id: 1294888169
+  id:
+    lutris: lost-in-harmony
   installDir:
     Lost in Harmony: {}
   launch:
@@ -516205,13 +516221,15 @@ Perimeter:
   installDir:
     Perimeter: {}
   launch:
-    "<base>/Config.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
             store: steam
-    "<base>/Perimeter.exe":
+    "<base>/launcher-x64.exe":
       - when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289440
@@ -552655,10 +552673,18 @@ Race to Mars:
     id: 257930
 Race with Ryan:
   files:
-    "<winLocalAppData>/3DClouds/RaceWithRyan/Saved/SaveGames/**/*.sav":
+    "<winLocalAppData>/3DClouds/RaceWithRyan/Saved/Config/WinGDK":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+          store: microsoft
+    "<winLocalAppData>/Packages/OutrightGames.RacewithRyan_bnrbc155f0j86/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     Race With Ryan: {}
   launch:
@@ -580864,11 +580890,18 @@ Rogue Party:
   steam:
     id: 913090
 Rogue Point:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Tango/Saved/SaveGames/*.sav":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: rogue-point
+    steamExtra:
+      - 3756630
+      - 3756640
   installDir:
     Rogue Point: {}
   launch:
@@ -695574,6 +695607,14 @@ Team Fortress 2 Classic:
 Team Fortress 2 Classic (2014):
   alias: Team Fortress 2 Classified
 Team Fortress 2 Classified:
+  cloud:
+    steam: true
+  files:
+    "<base>/tf2classified/cfg":
+      tags:
+        - config
+      when:
+        - store: steam
   id:
     lutris: team-fortress-2-classified
   installDir:
@@ -739970,6 +740011,8 @@ The Stalin Subway:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-stalin-subway
   installDir:
     The Stalin Subway: {}
   launch:
@@ -840617,6 +840660,7 @@ Zombie Army VR:
   id:
     steamExtra:
       - 3929860
+      - 4377450
   registry:
     HKEY_CURRENT_USER/Software/Ninja Kiwi/Zombie Assault:
       tags:

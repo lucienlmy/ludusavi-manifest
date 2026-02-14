@@ -4203,6 +4203,7 @@ AI Limit:
   steam: 2407270
   steamSide:
     - 3391010
+    - 3813800
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\SenseGames\\AILIMIT}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\SenseGames\\AILIMIT\\Archive}}"
@@ -43171,13 +43172,14 @@ Climber:
   pageId: 93767
   steam: 858220
 Climber Girl:
+  lutris: climber-girl
   pageId: 61881
   renamedFrom:
     - "Vera Jones: La Légende Des Sept Reliques"
   steam: 1733020
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\ClimberGirl\\config.cfg}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\ClimberGirl\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\ClimberGirl}}"
 Climbey:
   pageId: 51875
   steam: 520010
@@ -106858,6 +106860,9 @@ High on Life 2:
   lutris: high-on-life-2
   pageId: 205301
   steam: 2069250
+  templates:
+    - "{{Game data/config|Steam|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\HighOnLife2\\Saved\\SaveGames\\}}"
 HighFleet:
   cloud:
     steam: true
@@ -132682,6 +132687,10 @@ Lost in Bardo:
   pageId: 75180
   steam: 741730
 Lost in Harmony:
+  cloud:
+    steam: true
+  gog: 1294888169
+  lutris: lost-in-harmony
   pageId: 76388
   steam: 509400
   templates:
@@ -178340,6 +178349,9 @@ Race with Ryan:
     - Race with Ryan
     - Race With Ryan
   steam: 1054990
+  templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\3DClouds\\RaceWithRyan\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\OutrightGames.RacewithRyan_bnrbc155f0j86\\SystemAppData\\wgs}}"
 "Race! Make 'm finish...":
   pageId: 155914
   steam: 1184460
@@ -187632,8 +187644,14 @@ Rogue Party:
   pageId: 109688
   steam: 913090
 Rogue Point:
+  cloud:
+    steam: true
+  lutris: rogue-point
   pageId: 199199
   steam: 1843840
+  steamSide:
+    - 3756630
+    - 3756640
 Rogue Port - Blue Nightmare:
   pageId: 60219
   steam: 595780
@@ -224145,12 +224163,16 @@ Team Fortress 2:
   templates:
     - "{{Game data/config|Steam|{{p|game}}\\tf\\cfg\\}}"
 Team Fortress 2 Classified:
+  cloud:
+    steam: true
   lutris: team-fortress-2-classified
   pageId: 201384
   renamedFrom:
     - Team Fortress 2 Classic (2014)
     - Team Fortress 2 Classic
   steam: 3545060
+  templates:
+    - "{{Game data/config|Steam|{{p|game}}\\tf2classified\\cfg}}"
 Team Fortress Classic:
   lutris: team-fortress-classic
   pageId: 1485
@@ -238612,6 +238634,7 @@ The Square Game:
   pageId: 73794
   steam: 600000
 The Stalin Subway:
+  lutris: the-stalin-subway
   pageId: 31487
   steam: 311140
   templates:
@@ -272512,6 +272535,7 @@ Zombie Army VR:
   steam: 2747660
   steamSide:
     - 3929860
+    - 4377450
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ninja Kiwi\\Zombie Assault}}"
 Zombie Ballz:
