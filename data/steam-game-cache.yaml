@@ -567464,6 +567464,12 @@
       executable: Movie Actor Trivia.app
       type: default
 1598230:
+  installDir: KILLER INN
+  launch:
+    - config:
+        oslist: windows
+      executable: Killer Inn.exe
+      type: default
   nameLocalized:
     english: KILLER INN
     schinese: 欺杀旅社

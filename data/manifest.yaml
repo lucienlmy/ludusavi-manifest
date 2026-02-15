@@ -379152,6 +379152,13 @@ Killer Gin:
   steam:
     id: 1164480
 Killer Inn:
+  installDir:
+    KILLER INN: {}
+  launch:
+    "<base>/Killer Inn.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1598230
 Killer Instinct:
