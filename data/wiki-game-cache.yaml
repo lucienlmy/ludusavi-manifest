@@ -5849,6 +5849,8 @@ Action Ball 2:
 Action Card Football:
   pageId: 112060
   steam: 848470
+Action Fighter:
+  pageId: 213792
 Action Girlz Racing:
   pageId: 88319
   templates:
@@ -138403,10 +138405,12 @@ Mashina:
 Mashinky:
   cloud:
     steam: true
+  lutris: mashinky
   pageId: 69030
   steam: 598960
   templates:
-    - "{{Game data/config|Windows|{{p|steam}}/Mashinky/saves{{cn|date=September 2025}}}}"
+    - "{{Game data/config|Windows|{{p|game}}\\setup.xml}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\saves}}"
 Mask of Fury:
   pageId: 82183
   renamedFrom:
@@ -197594,9 +197598,8 @@ Sharp X Mind:
   steam: 1039650
 SharpShooter3D:
   pageId: 96729
-  steam: 2435900
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\gzdoom-*.ini}}"
+    - "{{Game data/config|Windows|{{p|game}}\\gzdoom-<username>.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.zds}}"
 "Sharpe Investigations: Death on the Seine":
   pageId: 49931

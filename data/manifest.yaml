@@ -429710,12 +429710,18 @@ Mashinky:
   cloud:
     steam: true
   files:
-    "<root>/Mashinky/saves":
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/setup.xml":
       tags:
         - config
       when:
         - os: windows
-          store: steam
+  id:
+    lutris: mashinky
   installDir:
     Mashinky: {}
   launch:
@@ -611907,20 +611913,6 @@ SharpShooter3D:
         - save
       when:
         - os: windows
-    "<base>/gzdoom-*.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    SharpShooter3D: {}
-  launch:
-    "<base>/SharpShooter3D.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2435900
 "Sharpe Investigations: Death on the Seine":
   files:
     "<winAppData>/Icarus Games/FC/CE/profile":
