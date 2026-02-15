@@ -119814,9 +119814,11 @@ Cats Hidden in Jingle Jam:
     steam: true
   files:
     "<winAppData>/Cats Hidden in Jingle Jam":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: cats-hidden-in-jingle-jam
     steamExtra:
@@ -178567,6 +178569,16 @@ Dear diary:
 "Dear me, I was...":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dearmeiwas/Saved/SaveGames/Dearmeiwas.sav":
+      when:
+        - store: steam
+  installDir:
+    Dearmeiwas: {}
+  launch:
+    "<base>/Dear me, I was.exe":
+      - when:
+          - store: steam
   steam:
     id: 3891510
 DearCraft:
@@ -323947,6 +323959,8 @@ Hellforces:
         - config
       when:
         - os: windows
+  id:
+    lutris: hellforces
 "Hellfront: Honeymoon":
   cloud:
     steam: true
@@ -400987,11 +401001,11 @@ LiEat:
     id: 373770
 "Liar's Bar":
   files:
-    "<base>/SavesDir/*.sav":
+    "<home>/AppData/LocalLow/Curve Animation/Liar's Bar":
+      tags:
+        - save
       when:
-        - store: steam
         - os: windows
-          store: steam
   installDir:
     "Liar's Bar": {}
   launch:
@@ -444335,6 +444349,10 @@ MinSweeper:
   steam:
     id: 726030
 Mina the Hollower:
+  cloud:
+    steam: true
+  id:
+    lutris: mina-the-hollower
   steam:
     id: 1875580
 Minabo:
@@ -516843,6 +516861,12 @@ Persona 5 Tactica:
   steam:
     id: 2254740
 "Persona 5: The Phantom X":
+  files:
+    "<home>/AppData/LocalLow/SEGA/p5x_en":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     P5X: {}
   launch:
@@ -562903,6 +562927,9 @@ Red Ruin:
             store: steam
   steam:
     id: 1111730
+Red Shark:
+  id:
+    lutris: red-shark
 "Red Solstice 2: Survivors":
   cloud:
     steam: true
@@ -659285,10 +659312,10 @@ Starsky & Hutch:
   id:
     lutris: starsky-hutch
   registry:
-    HKEY_CURRENT_USER/Software/Empire Interactive/Starsky&Hutch:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Empire Interactive/Starsky&Hutch:
       tags:
         - config
-    HKEY_CURRENT_USER/Software/Empire Interactive/Starsky&Hutch/Saves:
+    HKEY_LOCAL_MACHINE/Software/Empire Interactive/Starsky&Hutch/Saves:
       tags:
         - save
 Starsphere:
@@ -751927,6 +751954,21 @@ Tiger Woods PGA Tour 2002:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/EA SPORTS/Tiger Woods PGA TOUR 2002/Interface:
+      tags:
+        - config
+Tiger Woods PGA Tour 2003:
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/EA SPORTS/Tiger Woods PGA TOUR 2003/Interface:
+      tags:
+        - config
 Tiger Woods PGA Tour 2004:
   files:
     "<winDocuments>/Tiger Woods PGA TOUR 2004/Save":
@@ -751934,6 +751976,13 @@ Tiger Woods PGA Tour 2004:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/EA SPORTS/Tiger Woods PGA TOUR 2004/Interface:
+      tags:
+        - config
+    HKEY_CURRENT_USER/SOFTWARE/EA SPORTS/Tiger Woods PGA TOUR 2004/RenderSettings:
+      tags:
+        - config
 Tiger-Heli:
   cloud:
     steam: true
@@ -780815,9 +780864,19 @@ Ultimate Select Hero:
 Ultimate Sheep Raccoon:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Clever Endeavour Games/Ultimate Sheep Raccoon":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Ultimate Sheep Raccoon: {}
   launch:
+    "<base>/UltimateSheepRaccoon.app/Contents/MacOS/Ultimate Sheep Raccoon":
+      - when:
+          - os: mac
+            store: steam
     "<base>/UltimateSheepRaccoon.exe":
       - when:
           - bit: 64

@@ -629503,6 +629503,10 @@
         oslist: windows
       executable: UltimateSheepRaccoon.exe
       type: default
+    - config:
+        oslist: macos
+      executable: UltimateSheepRaccoon.app/Contents/MacOS/Ultimate Sheep Raccoon
+      type: default
   nameLocalized:
     schinese: 超级浣熊羊
     tchinese: 超級浣熊羊
@@ -640901,7 +640905,15 @@
       executable: GirlsFrontLine.exe
       type: default
 3888420: {}
-3891510: {}
+3891510:
+  cloud:
+    saves:
+      - path: "Dearmeiwas\\Saved\\SaveGames"
+        pattern: Dearmeiwas.sav
+        root: WinAppDataLocal
+  installDir: Dearmeiwas
+  launch:
+    - executable: "Dear me, I was.exe"
 3895130: {}
 3895170:
   installDir: Intuitive Level Design

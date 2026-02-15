@@ -9690,6 +9690,8 @@ Alien Trilogy:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\TRILOGY.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\TRIL.SG*}}"
+Alien Virus:
+  pageId: 213783
 Alien Weapon Test Grounds:
   pageId: 199084
   steam: 3123080
@@ -38500,6 +38502,9 @@ Cats Hidden in Jingle Jam:
   steam: 2608050
   steamSide:
     - 2723350
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Cats Hidden in Jingle Jam\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Cats Hidden in Jingle Jam\\}}"
 Cats Hidden in Paris:
   cloud:
     steam: true
@@ -55452,6 +55457,8 @@ Dath:
 Datswer:
   pageId: 48773
   steam: 348000
+Daughter of Serpents:
+  pageId: 213777
 "Daughter of Shadows: An SCP Breach Event":
   pageId: 43803
   steam: 449820
@@ -104282,6 +104289,7 @@ Hellfo:
   pageId: 151309
   steam: 1164800
 Hellforces:
+  lutris: hellforces
   pageId: 65392
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SAVES\\config.cfg}}"
@@ -129201,6 +129209,8 @@ Liam Finds a Story:
 "Liar's Bar":
   pageId: 198599
   steam: 3097560
+  templates:
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Curve Animation\\Liar's Bar}}"
 Liberated:
   cloud:
     gog: true
@@ -142227,6 +142237,8 @@ MicroWorks:
 Microcosm:
   pageId: 61544
   steam: 626570
+Microcosm (1994):
+  pageId: 213773
 "Microcosmum: Survival of Cells":
   cloud:
     steam: true
@@ -143306,6 +143318,9 @@ MinSweeper:
   pageId: 73905
   steam: 726030
 Mina the Hollower:
+  cloud:
+    steam: true
+  lutris: mina-the-hollower
   pageId: 205366
   steam: 1875580
 Minabo:
@@ -167045,6 +167060,7 @@ Persona 5 Tactica:
   steam: 3061570
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\SEGA\\p5x_en}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\SEGA\\p5x_en}}"
 Personal Disco VR:
   pageId: 60734
   steam: 618350
@@ -181733,6 +181749,7 @@ Red Ruin:
   pageId: 141330
   steam: 1111730
 Red Shark:
+  lutris: red-shark
   pageId: 170182
 Red Shark 2:
   pageId: 196140
@@ -212735,8 +212752,8 @@ Starsky & Hutch:
   lutris: starsky-hutch
   pageId: 89144
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Empire Interactive\\Starsky&Hutch\\}}"
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Empire Interactive\\Starsky&Hutch\\Saves\\}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Empire Interactive\\Starsky&Hutch}}"
+    - "{{Game data/saves|Windows|{{p|hklm}}\\Software\\Empire Interactive\\Starsky&Hutch\\Saves}}"
 Starsphere:
   cloud:
     steam: true
@@ -241016,6 +241033,8 @@ TheWraithTrails:
 "Theater Commander: The Coming Wars, Modern Warfare":
   pageId: 141808
   steam: 1117490
+Theatre of Death:
+  pageId: 213775
 Theatre of Doom:
   cloud:
     steam: true
@@ -242562,12 +242581,17 @@ Tiger Woods PGA Tour 2001:
 Tiger Woods PGA Tour 2002:
   pageId: 183522
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\EA SPORTS\\Tiger Woods PGA TOUR 2002\\Interface}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Tiger Woods PGA Tour 2003:
   pageId: 210824
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\EA SPORTS\\Tiger Woods PGA TOUR 2003\\Interface}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Tiger Woods PGA Tour 2004:
   pageId: 183524
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\EA SPORTS\\Tiger Woods PGA TOUR 2004\\Interface|{{p|hkcu}}\\SOFTWARE\\EA SPORTS\\Tiger Woods PGA TOUR 2004\\RenderSettings}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Tiger Woods PGA TOUR 2004\\Save}}"
 Tiger-Heli:
   cloud:
@@ -252685,6 +252709,8 @@ Ultimate Sheep Raccoon:
     xbox: true
   pageId: 211909
   steam: 2923350
+  templates:
+    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\Clever Endeavour Games\\Ultimate Sheep Raccoon}}"
 Ultimate Shotgun Championship:
   pageId: 135036
   steam: 1069500
