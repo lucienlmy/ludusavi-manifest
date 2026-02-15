@@ -632617,6 +632617,9 @@
   launch:
     - executable: Card Shop Simulator.exe
       type: default
+  nameLocalized:
+    schinese: TCG卡牌店模拟器
+    tchinese: TCG卡牌店模擬器
 3070520:
   installDir: Granny Escape Together
   launch:

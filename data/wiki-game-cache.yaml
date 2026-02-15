@@ -221701,7 +221701,8 @@ TCG Card Shop Simulator:
     - 3083940
     - 3107460
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\OPNeonGames\\Card Shop Simulator}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\OPNeonGames\\Card Shop Simulator|{{p|userprofile\\appdata\\locallow}}\\OPNeonGames\\Card Shop Simulator\\savedGames_KeybindSetting.gd}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\OPNeonGames\\Card Shop Simulator\\savedGames_*}}"
 TD Heroes:
   pageId: 148427
   renamedFrom:

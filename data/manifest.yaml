@@ -687574,9 +687574,14 @@ TCG Card Shop Simulator:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/OPNeonGames/Card Shop Simulator":
+    "<home>/AppData/LocalLow/OPNeonGames/Card Shop Simulator/savedGames_*":
       tags:
         - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/OPNeonGames/Card Shop Simulator/savedGames_KeybindSetting.gd":
+      tags:
+        - config
       when:
         - os: windows
   id:
@@ -687590,6 +687595,10 @@ TCG Card Shop Simulator:
     "<base>/Card Shop Simulator.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/OPNeonGames/Card Shop Simulator:
+      tags:
+        - config
   steam:
     id: 3070070
 TD Heroes:
