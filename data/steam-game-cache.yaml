@@ -52011,13 +52011,20 @@
   installDir: Faces of War
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch Game
-      executable: facesofwar.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
     - config:
         oslist: windows
       description: Editor
       executable: fowed.exe
+      type: option1
 289320:
   cloud:
     saves:
@@ -528297,19 +528304,8 @@
     - executable: contents/Game.exe
       type: default
 1212850:
-  cloud:
-    saves:
-      - path: DreamSmithStudio/MONOBOT
-        pattern: "*.sav"
-        root: WinAppDataLocalLow
-  installDir: MONOBOT
-  launch:
-    - config:
-        oslist: windows
-      executable: MONOBOT.exe
-      type: default
   nameLocalized:
-    sc_schinese: 默途
+    schinese: 默途
 1212860:
   installDir: Flirt Balls
   launch:
@@ -641153,6 +641149,7 @@
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
+3949290: {}
 3949740:
   installDir: (BURIED TAPES) The Cleaner
   launch:

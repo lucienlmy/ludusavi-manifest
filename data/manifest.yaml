@@ -179124,12 +179124,6 @@ Death Road to Canada:
         - save
       when:
         - os: linux
-    "<home>/Library/Application Support/DR2C":
-      tags:
-        - config
-        - save
-      when:
-        - os: mac
     "<winAppData>/.madgarden/DR2C":
       tags:
         - config
@@ -191697,6 +191691,19 @@ Dexodonex:
             store: steam
   steam:
     id: 552780
+"Dexter's Laboratory: Science Ain't Fair":
+  files:
+    "<base>/Dexters.ini":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<base>/missions.bin":
+      tags:
+        - save
+      when:
+        - os: windows
 "Dexter: The Game":
   id:
     lutris: dexter-the-game
@@ -248229,13 +248236,15 @@ Faces of War:
   installDir:
     Faces of War: {}
   launch:
-    "<base>/facesofwar.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
             store: steam
-    "<base>/fowed.exe":
+    "<base>/launcher-x64.exe":
       - when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289300
@@ -418531,17 +418540,6 @@ MONEY LOVES SILENCE:
 MONOBOT:
   cloud:
     steam: true
-  files:
-    "<home>/AppData/LocalLow/DreamSmithStudio/MONOBOT/*.sav":
-      when:
-        - store: steam
-  installDir:
-    MONOBOT: {}
-  launch:
-    "<base>/MONOBOT.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 1212850
 "MONSTERS:SURVIVAL":
@@ -626931,7 +626929,7 @@ Slay the Princess:
     epic: true
     steam: true
   files:
-    "<home>/.renpy/SlaythePrincess-1651597024/*.save":
+    "<home>/.renpy/SlaythePrincess-1651597024":
       tags:
         - save
       when:
@@ -626941,7 +626939,7 @@ Slay the Princess:
         - config
       when:
         - os: linux
-    "<winAppData>/RenPy/SlaythePrincess-1651597024/*.save":
+    "<winAppData>/RenPy/SlaythePrincess-1651597024":
       tags:
         - save
       when:
@@ -757654,6 +757652,16 @@ Toltec and the mysteries of the Secret Island:
     id: 381810
 "Tom Clancy's Ghost Recon":
   files:
+    "<base>/Mods/Mp1/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Mods/Mp2/save":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/Mods/Origmiss/save":
       tags:
         - save
@@ -836473,6 +836481,28 @@ Ys Seven:
           - store: steam
   steam:
     id: 2731870
+"Ys X: Proud Nordics":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Falcom/YsX_PN":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Falcom/YsX_PN":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1365167181
+  id:
+    lutris: ys-x-proud-nordics
+  steam:
+    id: 3949290
 "Ys: Memories of Celceta":
   cloud:
     gog: true

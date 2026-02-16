@@ -57374,10 +57374,10 @@ Death Road to Canada:
   steam: 252610
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\.madgarden\\DR2C}}"
-    - "{{Game data/config|OS X|~/Library/Application Support/DR2C}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/DR2C}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.madgarden/DR2C}}"
     - "{{Game data/saves|Windows|{{p|APPDATA}}\\.madgarden\\DR2C}}"
-    - "{{Game data/saves|OS X|~/Library/Application Support/DR2C}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/DR2C}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.madgarden/DR2C/}}"
 "Death Roads: Tournament":
   cloud:
@@ -61322,6 +61322,9 @@ Dexodonex:
   steam: 552780
 "Dexter's Laboratory: Science Ain't Fair":
   pageId: 205851
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Dexters.ini}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\missions.bin|{{P|game}}\\Dexters.ini}}"
 "Dexter: The Game":
   lutris: dexter-the-game
   pageId: 201733
@@ -64536,8 +64539,10 @@ Don Bradman Cricket 17:
   steam: 322330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\client.ini|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client.ini}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Documents/Klei/DoNotStarveTogether/{{p|uid}}}/client.ini}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.klei/DoNotStarveTogether/client.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\client_save\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client_save\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\save\\}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Documents/Klei/<user-id>/DoNotStarveTogether}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.klei/DoNotStarveTogether/{{p|uid}}/client_save/}}"
 "Don't Stop":
   pageId: 102413
@@ -71777,9 +71782,11 @@ Echo (Echo Project):
   pageId: 202419
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\Echo-1433615853\\persistent}}"
-    - "{{Game data/config|Linux|~/.renpy/Echo-1433615853/persistent}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Echo-1433615853}}"
-    - "{{Game data/saves|Linux|~/.renpy/Echo-1433615853}}"
+    - "{{Game data/config|OS X|{{p|machome}}/RenPy/Echo-1433615853/persistent}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.renpy/Echo-1433615853/persistent}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Echo-1433615853/}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/RenPy/Echo-1433615853/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/Echo-1433615853/}}"
 Echo (Nobody Studio):
   pageId: 81372
   steam: 751320
@@ -146163,8 +146170,10 @@ Monster Sanctuary:
   pageId: 88257
   steam: 814370
   templates:
+    - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/Monster Sanctuary/}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Monster Sanctuary/}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Monster Sanctuary\\}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/Monster Sanctuary/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Monster Sanctuary/}}"
 Monster Slayers:
   cloud:
@@ -202385,9 +202394,11 @@ Slay the Princess:
     - 3845330
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\SlaythePrincess-1651597024\\persistent}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/RenPy/SlaythePrincess-1651597024/persistent}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.renpy/SlaythePrincess-1651597024/persistent}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\SlaythePrincess-1651597024\\*.save}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/SlaythePrincess-1651597024/*.save}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\SlaythePrincess-1651597024\\}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/RenPy/SlaythePrincess-1651597024/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/SlaythePrincess-1651597024/}}"
 Slay the Spire:
   cloud:
     gog: true
@@ -244302,7 +244313,7 @@ Tom & Jerry:
     - 13630
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\options.xml}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Mods\\Origmiss\\save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Mods\\Origmiss\\save|{{p|game}}\\Mods\\Mp1\\save|{{p|game}}\\Mods\\Mp2\\save}}"
 "Tom Clancy's Ghost Recon Advanced Warfighter":
   lutris: tom-clancys-ghost-recon-advanced-warfighter
   pageId: 3247
@@ -271133,6 +271144,18 @@ Ys Seven:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Falcom\\YsX\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\CLE\\Ys_X_-NORDICS-\\savedata\\|{{P|userprofile}}\\Saved Games\\Falcom\\YsX\\}}"
+"Ys X: Proud Nordics":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 1365167181
+  lutris: ys-x-proud-nordics
+  pageId: 213838
+  steam: 3949290
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Falcom\\YsX_PN\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Falcom\\YsX_PN\\}}"
 "Ys: Memories of Celceta":
   cloud:
     gog: true
