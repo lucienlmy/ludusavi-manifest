@@ -117583,9 +117583,6 @@ JX3 Online:
   steam: 869480
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\steamapps\\common\\Jabroni Brawl Episode 3\\jbep3\\cfg}}"
-Jack:
-  pageId: 136078
-  steam: 1076720
 Jack & the creepy Castle:
   pageId: 124374
   steam: 938210
@@ -180156,6 +180153,9 @@ Rayman Redemption:
 "Rayman: 30th Anniversary Edition":
   pageId: 213746
   steam: 4094670
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Rayman 30th Anniversary Edition\\{{p|uid}}\\settings_main.json}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Rayman 30th Anniversary Edition\\{{p|uid}}\\*.bst0|{{p|appdata}}\\Rayman 30th Anniversary Edition\\{{p|uid}}\\*.bst1|{{p|appdata}}\\Rayman 30th Anniversary Edition\\{{p|uid}}\\*.bst2}}"
 "Raymond's Obstacle Course":
   pageId: 80561
   steam: 756980
@@ -254291,6 +254291,12 @@ Unleashed Recompiled:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/UnleashedRecomp/config.toml}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\UnleashedRecomp\\save\\|{{P|appdata}}\\UnleashedRecomp\\mlsave\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/UnleashedRecomp/save/|{{p|xdgconfighome}}/UnleashedRecomp/mlsave/}}"
+Unleaving:
+  lutris: unleaving
+  pageId: 136078
+  renamedFrom:
+    - Jack
+  steam: 1076720
 "Unlight: SchizoChronicle":
   pageId: 94391
   steam: 816810

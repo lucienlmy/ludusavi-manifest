@@ -365670,27 +365670,7 @@ JUST a Game:
   steam:
     id: 869480
 Jack:
-  files:
-    "<home>/AppData/LocalLow/orangutanmatter/Unleaving":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/orangutanmatter/Unleaving":
-      when:
-        - os: mac
-          store: steam
-  installDir:
-    Unleaving: {}
-  launch:
-    "<base>/Unleaving.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/Unleaving.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1076720
+  alias: Unleaving
 Jack & the creepy Castle:
   installDir:
     Jack & the creepy Castle: {}
@@ -558132,6 +558112,27 @@ Rayman Redemption:
   id:
     lutris: rayman-redemption
 "Rayman: 30th Anniversary Edition":
+  files:
+    "<winAppData>/Rayman 30th Anniversary Edition/<storeUserId>/*.bst0":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Rayman 30th Anniversary Edition/<storeUserId>/*.bst1":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Rayman 30th Anniversary Edition/<storeUserId>/*.bst2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Rayman 30th Anniversary Edition/<storeUserId>/settings_main.json":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     rayman30th: {}
   launch:
@@ -785815,6 +785816,30 @@ Unleashed Recompiled:
     HKEY_CURRENT_USER/Software/UnleashedRecomp:
       tags:
         - config
+Unleaving:
+  files:
+    "<home>/AppData/LocalLow/orangutanmatter/Unleaving":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/orangutanmatter/Unleaving":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: unleaving
+  installDir:
+    Unleaving: {}
+  launch:
+    "<base>/Unleaving.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Unleaving.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1076720
 "Unlight: SchizoChronicle":
   files:
     "<home>/AppData/LocalLow/Techway_co_jp/UnlightCOD/*.data":
