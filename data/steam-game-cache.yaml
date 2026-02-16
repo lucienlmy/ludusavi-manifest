@@ -582765,25 +582765,36 @@
         oslist: linux
       executable: FortuneAvenue.sh
       type: default
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: FortuneAvenue64.exe
-      type: default
-    - arguments: "--rendering-method gl_compatibility"
-      config:
-        osarch: "64"
-        oslist: windows
-      description: Fortune Avenue (use OpenGL)
-      executable: FortuneAvenue64.exe
-      type: option1
     - arguments: "--rendering-method gl_compatibility"
       config:
         osarch: "64"
         oslist: linux
       description: Fortune Avenue (use OpenGL)
       executable: FortuneAvenue.sh
+      type: option3
+    - arguments: "--rendering-driver vulkan"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Fortune Avenue (use Vulkan)
+      executable: FortuneAvenue64.exe
+      type: option2
+    - arguments: "--rendering-driver d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Fortune Avenue (use DirectX 12)
+      executable: FortuneAvenue64.exe
       type: option1
+    - arguments: "--rendering-method gl_compatibility"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Fortune Avenue (use OpenGL)
+      executable: FortuneAvenue64.exe
+      type: option3
+  nameLocalized:
+    schinese: 财富大道
 1810130:
   installDir: Classified Stories Color Out of Space
   launch:
@@ -591791,7 +591802,10 @@
       type: default
   nameLocalized:
     japanese: ひぐらしのなく頃に奉 礼
-1941370: {}
+1941370:
+  installDir: Dancin Divas
+  launch:
+    - executable: ToonBeatEmUp.exe
 1941410:
   cloud:
     saves:
@@ -639102,6 +639116,16 @@
       type: default
 3606480: {}
 3606690:
+  cloud:
+    saves:
+      - path: "Urnique Studio\\KUUKIYOMI Consider It World - Thailand\\SaveData/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: タイの空気読み。
+  launch:
+    - executable: KUUKIYOMI Consider It World - Thailand.exe
   nameLocalized:
     english: "KUUKIYOMI: Consider It World - Thailand Ver."
     thai: "KUUKIYOMI: Consider It World - Thailand Ver."
@@ -639841,6 +639865,9 @@
     english: "The Seven Deadly Sins: Origin"
     japanese: 七つの大罪：Origin
     koreana: "일곱 개의 대죄: Origin"
+    schinese: 七大罪：Origin
+    tchinese: 七大罪：Origin
+    thai: ศึกตำนาน 7 อัศวิน Origin
 3681010:
   cloud:
     saves:
@@ -641629,7 +641656,16 @@
         oslist: windows
       executable: "Vampire's Fall 2.exe"
       type: default
-4289030: {}
+4289030:
+  cloud:
+    saves:
+      - path: Saves
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: "Edgar Allan Poe's Interactive Horror 1995 Edition"
+  launch:
+    - executable: DarkEyeLauncher.exe
 4295810:
   nameLocalized:
     english: "A Whisper of Fall: Jinyiwei"

@@ -167218,6 +167218,12 @@ Dances with Butterflies VR:
   steam:
     id: 893640
 Dancin Divas:
+  installDir:
+    Dancin Divas: {}
+  launch:
+    "<base>/ToonBeatEmUp.exe":
+      - when:
+          - store: steam
   steam:
     id: 1941370
 "Dancing Arrow : Beat Smash":
@@ -273127,11 +273133,6 @@ Fortune Avenue:
           - bit: 64
             os: linux
             store: steam
-    "<base>/FortuneAvenue64.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 1810050
 "Fortune Summoners: Secret of the Elemental Stone":
@@ -315498,6 +315499,8 @@ Hammer & Sickle:
         - save
       when:
         - os: windows
+  id:
+    lutris: hammer-and-sickle
 Hammer 2:
   cloud:
     steam: true
@@ -388104,6 +388107,17 @@ Kuso:
 "Kuukiyomi: Consider It World - Thailand Ver.":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Urnique Studio/KUUKIYOMI Consider It World - Thailand/SaveData/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    タイの空気読み。: {}
+  launch:
+    "<base>/KUUKIYOMI Consider It World - Thailand.exe":
+      - when:
+          - store: steam
   steam:
     id: 3606690
 Kwaidan ～Azuma manor story～:
@@ -710375,6 +710389,16 @@ The Daring Mermaid Expedition:
 The Dark Eye (1995):
   cloud:
     steam: true
+  files:
+    "<base>/Saves":
+      when:
+        - store: steam
+  installDir:
+    "Edgar Allan Poe's Interactive Horror 1995 Edition": {}
+  launch:
+    "<base>/DarkEyeLauncher.exe":
+      - when:
+          - store: steam
   steam:
     id: 4289030
 "The Dark Eye: Book of Heroes":
@@ -825793,6 +825817,17 @@ World Championship Pool 2004:
     lutris: world-championship-pool-2004
   registry:
     "HKEY_LOCAL_MACHINE/SOFTWARE/Jaleco Entertainment, Inc/World Championship Pool 2004/STARTUP":
+      tags:
+        - config
+World Championship Rugby:
+  files:
+    "<base>/SaveGame/WCR":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Acclaim Entertainment/World Championship Rugby:
       tags:
         - config
 World Championship Snooker:

@@ -101469,6 +101469,7 @@ Hammer & Anvil VR:
   pageId: 127205
   steam: 1017780
 Hammer & Sickle:
+  lutris: hammer-and-sickle
   pageId: 97543
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\cfg\\}}"
@@ -267571,6 +267572,9 @@ World Championship Pool 2004:
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\Options\\options.dat}}"
 World Championship Rugby:
   pageId: 92586
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Acclaim Entertainment\\World Championship Rugby}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\WCR}}"
 World Championship Snooker:
   lutris: world-championship-snooker
   pageId: 208068
