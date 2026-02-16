@@ -588659,6 +588659,10 @@ Rusty Rabbit:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: rusty-rabbit
+    steamExtra:
+      - 3467440
   installDir:
     Rusty Rabbit: {}
   launch:
@@ -776692,6 +776696,12 @@ Tux Racer:
   id:
     lutris: tux-racer
 Tux Racer (2002):
+  files:
+    "<base>/config/options.txt":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: tux-racer
 Tux and Fanny:

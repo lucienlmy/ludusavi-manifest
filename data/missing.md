@@ -28880,7 +28880,6 @@
 * [Tusker's Number Adventure](https://www.pcgamingwiki.com/wiki/?curid=137466)
 * [TUTUTUTU - Tea party](https://www.pcgamingwiki.com/wiki/?curid=144145)
 * [Tux and Fanny](https://www.pcgamingwiki.com/wiki/?curid=181431)
-* [Tux Racer (2002)](https://www.pcgamingwiki.com/wiki/?curid=213629)
 * [TV Manager](https://www.pcgamingwiki.com/wiki/?curid=91366)
 * [TV Sports: Baseball](https://www.pcgamingwiki.com/wiki/?curid=194033)
 * [TV Sports: Basketball](https://www.pcgamingwiki.com/wiki/?curid=194030)

@@ -190105,8 +190105,11 @@ Rusty Lake Paradise:
 Rusty Rabbit:
   cloud:
     steam: true
+  lutris: rusty-rabbit
   pageId: 198705
   steam: 2530560
+  steamSide:
+    - 3467440
 Rusty Runner:
   pageId: 132578
   steam: 891990
@@ -251330,6 +251333,8 @@ Tux Racer:
 Tux Racer (2002):
   lutris: tux-racer
   pageId: 213629
+  templates:
+    - "{{Game data/config|Windows|{{P|Game}}\\config\\options.txt}}"
 Tux and Fanny:
   gog: 2140464279
   pageId: 181431
