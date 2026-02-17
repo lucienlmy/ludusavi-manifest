@@ -89205,6 +89205,8 @@ Frogger Beyond:
   templates:
     - "{{Game data/config|Windows|{{P|hklm}}\\SOFTWARE\\KONAMI\\Frogger Beyond\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\others\\FNG.sbx}}"
+"Frogger II: ThreeeDeep!":
+  pageId: 213852
 Frogger and the Rumbling Ruins:
   pageId: 178061
   templates:
@@ -98869,8 +98871,11 @@ Grounded:
   cloud:
     steam: true
     xbox: true
+  lutris: grounded
   pageId: 152138
   steam: 962130
+  steamSide:
+    - 2161390
   templates:
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Maine\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/config|Steam|{{p|localappdata}}\\Maine\\Saved\\Config\\}}"
@@ -98880,9 +98885,11 @@ Grounded 2:
   cloud:
     steam: true
     xbox: true
+  lutris: grounded-2
   pageId: 205362
   steam: 2661300
   steamSide:
+    - 3784940
     - 3788090
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Grounded2\\}}"
@@ -187284,6 +187291,7 @@ Rocket Knight:
 Rocket League:
   cloud:
     steam: true
+  lutris: rocket-league
   pageId: 26300
   steam: 252950
   steamSide:
@@ -187333,6 +187341,7 @@ Rocket League:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Rocket League/TAGame/SaveData/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Rocket League/TAGame/SaveData/}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\252950\\}}"
+    - "{{Game data/saves|Epic Games Store|{{P|userprofile\\Documents}}\\My Games\\Rocket League\\TAGame\\SaveDataEpic\\}}"
 Rocket Mania:
   pageId: 183905
   steam: 1949810

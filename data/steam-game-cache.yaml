@@ -34738,6 +34738,13 @@
       description: Launch
       executable: Binaries/Linux/RocketLeague
       type: default
+    - config:
+        betakey: "devqa,qa-test,qa-cert,qa-staging,enzyme"
+        oslist: windows
+      description: with EAC
+      executable: Binaries/Win64/RocketLeague_EAC.exe
+      type: option1
+      workingdir: Binaries/Win64
 252970:
   installDir: McDROID
   launch:
@@ -623326,6 +623333,12 @@
       description: Grounded 2 Test Configuration
       executable: Grounded2Test.exe
       type: option3
+    - config:
+        betakey: playtest
+        osarch: "64"
+        oslist: windows
+      description: Grounded 2 Test Configuration
+      executable: Grounded2Test.exe
     - config:
         betakey: release
         osarch: "64"

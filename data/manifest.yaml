@@ -307508,6 +307508,10 @@ Grounded:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: grounded
+    steamExtra:
+      - 2161390
   installDir:
     Grounded: {}
   launch:
@@ -307526,7 +307530,9 @@ Grounded 2:
       when:
         - os: windows
   id:
+    lutris: grounded-2
     steamExtra:
+      - 3784940
       - 3788090
   installDir:
     Grounded2: {}
@@ -579861,6 +579867,11 @@ Rocket League:
         - save
       when:
         - os: windows
+    "<winDocuments>/My Games/Rocket League/TAGame/SaveDataEpic":
+      tags:
+        - save
+      when:
+        - os: windows
     "<xdgData>/Rocket League/TAGame":
       tags:
         - config
@@ -579872,6 +579883,7 @@ Rocket League:
       when:
         - os: linux
   id:
+    lutris: rocket-league
     steamExtra:
       - 384260
       - 391680
