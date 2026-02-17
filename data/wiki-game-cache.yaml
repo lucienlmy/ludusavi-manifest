@@ -29239,8 +29239,11 @@ Bloodstream:
 Bloodthief:
   cloud:
     steam: true
+  lutris: bloodthief
   pageId: 197121
   steam: 2533600
+  steamSide:
+    - 4026810
 Bloodville:
   cloud:
     steam: true
@@ -78186,9 +78189,6 @@ Exodus from the Earth:
 "Exodus: Proxima Centauri":
   pageId: 104705
   steam: 892440
-"Exodus: Rising":
-  pageId: 122892
-  steam: 951770
 Exogate Initiative:
   cloud:
     steam: true
@@ -87693,6 +87693,12 @@ Forsaken Isle:
 Forsaken Realm:
   pageId: 154126
   steam: 1044700
+"Forsaken Realms: Vahrin's Call":
+  lutris: forsaken-realms-vahrins-call
+  pageId: 122892
+  renamedFrom:
+    - "Exodus: Rising"
+  steam: 951770
 Forsaken Remastered:
   cloud:
     gog: true
@@ -121137,8 +121143,11 @@ Katana Zero:
 Katanaut:
   cloud:
     steam: true
+  lutris: katanaut
   pageId: 205713
   steam: 3032830
+  steamSide:
+    - 4017750
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Katanaut\\}}"
 Katawa Shoujo:
@@ -123874,6 +123883,7 @@ Knights:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Arzola's\\KNIGHTS\\*.dat | {{p|userprofile}}\\AppData\\LocalLow\\Arzola's\\KNIGHTS\\*.xml}}"
 Knights College:
   pageId: 213630
+  steam: 1510030
   templates:
     - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\KAIJYU-09\\KnightsCollege\\Utage\\SaveVisualNovel\\}}}}"
 Knights Hunt:
@@ -186498,6 +186508,7 @@ Road to Guangdong:
 "Road to India: Between Hell and Nirvana":
   pageId: 195185
 Road to Vostok:
+  lutris: road-to-vostok
   pageId: 205935
   steam: 1963610
   templates:
@@ -216214,6 +216225,8 @@ Stupid Raft Battle Simulator:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\SavedGames|{{P|userprofile}}\\AppData\\LocalLow\\Cultic Games\\STYGIAN\\Profiles}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Profiles}}"
 "Styx: Blades of Greed":
+  cloud:
+    steam: true
   lutris: styx-blades-of-greed
   pageId: 202061
   steam: 3290690
@@ -251370,6 +251383,7 @@ Tux Racer (2002):
   pageId: 213629
   templates:
     - "{{Game data/config|Windows|{{P|Game}}\\config\\options.txt}}"
+    - "{{Game data/saves|Windows|{{P|Game}}\\config\\}}"
 Tux and Fanny:
   gog: 2140464279
   pageId: 181431

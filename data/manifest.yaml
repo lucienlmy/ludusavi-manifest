@@ -90545,7 +90545,7 @@ Bloodthief:
       when:
         - os: linux
           store: steam
-    "<winAppData>/Godot/app_userdata/Bloodthief/full_game_ghosts/*.bt_ghost":
+    "<winAppData>/Godot/app_userdata/Bloodthief/full_game_ghosts/**/*.bt_ghost":
       when:
         - store: steam
     "<winAppData>/Godot/app_userdata/Bloodthief/user_progress.json":
@@ -90560,6 +90560,10 @@ Bloodthief:
     "<winAppData>/Godot/app_userdata/Bloodthief/user_settings_v2.json":
       when:
         - store: steam
+  id:
+    lutris: bloodthief
+    steamExtra:
+      - 4026810
   installDir:
     Bloodthief: {}
   launch:
@@ -243950,8 +243954,7 @@ Exodus from the Earth:
   steam:
     id: 892440
 "Exodus: Rising":
-  steam:
-    id: 951770
+  alias: "Forsaken Realms: Vahrin's Call"
 Exogate Initiative:
   cloud:
     steam: true
@@ -272533,6 +272536,11 @@ Forsaken Isle:
 Forsaken Realm:
   steam:
     id: 1044700
+"Forsaken Realms: Vahrin's Call":
+  id:
+    lutris: forsaken-realms-vahrins-call
+  steam:
+    id: 951770
 Forsaken Remastered:
   cloud:
     gog: true
@@ -376292,6 +376300,10 @@ Katanaut:
         - save
       when:
         - os: windows
+  id:
+    lutris: katanaut
+    steamExtra:
+      - 4017750
   installDir:
     Katanaut: {}
   launch:
@@ -384511,6 +384523,15 @@ Knights:
             store: steam
   steam:
     id: 476240
+Knights College:
+  installDir:
+    KnightsCollege: {}
+  launch:
+    "<base>/KnightsCollege.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1510030
 Knights Hunt:
   installDir:
     Knights Hunt: {}
@@ -577340,6 +577361,8 @@ Road to Vostok:
         - save
       when:
         - os: windows
+  id:
+    lutris: road-to-vostok
   steam:
     id: 1963610
 Road to your City:
@@ -610374,6 +610397,23 @@ Shadows of the Afterland:
     lutris: shadows-of-the-afterland
     steamExtra:
       - 2840300
+  installDir:
+    Shadows of the Afterland: {}
+  launch:
+    "<base>/sota_linux/ShadowsOfTheAfterland":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/sota_mac/ShadowsOfTheAfterland.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/sota_win64/ShadowsOfTheAfterland.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2506100
 "Shadows of the Damned: Hella Remastered":
@@ -669975,6 +670015,8 @@ Stupid Raft Battle Simulator:
   steam:
     id: 779290
 "Styx: Blades of Greed":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Styx3/Saved/Config/WindowsClient":
       tags:
@@ -669988,6 +670030,15 @@ Stupid Raft Battle Simulator:
         - os: windows
   id:
     lutris: styx-blades-of-greed
+  installDir:
+    Styx3: {}
+  launch:
+    "<base>/Styx3.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3290690
 "Styx: Master of Shadows":
@@ -776765,6 +776816,11 @@ Tux Racer:
     lutris: tux-racer
 Tux Racer (2002):
   files:
+    "<base>/config":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/config/options.txt":
       tags:
         - config

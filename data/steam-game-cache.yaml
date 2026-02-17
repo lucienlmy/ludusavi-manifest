@@ -560577,6 +560577,16 @@
         oslist: windows
       executable: pico_park.exe
       type: none
+1510030:
+  installDir: KnightsCollege
+  launch:
+    - executable: KnightsCollege.exe
+      type: none
+  nameLocalized:
+    english: Knights College
+    japanese: Knights College -ナイツカレッジ-
+    schinese: Knights College -骑士学院-
+    tchinese: Knights College -騎士學院-
 1510460:
   installDir: Chicken Invaders Universe
   launch:
@@ -618907,7 +618917,40 @@
   installDir: Indigo Park
   launch:
     - executable: RaccoonCh1.exe
-2506100: {}
+2506100:
+  cloud:
+    saves:
+      - path: Shadows of the Afterland_full
+        pattern: slot-*.json
+        root: LinuxXdgConfigHome
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Shadows of the Afterland_full
+            replace: Shadows of the Afterland_full
+        root: LinuxXdgConfigHome
+        useInstead: WinAppDataRoaming
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Shadows of the Afterland_full
+            replace: Shadows of the Afterland_full
+        root: LinuxXdgConfigHome
+        useInstead: MacAppSupport
+  installDir: Shadows of the Afterland
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: sota_win64/ShadowsOfTheAfterland.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: sota_linux/ShadowsOfTheAfterland
+    - config:
+        oslist: macos
+      executable: sota_mac/ShadowsOfTheAfterland.app
 2506160:
   installDir: Fears to Fathom - Ironbark Lookout
   launch:
@@ -620112,6 +620155,7 @@
         root: WinAppDataRoaming
       - path: Godot/app_userdata/Bloodthief/full_game_ghosts
         pattern: "*.bt_ghost"
+        recursive: true
         root: WinAppDataRoaming
       - path: Godot/app_userdata/Bloodthief
         pattern: user_progress.json
@@ -631828,7 +631872,10 @@
     - description: Katanaut  (Normal/Default/Vulkan)
       executable: Katanaut.exe
     - arguments: "--rendering-driver opengl3"
-      description: Katanaut (Non-Vulkan/OGL/Compatibility Mode)
+      description: Play Katanaut on Steam Deck
+      executable: Katanaut.exe
+    - arguments: "--rendering-driver opengl3"
+      description: Play Katanaut (Non-Vulkan/OGL/Compatibility Mode)
       executable: Katanaut.exe
 3035080:
   cloud:
@@ -635500,6 +635547,21 @@
       executable: GhostMasterRemake.exe
       type: default
 3290690:
+  cloud:
+    saves:
+      - path: Styx3/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Styx3
+  launch:
+    - arguments: "-SaveToUserDir"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Styx3.exe
+      type: default
   nameLocalized:
     schinese: "冥河 : 贪婪之刃"
 3291010:
