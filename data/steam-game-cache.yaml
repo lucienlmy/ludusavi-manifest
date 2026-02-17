@@ -606740,7 +606740,7 @@
       description: eac-retail
       executable: TheDivision2.exe
       type: default
-    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-papa.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode"
+    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-tango.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode"
       config:
         betakey: qc-rel
         osarch: "64"
@@ -633570,7 +633570,12 @@
   nameLocalized:
     schinese: 寂静之国的波斯菊
     tchinese: 寂靜之國的波斯菊
-3146140: {}
+3146140:
+  installDir: F22ADF
+  launch:
+    - config:
+        oslist: windows
+      executable: adfusa.exe
 3146520:
   installDir: WEBFISHING
   launch:
@@ -635035,6 +635040,19 @@
     - config:
         oslist: windows
       executable: Relooted.exe
+      type: default
+3259470:
+  cloud:
+    saves:
+      - path: com.flipline.papaspizzeriadeluxe
+        pattern: "*.sol"
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: "Papa's Pizzeria Deluxe"
+  launch:
+    - config:
+        oslist: windows
+      executable: "Papa's Pizzeria Deluxe.exe"
       type: default
 3259600:
   cloud:

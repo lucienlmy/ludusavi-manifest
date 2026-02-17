@@ -96437,9 +96437,11 @@ Botany Manor:
   cloud:
     steam: true
   files:
-    "<base>/SaveFiles/*.json":
+    "<home>/AppData/LocalLow/Balloon Studios/Botany Manor/SaveFiles":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     steamExtra:
       - 2440460
@@ -245661,6 +245663,8 @@ F-22 Lightning 3:
   steam:
     id: 32730
 "F-22: Air Dominance Fighter":
+  cloud:
+    steam: true
   files:
     "<base>/PROGRAM/game.cfg":
       tags:
@@ -245672,6 +245676,13 @@ F-22 Lightning 3:
         - save
       when:
         - os: windows
+  installDir:
+    F22ADF: {}
+  launch:
+    "<base>/adfusa.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3146140
 "F.D.N.Y. Firefighter: American Hero":
@@ -388730,7 +388741,9 @@ LEWDAPOCALYPSE:
 LGBT Battlegrounds:
   steam:
     id: 874100
-"LIT: Lux in Tenebris":
+"LIT: Bend the Light":
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/CopperGlass/LIT":
       when:
@@ -388754,6 +388767,8 @@ LGBT Battlegrounds:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: lit-bend-the-light
   installDir:
     LIT Bend the Light: {}
   launch:
@@ -388771,6 +388786,8 @@ LGBT Battlegrounds:
             store: steam
   steam:
     id: 1190160
+"LIT: Lux in Tenebris":
+  alias: "LIT: Bend the Light"
 "LIZ: Before the Plague":
   cloud:
     steam: true
@@ -455162,6 +455179,26 @@ Moonscars:
           - store: steam
   steam:
     id: 1374970
+Moonshine Inc.:
+  cloud:
+    gog: true
+  gog:
+    id: 1857037149
+  id:
+    gogExtra:
+      - 1146924346
+    lutris: moonshine-inc
+    steamExtra:
+      - 2216400
+  installDir:
+    Moonshine Inc: {}
+  launch:
+    "<base>/Moonshine Inc.exe":
+      - arguments: "-steamBuild"
+        when:
+          - store: steam
+  steam:
+    id: 1066760
 Moonshiners Simulator:
   installDir:
     Booze Masters Freezing Moonshine: {}
@@ -455173,15 +455210,7 @@ Moonshiners Simulator:
   steam:
     id: 1057600
 Moonshiners The Game:
-  installDir:
-    Moonshine Inc: {}
-  launch:
-    "<base>/Moonshine Inc.exe":
-      - arguments: "-steamBuild"
-        when:
-          - store: steam
-  steam:
-    id: 1066760
+  alias: Moonshine Inc.
 Moonshot:
   installDir:
     Moonshot: {}
@@ -509331,6 +509360,20 @@ Panzer Warfare:
             store: steam
   steam:
     id: 2291760
+"Papa's Pizzeria Deluxe":
+  files:
+    "<winAppData>/com.flipline.papaspizzeriadeluxe/**/*.sol":
+      when:
+        - store: steam
+  installDir:
+    "Papa's Pizzeria Deluxe": {}
+  launch:
+    "<base>/Papa's Pizzeria Deluxe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3259470
 "Papa's Time Machine":
   installDir:
     "PAPA'S TIME MACHINE": {}
@@ -560641,11 +560684,6 @@ Reanimal:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/REANIMAL/Saved/Config/Windows/Engine.ini":
-      tags:
-        - config
-      when:
-        - os: windows
     "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/*.sav":
       tags:
         - save
@@ -562855,6 +562893,8 @@ Red Ocean:
         - save
       when:
         - os: linux
+  id:
+    lutris: red-orchestra-ostfront-41-45
   installDir:
     Red Orchestra: {}
   launch:
@@ -763897,6 +763937,10 @@ Towa and the Guardians of the Sacred Tree:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: towaga-among-shadows
+    steamExtra:
+      - 2854930
   installDir:
     Towaga Among Shadows: {}
   launch:
@@ -768596,7 +768640,7 @@ Transformation Tycoon:
         - save
       when:
         - os: windows
-    "<winDocuments>/My Games/TransformersFOC":
+    "<winDocuments>/My Games/Transformers/TransGame/SaveData":
       tags:
         - save
       when:
@@ -768674,6 +768718,11 @@ Transformation Tycoon:
     "<base>/TransGame/Localization/PC/Cooked":
       tags:
         - config
+      when:
+        - os: windows
+    "<base>/TransGame/SaveData":
+      tags:
+        - save
       when:
         - os: windows
     "<winDocuments>/My Games/Transformers/TransGame/SaveData":

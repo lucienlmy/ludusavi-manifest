@@ -31096,6 +31096,8 @@ Botany Manor:
   steam: 1425350
   steamSide:
     - 2440460
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Balloon Studios\\Botany Manor\\SaveFiles}}"
 "Boti: Byteland Overclocked":
   cloud:
     gog: true
@@ -78772,6 +78774,8 @@ F-22 Lightning 3:
     - "{{Game data/config|Windows|{{p|game}}\\L3.cfg|{{p|game}}\\L3.INP}}"
     - "{{Game data/saves|Windows|{{p|game}}\\LSLOT*.sav}}"
 "F-22: Air Dominance Fighter":
+  cloud:
+    steam: true
   pageId: 101495
   steam: 3146140
   templates:
@@ -125205,8 +125209,13 @@ LEWDAPOCALYPSE:
 LGBT Battlegrounds:
   pageId: 96825
   steam: 874100
-"LIT: Lux in Tenebris":
+"LIT: Bend the Light":
+  cloud:
+    steam: true
+  lutris: lit-bend-the-light
   pageId: 154330
+  renamedFrom:
+    - "LIT: Lux in Tenebris"
   steam: 1190160
 "LIZ: Before the Plague":
   cloud:
@@ -146824,12 +146833,22 @@ Moonscars:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Black Mermaid\\Moonscars\\CustomInputs.json|{{P|userprofile}}\\AppData\\LocalLow\\Black Mermaid\\Moonscars\\GameOptions.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Black Mermaid\\Moonscars\\Slot*_Rel.json}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HumbleBundle.Moonscars_q2mcdwmzx4qja\\SystemAppData\\wgs}}"
+Moonshine Inc.:
+  cloud:
+    gog: true
+  gog: 1857037149
+  gogSide:
+    - 1146924346
+  lutris: moonshine-inc
+  pageId: 137038
+  renamedFrom:
+    - Moonshiners The Game
+  steam: 1066760
+  steamSide:
+    - 2216400
 Moonshiners Simulator:
   pageId: 139568
   steam: 1057600
-Moonshiners The Game:
-  pageId: 137038
-  steam: 1066760
 Moonshot:
   pageId: 38008
   steam: 426930
@@ -164581,6 +164600,12 @@ Panzer Warfare:
     steam: true
   pageId: 186557
   steam: 2291760
+"Papa's Pizzeria Deluxe":
+  malformed: true
+  pageId: 213856
+  steam: 3259470
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|appdata}}}}\\com.flipline.papaspizzeriadeluxe\\Local Store\\#SharedObjects\\}}"
 "Papa's Time Machine":
   pageId: 91448
   steam: 670320
@@ -181037,7 +181062,6 @@ Reanimal:
   pageId: 197182
   steam: 2129530
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\Config\\Windows\\Engine.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Reanimation Inc.:
   pageId: 150188
@@ -181743,6 +181767,7 @@ Red Ocean:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\RedOrchestra2SP\\ROGame\\Config\\|{{p|userprofile\\Documents}}\\My Games\\RedOrchestra2\\ROGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Binaries\\Win32\\Saves}}"
 "Red Orchestra: Ostfront 41-45":
+  lutris: red-orchestra-ostfront-41-45
   pageId: 1380
   steam: 1200
   templates:
@@ -246477,8 +246502,11 @@ Towa and the Guardians of the Sacred Tree:
 "Towaga: Among Shadows":
   cloud:
     steam: true
+  lutris: towaga-among-shadows
   pageId: 147980
   steam: 907600
+  steamSide:
+    - 2854930
 Towards Gold and Glory:
   pageId: 92413
   steam: 629450
@@ -248684,8 +248712,8 @@ Transformation Tycoon:
   pageId: 4444
   steam: 213120
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\TransGame\\Config\\PC\\Cooked|{{p|game}}\\TransGame\\Localization\\PC\\Cooked|{{p|hkcu}}\\SOFTWARE\\Activision\\Transformers Fall of Cybertron}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\TransGame\\SaveData|{{p|userprofile\\Documents}}\\My Games\\TransformersFOC\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\TransGame\\Config\\PC\\Cooked\\|{{p|game}}\\TransGame\\Localization\\PC\\Cooked\\|{{p|hkcu}}\\SOFTWARE\\Activision\\Transformers Fall of Cybertron\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\TransGame\\SaveData\\|{{p|userprofile\\Documents}}\\My Games\\Transformers\\TransGame\\SaveData\\}}"
 "Transformers: Revenge of the Fallen":
   pageId: 64163
   templates:
@@ -248709,8 +248737,8 @@ Transformation Tycoon:
   pageId: 20
   steam: 42650
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\TransGame\\Config\\PC\\Cooked|{{p|game}}\\TransGame\\Localization\\PC\\Cooked|{{p|hkcu}}\\SOFTWARE\\Activision\\TransformersWFC}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Transformers\\TransGame\\SaveData}}"
+    - "{{Game data/config|Windows|{{p|game}}\\TransGame\\Config\\PC\\Cooked\\|{{p|game}}\\TransGame\\Localization\\PC\\Cooked\\|{{p|hkcu}}\\SOFTWARE\\Activision\\TransformersWFC\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\TransGame\\SaveData\\|{{p|userprofile\\Documents}}\\My Games\\Transformers\\TransGame\\SaveData\\}}"
 Transformice:
   pageId: 48843
   steam: 335240
