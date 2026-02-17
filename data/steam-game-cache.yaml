@@ -33950,6 +33950,17 @@
         oslist: macos
       description: Launch
       executable: Anomaly Warzone Earth - Mobile Campaign.app
+252190:
+  installDir: DefendersQuest2
+  launch:
+    - config:
+        oslist: windows
+      executable: DefendersQuest2.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: DefendersQuest2.app
+      type: default
 252210:
   installDir: DungeonDashers
   launch:
@@ -530386,41 +530397,8 @@
       executable: BattlePolygon.exe
       type: default
 1220840:
-  cloud:
-    saves:
-      - path: xd/retire
-        pattern: "*.save"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-      - path: xd/retire
-        pattern: "*.autosave"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-      - path: xd/retire
-        pattern: "*.dat"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-      - path: xd/retire
-        pattern: "*.es3"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-  installDir: Retirement Simulator
-  launch:
-    - config:
-        oslist: windows
-      executable: retire.exe
-      type: default
-    - config:
-        oslist: macos
-      executable: retire.app/Contents/MacOS/retire
-      type: default
   nameLocalized:
     english: Retirement Simulator
-    sc_schinese: 退休模拟器Retirement Simulator
     schinese: 退休模拟器Retirement Simulator
 1220880:
   cloud:
@@ -587170,6 +587148,9 @@
       - path: ANTONBLAST/replays
         pattern: "*.pbak"
         root: WinAppDataLocal
+      - path: ANTONBLAST
+        pattern: antonblast_save_perm.sav
+        root: WinAppDataLocal
     overrides:
       - addPath: ".config/"
         os: Linux
@@ -632548,6 +632529,13 @@
       type: default
   nameLocalized:
     english: Reimu Needs Help!? Aunn-chan to the Rescue!
+3064060:
+  installDir: Super Chipflake Ü Quest for the uncooked Schnitzel
+  launch:
+    - config:
+        oslist: windows
+      executable: ChipflakeOZA.exe
+      type: default
 3064810:
   installDir: Strategos
   launch:
@@ -641201,7 +641189,19 @@
         oslist: linux
       executable: TimeOfMonsters
 3970690: {}
-3977380: {}
+3977380:
+  cloud:
+    saves:
+      - path: Limited Run Games/Jaws/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Mouth
+  launch:
+    - executable: Jaws.exe
+      type: default
 3978420:
   installDir: Doom 3
   launch:

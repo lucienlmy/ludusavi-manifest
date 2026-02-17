@@ -33377,6 +33377,8 @@ Buck:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\MATRIX.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE\\}}"
+"Buck Rogers: Planet of Zoom":
+  pageId: 213841
 Buck Up And Drive!:
   cloud:
     steam: true
@@ -58647,7 +58649,14 @@ Defender of the Crown:
   pageId: 14586
   steam: 326590
 "Defender's Quest II: Mists of Ruin":
+  gog: 1988808085
+  gogSide:
+    - 1608070696
+  lutris: defenders-quest-2-mists-of-ruin
   pageId: 147433
+  steam: 252190
+  steamSide:
+    - 2877990
 "Defender's Quest: Valley of the Forgotten":
   cloud:
     steam: true
@@ -92787,6 +92796,7 @@ Gears Tactics:
     - 1190291
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\GearsTactics\\Saved\\Config\\PC\\}}"
+    - "{{Game data/saves|Windows|{{P|public}}/Documents/Steam/<USERNAME>/1184050/remote}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\Microsoft.GanderBaseGame_8wekyb3d8bbwe\\SystemAppData\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1184050\\remote\\}}"
 Gears of Eden:
@@ -127384,6 +127394,7 @@ Legacy:
     gog: true
     steam: true
   gog: 1214553287
+  lutris: legacy-of-kaintm-soul-reaver-12-remastered
   pageId: 198020
   steam: 2521380
   templates:
@@ -193879,6 +193890,7 @@ Scotophobia:
 Scott Pilgrim EX:
   cloud:
     steam: true
+  lutris: scott-pilgrim-ex
   pageId: 209990
   steam: 2640950
 "Scott Pilgrim vs. The World: The Game":
@@ -217721,6 +217733,9 @@ Super Chibi Knight:
 Super Chicken Catchers:
   pageId: 128455
   steam: 869750
+"Super Chipflake Ü: Quest for the Uncooked Schnitzel":
+  pageId: 213843
+  steam: 3064060
 Super Chopper:
   cloud:
     gog: true
@@ -259121,6 +259136,9 @@ Voin:
   renamedFrom:
     - VOIN
   steam: 2464530
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/VOIN/Saved/Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/VOIN/Saved/SaveGames}}"
 Voipas:
   pageId: 129712
   steam: 1029750

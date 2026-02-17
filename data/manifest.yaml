@@ -183165,6 +183165,28 @@ Defender of the Crown:
             store: steam
   steam:
     id: 326590
+"Defender's Quest II: Mists of Ruin":
+  gog:
+    id: 1988808085
+  id:
+    gogExtra:
+      - 1608070696
+    lutris: defenders-quest-2-mists-of-ruin
+    steamExtra:
+      - 2877990
+  installDir:
+    DefendersQuest2: {}
+  launch:
+    "<base>/DefendersQuest2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/DefendersQuest2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 252190
 "Defender's Quest: Valley of the Forgotten":
   cloud:
     steam: true
@@ -367583,6 +367605,17 @@ Jaws of Extinction:
 "Jaws: Retro Edition":
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Jaws":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Mouth: {}
+  launch:
+    "<base>/Jaws.exe":
+      - when:
+          - store: steam
   steam:
     id: 3977380
 Jaxon The Thief:
@@ -395418,6 +395451,8 @@ Leftovers KO!:
         - os: windows
   gog:
     id: 1214553287
+  id:
+    lutris: legacy-of-kaintm-soul-reaver-12-remastered
   installDir:
     Soul Reaver I-II: {}
   launch:
@@ -600202,6 +600237,8 @@ Scotophobia:
 Scott Pilgrim EX:
   cloud:
     steam: true
+  id:
+    lutris: scott-pilgrim-ex
   steam:
     id: 2640950
 "Scott Pilgrim vs. The World: The Game":
@@ -675219,6 +675256,16 @@ Super Chicken Catchers:
             store: steam
   steam:
     id: 869750
+"Super Chipflake Ü: Quest for the Uncooked Schnitzel":
+  installDir:
+    Super Chipflake Ü Quest for the uncooked Schnitzel: {}
+  launch:
+    "<base>/ChipflakeOZA.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3064060
 Super Chopper:
   cloud:
     gog: true
@@ -800001,10 +800048,16 @@ Voin:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/VOIN/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/VOIN/Saved/Config":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/VOIN/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: voin
   installDir:
@@ -849128,34 +849181,6 @@ Zzzzz:
   steam:
     id: 1048470
 退休模拟器:
-  files:
-    "<home>/AppData/LocalLow/xd/retire/*.autosave":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/xd/retire/*.dat":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/xd/retire/*.es3":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/xd/retire/*.save":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    Retirement Simulator: {}
-  launch:
-    "<base>/retire.app/Contents/MacOS/retire":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/retire.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 1220840
 退廃思考:
