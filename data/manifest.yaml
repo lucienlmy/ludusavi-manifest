@@ -271625,6 +271625,13 @@ Forgotlings:
     lutris: forgotlings
     steamExtra:
       - 2475580
+      - 4414390
+  installDir:
+    Forgotlings: {}
+  launch:
+    "<base>/Forgotlings.exe":
+      - when:
+          - store: steam
   steam:
     id: 2059570
 Forgotten:
@@ -518649,6 +518656,8 @@ Phasmophobia:
         - save
       when:
         - os: windows
+  id:
+    lutris: phasmophobia
   installDir:
     Phasmophobia: {}
   launch:

@@ -87417,6 +87417,7 @@ Forgotlings:
   steam: 2059570
   steamSide:
     - 2475580
+    - 4414390
 Forgotten:
   pageId: 141150
   steam: 1097270
@@ -118913,6 +118914,8 @@ Joe Jump Impossible Quest:
     steam: true
   pageId: 130267
   steam: 1020430
+Joe Montana Football:
+  pageId: 213871
 Joe Wander and the Enigmatic Adventures:
   cloud:
     steam: true
@@ -167687,6 +167690,7 @@ Phase Shift (2019):
 Phasmophobia:
   cloud:
     steam: true
+  lutris: phasmophobia
   pageId: 164135
   steam: 739630
   templates:
@@ -231887,7 +231891,7 @@ The HinterLands:
   pageId: 191987
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\render.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles}}"
 "The History Channel: Great Battles of Rome":
   pageId: 191998
 The Hit:
@@ -243116,6 +243120,8 @@ TimeOver:
     steam: true
   pageId: 128429
   steam: 911320
+"TimeScape: Journey to Pompeii":
+  pageId: 213868
 "TimeScar: Hyperion":
   cloud:
     steam: true

@@ -597832,7 +597832,10 @@
         oslist: windows
       executable: Prototypers.exe
       type: openxr
-2059570: {}
+2059570:
+  installDir: Forgotlings
+  launch:
+    - executable: Forgotlings.exe
 2059660:
   cloud:
     saves:
