@@ -622799,6 +622799,25 @@
       description: Use OpenGL3 - Choose this if the above option does not work on your device
       executable: oblinparty.exe
 2643390:
+  cloud:
+    saves:
+      - path: "STVoyager/Saved/SaveGames/{64BitSteamID}/"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: "STVoyager/Saved/SaveGames/{64BitSteamId}/"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Star Trek Voyager - Across the Unknown
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: STVoyager.exe
+      type: default
   nameLocalized:
     schinese: 星际迷航：航海家号 - 穿越未知
 2644330:

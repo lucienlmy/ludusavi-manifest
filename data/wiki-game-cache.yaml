@@ -1327,6 +1327,7 @@ $1 Ride:
   pageId: 55263
   steam: 534910
 3D Body Adventure:
+  malformed: true
   pageId: 167445
 3D Brick Blaster Unlimited:
   pageId: 209630
@@ -33490,6 +33491,7 @@ Bug Academy:
   pageId: 100702
   steam: 881040
 Bug Adventure:
+  malformed: true
   pageId: 167629
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\KA.CNF}}"
@@ -41824,6 +41826,8 @@ Cinders:
   steam: 293680
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Cinders\\}}"
+"Cindy's Fashion World":
+  pageId: 213885
 Cine Game:
   pageId: 105263
   steam: 904960
@@ -78616,6 +78620,8 @@ Extreme Sports:
     - Xtreme Sports
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\pc\\gamedata.dat}}"
+Extreme Sprint 3010:
+  pageId: 213888
 Extreme Tactical Executioners:
   pageId: 143860
   steam: 1126950
@@ -121852,6 +121858,7 @@ Kid Phonics 2:
   pageId: 141548
   steam: 1117770
 "Kid's Zoo: A Baby Animal Adventure":
+  malformed: true
   pageId: 185286
 "Kid,napper: Gosh, I'm Kidnapped by a Pupil":
   cloud:
@@ -196537,6 +196544,9 @@ Shadow Fear Path to Insanity:
 Shadow Fencer Theatre:
   pageId: 132784
   steam: 914420
+Shadow Fight 2:
+  lutris: shadow-fight-2
+  pageId: 213882
 Shadow Force:
   pageId: 130464
   steam: 883750
@@ -211436,6 +211446,9 @@ Star Trek Timelines:
   steam: 2643390
   steamSide:
     - 4054540
+    - 4063520
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\STVoyager\\Saved\\SaveGames\\{{p|uid}}\\*.sav|{{p|localappdata}}\\STVoyager\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 "Star Trek: Voyager - Elite Force":
   cloud:
     gog: true

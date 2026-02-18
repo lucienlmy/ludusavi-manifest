@@ -608546,6 +608546,9 @@ Shadow Fencer Theatre:
             store: steam
   steam:
     id: 914420
+Shadow Fight 2:
+  id:
+    lutris: shadow-fight-2
 Shadow Force:
   steam:
     id: 883750
@@ -655142,9 +655145,29 @@ Star Trek Timelines:
 "Star Trek: Voyager - Across the Unknown":
   cloud:
     steam: true
+  files:
+    "<base>/STVoyager/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/STVoyager/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4054540
+      - 4063520
+  installDir:
+    Star Trek Voyager - Across the Unknown: {}
+  launch:
+    "<base>/STVoyager.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2643390
 "Star Trek: Voyager - Elite Force":
