@@ -232752,6 +232752,9 @@ Endurance:
             store: steam
   steam:
     id: 618260
+Endurance Motorsport Series:
+  steam:
+    id: 2228250
 Endure:
   steam:
     id: 666270
@@ -406237,6 +406240,8 @@ Little Nightmares Enhanced Edition:
         - save
       when:
         - os: windows
+  id:
+    lutris: little-nightmares-enhanced-edition
   installDir:
     Little Nightmares Enhanced Edition: {}
   launch:
@@ -495937,12 +495942,17 @@ One-Eyed Lee and the Dinner Party:
     id: 1194160
 One-Eyed Likho:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Morteshka/Liho/Saves":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: one-eyed-likho
+    steamExtra:
+      - 3707140
   installDir:
     One-Eyed Likho: {}
   launch:

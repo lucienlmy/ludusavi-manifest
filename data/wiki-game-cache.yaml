@@ -74609,6 +74609,9 @@ Endorlight:
 Endurance:
   pageId: 80839
   steam: 618260
+Endurance Motorsport Series:
+  pageId: 213880
+  steam: 2228250
 Endure:
   pageId: 79121
   steam: 666270
@@ -130908,6 +130911,7 @@ Little Nightmares Enhanced Edition:
   cloud:
     steam: true
     xbox: true
+  lutris: little-nightmares-enhanced-edition
   pageId: 205706
   steam: 2149010
   templates:
@@ -160213,9 +160217,13 @@ One-Eyed Lee and the Dinner Party:
   steam: 1194160
 One-Eyed Likho:
   cloud:
+    epic: true
     steam: true
+  lutris: one-eyed-likho
   pageId: 205798
   steam: 2346840
+  steamSide:
+    - 3707140
 "One-Punch Man: A Hero Nobody Knows":
   cloud:
     steam: true
