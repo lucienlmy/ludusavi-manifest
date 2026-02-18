@@ -438959,6 +438959,9 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version":
   cloud:
     steam: true
+  id:
+    steamExtra:
+      - 3859630
   steam:
     id: 4184400
 "Metal Gear Solid Delta: Snake Eater":
@@ -439074,6 +439077,9 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid: Peace Walker - Master Collection Version":
   cloud:
     steam: true
+  id:
+    steamExtra:
+      - 3859630
   steam:
     id: 4184360
 Metal Gear Survive:
@@ -485131,8 +485137,7 @@ Norpon:
   steam:
     id: 896510
 Norse:
-  steam:
-    id: 3054690
+  alias: "Norse: Oath of Blood"
 "Norse by Norse West: The Return of the Lost Vikings":
   files:
     "<base>/*.cfg":
@@ -485141,6 +485146,21 @@ Norse:
       when:
         - os: dos
         - os: windows
+"Norse: Oath of Blood":
+  cloud:
+    gog: true
+  gog:
+    id: 1225623266
+  id:
+    lutris: norse-oath-of-blood
+  installDir:
+    Norse: {}
+  launch:
+    "<base>/Norse.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3054690
 North:
   installDir:
     NORTH: {}

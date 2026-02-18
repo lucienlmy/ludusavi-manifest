@@ -632283,7 +632283,11 @@
   installDir: Nicktoons and The Dice of Destiny
   launch:
     - executable: Dice.exe
-3054690: {}
+3054690:
+  installDir: Norse
+  launch:
+    - executable: Norse.exe
+      type: default
 3054820:
   cloud:
     saves:

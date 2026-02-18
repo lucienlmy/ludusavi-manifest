@@ -141402,6 +141402,8 @@ Metal Gear Solid - Master Collection Version:
     steam: true
   pageId: 213729
   steam: 4184400
+  steamSide:
+    - 3859630
 "Metal Gear Solid V: Ground Zeroes":
   cloud:
     steam: true
@@ -141446,6 +141448,8 @@ Metal Gear Solid - Master Collection Version:
     steam: true
   pageId: 213731
   steam: 4184360
+  steamSide:
+    - 3859630
 Metal Gear Survive:
   cloud:
     steam: true
@@ -156689,14 +156693,21 @@ Normality:
 Norpon:
   pageId: 126181
   steam: 896510
-Norse:
-  pageId: 196249
-  steam: 3054690
 "Norse by Norse West: The Return of the Lost Vikings":
   pageId: 145606
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\*.cfg}}"
     - "{{Game data/config|Windows|{{p|game}}\\*.cfg}}"
+"Norse: Oath of Blood":
+  cloud:
+    gog: true
+    xbox: true
+  gog: 1225623266
+  lutris: norse-oath-of-blood
+  pageId: 196249
+  renamedFrom:
+    - Norse
+  steam: 3054690
 North:
   pageId: 43356
   steam: 461890
