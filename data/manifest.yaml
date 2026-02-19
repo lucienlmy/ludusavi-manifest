@@ -566866,6 +566866,8 @@ Replaced:
     id: 1936811781
   id:
     lutris: replaced
+    steamExtra:
+      - 4261860
   steam:
     id: 1663850
 Replay - VHS is not dead:
@@ -815845,6 +815847,9 @@ Wheel World:
       when:
         - os: linux
           store: steam
+  id:
+    steamExtra:
+      - 3842600
   installDir:
     WheelWorld: {}
   launch:

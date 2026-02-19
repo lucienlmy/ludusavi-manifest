@@ -183041,6 +183041,8 @@ Replaced:
   lutris: replaced
   pageId: 169280
   steam: 1663850
+  steamSide:
+    - 4261860
 Replay - VHS is not dead:
   pageId: 47337
   steam: 333490
@@ -264496,6 +264498,8 @@ Wheel World:
     xbox: true
   pageId: 206218
   steam: 1497460
+  steamSide:
+    - 3842600
 Wheel of Fate:
   pageId: 151279
   steam: 1105740
