@@ -181773,6 +181773,9 @@ Deep Dark Labyrinth:
 Deep Dark L♂byrinth:
   alias: Deep Dark Labyrinth
 Deep Dish Dungeon:
+  id:
+    steamExtra:
+      - 3618740
   steam:
     id: 2871520
 Deep Diving Simulator:
@@ -226852,6 +226855,7 @@ Elderborn:
   id:
     gogExtra:
       - 1987694488
+    lutris: elderborn
     steamExtra:
       - 1176120
       - 1176121
@@ -395456,6 +395460,8 @@ Leftovers KO!:
     steam: true
   gog:
     id: 1818228492
+  id:
+    lutris: legacy-of-kain-defiance-remastered
   steam:
     id: 3747730
 "Legacy of Kain: Soul Reaver":
@@ -435713,6 +435719,29 @@ Megaquarium:
             store: steam
   steam:
     id: 600480
+Megastore Simulator:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Yolo Games Studio/Megastore Simulator/Save_*.data":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Yolo Games Studio/Megastore Simulator/Save_*.data":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Yolo Games Studio/Megastore Simulator/Save_*.data":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Megastore Simulator: {}
+  launch:
+    "<base>/Megastore Simulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3819640
 Megatect:
   installDir:
     Megatect: {}
@@ -543833,6 +543862,19 @@ Pure Pool:
           - store: steam
   steam:
     id: 300610
+Pure Pool Pro:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/PurePoolPro/saveGame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Pure Pool Pro: {}
+  steam:
+    id: 3456930
 Pure Rock Crawling:
   installDir:
     Pure Rock Crawling: {}
@@ -612252,6 +612294,8 @@ Shattered - Tale of the Forgotten King:
           store: steam
   gog:
     id: 1402489296
+  id:
+    lutris: shattered-tale-of-the-forgotten-king
   installDir:
     Shattered - Tale of the Forgotten King: {}
   launch:
@@ -749300,6 +749344,26 @@ Thirty Two:
             store: steam
   steam:
     id: 477750
+This Bed We Made:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/ThisBedWeMade/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: this-bed-we-made
+  installDir:
+    This Bed We Made: {}
+  launch:
+    "<base>/ThisBedWeMade.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1243850
 This Book Is a Dungeon:
   installDir:
     This Book Is A Dungeon: {}

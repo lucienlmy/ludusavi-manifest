@@ -58216,6 +58216,8 @@ Deep Dark Labyrinth:
 Deep Dish Dungeon:
   pageId: 207378
   steam: 2871520
+  steamSide:
+    - 3618740
 Deep Diving Simulator:
   cloud:
     gog: true
@@ -72768,9 +72770,11 @@ Elderborn:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1732383191
   gogSide:
     - 1987694488
+  lutris: elderborn
   pageId: 73985
   steam: 727850
   steamSide:
@@ -127415,6 +127419,7 @@ Legacy:
     epic: true
     steam: true
   gog: 1818228492
+  lutris: legacy-of-kain-defiance-remastered
   pageId: 213703
   steam: 3747730
 "Legacy of Kain: Soul Reaver":
@@ -140366,6 +140371,11 @@ Megaquarium:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Megaquarium\\Saves\\global.data}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Megaquarium\\Saves\\*.sav}}"
+Megastore Simulator:
+  cloud:
+    steam: true
+  pageId: 213898
+  steam: 3819640
 Megatect:
   pageId: 45765
   steam: 369270
@@ -175742,6 +175752,13 @@ Pure Pool:
     - 300860
     - 305400
     - 362360
+Pure Pool Pro:
+  cloud:
+    steam: true
+  pageId: 213901
+  steam: 3456930
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\PurePoolPro\\saveGame.dat}}"
 Pure Rock Crawling:
   pageId: 91080
   steam: 824720
@@ -197749,6 +197766,7 @@ Shattered - Tale of the Forgotten King:
     gog: true
     steam: true
   gog: 1402489296
+  lutris: shattered-tale-of-the-forgotten-king
   pageId: 135404
   steam: 1045180
 Shattered God - Quest for the Divine Relic:
@@ -241762,6 +241780,10 @@ Thirty Two:
 "Thirty Years' War":
   pageId: 33930
   steam: 477750
+This Bed We Made:
+  lutris: this-bed-we-made
+  pageId: 212869
+  steam: 1243850
 This Book Is a Dungeon:
   pageId: 46118
   renamedFrom:

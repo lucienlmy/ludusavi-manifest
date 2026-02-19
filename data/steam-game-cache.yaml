@@ -533439,6 +533439,24 @@
       type: default
   nameLocalized:
     schinese: 胡闹厨房 全都好吃
+1243850:
+  cloud:
+    saves:
+      - path: ThisBedWeMade/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: This Bed We Made
+  launch:
+    - config:
+        oslist: windows
+      executable: ThisBedWeMade.exe
+      type: default
 1243890:
   cloud:
     saves:
@@ -637641,6 +637659,25 @@
   launch:
     - executable: mk_legacy_kollection.exe
       type: default
+3456930:
+  cloud:
+    saves:
+      - path: PurePoolPro
+        pattern: "*.dat"
+        root: WinAppDataLocal
+  installDir: Pure Pool Pro
+  launch:
+    - arguments: "-steam"
+      description: Pure Pool Pro
+      executable: PurePool.exe
+      type: option1
+    - arguments: RunGameRackhaus.mec
+      config:
+        betakey: "initial-build-development-master,patch-00-development-build,patch-01-development-build,patch-00.1-development-build"
+      description: Pure Pool Pro Editor
+      executable: editor/MantisEditor.exe
+      type: editor
+      workingdir: editor
 3459100:
   cloud:
     saves:
@@ -640728,6 +640765,26 @@
   installDir: windows
   launch:
     - executable: Heaven Does Not Respond.exe
+3819640:
+  cloud:
+    saves:
+      - path: Yolo Games Studio/Megastore Simulator/
+        pattern: Save_*.data
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Megastore Simulator
+  launch:
+    - executable: Megastore Simulator.exe
 3820550: {}
 3825360: {}
 3832650:
