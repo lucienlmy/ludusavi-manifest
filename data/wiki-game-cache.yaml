@@ -31747,9 +31747,7 @@ Brave Dungeon II:
   pageId: 123515
   steam: 980220
 Brave Dwarves Creeping Shadows:
-  lutris: my-winter-car
   pageId: 212371
-  steam: 4164420
 "Brave Earth: Prologue":
   cloud:
     gog: true
@@ -202612,9 +202610,7 @@ Sleeping Valley:
   pageId: 51284
   steam: 538590
 "Sleepover: reWake":
-  lutris: my-winter-car
   pageId: 212372
-  steam: 4164420
 Sleepwalker (1993):
   pageId: 91498
   renamedFrom:
@@ -211442,7 +211438,9 @@ Star Trek Timelines:
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Star Trek: Voyager - Across the Unknown":
   cloud:
+    epic: true
     steam: true
+  lutris: star-trek-voyager-across-the-unknown
   pageId: 209645
   steam: 2643390
   steamSide:
