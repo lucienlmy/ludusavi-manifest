@@ -119975,6 +119975,7 @@ Just Cause 2:
     - 259080
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Square Enix\\Just Cause 2\\Saves\\JC2Settings}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Just Cause 2}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\8190\\}}"
 Just Cause 3:
   cloud:
@@ -243877,6 +243878,8 @@ Titans of Space 2.0:
 "Titeuf: Mega Party":
   pageId: 153092
   steam: 1165610
+"Titeuf: Méga compet'":
+  pageId: 213891
 Title Pending:
   cloud:
     steam: true

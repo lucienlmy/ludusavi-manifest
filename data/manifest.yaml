@@ -301511,6 +301511,10 @@ Gothic II:
     lutris: gothic-ii-gold-edition
   installDir:
     Gothic II: {}
+  launch:
+    "<base>/system/GothicStarter.exe":
+      - when:
+          - store: steam
   steam:
     id: 39510
 Gothic Playable Teaser:
@@ -372773,6 +372777,11 @@ Just Cause 2:
         - save
       when:
         - store: steam
+    "<winDocuments>/My Games/Just Cause 2":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Square Enix/Just Cause 2/Saves/JC2Settings":
       tags:
         - config

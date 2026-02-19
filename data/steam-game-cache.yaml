@@ -9523,9 +9523,7 @@
         root: gameinstall
   installDir: Gothic II
   launch:
-    - config:
-        betakey: default
-      executable: "system\\GothicStarter.exe"
+    - executable: "system\\GothicStarter.exe"
       type: default
     - config:
         betakey: workshop
@@ -9538,6 +9536,12 @@
       executable: "system\\Gothic2.exe"
       type: default
       workingdir: system
+    - config:
+        betakey: unrealbeta
+      description: Gothic II Complete Classic in Unreal (Community Project)
+      executable: "UnrealCommunityRemaster\\Gothic2\\Binaries\\Win64\\Gothic-Win64-Shipping.exe"
+      type: option2
+      workingdir: "UnrealCommunityRemaster\\Gothic2\\Binaries\\Win64"
 39520:
   installDir: Europa 1400 The Guild - Gold Edition
   launch:
