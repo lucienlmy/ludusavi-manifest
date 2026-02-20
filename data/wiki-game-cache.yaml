@@ -16132,6 +16132,8 @@ Ashes Cricket 2013:
 Ashes of Creation Apocalypse:
   pageId: 149515
   steam: 1133430
+Ashes of Empire:
+  pageId: 213917
 Ashes of Immortality:
   cloud:
     steam: true
@@ -124661,6 +124663,7 @@ Kreed:
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 "Kreed: Battle for Savitar":
   pageId: 133836
+  steam: 289710
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
@@ -140376,6 +140379,8 @@ Megastore Simulator:
     steam: true
   pageId: 213898
   steam: 3819640
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Yolo Games Studio\\Megastore Simulator}}"
 Megatect:
   pageId: 45765
   steam: 369270
@@ -154462,9 +154467,6 @@ Neyyah:
 NiBiRu Age of Secrets:
   lutris: nibiru-age-of-secrets
   pageId: 184410
-NiGHT SIGNAL:
-  pageId: 139518
-  steam: 1093840
 NiHonGoToKi:
   pageId: 130239
   steam: 1044030
@@ -154767,6 +154769,11 @@ Night Of The Living Dead VR:
 Night Shift (2015):
   pageId: 48637
   steam: 301050
+Night Signal:
+  pageId: 139518
+  renamedFrom:
+    - NiGHT SIGNAL
+  steam: 1093840
 Night Sing:
   pageId: 139391
   steam: 1097310
@@ -194547,6 +194554,11 @@ Seacurity Breach:
     steam: true
   pageId: 112156
   steam: 906660
+"Seafarer: The Ship Sim":
+  cloud:
+    steam: true
+  pageId: 213913
+  steam: 2582140
 Seal Girl:
   pageId: 98680
   steam: 880510
@@ -208646,6 +208658,11 @@ SpeedRunners:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/SpeedRunners/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SpeedRunners/}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\207140\\remote\\}}"
+Speedball (2026):
+  cloud:
+    steam: true
+  pageId: 213910
+  steam: 1795190
 Speedball 2 HD:
   cloud:
     steam: true
@@ -227868,6 +227885,11 @@ The Burning Descent:
 The Burton Equation:
   pageId: 201697
   steam: 1007090
+The Bus:
+  cloud:
+    steam: true
+  pageId: 213912
+  steam: 491540
 The Butterfly Sign:
   pageId: 54935
   steam: 546700

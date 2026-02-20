@@ -387009,6 +387009,15 @@ Kreed:
         - save
       when:
         - os: windows
+  installDir:
+    KREED - Battle for Savitar: {}
+  launch:
+    "<base>/bfs.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 289710
 Kreedz Climbing:
   cloud:
     steam: true
@@ -435723,17 +435732,11 @@ Megastore Simulator:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Yolo Games Studio/Megastore Simulator/Save_*.data":
+    "<home>/AppData/LocalLow/Yolo Games Studio/Megastore Simulator":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Yolo Games Studio/Megastore Simulator/Save_*.data":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Yolo Games Studio/Megastore Simulator/Save_*.data":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     Megastore Simulator: {}
   launch:
@@ -478328,16 +478331,6 @@ Neyyah:
 NiBiRu Age of Secrets:
   id:
     lutris: nibiru-age-of-secrets
-NiGHT SIGNAL:
-  installDir:
-    Night Signal: {}
-  launch:
-    "<base>/Night Signal.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1093840
 NiGHTS into Dreams...:
   alias: Nights into Dreams
 NiHonGoToKi:
@@ -479171,6 +479164,16 @@ Night Shift (2015):
             store: steam
   steam:
     id: 301050
+Night Signal:
+  installDir:
+    Night Signal: {}
+  launch:
+    "<base>/Night Signal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1093840
 Night Sing:
   files:
     "<base>/NS_Data/**/*.json":
@@ -510936,6 +510939,18 @@ Paranormal Teens:
 "Paranormasight: The Mermaid's Curse":
   cloud:
     steam: true
+  files:
+    "<winDocuments>/My Games/PARANORMASIGHT_2/Steam/<storeUserId>/*.bytes":
+      when:
+        - store: steam
+  installDir:
+    PARANORMASIGHT_2: {}
+  launch:
+    "<base>/PARANORMASIGHT_2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2701440
 "Paranormasight: The Seven Mysteries of Honjo":
@@ -602176,6 +602191,25 @@ Seacurity Breach:
             store: steam
   steam:
     id: 906660
+"Seafarer: The Ship Sim":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Orca/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Seafarer: {}
+  launch:
+    "<base>/Windows/Seafarer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/Windows"
+  steam:
+    id: 2582140
 Seal Girl:
   files:
     "<home>/AppData/LocalLow/Girl and Goblin":
@@ -646574,6 +646608,26 @@ SpeedRunners:
             store: steam
   steam:
     id: 207140
+Speedball (2026):
+  cloud:
+    steam: true
+  files:
+    "<base>/Speedball/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Speedball/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Speedball: {}
+  launch:
+    "<base>/Speedball.exe":
+      - arguments: "-ini:Engine:[OnlineSubsystem]:NativePlatformService=Steam  -PlayfabSteam"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1795190
 Speedball 2 HD:
   cloud:
     steam: true
@@ -707216,6 +707270,27 @@ The Burton Equation:
           - store: steam
   steam:
     id: 1007090
+The Bus:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TheBus/Saved/Profiles/**/*.*":
+      when:
+        - store: steam
+    "<winLocalAppData>/TheBus/Settings/GlobalSettings.cfg":
+      when:
+        - store: steam
+    "<winLocalAppData>/TheBus/Settings/Mods.cfg":
+      when:
+        - store: steam
+  installDir:
+    The Bus: {}
+  launch:
+    "<base>/TheBus/Binaries/Win64/TheBus.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 491540
 The Butterfly Sign:
   id:
     steamExtra:

@@ -52304,6 +52304,14 @@
         oslist: macos
       executable: Lara Croft and the Temple of Osiris.app
       type: none
+289710:
+  installDir: KREED - Battle for Savitar
+  launch:
+    - config:
+        oslist: windows
+      executable: bfs.exe
+  nameLocalized:
+    russian: "KREED: Битва за Савитар"
 289760:
   installDir: ROCKETSROCKETSROCKETS
   launch:
@@ -173970,6 +173978,25 @@
         oslist: windows
       executable: notruf112.exe
       type: default
+491540:
+  cloud:
+    saves:
+      - path: TheBus/Saved/Profiles
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: TheBus/Settings
+        pattern: GlobalSettings.cfg
+        root: WinAppDataLocal
+      - path: TheBus/Settings
+        pattern: Mods.cfg
+        root: WinAppDataLocal
+  installDir: The Bus
+  launch:
+    - executable: "TheBus\\Binaries\\Win64\\TheBus.exe"
+      type: default
+  nameLocalized:
+    schinese: The Bus - 城市公交模拟
 491560:
   installDir: Momonga Pinball Adventures
   launch:
@@ -582003,6 +582030,24 @@
     koreana: 소닉 오리진스
     schinese: 索尼克 起源
     tchinese: 索尼克 起源
+1795190:
+  cloud:
+    saves:
+      - path: Speedball/Saved/SaveGames/
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: Speedball/Saved/SaveGames/
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Speedball
+  launch:
+    - arguments: "-ini:Engine:[OnlineSubsystem]:NativePlatformService=Steam  -PlayfabSteam"
+      config:
+        oslist: windows
+      executable: Speedball.exe
+      type: default
 1795470:
   cloud:
     saves:
@@ -621332,6 +621377,61 @@
         oslist: windows
       executable: thecollageatlas.exe
       type: default
+2582140:
+  cloud:
+    saves:
+      - path: Orca/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Seafarer
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Windows\\Seafarer.exe"
+      type: default
+      workingdir: Windows
+    - config:
+        betakey: model_viewer
+        osarch: "64"
+        oslist: windows
+      description: Model Viewer Ships
+      executable: "Windows\\Orca_Ships.exe"
+      workingdir: Windows
+    - config:
+        betakey: gfx_viewer
+        osarch: "64"
+        oslist: windows
+      description: GFX Asset Viewer
+      executable: "Windows\\AssetLibrary.exe"
+      workingdir: Windows
+    - config:
+        betakey: ea_release_cheats
+        osarch: "64"
+        oslist: windows
+      description: Seafarer with Cheats
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
+    - config:
+        betakey: dev_nightly
+        osarch: "64"
+        oslist: windows
+      description: Seafarer with Cheats
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
+    - config:
+        betakey: ias_temp
+        osarch: "64"
+        oslist: windows
+      description: Seafarer with Cheats
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
+  nameLocalized:
+    japanese: シーフェアラー：シップシミュレーター
+    schinese: 海员人生：行船模拟
+    tchinese: 《模擬航行：勇闖大海》
 2582320: {}
 2582560:
   installDir: Madden NFL 25
@@ -624622,6 +624722,17 @@
 2699550: {}
 2701030: {}
 2701440:
+  cloud:
+    saves:
+      - path: "My Games/PARANORMASIGHT_2/Steam/{64BitSteamID}"
+        pattern: "*.bytes"
+        root: WinMyDocuments
+  installDir: PARANORMASIGHT_2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: PARANORMASIGHT_2.exe
   nameLocalized:
     english: "PARANORMASIGHT: The Mermaid's Curse"
     japanese: パラノマサイト FILE38 伊勢人魚物語
