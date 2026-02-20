@@ -637635,6 +637635,21 @@
   installDir: Angry Video Game Nerd 8-bit
   launch:
     - executable: AVGN8-Bit.exe
+3445830:
+  installDir: Return to Ash
+  launch:
+    - config:
+        oslist: windows
+      executable: returntoash.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: returntoash.sh
+      type: default
+    - config:
+        oslist: macos
+      executable: returntoash.app
+      type: default
 3446190:
   cloud:
     saves:

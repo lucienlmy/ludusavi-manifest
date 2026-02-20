@@ -42963,6 +42963,10 @@ Apez:
   steam:
     id: 683210
 Aphelion:
+  cloud:
+    steam: true
+  id:
+    lutris: aphelion--1
   steam:
     id: 1966410
 Apico:
@@ -570129,6 +570133,28 @@ Return of the Triad:
         - config
       when:
         - os: windows
+Return to Ash:
+  id:
+    lutris: return-to-ash
+    steamExtra:
+      - 3826980
+  installDir:
+    Return to Ash: {}
+  launch:
+    "<base>/returntoash.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/returntoash.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/returntoash.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3445830
 Return to Castle Wolfenstein:
   cloud:
     steam: true
@@ -590259,9 +590285,14 @@ SCP022:
     id: 1009990
 "SCP: 5K":
   files:
-    "<winLocalAppData>/Pandemic/Saved":
+    "<winLocalAppData>/Pandemic/Saved/Config/WindowsNoEditor":
       tags:
         - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Pandemic/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
   installDir:
@@ -647977,6 +648008,7 @@ Sphinx and the Cursed Mummy:
     gogExtra:
       - 1281140155
       - 1792083431
+    lutris: sphinx-and-the-cursed-mummy
     steamExtra:
       - 733200
       - 750430
@@ -789786,17 +789818,6 @@ VIRO MOVE:
     VIROMOVE: {}
   steam:
     id: 1076020
-VITAL:
-  installDir:
-    VITAL: {}
-  launch:
-    "<base>/Vital.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1155620
 VKT Prime System Crash:
   cloud:
     steam: true
@@ -799094,6 +799115,17 @@ Vita3K:
         - save
       when:
         - os: windows
+Vital:
+  installDir:
+    VITAL: {}
+  launch:
+    "<base>/Vital.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1155620
 Vital Shell:
   cloud:
     steam: true

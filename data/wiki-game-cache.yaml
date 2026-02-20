@@ -13589,7 +13589,9 @@ Apez:
   steam: 683210
 Aphelion:
   cloud:
+    steam: true
     xbox: true
+  lutris: aphelion--1
   pageId: 205293
   steam: 1966410
 Apico:
@@ -184175,6 +184177,12 @@ Return of the Triad:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\zdoom-*-ROTT.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.zds}}"
+Return to Ash:
+  lutris: return-to-ash
+  pageId: 213929
+  steam: 3445830
+  steamSide:
+    - 3826980
 Return to Castle Wolfenstein:
   cloud:
     steam: true
@@ -190705,7 +190713,8 @@ SCP022:
     - "SCP: Pandemic"
   steam: 872670
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Pandemic\\Saved\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Pandemic\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Pandemic\\Saved\\SaveGames}}"
 "SCP: Blackout":
   pageId: 122450
   steam: 963400
@@ -209129,6 +209138,7 @@ Sphinx and the Cursed Mummy:
   gogSide:
     - 1281140155
     - 1792083431
+  lutris: sphinx-and-the-cursed-mummy
   pageId: 75972
   steam: 606710
   steamSide:
@@ -239260,6 +239270,8 @@ The Tale of Bistun:
     - 1709800
   templates:
     - "{{Game data/saves|Windows|%APPDATA%\\..\\LocalLow\\BlackCubeGames\\The Tale of Bistun}}"
+The Tale of Despereaux:
+  pageId: 213926
 The Tale of Doris and the Dragon - Episode 1:
   pageId: 38801
   steam: 516840
@@ -255642,9 +255654,6 @@ VIP Shuttle:
 VIRO MOVE:
   pageId: 136997
   steam: 1076020
-VITAL:
-  pageId: 150695
-  steam: 1155620
 VKT Prime System Crash:
   cloud:
     steam: true
@@ -258883,6 +258892,11 @@ Vita3K:
   pageId: 181469
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Vita3K\\Vita3K\\ux0\\user\\00\\}}"
+Vital:
+  pageId: 150695
+  renamedFrom:
+    - VITAL
+  steam: 1155620
 Vital Shell:
   cloud:
     steam: true
