@@ -37394,6 +37394,8 @@ Cars Mater-National Championship:
   steam: 762900
 "Cars: Fast as Lightning":
   pageId: 173837
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Packages\\A278AB0D.CarsFastAsLightning_h6adky7gbf63m\\LocalState}}"
 "Cars: Radiator Springs Adventures":
   cloud:
     steam: true
@@ -132380,17 +132382,33 @@ Lost Egg:
   steam: 1098510
 Lost Eidolons:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1316455012
+  gogSide:
+    - 1238863032
+    - 1471294194
+  lutris: lost-eidolons
   pageId: 185533
   steam: 1580520
   steamSide:
+    - 2162240
     - 2162250
     - 2162280
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Ocean Drive Studio\\Lost Eidolons}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Ocean Drive Studio\\Lost Eidolons\\Saves}}"
+"Lost Eidolons: Veil of the Witch":
+  cloud:
+    steam: true
+    xbox: true
+  lutris: lost-eidolons-veil-of-the-witch
+  pageId: 213922
+  steam: 2530490
+  steamSide:
+    - 4021450
+    - 4023920
 Lost Ember:
   cloud:
     gog: true
@@ -206741,6 +206759,8 @@ Space Chaos:
   steam: 723060
 Space Chimps:
   pageId: 88498
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 Space Chip:
   pageId: 93814
   steam: 790760
@@ -216327,6 +216347,9 @@ Stupid Raft Battle Simulator:
   lutris: styx-blades-of-greed
   pageId: 202061
   steam: 3290690
+  steamSide:
+    - 3757150
+    - 3939890
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Styx3\\Saved\\Config\\WindowsClient}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Styx3\\Saved\\SaveGames}}"

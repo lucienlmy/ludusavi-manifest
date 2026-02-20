@@ -116478,6 +116478,13 @@ Cars Mater-National Championship:
             store: steam
   steam:
     id: 762900
+"Cars: Fast as Lightning":
+  files:
+    "<winLocalAppData>/Packages/A278AB0D.CarsFastAsLightning_h6adky7gbf63m/LocalState":
+      tags:
+        - save
+      when:
+        - os: windows
 "Cars: Radiator Springs Adventures":
   cloud:
     steam: true
@@ -410695,6 +410702,7 @@ Lost Egg:
     id: 1098510
 Lost Eidolons:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -410711,7 +410719,12 @@ Lost Eidolons:
   gog:
     id: 1316455012
   id:
+    gogExtra:
+      - 1238863032
+      - 1471294194
+    lutris: lost-eidolons
     steamExtra:
+      - 2162240
       - 2162250
       - 2162280
   installDir:
@@ -410724,6 +410737,29 @@ Lost Eidolons:
             store: steam
   steam:
     id: 1580520
+"Lost Eidolons: Veil of the Witch":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/OceanDriveStudio/VOTW/Saves/Steam/2530490":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: lost-eidolons-veil-of-the-witch
+    steamExtra:
+      - 4021450
+      - 4023920
+  installDir:
+    Lost Eidolons Veil of the Witch: {}
+  launch:
+    "<base>/VOTW.exe":
+      - arguments: "-pcplatform steam"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2530490
 Lost Ember:
   cloud:
     gog: true
@@ -640668,6 +640704,13 @@ Space Challenge:
 Space Chaos:
   steam:
     id: 723060
+Space Chimps:
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
 Space Chip:
   installDir:
     Space Chip: {}
@@ -670207,6 +670250,9 @@ Stupid Raft Battle Simulator:
         - os: windows
   id:
     lutris: styx-blades-of-greed
+    steamExtra:
+      - 3757150
+      - 3939890
   installDir:
     Styx3: {}
   launch:

@@ -620090,6 +620090,24 @@
     - config:
         oslist: linux
       executable: perimeter
+2530490:
+  cloud:
+    saves:
+      - path: OceanDriveStudio/VOTW/Saves/Steam/2530490
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Lost Eidolons Veil of the Witch
+  launch:
+    - arguments: "-pcplatform steam"
+      config:
+        oslist: windows
+      executable: VOTW.exe
+      type: default
+  nameLocalized:
+    koreana: "로스트 아이돌론스 : 베일 오브 더 위치"
+    schinese: 幻灵降世录 ：女巫的面纱
 2530560:
   cloud:
     saves:
