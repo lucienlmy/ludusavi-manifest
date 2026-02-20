@@ -167103,55 +167103,41 @@
 472420:
   cloud:
     saves:
-      - path: "unity.Venture Moon Industries.Duke Grabowski, Mighty Swashbuckler!"
+      - path: userData
+        pattern: "*.savx"
+        recursive: true
+        root: gameinstall
+      - path: userData
         pattern: "*.jpg"
-        platforms:
-          - MacOS
-        root: MacAppSupport
-      - path: "unity.Venture Moon Industries.Duke Grabowski, Mighty Swashbuckler!"
-        pattern: "*.save"
-        platforms:
-          - MacOS
-        root: MacAppSupport
-      - path: Venture Moon Industries/Duke Grabowski_ Mighty Swashbuckler_
-        pattern: "*.save"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-      - path: Venture Moon Industries/Duke Grabowski_ Mighty Swashbuckler_
-        pattern: "*.jpg"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-      - path: "unity.Venture Moon Industries.Duke Grabowski, Mighty Swashbuckler!"
-        pattern: "*.save"
-        platforms:
-          - Linux
-        root: LinuxHome
-      - path: "unity.Venture Moon Industries.Duke Grabowski, Mighty Swashbuckler!"
-        pattern: "*.jpg"
-        platforms:
-          - Linux
-        root: LinuxHome
+        recursive: true
+        root: gameinstall
+      - path: userData
+        pattern: "*.cfg"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: userData
+            replace: Duke Grabowski - Steam
+        root: gameinstall
+        useInstead: MacAppSupport
   installDir: "Duke Grabowski, Mighty Swashbuckler"
   launch:
     - config:
         oslist: macos
-      executable: Duke.app
+      executable: duke_mac_steam.app
       type: default
     - config:
+        osarch: "64"
         oslist: windows
-      executable: Duke.exe
-      type: default
-    - config:
-        osarch: "32"
-        oslist: linux
-      executable: Duke.x86
+      executable: duke.exe
       type: default
     - config:
         osarch: "64"
         oslist: linux
-      executable: Duke.x86_64
+      executable: duke_steam_linux_x64
       type: default
 472690:
   installDir: Sombrero Spaghetti Western Mayhem
@@ -620047,6 +620033,7 @@
       executable: BaseballClub.app
       type: default
 2528410: {}
+2529790: {}
 2529820:
   installDir: Wedding Witch
   launch:
@@ -634536,7 +634523,13 @@
     - executable: PixelMuseum.exe
   nameLocalized:
     japanese: 儒烏風亭らでんがご案内！ピクセルミュージアム
-3204320: {}
+3204320:
+  installDir: Welcome to Doll Town
+  launch:
+    - config:
+        oslist: windows
+      executable: Welcome to Doll Town.exe
+      type: default
 3204590:
   installDir: Sociable Soccer 25
   launch:

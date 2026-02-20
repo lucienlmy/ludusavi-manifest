@@ -68563,6 +68563,7 @@ Duke Dashington Remastered:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Stencyl\\Duke Dashington Remastered\\}}"
 "Duke Grabowski, Mighty Swashbuckler":
   cloud:
+    gog: true
     steam: true
   pageId: 50859
   steam: 472420
@@ -75541,6 +75542,8 @@ Erefia:
     - Ergastulum
   steam: 598430
 Eric the Unready:
+  cloud:
+    gog: true
   gog: 2038903037
   pageId: 131628
   steam: 1006450
@@ -98577,6 +98580,12 @@ Grime:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Clover Bite\\GRIME}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Clover Bite\\GRIME\\Save Files\\}}"
+Grime II:
+  cloud:
+    steam: true
+  lutris: grime-ii
+  pageId: 213933
+  steam: 2529790
 Grimind:
   pageId: 50664
   steam: 265380
@@ -133432,6 +133441,8 @@ Lovish:
   steam: 2959010
   steamSide:
     - 3830540
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\gamesave.kap}}"
 Low Desert Punk:
   pageId: 70665
   steam: 709400
@@ -153762,6 +153773,7 @@ Neva:
     - 2482520
     - 3160860
     - 3905410
+    - 4437840
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\nomada studio\\Neva\\{{p|uid}}\\Save01\\Config.gs}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/Config.gs}}"
@@ -207415,6 +207427,11 @@ Space Punks:
     - "{{Game data/config|Windows|{{p|game}}\\sq6}}"
     - "{{Game data/saves|Windows|{{p|game}}\\sq6\\SQ6SG.***}}"
 "Space Quest I: Roger Wilco in The Sarien Encounter":
+  cloud:
+    gog: true
+  gog: 1207661413
+  gogSide:
+    - 1207658875
   pageId: 120618
   steam: 10110
 "Space Quest II: Chapter II - Vohaul's Revenge":
@@ -233525,6 +233542,8 @@ The Last Express:
     gog: true
     steam: true
   gog: 1207658906
+  gogSide:
+    - 1503811760
   pageId: 23241
   steam: 252710
   templates:

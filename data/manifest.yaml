@@ -213998,6 +213998,7 @@ Duke Dashington Remastered:
     id: 894420
 "Duke Grabowski, Mighty Swashbuckler":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Venture Moon Industries/Duke Grabowski_ Mighty Swashbuckler_/*.save":
@@ -214018,20 +214019,16 @@ Duke Dashington Remastered:
   installDir:
     "Duke Grabowski, Mighty Swashbuckler": {}
   launch:
-    "<base>/Duke.app":
+    "<base>/duke.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/duke_mac_steam.app":
       - when:
           - os: mac
             store: steam
-    "<base>/Duke.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/Duke.x86":
-      - when:
-          - bit: 32
-            os: linux
-            store: steam
-    "<base>/Duke.x86_64":
+    "<base>/duke_steam_linux_x64":
       - when:
           - bit: 64
             os: linux
@@ -235803,6 +235800,8 @@ Ergastulum:
   steam:
     id: 598430
 Eric the Unready:
+  cloud:
+    gog: true
   gog:
     id: 2038903037
   installDir:
@@ -306582,6 +306581,13 @@ Grime:
         - config
   steam:
     id: 1123050
+Grime II:
+  cloud:
+    steam: true
+  id:
+    lutris: grime-ii
+  steam:
+    id: 2529790
 Grimind:
   installDir:
     Grimind: {}
@@ -414072,6 +414078,12 @@ Lovestory:
 Lovish:
   cloud:
     steam: true
+  files:
+    "<base>/gamesave.kap":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1440487149
   id:
@@ -476155,6 +476167,7 @@ Neva:
       - 2482520
       - 3160860
       - 3905410
+      - 4437840
   installDir:
     Neva: {}
   launch:
@@ -642665,6 +642678,13 @@ Space Punks:
   steam:
     id: 10110
 "Space Quest I: Roger Wilco in The Sarien Encounter":
+  cloud:
+    gog: true
+  gog:
+    id: 1207661413
+  id:
+    gogExtra:
+      - 1207658875
   installDir:
     Space Quest Collection: {}
   launch:
@@ -724448,6 +724468,9 @@ The Last Express:
         - os: windows
   gog:
     id: 1207658906
+  id:
+    gogExtra:
+      - 1503811760
   installDir:
     LastExpress: {}
   launch:
@@ -814344,6 +814367,13 @@ Welcome to Bummertown:
 Welcome to Doll Town:
   cloud:
     steam: true
+  installDir:
+    Welcome to Doll Town: {}
+  launch:
+    "<base>/Welcome to Doll Town.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3204320
 Welcome to Empyreum:
