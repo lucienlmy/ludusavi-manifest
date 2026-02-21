@@ -15375,6 +15375,8 @@ Army Men II:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+Army Racer:
+  pageId: 213946
 "Army Ranger: Mogadishu":
   lutris: army-ranger-mogadishu
   pageId: 80272
@@ -98804,6 +98806,8 @@ Groggers!:
 Groid:
   pageId: 156799
   steam: 1216270
+"Grolier's CornerStone Home":
+  pageId: 213944
 Grompula:
   pageId: 109454
   steam: 904500
@@ -165178,11 +165182,13 @@ Paranormal Teens:
 "Paranormasight: The Mermaid's Curse":
   cloud:
     steam: true
+  lutris: paranormasight-the-mermaids-curse
   pageId: 213487
   steam: 2701440
 "Paranormasight: The Seven Mysteries of Honjo":
   cloud:
     steam: true
+  lutris: paranormasight-the-seven-mysteries-of-honjo
   pageId: 185840
   renamedFrom:
     - "PARANORMASIGHT: The Seven Mysteries of Honjo"

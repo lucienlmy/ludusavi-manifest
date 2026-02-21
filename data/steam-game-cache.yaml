@@ -633456,7 +633456,7 @@
     - executable: runtime/media/start_protected_game.exe
       workingdir: runtime/media/
     - config:
-        betakey: "release,for_razer"
+        betakey: "release,for_razer,for_o2"
       description: VFREVO.exe を実行（EAC無効）
       executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/

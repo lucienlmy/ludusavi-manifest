@@ -511029,6 +511029,8 @@ Paranormal Teens:
     "<winDocuments>/My Games/PARANORMASIGHT_2/Steam/<storeUserId>/*.bytes":
       when:
         - store: steam
+  id:
+    lutris: paranormasight-the-mermaids-curse
   installDir:
     PARANORMASIGHT_2: {}
   launch:
@@ -511048,6 +511050,8 @@ Paranormal Teens:
         - save
       when:
         - os: windows
+  id:
+    lutris: paranormasight-the-seven-mysteries-of-honjo
   installDir:
     PARANORMASIGHT: {}
   launch:
