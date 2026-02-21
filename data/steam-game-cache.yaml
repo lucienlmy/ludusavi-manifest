@@ -627441,6 +627441,12 @@
   installDir: Only Way is Down
   launch:
     - executable: OnlyWayIsDown.exe
+2804740:
+  installDir: "Aerial_Knight's We Never Yield"
+  launch:
+    - config:
+        oslist: windows
+      executable: "Aerial_Knight's We Never Yield.exe"
 2805060:
   cloud:
     saves:
@@ -641495,7 +641501,37 @@
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
-3949290: {}
+3949290:
+  cloud:
+    saves:
+      - path: Falcom/YsX_PN
+        pattern: "*.dat"
+        recursive: true
+        root: WinSavedGames
+      - path: Falcom/YsX_PN
+        pattern: "*.png"
+        recursive: true
+        root: WinSavedGames
+      - path: Falcom/YsX_PN
+        pattern: "*.json"
+        recursive: true
+        root: WinSavedGames
+  installDir: Ys X Proud Nordics
+  launch:
+    - executable: ysx_pn.exe
+    - arguments: "-latest"
+      description: Resume from the latest save
+      executable: ysx_pn.exe
+    - config:
+        betakey: "ph3_internal, test"
+      description: dev version
+      executable: ysx_pn_dev.exe
+      type: option1
+    - config:
+        betakey: "ph3_internal, test"
+      description: dev_debug version
+      executable: ysx_pn_dev_debug.exe
+      type: option1
 3949740:
   installDir: (BURIED TAPES) The Cleaner
   launch:

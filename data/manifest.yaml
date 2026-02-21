@@ -21509,6 +21509,13 @@ Aerial Guardian:
 "Aerial Knight's DropShot":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Packages/AerialKnightGames.56686A744F1D6_jfrsg1rpqcyk0/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     Aerial_Knights_DropShot: {}
   launch:
@@ -21521,6 +21528,10 @@ Aerial Guardian:
         when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Aerial_Knight Games/Aerial_Knights_Dropshot:
+      tags:
+        - config
   steam:
     id: 3465190
 "Aerial Knight's Never Yield":
@@ -21545,6 +21556,18 @@ Aerial Guardian:
             store: steam
   steam:
     id: 1323540
+"Aerial Knight's We Never Yield":
+  cloud:
+    steam: true
+  installDir:
+    "Aerial_Knight's We Never Yield": {}
+  launch:
+    "<base>/Aerial_Knight's We Never Yield.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2804740
 Aero GPX:
   files:
     "<winLocalAppData>/AeroGPX/Saved/SaveGames":
@@ -146526,6 +146549,12 @@ Contra Anniversary Collection:
   cloud:
     gog: true
     steam: true
+  files:
+    "<winAppData>/Contra Anniversary Collection/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 2028570892
   installDir:
@@ -224350,6 +224379,7 @@ Echoes of the Living:
     id: 866700
 Echoes of the Plum Grove:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/Unwound Games/Echoes of the Plum Grove/Unwound Games/Echoes of the Plum Grove/*.json":
@@ -224376,6 +224406,11 @@ Echoes of the Plum Grove:
           store: steam
   gog:
     id: 2026258967
+  id:
+    gogExtra:
+      - 1512857347
+      - 1858425555
+      - 2077908894
   installDir:
     Echoes of the Plum Grove: {}
   launch:
@@ -289826,6 +289861,11 @@ Genesis Noir:
     "<home>/Library/Application Support/Epic/GenesisNoir/Saved/SaveGames":
       tags:
         - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/GenesisNoir/*.ini":
+      tags:
+        - config
       when:
         - os: mac
     "<winLocalAppData>/GenesisNoir/Saved/Config/WindowsNoEditor/*.ini":
@@ -415842,7 +415882,10 @@ Luna (Funomena):
   steam:
     id: 605770
 Luna Abyss:
+  cloud:
+    steam: true
   id:
+    lutris: luna-abyss
     steamExtra:
       - 2423690
   steam:
@@ -814432,6 +814475,10 @@ Welcome to Bummertown:
 Welcome to Doll Town:
   cloud:
     steam: true
+  id:
+    lutris: welcome-to-doll-town
+    steamExtra:
+      - 4395770
   installDir:
     Welcome to Doll Town: {}
   launch:
@@ -837025,6 +837072,15 @@ Ys Seven:
     id: 1365167181
   id:
     lutris: ys-x-proud-nordics
+  installDir:
+    Ys X Proud Nordics: {}
+  launch:
+    "<base>/ysx_pn.exe":
+      - when:
+          - store: steam
+      - arguments: "-latest"
+        when:
+          - store: steam
   steam:
     id: 3949290
 "Ys: Memories of Celceta":
