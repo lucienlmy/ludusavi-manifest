@@ -270920,6 +270920,10 @@
         oslist: linux
       executable: Super Bunny Man.sh
       type: default
+  nameLocalized:
+    japanese: スーパーバニーマン
+    schinese: 超级兔子人
+    tchinese: 超級兔子人
 673760: {}
 673770: {}
 673780: {}
@@ -546714,6 +546718,14 @@
         oslist: linux
       executable: SakuraKnight3.sh
       type: default
+1351440:
+  installDir: KREED
+  launch:
+    - config:
+        oslist: windows
+      executable: K2.exe
+  nameLocalized:
+    tchinese: KREED / 異界戰士
 1351450:
   installDir: Steel Fury Kharkov 1942
   launch:
@@ -638239,7 +638251,22 @@
         oslist: windows
       executable: fighting-force.exe
       type: default
-3504600: {}
+3504600:
+  cloud:
+    saves:
+      - path: "Limited Run Games/Ren & Stimpy Happy, Happy, Joy, Joy Collection/"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: "Ren & Stimpy Happy, Happy, Joy, Joy, Collection"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: RenAndStimpy.exe
+      type: default
 3504780:
   installDir: Wildgate
   launch:

@@ -15929,6 +15929,8 @@ Ascendance:
     steam: true
   pageId: 89601
   steam: 789110
+Ascendancy:
+  pageId: 213935
 Ascendant:
   gog: 1207664543
   pageId: 17839
@@ -124671,6 +124673,7 @@ Krazy Ivan:
   pageId: 209109
 Kreed:
   pageId: 192889
+  steam: 1351440
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
@@ -216819,6 +216822,10 @@ Sudden Attack 2:
   pageId: 212668
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
+Sudden Attack Zero Point:
+  pageId: 213937
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
 Sudden Strike:
   cloud:
     gog: true
@@ -217836,6 +217843,7 @@ Super Bunny Man:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Catobyte\\Super Bunny Man\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Catobyte\\Super Bunny Man\\}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Catobyte/Super Bunny Man/}}"
 Super BurgerTime:
   cloud:
     gog: true
@@ -238363,6 +238371,7 @@ The Silver Case:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ActiveGamingMedia\\TheSilverCase\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/ActiveGamingMedia/TheSilverCase}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\ActiveGamingMedia\\TheSilverCase\\save\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.ActiveGamingMedia.TheSilverCase/save/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/ActiveGamingMedia/TheSilverCase/save}}"
 "The Silver Crusade: Aoorha Axeman":
   pageId: 121006
@@ -258051,8 +258060,12 @@ Viewpoints:
 "Vigil: The Longest Night":
   cloud:
     steam: true
+  lutris: vigil-the-longest-night
   pageId: 128672
   steam: 720560
+  steamSide:
+    - 1418070
+    - 1448680
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\glassheart\\Vigil_Night\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\glassheart\\Vigil_Night\\}}"

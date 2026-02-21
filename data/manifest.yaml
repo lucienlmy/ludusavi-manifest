@@ -387014,6 +387014,15 @@ Kreed:
         - save
       when:
         - os: windows
+  installDir:
+    KREED: {}
+  launch:
+    "<base>/K2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1351440
 "Kreed: Battle for Savitar":
   files:
     "<base>/config.ini":
@@ -566441,6 +566450,19 @@ Remyadry:
 "Ren & Stimpy: Happy Happy Joy Joy Collection":
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Ren & Stimpy Happy, Happy, Joy, Joy Collection":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "Ren & Stimpy Happy, Happy, Joy, Joy, Collection": {}
+  launch:
+    "<base>/RenAndStimpy.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3504600
 Rena And Elin:
@@ -675322,6 +675344,11 @@ Super Bunny Man:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Catobyte/Super Bunny Man":
+      tags:
+        - save
+      when:
+        - os: linux
   installDir:
     Super Bunny Man: {}
   launch:
@@ -739066,6 +739093,11 @@ The Silver Case:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/unity.ActiveGamingMedia.TheSilverCase/save":
+      tags:
+        - save
+      when:
+        - os: mac
     "<xdgConfig>/unity3d/ActiveGamingMedia/TheSilverCase":
       tags:
         - config
@@ -796639,6 +796671,11 @@ Viewpoints:
         - save
       when:
         - os: windows
+  id:
+    lutris: vigil-the-longest-night
+    steamExtra:
+      - 1418070
+      - 1448680
   installDir:
     Vigil The Longest Night: {}
   launch:
