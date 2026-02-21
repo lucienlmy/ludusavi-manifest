@@ -6713,6 +6713,12 @@ Aerial Destruction:
 Aerial Guardian:
   pageId: 100234
   steam: 885730
+"Aerial Knight's DropShot":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 213941
+  steam: 3465190
 "Aerial Knight's Never Yield":
   cloud:
     epic: true
@@ -61561,6 +61567,12 @@ Diary of Defender:
 "Diastone: Memories":
   pageId: 124012
   steam: 803130
+Dice A Million:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 213942
+  steam: 3430340
 Dice Defenders:
   pageId: 149380
   steam: 1155910
@@ -92304,8 +92316,8 @@ Garenburg Woods:
 Garfield:
   pageId: 88451
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Garfield\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Garfield}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Garfield Kart:
   pageId: 46038
   steam: 362930
@@ -95770,6 +95782,7 @@ GodOrEvil.Beta:
 Godbreakers:
   cloud:
     steam: true
+  lutris: godbreakers
   pageId: 208576
   steam: 2687400
 Goddess of Math 数学女神:
@@ -221904,6 +221917,7 @@ TAYAL:
 TCG Card Shop Simulator:
   cloud:
     steam: true
+    xbox: true
   lutris: tcg-card-shop-simulator
   pageId: 198156
   steam: 3070070

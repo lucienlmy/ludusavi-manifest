@@ -637571,6 +637571,7 @@
     - executable: JalecoSports.exe
       type: default
 3430260: {}
+3430340: {}
 3430450:
   cloud:
     saves:
@@ -637897,6 +637898,18 @@
       executable: DreamsOfAether.exe
       type: default
 3464670: {}
+3465190:
+  installDir: Aerial_Knights_DropShot
+  launch:
+    - arguments: "-w 1920 -h 1080"
+      config:
+        oslist: windows
+      executable: Aerial_Knights_Dropshot.exe
+    - arguments: "-w 1920 -h 1080 -fullscreen"
+      config:
+        oslist: linux
+      executable: Aerial_Knights_Dropshot.exe
+      type: default
 3465690:
   nameLocalized:
     english: "Still Wakes the Deep: Siren’s Rest"

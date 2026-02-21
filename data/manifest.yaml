@@ -21506,6 +21506,23 @@ Aerial Guardian:
           - store: steam
   steam:
     id: 885730
+"Aerial Knight's DropShot":
+  cloud:
+    steam: true
+  installDir:
+    Aerial_Knights_DropShot: {}
+  launch:
+    "<base>/Aerial_Knights_Dropshot.exe":
+      - arguments: "-w 1920 -h 1080"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-w 1920 -h 1080 -fullscreen"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3465190
 "Aerial Knight's Never Yield":
   cloud:
     epic: true
@@ -192475,6 +192492,11 @@ Diary of Defender:
             store: steam
   steam:
     id: 803130
+Dice A Million:
+  cloud:
+    steam: true
+  steam:
+    id: 3430340
 Dice Defenders:
   installDir:
     Dice Defenders: {}
@@ -297951,6 +297973,8 @@ Godbreakers:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: godbreakers
   installDir:
     Godbreakers: {}
   launch:
