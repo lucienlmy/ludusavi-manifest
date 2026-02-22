@@ -498944,7 +498944,7 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: challengingDogfights.exe
+      executable: Challenging Dogfights.exe
       type: default
 1142010: {}
 1142050: {}
@@ -580744,10 +580744,15 @@
   launch:
     - executable: "link2ea://launchgame/1774580?platform=steam&theme=applejack"
     - config:
-        betakey: eap_td_dev
-      description: "STAR WARS Jedi: Survivor™ - Development"
-      executable: "SwGame\\Binaries\\Win64\\SwGame.exe"
-      type: default
+        betakey: eap_td_test
+      description: "STAR WARS Jedi: Survivor™ - Test"
+      executable: "SwGame\\Binaries\\Win64\\SwGame-Win64-Test.exe"
+      type: option1
+    - config:
+        betakey: eap_td_shipping
+      description: "STAR WARS Jedi: Survivor™ - Shipping"
+      executable: "SwGame\\Binaries\\Win64\\SwGame-Win64-Shipping.exe"
+      type: option1
   nameLocalized:
     japanese: STAR WARS ジェダイ：サバイバー™
     koreana: "스타워즈 제다이: 서바이버™"
@@ -640620,6 +640625,15 @@
         oslist: windows
       executable: CarDealerLifeSimulator.exe
       type: default
+3755860:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.rvdata2"
+        root: gameinstall
+  installDir: BLACK SOULS
+  launch:
+    - executable: Game.exe
 3756010:
   installDir: Super Bomberman Collection
   launch:
@@ -640829,6 +640843,18 @@
         oslist: windows
       executable: ScootX.exe
       type: default
+3800850:
+  cloud:
+    saves:
+      - path: save
+        pattern: "*.rmmzsave"
+        root: gameinstall
+  installDir: Sakura Gozen
+  launch:
+    - executable: Game.exe
+  nameLocalized:
+    japanese: 桜御前
+    schinese: 樱御前
 3802620: {}
 3802770: {}
 3805420:
@@ -641125,6 +641151,15 @@
   launch:
     - executable: Just Grandma And Me Launcher.exe
       type: default
+3855540:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.rvdata2"
+        root: gameinstall
+  installDir: BLACK SOULS II
+  launch:
+    - executable: Game.exe
 3862670:
   cloud:
     saves:

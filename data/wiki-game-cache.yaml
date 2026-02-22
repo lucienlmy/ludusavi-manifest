@@ -8868,6 +8868,8 @@ Alaskan Road Truckers:
   renamedFrom:
     - Alaskan Truck Simulator
   steam: 849100
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\ATS\\Saved\\SaveGames}}"
 "Alba: A Wildlife Adventure":
   cloud:
     gog: true
@@ -11895,6 +11897,11 @@ Ancient Land of Ys:
   pageId: 75747
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.DAT}}"
+"Ancient Lands: The Tsar Awakening":
+  pageId: 124538
+  renamedFrom:
+    - "Ancient lands: the Tsar awakening"
+  steam: 951190
 Ancient Planet:
   cloud:
     steam: true
@@ -11949,9 +11956,6 @@ Ancient Warfare 3:
 Ancient knowledge:
   pageId: 139414
   steam: 1101770
-"Ancient lands: the Tsar awakening":
-  pageId: 124538
-  steam: 951190
 "Ancients 1: Death Watch":
   pageId: 76473
   templates:
@@ -27018,6 +27022,16 @@ Black Skylands:
 Black Smith:
   pageId: 153862
   steam: 1193530
+Black Souls:
+  cloud:
+    steam: true
+  pageId: 213961
+  steam: 3755860
+Black Souls II:
+  cloud:
+    steam: true
+  pageId: 213963
+  steam: 3855540
 Black Squad:
   lutris: black-squad
   pageId: 62356
@@ -43784,6 +43798,8 @@ Cluck Yegger in Escape From The Planet of The Poultroid:
 "Cludbugz's Twisted Magic":
   pageId: 66470
   steam: 683570
+Clue:
+  pageId: 213966
 "Clue Chronicles: Fatal Illusion":
   pageId: 210826
 Clue/Cluedo:
@@ -70920,9 +70936,6 @@ ELEX II:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\ELEX2\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\ELEX2\\SaveGames}}"
-ELYSION:
-  pageId: 150142
-  steam: 1070110
 "EM: Shader Attack":
   pageId: 40132
   steam: 527490
@@ -73596,6 +73609,11 @@ Elypse:
   steam: 1725340
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Hot Chili Games\\Elypse\\Elypse_Save.s}}"
+Elysion:
+  pageId: 150142
+  renamedFrom:
+    - ELYSION
+  steam: 1070110
 Elysium VR:
   cloud:
     steam: true
@@ -90858,9 +90876,6 @@ GP500:
 GPRO:
   pageId: 183613
   steam: 2169220
-GRAULARM:
-  pageId: 149199
-  steam: 907980
 GRAV:
   pageId: 49013
   steam: 332500
@@ -97559,6 +97574,11 @@ Gratuitous Tank Battles:
 Gratuitous Zombie Cannon:
   pageId: 137050
   steam: 986500
+Graularm:
+  pageId: 149199
+  renamedFrom:
+    - GRAULARM
+  steam: 907980
 Grav Blazer:
   pageId: 64912
   steam: 657590
@@ -134760,9 +134780,6 @@ MILITARY:
 MIMESIS:
   pageId: 210441
   steam: 2827200
-MIND SWITCH:
-  pageId: 141669
-  steam: 1115820
 "MIND: Path to Thalamus":
   cloud:
     steam: true
@@ -143567,6 +143584,11 @@ Mind Spheres:
 Mind Sweeper VR:
   pageId: 73885
   steam: 723210
+Mind Switch:
+  pageId: 141669
+  renamedFrom:
+    - MIND SWITCH
+  steam: 1115820
 Mind Symphony:
   pageId: 151929
 Mind Trap:
@@ -192031,6 +192053,11 @@ Sakura Gamer:
 Sakura Gamer 2:
   pageId: 153575
   steam: 1161650
+Sakura Gozen:
+  cloud:
+    steam: true
+  pageId: 213968
+  steam: 3800850
 Sakura Knight:
   pageId: 156574
   steam: 1209330

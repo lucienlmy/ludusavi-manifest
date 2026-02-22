@@ -28088,9 +28088,11 @@ Alaska:
     id: 800490
 Alaskan Road Truckers:
   files:
-    "<base>/SavesDir/*.sav":
+    "<winLocalAppData>/ATS/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1562762120
   installDir:
@@ -37373,6 +37375,16 @@ Ancient Land of Ys:
         - save
       when:
         - os: dos
+"Ancient Lands: The Tsar Awakening":
+  installDir:
+    Ancient lands the Tsar awakening: {}
+  launch:
+    "<base>/AncientLands.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 951190
 Ancient Planet:
   cloud:
     steam: true
@@ -37613,16 +37625,6 @@ Ancient knowledge:
             store: steam
   steam:
     id: 1101770
-"Ancient lands: the Tsar awakening":
-  installDir:
-    Ancient lands the Tsar awakening: {}
-  launch:
-    "<base>/AncientLands.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 951190
 "Ancients 1: Death Watch":
   files:
     "<base>/*.KAR":
@@ -83834,6 +83836,36 @@ Black Smith:
             store: steam
   steam:
     id: 1193530
+Black Souls:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    BLACK SOULS: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3755860
+Black Souls II:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.rvdata2":
+      when:
+        - store: steam
+  installDir:
+    BLACK SOULS II: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3855540
 Black Squad:
   id:
     lutris: black-squad
@@ -122596,7 +122628,7 @@ Challenging Dogfights:
   installDir:
     Challenging Dogfights: {}
   launch:
-    "<base>/challengingDogfights.exe":
+    "<base>/Challenging Dogfights.exe":
       - when:
           - bit: 64
             os: windows
@@ -221077,15 +221109,6 @@ ELEX II:
         workingDir: "<base>/system"
   steam:
     id: 900040
-ELYSION:
-  installDir:
-    ELYSION: {}
-  launch:
-    "<base>/ELYSION.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1070110
 "EM: Shader Attack":
   steam:
     id: 527490
@@ -229380,6 +229403,15 @@ Elypse:
             store: steam
   steam:
     id: 1725340
+Elysion:
+  installDir:
+    ELYSION: {}
+  launch:
+    "<base>/ELYSION.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1070110
 Elysium VR:
   cloud:
     steam: true
@@ -282471,16 +282503,6 @@ GPRO:
             store: steam
   steam:
     id: 2169220
-GRAULARM:
-  installDir:
-    GRAULARM: {}
-  launch:
-    "<base>/Game.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 907980
 GRAV:
   installDir:
     GRAV: {}
@@ -303216,6 +303238,16 @@ Gratuitous Tank Battles:
 Gratuitous Zombie Cannon:
   steam:
     id: 986500
+Graularm:
+  installDir:
+    GRAULARM: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 907980
 Grav Blazer:
   installDir:
     Grav Blazer: {}
@@ -418322,16 +418354,6 @@ MIMESIS:
           - store: steam
   steam:
     id: 2827200
-MIND SWITCH:
-  installDir:
-    MIND SWITCH: {}
-  launch:
-    "<base>/MIND SWITCH.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1115820
 "MIND: Path to Thalamus":
   cloud:
     steam: true
@@ -444907,6 +444929,16 @@ Mind Sweeper VR:
     Mind Sweeper VR: {}
   steam:
     id: 723210
+Mind Switch:
+  installDir:
+    MIND SWITCH: {}
+  launch:
+    "<base>/MIND SWITCH.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1115820
 Mind Trap:
   installDir:
     Mind Trap: {}
@@ -594227,6 +594259,21 @@ Sakura Gamer 2:
             store: steam
   steam:
     id: 1161650
+Sakura Gozen:
+  cloud:
+    steam: true
+  files:
+    "<base>/save/*.rmmzsave":
+      when:
+        - store: steam
+  installDir:
+    Sakura Gozen: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3800850
 Sakura Knight:
   installDir:
     SakuraKnight: {}
