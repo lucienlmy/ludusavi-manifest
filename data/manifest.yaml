@@ -1977,6 +1977,8 @@ $1 Ride:
   steam:
     id: 862790
 1348 Ex Voto:
+  id:
+    lutris: 1348-ex-voto
   steam:
     id: 1895900
 "140":
@@ -15128,29 +15130,6 @@ ATRIUM:
             store: steam
   steam:
     id: 1196350
-ATTACK OF THE EVIL POOP:
-  files:
-    "<home>/AppData/LocalLow/Ascend Digitally/Attack of the Evil Poop/*.xml":
-      when:
-        - os: windows
-          store: steam
-    "<home>/Library/Application Support/AttackOfTheEvilPoop/*.xml":
-      when:
-        - os: mac
-          store: steam
-  installDir:
-    ATTACK OF THE EVIL POOP: {}
-  launch:
-    "<base>/Attack of the Evil Poop.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/Contents/MacOS/MAC":
-      - when:
-          - os: mac
-            store: steam
-  steam:
-    id: 1093670
 ATV Drift & Tricks:
   id:
     lutris: atv-drift-and-tricks
@@ -56359,6 +56338,29 @@ Attack of the Earthlings:
             store: steam
   steam:
     id: 621930
+Attack of the Evil Poop:
+  files:
+    "<home>/AppData/LocalLow/Ascend Digitally/Attack of the Evil Poop/*.xml":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/AttackOfTheEvilPoop/*.xml":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    ATTACK OF THE EVIL POOP: {}
+  launch:
+    "<base>/Attack of the Evil Poop.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Contents/MacOS/MAC":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1093670
 Attack of the Giant Mutant Lizard:
   installDir:
     Attack of the Giant Mutant Lizard: {}
@@ -199657,13 +199659,10 @@ Dokapon! Sword of Fury:
     steam: true
   files:
     "<base>/GameData/Windows/Save":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<base>/Setting.ini":
-      when:
-        - os: windows
-          store: steam
   installDir:
     DOKAPON ~Sword of Fury~: {}
   launch:
@@ -282237,21 +282236,6 @@ GIBZ:
             store: steam
   steam:
     id: 701820
-GIGABUSTER:
-  installDir:
-    GIGABUSTER: {}
-  launch:
-    "<base>/GIGABUSTER":
-      - when:
-          - bit: 64
-            os: linux
-            store: steam
-    "<base>/GIGABUSTER.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 981830
 GIPHY World VR:
   installDir:
     GIPHY World VR: {}
@@ -293285,6 +293269,21 @@ GigaBash:
           - store: steam
   steam:
     id: 1546400
+Gigabuster:
+  installDir:
+    GIGABUSTER: {}
+  launch:
+    "<base>/GIGABUSTER":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/GIGABUSTER.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 981830
 Gigachess:
   cloud:
     steam: true
@@ -461851,6 +461850,17 @@ Mutant Mudds:
   steam:
     id: 247370
 Mutant Mudds Super Challenge:
+  files:
+    "<home>/Saved Games/Renegade Kid/Mutant Mudds Super Challenge/Steam":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Renegade Kid/Mutant Mudds Super Challenge/Steam":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Mutant Mudds Super Challenge: {}
   launch:
@@ -468080,11 +468090,6 @@ NEKOPUGI:
             store: steam
   steam:
     id: 1098660
-NEKROTRONIC VR:
-  installDir:
-    NEKROMANCER VR: {}
-  steam:
-    id: 1137170
 "NEO AQUARIUM: The King of Crustaceans":
   files:
     "<base>/custom.cfg":
@@ -473855,6 +473860,11 @@ Nekour:
             store: steam
   steam:
     id: 1112150
+Nekrotronic VR:
+  installDir:
+    NEKROMANCER VR: {}
+  steam:
+    id: 1137170
 Nekuia:
   files:
     "<home>/AppData/LocalLow/BlueGate/Nekuia/save.xml":
@@ -591007,9 +591017,6 @@ SERIES MAKERS TYCOON:
 SEXUAL PUZZLE:
   steam:
     id: 922380
-SEXY GIRLS:
-  steam:
-    id: 974420
 SFD:
   installDir:
     SFD: {}
@@ -608438,6 +608445,9 @@ Sexy Breakout:
           - store: steam
   steam:
     id: 2975250
+Sexy Girls:
+  steam:
+    id: 974420
 Sexy Girls Puzzle:
   installDir:
     Sexy Girls Puzzle: {}
@@ -771252,7 +771262,7 @@ Trespassers:
 Tri Wing:
   steam:
     id: 788750
-Tri.Attack();:
+Tri.Attack():
   files:
     "<home>/AppData/LocalLow/Geometrick Games/tri.Attack/data/*.dat":
       when:
@@ -771267,6 +771277,8 @@ Tri.Attack();:
             store: steam
   steam:
     id: 1134190
+Tri.Attack();:
+  alias: Tri.Attack()
 TriElement:
   installDir:
     TriFuse: {}

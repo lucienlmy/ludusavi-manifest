@@ -576,6 +576,7 @@ $1 Ride:
   pageId: 95341
   steam: 862790
 1348 Ex Voto:
+  lutris: 1348-ex-voto
   pageId: 207299
   steam: 1895900
 "140":
@@ -4687,9 +4688,6 @@ ATRIUM:
 "ATROFIL: THE KEY":
   pageId: 153632
   steam: 1196350
-ATTACK OF THE EVIL POOP:
-  pageId: 139141
-  steam: 1093670
 ATV Drift & Tricks:
   lutris: atv-drift-and-tricks
   pageId: 75053
@@ -18060,6 +18058,11 @@ Attack of the Earthlings:
   steam: 621930
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Junkfish\\Attack of the Earthlings\\Slots}}"
+Attack of the Evil Poop:
+  pageId: 139141
+  renamedFrom:
+    - ATTACK OF THE EVIL POOP
+  steam: 1093670
 Attack of the Giant Mutant Lizard:
   pageId: 126376
   steam: 590840
@@ -64076,6 +64079,9 @@ Dokapon! Sword of Fury:
     steam: true
   pageId: 200725
   steam: 3077020
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\GameData\\Windows\\Save}}"
 DokeV:
   pageId: 152485
 Doki Doki Gravity Dive:
@@ -90800,9 +90806,6 @@ GIBZ:
     steam: true
   pageId: 134707
   steam: 701820
-GIGABUSTER:
-  pageId: 124504
-  steam: 981830
 GIPHY World VR:
   pageId: 107870
   steam: 874760
@@ -94355,6 +94358,11 @@ GigaBash:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TitanXX\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\TitanXX\\Saved\\SaveGames}}"
+Gigabuster:
+  pageId: 124504
+  renamedFrom:
+    - GIGABUSTER
+  steam: 981830
 Gigachess:
   cloud:
     steam: true
@@ -149083,6 +149091,9 @@ Mutant Mudds:
 Mutant Mudds Super Challenge:
   pageId: 42051
   steam: 473720
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Renegade Kid\\Mutant Mudds Super Challenge\\Steam}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Renegade Kid\\Mutant Mudds Super Challenge\\Steam}}"
 Mutant Ops:
   lutris: mutant-ops
   pageId: 166753
@@ -151122,9 +151133,6 @@ NEKOPARA Vol. 4:
 NEKOPUGI:
   pageId: 155735
   steam: 1098660
-NEKROTRONIC VR:
-  pageId: 144447
-  steam: 1137170
 "NEO AQUARIUM: The King of Crustaceans":
   pageId: 26880
   steam: 355240
@@ -153028,6 +153036,11 @@ Nekojishi:
 Nekour:
   pageId: 144492
   steam: 1112150
+Nekrotronic VR:
+  pageId: 144447
+  renamedFrom:
+    - NEKROTRONIC VR
+  steam: 1137170
 Nekuia:
   pageId: 51378
   steam: 528950
@@ -167406,6 +167419,12 @@ Petrichor:
 Pets Sniper Shooting:
   pageId: 155518
   steam: 1219320
+Pettson o Findus i snickarbon:
+  pageId: 213982
+Pettson o Findus i trädgården:
+  pageId: 213983
+Pettson o Findus och mucklornas värld:
+  pageId: 213984
 Petz Catz 2:
   lutris: petz-catz-2
   pageId: 88534
@@ -190960,9 +190979,6 @@ SERIES MAKERS TYCOON:
 SEXUAL PUZZLE:
   pageId: 108120
   steam: 922380
-SEXY GIRLS:
-  pageId: 146072
-  steam: 974420
 SFD:
   pageId: 107772
   steam: 916040
@@ -196556,6 +196572,11 @@ Sexy Breakout:
 "Sexy Futa: Mecha Battles of Islands🍓":
   pageId: 195939
   steam: 2975250
+Sexy Girls:
+  pageId: 146072
+  renamedFrom:
+    - SEXY GIRLS
+  steam: 974420
 Sexy Girls Puzzle:
   pageId: 146140
   steam: 932930
@@ -249628,8 +249649,10 @@ Trespassers:
 Tri Wing:
   pageId: 87049
   steam: 788750
-Tri.Attack();:
+Tri.Attack():
   pageId: 145041
+  renamedFrom:
+    - Tri.Attack();
   steam: 1134190
 TriElement:
   pageId: 70501
