@@ -539917,6 +539917,19 @@
   nameLocalized:
     schinese: 小兵大战 - Warpips
     tchinese: 戰爭迷你兵 - Warpips
+1291330:
+  installDir: "Wakamarina Valley, New Zealand"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Desktop Version\\NewZealand.exe"
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "VR Version\\NewZealandVR.exe"
+      type: vr
 1291340:
   cloud:
     saves:
@@ -579225,6 +579238,25 @@
     koreana: 마계전기 디스가이아6
     schinese: 魔界战记 DISGAEA6
     tchinese: 魔界戰記 DISGAEA6
+1749860:
+  cloud:
+    saves:
+      - path: LushfoilSim/Saved/SaveGames/
+        pattern: savefile.sav
+        root: WinAppDataLocal
+  installDir: Lushfoil Photography Sim
+  launch:
+    - config:
+        oslist: windows
+      description: Lushfoil Photography Sim
+      executable: LushfoilSim.exe
+      type: default
+    - config:
+        oslist: windows
+        ownsdlc: "3887900"
+      description: Lushfoil Photography Sim VR
+      executable: "Windows\\LushfoilSimVR.exe"
+      type: openxr
 1750030:
   cloud:
     saves:
@@ -623717,7 +623749,7 @@
     - config:
         oslist: macos
       description: macOS
-      executable: Gloomy.app/Contents/MacOS/GloomyEyes
+      executable: GloomyEyes.app/Contents/MacOS/GloomyEyes
   nameLocalized:
     japanese: グルーミーの瞳(Gloomy Eyes)
 2668080:
@@ -633101,7 +633133,9 @@
     tchinese: Truckful / 鄉野奇運
 3092530:
   nameLocalized:
+    english: Fate Trigger
     japanese: 運命のトリガー
+    koreana: 페이트 트리거
     schinese: 命运扳机
 3092660:
   installDir: Reverse 1999
@@ -636087,6 +636121,40 @@
         oslist: macos
       executable: Neon Hearts City.app
       type: default
+3316940:
+  cloud:
+    saves:
+      - path: Falcom/Kai
+        pattern: "*.dat"
+        recursive: true
+        root: WinSavedGames
+      - path: Falcom/Kai
+        pattern: "*.png"
+        recursive: true
+        root: WinSavedGames
+      - path: Falcom/Kai
+        pattern: "*.json"
+        recursive: true
+        root: WinSavedGames
+  installDir: The Legend of Heroes Trails beyond the Horizon
+  launch:
+    - executable: kai.exe
+      type: default
+    - arguments: "-latest"
+      description: Resume from the latest save
+      executable: kai.exe
+    - config:
+        betakey: "ph3_internal, test"
+      description: dev version
+      executable: kai_dev.exe
+      type: option1
+    - config:
+        betakey: "ph3_internal, test"
+      description: dev_debug version
+      executable: kai_dev_debug.exe
+      type: option1
+  nameLocalized:
+    japanese: "英雄伝説 界の軌跡 -Farewell, O Zemuria-"
 3317800:
   installDir: Apache Longbow
   launch:

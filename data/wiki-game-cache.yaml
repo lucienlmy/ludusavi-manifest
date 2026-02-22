@@ -19625,11 +19625,6 @@ BLASK:
     steam: true
   pageId: 125562
   steam: 987710
-BLAST-AXIS:
-  cloud:
-    steam: true
-  pageId: 139186
-  steam: 1090940
 BLASTER LiLO:
   pageId: 125365
   steam: 999750
@@ -27904,6 +27899,13 @@ Blast the Past:
   steam: 943170
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BlastThePast}}"
+Blast-Axis:
+  cloud:
+    steam: true
+  pageId: 139186
+  renamedFrom:
+    - BLAST-AXIS
+  steam: 1090940
 Blast-off:
   cloud:
     steam: true
@@ -31519,6 +31521,7 @@ Boxville:
     - 1531914000
     - 2004673194
     - 2055177150
+  lutris: boxville
   pageId: 184458
   steam: 1750710
   steamSide:
@@ -95088,8 +95091,12 @@ Gloomy Eyes:
     gog: true
     steam: true
   gog: 1854583896
+  lutris: gloomy-eyes--1
   pageId: 208266
   steam: 2667950
+  steamSide:
+    - 3986200
+    - 4384140
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\FishingCactus\\GloomyEyes\\}}"
 "Glorch's Great Escape: Walking is for Chumps":
@@ -117002,6 +117009,7 @@ Island Saver:
   pageId: 186842
   steam: 1210250
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\NatWest\\Island Saver by NatWest}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\NatWest\\Island Saver by NatWest\\Game}}"
 Island Simulator 2016:
   pageId: 54074
@@ -134263,6 +134271,14 @@ Lurk:
 "Lurk in the Dark : Prologue":
   pageId: 150452
   steam: 1094030
+Lushfoil Photography Sim:
+  cloud:
+    steam: true
+  lutris: lushfoil-photography-sim
+  pageId: 213989
+  steam: 1749860
+  steamSide:
+    - 3887900
 Lust Academy - Season 1:
   cloud:
     gog: true
@@ -170525,8 +170541,13 @@ Planum:
   pageId: 91914
   steam: 839730
 Plasma:
+  cloud:
+    steam: true
   pageId: 203350
   steam: 1409160
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\DryLicorice\\Plasma}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DryLicorice\\Plasma\\User Data}}"
 Plasma Puncher:
   pageId: 60129
   steam: 602070
@@ -234103,7 +234124,7 @@ The Legend of Excalipurr:
   pageId: 203154
   renamedFrom:
     - "The Legend of Heroes: Trails beyond the Horizon"
-  steam: 3319980
+  steam: 3316940
   steamSide:
     - 3316940
     - 4166130
@@ -236434,9 +236455,6 @@ The Outsiders:
 The Overdreamer:
   pageId: 65043
   steam: 625560
-The PUB simulator:
-  pageId: 122552
-  steam: 922690
 The Pack:
   pageId: 125954
   steam: 1010710
@@ -237043,6 +237061,11 @@ The Psychic:
   steam: 876240
 The Psychotron:
   pageId: 212410
+The Pub Simulator:
+  pageId: 122552
+  renamedFrom:
+    - The PUB simulator
+  steam: 922690
 The Punisher (2005):
   lutris: the-punisher-2005
   pageId: 31295
@@ -260418,6 +260441,10 @@ Wait! Life Is Beautiful!:
 Waiting for the Loop:
   pageId: 74684
   steam: 717830
+"Wakamarina Valley, New Zealand":
+  lutris: wakamarina-valley-new-zealand
+  pageId: 213992
+  steam: 1291330
 Wake:
   pageId: 52039
   steam: 233530

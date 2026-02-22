@@ -61547,23 +61547,6 @@ BLASK:
             store: steam
   steam:
     id: 987710
-BLAST-AXIS:
-  cloud:
-    steam: true
-  files:
-    "<winLocalAppData>/BLASTAXIS/Saved/SaveGames/*.sav":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    BLASTAXIS: {}
-  launch:
-    "<base>/BLASTAXIS.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1090940
 BLASTER LiLO:
   installDir:
     BLASTER LiLO: {}
@@ -86374,6 +86357,23 @@ Blast the Past:
     Blast_the_Past: {}
   steam:
     id: 943170
+Blast-Axis:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BLASTAXIS/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    BLASTAXIS: {}
+  launch:
+    "<base>/BLASTAXIS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1090940
 Blast-off:
   cloud:
     steam: true
@@ -97849,6 +97849,7 @@ Boxville:
       - 1531914000
       - 2004673194
       - 2055177150
+    lutris: boxville
     steamExtra:
       - 1750730
       - 2147280
@@ -295644,10 +295645,15 @@ Gloomy Eyes:
         - os: windows
   gog:
     id: 1854583896
+  id:
+    lutris: gloomy-eyes--1
+    steamExtra:
+      - 3986200
+      - 4384140
   installDir:
     Gloomy Eyes - The Game: {}
   launch:
-    "<base>/Gloomy.app/Contents/MacOS/GloomyEyes":
+    "<base>/GloomyEyes.app/Contents/MacOS/GloomyEyes":
       - when:
           - os: mac
             store: steam
@@ -363579,6 +363585,10 @@ Island Saver:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/NatWest/Island Saver by NatWest:
+      tags:
+        - config
   steam:
     id: 1210250
 Island Simulator 2016:
@@ -416653,6 +416663,26 @@ Lurk:
             store: steam
   steam:
     id: 1094030
+Lushfoil Photography Sim:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/LushfoilSim/Saved/SaveGames/savefile.sav":
+      when:
+        - store: steam
+  id:
+    lutris: lushfoil-photography-sim
+    steamExtra:
+      - 3887900
+  installDir:
+    Lushfoil Photography Sim: {}
+  launch:
+    "<base>/LushfoilSim.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1749860
 Lust Academy - Season 1:
   cloud:
     gog: true
@@ -527070,6 +527100,14 @@ Planum:
   steam:
     id: 839730
 Plasma:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DryLicorice/Plasma/User Data":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Plasma: {}
   launch:
@@ -527078,6 +527116,10 @@ Plasma:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/DryLicorice/Plasma:
+      tags:
+        - config
   steam:
     id: 1409160
 Plasma Puncher:
@@ -726007,7 +726049,6 @@ The Legend of Excalipurr:
     id: 1162370103
   id:
     steamExtra:
-      - 3316940
       - 4166130
       - 4214380
       - 4214390
@@ -726029,13 +726070,16 @@ The Legend of Excalipurr:
       - 4214570
       - 4214590
   installDir:
-    "The Legend of Heroes Kai no Kiseki -Farewell, O Zemuria-": {}
+    The Legend of Heroes Trails beyond the Horizon: {}
   launch:
-    "<base>/ed9.exe":
+    "<base>/kai.exe":
       - when:
           - store: steam
+      - arguments: "-latest"
+        when:
+          - store: steam
   steam:
-    id: 3319980
+    id: 3316940
 "The Legend of Heroes: Trails from Zero":
   cloud:
     gog: true
@@ -732988,9 +733032,6 @@ The Overdreamer:
           - store: steam
   steam:
     id: 625560
-The PUB simulator:
-  steam:
-    id: 922690
 The Pack:
   installDir:
     The Pack: {}
@@ -734864,6 +734905,9 @@ The Prototype:
 The Psychic:
   steam:
     id: 876240
+The Pub Simulator:
+  steam:
+    id: 922690
 The Punisher (2005):
   files:
     "<base>/profiles":
@@ -803695,6 +803739,19 @@ Waiting for the Loop:
             store: steam
   steam:
     id: 717830
+"Wakamarina Valley, New Zealand":
+  id:
+    lutris: wakamarina-valley-new-zealand
+  installDir:
+    "Wakamarina Valley, New Zealand": {}
+  launch:
+    "<base>/Desktop Version/NewZealand.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1291330
 Wake:
   files:
     "<base>/Bonus/original/water.dat":
