@@ -108157,14 +108157,6 @@ CANDLE UNDER WATER:
             store: steam
   steam:
     id: 892640
-CAPCOM GO! Apollo VR Planetarium:
-  id:
-    steamExtra:
-      - 1120200
-  installDir:
-    CAPCOM GO! Apollo VR Planetarium: {}
-  steam:
-    id: 1116650
 "CAR TUNE: Project":
   files:
     "<base>/Fines/*.jpg":
@@ -113093,6 +113085,14 @@ Capcom Fighting Collection 2:
           - store: steam
   steam:
     id: 2400430
+Capcom Go! Apollo VR Planetarium:
+  id:
+    steamExtra:
+      - 1120200
+  installDir:
+    CAPCOM GO! Apollo VR Planetarium: {}
+  steam:
+    id: 1116650
 Capes:
   cloud:
     gog: true
@@ -140131,6 +140131,40 @@ Colony (2017):
             store: steam
   steam:
     id: 720060
+Colony 28:
+  installDir:
+    Colony28: {}
+  launch:
+    "<base>/Start.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-conf \"dosbox_vesnice.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_jungle.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_jeskyne.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_vezeni.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_sklad.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_cas.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_raketa.conf\" -noconsole"
+        when:
+          - store: steam
+      - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
+        when:
+          - store: steam
+  steam:
+    id: 4381340
 Colony Assault:
   cloud:
     steam: true
@@ -178323,16 +178357,7 @@ Deadpool:
   steam:
     id: 224060
 Deadrinds:
-  installDir:
-    Last Rose: {}
-  launch:
-    "<base>/Last Rose.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 758440
+  alias: Last Rose
 Deadside:
   files:
     "<winLocalAppData>/Deadside/Saved/Config/WindowsNoEditor":
@@ -319060,6 +319085,9 @@ Hatred:
         - os: linux
   id:
     lutris: hatred
+    steamExtra:
+      - 1171890
+      - 1580880
   installDir:
     Hatred: {}
   launch:
@@ -376046,9 +376074,22 @@ Karma. Incarnation 1:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Karma_Steam/**/*.sav":
+    "<winLocalAppData>/Karma_GOG/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Karma_PC/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Karma_Steam/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1083870138
   id:
@@ -393053,6 +393094,17 @@ Last Rites:
             store: steam
   steam:
     id: 814610
+Last Rose:
+  installDir:
+    Last Rose: {}
+  launch:
+    "<base>/Last Rose.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 758440
 Last Salvo:
   installDir:
     Last Salvo: {}
@@ -395543,6 +395595,8 @@ Leftovers KO!:
     steam: true
   gog:
     id: 1911062444
+  id:
+    lutris: legacy-of-kain-ascendance
   steam:
     id: 4233530
 "Legacy of Kain: Blood Omen 2":
@@ -530066,6 +530120,15 @@ Polterheist:
             store: steam
   steam:
     id: 595320
+Poly Bricks:
+  files:
+    "<winAppData>/Godot/app_userdata/Poly Bricks/progress.data":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3449470
 Poly Bridge:
   cloud:
     steam: true
@@ -590416,6 +590479,14 @@ SCP - Containment Breach:
         - os: windows
   id:
     lutris: scp-containment-breach
+  installDir:
+    SCP - Containment Breach: {}
+  launch:
+    "<base>/SCP - Containment Breach.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2178380
 "SCP - Wandering Around: The Will of a Single Tale, Part 1":
   alias: 【SCP】器関ノ彷徨 -The will of a single Tale- 第１部
 SCP 087. Re:
@@ -802654,16 +802725,6 @@ WBTR - Welcome Back To Reality:
             store: steam
   steam:
     id: 1101840
-WEJAM:
-  installDir:
-    WEJAM: {}
-  launch:
-    "<base>/WEJAM.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1094110
 WELCOME:
   installDir:
     WELCOME: {}
@@ -813440,6 +813501,16 @@ We. The Revolution:
         - config
   steam:
     id: 736850
+WeJam:
+  installDir:
+    WEJAM: {}
+  launch:
+    "<base>/WEJAM.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1094110
 WeLOVE:
   steam:
     id: 962360

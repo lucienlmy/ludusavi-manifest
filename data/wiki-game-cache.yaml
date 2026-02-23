@@ -34761,11 +34761,6 @@ CANDLE UNDER WATER:
 "CAP-FIG-CID (Colors Are Pretty, Fish Is Gross, Cake is Delicious)":
   pageId: 100010
   steam: 892640
-CAPCOM GO! Apollo VR Planetarium:
-  pageId: 141467
-  steam: 1116650
-  steamSide:
-    - 1120200
 "CAR TUNE: Project":
   pageId: 128735
   steam: 1020800
@@ -36407,6 +36402,13 @@ Capcom Fighting Collection 2:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2400430\\remote\\}}"
+Capcom Go! Apollo VR Planetarium:
+  pageId: 141467
+  renamedFrom:
+    - CAPCOM GO! Apollo VR Planetarium
+  steam: 1116650
+  steamSide:
+    - 1120200
 Capes:
   cloud:
     gog: true
@@ -44724,6 +44726,9 @@ Colony:
 Colony (2017):
   pageId: 78876
   steam: 720060
+Colony 28:
+  pageId: 214003
+  steam: 4381340
 Colony Assault:
   cloud:
     steam: true
@@ -57147,9 +57152,6 @@ Deadpool:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Activision\\DeadPool|{{P|game}}\\TransGame\\Config\\PC\\Cooked}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Deadpool\\SaveData\\}}"
-Deadrinds:
-  pageId: 82219
-  steam: 758440
 Deadside:
   pageId: 113542
   steam: 895400
@@ -102784,6 +102786,9 @@ Hatred:
   lutris: hatred
   pageId: 22779
   steam: 341940
+  steamSide:
+    - 1171890
+    - 1580880
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Hatred\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Linux|{{p|game}}\\Hatred\\Saved\\Config\\LinuxNoEditor\\}}"
@@ -121126,6 +121131,9 @@ Karma. Incarnation 1:
   lutris: karma-the-dark-world
   pageId: 201197
   steam: 1376200
+  templates:
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Karma_Steam\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Karma_PC\\Saved\\SaveGames|{{p|localappdata}}\\Karma_GOG\\Saved\\SaveGames}}"
 "Karmaflow: The Rock Opera Videogame - Act I & Act II":
   pageId: 47994
   steam: 317940
@@ -126725,6 +126733,11 @@ Last Rites:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\LASTRITE.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
+Last Rose:
+  pageId: 82219
+  renamedFrom:
+    - Deadrinds
+  steam: 758440
 Last Salvo:
   pageId: 78298
   steam: 727330
@@ -127487,6 +127500,7 @@ Legacy:
   cloud:
     steam: true
   gog: 1911062444
+  lutris: legacy-of-kain-ascendance
   pageId: 213709
   steam: 4233530
 "Legacy of Kain: Blood Omen 2":
@@ -171474,6 +171488,11 @@ Poltergeist Treasure:
 Polterheist:
   pageId: 57997
   steam: 595320
+Poly Bricks:
+  pageId: 213997
+  steam: 3449470
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Poly Bricks\\progress.data}}"
 Poly Bridge:
   cloud:
     steam: true
@@ -190795,9 +190814,12 @@ SCHiM:
 "SCIENCE SHOW VR : THE ABYSS":
   pageId: 155580
   steam: 1214050
+SCORE International Baja 1000:
+  pageId: 213999
 SCP - Containment Breach:
   lutris: scp-containment-breach
   pageId: 14064
+  steam: 2178380
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\options.ini}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves}}"
@@ -260070,9 +260092,6 @@ WBTR - Welcome Back To Reality:
   steam: 1101840
 WCW Nitro:
   pageId: 162266
-WEJAM:
-  pageId: 138977
-  steam: 1094110
 WELCOME:
   pageId: 145254
   steam: 1126100
@@ -263816,6 +263835,11 @@ We. The Revolution:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Polyslash\\We. The Revolution\\profile00*.dat|{{p|userprofile}}\\AppData\\LocalLow\\Polyslash\\We. The Revolution\\profile00*.sav}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/unity.Polyslash.We. The Revolution/profile00*.dat|{{P|osxhome}}/Library/Application Support/unity.Polyslash.We. The Revolution/profile00*.sav}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/unity3d/Polyslash/We. The Revolution/profile00*.dat|{{P|linuxhome}}/.config/unity3d/Polyslash/We. The Revolution/profile00*.sav}}"
+WeJam:
+  pageId: 138977
+  renamedFrom:
+    - WEJAM
+  steam: 1094110
 WeLOVE:
   pageId: 135379
   steam: 962360

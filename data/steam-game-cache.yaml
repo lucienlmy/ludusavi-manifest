@@ -604779,6 +604779,16 @@
         oslist: linux
       executable: Scurvy Dogs.x86_64
       type: default
+2178380:
+  cloud:
+    saves:
+      - path: Saves
+        pattern: "*.cbsav"
+        root: gameinstall
+  installDir: SCP - Containment Breach
+  launch:
+    - executable: SCP - Containment Breach.exe
+      type: default
 2178480:
   cloud:
     saves:
@@ -637766,6 +637776,7 @@
         oslist: macos
       executable: Untitled Hand Game - Titled Edition.app/Contents/MacOS/Untitled Hand Game_ Titled Edition
 3449370: {}
+3449470: {}
 3450310:
   installDir: Europa Universalis V
   launch:
@@ -642178,4 +642189,34 @@
     japanese: 最狂進化 EVOカード
     schinese: 最狂進化 EVO Card
     tchinese: 最狂進化 EVO Card
+4381340:
+  installDir: Colony28
+  launch:
+    - config:
+        oslist: windows
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_vesnice.conf\" -noconsole"
+      description: Skip to level 2
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_jungle.conf\" -noconsole"
+      description: Skip to level 3
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_jeskyne.conf\" -noconsole"
+      description: Skip to level 4
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_vezeni.conf\" -noconsole"
+      description: Skip to level 5
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_sklad.conf\" -noconsole"
+      description: Skip to level 6
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_cas.conf\" -noconsole"
+      description: Skip to level 7
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_raketa.conf\" -noconsole"
+      description: Skip to level 8
+      executable: Start.exe
+    - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
+      description: Skip to level 9
+      executable: Start.exe
 3221903386: {}
