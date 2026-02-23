@@ -553151,6 +553151,12 @@ Race the Sun:
         - save
       when:
         - os: linux
+    "<home>/Library/Preferences/unity.Flippfly.RaceTheSun.plist":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
   gog:
     id: 1207660134
   id:
@@ -590465,6 +590471,18 @@ SCHiM:
     SCIENCE SHOW VR  THE ABYSS: {}
   steam:
     id: 1214050
+SCORE International Baja 1000:
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/baja 1000.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 SCP - Containment Breach:
   files:
     "<base>/Saves":

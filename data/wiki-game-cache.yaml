@@ -178636,8 +178636,10 @@ Race the Sun:
   steam: 253030
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Flippfly\\RaceTheSun\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Flippfly.RaceTheSun.plist}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Flippfly/RaceTheSun/}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Flippfly\\RaceTheSun\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/unity.Flippfly.RaceTheSun.plist}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Flippfly/RaceTheSun/}}"
 Race to Mars:
   pageId: 15682
@@ -190816,6 +190818,9 @@ SCHiM:
   steam: 1214050
 SCORE International Baja 1000:
   pageId: 213999
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\baja 1000.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\}}"
 SCP - Containment Breach:
   lutris: scp-containment-breach
   pageId: 14064
