@@ -59614,6 +59614,9 @@ Demon Tides:
     steam: true
   pageId: 202107
   steam: 2585890
+  templates:
+    - "{{Game data/config|Windows|{{folder|{{P|userprofile}}/AppData/LocalLow/Fabraz/Demon Tides/}}}}"
+    - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}/AppData/LocalLow/Fabraz/Demon Tides/}}}}"
 Demon Truck:
   pageId: 41495
   steam: 489760
@@ -169060,7 +169063,8 @@ Pistol Whip:
   pageId: 150391
   steam: 1079800
   templates:
-    - "{{Game data/config|Windows|<Oculus-Folder>/Software/cloudhead-games-ltd-pistol-whip/Pistol Whip_Data}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Cloudhead Games, Ltd.\\Pistol Whip\\|<Oculus-Folder>/Software/cloudhead-games-ltd-pistol-whip/Pistol Whip_Data}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Cloudhead Games, Ltd_\\Pistol Whip\\*.dat|{{p|userprofile\\appdata\\locallow}}\\Cloudhead Games LTD\\Pistol Whip\\*.dat}}"
 Pit Blocks 3D:
   cloud:
     steam: true
@@ -171682,6 +171686,7 @@ PomboTroll:
 "Pompeii: The Legacy":
   cloud:
     steam: true
+  gog: 1412201889
   lutris: pompeii-the-legacy
   pageId: 200328
   steam: 2632240
@@ -172628,6 +172633,8 @@ Power to the People:
   steamSide:
     - 1659690
     - 1739550
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\HermesInteractive\\PowerToThePeople}}"
 Power-Up:
   pageId: 49699
   steam: 312640

@@ -186292,6 +186292,12 @@ Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2:
 Demon Tides:
   cloud:
     steam: true
+  installDir:
+    Demon Tides: {}
+  launch:
+    "<base>/Demon Tides.exe":
+      - when:
+          - store: steam
   steam:
     id: 2585890
 Demon Truck:
@@ -522565,15 +522571,21 @@ Pistol Whip:
     steam: true
   files:
     "<home>/AppData/LocalLow/Cloudhead Games LTD/Pistol Whip/*.dat":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
     "<home>/AppData/LocalLow/Cloudhead Games, Ltd_/Pistol Whip/*.dat":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Pistol Whip: {}
+  registry:
+    "HKEY_CURRENT_USER/Software/Cloudhead Games, Ltd./Pistol Whip":
+      tags:
+        - config
   steam:
     id: 1079800
 Pit Blocks 3D:
@@ -531045,6 +531057,8 @@ PomboTroll:
         - save
       when:
         - os: windows
+  gog:
+    id: 1412201889
   id:
     lutris: pompeii-the-legacy
   installDir:
@@ -533906,10 +533920,11 @@ Power to the People:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/HermesInteractive/Power to the People":
+    "<home>/AppData/LocalLow/HermesInteractive/PowerToThePeople":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     steamExtra:
       - 1659690

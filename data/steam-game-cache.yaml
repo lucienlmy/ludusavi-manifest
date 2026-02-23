@@ -621559,7 +621559,11 @@
   nameLocalized:
     japanese: プロミス・マスコットエージェンシー
     schinese: 达愿福神社
-2585890: {}
+2585890:
+  installDir: Demon Tides
+  launch:
+    - executable: Demon Tides.exe
+      type: default
 2586560:
   cloud:
     saves:
