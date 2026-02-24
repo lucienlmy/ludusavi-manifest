@@ -611928,6 +611928,14 @@ Shantae and the Seven Sirens:
           - store: steam
   steam:
     id: 277890
+ShantyTown:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3701340
+  steam:
+    id: 2434600
 Shaolin vs Wutang:
   installDir:
     Shaolin vs Wutang: {}
@@ -647052,6 +647060,15 @@ SpeedRunners:
             store: steam
   steam:
     id: 207140
+"SpeedRunners 2: King of Speed":
+  files:
+    "<home>/AppData/LocalLow/tinyBuild/SpeedRunners 2":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3183760
 Speedball (2026):
   cloud:
     steam: true

@@ -81895,6 +81895,8 @@ Farm Frenzy Collection:
 "Farm Frenzy: Pizza Party":
   pageId: 41176
   steam: 38140
+Farm Heroes Saga:
+  pageId: 214045
 Farm It!:
   pageId: 167285
 "Farm Life: Natures Adventure":
@@ -106695,6 +106697,8 @@ Hidden Dimensions 3:
   renamedFrom:
     - "Hidden Expedition: Dawn of Prosperity Collector's Edition"
   steam: 514730
+  templates:
+    - "{{Game data/saves|Windows|C:\\Users\\<username>\\AppData\\Roaming\\Eipix\\HiddenExpedition_DawnofProsperity}}"
 "Hidden Expedition: Everest":
   pageId: 41154
   steam: 50930
@@ -106703,6 +106707,8 @@ Hidden Dimensions 3:
   renamedFrom:
     - "Hidden Expedition: The Crown of Solomon Collector's Edition"
   steam: 465990
+  templates:
+    - "{{Game data/saves|Windows|C:\\Users\\<username>\\AppData\\Roaming\\Eipix\\HiddenExpedition_TheCrownOfSolomon}}"
 "Hidden Expedition: The Fountain of Youth":
   pageId: 73195
   steam: 723940
@@ -151718,6 +151724,8 @@ Nanairo Reincarnation:
 "Nancy Drew: The Captive Curse":
   pageId: 40942
   steam: 42220
+  templates:
+    - "{{Game data/saves|Windows|C:\\Users\\<username>\\Documents\\The Captive Curse\\}}"
 "Nancy Drew: The Creature of Kapu Cave":
   pageId: 41277
   steam: 31900
@@ -197716,6 +197724,13 @@ Shantae and the Seven Sirens:
     - "{{Game data/config|Windows|{{p|appdata}}\\Wayforward\\riskysrevenge\\wfEngine.ini}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Wayforward\\riskysrevenge\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\277890\\remote\\}}"
+ShantyTown:
+  cloud:
+    steam: true
+  pageId: 214044
+  steam: 2434600
+  steamSide:
+    - 3701340
 Shaolin vs Wutang:
   pageId: 38408
   steam: 466110
@@ -208888,6 +208903,11 @@ SpeedRunners:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/SpeedRunners/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SpeedRunners/}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\207140\\remote\\}}"
+"SpeedRunners 2: King of Speed":
+  pageId: 214048
+  steam: 3183760
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\tinyBuild\\SpeedRunners 2}}"
 Speedball (2026):
   cloud:
     steam: true

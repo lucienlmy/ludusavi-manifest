@@ -615802,6 +615802,10 @@
         oslist: windows
       executable: "Skystrider\\Skystrider.exe"
       type: default
+2434600:
+  nameLocalized:
+    schinese: 香缇小镇
+    tchinese: 香緹小鎮
 2435090:
   cloud:
     saves:
@@ -634368,6 +634372,7 @@
   launch:
     - executable: Driveloop.exe
       type: default
+3183760: {}
 3183970:
   cloud:
     saves:
