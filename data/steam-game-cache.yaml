@@ -641762,7 +641762,11 @@
         oslist: windows
       executable: Leaf it Alone.exe
       type: default
-3983000: {}
+3983000:
+  nameLocalized:
+    japanese: パラサイト・ミュータント
+    schinese: 寄生种
+    tchinese: 寄生種
 3984650:
   nameLocalized:
     japanese: シティーハンター
@@ -641984,6 +641988,7 @@
       type: default
 4058000: {}
 4061090: {}
+4062420: {}
 4078430:
   nameLocalized:
     japanese: スター・ウォーズ：ギャラクティック・レーサー™

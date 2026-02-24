@@ -82487,6 +82487,9 @@ Fate Trigger:
   renamedFrom:
     - Fate Trigger The Novita
   steam: 3092530
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\FateTriggerDemo\\FateTrigger\\S1Game\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\FateTriggerDemo\\FateTrigger\\S1Game\\Saved\\SaveGames}}"
 Fate of Kai:
   pageId: 204699
   steam: 1426480
@@ -82910,6 +82913,7 @@ Fearmonium:
   pageId: 208712
   steam: 2961530
 Fearwoods:
+  lutris: fearwoods
   pageId: 213034
   steam: 3296990
 "Feast Your Eyes: Little Marshmallow":
@@ -168499,6 +168503,9 @@ Pilgrims:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Amanita Design\\Pilgrims\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Amanita Design\\Pilgrims\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}/steamapps/common/Pilgrims/Saves/}}"
+Pill After Pill:
+  pageId: 214055
+  steam: 4062420
 Pill Cosbi:
   pageId: 73831
   steam: 727410
@@ -257195,6 +257202,7 @@ Vaping Simulator:
   pageId: 69659
   steam: 692540
 "Vapor World: Over the Mind":
+  lutris: vapor-world-over-the-mind
   pageId: 207029
   steam: 1996090
 VaporFly:
@@ -266024,6 +266032,7 @@ Will to Live Online:
 "Will: Follow The Light":
   cloud:
     steam: true
+  lutris: will-follow-the-light
   pageId: 202087
   steam: 3144860
 Willful:

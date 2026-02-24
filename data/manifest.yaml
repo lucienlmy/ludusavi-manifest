@@ -255789,6 +255789,17 @@ Fate Tectonics:
   steam:
     id: 379530
 Fate Trigger:
+  files:
+    "<base>/FateTriggerDemo/FateTrigger/S1Game/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/FateTriggerDemo/FateTrigger/S1Game/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   steam:
     id: 3092530
 Fate Trigger The Novita:
@@ -257096,6 +257107,8 @@ Fearmonium:
   steam:
     id: 2961530
 Fearwoods:
+  id:
+    lutris: fearwoods
   steam:
     id: 3296990
 "Feast Your Eyes: Little Marshmallow":
@@ -520821,6 +520834,9 @@ Pilgrims:
         - save
   steam:
     id: 1049280
+Pill After Pill:
+  steam:
+    id: 4062420
 Pill Cosbi:
   steam:
     id: 727410
@@ -793679,6 +793695,8 @@ Vaping Simulator:
   steam:
     id: 692540
 "Vapor World: Over the Mind":
+  id:
+    lutris: vapor-world-over-the-mind
   steam:
     id: 1996090
 VaporFly:
@@ -820329,6 +820347,8 @@ Will to Live Online:
 "Will: Follow The Light":
   cloud:
     steam: true
+  id:
+    lutris: will-follow-the-light
   steam:
     id: 3144860
 Willful:
