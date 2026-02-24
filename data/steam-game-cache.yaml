@@ -615304,6 +615304,12 @@
         oslist: windows
       executable: nw.exe
       type: default
+2426530:
+  nameLocalized:
+    japanese: "Nova Roma ノヴァ・ローマ  "
+    koreana: "Nova Roma 노바 로마  "
+    schinese: 罗马之城 Nova Roma
+    tchinese: 羅馬之城 Nova Roma
 2426960:
   installDir: Summoners War
   launch:
@@ -628396,6 +628402,9 @@
   nameLocalized:
     schinese: 破碎怪谈：恶意关注
     tchinese: 破碎怪談：惡意關注
+2847780:
+  nameLocalized:
+    schinese: 离火长明2
 2849680:
   installDir: Utopia Must Fall
   launch:
@@ -635305,7 +635314,7 @@
   launch:
     - config:
         oslist: windows
-      executable: Relooted.exe
+      executable: "Relooted\\Binaries\\Win64\\Relooted-Win64-Shipping.exe"
       type: default
 3259470:
   cloud:
@@ -641117,6 +641126,27 @@
     english: "Loulan: The Cursed Sand"
     schinese: 楼兰：诅咒之沙
     tchinese: 楼蘭：詛咒之沙
+3837340:
+  cloud:
+    saves:
+      - path: "FINAL FANTASY VII Steam Edition/{64BitSteamID}"
+        pattern: "*.ff7"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgDataHome
+  installDir: FINAL FANTASY VII Steam Edition
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Current version
+      executable: FFVII_LAUNCHER.exe
+      type: default
 3839180: {}
 3841510:
   nameLocalized:

@@ -19679,9 +19679,6 @@ BOSSGARD:
     steam: true
   pageId: 95425
   steam: 865980
-BOT-NET:
-  pageId: 142151
-  steam: 1072250
 BOTOLO:
   pageId: 54637
   steam: 546100
@@ -31104,6 +31101,11 @@ Bot Vice:
 Bot War:
   pageId: 128234
   steam: 1016330
+Bot-Net:
+  pageId: 142151
+  renamedFrom:
+    - BOT-NET
+  steam: 1072250
 "Botanica: Earthbound":
   pageId: 78581
   renamedFrom:
@@ -84127,8 +84129,12 @@ Final Fantasy VII Remake Intergrade:
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
 Final Fantasy VII Windows Edition:
   cloud:
+    gog: true
+    steam: true
     xbox: true
+  gog: 1698970154
   pageId: 178537
+  steam: 3837340
   templates:
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\My Games\\FINAL FANTASY VII\\config.txt}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\39EA002F.FINALFANTASYVII_n746a19ndrrjg\\SystemAppData\\}}"
@@ -156542,14 +156548,24 @@ Noctuary:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Gratesca\\Noctuary\\}}"
 Nocturnal:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1851444356
   lutris: nocturnal
   pageId: 187756
   steam: 1634080
+  steamSide:
+    - 2459730
+    - 2827700
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Sunnyside Games\\Nocturnal\\{{p|uid}}\\*.sav}}"
+Nocturnal 2:
+  cloud:
+    steam: true
+  lutris: nocturnal-2
+  pageId: 214059
+  steam: 2847780
 Nocturnal Hunt:
   pageId: 76209
   steam: 635550
@@ -157315,6 +157331,9 @@ Nova Nukers!:
     steam: true
   pageId: 68216
   steam: 445000
+Nova Roma:
+  pageId: 214061
+  steam: 2426530
 Nova Strike:
   cloud:
     steam: true
@@ -178155,9 +178174,6 @@ REDRIVER 2:
 REDVIIL:
   pageId: 128346
   steam: 1013410
-REFLASER:
-  pageId: 141865
-  steam: 1123070
 REFUGE:
   pageId: 153836
   steam: 1204860
@@ -182450,6 +182466,11 @@ Refill your Roguelike:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Lizardry\\RefindSelf}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lizardry\\RefindSelf\\SaveFile.es3}}"
+Reflaser:
+  pageId: 141865
+  renamedFrom:
+    - REFLASER
+  steam: 1123070
 RefleX:
   pageId: 23732
   steam: 281860
@@ -188752,7 +188773,7 @@ Romeo Is a Dead Man:
   steam: 3050900
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SevGame\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Grasshopper Manufacture\\ROMEO IS A DEAD MAN\\SavedGames\\{{p|uid}}\\SevSaveSetting.sav}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Grasshopper Manufacture\\ROMEO IS A DEAD MAN\\SavedGames\\{{p|uid}}\\SevSave*.sav}}"
 "Romero's Aftermath":
   pageId: 46308
   steam: 349700

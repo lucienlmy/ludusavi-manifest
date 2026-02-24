@@ -61736,9 +61736,6 @@ BOSSGARD:
             store: steam
   steam:
     id: 865980
-BOT-NET:
-  steam:
-    id: 1072250
 BOTOLO:
   files:
     "<home>/AppData/Roaming/IAN2P.IAN2P/Local Store":
@@ -96424,6 +96421,9 @@ Bot War:
             store: steam
   steam:
     id: 1016330
+Bot-Net:
+  steam:
+    id: 1072250
 "Botanica: Earthbound":
   installDir:
     "Botanica Earthbound Collector's Edition": {}
@@ -260728,6 +260728,9 @@ Final Fantasy VII Remake Intergrade:
   steam:
     id: 1462040
 Final Fantasy VII Windows Edition:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<winDocuments>/My Games/FINAL FANTASY VII/config.txt":
       tags:
@@ -260741,6 +260744,18 @@ Final Fantasy VII Windows Edition:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1698970154
+  installDir:
+    FINAL FANTASY VII Steam Edition: {}
+  launch:
+    "<base>/FFVII_LAUNCHER.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3837340
 "Final Fantasy VII: Ever Crisis":
   installDir:
     FF7EC: {}
@@ -484425,6 +484440,7 @@ Noctuary:
     id: 2143680
 Nocturnal:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -484437,6 +484453,9 @@ Nocturnal:
     id: 1851444356
   id:
     lutris: nocturnal
+    steamExtra:
+      - 2459730
+      - 2827700
   installDir:
     Nocturnal: {}
   launch:
@@ -484446,6 +484465,13 @@ Nocturnal:
             store: steam
   steam:
     id: 1634080
+Nocturnal 2:
+  cloud:
+    steam: true
+  id:
+    lutris: nocturnal-2
+  steam:
+    id: 2847780
 Nocturnal Hunt:
   installDir:
     Nocturnal Hunt: {}
@@ -486582,6 +486608,9 @@ Nova Nukers!:
             store: steam
   steam:
     id: 445000
+Nova Roma:
+  steam:
+    id: 2426530
 Nova Strike:
   cloud:
     steam: true
@@ -551565,20 +551594,6 @@ REDVIIL:
             store: steam
   steam:
     id: 1013410
-REFLASER:
-  installDir:
-    REFLASER: {}
-  launch:
-    "<base>/Reflaser.exe":
-      - when:
-          - bit: 32
-            os: windows
-            store: steam
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1123070
 REFUGE:
   installDir:
     REFUGE: {}
@@ -564681,6 +564696,20 @@ Refill your Roguelike:
         - config
   steam:
     id: 2514960
+Reflaser:
+  installDir:
+    REFLASER: {}
+  launch:
+    "<base>/Reflaser.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1123070
 RefleX:
   files:
     "<winAppData>/SITER SKAIN/RefleX/RefleX.ini":
@@ -566213,7 +566242,7 @@ Relooted:
   installDir:
     Relooted: {}
   launch:
-    "<base>/Relooted.exe":
+    "<base>/Relooted/Binaries/Win64/Relooted-Win64-Shipping.exe":
       - when:
           - os: windows
             store: steam
@@ -583826,7 +583855,7 @@ Romeo Is a Dead Man:
   cloud:
     steam: true
   files:
-    "<home>/Saved Games/Grasshopper Manufacture/ROMEO IS A DEAD MAN/SavedGames/<storeUserId>/SevSaveSetting.sav":
+    "<home>/Saved Games/Grasshopper Manufacture/ROMEO IS A DEAD MAN/SavedGames/<storeUserId>/SevSave*.sav":
       tags:
         - save
       when:
