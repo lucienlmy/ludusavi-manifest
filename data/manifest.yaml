@@ -47402,6 +47402,8 @@ Armajet:
   steam:
     id: 895670
 Armatus:
+  id:
+    lutris: armatus
   steam:
     id: 3660710
 Armed Against the Undead:
@@ -159917,6 +159919,8 @@ Cthulhu Saves the World:
   steam:
     id: 1119040
 "Cthulhu: The Cosmic Abyss":
+  id:
+    lutris: cthulhu-the-cosmic-abyss
   steam:
     id: 2760560
 Ctrl Alt Ego:
@@ -184862,16 +184866,7 @@ Delphyq:
   steam:
     id: 1150820
 Delta:
-  installDir:
-    INTERPOINT: {}
-  launch:
-    "<base>/INTERPOINT.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1002020
+  alias: Interpoint
 Delta Force:
   files:
     "<base>/df.cfg":
@@ -186854,6 +186849,9 @@ Densha de Go! Final:
       tags:
         - config
 Denshattack!:
+  id:
+    steamExtra:
+      - 4142750
   steam:
     id: 2524850
 Deorum Online:
@@ -225099,6 +225097,7 @@ Edge of Atlantis:
     id: 616420
 Edge of Eternity:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -225126,6 +225125,7 @@ Edge of Eternity:
       - 1300753336
       - 1325467411
       - 1396731326
+    lutris: edge-of-eternity
   installDir:
     Edge Of Eternity: {}
   launch:
@@ -225180,6 +225180,13 @@ Edge of Hearts:
 Edge of Insanity:
   steam:
     id: 658340
+Edge of Memories:
+  cloud:
+    steam: true
+  id:
+    lutris: edge-of-memories
+  steam:
+    id: 2738170
 Edge of Reality Visual Novel:
   cloud:
     steam: true
@@ -342004,6 +342011,20 @@ Hoyle Official Casino Games:
             store: steam
   steam:
     id: 532950
+Hozy:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/CozyGame/Saved/SaveGames/HubSaveGame.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/CozyGame/Saved/SaveGames/LevelCompleteData.sav":
+      tags:
+        - save
+      when:
+        - os: windows
 Hrot:
   cloud:
     gog: true
@@ -348718,27 +348739,6 @@ IN-VERT:
     id: 491010
 INCANTAMENTUM:
   alias: "The Excavation of Hob's Barrow"
-INFECTIS:
-  files:
-    "<home>/AppData/LocalLow/Aegon Games Ltd/INFECTIS/*.json":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Aegon Games Ltd/INFECTIS/*.json":
-      when:
-        - os: mac
-          store: steam
-    "<xdgConfig>/unity3d/Aegon Games Ltd/INFECTIS/*.json":
-      when:
-        - os: linux
-          store: steam
-  installDir:
-    INFECTIS: {}
-  launch:
-    "<base>/INFECTIS.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1145820
 INFRA:
   cloud:
     steam: true
@@ -355778,6 +355778,27 @@ Infection Rate:
             store: steam
   steam:
     id: 385950
+Infectis:
+  files:
+    "<home>/AppData/LocalLow/Aegon Games Ltd/INFECTIS/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Aegon Games Ltd/INFECTIS/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Aegon Games Ltd/INFECTIS/*.json":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    INFECTIS: {}
+  launch:
+    "<base>/INFECTIS.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1145820
 Infecto:
   installDir:
     Infecto: {}
@@ -359990,6 +360011,17 @@ Interplay Solitaire:
             store: steam
   steam:
     id: 630690
+Interpoint:
+  installDir:
+    INTERPOINT: {}
+  launch:
+    "<base>/INTERPOINT.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1002020
 Interregnum-Alpha:
   id:
     steamExtra:
@@ -479466,6 +479498,25 @@ Night Slashers:
             store: steam
   steam:
     id: 1627220
+"Night Slashers: Remake":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Forever Entertainment SA/Night Slashers Remake/*.*":
+      when:
+        - store: steam
+  gog:
+    id: 1698218753
+  installDir:
+    Night Slashers Remake: {}
+  launch:
+    "<base>/Night Slashers Remake.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2795750
 Night Swarm:
   cloud:
     steam: true
@@ -498308,6 +498359,9 @@ Operation Warcade VR:
       - when:
           - os: windows
             store: steam
+    "<base>/game.exe":
+      - when:
+          - store: steam
   steam:
     id: 1095480
 Operator:
@@ -790222,15 +790276,7 @@ VOID:
   steam:
     id: 716330
 VOiD:
-  installDir:
-    VOiD: {}
-  launch:
-    "<base>/VOiD.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 855510
+  alias: Void (2019)
 VQD:
   installDir:
     VQD: {}
@@ -800033,6 +800079,16 @@ Void & Nothingness:
             store: steam
   steam:
     id: 543290
+Void (2019):
+  installDir:
+    VOiD: {}
+  launch:
+    "<base>/VOiD.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 855510
 Void 21:
   cloud:
     steam: true
@@ -821010,6 +821066,9 @@ Windowkill:
             store: steam
   steam:
     id: 2726450
+Windrose:
+  steam:
+    id: 3041230
 Winds of Change:
   cloud:
     steam: true
@@ -845782,6 +845841,8 @@ Zzzzz:
 "九州：商旅（Nine Provinces: Caravan）":
   alias: "Nine Provinces: Caravan"
 九霄缳神记 GOD SLAYER:
+  alias: 九霄缳神记 Jiu Xiao
+九霄缳神记 Jiu Xiao:
   cloud:
     steam: true
   files:

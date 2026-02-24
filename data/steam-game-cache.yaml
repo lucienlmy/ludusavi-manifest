@@ -477187,6 +477187,8 @@
         oslist: windows
       executable: Operation Valor.exe
       type: default
+    - executable: game.exe
+      type: none
 1095520:
   installDir: The Itch
   launch:
@@ -619911,8 +619913,9 @@
 2524850:
   nameLocalized:
     japanese: 電車アタック
+    koreana: 덴샤어택!
     schinese: 电车炫客
-    tchinese: 暴走獵車
+    tchinese: 電車炫客
 2524890:
   installDir: Pixel Gun 3D PC Edition
   launch:
@@ -625999,6 +626002,7 @@
       executable: "macOS\\Parking Garage Rally Circuit.app\\Contents\\MacOS\\Parking Garage Rally Circuit"
       type: default
       workingdir: "macos\\"
+2738170: {}
 2738230:
   cloud:
     saves:
@@ -627275,6 +627279,17 @@
         oslist: macos
       executable: The WereCleaner/The WereCleaner.app
       type: default
+2795750:
+  cloud:
+    saves:
+      - path: "Forever Entertainment SA\\Night Slashers Remake"
+        pattern: "*.*"
+        root: WinAppDataLocalLow
+  installDir: Night Slashers Remake
+  launch:
+    - config:
+        oslist: windows
+      executable: Night Slashers Remake.exe
 2796010:
   cloud:
     saves:
@@ -632296,6 +632311,9 @@
         oslist: windows
       executable: "Hwr\\Binaries\\Win64\\Hwr-Win64-ShippingDRM.exe"
       type: default
+3041230:
+  nameLocalized:
+    schinese: "Windrose: 风启之旅"
 3041770:
   cloud:
     saves:

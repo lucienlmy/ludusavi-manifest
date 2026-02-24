@@ -15104,6 +15104,7 @@ Armajet:
 Armatus:
   cloud:
     xbox: true
+  lutris: armatus
   pageId: 211135
   steam: 3660710
 Armed Against the Undead:
@@ -51138,6 +51139,7 @@ Cthulhu Saves the World:
   pageId: 151244
   steam: 1119040
 "Cthulhu: The Cosmic Abyss":
+  lutris: cthulhu-the-cosmic-abyss
   pageId: 202063
   steam: 2760560
 Ctrl Alt Ego:
@@ -59164,9 +59166,6 @@ Delphinia Chronicle:
 Delphyq:
   pageId: 157120
   steam: 1150820
-Delta:
-  pageId: 126098
-  steam: 1002020
 Delta Force:
   gog: 1079289132
   lutris: delta-force
@@ -59615,8 +59614,8 @@ Demon Tides:
   pageId: 202107
   steam: 2585890
   templates:
-    - "{{Game data/config|Windows|{{folder|{{P|userprofile}}/AppData/LocalLow/Fabraz/Demon Tides/}}}}"
-    - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}/AppData/LocalLow/Fabraz/Demon Tides/}}}}"
+    - "{{Game data/config|Windows|{{folder|{{P|userprofile\\appdata\\locallow}}\\Fabraz\\Demon Tides\\}}}}"
+    - "{{Game data/saves|Windows|{{folder|{{P|userprofile\\appdata\\locallow}}\\Fabraz\\Demon Tides\\}}}}"
 Demon Truck:
   pageId: 41495
   steam: 489760
@@ -59782,6 +59781,8 @@ Denshattack!:
     xbox: true
   pageId: 207242
   steam: 2524850
+  steamSide:
+    - 4142750
 Deorum Online:
   pageId: 145138
   steam: 734480
@@ -72235,8 +72236,10 @@ Edge of Atlantis:
   steam: 616420
 Edge of Eternity:
   cloud:
+    epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1468161839
   gogSide:
     - 1221285708
@@ -72244,6 +72247,7 @@ Edge of Eternity:
     - 1300753336
     - 1325467411
     - 1396731326
+  lutris: edge-of-eternity
   pageId: 101649
   steam: 269190
   templates:
@@ -72269,6 +72273,12 @@ Edge of Hearts:
 Edge of Insanity:
   pageId: 64282
   steam: 658340
+Edge of Memories:
+  cloud:
+    steam: true
+  lutris: edge-of-memories
+  pageId: 214028
+  steam: 2738170
 Edge of Nowhere:
   pageId: 35790
 Edge of Reality Visual Novel:
@@ -110195,6 +110205,13 @@ Hoyle Solitaire:
   pageId: 147330
 "Hoyle's Official Book of Games: Volume 3":
   pageId: 147334
+Hozy:
+  cloud:
+    steam: true
+  pageId: 214037
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\CozyGame\\Saved\\SaveGames\\HubSaveGame.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\CozyGame\\Saved\\SaveGames\\LevelCompleteData.sav}}"
 Hrot:
   cloud:
     gog: true
@@ -112315,9 +112332,6 @@ IN-VERT:
     steam: true
   pageId: 69504
   steam: 491010
-INFECTIS:
-  pageId: 145047
-  steam: 1145820
 INFRA:
   cloud:
     steam: true
@@ -114574,6 +114588,11 @@ Infection Rate:
 "Infection: Humanity's Last Gasp":
   pageId: 34753
   steam: 385950
+Infectis:
+  pageId: 145047
+  renamedFrom:
+    - INFECTIS
+  steam: 1145820
 Infecto:
   pageId: 88860
   steam: 815800
@@ -115875,6 +115894,11 @@ Interplay Solitaire:
     steam: true
   pageId: 62292
   steam: 630690
+Interpoint:
+  pageId: 126098
+  renamedFrom:
+    - Delta
+  steam: 1002020
 Interregnum-Alpha:
   pageId: 141197
   steam: 1103690
@@ -154933,6 +154957,13 @@ Night Slashers X WideScreen:
   pageId: 174229
   renamedFrom:
     - Night Slashers WideScreen
+"Night Slashers: Remake":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1698218753
+  pageId: 214031
+  steam: 2795750
 Night Swarm:
   cloud:
     steam: true
@@ -175407,6 +175438,8 @@ Psychical Madness:
 Psycho Boys:
   pageId: 144524
   steam: 991930
+Psycho Killer:
+  pageId: 214023
 Psycho Love:
   pageId: 150942
   steam: 999390
@@ -255850,9 +255883,6 @@ VOI:
 VOID:
   pageId: 89248
   steam: 716330
-VOiD:
-  pageId: 128195
-  steam: 855510
 VQD:
   pageId: 144624
   steam: 1118790
@@ -259271,6 +259301,11 @@ Void:
 Void & Nothingness:
   pageId: 54483
   steam: 543290
+Void (2019):
+  pageId: 128195
+  renamedFrom:
+    - VOiD
+  steam: 855510
 Void 21:
   cloud:
     steam: true
@@ -266203,6 +266238,9 @@ Windows Subsystem for Android:
   pageId: 172391
   renamedFrom:
     - Windows Subsystem for Android™
+Windrose:
+  pageId: 214042
+  steam: 3041230
 Winds of Change:
   cloud:
     steam: true
@@ -274278,10 +274316,12 @@ Zzzzz:
 九州仙玉 Kyushu jade:
   pageId: 155898
   steam: 1203900
-九霄缳神记 GOD SLAYER:
+九霄缳神记 Jiu Xiao:
   cloud:
     steam: true
   pageId: 142172
+  renamedFrom:
+    - 九霄缳神记 GOD SLAYER
   steam: 1096300
 书之旅人 Story Walker:
   pageId: 180817
