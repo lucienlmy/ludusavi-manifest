@@ -13734,6 +13734,11 @@ Apolune:
 Apostasy:
   pageId: 96517
   steam: 868440
+Apostatic - Revenge From Hell:
+  pageId: 130720
+  renamedFrom:
+    - Sharp X Mind
+  steam: 1039650
 Apostle:
   cloud:
     gog: true
@@ -19781,6 +19786,8 @@ BUTCHERBOX:
 BVRGER VAN:
   pageId: 102757
   steam: 892470
+Baal:
+  pageId: 214069
 Baam Squad:
   pageId: 89606
   steam: 736720
@@ -25648,6 +25655,9 @@ Big Bash Boom:
 Big Battle And Defence Simulator:
   pageId: 139578
   steam: 1103820
+"Big Beautiful Women: Giantess Dating Action":
+  pageId: 214073
+  steam: 3220050
 Big Blue - Memory:
   pageId: 87982
   steam: 778540
@@ -84101,6 +84111,20 @@ Final Fantasy VII (2012):
   templates:
     - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\ff7*.cfg|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\networkSettings.dat}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\user_{{P|uid}}\\}}"
+Final Fantasy VII (2026):
+  cloud:
+    gog: true
+    steam: true
+    xbox: true
+  gog: 1698970154
+  pageId: 178537
+  renamedFrom:
+    - Final Fantasy VII Windows Edition
+  steam: 3837340
+  templates:
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\My Games\\FINAL FANTASY VII\\config.txt}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\{{p|uid}}\\*.ff7}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\39EA002F.FINALFANTASYVII_n746a19ndrrjg\\SystemAppData\\}}"
 Final Fantasy VII Rebirth:
   cloud:
     epic: true
@@ -84127,17 +84151,6 @@ Final Fantasy VII Remake Intergrade:
     - "{{Game data/saves|Epic Games Store|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\EOS\\}}"
     - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\Steam\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
-Final Fantasy VII Windows Edition:
-  cloud:
-    gog: true
-    steam: true
-    xbox: true
-  gog: 1698970154
-  pageId: 178537
-  steam: 3837340
-  templates:
-    - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\My Games\\FINAL FANTASY VII\\config.txt}}"
-    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\39EA002F.FINALFANTASYVII_n746a19ndrrjg\\SystemAppData\\}}"
 "Final Fantasy VII: Ever Crisis":
   pageId: 191339
   steam: 2484110
@@ -158157,6 +158170,8 @@ Obliterate...:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Obliterate.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
+Obliterator:
+  pageId: 214067
 Oblitus:
   pageId: 48569
   steam: 306440
@@ -169105,6 +169120,9 @@ Pirates! Gold:
     steam: true
   pageId: 38173
   steam: 17570
+"Pirates: Captain's Quest":
+  lutris: pirates-captains-quest
+  pageId: 214071
 "Pirates: Legend of the Black Buccaneer":
   pageId: 195677
   templates:
@@ -197990,9 +198008,6 @@ Sharp:
 Sharp Shooter:
   pageId: 50961
   steam: 530470
-Sharp X Mind:
-  pageId: 130720
-  steam: 1039650
 SharpShooter3D:
   pageId: 96729
   templates:
@@ -199672,6 +199687,9 @@ Shrek the Third:
 "Shrek's Carnival Craze":
   lutris: shreks-carnival-craze
   pageId: 101873
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Shrek\\GameConfig.ini}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Shrek\\Saves\\{{p|uid}}.sav}}"
 "Shrek: Swamp Fun with Early Math":
   pageId: 212031
 "Shrek: Swamp Fun with Phonics":
@@ -227543,6 +227561,11 @@ The Barbarian and the Subterranean Caves:
 The Baron Got You Again:
   pageId: 67143
   steam: 538050
+The Bart Bonte Collection:
+  pageId: 214074
+  steam: 1574910
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\air.bbcollection\\Local Store\\#SharedObjects\\}}"
 The Base:
   pageId: 72897
   steam: 707220

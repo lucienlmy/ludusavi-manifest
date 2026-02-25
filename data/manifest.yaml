@@ -43375,6 +43375,9 @@ Apostasy:
             store: steam
   steam:
     id: 868440
+Apostatic - Revenge From Hell:
+  steam:
+    id: 1039650
 Apostle:
   cloud:
     gog: true
@@ -79501,6 +79504,9 @@ Big Bash Boom:
 Big Battle And Defence Simulator:
   steam:
     id: 1103820
+"Big Beautiful Women: Giantess Dating Action":
+  steam:
+    id: 3220050
 Big Blue - Memory:
   installDir:
     Big Blue Memory: {}
@@ -260655,6 +260661,41 @@ Final Fantasy VII (2012):
             store: steam
   steam:
     id: 39140
+Final Fantasy VII (2026):
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winDocuments>/My Games/FINAL FANTASY VII/config.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/FINAL FANTASY VII Steam Edition/<storeUserId>/*.ff7":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Packages/39EA002F.FINALFANTASYVII_n746a19ndrrjg/SystemAppData":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  gog:
+    id: 1698970154
+  installDir:
+    FINAL FANTASY VII Steam Edition: {}
+  launch:
+    "<base>/FFVII_LAUNCHER.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3837340
 Final Fantasy VII Rebirth:
   cloud:
     epic: true
@@ -260728,34 +260769,7 @@ Final Fantasy VII Remake Intergrade:
   steam:
     id: 1462040
 Final Fantasy VII Windows Edition:
-  cloud:
-    gog: true
-    steam: true
-  files:
-    "<winDocuments>/My Games/FINAL FANTASY VII/config.txt":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
-    "<winLocalAppData>/Packages/39EA002F.FINALFANTASYVII_n746a19ndrrjg/SystemAppData":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
-  gog:
-    id: 1698970154
-  installDir:
-    FINAL FANTASY VII Steam Edition: {}
-  launch:
-    "<base>/FFVII_LAUNCHER.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 3837340
+  alias: Final Fantasy VII (2026)
 "Final Fantasy VII: Ever Crisis":
   installDir:
     FF7EC: {}
@@ -522608,6 +522622,9 @@ Pirates! Gold:
             store: steam
   steam:
     id: 17570
+"Pirates: Captain's Quest":
+  id:
+    lutris: pirates-captains-quest
 "Pirates: Legend of the Black Buccaneer":
   files:
     "<base>/pc.cfg":
@@ -612644,8 +612661,7 @@ Sharp Shooter:
   steam:
     id: 530470
 Sharp X Mind:
-  steam:
-    id: 1039650
+  alias: Apostatic - Revenge From Hell
 SharpShooter3D:
   files:
     "<base>/*.zds":
@@ -617845,6 +617861,17 @@ Shrek the Third:
   id:
     lutris: shrek-the-third
 "Shrek's Carnival Craze":
+  files:
+    "<winAppData>/Shrek/GameConfig.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Shrek/Saves/<storeUserId>.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: shreks-carnival-craze
 Shrine of the God-Ape:
@@ -705802,6 +705829,22 @@ The Baron Got You Again:
     The baron got you again: {}
   steam:
     id: 538050
+The Bart Bonte Collection:
+  files:
+    "<winAppData>/air.bbcollection/Local Store/#SharedObjects":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    The Bart Bonte collection: {}
+  launch:
+    "<base>/bbcollection.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1574910
 The Base:
   installDir:
     The Base: {}

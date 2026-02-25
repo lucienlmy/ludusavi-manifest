@@ -565562,6 +565562,13 @@
       type: default
   nameLocalized:
     schinese: 终极太空突击队：反击势力
+1574910:
+  installDir: The Bart Bonte collection
+  launch:
+    - config:
+        oslist: windows
+      executable: bbcollection.exe
+      type: default
 1575470:
   cloud:
     saves:
@@ -634836,6 +634843,7 @@
         oslist: windows
       executable: Super Woden Rally Edge.exe
 3219630: {}
+3220050: {}
 3223070: {}
 3223120:
   installDir: Hentai Tales Futanari Office
