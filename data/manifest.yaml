@@ -52415,6 +52415,30 @@ Assetto Corsa EVO:
             store: steam
   steam:
     id: 3058630
+Assetto Corsa Rally:
+  files:
+    "<home>/AppData/Local/acr/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/Local/acr/Saved/SaveGames/PlayerDataSaveSlot.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: assetto-corsa-rally
+  installDir:
+    Assetto Corsa Rally: {}
+  launch:
+    "<base>/acr/Binaries/Win64/acr.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3917090
 "Astalon: Tears of the Earth":
   cloud:
     gog: true
@@ -102855,6 +102879,7 @@ Broomstick League:
 Brotato:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<home>/.local/share/Brotato/<storeUserId>/save_*.json":
@@ -102877,7 +102902,14 @@ Brotato:
         - save
       when:
         - os: windows
+  gog:
+    id: 1118951034
   id:
+    gogExtra:
+      - 1126351084
+      - 1562256538
+      - 1638201898
+      - 2146695817
     lutris: brotato
     steamExtra:
       - 2868390
@@ -186308,12 +186340,23 @@ Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2:
 Demon Tides:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Fabraz/Demon Tides":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Demon Tides: {}
   launch:
     "<base>/Demon Tides.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Fabraz/Demon Tides:
+      tags:
+        - config
   steam:
     id: 2585890
 Demon Truck:
@@ -260676,7 +260719,7 @@ Final Fantasy VII (2012):
             store: steam
   steam:
     id: 39140
-Final Fantasy VII (2026):
+Final Fantasy VII (2020):
   cloud:
     gog: true
     steam: true
@@ -260729,6 +260772,8 @@ Final Fantasy VII (2026):
             store: steam
   steam:
     id: 3837340
+Final Fantasy VII (2026):
+  alias: Final Fantasy VII (2020)
 Final Fantasy VII Rebirth:
   cloud:
     epic: true
@@ -260802,7 +260847,7 @@ Final Fantasy VII Remake Intergrade:
   steam:
     id: 1462040
 Final Fantasy VII Windows Edition:
-  alias: Final Fantasy VII (2026)
+  alias: Final Fantasy VII (2020)
 "Final Fantasy VII: Ever Crisis":
   installDir:
     FF7EC: {}
@@ -273792,7 +273837,17 @@ Fossilized Wonders:
   cloud:
     steam: true
   files:
+    "<winAppData>/ShanghaiAlice/th20/replay":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/ShanghaiAlice/th20/scoreth20.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/ShanghaiAlice/th20/scoreth20bak.dat":
       tags:
         - save
       when:
@@ -273807,6 +273862,8 @@ Fossilized Wonders:
         - config
       when:
         - os: windows
+  id:
+    lutris: touhou-kinjoukyou-fossilized-wonders
   installDir:
     th20: {}
   launch:
@@ -390203,6 +390260,25 @@ Labyrinth of Touhou 2:
         - config
       when:
         - os: windows
+"Labyrinth of Touhou Tri: The Dreaming Girls & The Mysterious Orbs":
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: labyrinth-of-touhou-tri-the-dreaming-girls-and-the-mysterious-orbs
+  installDir:
+    Labyrinth of Touhou Tri: {}
+  launch:
+    "<base>/THLabyrinth3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3067930
 "Labyrinth of Touhou: Gensokyo and the Heaven-Piercing Tree":
   cloud:
     steam: true
@@ -407817,36 +407893,12 @@ Locomoto:
   cloud:
     steam: true
   files:
-    "<base>/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_Info.json":
-      when:
-        - store: steam
-    "<base>/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_save.dat":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_Info.json":
+    "<home>/AppData/LocalLow/Green Tile Digital/Locomoto":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_save.dat":
-      when:
-        - os: windows
-          store: steam
-    "<home>/Library/Application Support/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_Info.json":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_save.dat":
-      when:
-        - os: mac
-          store: steam
-    "<xdgData>/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_Info.json":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/Green Tile Digital/Locomoto/<storeUserId>/Saves/**/save*_save.dat":
-      when:
-        - os: linux
-          store: steam
   installDir:
     Locomoto: {}
   steam:
@@ -443257,6 +443309,18 @@ Might & Magic X - Legacy:
 "Might & Magic: Duel of Champions":
   steam:
     id: 256410
+"Might & Magic: Fates TCG":
+  installDir:
+    FATES: {}
+  launch:
+    "<base>/fates.exe":
+      - arguments: "--steam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3918850
 Might & Mayhem:
   installDir:
     Might & Mayhem: {}
@@ -555536,6 +555600,8 @@ Railroad Corporation:
   steam:
     id: 797400
 Railroad Corporation 2:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Corbie Games/Railroad Corporation 2/*.sav":
       when:
@@ -568722,6 +568788,14 @@ Resident Evil HD Remaster:
 Resident Evil Requiem:
   id:
     lutris: resident-evil-requiem
+  installDir:
+    RESIDENT EVIL requiem BIOHAZARD requiem: {}
+  launch:
+    "<base>/re9.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3764200
 Resident Evil Resistance:
@@ -767547,6 +767621,13 @@ Train Sim World 5:
             store: steam
   steam:
     id: 2967990
+Train Sim World 6:
+  files:
+    "<winDocuments>/My Games/TrainSimWorld6/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 Train Simulator:
   cloud:
     steam: true

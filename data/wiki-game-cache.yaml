@@ -16723,6 +16723,13 @@ Assetto Corsa EVO:
   steam: 3058630
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\ACE\\}}"
+Assetto Corsa Rally:
+  lutris: assetto-corsa-rally
+  pageId: 209751
+  steam: 3917090
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\Local\\acr\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\acr\\Saved\\SaveGames\\PlayerDataSaveSlot.sav}}"
 "Astalon: Tears of the Earth":
   cloud:
     gog: true
@@ -29501,6 +29508,8 @@ Bloop Reloaded:
 Blortasia:
   pageId: 55938
   steam: 497450
+Blossom Blast Saga:
+  pageId: 214080
 "Blossom Tales 2: The Minotaur Prince":
   pageId: 171744
   steam: 1747830
@@ -33079,8 +33088,15 @@ Broomstick League:
 Brotato:
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1118951034
+  gogSide:
+    - 1126351084
+    - 1562256538
+    - 1638201898
+    - 2146695817
   lutris: brotato
   pageId: 188573
   steam: 1942280
@@ -36167,6 +36183,8 @@ Candy Adventure:
 Candy Blast:
   pageId: 35166
   steam: 474050
+Candy Crush Friends Saga:
+  pageId: 214079
 Candy Crush Jelly Saga:
   pageId: 168487
 Candy Crush Saga:
@@ -59629,8 +59647,8 @@ Demon Tides:
   pageId: 202107
   steam: 2585890
   templates:
-    - "{{Game data/config|Windows|{{folder|{{P|userprofile\\appdata\\locallow}}\\Fabraz\\Demon Tides\\}}}}"
-    - "{{Game data/saves|Windows|{{folder|{{P|userprofile\\appdata\\locallow}}\\Fabraz\\Demon Tides\\}}}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Fabraz\\Demon Tides|{{P|userprofile}}\\AppData\\LocalLow\\Fabraz\\Demon Tides\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Fabraz\\Demon Tides\\}}"
 Demon Truck:
   pageId: 41495
   steam: 489760
@@ -84114,7 +84132,7 @@ Final Fantasy VII (2012):
   templates:
     - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\ff7*.cfg|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\networkSettings.dat}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\user_{{P|uid}}\\}}"
-Final Fantasy VII (2026):
+Final Fantasy VII (2020):
   cloud:
     gog: true
     steam: true
@@ -84123,6 +84141,9 @@ Final Fantasy VII (2026):
   pageId: 178537
   renamedFrom:
     - Final Fantasy VII Windows Edition
+    - Final Fantasy VII (2026)
+    - Final Fantasy VII (2020)
+    - Final Fantasy VII (2026)
   steam: 3837340
   templates:
     - "{{Game data/saves|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\config.txt}}"
@@ -88180,11 +88201,12 @@ Fossil Hunters:
 Fossilized Wonders:
   cloud:
     steam: true
+  lutris: touhou-kinjoukyou-fossilized-wonders
   pageId: 207751
   steam: 3671710
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\th20.cfg}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20.dat | {{p|appdata}}\\ShanghaiAlice\\th20\\snapshot\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\scoreth20bak.dat|{{p|appdata}}\\ShanghaiAlice\\th20\\replay\\|{{p|appdata}}\\ShanghaiAlice\\th20\\snapshot\\}}"
 Foto Flash:
   pageId: 80579
   steam: 778610
@@ -125778,6 +125800,14 @@ Labyrinth of Touhou 2:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\save\\sys.ngd}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
+"Labyrinth of Touhou Tri: The Dreaming Girls & The Mysterious Orbs":
+  cloud:
+    steam: true
+  lutris: labyrinth-of-touhou-tri-the-dreaming-girls-and-the-mysterious-orbs
+  pageId: 214085
+  steam: 3067930
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveData\\}}"
 "Labyrinth of Touhou: Gensokyo and the Heaven-Piercing Tree":
   cloud:
     steam: true
@@ -131549,6 +131579,9 @@ Locomoto:
     steam: true
   pageId: 203383
   steam: 2328650
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Green Tile Digital\\Locomoto}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Green Tile Digital\\Locomoto}}"
 Locus:
   pageId: 208389
 Locus Solus:
@@ -143068,6 +143101,9 @@ Might & Magic X - Legacy:
 "Might & Magic: Duel of Champions":
   pageId: 40522
   steam: 256410
+"Might & Magic: Fates TCG":
+  pageId: 214082
+  steam: 3918850
 Might & Mayhem:
   pageId: 63274
   steam: 646820
@@ -167485,6 +167521,8 @@ Pet Racer:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\progress.cfg}}"
+Pet Rescue Saga:
+  pageId: 214081
 Pet Soccer:
   pageId: 194942
   templates:
@@ -179454,6 +179492,8 @@ Railroad Corporation:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Corbie Games\\Railroad Corporation\\*.sav}}"
 Railroad Corporation 2:
+  cloud:
+    steam: true
   pageId: 187615
   steam: 1677970
 Railroad Ink Challenge:
@@ -247846,6 +247886,10 @@ Train Sim World 5:
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld5WGDK\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld5\\Saved\\SaveGames}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DovetailGames.TrainSimWorld5_8zrtwt33k1hxt\\SystemAppData\\wgs}}"
+Train Sim World 6:
+  pageId: 214083
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Documents\\My Games\\TrainSimWorld6\\Saved\\SaveGames}}"
 Train Simulator:
   cloud:
     steam: true

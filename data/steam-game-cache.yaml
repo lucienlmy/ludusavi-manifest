@@ -622755,8 +622755,10 @@
       type: option1
   nameLocalized:
     english: Tokyo Xtreme Racer
+    french: Tokyo Xtreme Racer
     japanese: 首都高バトル
     schinese: 首都高赛车
+    spanish: Tokyo Xtreme Racer
     tchinese: 首都高賽車
 2636340:
   cloud:
@@ -632884,6 +632886,53 @@
     koreana: 마라톤
     schinese: 失落星船：马拉松
     tchinese: 失落星船：馬拉松
+3067930:
+  cloud:
+    saves:
+      - path: SaveData/Save01
+        pattern: "*.txt"
+        root: gameinstall
+      - path: SaveData/Save01
+        pattern: "*.ngd"
+        root: gameinstall
+      - path: SaveData/Save06
+        pattern: "*.txt"
+        root: gameinstall
+      - path: SaveData/Save06
+        pattern: "*.ngd"
+        root: gameinstall
+      - path: SaveData
+        pattern: gbd.ngd
+        root: gameinstall
+      - path: SaveData/Save02
+        pattern: "*.txt"
+        root: gameinstall
+      - path: SaveData/Save02
+        pattern: "*.ngd"
+        root: gameinstall
+      - path: SaveData/Save03
+        pattern: "*.txt"
+        root: gameinstall
+      - path: SaveData/Save03
+        pattern: "*.ngd"
+        root: gameinstall
+      - path: SaveData/Save04
+        pattern: "*.txt"
+        root: gameinstall
+      - path: SaveData/Save04
+        pattern: "*.ngd"
+        root: gameinstall
+      - path: SaveData/Save05
+        pattern: "*.txt"
+        root: gameinstall
+      - path: SaveData/Save05
+        pattern: "*.ngd"
+        root: gameinstall
+  installDir: Labyrinth of Touhou Tri
+  launch:
+    - executable: THLabyrinth3.exe
+  nameLocalized:
+    japanese: 東方の迷宮Tri 夢見る乙女と神秘の宝珠
 3068300:
   cloud:
     saves:
@@ -640808,6 +640857,12 @@
 3763470: {}
 3763840: {}
 3764200:
+  installDir: RESIDENT EVIL requiem BIOHAZARD requiem
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: re9.exe
   nameLocalized:
     japanese: BIOHAZARD requiem
     koreana: BIOHAZARD requiem
@@ -641619,6 +641674,15 @@
     koreana: 아세토 코르사 랠리 Assetto Corsa Rally
     schinese: 《神力科莎：拉力》Assetto Corsa Rally
     tchinese: "《神力科莎：拉力賽​》Assetto Corsa Rally   "
+3918850:
+  installDir: FATES
+  launch:
+    - arguments: "--steam"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: fates.exe
+      type: default
 3919810: {}
 3920610:
   nameLocalized:
