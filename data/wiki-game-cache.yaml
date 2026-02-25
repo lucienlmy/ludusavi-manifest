@@ -20116,6 +20116,7 @@ Backyard Basketball:
   cloud:
     steam: true
   pageId: 213275
+  steam: 3170580
 Backyard Brawl:
   pageId: 120978
   steam: 954170
@@ -49319,6 +49320,8 @@ Creeper World IXE:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\CreeperWorldIXE\\gamedata\\settings\\settings.json}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\CreeperWorldIXE\\gamedata\\}}"
+Creepers:
+  pageId: 214077
 Creeping Terror:
   cloud:
     steam: true
@@ -84122,7 +84125,10 @@ Final Fantasy VII (2026):
     - Final Fantasy VII Windows Edition
   steam: 3837340
   templates:
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\config.txt}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\config.txt}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\My Games\\FINAL FANTASY VII\\config.txt}}"
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\76561197960265729\\*.ff7}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\{{p|uid}}\\*.ff7}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\39EA002F.FINALFANTASYVII_n746a19ndrrjg\\SystemAppData\\}}"
 Final Fantasy VII Rebirth:
@@ -199670,7 +199676,7 @@ Shrek Forever After:
   steam: 42660
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Activision\\Shrek Forever After\\user.cfg}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Shrek Forever After\\savegames\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Shrek Forever After\\savegames}}"
 Shrek Game Land Activity Center:
   pageId: 207559
 Shrek SuperSlam:
@@ -265623,6 +265629,8 @@ Why War?:
 Why is the Princess in a Magic Forest?!:
   pageId: 52592
   steam: 518740
+WiZmans World Re;Try:
+  pageId: 214078
 Wicca:
   cloud:
     steam: true
@@ -272321,6 +272329,7 @@ Zapitalism:
   steam: 1173230
 "Zapper: One Wicked Cricket":
   gog: 1909443731
+  lutris: zapper-one-wicked-cricket
   pageId: 140356
   steam: 2766060
   templates:

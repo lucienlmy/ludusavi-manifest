@@ -224676,6 +224676,8 @@
         oslist: windows
       executable: MonsterHunterWorld.exe
       type: default
+  nameLocalized:
+    japanese: モンスターハンター：ワールド
 582030:
   installDir: Oblivion Tesseract VR
   launch:
@@ -634275,6 +634277,17 @@
   installDir: Backyard Football
   launch:
     - executable: football.exe
+      type: default
+3170580:
+  cloud:
+    saves:
+      - path: "Mega Cat Studios/Backyard Basketball 2001/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Backyard Basketball 01
+  launch:
+    - executable: basketball.exe
       type: default
 3172440: {}
 3178350:

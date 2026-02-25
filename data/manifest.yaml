@@ -63035,6 +63035,21 @@ Backyard Baseball 2005:
         - config
       when:
         - os: windows
+Backyard Basketball:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Basketball 2001/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    Backyard Basketball 01: {}
+  launch:
+    "<base>/basketball.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3170580
 Backyard Brawl:
   installDir:
     Backyard Brawl: {}
@@ -260672,7 +260687,25 @@ Final Fantasy VII (2026):
       when:
         - os: windows
           store: microsoft
+    "<winLocalAppData>/FINAL FANTASY VII GOG Edition/76561197960265729/*.ff7":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<winLocalAppData>/FINAL FANTASY VII GOG Edition/config.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<winLocalAppData>/FINAL FANTASY VII Steam Edition/<storeUserId>/*.ff7":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/FINAL FANTASY VII Steam Edition/config.txt":
       tags:
         - save
       when:
@@ -839420,6 +839453,8 @@ Zapitalism:
         - os: windows
   gog:
     id: 1909443731
+  id:
+    lutris: zapper-one-wicked-cricket
   installDir:
     Atari Zapper: {}
   launch:
