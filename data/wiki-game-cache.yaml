@@ -85751,6 +85751,9 @@ Flem:
   steam: 341760
   steamSide:
     - 369430
+Flesh:
+  pageId: 214094
+  steam: 3592940
 Flesh Eaters:
   pageId: 35391
   steam: 383580
@@ -180201,6 +180204,10 @@ Ratatouille:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Ratchet & Clank - Rift Apart\\{{P|uid}}\\-userprefs.save|{{P|hkcu}}\\Software\\Insomniac Games\\Ratchet & Clank - Rift Apart}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Ratchet & Clank - Rift Apart\\{{P|uid}}\\}}"
+Ratdoodle Adventure:
+  lutris: ratdoodle-adventure
+  pageId: 214093
+  steam: 4026900
 Ratergy:
   pageId: 90176
   steam: 815480

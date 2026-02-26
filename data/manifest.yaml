@@ -265727,6 +265727,9 @@ Flem:
             store: steam
   steam:
     id: 341760
+Flesh:
+  steam:
+    id: 3592940
 Flesh Eaters:
   files:
     "<winLocalAppData>/FleshEaters":
@@ -557701,6 +557704,11 @@ Ratatouille:
         - config
   steam:
     id: 1895880
+Ratdoodle Adventure:
+  id:
+    lutris: ratdoodle-adventure
+  steam:
+    id: 4026900
 Ratergy:
   installDir:
     Ratergy: {}
