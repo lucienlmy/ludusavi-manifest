@@ -52398,7 +52398,7 @@ Assetto Corsa Competizione:
     id: 805550
 Assetto Corsa EVO:
   files:
-    "<winDocuments>/ACE":
+    "<home>/Saved Games/ACE":
       tags:
         - config
       when:
@@ -119932,73 +119932,11 @@ Cats Fly Helicopters:
   steam:
     id: 736910
 Cats Hidden in Christmas:
-  cloud:
-    steam: true
-  files:
-    "<winAppData>/Cats Hidden in Christmas":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  installDir:
-    Cats Hidden in Christmas: {}
-  launch:
-    "<base>/Cats Hidden in Christmas.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2933990
+  alias: Travellin Cats in Christmas
 Cats Hidden in Jingle Jam:
-  cloud:
-    steam: true
-  files:
-    "<winAppData>/Cats Hidden in Jingle Jam":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  id:
-    lutris: cats-hidden-in-jingle-jam
-    steamExtra:
-      - 2723350
-  installDir:
-    Cats Hidden in Jingle Jam: {}
-  launch:
-    "<base>/Cats Hidden in Jingle Jam.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2608050
+  alias: Travellin Cats in Jingle Jam
 Cats Hidden in Paris:
-  cloud:
-    steam: true
-  files:
-    "<winAppData>/Cats Hidden in Paris":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  gog:
-    id: 1496783574
-  id:
-    gogExtra:
-      - 2143975614
-    steamExtra:
-      - 2426940
-  installDir:
-    Cats Hidden in Paris: {}
-  launch:
-    "<base>/Cats Hidden in Paris.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2313250
+  alias: Travellin Cats in Paris
 Cats Make You Smarter!:
   installDir:
     CatsMakeYouSmarter: {}
@@ -261607,6 +261545,38 @@ Find Differences:
           - store: steam
   steam:
     id: 936020
+"Find Kittens: The Last of Cats":
+  files:
+    "<base>/FIND KITTENS The last of cats_Data/Data_SL/D_Game":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/FIND KITTENS The last of cats_Data/Data_SL/D_Setting":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 2918610
+  installDir:
+    FIND KITTENS The last of cats: {}
+  launch:
+    "<base>/FIND KITTENS The last of cats.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/FIND KITTENS The last of cats.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/FIND KITTENS The last of cats.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2907010
 "Find Me: Horror Game":
   files:
     "<base>/SavesDir/*.sav":
@@ -312486,6 +312456,8 @@ HEXAD:
             store: steam
   steam:
     id: 1555650
+"HIDDEN CATS: The last of cats":
+  alias: "Find Kittens: The Last of Cats"
 HIDE AND SEEK:
   alias: Hide and Seek (Jamong)
 HIGHRISE:
@@ -331310,39 +331282,7 @@ Hidden & Dangerous Deluxe:
   steam:
     id: 656480
 "Hidden Cats: The Last of Cats":
-  files:
-    "<root>/steamapps/common/HIDDEN CATS The last of cats/HIDDEN CATS The last of cats_Data/Data_SL/D_Game":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: steam
-    "<root>/steamapps/common/HIDDEN CATS The last of cats/HIDDEN CATS The last of cats_Data/Data_SL/D_Setting":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: steam
-  id:
-    steamExtra:
-      - 2918610
-  installDir:
-    HIDDEN CATS The last of cats: {}
-  launch:
-    "<base>/HIDDEN CATS The last of cats.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/HIDDEN CATS The last of cats.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/HIDDEN CATS The last of cats.x86_64":
-      - when:
-          - os: linux
-            store: steam
-  steam:
-    id: 2907010
+  alias: "Find Kittens: The Last of Cats"
 Hidden Cubes:
   files:
     "<home>/AppData/LocalLow/NixieCraft/Hidden Cubes/*.db":
@@ -377830,6 +377770,11 @@ Ken ga Kimi:
             store: steam
   steam:
     id: 1954200
+"Kena: Scars of Kosmora":
+  id:
+    lutris: kena-scars-of-kosmora
+  steam:
+    id: 3485810
 Kenshi:
   cloud:
     steam: true
@@ -503937,6 +503882,13 @@ Outward:
     Outward: {}
   steam:
     id: 794260
+Outward 2:
+  gog:
+    id: 2015047607
+  id:
+    lutris: outward-2
+  steam:
+    id: 2849490
 Outwars:
   files:
     "<base>/outwars.sav":
@@ -767668,6 +767620,9 @@ Train Sim World 5:
   steam:
     id: 2967990
 Train Sim World 6:
+  cloud:
+    epic: true
+    steam: true
   files:
     "<winDocuments>/My Games/TrainSimWorld6/Saved/Config":
       tags:
@@ -770905,6 +770860,92 @@ Travellers Rest:
             store: steam
   steam:
     id: 1139980
+Travellin Cats in Christmas:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Cats Hidden in Christmas":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Travellin Cats in Christmas":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Travellin Cats in Christmas: {}
+  launch:
+    "<base>/Travellin Cats in Christmas.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2933990
+Travellin Cats in Jingle Jam:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Cats Hidden in Jingle Jam":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Travellin Cats in Jingle Jam":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: cats-hidden-in-jingle-jam
+    steamExtra:
+      - 2723350
+  installDir:
+    Travellin Cats in Jingle Jam: {}
+  launch:
+    "<base>/Travellin Cats in Jingle Jam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2608050
+Travellin Cats in Paris:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Cats Hidden in Paris":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Travellin Cats in Paris":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1496783574
+  id:
+    gogExtra:
+      - 2143975614
+    steamExtra:
+      - 2426940
+  installDir:
+    Travellin Cats in Paris: {}
+  launch:
+    "<base>/Travellin Cats in Paris.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2313250
 Travelling around the world on a hot air balloon:
   steam:
     id: 1137200
@@ -792979,6 +793020,10 @@ Vampire Therapist:
   gog:
     id: 1789761171
   id:
+    gogExtra:
+      - 1097175715
+      - 1504401809
+      - 1842266255
     lutris: vampire-therapist
     steamExtra:
       - 3320590

@@ -610912,16 +610912,21 @@
 2313250:
   cloud:
     saves:
+      - path: Travellin Cats in Paris
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
       - path: Cats Hidden in Paris
         pattern: "*"
         platforms:
           - Windows
         root: WinAppDataRoaming
-  installDir: Cats Hidden in Paris
+  installDir: Travellin Cats in Paris
   launch:
     - config:
         oslist: windows
-      executable: Cats Hidden in Paris.exe
+      executable: Travellin Cats in Paris.exe
       type: default
 2313570:
   installDir: "Rhya's Crusade The Aradia's Reavers"
@@ -621982,11 +621987,16 @@
         platforms:
           - Windows
         root: WinAppDataRoaming
-  installDir: Cats Hidden in Jingle Jam
+      - path: Travellin Cats in Jingle Jam
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Travellin Cats in Jingle Jam
   launch:
     - config:
         oslist: windows
-      executable: Cats Hidden in Jingle Jam.exe
+      executable: Travellin Cats in Jingle Jam.exe
       type: default
 2608270:
   cloud:
@@ -628416,6 +628426,7 @@
 2847780:
   nameLocalized:
     schinese: 离火长明2
+2849490: {}
 2849680:
   installDir: Utopia Must Fall
   launch:
@@ -629456,7 +629467,7 @@
 2907010:
   cloud:
     saves:
-      - path: HIDDEN CATS The last of cats_Data/Data_SL/
+      - path: FIND KITTENS The last of cats_Data/Data_SL/
         pattern: "*"
         root: gameinstall
     overrides:
@@ -629467,17 +629478,17 @@
             replace: Contents/Data_SL/
         root: gameinstall
         useInstead: gameinstall
-  installDir: HIDDEN CATS The last of cats
+  installDir: FIND KITTENS The last of cats
   launch:
     - config:
         oslist: windows
-      executable: HIDDEN CATS The last of cats.exe
+      executable: FIND KITTENS The last of cats.exe
     - config:
         oslist: macos
-      executable: HIDDEN CATS The last of cats.app
+      executable: FIND KITTENS The last of cats.app
     - config:
         oslist: linux
-      executable: HIDDEN CATS The last of cats.x86_64
+      executable: FIND KITTENS The last of cats.x86_64
 2907190:
   installDir: April 24th
   launch:
@@ -630103,11 +630114,16 @@
         platforms:
           - Windows
         root: WinAppDataRoaming
-  installDir: Cats Hidden in Christmas
+      - path: Travellin Cats in Christmas
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Travellin Cats in Christmas
   launch:
     - config:
         oslist: windows
-      executable: Cats Hidden in Christmas.exe
+      executable: Travellin Cats in Christmas.exe
       type: default
 2934190:
   cloud:
@@ -638286,6 +638302,7 @@
     - config:
         oslist: windows
       executable: DeadCoreRedux.exe
+3485810: {}
 3485900:
   cloud:
     saves:

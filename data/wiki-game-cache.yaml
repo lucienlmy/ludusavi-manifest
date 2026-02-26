@@ -16727,7 +16727,7 @@ Assetto Corsa EVO:
   pageId: 196569
   steam: 3058630
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\ACE\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\ACE\\}}"
 Assetto Corsa Rally:
   lutris: assetto-corsa-rally
   pageId: 209751
@@ -38581,38 +38581,6 @@ Cats Fly Helicopters:
     steam: true
   pageId: 135799
   steam: 736910
-Cats Hidden in Christmas:
-  cloud:
-    steam: true
-  pageId: 200012
-  steam: 2933990
-  templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Cats Hidden in Christmas}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Cats Hidden in Christmas}}"
-Cats Hidden in Jingle Jam:
-  cloud:
-    steam: true
-  lutris: cats-hidden-in-jingle-jam
-  pageId: 213765
-  steam: 2608050
-  steamSide:
-    - 2723350
-  templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Cats Hidden in Jingle Jam\\}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Cats Hidden in Jingle Jam\\}}"
-Cats Hidden in Paris:
-  cloud:
-    steam: true
-  gog: 1496783574
-  gogSide:
-    - 2143975614
-  pageId: 200010
-  steam: 2313250
-  steamSide:
-    - 2426940
-  templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Cats Hidden in Paris}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Cats Hidden in Paris}}"
 Cats Inc.:
   pageId: 187184
 Cats Make You Smarter!:
@@ -84448,6 +84416,17 @@ FinalFire:
 Find Differences:
   pageId: 121437
   steam: 936020
+"Find Kittens: The Last of Cats":
+  pageId: 198034
+  renamedFrom:
+    - "HIDDEN CATS: The last of cats"
+    - "Hidden Cats: The Last of Cats"
+  steam: 2907010
+  steamSide:
+    - 2918610
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\FIND KITTENS The last of cats_Data\\Data_SL\\D_Setting}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\FIND KITTENS The last of cats_Data\\Data_SL\\D_Game}}"
 "Find Me: Horror Game":
   pageId: 156238
   steam: 1211420
@@ -106733,16 +106712,6 @@ Hidden & Dangerous Deluxe:
   steam: 656480
   steamSide:
     - 657190
-"Hidden Cats: The Last of Cats":
-  pageId: 198034
-  renamedFrom:
-    - "HIDDEN CATS: The last of cats"
-  steam: 2907010
-  steamSide:
-    - 2918610
-  templates:
-    - "{{Game data/config|Windows|{{P|steam}}\\steamapps\\common\\HIDDEN CATS The last of cats\\HIDDEN CATS The last of cats_Data\\Data_SL\\D_Setting}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\steamapps\\common\\HIDDEN CATS The last of cats\\HIDDEN CATS The last of cats_Data\\Data_SL\\D_Game}}"
 Hidden Cubes:
   pageId: 74289
   steam: 729290
@@ -121741,6 +121710,10 @@ Ken ga Kimi:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Kena\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Kena\\Saved\\SaveGames\\}}"
+"Kena: Scars of Kosmora":
+  lutris: kena-scars-of-kosmora
+  pageId: 214117
+  steam: 3485810
 Kenshi:
   cloud:
     steam: true
@@ -162881,6 +162854,11 @@ Outward:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\OptionSettings.oos|{{p|game}}\\Outward_Defed\\OptionSettings.oos}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\|{{p|game}}\\Outward_Defed\\SaveGames\\}}"
+Outward 2:
+  gog: 2015047607
+  lutris: outward-2
+  pageId: 214114
+  steam: 2849490
 Outwars:
   gog: 1308814788
   lutris: outwars
@@ -247924,6 +247902,10 @@ Train Sim World 5:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld5\\Saved\\SaveGames}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DovetailGames.TrainSimWorld5_8zrtwt33k1hxt\\SystemAppData\\wgs}}"
 Train Sim World 6:
+  cloud:
+    epic: true
+    steam: true
+    xbox: true
   pageId: 214083
   steam: 3656800
   templates:
@@ -249606,6 +249588,44 @@ Travellers Rest:
   steam: 1139980
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Louqou\\TravellersRest\\GameSaves}}"
+Travellin Cats in Christmas:
+  cloud:
+    steam: true
+  pageId: 200012
+  renamedFrom:
+    - Cats Hidden in Christmas
+  steam: 2933990
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Travellin Cats in Christmas|{{P|appdata}}\\Cats Hidden in Christmas}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Travellin Cats in Christmas|{{P|appdata}}\\Cats Hidden in Christmas}}"
+Travellin Cats in Jingle Jam:
+  cloud:
+    steam: true
+  lutris: cats-hidden-in-jingle-jam
+  pageId: 213765
+  renamedFrom:
+    - Cats Hidden in Jingle Jam
+  steam: 2608050
+  steamSide:
+    - 2723350
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Travellin Cats in Jingle Jam|{{P|appdata}}\\Cats Hidden in Jingle Jam\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Travellin Cats in Jingle Jam|{{P|appdata}}\\Cats Hidden in Jingle Jam\\}}"
+Travellin Cats in Paris:
+  cloud:
+    steam: true
+  gog: 1496783574
+  gogSide:
+    - 2143975614
+  pageId: 200010
+  renamedFrom:
+    - Cats Hidden in Paris
+  steam: 2313250
+  steamSide:
+    - 2426940
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Travellin Cats in Paris|{{P|appdata}}\\Cats Hidden in Paris}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Travellin Cats in Paris|{{P|appdata}}\\Cats Hidden in Paris}}"
 Travelling around the world on a hot air balloon:
   pageId: 143944
   steam: 1137200
@@ -257018,6 +257038,10 @@ Vampire Therapist:
     gog: true
     steam: true
   gog: 1789761171
+  gogSide:
+    - 1097175715
+    - 1504401809
+    - 1842266255
   lutris: vampire-therapist
   pageId: 196471
   steam: 2481020
