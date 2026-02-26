@@ -640184,6 +640184,13 @@
         oslist: windows
       executable: Midnight.exe
       type: default
+3656800:
+  installDir: Train Sim World 6
+  launch:
+    - config:
+        oslist: windows
+      executable: "WindowsNoEditor\\TrainSimWorld.exe"
+      type: default
 3657210:
   installDir: Amanda the Adventurer 3
   launch:
@@ -642191,6 +642198,7 @@
 4144680: {}
 4146000: {}
 4149610: {}
+4157130: {}
 4162690: {}
 4164420:
   cloud:

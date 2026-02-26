@@ -47394,6 +47394,17 @@ Armajet:
   steam:
     id: 895670
 Armatus:
+  files:
+    "<winLocalAppData>/Aperion/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Aperion/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: armatus
   steam:
@@ -169879,6 +169890,13 @@ Dark Old Sun:
             store: steam
   steam:
     id: 739290
+"Dark Pals: The 1st Floor":
+  id:
+    lutris: dark-pals
+    steamExtra:
+      - 4348890
+  steam:
+    id: 4157130
 "Dark Parables: Ballad of Rapunzel":
   installDir:
     "Dark Parables Ballad of Rapunzel Collector's Edition": {}
@@ -502821,6 +502839,7 @@ Outbreak Island:
       when:
         - store: steam
   id:
+    lutris: outbreak-island
     steamExtra:
       - 4090460
   installDir:
@@ -568811,6 +568830,8 @@ Resident Evil HD Remaster:
   steam:
     id: 1236300
 Resident Evil Requiem:
+  cloud:
+    steam: true
   id:
     lutris: resident-evil-requiem
   installDir:
@@ -767664,6 +767685,15 @@ Train Sim World 6:
       when:
         - os: windows
           store: microsoft
+  installDir:
+    Train Sim World 6: {}
+  launch:
+    "<base>/WindowsNoEditor/TrainSimWorld.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3656800
 Train Simulator:
   cloud:
     steam: true

@@ -15114,6 +15114,9 @@ Armatus:
   lutris: armatus
   pageId: 211135
   steam: 3660710
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Aperion\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Aperion\\Saved\\SaveGames}}"
 Armed Against the Undead:
   pageId: 35252
   steam: 488590
@@ -51720,7 +51723,7 @@ Cultic:
     - 3918090
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\CULTIC_Data\\Preferences.xml}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\CULTIC_Data\\Saves|{{p|game}}\\CULTIC_Data\\Profiles}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\CULTIC_Data\\Saves\\|{{p|game}}\\CULTIC_Data\\Profiles\\}}"
 Cultist Simulator:
   cloud:
     gog: true
@@ -54448,6 +54451,12 @@ Dark Old Sun:
     steam: true
   pageId: 79943
   steam: 739290
+"Dark Pals: The 1st Floor":
+  lutris: dark-pals
+  pageId: 214096
+  steam: 4157130
+  steamSide:
+    - 4348890
 "Dark Parables: Ballad of Rapunzel":
   pageId: 61634
   steam: 629110
@@ -162506,6 +162515,7 @@ Outbreak:
 Outbreak Island:
   cloud:
     steam: true
+  lutris: outbreak-island
   pageId: 210245
   steam: 1442530
   steamSide:
@@ -183875,6 +183885,8 @@ Resident Evil HD Remaster:
   pageId: 166166
   steam: 1236300
 Resident Evil Requiem:
+  cloud:
+    steam: true
   lutris: resident-evil-requiem
   pageId: 205193
   steam: 3764200
@@ -247913,6 +247925,7 @@ Train Sim World 5:
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DovetailGames.TrainSimWorld5_8zrtwt33k1hxt\\SystemAppData\\wgs}}"
 Train Sim World 6:
   pageId: 214083
+  steam: 3656800
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld6\\Saved\\Config}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld6WGDK\\Saved\\Config}}"
