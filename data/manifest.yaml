@@ -7340,6 +7340,9 @@ $1 Ride:
             store: steam
   steam:
     id: 696860
+911 FR:
+  steam:
+    id: 1089540
 911 Fire Rescue:
   files:
     "<base>/firefighter/data_base/config.cfg":
@@ -15331,20 +15334,6 @@ AXYOS:
             store: steam
   steam:
     id: 318100
-"AXYOS: Battlecards":
-  files:
-    "<winLocalAppData>/AXYOS_Battlecards/Saved/SaveGames/*.sav":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    AXYOS_Battlecards: {}
-  launch:
-    "<base>/AXYOS_Battlecards.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 730450
 AZUR BEAM:
   installDir:
     AZUR BEAM: {}
@@ -59994,6 +59983,20 @@ Axis Football 2021:
             store: steam
   steam:
     id: 1641830
+"Axyos: Battlecards":
+  files:
+    "<winLocalAppData>/AXYOS_Battlecards/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    AXYOS_Battlecards: {}
+  launch:
+    "<base>/AXYOS_Battlecards.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 730450
 "Aya's Journey":
   installDir:
     "Aya's Journey": {}
@@ -108724,11 +108727,6 @@ CLIMB OUT!:
           - store: steam
   steam:
     id: 1152360
-CLIMB!:
-  cloud:
-    steam: true
-  steam:
-    id: 749720
 "CLS: Signal Person":
   installDir:
     CLS Signal Person: {}
@@ -109961,6 +109959,9 @@ Cairn:
     id: 1300489906
   id:
     lutris: cairn--3
+    steamExtra:
+      - 3937220
+      - 4207340
   installDir:
     Cairn: {}
   launch:
@@ -132466,6 +132467,14 @@ City Gangs San Andreas:
   steam:
     id: 1150610
 City Hunter:
+  installDir:
+    City Hunter: {}
+  launch:
+    "<base>/CityHunter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3984650
 City Life:
@@ -135276,6 +135285,11 @@ Climb With Wheelbarrow:
             store: steam
   steam:
     id: 1108090
+Climb!:
+  cloud:
+    steam: true
+  steam:
+    id: 749720
 Climber:
   steam:
     id: 858220
@@ -165341,23 +165355,6 @@ DDraceNetwork:
         workingDir: "<base>/ddnet"
   steam:
     id: 412220
-"DE:VOID":
-  cloud:
-    steam: true
-  files:
-    "<base>/www/save/*.rpgsave":
-      when:
-        - store: steam
-  installDir:
-    DEVOID: {}
-  launch:
-    "<base>/nw.exe":
-      - arguments: "--in-process-gpu"
-        when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1173250
 DEAD:
   alias: DEAD (2019)
 DEAD (2019):
@@ -174768,6 +174765,23 @@ De-Void:
             store: steam
   steam:
     id: 468570
+"De:Void":
+  cloud:
+    steam: true
+  files:
+    "<base>/www/save/*.rpgsave":
+      when:
+        - store: steam
+  installDir:
+    DEVOID: {}
+  launch:
+    "<base>/nw.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1173250
 DeDrive:
   files:
     "<base>/SavesDir/*.sav":
@@ -260682,6 +260696,8 @@ Final Fantasy VII:
         - save
       when:
         - os: windows
+  gog:
+    id: 1698970154
   id:
     lutris: final-fantasy-vii
   registry:
@@ -446072,7 +446088,7 @@ Miner Meltdown:
 Miner Mike:
   steam:
     id: 937420
-Miner Royale Presentation FINAL.zip:
+Miner Royale Presentation Final.zip:
   steam:
     id: 1028020
 Miner Ultra Adventures:
@@ -463360,8 +463376,7 @@ My Futanari Stepmom Impregnated Me:
   steam:
     id: 2152090
 My Game City:
-  steam:
-    id: 1089540
+  alias: 911 FR
 My Giant Friend:
   alias: Giant Wishes
 My Girlfriend is a Futanari:
@@ -551758,20 +551773,7 @@ REGOLA:
   steam:
     id: 1715690
 REKT!:
-  files:
-    "<home>/AppData/LocalLow/Little Chicken Game Company/REKT/*.bin":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    Rekt!: {}
-  launch:
-    "<base>/REKT.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1065320
+  alias: Rekt! High Octane Stunts
 "REMEDIUM: Sentinels":
   cloud:
     steam: true
@@ -565952,6 +565954,21 @@ Rekoil:
           - store: steam
   steam:
     id: 981280
+Rekt! High Octane Stunts:
+  files:
+    "<home>/AppData/LocalLow/Little Chicken Game Company/REKT/*.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Rekt!: {}
+  launch:
+    "<base>/REKT.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1065320
 Reky:
   cloud:
     steam: true
@@ -591674,17 +591691,6 @@ SNK 40th Anniversary Collection:
             store: steam
   steam:
     id: 1575670
-SNUSE 221:
-  installDir:
-    snuse221: {}
-  launch:
-    "<base>/horror.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 948070
 SOF - RAIDERS:
   installDir:
     SOFRAIDERS: {}
@@ -633319,6 +633325,17 @@ Snuggle Truck:
         - save
   steam:
     id: 111100
+Snuse 221:
+  installDir:
+    snuse221: {}
+  launch:
+    "<base>/horror.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 948070
 So Blonde:
   files:
     "<base>/saves":
@@ -767623,11 +767640,22 @@ Train Sim World 5:
     id: 2967990
 Train Sim World 6:
   files:
+    "<winDocuments>/My Games/TrainSimWorld6/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winDocuments>/My Games/TrainSimWorld6/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+    "<winDocuments>/My Games/TrainSimWorld6WGDK/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
 Train Simulator:
   cloud:
     steam: true

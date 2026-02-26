@@ -641883,6 +641883,13 @@
     schinese: 寄生种
     tchinese: 寄生種
 3984650:
+  installDir: City Hunter
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CityHunter.exe
+      type: default
   nameLocalized:
     japanese: シティーハンター
     koreana: 시티헌터

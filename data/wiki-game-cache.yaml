@@ -2293,6 +2293,11 @@ $1 Ride:
 "900":
   pageId: 78715
   steam: 696860
+911 FR:
+  pageId: 139550
+  renamedFrom:
+    - My Game City
+  steam: 1089540
 911 Fire Rescue:
   pageId: 201447
   templates:
@@ -4748,9 +4753,6 @@ AXYOS:
   steam: 318100
   steamSide:
     - 499500
-"AXYOS: Battlecards":
-  pageId: 130054
-  steam: 730450
 AZUR BEAM:
   pageId: 195448
   steam: 1891640
@@ -19192,6 +19194,11 @@ Axis Football 2021:
     steam: true
   pageId: 172106
   steam: 1641830
+"Axyos: Battlecards":
+  pageId: 130054
+  renamedFrom:
+    - "AXYOS: Battlecards"
+  steam: 730450
 "Aya's Journey":
   pageId: 69448
   steam: 705390
@@ -34934,11 +34941,6 @@ CLASH! - Battle Arena:
 CLIMB OUT!:
   pageId: 149144
   steam: 1152360
-CLIMB!:
-  cloud:
-    steam: true
-  pageId: 139582
-  steam: 749720
 "CLS: Signal Person":
   pageId: 138898
   steam: 1088830
@@ -35390,6 +35392,9 @@ Cairn:
   lutris: cairn--3
   pageId: 206361
   steam: 1588550
+  steamSide:
+    - 3937220
+    - 4207340
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\TheGameBakers\\Cairn_RETAIL\\PERSISTENT\\PLAYER}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\TheGameBakers\\Cairn_RETAIL\\SAVEGAMES\\RETAIL\\STORY}}"
@@ -43272,6 +43277,13 @@ Climb Challenge:
 Climb With Wheelbarrow:
   pageId: 141451
   steam: 1108090
+Climb!:
+  cloud:
+    steam: true
+  pageId: 139582
+  renamedFrom:
+    - CLIMB!
+  steam: 749720
 Climber:
   pageId: 93767
   steam: 858220
@@ -52914,11 +52926,6 @@ DDraceNetwork:
     - "{{Game data/saves|Windows|{{P|APPDATA}}\\Teeworlds\\ddnet-saves.txt}}"
     - "{{Game data/saves|OS X| ~/Library/Application Support/Teeworlds}}"
     - "{{Game data/saves|Linux| ~/.teeworlds}}"
-"DE:VOID":
-  cloud:
-    steam: true
-  pageId: 150715
-  steam: 1173250
 DEAD (2019):
   pageId: 137062
   renamedFrom:
@@ -56033,6 +56040,13 @@ De-Void:
   lutris: de-void
   pageId: 36972
   steam: 468570
+"De:Void":
+  cloud:
+    steam: true
+  pageId: 150715
+  renamedFrom:
+    - "DE:VOID"
+  steam: 1173250
 DeDrive:
   pageId: 94290
   steam: 672490
@@ -84120,6 +84134,7 @@ Final Fantasy VI (2022):
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VI PR\\Steam\\{{P|uid}}}}"
 Final Fantasy VII:
+  gog: 1698970154
   lutris: final-fantasy-vii
   pageId: 8638
   templates:
@@ -143984,8 +143999,10 @@ Miner Meltdown:
 Miner Mike:
   pageId: 144214
   steam: 937420
-Miner Royale Presentation FINAL.zip:
+Miner Royale Presentation Final.zip:
   pageId: 127766
+  renamedFrom:
+    - Miner Royale Presentation FINAL.zip
   steam: 1028020
 Miner Warfare:
   pageId: 47559
@@ -149624,9 +149641,6 @@ My Futa Girlfriend 🔞:
 My Futanari Stepmom Impregnated Me:
   pageId: 184357
   steam: 2152090
-My Game City:
-  pageId: 139550
-  steam: 1089540
 My Girlfriend is a Futanari:
   pageId: 184361
   steam: 2152070
@@ -178252,9 +178266,6 @@ REGOLA:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.zds}}"
-REKT!:
-  pageId: 141334
-  steam: 1065320
 "REMEDIUM: Sentinels":
   cloud:
     steam: true
@@ -182848,6 +182859,11 @@ Rekoil:
 "Reksarych's Sudoku":
   pageId: 123578
   steam: 981280
+Rekt! High Octane Stunts:
+  pageId: 141334
+  renamedFrom:
+    - REKT!
+  steam: 1065320
 Reky:
   cloud:
     steam: true
@@ -191265,9 +191281,6 @@ SNK 40th Anniversary Collection:
     steam: true
   pageId: 171865
   steam: 1575670
-SNUSE 221:
-  pageId: 131988
-  steam: 948070
 SOF - RAIDERS:
   pageId: 125519
   steam: 1002670
@@ -204504,6 +204517,11 @@ Snuggle Truck:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Owlchemy Labs/Snuggle Truck/}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Owlchemy Labs\\SnuggleTruck\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Owlchemy Labs/Snuggle Truck/}}"
+Snuse 221:
+  pageId: 131988
+  renamedFrom:
+    - SNUSE 221
+  steam: 948070
 So Blonde:
   lutris: so-blonde
   pageId: 35262
@@ -247889,6 +247907,8 @@ Train Sim World 5:
 Train Sim World 6:
   pageId: 214083
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld6\\Saved\\Config}}"
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld6WGDK\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Documents\\My Games\\TrainSimWorld6\\Saved\\SaveGames}}"
 Train Simulator:
   cloud:
