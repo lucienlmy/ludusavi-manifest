@@ -36742,6 +36742,7 @@ Car Mechanic Simulator 2014:
   pageId: 50713
   steam: 270850
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Red Dot Games\\Car Mechanic Simulator}}"
 Car Mechanic Simulator 2015:
   pageId: 34569
@@ -72033,6 +72034,9 @@ Echoes of the Living:
   lutris: echoes-of-the-living
   pageId: 210332
   steam: 2173460
+  templates:
+    - "{{Game data/config|Steam|{{p|LOCALAPPDATA}}\\EOTL\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Steam|{{p|LOCALAPPDATA}}\\EOTL\\Saved\\SaveGames\\}}"
 "Echoes of the Past: The Citadels of Time":
   pageId: 125537
   steam: 995890
@@ -183900,6 +183904,9 @@ Resident Evil Requiem:
   lutris: resident-evil-requiem
   pageId: 205193
   steam: 3764200
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"
 Resident Evil Resistance:
   cloud:
     steam: true
@@ -192770,6 +192777,7 @@ Samsara Room:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rusty Lake\\SamsaraRoom\\saveGame.sav}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rusty Lake\\SamsaraRoom\\saveGame.sav}}"
 Samson:
+  lutris: samson
   pageId: 211707
   steam: 3634520
 Samudai:
@@ -194911,6 +194919,9 @@ Seacurity Breach:
     steam: true
   pageId: 213913
   steam: 2582140
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Orca\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Orca\\Saved\\Config\\SaveGames}}"
 Seal Girl:
   pageId: 98680
   steam: 880510

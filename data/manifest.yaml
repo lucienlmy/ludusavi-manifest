@@ -114328,6 +114328,10 @@ Car Mechanic Simulator 2014:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Red Dot Games/Car Mechanic Simulator:
+      tags:
+        - config
   steam:
     id: 270850
 Car Mechanic Simulator 2015:
@@ -224443,6 +224447,19 @@ Echoes of the End:
   steam:
     id: 858830
 Echoes of the Living:
+  files:
+    "<winLocalAppData>/EOTL/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/EOTL/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: echoes-of-the-living
   installDir:
@@ -568826,6 +568843,17 @@ Resident Evil HD Remaster:
 Resident Evil Requiem:
   cloud:
     steam: true
+  files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/3764200/remote/win64_save":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     lutris: resident-evil-requiem
   installDir:
@@ -596168,6 +596196,8 @@ Samsara Room:
   steam:
     id: 1281800
 Samson:
+  id:
+    lutris: samson
   steam:
     id: 3634520
 Samudai:
@@ -602810,10 +602840,16 @@ Seacurity Breach:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Orca/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Orca/Saved/Config":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Orca/Saved/Config/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Seafarer: {}
   launch:
