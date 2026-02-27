@@ -20110,6 +20110,11 @@ Backyard Baseball:
   templates:
     - "{{Game data/config|Windows|C:\\hegames.ini}}"
     - "{{Game data/saves|Windows|C:\\windows\\system32\\hegames}}"
+Backyard Baseball (2026):
+  cloud:
+    steam: true
+  pageId: 214123
+  steam: 3935020
 Backyard Baseball 2001:
   cloud:
     steam: true
@@ -52515,6 +52520,12 @@ Cyberpunk Bar Sim:
     steam: true
   pageId: 154316
   steam: 1188850
+Cyberpunk SFX:
+  cloud:
+    steam: true
+  gog: 1638321975
+  pageId: 214131
+  steam: 1465260
 Cyberpunk Sex Simulator:
   pageId: 148449
   steam: 1175950
@@ -52988,6 +52999,11 @@ DISONANTE:
 DIY Simulator:
   pageId: 136442
   steam: 753210
+DJ Beats - Waifus:
+  pageId: 150521
+  renamedFrom:
+    - SUPERPOPULAR
+  steam: 1172370
 DJ Mole:
   pageId: 87221
   steam: 806880
@@ -85739,8 +85755,10 @@ Flem:
   steam: 341760
   steamSide:
     - 369430
-Flesh:
+Flesh & Wire:
   pageId: 214094
+  renamedFrom:
+    - Flesh
   steam: 3592940
 Flesh Eaters:
   pageId: 35391
@@ -125593,17 +125611,6 @@ LOST CAVE:
 "LOST:SMILE memories + promises":
   pageId: 141357
   steam: 1102410
-"LOTUS Minigames: Berlin Traffic":
-  pageId: 141092
-  steam: 1056140
-"LOTUS Minigames: United Nations":
-  pageId: 125775
-  steam: 1008820
-LOTUS-Simulator:
-  pageId: 111926
-  steam: 370350
-  steamSide:
-    - 378461
 LOVE³ -Love Cube-:
   cloud:
     steam: true
@@ -133148,6 +133155,23 @@ Lotus Challenge:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Lotus Challenge\\SaveGame\\}}"
+"Lotus Minigames: Berlin Traffic":
+  pageId: 141092
+  renamedFrom:
+    - "LOTUS Minigames: Berlin Traffic"
+  steam: 1056140
+"Lotus Minigames: United Nations":
+  pageId: 125775
+  renamedFrom:
+    - "LOTUS Minigames: United Nations"
+  steam: 1008820
+Lotus-Simulator:
+  pageId: 111926
+  renamedFrom:
+    - LOTUS-Simulator
+  steam: 370350
+  steamSide:
+    - 378461
 "Lotus: The Ultimate Challenge":
   pageId: 197298
   templates:
@@ -135103,9 +135127,6 @@ MUD Motocross World Championship:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\Roaming\\Milestone\\MUD}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\Roaming\\Milestone\\MUD\\Saves}}"
-MURICA:
-  pageId: 128714
-  steam: 779000
 MUSYNX:
   cloud:
     steam: true
@@ -148964,6 +148985,11 @@ Muri:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\267360\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\murisave.sav}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\267360\\}}"
+Murica:
+  pageId: 128714
+  renamedFrom:
+    - MURICA
+  steam: 779000
 Murky Divers:
   cloud:
     steam: true
@@ -150772,6 +150798,9 @@ N.I.C.E. 2:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\SYNETIC\\HAND\\V2}}"
 "N.O.V.A. 2: Near Orbit Vanguard Alliance":
   pageId: 199809
+  templates:
+    - "{{Game data/saves|OS X|‎⁨ /⁨Users⁩/%Username%/Library/⁨N.O.V.A.2⁩}}"
+    - "{{Game data/saves|OS X|‎⁨ /⁨Users⁩/%Username%/Library/⁨N.O.V.A.2⁩}}"
 N.P.P.D. RUSH - The Milk of Ultraviolet:
   pageId: 50665
   steam: 270090
@@ -191430,9 +191459,6 @@ STONE:
 STORM AREA 51 ❤️ CUTE ALIEN GIRL EDITION:
   pageId: 141886
   steam: 1125490
-"STORM AREA 51: AYY LMAO EDITION":
-  pageId: 144345
-  steam: 1124660
 STRAFTAT:
   cloud:
     steam: true
@@ -191494,9 +191520,6 @@ SUPER 3-D CRUNK BROS.:
 SUPER RECOILFIGHT:
   pageId: 135183
   steam: 1063950
-SUPERPOPULAR:
-  pageId: 150521
-  steam: 1172370
 SURV:
   pageId: 66067
   steam: 670620
@@ -215124,6 +215147,11 @@ Storm:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Storm Saves\\general.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Storm Saves\\Storm.sav}}"
+"Storm Area 51: AYY LMAO Edition":
+  pageId: 144345
+  renamedFrom:
+    - "STORM AREA 51: AYY LMAO EDITION"
+  steam: 1124660
 "Storm Area 51: September 20th 2019":
   pageId: 141296
   steam: 630490
@@ -223596,6 +223624,9 @@ Tales of Berseria Remastered:
     steam: true
   pageId: 211101
   steam: 2331020
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\Tales of Berseria Remastered\\}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2331020\\remote\\}}"
 Tales of Blood and Sand:
   pageId: 71692
   steam: 675650
@@ -226757,6 +226788,8 @@ The Abbey of Crime Extensum:
   steam: 474030
   steamSide:
     - 484340
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savedata.bin}}"
 "The Ables: Freepoint High":
   pageId: 43694
   steam: 427640
@@ -229923,6 +229956,13 @@ The Ditzy Demons Are in Love With Me:
   steam: 448980
 "The Divide: Enemies Within":
   pageId: 175262
+The Divine Invasion:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1539124990
+  pageId: 214133
+  steam: 1346960
 The Divine Paradox:
   pageId: 40094
   steam: 495630
@@ -247249,11 +247289,16 @@ TowerHex:
   steam: 988250
 Towerborne:
   cloud:
+    steam: true
     xbox: true
+  lutris: towerborne
   pageId: 190150
   steam: 2458830
+  steamSide:
+    - 4174300
   templates:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Belfry\\Saved\\Config\\WinGDKClient}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Belfry\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Towers:
   pageId: 100574
   steam: 848840
@@ -260348,9 +260393,6 @@ WISGR:
 WOAHDS!:
   pageId: 75715
   steam: 739910
-WORDER:
-  pageId: 132848
-  steam: 1024990
 WORLDS at WAR (Monitors Only):
   pageId: 135433
   steam: 1010080
@@ -265739,6 +265781,7 @@ Why is the Princess in a Magic Forest?!:
   steam: 518740
 WiZmans World Re;Try:
   pageId: 214078
+  steam: 2214620
 Wicca:
   cloud:
     steam: true
@@ -268090,6 +268133,11 @@ Word Typing Game:
 Wordabeasts:
   pageId: 78194
   steam: 668190
+Worder:
+  pageId: 132848
+  renamedFrom:
+    - WORDER
+  steam: 1024990
 Wordfeud:
   pageId: 168122
 Wordlase:

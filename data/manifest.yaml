@@ -63025,6 +63025,11 @@ Backyard Baseball:
           - store: steam
   steam:
     id: 3170540
+Backyard Baseball (2026):
+  cloud:
+    steam: true
+  steam:
+    id: 3935020
 Backyard Baseball 2001:
   cloud:
     steam: true
@@ -164179,6 +164184,30 @@ Cyberpunk Bar Sim:
     steam: true
   steam:
     id: 1188850
+Cyberpunk SFX:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/CyberpunkSFX/Saved/Config/WindowsNoEditor/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/CyberpunkSFX/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1638321975
+  installDir:
+    Cyberpunk SFX: {}
+  launch:
+    "<base>/CyberpunkSFX2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1465260
 Cyberpunk Sex Simulator:
   installDir:
     Cyberpunk Sex Simulator: {}
@@ -165579,6 +165608,9 @@ DIY Simulator:
             store: steam
   steam:
     id: 753210
+DJ Beats - Waifus:
+  steam:
+    id: 1172370
 DJ Mole:
   installDir:
     DJ Mole: {}
@@ -265716,6 +265748,8 @@ Flem:
   steam:
     id: 341760
 Flesh:
+  alias: Flesh & Wire
+Flesh & Wire:
   steam:
     id: 3592940
 Flesh Eaters:
@@ -389651,44 +389685,6 @@ LOST CAVE:
             store: steam
   steam:
     id: 1102410
-"LOTUS Minigames: Berlin Traffic":
-  installDir:
-    Berlin Traffic: {}
-  launch:
-    "<base>/BerlinTraffic.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1056140
-"LOTUS Minigames: United Nations":
-  installDir:
-    United Nations: {}
-  launch:
-    "<base>/UnitedNations.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1008820
-LOTUS-Simulator:
-  files:
-    "<base>/Config/**/*.veh":
-      when:
-        - store: steam
-    "<base>/Config/Options.cfg":
-      when:
-        - store: steam
-  id:
-    steamExtra:
-      - 378461
-  installDir:
-    LOTUS-Simulator: {}
-  launch:
-    "<base>/LOTUS.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 370350
 LOVE³ -Love Cube-:
   cloud:
     steam: true
@@ -412818,6 +412814,44 @@ Lotus Challenge:
         - save
       when:
         - os: windows
+"Lotus Minigames: Berlin Traffic":
+  installDir:
+    Berlin Traffic: {}
+  launch:
+    "<base>/BerlinTraffic.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1056140
+"Lotus Minigames: United Nations":
+  installDir:
+    United Nations: {}
+  launch:
+    "<base>/UnitedNations.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1008820
+Lotus-Simulator:
+  files:
+    "<base>/Config/**/*.veh":
+      when:
+        - store: steam
+    "<base>/Config/Options.cfg":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 378461
+  installDir:
+    LOTUS-Simulator: {}
+  launch:
+    "<base>/LOTUS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 370350
 "Lotus: The Ultimate Challenge":
   files:
     "<base>/LOTUS.CFG":
@@ -419181,9 +419215,6 @@ MUD Motocross World Championship:
     id: 226780
 MULE Returns:
   alias: M.U.L.E. Returns
-MURICA:
-  steam:
-    id: 779000
 MUSYNX:
   cloud:
     steam: true
@@ -461270,6 +461301,9 @@ Muri:
             store: steam
   steam:
     id: 267360
+Murica:
+  steam:
+    id: 779000
 Murky Divers:
   cloud:
     steam: true
@@ -592142,15 +592176,6 @@ STORM AREA 51 ❤️ CUTE ALIEN GIRL EDITION:
             store: steam
   steam:
     id: 1125490
-"STORM AREA 51: AYY LMAO EDITION":
-  installDir:
-    STORM AREA 51 AYY LMAO EDITION: {}
-  launch:
-    "<base>/STORMAREA51.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 1124660
 STRAFTAT:
   cloud:
     steam: true
@@ -592369,8 +592394,7 @@ SUPER RECOILFIGHT:
   steam:
     id: 1063950
 SUPERPOPULAR:
-  steam:
-    id: 1172370
+  alias: DJ Beats - Waifus
 SURV:
   installDir:
     SURV: {}
@@ -665919,6 +665943,15 @@ Storm:
         workingDir: "<base>/StormExe"
   steam:
     id: 231020
+"Storm Area 51: AYY LMAO Edition":
+  installDir:
+    STORM AREA 51 AYY LMAO EDITION: {}
+  launch:
+    "<base>/STORMAREA51.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1124660
 "Storm Area 51: September 20th 2019":
   installDir:
     StormArea51: {}
@@ -692825,6 +692858,24 @@ Tales of Berseria:
 Tales of Berseria Remastered:
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2331020/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/Tales of Berseria Remastered":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Tales of Berseria Remastered: {}
+  launch:
+    "<base>/Tales of Berseria Remastered.exe":
+      - when:
+          - store: steam
   steam:
     id: 2331020
 Tales of Blood and Sand:
@@ -703171,6 +703222,12 @@ The Abbey:
 "The Abbey - Director's cut":
   alias: The Abbey
 The Abbey of Crime Extensum:
+  files:
+    "<base>/savedata.bin":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 484340
@@ -713027,6 +713084,31 @@ The Ditzy Demons Are in Love With Me:
     The Divergent Series Allegiant VR: {}
   steam:
     id: 448980
+The Divine Invasion:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/TDI/Saved/Config/WindowsNoEditor/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/TDI/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1539124990
+  installDir:
+    The Divine Invasion: {}
+  launch:
+    "<base>/TDI.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1346960
 The Divine Paradox:
   steam:
     id: 495630
@@ -765646,6 +765728,8 @@ TowerHex:
   steam:
     id: 988250
 Towerborne:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Belfry/Saved/Config/WinGDKClient":
       tags:
@@ -765653,10 +765737,19 @@ Towerborne:
       when:
         - os: windows
           store: microsoft
+    "<winLocalAppData>/Belfry/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: towerborne
+    steamExtra:
+      - 4174300
   installDir:
     Towerborne: {}
   launch:
-    "<base>/BelfryClient.exe":
+    "<base>/Belfry.exe":
       - when:
           - bit: 64
             os: windows
@@ -803229,9 +803322,6 @@ WISGR:
 WOAHDS!:
   steam:
     id: 739910
-WORDER:
-  steam:
-    id: 1024990
 WORLDS at WAR (Monitors Only):
   steam:
     id: 1010080
@@ -819121,6 +819211,20 @@ Why is the Princess in a Magic Forest?!:
             store: steam
   steam:
     id: 518740
+WiZmans World Re;Try:
+  files:
+    "<home>/AppData/LocalLow/Gravity Co_, Ltd_/WiZmans World ReTry/*.dat":
+      when:
+        - store: steam
+  installDir:
+    WiZmans World ReTry: {}
+  launch:
+    "<base>/WiZmans World ReTry.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2214620
 Wicca:
   cloud:
     steam: true
@@ -826676,6 +826780,9 @@ Wordabeasts:
             store: steam
   steam:
     id: 668190
+Worder:
+  steam:
+    id: 1024990
 Wordlase:
   cloud:
     steam: true

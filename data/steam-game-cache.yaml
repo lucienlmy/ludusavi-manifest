@@ -546280,6 +546280,26 @@
         oslist: macos
       executable: DeadReset.app/Contents/MacOS/Dead Reset
       type: default
+1346960:
+  cloud:
+    saves:
+      - path: TDI/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: TDI/Saved/Config/WindowsNoEditor
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: The Divine Invasion
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TDI.exe
+      type: default
 1347030:
   installDir: THE CORRIDOR
   launch:
@@ -557594,6 +557614,26 @@
     - executable: Seek Girl VII.exe
       type: none
 1465020: {}
+1465260:
+  cloud:
+    saves:
+      - path: CyberpunkSFX/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: CyberpunkSFX/Saved/Config/WindowsNoEditor
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Cyberpunk SFX
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CyberpunkSFX2.exe
+      type: default
 1465360:
   installDir: SnowRunner
   launch:
@@ -606522,6 +606562,23 @@
         oslist: windows
       executable: Verden.exe
       type: default
+2214620:
+  cloud:
+    saves:
+      - path: "Gravity Co_, Ltd_/WiZmans World ReTry"
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+  installDir: WiZmans World ReTry
+  launch:
+    - config:
+        oslist: windows
+      executable: WiZmans World ReTry.exe
+      type: default
+  nameLocalized:
+    japanese: ワイズマンズワールド リトライ
+    koreana: 와이즈맨즈 월드 리트라이
+    schinese: 魔法师世界Re;Try
+    tchinese: 魔法師世界Re;Try
 2215200: {}
 2215260:
   installDir: Scott Pilgrim vs The World
@@ -611723,6 +611780,13 @@
         oslist: linux
       executable: cataclysm-tiles
 2331020:
+  installDir: Tales of Berseria Remastered
+  launch:
+    - executable: Tales of Berseria Remastered.exe
+    - config:
+        ownsdlc: "2928060"
+      description: Digital Artbook & Soundtrack
+      executable: "Artbook and SoundTrack\\Digital Artbook and SoundTrack.exe"
   nameLocalized:
     japanese: テイルズ オブ ベルセリア リマスター
     koreana: 테일즈 오브 베르세리아 리마스터
@@ -617107,14 +617171,25 @@
   nameLocalized:
     schinese: 癫狂动物园 Zoochosis
 2458830:
+  cloud:
+    saves:
+      - path: "Belfry/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
   installDir: Towerborne
   launch:
     - config:
         osarch: "64"
         oslist: windows
       description: Belfry Game
-      executable: BelfryClient.exe
+      executable: Belfry.exe
       type: default
+    - config:
+        betakey: "presspreview1.0, predeploy, predeploy2, predeploy3"
+        osarch: "64"
+        oslist: windows
+      description: Towerborne Prerelease
+      executable: Belfry.exe
 2458980: {}
 2459550:
   cloud:
@@ -641749,6 +641824,7 @@
       executable: "launcher\\BsgLauncher.exe"
       type: default
       workingdir: launcher
+3935020: {}
 3937550:
   cloud:
     saves:
