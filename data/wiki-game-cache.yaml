@@ -44542,8 +44542,15 @@ Cold wires:
   pageId: 153794
   steam: 1204530
 ColdSide:
+  lutris: coldside
   pageId: 157183
   steam: 1098270
+  steamSide:
+    - 1538000
+    - 1566000
+"ColdSide: Retro Edition":
+  pageId: 214151
+  steam: 4191000
 Coldfall:
   pageId: 123912
   steam: 960660
@@ -47047,8 +47054,10 @@ Cook Serve Forever:
   steam: 247020
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CSDSteamBuild\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/CSDSteamMac}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/CSDSteamBuild}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\CSDSteamBuild\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/CSDSteamMac}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/CSDSteamBuild}}"
 "Cook, Serve, Delicious! 2!!":
   cloud:
@@ -59652,6 +59661,7 @@ Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2:
 Demon Tides:
   cloud:
     steam: true
+  lutris: demon-tides
   pageId: 202107
   steam: 2585890
   templates:
@@ -119156,8 +119166,13 @@ Joggernauts:
   pageId: 108296
   steam: 915380
 "John Carpenter's Toxic Commando":
+  cloud:
+    steam: true
   pageId: 206245
   steam: 2157830
+  templates:
+    - "{{Game data/config|Steam|{{P|localappdata}}\\Saber\\Toxic Commando\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\Saber\\Toxic Commando\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
 "John Daly's ProStroke Golf":
   pageId: 208024
   templates:
@@ -156255,6 +156270,9 @@ No Players Online:
   lutris: no-players-online--1
   pageId: 209476
   steam: 2701800
+No Players Online Classic:
+  lutris: no-players-online-classic
+  pageId: 214154
 No Prospects Company:
   pageId: 93963
   steam: 854640
@@ -168426,6 +168444,9 @@ Piczle Cross Adventure:
 Piczle Lines DX+α:
   pageId: 130111
   steam: 998790
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\PiczleLinesDX\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\PiczleLinesDX\\Saved\\SaveGames}}"
 Pid:
   cloud:
     steam: true
@@ -186968,8 +186989,10 @@ RoadCraft:
     - 3510890
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\RoadCraft\\}}"
+    - "{{Game data/config|Epic Games Launcher|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\EOS\\user\\{{p|uid}}\\Main\\config\\}}"
     - "{{Game data/config|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\RoadCraft\\}}"
+    - "{{Game data/config|Epic Games Launcher|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\EOS\\user\\{{p|uid}}\\Main\\save\\}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\save\\}}"
 RoadRunner:
   pageId: 138912
@@ -216724,6 +216747,7 @@ Stupid Raft Battle Simulator:
 "Styx: Blades of Greed":
   cloud:
     steam: true
+  gog: 2126587036
   lutris: styx-blades-of-greed
   pageId: 202061
   steam: 3290690
@@ -264088,6 +264112,13 @@ We Were Here Together:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Total Mayhem Games\\We Were Here Together\\Data\\Configs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Total Mayhem Games\\We Were Here Together\\Data\\Saves}}"
+We Were Here Tomorrow:
+  cloud:
+    steam: true
+  pageId: 204142
+  renamedFrom:
+    - Where Are We?
+  steam: 2315050
 We Were Here Too:
   cloud:
     steam: true
@@ -265198,11 +265229,6 @@ Where Are My Internets?:
 Where Are We Now:
   pageId: 144765
   steam: 1146390
-Where Are We?:
-  cloud:
-    steam: true
-  pageId: 204142
-  steam: 2315050
 Where Cards Fall:
   pageId: 58178
   steam: 589450

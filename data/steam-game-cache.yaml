@@ -487878,7 +487878,9 @@
         oslist: windows
       executable: WindowsNoEditor/ThugstersBR.exe
       type: default
-1118520: {}
+1118520:
+  nameLocalized:
+    schinese: 帕拉人生 Paralives
 1118530: {}
 1118550:
   cloud:
@@ -601631,18 +601633,18 @@
       type: option1
       workingdir: "root\\bin\\pc"
     - config:
-        betakey: " nvidia_test, demo_v2_dn, test, march25_d1_build, august_23,october_23,fe_playtest,fe_external_sharing,october_23_upgrade,january_24, january_24_update, fh_marketing, arpil_24_weather_on, arpil_24_weather_off, april_24_weather_off, april_24_weather_on, rb_demo_24, fh_marketing_july, build_august24_dlc, build_august24_beta2, rb_dark_night, rb_pre_order, october24_intermediate,dec24_intermediate, rb_dn_day1p, january_perf_test, rb_dn_day1g, march25amd_build,rb_dlc1_march25, rb_stable_dn, fbt_dlc2, temporary, fe_intermediary, rb_dark_night_4_3, perf_branch"
+        betakey: " patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest"
         osarch: "64"
         oslist: windows
-      description: Release
+      description: Roadcraft RELEASE (debug)
       executable: "root\\bin\\pc\\road_builder_steam_release.exe"
       type: option2
       workingdir: "root\\bin\\pc\\"
     - config:
-        betakey: " nvidia_test, demo_v2_dn, test, march25_d1_build, test_saber,august_23,october_23,fe_playtest,fe_external_sharing,october_23_upgrade,january_24,january_24_update,fh_marketing,arpil_24_weather_on,arpil_24_weather_off,april_24_weather_off,april_24_weather_on, rb_demo_24,fh_marketing_july,build_august24_dlc,build_august24_beta2,rb_dark_night, age_rating, september24_precert, rb_pre_order, october24_intermediate,dec24_intermediate, rb_dn_day1p, january_perf_test, rb_dn_day1g, march25amd_build,rb_dlc1_march25, rb_stable_dn, fbt_dlc2, temporary, temporary_1, fe_intermediary,patch3_temp, rb_dark_night_4_3, perf_branch"
+        betakey: "patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest"
         osarch: "64"
         oslist: windows
-      description: Profile
+      description: Roadcraft PROFILE (debug)
       executable: "root\\bin\\pc\\road_builder_steam_profile.exe"
       type: option3
       workingdir: "root\\bin\\pc\\"
@@ -601658,10 +601660,10 @@
       type: option2
       workingdir: "root\\bin\\pc"
     - config:
-        betakey: "rb_patch1.6_gold, rb_may25_patch1.5gold, nvidia_test, demo_v2_dn, test, march25_d1_build, august_23,october_23,fe_playtest,fe_external_sharing,october_23_upgrade,january_24, january_24_update, fh_marketing, arpil_24_weather_on, arpil_24_weather_off, april_24_weather_off, april_24_weather_on, fe_external_playtest, rb_demo_24, fh_marketing_july, build_august24_dlc, build_august24_beta2, rb_dark_night, september24_precert, rb_pre_order, october24_intermediate, dec24_intermediate, rb_dn_day1p, january_perf_test, rb_dn_day1g, march25amd_build,rb_dlc1_march25, rb_stable_dn, fbt_dlc2, fe_intermediary, rb_dark_night_4_3, perf_branch"
+        betakey: "patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest"
         osarch: "64"
         oslist: windows
-      description: Retail
+      description: Roadcraft RETAIL (debug)
       executable: "root\\bin\\pc\\road_builder_steam_retail.exe"
       type: option1
       workingdir: "root\\bin\\pc\\"
@@ -612097,7 +612099,8 @@
 2344320:
   installDir: Project Honor
   launch:
-    - config:
+    - arguments: "-OverrideUrl=\"wss://edge.p.honor.noto.gg:5064\""
+      config:
         osarch: "64"
         oslist: windows
       executable: start_protected_game.exe
@@ -612133,7 +612136,7 @@
       description: Dev Environment
       executable: start_protected_game.exe
       type: option3
-    - arguments: "-OverrideUrl=\"ws://honoredge-nlb-b30c63a-6fd9b772aeb363d5.elb.us-west-2.amazonaws.com:5064\""
+    - arguments: "-OverrideUrl=\"wss://edge.np-stg.honor.noto.gg:5064\""
       config:
         betakey: staging
       description: Staging
@@ -612142,9 +612145,14 @@
     - arguments: "-OverrideUrl=\"ws://honoredge-nlb-b30c63a-6fd9b772aeb363d5.elb.us-west-2.amazonaws.com:5064\""
       config:
         betakey: public-test
-      description: Frost Orb Test
+      description: Public Test
       executable: start_protected_game.exe
       type: option1
+  nameLocalized:
+    japanese: エルデガルド
+    koreana: 엘데가르드
+    schinese: 上古守护
+    tchinese: 上古守護
 2344520:
   installDir: Diablo IV
   launch:
@@ -638633,7 +638641,19 @@
         oslist: windows
       executable: NickelodeonSplatPack.exe
       type: default
-3509140: {}
+3509140:
+  cloud:
+    saves:
+      - path: Implicit Conversions/Fear Effect 2
+        pattern: "*.srm"
+        root: WinAppDataRoaming
+  installDir: Fear Effect 2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: fe2.exe
+      type: default
 3511620:
   installDir: Super Spy Violet
   launch:
@@ -642315,6 +642335,14 @@
 4184130: {}
 4184360: {}
 4184400: {}
+4191000:
+  installDir: ColdSide Retro Edition
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin\\win_x64\\ColdSideRetroEdition.exe"
+      type: default
 4193270:
   cloud:
     saves:

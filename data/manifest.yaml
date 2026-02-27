@@ -139381,6 +139381,11 @@ Cold wires:
   steam:
     id: 1204530
 ColdSide:
+  id:
+    lutris: coldside
+    steamExtra:
+      - 1538000
+      - 1566000
   installDir:
     ColdSide: {}
   launch:
@@ -139390,6 +139395,17 @@ ColdSide:
             store: steam
   steam:
     id: 1098270
+"ColdSide: Retro Edition":
+  installDir:
+    ColdSide Retro Edition: {}
+  launch:
+    "<base>/bin/win_x64/ColdSideRetroEdition.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4191000
 Coldfall:
   installDir:
     Coldfall: {}
@@ -147328,6 +147344,12 @@ Cook Serve Forever:
         - save
       when:
         - os: linux
+    "<home>/Library/Application Support/CSDSteamMac":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
     "<winLocalAppData>/CSDSteamBuild":
       tags:
         - config
@@ -186353,6 +186375,8 @@ Demon Tides:
         - save
       when:
         - os: windows
+  id:
+    lutris: demon-tides
   installDir:
     Demon Tides: {}
   launch:
@@ -256763,6 +256787,18 @@ Fear Effect:
 "Fear Effect 2: Retro Helix":
   cloud:
     steam: true
+  files:
+    "<winAppData>/Implicit Conversions/Fear Effect 2/*.srm":
+      when:
+        - store: steam
+  installDir:
+    Fear Effect 2: {}
+  launch:
+    "<base>/fe2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3509140
 Fear Effect Sedna:
@@ -370078,6 +370114,16 @@ Joggernauts:
   steam:
     id: 915380
 "John Carpenter's Toxic Commando":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Saber/Toxic Commando/storage/steam/user/<storeUserId>/Main/config":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 2157830
 "John Daly's ProStroke Golf":
@@ -396002,7 +396048,8 @@ Legacy of the Elder Star:
     Project Honor: {}
   launch:
     "<base>/start_protected_game.exe":
-      - when:
+      - arguments: "-OverrideUrl=\"wss://edge.p.honor.noto.gg:5064\""
+        when:
           - bit: 64
             os: windows
             store: steam
@@ -483376,6 +483423,9 @@ No Players Online:
           - store: steam
   steam:
     id: 2701800
+No Players Online Classic:
+  id:
+    lutris: no-players-online-classic
 No Prospects Company:
   steam:
     id: 854640
@@ -520409,6 +520459,17 @@ Piczle Cross Adventure:
   steam:
     id: 1215320
 Piczle Lines DX+α:
+  files:
+    "<winLocalAppData>/PiczleLinesDX/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/PiczleLinesDX/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Piczle Lines DX+α: {}
   launch:
@@ -578150,6 +578211,16 @@ RoadCraft:
       tags:
         - config
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/RoadCraftGame/storage/EOS/user/<storeUserId>/Main/config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/RoadCraftGame/storage/EOS/user/<storeUserId>/Main/save":
+      tags:
+        - config
       when:
         - os: windows
     "<winLocalAppData>/Saber/RoadCraftGame/storage/steam/user/<storeUserId>/Main/config":
@@ -670921,6 +670992,8 @@ Stupid Raft Battle Simulator:
         - save
       when:
         - os: windows
+  gog:
+    id: 2126587036
   id:
     lutris: styx-blades-of-greed
     steamExtra:
@@ -813938,6 +814011,11 @@ We Were Here Together:
             store: steam
   steam:
     id: 865360
+We Were Here Tomorrow:
+  cloud:
+    steam: true
+  steam:
+    id: 2315050
 We Were Here Too:
   cloud:
     steam: true
@@ -817470,10 +817548,7 @@ Where Are We Now:
   steam:
     id: 1146390
 Where Are We?:
-  cloud:
-    steam: true
-  steam:
-    id: 2315050
+  alias: We Were Here Tomorrow
 Where Cards Fall:
   installDir:
     Where Cards Fall: {}
