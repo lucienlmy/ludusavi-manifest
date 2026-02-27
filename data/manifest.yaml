@@ -427190,6 +427190,12 @@ Marathon:
 Marathon (2025):
   alias: Marathon (2026)
 Marathon (2026):
+  files:
+    "<winAppData>/Bungie/Marathon/prefs":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 3065800
 "Marathon 2: Durandal":
@@ -483341,6 +483347,8 @@ No Players Online:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1108068005
   id:
     lutris: no-players-online--1
   installDir:
@@ -804716,6 +804724,28 @@ Wall of Insanity:
 Wall to Wall:
   steam:
     id: 1027080
+Wallace & Gromit in Project Zoo:
+  files:
+    "<winProgramData>/ProjectZoo/Bindings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winProgramData>/ProjectZoo/Controls.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winProgramData>/ProjectZoo/Options.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winProgramData>/ProjectZoo/ZOOSAVE.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
 "Wallace & Gromit's Grand Adventures":
   cloud:
     epic: true
@@ -834191,6 +834221,12 @@ Yakuza 3 Remastered:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Local/GOG.com/Galaxy/Applications/56296605655234780/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza3PC_*/SystemAppData/wgs":
       tags:
         - save
@@ -834218,6 +834254,12 @@ Yakuza 4 Remastered:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Local/GOG.com/Galaxy/Applications/56296605971762165/Storage/Shared/Files":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<winLocalAppData>/Packages/SEGAofAmericaInc.Yakuza4PC_*/SystemAppData/wgs":
       tags:
         - save

@@ -137768,6 +137768,8 @@ Marathon (2026):
   renamedFrom:
     - Marathon (2025)
   steam: 3065800
+  templates:
+    - "{{Game data/config|Windows|%APPDATA%\\Bungie\\Marathon\\prefs\\}}"
 "Marathon 2: Durandal":
   pageId: 6955
   steam: 2398490
@@ -156245,6 +156247,7 @@ No Place for Bravery:
 No Players Online:
   cloud:
     steam: true
+  gog: 1108068005
   lutris: no-players-online--1
   pageId: 209476
   steam: 2701800
@@ -260869,8 +260872,8 @@ Wall to Wall:
 Wallace & Gromit in Project Zoo:
   pageId: 163714
   templates:
-    - "{{Game data/config|Windows|{{File|{{P|programdata}}\\ProjectZoo\\Options.txt}}|{{File|{{P|programdata}}\\ProjectZoo\\Controls.txt}}|{{File|{{P|programdata}}\\ProjectZoo\\Bindings.cfg}}}}"
-    - "{{Game data/saves|Windows|{{File|{{P|programdata}}\\ProjectZoo\\ZOOSAVE.DAT}}}}"
+    - "{{Game data/config|Windows|{{P|programdata}}\\ProjectZoo\\Options.txt|{{P|programdata}}\\ProjectZoo\\Controls.txt|{{P|programdata}}\\ProjectZoo\\Bindings.cfg}}"
+    - "{{Game data/saves|Windows|{{P|programdata}}\\ProjectZoo\\ZOOSAVE.DAT}}"
 "Wallace & Gromit's Grand Adventures":
   cloud:
     epic: true
@@ -270677,6 +270680,7 @@ Yakuza 3 Remastered:
   steam: 1088710
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Sega\\Yakuza3\\}}"
+    - "{{Game data/saves|GOG.com|{{P|localappdata}}\\Local\\GOG.com\\Galaxy\\Applications\\56296605655234780\\Storage\\Shared\\Files\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\SEGAofAmericaInc.Yakuza3PC_*\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1088710\\remote\\}}"
 Yakuza 4 Remastered:
@@ -270689,6 +270693,7 @@ Yakuza 4 Remastered:
   steam: 1105500
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Sega\\Yakuza4\\}}"
+    - "{{Game data/saves|GOG.com|{{P|localappdata}}\\Local\\GOG.com\\Galaxy\\Applications\\56296605971762165\\Storage\\Shared\\Files\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\SEGAofAmericaInc.Yakuza4PC_*\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1105500\\remote\\}}"
 Yakuza 5 Remastered:
