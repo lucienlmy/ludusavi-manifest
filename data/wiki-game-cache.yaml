@@ -4573,9 +4573,6 @@ AS+CEND:
 "ASCENT: Crash Landing":
   pageId: 113982
   steam: 932790
-ASCENXION:
-  pageId: 135963
-  steam: 1000000
 "ASCII Achievement Mania: Space Shooter":
   pageId: 91900
   steam: 838500
@@ -16021,6 +16018,11 @@ Ascent Free-Roaming VR Experience:
 Ascent Spirit:
   pageId: 81751
   steam: 790800
+Ascenxion:
+  pageId: 135963
+  renamedFrom:
+    - ASCENXION
+  steam: 1000000
 Ascii Patrol:
   pageId: 178233
 Asdivine Dios:
@@ -19767,9 +19769,6 @@ BR Logic Pack:
 "BRG's The Stonecutter":
   pageId: 136714
   steam: 1078060
-BRING IT DOWN!:
-  pageId: 141993
-  steam: 937160
 BRKÖUT:
   pageId: 69872
   steam: 616690
@@ -26109,6 +26108,8 @@ BioShock:
   lutris: bioshock
   pageId: 61
   steam: 7670
+  steamSide:
+    - 7710
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Bioshock\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Bioshock\\SaveGames\\}}"
@@ -31053,6 +31054,11 @@ Born of Bread:
 Born of Fire:
   pageId: 139393
   steam: 1081470
+Born to Breed:
+  cloud:
+    steam: true
+  pageId: 214184
+  steam: 3134780
 Boros:
   pageId: 60452
   steam: 613420
@@ -32682,6 +32688,11 @@ Bring Her Home:
 Bring You Home:
   pageId: 168693
   steam: 1273640
+Bring it Down!:
+  pageId: 141993
+  renamedFrom:
+    - BRING IT DOWN!
+  steam: 937160
 "Bring me a man, Santa":
   pageId: 179050
   steam: 1468180
@@ -36887,6 +36898,7 @@ Caravan SandWitch:
     - 1715505261
     - 1925615412
     - 2002688097
+  lutris: caravan-sandwitch
   pageId: 197787
   steam: 1582650
   steamSide:
@@ -71145,9 +71157,6 @@ ETERNAL BLOOD:
 EURGAVA - Fight for Haaria:
   pageId: 54273
   steam: 559350
-EURGAVA - Tomb of Senza:
-  pageId: 130416
-  steam: 1035490
 EV3 - Drag Racing:
   pageId: 87043
   steam: 791150
@@ -76865,6 +76874,11 @@ Eufloria HD:
 Eugenics:
   pageId: 122682
   steam: 935610
+Eurgava - Tomb of Senza:
+  pageId: 130416
+  renamedFrom:
+    - EURGAVA - Tomb of Senza
+  steam: 1035490
 Euro Fishing:
   cloud:
     steam: true
@@ -79661,18 +79675,9 @@ FNaF World:
   steam: 427920
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\MMFApplications\\fnafw{{code|X}}<!--file, not folder-->|{{p|appdata}}\\MMFApplications\\info<!--file, not folder-->}}"
-FOCUS on YOU:
-  pageId: 139259
-  steam: 1032670
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\ProjectYUKI\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\ProjectYUKI\\Saved\\Steam\\SaveGames\\}}"
 FOOD FACTORY VR:
   pageId: 153559
   steam: 1190320
-FOREST OF ELF:
-  pageId: 144761
-  steam: 1134600
 FORT:
   pageId: 139320
   steam: 1103250
@@ -86677,6 +86682,14 @@ Fobia - St. Dinfna Hotel:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Fobia\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Fobia\\Saved\\SaveGames}}"
+Focus on You:
+  pageId: 139259
+  renamedFrom:
+    - FOCUS on YOU
+  steam: 1032670
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\ProjectYUKI\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\ProjectYUKI\\Saved\\Steam\\SaveGames\\}}"
 Foe Frenzy:
   pageId: 153624
   steam: 1194170
@@ -87445,6 +87458,11 @@ Forest Warrior:
 Forest Woodman:
   pageId: 155819
   steam: 1212440
+Forest of Elf:
+  pageId: 144761
+  renamedFrom:
+    - FOREST OF ELF
+  steam: 1134600
 Forest of Evil:
   pageId: 139039
   steam: 1064620
@@ -100672,9 +100690,6 @@ HIT:
 "HJ: Sacrifice":
   pageId: 77978
   steam: 759870
-HOLY COW! Milking Simulator:
-  pageId: 137003
-  steam: 841110
 HORSE:
   pageId: 125729
   steam: 977160
@@ -104159,6 +104174,7 @@ Hektor:
   steamSide:
     - 355590
 Hela:
+  lutris: hela
   pageId: 214162
   steam: 3161310
 Heldric - The legend of the shoemaker:
@@ -108356,6 +108372,11 @@ Holy Avatar vs. Maidens of the Dead:
 Holy Avenger:
   pageId: 54503
   steam: 544680
+Holy Cow! Milking Simulator:
+  pageId: 137003
+  renamedFrom:
+    - HOLY COW! Milking Simulator
+  steam: 841110
 Holy Knight Luviria:
   pageId: 150560
   steam: 1156730
@@ -112516,6 +112537,9 @@ IRacing:
 IRacing Arcade:
   pageId: 209759
   steam: 3226450
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Original Fire Games\\iRacing Arcade\\shared\\game.cfg}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Original Fire Games\\iRacing Arcade\\{{P|uid}}\\}}"
 IS -Infinite Stratos- Versus Colors:
   pageId: 144339
   steam: 1124710
@@ -119179,6 +119203,7 @@ Joggernauts:
 "John Carpenter's Toxic Commando":
   cloud:
     steam: true
+  lutris: john-carpenters-toxic-commando
   pageId: 206245
   steam: 2157830
   templates:
@@ -194073,6 +194098,9 @@ Scavengers:
   steam: 1183940
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Scavenger\\Saved\\Config\\WindowsNoEditor }}"
+Sceal:
+  pageId: 214182
+  steam: 507060
 Scene Investigators:
   cloud:
     steam: true
@@ -270004,6 +270032,7 @@ X2Roulette:
   pageId: 10830
   steam: 2840
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Egosoft\\X}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
 XANARTHRAXIA:
   pageId: 138823

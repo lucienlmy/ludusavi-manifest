@@ -633926,6 +633926,37 @@
     koreana: 노움들
     schinese: 矮人防线
     tchinese: 矮人防線
+3134780:
+  cloud:
+    saves:
+      - path: game/saves
+        pattern: "*"
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: game/saves
+            replace: Library/Renpy/borntobreed-1708709486
+        root: gameinstall
+        useInstead: MacHome
+  installDir: Born to Breed
+  launch:
+    - config:
+        oslist: windows
+      description: Run Born to Breed on Windows
+      executable: borntobreed.exe
+      type: default
+    - config:
+        oslist: linux
+      description: Run Born to Breed on Linux
+      executable: borntobreed.sh
+      type: default
+    - config:
+        oslist: macos
+      description: Run Born to Breed on macOS
+      executable: borntobreed.app
+      type: default
 3135840:
   cloud:
     saves:

@@ -14787,21 +14787,6 @@ AS+CEND:
             store: steam
   steam:
     id: 932790
-ASCENXION:
-  files:
-    "<winLocalAppData>/ASCENXION/Savefile.ini":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    ASCENXION: {}
-  launch:
-    "<base>/ASCENXION.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1000000
 "ASCII Achievement Mania: Space Shooter":
   steam:
     id: 838500
@@ -50255,6 +50240,21 @@ Ascent Spirit:
     Ascent Spirit: {}
   steam:
     id: 790800
+Ascenxion:
+  files:
+    "<winLocalAppData>/ASCENXION/Savefile.ini":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ASCENXION: {}
+  launch:
+    "<base>/ASCENXION.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1000000
 Asdivine Dios:
   installDir:
     Asdivine Dios: {}
@@ -61975,11 +61975,6 @@ BR Logic Pack:
             store: steam
   steam:
     id: 1078060
-BRING IT DOWN!:
-  installDir:
-    BRINGITDOWN: {}
-  steam:
-    id: 937160
 BRKÖUT:
   installDir:
     BRKÖUT: {}
@@ -80879,6 +80874,8 @@ BioShock:
     id: 1269268081
   id:
     lutris: bioshock
+    steamExtra:
+      - 7710
   installDir:
     Bioshock: {}
   launch:
@@ -96135,6 +96132,34 @@ Born of Fire:
             store: steam
   steam:
     id: 1081470
+Born to Breed:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+    "<home>/Library/Renpy/borntobreed-1708709486":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Born to Breed: {}
+  launch:
+    "<base>/borntobreed.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/borntobreed.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/borntobreed.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3134780
 Boros:
   installDir:
     BOROS: {}
@@ -101653,6 +101678,11 @@ Bring You Home:
             store: steam
   steam:
     id: 1273640
+Bring it Down!:
+  installDir:
+    BRINGITDOWN: {}
+  steam:
+    id: 937160
 "Bring me a man, Santa":
   installDir:
     "Bring me a man, Santa": {}
@@ -114779,6 +114809,7 @@ Caravan SandWitch:
       - 1715505261
       - 1925615412
       - 2002688097
+    lutris: caravan-sandwitch
     steamExtra:
       - 3140220
       - 3142110
@@ -221667,21 +221698,6 @@ EURGAVA - Fight for Haaria:
             store: steam
   steam:
     id: 559350
-EURGAVA - Tomb of Senza:
-  files:
-    "<winLocalAppData>/EURGAVA-TombofSenza/User Data":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    EURGAVA™ - Tomb of Senza: {}
-  launch:
-    "<base>/nw.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1035490
 EV3 - Drag Racing:
   installDir:
     EV3 - Drag Racing: {}
@@ -239857,6 +239873,21 @@ Eugenics:
             store: steam
   steam:
     id: 935610
+Eurgava - Tomb of Senza:
+  files:
+    "<winLocalAppData>/EURGAVA-TombofSenza/User Data":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    EURGAVA™ - Tomb of Senza: {}
+  launch:
+    "<base>/nw.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1035490
 Euro Fishing:
   cloud:
     steam: true
@@ -247726,37 +247757,11 @@ FNaF World:
             store: steam
   steam:
     id: 427920
-FOCUS on YOU:
-  files:
-    "<winLocalAppData>/ProjectYUKI/Saved/Config/WindowsNoEditor":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/ProjectYUKI/Saved/Steam/SaveGames":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    FOCUS on YOU: {}
-  steam:
-    id: 1032670
 FOOD FACTORY VR:
   installDir:
     FOOD FACTORY VR: {}
   steam:
     id: 1190320
-FOREST OF ELF:
-  installDir:
-    FOREST OF ELF: {}
-  launch:
-    "<base>/Forest of ELF.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1134600
 FORT:
   installDir:
     Fort: {}
@@ -268550,6 +268555,22 @@ Fobia - St. Dinfna Hotel:
             store: steam
   steam:
     id: 1298140
+Focus on You:
+  files:
+    "<winLocalAppData>/ProjectYUKI/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/ProjectYUKI/Saved/Steam/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    FOCUS on YOU: {}
+  steam:
+    id: 1032670
 Foe Frenzy:
   installDir:
     Foe Frenzy: {}
@@ -271395,6 +271416,16 @@ Forest Woodman:
             store: steam
   steam:
     id: 1212440
+Forest of Elf:
+  installDir:
+    FOREST OF ELF: {}
+  launch:
+    "<base>/Forest of ELF.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1134600
 Forest of Evil:
   installDir:
     Forest of Evil: {}
@@ -312645,17 +312676,6 @@ HITMAN World of Assassination:
             store: steam
   steam:
     id: 759870
-HOLY COW! Milking Simulator:
-  installDir:
-    HOLY COW! Milking Simulator: {}
-  launch:
-    "<base>/HolyCow.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 841110
 HOME:
   alias: "Home: Our Journey"
 HORSE:
@@ -323238,6 +323258,8 @@ Hektor:
   steam:
     id: 334070
 Hela:
+  id:
+    lutris: hela
   steam:
     id: 3161310
 Heldric - The legend of the shoemaker:
@@ -336491,6 +336513,17 @@ Holy Avenger:
             store: steam
   steam:
     id: 544680
+Holy Cow! Milking Simulator:
+  installDir:
+    HOLY COW! Milking Simulator: {}
+  launch:
+    "<base>/HolyCow.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 841110
 Holy Knight Luviria:
   files:
     "<base>/*.rvdata2":
@@ -349183,6 +349216,17 @@ IRacing:
   steam:
     id: 266410
 IRacing Arcade:
+  files:
+    "<home>/AppData/LocalLow/Original Fire Games/iRacing Arcade/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Original Fire Games/iRacing Arcade/shared/game.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 3226450
 IS -Infinite Stratos- Versus Colors:
@@ -370145,6 +370189,8 @@ Joggernauts:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: john-carpenters-toxic-commando
   steam:
     id: 2157830
 "John Daly's ProStroke Golf":
@@ -600268,6 +600314,16 @@ Scavengers:
     Scavengers: {}
   steam:
     id: 1183940
+Sceal:
+  installDir:
+    Sceal: {}
+  launch:
+    "<base>/Sceal.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 507060
 Scene Investigators:
   cloud:
     steam: true
@@ -832065,6 +832121,10 @@ X2Roulette:
     "<base>/runme.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Egosoft/X:
+      tags:
+        - config
   steam:
     id: 2840
 XANARTHRAXIA:
