@@ -117297,12 +117297,10 @@ Cast n Chill:
     steam: true
   files:
     "<home>/AppData/LocalLow/Wombat Brawler/Cast n Chill/Journals":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Wombat Brawler/Cast n Chill/Journals":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     steamExtra:
       - 3817870
@@ -117318,6 +117316,10 @@ Cast n Chill:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Wombat Brawler/Cast n Chill:
+      tags:
+        - config
   steam:
     id: 3483740
 Cast of the Seven Godsends - Redux:
@@ -164212,6 +164214,7 @@ Cyberpunk Bar Sim:
     id: 1188850
 Cyberpunk SFX:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/CyberpunkSFX/Saved/Config/WindowsNoEditor/*.ini":
@@ -323224,6 +323227,9 @@ Hektor:
             store: steam
   steam:
     id: 334070
+Hela:
+  steam:
+    id: 3161310
 Heldric - The legend of the shoemaker:
   installDir:
     Heldric: {}
@@ -340703,9 +340709,14 @@ House Flipper:
         - save
       when:
         - os: windows
-    "<home>/Library/Application Support/Empyrean/House Flipper Game/Saves":
+    "<home>/Library/Application Support/Empyrean/House Flipper Game/Profiles":
       tags:
         - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/unity.Empyrean.Unity-HouseFlipper.plist":
+      tags:
+        - config
       when:
         - os: mac
   gog:
@@ -394481,6 +394492,7 @@ Layers of Fears:
   alias: Layers of Fear (2023)
 "Laysara: Summit Kingdom":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/AS/Saved/Config/WindowsNoEditor/GameplaySettings.ini":
@@ -394494,6 +394506,7 @@ Layers of Fears:
   id:
     gogExtra:
       - 1651891548
+    lutris: laysara-summit-kingdom
     steamExtra:
       - 2926820
   installDir:
@@ -394502,6 +394515,10 @@ Layers of Fears:
     "<base>/Laysara.exe":
       - when:
           - os: windows
+            store: steam
+      - arguments: "-vulkan"
+        when:
+          - os: linux
             store: steam
   steam:
     id: 1823950
@@ -429618,6 +429635,11 @@ Marvel Heroes:
         workingDir: "<base>/unrealengine3/binaries/win64"
   steam:
     id: 226320
+Marvel Maximum Collection:
+  cloud:
+    steam: true
+  steam:
+    id: 3931060
 Marvel Puzzle Quest:
   cloud:
     steam: true
@@ -590940,6 +590962,8 @@ SCP022:
   steam:
     id: 1009990
 "SCP: 5K":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Pandemic/Saved/Config/WindowsNoEditor":
       tags:
@@ -713203,6 +713227,7 @@ The Ditzy Demons Are in Love With Me:
     id: 448980
 The Divine Invasion:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:

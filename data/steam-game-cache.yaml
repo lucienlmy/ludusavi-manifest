@@ -584317,6 +584317,11 @@
         oslist: windows
       executable: Laysara.exe
       type: default
+    - arguments: "-vulkan"
+      config:
+        oslist: linux
+      executable: Laysara.exe
+      type: default
   nameLocalized:
     french: "Laysara : Le Royaume des Sommets"
     german: "Laysara: Königreich der Berge"
@@ -634179,6 +634184,7 @@
     tchinese: 刺客教條：暗影者
 3160140: {}
 3161220: {}
+3161310: {}
 3164230:
   nameLocalized:
     dutch: THE IRONY
@@ -641835,6 +641841,7 @@
         oslist: windows
       executable: system/SplinterCell2.exe
       type: default
+3931060: {}
 3932120: {}
 3932890:
   installDir: Escape from Tarkov

@@ -37715,6 +37715,9 @@ Cast n Chill:
   steamSide:
     - 3817870
     - 4001650
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Wombat Brawler\\Cast n Chill}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Wombat Brawler\\Cast n Chill\\Journals}}"
 Cast of the Seven Godsends - Redux:
   pageId: 47203
   steam: 373360
@@ -52532,6 +52535,7 @@ Cyberpunk Bar Sim:
   steam: 1188850
 Cyberpunk SFX:
   cloud:
+    epic: true
     steam: true
   gog: 1638321975
   pageId: 214131
@@ -104151,6 +104155,9 @@ Hektor:
   steam: 334070
   steamSide:
     - 355590
+Hela:
+  pageId: 214162
+  steam: 3161310
 Heldric - The legend of the shoemaker:
   pageId: 50420
   steam: 293420
@@ -109834,8 +109841,9 @@ House Flipper:
     - 1832960
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Empyrean\\House Flipper Game}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Empyrean.Unity-HouseFlipper.plist}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Empyrean\\House Flipper Game\\Profiles|{{p|userprofile\\appdata\\locallow}}\\Empyrean\\House Flipper Game\\Profiles.backup}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Empyrean/House Flipper Game/Saves}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Empyrean/House Flipper Game/Profiles}}"
 House Flipper 2:
   cloud:
     steam: true
@@ -127225,10 +127233,12 @@ Layers of Fear VR:
   steam: 1183030
 "Laysara: Summit Kingdom":
   cloud:
+    gog: true
     steam: true
   gog: 1540038395
   gogSide:
     - 1651891548
+  lutris: laysara-summit-kingdom
   pageId: 203252
   steam: 1823950
   steamSide:
@@ -138502,6 +138512,11 @@ Marvel Heroes:
   steam: 226320
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Marvel Heroes\\MarvelGame\\Config\\}}"
+Marvel Maximum Collection:
+  cloud:
+    steam: true
+  pageId: 214168
+  steam: 3931060
 Marvel Powers United VR:
   pageId: 165488
 Marvel Puzzle Quest:
@@ -191070,6 +191085,8 @@ SCP022:
   pageId: 127085
   steam: 1009990
 "SCP: 5K":
+  cloud:
+    steam: true
   pageId: 127081
   renamedFrom:
     - "SCP: Pandemic"
@@ -229996,6 +230013,7 @@ The Ditzy Demons Are in Love With Me:
   pageId: 175262
 The Divine Invasion:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1539124990
