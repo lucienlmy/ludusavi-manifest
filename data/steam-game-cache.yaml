@@ -612785,21 +612785,21 @@
       description: steam7 branch args
       executable: Overwatch.exe
   nameLocalized:
-    brazilian: Overwatch® 2
-    french: Overwatch® 2
-    german: Overwatch® 2
-    italian: Overwatch® 2
-    japanese: 「オーバーウォッチ® 2」
-    koreana: 오버워치™ 2
-    latam: Overwatch® 2
-    polish: Overwatch® 2
-    portuguese: Overwatch® 2
-    russian: Overwatch® 2
-    schinese: 《守望先锋® 2》
-    spanish: Overwatch® 2
-    tchinese: 《鬥陣特攻® 2》
-    thai: Overwatch® 2
-    turkish: Overwatch® 2
+    brazilian: Overwatch®
+    french: Overwatch®
+    german: Overwatch®
+    italian: Overwatch®
+    japanese: 「オーバーウォッチ®」
+    koreana: 오버워치™
+    latam: Overwatch®
+    polish: Overwatch®
+    portuguese: Overwatch®
+    russian: Overwatch®
+    schinese: 《守望先锋®》
+    spanish: Overwatch®
+    tchinese: 《鬥陣特攻®》
+    thai: Overwatch®
+    turkish: Overwatch®
 2358260:
   cloud:
     saves:

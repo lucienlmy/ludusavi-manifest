@@ -151557,8 +151557,11 @@ NOCE:
     epic: true
     steam: true
   gog: 1537862169
+  lutris: node-the-last-favor-of-the-antarii
   pageId: 206238
   steam: 2757670
+  steamSide:
+    - 3885310
 NOISZ:
   pageId: 69683
   steam: 681530

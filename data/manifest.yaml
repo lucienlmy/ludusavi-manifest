@@ -468972,6 +468972,10 @@ NOCE:
         - store: steam
   gog:
     id: 1537862169
+  id:
+    lutris: node-the-last-favor-of-the-antarii
+    steamExtra:
+      - 3885310
   installDir:
     NODE: {}
   launch:
