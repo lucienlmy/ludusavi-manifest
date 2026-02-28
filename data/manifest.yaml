@@ -276870,6 +276870,16 @@ Freefall:
             store: steam
   steam:
     id: 620280
+Freefall 3050 A.D.:
+  installDir:
+    Freefall 3050AD: {}
+  launch:
+    "<base>/PCFF.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1002970
 Freefall 3050AD:
   installDir:
     Freefall 3050AD: {}
@@ -483427,6 +483437,7 @@ No Place for Bravery:
     id: 1039100
 No Players Online:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Beeswax Games/NoPlayersOnline/*.txt":

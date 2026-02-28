@@ -89041,6 +89041,9 @@ Freefall:
     steam: true
   pageId: 61860
   steam: 620280
+Freefall 3050 A.D.:
+  pageId: 214171
+  steam: 1002970
 Freefall 3050AD:
   pageId: 125888
   steam: 1002970
@@ -137798,7 +137801,7 @@ Marathon (2026):
     - Marathon (2025)
   steam: 3065800
   templates:
-    - "{{Game data/config|Windows|%APPDATA%\\Bungie\\Marathon\\prefs\\}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Bungie\\Marathon\\prefs\\}}"
 "Marathon 2: Durandal":
   pageId: 6955
   steam: 2398490
@@ -156280,6 +156283,7 @@ No Place for Bravery:
   steam: 1039100
 No Players Online:
   cloud:
+    gog: true
     steam: true
   gog: 1108068005
   lutris: no-players-online--1
