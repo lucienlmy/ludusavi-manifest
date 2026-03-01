@@ -41380,7 +41380,9 @@ Chroma Squad:
   steam: 251130
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Behold Studios\\Chroma Squad\\}}"
+    - "{{Game data/config|Linux|~/.config/unity3d/Behold Studios/Chroma Squad}}"
     - "{{Game data/saves|Windows|{{P|game}}\\chromasquad_Data\\savedGames\\|{{p|userprofile}}\\AppData\\LocalLow\\Behold Studios\\Chroma Squad\\savedGames\\}}"
+    - "{{Game data/saves|Linux|~/.local/share/Steam/steamapps/common/ChromaSquad/chromasquad_Data/savedGames}}"
 ChromaGun:
   cloud:
     steam: true
@@ -176039,6 +176041,8 @@ Puppet Fever:
   pageId: 91546
   steam: 800390
 Puppet House:
+  gog: 1508704615
+  lutris: puppet-house
   pageId: 198746
   steam: 1707710
   templates:

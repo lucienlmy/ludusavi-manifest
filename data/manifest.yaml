@@ -129257,6 +129257,16 @@ Chroma Squad:
         - save
       when:
         - os: windows
+    "<home>/.config/unity3d/Behold Studios/Chroma Squad":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/Steam/steamapps/common/ChromaSquad/chromasquad_Data/savedGames":
+      tags:
+        - save
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/Behold Studios/Chroma Squad/savedGames":
       tags:
         - save
@@ -544295,6 +544305,10 @@ Puppet House:
         - save
       when:
         - os: windows
+  gog:
+    id: 1508704615
+  id:
+    lutris: puppet-house
   installDir:
     Puppet_House: {}
   launch:
