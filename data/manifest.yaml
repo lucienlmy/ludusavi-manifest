@@ -158935,7 +158935,7 @@ Cryptocurrency Clicker:
             store: steam
   steam:
     id: 820750
-"Cryptofall: Investor simulator":
+"Cryptofall: Investor Simulator":
   installDir:
     Cryptofall: {}
   launch:
@@ -265080,6 +265080,8 @@ Flashback 2:
         - os: windows
   gog:
     id: 2035081143
+  id:
+    lutris: flashback-2
   installDir:
     Flashback 2: {}
   launch:
@@ -726712,6 +726714,7 @@ The Legend of Excalipurr:
   alias: "The Legend of Heroes: Trails through Daybreak II"
 "The Legend of Heroes: Trails Beyond the Horizon":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Saved Games/CLE/Kai_no_Kiseki":

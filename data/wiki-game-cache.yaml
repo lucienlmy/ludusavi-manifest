@@ -50871,8 +50871,10 @@ Cryptocracy:
 Cryptocurrency Clicker:
   pageId: 90518
   steam: 820750
-"Cryptofall: Investor simulator":
+"Cryptofall: Investor Simulator":
   pageId: 150820
+  renamedFrom:
+    - "Cryptofall: Investor simulator"
   steam: 996180
 Cryptographer:
   pageId: 141570
@@ -85571,6 +85573,7 @@ Flashback 2:
     gog: true
     steam: true
   gog: 2035081143
+  lutris: flashback-2
   pageId: 190856
   steam: 2008420
   templates:
@@ -234457,6 +234460,7 @@ The Legend of Excalipurr:
     - "{{Game data/saves|Windows|{{p|game}}\\savefile\\}}"
 "The Legend of Heroes: Trails Beyond the Horizon":
   cloud:
+    gog: true
     steam: true
   gog: 1162370103
   pageId: 203154
