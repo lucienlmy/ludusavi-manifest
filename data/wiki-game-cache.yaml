@@ -236062,8 +236062,11 @@ The Mors:
 The Mortuary Assistant:
   cloud:
     steam: true
+  lutris: the-mortuary-assistant
   pageId: 181197
   steam: 1295920
+  steamSide:
+    - 2080860
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DarkStone Digital\\The Mortuary Assistant}}"
 The Most Challenging Game:
@@ -254174,9 +254177,6 @@ Undefined Fantastic Object:
 Undelivered:
   pageId: 100382
   steam: 885210
-Under:
-  pageId: 145262
-  steam: 1128140
 Under Defeat:
   cloud:
     steam: true
@@ -254295,6 +254295,11 @@ Under the Waves:
   gog: 1358404037
   pageId: 190580
   steam: 2069640
+"Under: Depths of Fear":
+  pageId: 145262
+  renamedFrom:
+    - Under
+  steam: 1128140
 UnderDread:
   pageId: 44379
   steam: 432240
@@ -266566,6 +266571,8 @@ Windows Subsystem for Android:
 Windrose:
   pageId: 214042
   steam: 3041230
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\R5\\Saved\\Config\\Windows}}"
 Winds of Change:
   cloud:
     steam: true
@@ -269919,6 +269926,7 @@ X-Tension:
   pageId: 10834
   steam: 2850
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\EgoSoftware\\X-TENSION}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
 X-Town 3D Game:
   pageId: 91472

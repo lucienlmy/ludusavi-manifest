@@ -731430,6 +731430,10 @@ The Mortuary Assistant:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-mortuary-assistant
+    steamExtra:
+      - 2080860
   installDir:
     The Mortuary Assistant: {}
   launch:
@@ -784683,15 +784687,7 @@ Undelivered:
   steam:
     id: 885210
 Under:
-  installDir:
-    Under: {}
-  launch:
-    "<base>/Under Depths of Fear.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1128140
+  alias: "Under: Depths of Fear"
 Under Defeat:
   cloud:
     steam: true
@@ -785009,6 +785005,16 @@ Under the Waves:
             store: steam
   steam:
     id: 2069640
+"Under: Depths of Fear":
+  installDir:
+    Under: {}
+  launch:
+    "<base>/Under Depths of Fear.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1128140
 UnderDread:
   installDir:
     UnderDread: {}
@@ -821742,6 +821748,12 @@ Windowkill:
   steam:
     id: 2726450
 Windrose:
+  files:
+    "<winLocalAppData>/R5/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 3041230
 Winds of Change:
@@ -831823,6 +831835,10 @@ X-Tension:
     "<base>/runme.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/EgoSoftware/X-TENSION:
+      tags:
+        - config
   steam:
     id: 2850
 X-Town 3D Game:
