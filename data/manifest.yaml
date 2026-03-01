@@ -606112,10 +606112,16 @@ Sengoku Dynasty:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/SengokuDynasty/Saved/SaveGames/GameSaves/*.sav":
+    "<winLocalAppData>/SengokuDynasty/Saved/Config":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/SengokuDynasty/Saved/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1414368460
   installDir:
@@ -676389,6 +676395,8 @@ Super Chicken Catchers:
   steam:
     id: 869750
 "Super Chipflake Ü: Quest for the Uncooked Schnitzel":
+  id:
+    lutris: super-chipflake-u-quest-for-the-uncooked-schnitzel
   installDir:
     Super Chipflake Ü Quest for the uncooked Schnitzel: {}
   launch:

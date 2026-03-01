@@ -195966,6 +195966,9 @@ Sengoku Dynasty:
   gog: 1414368460
   pageId: 174573
   steam: 1702010
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SengokuDynasty\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\SengokuDynasty\\Saved\\SavedGames}}"
 "Sengoku Jidai: Shadow of the Shogun":
   cloud:
     gog: true
@@ -218337,6 +218340,7 @@ Super Chicken Catchers:
   pageId: 128455
   steam: 869750
 "Super Chipflake Ü: Quest for the Uncooked Schnitzel":
+  lutris: super-chipflake-u-quest-for-the-uncooked-schnitzel
   pageId: 213843
   steam: 3064060
 Super Chopper:
