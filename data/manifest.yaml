@@ -19012,6 +19012,7 @@ Ad Fundum:
     id: 2647820
 Ad Infinitum:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -19032,6 +19033,7 @@ Ad Infinitum:
       - 1140726862
       - 1919221653
       - 2094248817
+    lutris: ad-infinitum--1
     steamExtra:
       - 2361650
       - 2361660
@@ -394563,12 +394565,16 @@ Layers of Fears:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/AS/Saved/Config/WindowsNoEditor/GameplaySettings.ini":
+    "<winLocalAppData>/AS/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/AS/Saved/SaveGames/*.sav":
+        - os: windows
+    "<winLocalAppData>/AS/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1540038395
   id:
@@ -742584,6 +742590,8 @@ The Swordsmen X:
   steam:
     id: 840140
 The Séance of Blake Manor:
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/Spooky Doorway/The Seance of Blake Manor/*.savj":
       when:
@@ -742603,12 +742611,16 @@ The Séance of Blake Manor:
     lutris: the-seance-of-blake-manor
     steamExtra:
       - 3547180
+      - 4159420
+      - 4159440
   installDir:
     The Seance of Blake Manor: {}
   launch:
     "<base>/The Seance of Blake Manor.exe":
       - when:
           - os: windows
+            store: steam
+          - os: mac
             store: steam
     "<base>/The Seance of Blake Manor.x86_64":
       - arguments: "-force-vulkan"

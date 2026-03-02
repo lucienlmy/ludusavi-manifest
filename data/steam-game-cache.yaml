@@ -551081,9 +551081,8 @@
       executable: The Seance of Blake Manor.exe
       type: default
     - config:
-        betakey: development
         oslist: macos
-      executable: The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor
+      executable: The Seance of Blake Manor.exe
       type: default
     - arguments: "-force-vulkan"
       config:

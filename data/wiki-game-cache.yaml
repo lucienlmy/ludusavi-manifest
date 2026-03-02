@@ -5999,6 +5999,7 @@ Ad Fundum:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Oldbut Gold\\Ad Fundum\\Saves\\}}"
 Ad Infinitum:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1153685570
@@ -6006,6 +6007,7 @@ Ad Infinitum:
     - 1140726862
     - 1919221653
     - 2094248817
+  lutris: ad-infinitum--1
   pageId: 192311
   steam: 1234430
   steamSide:
@@ -55409,6 +55411,8 @@ Das Boot:
   gog: 1491668475
   pageId: 172789
   steam: 1782080
+Das Geheimnis des Magiers:
+  pageId: 214214
 Das Geisterschiff:
   pageId: 122182
   steam: 975230
@@ -127276,6 +127280,9 @@ Layers of Fear VR:
   steam: 1823950
   steamSide:
     - 2926820
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\AS\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\AS\\Saved\\SaveGames}}"
 Lazaretto:
   pageId: 62320
   steam: 628350
@@ -239732,6 +239739,8 @@ The Swordsmen X:
     - 891630
     - 891660
 The Séance of Blake Manor:
+  cloud:
+    steam: true
   lutris: the-seance-of-blake-manor
   pageId: 165507
   renamedFrom:
@@ -239739,6 +239748,8 @@ The Séance of Blake Manor:
   steam: 1395520
   steamSide:
     - 3547180
+    - 4159420
+    - 4159440
 The Table at War:
   pageId: 54361
   steam: 555230
