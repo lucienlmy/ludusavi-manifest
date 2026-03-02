@@ -72378,6 +72378,10 @@
       description: Launch
       executable: Attila
       type: none
+    - config:
+        betakey: "domesticated_qa_a,domesticated_qa_b"
+        oslist: macos
+      executable: Total War ATTILA.app
   nameLocalized:
     koreana: "토탈워: 아틸라"
     schinese: 全面战争：阿提拉

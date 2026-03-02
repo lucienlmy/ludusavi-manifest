@@ -83140,6 +83140,7 @@ Fellowship:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\fellowship\\Saved\\Config\\Windows}}"
 "Felt That: Boxing":
+  lutris: felt-that-boxing
   pageId: 205233
   steam: 3763840
 Felt Tip Circus:
