@@ -11107,6 +11107,7 @@ Amelon:
   pageId: 78435
   steam: 763210
 Amenti:
+  lutris: amenti
   pageId: 200703
   steam: 3292260
 America:
@@ -32255,6 +32256,7 @@ Breathedge:
     - "{{Game data/saves|Windows|{{P|game}}\\Breathedge\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\HypeTrainDigital.BreathedgePC_7t701d8q7nf00\\SystemAppData\\wgs\\}}"
 Breathedge 2:
+  lutris: breathedge-2
   pageId: 201823
   steam: 2412960
 Breathing Fear:
@@ -88029,6 +88031,11 @@ Fort Zombie:
 FortOfTheNight:
   pageId: 99850
   steam: 888740
+FortiFyte:
+  cloud:
+    steam: true
+  pageId: 214253
+  steam: 3094260
 Fortified:
   cloud:
     steam: true
@@ -127700,11 +127707,19 @@ Legacy:
 "Legacy of Kain: Defiance Remastered":
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1818228492
+  gogSide:
+    - 1216415583
+    - 2051911890
   lutris: legacy-of-kain-defiance-remastered
   pageId: 213703
   steam: 3747730
+  steamSide:
+    - 4134770
+    - 4134780
+    - 4230170
 "Legacy of Kain: Soul Reaver":
   cloud:
     gog: true
@@ -146934,6 +146949,7 @@ Monument Valley 3:
   pageId: 179258
   steam: 1927720
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley\\UserData_{{P|uid}}\\user_data.sav}}"
 Monumental:
   pageId: 44862
@@ -161227,6 +161243,12 @@ Operation Kreep:
 Operation Lone Wolf:
   pageId: 110394
   steam: 926010
+"Operation Lovecraft: Fallen Doll":
+  lutris: operation-lovecraft-fallen-doll
+  pageId: 214251
+  steam: 1685960
+  steamSide:
+    - 1811180
 Operation Osama Bin Laden:
   pageId: 108960
   steam: 834920
@@ -167712,6 +167734,8 @@ Pettson o Findus i snickarbon:
   pageId: 213982
 Pettson o Findus i trädgården:
   pageId: 213983
+Pettson o Findus julkalender:
+  pageId: 214254
 Pettson o Findus och mucklornas värld:
   pageId: 213984
 Petz Catz 2:
@@ -181392,6 +181416,14 @@ Realm Royale Reforged:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\paladinsroyale\\RealmGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\paladinsroyale\\RealmGame\\}}"
+Realm of Ink:
+  cloud:
+    steam: true
+  lutris: realm-of-ink
+  pageId: 214239
+  steam: 2597080
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\MapleLeap\\Realm of Ink\\GameSave\\}}"
 Realm of Perpetual Guilds:
   pageId: 47867
   steam: 372670
@@ -240742,7 +240774,8 @@ The Walking Dead Onslaught:
   pageId: 31576
   steam: 429570
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\The Walking Dead Michonne\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Telltale Games\\The Walking Dead Michonne\\}}"
+    - "{{Game data/saves|GOG.com|{{p|userprofile\\Documents}}\\Telltale Games\\app\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/The Walking Dead Michonne/}}"
 "The Walking Dead: Saints & Sinners":
   cloud:

@@ -34890,6 +34890,8 @@ Amelon:
   steam:
     id: 763210
 Amenti:
+  id:
+    lutris: amenti
   installDir:
     Amenti: {}
   launch:
@@ -100244,6 +100246,8 @@ Breathedge:
   steam:
     id: 738520
 Breathedge 2:
+  id:
+    lutris: breathedge-2
   steam:
     id: 2412960
 Breathing Fear:
@@ -238342,11 +238346,24 @@ Eslander:
 Esoteric Ebb:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Christoffer Bodegard/Esoteric Ebb/SaveFiles/*.es3":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Christoffer Bodegard/Esoteric Ebb/SaveFiles/*.jpg":
+      when:
+        - store: steam
   id:
     lutris: esoteric-ebb
     steamExtra:
       - 2128090
       - 2310250
+  installDir:
+    Esoteric Ebb: {}
+  launch:
+    "<base>/Esoteric Ebb.exe":
+      - when:
+          - store: steam
   steam:
     id: 2057760
 Esper - Make You Live Again:
@@ -273266,6 +273283,11 @@ FortOfTheNight:
           - store: steam
   steam:
     id: 888740
+FortiFyte:
+  cloud:
+    steam: true
+  steam:
+    id: 3094260
 Fortified:
   cloud:
     steam: true
@@ -395991,11 +396013,46 @@ Leftovers KO!:
 "Legacy of Kain: Defiance Remastered":
   cloud:
     epic: true
+    gog: true
     steam: true
+  files:
+    "<home>/Saved Games/Legacy of Kain - Defiance/autosave.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Legacy of Kain - Defiance/key_binding.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Legacy of Kain - Defiance/pad_binding.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Legacy of Kain - Defiance/profile.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Legacy of Kain - Defiance/save*.dat":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1818228492
   id:
+    gogExtra:
+      - 1216415583
+      - 2051911890
     lutris: legacy-of-kain-defiance-remastered
+    steamExtra:
+      - 4134770
+      - 4134780
+      - 4230170
+  installDir:
+    Legacy of Kain Defiance Remastered: {}
+  launch:
+    "<base>/defiance.exe":
+      - when:
+          - store: steam
   steam:
     id: 3747730
 "Legacy of Kain: Soul Reaver":
@@ -454959,6 +455016,10 @@ Monument Valley 3:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/ustwo games/Monument Valley:
+      tags:
+        - config
   steam:
     id: 1927720
 Monumental:
@@ -498371,6 +498432,13 @@ Operation Lone Wolf:
             store: steam
   steam:
     id: 926010
+"Operation Lovecraft: Fallen Doll":
+  id:
+    lutris: operation-lovecraft-fallen-doll
+    steamExtra:
+      - 1811180
+  steam:
+    id: 1685960
 Operation Osama Bin Laden:
   installDir:
     Operation Osam Bin Laden: {}
@@ -560988,6 +561056,27 @@ Realm Royale Reforged:
         workingDir: "<base>/Binaries"
   steam:
     id: 813820
+Realm of Ink:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/MapleLeap/Realm of Ink/GameSave":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: realm-of-ink
+  installDir:
+    Realm of Ink: {}
+  launch:
+    "<base>/Realm of Ink.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2597080
 Realm of Perpetual Guilds:
   installDir:
     Realm of Perpetual Guilds: {}
@@ -745456,6 +745545,13 @@ The Walking Dead Onslaught:
         - save
       when:
         - os: windows
+          store: steam
+    "<winDocuments>/Telltale Games/app":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
   gog:
     id: 1455785261
   installDir:
