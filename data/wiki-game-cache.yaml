@@ -24727,6 +24727,10 @@ Beku:
   steamSide:
     - 1738780
     - 1938650
+"Bel's Fanfare":
+  lutris: bels-fanfare
+  pageId: 214235
+  steam: 4317460
 "Believe: Paranormal Psychic Adventure":
   pageId: 135865
   steam: 964760
@@ -61521,6 +61525,7 @@ DiRT Rally:
   steam: 310560
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\DiRT Rally\\hardwaresettings\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/DiRT Rally/Preferences Data|{{p|osxhome}}/Library/Application Support/Feral Interactive/DiRT Rally/VFS/User/AppData/Roaming/My Games/DiRT Rally/hardwaresettings}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/feral-interactive/DiRT Rally/VFS/User/AppData/Roaming/My Games/DiRT Rally/hardwaresettings/}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profile\\Player\\Saves}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\310560\\}}"
@@ -123168,6 +123173,7 @@ Kingdom Clicker:
   cloud:
     epic: true
     steam: true
+    xbox: true
   gog: 1248083010
   gogSide:
     - 1141344806
@@ -228106,6 +228112,8 @@ The Blind Prophet:
   steam: 968370
 The Blob:
   pageId: 54223
+The Blobjob:
+  pageId: 214233
 The Blobs Fight:
   pageId: 92339
   steam: 830500

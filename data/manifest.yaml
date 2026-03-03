@@ -76391,6 +76391,11 @@ Beku:
             store: steam
   steam:
     id: 1694610
+"Bel's Fanfare":
+  id:
+    lutris: bels-fanfare
+  steam:
+    id: 4317460
 "Believe: Paranormal Psychic Adventure":
   steam:
     id: 964760
@@ -192157,6 +192162,16 @@ DiRT Rally:
         - config
       when:
         - os: linux
+    "<home>/Library/Application Support/Feral Interactive/DiRT Rally/Preferences Data":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Feral Interactive/DiRT Rally/VFS/User/AppData/Roaming/My Games/DiRT Rally/hardwaresettings":
+      tags:
+        - config
+      when:
+        - os: mac
     "<root>/userdata/<storeUserId>/310560":
       tags:
         - save
