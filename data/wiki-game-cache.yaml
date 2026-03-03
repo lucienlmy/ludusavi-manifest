@@ -116137,6 +116137,7 @@ Into The Soup:
   pageId: 151635
   steam: 860010
 Into The Unwell:
+  lutris: into-the-unwell
   pageId: 205198
   steam: 2024600
 Into The Valley:
@@ -165997,6 +165998,15 @@ Patapon 1 + 2 Replay:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\PATAPON 1+2 REPLAY\\Saved\\SaveGames\\{{P|uid}}}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\PATAPON 1+2 REPLAY\\Saved\\SaveGames\\{{P|uid}}\\P1|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\PATAPON 1+2 REPLAY\\Saved\\SaveGames\\{{P|uid}}\\P2}}"
+Patch Me If You Can:
+  cloud:
+    steam: true
+  lutris: patch-me-if-you-can
+  pageId: 208756
+  steam: 3827840
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Ah Shot Chu\\Patch me if you can\\SaveFile.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Ah Shot Chu\\Patch me if you can\\SaveFile.json}}"
 Patch Quest:
   cloud:
     steam: true
@@ -195983,7 +195993,7 @@ Sengoku Dynasty:
   steam: 1702010
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SengokuDynasty\\Saved\\Config}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\SengokuDynasty\\Saved\\SavedGames}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\SengokuDynasty\\Saved\\SaveGames}}"
 "Sengoku Jidai: Shadow of the Shogun":
   cloud:
     gog: true
@@ -221046,6 +221056,8 @@ Swallow The Blue:
 "Swallow The Blue: Remastered":
   pageId: 192347
   steam: 1509850
+Swamp Buggy Racing:
+  pageId: 214230
 Swamp Jump:
   pageId: 104475
   steam: 914230
@@ -239774,6 +239786,8 @@ The Tale of Bistun:
     - "{{Game data/saves|Windows|%APPDATA%\\..\\LocalLow\\BlackCubeGames\\The Tale of Bistun}}"
 The Tale of Despereaux:
   pageId: 213926
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\PROFILES}}"
 The Tale of Doris and the Dragon - Episode 1:
   pageId: 38801
   steam: 516840
@@ -242951,6 +242965,8 @@ ThunderGod:
     steam: true
   pageId: 138806
   steam: 1061900
+"ThunderGun: The Cybwar Mission":
+  pageId: 214221
 ThunderWheels:
   cloud:
     steam: true
@@ -274214,6 +274230,9 @@ Zoroastra:
 Zorro:
   pageId: 165822
 "Zorro: The Chronicles":
+  cloud:
+    steam: true
+  lutris: zorro-the-chronicles
   pageId: 178410
   steam: 1571460
 ZorroMoro:

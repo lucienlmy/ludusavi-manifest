@@ -620570,7 +620570,7 @@
       executable: FlightSimulator2024.exe
       type: default
     - config:
-        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a,beta_test, brumby_beta"
+        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt"
         osarch: "64"
         oslist: windows
       description: Launch MSFS 2024 Dev Build
@@ -632561,6 +632561,9 @@
   launch:
     - arguments: "-platform-steam"
       executable: Herdling.exe
+  nameLocalized:
+    schinese: 《牧灵奇旅》
+    tchinese: 《牧群之旅》
 3048540:
   installDir: Micro Tanks
   launch:
@@ -641347,6 +641350,19 @@
     - executable: Megastore Simulator.exe
 3820550: {}
 3825360: {}
+3827840:
+  cloud:
+    saves:
+      - path: Ah Shot Chu/Patch me if you can
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Patch me if you can
+  launch:
+    - config:
+        oslist: windows
+      executable: Patch me if you can.exe
 3832650:
   installDir: SENSE-The-Game
   launch:

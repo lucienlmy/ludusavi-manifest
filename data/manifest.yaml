@@ -360724,6 +360724,8 @@ Into The Soup:
   steam:
     id: 860010
 Into The Unwell:
+  id:
+    lutris: into-the-unwell
   steam:
     id: 2024600
 Into The Valley:
@@ -513119,6 +513121,27 @@ Patapon 1 + 2 Replay:
           - store: steam
   steam:
     id: 2383200
+Patch Me If You Can:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Ah Shot Chu/Patch me if you can/SaveFile.json":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: patch-me-if-you-can
+  installDir:
+    Patch me if you can: {}
+  launch:
+    "<base>/Patch me if you can.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3827840
 Patch Quest:
   cloud:
     steam: true
@@ -606141,7 +606164,7 @@ Sengoku Dynasty:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/SengokuDynasty/Saved/SavedGames":
+    "<winLocalAppData>/SengokuDynasty/Saved/SaveGames":
       tags:
         - save
       when:
@@ -742675,6 +742698,13 @@ The Tale of Bistun:
           - store: steam
   steam:
     id: 916140
+The Tale of Despereaux:
+  files:
+    "<base>/SaveGames/PROFILES":
+      tags:
+        - save
+      when:
+        - os: windows
 The Tale of Doris and the Dragon - Episode 1:
   installDir:
     The Tale of Doris and the Dragon - Episode I: {}
@@ -844975,6 +845005,8 @@ Zoroastra:
   steam:
     id: 918190
 "Zorro: The Chronicles":
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/BKOM Studios/Zorro the Chronicles/*.dat":
       when:
@@ -844987,6 +845019,8 @@ Zoroastra:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: zorro-the-chronicles
   installDir:
     Zorro the Chronicles: {}
   launch:
