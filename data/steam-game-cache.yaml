@@ -627599,10 +627599,16 @@
   launch:
     - config:
         oslist: windows
-      executable: EFS.exe
+      description: Launcher
+      executable: "launcher\\launcher.exe"
+      type: default
+      workingdir: launcher
     - config:
         oslist: linux
-      executable: efs
+      description: Launcher
+      executable: launcher/launcher
+      type: default
+      workingdir: launcher
 2799860:
   installDir: INAZUMA ELEVEN Victory Road
   launch:

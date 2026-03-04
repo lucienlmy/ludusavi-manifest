@@ -230634,14 +230634,16 @@ Emperor of the Fading Suns:
   installDir:
     Emperor of the Fading Suns: {}
   launch:
-    "<base>/EFS.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/efs":
+    "<base>/launcher/launcher":
       - when:
           - os: linux
             store: steam
+        workingDir: "<base>/launcher"
+    "<base>/launcher/launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/launcher"
   steam:
     id: 2799350
 "Emperor: Battle for Dune":
@@ -408718,6 +408720,8 @@ Lone Echo II:
         - config
       when:
         - os: windows
+  id:
+    lutris: lone-echo-ii
 Lone Fungus:
   cloud:
     steam: true
@@ -455041,6 +455045,7 @@ Monument Valley 3:
   id:
     lutris: monument-valley-3
     steamExtra:
+      - 3711510
       - 3846460
   installDir:
     Monument Valley 3: {}

@@ -131896,6 +131896,7 @@ London Racer II:
 Lone Echo:
   pageId: 128780
 Lone Echo II:
+  lutris: lone-echo-ii
   pageId: 172541
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\rad\\loneecho2}}"
@@ -146972,6 +146973,7 @@ Monument Valley 3:
   pageId: 206603
   steam: 3132930
   steamSide:
+    - 3711510
     - 3846460
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley 3\\}}"
