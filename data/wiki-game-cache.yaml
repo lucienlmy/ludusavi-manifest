@@ -34651,6 +34651,8 @@ Bye Sweet Carole:
   steam: 492130
   steamSide:
     - 509410
+Bygg Båtar med Mulle Meck:
+  pageId: 214259
 Bygone Dreams:
   cloud:
     steam: true
@@ -48134,6 +48136,8 @@ Counter-Strike Online 2:
   lutris: counter-strike-global-offensive
   pageId: 196
   steam: 730
+  steamSide:
+    - 4465480
   templates:
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\730\\local\\cfg}}"
 "Counter-Strike: Source":
@@ -76394,7 +76398,8 @@ Esoteric Ebb:
   steam: 2057760
   steamSide:
     - 2128090
-    - 2310250
+    - 4338380
+    - 4438390
 España 1936:
   pageId: 172043
   renamedFrom:
@@ -93636,6 +93641,12 @@ Geometric Sniper:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\YAW Studios\\GS}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\YAW Studios\\GS\\stats.bin}}"
+Geometric Sniper Blood in Paris:
+  pageId: 214265
+  steam: 1499800
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\YAW Studios\\GS_BP\\config.bin}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\YAW Studios\\GS_BP\\save.bin}}"
 Geometry Boxer:
   pageId: 92253
   steam: 840620
@@ -97891,6 +97902,10 @@ Graveyard Keeper:
 Graveyard Shift:
   pageId: 51951
   steam: 511190
+Graveyard Shift (2023):
+  lutris: graveyard-shift--2
+  pageId: 214262
+  steam: 2636420
 Graveyard Smash:
   pageId: 38641
   steam: 504240
@@ -108622,6 +108637,9 @@ Homefront:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\homefront2\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\homefront2\\SaveGames\\ (TS2: path_to_game\\TS2Save.bin)}}"
 Homeless:
+  cloud:
+    steam: true
+  lutris: homeless--1
   pageId: 200705
   steam: 3018910
 Homeless Simulator:
@@ -228029,7 +228047,7 @@ The Binding of Isaac:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Binding of Isaac Rebirth/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/binding of isaac rebirth/}}"
     - "{{Game data/config|Steam|{{P|Steam}}/userdata/{{P|uid}}/250900/remote/}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Rebirth\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Afterbirth\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Afterbirth+\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Repentance\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Rebirth\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Afterbirth\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Afterbirth+\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Repentance\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Repentance+\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Binding of Isaac Rebirth/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/binding of isaac rebirth/}}"
     - "{{Game data/saves|Steam|{{P|Steam}}/userdata/{{P|uid}}/250900/remote/}}"

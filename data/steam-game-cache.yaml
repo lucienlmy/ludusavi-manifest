@@ -560064,6 +560064,14 @@
         oslist: windows
       executable: Retro Classix SRD.exe
       type: none
+1499800:
+  installDir: Geometric Sniper - Blood in Paris
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GS_BP.exe
+      type: default
 1500180:
   cloud:
     saves:
@@ -622924,6 +622932,14 @@
         oslist: macos
       executable: player_steam.app
       type: default
+2636420:
+  installDir: Graveyard Shift
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: windows_content/GraveyardShift.exe
+      type: default
 2637990:
   cloud:
     saves:
@@ -623039,7 +623055,18 @@
   nameLocalized:
     english: Cat Warrior
     schinese: 吃喵一剑
-2640950: {}
+2640950:
+  installDir: ScottPilgrimEX
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Game.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Game
+      type: default
 2641470:
   installDir: Spectre Divide
   launch:

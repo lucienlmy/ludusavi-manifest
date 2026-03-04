@@ -238357,7 +238357,8 @@ Esoteric Ebb:
     lutris: esoteric-ebb
     steamExtra:
       - 2128090
-      - 2310250
+      - 4338380
+      - 4438390
   installDir:
     Esoteric Ebb: {}
   launch:
@@ -290956,6 +290957,28 @@ Geometric Sniper:
         - config
   steam:
     id: 1303660
+Geometric Sniper Blood in Paris:
+  files:
+    "<home>/AppData/LocalLow/YAW Studios/GS_BP/config.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/YAW Studios/GS_BP/save.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Geometric Sniper - Blood in Paris: {}
+  launch:
+    "<base>/GS_BP.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1499800
 Geometry Boxer:
   installDir:
     Geometry Boxer: {}
@@ -304077,6 +304100,19 @@ Graveyard Shift:
             store: steam
   steam:
     id: 511190
+Graveyard Shift (2023):
+  id:
+    lutris: graveyard-shift--2
+  installDir:
+    Graveyard Shift: {}
+  launch:
+    "<base>/windows_content/GraveyardShift.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2636420
 Graveyard Smash:
   installDir:
     Graveyard Smash: {}
@@ -337259,12 +337295,16 @@ Homefront:
   steam:
     id: 223100
 Homeless:
+  cloud:
+    steam: true
   files:
     "<base>/SavesDir/*.sav":
       when:
         - store: steam
         - os: windows
           store: steam
+  id:
+    lutris: homeless--1
   installDir:
     Homeless: {}
   launch:
@@ -601365,6 +601405,18 @@ Scott Pilgrim EX:
     steam: true
   id:
     lutris: scott-pilgrim-ex
+  installDir:
+    ScottPilgrimEX: {}
+  launch:
+    "<base>/Game":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2640950
 "Scott Pilgrim vs. The World: The Game":
@@ -707029,6 +707081,7 @@ The Binding of Isaac:
     "<winDocuments>/My Games/Binding of Isaac Repentance+":
       tags:
         - config
+        - save
       when:
         - os: windows
     "<xdgData>/binding of isaac rebirth":
