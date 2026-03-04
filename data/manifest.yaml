@@ -454980,8 +454980,14 @@ Monument Builders - Alcatraz:
     id: 326130
 "Monument Valley 2: Panoramic Edition":
   cloud:
+    epic: true
     steam: true
   files:
+    "<home>/AppData/LocalLow/ustwo games/Monument Valley 2/CloudSave/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/ustwo games/Monument Valley 2/UserData_<storeUserId>":
       tags:
         - save
@@ -455035,8 +455041,14 @@ Monument Valley 3:
     id: 3132930
 "Monument Valley: Panoramic Edition":
   cloud:
+    epic: true
     steam: true
   files:
+    "<home>/AppData/LocalLow/ustwo games/Monument Valley/CloudSave/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/ustwo games/Monument Valley/UserData_<storeUserId>/user_data.sav":
       tags:
         - save
@@ -571107,6 +571119,67 @@ Return to Cube Planet:
 Return to Dark Castle:
   cloud:
     steam: true
+  files:
+    "<base>/DC3 Custom Levels":
+      when:
+        - store: steam
+    "<base>/DC3 Heroes/*.dc3hero":
+      when:
+        - store: steam
+    "<base>/DC3 Replays":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Z Sculpt/Return to Dark Castle/DC3 Custom Levels":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Z Sculpt/Return to Dark Castle/DC3 Heroes/*.dc3hero":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Z Sculpt/Return to Dark Castle/DC3 Replays":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Z Sculpt/Return to Dark Castle/DC3 Custom Levels":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Z Sculpt/Return to Dark Castle/DC3 Heroes/*.dc3hero":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Z Sculpt/Return to Dark Castle/DC3 Replays":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Z Sculpt/Return to Dark Castle/DC3 Custom Levels":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/Z Sculpt/Return to Dark Castle/DC3 Heroes/*.dc3hero":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/Z Sculpt/Return to Dark Castle/DC3 Replays":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Return to Dark Castle: {}
+  launch:
+    "<base>/Return to Dark Castle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Return to Dark Castle.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Return to Dark Castle.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4054940
 Return to Earth:
@@ -585588,6 +585661,8 @@ Rotwood:
     "<winAppData>/Klei/Rotwood_preview/steam-<storeUserId>/saves/cloud":
       when:
         - store: steam
+  id:
+    lutris: rotwood
   installDir:
     Rotwood: {}
   launch:
@@ -771750,6 +771825,17 @@ Treasure Hunter Man 2:
 Treasure Hunter Simulator:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/TH/Saved/SaveGames":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TH/Saved/SaveGames/SaveGame.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Treasure Hunter: {}
   launch:

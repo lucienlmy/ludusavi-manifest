@@ -27789,6 +27789,8 @@ Blaite:
   steam: 812100
 "Blake and Mortimer: The Tables of Babylon":
   pageId: 131505
+Blam! Machinehead:
+  pageId: 214275
 BlamBox:
   cloud:
     steam: true
@@ -47490,6 +47492,8 @@ Corporate Property:
   pageId: 6549
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\UTGame\\Config}}"
+Corporation:
+  pageId: 214277
 Corpse Factory:
   cloud:
     steam: true
@@ -146944,12 +146948,14 @@ Monument Builders - Alcatraz:
   steam: 326130
 "Monument Valley 2: Panoramic Edition":
   cloud:
+    epic: true
     steam: true
   pageId: 179261
   steam: 1927740
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley 2}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley 2\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley 2\\UserData_{{p|uid}}\\}}"
+    - "{{Game data/saves|Epic Games Launcher|{{p|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley 2\\CloudSave\\{{p|uid}}\\*.sav}}"
 Monument Valley 3:
   cloud:
     steam: true
@@ -146963,12 +146969,14 @@ Monument Valley 3:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley 3\\CloudSave\\{{p|uid}}\\*.sav}}"
 "Monument Valley: Panoramic Edition":
   cloud:
+    epic: true
     steam: true
   pageId: 179258
   steam: 1927720
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley\\UserData_{{P|uid}}\\user_data.sav}}"
+    - "{{Game data/saves|Epic Games Launcher|{{p|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley\\CloudSave\\{{p|uid}}\\*.sav}}"
 Monumental:
   pageId: 44862
   steam: 432610
@@ -189386,6 +189394,7 @@ Rotund Rebound:
 Rotwood:
   cloud:
     steam: true
+  lutris: rotwood
   pageId: 194627
   steam: 2015270
   steamSide:
@@ -249958,6 +249967,9 @@ Treasure Hunter Simulator:
   renamedFrom:
     - Treasure Hunter
   steam: 748300
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TH\\Saved\\SaveGames\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TH\\Saved\\SaveGames\\SaveGame.sav}}"
 Treasure Island (1985):
   pageId: 187269
 Treasure Island (2009):

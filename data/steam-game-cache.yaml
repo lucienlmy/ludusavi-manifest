@@ -606960,7 +606960,7 @@
       description: eac-retail
       executable: TheDivision2.exe
       type: default
-    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-tango.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode"
+    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-victor.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode"
       config:
         betakey: qc-rel
         osarch: "64"
@@ -606998,7 +606998,7 @@
         oslist: windows
       description: Release
       executable: Rogue_x64_Release.exe
-    - arguments: "-online -startgame -nophysdatecheck -noAssetScanner -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -enable_mps_debug -log_platform_events -noserver -ssl -no_game_proxy -relative_paths -enable_client_tracking -login_ubiservices -uplay_launcher -proxylist buc-pfarm06.ubisoft.org -proxylist_port 51000 -allowclmismatch -uplay_steam_mode"
+    - arguments: "-proxylist msv-bfh-e12w49 -force_enable_epicEOS -force_enable_eos_sdk -nofullscreentutorials -proxylist_port 51000 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking  -uplay_launcher -upc_uat -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode"
       config:
         betakey: eac-release
         osarch: "64"
@@ -642261,7 +642261,45 @@
         oslist: macos
       executable: Robot Mil Mac.app
       type: default
-4054940: {}
+4054940:
+  cloud:
+    saves:
+      - path: DC3 Heroes
+        pattern: "*.dc3hero"
+        root: gameinstall
+      - path: DC3 Replays
+        pattern: "*"
+        root: gameinstall
+      - path: DC3 Custom Levels
+        pattern: "*"
+        root: gameinstall
+    overrides:
+      - addPath: Z Sculpt/Return to Dark Castle/
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - addPath: Z Sculpt/Return to Dark Castle/
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: unity3d/Z Sculpt/Return to Dark Castle/
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxXdgConfigHome
+  installDir: Return to Dark Castle
+  launch:
+    - config:
+        oslist: windows
+      executable: Return to Dark Castle.exe
+    - config:
+        oslist: macos
+      executable: Return to Dark Castle.app
+    - config:
+        oslist: linux
+      executable: Return to Dark Castle.x86_64
 4056560:
   cloud:
     saves:
