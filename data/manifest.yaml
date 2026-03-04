@@ -337764,18 +337764,29 @@ Homo Flimsy:
   steam:
     id: 876270
 Homura Hime:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime/**/*.*":
+    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime/**/*.save":
       when:
         - store: steam
+    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime/*.metadata":
+      when:
+        - store: steam
+  id:
+    lutris: homura-hime
+    steamExtra:
+      - 4459880
   installDir:
-    Homura Hime Demo: {}
+    Homura Hime: {}
   launch:
     "<base>/HomuraHime.exe":
       - when:
-          - store: steam
+          - bit: 64
+            os: windows
+            store: steam
   steam:
-    id: 3201470
+    id: 1820000
 Honey Comb Home:
   steam:
     id: 1020810
@@ -365909,6 +365920,7 @@ JDM Tuner Racing:
     steamExtra:
       - 3749550
       - 4054180
+      - 4449300
   installDir:
     JDM: {}
   steam:
@@ -454993,6 +455005,10 @@ Monument Builders - Alcatraz:
         - save
       when:
         - os: windows
+  id:
+    lutris: monument-valley-2
+    steamExtra:
+      - 3864510
   installDir:
     Monument Valley 2: {}
   launch:
@@ -455054,6 +455070,10 @@ Monument Valley 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: monument-valley
+    steamExtra:
+      - 3864500
   installDir:
     Monument Valley: {}
   launch:
@@ -569203,6 +569223,10 @@ Resident Evil Requiem:
         - store: steam
   id:
     lutris: resident-evil-requiem
+    steamExtra:
+      - 3990800
+      - 3990820
+      - 4460240
   installDir:
     RESIDENT EVIL requiem BIOHAZARD requiem: {}
   launch:

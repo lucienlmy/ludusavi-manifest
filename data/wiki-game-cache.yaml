@@ -108811,8 +108811,13 @@ Homo Flimsy:
   pageId: 99926
   steam: 876270
 Homura Hime:
+  cloud:
+    steam: true
+  lutris: homura-hime
   pageId: 210599
-  steam: 3201470
+  steam: 1820000
+  steamSide:
+    - 4459880
 Honey Comb Home:
   pageId: 127233
   steam: 1020810
@@ -117810,6 +117815,7 @@ JDM Tuner Racing:
   steamSide:
     - 3749550
     - 4054180
+    - 4449300
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\JDM\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\JDM\\Saved\\SaveGames\\}}"
@@ -146950,8 +146956,11 @@ Monument Builders - Alcatraz:
   cloud:
     epic: true
     steam: true
+  lutris: monument-valley-2
   pageId: 179261
   steam: 1927740
+  steamSide:
+    - 3864510
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley 2\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley 2\\UserData_{{p|uid}}\\}}"
@@ -146971,8 +146980,11 @@ Monument Valley 3:
   cloud:
     epic: true
     steam: true
+  lutris: monument-valley
   pageId: 179258
   steam: 1927720
+  steamSide:
+    - 3864500
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\Monument Valley\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\Monument Valley\\UserData_{{P|uid}}\\user_data.sav}}"
@@ -184061,6 +184073,10 @@ Resident Evil Requiem:
   lutris: resident-evil-requiem
   pageId: 205193
   steam: 3764200
+  steamSide:
+    - 3990800
+    - 3990820
+    - 4460240
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"

@@ -584201,6 +584201,29 @@
     - config:
         oslist: windows
       executable: Koa.exe
+1820000:
+  cloud:
+    saves:
+      - path: CrimsonDusk/HomuraHime
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: CrimsonDusk/HomuraHime
+        pattern: "*.metadata"
+        root: WinAppDataLocalLow
+  installDir: Homura Hime
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: "<Windows>"
+      executable: HomuraHime.exe
+      type: default
+  nameLocalized:
+    english: Homura Hime
+    japanese: 炎姫
+    schinese: 炎姬
+    tchinese: 炎姬
 1820140:
   installDir: SlavicPunk Oldtimer
   launch:
