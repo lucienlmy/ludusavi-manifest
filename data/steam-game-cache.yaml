@@ -96782,10 +96782,10 @@
       executable: RainbowSix.exe
       type: none
   nameLocalized:
-    japanese: "レインボーシックス シージ エックス "
-    koreana: 톰 클랜시의 레인보우식스 시즈 X
-    schinese: 彩虹六号：围攻X
-    tchinese: 《虹彩六號：圍攻行動 X》
+    japanese: レインボーシックス シージ
+    koreana: 톰 클랜시의 레인보우식스 시즈
+    schinese: 彩虹六号：围攻
+    tchinese: 《虹彩六號：圍攻行動》
 359560:
   installDir: Shutter
   launch:
