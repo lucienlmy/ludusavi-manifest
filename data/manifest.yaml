@@ -198950,6 +198950,67 @@ Doc Apocalypse:
   steam:
     id: 57800
 Docked:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Saber/Docked/0":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/1":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/2":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/4":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/5":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/6":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/7":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/8":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/9":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Saber/Docked/ProfileCloud.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: docked
+    steamExtra:
+      - 4010800
+      - 4227140
+      - 4227150
+      - 4227160
+      - 4227170
+  installDir:
+    Docked: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
   steam:
     id: 2487300
 Doctor Flow:
@@ -255650,6 +255711,17 @@ Fatal Fight:
 "Fatal Frame II: Crimson Butterfly Remake":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/KoeiTecmo/FatalFrameII/Savedata/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/KoeiTecmo/FatalFrameII/Savedata/graphics_option.json":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: fatal-frame-ii-crimson-butterfly-remake
   steam:
@@ -337778,12 +337850,12 @@ Homura Hime:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime/**/*.save":
+    "<home>/AppData/LocalLow/Crimson Wings":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime/*.metadata":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: homura-hime
     steamExtra:
@@ -427479,6 +427551,13 @@ Marathon (2026):
         - config
       when:
         - os: windows
+  installDir:
+    Marathon: {}
+  launch:
+    "<base>/MarathonLauncher.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3065800
 "Marathon 2: Durandal":
@@ -477127,6 +477206,24 @@ Never Give Up!:
   steam:
     id: 555320
 "Never Grave: The Witch and The Curse":
+  cloud:
+    steam: true
+  files:
+    "<base>/Save/*.dat":
+      when:
+        - store: steam
+  id:
+    lutris: never-grave-the-witch-and-the-curse
+    steamExtra:
+      - 4268000
+      - 4384400
+  installDir:
+    NeverGrave: {}
+  launch:
+    "<base>/NeverGrave.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2395770
 Never Let Me Awake:
@@ -522451,11 +522548,19 @@ Pion:
     id: 667550
 Pioneers of Pagonia:
   cloud:
+    gog: true
     steam: true
+  gog:
+    id: 1094761599
   id:
+    gogExtra:
+      - 1190088237
+      - 2018186901
+      - 2083144874
     steamExtra:
       - 2717840
       - 2721120
+      - 4351430
   installDir:
     Pioneers of Pagonia: {}
   launch:
@@ -527023,8 +527128,26 @@ Planet of Lana:
 Planet of Lana II:
   cloud:
     steam: true
+  files:
+    "<home>/.config/unity3d/Wishfully/Planet of Lana 2/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Wishfully/Planet of Lana 2/*.sav":
+      when:
+        - store: steam
+  gog:
+    id: 1486363776
   id:
     lutris: planet-of-lana-ii-children-of-the-leaf
+    steamExtra:
+      - 4349060
+  installDir:
+    Planet of Lana 2: {}
+  launch:
+    "<base>/Planet of Lana 2.exe":
+      - when:
+          - store: steam
   steam:
     id: 2997230
 Planet of Mubu:
@@ -529913,6 +530036,18 @@ Poker Night at the Inventory:
 Poker Night at the Inventory (2026):
   cloud:
     steam: true
+  files:
+    "<winDocuments>/Skunkape Games/Poker Night at the Inventory/*.bundle":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Poker Night at the Inventory Remastered: {}
+  launch:
+    "<base>/CelebrityPoker.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3897800
 "Poker Pretty Girls Battle: Texas Hold'em":
@@ -569335,6 +569470,12 @@ Resident Evil Zero HD Remaster:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/GOG.com/Galaxy/Applications/58342960733154355/Storage/Shared/Files":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
   gog:
     id: 1612002354
   id:
@@ -601516,6 +601657,17 @@ Scotophobia:
 Scott Pilgrim EX:
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2640950/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winDocuments>/Tribute Games/ScottPilgrim/Settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: scott-pilgrim-ex
   installDir:
@@ -778107,6 +778259,50 @@ Turnip Boy Robs a Bank:
       when:
         - os: windows
           store: microsoft
+    "<winLocalAppData>/turnip2/epic/progress.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/turnip2/epic/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/turnip2/epic/save_old.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/turnip2/epic/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/turnip2/steam/progress.json":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/turnip2/steam/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/turnip2/steam/save_old.json":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/turnip2/steam/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1962176043
   installDir:

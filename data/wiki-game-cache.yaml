@@ -5811,6 +5811,7 @@ Act of Aggression:
   gogSide:
     - 1427704829
   lutris: act-of-war-high-treason
+  malformed: true
   pageId: 17276
   steam: 9760
   templates:
@@ -16182,6 +16183,7 @@ Ashes of Immortality:
 Ashes of Immortality II:
   cloud:
     steam: true
+  malformed: true
   pageId: 46653
   steam: 362140
 "Ashes of Immortality II: Bad Blood":
@@ -63870,8 +63872,19 @@ Doc Apocalypse:
     - "{{Game data/config|Windows|{{p|appdata}}\\DocClockGame\\Settings.txt}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/57800/local/}}"
 Docked:
+  cloud:
+    epic: true
+    steam: true
+  lutris: docked
+  malformed: true
   pageId: 207069
   steam: 2487300
+  steamSide:
+    - 4010800
+    - 4227140
+    - 4227150
+    - 4227160
+    - 4227170
 Doctor Flow:
   cloud:
     steam: true
@@ -82451,6 +82464,9 @@ Fatal Fight:
   lutris: fatal-frame-ii-crimson-butterfly-remake
   pageId: 208286
   steam: 3920610
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/graphics_option.json}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/{{P|uid}}/}}"
 "Fatal Frame: Maiden of Black Water":
   cloud:
     steam: true
@@ -108826,6 +108842,9 @@ Homura Hime:
   steam: 1820000
   steamSide:
     - 4459880
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Crimson Wings}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Crimson Wings}}"
 Honey Comb Home:
   pageId: 127233
   steam: 1020810
@@ -154222,8 +154241,15 @@ Never Give Up!:
   pageId: 55710
   steam: 555320
 "Never Grave: The Witch and The Curse":
+  cloud:
+    steam: true
+    xbox: true
+  lutris: never-grave-the-witch-and-the-curse
   pageId: 192735
   steam: 2395770
+  steamSide:
+    - 4268000
+    - 4384400
 Never Let Me Awake:
   pageId: 135125
   steam: 1067450
@@ -169177,12 +169203,19 @@ Pion:
   steam: 667550
 Pioneers of Pagonia:
   cloud:
+    gog: true
     steam: true
+  gog: 1094761599
+  gogSide:
+    - 1190088237
+    - 2018186901
+    - 2083144874
   pageId: 191800
   steam: 2155180
   steamSide:
     - 2717840
     - 2721120
+    - 4351430
 Pioner:
   lutris: pioner
   pageId: 202703
@@ -170659,9 +170692,12 @@ Planet of Lana II:
   cloud:
     steam: true
     xbox: true
+  gog: 1486363776
   lutris: planet-of-lana-ii-children-of-the-leaf
   pageId: 213481
   steam: 2997230
+  steamSide:
+    - 4349060
 Planet of Mubu:
   pageId: 60097
   steam: 602170
@@ -184165,6 +184201,7 @@ Resident Evil Zero HD Remaster:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CAPCOM\\RESIDENT EVIL 0 HD REMASTER\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\339340\\remote\\}}"
+    - "{{Game data/config|GOG.com|{{P|localappdata}}\\GOG.com\\Galaxy\\Applications\\58342960733154355\\Storage\\Shared\\Files}}"
 "Resident Evil: Operation Raccoon City":
   pageId: 2208
   steam: 209100
@@ -194557,6 +194594,9 @@ Scott Pilgrim EX:
   lutris: scott-pilgrim-ex
   pageId: 209990
   steam: 2640950
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Tribute Games\\ScottPilgrim\\Settings.cfg}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2640950\\remote}}"
 "Scott Pilgrim vs. The World: The Game":
   pageId: 163313
   renamedFrom:
@@ -252069,6 +252109,10 @@ Turnip Boy Robs a Bank:
   pageId: 184635
   steam: 2097230
   templates:
+    - "{{Game data/config|Epic Games Launcher|{{P|localappdata}}\\turnip2\\epic\\settings.json}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\turnip2\\steam\\settings.json}}"
+    - "{{Game data/saves|Epic Games Launcher|{{P|localappdata}}\\turnip2\\epic\\progress.json|{{P|localappdata}}\\turnip2\\epic\\save.json|{{P|localappdata}}\\turnip2\\epic\\save_old.json}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\turnip2\\steam\\progress.json|{{P|localappdata}}\\turnip2\\steam\\save.json|{{P|localappdata}}\\turnip2\\steam\\save_old.json}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\GraffitiGames.TurnipBoyRobsaBank_zs4fqap7s3pxa\\SystemAppData\\wgs}}"
 Turnover:
   cloud:

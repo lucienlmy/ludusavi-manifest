@@ -614235,6 +614235,16 @@
       executable: launch.sh
       type: default
 2395770:
+  cloud:
+    saves:
+      - path: Save
+        pattern: "*.dat"
+        root: gameinstall
+  installDir: NeverGrave
+  launch:
+    - config:
+        oslist: windows
+      executable: NeverGrave.exe
   nameLocalized:
     schinese: "不寐之境:女巫与魔咒"
     tchinese: "不寐之境:女巫與魔咒"
@@ -618438,7 +618448,77 @@
   nameLocalized:
     schinese: 拆解大师
     tchinese: 拆解大师
-2487300: {}
+2487300:
+  cloud:
+    saves:
+      - path: Saber/Docked
+        pattern: ProfileCloud.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "0"
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "9"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "1"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "2"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "3"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "4"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "5"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "6"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "7"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Saber/Docked
+        pattern: "8"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Docked
+  launch:
+    - executable: Game.exe
+    - config:
+        betakey: external-review
+      description: Raсing preset - Triggers throttle
+      executable: input_3/game.exe
+    - config:
+        betakey: external-review
+      description: Arcade - Left stick throttle
+      executable: input_1/game.exe
+    - config:
+        betakey: external-review
+      description: Arcade - Camera free and Left stick throttle
+      executable: input_2/game.exe
 2487350:
   cloud:
     saves:
@@ -631389,7 +631469,23 @@
     portuguese: " Império das Formigas (2000)"
     spanish: " El Imperio de las Hormigas (2000)"
 2996790: {}
-2997230: {}
+2997230:
+  cloud:
+    saves:
+      - path: Wishfully/Planet of Lana 2
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Wishfully/Planet of Lana 2
+            replace: ".config/unity3d/Wishfully/Planet of Lana 2"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Planet of Lana 2
+  launch:
+    - executable: Planet of Lana 2.exe
 2998600:
   cloud:
     saves:
@@ -633087,6 +633183,12 @@
       executable: Strategos.exe
       type: default
 3065800:
+  installDir: Marathon
+  launch:
+    - config:
+        oslist: windows
+      executable: MarathonLauncher.exe
+      type: default
   nameLocalized:
     koreana: 마라톤
     schinese: 失落星船：马拉松
@@ -641878,7 +641980,20 @@
     english: Conquer the Tower
     schinese: 登上自由解放之塔
 3897690: {}
-3897800: {}
+3897800:
+  cloud:
+    saves:
+      - path: Skunkape Games/Poker Night at the Inventory
+        pattern: "*.bundle"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+  installDir: Poker Night at the Inventory Remastered
+  launch:
+    - config:
+        oslist: windows
+      executable: CelebrityPoker.exe
+      type: default
 3903490:
   cloud:
     saves:
