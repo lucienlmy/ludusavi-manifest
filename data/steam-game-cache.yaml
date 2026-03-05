@@ -642529,6 +642529,7 @@
   launch:
     - executable: start_protected_game.exe
       type: default
+4138130: {}
 4144090: {}
 4144680: {}
 4146000: {}

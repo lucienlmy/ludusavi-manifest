@@ -27304,6 +27304,9 @@ Blackout Rugby Manager:
 "Blackout: The Darkest Night":
   pageId: 122732
   steam: 875400
+Blackroots:
+  pageId: 214304
+  steam: 4138130
 "Blacksad: Under the Skin":
   cloud:
     gog: true
@@ -44149,8 +44152,8 @@ Code World:
   lutris: code-of-honor-the-french-foreign-legion
   pageId: 191785
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\Data\\}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\Save\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\Data}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Save}}"
 Code of Princess:
   cloud:
     steam: true
@@ -55133,6 +55136,8 @@ Darklands:
   templates:
     - "{{Game data/config|DOS|{{P|game}}\\DARKLAND.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVES}}"
+Darklight Conflict:
+  pageId: 214301
 Darkness Ahead:
   pageId: 52584
   steam: 547710
@@ -82443,6 +82448,7 @@ Fatal Fight:
 "Fatal Frame II: Crimson Butterfly Remake":
   cloud:
     steam: true
+  lutris: fatal-frame-ii-crimson-butterfly-remake
   pageId: 208286
   steam: 3920610
 "Fatal Frame: Maiden of Black Water":
@@ -127750,6 +127756,9 @@ Legacy:
     - 4134770
     - 4134780
     - 4230170
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Legacy of Kain - Defiance}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Legacy of Kain - Defiance}}"
 "Legacy of Kain: Soul Reaver":
   cloud:
     gog: true
@@ -127762,6 +127771,7 @@ Legacy:
     - "{{Game data/saves|Windows|{{P|game}}\\savegame.her}}"
 "Legacy of Kain: Soul Reaver 1 & 2 Remastered":
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1214553287
@@ -226353,8 +226363,8 @@ Terrorist Takedown 3:
   lutris: terrorist-takedown-3
   pageId: 176253
   templates:
-    - "{{Game data/config|Windows|{{p|public}}\\Documents\\City Interactive\\Terrorist Takedown 3\\}}"
-    - "{{Game data/saves|Windows|{{p|public}}\\Documents\\City Interactive\\Terrorist Takedown 3\\save\\}}"
+    - "{{Game data/config|Windows|{{p|public}}\\Documents\\City Interactive\\Terrorist Takedown 3}}"
+    - "{{Game data/saves|Windows|{{p|public}}\\Documents\\City Interactive\\Terrorist Takedown 3\\save}}"
 "Terrorist Takedown: Covert Operations":
   pageId: 176247
   templates:
@@ -232475,8 +232485,8 @@ The Heist:
 The Hell in Vietnam:
   pageId: 191779
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\Data\\}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\Save\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\Data}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Save}}"
 The Henry Stickmin Collection:
   cloud:
     steam: true

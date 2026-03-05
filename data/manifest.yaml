@@ -84597,6 +84597,9 @@ Blackout Rugby Manager:
             store: steam
   steam:
     id: 875400
+Blackroots:
+  steam:
+    id: 4138130
 "Blacksad: Under the Skin":
   cloud:
     gog: true
@@ -255647,6 +255650,8 @@ Fatal Fight:
 "Fatal Frame II: Crimson Butterfly Remake":
   cloud:
     steam: true
+  id:
+    lutris: fatal-frame-ii-crimson-butterfly-remake
   steam:
     id: 3920610
 "Fatal Frame: Maiden of Black Water":
@@ -396074,26 +396079,12 @@ Leftovers KO!:
     gog: true
     steam: true
   files:
-    "<home>/Saved Games/Legacy of Kain - Defiance/autosave.dat":
+    "<home>/Saved Games/Legacy of Kain - Defiance":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Saved Games/Legacy of Kain - Defiance/key_binding.dat":
-      when:
-        - os: windows
-          store: steam
-    "<home>/Saved Games/Legacy of Kain - Defiance/pad_binding.dat":
-      when:
-        - os: windows
-          store: steam
-    "<home>/Saved Games/Legacy of Kain - Defiance/profile.dat":
-      when:
-        - os: windows
-          store: steam
-    "<home>/Saved Games/Legacy of Kain - Defiance/save*.dat":
-      when:
-        - os: windows
-          store: steam
   gog:
     id: 1818228492
   id:
@@ -396140,6 +396131,7 @@ Leftovers KO!:
     id: 224920
 "Legacy of Kain: Soul Reaver 1 & 2 Remastered":
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
