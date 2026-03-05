@@ -23513,6 +23513,10 @@ Age of Empires IV:
   steam:
     id: 1466860
 Age of Empires Mobile:
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Timi/AoE:
+      tags:
+        - config
   steam:
     id: 2783360
 Age of Empires Online:
@@ -501934,6 +501938,8 @@ Otherskin:
         - save
       when:
         - os: windows
+  id:
+    lutris: otherskin
   installDir:
     Otherskin: {}
   launch:
@@ -561904,6 +561910,18 @@ Rebel Galaxy Outlaw:
         - config
   steam:
     id: 1088790
+"Rebel Raiders: Operation Nighthawk":
+  files:
+    "<base>/Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/config.xml":
+      tags:
+        - config
+      when:
+        - os: windows
 Rebel Wings:
   installDir:
     Rebel Wings: {}
@@ -569457,17 +569475,16 @@ Resident Evil Zero HD Remaster:
     id: 287290
 Residual:
   files:
-    "<home>/Library/Application Support/residual/*.*":
+    "<winAppData>/residual":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-    "<winAppData>/residual/*.*":
+        - os: windows
+    "<winAppData>/residual/config.prefs":
+      tags:
+        - config
       when:
-        - store: steam
-    "<xdgConfig>/residual/*.*":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   gog:
     id: 1688702977
   id:
@@ -654859,6 +654876,8 @@ Star General:
         - os: windows
   gog:
     id: 1634382231
+  id:
+    lutris: star-general
   installDir:
     Star General: {}
   launch:

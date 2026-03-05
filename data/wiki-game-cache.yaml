@@ -7453,6 +7453,8 @@ Age of Empires IV:
 Age of Empires Mobile:
   pageId: 211939
   steam: 2783360
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Timi\\AoE}}"
 Age of Empires Online:
   lutris: age-of-empires-online
   pageId: 1952
@@ -160966,6 +160968,8 @@ OnsenVR:
 Onset:
   pageId: 142178
   steam: 1105810
+Onslaught:
+  pageId: 214285
 Onslaught VR:
   pageId: 89644
   steam: 801390
@@ -162312,6 +162316,7 @@ Otherland:
 Otherskin:
   cloud:
     steam: true
+  lutris: otherskin
   pageId: 207951
   steam: 1622630
   templates:
@@ -181696,6 +181701,9 @@ Rebel Moon Rising:
   pageId: 131317
 "Rebel Raiders: Operation Nighthawk":
   pageId: 213571
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.xml}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles}}"
 "Rebel Runner - Operation: Digital Code":
   pageId: 210885
 Rebel Wings:
@@ -184200,6 +184208,9 @@ Residual:
   steam: 1290780
   steamSide:
     - 1314610
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\residual\\config.prefs}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\residual}}"
 "Residue: Final Cut":
   cloud:
     steam: true
@@ -211518,6 +211529,7 @@ Star General:
     gog: true
     steam: true
   gog: 1634382231
+  lutris: star-general
   pageId: 177933
   steam: 2414340
   templates:
@@ -247774,6 +247786,8 @@ Trace Vector:
 Trace of the past:
   pageId: 144347
   steam: 1115060
+Track Attack:
+  pageId: 214287
 TrackMania (2003):
   lutris: trackmania
   pageId: 18292
