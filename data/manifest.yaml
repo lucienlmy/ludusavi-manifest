@@ -118751,6 +118751,8 @@ Cat Named Mojave:
           store: steam
         - os: linux
           store: steam
+  gog:
+    id: 1505260076
   id:
     lutris: cat-named-mojave
   installDir:
@@ -378727,6 +378729,9 @@ Khaos Wind:
             store: steam
   steam:
     id: 970760
+KharkivVision 2035:
+  steam:
+    id: 4277630
 "Kharon's Crypt - Even Death May Die":
   files:
     "<winLocalAppData>/KharonsCrypt_Even_Death_May_Die/*.ini":
@@ -527129,13 +527134,16 @@ Planet of Lana II:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Wishfully/Planet of Lana 2/*.sav":
-      when:
-        - os: linux
-          store: steam
     "<home>/AppData/LocalLow/Wishfully/Planet of Lana 2/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Wishfully/Planet of Lana 2/settings":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1486363776
   id:
@@ -527148,6 +527156,10 @@ Planet of Lana II:
     "<base>/Planet of Lana 2.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Wishfully/Planet of Lana 2:
+      tags:
+        - config
   steam:
     id: 2997230
 Planet of Mubu:
@@ -530037,7 +530049,7 @@ Poker Night at the Inventory (2026):
   cloud:
     steam: true
   files:
-    "<winDocuments>/Skunkape Games/Poker Night at the Inventory/*.bundle":
+    "<winDocuments>/Skunkape Games/Poker Night at the Inventory Remastered/*.bundle":
       when:
         - os: windows
           store: steam
@@ -628650,6 +628662,25 @@ Slay the Spire:
   steam:
     id: 646570
 Slay the Spire 2:
+  cloud:
+    steam: true
+  id:
+    lutris: slay-the-spire-ii
+  installDir:
+    Slay the Spire 2: {}
+  launch:
+    "<base>/SlayTheSpire2":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/SlayTheSpire2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SlayTheSpire2.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2868840
 Slay.one:

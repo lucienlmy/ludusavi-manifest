@@ -38211,6 +38211,7 @@ Cat Meat:
 Cat Named Mojave:
   cloud:
     steam: true
+  gog: 1505260076
   lutris: cat-named-mojave
   pageId: 211903
   steam: 3597880
@@ -122036,6 +122037,9 @@ Khan VS Kahn:
 Khaos Wind:
   pageId: 122822
   steam: 970760
+KharkivVision 2035:
+  pageId: 214316
+  steam: 4277630
 "Kharon's Crypt - Even Death May Die":
   pageId: 154277
   steam: 793830
@@ -170698,6 +170702,9 @@ Planet of Lana II:
   steam: 2997230
   steamSide:
     - 4349060
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Wishfully\\Planet of Lana 2\\|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana 2\\settings}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana 2\\*.sav}}"
 Planet of Mubu:
   pageId: 60097
   steam: 602170
@@ -203165,6 +203172,9 @@ Slay the Spire:
     - "{{Game data/saves|OS X|{{P|game}}/SlayTheSpire.app/Contents/Resources/betaPreferences/|{{P|game}}/SlayTheSpire.app/Contents/Resources/preferences/|{{P|game}}/SlayTheSpire.app/Contents/Resources/runs/|{{P|game}}/SlayTheSpire.app/Contents/Resources/saves/}}"
     - "{{Game data/saves|Linux|{{p|game}}/betaPreferences/|{{p|game}}/preferences/|{{p|game}}/runs/|{{p|game}}/saves/}}"
 Slay the Spire 2:
+  cloud:
+    steam: true
+  lutris: slay-the-spire-ii
   pageId: 194315
   steam: 2868840
 Slay.one:
