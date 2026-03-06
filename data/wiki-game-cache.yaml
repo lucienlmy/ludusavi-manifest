@@ -37246,8 +37246,11 @@ Carmageddon TDR 2000:
 "Carmageddon: Rogue Shift":
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1083038978
+  gogSide:
+    - 1555330007
   pageId: 211700
   steam: 1712100
   templates:
@@ -144555,6 +144558,7 @@ Minions Battle:
 Minishoot Adventures:
   cloud:
     steam: true
+    xbox: true
   pageId: 199570
   steam: 1634860
   templates:
@@ -221510,6 +221514,8 @@ Switch Galaxy Ultra:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Atomicom\\Switch Galaxy\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Atomicom\\Switch Galaxy\\savedata-*.dat}}"
+Switchball:
+  pageId: 214348
 Switchblade:
   gog: 1880203859
   pageId: 174482

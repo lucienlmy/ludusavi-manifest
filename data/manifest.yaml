@@ -115892,6 +115892,7 @@ Carmageddon TDR 2000:
 "Carmageddon: Rogue Shift":
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Carma/Saved/Config/Windows":
@@ -115907,6 +115908,9 @@ Carmageddon TDR 2000:
           store: steam
   gog:
     id: 1083038978
+  id:
+    gogExtra:
+      - 1555330007
   installDir:
     Carmageddon: {}
   launch:
@@ -349395,6 +349399,12 @@ IRacing Arcade:
         - config
       when:
         - os: windows
+  installDir:
+    iRacing Arcade: {}
+  launch:
+    "<base>/iracing-arcade.exe":
+      - when:
+          - store: steam
   steam:
     id: 3226450
 IS -Infinite Stratos- Versus Colors:
@@ -447694,6 +447704,18 @@ Minishoot Adventures:
         - save
       when:
         - os: windows
+  installDir:
+    "Minishoot' Adventures": {}
+  launch:
+    "<base>/Contents/MacOS/Minishoot":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Windows/Minishoot.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1634860
 Ministry of Broadcast:

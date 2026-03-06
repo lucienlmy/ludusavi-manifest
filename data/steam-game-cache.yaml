@@ -515501,6 +515501,7 @@
       executable: "Little Kitty, Big City.exe"
       type: none
   nameLocalized:
+    japanese: リトルキティ・ビッグシティ
     schinese: "小猫咪大城市 Little Kitty, Big City"
     tchinese: "小貓咪大城市 Little Kitty, Big City"
 1178000:
@@ -570605,7 +570606,42 @@
       executable: B_17Launcher.exe
       type: config
 1634860:
+  cloud:
+    saves:
+      - path: SoulGame/Minishoot
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+      - path: SoulGame/Minishoot
+        pattern: "*.es3.bac"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SoulGame/Minishoot
+            replace: com.SoulGame.Minishoot
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: SoulGame/Minishoot
+            replace: ".config/unity3d/SoulGame/Minishoot"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: "Minishoot' Adventures"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Windows\\Minishoot.exe"
+      type: default
+    - config:
+        oslist: macos
+      executable: "Contents\\MacOS\\Minishoot"
+      type: default
   nameLocalized:
+    sc_schinese: 小飞船大冒险
     schinese: "小飞船大冒险 Minishoot' Adventures"
 1635590:
   cloud:
@@ -635351,7 +635387,11 @@
     russian: Ларек на улице Ленина
     schinese: 列宁街小摊
 3226360: {}
-3226450: {}
+3226450:
+  installDir: iRacing Arcade
+  launch:
+    - executable: iracing-arcade.exe
+      type: default
 3226460:
   installDir: Scar-Lead Salvation
   launch:
