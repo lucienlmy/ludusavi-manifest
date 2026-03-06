@@ -198956,49 +198956,11 @@ Docked:
     epic: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Saber/Docked/0":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/1":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/2":
+    "<home>/AppData/LocalLow/Saber/Docked":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/3":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/4":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/5":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/6":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/7":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/8":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/9":
-      when:
-        - os: windows
-          store: steam
-    "<home>/AppData/LocalLow/Saber/Docked/ProfileCloud.sav":
-      when:
-        - os: windows
-          store: steam
   id:
     lutris: docked
     steamExtra:
@@ -199013,6 +198975,10 @@ Docked:
     "<base>/Game.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Saber/Docked:
+      tags:
+        - config
   steam:
     id: 2487300
 Doctor Flow:
@@ -287045,6 +287011,14 @@ Gangs of Sherwood:
     "<winLocalAppData>/Hood/Saved/SaveGames/**/*.sav":
       when:
         - store: steam
+  id:
+    lutris: gangs-of-sherwood
+    steamExtra:
+      - 2394540
+      - 2394550
+      - 2432270
+      - 2432271
+      - 2432272
   installDir:
     GangsOfSherwood: {}
   launch:
@@ -559194,8 +559168,6 @@ Rayman Jungle Run:
   id:
     lutris: rayman-jungle-run
 Rayman Legends:
-  cloud:
-    uplay: true
   files:
     "<winDocuments>/Rayman Legends":
       tags:
@@ -587278,6 +587250,9 @@ Ruiner:
   id:
     gogExtra:
       - 1290892976
+    lutris: ruiner
+    steamExtra:
+      - 721620
   installDir:
     RUINER: {}
   launch:
@@ -587291,6 +587266,9 @@ Ruiner:
             store: steam
   steam:
     id: 464060
+Ruiner 2:
+  steam:
+    id: 2936810
 Ruinic:
   steam:
     id: 984980
@@ -781573,7 +781551,7 @@ USAGIRI:
     id: 1574870
 USS Darkstar:
   files:
-    "<base>/Half-Life/darkstar/SAVE":
+    "<base>/darkstar/SAVE":
       tags:
         - save
       when:

@@ -525864,14 +525864,32 @@
 1205450:
   cloud:
     saves:
-      - path: Snoozy Kazoo/Turnip Boy Commits Tax Evasion
+      - path: ""
         pattern: "*"
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-      - path: SavesDir
-        pattern: "*.sav"
+        recursive: true
         root: gameinstall
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: Snoozy Kazoo/Turnip Boy Commits Tax Evasion/
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: Snoozy Kazoo/Turnip Boy Commits Tax Evasion/
+        root: gameinstall
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: unity3d/Snoozy Kazoo/Turnip Boy Commits Tax Evasion/
+        root: gameinstall
+        useInstead: LinuxXdgConfigHome
   installDir: Turnip Boy Commits Tax Evasion
   launch:
     - config:
@@ -630452,6 +630470,7 @@
   installDir: ReSetna
   launch:
     - executable: ReSetna.exe
+2936810: {}
 2937110: {}
 2938840:
   installDir: The Trials 2

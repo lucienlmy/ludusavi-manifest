@@ -63877,7 +63877,6 @@ Docked:
     epic: true
     steam: true
   lutris: docked
-  malformed: true
   pageId: 207069
   steam: 2487300
   steamSide:
@@ -63886,6 +63885,9 @@ Docked:
     - 4227150
     - 4227160
     - 4227170
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Saber\\Docked}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Saber\\Docked}}"
 Doctor Flow:
   cloud:
     steam: true
@@ -92358,8 +92360,15 @@ Gangland:
 Gangs of Sherwood:
   cloud:
     steam: true
+  lutris: gangs-of-sherwood
   pageId: 193704
   steam: 1351000
+  steamSide:
+    - 2394540
+    - 2394550
+    - 2432270
+    - 2432271
+    - 2432272
 Gangs of Space:
   pageId: 67175
   steam: 504300
@@ -180765,8 +180774,6 @@ Rayman Jungle Run:
     - "{{Game data/saves|Ubisoft Connect|{{p|uplay}}\\savegames\\{{p|uid}}\\5850\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\UbisoftEntertainment.RaymanJungleRun_dbgk1hhpxymar}}"
 Rayman Legends:
-  cloud:
-    uplay: true
   lutris: rayman-legends
   pageId: 9414
   steam: 242550
@@ -189962,14 +189969,20 @@ Ruiner:
   gog: 1637928515
   gogSide:
     - 1290892976
+  lutris: ruiner
   pageId: 39584
   steam: 464060
+  steamSide:
+    - 721620
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Ruiner\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/Epic/Ruiner/Saved/Config/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Ruiner\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DevolverDigital.Ruiner_6kzv4j18v0c96\\SystemAppData\\wgs\\000900000254A507_ECED0100ED114094AF25077B0598D10C\\8FC1BBA561974E9EAAD4526E5963654A\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Epic/Ruiner/Saved/SaveGames/}}"
+Ruiner 2:
+  pageId: 214335
+  steam: 2936810
 Ruinic:
   pageId: 157400
   renamedFrom:
@@ -253160,7 +253173,7 @@ USS Darkstar:
   lutris: uss-darkstar
   pageId: 206183
   templates:
-    - "{{Game data/saves|Windows|{{P|game}}\\Half-Life\\darkstar\\SAVE\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\darkstar\\SAVE\\}}"
 USSR 2021:
   pageId: 132739
   steam: 645210
