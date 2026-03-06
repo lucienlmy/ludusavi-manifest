@@ -224473,6 +224473,11 @@ Echoes of Aetheria:
             store: steam
   steam:
     id: 354740
+Echoes of Aincrad:
+  cloud:
+    steam: true
+  steam:
+    id: 2244210
 "Echoes of War: The Last Heartbeat":
   installDir:
     Echoes of War The Last Heartbeat: {}
@@ -827805,6 +827810,7 @@ Work girl打工妹日记:
       - 1748804900
       - 1967593597
       - 2075486692
+    lutris: workers-resources-soviet-republic
     steamExtra:
       - 1948180
       - 2499360

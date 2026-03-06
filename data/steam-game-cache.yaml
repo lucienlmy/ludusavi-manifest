@@ -608583,6 +608583,11 @@
     - config:
         oslist: macos
       executable: Ratopia.app
+2244210:
+  nameLocalized:
+    koreana: 에코스 오브 아인크라드
+    schinese: 艾恩葛朗特 回荡新声
+    tchinese: 艾恩葛朗特 迴盪新聲
 2244480:
   cloud:
     saves:

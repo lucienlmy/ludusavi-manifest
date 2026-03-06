@@ -72072,6 +72072,11 @@ Echoes of Aetheria:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Echoes of Aetheria}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Echoes of Aetheria}}"
+Echoes of Aincrad:
+  cloud:
+    steam: true
+  pageId: 214337
+  steam: 2244210
 "Echoes of War: The Last Heartbeat":
   pageId: 102409
   steam: 786710
@@ -268511,6 +268516,7 @@ Work girl打工妹日记:
     - 1748804900
     - 1967593597
     - 2075486692
+  lutris: workers-resources-soviet-republic
   pageId: 95089
   steam: 784150
   steamSide:
