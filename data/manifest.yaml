@@ -260883,8 +260883,6 @@ Final Fantasy VII:
         - save
       when:
         - os: windows
-  gog:
-    id: 1698970154
   id:
     lutris: final-fantasy-vii
   registry:
@@ -438341,9 +438339,26 @@ Menace (2026):
     gog: true
     steam: true
   files:
+    "<home>/AppData/LocalLow/Overhype Studios/Menace/Galaxy/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<home>/AppData/LocalLow/Overhype Studios/Menace/Galaxy/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
     "<home>/AppData/LocalLow/Overhype Studios/Menace/Saves":
       tags:
         - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Overhype Studios/Menace/settings.cfg":
+      tags:
+        - config
       when:
         - os: windows
   gog:
@@ -814768,21 +814783,22 @@ We Were Here:
         - save
       when:
         - os: windows
-    "<base>/Saves/GraphicsOptionsModel.binary":
+        - os: mac
+    "<base>/We Were Here.app/Contents/Resources/Data/StreamingAssets/WeWereHere.ini":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<base>/We Were Here_Data/StreamingAssets/WeWereHere.ini":
       tags:
         - config
       when:
         - os: windows
-    "<base>/Saves/KeyBindingModel.binary":
+    "<home>/Library/Preferences/com.Total-Mayhem-Games.We-Were-Here.plist":
       tags:
         - config
       when:
-        - os: windows
-    "<base>/Saves/OptionsModel.binary":
-      tags:
-        - config
-      when:
-        - os: windows
+        - os: mac
   id:
     steamExtra:
       - 721410
@@ -830006,6 +830022,13 @@ World to the West:
             store: steam
   steam:
     id: 915610
+"World's Greatest Coasters 3D":
+  files:
+    "<base>/data/setup.bin":
+      tags:
+        - config
+      when:
+        - os: windows
 "World's Nicht":
   installDir:
     Worlds Nicht: {}

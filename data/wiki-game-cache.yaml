@@ -84222,7 +84222,6 @@ Final Fantasy VI (2022):
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VI PR\\Steam\\{{P|uid}}}}"
 Final Fantasy VII:
-  gog: 1698970154
   lutris: final-fantasy-vii
   pageId: 8638
   templates:
@@ -141408,7 +141407,10 @@ Menace (2026):
   steamSide:
     - 2432870
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Overhype Studios\\Menace\\settings.cfg}}"
+    - "{{Game data/config|GOG.com|{{p|userprofile\\appdata\\locallow}}\\Overhype Studios\\Menace\\Galaxy\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Overhype Studios\\Menace\\Saves\\}}"
+    - "{{Game data/saves|GOG.com|{{p|userprofile\\appdata\\locallow}}\\Overhype Studios\\Menace\\Galaxy\\Saves\\}}"
 Mendel:
   pageId: 109418
   steam: 899340
@@ -264427,8 +264429,10 @@ We Were Here:
   steamSide:
     - 721410
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\Saves\\GraphicsOptionsModel.binary|{{P|game}}\\Saves\\KeyBindingModel.binary|{{P|game}}\\Saves\\OptionsModel.binary|{{P|hkcu}}\\Software\\Total Mayhem Games\\We Were Here\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\We Were Here_Data\\StreamingAssets\\WeWereHere.ini|{{P|hkcu}}\\Software\\Total Mayhem Games\\We Were Here\\}}"
+    - "{{Game data/config|OS X|{{p|game}}/We Were Here.app/Contents/Resources/Data/StreamingAssets/WeWereHere.ini|{{p|osxhome}}/Library/Preferences/com.Total-Mayhem-Games.We-Were-Here.plist}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves\\}}"
+    - "{{Game data/saves|OS X|{{P|game}}/Saves/}}"
 "We Were Here Expeditions: The FriendShip":
   cloud:
     steam: true
@@ -269342,6 +269346,10 @@ World to the West:
 "World's Greatest Cities Mosaics":
   pageId: 109806
   steam: 915610
+"World's Greatest Coasters 3D":
+  pageId: 214401
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\data\\setup.bin}}"
 "World's Nicht":
   pageId: 139123
   steam: 1101330
