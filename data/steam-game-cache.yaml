@@ -595815,6 +595815,44 @@
   launch:
     - executable: Highwater.exe
       type: default
+2001070:
+  cloud:
+    saves:
+      - path: PlayerData/Saves
+        pattern: "*.save"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/Settings
+        pattern: "*.dat"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/Saves
+        pattern: "*.autosave"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/Saves
+        pattern: "*.checkpoint"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/Saves
+        pattern: "*.timeline"
+        recursive: true
+        root: gameinstall
+  installDir: HeartOfTheMachine
+  launch:
+    - config:
+        oslist: windows
+      executable: HeartOfTheMachine.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: HeartOfTheMachine.app
+      type: default
+  nameLocalized:
+    japanese: "Heart of the Machine ハート・オブ・ザ・マシーン  "
+    koreana: "Heart of the Machine 하트 오브 더 머신  "
+    schinese: 人工智能的选择 Heart of the Machine
+    tchinese: 人工智慧的選擇 Heart of the Machine
 2001120:
   cloud:
     saves:
@@ -634382,6 +634420,16 @@
     schinese: 铁路日本！轨道之旅EX 登山电车 小田急箱根篇
     tchinese: 鐵路日本！軌道之旅EX 登山電車 小田急箱根篇
 3146120:
+  cloud:
+    saves:
+      - path: Aya/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Ayasa Shadows of Silence
+  launch:
+    - config:
+        osarch: "64"
+      executable: Aya.exe
   nameLocalized:
     schinese: 寂静之国的波斯菊
     tchinese: 寂靜之國的波斯菊
@@ -642815,6 +642863,16 @@
   launch:
     - executable: start_protected_game.exe
       type: default
+4128400:
+  cloud:
+    saves:
+      - path: "KONAMI/Prospi2026/ST/Savedata/{64BitSteamID}/"
+        pattern: "*.dat"
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: eBaseball PRO SPIRIT
+  launch:
+    - executable: "Game\\prospi.exe"
 4138130: {}
 4144090: {}
 4144680: {}

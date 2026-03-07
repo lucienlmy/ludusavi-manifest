@@ -16183,7 +16183,6 @@ Ashes of Immortality:
 Ashes of Immortality II:
   cloud:
     steam: true
-  malformed: true
   pageId: 46653
   steam: 362140
 "Ashes of Immortality II: Bad Blood":
@@ -19227,8 +19226,12 @@ Ayakashigami:
 "Ayasa: Shadows of Silence":
   cloud:
     steam: true
+  lutris: ayasa-shadows-of-silence
   pageId: 199750
   steam: 3146120
+  steamSide:
+    - 4091500
+    - 4091520
 Ayni Fairyland:
   pageId: 108230
   steam: 885790
@@ -71888,6 +71891,11 @@ Eaten Alive:
   steam: 403560
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Game.ini|{{p|game}}\\System\\Options.dt}}"
+"Ebaseball: Pro Spirit":
+  cloud:
+    steam: true
+  pageId: 214390
+  steam: 4128400
 "Ebony Spire: Heresy":
   pageId: 73681
   steam: 725040
@@ -103651,6 +103659,17 @@ Heart of the House:
     steam: true
   pageId: 74837
   steam: 742150
+Heart of the Machine:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 1576750056
+  pageId: 214383
+  steam: 2001070
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\PlayerData\\Settings\\*.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\PlayerData\\Saves\\*.save|{{p|game}}\\PlayerData\\Saves\\*.autosave|{{p|game}}\\PlayerData\\Saves\\*.checkpoint|{{p|game}}\\PlayerData\\Saves\\*.timeline}}"
 Heart of the Woods:
   cloud:
     gog: true
@@ -165179,7 +165198,6 @@ Panzer Warfare:
   pageId: 186557
   steam: 2291760
 "Papa's Pizzeria Deluxe":
-  malformed: true
   pageId: 213856
   steam: 3259470
   templates:

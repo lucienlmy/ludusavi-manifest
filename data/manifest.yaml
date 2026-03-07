@@ -60052,6 +60052,22 @@ Ayakashigami:
 "Ayasa: Shadows of Silence":
   cloud:
     steam: true
+  files:
+    "<base>/Aya/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: ayasa-shadows-of-silence
+    steamExtra:
+      - 4091500
+      - 4091520
+  installDir:
+    Ayasa Shadows of Silence: {}
+  launch:
+    "<base>/Aya.exe":
+      - when:
+          - bit: 64
+            store: steam
   steam:
     id: 3146120
 Ayni Fairyland:
@@ -223865,6 +223881,21 @@ Eaten Alive:
           - store: steam
   steam:
     id: 403560
+"Ebaseball: Pro Spirit":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/KONAMI/Prospi2026/ST/Savedata/<storeUserId>/**/*.dat":
+      when:
+        - store: steam
+  installDir:
+    eBaseball PRO SPIRIT: {}
+  launch:
+    "<base>/Game/prospi.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4128400
 "Ebony Spire: Heresy":
   installDir:
     Ebony Spire Heresy: {}
@@ -321437,6 +321468,52 @@ Heart of the House:
             store: steam
   steam:
     id: 742150
+Heart of the Machine:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<base>/PlayerData/Saves/*.autosave":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/PlayerData/Saves/*.checkpoint":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/PlayerData/Saves/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/PlayerData/Saves/*.timeline":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/PlayerData/Settings/*.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1576750056
+  installDir:
+    HeartOfTheMachine: {}
+  launch:
+    "<base>/HeartOfTheMachine.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/HeartOfTheMachine.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2001070
 Heart of the Woods:
   cloud:
     gog: true
