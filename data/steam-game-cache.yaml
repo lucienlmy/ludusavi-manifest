@@ -601197,6 +601197,65 @@
         oslist: windows
       executable: StoryWalker.exe
       type: default
+2101390:
+  cloud:
+    saves:
+      - path: Bit Egg Inc/Lost and Found Co
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: Bit Egg Inc/Lost and Found Co/StageState
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: BitEggInc/LostAndFoundCo/Parlor
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: BitEggInc/LostAndFoundCo/StageState
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: BitEggInc/LostAndFoundCo
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: BitEggInc/LostAndFoundCo/Parlor/slot0
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Lost and Found Co
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Lost and Found Co.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "2576060"
+      description: Level Editor
+      executable: Level Editor/Lost and Found Co - Level Editor.exe
+      type: editor
+    - config:
+        oslist: macos
+      executable: Lost and Found Co.app
+      type: default
+    - config:
+        oslist: macos
+        ownsdlc: "2576060"
+      description: Level Editor
+      executable: Lost and Found Co - Level Editor.app
+      type: editor
+  nameLocalized:
+    schinese: 失物招领有限公司
+    tchinese: 失物認領有限公司
 2101800:
   cloud:
     saves:

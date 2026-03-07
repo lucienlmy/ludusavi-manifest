@@ -62635,6 +62635,8 @@ Dirty Bomb:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\UnrealEngine3\\ShooterGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\UnrealEngine3\\ShooterGame\\}}"
+Dirty Dancing:
+  pageId: 214373
 Dirty Education:
   pageId: 145960
   renamedFrom:
@@ -133162,6 +133164,14 @@ Lost Wing:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Fourth State\\Lost Words}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Fourth State\\Lost Words\\}}"
+Lost and Found Co.:
+  cloud:
+    steam: true
+  pageId: 214371
+  steam: 2101390
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\LocalSettings\\settings_local.json|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\settings_cloud.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\save.json|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\StageState}}"
 Lost and Found RPG:
   pageId: 121343
   steam: 955770
@@ -203217,6 +203227,9 @@ Slay the Spire 2:
   lutris: slay-the-spire-ii
   pageId: 194315
   steam: 2868840
+  templates:
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}/profile1}}"
 Slay.one:
   pageId: 80677
   steam: 743350
@@ -205267,6 +205280,8 @@ Solar Command:
 Solar Core:
   pageId: 72397
   steam: 637340
+Solar Crusade:
+  pageId: 214376
 "Solar Explorer: New Dawn":
   pageId: 109176
   steam: 875080
@@ -220193,6 +220208,8 @@ Superfrog:
   gog: 1207658989
   pageId: 19741
 Superfrog HD:
+  cloud:
+    steam: true
   gog: 1207665663
   pageId: 19439
   steam: 234000
@@ -257444,6 +257461,7 @@ Vampire of the Sands:
 "Vampire's Fall 2":
   cloud:
     steam: true
+  lutris: vampires-fall-2
   pageId: 213264
   steam: 4264230
   steamSide:

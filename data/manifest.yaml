@@ -412630,6 +412630,44 @@ Lost Wing:
         - config
   steam:
     id: 599610
+Lost and Found Co.:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BitEggInc/LostAndFoundCo/LocalSettings/settings_local.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BitEggInc/LostAndFoundCo/StageState":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BitEggInc/LostAndFoundCo/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BitEggInc/LostAndFoundCo/settings_cloud.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Lost and Found Co: {}
+  launch:
+    "<base>/Lost and Found Co.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Lost and Found Co.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2101390
 Lost and Found RPG:
   steam:
     id: 955770
@@ -628711,6 +628749,17 @@ Slay the Spire:
 Slay the Spire 2:
   cloud:
     steam: true
+  files:
+    "<xdgData>/SlayTheSpire2/steam/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/SlayTheSpire2/steam/<storeUserId>/profile1":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     lutris: slay-the-spire-ii
   installDir:
@@ -682060,6 +682109,8 @@ Superfrog:
   gog:
     id: 1207658989
 Superfrog HD:
+  cloud:
+    steam: true
   files:
     "<base>/Saves":
       tags:
@@ -794024,6 +794075,7 @@ Vampire of the Sands:
         - os: mac
           store: steam
   id:
+    lutris: vampires-fall-2
     steamExtra:
       - 4268190
   installDir:
