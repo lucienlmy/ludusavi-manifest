@@ -34196,6 +34196,8 @@ Burden of Proof:
     steam: true
   pageId: 102853
   steam: 872110
+Bureau 13:
+  pageId: 214359
 Burg:
   pageId: 179343
   steam: 1959960
@@ -103857,9 +103859,16 @@ Heave Ho:
   lutris: heave-ho
   pageId: 139412
   steam: 905340
+  steamSide:
+    - 3855960
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Le Cartel Studio\\HeaveHo\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Le Cartel Studio\\HeaveHo\\Save\\HeaveHo*.save}}"
+Heave Ho 2:
+  cloud:
+    steam: true
+  pageId: 214360
+  steam: 2802740
 Heaven & Hell (2003):
   pageId: 92471
   renamedFrom:
@@ -167348,6 +167357,12 @@ Peregrin:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Peregrin\\graphics_config.xml}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Peregrin\\save.xml}}"
+Peregrino:
+  cloud:
+    steam: true
+  lutris: peregrino
+  pageId: 214353
+  steam: 3268150
 "Pereulok: The Series":
   pageId: 73003
   steam: 725500
@@ -184772,6 +184787,8 @@ Return to Ash:
   steam: 3445830
   steamSide:
     - 3826980
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\RenPy\\returntoash-1731439301\\}}"
 Return to Castle Wolfenstein:
   cloud:
     steam: true
@@ -187217,6 +187234,7 @@ RoadCraft:
     epic: true
     steam: true
     xbox: true
+  lutris: roadcraft
   pageId: 201206
   steam: 2104890
   steamSide:
@@ -223595,8 +223613,8 @@ Tainted Fate:
     - 4132150
     - 4183140
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Questline\\Fall of Avalon}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Questline\\Fall of Avalon}}"
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Questline\\Fall of Avalon\\|{{p|hkcu}}\\Software\\Questline\\Fall of Avalon\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Questline\\Fall of Avalon\\}}"
 Taisei Project:
   pageId: 195179
   templates:

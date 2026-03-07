@@ -322151,6 +322151,8 @@ Heave Ho:
     id: 1923235038
   id:
     lutris: heave-ho
+    steamExtra:
+      - 3855960
   installDir:
     Heave Ho: {}
   launch:
@@ -322168,6 +322170,11 @@ Heave Ho:
         - config
   steam:
     id: 905340
+Heave Ho 2:
+  cloud:
+    steam: true
+  steam:
+    id: 2802740
 Heaven & Hell:
   alias: Heaven and Hell (2012)
 Heaven & Hell (2003):
@@ -504524,6 +504531,12 @@ Over The Moonlight:
         - save
       when:
         - os: windows
+  installDir:
+    Over The Top WW1: {}
+  launch:
+    "<base>/Over_The_Top_WWI.exe":
+      - when:
+          - store: steam
   steam:
     id: 2778610
 Over The Void:
@@ -516894,6 +516907,24 @@ Peregrin:
             store: steam
   steam:
     id: 573080
+Peregrino:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Peregrino/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: peregrino
+  installDir:
+    Caravan: {}
+  launch:
+    "<base>/Peregrino.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3268150
 "Pereulok: The Series":
   steam:
     id: 725500
@@ -530051,6 +530082,10 @@ Poker Night at the Inventory (2026):
     steam: true
   files:
     "<winDocuments>/Skunkape Games/Poker Night at the Inventory Remastered/*.bundle":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Skunkape Games/Poker Night at the Inventory Remastered/prefs.prop":
       when:
         - os: windows
           store: steam
@@ -571236,6 +571271,12 @@ Return of the Triad:
       when:
         - os: windows
 Return to Ash:
+  files:
+    "<winAppData>/RenPy/returntoash-1731439301":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: return-to-ash
     steamExtra:
@@ -578773,6 +578814,7 @@ RoadCraft:
         - os: windows
           store: steam
   id:
+    lutris: roadcraft
     steamExtra:
       - 3470710
       - 3510890
@@ -692470,6 +692512,10 @@ Tainted Grail:
     "<base>/Fall of Avalon.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Questline/Fall of Avalon:
+      tags:
+        - config
   steam:
     id: 1466060
 Taisei Project:

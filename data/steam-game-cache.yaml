@@ -627354,7 +627354,24 @@
     schinese: 义闻录：轮回
     tchinese: 义聞錄：轮回
 2777860: {}
-2778610: {}
+2778610:
+  cloud:
+    saves:
+      - path: Flying Squirrel Entertainment/Over_The_Top_WWI/Profiles
+        pattern: "*.txt"
+        root: WinAppDataLocalLow
+      - path: Pictures
+        pattern: "*.jpg"
+        root: gameinstall
+      - path: Over_The_Top_WWI_Data/PropGroups
+        pattern: "*.*"
+        root: gameinstall
+  installDir: Over The Top WW1
+  launch:
+    - executable: Over_The_Top_WWI.exe
+      type: default
+  nameLocalized:
+    schinese: 破壕行动
 2780980:
   installDir: LOCKDOWN Protocol
   launch:
@@ -627816,6 +627833,7 @@
         oslist: linux
       executable: Rift Riff.x86_64
       type: default
+2802740: {}
 2803280:
   cloud:
     saves:
@@ -635914,6 +635932,18 @@
     schinese: MindsEye 心之眼
     tchinese: MindsEye 心之眼
 3267460: {}
+3268150:
+  cloud:
+    saves:
+      - path: Peregrino/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Caravan
+  launch:
+    - config:
+        oslist: windows
+      description: Peregrino
+      executable: Peregrino.exe
 3269230:
   cloud:
     saves:
@@ -642062,6 +642092,11 @@
     saves:
       - path: Skunkape Games/Poker Night at the Inventory Remastered
         pattern: "*.bundle"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+      - path: Skunkape Games/Poker Night at the Inventory Remastered
+        pattern: prefs.prop
         platforms:
           - Windows
         root: WinMyDocuments
