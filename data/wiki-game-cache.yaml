@@ -186272,6 +186272,9 @@ RippleIsland Kyle and Cal’s Restaurant:
     steam: true
   pageId: 209338
   steam: 3844150
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared}}"
 Riptale:
   cloud:
     steam: true
@@ -187288,11 +187291,10 @@ RoadCraft:
     - 3470710
     - 3510890
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\RoadCraft\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\platform\\config\\}}"
     - "{{Game data/config|Epic Games Launcher|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\EOS\\user\\{{p|uid}}\\Main\\config\\}}"
     - "{{Game data/config|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\RoadCraft\\}}"
-    - "{{Game data/config|Epic Games Launcher|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\EOS\\user\\{{p|uid}}\\Main\\save\\}}"
+    - "{{Game data/saves|Epic Games Launcher|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\EOS\\user\\{{p|uid}}\\Main\\save\\}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\save\\}}"
 RoadRunner:
   pageId: 138912
@@ -231130,8 +231132,8 @@ The Exorcist:
   steamSide:
     - 2632830
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\Local\\Artemis\\Saved\\Config\\WindowsNoEditor}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\Telltale\\Expanse\\*.sav}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\Local\\Artemis\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\Telltale\\Expanse\\Saved\\*.sav}}"
 "The Expanse: Osiris Reborn":
   gog: 1954956671
   pageId: 205240

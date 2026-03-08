@@ -575788,9 +575788,11 @@ RippleIsland Kyle and Cal’s Restaurant:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared/*.json":
+    "<home>/AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     リップルアイランド カイルとキャルのレストラン: {}
   launch:
@@ -578957,18 +578959,17 @@ RoadCraft:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/RoadCraft":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
     "<winLocalAppData>/Saber/RoadCraftGame/storage/EOS/user/<storeUserId>/Main/config":
       tags:
         - config
       when:
         - os: windows
     "<winLocalAppData>/Saber/RoadCraftGame/storage/EOS/user/<storeUserId>/Main/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/RoadCraftGame/storage/platform/config":
       tags:
         - config
       when:
@@ -716422,12 +716423,12 @@ The Exorcist:
     gog: true
     steam: true
   files:
-    "<home>/AppData/Local/Artemis/Saved/Config/WindowsNoEditor":
+    "<home>/AppData/Local/Artemis/Saved/Config/WindowsNoEditor/GameUserSettings.ini":
       tags:
         - config
       when:
         - os: windows
-    "<winDocuments>/My Games/Telltale/Expanse/*.sav":
+    "<winDocuments>/My Games/Telltale/Expanse/Saved/*.sav":
       tags:
         - save
       when:
