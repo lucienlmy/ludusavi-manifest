@@ -20744,6 +20744,13 @@ Adventures of Mike:
             store: steam
   steam:
     id: 858180
+Adventures of Nyangi:
+  files:
+    "<base>/gamcfg.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Adventures of Pip:
   files:
     "<home>/AppData/LocalLow/Tic Toc Games/Adventures of Pip":
@@ -31493,6 +31500,25 @@ All Guns on Deck:
             store: steam
   steam:
     id: 315330
+All Hands on Deck:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Studio Mantasaur/All Hands on Deck/*.ahod":
+      when:
+        - store: steam
+    "<home>/Studio Mantasaur/All Hands on Deck/*.ahod":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    All Hands on Deck: {}
+  launch:
+    "<base>/All Hands on Deck.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2122880
 All Haze Eve:
   installDir:
     all_haze_eve: {}
@@ -189885,7 +189911,7 @@ Desync:
             store: steam
   steam:
     id: 390030
-"Desynced: Autonomous Colony Simulator":
+Desynced:
   cloud:
     steam: true
   files:
@@ -189911,6 +189937,8 @@ Desync:
             store: steam
   steam:
     id: 1450900
+"Desynced: Autonomous Colony Simulator":
+  alias: Desynced
 Detached:
   files:
     "<base>/Saved/SaveGames/<storeUserId>/*.sav":

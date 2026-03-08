@@ -556548,6 +556548,9 @@
       description: Demo
       executable: "Desynced\\Binaries\\Win64\\DesyncedDemo.exe"
       type: option1
+  nameLocalized:
+    schinese: 智械工厂 Desynced
+    tchinese: 智械工廠 Desynced
 1451080:
   cloud:
     saves:
@@ -602415,6 +602418,27 @@
   nameLocalized:
     japanese: マイジャイアントフレンド
     schinese: 我的巨人朋友
+2122880:
+  cloud:
+    saves:
+      - path: Studio Mantasaur/All Hands on Deck/
+        pattern: "*.ahod"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: All Hands on Deck
+  launch:
+    - executable: All Hands on Deck.exe
+      type: default
+  nameLocalized:
+    japanese: レフティとライティ：手をつなごう！
+    koreana: "레프티와 라이티: 손잡고!"
+    schinese: 左左和右右：手拉手！
+    tchinese: 左左和右右：手牽手！
 2123100:
   installDir: KittyMayCry
   launch:

@@ -6531,6 +6531,10 @@ Adventures of Hooi:
 Adventures of Mike:
   pageId: 94609
   steam: 858180
+Adventures of Nyangi:
+  pageId: 214407
+  templates:
+    - "{{Game data/config|Windows|{{P|Game}}\\gamcfg.cfg}}"
 Adventures of Pip:
   pageId: 24866
   steam: 303550
@@ -9979,6 +9983,11 @@ All Guns on Deck:
   renamedFrom:
     - All Guns On Deck
   steam: 315330
+All Hands on Deck:
+  cloud:
+    steam: true
+  pageId: 214415
+  steam: 2122880
 All Haze Eve:
   pageId: 66701
   steam: 680680
@@ -60790,11 +60799,13 @@ Desync:
   steam: 390030
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\DESYNC_Data\\StreamingAssets\\SaveData}}"
-"Desynced: Autonomous Colony Simulator":
+Desynced:
   cloud:
     steam: true
   lutris: desynced
   pageId: 191283
+  renamedFrom:
+    - "Desynced: Autonomous Colony Simulator"
   steam: 1450900
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Desynced\\Saved\\Config\\}}"
@@ -203852,6 +203863,8 @@ Small Radios Big Televisions:
 Small Sister:
   pageId: 104607
   steam: 904600
+"Small Soldiers: Squad Commander":
+  pageId: 214412
 "Small Town Terrors: Galdor's Bluff":
   pageId: 44547
   steam: 432760
@@ -220078,6 +220091,8 @@ SuperMash:
 SuperMoose:
   pageId: 52894
   steam: 543160
+SuperPower:
+  pageId: 214410
 SuperPower 2:
   gog: 1434634843
   pageId: 30595
