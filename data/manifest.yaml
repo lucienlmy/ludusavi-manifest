@@ -86839,10 +86839,24 @@ BlazBlue Centralfiction:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect":
+    "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Global":
       tags:
         - config
-        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Save":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Steam/<storeUserId>/Save":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Steam/<storeUserId>/Settings":
+      tags:
+        - config
       when:
         - os: windows
   installDir:
@@ -637163,6 +637177,26 @@ Someday:
             store: steam
   steam:
     id: 840370
+"Someday You'll Return: Director's Cut":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TheForest/Saved/SaveGames/*_DC_*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: someday-youll-return-directors-cut
+  installDir:
+    Someday DC: {}
+  launch:
+    "<base>/TheForest.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2229350
 Someone Cloned The President:
   installDir:
     Someone Cloned The President: {}

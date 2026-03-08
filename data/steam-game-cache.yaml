@@ -607508,6 +607508,21 @@
         osarch: "64"
         oslist: windows
       executable: Memoriapolis.exe
+2229350:
+  cloud:
+    saves:
+      - path: TheForest/Saved/SaveGames
+        pattern: "*_DC_*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Someday DC
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TheForest.exe
+      type: default
 2229830:
   cloud:
     saves:

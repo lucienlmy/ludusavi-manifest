@@ -28093,8 +28093,12 @@ BlazBlue Centralfiction:
   pageId: 193134
   steam: 2273430
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Save}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Global}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Steam\\{{p|uid}}\\Settings}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Save}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Global}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Steam\\{{p|uid}}\\Save}}"
 "Blaze & Blade: Eternal Quest":
   pageId: 161659
 "Blaze and the Monster Machines: Axle City Racers":
@@ -104540,6 +104544,8 @@ Hell is Us:
 "Hell's Pharma":
   pageId: 155294
   steam: 1216150
+Hell-Copter:
+  pageId: 214420
 HellAngel:
   pageId: 37002
   steam: 524340
@@ -205760,6 +205766,12 @@ Someday:
   lutris: someday-youll-return
   pageId: 95170
   steam: 840370
+"Someday You'll Return: Director's Cut":
+  cloud:
+    steam: true
+  lutris: someday-youll-return-directors-cut
+  pageId: 214418
+  steam: 2229350
 Someone Cloned The President:
   pageId: 143886
   steam: 1136820
