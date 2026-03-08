@@ -55035,7 +55035,7 @@ Darkened Skye:
   pageId: 97137
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Setup.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 Darkenstein 3D:
   pageId: 208588
   steam: 2195910
@@ -205757,6 +205757,7 @@ Someday:
     gog: true
     steam: true
   gog: 2107162474
+  lutris: someday-youll-return
   pageId: 95170
   steam: 840370
 Someone Cloned The President:

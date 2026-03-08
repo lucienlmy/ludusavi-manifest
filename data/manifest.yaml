@@ -171500,7 +171500,7 @@ Darken VR:
     id: 910850
 Darkened Skye:
   files:
-    "<base>/Save":
+    "<base>/SAVE":
       tags:
         - save
       when:
@@ -637151,6 +637151,8 @@ Someday:
           store: steam
   gog:
     id: 2107162474
+  id:
+    lutris: someday-youll-return
   installDir:
     "Someday You'll Return": {}
   launch:
