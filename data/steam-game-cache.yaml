@@ -597016,6 +597016,14 @@
     koreana: 드래곤 퀘스트 트레저즈 푸른 눈동자와 하늘의 나침반
     schinese: 勇者斗恶龙　寻宝探险团　蓝色眼眸与天空罗盘
     tchinese: 勇者鬥惡龍　尋寶探險團　藍色眼眸與天空羅盤
+2021530:
+  installDir: GOR3
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Launcher.exe
+      type: default
 2021570:
   installDir: War in the Gulf
   launch:
@@ -627279,6 +627287,10 @@
     - config:
         oslist: windows
       executable: Launcher/ConsoleLauncher.exe
+2766070:
+  installDir: Weird Dreams
+  launch:
+    - executable: Launcher/ConsoleLauncher.exe
 2766080:
   installDir: HardBall! + HardBall II
   launch:
@@ -638808,6 +638820,41 @@
       executable: themrrabbitmagicshow.app
       type: default
 3476880: {}
+3478050:
+  installDir: roadtoempress
+  launch:
+    - arguments: "-windowed"
+      config:
+        oslist: windows
+      executable: sstx.exe
+      type: default
+    - arguments: "-windowed"
+      config:
+        betakey: test_mac_build
+        oslist: macos
+      executable: sstx.app/Contents/MacOS/sstx
+      type: default
+    - arguments: "-windowed --disable-gpu --disable-gpu-compositing"
+      config:
+        betakey: test_yzyuzhao
+        oslist: windows
+      description: test_webgl
+      executable: sstx.exe
+      type: default
+    - arguments: "-windowed --disable-gpu --disable-gpu-compositing"
+      config:
+        betakey: test_yzyuzhao
+        oslist: windows
+      description: start test
+      executable: sstx.exe
+      type: default
+  nameLocalized:
+    english: Road to Empress I
+    japanese: 盛世天下～女帝への道～ I
+    koreana: "성세천하: 여제의 탄생 I"
+    schinese: 女王的游戏：盛世天下 媚娘篇
+    tchinese: 女王的遊戲：盛世天下 媚娘篇
+    thai: ฮ่องเต้หญิงฟ้าลิขิต I
 3478700:
   installDir: The Children of Clay
   launch:

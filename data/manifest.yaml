@@ -301504,6 +301504,19 @@ Gopnik Simulator:
           - store: steam
   steam:
     id: 853210
+Gor3:
+  id:
+    lutris: gor3
+  installDir:
+    GOR3: {}
+  launch:
+    "<base>/Launcher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2021530
 "Gorasul: The Legacy of the Dragon":
   files:
     "<base>/Save":
@@ -569624,6 +569637,16 @@ Resident Evil Requiem:
         - save
       when:
         - store: steam
+    "<winAppData>/GSE Saves/3764200/remote/win64_save":
+      tags:
+        - save
+      when:
+        - os: windows
+    Goldberg Steam Emulator:
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: resident-evil-requiem
     steamExtra:
@@ -578937,6 +578960,20 @@ Road to Eden:
             store: steam
   steam:
     id: 929060
+Road to Empress I:
+  id:
+    steamExtra:
+      - 3972390
+  installDir:
+    roadtoempress: {}
+  launch:
+    "<base>/sstx.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3478050
 Road to Guangdong:
   files:
     "<winDocuments>/Excalibur/RoadToGuangdong":
@@ -815922,6 +815959,17 @@ Weird Creatures:
     WeirdCreatures: {}
   steam:
     id: 543920
+Weird Dreams:
+  gog:
+    id: 1244011547
+  installDir:
+    Weird Dreams: {}
+  launch:
+    "<base>/Launcher/ConsoleLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2766070
 "Weird Dungeon Explorer: Defender":
   steam:
     id: 862010
@@ -829156,6 +829204,8 @@ World of Cinema - Movie Tycoon:
   steam:
     id: 543910
 "World of Darkness Preludes: Vampire and Mage":
+  id:
+    lutris: world-of-darkness-preludes-vampire-and-mage
   installDir:
     White Wolf Entertainment: {}
   steam:

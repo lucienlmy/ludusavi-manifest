@@ -97027,6 +97027,10 @@ Goose Simulator:
 Gopnik Simulator:
   pageId: 93714
   steam: 853210
+Gor3:
+  lutris: gor3
+  pageId: 214451
+  steam: 2021530
 "Gorasul: The Legacy of the Dragon":
   pageId: 31422
   templates:
@@ -97092,6 +97096,7 @@ Gorgeous Elves of Ganassa:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1883089802
   gogSide:
     - 1100612868
@@ -184235,6 +184240,7 @@ Resident Evil Requiem:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"
+    - "{{Game data/saves|Windows|%APPDATA%\\GSE Saves\\3764200\\remote\\win64_save\\|note=Goldberg Steam Emulator}}"
 Resident Evil Resistance:
   cloud:
     steam: true
@@ -187275,6 +187281,11 @@ Road to Ballhalla:
 Road to Eden:
   pageId: 112332
   steam: 929060
+Road to Empress I:
+  pageId: 214449
+  steam: 3478050
+  steamSide:
+    - 3972390
 Road to Guangdong:
   pageId: 128571
   steam: 995840
@@ -264797,6 +264808,10 @@ Weeping Willow - Detective Visual Novel:
 Weird Creatures:
   pageId: 55051
   steam: 543920
+Weird Dreams:
+  gog: 1244011547
+  pageId: 214453
+  steam: 2766070
 "Weird Dungeon Explorer: Defender":
   pageId: 94745
   steam: 862010
@@ -269005,6 +269020,7 @@ World of Cinema - Movie Tycoon:
   pageId: 62479
   steam: 543910
 "World of Darkness Preludes: Vampire and Mage":
+  lutris: world-of-darkness-preludes-vampire-and-mage
   pageId: 58116
   steam: 565410
 World of Demons:
