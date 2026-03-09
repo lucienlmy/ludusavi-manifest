@@ -21184,6 +21184,8 @@ Bandits:
     - Bandits Phoenix Rising
 "Bandle Tale: A League of Legends Story":
   cloud:
+    epic: true
+    gog: true
     steam: true
   gog: 1966884731
   gogSide:
@@ -21191,6 +21193,8 @@ Bandits:
   lutris: bandle-tale-a-league-of-legends-story
   pageId: 192634
   steam: 1759380
+  steamSide:
+    - 2634450
 Bane of Asphodel:
   pageId: 91158
   steam: 831810
@@ -27565,7 +27569,9 @@ Blade Runner:
   steam: 1678420
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\BLADE.INI}}"
+    - "{{Game data/config|GOG.com|{{p|game}}\\project_nov.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\*.SAV}}"
+    - "{{Game data/saves|GOG.com|{{p|game}}\\saves\\}}"
 "Blade Runner 2033: Labyrinth":
   pageId: 193252
   steam: 2012260
@@ -121044,6 +121050,10 @@ Kami:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\}}"
+"Kami Quest: Enter the Imagynasium":
+  lutris: kami-quest-enter-the-imagynasium
+  pageId: 214436
+  steam: 3857790
 Kami no Rhapsody:
   pageId: 164998
 Kamikaze Cube:
@@ -186273,8 +186283,8 @@ RippleIsland Kyle and Cal’s Restaurant:
   pageId: 209338
   steam: 3844150
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\SUNSOFT\\Ripple Island\\savedata\\shared}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\SUNSOFT\\Ripple Island\\savedata\\shared}}"
 Riptale:
   cloud:
     steam: true
@@ -216956,6 +216966,8 @@ Stuart Little 2:
   pageId: 207491
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\scores.dat}}"
+"Stuart Little: Big City Adventures":
+  pageId: 214444
 Stubbs the Zombie in Rebel Without a Pulse:
   cloud:
     steam: true
@@ -226959,6 +226971,8 @@ Th3 Plan:
 Thanatos:
   pageId: 36820
   steam: 493440
+"Thandor: The Invasion":
+  pageId: 214442
 "Thank Goodness You're Here!":
   cloud:
     steam: true
@@ -259075,6 +259089,11 @@ Village Feud:
 Village Monsters:
   pageId: 72559
   steam: 679830
+Village Rhapsody:
+  cloud:
+    steam: true
+  pageId: 214437
+  steam: 2109460
 Village Story:
   pageId: 58511
   steam: 601280

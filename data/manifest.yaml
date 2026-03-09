@@ -66280,6 +66280,8 @@ Bandits:
     id: 1029560
 "Bandle Tale: A League of Legends Story":
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Lazy Bear Games/Bandle Tale/*.dat":
@@ -66296,6 +66298,8 @@ Bandits:
     gogExtra:
       - 1486182861
     lutris: bandle-tale-a-league-of-legends-story
+    steamExtra:
+      - 2634450
   installDir:
     Bandle Tale: {}
   launch:
@@ -85343,6 +85347,16 @@ Blade Runner:
         - save
       when:
         - os: windows
+    "<base>/project_nov.ini":
+      tags:
+        - config
+      when:
+        - store: gog
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - store: gog
   gog:
     id: 1370811355
   id:
@@ -375596,6 +375610,11 @@ Kami:
             store: steam
   steam:
     id: 272040
+"Kami Quest: Enter the Imagynasium":
+  id:
+    lutris: kami-quest-enter-the-imagynasium
+  steam:
+    id: 3857790
 Kamikaze Cube:
   installDir:
     Kamikaze Cube: {}
@@ -799039,6 +799058,22 @@ Village Monsters:
             store: steam
   steam:
     id: 679830
+Village Rhapsody:
+  cloud:
+    steam: true
+  files:
+    "<base>/data/*.qt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    VillageRhapsody: {}
+  launch:
+    "<base>/village.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2109460
 Village Story:
   steam:
     id: 601280

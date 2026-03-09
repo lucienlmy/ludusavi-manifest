@@ -602080,6 +602080,19 @@
       description: Mac launch option
       executable: identity.app/Contents/MacOS/identity
       type: default
+2109460:
+  cloud:
+    saves:
+      - path: data
+        pattern: "*.qt"
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: VillageRhapsody
+  launch:
+    - executable: village.exe
+  nameLocalized:
+    english: VillageRhapsody
 2109710:
   installDir: M.U.D.S. Mean Ugly Dirty Sport
   launch:
@@ -642031,6 +642044,7 @@
   installDir: BLACK SOULS II
   launch:
     - executable: Game.exe
+3857790: {}
 3862670:
   cloud:
     saves:
