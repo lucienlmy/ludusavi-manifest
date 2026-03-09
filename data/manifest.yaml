@@ -68793,6 +68793,16 @@ Batla:
         - save
       when:
         - store: steam
+    "<winDocuments>/Eidos/Batman Arkham Asylum/BmGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Eidos/Batman Arkham Asylum/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Square Enix/Batman Arkham Asylum GOTY/BmGame/Config":
       tags:
         - config
@@ -68809,6 +68819,7 @@ Batla:
     lutris: batman-arkham-asylum-goty-edition
     steamExtra:
       - 35010
+      - 35020
   installDir:
     Batman Arkham Asylum GOTY: {}
   launch:
@@ -155864,10 +155875,16 @@ CrisisActionVR:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/CRToiPrototype/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/CRToiPrototype/Saved/Config/Windows":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/CRToiPrototype/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: crisol-theater-of-idols
   installDir:
@@ -239882,6 +239899,11 @@ Etherlords II:
             store: steam
   steam:
     id: 270790
+Etrange Overlord:
+  id:
+    lutris: etrange-overlord
+  steam:
+    id: 3515480
 Etrian Odyssey HD:
   cloud:
     steam: true
@@ -364919,6 +364941,11 @@ Isopod:
     "<winLocalAppData>/Isopod/*.sav":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Isopod/Saved/Config/Windows/*.ini":
+      tags:
+        - config
       when:
         - os: windows
   installDir:

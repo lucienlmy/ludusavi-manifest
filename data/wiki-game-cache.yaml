@@ -8932,6 +8932,8 @@ Albion Online:
   steam: 761890
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Sandbox Interactive GmbH\\Albion Online Client}}"
+Alcatraz:
+  pageId: 214461
 "Alcatraz: Prison Escape":
   lutris: alcatraz-prison-escape
   pageId: 187057
@@ -21991,9 +21993,10 @@ Batman Returns:
   steam: 35140
   steamSide:
     - 35010
+    - 35020
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Square Enix\\Batman Arkham Asylum GOTY\\BmGame\\Config\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Square Enix\\Batman Arkham Asylum GOTY\\SaveData\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Eidos\\Batman Arkham Asylum\\BmGame\\Config\\|{{p|userprofile\\Documents}}\\Square Enix\\Batman Arkham Asylum GOTY\\BmGame\\Config\\{{note|Game of the Year Edition|name=Game of the Year Edition}}}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Eidos\\Batman Arkham Asylum\\SaveData\\|{{p|userprofile\\Documents}}\\Square Enix\\Batman Arkham Asylum GOTY\\SaveData\\{{note|name=Game of the Year Edition}}}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Batman Arkham City GOTY/Save Data/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/35140/remote/}}"
 "Batman: Arkham City":
@@ -49895,6 +49898,9 @@ CrisisActionVR:
   lutris: crisol-theater-of-idols
   pageId: 205295
   steam: 1790930
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\SaveGames\\}}"
 Crispy Chicken:
   cloud:
     steam: true
@@ -76912,6 +76918,10 @@ Etherlords II:
   lutris: etherlords-2
   pageId: 13972
   steam: 270790
+Etrange Overlord:
+  lutris: etrange-overlord
+  pageId: 214463
+  steam: 3515480
 Etrian Odyssey HD:
   cloud:
     steam: true
@@ -117517,6 +117527,7 @@ Isopod:
   pageId: 205246
   steam: 2053910
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Isopod\\Saved\\Config\\Windows\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Isopod\\*.sav}}"
 Isotiles:
   pageId: 63694
@@ -142990,6 +143001,8 @@ Microsoft Minesweeper:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Packages\\Microsoft.MicrosoftMinesweeper_8wekyb3d8bbwe\\Settings\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Packages\\Microsoft.MicrosoftMinesweeper_8wekyb3d8bbwe\\LocalState\\}}"
+"Microsoft Pandora's Box":
+  pageId: 214466
 Microsoft Pinball Arcade:
   pageId: 11227
 Microsoft Return of Arcade:

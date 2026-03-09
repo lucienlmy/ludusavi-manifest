@@ -597762,8 +597762,16 @@
     - config:
         osarch: "64"
         oslist: windows
+      description: Play Isopod
       executable: Isopod.exe
       type: default
+    - arguments: "-dx11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: with Direct X 11 (Fixes black speckles on some AMD gpus)
+      executable: Isopod.exe
+      type: option1
 2054640:
   installDir: Futanari Sex - The Birthday Massage
   launch:
@@ -639228,6 +639236,11 @@
         osarch: "64"
         oslist: windows
       executable: Wuthering Waves.exe
+3515480:
+  nameLocalized:
+    english: Etrange Overlord
+    french: Etrange Overlord
+    japanese: エトランジュ オーヴァーロード
 3516580:
   cloud:
     saves:
