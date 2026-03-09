@@ -260965,6 +260965,21 @@ Final Fantasy VII (2012):
       when:
         - os: windows
           store: steam
+    "<winDocuments>/Square Enix/FINAL FANTASY VII/ff7*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Square Enix/FINAL FANTASY VII/networkSettings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Square Enix/FINAL FANTASY VII/user_<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: final-fantasy-vii
   installDir:
@@ -297055,6 +297070,7 @@ Go Home - Rage incoming:
 Go Home Annie:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winDocuments>/Go Home Annie":
@@ -676515,6 +676531,27 @@ Super Ball Wrestle Yes:
             store: steam
   steam:
     id: 871580
+Super Battle Golf:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Brimstone/Super Battle Golf":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: super-battle-golf
+  installDir:
+    Super Battle Golf: {}
+  launch:
+    "<base>/Super Battle Golf.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4069520
 Super Beam:
   installDir:
     SuperBeam: {}

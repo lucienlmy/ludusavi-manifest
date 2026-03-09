@@ -84250,10 +84250,13 @@ Final Fantasy VII:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Final Fantasy VII (2012):
   lutris: final-fantasy-vii
+  malformed: true
   pageId: 1938
   steam: 39140
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII\\ff7*.cfg|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII\\networkSettings.dat}}"
     - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\ff7*.cfg|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\networkSettings.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII\\user_{{P|uid}}\\}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Square Enix\\FINAL FANTASY VII Steam\\user_{{P|uid}}\\}}"
 Final Fantasy VII (2020):
   cloud:
@@ -95603,6 +95606,7 @@ Go Home - Rage incoming:
 Go Home Annie:
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1913376893
   lutris: go-home-annie
@@ -218452,6 +218456,14 @@ Super BOO Quest:
 Super Ball Wrestle Yes:
   pageId: 95599
   steam: 871580
+Super Battle Golf:
+  cloud:
+    steam: true
+  lutris: super-battle-golf
+  pageId: 214447
+  steam: 4069520
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Brimstone\\Super Battle Golf}}"
 Super Beam:
   pageId: 129779
   steam: 1019500

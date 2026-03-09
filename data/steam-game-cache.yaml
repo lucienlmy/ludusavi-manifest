@@ -591832,9 +591832,9 @@
         oslist: windows
       executable: Go Home Annie.exe
   nameLocalized:
-    japanese: 家へ帰れ、アニー (Go Home Annie)
-    koreana: 어둠 속의 애니 (Go Home Annie)
-    schinese: 《回家，安妮》(Go Home Annie)
+    japanese: 家へ帰れ、アニー：SCPゲーム
+    koreana: "어둠 속의 애니: SCP 게임"
+    schinese: 《回家，安妮：SCP》
 1939160:
   cloud:
     saves:
@@ -642842,6 +642842,17 @@
 4058000: {}
 4061090: {}
 4062420: {}
+4069520:
+  installDir: Super Battle Golf
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Super Battle Golf.exe
+      type: default
+  nameLocalized:
+    schinese: 超级高尔夫大乱斗
+    tchinese: 超級高爾夫大亂鬥
 4078430:
   nameLocalized:
     japanese: スター・ウォーズ：ギャラクティック・レーサー™
