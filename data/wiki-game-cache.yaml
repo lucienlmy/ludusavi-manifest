@@ -63206,6 +63206,8 @@ Disney Infinity 3.0:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Disney Interactive\\Disney Infinity 3.0\\}}"
 "Disney Infinity: Toy Box":
   pageId: 174487
+"Disney Learning Adventure: Search for the Secret Keys":
+  pageId: 214482
 Disney Magic Kingdoms:
   cloud:
     xbox: true
@@ -64786,9 +64788,9 @@ Don Bradman Cricket 17:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\client.ini|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client.ini}}"
     - "{{Game data/config|OS X|{{p|machome}}/Documents/Klei/DoNotStarveTogether/{{p|uid}}}/client.ini}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.klei/DoNotStarveTogether/client.ini}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\client_save\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client_save\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\save\\}}"
-    - "{{Game data/saves|OS X|{{p|machome}}/Documents/Klei/<user-id>/DoNotStarveTogether}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.klei/DoNotStarveTogether/{{p|uid}}/client_save/}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client_save\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\save\\}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Documents/Klei/DoNotStarveTogether/{{p|uid}}/|{{p|machome}}/Documents/Klei/DoNotStarveTogether/backup/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.klei/DoNotStarveTogether/{{p|uid}}/}}"
 "Don't Stop":
   pageId: 102413
   steam: 868760
@@ -161938,6 +161940,7 @@ Orcs Must Die! 3:
     epic: true
     steam: true
     xbox: true
+  lutris: orcs-must-die-3
   pageId: 169390
   steam: 1522820
   steamSide:
@@ -161952,6 +161955,7 @@ Orcs Must Die! Deathtrap:
     epic: true
     steam: true
     xbox: true
+  lutris: orcs-must-die-deathtrap
   pageId: 201173
   steam: 2273980
   steamSide:
@@ -227097,9 +227101,9 @@ That Which Binds Us:
   steam: 3431040
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\That's not my neighbor}}"
-    - "{{Game data/config|OS X|~/Library/Application Support/Godot/app_userdata/That's not my neighbor}}"
+    - "{{Game data/config|OS X|{{P|machome}}/Library/Application Support/Godot/app_userdata/That's not my neighbor}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\That's not my neighbor}}"
-    - "{{Game data/saves|OS X|~/Library/Application Support/Godot/app_userdata/That's not my neighbor}}"
+    - "{{Game data/saves|OS X|{{P|machome}}/Library/Application Support/Godot/app_userdata/That's not my neighbor}}"
 "That's Pretty Clever":
   pageId: 138962
   steam: 1065410

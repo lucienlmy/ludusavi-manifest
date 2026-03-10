@@ -201811,7 +201811,7 @@ Don Bradman Cricket 17:
     id: 219740
 "Don't Starve Together":
   files:
-    "<home>/.klei/DoNotStarveTogether/<storeUserId>/client_save":
+    "<home>/.klei/DoNotStarveTogether/<storeUserId>":
       tags:
         - save
       when:
@@ -201821,14 +201821,14 @@ Don Bradman Cricket 17:
         - config
       when:
         - os: linux
+    "<winDocuments>/Klei/DoNotStarveTogether/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Klei/DoNotStarveTogether/<storeUserId>/client.ini":
       tags:
         - config
-      when:
-        - os: windows
-    "<winDocuments>/Klei/DoNotStarveTogether/<storeUserId>/client_save":
-      tags:
-        - save
       when:
         - os: windows
     "<winDocuments>/Klei/DoNotStarveTogether/client.ini":
@@ -500561,6 +500561,7 @@ Orcs Must Die! 3:
       when:
         - os: windows
   id:
+    lutris: orcs-must-die-3
     steamExtra:
       - 1661400
       - 1781510
@@ -500586,6 +500587,7 @@ Orcs Must Die! Deathtrap:
       when:
         - os: windows
   id:
+    lutris: orcs-must-die-deathtrap
     steamExtra:
       - 3291710
   installDir:
@@ -703894,12 +703896,6 @@ That Which Binds Us:
     id: 547310
 "That's Not My Neighbor":
   files:
-    "<home>/Library/Application Support/Godot/app_userdata/That's not my neighbor":
-      tags:
-        - config
-        - save
-      when:
-        - os: mac
     "<winAppData>/Godot/app_userdata/That's not my neighbor":
       tags:
         - config
