@@ -28260,6 +28260,18 @@ Albion Online:
         - config
   steam:
     id: 761890
+Alcatraz:
+  files:
+    "<base>/ar.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
 "Alcatraz: Prison Escape":
   files:
     "<base>/*.sav":
@@ -35443,6 +35455,12 @@ American Truck Simulator:
       - 2543810
       - 2910160
       - 2926440
+      - 3012580
+      - 3025440
+      - 3146090
+      - 3272290
+      - 3872930
+      - 4348660
   installDir:
     American Truck Simulator: {}
   launch:
@@ -152930,12 +152948,22 @@ Crazy Chicken X:
       when:
         - os: windows
 "Crazy Chicken: The Good, The Egg & The Ugly":
+  cloud:
+    steam: true
   files:
     "<base>/data":
       tags:
         - save
       when:
         - os: windows
+  installDir:
+    "Moorhuhn Jump and Run 'Traps and Treasures'": {}
+  launch:
+    "<base>/Moorhuhn Jump and Run 'Traps and Treasures'.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2316960
 "Crazy Chicken: The Original":
   files:
     "<base>/Moorhuhn.sav":
@@ -240288,7 +240316,9 @@ Euro Truck Simulator 2:
       - 2780800
       - 2780810
       - 2932420
+      - 3034950
       - 4159240
+      - 4348650
   installDir:
     Euro Truck Simulator 2: {}
   launch:
@@ -261032,7 +261062,7 @@ Final Fantasy VII (2020):
           store: gog
     "<winLocalAppData>/FINAL FANTASY VII GOG Edition/config.txt":
       tags:
-        - save
+        - config
       when:
         - os: windows
           store: gog
@@ -261044,7 +261074,7 @@ Final Fantasy VII (2020):
           store: steam
     "<winLocalAppData>/FINAL FANTASY VII Steam Edition/config.txt":
       tags:
-        - save
+        - config
       when:
         - os: windows
           store: steam
@@ -388458,6 +388488,15 @@ Kulebra and the Souls of Limbo:
           - store: steam
   steam:
     id: 2246470
+"KuloNiku: Bowl Up!":
+  cloud:
+    steam: true
+  id:
+    lutris: kuloniku-bowl-up
+    steamExtra:
+      - 3732560
+  steam:
+    id: 3357960
 "Kult of Ktulu: Olympic":
   cloud:
     steam: true
@@ -619694,6 +619733,8 @@ SiN:
 "SiN: Reloaded":
   cloud:
     steam: true
+  gog:
+    id: 1627068096
   steam:
     id: 632950
 SiNKR:
@@ -640020,8 +640061,17 @@ Sore:
   files:
     "<home>/AppData/LocalLow/a la mode games/Sorry We're Closed":
       tags:
-        - config
         - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/a la mode games/Sorry We're Closed/Settings.es3":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/a la mode games/Sorry We're Closed/SystemData.es3":
+      tags:
+        - config
       when:
         - os: windows
   gog:
@@ -640036,6 +640086,10 @@ Sore:
       - when:
           - os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/a la mode games/Sorry We're Closed":
+      tags:
+        - config
   steam:
     id: 1796580
 "Sorry, James":
@@ -705766,6 +705820,26 @@ The Angry Banana:
             store: steam
   steam:
     id: 1014820
+The Anomalous Hour:
+  files:
+    "<home>/AppData/LocalLow/Gambir Studio/The Anomalous Hour/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Gambir Studio/The Anomalous Hour/*.dat":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: the-anomalous-hour
+  installDir:
+    The Anomalous Hour: {}
+  launch:
+    "<base>/The Anomalous Hour.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2897450
 The Anomaly:
   id:
     steamExtra:
@@ -785824,6 +785898,38 @@ Under The Ground:
             store: steam
   steam:
     id: 1110670
+Under The Island:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/UnderTheIsland":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+    "<xdgConfig>/UnderTheIsland":
+      when:
+        - store: steam
+        - os: linux
+          store: steam
+  gog:
+    id: 1928945121
+  id:
+    gogExtra:
+      - 2095987176
+    lutris: under-the-island
+    steamExtra:
+      - 3708500
+      - 3862050
+  installDir:
+    Under The Island: {}
+  launch:
+    "<base>/UnderTheIsland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1583520
 Under The Moon:
   cloud:
     gog: true

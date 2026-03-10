@@ -8934,6 +8934,9 @@ Albion Online:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Sandbox Interactive GmbH\\Albion Online Client}}"
 Alcatraz:
   pageId: 214461
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\ar.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 "Alcatraz: Prison Escape":
   lutris: alcatraz-prison-escape
   pageId: 187057
@@ -11319,6 +11322,12 @@ American Truck Simulator:
     - 2543810
     - 2910160
     - 2926440
+    - 3012580
+    - 3025440
+    - 3146090
+    - 3272290
+    - 3872930
+    - 4348660
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\American Truck Simulator\\config.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/American Truck Simulator/config.cfg}}"
@@ -48920,7 +48929,10 @@ Crazy Chicken X:
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\data\\highscores.txt}}"
 "Crazy Chicken: The Good, The Egg & The Ugly":
+  cloud:
+    steam: true
   pageId: 201135
+  steam: 2316960
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\data\\}}"
 "Crazy Chicken: The Original":
@@ -77084,7 +77096,9 @@ Euro Truck Simulator 2:
     - 2780800
     - 2780810
     - 2932420
+    - 3034950
     - 4159240
+    - 4348650
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Euro Truck Simulator 2\\config.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Euro Truck Simulator 2/config.cfg}}"
@@ -84282,8 +84296,8 @@ Final Fantasy VII (2020):
     - Final Fantasy VII (2026)
   steam: 3837340
   templates:
-    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\config.txt}}"
-    - "{{Game data/saves|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\config.txt}}"
+    - "{{Game data/config|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\config.txt}}"
+    - "{{Game data/config|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\config.txt}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\My Games\\FINAL FANTASY VII\\config.txt}}"
     - "{{Game data/saves|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\76561197960265729\\*.ff7}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\{{p|uid}}\\*.ff7}}"
@@ -125280,6 +125294,14 @@ Kulebra and the Souls of Limbo:
     xbox: true
   pageId: 204693
   steam: 2246470
+"KuloNiku: Bowl Up!":
+  cloud:
+    steam: true
+  lutris: kuloniku-bowl-up
+  pageId: 214468
+  steam: 3357960
+  steamSide:
+    - 3732560
 "Kult of Ktulu: Olympic":
   cloud:
     steam: true
@@ -200366,6 +200388,7 @@ SiN:
 "SiN: Reloaded":
   cloud:
     steam: true
+  gog: 1627068096
   pageId: 163180
   steam: 632950
 SiNKR:
@@ -206756,7 +206779,7 @@ Sore:
   pageId: 199573
   steam: 1796580
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\a la mode games\\Sorry We're Closed\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\a la mode games\\Sorry We're Closed\\Settings.es3|{{P|userprofile\\appdata\\locallow}}\\a la mode games\\Sorry We're Closed\\SystemData.es3|{{p|hkcu}}\\Software\\a la mode games\\Sorry We're Closed\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\a la mode games\\Sorry We're Closed\\}}"
 Sorry!:
   pageId: 7476
@@ -227667,6 +227690,10 @@ The Angel Inn:
 The Angry Banana:
   pageId: 127257
   steam: 1014820
+The Anomalous Hour:
+  lutris: the-anomalous-hour
+  pageId: 214470
+  steam: 2897450
 The Anomaly:
   pageId: 121020
   steam: 938050
@@ -254600,6 +254627,18 @@ Under That Rain:
 Under The Ground:
   pageId: 141724
   steam: 1110670
+Under The Island:
+  cloud:
+    steam: true
+  gog: 1928945121
+  gogSide:
+    - 2095987176
+  lutris: under-the-island
+  pageId: 214478
+  steam: 1583520
+  steamSide:
+    - 3708500
+    - 3862050
 Under The Moon:
   cloud:
     gog: true

@@ -566352,6 +566352,42 @@
         oslist: windows
       executable: "BuildStuff\\HogHunter2021.exe"
       type: default
+1583520:
+  cloud:
+    saves:
+      - path: UnderTheIsland
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: UnderTheIsland
+        pattern: "*"
+        recursive: true
+        root: LinuxXdgConfigHome
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: UnderTheIsland
+            replace: UnderTheIsland
+        root: WinAppDataLocal
+        useInstead: LinuxXdgConfigHome
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: UnderTheIsland
+            replace: UnderTheIsland
+        root: LinuxXdgConfigHome
+        useInstead: WinAppDataLocal
+  installDir: Under The Island
+  launch:
+    - config:
+        oslist: windows
+      executable: UnderTheIsland.exe
+      type: default
+  nameLocalized:
+    japanese: Under the Island ニアと不思議な歯車
+    schinese: 碧屿之下 妮娅与不思议齿轮
+    tchinese: 碧嶼之下 妮婭與不思議齒輪
 1583720:
   cloud:
     saves:
@@ -611410,6 +611446,25 @@
     thai: "Tales of Kenzera™: ZAU"
     turkish: "Tales of Kenzera™: ZAU"
     ukrainian: "Tales of Kenzera™: ZAU"
+2316960:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: "Moorhuhn Jump and Run 'Traps and Treasures'"
+  launch:
+    - executable: "Moorhuhn Jump and Run 'Traps and Treasures'.exe"
+  nameLocalized:
+    brazilian: "Moorhuhn - Crazy Chicken 'Armadilhas e Tesouros'"
+    dutch: "Moorhuhn - Crazy Chicken 'Vallen en Schatten'"
+    french: "Moorhuhn - Crazy Chicken 'Chasse au trésor'"
+    german: "Moorhuhn Jump 'n' Run Schatzjäger"
+    italian: "Moorhuhn - Crazy Chicken 'Trappole e Tranelli'"
+    japanese: "Moorhuhn Jump and Run トレジャーハンター "
+    portuguese: "Moorhuhn - Crazy Chicken 'Armadilhas e Tesouros'"
+    russian: "Moorhuhn - Crazy Chicken 'Ловушки и Сокровища'"
+    spanish: "Moorhuhn - Crazy Chicken 'Trampas y Trucos'"
 2318070:
   cloud:
     saves:
@@ -629815,6 +629870,24 @@
       type: option3
   nameLocalized:
     schinese: 灰雨钢锋
+2897450:
+  cloud:
+    saves:
+      - path: Gambir Studio/The Anomalous Hour
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: The Anomalous Hour
+  launch:
+    - config:
+        oslist: windows
+      executable: The Anomalous Hour.exe
+      type: default
 2897590:
   installDir: GRADIUS origin collection
   launch:
@@ -637453,6 +637526,9 @@
       description: Launch
       executable: Nedra.exe
 3357650: {}
+3357960:
+  nameLocalized:
+    schinese: 肉丸烹饪：盛满快乐
 3358250:
   cloud:
     saves:
