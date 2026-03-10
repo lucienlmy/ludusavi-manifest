@@ -3401,6 +3401,10 @@ A Short Hike:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\adamgryu\\A Short Hike\\GameSaveNew.mountain}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.adamgryu.AShortHike/GameSaveNew.mountain}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/adamgryu/A Short Hike/GameSaveNew.mountain}}"
+A Short Tale of Solitude:
+  lutris: a-short-tale-of-solitude
+  pageId: 214486
+  steam: 1387210
 A Show of Kindness:
   pageId: 123203
   steam: 974840
@@ -46723,6 +46727,7 @@ Construction Machines Simulator 2016:
 Construction Simulator:
   cloud:
     steam: true
+    xbox: true
   pageId: 181841
   steam: 1273400
   steamSide:
@@ -68774,6 +68779,7 @@ Duet:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Duet/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Duet/*-data.db}}"
 Duet Night Abyss:
+  lutris: duet-night-abyss
   pageId: 210457
   steam: 3950020
 Dujanah:
@@ -156598,8 +156604,8 @@ No Sleep For Kaname Date:
     - "No Sleep For Kaname Date - From AI: The Somnium Files"
   steam: 2752180
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}/SpikeChunsoft/NoSleepForKanameDate/}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}/SpikeChunsoft/NoSleepForKanameDate/}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SpikeChunsoft\\NoSleepForKanameDate\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\SpikeChunsoft\\NoSleepForKanameDate\\}}"
 No Stars No Problem:
   lutris: no-stars-no-problem
   pageId: 212026
@@ -161366,9 +161372,11 @@ OpenTTD:
   steam: 1536610
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\OpenTTD\\}}"
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\OpenTTD\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/OpenTTD/}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/openttd}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\OpenTTD\\save\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|userprofile\\Documents}}\\OpenTTD\\save\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/OpenTTD/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/openttd}}"
 Opencast Mining:

@@ -537477,6 +537477,9 @@
       type: default
   nameLocalized:
     german: Bau-Simulator
+    japanese: コンストラクションシミュレーター
+    schinese: 建筑模拟器
+    tchinese: 《模擬建設》
 1273560:
   cloud:
     saves:
@@ -550510,6 +550513,7 @@
       executable: Heavy Metal Babes.exe
       type: default
 1387190: {}
+1387210: {}
 1387500:
   installDir: Offroad Mechanic Simulator
   launch:

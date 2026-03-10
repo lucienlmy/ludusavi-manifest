@@ -11050,6 +11050,11 @@ A Short Hike:
         - config
   steam:
     id: 1055540
+A Short Tale of Solitude:
+  id:
+    lutris: a-short-tale-of-solitude
+  steam:
+    id: 1387210
 A Show of Kindness:
   installDir:
     A Show of Kindness: {}
@@ -214382,6 +214387,8 @@ Duet:
   steam:
     id: 292600
 Duet Night Abyss:
+  id:
+    lutris: duet-night-abyss
   installDir:
     Duet Night Abyss: {}
   launch:
@@ -498605,11 +498612,15 @@ OpenTTD:
         - config
       when:
         - os: windows
+        - os: windows
+          store: microsoft
     "<winDocuments>/OpenTTD/save":
       tags:
         - save
       when:
         - os: windows
+        - os: windows
+          store: microsoft
     "<xdgConfig>/openttd":
       tags:
         - config
