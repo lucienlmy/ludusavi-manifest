@@ -586566,6 +586566,7 @@
         oslist: linux
       executable: wordle5.x86_64
       type: default
+1867240: {}
 1867260:
   installDir: Way Down
   launch:
@@ -609207,7 +609208,9 @@
     schinese: 致命解药
     tchinese: 致命解藥
 2254950: {}
-2255370: {}
+2255370:
+  nameLocalized:
+    schinese: 8020号指令
 2256420:
   installDir: Infiltrator
   launch:
@@ -625262,6 +625265,7 @@
   launch:
     - executable: AILA.exe
       type: default
+2695710: {}
 2697000:
   nameLocalized:
     german: Die Legende von Khiimori
@@ -626583,28 +626587,17 @@
     saves:
       - path: Blue Brain Games/The House of Tesla/Profiles
         pattern: "*"
-        platforms:
-          - Windows
-        recursive: true
         root: WinAppDataLocalLow
       - path: Blue Brain Games/The House of Tesla/Backup
         pattern: "*"
-        platforms:
-          - Windows
         recursive: true
         root: WinAppDataLocalLow
-      - path: Blue Brain Games/The House of Tesla/Profiles
-        pattern: "*"
-        platforms:
-          - MacOS
-        recursive: true
-        root: MacAppSupport
-      - path: Blue Brain Games/The House of Tesla/Backup
-        pattern: "*"
-        platforms:
-          - MacOS
-        recursive: true
-        root: MacAppSupport
+    overrides:
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: The House of Tesla
   launch:
     - config:
@@ -626615,6 +626608,9 @@
         osarch: "64"
         oslist: linux
       executable: The House of Tesla.x86_64
+    - config:
+        oslist: macos
+      executable: The House of Tesla.app/Contents/MacOS/The House of Tesla
 2738630:
   cloud:
     saves:
@@ -632288,6 +632284,9 @@
       type: default
   nameLocalized:
     greek: "DOOM: Οι σκοτεινοί αιώνες"
+3018390:
+  nameLocalized:
+    thai: PSYCHO DEAD
 3018910:
   cloud:
     saves:
@@ -641082,8 +641081,8 @@
   nameLocalized:
     japanese: CONTROL Resonant（コントロール レゾナント）
     koreana: CONTROL Resonant (컨트롤：레조넌트)
-    schinese: 控制 《Resonant》
-    tchinese: 控制 《Resonant》
+    schinese: "控制: 共振"
+    tchinese: "控制: 共振"
 3671710:
   cloud:
     saves:
@@ -643241,6 +643240,12 @@
     japanese: "太古の神:哪吒"
     schinese: "古神:风里希"
     tchinese: "古神:風裡希"
+4358270:
+  nameLocalized:
+    english: Pickmon
+    japanese: Pickmon / ピックモン
+    schinese: Pickmon / 精灵皮可
+    tchinese: Pickmon / 精靈皮可
 4372990:
   nameLocalized:
     english: EVO Card

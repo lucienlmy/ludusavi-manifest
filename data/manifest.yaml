@@ -7132,6 +7132,7 @@ $1 Ride:
     id: 284870
 9 Kings:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/SadSocket/9Kings":
@@ -7140,6 +7141,8 @@ $1 Ride:
         - save
       when:
         - os: windows
+  gog:
+    id: 1875095393
   installDir:
     9 Kings: {}
   launch:
@@ -165603,6 +165606,11 @@ DEFCON:
         - save
       when:
         - os: linux
+    "<home>/Library/Preferences/uk.co.introversion.defcon.prefs":
+      tags:
+        - config
+      when:
+        - os: mac
   gog:
     id: 1207659075
   installDir:
@@ -298346,6 +298354,13 @@ God Vs Zombies:
           - store: steam
   steam:
     id: 509530
+God for a Day:
+  id:
+    lutris: god-for-a-day
+    steamExtra:
+      - 2864940
+  steam:
+    id: 2695710
 "God is a Cube: Programming Robot Cubes":
   installDir:
     God is a Cube Programming Robot Cubes: {}
@@ -461349,6 +461364,11 @@ Multiwinia:
         - save
       when:
         - os: linux
+    "<home>/Library/Preferences/uk.co.introversion.Multiwinia.txt":
+      tags:
+        - config
+      when:
+        - os: mac
   gog:
     id: 1207659074
   installDir:
@@ -520896,6 +520916,11 @@ Picklock:
             store: steam
   steam:
     id: 1243220
+Pickmon:
+  cloud:
+    steam: true
+  steam:
+    id: 4358270
 Pickup Express:
   id:
     lutris: pickup-express
@@ -543778,6 +543803,15 @@ Psycho Boys:
             store: steam
   steam:
     id: 991930
+Psycho Dead:
+  cloud:
+    steam: true
+  gog:
+    id: 1280533352
+  id:
+    lutris: psycho-dead
+  steam:
+    id: 3018390
 Psycho Love:
   steam:
     id: 999390
@@ -722212,24 +722246,23 @@ The House of Da Vinci VR:
     id: 2948310
 The House of Tesla:
   cloud:
+    gog: true
     steam: true
   files:
+    "<home>/.config/unity3d/Blue Brain Games/The House of Tesla/Backup":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Blue Brain Games/The House of Tesla/Profiles":
+      when:
+        - os: linux
+          store: steam
     "<home>/AppData/LocalLow/Blue Brain Games/The House of Tesla/Backup":
       when:
-        - os: windows
-          store: steam
+        - store: steam
     "<home>/AppData/LocalLow/Blue Brain Games/The House of Tesla/Profiles":
       when:
-        - os: windows
-          store: steam
-    "<home>/Library/Application Support/Blue Brain Games/The House of Tesla/Backup":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Blue Brain Games/The House of Tesla/Profiles":
-      when:
-        - os: mac
-          store: steam
+        - store: steam
   gog:
     id: 1740503101
   id:
@@ -722239,6 +722272,10 @@ The House of Tesla:
   installDir:
     The House of Tesla: {}
   launch:
+    "<base>/The House of Tesla.app/Contents/MacOS/The House of Tesla":
+      - when:
+          - os: mac
+            store: steam
     "<base>/The House of Tesla.exe":
       - when:
           - bit: 64
@@ -785905,38 +785942,6 @@ Under The Ground:
             store: steam
   steam:
     id: 1110670
-Under The Island:
-  cloud:
-    steam: true
-  files:
-    "<winLocalAppData>/UnderTheIsland":
-      when:
-        - store: steam
-        - os: windows
-          store: steam
-    "<xdgConfig>/UnderTheIsland":
-      when:
-        - store: steam
-        - os: linux
-          store: steam
-  gog:
-    id: 1928945121
-  id:
-    gogExtra:
-      - 2095987176
-    lutris: under-the-island
-    steamExtra:
-      - 3708500
-      - 3862050
-  installDir:
-    Under The Island: {}
-  launch:
-    "<base>/UnderTheIsland.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1583520
 Under The Moon:
   cloud:
     gog: true
@@ -786027,6 +786032,38 @@ Under the Hood:
           - store: steam
   steam:
     id: 1428700
+Under the Island:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/UnderTheIsland/save_data_*.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/UnderTheIsland/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1928945121
+  id:
+    gogExtra:
+      - 2095987176
+    lutris: under-the-island
+    steamExtra:
+      - 3708500
+      - 3862050
+  installDir:
+    Under The Island: {}
+  launch:
+    "<base>/UnderTheIsland.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1583520
 Under the Ocean:
   installDir:
     Under the Ocean: {}
@@ -808645,6 +808682,9 @@ Wardens of the Amber Cage:
 Wardialler:
   steam:
     id: 1077860
+Wardogs:
+  steam:
+    id: 1867240
 Wardwell House:
   installDir:
     Wardwell House: {}

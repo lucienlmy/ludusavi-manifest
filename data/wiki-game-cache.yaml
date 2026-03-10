@@ -2218,8 +2218,10 @@ $1 Ride:
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\284870\\remote\\profile}}"
 9 Kings:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1875095393
   pageId: 207108
   steam: 2784470
   templates:
@@ -53037,6 +53039,7 @@ DEFCON:
   steam: 1520
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/uk.co.introversion.defcon.prefs}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.defcon/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.defcon/}}"
 DEFCON VR:
@@ -84282,7 +84285,6 @@ Final Fantasy VII:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Final Fantasy VII (2012):
   lutris: final-fantasy-vii
-  malformed: true
   pageId: 1938
   steam: 39140
   templates:
@@ -96022,6 +96024,12 @@ God Vs Zombies:
 "God and Nemesis: of Ghosts from Dragons":
   pageId: 57345
   steam: 509530
+God for a Day:
+  lutris: god-for-a-day
+  pageId: 214497
+  steam: 2695710
+  steamSide:
+    - 2864940
 "God is a Cube: Programming Robot Cubes":
   pageId: 113340
   steam: 845590
@@ -149097,6 +149105,7 @@ Multiwinia:
   steam: 1530
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/uk.co.introversion.Multiwinia.txt}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.multiwinia/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.multiwinia/}}"
 Mummy Contact:
@@ -168681,6 +168690,11 @@ Picklock:
   gog: 1823930892
   pageId: 191378
   steam: 1243220
+Pickmon:
+  cloud:
+    steam: true
+  pageId: 214491
+  steam: 4358270
 Pickup Express:
   lutris: pickup-express
   pageId: 195264
@@ -175940,6 +175954,13 @@ Psychical Madness:
 Psycho Boys:
   pageId: 144524
   steam: 991930
+Psycho Dead:
+  cloud:
+    steam: true
+  gog: 1280533352
+  lutris: psycho-dead
+  pageId: 214493
+  steam: 3018390
 Psycho Killer:
   pageId: 214023
 Psycho Love:
@@ -184287,7 +184308,7 @@ Resident Evil Requiem:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"
-    - "{{Game data/saves|Windows|%APPDATA%\\GSE Saves\\3764200\\remote\\win64_save\\|note=Goldberg Steam Emulator}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\GSE Saves\\3764200\\remote\\win64_save\\|note=Goldberg Steam Emulator}}"
 Resident Evil Resistance:
   cloud:
     steam: true
@@ -233009,6 +233030,7 @@ The House of Da Vinci VR:
   steam: 2948310
 The House of Tesla:
   cloud:
+    gog: true
     steam: true
   gog: 1740503101
   lutris: the-house-of-tesla
@@ -254639,18 +254661,6 @@ Under That Rain:
 Under The Ground:
   pageId: 141724
   steam: 1110670
-Under The Island:
-  cloud:
-    steam: true
-  gog: 1928945121
-  gogSide:
-    - 2095987176
-  lutris: under-the-island
-  pageId: 214478
-  steam: 1583520
-  steamSide:
-    - 3708500
-    - 3862050
 Under The Moon:
   cloud:
     gog: true
@@ -254687,6 +254697,23 @@ Under the Hood:
   gog: 1418084644
   pageId: 190578
   steam: 1428700
+Under the Island:
+  cloud:
+    steam: true
+  gog: 1928945121
+  gogSide:
+    - 2095987176
+  lutris: under-the-island
+  pageId: 214478
+  renamedFrom:
+    - Under The Island
+  steam: 1583520
+  steamSide:
+    - 3708500
+    - 3862050
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\UnderTheIsland\\settings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\UnderTheIsland\\save_data_*.ini}}"
 Under the Ocean:
   pageId: 13033
   steam: 227720
@@ -262214,6 +262241,9 @@ Wardens of the Amber Cage:
 Wardialler:
   pageId: 135899
   steam: 1077860
+Wardogs:
+  pageId: 214510
+  steam: 1867240
 Wardwell House:
   pageId: 155530
   steam: 1180030
