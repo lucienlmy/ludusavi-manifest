@@ -616883,6 +616883,23 @@
         oslist: windows
       executable: EnchantedPortals.exe
 2444760: {}
+2445340:
+  cloud:
+    saves:
+      - path: Lucky Teacher_Data/Saves
+        pattern: "*.bin"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Love n Life Lucky Teacher
+  launch:
+    - config:
+        oslist: windows
+      executable: Lucky Teacher.exe
+      type: default
+  nameLocalized:
+    schinese: 爱与生活：幸运老师
 2445690:
   installDir: Lost Castle 2
   launch:
@@ -622241,6 +622258,9 @@
   installDir: Dispatch
   launch:
     - executable: Dispatch.exe
+  nameLocalized:
+    schinese: Dispatch 超英派遣中心
+    tchinese: Dispatch 超英派遣中心
 2593320:
   nameLocalized:
     english: Catechesis
@@ -642549,6 +642569,27 @@
       type: default
 3919810: {}
 3920610:
+  cloud:
+    saves:
+      - path: "KoeiTecmo/FatalFrameII/Savedata/{Steam3AccountID}"
+        pattern: "*.BIN"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: FatalFrameII
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: FatalFrameII.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "4123380"
+      description: Launch Digital Art Book & Soundtrack
+      executable: "DigitalArtBook\\FatalFrameIIDigitalArtBook.exe"
   nameLocalized:
     japanese: 零 ～紅い蝶～ REMAKE
     koreana: 제로 ~붉은 나비~ REMAKE

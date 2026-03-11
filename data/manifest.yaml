@@ -255855,6 +255855,14 @@ Fatal Fight:
         - os: windows
   id:
     lutris: fatal-frame-ii-crimson-butterfly-remake
+  installDir:
+    FatalFrameII: {}
+  launch:
+    "<base>/FatalFrameII.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3920610
 "Fatal Frame: Maiden of Black Water":
@@ -414441,6 +414449,35 @@ Love love love:
             store: steam
   steam:
     id: 1088590
+"Love n Life: Lucky Teacher":
+  cloud:
+    steam: true
+  files:
+    "<base>/Lucky Teacher_Data/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/RebornEntertainment/Lucky Teacher":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1122895100
+  id:
+    steamExtra:
+      - 2662040
+      - 3216840
+  installDir:
+    Love n Life Lucky Teacher: {}
+  launch:
+    "<base>/Lucky Teacher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2445340
 Love or Loved - A Bullet For My Valentine:
   installDir:
     Love or Loved: {}
@@ -732483,6 +732520,8 @@ The Most Challenging Game:
   steam:
     id: 762100
 "The Mound: Omen of Cthulhu":
+  id:
+    lutris: the-mound-omen-of-cthulhu
   steam:
     id: 2569760
 The Movie Trivia Challenge:
@@ -762889,11 +762928,11 @@ Toribash:
   cloud:
     steam: true
   files:
-    "<base>/replay":
+    "<home>/Library/Application Support/Toribash/custom.cfg":
       tags:
-        - save
+        - config
       when:
-        - os: windows
+        - os: mac
     "<home>/Saved Games/Toribash/custom.cfg":
       tags:
         - config
@@ -762919,21 +762958,19 @@ Toribash:
   steam:
     id: 248570
 Toribash Next:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/NabiStudios/ToribashNext/Data/Mod/**/*.tnm":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/NabiStudios/ToribashNext/Replays/**/*.tbr":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/NabiStudios/ToribashNext/Data/Mod/**/*.tnm":
+    "<home>/AppData/LocalLow/NabiStudios/ToribashNext":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Library/Application Support/NabiStudios/ToribashNext/Replays/**/*.tbr":
+    "<home>/AppData/LocalLow/NabiStudios/ToribashNext/preferences.cfg":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   id:
     lutris: toribash-next
   installDir:
@@ -762948,6 +762985,11 @@ Toribash Next:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/NabiStudios/ToribashNext:
+      tags:
+        - config
+        - save
   steam:
     id: 787760
 Toricky:

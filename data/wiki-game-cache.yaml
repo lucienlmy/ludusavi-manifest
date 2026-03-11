@@ -133765,6 +133765,18 @@ Love love demon ji-恋恋妖姬:
 Love love love:
   pageId: 140972
   steam: 1088590
+"Love n Life: Lucky Teacher":
+  cloud:
+    steam: true
+  gog: 1122895100
+  pageId: 214549
+  steam: 2445340
+  steamSide:
+    - 2662040
+    - 3216840
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\RebornEntertainment\\Lucky Teacher\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Lucky Teacher_Data\\Saves\\|}}"
 Love or Loved - A Bullet For My Valentine:
   pageId: 80998
   steam: 778360
@@ -236499,6 +236511,9 @@ The Most Challenging Game:
   pageId: 79062
   steam: 762100
 "The Mound: Omen of Cthulhu":
+  cloud:
+    xbox: true
+  lutris: the-mound-omen-of-cthulhu
   pageId: 203422
   steam: 2569760
 The Movie Trivia Challenge:
@@ -246433,11 +246448,18 @@ Toribash:
   steam: 248570
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Toribash\\custom.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\replay}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Toribash/custom.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
+    - "{{Game data/saves|OS X|{{p|game}}}}"
 Toribash Next:
+  cloud:
+    steam: true
   lutris: toribash-next
   pageId: 214523
   steam: 787760
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\NabiStudios\\ToribashNext|{{p|userprofile\\appdata\\locallow}}\\NabiStudios\\ToribashNext\\preferences.cfg}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\NabiStudios\\ToribashNext{{note|Head and world customisation is stored here}}|{{p|userprofile\\appdata\\locallow}}\\NabiStudios\\ToribashNext}}"
 Toricky:
   pageId: 38881
   steam: 477720
