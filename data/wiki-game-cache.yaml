@@ -98465,7 +98465,7 @@ GreedFall:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\GreedFall\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GreedFall\\{{code|*}}.fsav}}"
-"GreedFall II: The Dying World":
+"GreedFall: The Dying World":
   cloud:
     steam: true
   gog: 2015990447
@@ -98474,8 +98474,15 @@ GreedFall:
   renamedFrom:
     - GreedFall 2
     - "GreedFall 2: The Dying World"
+    - "GreedFall II: The Dying World"
   steam: 1997660
+  steamSide:
+    - 4066020
+    - 4066030
+    - 4235640
+    - 4235650
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\GreedFall 2\\settings.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\GreedFall 2\\*.fsav}}"
 Greedland:
   pageId: 192804
@@ -118719,6 +118726,12 @@ Jaxon The Thief:
 Jay Walker:
   pageId: 112648
   steam: 937320
+"Jay and Silent Bob: Chronic Blunt Punch":
+  cloud:
+    xbox: true
+  lutris: jay-and-silent-bob-chronic-blunt-punch
+  pageId: 214536
+  steam: 1346290
 "Jay and Silent Bob: Mall Brawl":
   cloud:
     gog: true
@@ -233033,6 +233046,7 @@ The House of Da Vinci VR:
   steam: 2948310
 The House of Tesla:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1740503101

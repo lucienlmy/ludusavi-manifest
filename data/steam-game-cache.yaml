@@ -546269,6 +546269,7 @@
     japanese: ウォーグルーヴ 2
     schinese: 战律 2
     tchinese: 戰律 2
+1346290: {}
 1346360:
   cloud:
     saves:
@@ -584336,6 +584337,12 @@
       - path: CrimsonDusk/HomuraHime
         pattern: "*.metadata"
         root: WinAppDataLocalLow
+      - path: CrimsonDusk/HomuraHime
+        pattern: global_data.json
+        root: gameinstall
+      - path: CrimsonDusk/HomuraHime/SaveFileBackup/
+        pattern: "*.*"
+        root: gameinstall
   installDir: Homura Hime
   launch:
     - config:

@@ -305864,10 +305864,12 @@ GreedFall:
   steam:
     id: 606880
 GreedFall 2:
-  alias: "GreedFall II: The Dying World"
+  alias: "GreedFall: The Dying World"
 "GreedFall 2: The Dying World":
-  alias: "GreedFall II: The Dying World"
+  alias: "GreedFall: The Dying World"
 "GreedFall II: The Dying World":
+  alias: "GreedFall: The Dying World"
+"GreedFall: The Dying World":
   cloud:
     steam: true
   files:
@@ -305876,10 +305878,20 @@ GreedFall 2:
         - save
       when:
         - os: windows
+    "<winDocuments>/GreedFall 2/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 2015990447
   id:
     lutris: greedfall-ii-the-dying-world
+    steamExtra:
+      - 4066020
+      - 4066030
+      - 4235640
+      - 4235650
   installDir:
     GreedFall 2: {}
   launch:
@@ -368561,6 +368573,11 @@ Jay Walker:
           - store: steam
   steam:
     id: 937320
+"Jay and Silent Bob: Chronic Blunt Punch":
+  id:
+    lutris: jay-and-silent-bob-chronic-blunt-punch
+  steam:
+    id: 1346290
 "Jay and Silent Bob: Mall Brawl":
   cloud:
     gog: true
@@ -722250,6 +722267,7 @@ The House of Da Vinci VR:
     id: 2948310
 The House of Tesla:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
