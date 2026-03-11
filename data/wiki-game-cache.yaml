@@ -133777,6 +133777,17 @@ Love love love:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\RebornEntertainment\\Lucky Teacher\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Lucky Teacher_Data\\Saves\\|}}"
+"Love n War: Warlord by Chance":
+  cloud:
+    steam: true
+  pageId: 214559
+  steam: 1508680
+  steamSide:
+    - 1599180
+    - 1660900
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\RebornEntertainment\\WarlordByChance\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\WarlordByChance_Data\\Saves\\|}}"
 Love or Loved - A Bullet For My Valentine:
   pageId: 80998
   steam: 778360
@@ -196277,6 +196288,15 @@ Selfloss:
   steam: 1086620
   steamSide:
     - 3212270
+Selini:
+  cloud:
+    steam: true
+  lutris: selini
+  pageId: 214557
+  steam: 1434050
+  steamSide:
+    - 2198050
+    - 4367830
 Selknam Defense:
   cloud:
     steam: true
@@ -203386,7 +203406,9 @@ Slay the Spire 2:
   pageId: 194315
   steam: 2868840
   templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\SlayTheSpire2}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\SlayTheSpire2\\steam\\{{p|uid}}}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}/profile1}}"
 Slay.one:
   pageId: 80677
@@ -246449,8 +246471,10 @@ Toribash:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Toribash\\custom.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Toribash/custom.cfg}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/Toribash}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
     - "{{Game data/saves|OS X|{{p|game}}}}"
+    - "{{Game data/saves|Linux|{{p|game}}}}"
 Toribash Next:
   cloud:
     steam: true

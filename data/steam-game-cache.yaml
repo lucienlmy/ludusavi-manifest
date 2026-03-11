@@ -554795,6 +554795,27 @@
         oslist: windows
       executable: The Amazing American Circus.exe
       type: default
+1434050:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.es3"
+        root: gameinstall
+      - path: SavesDir
+        pattern: Player*
+        root: gameinstall
+    overrides:
+      - addPath: CYMBAN/SELINI
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+  installDir: SELINI
+  launch:
+    - config:
+        oslist: windows
+      executable: SELINI.exe
+      type: default
 1434310:
   installDir: Paw Patrol The Movie
   launch:
@@ -560650,6 +560671,23 @@
   launch:
     - executable: annalynn.exe
       type: default
+1508680:
+  cloud:
+    saves:
+      - path: WarlordByChance_Data/Saves
+        pattern: "*.bin"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Love n War Warlord by Chance
+  launch:
+    - config:
+        oslist: windows
+      executable: WarlordByChance.exe
+      type: default
+  nameLocalized:
+    schinese: 爱与战争：天选将军
 1509080:
   cloud:
     saves:
@@ -617562,7 +617600,12 @@
     japanese: Leila 彼女の人生の物語
     schinese: " 莱拉日记"
     tchinese: 萊菈
-2458470: {}
+2458470:
+  installDir: SpellcastersChronicles
+  launch:
+    - description: the game
+      executable: start_game.bat
+      type: option1
 2458560:
   cloud:
     saves:

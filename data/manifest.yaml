@@ -414478,6 +414478,33 @@ Love love love:
             store: steam
   steam:
     id: 2445340
+"Love n War: Warlord by Chance":
+  cloud:
+    steam: true
+  files:
+    "<base>/WarlordByChance_Data/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/RebornEntertainment/WarlordByChance":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 1599180
+      - 1660900
+  installDir:
+    Love n War Warlord by Chance: {}
+  launch:
+    "<base>/WarlordByChance.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1508680
 Love or Loved - A Bullet For My Valentine:
   installDir:
     Love or Loved: {}
@@ -606846,6 +606873,38 @@ Selfloss:
           - store: steam
   steam:
     id: 1086620
+Selini:
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.es3":
+      when:
+        - store: steam
+    "<base>/SavesDir/Player*":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CYMBAN/SELINI/SavesDir/*.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/CYMBAN/SELINI/SavesDir/Player*":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: selini
+    steamExtra:
+      - 2198050
+      - 4367830
+  installDir:
+    SELINI: {}
+  launch:
+    "<base>/SELINI.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1434050
 Selknam Defense:
   cloud:
     steam: true
@@ -629126,6 +629185,16 @@ Slay the Spire 2:
   cloud:
     steam: true
   files:
+    "<winAppData>/SlayTheSpire2":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/SlayTheSpire2/steam/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
     "<xdgData>/SlayTheSpire2/steam/<storeUserId>":
       tags:
         - config
@@ -649145,6 +649214,8 @@ Spellcaster University:
   steam:
     id: 895620
 Spellcasters Chronicles:
+  installDir:
+    SpellcastersChronicles: {}
   steam:
     id: 2458470
 Spellcastia:
@@ -762938,6 +763009,11 @@ Toribash:
         - config
       when:
         - os: windows
+    "<xdgData>/Toribash":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     lutris: toribash
   installDir:
