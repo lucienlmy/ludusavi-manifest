@@ -297589,17 +297589,17 @@ Goat Simulator 3:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Goat2/Saved/Config":
-      tags:
-        - config
-      when:
-        - os: windows
     "<winLocalAppData>/Goat2/Saved/Config/WinGDK":
       tags:
         - config
       when:
         - os: windows
           store: microsoft
+    "<winLocalAppData>/Goat2/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Goat2/Saved/SaveGames":
       tags:
         - save
@@ -709219,6 +709219,10 @@ The Bus:
     "<winLocalAppData>/TheBus/Settings/Mods.cfg":
       when:
         - store: steam
+  id:
+    lutris: the-bus
+    steamExtra:
+      - 3544250
   installDir:
     The Bus: {}
   launch:
@@ -762864,50 +762868,21 @@ Tori:
   steam:
     id: 822940
 Toribash:
+  cloud:
+    steam: true
   files:
-    "<base>/data/buddies.txt":
-      when:
-        - store: steam
-    "<base>/data/flames_stored.dat":
-      when:
-        - store: steam
-    "<base>/data/mod/modmaker/*.tbm":
-      when:
-        - store: steam
-    "<base>/data/mod_assets/**/*.obj":
-      when:
-        - store: steam
-    "<base>/data/mod_assets/**/*.tga":
-      when:
-        - store: steam
-    "<base>/data/mod_assets/**/*.wav":
-      when:
-        - store: steam
-    "<base>/data/script/system/movememory.mm":
-      when:
-        - store: steam
-    "<base>/replay/my replays/**/*.rpl":
-      when:
-        - store: steam
-    "<base>/tb_login.dat":
-      when:
-        - store: steam
-    "<home>/.local/share/Toribash/tb_login.dat":
-      when:
-        - os: linux
-          store: steam
-    "<home>/Library/Application/Toribash/tb_login.dat":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Saved Games/Toribash/tb_login.dat":
+    "<base>/replay":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winDocuments>/My Games/Toribash/tb_login.dat":
+    "<home>/Saved Games/Toribash/custom.cfg":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+  id:
+    lutris: toribash
   installDir:
     Toribash: {}
   launch:
@@ -762925,6 +762900,38 @@ Toribash:
             store: steam
   steam:
     id: 248570
+Toribash Next:
+  files:
+    "<home>/AppData/LocalLow/NabiStudios/ToribashNext/Data/Mod/**/*.tnm":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/NabiStudios/ToribashNext/Replays/**/*.tbr":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/NabiStudios/ToribashNext/Data/Mod/**/*.tnm":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/NabiStudios/ToribashNext/Replays/**/*.tbr":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: toribash-next
+  installDir:
+    Toribash Next: {}
+  launch:
+    "<base>/ToribashNext.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ToribashNext.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 787760
 Toricky:
   files:
     "<base>/linux/Toricky_Data/Saves/win/Toricky_Data/Saves/*.bin":
@@ -820602,10 +820609,16 @@ Why is the Princess in a Magic Forest?!:
   steam:
     id: 518740
 WiZmans World Re;Try:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Gravity Co_, Ltd_/WiZmans World ReTry/*.dat":
       when:
         - store: steam
+  id:
+    steamExtra:
+      - 2687030
+      - 3682180
   installDir:
     WiZmans World ReTry: {}
   launch:

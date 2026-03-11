@@ -95789,7 +95789,7 @@ Goat Simulator 3:
     - 3299590
     - 3708030
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Goat2\\Saved\\Config\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Goat2\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Goat2\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Goat2\\Saved\\SaveGames\\}}"
 "Goat Simulator: Remastered":
@@ -228790,8 +228790,11 @@ The Burton Equation:
 The Bus:
   cloud:
     steam: true
+  lutris: the-bus
   pageId: 213912
   steam: 491540
+  steamSide:
+    - 3544250
 The Butterfly Sign:
   pageId: 54935
   steam: 546700
@@ -246409,8 +246412,18 @@ Tori:
   pageId: 90332
   steam: 822940
 Toribash:
+  cloud:
+    steam: true
+  lutris: toribash
   pageId: 38169
   steam: 248570
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Toribash\\custom.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\replay}}"
+Toribash Next:
+  lutris: toribash-next
+  pageId: 214523
+  steam: 787760
 Toricky:
   pageId: 38881
   steam: 477720
@@ -266337,8 +266350,13 @@ Why is the Princess in a Magic Forest?!:
   pageId: 52592
   steam: 518740
 WiZmans World Re;Try:
+  cloud:
+    steam: true
   pageId: 214078
   steam: 2214620
+  steamSide:
+    - 2687030
+    - 3682180
 Wicca:
   cloud:
     steam: true

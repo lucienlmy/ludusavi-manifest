@@ -331806,6 +331806,34 @@
         oslist: windows
       executable: EchoClient.exe
       type: default
+787760:
+  cloud:
+    saves:
+      - path: NabiStudios/ToribashNext/Replays
+        pattern: "*.tbr"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: NabiStudios/ToribashNext/Data/Mod
+        pattern: "*.tnm"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Toribash Next
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ToribashNext.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: ToribashNext.app
+      type: default
 787780:
   cloud:
     saves:
