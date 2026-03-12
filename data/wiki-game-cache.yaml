@@ -576,9 +576,13 @@ $1 Ride:
   pageId: 95341
   steam: 862790
 1348 Ex Voto:
+  cloud:
+    steam: true
   lutris: 1348-ex-voto
   pageId: 207299
   steam: 1895900
+  steamSide:
+    - 4008520
 "140":
   cloud:
     discord: true
@@ -31960,6 +31964,12 @@ Braveland Wizard:
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Tortuga Team\\Braveland Wizard\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}/userdata/{{P|uid}}/333880/remote/*-Save1.dat}}"
+Bravely Default Flying Fairy HD Remaster:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 214580
+  steam: 2833580
 Bravely Default II:
   cloud:
     steam: true
@@ -42169,6 +42179,8 @@ Cities XL:
   steam: 35510
   steamSide:
     - 35500
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Monte Cristo\\Cities XL\\live\\<profile>}}"
 Cities XL 2011:
   pageId: 6177
   steam: 58510
@@ -48389,9 +48401,14 @@ Cows VS Vikings:
   steam: 854860
 Cozy Grove:
   cloud:
+    epic: true
     steam: true
+  lutris: cozy-grove
   pageId: 167142
   steam: 1458100
+  steamSide:
+    - 1669810
+    - 1895480
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Spry Fox\\Cozy Grove}}"
 Crab Cakes Rescue:
@@ -56942,6 +56959,8 @@ Dead or Alive Xtreme Venus Vacation:
   renamedFrom:
     - "Dead or Alive Xtreme: Venus Vacation"
   steam: 958260
+  steamSide:
+    - 1361350
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\DX11_global_data\\savedata\\}}"
 Dead or School:
@@ -162819,6 +162838,8 @@ Out of Sight:
   lutris: out-of-sight--3
   pageId: 204237
   steam: 2526310
+  steamSide:
+    - 4054300
 Out of Sight VR:
   cloud:
     steam: true
@@ -180529,6 +180550,9 @@ Ranger vs. Space Mutants:
 "Ranger's Path: National Park Simulator":
   pageId: 209459
   steam: 2502780
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Bear\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Bear\\Saved\\SaveGames\\}}"
 Rangi:
   pageId: 67508
   steam: 607330
@@ -203903,6 +203927,7 @@ Slither Link:
 Slitterhead:
   cloud:
     steam: true
+  lutris: slitterhead
   pageId: 195525
   steam: 2631250
   templates:
@@ -205590,6 +205615,8 @@ Solasta II:
   lutris: solasta-ii
   pageId: 200141
   steam: 2975950
+  steamSide:
+    - 4045820
 "Solasta: Crown of the Magister":
   cloud:
     gog: true
@@ -227334,6 +227361,13 @@ The 9th Gate:
   steam: 697130
 The AMC Squad:
   pageId: 202369
+The Abandoned Planet:
+  cloud:
+    steam: true
+  pageId: 214576
+  steam: 2014470
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DexterTeamGames\\The Abandoned Planet}}"
 The Abbey:
   lutris: the-abbey
   pageId: 49935
@@ -239902,8 +239936,8 @@ The Stillness of the Wind:
 The Sting!:
   pageId: 61354
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\neoSoftware\\TheSting!\\Settings\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Savegame\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\neoSoftware\\TheSting!\\Settings}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Savegame}}"
 The Stone:
   pageId: 68116
   steam: 676990

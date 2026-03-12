@@ -588018,6 +588018,32 @@
     spanish: "Ratchet & Clank: Una dimensión aparte"
     turkish: "Ratchet & Clank: Ayrı Dünyalar"
 1895900:
+  cloud:
+    saves:
+      - path: P1348/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: /P1348/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: P1348/Saved/SaveGames
+            replace: ~/.config/Epic/P1348/Saved/SaveGames
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: "1348"
+  launch:
+    - config:
+        oslist: windows
+      executable: 1348.exe
+      type: default
   nameLocalized:
     japanese: 1348 エクス・ヴォート
     koreana: 1348 엑스 보토
@@ -596740,6 +596766,51 @@
       type: default
   nameLocalized:
     japanese: ライブアライブ
+2014470:
+  cloud:
+    saves:
+      - path: DexterTeamGames/TheAbandonedPlanet
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: DexterTeamGames/TheAbandonedPlanet
+        pattern: "*.save"
+        root: MacAppSupport
+      - path: " .config/unity3d/DexterTeamGames/TheAbandonedPlanet"
+        pattern: "*.save"
+        root: LinuxHome
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: DexterTeamGames/TheAbandonedPlanet
+        root: MacAppSupport
+        useInstead: MacAppSupport
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: DexterTeamGames/TheAbandonedPlanet
+            replace: DexterTeamGames/TheAbandonedPlanet
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: ".config/unity3d/DexterTeamGames/TheAbandonedPlanet"
+        root: LinuxHome
+        useInstead: LinuxHome
+  installDir: The Abandoned Planet
+  launch:
+    - config:
+        oslist: windows
+      executable: TheAbandonedPlanet.exe
+    - config:
+        oslist: macos
+      executable: "TheAbandonedPlanet.app\\Contents\\MacOS\\TheAbandonedPlanet"
+    - config:
+        oslist: linux
+      executable: TheAbandonedPlanetLinux.x86_64
 2014550:
   cloud:
     saves:
@@ -619644,7 +619715,18 @@
       executable: Project COLD.exe
   nameLocalized:
     japanese: "Project:;COLD case.mirage（プロジェクトコールド ケースミラージュ）"
-2502780: {}
+2502780:
+  installDir: ESD64108
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Bear.exe
+      type: default
+  nameLocalized:
+    japanese: レンジャーズパス：ナショナルパークシミュレーター
+    schinese: 护林员之路：国家公园模拟器
+    tchinese: 《模擬國家公園：護林員之路》
 2504090:
   cloud:
     saves:
@@ -628844,6 +628926,25 @@
   installDir: Super Mining Mechs
   launch:
     - executable: Super Mining Mechs.exe
+2833580:
+  cloud:
+    saves:
+      - path: "My Games\\BRAVELY DEFAULT\\Steam\\{64BitSteamID}"
+        pattern: "*"
+        root: WinMyDocuments
+  installDir: BDFFHD
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BDFFHD.exe
+      type: default
+  nameLocalized:
+    english: BRAVELY DEFAULT FLYING FAIRY HD Remaster
+    japanese: ブレイブリーデフォルト フライングフェアリー HDリマスター
+    koreana: 브레이블리 디폴트 FLYING FAIRY HD Remaster
+    schinese: 勇气默示录 FLYING FAIRY HD Remaster
+    tchinese: 勇氣默示錄 FLYING FAIRY HD Remaster
 2833910: {}
 2834910:
   installDir: Rocksmith+
@@ -631466,7 +631567,16 @@
   installDir: Sexy Futa Mecha Battles of Islands
   launch:
     - executable: Sexy Futa Mecha Battles of Islands.exe
-2975950: {}
+2975950:
+  installDir: Solasta 2
+  launch:
+    - arguments: "-d3d12 -sm6"
+      config:
+        oslist: windows
+      executable: Solasta_2.exe
+      type: default
+  nameLocalized:
+    schinese: 索拉斯塔2
 2976250: {}
 2977260:
   nameLocalized:

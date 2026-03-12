@@ -1977,8 +1977,32 @@ $1 Ride:
   steam:
     id: 862790
 1348 Ex Voto:
+  cloud:
+    steam: true
+  files:
+    "<base>/P1348/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/~/.config/Epic/P1348/Saved/SaveGames/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/P1348/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: 1348-ex-voto
+    steamExtra:
+      - 4008520
+  installDir:
+    "1348": {}
+  launch:
+    "<base>/1348.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1895900
 "140":
@@ -99144,6 +99168,23 @@ Braveland Wizard:
         - config
   steam:
     id: 333880
+Bravely Default Flying Fairy HD Remaster:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/BRAVELY DEFAULT/Steam/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    BDFFHD: {}
+  launch:
+    "<base>/BDFFHD.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2833580
 Bravely Default II:
   cloud:
     steam: true
@@ -151345,6 +151386,7 @@ Cows VS Vikings:
     id: 854860
 Cozy Grove:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Spry Fox/Cozy Grove":
@@ -151352,6 +151394,11 @@ Cozy Grove:
         - save
       when:
         - os: windows
+  id:
+    lutris: cozy-grove
+    steamExtra:
+      - 1669810
+      - 1895480
   installDir:
     Cozy Grove: {}
   launch:
@@ -177418,6 +177465,9 @@ Dead or Alive Xtreme Venus Vacation:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 1361350
   installDir:
     DOAX-VenusVacation: {}
   launch:
@@ -503266,6 +503316,8 @@ Out of Sight:
           store: steam
   id:
     lutris: out-of-sight--3
+    steamExtra:
+      - 4054300
   installDir:
     OutOfSight: {}
   launch:
@@ -558286,6 +558338,25 @@ Ranger vs. Space Mutants:
   steam:
     id: 861570
 "Ranger's Path: National Park Simulator":
+  files:
+    "<winLocalAppData>/Bear/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Bear/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    ESD64108: {}
+  launch:
+    "<base>/Bear.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2502780
 Rangi:
@@ -631039,6 +631110,8 @@ Slitterhead:
         - save
       when:
         - os: windows
+  id:
+    lutris: slitterhead
   installDir:
     SlitterHead: {}
   launch:
@@ -636518,6 +636591,16 @@ Solas and the White Winter:
 Solasta II:
   id:
     lutris: solasta-ii
+    steamExtra:
+      - 4045820
+  installDir:
+    Solasta 2: {}
+  launch:
+    "<base>/Solasta_2.exe":
+      - arguments: "-d3d12 -sm6"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 2975950
 "Solasta: Crown of the Magister":
@@ -704557,6 +704640,32 @@ The 9th Gate:
             store: steam
   steam:
     id: 697130
+The Abandoned Planet:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DexterTeamGames/The Abandoned Planet":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    The Abandoned Planet: {}
+  launch:
+    "<base>/TheAbandonedPlanet.app/Contents/MacOS/TheAbandonedPlanet":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TheAbandonedPlanet.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TheAbandonedPlanetLinux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2014470
 The Abbey:
   id:
     lutris: the-abbey
