@@ -627969,6 +627969,15 @@
         oslist: macos
       executable: The WereCleaner/The WereCleaner.app
       type: default
+2795270:
+  cloud:
+    saves:
+      - path: save
+        pattern: "*"
+        root: gameinstall
+  installDir: everlasting flowers
+  launch:
+    - executable: everlastingflowers.exe
 2795750:
   cloud:
     saves:

@@ -241595,6 +241595,23 @@ Everhood:
             store: steam
   steam:
     id: 1229380
+"Everlasting Flowers - Where there is a will, there is a way":
+  cloud:
+    steam: true
+  files:
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    everlasting flowers: {}
+  launch:
+    "<base>/everlastingflowers.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2795270
 Everlasting Summer:
   cloud:
     steam: true
@@ -255855,6 +255872,9 @@ Fatal Fight:
         - os: windows
   id:
     lutris: fatal-frame-ii-crimson-butterfly-remake
+    steamExtra:
+      - 4123350
+      - 4123370
   installDir:
     FatalFrameII: {}
   launch:

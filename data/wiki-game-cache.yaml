@@ -77565,6 +77565,13 @@ Everhood:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Foreign Gnomes\\Everhood}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Foreign Gnomes\\Everhood\\config}}"
+"Everlasting Flowers - Where there is a will, there is a way":
+  cloud:
+    steam: true
+  pageId: 214565
+  steam: 2795270
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Everlasting Summer:
   cloud:
     steam: true
@@ -82546,6 +82553,9 @@ Fatal Fight:
   lutris: fatal-frame-ii-crimson-butterfly-remake
   pageId: 208286
   steam: 3920610
+  steamSide:
+    - 4123350
+    - 4123370
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/graphics_option.json}}"
     - "{{Game data/config|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/{{P|uid}}/}}"
