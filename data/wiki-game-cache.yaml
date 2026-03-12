@@ -34702,6 +34702,8 @@ Bye Sweet Carole:
   steam: 492130
   steamSide:
     - 509410
+Bygg Bilar med Mulle Meck:
+  pageId: 214561
 Bygg Båtar med Mulle Meck:
   pageId: 214259
 Bygone Dreams:
@@ -62866,6 +62868,7 @@ Disco Elysium:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1771589310
   gogSide:
     - 1370620137
@@ -209328,6 +209331,8 @@ Special Counter Force Attack:
 Special Delivery:
   pageId: 54517
   steam: 561230
+Special Force:
+  pageId: 214562
 Special Force VR:
   pageId: 65684
   steam: 673380
