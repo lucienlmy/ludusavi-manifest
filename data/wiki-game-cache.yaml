@@ -67520,6 +67520,12 @@ DreamWorks All-Star Kart Racing:
 "DreamWorks Dragons: Dawn of New Riders":
   pageId: 124444
   steam: 896960
+"DreamWorks Gabby's Dollhouse: Ready to Party":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 214575
+  steam: 3222830
 DreamWorks Trolls Remix Rescue:
   pageId: 195985
   steam: 2199930
@@ -230167,6 +230173,8 @@ The Darkside Detective:
 "The Darkside Detective: Backside of the Moon":
   cloud:
     steam: true
+  gog: 2010828533
+  lutris: the-darkside-detective-backside-of-the-moon
   pageId: 211863
   steam: 3990360
 "The Dawn: First War":
@@ -241059,6 +241067,10 @@ The Varginha Incident:
   templates:
     - "{{Game data/config|DOS|C:\\IV\\INFO0.SAV}}"
     - "{{Game data/saves|DOS|C:\\IV\\}}"
+The Vernyhorn:
+  lutris: the-vernyhorn
+  pageId: 214568
+  steam: 3707530
 The Veteran VR:
   pageId: 138799
   steam: 574530

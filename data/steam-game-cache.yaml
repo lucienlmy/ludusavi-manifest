@@ -635699,6 +635699,30 @@
       executable: Super Woden Rally Edge.exe
 3219630: {}
 3220050: {}
+3222830:
+  installDir: Project Gabby
+  launch:
+    - executable: GabbysDollhouse_ReadyToParty.exe
+  nameLocalized:
+    brazilian: "DreamWorks  A Casa Mágica da Gabby: Prontos para Festa"
+    danish: "DreamWorks Gabbys dukkehus: Klar til fest"
+    finnish: "DreamWorksin Gabbyn nukketalo: juhlavalmiina"
+    french: "Dreamworks Gabby et la maison magique: C'est la fête"
+    german: "DreamWorks Gabby’s Dollhouse: Bereit für die Party"
+    italian: "DreamWorks La casa delle bambole di Gabby: Pronti per la festa"
+    japanese: DreamWorks ギャビーのドールハウス：パーティーへようこそ
+    koreana: "DreamWorks 개비의 매직 하우스: 파티 준비 끝"
+    latam: "DreamWorks La casa de muñecas de Gabby:  Listos para la fiesta"
+    norwegian: "DreamWorks Gabbys dukkehus: klar for fest"
+    polish: "DreamWorks Koci Domek Gabby: Gotowa do zabawy"
+    portuguese: "Dreamworks  A Casa de Bonecas da Gabby: Vamos Festejar"
+    russian: "DreamWorks Кукольный домик Габби : Скоро вечеринка"
+    schinese: "DreamWorks盖比的娃娃屋：准备开派对 "
+    spanish: "DreamWorks La casa de muñecas de Gabby:  Listos para la fiesta"
+    swedish: "DreamWorks Gabbys dockskåp: Klar för kalas"
+    tchinese: DreamWorks 蓋比的娃娃屋：準備開派對
+    turkish: "DreamWorks Gabby'nin Hayal Evi: Parti Zamanı"
+    ukrainian: "DreamWorks «Ляльковий будиночок Ґеббі: час веселощів»"
 3223070: {}
 3223120:
   installDir: Hentai Tales Futanari Office
@@ -641426,6 +641450,7 @@
   nameLocalized:
     schinese: 没落贵族的大小姐
     tchinese: 沒落貴族的大小姐
+3707530: {}
 3708010:
   nameLocalized:
     japanese: Darkwood 2 ダークウッド 2

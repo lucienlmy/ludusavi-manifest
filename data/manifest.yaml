@@ -210209,6 +210209,17 @@ DreamWorks All-Star Kart Racing:
             store: steam
   steam:
     id: 896960
+"DreamWorks Gabby's Dollhouse: Ready to Party":
+  cloud:
+    steam: true
+  installDir:
+    Project Gabby: {}
+  launch:
+    "<base>/GabbysDollhouse_ReadyToParty.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3222830
 DreamWorks Trolls Remix Rescue:
   files:
     "<base>/TR/Saved/SaveGames/**/*.sav":
@@ -713327,6 +713338,10 @@ The Darkside Detective:
 "The Darkside Detective: Backside of the Moon":
   cloud:
     steam: true
+  gog:
+    id: 2010828533
+  id:
+    lutris: the-darkside-detective-backside-of-the-moon
   steam:
     id: 3990360
 "The Dawn: First War":
@@ -746239,6 +746254,11 @@ The Varginha Incident:
         - config
       when:
         - os: dos
+The Vernyhorn:
+  id:
+    lutris: the-vernyhorn
+  steam:
+    id: 3707530
 The Veteran VR:
   installDir:
     TheVeteranVR: {}
