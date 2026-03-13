@@ -239340,6 +239340,7 @@ The Signifier:
   steamSide:
     - 1571240
   templates:
+    - "{{Game data/config|Windows|{{Path|HKCU}}\\Software\\Playmestudio\\thesignifier}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Playmestudio\\thesignifier}}"
 The Silence Outside:
   pageId: 76547

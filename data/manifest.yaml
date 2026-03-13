@@ -453495,6 +453495,14 @@ Monster Hunter Stories:
 "Monster Hunter Stories 3: Twisted Reflection":
   cloud:
     steam: true
+  installDir:
+    MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION: {}
+  launch:
+    "<base>/MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2852190
 Monster Hunter Wilds:
@@ -741224,6 +741232,10 @@ The Signifier:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Playmestudio/thesignifier:
+      tags:
+        - config
   steam:
     id: 1082930
 The Silence Outside:

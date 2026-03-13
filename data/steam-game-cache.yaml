@@ -629417,6 +629417,13 @@
     japanese: 奈落
 2852150: {}
 2852190:
+  installDir: MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe
+      type: default
   nameLocalized:
     japanese: モンスターハンターストーリーズ3　～運命の双竜～
     koreana: 몬스터헌터 스토리즈 3 엇갈린 운명
