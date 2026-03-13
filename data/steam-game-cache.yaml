@@ -597240,6 +597240,7 @@
   launch:
     - executable: FPSChess.exe
       type: default
+2021960: {}
 2022180:
   cloud:
     saves:
@@ -604385,7 +604386,60 @@
     - config:
         oslist: windows
       executable: GBVSR.exe
-2157830: {}
+2157830:
+  cloud:
+    saves:
+      - path: "Saber/Toxic Commando/storage/steam/user/{64BitSteamID}/Main/config"
+        pattern: user_p*
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Saber/Toxic Commando/storage/steam/user/{64BitSteamID}/Main/config"
+        pattern: ac*
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Saber/Toxic Commando/storage/steam/user/{64BitSteamID}/Main/config"
+        pattern: bi_progression*
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Saber/Toxic Commando/storage/steam/user/{64BitSteamID}/Main/config"
+        pattern: tutorial*
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Saber/Toxic Commando/storage/steam/user/{64BitSteamID}/Main/config"
+        pattern: user_settings*
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: "John Carpenter's Toxic Commando"
+  launch:
+    - config:
+        oslist: windows
+      description: "John Carpenter's Toxic Commando"
+      executable: "client_pc\\root\\bin\\pc\\John Carpenter's Toxic Commando.exe"
+      type: default
+      workingdir: "client_pc\\root\\bin\\pc\\"
+    - config:
+        ownsdlc: "4202140"
+      description: Release
+      executable: "client_pc\\root\\bin\\pc\\HordeModeClientSteamRelease.exe"
+      type: option1
+      workingdir: "client_pc\\root\\bin\\pc"
+    - config:
+        ownsdlc: "4202140"
+      description: Profile
+      executable: "client_pc\\root\\bin\\pc\\HordeModeClientSteamProfile.exe"
+      type: option2
+      workingdir: "client_pc\\root\\bin\\pc"
+    - config:
+        ownsdlc: "4202140"
+      description: Retail
+      executable: "client_pc\\root\\bin\\pc\\HordeModeClientSteamRetail.exe"
+      type: option3
+      workingdir: "client_pc\\root\\bin\\pc"
 2158030:
   cloud:
     saves:
@@ -605306,6 +605360,46 @@
     japanese: 不思議のダンジョン　風来のシレン６　とぐろ島探検録
     schinese: 千变的迷宫　风来的希炼６　蛇蜷岛探险谭
     tchinese: 千變的迷宮　風來的希煉６　蛇蜷島探險譚
+2179300:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.json"
+        recursive: true
+        root: gameinstall
+      - path: ""
+        pattern: "*.nson"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: EternalAliceStudio/Blades of Jianghu
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: EternalAliceStudio/Blades of Jianghu
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Blades of Jianghu
+  launch:
+    - config:
+        oslist: windows
+      executable: Blades of Jianghu.exe
+    - config:
+        oslist: macos
+      executable: Blades of Jianghu.app
+  nameLocalized:
+    english: "Blades of Jianghu: Ballad of Wind and Dust"
+    japanese: 剣俠〜風塵恋曲〜
+    koreana: "검협:풍진연곡"
+    schinese: 剑侠．风尘恋曲
+    tchinese: 劍俠．風塵戀曲
 2179380:
   cloud:
     saves:
@@ -618165,6 +618259,53 @@
 2469440:
   nameLocalized:
     polish: "Martial Law: Wiosna Nasza"
+2471100:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/SpaceIdle
+        pattern: savegame.save
+        root: WinAppDataRoaming
+      - path: Godot/app_userdata/SpaceIdle
+        pattern: hourlybackup.save
+        root: WinAppDataRoaming
+      - path: Godot/app_userdata/SpaceIdle
+        pattern: beta.save
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/SpaceIdle
+            replace: ".local/share/godot/app_userdata/SpaceIdle"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Unnamed Space Idle
+  launch:
+    - config:
+        oslist: windows
+      description: Launch - Vulkan (Newer GPUs)
+      executable: SpaceIdle.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: SpaceIdle.x86_64
+      type: default
+    - arguments: "--rendering-method gl_compatibility"
+      config:
+        oslist: windows
+      description: Play - Compatibility Mode (Older GPUs)
+      executable: SpaceIdle.exe
+    - arguments: "--rendering-method gl_compatibility"
+      config:
+        oslist: linux
+      description: Play - Compatibility Mode (Older GPUs)
+      executable: SpaceIdle.x86_64
+    - arguments: "--rendering-method gl_compatibility"
+      config:
+        osarch: "32"
+        oslist: windows
+      executable: SpaceIdle.exe
+      type: default
 2471120:
   installDir: Rocket Jockey
   launch:
@@ -618758,6 +618899,12 @@
         oslist: windows
       executable: RethinkLite.exe
       type: default
+2482940:
+  nameLocalized:
+    japanese: リトルナイトメア VR Altered Echoes
+    koreana: "리틀 나이트메어 VR: 왜곡된 메아리"
+    schinese: "小小梦魇VR: 异境回响"
+    tchinese: "小小夢魘VR: 異境迴響"
 2483190:
   nameLocalized:
     schinese: 极限竞速：地平线 6
@@ -627297,6 +627444,7 @@
         oslist: macos
       executable: launch.sh
       type: default
+2753000: {}
 2753600:
   installDir: VambraceDungeonMonarch
   launch:
@@ -635809,6 +635957,12 @@
       executable: Super Woden Rally Edge.exe
 3219630: {}
 3220050: {}
+3220060:
+  nameLocalized:
+    english: "The Weeping Swan: Ten Days of the City's Fall"
+    japanese: 泣き叫ぶ雁
+    schinese: 哀鸿：城破十日记
+    tchinese: 哀鴻：城破十日記
 3222830:
   installDir: Project Gabby
   launch:
@@ -637520,6 +637674,7 @@
   launch:
     - executable: Retrowave 2.exe
 3333990: {}
+3335310: {}
 3335460:
   nameLocalized:
     brazilian: "Broken Sword - O Espelho Fumegante: Reforged"
@@ -641905,6 +642060,21 @@
   nameLocalized:
     japanese: BIOHAZARD requiem
     koreana: BIOHAZARD requiem
+3766810:
+  installDir: Transport Tycoon Deluxe
+  launch:
+    - config:
+        oslist: windows
+      executable: Transport Tycoon Deluxe.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Transport Tycoon Deluxe
+      type: default
+    - config:
+        oslist: macos
+      executable: Transport Tycoon Deluxe.app
+      type: default
 3767320:
   nameLocalized:
     japanese: リリのワールド

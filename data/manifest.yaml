@@ -85799,6 +85799,33 @@ Blades of Gory:
             store: steam
   steam:
     id: 1185330
+"Blades of Jianghu: Ballad of Wind and Dust":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/EternalAliceStudio/Blades of Jianghu/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/EternalAliceStudio/Blades of Jianghu/SaveData/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Blades of Jianghu: {}
+  launch:
+    "<base>/Blades of Jianghu.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Blades of Jianghu.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2179300
 Blades of Orterra:
   steam:
     id: 776070
@@ -107778,6 +107805,13 @@ Bye Sweet Carole:
       - 509410
   steam:
     id: 492130
+Bygg Bilar med Mulle Meck:
+  files:
+    "<base>/DATA/DATA.CST":
+      tags:
+        - save
+      when:
+        - os: windows
 Bygone Dreams:
   cloud:
     steam: true
@@ -151408,6 +151442,11 @@ Cozy Grove:
             store: steam
   steam:
     id: 1458100
+"Cozy Grove: Camp Spirit":
+  id:
+    lutris: cozy-grove-camp-spirit
+  steam:
+    id: 2021960
 Crab Cakes Rescue:
   installDir:
     Crab Cakes Rescue: {}
@@ -273135,6 +273174,7 @@ Formula Legends:
     id: 1724664345
   id:
     gogExtra:
+      - 1141283192
       - 1476545389
       - 1494837394
       - 1496854299
@@ -273147,6 +273187,7 @@ Formula Legends:
       - 4143900
       - 4143910
       - 4143920
+      - 4216430
   installDir:
     Formula Legends: {}
   launch:
@@ -297590,6 +297631,15 @@ Goalkeeper VR Challenge:
     Goalkeeper VR Challenge: {}
   steam:
     id: 949860
+Goals:
+  files:
+    "<winLocalAppData>/GOALS/Saved/Config/WindowsClient":
+      tags:
+        - config
+      when:
+        - os: windows
+  steam:
+    id: 2753000
 Goaltender VR:
   installDir:
     GoaltenderVR: {}
@@ -370724,6 +370774,14 @@ Joggernauts:
           store: steam
   id:
     lutris: john-carpenters-toxic-commando
+  installDir:
+    "John Carpenter's Toxic Commando": {}
+  launch:
+    "<base>/client_pc/root/bin/pc/John Carpenter's Toxic Commando.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/client_pc/root/bin/pc"
   steam:
     id: 2157830
 "John Daly's ProStroke Golf":
@@ -407389,6 +407447,13 @@ Little Nightmares III:
             store: steam
   steam:
     id: 1392860
+"Little Nightmares VR: Altered Echoes":
+  cloud:
+    steam: true
+  id:
+    lutris: little-nightmares-vr-altered-echoes
+  steam:
+    id: 2482940
 "Little Noah: Scion of Paradise":
   cloud:
     steam: true
@@ -567976,6 +568041,11 @@ Remnith:
             store: steam
   steam:
     id: 1142390
+"Remothered: Red Nun's Legacy":
+  gog:
+    id: 1933416452
+  steam:
+    id: 3335310
 "Remothered: Tormented Fathers":
   cloud:
     gog: true
@@ -747633,6 +747703,9 @@ The Weaponographist:
         workingDir: "<base>/Weaponographist"
   steam:
     id: 329240
+"The Weeping Swan: Ten Days of the City's Fall":
+  steam:
+    id: 3220060
 The Wendigo:
   installDir:
     The Wendigo: {}
@@ -771692,6 +771765,26 @@ Transport Services:
             store: steam
   steam:
     id: 993690
+Transport Tycoon Deluxe:
+  gog:
+    id: 2080930095
+  installDir:
+    Transport Tycoon Deluxe: {}
+  launch:
+    "<base>/Transport Tycoon Deluxe":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Transport Tycoon Deluxe.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Transport Tycoon Deluxe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3766810
 Transporter Truck Simulator:
   installDir:
     Transporter Truck Simulator: {}
@@ -788980,6 +789073,56 @@ Unnamed Fiasco:
             store: steam
   steam:
     id: 389010
+Unnamed Space Idle:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/SpaceIdle":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/SpaceIdle/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/godot/app_userdata/SpaceIdle":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/godot/app_userdata/SpaceIdle/config.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: unnamed-space-idle
+  installDir:
+    Unnamed Space Idle: {}
+  launch:
+    "<base>/SpaceIdle.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-method gl_compatibility"
+        when:
+          - os: windows
+            store: steam
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/SpaceIdle.x86_64":
+      - when:
+          - os: linux
+            store: steam
+      - arguments: "--rendering-method gl_compatibility"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2471100
 Unnamed VR:
   alias: Shelter in Place
 Unnatural:

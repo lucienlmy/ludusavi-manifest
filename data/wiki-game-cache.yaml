@@ -27721,6 +27721,14 @@ Blades of Fire:
 Blades of Gory:
   pageId: 152713
   steam: 1185330
+"Blades of Jianghu: Ballad of Wind and Dust":
+  cloud:
+    steam: true
+  pageId: 214592
+  steam: 2179300
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\EternalAliceStudio\\Blades of Jianghu\\SaveData\\settings.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\EternalAliceStudio\\Blades of Jianghu\\SaveData\\}}"
 Blades of Orterra:
   pageId: 88255
   steam: 776070
@@ -34714,6 +34722,8 @@ Bye Sweet Carole:
     - 509410
 Bygg Bilar med Mulle Meck:
   pageId: 214561
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\DATA\\DATA.CST}}"
 Bygg Båtar med Mulle Meck:
   pageId: 214259
 Bygone Dreams:
@@ -48411,6 +48421,10 @@ Cozy Grove:
     - 1895480
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Spry Fox\\Cozy Grove}}"
+"Cozy Grove: Camp Spirit":
+  lutris: cozy-grove-camp-spirit
+  pageId: 214587
+  steam: 2021960
 Crab Cakes Rescue:
   pageId: 49321
   steam: 328680
@@ -88009,6 +88023,7 @@ Formula Legends:
     xbox: true
   gog: 1724664345
   gogSide:
+    - 1141283192
     - 1476545389
     - 1494837394
     - 1496854299
@@ -88023,6 +88038,7 @@ Formula Legends:
     - 4143900
     - 4143910
     - 4143920
+    - 4216430
 Formula One 97:
   pageId: 77448
 Formula One 99:
@@ -95790,6 +95806,11 @@ Goalkeeper VR Challenge:
     steam: true
   pageId: 123653
   steam: 949860
+Goals:
+  pageId: 214589
+  steam: 2753000
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\GOALS\\Saved\\Config\\WindowsClient}}"
 Goaltender VR:
   pageId: 62162
   steam: 558750
@@ -131507,6 +131528,12 @@ Little Nightmares III:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\LittleNightmaresIII\\Saved\\SaveGames\\OptionSettings.sav}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\LittleNightmaresIII\\Saved\\SaveGames}}"
+"Little Nightmares VR: Altered Echoes":
+  cloud:
+    steam: true
+  lutris: little-nightmares-vr-altered-echoes
+  pageId: 214590
+  steam: 2482940
 "Little Noah: Scion of Paradise":
   cloud:
     steam: true
@@ -183686,6 +183713,10 @@ Remnith:
     - 1427750
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Remothered2\\Saved\\SaveGames\\}}"
+"Remothered: Red Nun's Legacy":
+  gog: 1933416452
+  pageId: 214598
+  steam: 3335310
 "Remothered: Tormented Fathers":
   cloud:
     gog: true
@@ -241525,6 +241556,9 @@ The Weaponographist:
     - "{{Game data/config|OS X|{{p|osxhome}}/WeaponographistSaves}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\WeaponographistSaves}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/WeaponographistSaves}}"
+"The Weeping Swan: Ten Days of the City's Fall":
+  pageId: 214599
+  steam: 3220060
 The Wendigo:
   pageId: 58789
   steam: 603230
@@ -250028,7 +250062,9 @@ Transport Services:
 Transport Tycoon:
   pageId: 170554
 Transport Tycoon Deluxe:
+  gog: 2080930095
   pageId: 28774
+  steam: 3766810
 Transporter Truck Simulator:
   pageId: 138623
   steam: 1091570
@@ -255681,6 +255717,17 @@ Unnamed Fiasco:
     steam: true
   pageId: 36232
   steam: 389010
+Unnamed Space Idle:
+  cloud:
+    steam: true
+  lutris: unnamed-space-idle
+  pageId: 214585
+  steam: 2471100
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\SpaceIdle\\config.cfg}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/godot/app_userdata/SpaceIdle/config.cfg}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\SpaceIdle}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/godot/app_userdata/SpaceIdle}}"
 Unnatural:
   cloud:
     steam: true
