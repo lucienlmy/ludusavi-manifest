@@ -19751,9 +19751,6 @@ BOTOLO:
 BOTS:
   pageId: 152667
   steam: 1184780
-BOTS 4 DEFENSE:
-  pageId: 213452
-  steam: 2804430
 BOW MAN:
   pageId: 149121
   steam: 1159480
@@ -31252,6 +31249,11 @@ Botany Manor:
     - 2440460
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Balloon Studios\\Botany Manor\\SaveFiles}}"
+Botfestation:
+  pageId: 213452
+  renamedFrom:
+    - BOTS 4 DEFENSE
+  steam: 2804430
 "Boti: Byteland Overclocked":
   cloud:
     gog: true
@@ -78810,6 +78812,12 @@ Explosive Pursuit:
 Explottens:
   pageId: 63270
   steam: 630400
+"Exponent: The Scaling Tower Defense":
+  pageId: 214604
+  steam: 4484200
+  templates:
+    - "{{Game data/config|Windows|Unknown}}"
+    - "{{Game data/saves|Windows|Unknown}}"
 Export Simulator:
   pageId: 95254
   steam: 856790
@@ -227357,7 +227365,13 @@ The 7th Guest:
     - "{{Game data/config|DOS|{{p|game}}\\GROOVIE.INI}}"
     - "{{Game data/saves|DOS|{{p|game}}\\t7g.*}}"
     - "{{Game data/saves|Windows|{{p|game}}\\t7g.*}}"
+The 7th Guest Remake:
+  gog: 1457196421
+  lutris: the-7th-guest-remake
+  pageId: 214606
+  steam: 4491360
 The 7th Guest VR:
+  lutris: the-7th-guest-vr
   pageId: 187527
   steam: 2456960
   templates:
@@ -246579,7 +246593,9 @@ Toribash Next:
   steam: 787760
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\NabiStudios\\ToribashNext|{{p|userprofile\\appdata\\locallow}}\\NabiStudios\\ToribashNext\\preferences.cfg}}"
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\NabiStudios\\ToribashNext{{note|Head and world customisation is stored here}}|{{p|userprofile\\appdata\\locallow}}\\NabiStudios\\ToribashNext}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.nabistudios.toribashnext.plist|{{p|osxhome}}/Library/Application Support/com.nabistudios.toribashnext/preferences.cfg}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\NabiStudios\\ToribashNext{{note|note=Head and world customisation is stored here|name=customheadandworld}}|{{p|userprofile\\appdata\\locallow}}\\NabiStudios\\ToribashNext}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/com.nabistudios.toribashnext.plist{{note|name=customheadandworld}}|{{p|osxhome}}/Library/Application Support/com.nabistudios.toribashnext}}"
 Toricky:
   pageId: 38881
   steam: 477720

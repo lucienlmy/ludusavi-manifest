@@ -61908,8 +61908,7 @@ BOTS:
   steam:
     id: 1184780
 BOTS 4 DEFENSE:
-  steam:
-    id: 2804430
+  alias: Botfestation
 BOW MAN:
   installDir:
     BOW MAN: {}
@@ -96796,6 +96795,9 @@ Botany Manor:
           - store: steam
   steam:
     id: 1425350
+Botfestation:
+  steam:
+    id: 2804430
 "Boti: Byteland Overclocked":
   cloud:
     gog: true
@@ -245413,6 +245415,16 @@ Explottens:
             store: steam
   steam:
     id: 630400
+"Exponent: The Scaling Tower Defense":
+  files:
+    Unknown:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4484200
 Export Simulator:
   installDir:
     Export Simulator: {}
@@ -704617,6 +704629,13 @@ The 7th Guest:
         workingDir: "<base>/ScummVM_Windows"
   steam:
     id: 255920
+The 7th Guest Remake:
+  gog:
+    id: 1457196421
+  id:
+    lutris: the-7th-guest-remake
+  steam:
+    id: 4491360
 The 7th Guest VR:
   files:
     "<winLocalAppData>/The7thGuestVR/Saved":
@@ -704629,6 +704648,8 @@ The 7th Guest VR:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-7th-guest-vr
   installDir:
     The 7th Guest VR: {}
   steam:
@@ -763281,6 +763302,22 @@ Toribash Next:
         - config
       when:
         - os: windows
+    "<home>/Library/Application Support/com.nabistudios.toribashnext":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.nabistudios.toribashnext/preferences.cfg":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Preferences/com.nabistudios.toribashnext.plist":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
   id:
     lutris: toribash-next
   installDir:
