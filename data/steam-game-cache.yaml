@@ -642977,6 +642977,20 @@
     - config:
         oslist: macos
       executable: ANightWithNeighbor.app
+3929410:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Scholar Adventure Mystery of Silence
+  launch:
+    - config:
+        oslist: windows
+      executable: Scholar Adventure - Mystery of Silence.exe
+    - config:
+        oslist: macos
+      executable: SA-MS.app/Contents/MacOS/Scholar Adventure - Mystery of Silence
 3929740:
   installDir: Splinter Cell Pandora Tomorrow
   launch:

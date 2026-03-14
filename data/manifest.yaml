@@ -103006,6 +103006,8 @@ Broken of Darkness:
   steam:
     id: 3014520
 "BrokenLore: Unfollow":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Unfollow/Saved/SaveGames/**/*.sav":
       when:
@@ -103014,6 +103016,7 @@ Broken of Darkness:
     lutris: brokenlore-unfollow
     steamExtra:
       - 2301460
+      - 4114580
   installDir:
     UNFOLLOW: {}
   launch:
@@ -123725,6 +123728,13 @@ Chaos Galaxy:
             store: steam
   steam:
     id: 1184840
+Chaos League:
+  files:
+    "<base>/Savegame":
+      tags:
+        - save
+      when:
+        - os: windows
 Chaos Legion:
   files:
     "<base>/CL_UD##.DAT":
@@ -245415,16 +245425,6 @@ Explottens:
             store: steam
   steam:
     id: 630400
-"Exponent: The Scaling Tower Defense":
-  files:
-    Unknown:
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 4484200
 Export Simulator:
   installDir:
     Export Simulator: {}
@@ -349138,16 +349138,6 @@ IFactor:
     lutris: igi-origins
   steam:
     id: 1186430
-IGNOBLE:
-  files:
-    Unknown:
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 4216180
 IGOR MAKS The Meme Lord:
   files:
     "<base>/user/**/*.igorek":
@@ -351712,6 +351702,9 @@ Ignition:
             store: steam
   steam:
     id: 577990
+Ignoble:
+  steam:
+    id: 4216180
 Igo Meijin:
   installDir:
     sgo-meijin: {}
@@ -559166,13 +559159,14 @@ Raven Squad:
     id: 1007470
 Ravenfield:
   files:
-    "<xdgConfig>/unity3d/SteelRaven7/RavenfieldSteam":
+    "<winLocalAppData>Low/SteelRaven7/RavenfieldSteam":
       tags:
         - config
       when:
-        - os: linux
-    "<xdgConfig>/unity3d/SteelRaven7/RavenfieldSteam/Saves":
+        - os: windows
+    "<xdgConfig>/unity3d/SteelRaven7/RavenfieldSteam":
       tags:
+        - config
         - save
       when:
         - os: linux
@@ -601664,6 +601658,28 @@ Schlocks:
     Schlocks: {}
   steam:
     id: 601320
+"Scholar Adventure: Mystery of Silence":
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: scholar-adventure-mystery-of-silence
+  installDir:
+    Scholar Adventure Mystery of Silence: {}
+  launch:
+    "<base>/SA-MS.app/Contents/MacOS/Scholar Adventure - Mystery of Silence":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Scholar Adventure - Mystery of Silence.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3929410
 School Bus Fun:
   cloud:
     steam: true
@@ -771815,6 +771831,13 @@ Transport Services:
   steam:
     id: 993690
 Transport Tycoon Deluxe:
+  files:
+    "<base>/TRT*.SV1":
+      tags:
+        - save
+      when:
+        - os: dos
+        - os: windows
   gog:
     id: 2080930095
   installDir:

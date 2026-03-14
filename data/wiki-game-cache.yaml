@@ -33161,11 +33161,14 @@ Broken of Darkness:
     - 3272520
     - 3818240
 "BrokenLore: Unfollow":
+  cloud:
+    steam: true
   lutris: brokenlore-unfollow
   pageId: 212252
   steam: 2133830
   steamSide:
     - 2301460
+    - 4114580
 Bronepoezd:
   pageId: 103721
   steam: 879620
@@ -39727,6 +39730,8 @@ Chaos Galaxy:
   steam: 1184840
 Chaos League:
   pageId: 192486
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Savegame}}"
 "Chaos League: Sudden Death":
   pageId: 192484
 Chaos Legion:
@@ -78814,10 +78819,6 @@ Explottens:
   steam: 630400
 "Exponent: The Scaling Tower Defense":
   pageId: 214604
-  steam: 4484200
-  templates:
-    - "{{Game data/config|Windows|Unknown}}"
-    - "{{Game data/saves|Windows|Unknown}}"
 Export Simulator:
   pageId: 95254
   steam: 856790
@@ -112585,12 +112586,6 @@ IFactor:
   lutris: igi-origins
   pageId: 151930
   steam: 1186430
-IGNOBLE:
-  pageId: 213449
-  steam: 4216180
-  templates:
-    - "{{Game data/config|Windows|Unknown}}"
-    - "{{Game data/saves|Windows|Unknown}}"
 IGOR MAKS The Meme Lord:
   pageId: 154221
   steam: 1128280
@@ -113381,6 +113376,11 @@ Ignition:
   lutris: ignition
   pageId: 57432
   steam: 577990
+Ignoble:
+  pageId: 213449
+  renamedFrom:
+    - IGNOBLE
+  steam: 4216180
 Igo Meijin:
   pageId: 77074
   steam: 741390
@@ -180817,7 +180817,8 @@ Ravenfield:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\SteelRaven7\\Ravenfield}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/SteelRaven7/RavenfieldSteam}}"
-    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/SteelRaven7/RavenfieldSteam/Saves}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}Low\\SteelRaven7\\RavenfieldSteam}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/SteelRaven7/RavenfieldSteam}}"
 Ravenland:
   pageId: 126478
   steam: 997710
@@ -194655,6 +194656,12 @@ Schlocks:
   steam: 601320
 "Schnappi das Kleine Krokodil: 3 Fun-Games":
   pageId: 200857
+"Scholar Adventure: Mystery of Silence":
+  cloud:
+    steam: true
+  lutris: scholar-adventure-mystery-of-silence
+  pageId: 214619
+  steam: 3929410
 "Scholastic's The Magic School Bus Explores Inside the Earth":
   pageId: 21650
 School Bus Fun:
@@ -250082,6 +250089,9 @@ Transport Tycoon Deluxe:
   gog: 2080930095
   pageId: 28774
   steam: 3766810
+  templates:
+    - "{{Game data/saves|DOS|{{p|game}}\\TRT*.SV1}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\TRT*.SV1}}"
 Transporter Truck Simulator:
   pageId: 138623
   steam: 1091570
