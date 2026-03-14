@@ -604190,6 +604190,20 @@
     koreana: 리틀 나이트메어 Enhanced Edition
     schinese: 小小梦魇 强化版
     tchinese: 小小夢魘 強化版
+2149420:
+  cloud:
+    saves:
+      - path: DinoTrauma
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Dino Trauma
+  launch:
+    - config:
+        oslist: windows
+      executable: Dino Trauma.exe
 2149870:
   installDir: Closer To Home
   launch:
@@ -640155,7 +640169,25 @@
   nameLocalized:
     schinese: 放松时光：与你共享Lo-Fi故事
     tchinese: 放鬆時光：與你共享Lo-Fi故事
-3549020: {}
+3549020:
+  cloud:
+    saves:
+      - path: SAVE
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: Caribbean Legend Age of Pirates
+  launch:
+    - config:
+        oslist: windows
+      executable: Launcher.exe
+      type: default
+    - config:
+        oslist: windows
+      description: Storm Workshop Tool
+      executable: StormWorkshopTool/StormWorkshopTool.exe
+      type: editor
+      workingdir: StormWorkshopTool
 3549220:
   installDir: Tennis Manager 2025
   launch:

@@ -37254,8 +37254,14 @@ Caribbean Legend:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE}}"
 "Caribbean Legend: Age of Pirates":
+  cloud:
+    steam: true
   pageId: 210898
   steam: 3549020
+  steamSide:
+    - 4238730
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 Caribbean Odyssey:
   pageId: 45653
   steam: 414500
@@ -62042,6 +62048,9 @@ Differently Fast:
   steam: 697430
 Diffusion:
   pageId: 196996
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\diffusion\\save\\}}"
+    - "{{Game data/saves|Linux|{{P|game}}/diffusion/save/}}"
 Dig 4 Destruction:
   cloud:
     steam: true
@@ -62516,6 +62525,15 @@ Dino Scourge:
 Dino Tour VR:
   pageId: 127906
   steam: 1030240
+Dino Trauma:
+  cloud:
+    steam: true
+  lutris: dino-trauma
+  pageId: 214644
+  steam: 2149420
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\DinoTrauma\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\DinoTrauma\\}}"
 DinoBlaster:
   cloud:
     steam: true
@@ -119491,7 +119509,8 @@ Joggernauts:
   pageId: 206245
   steam: 2157830
   templates:
-    - "{{Game data/config|Steam|{{P|localappdata}}\\Saber\\Toxic Commando\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Saber\\Toxic Commando\\storage\\platform\\config\\}}"
+    - "{{Game data/saves|Epic Games Launcher|{{P|localappdata}}\\Saber\\Toxic Commando\\storage\\EOS\\user\\{{p|uid}}\\Main\\config\\}}"
     - "{{Game data/saves|Steam|{{P|localappdata}}\\Saber\\Toxic Commando\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
 "John Daly's ProStroke Golf":
   pageId: 208024
@@ -131975,8 +131994,11 @@ Locus Solus:
 Loddlenaut:
   cloud:
     steam: true
+  lutris: loddlenaut
   pageId: 192608
   steam: 1644940
+  steamSide:
+    - 2693020
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\MoonLagoon\\Loddlenaut\\LoddlenautConfig.dat|{{p|localappdata}}\\MoonLagoon\\Loddlenaut\\LoddlenautSettings.cfg|{{p|hkcu}}\\Software\\MoonLagoon\\Loddlenaut\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/MoonLagoon/Loddlenaut/}}"
@@ -172173,8 +172195,10 @@ Poly Bridge:
   steam: 367450
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Dry Cactus\\Poly Bridge\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Dry Cactus.Poly Bridge.plist}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Dry Cactus/Poly Bridge/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dry Cactus\\Poly Bridge\\progress.bytes|{{p|userprofile\\appdata\\locallow}}\\Dry Cactus\\Poly Bridge\\savefiles\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Dry Cactus.Poly Bridge/progress.bytes|{{p|osxhome}}/Library/Application Support/unity.Dry Cactus.Poly Bridge/savefiles/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Dry Cactus/Poly Bridge/progress.bytes|{{p|xdgconfighome}}/unity3d/Dry Cactus/Poly Bridge/savefiles/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/367450/remote/progress.bytes|{{p|steam}}/userdata/{{p|uid}}/367450/remote/savefiles/}}"
 Poly Bridge 2:

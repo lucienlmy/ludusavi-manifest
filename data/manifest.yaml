@@ -115842,6 +115842,24 @@ Caribbean Legend:
   steam:
     id: 2230980
 "Caribbean Legend: Age of Pirates":
+  cloud:
+    steam: true
+  files:
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4238730
+  installDir:
+    Caribbean Legend Age of Pirates: {}
+  launch:
+    "<base>/Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3549020
 Caribbean Odyssey:
@@ -193717,6 +193735,14 @@ Differently Fast:
     Differently Fast: {}
   steam:
     id: 697430
+Diffusion:
+  files:
+    "<base>/diffusion/save":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
 Dig 4 Destruction:
   cloud:
     steam: true
@@ -195050,6 +195076,27 @@ Dino Tour VR:
     DinoTour: {}
   steam:
     id: 1030240
+Dino Trauma:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/DinoTrauma":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: dino-trauma
+  installDir:
+    Dino Trauma: {}
+  launch:
+    "<base>/Dino Trauma.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2149420
 DinoBlaster:
   cloud:
     steam: true
@@ -370786,9 +370833,18 @@ Joggernauts:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Saber/Toxic Commando/storage/steam/user/<storeUserId>/Main/config":
+    "<winLocalAppData>/Saber/Toxic Commando/storage/EOS/user/<storeUserId>/Main/config":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/Toxic Commando/storage/platform/config":
       tags:
         - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Saber/Toxic Commando/storage/steam/user/<storeUserId>/Main/config":
+      tags:
         - save
       when:
         - os: windows
@@ -408712,6 +408768,10 @@ Loddlenaut:
         - config
       when:
         - os: windows
+  id:
+    lutris: loddlenaut
+    steamExtra:
+      - 2693020
   installDir:
     Loddlenaut: {}
   launch:
@@ -531532,6 +531592,21 @@ Poly Bridge:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/unity.Dry Cactus.Poly Bridge/progress.bytes":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/unity.Dry Cactus.Poly Bridge/savefiles":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/unity.Dry Cactus.Poly Bridge.plist":
+      tags:
+        - config
+      when:
+        - os: mac
     "<root>/userdata/<storeUserId>/367450/remote/progress.bytes":
       tags:
         - save
