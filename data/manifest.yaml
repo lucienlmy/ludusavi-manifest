@@ -85812,6 +85812,8 @@ Blades of Gory:
         - config
       when:
         - os: windows
+  id:
+    lutris: blades-of-jianghu-ballad-of-wind-and-dust
   installDir:
     Blades of Jianghu: {}
   launch:
@@ -314310,8 +314312,21 @@ Hail To The King:
     id: 327440
 Hail to the Rainbow:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<home>/.config/unity3d/NSS/Hail to the Rainbow/HTTR_SavesCloud.txt":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/NSS/Hail to the Rainbow/HTTR_SavesCloud.txt":
+      when:
+        - store: steam
+  gog:
+    id: 1807870850
   id:
+    gogExtra:
+      - 1825735649
     lutris: hail-to-the-rainbow
     steamExtra:
       - 3089050
@@ -757622,6 +757637,28 @@ Tiny Mortals VR:
     Tiny Mortals VR: {}
   steam:
     id: 1061460
+Tiny Pasture:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/TinyPasture/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    TinyPasture: {}
+  launch:
+    "<base>/TinyPasture.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TinyPasture.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3167550
 Tiny Rails:
   cloud:
     steam: true
@@ -802198,6 +802235,23 @@ Voice Actress II:
             store: steam
   steam:
     id: 831460
+Voice Love on Air:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/VoiceLoveOnAir/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Voice Love On Air: {}
+  launch:
+    "<base>/VoiceLoveOnAir/Binaries/Win64/VoiceLoveOnAir-Win64-Shipping.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2321120
 "Voice of Cards: The Beasts of Burden":
   cloud:
     steam: true
@@ -831802,8 +831856,17 @@ Wrack:
   steam:
     id: 520660
 "Wrack: Reclamation":
-  cloud:
-    steam: true
+  files:
+    "<winLocalAppData>/Wrack/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Wrack/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Wrack Remake: {}
   launch:

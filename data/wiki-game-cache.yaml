@@ -27721,6 +27721,7 @@ Blades of Gory:
 "Blades of Jianghu: Ballad of Wind and Dust":
   cloud:
     steam: true
+  lutris: blades-of-jianghu-ballad-of-wind-and-dust
   pageId: 214592
   steam: 2179300
   templates:
@@ -101253,7 +101254,11 @@ Hail To The King:
   steam: 327440
 Hail to the Rainbow:
   cloud:
+    gog: true
     steam: true
+  gog: 1807870850
+  gogSide:
+    - 1825735649
   lutris: hail-to-the-rainbow
   pageId: 192285
   steam: 1699230
@@ -244679,6 +244684,13 @@ Tiny Metal:
 Tiny Mortals VR:
   pageId: 136389
   steam: 1061460
+Tiny Pasture:
+  cloud:
+    steam: true
+  pageId: 214633
+  steam: 3167550
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\TinyPasture\\save}}"
 Tiny Rails:
   cloud:
     steam: true
@@ -260229,6 +260241,13 @@ Voice Actress:
 Voice Actress II:
   pageId: 99834
   steam: 831460
+Voice Love on Air:
+  cloud:
+    steam: true
+  pageId: 214636
+  steam: 2321120
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\VoiceLoveOnAir\\Saved\\SaveGames}}"
 "Voice of Cards: The Beasts of Burden":
   cloud:
     steam: true
@@ -270021,10 +270040,11 @@ Wrack:
   pageId: 82870
   steam: 520660
 "Wrack: Reclamation":
-  cloud:
-    steam: true
   pageId: 211183
   steam: 3709080
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Wrack\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Wrack\\Saved\\SaveGames}}"
 Wraith:
   pageId: 72905
   steam: 723380

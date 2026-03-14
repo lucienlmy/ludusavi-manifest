@@ -575707,6 +575707,19 @@
     - executable: ShooterGame2/Binaries/Win64/ShooterGameClient-Win64-Shipping.exe
       type: none
 1699230:
+  cloud:
+    saves:
+      - path: NSS/Hail to the Rainbow
+        pattern: HTTR_SavesCloud.txt
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: NSS/Hail to the Rainbow
+            replace: ".config/unity3d/NSS/Hail to the Rainbow"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: Hail to the Rainbow
   launch:
     - config:
@@ -611914,6 +611927,21 @@
       description: Amid Evil VR (DX12)
       executable: AmidEvilVR.exe
       type: vr
+2321120:
+  cloud:
+    saves:
+      - path: VoiceLoveOnAir/Saved/SaveGames/
+        pattern: Global.sav
+        root: WinAppDataLocal
+      - path: VoiceLoveOnAir/Saved/SaveGames/
+        pattern: Game_*.sav
+        root: WinAppDataLocal
+  installDir: Voice Love On Air
+  launch:
+    - executable: VoiceLoveOnAir/Binaries/Win64/VoiceLoveOnAir-Win64-Shipping.exe
+  nameLocalized:
+    japanese: ボイスラブ オンエア Voice Love on Air
+    schinese: 纯爱声放送 Voice Love on Air
 2321350:
   cloud:
     saves:
@@ -635256,6 +635284,46 @@
     sc_schinese: 逃离鸭科夫
     schinese: 逃离鸭科夫
     tchinese: 逃離鴨科夫
+3167550:
+  cloud:
+    saves:
+      - path: TinyPasture/save
+        pattern: game.sav
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: TinyPasture
+  launch:
+    - config:
+        oslist: windows
+      executable: TinyPasture.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: TinyPasture.app
+      type: default
+    - config:
+        betakey: moduploader
+        oslist: windows
+      executable: GodotWorkshopUploader.exe
+      type: editor
+    - config:
+        betakey: moduploader
+        oslist: macos
+      executable: GodotWorkshopUploader.app
+      type: editor
+  nameLocalized:
+    english: Tiny Pasture
+    japanese: デスクトップ小動物牧場
+    koreana: 데스크탑 아기 동물 목장
+    sc_schinese: 动物栏：桌面牧场
+    schinese: 动物栏：桌面牧场
+    tchinese: 動物欄：桌面牧場
 3167920:
   nameLocalized:
     english: Low-Budget Repairs
