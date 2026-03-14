@@ -102838,6 +102838,7 @@ Harold:
   steam: 338890
 Harold Halibut:
   cloud:
+    gog: true
     steam: true
     xbox: true
   gog: 1490213242
@@ -156701,6 +156702,8 @@ No Players Online Classic:
 No Prospects Company:
   pageId: 93963
   steam: 854640
+No Respect:
+  pageId: 214641
 No Rest for the Wicked:
   cloud:
     steam: true
@@ -162445,9 +162448,11 @@ Ortus Regni:
     - 548850
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\OsmoticStudios\\Orwell\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.OsmoticStudios.Orwell.plist}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/OsmoticStudios/Orwell/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Orwell\\profile*.osg}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\491950\\remote\\profile*.osg}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/My Games/Orwell/profile*.osg}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/My Games/Orwell/profile*.osg}}"
 Oscar:
   pageId: 209967

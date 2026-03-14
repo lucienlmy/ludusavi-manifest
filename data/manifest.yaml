@@ -318840,6 +318840,7 @@ Harold:
     id: 338890
 Harold Halibut:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Slow Bros/Harold Halibut":
@@ -501991,10 +501992,16 @@ Orwell:
     origin: true
     steam: true
   files:
+    "<home>/Library/Preferences/unity.OsmoticStudios.Orwell.plist":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/My Games/Orwell/profile*.osg":
       tags:
         - save
       when:
+        - os: mac
         - os: linux
     "<root>/userdata/<storeUserId>/491950/remote/profile*.osg":
       tags:
