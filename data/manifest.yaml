@@ -453582,6 +453582,11 @@ Monster Hunter Stories:
   cloud:
     steam: true
   files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "C:/Program Files/Steam/userdata/<storeUserId>/2852190/remote/win64_save":
       tags:
         - config

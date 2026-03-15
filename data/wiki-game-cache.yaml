@@ -146492,6 +146492,7 @@ Monster Hunter Stories:
   pageId: 213496
   steam: 2852190
   templates:
+    - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/config|Windows|{{p|programfiles}}\\Steam\\userdata\\{{p|uid}}\\2852190\\remote\\win64_save}}"
 Monster Hunter Wilds:
   cloud:
