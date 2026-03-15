@@ -30373,12 +30373,12 @@ Alien Planet:
     id: 740450
 Alien Rage - Unlimited:
   files:
-    "<winDocuments>/My Games/AlienRage/Multiplayer/ARageMPGame/Config":
+    "<winDocuments>/My Games/AlienRage/Multiplayer/ARageMPGame/Config/*.ini":
       tags:
         - config
       when:
         - os: windows
-    "<winDocuments>/My Games/AlienRage/SinglePlayer/AFEARGame/Config":
+    "<winDocuments>/My Games/AlienRage/SinglePlayer/AFEARGame/Config/*.ini":
       tags:
         - config
       when:
@@ -257815,6 +257815,28 @@ Feed Eve:
     Feed Eve: {}
   steam:
     id: 790950
+Feed The Cups:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Feed The Cups":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Feed The Cups: {}
+  launch:
+    "<base>/Feed The Cups.app/Contents/MacOS/Feed The Cups":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Feed the Cups.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2336220
 "Feed and Grow: Fish":
   files:
     "<base>/SavesDir/*.sav":
@@ -359881,6 +359903,8 @@ Instinct:
         - save
       when:
         - os: windows
+  id:
+    lutris: instinct
   installDir:
     Instinct: {}
   launch:
@@ -396246,6 +396270,30 @@ Leaves - The Return:
         - config
   steam:
     id: 569810
+Leaves 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Zar21/LEAVES 3/save*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Zar21/LEAVES 3/save*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    LEAVES 3: {}
+  launch:
+    "<base>/LEAVES 3.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/LEAVES 3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4460170
 Leaving Lyndow:
   files:
     "<home>/AppData/LocalLow/Eastshade Studios/Leaving Lyndow/*.JSON":
@@ -502025,6 +502073,16 @@ Orwell:
     origin: true
     steam: true
   files:
+    "<home>/Library/Preferences/unity.OsmoticStudios.Orwell.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/My Games/Orwell/profile*.isg":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winDocuments>/My Games/Orwell/profile*.isg":
       tags:
         - save

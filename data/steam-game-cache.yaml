@@ -612512,6 +612512,36 @@
         oslist: windows
       executable: "CANINE v1.2\\CANINE.exe"
       type: default
+2336220:
+  cloud:
+    saves:
+      - path: Feed The Cups
+        pattern: global.dat
+        recursive: true
+        root: WinAppDataRoaming
+      - path: Feed The Cups
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Feed The Cups
+            replace: Feed The Cups
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Feed The Cups
+  launch:
+    - config:
+        oslist: windows
+      executable: Feed the Cups.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Feed The Cups.app/Contents/MacOS/Feed The Cups
+  nameLocalized:
+    schinese: 杯杯倒满 Feed The Cups
 2337630:
   cloud:
     saves:
@@ -643836,6 +643866,28 @@
     - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
       description: Skip to level 9
       executable: Start.exe
+4460170:
+  cloud:
+    saves:
+      - path: Zar21/LEAVES 3/
+        pattern: save*.json
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: LEAVES 3
+  launch:
+    - config:
+        oslist: windows
+      executable: LEAVES 3.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: LEAVES 3.app
+      type: default
 4484200: {}
 4491360: {}
 3221903386: {}

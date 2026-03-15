@@ -9597,7 +9597,7 @@ Alien Rage - Unlimited:
   pageId: 10667
   steam: 217920
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\AlienRage\\SinglePlayer\\AFEARGame\\Config\\|{{p|userprofile\\Documents}}\\My Games\\AlienRage\\Multiplayer\\ARageMPGame\\Config\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\AlienRage\\SinglePlayer\\AFEARGame\\Config\\*.ini|{{p|userprofile\\Documents}}\\My Games\\AlienRage\\Multiplayer\\ARageMPGame\\Config\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\AlienRage\\SinglePlayer\\AFEARGame\\SaveData\\}}"
 Alien Rampage:
   cloud:
@@ -83229,6 +83229,13 @@ Feed A Titanosaur:
 Feed Eve:
   pageId: 87303
   steam: 790950
+Feed The Cups:
+  cloud:
+    steam: true
+  pageId: 214679
+  steam: 2336220
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Feed The Cups}}"
 "Feed and Grow: Fish":
   pageId: 45047
   steam: 429050
@@ -116044,11 +116051,12 @@ Instant Dungeon!:
     - "{{Game data/config|Windows|{{p|appdata}}\\Instant Dungeon\\video.conf}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Instant Dungeon\\save.dat}}"
 Instinct:
+  lutris: instinct
   pageId: 94894
   steam: 3061920
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\user_data\\config_engine\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\user_data\\savegames\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\user_data\\config_engine}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\user_data\\savegames}}"
 Instinct (2018):
   cloud:
     steam: true
@@ -127875,6 +127883,11 @@ Leaves - The Return:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Daedalic Entertainment GmbH\\Leaves - The Return}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Daedalic Entertainment GmbH\\Leaves - The Return\\*.dat}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Daedalic Entertainment GmbH/Leaves - The Return/*.dat}}"
+Leaves 3:
+  cloud:
+    steam: true
+  pageId: 214681
+  steam: 4460170
 Leaving Lyndow:
   pageId: 57218
   steam: 585840
@@ -162454,7 +162467,9 @@ Ortus Regni:
   steam: 633060
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\OsmoticStudios\\Orwell Ignorance\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.OsmoticStudios.Orwell.plist}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Orwell\\profile*.isg}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/My Games/Orwell/profile*.isg}}"
 "Orwell: Keeping an Eye on You":
   cloud:
     epic: true
@@ -194714,7 +194729,7 @@ School Girl/Zombie Hunter:
   steam: 682570
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\sgzh\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\sgzh\\Saved\\\\SaveGames\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\sgzh\\Saved\\SaveGames\\}}"
 School Grounds:
   pageId: 123992
   steam: 984240
