@@ -563432,6 +563432,11 @@
       type: none
   nameLocalized:
     koreana: "KINGDOM of the DEAD - 킹덤 오브 더 데드 "
+1547540:
+  nameLocalized:
+    koreana: "They Are Here: 외계인 납치 호러"
+    schinese: "异星降临: 外星人绑架事件"
+    tchinese: "異星降臨: 外星人綁架事件"
 1547860:
   installDir: EBOLA 3
   launch:

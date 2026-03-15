@@ -195896,12 +195896,23 @@ Disc Room (2016):
 Disc Room (2020):
   cloud:
     gog: true
-    steam: true
+  files:
+    "<winLocalAppData>/disc_room/<storeUserId>/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/disc_room/<storeUserId>/slot*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1887982662
   id:
     steamExtra:
       - 1347910
+      - 1456160
   installDir:
     Disc Room: {}
   launch:
@@ -502083,11 +502094,17 @@ Orwell:
         - save
       when:
         - os: mac
+        - os: linux
     "<winDocuments>/My Games/Orwell/profile*.isg":
       tags:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/OsmoticStudios/Orwell Ignorance/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1089914798
   id:
@@ -540104,6 +540121,10 @@ Prodeus:
     id: 1549165795
   id:
     lutris: prodeus
+    steamExtra:
+      - 1405530
+      - 1465760
+      - 1668440
   installDir:
     Prodeus: {}
   launch:
@@ -750996,6 +751017,15 @@ They Are Coming!:
             store: steam
   steam:
     id: 1736270
+"They Are Here: Alien Abduction Horror":
+  cloud:
+    steam: true
+  id:
+    lutris: they-are-here-alien-abduction-horror
+    steamExtra:
+      - 1604670
+  steam:
+    id: 1547540
 They Are Hundreds:
   installDir:
     They Are Hundreds: {}

@@ -62833,12 +62833,15 @@ Disc Room (2016):
 Disc Room (2020):
   cloud:
     gog: true
-    steam: true
   gog: 1887982662
   pageId: 159141
   steam: 1229580
   steamSide:
     - 1347910
+    - 1456160
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\disc_room\\{{p|uid}}\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\disc_room\\{{p|uid}}\\slot*.dat}}"
 DiscStorm:
   cloud:
     steam: true
@@ -162468,8 +162471,10 @@ Ortus Regni:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\OsmoticStudios\\Orwell Ignorance\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.OsmoticStudios.Orwell.plist}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/OsmoticStudios/Orwell Ignorance/prefs}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Orwell\\profile*.isg}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/My Games/Orwell/profile*.isg}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/My Games/Orwell/profile*.isg}}"
 "Orwell: Keeping an Eye on You":
   cloud:
     epic: true
@@ -174860,6 +174865,10 @@ Prodeus:
   lutris: prodeus
   pageId: 124601
   steam: 964800
+  steamSide:
+    - 1405530
+    - 1465760
+    - 1668440
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\BoundingBoxSoftware\\Prodeus\\Settings\\|{{p|hkcu}}\\Software\\BoundingBoxSoftware\\Prodeus\\}}"
     - "{{Game data/config|Microsoft Store|{{P|userprofile\\appdata\\locallow}}\\Humble Bundle\\Prodeus\\Settings\\|{{p|hkcu}}\\Software\\Humble Bundle\\Prodeus\\}}"
@@ -242639,6 +242648,14 @@ They Are Coming!:
   steam: 1736270
   steamSide:
     - 1881130
+"They Are Here: Alien Abduction Horror":
+  cloud:
+    steam: true
+  lutris: they-are-here-alien-abduction-horror
+  pageId: 214700
+  steam: 1547540
+  steamSide:
+    - 1604670
 They Are Hundreds:
   pageId: 87417
   steam: 806860
@@ -252621,8 +252638,8 @@ Turok (2008):
   renamedFrom:
     - Turok
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\TurokGame\\Config\\}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Touchstone\\Turok\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\TurokGame\\Config}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Touchstone\\Turok}}"
 Turok (2015):
   cloud:
     steam: true
