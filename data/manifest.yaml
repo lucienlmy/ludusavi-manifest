@@ -42423,6 +42423,11 @@ Anuchard:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/stellarNull/Anuchard":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winLocalAppData>/Packages/FreedomGames.Anuchard_0c9x75n11d8wg/SystemAppData/wgs":
       tags:
         - save
@@ -453576,6 +453581,12 @@ Monster Hunter Stories:
 "Monster Hunter Stories 3: Twisted Reflection":
   cloud:
     steam: true
+  files:
+    "C:/Program Files/Steam/userdata/<storeUserId>/2852190/remote/win64_save":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION: {}
   launch:
@@ -574009,17 +574020,16 @@ Rhythm Doctor:
         - save
       when:
         - os: linux
+    "<home>/AppData/LocalLow/7th Beat Games/Rhythm Doctor":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/Library/Application Support/com.7thbeat.RhythmDoctor":
       tags:
         - save
       when:
         - os: mac
-    "<winAppData>/LocalLow/7th Beat Games/Rhythm Doctor":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
   installDir:
     Rhythm Doctor: {}
   launch:
@@ -771949,6 +771959,13 @@ Transport Services:
             store: steam
   steam:
     id: 993690
+Transport Tycoon:
+  files:
+    "<base>/TRT*.SV1":
+      tags:
+        - save
+      when:
+        - os: dos
 Transport Tycoon Deluxe:
   files:
     "<base>/TRT*.SV1":

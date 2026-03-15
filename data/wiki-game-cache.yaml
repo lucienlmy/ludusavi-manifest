@@ -13452,6 +13452,7 @@ Anuchard:
     - 1949110
     - 1962400
   templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\stellarNull\\Anuchard}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FreedomGames.Anuchard_0c9x75n11d8wg\\SystemAppData\\wgs\\}}"
 Anvil Empires:
   pageId: 201880
@@ -146490,6 +146491,8 @@ Monster Hunter Stories:
     steam: true
   pageId: 213496
   steam: 2852190
+  templates:
+    - "{{Game data/config|Windows|{{p|programfiles}}\\Steam\\userdata\\{{p|uid}}\\2852190\\remote\\win64_save}}"
 Monster Hunter Wilds:
   cloud:
     steam: true
@@ -185680,10 +185683,10 @@ Rhythm Doctor:
   pageId: 79405
   steam: 774181
   templates:
-    - "{{Game data/config|Windows|%AppData%/LocalLow/7th Beat Games\\Rhythm Doctor\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\7th Beat Games\\Rhythm Doctor\\}}"
     - "{{Game data/config|OS X|{{p|game}}\\User\\}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/7th Beat Games/Rhythm Doctor}}"
-    - "{{Game data/saves|Windows|%AppData%/LocalLow/7th Beat Games\\Rhythm Doctor\\|{{p|game}}/User}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\User}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.7thbeat.RhythmDoctor}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/7th Beat Games/Rhythm Doctor}}"
 Rhythm Girl:
@@ -250126,6 +250129,8 @@ Transport Services:
   steam: 993690
 Transport Tycoon:
   pageId: 170554
+  templates:
+    - "{{Game data/saves|DOS|{{p|game}}\\TRT*.SV1}}"
 Transport Tycoon Deluxe:
   gog: 2080930095
   pageId: 28774
