@@ -148196,6 +148196,11 @@ Coral Island:
     Coral Island: {}
   steam:
     id: 1158160
+Cordura:
+  cloud:
+    steam: true
+  steam:
+    id: 4414560
 Core:
   files:
     "<winDocuments>/My Games/Core/Saved/Config/WindowsNoEditor":
@@ -542311,6 +542316,8 @@ Project Scrapper:
   steam:
     id: 821380
 Project Shadowglass:
+  id:
+    lutris: project-shadowglass
   steam:
     id: 3970690
 Project Shield:

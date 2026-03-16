@@ -47402,6 +47402,11 @@ Coral Island:
     - 2626420
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\ProjectCoral\\Saved\\SaveGames}}"
+Cordura:
+  cloud:
+    steam: true
+  pageId: 214728
+  steam: 4414560
 Core:
   pageId: 166578
   templates:
@@ -175544,6 +175549,7 @@ Project Scrapper:
   pageId: 105673
   steam: 821380
 Project Shadowglass:
+  lutris: project-shadowglass
   pageId: 209425
   steam: 3970690
 Project Shield:
