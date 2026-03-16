@@ -101859,6 +101859,18 @@ Bring Dad Home:
 Bring Her Home:
   steam:
     id: 551710
+Bring Me...:
+  id:
+    lutris: bring-me-dot-dot-dot
+  installDir:
+    Bring Me: {}
+  launch:
+    "<base>/EatRepeat.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3168370
 Bring You Home:
   files:
     "<home>/AppData/LocalLow/Alike Studio/BYH/*.data":
@@ -110448,7 +110460,7 @@ Caliber:
   installDir:
     Caliber: {}
   launch:
-    "<base>/SARD/SARDUpdater.exe":
+    "<base>/SARD/SARDRunner.exe":
       - arguments: "-sardKey 01652d53-1de1-4f37-9cdc-360c532d676b -sardGame \"..\\Caliber.exe\" -steam"
         when:
           - os: windows
@@ -201766,6 +201778,19 @@ Don Bradman Cricket 17:
 "Don't Mess Up":
   steam:
     id: 575170
+"Don't Mess With Bober":
+  id:
+    lutris: dont-mess-with-bober
+  installDir:
+    "Don't Mess With Bober": {}
+  launch:
+    "<base>/DontMessWithBober.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3177010
 "Don't Move":
   steam:
     id: 334350
@@ -242171,7 +242196,7 @@ Everybody Loves Skeletons:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Bandai Namco Entertainment Inc_/EverybodysGolfHotShots":
+    "<home>/AppData/LocalLow/Bandai Namco Entertainment Inc_/EverybodysGolfHotShots":
       tags:
         - config
         - save
@@ -520076,7 +520101,7 @@ Phantom Fury:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/Phoenix/Saved/SaveGames":
+    "<winLocalAppData>/Phoenix/Saved/SaveGames/<storeUserId>":
       tags:
         - save
       when:
@@ -661945,9 +661970,23 @@ Starship Troopers - Terran Command:
     id: 1202130
 "Starship Troopers: Ultimate Bug War!":
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/StarshipTroopers_UBW/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1766747976
+  installDir:
+    StarshipTroopers_UltimateBugWar: {}
+  launch:
+    "<base>/StarshipTroopers_UBW.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2321780
 "Starship: Nova Strike":
@@ -738254,6 +738293,19 @@ The Renovator:
             store: steam
   steam:
     id: 1059280
+"The Renovator: Origins":
+  id:
+    lutris: the-renovator-origins
+    steamExtra:
+      - 2300050
+  installDir:
+    The Renovator_Origins: {}
+  launch:
+    "<base>/NewRenovator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1917550
 The Repair House:
   cloud:
     gog: true
@@ -764251,6 +764303,7 @@ Total Battle:
     id: 978290
 Total Chaos:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Trigger Happy Interactive/Total Chaos/Saves/*.sav":
@@ -764258,6 +764311,8 @@ Total Chaos:
         - save
       when:
         - os: windows
+  gog:
+    id: 1376143136
   id:
     lutris: total-chaos--2
     steamExtra:

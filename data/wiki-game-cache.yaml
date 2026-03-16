@@ -32768,6 +32768,10 @@ Bring Dad Home:
 Bring Her Home:
   pageId: 95899
   steam: 551710
+Bring Me...:
+  lutris: bring-me-dot-dot-dot
+  pageId: 214735
+  steam: 3168370
 Bring You Home:
   pageId: 168693
   steam: 1273640
@@ -64795,6 +64799,10 @@ Don Bradman Cricket 17:
 "Don't Mess Up":
   pageId: 56455
   steam: 575170
+"Don't Mess With Bober":
+  lutris: dont-mess-with-bober
+  pageId: 214737
+  steam: 3177010
 "Don't Move":
   pageId: 27246
   steam: 334350
@@ -77778,8 +77786,8 @@ Everybody Loves Skeletons:
   pageId: 202836
   steam: 2730810
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Bandai Namco Entertainment Inc_\\EverybodysGolfHotShots}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Bandai Namco Entertainment Inc_\\EverybodysGolfHotShots}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Bandai Namco Entertainment Inc_\\EverybodysGolfHotShots}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Bandai Namco Entertainment Inc_\\EverybodysGolfHotShots}}"
 "Everybody's Gone to the Rapture":
   cloud:
     steam: true
@@ -168463,7 +168471,7 @@ Phantom Fury:
   steam: 1733240
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Phoenix\\Saved\\Config}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Phoenix\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Phoenix\\Saved\\SaveGames\\{{P|uid}}}}"
 Phantom Galaxies:
   pageId: 195272
   steam: 1272550
@@ -213947,10 +213955,13 @@ Starship Troopers:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Starship Troopers\\Saves\\}}"
 "Starship Troopers: Ultimate Bug War!":
   cloud:
+    gog: true
     steam: true
   gog: 1766747976
   pageId: 211691
   steam: 2321780
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\StarshipTroopers_UBW\\Saved\\SaveGames\\*.sav}}"
 "Starship: Nova Strike":
   pageId: 34948
   steam: 457930
@@ -238410,6 +238421,12 @@ The Renegades of Orion 2.0:
 The Renovator:
   pageId: 134886
   steam: 1059280
+"The Renovator: Origins":
+  lutris: the-renovator-origins
+  pageId: 214733
+  steam: 1917550
+  steamSide:
+    - 2300050
 The Repair House:
   cloud:
     gog: true
@@ -246935,8 +246952,10 @@ Total Battle:
   steam: 978290
 Total Chaos:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1376143136
   lutris: total-chaos--2
   pageId: 201827
   steam: 2208350

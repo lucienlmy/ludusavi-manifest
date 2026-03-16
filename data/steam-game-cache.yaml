@@ -62832,7 +62832,7 @@
     - arguments: "-sardKey 01652d53-1de1-4f37-9cdc-360c532d676b -sardGame \"..\\Caliber.exe\" -steam"
       config:
         oslist: windows
-      executable: "SARD\\SARDUpdater.exe"
+      executable: "SARD\\SARDRunner.exe"
       type: default
   nameLocalized:
     russian: Калибр
@@ -590482,6 +590482,10 @@
     - config:
         oslist: linux
       executable: LIGHTKRAVTE.x86_64
+1917550:
+  installDir: The Renovator_Origins
+  launch:
+    - executable: NewRenovator.exe
 1917850:
   cloud:
     saves:
@@ -612032,6 +612036,17 @@
   nameLocalized:
     schinese: 深岩银河：幸存者
 2321780:
+  cloud:
+    saves:
+      - path: StarshipTroopers_UBW/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: StarshipTroopers_UltimateBugWar
+  launch:
+    - config:
+        oslist: windows
+      executable: StarshipTroopers_UBW.exe
   nameLocalized:
     schinese: "星河战队: 终焉虫潮"
     tchinese: "星艦戰將: 終焉蟲潮"
@@ -635424,6 +635439,12 @@
     - config:
         oslist: macos
       executable: TrueFear3.app
+3168370:
+  installDir: Bring Me
+  launch:
+    - config:
+        oslist: windows
+      executable: EatRepeat.exe
 3168600:
   installDir: Among Us 3D
   launch:
@@ -635519,6 +635540,14 @@
     - executable: basketball.exe
       type: default
 3172440: {}
+3177010:
+  installDir: "Don't Mess With Bober"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DontMessWithBober.exe
+      type: default
 3178350:
   cloud:
     saves:
