@@ -99211,6 +99211,8 @@ Bravely Default Flying Fairy HD Remaster:
     "<winDocuments>/My Games/BRAVELY DEFAULT/Steam/<storeUserId>":
       when:
         - store: steam
+  id:
+    lutris: bravely-default-flying-fairy-hd-remaster
   installDir:
     BDFFHD: {}
   launch:
@@ -107818,6 +107820,13 @@ Bye Sweet Carole:
   steam:
     id: 492130
 Bygg Bilar med Mulle Meck:
+  files:
+    "<base>/DATA/DATA.CST":
+      tags:
+        - save
+      when:
+        - os: windows
+Bygg Båtar med Mulle Meck:
   files:
     "<base>/DATA/DATA.CST":
       tags:
@@ -303811,6 +303820,10 @@ Granny Remake:
   installDir:
     GrannyRemake: {}
   launch:
+    "<base>/Granny-Mac-Shipping.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/GrannyRemake/Granny.exe":
       - when:
           - bit: 64
@@ -623183,6 +623196,13 @@ Silver Knight:
             store: steam
   steam:
     id: 432170
+Silver Pines:
+  cloud:
+    steam: true
+  id:
+    lutris: silver-pines
+  steam:
+    id: 2333000
 Silver Tale:
   installDir:
     Silver Tale: {}
@@ -762854,6 +762874,14 @@ Toontown Rewritten:
         - os: windows
   id:
     lutris: toontown-corporate-clash
+"Toontown: Hostile Takeover":
+  files:
+    Install Directory TBD:
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
 Tooth and Claw:
   installDir:
     ToothClaw: {}

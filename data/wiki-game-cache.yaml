@@ -31980,6 +31980,7 @@ Bravely Default Flying Fairy HD Remaster:
   cloud:
     steam: true
     xbox: true
+  lutris: bravely-default-flying-fairy-hd-remaster
   pageId: 214580
   steam: 2833580
 Bravely Default II:
@@ -34733,6 +34734,8 @@ Bygg Bilar med Mulle Meck:
     - "{{Game data/saves|Windows|{{p|game}}\\DATA\\DATA.CST}}"
 Bygg Båtar med Mulle Meck:
   pageId: 214259
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\DATA\\DATA.CST}}"
 Bygone Dreams:
   cloud:
     steam: true
@@ -168137,6 +168140,8 @@ Petrichor:
 Pets Sniper Shooting:
   pageId: 155518
   steam: 1219320
+"Pettson & Findus: Spökskrämmarmaskinen":
+  pageId: 214708
 Pettson o Findus i snickarbon:
   pageId: 213982
 Pettson o Findus i trädgården:
@@ -201492,6 +201497,13 @@ Silver Island:
 Silver Knight:
   pageId: 44960
   steam: 432170
+Silver Pines:
+  cloud:
+    steam: true
+    xbox: true
+  lutris: silver-pines
+  pageId: 214711
+  steam: 2333000
 Silver Tale:
   pageId: 68072
   steam: 677220
@@ -246432,6 +246444,11 @@ Toontown Rewritten:
   pageId: 180518
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Corporate Clash}}"
+"Toontown: Hostile Takeover":
+  pageId: 214714
+  templates:
+    - "{{Game data/config|Windows|Install Directory TBD}}"
+    - "{{Game data/config|Linux|Install Directory TBD}}"
 Tooth and Claw:
   pageId: 78154
   steam: 698600

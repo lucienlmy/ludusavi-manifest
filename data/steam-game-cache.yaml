@@ -602328,6 +602328,10 @@
         oslist: windows
       executable: GrannyRemake/Granny.exe
       type: default
+    - config:
+        oslist: macos
+      executable: Granny-Mac-Shipping.app
+      type: default
 2110840:
   cloud:
     saves:
@@ -612479,6 +612483,7 @@
         oslist: windows
       executable: Beyond Shadowgate.exe
       type: default
+2333000: {}
 2333480:
   installDir: RAID Shadow Legends
   launch:
