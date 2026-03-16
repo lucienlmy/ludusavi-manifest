@@ -1980,18 +1980,18 @@ $1 Ride:
   cloud:
     steam: true
   files:
-    "<base>/P1348/Saved/SaveGames/*.sav":
+    "<base>/P1348/Saved/SaveGames":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/~/.config/Epic/P1348/Saved/SaveGames/*.sav":
-      when:
-        - os: linux
-          store: steam
-    "<winLocalAppData>/P1348/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/P1348/Saved/SaveGames":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: 1348-ex-voto
     steamExtra:
@@ -333404,6 +333404,8 @@ Highguard:
         - config
       when:
         - os: windows
+  id:
+    lutris: highguard
   installDir:
     Highguard: {}
   launch:
@@ -453664,6 +453666,8 @@ Monster Hunter Stories:
         - config
       when:
         - os: windows
+  id:
+    lutris: monster-hunter-stories-3-twisted-reflection
   installDir:
     MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION: {}
   launch:

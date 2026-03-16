@@ -583,6 +583,9 @@ $1 Ride:
   steam: 1895900
   steamSide:
     - 4008520
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/P1348/Saved/SaveGames/ | {{P|game}}/P1348/Saved/SaveGames/}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/P1348/Saved/SaveGames/ | {{P|game}}/P1348/Saved/SaveGames/}}"
 "140":
   cloud:
     discord: true
@@ -107475,6 +107478,7 @@ Higher Ground:
   pageId: 102943
   steam: 820680
 Highguard:
+  lutris: highguard
   pageId: 212070
   steam: 4128260
   templates:
@@ -146508,6 +146512,7 @@ Monster Hunter Stories:
 "Monster Hunter Stories 3: Twisted Reflection":
   cloud:
     steam: true
+  lutris: monster-hunter-stories-3-twisted-reflection
   pageId: 213496
   steam: 2852190
   templates:
