@@ -11951,6 +11951,12 @@
         oslist: linux
       description: Run Settings Launcher
       executable: Launcher.bin.x86_64
+57400:
+  installDir: Batman2
+  launch:
+    - executable: "Binaries\\Win32\\BatmanAC.exe"
+    - description: Configure PC Options
+      executable: RunLauncher.bat
 57620:
   installDir: Patrician IV
   launch:
@@ -609759,6 +609765,7 @@
     japanese: インバース
     koreana: 더 인버스
     russian: Инверсия
+2266890: {}
 2268560:
   installDir: Zombie Survival Game Online
   launch:
@@ -636979,7 +636986,67 @@
     koreana: 호라이즌 워커(Horizon Walker)
     schinese: 地平线行者(Horizon Walker)
     tchinese: 地平線行者(Horizon Walker)
-3280350: {}
+3280350:
+  cloud:
+    saves:
+      - path: "Ocean/{64BitSteamID}/"
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+      - path: "Ocean/{64BitSteamID}/"
+        pattern: "*.cfg"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+      - path: "DEATH STRANDING 2 - ON THE BEACH/{64BitSteamID}/"
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+      - path: "DEATH STRANDING 2 - ON THE BEACH/{64BitSteamID}/"
+        pattern: "*.cfg"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+  installDir: DEATH STRANDING 2 - ON THE BEACH
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: On the Beach
+      executable: DS2.exe
+      type: default
+    - arguments: "-package -object_streaming"
+      config:
+        betakey: "marketing_1, latest_release, devqa_compare_a, devqa_compare_b, pss_qa_1_release, pss_qa_2_release, mock_review, kjp_test, agerating, ut_build, amd_1, intel_1, nvidia_1, devqa_compat , devqa_compat2 , latest_dev, latest_qa, smoketest_qa, milestone_fp, pss_qa_1,pss_qa_2 ,pss_qa_compat, milestone_beta, volumetrics_after, volumetrics_before, lead_investigation"
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3854260"
+      description: ReleaseSym
+      executable: NIP.WinGameSteam.ReleaseSym.DX12.exe
+      type: option1
+    - arguments: "-package -object_streaming"
+      config:
+        betakey: "marketing_1, latest_release, devqa_compare_a, devqa_compare_b, pss_qa_1_release, pss_qa_2_release, mock_review, kjp_test, agerating, ut_build, milestone_beta, amd_1, intel_1, nvidia_1, devqa_compat , devqa_compat2 , latest_dev, latest_qa, smoketest_qa, milestone_fp, pss_qa_1,pss_qa_2 ,pss_qa_compat, volumetrics_before, volumetrics_after, lead_investigation"
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3854260"
+      description: RtDebug
+      executable: NIP.WinGameSteam.ReleaseSymRtDbg.DX12.exe
+      type: option2
+    - config:
+        betakey: "marketing_1, latest_release, devqa_compare_a, devqa_compare_b, pss_qa_1_release, pss_qa_2_release, mock_review, kjp_test, agerating, ut_build, milestone_beta, amd_1, intel_1, nvidia_1, devqa_compat , devqa_compat2 , latest_dev, latest_qa, smoketest_qa, milestone_fp, pss_qa_1,pss_qa_2 ,pss_qa_compat, volumetrics_after, volumetrics_before, lead_investigation"
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "3854260"
+      description: Bootloader
+      executable: BootLoader.Win64.ReleaseSymRtDbg.DX12.exe
+      type: option3
 3281130:
   installDir: World of Outlaws 24
   launch:
@@ -642408,6 +642475,7 @@
   launch:
     - executable: StardockLauncher.exe
       type: default
+3798840: {}
 3798860: {}
 3799100:
   cloud:
@@ -643399,7 +643467,22 @@
     - executable: "Launch Maggie's Farmyard Adventure.bat"
       type: default
 4004630: {}
-4005370: {}
+4005370:
+  cloud:
+    saves:
+      - path: Wales Interactive/Maid of Sker VR/
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Maid of Sker VR
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: VR
+      executable: Maid of Sker VR.exe
+      type: openxr
 4012810: {}
 4016300:
   installDir: Beer Machine

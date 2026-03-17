@@ -20732,7 +20732,6 @@ Baldr Sky:
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\Public\\Savegames\\Story\\}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1086940\\remote}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/}}"
 "Baldur's Gate II: Enhanced Edition":
@@ -22035,9 +22034,15 @@ Batman Returns:
   gog: 1260066469
   lutris: batman-arkham-city-goty
   pageId: 748
-  steam: 200260
+  steam: 57400
   steamSide:
-    - 57400
+    - 200240
+    - 200260
+    - 200860
+    - 200870
+    - 200880
+    - 200890
+    - 200891
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\WB Games\\Batman Arkham City GOTY\\BmGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\WB Games\\Batman Arkham City GOTY\\SaveData\\}}"
@@ -24403,6 +24408,10 @@ Becoming Saint:
 Becoming a Dandelion Spore:
   pageId: 132024
   steam: 1048410
+Becrowned:
+  lutris: becrowned
+  pageId: 214768
+  steam: 2266890
 Bed Lying Simulator:
   pageId: 155464
   steam: 1150620
@@ -25300,6 +25309,11 @@ Beyond:
   steam: 947830
 Beyond All Reason:
   pageId: 192516
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\data\\springsettings.cfg<br>{{P|game}}\\data\\config.json<br>{{P|game}}\\data\\uikeys.txt<br>{{P|game}}\\data\\bar_hotkeys_custom.lua<br>{{P|game}}\\data\\LuaUI\\Config\\}}"
+    - "{{Game data/config|Linux|{{P|xdgstatehome}}/Beyond All Reason/data/springsettings.cfg<br>{{P|xdgstatehome}}/Beyond All Reason/data/config.json<br>{{P|xdgstatehome}}/Beyond All Reason/data/uikeys.txt<br>{{P|xdgstatehome}}/Beyond All Reason/data/bar_hotkeys_custom.lua<br>{{P|xdgstatehome}}/Beyond All Reason/data/LuaUI/Config/}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\data\\Saves\\<br>{{P|game}}\\data\\demos\\<br>{{P|game}}\\data\\screenshots\\}}"
+    - "{{Game data/saves|Linux|{{P|xdgstatehome}}/Beyond All Reason/data/Saves/<br>{{P|xdgstatehome}}/Beyond All Reason/data/demos/<br>{{P|xdgstatehome}}/Beyond All Reason/data/screenshots/}}"
 "Beyond Arm's Reach":
   pageId: 70709
   steam: 713360
@@ -50448,6 +50462,7 @@ Crowman & Wolfboy:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\www\\save\\config.rpgsave}}"
     - "{{Game data/saves|Windows|{{P|game}}\\www\\save\\{{code|*}}.rpgsave}}"
+    - "{{Game data/saves|Steam|D:\\SteamLibrary\\steamapps\\common\\Crown Champion Legends of the Arena\\www\\save\\{{code|*}}.rpgsave}}"
 Crown Trick:
   cloud:
     steam: true
@@ -70027,6 +70042,8 @@ Dusk:
     steam: true
     xbox: true
   gog: 1150392214
+  gogSide:
+    - 1985013742
   pageId: 50963
   steam: 519860
   steamSide:
@@ -137447,6 +137464,8 @@ Maid of Sker:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Wales Interactive\\Maid of Sker}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Wales Interactive\\Maid of Sker}}"
 Maid of Sker VR:
+  cloud:
+    steam: true
   pageId: 213612
   steam: 4005370
 Maiden & Spell:
@@ -185665,6 +185684,10 @@ Reynatis:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\furyu\\REYNATIS\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\furyu\\REYNATIS\\{{P|uid}}\\}}"
+Reytrieve Odyssey:
+  lutris: reytrieve-odyssey
+  pageId: 214767
+  steam: 3798840
 Rez Infinite:
   cloud:
     steam: true

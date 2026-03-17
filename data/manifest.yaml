@@ -64819,11 +64819,6 @@ Baldr Sky:
         - save
       when:
         - os: mac
-    "<root>/userdata/<storeUserId>/1086940/remote":
-      tags:
-        - save
-      when:
-        - store: steam
     "<winLocalAppData>/Larian Studios/Baldur's Gate 3":
       tags:
         - config
@@ -68927,24 +68922,24 @@ Batla:
   id:
     lutris: batman-arkham-city-goty
     steamExtra:
-      - 57400
+      - 200240
+      - 200260
+      - 200860
+      - 200870
+      - 200880
+      - 200890
+      - 200891
   installDir:
-    Batman Arkham City GOTY: {}
+    Batman2: {}
   launch:
-    "<base>/Batman Arkham City GOTY.app":
-      - when:
-          - os: mac
-            store: steam
     "<base>/Binaries/Win32/BatmanAC.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
     "<base>/RunLauncher.bat":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
   steam:
-    id: 200260
+    id: 57400
 "Batman: Arkham Knight":
   cloud:
     gog: true
@@ -75199,6 +75194,11 @@ Becoming a Dandelion Spore:
             store: steam
   steam:
     id: 1048410
+Becrowned:
+  id:
+    lutris: becrowned
+  steam:
+    id: 2266890
 Bed Lying Simulator:
   installDir:
     Bed Lying Simulator: {}
@@ -157546,6 +157546,11 @@ Crowman & Wolfboy:
         - config
       when:
         - os: windows
+    "D:/SteamLibrary/steamapps/common/Crown Champion Legends of the Arena/www/save/*.rpgsave":
+      tags:
+        - save
+      when:
+        - store: steam
   installDir:
     Crown Champion Legends of the Arena: {}
   launch:
@@ -179884,14 +179889,64 @@ Death Stranding:
 "Death Stranding 2: On The Beach":
   cloud:
     steam: true
+  files:
+    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH/<storeUserId>/**/*.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH/<storeUserId>/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Ocean/<storeUserId>/**/*.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Ocean/<storeUserId>/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DEATH STRANDING 2 - ON THE BEACH: {}
+  launch:
+    "<base>/DS2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3280350
 "Death Stranding 2: On the Beach":
   cloud:
     epic: true
     steam: true
+  files:
+    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH/<storeUserId>/**/*.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH/<storeUserId>/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Ocean/<storeUserId>/**/*.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Ocean/<storeUserId>/**/*.dat":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: death-stranding-2-on-the-beach
+  installDir:
+    DEATH STRANDING 2 - ON THE BEACH: {}
+  launch:
+    "<base>/DS2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3280350
 "Death Stranding Director's Cut":
@@ -218514,6 +218569,8 @@ Dusk:
   gog:
     id: 1150392214
   id:
+    gogExtra:
+      - 1985013742
     steamExtra:
       - 994820
       - 994821
@@ -425732,6 +425789,15 @@ Maid of Sker:
   steam:
     id: 826940
 Maid of Sker VR:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Wales Interactive/Maid of Sker VR":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Maid of Sker VR: {}
   steam:
     id: 4005370
 Maiden & Spell:
@@ -573911,6 +573977,11 @@ Reynatis:
             store: steam
   steam:
     id: 2738750
+Reytrieve Odyssey:
+  id:
+    lutris: reytrieve-odyssey
+  steam:
+    id: 3798840
 Rez Infinite:
   cloud:
     steam: true
