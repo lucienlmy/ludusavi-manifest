@@ -643768,6 +643768,7 @@
     schinese: 全面战争：战锤40000
     tchinese: 全軍破敵：戰鎚40000
 4202710: {}
+4208140: {}
 4210700:
   installDir: Chicky Blocks
   launch:
@@ -643905,6 +643906,12 @@
     - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
       description: Skip to level 9
       executable: Start.exe
+4395360: {}
+4395370: {}
+4395380: {}
+4395390: {}
+4395400: {}
+4395410: {}
 4414560: {}
 4460170:
   cloud:

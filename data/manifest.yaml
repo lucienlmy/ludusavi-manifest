@@ -4245,6 +4245,9 @@ $1 Ride:
             store: steam
   steam:
     id: 534910
+3D Body Adventure:
+  steam:
+    id: 4395360
 3D Brick Blaster Unlimited:
   files:
     "<base>/temporary/saves":
@@ -4322,6 +4325,9 @@ $1 Ride:
             store: steam
   steam:
     id: 985760
+3D Dinosaur Adventure:
+  steam:
+    id: 4395370
 3D Engineers:
   files:
     "<base>/SavesDir/*.sav":
@@ -80036,6 +80042,7 @@ Big Pogo Man:
     id: 1173270
 "Big Rigs: Over the Road Racing":
   id:
+    lutris: big-rigs-over-the-road-racing
     steamExtra:
       - 3610200
       - 3614190
@@ -104548,6 +104555,8 @@ Bug Adventure:
         - config
       when:
         - os: dos
+  steam:
+    id: 4395380
 Bug Attack!:
   files:
     "<base>/SavesDir/*.sav":
@@ -183706,6 +183715,11 @@ Defender of the Crown:
             store: steam
   steam:
     id: 326590
+"Defender of the Crown: The Legend Returns":
+  gog:
+    id: 1587851209
+  steam:
+    id: 4208140
 "Defender's Quest II: Mists of Ruin":
   gog:
     id: 1988808085
@@ -195298,6 +195312,9 @@ Dinosaur:
         - config
       when:
         - os: windows
+Dinosaur Adventure 3-D:
+  steam:
+    id: 4395390
 Dinosaur Bone Digging:
   installDir:
     Dinosaur Bone Digging: {}
@@ -379762,6 +379779,9 @@ Kid Chameleon:
 "Kid's Safety With George Blessure":
   steam:
     id: 1117770
+"Kid's Zoo: A Baby Animal Adventure":
+  steam:
+    id: 4395400
 "Kid,napper: Gosh, I'm Kidnapped by a Pupil":
   cloud:
     steam: true
@@ -670611,6 +670631,18 @@ Streets of Rage 2:
         - os: windows
   steam:
     id: 71165
+Streets of Rage 2 New Era:
+  files:
+    "<xdgConfig>/unity3d/gsaurus/SOR2 New Era/Replays":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/gsaurus/SOR2 New Era/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
 Streets of Rage 3:
   files:
     "<winDocuments>/SEGA Genesis Classics/0054":
@@ -787347,6 +787379,9 @@ Underrail:
 "Underrail 2: Infusion":
   steam:
     id: 694320
+Undersea Adventure:
+  steam:
+    id: 4395410
 Underspace:
   cloud:
     steam: true

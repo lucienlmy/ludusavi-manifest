@@ -1337,6 +1337,7 @@ $1 Ride:
 3D Body Adventure:
   malformed: true
   pageId: 167445
+  steam: 4395360
 3D Brick Blaster Unlimited:
   pageId: 209630
   templates:
@@ -1361,6 +1362,7 @@ $1 Ride:
     - 1065140
 3D Dinosaur Adventure:
   pageId: 185282
+  steam: 4395370
 3D Engineers:
   pageId: 46008
   steam: 345030
@@ -25841,6 +25843,7 @@ Big Pogo Man:
 Big Red Racing:
   pageId: 209642
 "Big Rigs: Over the Road Racing":
+  lutris: big-rigs-over-the-road-racing
   pageId: 367
   steam: 3598130
   steamSide:
@@ -33679,6 +33682,7 @@ Bug Academy:
 Bug Adventure:
   malformed: true
   pageId: 167629
+  steam: 4395380
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\KA.CNF}}"
 Bug Attack!:
@@ -49764,6 +49768,8 @@ Crime Scene Cleaner:
 "Crime Stories: Days of Vengeance":
   pageId: 103133
   steam: 896110
+Crime Wave:
+  pageId: 214739
 "CrimeCraft: GangWars":
   pageId: 40930
   steam: 38830
@@ -58927,6 +58933,10 @@ Defender of the Crown:
   gog: 1207665703
   pageId: 14586
   steam: 326590
+"Defender of the Crown: The Legend Returns":
+  gog: 1587851209
+  pageId: 214741
+  steam: 4208140
 "Defender's Quest II: Mists of Ruin":
   gog: 1988808085
   gogSide:
@@ -62617,6 +62627,7 @@ Dinosaur Adventure:
   pageId: 177106
 Dinosaur Adventure 3-D:
   pageId: 190216
+  steam: 4395390
 Dinosaur Battles:
   pageId: 190222
 Dinosaur Bone Digging:
@@ -122461,6 +122472,7 @@ Kid Phonics 2:
 "Kid's Zoo: A Baby Animal Adventure":
   malformed: true
   pageId: 185286
+  steam: 4395400
 "Kid,napper: Gosh, I'm Kidnapped by a Pupil":
   cloud:
     steam: true
@@ -216784,6 +216796,9 @@ Streets of Rage 2:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SEGA Mega Drive Classics\\0044\\|{{p|userprofile\\Documents}}\\SEGA Genesis Classics\\0044\\}}"
 Streets of Rage 2 New Era:
   pageId: 203761
+  templates:
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/gsaurus/SOR2 New Era/prefs}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/gsaurus/SOR2 New Era/Replays/}}"
 Streets of Rage 3:
   lutris: streets-of-rage-3
   pageId: 30689
@@ -255213,6 +255228,7 @@ Underrail:
   steam: 694320
 Undersea Adventure:
   pageId: 185293
+  steam: 4395410
 Underspace:
   cloud:
     steam: true
