@@ -8647,6 +8647,11 @@
   installDir: Mini Ninjas
   launch:
     - executable: ninja.exe
+35010:
+  installDir: Batman Arkham Asylum
+  launch:
+    - executable: "Binaries\\BmLauncher.exe"
+      workingdir: Binaries
 35030:
   installDir: Championship Manager 2010
   launch:
@@ -603244,6 +603249,11 @@
     japanese: 零 ～月蝕の仮面～
     schinese: 零 ～月蚀的假面～
     tchinese: 零 ～月蝕的假面～
+2130980:
+  installDir: "Todd's Adventures in Slime World"
+  launch:
+    - executable: game.exe
+      type: none
 2131000:
   installDir: Five Nights With Firearms
   launch:
@@ -639654,6 +639664,23 @@
     koreana: 스텔라 블레이드™
     schinese: 剑星
     tchinese: 劍星
+3491310:
+  installDir: Chicken Invaders 1
+  launch:
+    - config:
+        oslist: windows
+      description: Episode 1 (2025)
+      executable: CIep1.exe
+    - config:
+        oslist: windows
+      description: Remastered (2023)
+      executable: remastered_2023/CI1.exe
+      workingdir: remastered_2023
+    - config:
+        oslist: windows
+      description: Original (1999)
+      executable: original_1999/ChickenInvaders.exe
+      workingdir: original_1999
 3495070:
   installDir: Train Hero
   launch:

@@ -40266,12 +40266,12 @@ Anno 1404:
         - config
       when:
         - os: windows
-    "<winDocuments>/Anno1404 Venice/Savegames":
+    "<winDocuments>/Anno 1404 Venice/Savegames":
       tags:
         - save
       when:
         - os: windows
-    "<winDocuments>/Anno1404/Savegames":
+    "<winDocuments>/Anno 1404/Savegames":
       tags:
         - save
       when:
@@ -42638,6 +42638,17 @@ Aooni:
 Aooni (2008):
   id:
     lutris: ao-oni
+Aozameta Tsuki no Hikari:
+  files:
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Studio e.go!/MoonLightDemo/Main:
+      tags:
+        - config
 Aozora Meikyuu:
   cloud:
     steam: true
@@ -68878,22 +68889,18 @@ Batla:
   id:
     lutris: batman-arkham-asylum-goty-edition
     steamExtra:
-      - 35010
       - 35020
+      - 35060
+      - 35140
   installDir:
-    Batman Arkham Asylum GOTY: {}
+    Batman Arkham Asylum: {}
   launch:
-    "<base>/Batman Arkham Asylum GOTY.app":
-      - when:
-          - os: mac
-            store: steam
     "<base>/Binaries/BmLauncher.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
         workingDir: "<base>/Binaries"
   steam:
-    id: 35140
+    id: 35010
 "Batman: Arkham City":
   cloud:
     gog: true
@@ -126111,6 +126118,26 @@ Chicken Farm 2K17:
           - store: steam
   steam:
     id: 746910
+Chicken Invaders:
+  installDir:
+    Chicken Invaders 1: {}
+  launch:
+    "<base>/CIep1.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/original_1999/ChickenInvaders.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/original_1999"
+    "<base>/remastered_2023/CI1.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/remastered_2023"
+  steam:
+    id: 3491310
 Chicken Invaders 2:
   cloud:
     steam: true
@@ -417356,7 +417383,7 @@ Luna and the Moonling:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/ColdwildGames/FishingGarden/session.*":
+    "<home>/AppData/LocalLow/ColdwildGames/FishingGarden/session.sav":
       tags:
         - save
       when:
@@ -759888,6 +759915,17 @@ Today Is My Birthday:
             store: steam
   steam:
     id: 1070850
+"Todd's Adventures in Slime World":
+  cloud:
+    steam: true
+  installDir:
+    "Todd's Adventures in Slime World": {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2130980
 Toddler Shooter:
   installDir:
     Toddler Shooter: {}

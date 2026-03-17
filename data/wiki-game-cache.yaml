@@ -12842,7 +12842,7 @@ Anno 1404:
   steam: 1281630
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Ubisoft\\Anno1404\\Config|{{P|appdata}}\\Ubisoft\\Anno1404Addon\\Config}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Anno1404\\Savegames|{{P|userprofile}}\\Documents\\Anno1404 Venice\\Savegames}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Anno 1404\\Savegames|{{P|userprofile}}\\Documents\\Anno 1404 Venice\\Savegames}}"
 Anno 1503:
   gog: 1438074791
   lutris: anno-1503
@@ -13532,6 +13532,11 @@ Aooni:
 Aooni (2008):
   lutris: ao-oni
   pageId: 207717
+Aozameta Tsuki no Hikari:
+  pageId: 214754
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Studio e.go!\\MoonLightDemo\\Main}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\save}}"
 Aozora Meikyuu:
   cloud:
     steam: true
@@ -22012,10 +22017,11 @@ Batman Returns:
   gog: 1482504285
   lutris: batman-arkham-asylum-goty-edition
   pageId: 638
-  steam: 35140
+  steam: 35010
   steamSide:
-    - 35010
     - 35020
+    - 35060
+    - 35140
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Eidos\\Batman Arkham Asylum\\BmGame\\Config\\|{{p|userprofile\\Documents}}\\Square Enix\\Batman Arkham Asylum GOTY\\BmGame\\Config\\{{note|Game of the Year Edition|name=Game of the Year Edition}}}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Eidos\\Batman Arkham Asylum\\SaveData\\|{{p|userprofile\\Documents}}\\Square Enix\\Batman Arkham Asylum GOTY\\SaveData\\{{note|name=Game of the Year Edition}}}}"
@@ -40462,6 +40468,7 @@ Chicken Farm 2K17:
   steam: 746910
 Chicken Invaders:
   pageId: 123137
+  steam: 3491310
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
 Chicken Invaders 2:
@@ -134705,7 +134712,7 @@ Luna and the Moonling:
   steamSide:
     - 1643810
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ColdwildGames\\FishingGarden\\session.*}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ColdwildGames\\FishingGarden\\session.sav}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.ColdwildGames.FishingGarden}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/ColdwildGames/FishingGarden}}"
 "Luna's Wandering Stars":
@@ -245418,6 +245425,11 @@ Today Is My Birthday:
   renamedFrom:
     - Today is My Birthday
   steam: 1070850
+"Todd's Adventures in Slime World":
+  cloud:
+    steam: true
+  pageId: 214748
+  steam: 2130980
 Toddler Shooter:
   pageId: 125254
   steam: 995870
