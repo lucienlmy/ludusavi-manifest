@@ -631702,6 +631702,23 @@
         oslist: macos
       executable: Sapo 3D.app/Contents/MacOS/Sapo 3D
       type: default
+2963800:
+  installDir: DrainSim
+  launch:
+    - arguments: "-d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DX12 - Default
+      executable: DrainSim.exe
+      type: option1
+    - arguments: "-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DX11 - Old GPU - expect BUGS/ugly visuals
+      executable: DrainSim.exe
+      type: option1
 2963870:
   installDir: MetalSlugAwakening
   launch:
@@ -632172,7 +632189,7 @@
       executable: GameBootstrapper.exe
       type: default
     - config:
-        betakey: "develop,shipping,precheck,temporary,qatemporary,program1,promotion,spec-qa,promotion-external-01"
+        betakey: "develop,shipping,precheck,temporary,qatemporary,program1,promotion,spec-qa,promotion-external-01,dev-qa"
         osarch: "64"
         oslist: windows
       description: EACLauncherを使用せずに起動（デバッグ用）

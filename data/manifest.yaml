@@ -208594,6 +208594,16 @@ DrainLive:
             store: steam
   steam:
     id: 1092150
+DrainSim:
+  id:
+    lutris: drainsim
+    steamExtra:
+      - 4075050
+      - 4188470
+  installDir:
+    DrainSim: {}
+  steam:
+    id: 2963800
 Drainus:
   cloud:
     steam: true
@@ -253234,11 +253244,17 @@ Fantasy Kingdom Simulator:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/LEVEL5 Inc_/Users/<storeUserId>/Saved":
+    "<home>/AppData/LocalLow/LEVEL5 Inc_/FANTASY LIFE i/Users":
       tags:
         - save
       when:
         - os: windows
+    "<root>/userdata/<storeUserId>/2993780":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 3464380
@@ -337807,13 +337823,29 @@ Home Security:
   steam:
     id: 926370
 Home Sheep Home 2:
+  alias: "Home Sheep Home: Farmageddon"
+"Home Sheep Home: Farmageddon":
   cloud:
     steam: true
   files:
-    "<winAppData>/HomeSheepHome2/Local Store":
+    "<home>/AppData/LocalLow/Aardman Animations Ltd/Home Sheep Home_ Farmageddon Party Edition/saves/*SaveData.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Aardman Animations Ltd/Home Sheep Home_ Farmageddon Party Edition/saves/SettingsData.dat":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/HomeSheepHome2/Local Store/savedata.txt":
+      tags:
         - save
+      when:
+        - os: windows
+    "<winAppData>/HomeSheepHome2/Local Store/settings.txt":
+      tags:
+        - config
       when:
         - os: windows
   installDir:
@@ -337823,6 +337855,10 @@ Home Sheep Home 2:
       - when:
           - os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Aardman Animations Ltd/Home Sheep Home: Farmageddon Party Edition":
+      tags:
+        - config
   steam:
     id: 259810
 Home Sweet Home:
@@ -436506,6 +436542,9 @@ Mega Man 11:
             store: steam
   steam:
     id: 742300
+Mega Man 3:
+  id:
+    lutris: mega-man-3-the-robots-are-revolting
 Mega Man Battle Network Legacy Collection Vol. 1:
   cloud:
     steam: true
@@ -449076,6 +449115,17 @@ Miraclr - Divine Dating Sim:
   steam:
     id: 787970
 Miraculous - Paris Under Siege:
+  files:
+    "<winLocalAppData>/valentine/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/valentine/Saved/SaveGames":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Miraculous Paris Under Siege: {}
   launch:
@@ -494237,6 +494287,8 @@ Old Gods Rising:
         - save
       when:
         - os: windows
+  id:
+    lutris: old-mans-journey
   installDir:
     "Old Man's Journey": {}
   launch:

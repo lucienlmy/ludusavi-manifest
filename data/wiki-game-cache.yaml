@@ -67033,6 +67033,13 @@ Drain Mansion:
 DrainLive:
   pageId: 153652
   steam: 1092150
+DrainSim:
+  lutris: drainsim
+  pageId: 214783
+  steam: 2963800
+  steamSide:
+    - 4075050
+    - 4188470
 Drains:
   pageId: 195782
 Drainus:
@@ -81757,7 +81764,8 @@ Fantasy Kingdom Simulator:
   steamSide:
     - 3464380
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\LEVEL5 Inc_\\Users\\{{P|uid}}\\Saved}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\LEVEL5 Inc_\\FANTASY LIFE i\\Users}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\2993780}}"
 Fantasy Little Jobs:
   pageId: 144731
   steam: 1125360
@@ -108860,14 +108868,16 @@ Home Run Solitaire:
 Home Security:
   pageId: 112292
   steam: 926370
-Home Sheep Home 2:
+"Home Sheep Home: Farmageddon":
   cloud:
     steam: true
   pageId: 37415
+  renamedFrom:
+    - Home Sheep Home 2
   steam: 259810
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\HomeSheepHome2\\Local Store\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\HomeSheepHome2\\Local Store\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Aardman Animations Ltd\\Home Sheep Home_ Farmageddon Party Edition\\saves\\SettingsData.dat|{{P|hkcu}}\\Software\\Aardman Animations Ltd\\Home Sheep Home: Farmageddon Party Edition\\|{{p|appdata}}\\HomeSheepHome2\\Local Store\\settings.txt}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Aardman Animations Ltd\\Home Sheep Home_ Farmageddon Party Edition\\saves\\*SaveData.dat|{{p|appdata}}\\HomeSheepHome2\\Local Store\\savedata.txt}}"
 Home Sweet Home:
   pageId: 64900
   steam: 617160
@@ -140842,6 +140852,7 @@ Mega Man 11:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\742300\\remote\\}}"
 Mega Man 3:
+  lutris: mega-man-3-the-robots-are-revolting
   pageId: 73406
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
@@ -145051,6 +145062,9 @@ Miraclr - Divine Dating Sim:
 Miraculous - Paris Under Siege:
   pageId: 199556
   steam: 2676410
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\valentine\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\valentine\\Saved\\SaveGames\\}}"
 "Miraculous: Rise of the Sphinx":
   pageId: 182512
   renamedFrom:
@@ -159967,6 +159981,7 @@ Old Gods Rising:
   cloud:
     steam: true
     xbox: true
+  lutris: old-mans-journey
   pageId: 61056
   steam: 581270
   templates:
