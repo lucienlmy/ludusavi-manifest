@@ -64819,6 +64819,11 @@ Baldr Sky:
         - save
       when:
         - os: mac
+    "<root>/userdata/<storeUserId>/1086940/remote":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winLocalAppData>/Larian Studios/Baldur's Gate 3":
       tags:
         - config
@@ -299682,6 +299687,9 @@ Going Medieval:
         - os: windows
   gog:
     id: 1697094317
+  id:
+    steamExtra:
+      - 4400170
   installDir:
     Going Medieval: {}
   launch:
@@ -494197,6 +494205,8 @@ Old Gods Rising:
   steam:
     id: 1084990
 "Old Man's Journey":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Broken Rules/Old Man/GameState.omj":
       tags:
@@ -752785,6 +752795,14 @@ Tho maz:
   steam:
     id: 668560
 "Thomas & Friends: Wonders of Sodor":
+  installDir:
+    Thomas & Friends™ Wonders of Sodor: {}
+  launch:
+    "<base>/WindowsNoEditor/WondersOfSodor.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3743790
 Thomas Was Alone:
@@ -767339,6 +767357,11 @@ Tower Of Heresy:
             store: steam
   steam:
     id: 1174820
+Tower Of Tears:
+  id:
+    lutris: tower-of-tears
+  steam:
+    id: 2559740
 Tower Offence!:
   installDir:
     TowerOffence: {}

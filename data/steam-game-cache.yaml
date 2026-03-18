@@ -224280,6 +224280,10 @@
         oslist: macos
       executable: Old Mans Journey.app/Contents/MacOS/Old Mans Journey
       type: default
+  nameLocalized:
+    japanese: おじいちゃんの記憶を巡る旅
+    schinese: 回忆之旅
+    tchinese: 回憶之旅
 581280: {}
 581300:
   installDir: Black Mirror IV
@@ -446419,6 +446423,12 @@
         pattern: "*.sav"
         recursive: true
         root: WinAppDataLocalLow
+      - path: Foxy Voxel/Going Medieval
+        pattern: "*.bin"
+        root: WinAppDataLocalLow
+      - path: Foxy Voxel/Going Medieval/UserData
+        pattern: "*.json"
+        root: WinAppDataLocalLow
     overrides:
       - addPath: ".config/unity3d/Foxy Voxel/Going Medieval"
         os: Linux
@@ -621949,6 +621959,7 @@
     japanese: スクランブルヴァイス
     schinese: 爆轰机动队
     tchinese: 爆轟機動隊
+2559740: {}
 2560100:
   cloud:
     saves:
@@ -642215,6 +642226,13 @@
       executable: ASM_steam.app
 3743670: {}
 3743790:
+  installDir: Thomas & Friends™ Wonders of Sodor
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "WindowsNoEditor\\WondersOfSodor.exe"
+      type: default
   nameLocalized:
     french: "Thomas et ses amis™ : les merveilles de Sodor"
     german: "Thomas & seine Freunde™: Die Wunder von Sodor"

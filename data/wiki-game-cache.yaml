@@ -20732,6 +20732,7 @@ Baldr Sky:
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\Public\\Savegames\\Story\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1086940\\remote}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/}}"
 "Baldur's Gate II: Enhanced Edition":
@@ -96480,6 +96481,8 @@ Going Medieval:
   gog: 1697094317
   pageId: 130735
   steam: 1029780
+  steamSide:
+    - 4400170
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE\\AppData\\LocalLow}}\\Foxy Voxel\\Going Medieval\\global.config}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Foxy Voxel\\Going Medieval\\VillageSaves}}"
@@ -159955,6 +159958,7 @@ Old Gods Rising:
   steam: 1084990
 "Old Man's Journey":
   cloud:
+    steam: true
     xbox: true
   pageId: 61056
   steam: 581270
@@ -248001,6 +248005,10 @@ Tower Miners:
 Tower Of Heresy:
   pageId: 155719
   steam: 1174820
+Tower Of Tears:
+  lutris: tower-of-tears
+  pageId: 214774
+  steam: 2559740
 Tower Offence!:
   pageId: 69014
   steam: 671880
