@@ -127480,6 +127480,12 @@ Launch Party:
 Launch Squad:
   pageId: 39741
   steam: 523860
+Laundering Simulator:
+  pageId: 214778
+  steam: 3432750
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\LaunderingSimulator\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\LaunderingSimulator\\Saved\\SaveGames}}"
 Laundry Store Simulator:
   cloud:
     steam: true
@@ -140823,6 +140829,7 @@ Mega Hasan:
   pageId: 155594
   steam: 1217100
 Mega Man:
+  lutris: mega-man--1
   pageId: 73404
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
@@ -184985,6 +184992,14 @@ Retro Racers 2:
 Retro Racing City:
   pageId: 132248
   steam: 1027110
+Retro Rewind:
+  cloud:
+    steam: true
+  pageId: 214779
+  steam: 3552140
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\RetroRewind\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\RetroRewind\\Saved\\SaveGames}}"
 Retro Rocket Robot:
   pageId: 91896
   steam: 806330

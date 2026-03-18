@@ -639137,6 +639137,10 @@
         osarch: "64"
         oslist: linux
       executable: "That's not my neighbor (Steam).x86_64"
+3432750:
+  installDir: Laundering Simulator
+  launch:
+    - executable: LaunderingSimulator.exe
 3432800:
   cloud:
     saves:
@@ -640420,6 +640424,19 @@
       executable: fm.app
   nameLocalized:
     schinese: 足球经理26
+3552140:
+  cloud:
+    saves:
+      - path: RetroRewind/Saved/SaveGames/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: RetroRewind
+  launch:
+    - description: Play Retro Rewind
+      executable: RetroRewind.exe
+      type: default
 3554810:
   installDir: NeverendingAIstorybook
   launch:

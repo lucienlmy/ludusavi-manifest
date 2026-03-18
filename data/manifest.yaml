@@ -394920,6 +394920,26 @@ Launch Party:
 Launch Squad:
   steam:
     id: 523860
+Laundering Simulator:
+  files:
+    "<winLocalAppData>/LaunderingSimulator/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/LaunderingSimulator/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Laundering Simulator: {}
+  launch:
+    "<base>/LaunderingSimulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3432750
 Laundry Store Simulator:
   cloud:
     steam: true
@@ -436458,6 +436478,9 @@ Mega Hasan:
             store: steam
   steam:
     id: 1217100
+Mega Man:
+  id:
+    lutris: mega-man--1
 Mega Man 11:
   cloud:
     steam: true
@@ -571700,6 +571723,28 @@ Retro Racers 2:
 Retro Racing City:
   steam:
     id: 1027110
+Retro Rewind:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/RetroRewind/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/RetroRewind/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    RetroRewind: {}
+  launch:
+    "<base>/RetroRewind.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3552140
 Retro Rocket Robot:
   installDir:
     Retro Rocket Robot: {}
