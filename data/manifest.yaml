@@ -5730,7 +5730,7 @@ $1 Ride:
         - config
   steam:
     id: 299660
-63 days:
+63 Days:
   cloud:
     steam: true
   files:
@@ -5738,6 +5738,8 @@ $1 Ride:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1295663680
   id:
     lutris: 63-days
     steamExtra:
@@ -68912,6 +68914,11 @@ Batla:
         - save
       when:
         - store: steam
+    "<root>/userdata/<storeUserId>/57400":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winDocuments>/WB Games/Batman Arkham City GOTY/BmGame/Config":
       tags:
         - config
@@ -118489,6 +118496,8 @@ Castles:
     gogExtra:
       - 1207658678
     lutris: castles
+    steamExtra:
+      - 4352750
   installDir:
     Castles: {}
   launch:
@@ -383125,6 +383134,36 @@ Kingdom Hearts Melody of Memory:
 Kingdom Heroes 2:
   steam:
     id: 1079150
+"Kingdom II: Shadoan":
+  cloud:
+    steam: true
+  files:
+    "<base>/INTRPLAY/SHADOAN/*.DAT":
+      when:
+        - store: steam
+    "<base>/INTRPLAY/SHADOANP/*.DAT":
+      when:
+        - store: steam
+  installDir:
+    Kingdom II Shadoan: {}
+  launch:
+    "<base>/DOSBox/DOSBox Staging.app/Contents/MacOS/dosbox":
+      - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_single.conf\" -noconsole"
+        when:
+          - os: mac
+            store: steam
+    "<base>/DOSBox/dosbox.exe":
+      - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_single.conf\" -noconsole"
+        when:
+          - os: windows
+            store: steam
+    "<base>/dosbox/dosbox":
+      - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_single.conf\" -noconsole"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4352730
 Kingdom Of Rhea:
   installDir:
     Kingdom Of Rhea: {}
@@ -453885,11 +453924,12 @@ Monster Hunter Stories:
         - config
       when:
         - os: windows
-    "C:/Program Files/Steam/userdata/<storeUserId>/2852190/remote/win64_save":
+    "<root>/userdata/<storeUserId>/2852190/remote/win64_save":
       tags:
         - config
       when:
         - os: windows
+          store: steam
   id:
     lutris: monster-hunter-stories-3-twisted-reflection
   installDir:
@@ -509189,6 +509229,7 @@ Painkiller (2025):
     steamExtra:
       - 3751350
       - 3751360
+      - 3751380
       - 3751400
   installDir:
     Painkiller: {}
@@ -556587,6 +556628,27 @@ Ragnarok Online 2:
             store: steam
   steam:
     id: 660330
+Rags to Riches:
+  installDir:
+    Rags to Riches: {}
+  launch:
+    "<base>/DOSBox/DOSBox Staging.app/Contents/MacOS/dosbox":
+      - arguments: "-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+        when:
+          - os: mac
+            store: steam
+    "<base>/DOSBox/dosbox.exe":
+      - arguments: "-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+        when:
+          - os: windows
+            store: steam
+    "<base>/dosbox/dosbox":
+      - arguments: "-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4353020
 Ragtag Adventurers:
   installDir:
     Ragtag Adventurers: {}
@@ -781072,6 +781134,16 @@ Twisted Sails:
   steam:
     id: 782630
 Twisted Tower:
+  files:
+    "<home>/AppData/LocalLow/Atmos Games, LLC/Twisted Tower Demo":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    "HKEY_CURRENT_USER/Software/Atmos Games, LLC/Twisted Tower Demo":
+      tags:
+        - config
   steam:
     id: 1575990
 Twisted Weapons:
@@ -808268,6 +808340,8 @@ War Mongrels:
         - save
       when:
         - os: windows
+  gog:
+    id: 2025833167
   id:
     steamExtra:
       - 1788010

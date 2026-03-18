@@ -266172,6 +266172,32 @@
         oslist: linux
       executable: dosbox/dosbox
       type: default
+    - arguments: "-conf \"TNC/config/dosboxCastles1.conf\" -conf \"TNC/config/dosbox_menu.conf\" -noconsole"
+      config:
+        oslist: windows
+        ownsdlc: "4352750"
+      description: "Castles: The Northern Campaign"
+      executable: DOSBox/dosbox.exe
+      type: option1
+    - arguments: "-conf \"TNC/config/dosboxCastles1.conf\" -conf \"TNC/config/dosbox_menu.conf\" -noconsole"
+      config:
+        oslist: macos
+        ownsdlc: "4352750"
+      description: "Castles: The Northern Campaign"
+      executable: DOSBox/DOSBox Staging.app/Contents/MacOS/DOSBox
+      type: option1
+    - arguments: "-conf \"TNC/config/dosboxCastles1.conf\" -conf \"TNC/config/dosbox_menu.conf\" -noconsole"
+      config:
+        oslist: linux
+        ownsdlc: "4352750"
+      description: "Castles: The Northern Campaign"
+      executable: dosbox/dosbox
+      type: option1
+    - config:
+        ownsdlc: "4352750"
+      description: "Castles: The Northern Campaign Manual"
+      executable: TNC/Manual.pdf
+      type: manual
 666680: {}
 666690: {}
 666730:
@@ -644027,6 +644053,64 @@
     japanese: "太古の神:哪吒"
     schinese: "古神:风里希"
     tchinese: "古神:風裡希"
+4352730:
+  cloud:
+    saves:
+      - path: INTRPLAY/SHADOAN
+        pattern: "*.DAT"
+        root: gameinstall
+      - path: INTRPLAY/SHADOANP
+        pattern: "*.DAT"
+        root: gameinstall
+  installDir: Kingdom II Shadoan
+  launch:
+    - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_single.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: DOSBox/dosbox.exe
+      type: default
+    - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_single.conf\" -noconsole"
+      config:
+        oslist: macos
+      executable: "DOSBox\\DOSBox Staging.app\\Contents\\MacOS\\dosbox"
+      type: default
+    - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_single.conf\" -noconsole"
+      config:
+        oslist: linux
+      executable: "dosbox\\dosbox"
+    - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_manual.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: DOSBox/dosbox.exe
+      type: manual
+    - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_manual.conf\" -noconsole"
+      config:
+        oslist: macos
+      executable: "DOSBox\\DOSBox Staging.app\\Contents\\MacOS\\dosbox"
+      type: manual
+    - arguments: "-conf \"./config/dosbox_shadoan.conf\" -conf \"./config/dosbox_shadoan_manual.conf\" -noconsole"
+      config:
+        oslist: linux
+      executable: "dosbox\\dosbox"
+      type: manual
+4353020:
+  installDir: Rags to Riches
+  launch:
+    - arguments: "-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: DOSBox/dosbox.exe
+      type: default
+    - arguments: "-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+      config:
+        oslist: macos
+      executable: "DOSBox\\DOSBox Staging.app\\Contents\\MacOS\\dosbox"
+      type: default
+    - arguments: "-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+      config:
+        oslist: linux
+      executable: "dosbox\\dosbox"
+      type: default
 4358270:
   nameLocalized:
     english: Pickmon

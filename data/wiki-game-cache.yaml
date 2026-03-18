@@ -1797,11 +1797,14 @@ $1 Ride:
     - 301950
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Turtle Cream\\6180 the moon\\}}"
-63 days:
+63 Days:
   cloud:
     steam: true
+  gog: 1295663680
   lutris: 63-days
   pageId: 212474
+  renamedFrom:
+    - 63 days
   steam: 2202120
   steamSide:
     - 2867690
@@ -22047,7 +22050,7 @@ Batman Returns:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\WB Games\\Batman Arkham City GOTY\\BmGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\WB Games\\Batman Arkham City GOTY\\SaveData\\}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\200260\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\57400\\|{{p|steam}}\\userdata\\{{p|uid}}\\200260\\{{note|Game of the Year Edition|name=Game of the Year Edition}}}}"
 "Batman: Arkham Knight":
   cloud:
     gog: true
@@ -38155,6 +38158,8 @@ Castles:
   lutris: castles
   pageId: 14491
   steam: 666660
+  steamSide:
+    - 4352750
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME.*}}"
 Castles (2015):
@@ -81764,8 +81769,7 @@ Fantasy Kingdom Simulator:
   steamSide:
     - 3464380
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\LEVEL5 Inc_\\FANTASY LIFE i\\Users}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\2993780}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\LEVEL5 Inc_\\FANTASY LIFE i\\Users|{{P|steam}}\\userdata\\{{P|uid}}\\2993780}}"
 Fantasy Little Jobs:
   pageId: 144731
   steam: 1125360
@@ -123620,7 +123624,10 @@ Kingdom Heroes 2:
   pageId: 141954
   steam: 1079150
 "Kingdom II: Shadoan":
+  cloud:
+    steam: true
   pageId: 77442
+  steam: 4352730
 "Kingdom O' Magic":
   pageId: 209652
 Kingdom Of Rhea:
@@ -146592,7 +146599,7 @@ Monster Hunter Stories:
   steam: 2852190
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
-    - "{{Game data/config|Windows|{{p|programfiles}}\\Steam\\userdata\\{{p|uid}}\\2852190\\remote\\win64_save}}"
+    - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2852190\\remote\\win64_save}}"
 Monster Hunter Wilds:
   cloud:
     steam: true
@@ -164824,6 +164831,7 @@ Painkiller (2025):
   steamSide:
     - 3751350
     - 3751360
+    - 3751380
     - 3751400
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Painkiller\\Saved\\Config\\WindowsNoEditor}}"
@@ -179967,6 +179975,9 @@ Ragnarok Online 2:
 "Ragnarok RE:START":
   pageId: 65614
   steam: 660330
+Rags to Riches:
+  pageId: 214786
+  steam: 4353020
 Ragtag Adventurers:
   pageId: 78116
   steam: 763730
@@ -253142,6 +253153,9 @@ Twisted Sails:
 Twisted Tower:
   pageId: 190119
   steam: 1575990
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
 Twisted Weapons:
   pageId: 113036
   steam: 658840
@@ -262207,6 +262221,7 @@ War Mongrels:
   cloud:
     epic: true
     steam: true
+  gog: 2025833167
   pageId: 170777
   steam: 1101790
   steamSide:
