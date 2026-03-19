@@ -824159,12 +824159,16 @@ Windowkill:
   steam:
     id: 2726450
 Windrose:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/R5/Saved/Config/Windows":
       tags:
         - config
       when:
         - os: windows
+  id:
+    lutris: windrose
   steam:
     id: 3041230
 Winds of Change:

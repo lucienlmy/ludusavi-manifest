@@ -267503,6 +267503,9 @@ Windows Subsystem for Android:
   renamedFrom:
     - Windows Subsystem for Android™
 Windrose:
+  cloud:
+    steam: true
+  lutris: windrose
   pageId: 214042
   steam: 3041230
   templates:
