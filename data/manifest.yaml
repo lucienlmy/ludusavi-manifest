@@ -179965,22 +179965,11 @@ Death Stranding:
     epic: true
     steam: true
   files:
-    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH/<storeUserId>/**/*.cfg":
+    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH/<storeUserId>/**/*.dat":
-      when:
-        - os: windows
-          store: steam
-    "<winDocuments>/Ocean/<storeUserId>/**/*.cfg":
-      when:
-        - os: windows
-          store: steam
-    "<winDocuments>/Ocean/<storeUserId>/**/*.dat":
-      when:
-        - os: windows
-          store: steam
   id:
     lutris: death-stranding-2-on-the-beach
   installDir:
@@ -609195,6 +609184,8 @@ Serena:
         - config
       when:
         - os: windows
+  id:
+    lutris: serena
   installDir:
     Serena: {}
   launch:
@@ -615928,6 +615919,9 @@ Shenmue III:
           - store: steam
   steam:
     id: 878670
+Shenmue III Enhanced:
+  steam:
+    id: 3957530
 Shenzhen I/O:
   alias: Shenzhen IO
 Shenzhen IO:

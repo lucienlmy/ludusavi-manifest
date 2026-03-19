@@ -57756,6 +57756,8 @@ Death Stranding:
   lutris: death-stranding-2-on-the-beach
   pageId: 213700
   steam: 3280350
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
 "Death Stranding Director's Cut":
   cloud:
     epic: true
@@ -197020,6 +197022,7 @@ SereNest:
   pageId: 144791
   steam: 1139780
 Serena:
+  lutris: serena
   pageId: 29852
   steam: 272060
   templates:
@@ -199223,6 +199226,9 @@ Shenmue III:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Shenmue3\\Saved\\SaveGames\\Systemaa{{p|uid}}.sav|{{p|localappdata}}\\Shenmue3\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Shenmue3\\Saved\\SaveGames\\}}"
+Shenmue III Enhanced:
+  pageId: 214817
+  steam: 3957530
 Shenzhen IO:
   cloud:
     origin: true
