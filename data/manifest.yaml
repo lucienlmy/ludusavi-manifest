@@ -199176,6 +199176,11 @@ Djilyaro:
           - store: steam
   steam:
     id: 220440
+Do Not Buy This Game:
+  id:
+    lutris: do-not-buy-this-game
+  steam:
+    id: 1158190
 Do Not Fall:
   installDir:
     Do Not Fall: {}
@@ -621821,6 +621826,12 @@ Sideway New York:
   steam:
     id: 200190
 Sidewords:
+  files:
+    "<home>/AppData/LocalLow/Milkbag Games/Sidewords":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Sidewords: {}
   launch:

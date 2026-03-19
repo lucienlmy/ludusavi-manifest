@@ -63983,6 +63983,10 @@ Djilyaro:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\DevilGame\\*.ini|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\DevilGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\220440\\remote\\}}"
+Do Not Buy This Game:
+  lutris: do-not-buy-this-game
+  pageId: 214808
+  steam: 1158190
 Do Not Fall:
   pageId: 49083
   steam: 333130
@@ -201067,6 +201071,8 @@ Sideway New York:
 Sidewords:
   pageId: 70072
   steam: 682230
+  templates:
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Milkbag Games\\Sidewords}}"
 Siege (2016):
   cloud:
     steam: true
@@ -269306,6 +269312,8 @@ World Championship Snooker 2004:
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Codemasters\\World Championship Snooker 2004\\STARTUP}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\Options\\options.dat}}"
+World Championship Soccer:
+  pageId: 214810
 World Circuit Boxing:
   pageId: 79652
   steam: 724480
