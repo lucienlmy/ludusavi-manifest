@@ -637786,6 +637786,34 @@
       executable: MyProject3.exe
       type: default
 3321460:
+  cloud:
+    saves:
+      - path: "Pearl Abyss/CD/save/{Steam3AccountID}"
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Pearl Abyss/CD/save/{Steam3AccountID}"
+            replace: "Pearl Abyss/CD/save/{Steam3AccountID}"
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Crimson Desert
+  launch:
+    - arguments: PlatformServiceType=Steam
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: bin64/CrimsonDesert.exe
+      type: default
+      workingdir: bin64
+    - arguments: PlatformServiceType=Steam
+      config:
+        oslist: macos
+      executable: CrimsonDesert_Steam.app
+      type: default
   nameLocalized:
     english: Crimson Desert
     japanese: 紅の砂漠
@@ -644047,6 +644075,11 @@
     schinese: 一盏秋声：锦衣卫
     tchinese: 一盞秋聲：錦衣衛
 4317460: {}
+4339870:
+  installDir: Goreagulation
+  launch:
+    - arguments: "-game Goreagulation"
+      executable: hl2.exe
 4346690:
   nameLocalized:
     english: "Genigods: Nezha"

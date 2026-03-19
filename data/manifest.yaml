@@ -153078,6 +153078,13 @@ Crazy Chicken Pinball Vol. 1:
         - config
       when:
         - os: windows
+Crazy Chicken Pirates:
+  files:
+    "<base>/data/highscores.txt":
+      tags:
+        - save
+      when:
+        - os: windows
 Crazy Chicken Tales:
   files:
     "<winLocalAppData>/Crazy Chicken Tales/savegames.txt":
@@ -155564,8 +155571,31 @@ Crimson Defense:
 Crimson Desert:
   cloud:
     steam: true
+  files:
+    "<home>/Library/Application Support/Pearl Abyss/CD/save/<storeUserId>/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Pearl Abyss/CD/save/<storeUserId>/**/*.save":
+      when:
+        - store: steam
   id:
     lutris: crimson-desert
+  installDir:
+    Crimson Desert: {}
+  launch:
+    "<base>/CrimsonDesert_Steam.app":
+      - arguments: PlatformServiceType=Steam
+        when:
+          - os: mac
+            store: steam
+    "<base>/bin64/CrimsonDesert.exe":
+      - arguments: PlatformServiceType=Steam
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/bin64"
   steam:
     id: 3321460
 Crimson Earth:
@@ -302131,6 +302161,16 @@ Gordon Streaman:
         - config
       when:
         - os: windows
+Goreagulation:
+  installDir:
+    Goreagulation: {}
+  launch:
+    "<base>/hl2.exe":
+      - arguments: "-game Goreagulation"
+        when:
+          - store: steam
+  steam:
+    id: 4339870
 Gorescript:
   installDir:
     Gorescript: {}
@@ -464990,6 +465030,23 @@ My Home VR:
     My Home VR: {}
   steam:
     id: 1200660
+My Horse & Me 2:
+  files:
+    "<winLocalAppData>/My Horse and Me 2/lang.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/My Horse and Me 2/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/My Horse and Me 2/user.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 My House:
   installDir:
     My House: {}
@@ -575139,7 +575196,6 @@ Ricochet Xtreme:
     id: 7400
 Riddle Joker:
   cloud:
-    gog: true
     steam: true
   files:
     "<base>/savedata":
@@ -741810,6 +741866,7 @@ The Signal from Tölva:
     id: 457760
 The Signifier:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -741825,7 +741882,9 @@ The Signifier:
       - 1099736776
       - 1437943382
       - 1599667199
+    lutris: "https://web.archive.org/web/20221207133729/https://www.thesignifier.com/"
     steamExtra:
+      - 1430520
       - 1571240
   installDir:
     The Signifier: {}

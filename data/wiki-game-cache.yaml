@@ -48990,6 +48990,10 @@ Crazy Chicken Pinball Vol. 1:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\data\\options.txt}}"
     - "{{Game data/saves|Windows|{{P|game}}\\data\\highscore.dat}}"
+Crazy Chicken Pirates:
+  pageId: 214796
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\data\\highscores.txt}}"
 Crazy Chicken Soccer:
   pageId: 207298
 Crazy Chicken Tales:
@@ -97291,6 +97295,9 @@ Gordon Streaman:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings}}"
     - "{{Game data/saves|Windows|{{p|game}}\\gorerules\\save}}"
+Goreagulation:
+  pageId: 214792
+  steam: 4339870
 Gorescript:
   pageId: 61554
   steam: 618690
@@ -150283,6 +150290,9 @@ My Horse & Me:
   pageId: 206029
 My Horse & Me 2:
   pageId: 206032
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\My Horse and Me 2\\lang.ini|{{p|localappdata}}\\My Horse and Me 2\\user.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\My Horse and Me 2\\savegames}}"
 My House:
   pageId: 125543
   steam: 895060
@@ -186051,7 +186061,6 @@ Ricochet Xtreme:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Ricochet/Stats.dat}}"
 Riddle Joker:
   cloud:
-    gog: true
     steam: true
   gog: 1606830592
   gogSide:
@@ -219355,6 +219364,8 @@ Super Green Rally:
 Super GunWorld 2:
   pageId: 36216
   steam: 514220
+Super Hang-On:
+  pageId: 214798
 Super Happy Singh:
   pageId: 51330
   steam: 535290
@@ -239541,6 +239552,7 @@ The Signal from Tölva:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.steam/steam/userdata/{{p|uid}}/457760/remote/SavedGames/}}"
 The Signifier:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1461644805
@@ -239548,9 +239560,11 @@ The Signifier:
     - 1099736776
     - 1437943382
     - 1599667199
+  lutris: "https://web.archive.org/web/20221207133729/https://www.thesignifier.com/"
   pageId: 160808
   steam: 1082930
   steamSide:
+    - 1430520
     - 1571240
   templates:
     - "{{Game data/config|Windows|{{Path|HKCU}}\\Software\\Playmestudio\\thesignifier}}"
@@ -256475,6 +256489,8 @@ Up and Down:
 Up or Out:
   pageId: 100754
   steam: 878990
+"Up'n Down":
+  pageId: 214800
 UpBreakers:
   pageId: 109248
   steam: 886120
