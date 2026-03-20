@@ -643485,6 +643485,21 @@
       type: default
 3954580: {}
 3957530: {}
+3961110:
+  installDir: Sleepover reWake
+  launch:
+    - config:
+        oslist: windows
+      executable: SleepoverreWake.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: SleepoverreWake.sh
+      type: default
+    - config:
+        oslist: macos
+      executable: /Contents/MacOS/SleepoverreWake
+      type: default
 3970660:
   installDir: Hunter The Reckoning — A Time of Monsters
   launch:

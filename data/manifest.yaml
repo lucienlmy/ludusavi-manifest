@@ -204701,6 +204701,12 @@ Double Dragon Dodgeball:
   steam:
     id: 1967260
 Double Dragon IV:
+  files:
+    "<winLocalAppData>/LocalLow/Arc System Works/Double Dragon IV":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Double Dragon IV: {}
   launch:
@@ -630390,6 +630396,24 @@ Sleeping Valley:
             store: steam
   steam:
     id: 538590
+"Sleepover: reWake":
+  installDir:
+    Sleepover reWake: {}
+  launch:
+    "<base>/Contents/MacOS/SleepoverreWake":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SleepoverreWake.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SleepoverreWake.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3961110
 Sleepwalker:
   alias: Sleepwalker (1993)
 Sleepwalker (1993):

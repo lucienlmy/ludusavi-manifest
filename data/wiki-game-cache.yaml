@@ -65768,6 +65768,8 @@ Double Dragon Dodgeball:
 Double Dragon IV:
   pageId: 57087
   steam: 528610
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\LocalLow\\Arc System Works\\Double Dragon IV}}"
 Double Dragon Neon:
   cloud:
     steam: true
@@ -203798,6 +203800,7 @@ Sleeping Valley:
   steam: 538590
 "Sleepover: reWake":
   pageId: 212372
+  steam: 3961110
 Sleepwalker (1993):
   pageId: 91498
   renamedFrom:
