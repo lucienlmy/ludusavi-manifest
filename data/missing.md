@@ -27662,7 +27662,6 @@
 * [The Swordsmen X](https://www.pcgamingwiki.com/wiki/?curid=102825)
 * [The Table at War](https://www.pcgamingwiki.com/wiki/?curid=54361)
 * [The Take](https://www.pcgamingwiki.com/wiki/?curid=89612)
-* [The TakeOver](https://www.pcgamingwiki.com/wiki/?curid=44716)
 * [The Tale of Doris and the Dragon - Episode 1](https://www.pcgamingwiki.com/wiki/?curid=38801)
 * [The Tale of Doris and the Dragon - Episode 2](https://www.pcgamingwiki.com/wiki/?curid=156702)
 * [The Tale of Greenbrier](https://www.pcgamingwiki.com/wiki/?curid=136096)

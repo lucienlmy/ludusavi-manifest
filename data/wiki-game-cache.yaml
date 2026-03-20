@@ -57758,6 +57758,7 @@ Death Stranding:
   steam: 3280350
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
 "Death Stranding Director's Cut":
   cloud:
     epic: true
@@ -83311,19 +83312,24 @@ Feed A Titanosaur:
 Feed Eve:
   pageId: 87303
   steam: 790950
-Feed The Cups:
-  cloud:
-    steam: true
-  pageId: 214679
-  steam: 2336220
-  templates:
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Feed The Cups}}"
 "Feed and Grow: Fish":
   pageId: 45047
   steam: 429050
 Feed the Animals:
   pageId: 76551
   steam: 749900
+Feed the Cups:
+  cloud:
+    steam: true
+  lutris: feed-the-cups
+  pageId: 214679
+  renamedFrom:
+    - Feed The Cups
+  steam: 2336220
+  steamSide:
+    - 2336220
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Feed The Cups}}"
 Feed the Pets:
   pageId: 112588
   steam: 936010
@@ -238078,6 +238084,9 @@ The Precinct:
   lutris: the-precinct
   pageId: 198439
   steam: 490110
+  steamSide:
+    - 2893830
+    - 3240070
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Fallen Tree Games Ltd\\The Precinct}}"
 The Preposterous Awesomeness of Everything:
@@ -239587,7 +239596,7 @@ The Signifier:
     - 1099736776
     - 1437943382
     - 1599667199
-  lutris: "https://web.archive.org/web/20221207133729/https://www.thesignifier.com/"
+  lutris: the-signifier-directors-cut
   pageId: 160808
   steam: 1082930
   steamSide:
@@ -240546,6 +240555,8 @@ The Take:
 The TakeOver:
   pageId: 44716
   steam: 418620
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\LocalLow\\pelikan 13\\The TakeOver}}"
 The Tale of Bistun:
   cloud:
     gog: true

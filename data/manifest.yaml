@@ -258026,28 +258026,6 @@ Feed Eve:
     Feed Eve: {}
   steam:
     id: 790950
-Feed The Cups:
-  cloud:
-    steam: true
-  files:
-    "<winAppData>/Feed The Cups":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    Feed The Cups: {}
-  launch:
-    "<base>/Feed The Cups.app/Contents/MacOS/Feed The Cups":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/Feed the Cups.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2336220
 "Feed and Grow: Fish":
   files:
     "<base>/SavesDir/*.sav":
@@ -258072,6 +258050,30 @@ Feed the Animals:
             store: steam
   steam:
     id: 749900
+Feed the Cups:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Feed The Cups":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: feed-the-cups
+  installDir:
+    Feed The Cups: {}
+  launch:
+    "<base>/Feed The Cups.app/Contents/MacOS/Feed The Cups":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Feed the Cups.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2336220
 Feed the Pets:
   installDir:
     Feed the Pets: {}
@@ -737267,6 +737269,9 @@ The Precinct:
           store: steam
   id:
     lutris: the-precinct
+    steamExtra:
+      - 2893830
+      - 3240070
   installDir:
     The Precinct: {}
   launch:
@@ -741896,7 +741901,7 @@ The Signifier:
       - 1099736776
       - 1437943382
       - 1599667199
-    lutris: "https://web.archive.org/web/20221207133729/https://www.thesignifier.com/"
+    lutris: the-signifier-directors-cut
     steamExtra:
       - 1430520
       - 1571240
@@ -744658,6 +744663,12 @@ The Take:
   steam:
     id: 809410
 The TakeOver:
+  files:
+    "<winLocalAppData>/LocalLow/pelikan 13/The TakeOver":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     TheTakeOver: {}
   launch:
