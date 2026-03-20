@@ -211671,8 +211671,17 @@ Squirrel Stapler:
 Squirrel with a Gun:
   cloud:
     steam: true
+  gog: 1255050011
+  gogSide:
+    - 1830736126
+  lutris: squirrel-with-a-gun
   pageId: 197395
   steam: 2067050
+  steamSide:
+    - 3715570
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SquirrelGun\\Saved\\SaveGames\\release_titlesave.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\SquirrelGun\\Saved\\SaveGames}}"
 Squirreled Away:
   cloud:
     steam: true
@@ -213469,6 +213478,9 @@ Starbase Admiral:
 "Starbear: Taxi":
   pageId: 93545
   steam: 702030
+Starbites:
+  pageId: 214822
+  steam: 2199080
 Starblast:
   pageId: 72383
   steam: 673260
@@ -256371,7 +256383,9 @@ Until I Have You:
   steam: 697020
 Until Then:
   cloud:
+    gog: true
     steam: true
+  gog: 1930246738
   lutris: until-then
   pageId: 196073
   steam: 1574820

@@ -655066,42 +655066,24 @@ Squirrel with a Gun:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/SquirrelGun/CloudSaveable/*.*":
+    "<winLocalAppData>/SquirrelGun/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/CloudSaveable/*.jpg":
+    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/release_titlesave.sav":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/CloudSaveable/*.png":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/CloudSaveable/*.swag":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/*.jpg":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/*.png":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/*.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/*.thumb":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/*_thumb":
-      when:
-        - os: windows
-          store: steam
+  gog:
+    id: 1255050011
+  id:
+    gogExtra:
+      - 1830736126
+    lutris: squirrel-with-a-gun
+    steamExtra:
+      - 3715570
   installDir:
     SquirrelWithAGun: {}
   launch:
@@ -660286,6 +660268,9 @@ Starbase Admiral:
     StarbearTaxi: {}
   steam:
     id: 702030
+Starbites:
+  steam:
+    id: 2199080
 Starblast:
   installDir:
     Starblast: {}
@@ -791028,6 +791013,7 @@ Until I Have You:
     id: 697020
 Until Then:
   cloud:
+    gog: true
     steam: true
   files:
     "<winAppData>/Until Then/savegame.res":
@@ -791055,6 +791041,8 @@ Until Then:
         - config
       when:
         - os: linux
+  gog:
+    id: 1930246738
   id:
     lutris: until-then
   installDir:

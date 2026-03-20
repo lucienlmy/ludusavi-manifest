@@ -606592,6 +606592,7 @@
       description: Vulkan extension settings
       executable: tiny-glade
       type: config
+2199080: {}
 2199420:
   installDir: Brickadia
   launch:
