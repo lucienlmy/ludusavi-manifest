@@ -49847,6 +49847,11 @@ Crimson Desert:
   lutris: crimson-desert
   pageId: 200185
   steam: 3321460
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}/AppData/Local/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
+    - "{{Game data/config|OS X}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}/AppData/Local/Pearl Abyss/CD/save/{{p|uid}}}}"
+    - "{{Game data/saves|OS X}}"
 Crimson Earth:
   pageId: 61762
   steam: 616360
@@ -77823,6 +77828,15 @@ Evertried:
     - 1691030
 Everwild:
   pageId: 162114
+Everwind:
+  cloud:
+    steam: true
+  pageId: 214833
+  steam: 2253100
+  steamSide:
+    - 4321300
+    - 4351900
+    - 4434900
 Every Day We Fight:
   cloud:
     epic: true
@@ -139691,6 +139705,8 @@ MasterChef THE OFFICIAL VIDEO GAME:
   steam: 2287010
 "MasterChef: Let's Cook":
   pageId: 170591
+Mastermind (1998):
+  pageId: 214841
 Masteroid:
   pageId: 150882
   steam: 1148320
@@ -201179,6 +201195,10 @@ Sifu:
   lutris: sifu
   pageId: 166919
   steam: 2138710
+  steamSide:
+    - 2231950
+    - 2253840
+    - 2253841
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Sifu\\Saved\\Config\\WindowsClient\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Sifu\\Saved\\SaveGames\\Sifu*.sav}}"
@@ -221090,6 +221110,10 @@ Supreme Courtship:
 Supreme Destiny:
   pageId: 79117
   steam: 360700
+Supreme Experiment:
+  lutris: supreme-experiment
+  pageId: 214843
+  steam: 4212050
 Supreme League of Patriots:
   cloud:
     steam: true
@@ -258543,6 +258567,8 @@ Vault of the Void:
   steam: 1135810
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\VaultoftheVoid\\Saves\\}}"
+Vaxine:
+  pageId: 214836
 Vay:
   pageId: 203468
   steam: 2926110

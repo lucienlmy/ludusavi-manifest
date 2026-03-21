@@ -609462,6 +609462,31 @@
     - config:
         oslist: linux
       executable: vlobs.x86_64
+2253100:
+  cloud:
+    saves:
+      - path: Everwind/Saved/SaveGames
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Everwind
+  launch:
+    - arguments: "-force-d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 12 (Default)
+      executable: Everwind.exe
+      type: option1
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 11
+      executable: Everwind.exe
+      type: option2
+  nameLocalized:
+    schinese: 风屿奇航
 2253580:
   cloud:
     saves:
@@ -631507,7 +631532,7 @@
   launch:
     - executable: GameLauncher.exe
   nameLocalized:
-    japanese: ソニックランブル
+    japanese: ソニックランブル パーティ
 2952690:
   cloud:
     saves:
@@ -644013,6 +644038,7 @@
     - config:
         oslist: macos
       executable: Chicky Blocks.app
+4212050: {}
 4216180: {}
 4223290:
   nameLocalized:

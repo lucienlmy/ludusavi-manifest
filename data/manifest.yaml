@@ -155572,13 +155572,16 @@ Crimson Desert:
   cloud:
     steam: true
   files:
-    "<home>/Library/Application Support/Pearl Abyss/CD/save/<storeUserId>/*.save":
+    "<winLocalAppData>/AppData/Local/Pearl Abyss/CD/save/<storeUserId>":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-    "<winLocalAppData>/Pearl Abyss/CD/save/<storeUserId>/**/*.save":
+        - os: windows
+    "<winLocalAppData>/AppData/Local/Pearl Abyss/CD/save/user_engine_option_save.xml":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: crimson-desert
   installDir:
@@ -242290,6 +242293,22 @@ Evertried:
             store: steam
   steam:
     id: 1607040
+Everwind:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Everwind/Saved/SaveGames":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 4321300
+      - 4351900
+      - 4434900
+  installDir:
+    Everwind: {}
+  steam:
+    id: 2253100
 Every Day We Fight:
   cloud:
     epic: true
@@ -622164,6 +622183,10 @@ Sifu:
           store: steam
   id:
     lutris: sifu
+    steamExtra:
+      - 2231950
+      - 2253840
+      - 2253841
   installDir:
     Sifu: {}
   launch:
@@ -684508,6 +684531,11 @@ Supreme Destiny:
             store: steam
   steam:
     id: 360700
+Supreme Experiment:
+  id:
+    lutris: supreme-experiment
+  steam:
+    id: 4212050
 Supreme League of Patriots:
   cloud:
     steam: true
