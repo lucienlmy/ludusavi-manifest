@@ -5924,6 +5924,9 @@ ActionpaintVR:
 Active Crowds:
   pageId: 87531
   steam: 683050
+Active Matter:
+  pageId: 214861
+  steam: 2887580
 Active Neurons - Puzzle game:
   pageId: 148892
   steam: 1168630
@@ -49847,6 +49850,8 @@ Crimson Desert:
   lutris: crimson-desert
   pageId: 200185
   steam: 3321460
+  steamSide:
+    - 4024620
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}/AppData/Local/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
     - "{{Game data/config|OS X}}"
@@ -57382,6 +57387,8 @@ Deadly Step:
 Deadly Stigma:
   pageId: 104631
   steam: 835490
+Deadly Tide:
+  pageId: 214864
 Deadly Traps:
   pageId: 68396
   steam: 690080
@@ -61593,6 +61600,8 @@ Devious Dungeon:
 Devious Dungeon 2:
   pageId: 145045
   steam: 1059890
+Devo Presents Adventures of the Smart Patrol:
+  pageId: 214859
 Devochka Quest:
   pageId: 97986
   steam: 877250
@@ -123697,6 +123706,7 @@ Kingdom Rush:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1519221611
   pageId: 98284
   steam: 816340
@@ -178323,6 +178333,8 @@ Queendoom:
     steam: true
   pageId: 53059
   steam: 540410
+"Queensrÿche's Promised Land":
+  pageId: 214866
 Queeny Army:
   cloud:
     steam: true
@@ -180990,6 +181002,8 @@ Rauniot:
   gog: 1374070783
   pageId: 151499
   steam: 1168490
+Ravage D.C.X:
+  pageId: 214857
 Ravaged Zombie Apocalypse:
   pageId: 59769
   steam: 96300
@@ -214110,7 +214124,7 @@ Starship Troopers:
   pageId: 211691
   steam: 2321780
   templates:
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\StarshipTroopers_UBW\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\StarshipTroopers_UBW\\Saved\\SaveGames\\*.sav|{{p|localappdata}}\\StarshipTroopers_UBW\\Saved\\SaveGames\\*\\*.sav}}"
 "Starship: Nova Strike":
   pageId: 34948
   steam: 457930
@@ -243349,6 +243363,9 @@ Tho maz:
 "Thomas & Friends: Wonders of Sodor":
   pageId: 213493
   steam: 3743790
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\ThomasAndFriends\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\ThomasAndFriends\\Saved\\SaveGames\\}}"
 Thomas Was Alone:
   pageId: 4694
   steam: 220780

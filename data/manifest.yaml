@@ -18789,6 +18789,9 @@ ActionpaintVR:
 Active Crowds:
   steam:
     id: 683050
+Active Matter:
+  steam:
+    id: 2887580
 Active Neurons - Puzzle game:
   installDir:
     Active Neurons: {}
@@ -155584,6 +155587,8 @@ Crimson Desert:
         - os: windows
   id:
     lutris: crimson-desert
+    steamExtra:
+      - 4024620
   installDir:
     Crimson Desert: {}
   launch:
@@ -662360,6 +662365,11 @@ Starship Troopers - Terran Command:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/StarshipTroopers_UBW/Saved/SaveGames/*/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1766747976
   installDir:
@@ -753066,6 +753076,17 @@ Tho maz:
   steam:
     id: 668560
 "Thomas & Friends: Wonders of Sodor":
+  files:
+    "<winDocuments>/My Games/ThomasAndFriends/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/ThomasAndFriends/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Thomas & Friends™ Wonders of Sodor: {}
   launch:
