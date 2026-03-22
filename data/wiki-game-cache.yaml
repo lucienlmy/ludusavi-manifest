@@ -49856,9 +49856,9 @@ Crimson Desert:
   steamSide:
     - 4024620
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}/AppData/Local/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
     - "{{Game data/config|OS X}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}/AppData/Local/Pearl Abyss/CD/save/{{p|uid}}}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/{{p|uid}}}}"
     - "{{Game data/saves|OS X}}"
 Crimson Earth:
   pageId: 61762
@@ -79258,6 +79258,8 @@ F-22 Lightning 3:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\L3.cfg|{{p|game}}\\L3.INP}}"
     - "{{Game data/saves|Windows|{{p|game}}\\LSLOT*.sav}}"
+F-22 Total Air War:
+  pageId: 214885
 "F-22: Air Dominance Fighter":
   cloud:
     steam: true
@@ -157004,12 +157006,17 @@ No Way Out:
 No Way Out - A Dead Realm Tale:
   pageId: 121266
   steam: 536960
-"No, I'm Not A Human":
+"No, I'm Not a Human":
   cloud:
     steam: true
   lutris: no-im-not-a-human
   pageId: 205288
+  renamedFrom:
+    - "No, I'm Not A Human"
   steam: 3180070
+  steamSide:
+    - 4514440
+    - 4521370
   templates:
     - "{{Game data/config|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3180070\\remote\\MetaPrefsData.sav|{{p|hkcu}}\\Software\\Trioskaz\\NoImNotAHuman\\}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3180070\\remote\\GameSaveData.sav}}"

@@ -155578,12 +155578,12 @@ Crimson Desert:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/AppData/Local/Pearl Abyss/CD/save/<storeUserId>":
+    "<winLocalAppData>/Pearl Abyss/CD/save/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
-    "<winLocalAppData>/AppData/Local/Pearl Abyss/CD/save/user_engine_option_save.xml":
+    "<winLocalAppData>/Pearl Abyss/CD/save/user_engine_option_save.xml":
       tags:
         - config
       when:
@@ -485199,7 +485199,7 @@ No Way Out - A Dead Realm Tale:
     Dead Realm - VR: {}
   steam:
     id: 536960
-"No, I'm Not A Human":
+"No, I'm Not a Human":
   cloud:
     steam: true
   files:
@@ -485215,6 +485215,9 @@ No Way Out - A Dead Realm Tale:
         - store: steam
   id:
     lutris: no-im-not-a-human
+    steamExtra:
+      - 4514440
+      - 4521370
   installDir:
     "No, I'm not a Human": {}
   launch:
