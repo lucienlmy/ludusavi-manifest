@@ -32016,6 +32016,9 @@ Bravely Default Flying Fairy HD Remaster:
   lutris: bravely-default-flying-fairy-hd-remaster
   pageId: 214580
   steam: 2833580
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\BRAVELY DEFAULT\\Steam\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\BRAVELY DEFAULT\\Steam\\{{P|uid}}\\}}"
 Bravely Default II:
   cloud:
     steam: true
@@ -77108,9 +77111,14 @@ Etherlords II:
   pageId: 13972
   steam: 270790
 Etrange Overlord:
+  cloud:
+    steam: true
   lutris: etrange-overlord
   pageId: 214463
   steam: 3515480
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3515480\\remote\\}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3515480\\remote\\}}"
 Etrian Odyssey HD:
   cloud:
     steam: true
@@ -164812,6 +164820,8 @@ Packing Life:
   lutris: packing-life
   pageId: 210869
   steam: 3482510
+Packy & Marlon:
+  pageId: 214882
 Pact with a Witch:
   pageId: 136887
   steam: 865570
@@ -233360,6 +233370,8 @@ The Hong Kong Massacre:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\VRESKI\\The Hong Kong Massacre\\playerSave.thkm}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\VRESKI\\The Hong Kong Massacre\\playerSave.thkm}}"
+The Horde:
+  pageId: 214868
 "The Horologist's Legacy":
   pageId: 121383
   steam: 957890

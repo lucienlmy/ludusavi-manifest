@@ -99238,8 +99238,11 @@ Bravely Default Flying Fairy HD Remaster:
     steam: true
   files:
     "<winDocuments>/My Games/BRAVELY DEFAULT/Steam/<storeUserId>":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: bravely-default-flying-fairy-hd-remaster
   installDir:
@@ -240322,6 +240325,16 @@ Etherlords II:
   steam:
     id: 270790
 Etrange Overlord:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3515480/remote":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: etrange-overlord
   steam:
