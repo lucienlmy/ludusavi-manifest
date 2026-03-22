@@ -5137,6 +5137,8 @@ Absolute Territory:
 Absolute VR Experiences:
   pageId: 96541
   steam: 868950
+Absolute Zero:
+  pageId: 214889
 Absolver:
   cloud:
     gog: true
@@ -20734,9 +20736,9 @@ Baldr Sky:
   steamSide:
     - 2378500
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/}}"
-    - "{{Game data/config|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\graphicSettings.lsx|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\analytics.lsx|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\imgui.ini}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles/}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/PlayerProfiles/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\Public\\Savegames\\Story\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1086940\\remote}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/}}"
@@ -50788,7 +50790,9 @@ Crusader Kings III:
     - 2313540
     - 2313541
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Crusader Kings III\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Crusader Kings III\\pdx_settings.txt}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Crusader Kings III\\launcher-v2.sqlite}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Crusader Kings III\\last_save.ck3}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Paradox Interactive/Crusader Kings III}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Crusader Kings III\\save games\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Paradox Interactive/Crusader Kings III/save games}}"
@@ -150583,6 +150587,8 @@ My Singing Monsters:
     - 1896460
     - 1896470
     - 1896480
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Big Blue Bubble Inc\\My Singing Monsters\\1\\save.dat}}"
 "My Sister's Discipline Log":
   pageId: 70525
   steam: 711410
@@ -153574,7 +153580,6 @@ Need for Speed Unbound:
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\EA Games\\Need for Speed Underground 2\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\NFS Underground 2\\}}"
-    - "{{Game data/saves|Linux|&lt;Wine prefix&gt;/drive_c/users/&lt;user&gt;/AppData/Local/NFS Underground 2/}}"
 "Need for Speed: World":
   pageId: 6921
   templates:

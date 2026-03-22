@@ -64814,7 +64814,7 @@ Baldr Sky:
     gog: true
     steam: true
   files:
-    "<home>/Documents/Larian Studios/Baldur's Gate 3":
+    "<home>/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles":
       tags:
         - config
       when:
@@ -64829,7 +64829,7 @@ Baldr Sky:
         - save
       when:
         - store: steam
-    "<winLocalAppData>/Larian Studios/Baldur's Gate 3":
+    "<winLocalAppData>/Larian Studios/Baldur's Gate 3/PlayerProfiles":
       tags:
         - config
       when:
@@ -64839,7 +64839,22 @@ Baldr Sky:
         - save
       when:
         - os: windows
-    "<xdgData>/Larian Studios/Baldur's Gate 3":
+    "<winLocalAppData>/Larian Studios/Baldur's Gate 3/analytics.lsx":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Larian Studios/Baldur's Gate 3/graphicSettings.lsx":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Larian Studios/Baldur's Gate 3/imgui.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/Larian Studios/Baldur's Gate 3/PlayerProfiles":
       tags:
         - config
       when:
@@ -158349,7 +158364,17 @@ Crusader Kings III:
         - save
       when:
         - os: linux
-    "<winDocuments>/Paradox Interactive/Crusader Kings III":
+    "<winDocuments>/Paradox Interactive/Crusader Kings III/last_save.ck3":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Paradox Interactive/Crusader Kings III/launcher-v2.sqlite":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Paradox Interactive/Crusader Kings III/pdx_settings.txt":
       tags:
         - config
       when:
@@ -465773,6 +465798,12 @@ My Sexy Neighbour 2:
   steam:
     id: 3684710
 My Singing Monsters:
+  files:
+    "<home>/AppData/LocalLow/Big Blue Bubble Inc/My Singing Monsters/1/save.dat":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 1889780
@@ -474826,11 +474857,6 @@ Need for Speed Unbound:
         - config
 "Need for Speed: Underground 2":
   files:
-    "&lt;Wine prefix&gt;/drive_c/users/&lt;user&gt;/AppData/Local/NFS Underground 2":
-      tags:
-        - save
-      when:
-        - os: linux
     "<winLocalAppData>/NFS Underground 2":
       tags:
         - save
