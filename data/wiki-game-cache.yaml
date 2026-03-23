@@ -87497,6 +87497,15 @@ For Inco:
 For The Entity:
   lutris: for-the-entity
   pageId: 210784
+For What Will Come:
+  cloud:
+    steam: true
+  lutris: for-what-will-come
+  pageId: 214910
+  steam: 2058970
+  steamSide:
+    - 2293790
+    - 3182220
 For a Better Country:
   pageId: 145320
   steam: 1131420
@@ -166937,6 +166946,11 @@ Pathways into Darkness:
   pageId: 6973
   templates:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.manuptimestudios.pathwaysintodarkness/Data/Library/Application Support/Pathways into Darkness/Saved Games.pathways}}"
+Patlabor the Case Files:
+  cloud:
+    steam: true
+  pageId: 214906
+  steam: 3275400
 Pato Box:
   cloud:
     steam: true
@@ -252763,6 +252777,9 @@ Turbo Dismount:
 Turbo Dismount 2:
   pageId: 210214
   steam: 2280350
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\TurboDismount2\\config.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\TurboDismount2\\saves\\}}"
 Turbo Golf Racing:
   cloud:
     xbox: true

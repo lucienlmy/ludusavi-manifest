@@ -271272,6 +271272,18 @@ For Inco:
 For The Entity:
   id:
     lutris: for-the-entity
+For What Will Come:
+  cloud:
+    steam: true
+  id:
+    lutris: for-what-will-come
+    steamExtra:
+      - 2293790
+      - 3182220
+  installDir:
+    For What Will Come: {}
+  steam:
+    id: 2058970
 For a Better Country:
   installDir:
     For a Better Country: {}
@@ -459645,7 +459657,7 @@ MotoGP 25:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/MotoGP25/Saved/SaveGames/**/*.*":
+    "<winLocalAppData>/MotoGP25/Saved/SaveGames/**/*.sav":
       when:
         - store: steam
   id:
@@ -515452,6 +515464,11 @@ Pathways into Darkness:
         - save
       when:
         - os: mac
+Patlabor the Case Files:
+  cloud:
+    steam: true
+  steam:
+    id: 3275400
 Pato Box:
   cloud:
     steam: true
@@ -779623,6 +779640,17 @@ Turbo Dismount:
   steam:
     id: 263760
 Turbo Dismount 2:
+  files:
+    "<winLocalAppData>/TurboDismount2/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TurboDismount2/saves":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     TurboDismount2: {}
   launch:

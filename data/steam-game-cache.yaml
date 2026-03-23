@@ -79732,6 +79732,14 @@
       description: Launch
       executable: bin/Pilot Brothers.exe
       workingdir: bin
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: bin/Launcher-x64.exe
+      type: option1
+      workingdir: bin
 336780:
   installDir: Pilot Brothers 3 Back Side of the Earth
   launch:
@@ -598365,6 +598373,19 @@
         oslist: macos
       executable: TryToFly.app
       type: default
+2058970:
+  installDir: For What Will Come
+  launch:
+    - config:
+        oslist: windows
+      description: For What Will Come
+      executable: Forwhatwillcome.exe
+      type: option1
+    - config:
+        ownsdlc: "3182220"
+      description: "For What Will Come: Reimagined"
+      executable: ForWhatWillComeDLC.exe
+      type: option2
 2058980:
   cloud:
     saves:
@@ -610290,6 +610311,13 @@
     - description: "SQUARE ENIX AI Tech Preview: THE PORTOPIA SERIAL MURDER CASE"
       executable: PORTOPIA.exe
 2280350:
+  cloud:
+    saves:
+      - path: TurboDismount2
+        pattern: GameSave.json
+        platforms:
+          - Windows
+        root: WinMyDocuments
   installDir: TurboDismount2
   launch:
     - config:
@@ -634254,7 +634282,7 @@
   cloud:
     saves:
       - path: MotoGP25/Saved/SaveGames/
-        pattern: "*.*"
+        pattern: "*.sav"
         recursive: true
         root: WinAppDataLocal
   installDir: MotoGP™25
@@ -636985,6 +637013,12 @@
   installDir: Rogue Loops
   launch:
     - executable: rogue_loops.exe
+3275400:
+  nameLocalized:
+    english: PATLABOR the Case Files
+    koreana: PATLABOR the Case Files
+    schinese: PATLABOR the Case Files
+    tchinese: PATLABOR the Case Files
 3275880:
   cloud:
     saves:
