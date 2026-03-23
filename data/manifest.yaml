@@ -603804,7 +603804,10 @@ Screamer:
     id: 697580
 Screamer (2026):
   cloud:
+    epic: true
     steam: true
+  id:
+    lutris: screamer--1
   steam:
     id: 2814990
 Screamer 2:
@@ -786202,7 +786205,7 @@ Unbeatable:
   id:
     lutris: unbeatable
     steamExtra:
-      - 3595150
+      - 3951650
   installDir:
     UNBEATABLE: {}
   launch:

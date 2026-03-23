@@ -5084,6 +5084,7 @@ Absoloot:
 Absolum:
   cloud:
     steam: true
+    xbox: true
   pageId: 205429
   steam: 1904480
   steamSide:
@@ -195413,7 +195414,9 @@ Screamer:
     - "{{Game data/saves|DOS|{{p|game}}\\REPLAYS\\}}"
 Screamer (2026):
   cloud:
+    epic: true
     steam: true
+  lutris: screamer--1
   pageId: 200262
   steam: 2814990
 Screamer 2:
@@ -254882,7 +254885,7 @@ Unbeatable:
   pageId: 203888
   steam: 2240620
   steamSide:
-    - 3595150
+    - 3951650
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\D-CELL GAMES\\UNBEATABLE\\SYSTEM\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\D-CELL GAMES\\UNBEATABLE\\PROFILES\\{{P|uid}}\\}}"
