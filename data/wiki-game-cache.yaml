@@ -38642,6 +38642,8 @@ Catechumen:
   pageId: 134978
 "Category:VR games":
   pageId: 77673
+Caterpillar:
+  pageId: 214897
 Caterpillar Royale:
   pageId: 135012
   steam: 1071800
@@ -76661,6 +76663,7 @@ Eslander:
   pageId: 141853
   steam: 1069250
 "Esoteria: Techno-Assassin of the Future":
+  lutris: esoteria-techno-assassin-of-the-future
   pageId: 166543
 Esoteric Ebb:
   cloud:
@@ -102435,6 +102438,8 @@ Hangry Bunnies From Mars:
 Hanse - The Hanseatic League:
   pageId: 91166
   steam: 599010
+Hansel & Gretel and the Enchanted Castle:
+  pageId: 214899
 Hanx101 Trivia:
   pageId: 181261
 Hanz Puppetguns:
@@ -104221,6 +104226,8 @@ Heaven Does Not Respond:
   lutris: heaven-does-not-respond
   pageId: 210384
   steam: 3817240
+  steamSide:
+    - 4450750
 Heaven Dust:
   cloud:
     steam: true
@@ -112131,6 +112138,8 @@ I Am Jesus Christ:
   lutris: i-am-jesus-christ
   pageId: 157424
   steam: 1198970
+  steamSide:
+    - 2007580
 "I Am Jesus Christ: Prologue":
   lutris: i-am-jesus-christ-prologue
   pageId: 174006
@@ -144229,6 +144238,8 @@ Milo and the Magpies:
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Second Maze\\Milo and the Magpies\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Documents/Second Maze/Milo and the Magpies/}}"
+Milton Bradley Classic Board Games:
+  pageId: 214903
 Mimic:
   pageId: 78461
   steam: 759980
@@ -199889,6 +199900,8 @@ Ship It:
 Ship Rescue:
   pageId: 93235
   steam: 851970
+Ship Simulator 2008:
+  pageId: 214894
 Ship Simulator Extremes:
   pageId: 41100
   steam: 48800
@@ -206934,9 +206947,11 @@ Sonic Robo Blast 2 Kart:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.srb2k/}}"
     - "{{Game data/saves|Windows|{{p|game}}/kartdata.dat}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2k/}}"
-Sonic Rumble:
+Sonic Rumble Party:
   lutris: sonic-rumble
   pageId: 200761
+  renamedFrom:
+    - Sonic Rumble
   steam: 2951690
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SonicRumble_Data\\*.save|{{p|game}}\\SonicRumble_Data\\Md\\}}"
@@ -231908,6 +231923,7 @@ The Fall of the Dungeon Guardians:
   templates:
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Mana Games/DungeonGuardians/Saves/}}"
 "The Fall: Last Days of Gaia":
+  lutris: the-fall-last-days-of-gaia
   pageId: 154984
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\Silver Style Entertainment\\The Fall - Last Days of Gaia\\savegames}}"
@@ -237372,6 +237388,8 @@ The Occultist:
   lutris: the-occultist
   pageId: 196860
   steam: 2092840
+  steamSide:
+    - 2328850
 The Occupant:
   pageId: 89252
   steam: 717670

@@ -238949,6 +238949,9 @@ Eslander:
     Eslander: {}
   steam:
     id: 1069250
+"Esoteria: Techno-Assassin of the Future":
+  id:
+    lutris: esoteria-techno-assassin-of-the-future
 Esoteric Ebb:
   cloud:
     steam: true
@@ -281411,8 +281414,38 @@ Fungoids - Steam version:
   steam:
     id: 663480
 Funi Raccoon Game:
+  files:
+    "<base>/.local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/**/*.tres":
+      when:
+        - store: steam
+    "<base>/Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
+      when:
+        - store: steam
+    "<home>/.local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/.local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: funi-raccoon-game--1
+  installDir:
+    Funi Raccoon Game: {}
+  launch:
+    "<base>/Funi_Raccoon_Game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Funi_Raccoon_Game.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3599690
 Funk Unplugged:
@@ -323014,6 +323047,8 @@ Heaven Burns Red:
 Heaven Does Not Respond:
   id:
     lutris: heaven-does-not-respond
+    steamExtra:
+      - 4450750
   installDir:
     windows: {}
   launch:
@@ -347545,6 +347580,8 @@ I Am Gooey:
 I Am Jesus Christ:
   id:
     lutris: i-am-jesus-christ
+    steamExtra:
+      - 2007580
   steam:
     id: 1198970
 "I Am Jesus Christ: Prologue":
@@ -640226,6 +640263,8 @@ Sonic Robo Blast 2 Kart:
   id:
     lutris: sonic-robo-blast-2-kart
 Sonic Rumble:
+  alias: Sonic Rumble Party
+Sonic Rumble Party:
   files:
     "<base>/SonicRumble_Data/*.save":
       tags:
@@ -718321,6 +718360,8 @@ The Fall of the Dungeon Guardians:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-fall-last-days-of-gaia
 The Fallen Kingdom:
   installDir:
     The Fallen Kingdom: {}
@@ -734952,6 +734993,8 @@ The Occluder:
 The Occultist:
   id:
     lutris: the-occultist
+    steamExtra:
+      - 2328850
   steam:
     id: 2092840
 The Occupant:

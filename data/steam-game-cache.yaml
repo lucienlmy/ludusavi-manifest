@@ -641030,7 +641030,39 @@
         oslist: windows
       executable: BlingBling.exe
       type: default
-3599690: {}
+3599690:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+        pattern: "*.tres"
+        root: gameinstall
+      - path: ".local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves"
+        pattern: "*.tres"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+            replace: Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+        root: gameinstall
+        useInstead: WinAppDataRoaming
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+            replace: ".local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves"
+        root: gameinstall
+        useInstead: LinuxHome
+  installDir: Funi Raccoon Game
+  launch:
+    - config:
+        oslist: windows
+      executable: Funi_Raccoon_Game.exe
+    - config:
+        oslist: linux
+      executable: Funi_Raccoon_Game.x86_64
 3600690:
   cloud:
     saves:
