@@ -15854,6 +15854,8 @@ Abermore:
         - save
       when:
         - os: windows
+  id:
+    lutris: abermore
   installDir:
     Abermore: {}
   steam:
@@ -55761,6 +55763,9 @@ Atlas Reactor VR Character Viewer:
     Atlas Reactor VR Character Viewer: {}
   steam:
     id: 457230
+"Atlas' Fate: Between Light & Darkness":
+  id:
+    lutris: atlas-fate-between-light-and-darkness
 Atma:
   installDir:
     Atma: {}
@@ -490859,6 +490864,8 @@ Obey Me:
   steam:
     id: 781880
 Objects in Space:
+  cloud:
+    gog: true
   gog:
     id: 1538068873
   installDir:
@@ -498147,21 +498154,6 @@ OneShot:
     steamExtra:
       - 571210
       - 620370
-  installDir:
-    OneShot: {}
-  launch:
-    "<base>/Oneshot.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/steamshim":
-      - when:
-          - os: linux
-            store: steam
-    "<base>/steamshim.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 420530
 "Onechanbara Z2: Chaos":
@@ -619820,6 +619812,7 @@ Showgunners:
       - 2146674230
     steamExtra:
       - 2303680
+      - 2362290
       - 2362291
       - 2362292
       - 2362293
@@ -660574,14 +660567,16 @@ Starcats:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Wx3 Labs, LLC/Starcom Unknown Space/blueprints":
-      when:
-        - os: windows
-          store: steam
     "<home>/AppData/LocalLow/Wx3 Labs, LLC/Starcom Unknown Space/saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "HKCU/Software/Wx3 Labs, LLC/Starcom Unknown Space":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 2046486768
   id:
@@ -812743,10 +812738,12 @@ Warm Snow:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow/Save":
+    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   id:
     steamExtra:
       - 2147220
@@ -812760,6 +812757,10 @@ Warm Snow:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/BadMudStudio/WarmSnow:
+      tags:
+        - config
   steam:
     id: 1296830
 Warm Up!:

@@ -137405,39 +137405,7 @@
       type: option1
   nameLocalized:
     japanese: ロストテクノロジー
-420530:
-  cloud:
-    saves:
-      - path: Oneshot
-        pattern: "*.dat"
-        root: LinuxXdgDataHome
-    overrides:
-      - addPath: ""
-        os: Windows
-        osCompare: "="
-        root: LinuxXdgDataHome
-        useInstead: WinAppDataRoaming
-      - addPath: ""
-        os: MacOS
-        osCompare: "="
-        root: LinuxXdgDataHome
-        useInstead: MacAppSupport
-  installDir: OneShot
-  launch:
-    - config:
-        oslist: windows
-      executable: steamshim.exe
-      type: default
-    - config:
-        oslist: macos
-      executable: Oneshot.app
-      type: none
-    - config:
-        oslist: linux
-      executable: steamshim
-      type: default
-  nameLocalized:
-    sc_schinese: 一次机会
+420530: {}
 420550:
   installDir: SuperArcadeFootball
   launch:

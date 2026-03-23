@@ -4921,6 +4921,7 @@ Abel:
 Abenteuer Europa:
   pageId: 208183
 Abermore:
+  lutris: abermore
   pageId: 176682
   steam: 1569220
   templates:
@@ -17896,6 +17897,7 @@ Atlas Reactor VR Character Viewer:
   pageId: 43758
   steam: 457230
 "Atlas' Fate: Between Light & Darkness":
+  lutris: atlas-fate-between-light-and-darkness
   pageId: 208571
 Atma:
   pageId: 141045
@@ -96778,6 +96780,8 @@ Golem:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Longbow Digital Arts\\Golem\\Settings.xml|{{P|game}}\\controls.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Golem\\}}"
+Golem (2002):
+  pageId: 214891
 Golem Creation Kit:
   pageId: 63484
   steam: 650680
@@ -158859,9 +158863,16 @@ Obey Me:
   pageId: 80960
   steam: 781880
 Objects in Space:
+  cloud:
+    gog: true
   gog: 1538068873
   pageId: 94401
   steam: 824070
+  templates:
+    - "{{Game data/config|Windows|<GameDIR>/Objects in Space/ObjectsInSpace/objectsinspace.cfg}}"
+    - "{{Game data/config|Linux|<GameDIR>/Objects in Space/ObjectsInSpace/objectsinspace.cfg}}"
+    - "{{Game data/saves|Windows|<GameDIR>/ObjectsInSpace/saves/}}"
+    - "{{Game data/config|Linux|<GameDIR>/ObjectsInSpace/saves/}}"
 Obligation:
   cloud:
     steam: true
@@ -200503,6 +200514,7 @@ Showgunners:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1511366207
   gogSide:
     - 1088610808
@@ -200520,6 +200532,7 @@ Showgunners:
   steam: 1155330
   steamSide:
     - 2303680
+    - 2362290
     - 2362291
     - 2362292
     - 2362293
@@ -213606,6 +213619,9 @@ Starcats:
   lutris: starcom-unknown-space
   pageId: 197481
   steam: 1750770
+  templates:
+    - "{{Game data/config|Windows|HKCU\\Software\\Wx3 Labs, LLC\\Starcom Unknown Space}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Wx3 Labs, LLC\\Starcom Unknown Space\\saves}}"
 Starcross Arena:
   cloud:
     steam: true
@@ -263993,6 +264009,9 @@ Warm Snow:
     - 2612950
     - 2936000
     - 3103920
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\BadMudStudio\\WarmSnow\\|{{p|hkcu}}\\Software\\BadMudStudio\\WarmSnow\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BadMudStudio\\WarmSnow\\}}"
 Warm Up!:
   pageId: 22682
   templates:
