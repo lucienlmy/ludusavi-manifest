@@ -597755,6 +597755,14 @@
     schinese: 我委托了一些蜜蜂2
     spanish: Mi gran comisión de abejas 2
     swedish: Jag anlitade några bin 2
+2027330:
+  installDir: GoreBox
+  launch:
+    - executable: GoreBox.exe
+      type: default
+    - arguments: "-force-d3d11"
+      description: Force D3D11
+      executable: GoreBox.exe
 2027360:
   installDir: After the Inferno
   launch:

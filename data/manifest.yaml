@@ -302297,6 +302297,27 @@ Goreagulation:
           - store: steam
   steam:
     id: 4339870
+Gorebox:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/GoreBox":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    GoreBox: {}
+  launch:
+    "<base>/GoreBox.exe":
+      - when:
+          - store: steam
+      - arguments: "-force-d3d11"
+        when:
+          - store: steam
+  steam:
+    id: 2027330
 Gorescript:
   installDir:
     Gorescript: {}
@@ -779685,6 +779706,8 @@ Turbo Dismount 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: turbo-dismount-2
   installDir:
     TurboDismount2: {}
   launch:

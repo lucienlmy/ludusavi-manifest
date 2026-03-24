@@ -14438,6 +14438,8 @@ Arcane Trials:
 Arcane Worlds:
   pageId: 14715
   steam: 269610
+"Arcangel: The Legacy of Peace":
+  pageId: 214927
 "Arcania: Fall of Setarrif":
   gog: 1282519889
   lutris: arcania-fall-of-setarrif
@@ -97368,6 +97370,14 @@ Gordon Streaman:
 Goreagulation:
   pageId: 214792
   steam: 4339870
+Gorebox:
+  cloud:
+    steam: true
+  pageId: 214925
+  steam: 2027330
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\GoreBox\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\GoreBox\\}}"
 Gorescript:
   pageId: 61554
   steam: 618690
@@ -252780,6 +252790,7 @@ Turbo Dismount:
 Turbo Dismount 2:
   cloud:
     steam: true
+  lutris: turbo-dismount-2
   pageId: 210214
   steam: 2280350
   templates:
