@@ -79724,6 +79724,14 @@
       description: Launch
       executable: bin/Pilot Brothers.exe
       workingdir: bin
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: bin/launcher-x64.exe
+      type: option1
+      workingdir: bin
 336770:
   installDir: Pilot Brothers 2
   launch:
@@ -198473,7 +198481,7 @@
       workingdir: "ph\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: patch25-daily
+        betakey: "patch25-daily,patch26-daily,patch27-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -198506,17 +198514,8 @@
       description: "Launch DL2 [RD, NO POPUPS]"
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: patch24-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RD, NO POPUPS]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
-      workingdir: "ph\\work\\bin\\x64"
     - config:
-        betakey: patch24-daily
+        betakey: "patch25-daily,patch26-daily,patch27-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -198524,23 +198523,7 @@
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
     - config:
-        betakey: patch24-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RWP]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rwp.exe"
-      workingdir: "ph\\work\\bin\\x64"
-    - config:
-        betakey: patch25-daily
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RD]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
-      workingdir: "ph\\work\\bin\\x64"
-    - config:
-        betakey: patch25-daily
+        betakey: "patch25-daily,patch26-daily,patch27-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -641973,6 +641956,12 @@
       type: default
 3677050: {}
 3679080:
+  installDir: The Seven Deadly Sins Origin
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: start_protected_game.exe
   nameLocalized:
     english: "The Seven Deadly Sins: Origin"
     japanese: 七つの大罪：Origin
@@ -642161,6 +642150,13 @@
 3710840: {}
 3714430: {}
 3717070:
+  installDir: WWE 2K26
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: WWE2K26_x64.exe
+      type: default
   nameLocalized:
     japanese: 『WWE 2K26』
 3717330:

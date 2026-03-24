@@ -4944,7 +4944,9 @@ Abiotic Factor:
     - 3641780
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\AbioticFactor\\Saved\\Config\\Windows}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\AbioticFactor\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\AbioticFactor\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\PlayStack.AbioticFactor_3wcqaesafpzfy\\SystemAppData\\wgs}}"
 Abiotic Factor Dedicated Server:
   pageId: 208154
   steam: 2857200
@@ -106044,9 +106046,9 @@ Heretic II:
   lutris: heretic-ii
   pageId: 14843
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\user\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\user\\|{{P|userprofile}}\\Saved Games\\Heretic2R\\base{{note|note=When using [[#Heretic2R|Heretic2R]].}}}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.loki\\heretic2}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\user\\save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\user\\save\\|{{P|userprofile}}\\Saved Games\\Heretic2R\\base\\save{{note|note=When using [[#Heretic2R|Heretic2R]].}}}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.loki\\heretic2\\save\\}}"
 "Heretic Kingdoms: The Inquisition":
   gog: 1207660283
@@ -239440,6 +239442,7 @@ The Seven Deadly Seas:
 "The Seven Deadly Sins: Grand Cross":
   pageId: 202644
 "The Seven Deadly Sins: Origin":
+  lutris: the-seven-deadly-sins-origin
   pageId: 191255
   steam: 3679080
 "The Seven Districts of Sin: The Tail Makes the Fox - Episode 1":
@@ -252775,6 +252778,8 @@ Turbo Dismount:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Secret Exit Ltd.\\TurboDismount\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Secret Exit Ltd.\\TurboDismount\\}}"
 Turbo Dismount 2:
+  cloud:
+    steam: true
   pageId: 210214
   steam: 2280350
   templates:

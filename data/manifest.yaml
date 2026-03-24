@@ -15900,6 +15900,12 @@ Abiotic Factor:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/AbioticFactor/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/AbioticFactor/Saved/Config/Windows":
       tags:
         - config
@@ -15910,6 +15916,12 @@ Abiotic Factor:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/PlayStack.AbioticFactor_3wcqaesafpzfy/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     steamExtra:
       - 3018120
@@ -328429,6 +328441,16 @@ Heretic II:
         - save
       when:
         - os: linux
+    "<home>/Saved Games/Heretic2R/base":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/Heretic2R/base/save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: heretic-ii
 "Heretic Kingdoms: The Inquisition":
@@ -741285,6 +741307,16 @@ The Seven Deadly Seas:
   steam:
     id: 1021220
 "The Seven Deadly Sins: Origin":
+  id:
+    lutris: the-seven-deadly-sins-origin
+  installDir:
+    The Seven Deadly Sins Origin: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3679080
 "The Seven Districts of Sin: The Tail Makes the Fox - Episode 1":
@@ -779640,6 +779672,8 @@ Turbo Dismount:
   steam:
     id: 263760
 Turbo Dismount 2:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/TurboDismount2/config.ini":
       tags:
@@ -806688,6 +806722,14 @@ WWE 2K25:
 WWE 2K26:
   cloud:
     steam: true
+  installDir:
+    WWE 2K26: {}
+  launch:
+    "<base>/WWE2K26_x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3717070
 WWF in Your House:
