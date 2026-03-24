@@ -637099,7 +637099,7 @@
       type: option1
     - arguments: "-package -object_streaming"
       config:
-        betakey: "marketing_1, latest_release, devqa_compare_a, devqa_compare_b, pss_qa_1_release, pss_qa_2_release, mock_review, kjp_test, agerating, ut_build, milestone_beta, amd_1, intel_1, nvidia_1, devqa_compat , devqa_compat2 , latest_dev, latest_qa, smoketest_qa, milestone_fp, pss_qa_1,pss_qa_2 ,pss_qa_compat, volumetrics_before, volumetrics_after, lead_investigation"
+        betakey: "marketing_1, devqa_compare_a, devqa_compare_b, mock_review, kjp_test, agerating, ut_build, milestone_beta, amd_1, intel_1, nvidia_1, devqa_compat , devqa_compat2 , latest_dev, latest_qa, smoketest_qa, milestone_fp, pss_qa_1,pss_qa_2 ,pss_qa_compat, volumetrics_before, volumetrics_after, lead_investigation"
         osarch: "64"
         oslist: windows
         ownsdlc: "3854260"
@@ -637537,6 +637537,7 @@
     czech: The Sims™ Tradiční kolekce
     danish: The Sims™ Legacy Collection
     dutch: De Sims™ Legacy Collectie
+    english: The Sims™ Legacy Collection
     finnish: The Sims™ Legacy Collection
     french: Les Sims™ Collection héritage
     german: Die Sims™ Legacy Collection
@@ -637551,7 +637552,7 @@
     schinese: 《The Sims™》经典合集
     spanish: Los Sims™ Colección Legado
     swedish: The Sims™ Legacy Collection
-    tchinese: 《模擬市民™》經典典藏版
+    tchinese: 模擬市民™經典典藏版
     thai: The Sims™ Legacy Collection
     turkish: The Sims™ Legacy Collection
     ukrainian: The Sims™ Legacy Collection
@@ -637578,7 +637579,7 @@
     schinese: 《The Sims™ 2》经典合集
     spanish: Los Sims™ 2 Colección Legado
     swedish: The Sims™ 2 Legacy Collection
-    tchinese: 《模擬市民™ 2》經典典藏版
+    tchinese: 模擬市民™ 2 經典典藏版
     thai: The Sims™ 2 Legacy Collection
     turkish: The Sims™ 2 Legacy Collection
     ukrainian: The Sims™ 2 Legacy Collection
