@@ -34280,6 +34280,9 @@ Bunny Sudoku:
     steam: true
   pageId: 152837
   steam: 1193460
+BunnyBarTalk:
+  pageId: 214934
+  steam: 3891360
 Bunnyrama:
   cloud:
     steam: true
@@ -72034,6 +72037,7 @@ Easy Come Easy Golf:
     - Clap Hanz Golf
 Easy Delivery Co.:
   cloud:
+    gog: true
     steam: true
   pageId: 208544
   steam: 3293010
@@ -122505,6 +122509,9 @@ KiKiMiMi2:
 Kiai Resonance:
   pageId: 48116
   steam: 360450
+"Kiana & Biscuit: Pirates on a Visit!":
+  pageId: 214933
+  steam: 3306040
 Kiborg:
   cloud:
     steam: true
@@ -156369,8 +156376,9 @@ Ninja Gaiden 4:
   steam: 2627260
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\NINJAGAIDEN4\\}}"
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\NINJAGAIDEN4_Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\NINJAGAIDEN4\\}}"
-    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.toro*\\SystemAppData\\wgs\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.TOROretail_8wekyb3d8bbwe\\SystemAppData\\wgs\\}}"
 "Ninja Gaiden II: The Dark Sword of Chaos":
   pageId: 176111
 Ninja Gaiden Σ:
@@ -157038,6 +157046,9 @@ No Vacation for an Executioner:
   lutris: no-vacation-for-an-executioner
   pageId: 210501
   steam: 2949120
+  steamSide:
+    - 3150270
+    - 4529180
 No Way Home:
   pageId: 155181
 No Way Out:

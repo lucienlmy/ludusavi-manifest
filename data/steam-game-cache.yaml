@@ -621474,7 +621474,7 @@
       executable: FlightSimulator2024.exe
       type: default
     - config:
-        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt"
+        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt, dichotomie_test_01, prezsyl"
         osarch: "64"
         oslist: windows
       description: Launch MSFS 2024 Dev Build
@@ -631458,7 +631458,8 @@
         oslist: windows
       executable: The House of Da Vinci VR.exe
       type: vr
-2949120: {}
+2949120:
+  state: outdated
 2949240:
   installDir: Homeworld Vast Reaches
   launch:
@@ -637390,6 +637391,7 @@
     schinese: 湮灭之潮
     tchinese: 湮滅之潮
 3293010:
+  state: outdated
   cloud:
     saves:
       - path: "SamC\\EasyDeliveryCo"
@@ -637483,6 +637485,8 @@
         oslist: linux
       executable: katana_dragon.x86_64
       type: default
+3306040:
+  state: outdated
 3306480: {}
 3308800:
   installDir: fugu
@@ -637808,6 +637812,7 @@
       executable: MyProject3.exe
       type: default
 3321460:
+  state: outdated
   cloud:
     saves:
       - path: "Pearl Abyss/CD/save/{Steam3AccountID}"
@@ -643205,6 +643210,8 @@
       executable: GirlsFrontLine.exe
       type: default
 3888420: {}
+3891360:
+  state: outdated
 3891510:
   cloud:
     saves:

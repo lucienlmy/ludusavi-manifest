@@ -106401,6 +106401,9 @@ Bunny Sudoku:
             store: steam
   steam:
     id: 1193460
+BunnyBarTalk:
+  steam:
+    id: 3891360
 Bunnyrama:
   cloud:
     steam: true
@@ -224152,6 +224155,7 @@ Eastwood VR:
     id: 612250
 Easy Delivery Co.:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/SamC/EasyDeliveryCo":
@@ -379863,6 +379867,9 @@ Kiai Resonance:
             store: steam
   steam:
     id: 360450
+"Kiana & Biscuit: Pirates on a Visit!":
+  steam:
+    id: 3306040
 Kiborg:
   cloud:
     steam: true
@@ -483294,7 +483301,13 @@ Ninja Gaiden 4:
         - save
       when:
         - os: windows
-    "<winLocalAppData>/Packages/Microsoft.toro*/SystemAppData/wgs":
+    "<winLocalAppData>/NINJAGAIDEN4_Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/Microsoft.TOROretail_8wekyb3d8bbwe/SystemAppData/wgs":
       tags:
         - save
       when:
@@ -485295,6 +485308,9 @@ No Umbrellas Allowed:
 No Vacation for an Executioner:
   id:
     lutris: no-vacation-for-an-executioner
+    steamExtra:
+      - 3150270
+      - 4529180
   steam:
     id: 2949120
 No Way Out:
