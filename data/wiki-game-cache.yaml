@@ -14118,6 +14118,7 @@ Aragami:
   gogSide:
     - 1951981053
     - 2098341143
+  lutris: aragami
   pageId: 39225
   steam: 280160
   steamSide:
@@ -14136,6 +14137,7 @@ Aragami 2:
     steam: true
     xbox: true
   gog: 1772522891
+  lutris: aragami-2
   pageId: 169179
   steam: 1158370
   templates:
@@ -90116,6 +90118,7 @@ Frontline Zed:
 "Frontlines: Fuel of War":
   cloud:
     steam: true
+  lutris: frontlines-fuel-of-war
   pageId: 4497
   steam: 9460
   templates:
@@ -111003,6 +111006,9 @@ Human-powered Spacecraft:
   steam: 687280
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\DarkPolygon\\HumanKind\\}}"
+HumanitZ:
+  malformed: true
+  pageId: 214770
 Humanity:
   cloud:
     steam: true
@@ -143254,6 +143260,11 @@ Microsoft Bingo:
   cloud:
     xbox: true
   pageId: 166507
+Microsoft Bubble:
+  pageId: 214939
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Microsoft Studios\\Microsoft Bubble}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Microsoft Studios\\Microsoft Bubble\\saveSafeEditor\\{{P|uid}}}}"
 Microsoft Classic Board Games:
   pageId: 174825
 "Microsoft Combat Flight Simulator 2: WW II Pacific Theater":
@@ -163614,7 +163625,7 @@ Outward:
   steamSide:
     - 983420
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\OptionSettings.oos|{{p|game}}\\Outward_Defed\\OptionSettings.oos}}"
+    - "{{Game data/config|Windows|{{p|game}}\\OptionSettings.oos|{{p|game}}\\Player0_Keymappings.xml|{{p|game}}\\Outward_Defed\\OptionSettings.oos|{{p|game}}\\Outward_Defed\\Player0_Keymappings.xml}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\|{{p|game}}\\Outward_Defed\\SaveGames\\}}"
 Outward 2:
   gog: 2015047607
@@ -167338,6 +167349,9 @@ Payday 3:
   steam: 1272080
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\PAYDAY3\\Saved\\Config\\WindowsClient\\GameUserSettings.ini|{{P|localappdata}}\\PAYDAY3\\Saved\\Config\\WindowsClient\\Input.ini}}"
+"Payday: Aces High":
+  pageId: 214936
+  steam: 3456660
 "Payday: The Heist":
   cloud:
     steam: true
@@ -169881,6 +169895,8 @@ Pirate Survival Fantasy Shooter:
   steam: 359370
 "Pirate's Path":
   pageId: 179310
+Pirate101:
+  pageId: 214937
 Pirates Are BLANKing Awesome:
   pageId: 135582
   steam: 1058730
@@ -169927,6 +169943,7 @@ Pirates of the Asteroid Belt VR:
   pageId: 132867
   steam: 1016980
 Pirates of the Caribbean:
+  lutris: pirates-of-the-caribbean
   pageId: 169581
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\engine.ini|{{p|game}}\\options}}"
@@ -221300,6 +221317,8 @@ Surf World Series:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\System\\SurfsUpDX9.ini }}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Surf's Up\\}}"
+Surface Tension:
+  pageId: 214941
 "Surface: Alone in the Mist":
   pageId: 88658
   steam: 815550

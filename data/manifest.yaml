@@ -44420,6 +44420,7 @@ Aragami:
     gogExtra:
       - 1951981053
       - 2098341143
+    lutris: aragami
     steamExtra:
       - 462390
       - 462391
@@ -44474,6 +44475,8 @@ Aragami 2:
           store: gog
   gog:
     id: 1772522891
+  id:
+    lutris: aragami-2
   installDir:
     Aragami 2: {}
   launch:
@@ -106402,6 +106405,13 @@ Bunny Sudoku:
   steam:
     id: 1193460
 BunnyBarTalk:
+  installDir:
+    BunnyBarTalk: {}
+  launch:
+    "<base>/BannyBarTalk.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3891360
 Bunnyrama:
@@ -279724,6 +279734,8 @@ Frontline Zed:
         - save
       when:
         - os: windows
+  id:
+    lutris: frontlines-fuel-of-war
   installDir:
     Frontlines Fuel of War: {}
   launch:
@@ -379868,6 +379880,13 @@ Kiai Resonance:
   steam:
     id: 360450
 "Kiana & Biscuit: Pirates on a Visit!":
+  installDir:
+    Kiana & Biscuit - Pirates on a visit!: {}
+  launch:
+    "<base>/K&B Wrapper/Kiana & Biscuit - Pirates on a visit!.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3306040
 Kiborg:
@@ -443503,6 +443522,17 @@ Microscope Madness:
 Microsoft Adventure:
   id:
     lutris: microsoft-adventure
+Microsoft Bubble:
+  files:
+    "<home>/AppData/LocalLow/Microsoft Studios/Microsoft Bubble/saveSafeEditor/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Microsoft Studios/Microsoft Bubble:
+      tags:
+        - config
 "Microsoft Combat Flight Simulator 3: Battle for Europe":
   files:
     "<base>/Microsoft Games/CFS3/game.xml":
@@ -485311,6 +485341,13 @@ No Vacation for an Executioner:
     steamExtra:
       - 3150270
       - 4529180
+  installDir:
+    NoVacationForAnExecutioner: {}
+  launch:
+    "<base>/NoVacationForAnExecutioner.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2949120
 No Way Out:
@@ -505583,9 +505620,19 @@ Outward:
         - config
       when:
         - os: windows
+    "<base>/Outward_Defed/Player0_Keymappings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Outward_Defed/SaveGames":
       tags:
         - save
+      when:
+        - os: windows
+    "<base>/Player0_Keymappings.xml":
+      tags:
+        - config
       when:
         - os: windows
     "<base>/SaveGames":
@@ -516479,6 +516526,9 @@ Payday 3:
     PAYDAY3: {}
   steam:
     id: 1272080
+"Payday: Aces High":
+  steam:
+    id: 3456660
 "Payday: The Heist":
   cloud:
     steam: true
@@ -524350,6 +524400,8 @@ Pirates of the Caribbean:
         - config
       when:
         - os: windows
+  id:
+    lutris: pirates-of-the-caribbean
 Pirates of the Caribbean Online:
   id:
     lutris: pirates-of-the-caribbean-online

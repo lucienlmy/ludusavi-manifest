@@ -556845,6 +556845,7 @@
       executable: LAPIN.exe
       type: default
   nameLocalized:
+    japanese: LAPIN(ラパン)
     koreana: 라핀
 1454640:
   cloud:
@@ -631459,7 +631460,12 @@
       executable: The House of Da Vinci VR.exe
       type: vr
 2949120:
-  state: outdated
+  installDir: NoVacationForAnExecutioner
+  launch:
+    - config:
+        oslist: windows
+      executable: NoVacationForAnExecutioner.exe
+      type: default
 2949240:
   installDir: Homeworld Vast Reaches
   launch:
@@ -637391,7 +637397,6 @@
     schinese: 湮灭之潮
     tchinese: 湮滅之潮
 3293010:
-  state: outdated
   cloud:
     saves:
       - path: "SamC\\EasyDeliveryCo"
@@ -637486,7 +637491,13 @@
       executable: katana_dragon.x86_64
       type: default
 3306040:
-  state: outdated
+  installDir: Kiana & Biscuit - Pirates on a visit!
+  launch:
+    - config:
+        oslist: windows
+      description: Play Kiana & Biscuit
+      executable: "K&B Wrapper\\Kiana & Biscuit - Pirates on a visit!.exe"
+      type: default
 3306480: {}
 3308800:
   installDir: fugu
@@ -637812,7 +637823,6 @@
       executable: MyProject3.exe
       type: default
 3321460:
-  state: outdated
   cloud:
     saves:
       - path: "Pearl Abyss/CD/save/{Steam3AccountID}"
@@ -639455,6 +639465,7 @@
   launch:
     - executable: mk_legacy_kollection.exe
       type: default
+3456660: {}
 3456930:
   cloud:
     saves:
@@ -643211,7 +643222,11 @@
       type: default
 3888420: {}
 3891360:
-  state: outdated
+  installDir: BunnyBarTalk
+  launch:
+    - config:
+        oslist: windows
+      executable: BannyBarTalk.exe
 3891510:
   cloud:
     saves:
