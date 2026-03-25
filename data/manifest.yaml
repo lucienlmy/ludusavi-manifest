@@ -707270,6 +707270,13 @@ The Arab Republic of Taghia:
             store: steam
   steam:
     id: 796590
+The Arcade:
+  files:
+    "<base>/Saves/Ivolgamus.sav":
+      tags:
+        - save
+      when:
+        - os: windows
 "The Archer: Dead Hunt":
   installDir:
     THE ARCHER Dead Hunt: {}

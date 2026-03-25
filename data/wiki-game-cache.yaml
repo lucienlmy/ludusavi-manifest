@@ -65933,6 +65933,8 @@ Down in Bermuda:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Yak & Co\\Down in Bermuda\\}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\SOFTWARE\\Yak & Co\\Down in Bermuda\\}}"
+Down in the Dumps:
+  pageId: 214945
 Down to Hell:
   pageId: 122826
   steam: 961040
@@ -155571,6 +155573,9 @@ Nicktoons Racing:
     - "{{Game data/config|Windows|{{p|game}}\\NickToonsRacing.cfg}}"
 Nicktoons Winners Cup Racing:
   pageId: 167663
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\ogre.cfg<br>{{p|game}}\\nickoptions.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\nickscores.cfg<br>{{p|game}}\\nickstats.cfg}}"
 Nicky - The Home Alone Golf Ball:
   pageId: 90999
   steam: 829370
@@ -156141,6 +156146,8 @@ Nightwalk:
 "Nightwolf: Survive the Megadome":
   pageId: 81516
   steam: 760050
+Nihilist:
+  pageId: 214943
 Nihilist Simulator:
   pageId: 72801
   steam: 576410
@@ -228301,6 +228308,8 @@ The Arab Republic of Taghia:
   steam: 796590
 The Arcade:
   pageId: 211642
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\Ivolgamus.sav}}"
 "The Archer: Dead Hunt":
   pageId: 81681
   steam: 791430
