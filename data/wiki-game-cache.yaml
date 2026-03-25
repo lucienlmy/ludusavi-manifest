@@ -40537,6 +40537,7 @@ Chicken Invaders 3:
 Chicken Invaders 4:
   cloud:
     steam: true
+  lutris: chicken-invaders-4
   pageId: 37199
   steam: 301300
   steamSide:
@@ -40545,8 +40546,12 @@ Chicken Invaders 4:
     - 370402
   templates:
     - "{{Game data/config|Windows|{{p|ProgramData}}\\InterAction studios\\CI4\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/InterAction studios/CI4/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.IAdata/InterAction studios/CI4}}"
     - "{{Game data/saves|Windows|{{p|ProgramData}}\\InterAction studios\\CI4\\}}"
-    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\301300\\remote\\steamcloud\\CI4\\4.20steam\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/InterAction studios/CI4/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.IAdata/InterAction studios/CI4}}"
+    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\301300\\remote\\steamcloud\\CI4\\*steam\\}}"
 Chicken Invaders 5:
   cloud:
     steam: true
@@ -47305,6 +47310,8 @@ Cookie Cutter:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SubcultJoint\\CookieCutter\\Save\\}}"
 "Cookie's Bustle":
   pageId: 201345
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\cb1data1.rdk|{{p|game}}\\cb1data2.rdk|{{p|game}}\\cb1data3.rdk}}"
 Cookies vs. Claus:
   pageId: 77045
   steam: 752910

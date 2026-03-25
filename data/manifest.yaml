@@ -126278,7 +126278,19 @@ Chicken Invaders 4:
   cloud:
     steam: true
   files:
-    "<root>/userdata/<storeUserId>/301300/remote/steamcloud/CI4/4.20steam":
+    "<home>/.IAdata/InterAction studios/CI4":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/InterAction studios/CI4":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<root>/userdata/<storeUserId>/301300/remote/steamcloud/CI4/*steam":
       tags:
         - save
       when:
@@ -126290,6 +126302,7 @@ Chicken Invaders 4:
       when:
         - os: windows
   id:
+    lutris: chicken-invaders-4
     steamExtra:
       - 370400
       - 370401
@@ -147934,6 +147947,23 @@ Cookie Cutter:
           - store: steam
   steam:
     id: 1924430
+"Cookie's Bustle":
+  files:
+    "<base>/cb1data1.rdk":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/cb1data2.rdk":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/cb1data3.rdk":
+      tags:
+        - save
+      when:
+        - os: windows
 Cookies vs. Claus:
   installDir:
     CookiesvsClaus: {}
