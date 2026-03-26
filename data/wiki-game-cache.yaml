@@ -106486,6 +106486,10 @@ Heroes Of Avranche:
 "Heroes Of Maidan 3: Crimean Battle":
   pageId: 155634
   steam: 1179790
+Heroes Over Europe:
+  lutris: heroes-over-europe
+  pageId: 214963
+  steam: 33260
 "Heroes Rise: HeroFall":
   cloud:
     steam: true
@@ -233369,6 +233373,8 @@ The Hero of Kendrickstone:
     steam: true
   pageId: 48469
   steam: 356000
+The Heroes of the 357th:
+  pageId: 214959
 The Heroic Legend of Eagarlnia:
   pageId: 164546
   renamedFrom:

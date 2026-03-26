@@ -8168,6 +8168,10 @@
       executable: "Assassin's Creed 2.app"
   nameLocalized:
     schinese: 刺客信条2
+33260:
+  installDir: Heroes Over Europe
+  launch:
+    - executable: heroes2.exe
 33270:
   installDir: Cloudy with a Chance of Meatballs
   launch:
@@ -628888,7 +628892,16 @@
 2814860:
   nameLocalized:
     koreana: "빈딕투스: 디파잉 페이트"
-2814990: {}
+2814990:
+  cloud:
+    saves:
+      - path: Screamer/Saved/SaveGames/
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Screamer
+  launch:
+    - executable: screamer.exe
 2815060:
   cloud:
     saves:

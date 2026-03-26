@@ -329891,6 +329891,17 @@ Heroes Of Avranche:
             store: steam
   steam:
     id: 1179790
+Heroes Over Europe:
+  id:
+    lutris: heroes-over-europe
+  installDir:
+    Heroes Over Europe: {}
+  launch:
+    "<base>/heroes2.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 33260
 "Heroes Rise: HeroFall":
   cloud:
     steam: true
@@ -603978,8 +603989,18 @@ Screamer (2026):
   cloud:
     epic: true
     steam: true
+  files:
+    "<winLocalAppData>/Screamer/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: screamer--1
+  installDir:
+    Screamer: {}
+  launch:
+    "<base>/screamer.exe":
+      - when:
+          - store: steam
   steam:
     id: 2814990
 Screamer 2:
