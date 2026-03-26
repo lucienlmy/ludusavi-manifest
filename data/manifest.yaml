@@ -44424,6 +44424,8 @@ Aragami:
     steamExtra:
       - 462390
       - 462391
+      - 564400
+      - 771720
   installDir:
     Aragami: {}
   launch:
@@ -44477,6 +44479,9 @@ Aragami 2:
     id: 1772522891
   id:
     lutris: aragami-2
+    steamExtra:
+      - 1797200
+      - 1797210
   installDir:
     Aragami 2: {}
   launch:
@@ -339896,6 +339901,11 @@ Horizon Zero Dawn Remastered:
         - save
       when:
         - os: windows
+    "<winDocuments>/Horizon Zero Dawn Remastered/<storeUserId>/profile.dat":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Horizon Zero Dawn Remastered: {}
   launch:
@@ -339904,6 +339914,10 @@ Horizon Zero Dawn Remastered:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Guerrilla Games/Horizon Zero Dawn Remastered:
+      tags:
+        - config
   steam:
     id: 2561580
 Horizon of History:
@@ -344807,7 +344821,7 @@ Hunt the Thailand Hidden:
     Hunt Showdown 1896: {}
   launch:
     "<base>/hunt.exe":
-      - arguments: +online_account_client_settings live +online_websvc_skip_tls_cert_validation 1
+      - arguments: +online_account_client_settings live
         when:
           - bit: 64
             os: windows

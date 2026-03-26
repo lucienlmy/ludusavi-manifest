@@ -230967,7 +230967,7 @@
 594650:
   installDir: Hunt Showdown 1896
   launch:
-    - arguments: +online_account_client_settings live +online_websvc_skip_tls_cert_validation 1
+    - arguments: +online_account_client_settings live
       config:
         osarch: "64"
         oslist: windows

@@ -14124,6 +14124,8 @@ Aragami:
   steamSide:
     - 462390
     - 462391
+    - 564400
+    - 771720
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Lince Works\\Aragami\\settings.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Lince Works/Aragami/settings.cfg}}"
@@ -14140,6 +14142,9 @@ Aragami 2:
   lutris: aragami-2
   pageId: 169179
   steam: 1158370
+  steamSide:
+    - 1797200
+    - 1797210
   templates:
     - "{{Game data/saves|GOG.com|{{P|localappdata}}\\gameid\\storage\\shared\\Files\\Aragami2.lin\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\34421DavidLen.Aragami2_ad789ek20a95w\\SystemAppData\\wgs\\}}"
@@ -109644,6 +109649,7 @@ Horizon Zero Dawn Remastered:
   pageId: 198246
   steam: 2561580
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\Horizon Zero Dawn Remastered\\{{p|uid}}\\profile.dat|{{p|hkcu}}\\Software\\Guerrilla Games\\Horizon Zero Dawn Remastered\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Horizon Zero Dawn Remastered\\{{p|uid}}\\*.dat}}"
 Horizon of History:
   pageId: 53389
@@ -128192,6 +128198,7 @@ Legacy:
 "Legacy of Kain: Ascendance":
   cloud:
     steam: true
+    xbox: true
   gog: 1911062444
   lutris: legacy-of-kain-ascendance
   pageId: 213709
@@ -128219,6 +128226,7 @@ Legacy:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1818228492
   gogSide:
     - 1216415583
