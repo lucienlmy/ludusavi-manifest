@@ -619590,6 +619590,8 @@
   launch:
     - executable: game.exe
       type: none
+  nameLocalized:
+    japanese: ロジアート グリモワール
 2492730:
   cloud:
     saves:
