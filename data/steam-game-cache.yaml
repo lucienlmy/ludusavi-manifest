@@ -529372,6 +529372,7 @@
         oslist: windows
       executable: "bin\\win_x64\\GameLauncher.exe"
       type: default
+1215940: {}
 1215960:
   installDir: P-BOT
   launch:
@@ -599063,6 +599064,7 @@
       executable: "DOSBox\\dosbox.exe"
       type: option1
       workingdir: "DOSBox\\Configuration"
+2067210: {}
 2067350:
   cloud:
     saves:
@@ -603873,6 +603875,7 @@
       executable: SingurInCeasulMortii.exe
       type: default
 2141130: {}
+2141160: {}
 2141520:
   cloud:
     saves:
@@ -609549,7 +609552,10 @@
     russian: The Killing Antidote
     schinese: 致命解药
     tchinese: 致命解藥
-2254950: {}
+2254950:
+  nameLocalized:
+    schinese: 戈德曼的永生
+    tchinese: 戈德曼的永生
 2255370:
   nameLocalized:
     schinese: 8020号指令
@@ -623518,7 +623524,46 @@
   launch:
     - executable: 420BLAZEIT2.exe
       type: default
-2624870: {}
+2624870:
+  cloud:
+    saves:
+      - path: "My Games\\LifeisStrangeReunion\\Steam\\Saved"
+        pattern: "*.sav"
+        root: WinMyDocuments
+  installDir: LifeisStrangeReunion
+  launch:
+    - arguments: "-ExecCmds=DISABLEALLSCREENMESSAGES"
+      description: "Life is Strange: Reunion"
+      executable: LifeIsStrangeReunion.exe
+      type: option1
+    - config:
+        betakey: "d9qa,d9qa2,d9staging,d9dev"
+      description: Dev Build
+      executable: Iris.exe
+      type: option1
+    - arguments: "-ExecCmds=D9.ShowBuildReview"
+      config:
+        betakey: "d9qa,d9qa2,d9staging,d9dev,se_qa1,se_qa2,se_localisation,se_localisers_alt,se_qa_ms,se_locqa1,se_locqa2,se_hands_on_test"
+      description: Dev Build - Review mode
+      executable: Iris.exe
+      type: option1
+    - config:
+        betakey: "d9qa,d9qa2,d9dev,d9staging,se_qa1,se_qa2,se_localisation,se_localisers_alt,se_qa_ms,se_locqa1,se_locqa2, se_ageratings,se_hands_on_test"
+      description: Test Build
+      executable: Iris-Win64-Test.exe
+      type: option1
+    - arguments: "-ExecCmds=D9.ShowBuildReview"
+      config:
+        betakey: "d9qa,d9qa2,d9dev,d9staging,se_qa1,se_qa2,se_localisation,se_localisers_alt,se_qa_ms,se_locqa1,se_locqa2,se_hands_on_test"
+      description: Test Build - Review Mode
+      executable: Iris-Win64-Test.exe
+      type: option1
+    - arguments: "-ExecCmds=DISABLEALLSCREENMESSAGES -ExecCmds=\"D9.ShowLocErrors 0\" -ExecCmds=\"Iris.ShowPreviouslyOn 0\""
+      config:
+        betakey: "d9qa,d9qa2,d9dev,se_usertest,se_usertest_preview"
+      description: User Test
+      executable: Iris-Win64-Test.exe
+      type: option1
 2626910:
   installDir: Lotnicy
   launch:
@@ -631746,6 +631791,7 @@
   installDir: Fears to Fathom - Woodbury Getaway
   launch:
     - executable: Fears to Fathom - Woodbury Getaway.exe
+2962320: {}
 2962620:
   installDir: Sift Heads Legendary Pack
   launch:
@@ -634080,6 +634126,7 @@
       type: default
   nameLocalized:
     english: Reimu Needs Help!? Aunn-chan to the Rescue!
+3064040: {}
 3064060:
   installDir: Super Chipflake Ü Quest for the uncooked Schnitzel
   launch:
@@ -635044,6 +635091,7 @@
     koreana: 노움들
     schinese: 矮人防线
     tchinese: 矮人防線
+3133670: {}
 3134780:
   cloud:
     saves:
@@ -640624,11 +640672,24 @@
     ukrainian: Гламурний бунт
     vietnamese: Cuoc Noi Loan Hao Nhoang
 3557460:
+  cloud:
+    saves:
+      - path: "DamonAndBaby/Saved/SaveGames/{Steam3AccountID}"
+        pattern: SLO*.sav
+        recursive: true
+        root: WinAppDataLocal
+      - path: "DamonAndBaby/Saved/SaveGames/{Steam3AccountID}"
+        pattern: SYS*.sav
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Damon and Baby
+  launch:
+    - executable: DamonAndBaby.exe
   nameLocalized:
     japanese: DAMON and BABY (デイモン&ベイビー)
     koreana: 데이먼 앤 베이비
-    schinese: 惡魔寶貝
-    tchinese: 恶魔宝贝
+    schinese: 恶魔宝贝
+    tchinese: 惡魔寶貝
 3557620:
   installDir: BlueArchive
   launch:
@@ -642293,7 +642354,9 @@
     - config:
         oslist: windows
       executable: MyLittleCoffeeNightmare.exe
-3727390: {}
+3727390:
+  nameLocalized:
+    schinese: 苍穹浩瀚：奥西里斯重生
 3730310:
   nameLocalized:
     schinese: 绯花绽放
@@ -644314,6 +644377,7 @@
 4395400: {}
 4395410: {}
 4414560: {}
+4434610: {}
 4460170:
   cloud:
     saves:
@@ -644338,4 +644402,5 @@
       type: default
 4484200: {}
 4491360: {}
+4514310: {}
 3221903386: {}

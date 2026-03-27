@@ -9502,6 +9502,12 @@ Alien Creatures:
 Alien Crusader:
   pageId: 88013
   steam: 786370
+Alien Deathstorm:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 214969
+  steam: 2141160
 Alien Disco Safari:
   pageId: 167627
 Alien Earth:
@@ -15864,6 +15870,11 @@ Artificial Defense:
   steam: 443420
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\onemangames\\Artificial Defense\\savegame.dat}}"
+Artificial Detective:
+  cloud:
+    steam: true
+  pageId: 214979
+  steam: 2962320
 Artificial Extinction:
   pageId: 151038
   steam: 1167320
@@ -29959,6 +29970,11 @@ Blues and Bullets:
 Blueshift:
   pageId: 55490
   steam: 565030
+"Bluey's Happy Snaps":
+  cloud:
+    steam: true
+  pageId: 214975
+  steam: 3064040
 "Bluey: The Videogame":
   cloud:
     xbox: true
@@ -42278,7 +42294,8 @@ Cities XL:
   steamSide:
     - 35500
   templates:
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Monte Cristo\\Cities XL\\live\\<profile>}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Monte Cristo\\Cities XL\\live\\{{P|uid}}\\player1.cxl}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Monte Cristo\\Cities XL\\live\\{{P|uid}}\\solo\\}}"
 Cities XL 2011:
   pageId: 6177
   steam: 58510
@@ -87879,6 +87896,10 @@ Foretales:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Alkemi\\Foretales\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1170080\\remote\\release_game-state }}"
+Forever Ago:
+  lutris: forever-ago
+  pageId: 214971
+  steam: 1215940
 Forever Home:
   cloud:
     steam: true
@@ -103657,6 +103678,8 @@ Haven Park:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BubbleStudio\\HavenPark\\game.save}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/BubbleStudio/HavenPark/game.save}}"
 Havendock:
+  cloud:
+    steam: true
   gog: 1237961766
   gogSide:
     - 2002335854
@@ -106490,6 +106513,8 @@ Heroes Over Europe:
   lutris: heroes-over-europe
   pageId: 214963
   steam: 33260
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\GraphicsSettings.ini}}"
 "Heroes Rise: HeroFall":
   cloud:
     steam: true
@@ -111398,6 +111423,16 @@ Hunter of Antiques:
   lutris: hunter-the-reckoning-a-time-of-monsters
   pageId: 213381
   steam: 3970660
+"Hunter: The Reckoning - Day for Night":
+  cloud:
+    steam: true
+  pageId: 214967
+  steam: 3133670
+"Hunter: The Reckoning - Deathwish":
+  cloud:
+    xbox: true
+  pageId: 214965
+  steam: 4434610
 "Hunter: The Reckoning - The Beast of Glenkildove":
   cloud:
     steam: true
@@ -147915,6 +147950,9 @@ Moorhuhn schlägt zurück:
   pageId: 196691
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\highscores.txt}}"
+"Moosa: Dirty Fate":
+  pageId: 214981
+  steam: 4514310
 Moose Antipoo Adventure:
   pageId: 149488
   renamedFrom:
@@ -197370,6 +197408,9 @@ Serious Sam Fusion 2017:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Devolver Digital\\Serious Sam: Kamikaze Attack!\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Devolver Digital\\Serious Sam: Kamikaze Attack!\\}}"
+"Serious Sam: Shatterverse":
+  pageId: 214977
+  steam: 2067210
 "Serious Sam: Siberian Mayhem":
   cloud:
     gog: true

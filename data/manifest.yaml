@@ -30076,6 +30076,11 @@ Alien Crusader:
             store: steam
   steam:
     id: 786370
+Alien Deathstorm:
+  cloud:
+    steam: true
+  steam:
+    id: 2141160
 Alien Earth:
   gog:
     id: 1133833550
@@ -49679,6 +49684,11 @@ Artificial Defense:
             store: steam
   steam:
     id: 443420
+Artificial Detective:
+  cloud:
+    steam: true
+  steam:
+    id: 2962320
 Artificial Extinction:
   installDir:
     Artificial Extinction: {}
@@ -92662,6 +92672,11 @@ Blueshift:
     "Brian's High Velocity Research Center": {}
   steam:
     id: 565030
+"Bluey's Happy Snaps":
+  cloud:
+    steam: true
+  steam:
+    id: 3064040
 "Bluey: The Videogame":
   installDir:
     Biscuits: {}
@@ -132109,6 +132124,17 @@ Citalis:
   steam:
     id: 539440
 Cities XL:
+  files:
+    "<winLocalAppData>/Monte Cristo/Cities XL/live/<storeUserId>/player1.cxl":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Monte Cristo/Cities XL/live/<storeUserId>/solo":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 35500
@@ -167808,6 +167834,19 @@ Damned Nation Reborn:
   steam:
     id: 345710
 Damon and Baby:
+  files:
+    "<winLocalAppData>/DamonAndBaby/Saved/SaveGames/<storeUserId>/**/SLO*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/DamonAndBaby/Saved/SaveGames/<storeUserId>/**/SYS*.sav":
+      when:
+        - store: steam
+  installDir:
+    Damon and Baby: {}
+  launch:
+    "<base>/DamonAndBaby.exe":
+      - when:
+          - store: steam
   steam:
     id: 3557460
 Damsel:
@@ -272386,6 +272425,11 @@ Foretales:
             store: steam
   steam:
     id: 1170080
+Forever Ago:
+  id:
+    lutris: forever-ago
+  steam:
+    id: 1215940
 Forever Home:
   cloud:
     steam: true
@@ -321201,6 +321245,8 @@ Haven Park:
   steam:
     id: 1549550
 Havendock:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/YYZProductions/Havendock/**/*.hvd":
       when:
@@ -329892,6 +329938,12 @@ Heroes Of Avranche:
   steam:
     id: 1179790
 Heroes Over Europe:
+  files:
+    "<base>/GraphicsSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: heroes-over-europe
   installDir:
@@ -345178,6 +345230,14 @@ Hunter of Antiques:
             store: steam
   steam:
     id: 3970660
+"Hunter: The Reckoning - Day for Night":
+  cloud:
+    steam: true
+  steam:
+    id: 3133670
+"Hunter: The Reckoning - Deathwish":
+  steam:
+    id: 4434610
 "Hunter: The Reckoning - The Beast of Glenkildove":
   cloud:
     steam: true
@@ -403563,12 +403623,18 @@ Life Is Strange Remastered:
 "Life Is Strange: Reunion":
   cloud:
     steam: true
+  files:
+    "<winDocuments>/My Games/LifeisStrangeReunion/Steam/Saved/*.sav":
+      when:
+        - store: steam
   id:
     lutris: life-is-strange-reunion
     steamExtra:
       - 3977730
       - 3977740
       - 4340990
+  installDir:
+    LifeisStrangeReunion: {}
   steam:
     id: 2624870
 "Life Is Strange: True Colors":
@@ -457555,6 +457621,9 @@ Moorhuhn schlägt zurück:
         - save
       when:
         - os: windows
+"Moosa: Dirty Fate":
+  steam:
+    id: 4514310
 Moose Antipoo Adventure:
   steam:
     id: 1156890
@@ -610031,6 +610100,9 @@ Serious Sam Fusion 2017:
         - save
   steam:
     id: 1623420
+"Serious Sam: Shatterverse":
+  steam:
+    id: 2067210
 "Serious Sam: Siberian Mayhem":
   cloud:
     gog: true
