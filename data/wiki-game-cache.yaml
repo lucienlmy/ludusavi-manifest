@@ -89807,6 +89807,9 @@ Frog Hop:
 Frog Out!:
   pageId: 110086
   steam: 921720
+Frog Sqwad:
+  pageId: 214983
+  steam: 3989960
 Frog Struggles:
   pageId: 155365
   renamedFrom:
@@ -240102,6 +240105,7 @@ The Skyland Chronicles:
   pageId: 201328
   steam: 2622460
 The Slater:
+  lutris: the-slater
   pageId: 100462
   steam: 881690
   templates:

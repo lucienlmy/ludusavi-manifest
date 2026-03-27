@@ -278828,6 +278828,9 @@ Frog Out!:
             store: steam
   steam:
     id: 921720
+Frog Sqwad:
+  steam:
+    id: 3989960
 Frog Struggles:
   installDir:
     Sokpop S03 Frog struggles: {}
@@ -437044,6 +437047,14 @@ Mega Man Maker:
       when:
         - os: windows
 Mega Man Star Force Legacy Collection:
+  installDir:
+    MegaMan StarForce LegacyCollection: {}
+  launch:
+    "<base>/MEGAMAN_STARFORCE_Legacy_Collection.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3500390
 Mega Man X:
@@ -743011,6 +743022,8 @@ The Skyland Chronicles:
   steam:
     id: 2622460
 The Slater:
+  id:
+    lutris: the-slater
   installDir:
     The Slater: {}
   launch:

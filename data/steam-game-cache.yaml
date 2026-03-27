@@ -632548,15 +632548,16 @@
       type: default
       workingdir: "ph_ft\\work\\bin\\x64"
     - config:
-        betakey: dev-daily
+        betakey: "dev-daily,patch05-daily,patch06-daily"
         osarch: "64"
         oslist: windows
+        ownsdlc: "3061860"
       description: "Launch [RD]"
       executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rd.exe"
       workingdir: "ph_ft\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: "dev-daily,third-party,patch05-daily,patch05-hotfix"
+        betakey: "dev-daily,third-party,patch05-daily,patch05-hotfix,patch06-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "3061860"
@@ -632565,7 +632566,7 @@
       workingdir: "ph_ft\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: "dev-daily,patch05-daily,patch05-hotfix"
+        betakey: "dev-daily,patch05-daily,patch05-hotfix,patch06-daily"
         osarch: "64"
         oslist: windows
       description: "Launch [RWP][NOPOPUPS]"
@@ -632573,7 +632574,7 @@
       workingdir: "ph_ft\\work\\bin\\x64"
     - arguments: " -nopopups -dumptelemetry"
       config:
-        betakey: internal-playtests
+        betakey: "internal-playtests,internal-playtests-encounters,internal-playtests-coop-roadkill"
         osarch: "64"
         oslist: windows
         ownsdlc: "3061860"
@@ -632581,7 +632582,7 @@
       executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
       workingdir: "ph_ft\\work\\bin\\x64"
   nameLocalized:
-    schinese: 消逝的光芒：困兽
+    schinese: 《消逝的光芒：困兽》失地复苏版
 3008300:
   cloud:
     saves:
@@ -639974,6 +639975,13 @@
     russian: Другой мир
 3499790: {}
 3500390:
+  installDir: MegaMan StarForce LegacyCollection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MEGAMAN_STARFORCE_Legacy_Collection.exe
+      type: default
   nameLocalized:
     japanese: 流星のロックマン パーフェクトコレクション
     koreana: ROCKMAN STAR FORCE PERFECT COLLECTION(유성의 록맨 퍼펙트 컬렉션)
@@ -643742,6 +643750,7 @@
         oslist: windows
       executable: Death in a Party.exe
       type: default
+3989960: {}
 3990360: {}
 3994690:
   installDir: Skateboard_Game
