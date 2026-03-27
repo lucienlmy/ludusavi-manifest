@@ -94542,9 +94542,15 @@ Bongo Cat:
         - os: windows
   id:
     lutris: bongo-cat
+    steamExtra:
+      - 3487310
   installDir:
     BongoCat: {}
   launch:
+    "<base>/BongoCat.app/Contents/MacOS/BongoCat":
+      - when:
+          - os: mac
+            store: steam
     "<base>/BongoCat.exe":
       - when:
           - os: windows
@@ -156776,7 +156782,7 @@ Crongdor the Barbarian:
   installDir:
     Cronos. The New Dawn: {}
   launch:
-    "<base>/Cronos.app":
+    "<base>/Cronos-Mac-Shipping.app":
       - when:
           - os: mac
             store: steam
@@ -239066,6 +239072,7 @@ Esoteric Ebb:
     lutris: esoteric-ebb
     steamExtra:
       - 2128090
+      - 2310250
       - 4338380
       - 4438390
   installDir:
@@ -321249,6 +321256,7 @@ Haven Park:
     id: 1549550
 Havendock:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/YYZProductions/Havendock/**/*.hvd":
@@ -373548,6 +373556,9 @@ Jumper Tree:
             store: steam
   steam:
     id: 688150
+"Jumpgate: The Reconstruction Initiative":
+  id:
+    lutris: jumpgate-the-reconstruction-initiative
 Jumphobia Classic:
   installDir:
     Jumphobia Classic: {}
@@ -431195,6 +431206,17 @@ Marvel Heroes:
 Marvel Maximum Collection:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/MARVEL MaXimum Collection":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Pulled Pork: {}
+  launch:
+    "<base>/Marvel.exe":
+      - when:
+          - store: steam
   steam:
     id: 3931060
 Marvel Puzzle Quest:
@@ -476265,6 +476287,8 @@ Neo Cab:
         - save
       when:
         - os: mac
+  gog:
+    id: 1669531175
   installDir:
     Neo Cab: {}
   launch:
@@ -488569,6 +488593,35 @@ Nova Nukers!:
   steam:
     id: 445000
 Nova Roma:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/LionShield/Nova Roma/Saves":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/LionShield/Nova Roma/Saves":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/LionShield/Nova Roma/Saves":
+      when:
+        - os: linux
+          store: steam
+  gog:
+    id: 1113541187
+  installDir:
+    Nova Roma: {}
+  launch:
+    "<base>/Nova Roma.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/NovaRoma.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2426530
 Nova Strike:
@@ -493433,10 +493486,18 @@ Off-Road Drive:
   installDir:
     Off-Road Drive: {}
   launch:
-    "<base>/Binaries/Win32/ORD.exe":
+    "<base>/Binaries/Win32/launcher-ia32.exe":
       - when:
-          - store: steam
+          - bit: 32
+            os: windows
+            store: steam
         workingDir: "<base>/Binaries/Win32"
+    "<base>/Binaries/Win32/launcher-x64.exe":
+      - arguments: "Binaries\\Win32"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 200230
 "Off-Road Paradise: Trial 4x4":
@@ -572268,6 +572329,12 @@ Retro Rewind:
         - save
       when:
         - os: windows
+  id:
+    lutris: retro-rewind-video-store-simulator
+    steamExtra:
+      - 3858700
+      - 3858710
+      - 4453100
   installDir:
     RetroRewind: {}
   launch:
@@ -598426,6 +598493,8 @@ Samsara Room:
 Samson:
   id:
     lutris: samson
+    steamExtra:
+      - 4540060
   steam:
     id: 3634520
 Samudai:
@@ -690599,7 +690668,7 @@ System Shock 2 Enhanced Edition:
   installDir:
     System Shock 2 Remastered: {}
   launch:
-    "<base>/hathor_Shipping_PlayFab_Steam_x64.exe":
+    "<base>/SystemShock2Remastered.exe":
       - when:
           - os: windows
             store: steam
@@ -764681,6 +764750,7 @@ Tormented Souls:
 Tormented Souls 2:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<base>/TormentedSouls2/Config/DefaultGameUserSettings.ini":
@@ -764701,6 +764771,11 @@ Tormented Souls 2:
   gog:
     id: 1154651073
   id:
+    gogExtra:
+      - 1155626192
+      - 1585294677
+      - 1767315834
+    lutris: tormented-souls-2
     steamExtra:
       - 3908350
       - 4084230
@@ -778218,6 +778293,15 @@ Truck Racer:
           - store: steam
   steam:
     id: 256070
+"Truck World: Australia":
+  cloud:
+    steam: true
+  id:
+    lutris: truck-world-australia
+    steamExtra:
+      - 3456500
+  steam:
+    id: 1327040
 Truck the System:
   installDir:
     Truck the System: {}
@@ -825334,9 +825418,6 @@ Wings of Prey:
     Wings of Prey: {}
   launch:
     "<base>/launcher.exe":
-      - when:
-          - store: steam
-    "<base>/setup.exe":
       - when:
           - store: steam
   steam:

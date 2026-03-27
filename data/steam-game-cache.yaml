@@ -10602,8 +10602,6 @@
   launch:
     - description: Launch
       executable: launcher.exe
-    - description: Launch
-      executable: setup.exe
 45400:
   installDir: Fortix
   launch:
@@ -15598,8 +15596,18 @@
         root: WinMyDocuments
   installDir: Off-Road Drive
   launch:
-    - executable: "Binaries\\Win32\\ORD.exe"
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: "Binaries\\Win32\\launcher-ia32.exe"
+      type: default
       workingdir: "Binaries\\Win32"
+    - arguments: "Binaries\\Win32"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: "Binaries\\Win32\\launcher-x64.exe"
+      type: default
 200260:
   installDir: Batman Arkham City GOTY
   launch:
@@ -371574,13 +371582,13 @@
   launch:
     - config:
         oslist: windows
-      executable: hathor_Shipping_PlayFab_Steam_x64.exe
+      executable: SystemShock2Remastered.exe
       type: default
     - config:
-        betakey: quantic
+        betakey: "helpers,quantic"
         oslist: windows
       description: a developer build
-      executable: hathor_Develop_PlayFab_Steam_x64.exe
+      executable: hathor_Shipping_PlayFab_Steam_x64.exe
       type: option1
 866700:
   installDir: Echoes of the Past Wolf Healer
@@ -543917,6 +543925,7 @@
         oslist: windows
       executable: SonsOfTheForest.exe
       type: none
+1327040: {}
 1327080:
   installDir: Tower and Sword Succubus
   launch:
@@ -601892,7 +601901,7 @@
     - config:
         oslist: macos
       description: Launch
-      executable: Cronos.app
+      executable: Cronos-Mac-Shipping.app
       type: default
     - config:
         betakey: pre_stable_edge
@@ -601918,6 +601927,19 @@
       executable: "Cronos\\Binaries\\Win64\\Cronos.exe"
       type: option1
       workingdir: "Cronos\\Binaries\\Win64"
+    - arguments: "-forcemetalsm6"
+      config:
+        betakey: bleeding_edge
+        oslist: macos
+      description: Force Metal SM6
+      executable: Cronos.app/Contents/MacOS/Cronos
+      type: option2
+      workingdir: Cronos.app/Contents/MacOS/
+    - config:
+        betakey: staging
+        oslist: macos
+      executable: Cronos-Mac-Shipping.app
+      type: default
     - config:
         betakey: personal_1
         osarch: "64"
@@ -616158,6 +616180,33 @@
       executable: nw.exe
       type: default
 2426530:
+  cloud:
+    saves:
+      - path: LionShield/Nova Roma/Saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Nova Roma
+  launch:
+    - config:
+        oslist: windows
+      executable: NovaRoma.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Nova Roma.app
+      type: default
   nameLocalized:
     japanese: "Nova Roma ノヴァ・ローマ  "
     koreana: "Nova Roma 노바 로마  "
@@ -639206,6 +639255,9 @@
     - config:
         oslist: windows
       executable: BongoCat.exe
+    - config:
+        oslist: macos
+      executable: BongoCat.app/Contents/MacOS/BongoCat
 3419520:
   cloud:
     saves:
@@ -643545,7 +643597,19 @@
         oslist: windows
       executable: system/SplinterCell2.exe
       type: default
-3931060: {}
+3931060:
+  cloud:
+    saves:
+      - path: Limited Run Games/MARVEL MaXimum Collection/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Pulled Pork
+  launch:
+    - executable: Marvel.exe
+      type: default
 3932120: {}
 3932890:
   installDir: Escape from Tarkov

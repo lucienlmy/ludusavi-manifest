@@ -30552,6 +30552,8 @@ Bongo Cat:
   lutris: bongo-cat
   pageId: 203495
   steam: 3419430
+  steamSide:
+    - 3487310
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Irox Games\\BongoCat\\}}"
 Bonkies:
@@ -76715,6 +76717,7 @@ Esoteric Ebb:
   steam: 2057760
   steamSide:
     - 2128090
+    - 2310250
     - 4338380
     - 4438390
 España 1936:
@@ -103682,6 +103685,7 @@ Haven Park:
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/BubbleStudio/HavenPark/game.save}}"
 Havendock:
   cloud:
+    epic: true
     steam: true
   gog: 1237961766
   gogSide:
@@ -120477,6 +120481,7 @@ Jumper Tree:
   pageId: 69320
   steam: 688150
 "Jumpgate: The Reconstruction Initiative":
+  lutris: jumpgate-the-reconstruction-initiative
   pageId: 210172
 Jumphobia Classic:
   pageId: 70068
@@ -154051,6 +154056,7 @@ Neo Atlas 1469:
 Neo Cab:
   cloud:
     steam: true
+  gog: 1669531175
   pageId: 97285
   steam: 794540
   templates:
@@ -158198,6 +158204,12 @@ Nova Nukers!:
   pageId: 68216
   steam: 445000
 Nova Roma:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+    xbox: true
+  gog: 1113541187
   pageId: 214061
   steam: 2426530
 Nova Strike:
@@ -185243,8 +185255,13 @@ Retro Racing City:
 Retro Rewind:
   cloud:
     steam: true
+  lutris: retro-rewind-video-store-simulator
   pageId: 214779
   steam: 3552140
+  steamSide:
+    - 3858700
+    - 3858710
+    - 4453100
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\RetroRewind\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\RetroRewind\\Saved\\SaveGames}}"
@@ -193720,6 +193737,8 @@ Samson:
   lutris: samson
   pageId: 211707
   steam: 3634520
+  steamSide:
+    - 4540060
 Samudai:
   pageId: 48751
   steam: 342740
@@ -247175,8 +247194,14 @@ Tormented Souls:
 Tormented Souls 2:
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1154651073
+  gogSide:
+    - 1155626192
+    - 1585294677
+    - 1767315834
+  lutris: tormented-souls-2
   pageId: 190874
   steam: 2464280
   steamSide:
@@ -252360,6 +252385,14 @@ Truck Racer:
   steam: 256070
 Truck Racing by Renault Trucks:
   pageId: 161849
+"Truck World: Australia":
+  cloud:
+    steam: true
+  lutris: truck-world-australia
+  pageId: 214990
+  steam: 1327040
+  steamSide:
+    - 3456500
 Truck the System:
   pageId: 139294
   steam: 1081200
