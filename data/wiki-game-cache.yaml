@@ -251013,6 +251013,9 @@ Treasure Island (2009):
   lutris: disneys-treasure-planet-battle-at-procyon
   pageId: 48617
   steam: 331970
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\UserProfiles\\{{p|uid}}.pft}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SavedGames}}"
 Treasure Stack:
   pageId: 124082
   steam: 784130

@@ -774217,9 +774217,15 @@ Treasure Island (2009):
     steam: true
   files:
     "<base>/SavedGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<base>/UserProfiles/<storeUserId>.pft":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: disneys-treasure-planet-battle-at-procyon
   installDir:
