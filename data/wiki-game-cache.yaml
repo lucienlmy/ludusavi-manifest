@@ -77167,6 +77167,10 @@ Etherlords II:
 Etrange Overlord:
   cloud:
     steam: true
+  gog: 2099602827
+  gogSide:
+    - 1121571587
+    - 1689724625
   lutris: etrange-overlord
   pageId: 214463
   steam: 3515480
@@ -116022,6 +116026,7 @@ Ino:
   pageId: 136767
   steam: 1073370
 Inquisition:
+  lutris: inquisition
   pageId: 198945
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Datas\\Saves\\}}"
@@ -141011,6 +141016,8 @@ Meet.Hunter:
   steam: 731680
 Mega Babies:
   pageId: 200737
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\InitConfig.cfg}}"
 Mega Balls:
   pageId: 153005
   steam: 1185500
@@ -175888,6 +175895,12 @@ Project Snowblind:
 Project SolarBot:
   pageId: 144721
   steam: 1144690
+Project Songbird:
+  lutris: project-songbird
+  pageId: 215001
+  steam: 3180410
+  steamSide:
+    - 3437660
 Project Spark:
   pageId: 181612
   templates:
@@ -182317,6 +182330,8 @@ Realms of the Haunting:
 Realmstone:
   pageId: 139339
   steam: 841580
+Realmz:
+  pageId: 214999
 Realpolitiks:
   cloud:
     gog: true

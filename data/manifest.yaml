@@ -240475,8 +240475,21 @@ Etrange Overlord:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2099602827
   id:
+    gogExtra:
+      - 1121571587
+      - 1689724625
     lutris: etrange-overlord
+  installDir:
+    Etrange Overlord: {}
+  launch:
+    "<base>/EtrangeOverlord.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3515480
 Etrian Odyssey HD:
@@ -359625,6 +359638,8 @@ Inquisition:
         - save
       when:
         - os: windows
+  id:
+    lutris: inquisition
 Inquisitor:
   cloud:
     gog: true
@@ -436872,6 +436887,13 @@ Meet.Hunter:
             store: steam
   steam:
     id: 731680
+Mega Babies:
+  files:
+    "<base>/InitConfig.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Mega Balls:
   installDir:
     Mega Balls: {}
@@ -543144,6 +543166,21 @@ Project SolarBot:
             store: steam
   steam:
     id: 1144690
+Project Songbird:
+  id:
+    lutris: project-songbird
+    steamExtra:
+      - 3437660
+  installDir:
+    Project Songbird: {}
+  launch:
+    "<base>/Project Songbird.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3180410
 Project Spark:
   files:
     "<winLocalAppData>/Packages/Microsoft.Dakota_8wekyb3d8bbwe":

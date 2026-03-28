@@ -635836,6 +635836,13 @@
         oslist: windows
       executable: tetris_forever.exe
       type: default
+3180410:
+  installDir: Project Songbird
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Project Songbird.exe
 3181160:
   installDir: LateEmergency
   launch:
@@ -640211,6 +640218,12 @@
         oslist: windows
       executable: Wuthering Waves.exe
 3515480:
+  installDir: Etrange Overlord
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: EtrangeOverlord.exe
   nameLocalized:
     english: Etrange Overlord
     french: Etrange Overlord
