@@ -45297,6 +45297,9 @@ Coloring Pixels:
     - 4022560
     - 4060920
     - 4162220
+    - 4247600
+    - 4347630
+    - 4449560
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\ToastieLabs\\ColoringPixels\\}}"
     - "{{Game data/config|Linux|{{P|linuxhome}}/.config/unity3d/ToastieLabs/ColoringPixels}}"
@@ -106022,6 +106025,8 @@ HerWam:
   steam: 870650
 "Hera: The Sword of Rhin":
   pageId: 176757
+"Heracles: Battle with the Gods":
+  pageId: 215011
 Herakles and the Princess of Troy:
   cloud:
     steam: true
