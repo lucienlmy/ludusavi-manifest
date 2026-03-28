@@ -81165,6 +81165,7 @@ Fallout:
 Fallout 2:
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1440166436
   gogSide:
@@ -141106,8 +141107,16 @@ Mega Man Maker:
     - "{{Game data/config|Windows|{{p|localappdata}}\\MegaMaker\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\MegaMaker\\Levels\\}}"
 Mega Man Star Force Legacy Collection:
+  cloud:
+    steam: true
   pageId: 208278
   steam: 3500390
+  steamSide:
+    - 4059840
+    - 4059860
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3500390\\remote\\win64_save\\data001Slot.bin}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3500390\\remote\\win64_save}}"
 Mega Man X:
   lutris: mega-man-x
   pageId: 73402
@@ -162791,6 +162800,9 @@ Ortus Regni:
   gog: 2133998459
   pageId: 165640
   steam: 1398100
+  templates:
+    - "{{Game data/config|Windows|Computer\\HKEY_USERS\\<User SID>\\Software\\Nerial\\Animal Farm}}"
+    - "{{Game data/saves|Windows|\\Users\\%username%\\AppData\\LocalLow\\Nerial\\Animal Farm}}"
 "Orwell: Ignorance is Strength":
   cloud:
     origin: true
@@ -172279,6 +172291,8 @@ Poker Night at the Inventory (2026):
     steam: true
   pageId: 213476
   steam: 3897800
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Skunkape Games\\Poker Night at the Inventory Remastered\\persistent.prop|{{p|userprofile\\Documents}}\\Skunkape Games\\Poker Night at the Inventory Remastered\\*.bundle}}"
 "Poker Pretty Girls Battle: Texas Hold'em":
   pageId: 45956
   steam: 407720
@@ -200435,6 +200449,14 @@ Shooty Fruity:
 Shooty Mine:
   pageId: 155703
   steam: 1167930
+Shooty Shooty Robot Invasion:
+  pageId: 215013
+  steam: 3763820
+  steamSide:
+    - 3763820
+  templates:
+    - "{{Game data/config|Windows|{{p|steamlibrary}}\\ShootyShooty\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/config|Windows|{{p|steamlibrary}}\\ShootyShooty\\Saved\\SaveGames}}"
 Shooty Skies:
   cloud:
     steam: true
@@ -220025,9 +220047,17 @@ Super Meat Boy:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Super Meat Boy}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SuperMeatBoy/}}"
 Super Meat Boy 3D:
+  cloud:
+    steam: true
+    xbox: true
   gog: 1270057484
+  gogSide:
+    - 1149713962
+  lutris: super-meat-boy-3d
   pageId: 205515
   steam: 3288210
+  steamSide:
+    - 4196240
 Super Meat Boy Forever:
   cloud:
     epic: true

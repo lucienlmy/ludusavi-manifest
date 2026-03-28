@@ -252011,6 +252011,7 @@ Fallout:
 Fallout 2:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<base>/data/SAVEGAME":
@@ -437106,6 +437107,25 @@ Mega Man Maker:
       when:
         - os: windows
 Mega Man Star Force Legacy Collection:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3500390/remote/win64_save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<root>/userdata/<storeUserId>/3500390/remote/win64_save/data001Slot.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4059840
+      - 4059860
   installDir:
     MegaMan StarForce LegacyCollection: {}
   launch:
@@ -502843,6 +502863,12 @@ Orwell:
 "Orwell's Animal Farm":
   cloud:
     gog: true
+  files:
+    /Users/%username%/AppData/LocalLow/Nerial/Animal Farm:
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 2133998459
   installDir:
@@ -531622,13 +531648,15 @@ Poker Night at the Inventory (2026):
     steam: true
   files:
     "<winDocuments>/Skunkape Games/Poker Night at the Inventory Remastered/*.bundle":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winDocuments>/Skunkape Games/Poker Night at the Inventory Remastered/prefs.prop":
+    "<winDocuments>/Skunkape Games/Poker Night at the Inventory Remastered/persistent.prop":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Poker Night at the Inventory Remastered: {}
   launch:
@@ -619296,6 +619324,16 @@ Shooty Mine:
             store: steam
   steam:
     id: 1167930
+Shooty Shooty Robot Invasion:
+  installDir:
+    Shooty Shooty Robot Invasion: {}
+  launch:
+    "<base>/ShootyShooty.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3763820
 Shooty Skies:
   cloud:
     steam: true
@@ -680910,8 +680948,16 @@ Super Meat Boy:
   steam:
     id: 40800
 Super Meat Boy 3D:
+  cloud:
+    steam: true
   gog:
     id: 1270057484
+  id:
+    gogExtra:
+      - 1149713962
+    lutris: super-meat-boy-3d
+    steamExtra:
+      - 4196240
   steam:
     id: 3288210
 Super Meat Boy Forever:
