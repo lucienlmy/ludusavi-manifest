@@ -119126,6 +119126,11 @@ Cat Notebook:
             store: steam
   steam:
     id: 1003490
+Cat Parents:
+  cloud:
+    steam: true
+  steam:
+    id: 4328440
 "Cat President: A More Purrfect Union":
   files:
     "<base>/renpy/config.py":
@@ -403653,9 +403658,16 @@ Life Is Strange Remastered:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/LifeisStrangeReunion/Steam/Saved/*.sav":
+    /Documents/My Games/LifeisStrangeReunion/Steam/Saved:
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    /Iris/Saved_Steam_/Config/Windows:
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: life-is-strange-reunion
     steamExtra:
@@ -519033,13 +519045,13 @@ Perimeter:
   installDir:
     PERIMETER Legate Edition: {}
   launch:
-    "<base>/perimeter":
-      - when:
-          - os: linux
-            store: steam
     "<base>/perimeter.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/perimeter.sh":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 2530170

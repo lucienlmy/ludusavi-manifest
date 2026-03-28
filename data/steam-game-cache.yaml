@@ -621219,7 +621219,7 @@
       executable: perimeter.exe
     - config:
         oslist: linux
-      executable: perimeter
+      executable: perimeter.sh
 2530490:
   cloud:
     saves:
@@ -644345,6 +644345,7 @@
     schinese: 一盏秋声：锦衣卫
     tchinese: 一盞秋聲：錦衣衛
 4317460: {}
+4328440: {}
 4339870:
   installDir: Goreagulation
   launch:

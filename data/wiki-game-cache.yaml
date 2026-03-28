@@ -29790,6 +29790,8 @@ Blue Heat:
 Blue Horizon:
   pageId: 63034
   steam: 589740
+Blue Ice:
+  pageId: 215003
 Blue Lemon:
   pageId: 151531
   steam: 1181490
@@ -38381,6 +38383,11 @@ Cat Named Mojave:
 Cat Notebook:
   pageId: 126215
   steam: 1003490
+Cat Parents:
+  cloud:
+    steam: true
+  pageId: 215008
+  steam: 4328440
 "Cat President: A More Purrfect Union":
   pageId: 36886
   steam: 474980
@@ -44245,6 +44252,8 @@ Cocoon:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\GeometricInteractive\\Cocoon\\{{p|uid}}\\UniverseProgressSave.far}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\AnnapurnaInteractive.UniverseProject_c96c51jf6wkvm\\SystemAppData\\wgs\\{{p|uid}}\\[ID]\\<ref>{{Refcheck|user=Martan|date=2024-01-27|comment={{store feature|Xbox Game Pass}} version}}</ref>}}"
     - "{{Game data/saves|Steam|%USERPROFILE%\\AppData\\LocalLow\\GeometricInteractive\\Cocoon}}"
+Cocoto Kart Racer:
+  pageId: 215005
 Code 18:
   pageId: 199582
 Code 7:
@@ -72074,6 +72083,7 @@ Easy Delivery Co.:
   cloud:
     gog: true
     steam: true
+    xbox: true
   pageId: 208544
   steam: 3293010
   templates:
@@ -130361,6 +130371,9 @@ Life Is Strange Remastered:
     - 3977730
     - 3977740
     - 4340990
+  templates:
+    - "{{Game data/config| Windows | [[Glossary:Game_data#User_application_data|%LOCALAPPDATA%]]\\Iris\\Saved_Steam_[[Glossary:Game_data#User_ID|<user-id>]]\\Config\\Windows\\ | }}"
+    - "{{Game data/saves| Windows | [[Glossary:Game_data#User_profile|%USERPROFILE%]]\\Documents\\My Games\\LifeisStrangeReunion\\Steam\\Saved | }}"
 "Life Is Strange: True Colors":
   cloud:
     steam: true
