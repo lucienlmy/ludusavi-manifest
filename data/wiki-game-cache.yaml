@@ -33087,11 +33087,12 @@ Broken Roads:
     - 1099436583
     - 1625422154
     - 1720697362
+  lutris: broken-roads
   pageId: 189734
   steam: 1403440
   steamSide:
     - 2632430
-    - 2898400
+    - 2898440
 Broken Spell:
   pageId: 149346
   steam: 1149370
@@ -55598,8 +55599,11 @@ Darkstone:
 Darkwater:
   cloud:
     steam: true
+  lutris: darkwater
   pageId: 210101
   steam: 619540
+  steamSide:
+    - 4407720
 "Darkwind: War on Wheels":
   pageId: 49731
   steam: 295710
@@ -65019,7 +65023,7 @@ Don Bradman Cricket 17:
   steam: 322330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\client.ini|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client.ini}}"
-    - "{{Game data/config|OS X|{{p|machome}}/Documents/Klei/DoNotStarveTogether/{{p|uid}}}/client.ini}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Documents/Klei/DoNotStarveTogether/{{p|uid}}/client.ini}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.klei/DoNotStarveTogether/client.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\{{p|uid}}\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\client_save\\|{{p|userprofile\\Documents}}\\Klei\\DoNotStarveTogether\\save\\}}"
     - "{{Game data/saves|OS X|{{p|machome}}/Documents/Klei/DoNotStarveTogether/{{p|uid}}/|{{p|machome}}/Documents/Klei/DoNotStarveTogether/backup/}}"
@@ -70172,8 +70176,8 @@ Dusk:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\dusk.ini}}"
     - "{{Game data/config|Linux|{{p|game}}/config}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\saves}}"
-    - "{{Game data/saves|Linux|{{p|game}}/saves}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\config\\scores|{{p|game}}\\saves\\|{{p|game}}\\saveimages\\}}"
+    - "{{Game data/saves|Linux|{{p|game}}/config/scores|{{p|game}}/saves\\|{{p|game}}/saveimages\\}}"
 "Dusk '82":
   cloud:
     steam: true
@@ -111701,6 +111705,7 @@ Hydroneer:
 "Hydrophobia: Prophecy":
   cloud:
     steam: true
+  lutris: hydrophobia-prophecy
   pageId: 11926
   steam: 92000
   templates:

@@ -102720,9 +102720,10 @@ Broken Roads:
       - 1099436583
       - 1625422154
       - 1720697362
+    lutris: broken-roads
     steamExtra:
       - 2632430
-      - 2898400
+      - 2898440
   installDir:
     Broken Roads: {}
   launch:
@@ -172960,6 +172961,10 @@ Darkwater:
     "<home>/AppData/LocalLow/Targon Studios/Darkwater/*.clip":
       when:
         - store: steam
+  id:
+    lutris: darkwater
+    steamExtra:
+      - 4407720
   installDir:
     Darkwater: {}
   launch:
@@ -218794,6 +218799,18 @@ Dusk:
         - config
       when:
         - os: windows
+    "<base>/config/scores":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<base>/saveimages":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
     "<base>/saves":
       tags:
         - save
@@ -345963,6 +345980,8 @@ Hydroneer:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: hydrophobia-prophecy
   installDir:
     Hydrophobia: {}
   launch:
