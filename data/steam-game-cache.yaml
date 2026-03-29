@@ -644174,6 +644174,7 @@
         oslist: linux
       executable: ZATO.sh
       type: default
+4127530: {}
 4128260:
   installDir: Highguard
   launch:

@@ -92677,6 +92677,9 @@ Blueshift:
     steam: true
   steam:
     id: 3064040
+"Bluey's Quest for the Gold Pen":
+  steam:
+    id: 4127530
 "Bluey: The Videogame":
   installDir:
     Biscuits: {}
@@ -136761,6 +136764,7 @@ Close to the Sun:
   id:
     gogExtra:
       - 1458880556
+    lutris: close-to-the-sun
   installDir:
     Close to the Sun: {}
   launch:
@@ -325241,6 +325245,10 @@ HellMaze:
   steam:
     id: 1218090
 HellSign:
+  cloud:
+    steam: true
+  id:
+    lutris: hellsign
   installDir:
     HellSign: {}
   launch:
@@ -481932,6 +481940,8 @@ NightCry:
         - save
       when:
         - os: windows
+  id:
+    lutris: nightcry
   installDir:
     NightCry: {}
   launch:

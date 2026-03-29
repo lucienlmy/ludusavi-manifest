@@ -29977,6 +29977,9 @@ Blueshift:
     steam: true
   pageId: 214975
   steam: 3064040
+"Bluey's Quest for the Gold Pen":
+  pageId: 215044
+  steam: 4127530
 "Bluey: The Videogame":
   cloud:
     xbox: true
@@ -43788,6 +43791,7 @@ Close to the Sun:
   gog: 1785804341
   gogSide:
     - 1458880556
+  lutris: close-to-the-sun
   pageId: 134198
   steam: 968870
   templates:
@@ -104976,6 +104980,9 @@ HellMaze:
   pageId: 156349
   steam: 1218090
 HellSign:
+  cloud:
+    steam: true
+  lutris: hellsign
   pageId: 59695
   steam: 606500
 HellStar Squadron:
@@ -155980,6 +155987,7 @@ Night-Runners Prologue:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\PLANET JEM SOFTWARE\\NIGHT-RUNNERS PROLOGUE}}"
 NightCry:
+  lutris: nightcry
   pageId: 31987
   steam: 427660
   templates:
