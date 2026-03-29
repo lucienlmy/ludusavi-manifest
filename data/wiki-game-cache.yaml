@@ -18449,6 +18449,9 @@ Aurum Kings:
     - 850420
 Auryn Quest:
   pageId: 213099
+  templates:
+    - "{{Game data/config|Windows|{{registry|{{p|HKEY_CURRENT_USER}}\\Software\\Discreet Monsters\\GamePlayer}}|{{registry|{{p|HKEY_CURRENT_USER}}\\Software\\Discreet-Monsters\\GamePlayer}}}}"
+    - "{{Game data/saves|Windows|{{p|Game}}\\savegame.aqs}}"
 Aussie Battler Tanks:
   pageId: 132122
   steam: 1002180
@@ -132579,6 +132582,8 @@ Lonely Knight:
   steamSide:
     - 2545360
     - 3238120
+  templates:
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\MegagonIndustries.LonelyMountainsSnowRiders_rsprgeccaa968\\SystemAppData\\wgs\\}}"
 Lonely Skies:
   pageId: 135069
   steam: 1073060

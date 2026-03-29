@@ -57383,6 +57383,13 @@ Aurum Kings:
             store: steam
   steam:
     id: 848460
+Auryn Quest:
+  files:
+    "<base>/savegame.aqs":
+      tags:
+        - save
+      when:
+        - os: windows
 Aussie Battler Tanks:
   installDir:
     Aussie Battler Tanks: {}
@@ -410302,6 +410309,13 @@ Lonely Knight:
 "Lonely Mountains: Snow Riders":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Packages/MegagonIndustries.LonelyMountainsSnowRiders_rsprgeccaa968/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     steamExtra:
       - 3238120
