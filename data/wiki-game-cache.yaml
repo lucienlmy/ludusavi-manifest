@@ -49073,6 +49073,11 @@ Crazy Chicken X:
     - "{{Game data/saves|Windows|{{P|game}}\\highscores.txt}}"
 "Crazy Chicken: Approaching":
   pageId: 201203
+"Crazy Chicken: Heart of Tibet":
+  pageId: 215037
+  steam: 2316960
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\data\\}}"
 "Crazy Chicken: Invasion":
   pageId: 199048
   templates:
@@ -78396,6 +78401,18 @@ Evospace:
   steam: 1013540
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\Evospace\\Saved\\SaveGames}}"
+Evotinction:
+  cloud:
+    steam: true
+  lutris: evotinction
+  pageId: 215035
+  steam: 2005090
+  steamSide:
+    - 2063740
+    - 3194250
+    - 3194260
+    - 3194270
+    - 3194280
 Evrisia Art:
   pageId: 149563
   steam: 1154150
@@ -235489,6 +235506,9 @@ The Legend of Bum-Bo:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Edmund McMillen Games\\The Legend of Bum-bo}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Edmund McMillen Games\\The Legend of Bum-bo\\progression.sav}}"
+The Legend of California:
+  pageId: 215031
+  steam: 2550530
 "The Legend of Candlewind: Nights & Candles":
   pageId: 48717
   steam: 326650
@@ -273876,6 +273896,8 @@ Zambi 2 Kil:
   lutris: zanzarah-the-hidden-portal
   pageId: 25899
   steam: 384570
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\*.dat}}"
 Zangeki Warp:
   cloud:
     steam: true

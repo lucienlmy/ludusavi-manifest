@@ -596253,6 +596253,9 @@
         oslist: windows
       executable: "Warhammer 40,000 Boltgun.exe"
       type: default
+2005090:
+  nameLocalized:
+    schinese: 演灭 EVOTINCTION
 2005210:
   cloud:
     saves:
@@ -615900,17 +615903,10 @@
       type: default
 2416450:
   nameLocalized:
-    brazilian: "MOUSE: Detetive Particular"
-    french: "SOURIS: Investigations"
-    german: "MOUSE: Privatdetektiv"
     japanese: MOUSE：やとわれの探偵
-    latam: "MOUSE: Detective Roedor"
-    portuguese: "MOUSE: Detetive Privado"
     russian: Частный детектив МАУС
     schinese: 神探杰克鼠
-    spanish: "MOUSE: Detective Roedor"
     tchinese: 鼠探：私家偵探
-    turkish: "MOUSE: Kiralık Dedektif"
     ukrainian: Приватний детектив МАУС
 2417000:
   installDir: Hunter The Reckoning — The Beast of Glenkildove
@@ -621891,6 +621887,7 @@
         osarch: "64"
         oslist: windows
       executable: I will make you scared of this Red Box.exe
+2550530: {}
 2551020:
   installDir: One-armed robber
   launch:

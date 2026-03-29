@@ -153235,6 +153235,21 @@ Crazy Chicken X:
         - save
       when:
         - os: windows
+"Crazy Chicken: Heart of Tibet":
+  files:
+    "<base>/data":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Moorhuhn Jump and Run 'Traps and Treasures'": {}
+  launch:
+    "<base>/Moorhuhn Jump and Run 'Traps and Treasures'.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2316960
 "Crazy Chicken: Invasion":
   files:
     "<base>/data/highscores.txt":
@@ -243888,6 +243903,19 @@ Evospace:
             store: steam
   steam:
     id: 1013540
+Evotinction:
+  cloud:
+    steam: true
+  id:
+    lutris: evotinction
+    steamExtra:
+      - 2063740
+      - 3194250
+      - 3194260
+      - 3194270
+      - 3194280
+  steam:
+    id: 2005090
 Evrisia Art:
   installDir:
     Evrisia Art: {}
@@ -729120,6 +729148,9 @@ The Legend of Bum-Bo:
         - config
   steam:
     id: 1148650
+The Legend of California:
+  steam:
+    id: 2550530
 "The Legend of Candlewind: Nights & Candles":
   installDir:
     " The Legend of Candlewind": {}
@@ -842964,6 +842995,12 @@ Zambi 2 Kil:
   steam:
     id: 698930
 "ZanZarah: The Hidden Portal":
+  files:
+    "<base>/Save/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: zanzarah-the-hidden-portal
   installDir:
