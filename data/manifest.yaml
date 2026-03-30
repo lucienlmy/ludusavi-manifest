@@ -109504,6 +109504,8 @@ CS2D:
         - save
       when:
         - os: windows
+  id:
+    lutris: ct-special-forces-fire-for-effect
   installDir:
     CT Special Forces: {}
   launch:
@@ -114863,6 +114865,9 @@ Car Mechanic Simulator 2021:
         - config
   steam:
     id: 1190000
+Car Mechanic Simulator 2026:
+  steam:
+    id: 2692660
 Car Mechanic Simulator VR:
   installDir:
     Car Mechanic Simulator 2018 - VR: {}
@@ -405424,6 +405429,8 @@ Like a Dragon 8:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: like-a-dragon-infinite-wealth
   installDir:
     LikeADragon8: {}
   launch:
@@ -561599,6 +561606,11 @@ Re.poly:
   cloud:
     steam: true
   files:
+    "<winDocuments>/My Games/ReZERO-TPT":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/My Games/ReZERO-TPT/Saves":
       tags:
         - save
@@ -640800,6 +640812,11 @@ Sonic R (2004):
     epic: true
     steam: true
   files:
+    "<winAppData>/SEGA/SonicRacingCrossWorlds/Epic/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/SEGA/SonicRacingCrossWorlds/steam/<storeUserId>":
       tags:
         - save

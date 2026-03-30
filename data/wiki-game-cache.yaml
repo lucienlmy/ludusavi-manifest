@@ -35273,6 +35273,7 @@ CSR Racing:
 "CT Special Forces: Fire for Effect":
   cloud:
     steam: true
+  lutris: ct-special-forces-fire-for-effect
   pageId: 50575
   steam: 283410
   templates:
@@ -36979,6 +36980,9 @@ Car Mechanic Simulator 2021:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator 2021}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Red Dot Games\\Car Mechanic Simulator 2021\\Save}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\5901F20F.CarMechanicSimulator2021_t06nbjdc8fw86\\SystemAppData\\wgs}}"
+Car Mechanic Simulator 2026:
+  pageId: 215081
+  steam: 2692660
 Car Mechanic Simulator VR:
   pageId: 139618
   steam: 1088770
@@ -130951,6 +130955,7 @@ Like Clay:
   cloud:
     steam: true
     xbox: true
+  lutris: like-a-dragon-infinite-wealth
   pageId: 181534
   renamedFrom:
     - Like a Dragon 8
@@ -181746,6 +181751,7 @@ Re.poly:
   pageId: 166164
   steam: 1277510
   templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\ReZERO-TPT\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\ReZERO-TPT\\Saves\\}}"
 "Re;Lord 1: The Witch of Herfort and Stuffed Animals":
   cloud:
@@ -207209,6 +207215,7 @@ Sonic Racing:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\UNION\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Steam|{{P|appdata}}\\SEGA\\SonicRacingCrossWorlds\\steam\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Epic Games Store|{{P|appdata}}\\SEGA\\SonicRacingCrossWorlds\\Epic\\{{P|uid}}\\}}"
 Sonic Riders:
   lutris: sonic-riders
   pageId: 57527

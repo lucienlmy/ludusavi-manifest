@@ -618923,39 +618923,17 @@
         oslist: windows
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-logPSO -NakamaEndpoint=MFGMainNightly"
-      config:
-        betakey: main-test
-        osarch: "64"
-        oslist: windows
-      executable: GZWClientEAC.exe
-      type: default
     - arguments: "-MatchmakingGroup=marketing -noEAC -noAnybrain -NakamaEndpoint=MFGReleaseNightly"
       config:
         betakey: "marketing,marketing-temp"
       executable: GZWClient.exe
-      type: default
-    - arguments: "-noEAC -noAnybrain -NakamaEndpoint=MFGMainNightly"
-      config:
-        betakey: main-test
-        osarch: "64"
-        oslist: windows
-      description: without anticheats
-      executable: GZWClient.exe
-      type: option2
-    - arguments: "-MatchmakingGroup=experimental -NakamaEndpoint=MFGExperimental"
-      config:
-        betakey: public-experimental
-        osarch: "64"
-        oslist: windows
-      executable: GZWClientEAC.exe
       type: default
     - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-test  -noEAC -noAnybrain"
       config:
         betakey: external-test
       executable: GZWClient.exe
       type: default
-    - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-dev -noEAC -noAnybrain -dpcvars=\"r.FidelityFX.FSR3.UseNativeDX12=1,r.FidelityFX.FI.OverrideSwapChainDX12=1,r.FidelityFX.FSR3.UseRHI=0\""
+    - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-dev -noEAC -noAnybrain"
       config:
         betakey: external-dev
       executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-DebugGame.exe"
@@ -618965,31 +618943,12 @@
         betakey: external-shipping
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-logPSO -clearPSODriverCache -NakamaEndpoint=MFGMainNightly"
-      config:
-        betakey: main-test
-        osarch: "64"
-        oslist: windows
-      description: Gather PSOs
-      executable: GZWClientEAC.exe
-      type: option3
-    - arguments: "-NakamaEndpoint=MFGExperimental -MatchmakingGroup=events"
-      config:
-        betakey: events
-        osarch: "64"
-      executable: GZWClientEAC.exe
-      type: default
-    - arguments: "-NakamaEndpoint=MFGReleaseNightly"
-      config:
-        betakey: "release-0300-dev,release-0300-test,release-0300-shipping,next-release-dev,next-release-test,next-release-shipping"
-      executable: GZWClientEAC.exe
-      type: default
-    - arguments: "-NakamaEndpoint=MFGMainNightly -MatchmakingGroup=external-anybrain"
+    - arguments: "-NakamaEndpoint=MFGReleaseNightly -MatchmakingGroup=external-anybrain"
       config:
         betakey: external-anybrain
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-NakamaEndpoint=MFGReleaseNightly -MatchmakingGroup=external-nvidia -noeac -noanybrain"
+    - arguments: "-NakamaEndpoint=MFGExperimental -MatchmakingGroup=external-nvidia -noeac -noanybrain"
       config:
         betakey: external-nvidia
       executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-Test.exe"
@@ -619011,7 +618970,7 @@
         betakey: external-anticheat
       executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-Shipping.exe"
       type: default
-    - arguments: "-NakamaEndpoint=MFGReleaseNightly -MatchmakingGroup=external-nvidia -DpCVars=\"r.PSOPrecaching=0\""
+    - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-nvidia -DpCVars=\"r.PSOPrecaching=0\""
       config:
         betakey: external-nvidia
       description: without PSO precaching
@@ -619022,31 +618981,11 @@
         betakey: external-ope
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-MatchmakingGroup=playtest -NakamaEndpoint=MFGReleaseNightly"
+    - arguments: "-MFGSupporterPreview -NakamaEndpoint=HeroicCloudSupporters"
       config:
-        betakey: playtest
+        betakey: "supporter-preview,staging"
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-NakamaEndpoint=MFGMainNightly"
-      config:
-        betakey: main-shipping
-        osarch: "64"
-        oslist: windows
-      executable: GZWClientEAC.exe
-      type: default
-    - arguments: "-NakamaEndpoint=MFGReleaseNightly"
-      config:
-        betakey: main-dev
-      executable: GZWClientEAC.exe
-      type: default
-    - arguments: "-waitforattach -NakamaEndpoint=MFGMainNightly"
-      config:
-        betakey: main-test
-        osarch: "64"
-        oslist: windows
-      description: Debug with attach (waits for debugger attachment)
-      executable: GZWClientEAC.exe
-      type: option1
   nameLocalized:
     japanese: グレーゾーン・ウォーフェア
     koreana: 그레이 존 워페어
@@ -625754,6 +625693,7 @@
   nameLocalized:
     japanese: 探偵の眼：さらば、最愛の人よ
 2690190: {}
+2692660: {}
 2692730:
   cloud:
     saves:
