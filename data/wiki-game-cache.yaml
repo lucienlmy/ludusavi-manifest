@@ -55065,6 +55065,7 @@ Dark Space Conqueror:
   gog: 1432723859
   gogSide:
     - 1444390881
+  lutris: dark-sun-shattered-lands
   pageId: 61930
   steam: 1904600
   templates:
@@ -55077,6 +55078,7 @@ Dark Space Conqueror:
   gog: 1432903719
   gogSide:
     - 1444390881
+  lutris: dark-sun-wake-of-the-ravager
   pageId: 61934
   steam: 1904601
   templates:
@@ -55636,6 +55638,7 @@ Darkwood:
     gog: true
     steam: true
   gog: 1578751181
+  lutris: darkwood
   pageId: 37563
   steam: 274520
   templates:
@@ -160397,6 +160400,7 @@ Old World:
     - 1373009324
     - 1473503758
     - 1631326988
+    - 1716495858
     - 1721325518
     - 1997779048
   pageId: 159225
@@ -160408,6 +160412,7 @@ Old World:
     - 2587420
     - 2587430
     - 3406150
+    - 4129630
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\My Games\\OldWorld\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\OldWorld\\Saves\\}}"
@@ -215629,6 +215634,10 @@ Stellar Tactics:
   gog: 1170879692
   pageId: 39089
   steam: 465490
+  steamSide:
+    - 1641980
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\*.sts|{{p|game}}\\sav_dat.xml}}"
 Stellar Valkyrie:
   pageId: 181624
   steam: 1693350
@@ -242020,6 +242029,16 @@ The Walking Dead Onslaught:
 The Walking Evil:
   pageId: 156899
   steam: 1215870
+The Walking Trade:
+  cloud:
+    steam: true
+  lutris: the-walking-trade
+  pageId: 215083
+  steam: 3398110
+  steamSide:
+    - 3450020
+  templates:
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Microwave Games\\The Walking Trade\\Sync}}"
 The Walking Vegetables:
   cloud:
     steam: true

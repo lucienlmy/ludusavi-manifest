@@ -45097,6 +45097,11 @@
       description: Borderless window
       executable: Darkwood.exe
       type: none
+  nameLocalized:
+    japanese: Darkwood ダークウッド
+    koreana: Darkwood 다크우드
+    schinese: 阴暗森林 Darkwood
+    tchinese: 陰暗森林 Darkwood
 274560:
   cloud:
     saves:
@@ -638917,6 +638922,17 @@
   launch:
     - executable: Em_8ER.exe
       type: default
+3398110:
+  cloud:
+    saves:
+      - path: Microwave Games/The Walking Trade/Sync/
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: The Walking Trade
+  launch:
+    - executable: The Walking Trade.exe
 3399110:
   cloud:
     saves:

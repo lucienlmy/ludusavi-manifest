@@ -171418,6 +171418,7 @@ Dark Space Conqueror:
   id:
     gogExtra:
       - 1444390881
+    lutris: dark-sun-shattered-lands
   steam:
     id: 1904600
 "Dark Sun: Wake of the Ravager":
@@ -171445,6 +171446,7 @@ Dark Space Conqueror:
   id:
     gogExtra:
       - 1444390881
+    lutris: dark-sun-wake-of-the-ravager
   steam:
     id: 1904601
 Dark Swords:
@@ -173047,6 +173049,8 @@ Darkwood:
         - os: linux
   gog:
     id: 1578751181
+  id:
+    lutris: darkwood
   installDir:
     Darkwood: {}
   launch:
@@ -495246,6 +495250,7 @@ Old World:
       - 1373009324
       - 1473503758
       - 1631326988
+      - 1716495858
       - 1721325518
       - 1997779048
     steamExtra:
@@ -495255,6 +495260,7 @@ Old World:
       - 2587420
       - 2587430
       - 3406150
+      - 4129630
   installDir:
     Old World: {}
   launch:
@@ -666655,19 +666661,20 @@ Stellar Tactics:
     steam: true
   files:
     "<base>/Save/*.sts":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-        - os: linux
-          store: steam
     "<base>/sav_dat.xml":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-        - os: linux
-          store: steam
   gog:
     id: 1170879692
+  id:
+    steamExtra:
+      - 1641980
   installDir:
     Stellar Tactics: {}
   launch:
@@ -748500,6 +748507,27 @@ The Walking Evil:
             store: steam
   steam:
     id: 1215870
+The Walking Trade:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Microwave Games/The Walking Trade/Sync":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: the-walking-trade
+    steamExtra:
+      - 3450020
+  installDir:
+    The Walking Trade: {}
+  launch:
+    "<base>/The Walking Trade.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3398110
 The Walking Vegetables:
   cloud:
     steam: true
