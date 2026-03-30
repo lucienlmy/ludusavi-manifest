@@ -371232,7 +371232,7 @@
   launch:
     - arguments: "-uplay_steam_mode -upc_steam_free_package_id 64280"
       config:
-        betakey: "-uplay_steam_mode server=34.202.7.77 port=26999"
+        betakey: server=34.202.7.77 port=26999
         oslist: windows
       executable: Growtopia.exe
       type: default
@@ -626319,6 +626319,27 @@
       executable: Tekila.exe
       type: default
 2705130: {}
+2705890:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: GoodboyGalaxy
+  launch:
+    - arguments: "--logMode:file goodboy.dll"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: xatu.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: "./run.sh"
+      type: default
+  nameLocalized:
+    schinese: 好狗狗星系
 2706170:
   cloud:
     saves:

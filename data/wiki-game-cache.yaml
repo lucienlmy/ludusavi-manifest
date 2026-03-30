@@ -95961,6 +95961,8 @@ Go Cabbies!GB:
 Go Fight Fantastic!:
   pageId: 154355
   steam: 1183530
+Go Fish!:
+  pageId: 215072
 Go For A Punch! Saki Sanobashi:
   pageId: 209470
   steam: 2574840
@@ -97288,6 +97290,11 @@ Good Robot:
 Good doktor:
   pageId: 156063
   steam: 1190120
+Goodboy Galaxy:
+  cloud:
+    steam: true
+  pageId: 215078
+  steam: 2705890
 Goodbye 2019 (Interactive Movie):
   pageId: 155312
   steam: 1216130
@@ -120314,6 +120321,8 @@ Juliantli:
 July the Lost Child:
   pageId: 112400
   steam: 932270
+Jumanji:
+  pageId: 215074
 "Jumanji: The VR Adventure":
   pageId: 80833
   steam: 780590
@@ -132361,6 +132370,8 @@ Lode Runner Legacy:
     steam: true
   pageId: 63185
   steam: 628660
+"Lode Runner: The Legend Returns":
+  pageId: 215076
 Lodestone - The crazy cave adventures of mad Stony Tony and his encounter with the exploding rolling stones:
   pageId: 150140
   steam: 1129650

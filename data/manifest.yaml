@@ -302037,6 +302037,29 @@ Good doktor:
             store: steam
   steam:
     id: 1190120
+Goodboy Galaxy:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    GoodboyGalaxy: {}
+  launch:
+    "<base>/run.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/xatu.exe":
+      - arguments: "--logMode:file goodboy.dll"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2705890
 Goodbye 2019 (Interactive Movie):
   steam:
     id: 1216130
