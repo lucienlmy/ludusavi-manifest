@@ -627088,6 +627088,42 @@
     - config:
         oslist: macos
       executable: The Great Rebellion.app
+2735580:
+  cloud:
+    saves:
+      - path: madgoat/NetherworldCovenant
+        pattern: "*.en_json"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: madgoat/NetherworldCovenant
+            replace: unity.madgoat.NetherworldCovenant
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Netherworld Covenant
+  launch:
+    - config:
+        oslist: windows
+      executable: Netherworld Covenant.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Netherworld Covenant.app
+      type: default
+  nameLocalized:
+    brazilian: "Netherworld Covenant: Pacto do Submundo"
+    english: Netherworld Covenant
+    japanese: 冥界契約
+    latam: "Netherworld Covenant: Pacto del Inframundo"
+    schinese: 冥界契约
+    tchinese: 冥界契約
 2736690:
   cloud:
     saves:
@@ -643670,6 +643706,28 @@
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
+3948120:
+  cloud:
+    saves:
+      - path: "\\Lunch Money Games\\Scritchy Scratchy\\"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Scritchy Scratchy
+  launch:
+    - config:
+        oslist: windows
+      executable: ScritchyScratchy.exe
+    - config:
+        oslist: macos
+      executable: ScritchyScratchy.app/Contents/MacOS/Scritchy Scratchy
+  nameLocalized:
+    schinese: 刮个爽
 3949290:
   cloud:
     saves:
@@ -643823,6 +643881,11 @@
     koreana: 시티헌터
     schinese: 城市猎人
     tchinese: 城市獵人
+3986690:
+  nameLocalized:
+    japanese: 魔法司書アリアナ ～七英傑の書～
+    schinese: 魔法司书阿莉艾娜 ～七英杰之书～
+    tchinese: 魔法司書阿莉艾娜 ～七英傑之書～
 3989240: {}
 3989570:
   installDir: Death in a Party
@@ -644196,6 +644259,22 @@
 4146000: {}
 4149610: {}
 4157130: {}
+4160210:
+  cloud:
+    saves:
+      - path: Geri/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: Geri/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: The Artisan of Glimmith
+  launch:
+    - executable: Geri.exe
 4162690: {}
 4164420:
   cloud:

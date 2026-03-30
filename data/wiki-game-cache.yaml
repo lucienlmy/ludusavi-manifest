@@ -14870,6 +14870,16 @@ Aria Dating Simulator:
 "Ariadna's Bane":
   pageId: 139699
   steam: 1095560
+Ariana and the Elder Codex:
+  cloud:
+    steam: true
+  pageId: 215056
+  steam: 3986690
+  steamSide:
+    - 4241900
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Ariana and the Elder Codex\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Ariana and the Elder Codex\\{{P|uid}}\\}}"
 Arid:
   cloud:
     steam: true
@@ -47542,6 +47552,12 @@ Core Keeper:
   renamedFrom:
     - Core keeper
   steam: 1621690
+  steamSide:
+    - 1751880
+    - 1831940
+    - 1963720
+    - 3398360
+    - 4160230
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Pugstorm\\Core Keeper\\Steam\\{{P|uid}}\\prefs.json}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Pugstorm/Core Keeper/prefs}}"
@@ -48476,6 +48492,7 @@ Coven:
   pageId: 198947
   steam: 1785940
 Covenant:
+  lutris: covenant
   pageId: 203626
   steam: 3333990
 Cover Sky:
@@ -122728,6 +122745,8 @@ Kid Phonics 1:
   pageId: 190285
 Kid Phonics 2:
   pageId: 190284
+Kid Pilot:
+  pageId: 215070
 "Kid's Safety With George Blessure":
   pageId: 141548
   steam: 1117770
@@ -154757,6 +154776,14 @@ NetherWorld:
 Netherguild:
   pageId: 204028
   steam: 1464220
+Netherworld Covenant:
+  cloud:
+    steam: true
+  lutris: netherworld-covenant
+  pageId: 215062
+  steam: 2735580
+  steamSide:
+    - 2938130
 "Netherworld: Beyond Time I Stand":
   pageId: 80738
   renamedFrom:
@@ -182703,6 +182730,7 @@ Record of Lodoss War Online:
   cloud:
     steam: true
     xbox: true
+  lutris: record-of-lodoss-war-deedlit-in-wonder-labyrinth
   pageId: 165353
   renamedFrom:
     - Record of Lodoss War-Deedlit in Wonder Labyrinth-
@@ -195744,6 +195772,16 @@ Scribblenauts Unlimited:
 "Scriptum VR: The Neighbor's House Escape Room":
   pageId: 152747
   steam: 1190560
+Scritchy Scratchy:
+  cloud:
+    steam: true
+  lutris: scritchy-scratchy
+  pageId: 215064
+  steam: 3948120
+  steamSide:
+    - 4124780
+    - 4428640
+    - 4517590
 Scroll2Read:
   pageId: 125135
   steam: 999540
@@ -228577,6 +228615,14 @@ The Artifact:
 The Artifacts:
   pageId: 134536
   steam: 1051940
+The Artisan of Glimmith:
+  cloud:
+    steam: true
+  lutris: the-artisan-of-glimmith
+  pageId: 215066
+  steam: 4160210
+  steamSide:
+    - 4160300
 The Artist:
   pageId: 57982
   steam: 587690
@@ -231717,6 +231763,8 @@ The Energy Lab:
   steam: 949420
 The Energy Thieves:
   pageId: 209706
+  templates:
+    - "{{Game data/config|Windows|{{p|programdata}}\\Coktel\\Adiboo & the Energy Thieves\\Video.cfg|{{p|programdata}}\\Coktel\\Adiboo & the Energy Thieves\\P1Current.cbc|{{p|programdata}}\\Coktel\\Adiboo & the Energy Thieves\\P2Current.cbc}}"
 The Enigma Machine:
   pageId: 182479
   renamedFrom:

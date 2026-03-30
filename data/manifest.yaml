@@ -46572,6 +46572,21 @@ Aria Dating Simulator:
 "Ariadna's Bane":
   steam:
     id: 1095560
+Ariana and the Elder Codex:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Ariana and the Elder Codex/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4241900
+  steam:
+    id: 3986690
 Arid:
   cloud:
     steam: true
@@ -148484,6 +148499,13 @@ Core Keeper:
         - os: windows
   gog:
     id: 1084933262
+  id:
+    steamExtra:
+      - 1751880
+      - 1831940
+      - 1963720
+      - 3398360
+      - 4160230
   installDir:
     Core Keeper: {}
   launch:
@@ -151442,6 +151464,8 @@ Coven:
   steam:
     id: 1785940
 Covenant:
+  id:
+    lutris: covenant
   steam:
     id: 3333990
 Cover Sky:
@@ -478265,6 +478289,38 @@ Netherguild:
             store: steam
   steam:
     id: 1464220
+Netherworld Covenant:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/madgoat/NetherworldCovenant/*.en_json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/madgoat/NetherworldCovenant/*.en_json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/unity.madgoat.NetherworldCovenant/*.en_json":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: netherworld-covenant
+    steamExtra:
+      - 2938130
+  installDir:
+    Netherworld Covenant: {}
+  launch:
+    "<base>/Netherworld Covenant.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Netherworld Covenant.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2735580
 "Netherworld: Beyond Time I Stand":
   files:
     "<base>/System/AutoSave":
@@ -564419,6 +564475,8 @@ Record of Lodoss War-Deedlit in Wonder Labyrinth-:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: record-of-lodoss-war-deedlit-in-wonder-labyrinth
   installDir:
     Record of Lodoss War-Deedlit in Wonder Labyrinth-: {}
   launch:
@@ -604657,6 +604715,36 @@ Scribblenauts Unlimited:
     "Scriptum VR The Neighbor's House Escape Room": {}
   steam:
     id: 1190560
+Scritchy Scratchy:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Lunch Money Games/Scritchy Scratchy/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: scritchy-scratchy
+    steamExtra:
+      - 4124780
+      - 4428640
+      - 4517590
+  installDir:
+    Scritchy Scratchy: {}
+  launch:
+    "<base>/ScritchyScratchy.app/Contents/MacOS/Scritchy Scratchy":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ScritchyScratchy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3948120
 Scroll2Read:
   installDir:
     Scroll2Read: {}
@@ -707931,6 +708019,29 @@ The Artifacts:
             store: steam
   steam:
     id: 1051940
+The Artisan of Glimmith:
+  cloud:
+    steam: true
+  files:
+    "<base>/Geri/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Geri/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: the-artisan-of-glimmith
+    steamExtra:
+      - 4160300
+  installDir:
+    The Artisan of Glimmith: {}
+  launch:
+    "<base>/Geri.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4160210
 The Artist:
   installDir:
     The Artist: {}
@@ -717608,6 +717719,23 @@ The Energy Lab:
     The Energy Lab: {}
   steam:
     id: 949420
+The Energy Thieves:
+  files:
+    "<winProgramData>/Coktel/Adiboo & the Energy Thieves/P1Current.cbc":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winProgramData>/Coktel/Adiboo & the Energy Thieves/P2Current.cbc":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winProgramData>/Coktel/Adiboo & the Energy Thieves/Video.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 The Enigma Machine:
   installDir:
     THE ENIGMA MACHINE: {}
