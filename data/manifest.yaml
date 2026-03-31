@@ -132189,15 +132189,19 @@ Cities XL:
   steam:
     id: 35510
 Cities XL 2011:
+  cloud:
+    steam: true
   files:
+    "<winLocalAppData>/Focus Home Interactive/Cities XL 2011/live/offline/player1.cxl":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Focus Home Interactive/Cities XL 2011/live/offline/solo":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/Focus Home Interactive/Cities XL 2012/live/offline/solo":
-      when:
-        - os: windows
-          store: steam
   installDir:
     Cities XL 2011: {}
   launch:

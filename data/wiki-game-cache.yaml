@@ -42327,8 +42327,13 @@ Cities XL:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Monte Cristo\\Cities XL\\live\\{{P|uid}}\\player1.cxl}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Monte Cristo\\Cities XL\\live\\{{P|uid}}\\solo\\}}"
 Cities XL 2011:
+  cloud:
+    steam: true
   pageId: 6177
   steam: 58510
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XL 2011\\live\\offline\\player1.cxl}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XL 2011\\live\\offline\\solo\\}}"
 Cities XL 2012:
   cloud:
     steam: true
