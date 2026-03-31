@@ -173158,9 +173158,13 @@ Darwin Project:
     id: 572020
 "Darwin's Paradox!":
   cloud:
+    epic: true
     steam: true
   id:
     lutris: darwins-paradox
+    steamExtra:
+      - 3349210
+      - 3990600
   steam:
     id: 2989180
 "Darwin's Test":
@@ -684499,6 +684503,7 @@ Superku:
         - os: windows
 Superliminal:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -752564,6 +752569,8 @@ Thick Air:
   steam:
     id: 525350
 Thick As Thieves:
+  id:
+    lutris: thick-as-thieves
   steam:
     id: 3341000
 Thick Light:
@@ -763977,6 +763984,11 @@ Too Hot!:
             store: steam
   steam:
     id: 610620
+Too Many F*cking Nazis:
+  cloud:
+    steam: true
+  steam:
+    id: 3900950
 Too Many Weapons:
   installDir:
     Too Many Weapons: {}
@@ -778779,6 +778791,11 @@ True Colors:
         - save
       when:
         - os: windows
+    "<winDocuments>/TCNYC/prefs.dat":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: true-crime-new-york-city
 "True Crime: Streets of LA":
@@ -779314,6 +779331,11 @@ Truxton:
             store: steam
   steam:
     id: 2022880
+Truxton Extreme:
+  cloud:
+    steam: true
+  steam:
+    id: 3323490
 "Try 'n Cry - Prologue":
   installDir:
     "Try 'n Cry - Prologue": {}
@@ -800905,7 +800927,7 @@ Viewpoints:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/glassheart/Vigil_Night":
+    "<home>/AppData/LocalLow/glassheart/Vigil":
       tags:
         - config
         - save

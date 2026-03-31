@@ -55674,10 +55674,15 @@ Darwin Project:
   steam: 572020
 "Darwin's Paradox!":
   cloud:
+    epic: true
     steam: true
+    xbox: true
   lutris: darwins-paradox
   pageId: 202295
   steam: 2989180
+  steamSide:
+    - 3349210
+    - 3990600
 "Darwin's Test":
   cloud:
     steam: true
@@ -217519,6 +217524,8 @@ Strike!OvulationDivine Fist! Rebellion to Extinction!:
 StrikeForce Kitty:
   pageId: 86965
   steam: 745330
+"StrikePoint: The Hex Missions":
+  pageId: 215087
 Striker Zone:
   pageId: 177255
 Strikers:
@@ -221223,6 +221230,7 @@ Superku:
     - "{{Game data/saves|Windows|{{p|game}}\\UserData\\{{p|uid}}\\{{p|uid}}.plr}}"
 Superliminal:
   cloud:
+    epic: true
     gog: true
     steam: true
     xbox: true
@@ -243340,6 +243348,7 @@ Thick Air:
   pageId: 38955
   steam: 525350
 Thick As Thieves:
+  lutris: thick-as-thieves
   pageId: 200127
   steam: 3341000
 Thick Light:
@@ -246966,6 +246975,11 @@ Too Hot!:
 "Too Loud: Chapter 1":
   pageId: 141029
   steam: 610620
+Too Many F*cking Nazis:
+  cloud:
+    steam: true
+  pageId: 215092
+  steam: 3900950
 Too Many Weapons:
   pageId: 62974
   steam: 646280
@@ -252622,6 +252636,7 @@ True Colors:
   lutris: true-crime-new-york-city
   pageId: 26058
   templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\TCNYC\\prefs.dat}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\TCNYC\\Saved Games\\}}"
 "True Crime: Streets of LA":
   lutris: true-crime-streets-of-la
@@ -252778,6 +252793,11 @@ Truxton:
   lutris: truxton
   pageId: 182753
   steam: 2022880
+Truxton Extreme:
+  cloud:
+    steam: true
+  pageId: 215089
+  steam: 3323490
 "Try 'n Cry - Prologue":
   pageId: 150594
   steam: 1106720
@@ -259984,8 +260004,8 @@ Viewpoints:
     - 1418070
     - 1448680
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\glassheart\\Vigil_Night\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\glassheart\\Vigil_Night\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\glassheart\\Vigil\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\glassheart\\Vigil\\}}"
 Vigilance:
   pageId: 200062
   templates:
