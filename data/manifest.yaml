@@ -308195,6 +308195,13 @@ Grime:
 Grime II:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Clover Bite/GRIME II/Save Files":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     lutris: grime-ii
   steam:
@@ -365367,6 +365374,28 @@ Island Xtreme Stunts:
         - config
       when:
         - os: windows
+Island of Hearts:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/4Divinity/Island of Hearts/ReleaseGameRecord":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4077910
+  installDir:
+    Island of Hearts: {}
+  launch:
+    "<base>/Island of Hearts.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3794770
 Island of Penance:
   cloud:
     steam: true
@@ -564373,6 +564402,31 @@ Reckpunk:
             store: steam
   steam:
     id: 495750
+Reclaim! Azhe-giiwewining:
+  files:
+    "<home>/AppData/LocalLow/Grassroots Indigenous Multimedia/Reclaim!":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4221190
+      - 4502790
+  installDir:
+    Reclaim! Azhe-giiwewining: {}
+  launch:
+    "<base>/Reclaim! Azhe-Giiwewining.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Reclaim!.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4200480
 Recluses:
   installDir:
     recluses: {}
@@ -663083,6 +663137,11 @@ Starship Troopers - Terran Command:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/StarshipTroopers_UBW/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/StarshipTroopers_UBW/Saved/SaveGames/*.sav":
       tags:
         - save
@@ -707731,6 +707790,9 @@ The Apartment:
             store: steam
   steam:
     id: 752020
+The Apartment (2026):
+  steam:
+    id: 4333430
 The Apotheosis Project:
   files:
     "<home>/Saved Games/The Apotheosis Project/**/agssave.*":

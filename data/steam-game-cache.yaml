@@ -642823,6 +642823,21 @@
     schinese: 原子之心 2
     tchinese: 原子之心 2
 3789050: {}
+3794770:
+  cloud:
+    saves:
+      - path: 4Divinity/Island of Hearts/ReleaseGameRecord
+        pattern: "*.bytes"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Island of Hearts
+  launch:
+    - config:
+        oslist: windows
+      executable: Island of Hearts.exe
+  nameLocalized:
+    schinese: 心之岛
 3795900:
   cloud:
     saves:
@@ -644322,6 +644337,15 @@
     koreana: "토탈워: 워해머 40,000"
     schinese: 全面战争：战锤40000
     tchinese: 全軍破敵：戰鎚40000
+4200480:
+  installDir: Reclaim! Azhe-giiwewining
+  launch:
+    - config:
+        oslist: windows
+      executable: Reclaim!.exe
+    - config:
+        oslist: macos
+      executable: Reclaim! Azhe-Giiwewining.app
 4202710: {}
 4208140: {}
 4210700:
@@ -644415,6 +644439,7 @@
     tchinese: 一盞秋聲：錦衣衛
 4317460: {}
 4328440: {}
+4333430: {}
 4339870:
   installDir: Goreagulation
   launch:

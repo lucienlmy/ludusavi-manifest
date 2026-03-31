@@ -99345,6 +99345,9 @@ Grime II:
   lutris: grime-ii
   pageId: 213933
   steam: 2529790
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Clover Bite\\GRIME II\\Save Files\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Clover Bite\\GRIME II\\Save Files\\}}"
 Grimind:
   pageId: 50664
   steam: 265380
@@ -117826,6 +117829,16 @@ Island Xtreme Stunts:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\LEGO Interactive\\Island Xtreme Stunts\\LIXS.cfg}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\LEGO Interactive\\Island Xtreme Stunts}}"
+Island of Hearts:
+  cloud:
+    steam: true
+  pageId: 215100
+  steam: 3794770
+  steamSide:
+    - 4077910
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/4Divinity/Island of Hearts/ReleaseGameRecord/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/4Divinity/Island of Hearts/ReleaseGameRecord/}}"
 Island of Penance:
   cloud:
     steam: true
@@ -182715,6 +182728,15 @@ Reckless Space Pirates:
 Reckpunk:
   pageId: 56440
   steam: 495750
+Reclaim! Azhe-giiwewining:
+  pageId: 215096
+  steam: 4200480
+  steamSide:
+    - 4221190
+    - 4502790
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Grassroots Indigenous Multimedia\\Reclaim!\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Grassroots Indigenous Multimedia\\Reclaim!\\}}"
 Recluses:
   pageId: 157005
   steam: 1217880
@@ -214481,6 +214503,7 @@ Starship Troopers:
   pageId: 211691
   steam: 2321780
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\StarshipTroopers_UBW\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\StarshipTroopers_UBW\\Saved\\SaveGames\\*.sav|{{p|localappdata}}\\StarshipTroopers_UBW\\Saved\\SaveGames\\*\\*.sav}}"
 "Starship: Nova Strike":
   pageId: 34948
@@ -228542,6 +228565,9 @@ The Antidote:
 The Apartment:
   pageId: 80529
   steam: 752020
+The Apartment (2026):
+  pageId: 215106
+  steam: 4333430
 The Apocalyptic Game About Penguins 4:
   pageId: 202337
 The Apotheosis Project:
