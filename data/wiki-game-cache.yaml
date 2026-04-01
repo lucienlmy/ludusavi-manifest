@@ -2585,7 +2585,7 @@ A Dance of Fire and Ice:
   templates:
     - "{{Game data/config|Windows|%AppData%/LocalLow/7th Beat Games\\A Dance of Fire and Ice\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/7th Beat Games/A Dance of Fire and Ice}}"
-    - "{{Game data/saves|Windows|%AppData%/LocalLow/7th Beat Games\\A Dance of Fire and Ice\\}}"
+    - "{{Game data/saves|Windows|%AppData%/LocalLow/7th Beat Games\\A Dance of Fire and Ice\\|{{p|game}}\\User}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/7th Beat Games/A Dance of Fire and Ice}}"
 "A Dark World: The Glowing City":
   pageId: 153208
@@ -31879,6 +31879,12 @@ Brainf*ck:
 Brainmelter Deluxe:
   pageId: 125681
   steam: 964060
+Brainshell:
+  lutris: brainshell
+  pageId: 215142
+  steam: 3206220
+  steamSide:
+    - 4414020
 Brainstorm:
   cloud:
     steam: true
@@ -36827,6 +36833,9 @@ Captain Starshot:
 Captain The Runner:
   pageId: 98616
   steam: 878500
+"Captain Tsubasa 2: World Fighters":
+  pageId: 215129
+  steam: 2172910
 "Captain Tsubasa: Rise of New Champions":
   cloud:
     steam: true
@@ -124273,6 +124282,13 @@ Kings Under the Hill:
 Kings and Heroes:
   pageId: 34507
   steam: 436560
+Kings of Hell:
+  cloud:
+    steam: true
+  pageId: 215132
+  steam: 3120020
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\StrawberryOctopus Productions\\Kings of Hell\\}}"
 Kings of Israel:
   pageId: 45194
   steam: 428460
@@ -128363,6 +128379,8 @@ Legacy:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Tin Man Games\\gw.heraldofoblivion\\}}"
 "Legacy of Kain: Ascendance":
   cloud:
+    epic: true
+    gog: true
     steam: true
     xbox: true
   gog: 1911062444
@@ -165501,6 +165519,11 @@ PamPam Kana Students:
 Pamp Quest:
   pageId: 148779
   steam: 1170840
+"Pampas & Selene: The Maze of Demons":
+  cloud:
+    steam: true
+  pageId: 215134
+  steam: 1966220
 Pan Panda:
   pageId: 114516
   steam: 943390

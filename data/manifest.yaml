@@ -8266,6 +8266,11 @@ A Dance of Fire and Ice:
   cloud:
     steam: true
   files:
+    "<base>/User":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/LocalLow/7th Beat Games/A Dance of Fire and Ice":
       tags:
         - config
@@ -98724,6 +98729,13 @@ Brainmelter Deluxe:
           - store: steam
   steam:
     id: 964060
+Brainshell:
+  id:
+    lutris: brainshell
+    steamExtra:
+      - 4414020
+  steam:
+    id: 3206220
 Brainstorm:
   cloud:
     steam: true
@@ -114363,6 +114375,9 @@ Captain The Runner:
             store: steam
   steam:
     id: 878500
+"Captain Tsubasa 2: World Fighters":
+  steam:
+    id: 2172910
 "Captain Tsubasa: Rise of New Champions":
   cloud:
     steam: true
@@ -384883,6 +384898,24 @@ Kings and Heroes:
             store: steam
   steam:
     id: 436560
+Kings of Hell:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/StrawberryOctopus Productions/Kings of Hell":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Kings of Hell: {}
+  launch:
+    "<base>/Kings of Hell.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3120020
 Kings of Israel:
   installDir:
     Kings of Israel: {}
@@ -397455,11 +397488,20 @@ Leftovers KO!:
     id: 389850
 "Legacy of Kain: Ascendance":
   cloud:
+    epic: true
+    gog: true
     steam: true
   gog:
     id: 1911062444
   id:
     lutris: legacy-of-kain-ascendance
+  installDir:
+    Legacy of Kain Ascendance: {}
+  launch:
+    "<base>/Legacy of Kain Ascendance.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4233530
 "Legacy of Kain: Blood Omen 2":
@@ -511022,6 +511064,19 @@ Pamp Quest:
             store: steam
   steam:
     id: 1170840
+"Pampas & Selene: The Maze of Demons":
+  cloud:
+    steam: true
+  installDir:
+    Maze of Demons: {}
+  launch:
+    "<base>/maze.exe":
+      - arguments: "-console"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1966220
 Pan Panda:
   installDir:
     Pan Panda: {}

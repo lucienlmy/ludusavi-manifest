@@ -593942,6 +593942,13 @@
   launch:
     - executable: Launcher.exe
       type: default
+1966220:
+  installDir: Maze of Demons
+  launch:
+    - arguments: "-console"
+      config:
+        oslist: windows
+      executable: maze.exe
 1966410: {}
 1966420:
   cloud:
@@ -605242,6 +605249,12 @@
         oslist: macos
       executable: mybabydragon.app
       type: default
+2172910:
+  nameLocalized:
+    japanese: キャプテン翼２ WORLD FIGHTERS
+    koreana: 캡틴 츠바사 2 월드 파이터즈
+    schinese: 队长小翼2 世界群星
+    tchinese: 隊長小翼2 世界群星
 2173460:
   installDir: Echoes of the Living
   launch:
@@ -635037,6 +635050,20 @@
     - config:
         oslist: windows
       executable: GrizzlyMan.exe
+3120020:
+  cloud:
+    saves:
+      - path: StrawberryOctopus Productions/Kings of Hell
+        pattern: save.dat
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Kings of Hell
+  launch:
+    - config:
+        oslist: windows
+      executable: Kings of Hell.exe
+      type: default
 3120250:
   installDir: Lost Diskettes Vol.1
   launch:
@@ -636161,6 +636188,7 @@
       executable: ss.exe
       type: default
 3205170: {}
+3206220: {}
 3207300:
   cloud:
     saves:
@@ -644423,7 +644451,13 @@
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
 4231820: {}
-4233530: {}
+4233530:
+  installDir: Legacy of Kain Ascendance
+  launch:
+    - config:
+        oslist: windows
+      executable: Legacy of Kain Ascendance.exe
+      type: default
 4244910: {}
 4249130:
   installDir: 4249130_DinoCrisis
