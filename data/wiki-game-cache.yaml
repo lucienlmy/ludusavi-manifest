@@ -31711,6 +31711,13 @@ Boxlife:
 Boxplosion:
   pageId: 61432
   steam: 612840
+Boxroom:
+  cloud:
+    steam: true
+  pageId: 215218
+  steam: 4335460
+  steamSide:
+    - 4385060
 Boxville:
   cloud:
     epic: true
@@ -87206,8 +87213,14 @@ Folk Tale:
   pageId: 40620
   steam: 224440
 Folklore Hunter:
+  cloud:
+    steam: true
+  lutris: folklore-hunter
   pageId: 156426
   steam: 696220
+  steamSide:
+    - 4056080
+    - 4340140
 Follia - Dear father:
   pageId: 137056
   steam: 434190
@@ -106778,6 +106791,8 @@ Heroes of Maidan 2:
   pageId: 125781
   steam: 1010070
 "Heroes of Might & Magic: Olden Era":
+  cloud:
+    xbox: true
   pageId: 197245
   steam: 3105440
   steamSide:
@@ -126825,6 +126840,11 @@ Lake of Voices:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\renpy\\LakeOfVoices-1510419112\\persistent <!-- File -->|{{p|game}}\\game\\saves\\persistent}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\renpy\\LakeOfVoices-1510419112\\*.save|{{p|game}}\\game\\saves\\*.save}}"
+Lakehopper:
+  pageId: 215220
+  steam: 4209010
+  steamSide:
+    - 4465800
 Lakers versus Celtics and the NBA Playoffs:
   pageId: 179770
 Lakeview Cabin Collection:
@@ -220242,6 +220262,8 @@ Super Meat Boy 3D:
   steam: 3288210
   steamSide:
     - 4196240
+  templates:
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\SMB\\Saved\\Config\\WinGDK}}"
 Super Meat Boy Forever:
   cloud:
     epic: true
@@ -244282,9 +244304,11 @@ Thunder Tier One:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Thunder2305\\Saved\\}}"
 Thunder Wolves:
+  lutris: thunder-wolves
   pageId: 38327
   steam: 232970
   templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Thunder Wolves\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Thunder Wolves\\}}"
 "Thunder's Leaves":
   cloud:
@@ -247306,6 +247330,9 @@ Torch Cave 2:
 Torch Cave 3:
   pageId: 63809
   steam: 656950
+Torch of Shadows:
+  pageId: 215222
+  steam: 4007420
 Torchlight:
   cloud:
     epic: true

@@ -98207,6 +98207,14 @@ Boxplosion:
     Boxplosion: {}
   steam:
     id: 612840
+Boxroom:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4385060
+  steam:
+    id: 4335460
 Boxville:
   cloud:
     epic: true
@@ -269726,6 +269734,17 @@ Folk Tale:
   steam:
     id: 224440
 Folklore Hunter:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/FolkloreHunter/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: folklore-hunter
+    steamExtra:
+      - 4056080
+      - 4340140
   installDir:
     FolkloreHunter: {}
   launch:
@@ -392621,6 +392640,23 @@ Lake of Voices:
             store: steam
   steam:
     id: 782340
+Lakehopper:
+  id:
+    steamExtra:
+      - 4465800
+  installDir:
+    Lakehopper: {}
+  launch:
+    "<base>/Lakehopper.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Lakehopper.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4209010
 Lakeview Cabin Collection:
   installDir:
     Lakeview Cabin Collection: {}
@@ -681349,21 +681385,12 @@ Super Meat Boy 3D:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/SMB/Saved/SaveGames/MiscSavegame.sav":
+    "<winLocalAppData>/SMB/Saved/Config/WinGDK":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/SMB/Saved/SaveGames/SG_Achievements.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/SMB/Saved/SaveGames/SG_SaveSlotData_Slot0.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/SMB/Saved/SaveGames/SG_SaveSlotData_Slot1.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/SMB/Saved/SaveGames/SG_SaveSlotData_Slot2.sav":
-      when:
-        - store: steam
+        - os: windows
+          store: microsoft
   gog:
     id: 1270057484
   id:
@@ -755423,9 +755450,12 @@ Thunder Wolves:
   files:
     "<winAppData>/Thunder Wolves":
       tags:
+        - config
         - save
       when:
         - os: windows
+  id:
+    lutris: thunder-wolves
   installDir:
     Thunder Wolves: {}
   launch:
@@ -764783,6 +764813,22 @@ Torch Cave 2:
 Torch Cave 3:
   steam:
     id: 656950
+Torch of Shadows:
+  files:
+    "<winLocalAppData>/Torch_of_Shadows/*.ini":
+      when:
+        - store: steam
+    "<winLocalAppData>/Torch_of_Shadows/*.sav":
+      when:
+        - store: steam
+  installDir:
+    TorchOfShadows: {}
+  launch:
+    "<base>/TorchOfShadows.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4007420
 Torchlight:
   cloud:
     epic: true

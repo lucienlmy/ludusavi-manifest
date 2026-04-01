@@ -284490,6 +284490,11 @@
       executable: MikeDies.exe
       type: default
 696220:
+  cloud:
+    saves:
+      - path: FolkloreHunter/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
   installDir: FolkloreHunter
   launch:
     - executable: FolkloreHunter.exe
@@ -644042,6 +644047,18 @@
       description: VR
       executable: Maid of Sker VR.exe
       type: openxr
+4007420:
+  cloud:
+    saves:
+      - path: Torch_of_Shadows
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: Torch_of_Shadows
+        pattern: "*.ini"
+        root: WinAppDataLocal
+  installDir: TorchOfShadows
+  launch:
+    - executable: TorchOfShadows.exe
 4012810: {}
 4016300:
   installDir: Beer Machine
@@ -644465,6 +644482,17 @@
       executable: Reclaim! Azhe-Giiwewining.app
 4202710: {}
 4208140: {}
+4209010:
+  installDir: Lakehopper
+  launch:
+    - config:
+        oslist: windows
+      executable: Lakehopper.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Lakehopper.x86_64
+      type: default
 4210700:
   installDir: Chicky Blocks
   launch:
@@ -644563,6 +644591,7 @@
 4317460: {}
 4328440: {}
 4333430: {}
+4335460: {}
 4339870:
   installDir: Goreagulation
   launch:
