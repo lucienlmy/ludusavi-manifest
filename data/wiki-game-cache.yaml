@@ -2583,9 +2583,9 @@ A Dance of Fire and Ice:
   pageId: 125260
   steam: 977950
   templates:
-    - "{{Game data/config|Windows|%AppData%/LocalLow/7th Beat Games\\A Dance of Fire and Ice\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\7th Beat Games\\A Dance of Fire and Ice\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/7th Beat Games/A Dance of Fire and Ice}}"
-    - "{{Game data/saves|Windows|%AppData%/LocalLow/7th Beat Games\\A Dance of Fire and Ice\\|{{p|game}}\\User}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\7th Beat Games\\A Dance of Fire and Ice\\|{{p|game}}\\User}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/7th Beat Games/A Dance of Fire and Ice}}"
 "A Dark World: The Glowing City":
   pageId: 153208
@@ -44283,6 +44283,7 @@ Coconut Queen:
   steam: 38070
 Cocoon:
   cloud:
+    epic: true
     steam: true
     xbox: true
   lutris: cocoon
@@ -50611,8 +50612,13 @@ Crown and Council:
   pageId: 43436
   steam: 444250
 Crown of Greed:
+  cloud:
+    steam: true
+  lutris: crown-of-greed--1
   pageId: 200868
   steam: 1697870
+  steamSide:
+    - 4527750
 Crown of Worlds:
   pageId: 105693
   steam: 898670
@@ -118840,6 +118846,8 @@ Jailbreak Russia:
 Jailbreak Simulator:
   pageId: 144079
   steam: 1131940
+Jak 3 (OpenGOAL):
+  pageId: 215203
 Jak II (OpenGOAL):
   pageId: 190611
   renamedFrom:
@@ -124285,6 +124293,7 @@ Kings and Heroes:
 Kings of Hell:
   cloud:
     steam: true
+  lutris: kings-of-hell
   pageId: 215132
   steam: 3120020
   templates:
@@ -127552,8 +127561,14 @@ Last Mage Standing:
   pageId: 55143
   steam: 568030
 Last Man Sitting:
+  cloud:
+    steam: true
+  lutris: last-man-sitting
   pageId: 80659
   steam: 774291
+  steamSide:
+    - 4425580
+    - 4425590
 Last Man Standing:
   pageId: 55456
   steam: 506540
@@ -154547,6 +154562,7 @@ Neon Warp:
   steam: 485920
 Neon White:
   cloud:
+    epic: true
     steam: true
     xbox: true
   lutris: neon-white

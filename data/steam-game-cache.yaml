@@ -325445,7 +325445,21 @@
     - arguments: "--in-process-gpu"
       executable: Game.exe
       type: default
-774291: {}
+774291:
+  cloud:
+    saves:
+      - path: LastManSitting/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Last Man Sitting
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LMSGame.exe
+      type: default
+  nameLocalized:
+    schinese: 社畜大作战
 774321:
   installDir: STARBO
   launch:
@@ -575677,7 +575691,25 @@
     spanish: "DC Liga de Supermascotas: Aventuras de Krypto & Ace"
     swedish: "DC League of Super-Pets: Krypto och Aces äventyr"
 1697770: {}
-1697870: {}
+1697870:
+  cloud:
+    saves:
+      - path: BLUM Entertainment/Crown Of Greed/Saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: BLUM Entertainment/Crown Of Greed/Saves
+            replace: ".config/unity3d/BLUM Entertainment/Crown Of Greed/Saves"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: "King's Reign"
+  launch:
+    - executable: Crown Of Greed.exe
+      type: default
 1697940:
   installDir: The Whisperer
   launch:

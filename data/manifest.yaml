@@ -8271,7 +8271,7 @@ A Dance of Fire and Ice:
         - save
       when:
         - os: windows
-    "<winAppData>/LocalLow/7th Beat Games/A Dance of Fire and Ice":
+    "<home>/AppData/LocalLow/7th Beat Games/A Dance of Fire and Ice":
       tags:
         - config
         - save
@@ -138259,6 +138259,7 @@ Coconut Queen:
     id: 38070
 Cocoon:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/GeometricInteractive/Cocoon":
@@ -157870,6 +157871,26 @@ Crown and Council:
   steam:
     id: 444250
 Crown of Greed:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/BLUM Entertainment/Crown Of Greed/Saves":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/BLUM Entertainment/Crown Of Greed/Saves":
+      when:
+        - store: steam
+  id:
+    lutris: crown-of-greed--1
+    steamExtra:
+      - 4527750
+  installDir:
+    "King's Reign": {}
+  launch:
+    "<base>/Crown Of Greed.exe":
+      - when:
+          - store: steam
   steam:
     id: 1697870
 Crown of Worlds:
@@ -384907,6 +384928,8 @@ Kings of Hell:
         - save
       when:
         - os: windows
+  id:
+    lutris: kings-of-hell
   installDir:
     Kings of Hell: {}
   launch:
@@ -394825,6 +394848,25 @@ Last Mage Standing:
   steam:
     id: 568030
 Last Man Sitting:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/LastManSitting/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: last-man-sitting
+    steamExtra:
+      - 4425580
+      - 4425590
+  installDir:
+    Last Man Sitting: {}
+  launch:
+    "<base>/LMSGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 774291
 Last Man Standing:
@@ -477542,6 +477584,7 @@ Neon Warp:
     id: 485920
 Neon White:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Little Flag Software, LLC/Neon White/<storeUserId>/Ghosts/*/*.phant":
