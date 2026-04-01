@@ -29362,12 +29362,12 @@ Alias:
         - config
 "Alias: Underground":
   files:
-    "<base>home/Trimorph/client/browser.cfg":
+    "<base>/home/Trimorph/client/browser.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>home/Trimorph/client/gameProperties.cfg":
+    "<base>/home/Trimorph/client/gameProperties.cfg":
       tags:
         - save
       when:
@@ -132229,7 +132229,12 @@ Cities XL Platinum:
   cloud:
     steam: true
   files:
-    "<winAppData>/Monte Cristo/Cities XL Platinum":
+    "<winLocalAppData>/Focus Home Interactive/Cities XL 2012/live/offline/player1.cxl":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Focus Home Interactive/Cities XL 2012/live/offline/solo":
       tags:
         - save
       when:
@@ -132246,10 +132251,16 @@ Cities XXL:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/focus home interactive/Cities XXL/live/offline/solo":
+    "<winLocalAppData>/Focus Home Interactive/Cities XXL/live/offline/player1.cxl":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Focus Home Interactive/Cities XXL/live/offline/solo":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Cities XXL: {}
   launch:
@@ -308208,6 +308219,15 @@ Grime II:
         - os: windows
   id:
     lutris: grime-ii
+    steamExtra:
+      - 4025170
+      - 4557290
+  installDir:
+    GRIME II: {}
+  launch:
+    "<base>/GRIME II.exe":
+      - when:
+          - store: steam
   steam:
     id: 2529790
 Grimind:
@@ -638897,6 +638917,12 @@ Solo Flight:
   steam:
     id: 1703090
 "Solo Leveling: Arise":
+  files:
+    "<home>/AppData/LocalLow/NetmarbleNeo/Solo_Leveling_ARISE_OVERDRIVE/<storeUserId>/SaveFolder":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Solo Leveling: {}
   registry:
@@ -681222,7 +681248,24 @@ Super Meat Boy:
     id: 40800
 Super Meat Boy 3D:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/SMB/Saved/SaveGames/MiscSavegame.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/SMB/Saved/SaveGames/SG_Achievements.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/SMB/Saved/SaveGames/SG_SaveSlotData_Slot0.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/SMB/Saved/SaveGames/SG_SaveSlotData_Slot1.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/SMB/Saved/SaveGames/SG_SaveSlotData_Slot2.sav":
+      when:
+        - store: steam
   gog:
     id: 1270057484
   id:
@@ -681231,6 +681274,8 @@ Super Meat Boy 3D:
     lutris: super-meat-boy-3d
     steamExtra:
       - 4196240
+  installDir:
+    Super Meat Boy 3D: {}
   steam:
     id: 3288210
 Super Meat Boy Forever:

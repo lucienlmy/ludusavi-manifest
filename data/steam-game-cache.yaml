@@ -614104,13 +614104,19 @@
       executable: Moonring.app
       type: default
 2373990:
+  cloud:
+    saves:
+      - path: "NetmarbleNeo\\Solo_Leveling_ARISE_OVERDRIVE\\{64BitSteamID}\\SaveFolder"
+        pattern: "*.db"
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: Solo Leveling
   launch:
     - config:
         betakey: "neodev_test, neodev_test2, neodev, netmarble_liveqa, netmarble_qa"
         osarch: "64"
         oslist: windows
-      executable: Solo_Leveling_ARISE_OVERDRIVE_Launcher.exe
+      executable: Solo_Leveling_ARISE_OVERDRIVE.exe
       type: default
   nameLocalized:
     japanese: 俺だけレベルアップな件：ARISE OVERDRIVE
@@ -621120,7 +621126,25 @@
       executable: BaseballClub.app
       type: default
 2528410: {}
-2529790: {}
+2529790:
+  cloud:
+    saves:
+      - path: "Clover Bite\\GRIME II\\Save Files"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: GRIME II
+  launch:
+    - executable: GRIME II.exe
+      type: default
+  nameLocalized:
+    schinese: 尘埃异变2
 2529820:
   installDir: Wedding Witch
   launch:
@@ -637409,6 +637433,39 @@
   launch:
     - executable: NINJAGAIDEN2BLACK.exe
 3288210:
+  cloud:
+    saves:
+      - path: SMB/Saved/SaveGames
+        pattern: MiscSavegame.sav
+        root: WinAppDataLocal
+      - path: SMB/Saved/SaveGames
+        pattern: SG_Achievements.sav
+        root: WinAppDataLocal
+      - path: SMB/Saved/SaveGames
+        pattern: SG_SaveSlotData_Slot0.sav
+        root: WinAppDataLocal
+      - path: SMB/Saved/SaveGames
+        pattern: SG_SaveSlotData_Slot1.sav
+        root: WinAppDataLocal
+      - path: SMB/Saved/SaveGames
+        pattern: SG_SaveSlotData_Slot2.sav
+        root: WinAppDataLocal
+  installDir: Super Meat Boy 3D
+  launch:
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Super Meat Boy 3D (DX12)
+      executable: SMB.exe
+      type: option1
+    - arguments: "-dx11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Super Meat Boy 3D (DX11)
+      executable: SMB.exe
+      type: option1
   nameLocalized:
     schinese: 超级肉肉男孩 3D
 3288270:

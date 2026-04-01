@@ -9289,8 +9289,8 @@ Alias:
   lutris: alias-underground
   pageId: 161483
   templates:
-    - "{{Game data/config|Windows|{{P|game}}home\\Trimorph\\client\\browser.cfg}}"
-    - "{{Game data/saves|Windows|{{P|game}}home\\Trimorph\\client\\gameProperties.cfg}}"
+    - "{{Game data/config|Windows|{{P|game}}\\home\\Trimorph\\client\\browser.cfg}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\home\\Trimorph\\client\\gameProperties.cfg}}"
 Alice - Behind the Mirror:
   pageId: 91781
   steam: 835700
@@ -42345,12 +42345,17 @@ Cities XL Platinum:
   pageId: 6189
   steam: 231140
   templates:
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Monte Cristo\\Cities XL Platinum}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XL 2012\\live\\offline\\player1.cxl}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XL 2012\\live\\offline\\solo\\}}"
 Cities XXL:
   cloud:
     steam: true
+  malformed: true
   pageId: 29557
   steam: 313010
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XXL\\live\\offline\\player1.cxl}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XXL\\live\\offline\\solo\\}}"
 Cities in Motion:
   gog: 1437043994
   gogSide:
@@ -99350,6 +99355,9 @@ Grime II:
   lutris: grime-ii
   pageId: 213933
   steam: 2529790
+  steamSide:
+    - 4025170
+    - 4557290
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Clover Bite\\GRIME II\\Save Files\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Clover Bite\\GRIME II\\Save Files\\}}"
@@ -206548,6 +206556,7 @@ Solo:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\NetmarbleNeo\\Solo_Leveling_ARISE_OVERDRIVE\\{{P|uid}}\\SaveFolder}}"
 Solraven:
   pageId: 44301
   steam: 437400
@@ -220183,6 +220192,7 @@ Super Meat Boy:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SuperMeatBoy/}}"
 Super Meat Boy 3D:
   cloud:
+    gog: true
     steam: true
     xbox: true
   gog: 1270057484
