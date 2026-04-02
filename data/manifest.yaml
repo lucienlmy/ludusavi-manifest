@@ -35520,6 +35520,8 @@ American Truck Simulator:
       - 1209470
       - 1209471
       - 2543810
+      - 2585150
+      - 2730870
       - 2910160
       - 2926440
       - 3012580
@@ -173232,11 +173234,22 @@ Darwin Project:
   cloud:
     epic: true
     steam: true
+  files:
+    "<winLocalAppData>/DarwinParadox/Saved/SaveGames/MainGame/Steam/*.sav":
+      when:
+        - store: steam
   id:
     lutris: darwins-paradox
     steamExtra:
       - 3349210
       - 3990600
+  installDir:
+    "Darwin's Paradox": {}
+  launch:
+    "<base>/Darwin's Paradox.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2989180
 "Darwin's Test":
@@ -219991,6 +220004,8 @@ Dying 1983:
   steam:
     id: 1490830
 Dying Breed:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Sarnayer/Dying Breed":
       when:
@@ -738387,7 +738402,12 @@ The Precinct:
     epic: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Fallen Tree Games Ltd/The Precinct":
+    "<home>/AppData/LocalLow/Fallen Tree Games Ltd/The Precinct/SaveGame_Steam/Profile/PlayerProfile.dat.bson":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Fallen Tree Games Ltd/The Precinct/SaveGame_Steam/SceneMap_default":
       tags:
         - save
       when:

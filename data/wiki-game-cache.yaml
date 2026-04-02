@@ -11353,6 +11353,8 @@ American Truck Simulator:
     - 1209470
     - 1209471
     - 2543810
+    - 2585150
+    - 2730870
     - 2910160
     - 2926440
     - 3012580
@@ -21519,6 +21521,8 @@ Barbie Fashion Designer:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Barbie Horse Adventures - Riding Camp\\SaveGame\\}}"
 Barbie Horse Trails:
+  cloud:
+    xbox: true
   pageId: 210109
   steam: 2786660
 Barbie Pet Rescue:
@@ -70570,6 +70574,8 @@ Dying 1983:
   pageId: 181819
   steam: 1490830
 Dying Breed:
+  cloud:
+    steam: true
   pageId: 209233
   steam: 2088550
 Dying Light:
@@ -238647,7 +238653,8 @@ The Precinct:
     - 2893830
     - 3240070
   templates:
-    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Fallen Tree Games Ltd\\The Precinct}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Fallen Tree Games Ltd\\The Precinct\\SaveGame_Steam\\Profile\\PlayerProfile.dat.bson}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Fallen Tree Games Ltd\\The Precinct\\SaveGame_Steam\\SceneMap_default}}"
 The Preposterous Awesomeness of Everything:
   pageId: 44675
   steam: 435840

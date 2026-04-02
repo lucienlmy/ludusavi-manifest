@@ -632355,7 +632355,18 @@
     koreana: "용과 같이0 맹세의 장소 Director's Cut"
     schinese: 人中之龙０ 誓约的场所 导演剪辑版
     tchinese: 人中之龍０ 誓約的場所 導演剪輯版
-2989180: {}
+2989180:
+  cloud:
+    saves:
+      - path: "DarwinParadox\\Saved\\SaveGames\\MainGame\\Steam"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: "Darwin's Paradox"
+  launch:
+    - config:
+        oslist: windows
+      executable: "Darwin's Paradox.exe"
+      type: default
 2989400:
   installDir: Starstream
   launch:
