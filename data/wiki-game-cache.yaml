@@ -7479,6 +7479,7 @@ Age of Empires IV:
     - 1959430
     - 3067190
     - 3144890
+    - 3746540
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Age of Empires IV\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Age of Empires IV\\Users\\(UserID)\\Savegames\\}}"
@@ -63312,6 +63313,9 @@ Disgaea 6 Complete:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\Disgaea 7\\Setting.ini}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\Disgaea 7\\{{P|uid}}\\}}"
+Disgaea Mayhem:
+  pageId: 215275
+  steam: 4402250
 Disgaea PC:
   cloud:
     steam: true
@@ -116394,6 +116398,7 @@ Insincere:
   gogSide:
     - 1480578627
     - 1676715139
+  lutris: insomnia-the-ark
   pageId: 91596
   steam: 783170
   steamSide:
@@ -184890,6 +184895,8 @@ Resident Evil:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\capcom\\RESIDENT EVIL|{{p|hklm}}\\Software\\capcom\\BIO HAZARD{{note|For the MediaKite release}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\savedat*.dat|{{p|game}}\\SAVE\\savedata}}"
 Resident Evil 2:
+  cloud:
+    gog: true
   gog: 1534123252
   pageId: 21579
   steam: 4249110
@@ -218354,9 +218361,15 @@ Suburban Scavengers:
 Subverse:
   cloud:
     gog: true
+    steam: true
   gog: 2033799141
+  gogSide:
+    - 1840631280
   pageId: 137157
   steam: 1034140
+  steamSide:
+    - 3342820
+    - 4245650
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Subverse\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Subverse\\Saved\\SaveGames\\}}"
@@ -272055,6 +272068,7 @@ Xenonauts:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Goldhawk Interactive/Xenonauts/}}"
 Xenonauts 2:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1412583633

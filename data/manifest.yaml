@@ -23577,6 +23577,7 @@ Age of Empires IV:
       - 1959430
       - 3067190
       - 3144890
+      - 3746540
   installDir:
     Age of Empires IV: {}
   steam:
@@ -197081,6 +197082,9 @@ Disgaea 6 Complete:
           - store: steam
   steam:
     id: 2250600
+Disgaea Mayhem:
+  steam:
+    id: 4402250
 Disgaea PC:
   cloud:
     steam: true
@@ -348044,6 +348048,14 @@ I Am Jesus Christ:
     lutris: i-am-jesus-christ
     steamExtra:
       - 2007580
+  installDir:
+    I Am Jesus Christ: {}
+  launch:
+    "<base>/IMJCH.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1198970
 "I Am Jesus Christ: Prologue":
@@ -360599,6 +360611,7 @@ Insincere:
     gogExtra:
       - 1480578627
       - 1676715139
+    lutris: insomnia-the-ark
     steamExtra:
       - 942170
       - 949900
@@ -571125,6 +571138,8 @@ Resident Evil:
   steam:
     id: 4249100
 Resident Evil 2:
+  cloud:
+    gog: true
   files:
     "<base>/Saves":
       tags:
@@ -675029,6 +675044,7 @@ Suburban Scavengers:
 Subverse:
   cloud:
     gog: true
+    steam: true
   files:
     "<winLocalAppData>/Subverse/Saved/Config/WindowsNoEditor":
       tags:
@@ -675042,6 +675058,12 @@ Subverse:
         - os: windows
   gog:
     id: 2033799141
+  id:
+    gogExtra:
+      - 1840631280
+    steamExtra:
+      - 3342820
+      - 4245650
   installDir:
     Subverse: {}
   launch:
@@ -837057,6 +837079,7 @@ Xenonauts:
     id: 223830
 Xenonauts 2:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:

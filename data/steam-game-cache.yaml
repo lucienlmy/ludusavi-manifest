@@ -200487,7 +200487,7 @@
       executable: Xenonauts2.exe
       type: default
   nameLocalized:
-    japanese: Xenonauts 2 ゼノノーツ2
+    japanese: Xenonauts 2 ゼノノーツ 2
     koreana: Xenonauts 2 제노너츠 2
     schinese: 异种航员2 Xenonauts 2
     tchinese: 異種航員2 Xenonauts 2
@@ -523372,7 +523372,18 @@
   launch:
     - executable: Remuage-MeltySensation.exe
       type: vr
-1198970: {}
+1198970:
+  installDir: I Am Jesus Christ
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: IMJCH.exe
+  nameLocalized:
+    japanese: I am Jesus Christ 私はイエス・キリストです
+    koreana: I am Jesus Christ 나는 예수 그리스도다
+    schinese: I am Jesus Christ 我是耶稣基督
+    tchinese: I am Jesus Christ 我是耶穌基督
 1199010:
   installDir: Tower Of God One WIsh
   launch:
@@ -610810,6 +610821,8 @@
     - config:
         oslist: macos
       executable: TerraScape.app
+  nameLocalized:
+    schinese: 愿景之城 TerraScape
 2290180:
   installDir: RidersRepublic
   launch:
@@ -644759,6 +644772,9 @@
 4395390: {}
 4395400: {}
 4395410: {}
+4402250:
+  nameLocalized:
+    japanese: 凶乱マカイズム
 4414560: {}
 4434610: {}
 4460170:
