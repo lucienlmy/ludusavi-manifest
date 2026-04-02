@@ -643145,6 +643145,7 @@
       type: default
   nameLocalized:
     japanese: 蒼き雷霆（アームドブルー） ガンヴォルト トライアングル エディション
+3813870: {}
 3816700:
   cloud:
     saves:
@@ -644563,6 +644564,12 @@
     - executable: 4249140_Launcher.exe
   nameLocalized:
     japanese: DINO CRISIS 2
+4249150:
+  installDir: 4249150_BreathofFire4
+  launch:
+    - executable: 4249150_Launcher.exe
+  nameLocalized:
+    japanese: ブレス オブ ファイアIV うつろわざるもの
 4253970:
   installDir: Napoleon 1813
   launch:

@@ -28880,6 +28880,10 @@ Blocky Snake:
 Blockz VS Ballz:
   pageId: 121389
   steam: 959440
+Blok:
+  gog: 1428919895
+  pageId: 215231
+  steam: 3813870
 Blok Drop Neo:
   pageId: 73260
   steam: 722680
@@ -32401,6 +32405,7 @@ Breath of Fire IV:
     gog: true
   gog: 1587885678
   pageId: 22583
+  steam: 4249150
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bof4.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAV\\*.DAT}}"
@@ -99700,6 +99705,7 @@ Ground War:
 Ground Zero:
   cloud:
     steam: true
+  lutris: ground-zero--2
   pageId: 205730
   steam: 2340130
 "Ground Zero Texas: Nuclear Edition":
@@ -148557,8 +148563,11 @@ Mortal Shell:
   gogSide:
     - 1392320570
     - 1658898549
+  lutris: mortal-shell
   pageId: 158981
   steam: 1110910
+  steamSide:
+    - 1672210
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\MortalShell\\Dungeonhaven\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\MortalShell\\Dungeonhaven\\Saved\\SaveGames\\}}"

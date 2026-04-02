@@ -89367,6 +89367,11 @@ Blocky Snake:
 Blockz VS Ballz:
   steam:
     id: 959440
+Blok:
+  gog:
+    id: 1428919895
+  steam:
+    id: 3813870
 Blok Drop Neo:
   installDir:
     BLOK DROP NEO: {}
@@ -100517,6 +100522,14 @@ Breath of Fire IV:
         - os: windows
   gog:
     id: 1587885678
+  installDir:
+    4249150_BreathofFire4: {}
+  launch:
+    "<base>/4249150_Launcher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4249150
 Breath of Warfare:
   cloud:
     steam: true
@@ -309173,6 +309186,8 @@ Ground War:
 Ground Zero:
   cloud:
     steam: true
+  id:
+    lutris: ground-zero--2
   steam:
     id: 2340130
 "Ground Zero Texas: Nuclear Edition":
@@ -459133,6 +459148,9 @@ Mortal Shell:
     gogExtra:
       - 1392320570
       - 1658898549
+    lutris: mortal-shell
+    steamExtra:
+      - 1672210
   installDir:
     Mortal Shell: {}
   launch:
