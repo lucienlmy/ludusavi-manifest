@@ -9283,7 +9283,7 @@ Algotica - Iteration 1:
 Alias:
   pageId: 59305
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Acclaim\\Alias}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Acclaim\\Alias\\1.0}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Acclaim Entertainment\\Alias}}"
 "Alias: Underground":
   lutris: alias-underground
@@ -44311,9 +44311,9 @@ Code 7:
   pageId: 65482
   steam: 650570
   templates:
-    - "{{Game data/config|Linux|$HOME/.config/unity3d/GoodwolfStudio/Code 7}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/GoodwolfStudio/Code 7}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\GoodwolfStudio\\Code 7\\saveFiles}}"
-    - "{{Game data/saves|Linux|$HOME/.config/unity3d/GoodwolfStudio/Code 7/saveFiles}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/GoodwolfStudio/Code 7/saveFiles}}"
 Code 9:
   pageId: 71717
   steam: 682280
@@ -89132,6 +89132,10 @@ Fragmentum:
 Framed Collection:
   cloud:
     steam: true
+  gog: 1974250642
+  gogSide:
+    - 1211244244
+    - 1240729197
   lutris: framed-collection
   pageId: 75147
   steam: 322450
@@ -184866,12 +184870,14 @@ Resident Evil:
   gog: 1580232252
   lutris: resident-evil
   pageId: 218
+  steam: 4249100
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\capcom\\RESIDENT EVIL|{{p|hklm}}\\Software\\capcom\\BIO HAZARD{{note|For the MediaKite release}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\savedat*.dat|{{p|game}}\\SAVE\\savedata}}"
 Resident Evil 2:
   gog: 1534123252
   pageId: 21579
+  steam: 4249110
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\CAPCOM\\RESIDENT EVIL2}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves|{{p|game}}\\savedata}}"
@@ -184909,6 +184915,7 @@ Resident Evil 3 (2020):
   gog: 1266089300
   lutris: resident-evil-3-nemesis
   pageId: 21578
+  steam: 4249120
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bio3.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
@@ -218660,6 +218667,13 @@ Suicide Guy:
   templates:
     - "{{Game data/config|Windows|HKEY_CURRENT_USER\\Software\\Chubby Pixel\\Suicide Guy Sleepin' Deeply\\}}"
     - "{{Game data/saves|Windows|HKEY_CURRENT_USER\\Software\\Chubby Pixel\\Suicide Guy Sleepin' Deeply\\}}"
+"Suicide Guy: The Lost Dreams":
+  cloud:
+    steam: true
+  pageId: 215224
+  steam: 2423470
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Chubby Pixel\\Suicide Guy The Lost Dreams\\*.sav}}"
 Suicide Simulator:
   pageId: 69490
   steam: 703810

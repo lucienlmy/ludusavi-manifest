@@ -29362,7 +29362,7 @@ Alias:
       when:
         - os: windows
   registry:
-    HKEY_CURRENT_USER/Software/Acclaim/Alias:
+    HKEY_CURRENT_USER/SOFTWARE/Acclaim/Alias/1.0:
       tags:
         - config
 "Alias: Underground":
@@ -138310,21 +138310,21 @@ Code 7:
   cloud:
     steam: true
   files:
-    $HOME/.config/unity3d/GoodwolfStudio/Code 7:
-      tags:
-        - config
-      when:
-        - os: linux
-    $HOME/.config/unity3d/GoodwolfStudio/Code 7/saveFiles:
-      tags:
-        - save
-      when:
-        - os: linux
     "<home>/AppData/LocalLow/GoodwolfStudio/Code 7/saveFiles":
       tags:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/GoodwolfStudio/Code 7":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/GoodwolfStudio/Code 7/saveFiles":
+      tags:
+        - save
+      when:
+        - os: linux
   installDir:
     Code 7: {}
   launch:
@@ -276337,7 +276337,12 @@ Framed Collection:
         - config
       when:
         - os: windows
+  gog:
+    id: 1974250642
   id:
+    gogExtra:
+      - 1211244244
+      - 1240729197
     lutris: framed-collection
     steamExtra:
       - 856840
@@ -571071,6 +571076,12 @@ Resident Evil:
     id: 1580232252
   id:
     lutris: resident-evil
+  installDir:
+    4249100_Biohazard: {}
+  launch:
+    "<base>/4249100_Launcher.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_LOCAL_MACHINE/Software/capcom/BIO HAZARD:
       tags:
@@ -571078,6 +571089,8 @@ Resident Evil:
     HKEY_LOCAL_MACHINE/Software/capcom/RESIDENT EVIL:
       tags:
         - config
+  steam:
+    id: 4249100
 Resident Evil 2:
   files:
     "<base>/Saves":
@@ -571092,10 +571105,18 @@ Resident Evil 2:
         - os: windows
   gog:
     id: 1534123252
+  installDir:
+    4249110_Biohazard2: {}
+  launch:
+    "<base>/4249110_Launcher.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_LOCAL_MACHINE/Software/CAPCOM/RESIDENT EVIL2:
       tags:
         - config
+  steam:
+    id: 4249110
 Resident Evil 2 (2019):
   cloud:
     steam: true
@@ -571171,6 +571192,14 @@ Resident Evil 3 (2020):
     id: 1266089300
   id:
     lutris: resident-evil-3-nemesis
+  installDir:
+    4249120_Biohazard3: {}
+  launch:
+    "<base>/4249120_Launcher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4249120
 Resident Evil 4:
   files:
     "<base>/SaveData.dat":
@@ -675848,6 +675877,24 @@ Suicide Guy:
             store: steam
   steam:
     id: 860860
+"Suicide Guy: The Lost Dreams":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Chubby Pixel/Suicide Guy The Lost Dreams/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Suicide Guy The Lost Dreams: {}
+  launch:
+    "<base>/SuicideGuyTheLostDreams.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2423470
 Suicide Maze Cube - Puzzle Survival HardCore Game:
   alias: Hardcore Maze Cube - Puzzle Survival Game
 Suicide Simulator:

@@ -616159,6 +616159,17 @@
   installDir: WitchHand
   launch:
     - executable: WitchHand.exe
+2423470:
+  cloud:
+    saves:
+      - path: Chubby Pixel/Suicide Guy The Lost Dreams/
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: Suicide Guy The Lost Dreams
+  launch:
+    - config:
+        oslist: windows
+      executable: SuicideGuyTheLostDreams.exe
 2424010:
   cloud:
     saves:
@@ -644519,6 +644530,27 @@
       executable: Legacy of Kain Ascendance.exe
       type: default
 4244910: {}
+4249100:
+  installDir: 4249100_Biohazard
+  launch:
+    - executable: 4249100_Launcher.exe
+  nameLocalized:
+    japanese: BIOHAZARD (1996)
+    koreana: BIOHAZARD (1996)
+4249110:
+  installDir: 4249110_Biohazard2
+  launch:
+    - executable: 4249110_Launcher.exe
+  nameLocalized:
+    japanese: BIOHAZARD 2 (1998)
+    koreana: BIOHAZARD 2 (1998)
+4249120:
+  installDir: 4249120_Biohazard3
+  launch:
+    - executable: 4249120_Launcher.exe
+  nameLocalized:
+    japanese: BIOHAZARD 3 LAST ESCAPE (1999)
+    koreana: BIOHAZARD 3 LAST ESCAPE (1999)
 4249130:
   installDir: 4249130_DinoCrisis
   launch:
