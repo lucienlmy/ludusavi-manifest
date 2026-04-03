@@ -142097,6 +142097,11 @@ Comanche 4:
           - store: steam
   steam:
     id: 32750
+Comatose:
+  cloud:
+    steam: true
+  steam:
+    id: 3301370
 Combat Air Patrol 2:
   installDir:
     Combat Air Patrol 2: {}
@@ -218461,6 +218466,8 @@ Dungeons of Dredmor:
   steam:
     id: 98800
 Dungeons of Dusk:
+  cloud:
+    steam: true
   gog:
     id: 1772771052
   steam:
@@ -348044,6 +348051,8 @@ I Am Gooey:
   steam:
     id: 1137900
 I Am Jesus Christ:
+  cloud:
+    epic: true
   id:
     lutris: i-am-jesus-christ
     steamExtra:
@@ -542525,6 +542534,9 @@ Project Eden:
     HKEY_CURRENT_USER/Software/Core Design/Project Eden/1.0:
       tags:
         - config
+Project Ethos:
+  steam:
+    id: 2139090
 Project Explore:
   files:
     "<winLocalAppData>/ProjectExplore/*.sav":
@@ -604682,9 +604694,16 @@ Screamer (2026):
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/Screamer/Saved/SaveGames/**/*.sav":
+    "<winLocalAppData>/hotwheels/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/hotwheels/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: screamer--1
   installDir:
@@ -834412,16 +834431,32 @@ WtBoy:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/Packages/505GAMESS.P.A.WuchangPCGP_tefn33qh9azfc/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Project_Plague/Saved/<storeUserId>/GameConfig":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/Project_Plague/Saved/<storeUserId>/GameSlots/maingame0":
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Project_Plague/Saved/<storeUserId>/GameSlots":
       tags:
         - save
       when:
         - os: windows
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Project_Plague/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Project_Plague/Saved/Config/Windows":
       tags:
         - config
@@ -837093,6 +837128,7 @@ Xenonauts 2:
   id:
     gogExtra:
       - 1497289938
+    lutris: xenonauts-2
   installDir:
     Xenonauts2: {}
   launch:

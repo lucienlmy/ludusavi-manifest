@@ -603819,6 +603819,30 @@
       description: Cheats + no on-screen messages
       executable: "WhatTheFog\\Binaries\\Win64\\WhatTheFogGame-Win64-Development.exe"
 2139040: {}
+2139090:
+  nameLocalized:
+    brazilian: Project ETHOS
+    czech: Project ETHOS
+    danish: Project ETHOS
+    dutch: Project ETHOS
+    finnish: Project ETHOS
+    french: Project ETHOS
+    german: Project ETHOS
+    italian: Project ETHOS
+    japanese: ETHOS（イートス）計画
+    koreana: 프로젝트 ETHOS
+    latam: Project ETHOS
+    norwegian: Project ETHOS
+    polish: Project ETHOS
+    portuguese: Project ETHOS
+    russian: Project ETHOS
+    schinese: ETHOS计划
+    spanish: Project ETHOS
+    swedish: Project ETHOS
+    tchinese: ETHOS計畫
+    thai: Project ETHOS
+    turkish: Project ETHOS
+    ukrainian: Project ETHOS
 2139230: {}
 2139300:
   cloud:
@@ -637735,6 +637759,12 @@
     - config:
         oslist: windows
       executable: Garten of Banban 0.exe
+3301370:
+  nameLocalized:
+    japanese: コーマトーズ
+    koreana: 코마토스
+    schinese: 昏迷
+    tchinese: 昏迷
 3302500:
   installDir: Liquidator
   launch:
@@ -642341,7 +642371,7 @@
       executable: Nioh3.exe
       type: default
     - config:
-        betakey: "profile,test,rating,power_check,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1"
+        betakey: "profile,test,rating,power_check,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile"
         osarch: "64"
         oslist: windows
       description: Daylight.exe

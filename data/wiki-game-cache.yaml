@@ -45520,6 +45520,11 @@ Comanche 4:
     - "{{Game data/saves|Windows|{{p|game}}\\c4plyr.sav}}"
 "Comanche: Maximum Overkill":
   pageId: 213419
+Comatose:
+  cloud:
+    steam: true
+  pageId: 215279
+  steam: 3301370
 Combat:
   pageId: 7781
 Combat Air Patrol 2:
@@ -70090,6 +70095,8 @@ Dungeons of Dredmor:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Dredmor/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/98800/}}"
 Dungeons of Dusk:
+  cloud:
+    steam: true
   gog: 1772771052
   pageId: 211678
   steam: 4176460
@@ -112382,6 +112389,8 @@ I Am Gooey:
   pageId: 144411
   steam: 1137900
 I Am Jesus Christ:
+  cloud:
+    epic: true
   lutris: i-am-jesus-christ
   pageId: 157424
   steam: 1198970
@@ -175771,6 +175780,9 @@ Project Eden:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Core Design\\Project Eden\\1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVED GAMES\\}}"
+Project Ethos:
+  pageId: 215277
+  steam: 2139090
 Project Explore:
   pageId: 48423
   steam: 357650
@@ -195821,6 +195833,9 @@ Screamer (2026):
   lutris: screamer--1
   pageId: 200262
   steam: 2814990
+  templates:
+    - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\hotwheels\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\\hotwheels\\Saved\\SaveGames\\}}"
 Screamer 2:
   gog: 1207659141
   lutris: screamer-2
@@ -271152,8 +271167,10 @@ WtBoy:
     - 3653790
     - 3758190
   templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Project_Plague\\Saved\\{{P|uid}}\\GameConfig\\|{{P|localappdata}}\\Project_Plague\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/config|Windows|{{P|localappdata}}\\Project_Plague\\Saved\\{{P|uid}}\\GameConfig\\|{{P|localappdata}}\\Project_Plague\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Project_Plague\\Saved\\{{P|uid}}\\GameSlots\\maingame0\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Project_Plague\\Saved\\{{P|uid}}\\GameSlots\\|{{P|localappdata}}\\Packages\\505GAMESS.P.A.WuchangPCGP_tefn33qh9azfc\\SystemAppData\\wgs\\<ref>{{Refcheck|user=SixelAlexiS|date=2026-04-03|comment=Data inside the '''wgs''' folder is only used for the Xbox Cloud service, saves are dictated by the {{P|'''localappdata'''}}'''\\Project_Plague''' folder and then converted to Xbox encrypted save system and put in '''wgs''' folder to be synced in the cloud.}}</ref>}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Project_Plague\\Saved\\{{P|uid}}\\GameSlots\\}}"
 Wulverblade:
   cloud:
     steam: true
@@ -272074,6 +272091,7 @@ Xenonauts 2:
   gog: 1412583633
   gogSide:
     - 1497289938
+  lutris: xenonauts-2
   pageId: 91681
   steam: 538030
   templates:
