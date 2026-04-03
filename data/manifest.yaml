@@ -749638,6 +749638,19 @@ The Weaponographist:
   steam:
     id: 329240
 "The Weeping Swan: Ten Days of the City's Fall":
+  files:
+    "<home>/AppData/LocalLow/ZeroCreation/TheLamentingGees":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    哀鸿：城破十日记: {}
+  launch:
+    "<base>/TheLamentingGeese.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3220060
 The Wendigo:

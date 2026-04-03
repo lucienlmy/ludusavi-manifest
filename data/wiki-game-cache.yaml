@@ -176779,14 +176779,14 @@ Psychonauts:
   pageId: 138
   steam: 3830
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\}}"
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Psychonauts\\}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Psychonauts/}}"
-    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Psychonauts/}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\}}"
-    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Psychonauts\\Profiles\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Psychonauts/Profiles/}}"
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Psychonauts/Profiles/}}"
+    - "{{Game data/config|Windows|{{P|game}}}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Psychonauts}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Psychonauts}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Psychonauts}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Psychonauts\\Profiles}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Psychonauts/Profiles}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Psychonauts/Profiles}}"
 Psychonauts 2:
   cloud:
     gog: true

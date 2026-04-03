@@ -636480,9 +636480,25 @@
 3219630: {}
 3220050: {}
 3220060:
+  cloud:
+    saves:
+      - path: ZeroCreation/TheLamentingGees
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: 哀鸿：城破十日记
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TheLamentingGeese.exe
+      type: default
   nameLocalized:
     english: "The Weeping Swan: Ten Days of the City's Fall"
     japanese: 泣き叫ぶ雁
+    russian: "Плач неприкаянных лебедей: Десять дней после падения города"
     schinese: 哀鸿：城破十日记
     tchinese: 哀鴻：城破十日記
 3222830:
