@@ -65440,6 +65440,7 @@ Doom 64 EX:
     - "{{Game data/saves|Windows|{{P|game}}\\doomsav*.dsg}}"
 Doom Eternal:
   cloud:
+    gog: true
     steam: true
     xbox: true
   lutris: doom-eternal

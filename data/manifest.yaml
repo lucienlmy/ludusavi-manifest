@@ -203566,6 +203566,7 @@ Doom Classic:
   alias: Doom I Enhanced
 Doom Eternal:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Saved Games/id Software/DOOMEternal/base":
