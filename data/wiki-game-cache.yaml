@@ -94012,6 +94012,9 @@ Genetic Disaster:
 Geneticognito:
   pageId: 65037
   steam: 655490
+Genewars:
+  lutris: genewars
+  pageId: 215289
 Genghis Khan:
   cloud:
     steam: true
@@ -177670,6 +177673,8 @@ Puzzle Box:
   steamSide:
     - 464860
     - 500860
+Puzzle Castle:
+  pageId: 215285
 Puzzle Chambers:
   cloud:
     steam: true
@@ -226438,6 +226443,10 @@ Teenage Mutant Ninja Turtles (2003):
     xbox: true
   pageId: 195982
   steam: 2527580
+"Teenage Mutant Ninja Turtles: Empire City":
+  lutris: teenage-mutant-ninja-turtles-empire-city
+  pageId: 215281
+  steam: 3713650
 "Teenage Mutant Ninja Turtles: Manhattan Missions":
   pageId: 176772
 "Teenage Mutant Ninja Turtles: Mutant Melee":

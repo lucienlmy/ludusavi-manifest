@@ -291498,6 +291498,9 @@ Geneticognito:
             store: steam
   steam:
     id: 655490
+Genewars:
+  id:
+    lutris: genewars
 Genghis Khan:
   cloud:
     steam: true
@@ -700750,6 +700753,11 @@ Teenage Mutant Ninja Turtles (2007):
           - store: steam
   steam:
     id: 2527580
+"Teenage Mutant Ninja Turtles: Empire City":
+  id:
+    lutris: teenage-mutant-ninja-turtles-empire-city
+  steam:
+    id: 3713650
 "Teenage Mutant Ninja Turtles: Mutants Unleashed":
   cloud:
     steam: true
