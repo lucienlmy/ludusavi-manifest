@@ -31854,6 +31854,9 @@ Brain In My Head:
 Brain Machine:
   pageId: 66233
   steam: 601120
+Brain Spa:
+  pageId: 215324
+  steam: 15350
 "Brain Storm: Tower Bombarde":
   pageId: 65484
   steam: 669750
@@ -39453,6 +39456,9 @@ Ceres:
 Ceress and Orea:
   pageId: 91520
   steam: 820900
+"Cesar Milan's Dog Whisperer":
+  pageId: 215322
+  steam: 33200
 Cetetorius:
   pageId: 144877
   steam: 1140020
@@ -118495,6 +118501,7 @@ JDM Tuner Racing:
     - 1250900179
     - 1601175939
     - 1891590752
+  lutris: jdm-japanese-drift-master
   pageId: 203487
   steam: 1153410
   steamSide:

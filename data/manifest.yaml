@@ -98618,6 +98618,15 @@ Brain Machine:
             store: steam
   steam:
     id: 601120
+Brain Spa:
+  installDir:
+    Brain Spa: {}
+  launch:
+    "<base>/testapp.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 15350
 "Brain Storm: Tower Bombarde":
   installDir:
     Brain Storm  Tower Bombarde: {}
@@ -122709,6 +122718,9 @@ Ceress and Orea:
             store: steam
   steam:
     id: 820900
+"Cesar Milan's Dog Whisperer":
+  steam:
+    id: 33200
 Cetetorius:
   installDir:
     Cetetorius: {}
@@ -367372,6 +367384,7 @@ JDM Tuner Racing:
       - 1250900179
       - 1601175939
       - 1891590752
+    lutris: jdm-japanese-drift-master
     steamExtra:
       - 3749550
       - 4054180

@@ -5290,6 +5290,10 @@
   installDir: The Settlers Rise of an Empire
   launch:
     - executable: Play Settlers 6.exe
+15350:
+  installDir: Brain Spa
+  launch:
+    - executable: testapp.exe
 15370:
   installDir: Heroes of Might and Magic 5 Tribes of the East
   launch:
@@ -8149,6 +8153,7 @@
         oslist: windows
       executable: ZombieShooter2.exe
       type: default
+33200: {}
 33210:
   installDir: Dawn of Discovery
   launch:
