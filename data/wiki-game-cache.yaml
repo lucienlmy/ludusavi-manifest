@@ -55730,6 +55730,9 @@ Darwin Project:
   steamSide:
     - 3349210
     - 3990600
+  templates:
+    - "{{Game data/config|Steam|{{P|localappdata}}\\DarwinParadox\\Saved\\SaveGames\\MainGame\\Steam\\DarwinsParadoxSettings.sav}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\DarwinParadox\\Saved\\SaveGames\\MainGame\\Steam\\DarwinsParadoxData.sav}}"
 "Darwin's Test":
   cloud:
     steam: true
@@ -112550,6 +112553,7 @@ I Hate Santa:
   steam: 557730
 I Hate This Place:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1552308959
@@ -112559,6 +112563,9 @@ I Hate This Place:
   steamSide:
     - 4332390
     - 4354700
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\RockSquareThunder\\I Hate This Place}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\RockSquareThunder\\I Hate This Place\\*.json}}"
 I Have Lived:
   pageId: 157108
   steam: 1200700
@@ -139202,6 +139209,7 @@ Mars First Logistics:
   pageId: 188372
   steam: 1532200
   templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Shape Shop\\Mars First Logistics}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Shape Shop\\Mars First Logistics}}"
 Mars Flight VR:
   pageId: 126213

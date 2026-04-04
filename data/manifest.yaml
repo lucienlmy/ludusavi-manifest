@@ -173241,9 +173241,18 @@ Darwin Project:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/DarwinParadox/Saved/SaveGames/MainGame/Steam/*.sav":
+    "<winLocalAppData>/DarwinParadox/Saved/SaveGames/MainGame/Steam/DarwinsParadoxData.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
+    "<winLocalAppData>/DarwinParadox/Saved/SaveGames/MainGame/Steam/DarwinsParadoxSettings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: darwins-paradox
     steamExtra:
@@ -348573,13 +348582,15 @@ I Hate Santa:
     id: 557730
 I Hate This Place:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/RockSquareThunder/I Hate This Place":
+    "<home>/AppData/LocalLow/RockSquareThunder/I Hate This Place/*.json":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   gog:
     id: 1552308959
   id:
@@ -348595,6 +348606,10 @@ I Hate This Place:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/RockSquareThunder/I Hate This Place:
+      tags:
+        - config
   steam:
     id: 2604490
 I Have Lived:
@@ -430983,6 +430998,7 @@ Mars First Logistics:
   files:
     "<home>/AppData/LocalLow/Shape Shop/Mars First Logistics":
       tags:
+        - config
         - save
       when:
         - os: windows
