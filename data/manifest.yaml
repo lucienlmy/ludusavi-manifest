@@ -109647,17 +109647,6 @@ CULT:
             store: steam
   steam:
     id: 1133250
-"CUSTOM ORDER MAID 3D2 It's a Night Magic":
-  installDir:
-    "CUSTOM ORDER MAID 3D2 It's a Night Magic": {}
-  launch:
-    "<base>/com3d2inm/COM3D2.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1097580
 "CW: Chaco War":
   cloud:
     steam: true
@@ -122719,6 +122708,8 @@ Ceress and Orea:
   steam:
     id: 820900
 "Cesar Milan's Dog Whisperer":
+  alias: "Cesar Millan's Dog Whisperer"
+"Cesar Millan's Dog Whisperer":
   steam:
     id: 33200
 Cetetorius:
@@ -163576,6 +163567,17 @@ Curvy:
             store: steam
   steam:
     id: 699360
+"Custom Order Maid 3D2 It's a Night Magic":
+  installDir:
+    "CUSTOM ORDER MAID 3D2 It's a Night Magic": {}
+  launch:
+    "<base>/com3d2inm/COM3D2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1097580
 Custom Town:
   files:
     "<winLocalAppData>/HTP/data/realestate":
@@ -269284,6 +269286,8 @@ Flying Corps:
       when:
         - os: dos
         - os: windows
+  id:
+    lutris: flying-corps
   installDir:
     Flying Corps: {}
   launch:
@@ -571170,6 +571174,26 @@ Resident Evil:
         - save
       when:
         - os: windows
+    "<base>/english/SAVE/savedat*.dat":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/french/SAVE/savedat*.dat":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/german/SAVE/savedat*.dat":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/japanese/SAVE/savedat*.daj":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1580232252
   id:

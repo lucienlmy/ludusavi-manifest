@@ -35335,9 +35335,6 @@ CUBE 332:
 CULT:
   pageId: 144109
   steam: 1133250
-"CUSTOM ORDER MAID 3D2 It's a Night Magic":
-  pageId: 141415
-  steam: 1097580
 "CW: Chaco War":
   cloud:
     steam: true
@@ -39456,9 +39453,13 @@ Ceres:
 Ceress and Orea:
   pageId: 91520
   steam: 820900
-"Cesar Milan's Dog Whisperer":
+"Cesar Millan's Dog Whisperer":
   pageId: 215322
+  renamedFrom:
+    - "Cesar Milan's Dog Whisperer"
   steam: 33200
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
 Cetetorius:
   pageId: 144877
   steam: 1140020
@@ -52444,6 +52445,11 @@ Curves:
 Curvy:
   pageId: 68988
   steam: 699360
+"Custom Order Maid 3D2 It's a Night Magic":
+  pageId: 141415
+  renamedFrom:
+    - "CUSTOM ORDER MAID 3D2 It's a Night Magic"
+  steam: 1097580
 Custom Town:
   pageId: 36844
   steam: 517700
@@ -86995,6 +87001,8 @@ Fly Killer VR:
     steam: true
   pageId: 37992
   steam: 490820
+  templates:
+    - "{{Game data/saves|Windows|{{p|steamlibrary}}\\userdata\\{{p|uid}}\\490820\\remote}}"
 Fly Punch Boom!:
   cloud:
     steam: true
@@ -87099,6 +87107,7 @@ Flying Circus:
   pageId: 128425
   steam: 980770
 Flying Corps:
+  lutris: flying-corps
   pageId: 31680
   steam: 1643470
   templates:
@@ -184935,6 +184944,7 @@ Resident Evil:
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\capcom\\RESIDENT EVIL|{{p|hklm}}\\Software\\capcom\\BIO HAZARD{{note|For the MediaKite release}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\savedat*.dat|{{p|game}}\\SAVE\\savedata}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\english\\SAVE\\savedat*.dat|{{p|game}}\\french\\SAVE\\savedat*.dat|{{p|game}}\\german\\SAVE\\savedat*.dat|{{p|game}}\\japanese\\SAVE\\savedat*.daj|}}"
 Resident Evil 2:
   cloud:
     gog: true
