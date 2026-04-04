@@ -348594,6 +348594,10 @@ I Hate This Place:
   gog:
     id: 1552308959
   id:
+    gogExtra:
+      - 1208784581
+      - 1227565313
+      - 1845203179
     lutris: i-hate-this-place
     steamExtra:
       - 4332390
@@ -389246,12 +389250,15 @@ KrissX:
     id: 23140
 Kristala:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Kristala/Saved/SaveGames/*.sav":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: kristala
   installDir:
     Kristala: {}
   launch:
@@ -823642,6 +823649,18 @@ Wild Downtown:
     Wild Downtown: {}
   steam:
     id: 731700
+"Wild Earth: Africa":
+  id:
+    lutris: wild-earth-africa
+  installDir:
+    Wild Earth - Africa: {}
+  launch:
+    "<base>/WildEarth.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1937900
 Wild Frontera:
   installDir:
     Wild Frontera: {}

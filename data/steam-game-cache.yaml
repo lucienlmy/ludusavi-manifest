@@ -526421,6 +526421,9 @@
   installDir: Kristala
   launch:
     - executable: Kristala.exe
+  nameLocalized:
+    schinese: 月影杀
+    tchinese: 月影殺
 1206430:
   cloud:
     saves:
@@ -592037,6 +592040,13 @@
         oslist: macos
       executable: Total War PHARAOH.app
       type: default
+1937900:
+  installDir: Wild Earth - Africa
+  launch:
+    - config:
+        oslist: windows
+      executable: WildEarth.exe
+      type: default
 1938010:
   installDir: WILD HEARTS
   launch:
@@ -619031,7 +619041,7 @@
   installDir: Gray Zone Warfare
   launch:
     - config:
-        betakey: default
+        betakey: "default,staging"
         osarch: "64"
         oslist: windows
       executable: GZWClientEAC.exe
@@ -619096,7 +619106,7 @@
       type: default
     - arguments: "-MFGSupporterPreview -NakamaEndpoint=HeroicCloudSupporters"
       config:
-        betakey: "supporter-preview,staging"
+        betakey: supporter-preview
       executable: GZWClientEAC.exe
       type: default
   nameLocalized:

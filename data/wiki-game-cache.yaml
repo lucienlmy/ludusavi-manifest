@@ -82277,6 +82277,8 @@ Far Cry Primal:
 Far From Orbit:
   pageId: 149586
   steam: 1148740
+Far Gate:
+  pageId: 215314
 Far Space:
   pageId: 66490
   steam: 671760
@@ -112557,6 +112559,10 @@ I Hate This Place:
     gog: true
     steam: true
   gog: 1552308959
+  gogSide:
+    - 1208784581
+    - 1227565313
+    - 1845203179
   lutris: i-hate-this-place
   pageId: 202497
   steam: 2604490
@@ -125714,7 +125720,9 @@ KrissX:
   steam: 23140
 Kristala:
   cloud:
+    epic: true
     steam: true
+  lutris: kristala
   pageId: 203139
   steam: 1206410
 Kritika Online:
@@ -267640,6 +267648,10 @@ Wild Country:
 Wild Downtown:
   pageId: 77869
   steam: 731700
+"Wild Earth: Africa":
+  lutris: wild-earth-africa
+  pageId: 215317
+  steam: 1937900
 Wild Frontera:
   pageId: 48160
   steam: 330110
