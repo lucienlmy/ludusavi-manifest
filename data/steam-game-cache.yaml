@@ -638263,6 +638263,31 @@
   nameLocalized:
     japanese: MYRIAD DEATH -ミリアッドデス-
 3325070: {}
+3326230:
+  cloud:
+    saves:
+      - path: CozyGame/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: CozyGame/Saved/WB_RT
+        pattern: "*.tga"
+        root: WinAppDataLocal
+    overrides:
+      - addPath: /Library/Containers/com.YourCompany.CozyGame/Data/Library/Application Support/Epic/
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacHome
+  installDir: Hozy
+  launch:
+    - config:
+        oslist: windows
+      executable: CozyGame.exe
+    - config:
+        oslist: macos
+      executable: "CozyGame-Mac-Shipping.app\\Contents\\MacOS\\CozyGame-Mac-Shipping"
+  nameLocalized:
+    schinese: 焕家物语 (Hozy)
 3326660:
   cloud:
     saves:
@@ -644015,7 +644040,23 @@
         oslist: windows
       executable: EM/Binaries/Win64/EM-Win64-Shipping.exe
       type: default
-3954580: {}
+3954580:
+  cloud:
+    saves:
+      - path: "Played With Fire\\Star Trek_ Infection"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Star Trek Infection
+  launch:
+    - arguments: "-popupwindow"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Star Trek Infection.exe
+      type: openxr
 3957530: {}
 3961110:
   installDir: Sleepover reWake

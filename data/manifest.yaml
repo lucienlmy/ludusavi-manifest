@@ -330852,6 +330852,26 @@ Heroes of Might and Magic II:
       when:
         - os: dos
         - os: windows
+    "<winAppData>/fheroes2":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/fheroes2/GAMES":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgConfig>/fheroes2":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/fheroes2/GAMES":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1207658785
 Heroes of Might and Magic III:
@@ -343797,6 +343817,25 @@ Hozy:
         - save
       when:
         - os: windows
+  id:
+    lutris: hozy
+    steamExtra:
+      - 3743800
+      - 4407820
+      - 4530150
+  installDir:
+    Hozy: {}
+  launch:
+    "<base>/CozyGame-Mac-Shipping.app/Contents/MacOS/CozyGame-Mac-Shipping":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CozyGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3326230
 Hrot:
   cloud:
     gog: true
@@ -503211,6 +503250,12 @@ Orphan:
   cloud:
     gog: true
     steam: true
+  files:
+    "<winAppData>/Local/Orphan/Settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1815949873
   installDir:
@@ -658894,6 +658939,13 @@ Star Trek Timelines:
   id:
     lutris: star-trek-hidden-evil
 "Star Trek: Infection":
+  files:
+    "<home>/AppData/LocalLow/Played With Fire/Star Trek_ Infection/**/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Star Trek Infection: {}
   steam:
     id: 3954580
 "Star Trek: Infinite":

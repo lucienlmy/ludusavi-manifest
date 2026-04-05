@@ -1418,6 +1418,8 @@ $1 Ride:
   steamSide:
     - 1165410
     - 1171500
+"3DO Games: Decathlon":
+  pageId: 215342
 3DRPG:
   pageId: 45014
   steam: 431840
@@ -68690,6 +68692,8 @@ Druid:
 "Druid's Tale: Crystal Cave":
   pageId: 70347
   steam: 700560
+"Druid: Daemons of the Mind":
+  pageId: 215340
 "Druidstone: The Secret of the Menhir Forest":
   cloud:
     gog: true
@@ -106854,8 +106858,12 @@ Heroes of Might and Magic II:
   gog: 1207658785
   pageId: 6518
   templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\fheroes2}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/fheroes2/}}"
     - "{{Game data/saves|DOS|{{p|game}}\\GAMES}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GAMES}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\fheroes2\\GAMES}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/fheroes2/GAMES}}"
 Heroes of Might and Magic III:
   cloud:
     gog: true
@@ -111035,7 +111043,13 @@ Hoyle Solitaire:
 Hozy:
   cloud:
     steam: true
+  lutris: hozy
   pageId: 214037
+  steam: 3326230
+  steamSide:
+    - 3743800
+    - 4407820
+    - 4530150
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\CozyGame\\Saved\\SaveGames\\HubSaveGame.sav}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CozyGame\\Saved\\SaveGames\\LevelCompleteData.sav}}"
@@ -163004,6 +163018,8 @@ Orphan:
   gog: 1815949873
   pageId: 71407
   steam: 549700
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Local\\Orphan\\Settings.ini\\}}"
 Orphan Age:
   cloud:
     steam: true
