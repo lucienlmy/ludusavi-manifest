@@ -5835,7 +5835,6 @@ Act of Aggression:
   gogSide:
     - 1427704829
   lutris: act-of-war-high-treason
-  malformed: true
   pageId: 17276
   steam: 9760
   templates:
@@ -42383,7 +42382,6 @@ Cities XL Platinum:
 Cities XXL:
   cloud:
     steam: true
-  malformed: true
   pageId: 29557
   steam: 313010
   templates:
@@ -111244,7 +111242,6 @@ Human-powered Spacecraft:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\DarkPolygon\\HumanKind\\}}"
 HumanitZ:
-  malformed: true
   pageId: 214770
 Humanity:
   cloud:
