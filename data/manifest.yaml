@@ -189819,6 +189819,11 @@ Desperados III:
         - save
       when:
         - os: windows
+    "<home>/.local/share/THQNordic/Desperados":
+      tags:
+        - save
+      when:
+        - os: linux
     "<winAppData>/THQNordic/Desperados":
       tags:
         - save
@@ -226900,6 +226905,11 @@ Egging On:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/Egobounds/EggingOn/saves/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winLocalAppData>/Packages/AlibiGames.EggingOn_a9nsst86041dr/SystemAppData/wgs":
       tags:
         - save
@@ -766661,6 +766671,16 @@ Total Tank Simulator:
         - config
       when:
         - os: linux
+    "<winAppData>/The Creative Assembly/ThreeKingdoms/EOS/save_games":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/The Creative Assembly/ThreeKingdoms/EOS/scripts/preferences.script.txt":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winAppData>/The Creative Assembly/ThreeKingdoms/save_games":
       tags:
         - save

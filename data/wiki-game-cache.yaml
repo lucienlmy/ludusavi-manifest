@@ -60876,6 +60876,7 @@ Desperados III:
     - "{{Game data/config|Windows|{{P|game}}\\Game\\Data\\Configuration\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Game\\Data\\Savegame\\}}"
     - "{{Game data/saves|Steam|{{P|appdata}}\\THQNordic\\Desperados\\}}"
+    - "{{Game data/saves|Linux|{{p|userprofile}}/.local/share/THQNordic/Desperados/}}"
 Desperate Game:
   pageId: 82649
   steam: 682500
@@ -73020,6 +73021,7 @@ Egging On:
   steam: 2897610
   templates:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\AlibiGames.EggingOn_a9nsst86041dr\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Egobounds\\EggingOn\\saves\\*.sav}}"
 Eggness:
   cloud:
     steam: true
@@ -185708,6 +185710,8 @@ Return Fire:
   templates:
     - "{{Game data/config|Windows|{{p|hkCU}}\\SOFTWARE\\Silent Software, Inc.\\Return Fire\\1.0\\Configuration}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Silent Software, Inc.\\Return Fire\\1.0\\Levels}}"
+Return Fire 2:
+  pageId: 215328
 Return Home:
   pageId: 130484
   steam: 451940
@@ -248040,8 +248044,10 @@ Total Tank Simulator:
     - 1493250
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\The Creative Assembly\\ThreeKingdoms\\scripts\\preferences.script.txt}}"
+    - "{{Game data/config|Epic Games Store|{{p|appdata}}\\The Creative Assembly\\ThreeKingdoms\\EOS\\scripts\\preferences.script.txt}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/feral-interactive/Three Kingdoms/VFS/User/AppData/Roaming/The Creative Assembly/ThreeKingdoms/scripts/preferences.script.txt}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\The Creative Assembly\\ThreeKingdoms\\save_games\\}}"
+    - "{{Game data/saves|Epic Games Store|{{p|appdata}}\\The Creative Assembly\\ThreeKingdoms\\EOS\\save_games\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/feral-interactive/Three Kingdoms/VFS/User/AppData/Roaming/The Creative Assembly/ThreeKingdoms/save_games/}}"
 "Total War: Warhammer":
   cloud:
