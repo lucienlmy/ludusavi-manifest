@@ -26314,6 +26314,8 @@ AirStrike 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: airstrike-3d-operation-wat
 Airball:
   installDir:
     Airball: {}
@@ -342384,6 +342386,17 @@ House Flipper City:
 House Flipper Remastered Collection:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Frozen Way/House Flipper Remastered Collection":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4005190
+      - 4314250
   steam:
     id: 3710840
 House Flipper VR:
@@ -396138,6 +396151,11 @@ Laws of Machine:
             store: steam
   steam:
     id: 1506980
+Lay of the Land:
+  id:
+    lutris: lay-of-the-land
+  steam:
+    id: 2776090
 Layer Section & Galactic Attack S-Tribute:
   files:
     "<home>/Saved Games/Layer Section S-Tribute/*.bin":
@@ -571260,10 +571278,13 @@ Resident Evil:
       - when:
           - store: steam
   registry:
-    HKEY_LOCAL_MACHINE/Software/capcom/BIO HAZARD:
+    HKEY_LOCAL_MACHINE/SOFTWARE/CAPCOM/BIO HAZARD:
       tags:
         - config
-    HKEY_LOCAL_MACHINE/Software/capcom/RESIDENT EVIL:
+    HKEY_LOCAL_MACHINE/SOFTWARE/CAPCOM/RESIDENT EVIL:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/CAPCOM/STEAM_R EVIL1:
       tags:
         - config
   steam:

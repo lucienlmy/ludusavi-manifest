@@ -8304,6 +8304,7 @@ AirStrike 2:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
 "AirStrike 3D: Operation W.A.T.":
+  lutris: airstrike-3d-operation-wat
   pageId: 173665
   renamedFrom:
     - "AirStrike 3D: Operation W.A.T"
@@ -110608,6 +110609,12 @@ House Flipper Remastered Collection:
     steam: true
   pageId: 204606
   steam: 3710840
+  steamSide:
+    - 4005190
+    - 4314250
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Frozen Way\\House Flipper Remastered Collection\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Frozen Way\\House Flipper Remastered Collection\\}}"
 House Flipper VR:
   cloud:
     steam: true
@@ -128022,6 +128029,10 @@ Laws of Machine:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\青行灯\\葬花}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\青行灯\\葬花}}"
+Lay of the Land:
+  lutris: lay-of-the-land
+  pageId: 215352
+  steam: 2776090
 Layer Section:
   pageId: 143124
 Layer Section & Galactic Attack S-Tribute:
@@ -184957,7 +184968,7 @@ Resident Evil:
   pageId: 218
   steam: 4249100
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\Software\\capcom\\RESIDENT EVIL|{{p|hklm}}\\Software\\capcom\\BIO HAZARD{{note|For the MediaKite release}}}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\CAPCOM\\RESIDENT EVIL{{note|For the GOG release}}|{{p|hklm}}\\SOFTWARE\\CAPCOM\\STEAM_R EVIL1{{note|For the Steam release}}|{{p|hklm}}\\SOFTWARE\\CAPCOM\\BIO HAZARD{{note|For the MediaKite release}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\savedat*.dat|{{p|game}}\\SAVE\\savedata}}"
     - "{{Game data/saves|Steam|{{p|game}}\\english\\SAVE\\savedat*.dat|{{p|game}}\\french\\SAVE\\savedat*.dat|{{p|game}}\\german\\SAVE\\savedat*.dat|{{p|game}}\\japanese\\SAVE\\savedat*.daj|}}"
 Resident Evil 2:
@@ -263865,6 +263876,7 @@ Warhalla:
 "Warhammer 40,000: Darktide":
   cloud:
     steam: true
+    xbox: true
   pageId: 162118
   steam: 1361210
   steamSide:
