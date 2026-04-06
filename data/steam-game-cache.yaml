@@ -62738,7 +62738,7 @@
   cloud:
     saves:
       - path: data
-        pattern: HK*.*
+        pattern: H*.*
         root: gameinstall
       - path: data
         pattern: HK Autosave Slot
@@ -62748,6 +62748,12 @@
         root: gameinstall
       - path: data
         pattern: HK AutosaveN Slot
+        root: gameinstall
+      - path: data
+        pattern: HK GameSlotG*.*
+        root: gameinstall
+      - path: data
+        pattern: HK GameSlotN*.*
         root: gameinstall
   installDir: SleepingDogsDefinitiveEdition
   launch:

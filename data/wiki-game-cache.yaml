@@ -92891,10 +92891,11 @@ Ganghood Survival:
   steam: 965080
 Gangland:
   gog: 1207658977
+  lutris: gangland
   pageId: 25025
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\config\\}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\profiles\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\config}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\profiles}}"
 Gangs of Sherwood:
   cloud:
     steam: true
@@ -109304,8 +109305,8 @@ Homefront:
   steamSide:
     - 55210
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\HOMEFRONT\\GCGame\\Config\\}}"
-    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\55100\\remote\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\HOMEFRONT\\GCGame\\Config}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\55100\\remote}}"
 "Homefront: The Revolution":
   pageId: 17578
   steam: 223100

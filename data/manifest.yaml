@@ -288189,6 +288189,8 @@ Gangland:
         - os: windows
   gog:
     id: 1207658977
+  id:
+    lutris: gangland
 Gangs of Sherwood:
   cloud:
     steam: true
