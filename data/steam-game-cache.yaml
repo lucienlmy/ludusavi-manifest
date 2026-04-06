@@ -638416,15 +638416,37 @@
     saves:
       - path: Fangamer/OFF/
         pattern: "*"
-        platforms:
-          - Windows
+        recursive: true
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Fangamer/OFF/
+            replace: Fangamer/OFF
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Fangamer/OFF/
+            replace: ".config/unity3d/Fangamer/OFF"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: "OFF"
   launch:
     - config:
         oslist: windows
       description: Default launch options for Windows PCs.
       executable: OFF.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: OFF.app/Contents/MacOS/OFF
+      type: default
+    - config:
+        oslist: linux
+      executable: OFF.x86_64
       type: default
 3340810:
   installDir: Hero of the Kingdom The Lost Tales 3

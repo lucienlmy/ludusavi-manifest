@@ -490832,9 +490832,17 @@ OFF (2025):
   installDir:
     "OFF": {}
   launch:
+    "<base>/OFF.app/Contents/MacOS/OFF":
+      - when:
+          - os: mac
+            store: steam
     "<base>/OFF.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/OFF.x86_64":
+      - when:
+          - os: linux
             store: steam
   registry:
     HKEY_CURRENT_USER/Software/Fangamer/OFF:
@@ -571852,6 +571860,18 @@ Resident Evil Zero HD Remaster:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 210010
+      - 210011
+      - 210012
+      - 210013
+      - 210014
+      - 210015
+      - 210016
+      - 210017
+      - 210018
+      - 210019
   installDir:
     Resident Evil Operation Raccoon City: {}
   launch:
@@ -571877,6 +571897,16 @@ Resident Evil Zero HD Remaster:
         - os: windows
   id:
     lutris: resident-evil-revelations-biohazard-revelations-ue
+    steamExtra:
+      - 229621
+      - 229622
+      - 229626
+      - 229627
+      - 229628
+      - 229629
+      - 229630
+      - 229631
+      - 229632
   installDir:
     RESIDENT EVIL REVELATIONS: {}
   launch:

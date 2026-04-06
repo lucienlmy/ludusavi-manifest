@@ -71521,6 +71521,8 @@ EQI:
   steam: 1455920
   steamSide:
     - 1522780
+ER:
+  pageId: 215357
 ERI:
   pageId: 132225
   steam: 883900
@@ -100379,6 +100381,8 @@ Guitar Simulator:
 Gulag:
   pageId: 128710
   steam: 947230
+"Gulf War: Operation Desert Hammer":
+  pageId: 215355
 Gulf of Aden - Task Force Somalia:
   cloud:
     steam: true
@@ -136317,7 +136321,7 @@ Macdows 95:
   pageId: 57867
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Bountyhunter.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Mace and Grace:
   pageId: 134941
   steam: 1041690
@@ -185229,6 +185233,17 @@ Resident Evil Zero HD Remaster:
 "Resident Evil: Operation Raccoon City":
   pageId: 2208
   steam: 209100
+  steamSide:
+    - 210010
+    - 210011
+    - 210012
+    - 210013
+    - 210014
+    - 210015
+    - 210016
+    - 210017
+    - 210018
+    - 210019
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\CAPCOM\\RERC\\settings.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\CAPCOM\\RERC\\}}"
@@ -185238,6 +185253,16 @@ Resident Evil Zero HD Remaster:
   lutris: resident-evil-revelations-biohazard-revelations-ue
   pageId: 5683
   steam: 222480
+  steamSide:
+    - 229621
+    - 229622
+    - 229626
+    - 229627
+    - 229628
+    - 229629
+    - 229630
+    - 229631
+    - 229632
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CAPCOM\\RESIDENT EVIL REVELATIONS\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\222480\\remote\\}}"
@@ -229784,6 +229809,7 @@ The Bug Butcher:
 The Bugs Bunny Cartoon Workshop:
   pageId: 212894
 The Bugs Bunny Hare-Brained Adventure:
+  state: outdated
   lutris: the-bugs-bunny-hare-brained-adventure
   pageId: 90837
 The Bunker:
@@ -246685,6 +246711,7 @@ Tom & Jerry:
 "Tom Clancy's SSN":
   pageId: 189507
 "Tom Clancy's Splinter Cell":
+  state: outdated
   gog: 1207659034
   lutris: tom-clancys-splinter-cell
   pageId: 8580
@@ -246971,6 +246998,7 @@ Tomb Raider IV-VI Remastered:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Core Design\\TombRaiderAngelOfDarkness\\1.0\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
 "Tomb Raider: The Last Revelation":
+  state: outdated
   gog: 1207663513
   gogSide:
     - 1207659077
@@ -255328,6 +255356,7 @@ Umbrella:
   pageId: 127401
   steam: 1019170
 Umbrella Corps:
+  state: outdated
   cloud:
     steam: true
   pageId: 33391
