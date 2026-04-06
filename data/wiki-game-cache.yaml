@@ -143163,7 +143163,6 @@ Metro 2033 Redux:
   cloud:
     discord: true
     gog: true
-    steam: true
     xbox: true
   gog: 1436434037
   lutris: metro-2033-redux
@@ -186308,6 +186307,8 @@ Rex Rocket:
 "Rex: Another Island":
   pageId: 69403
   steam: 699150
+  steamSide:
+    - 788400
 Rexaura:
   cloud:
     steam: true
@@ -229809,7 +229810,6 @@ The Bug Butcher:
 The Bugs Bunny Cartoon Workshop:
   pageId: 212894
 The Bugs Bunny Hare-Brained Adventure:
-  state: outdated
   lutris: the-bugs-bunny-hare-brained-adventure
   pageId: 90837
 The Bunker:
@@ -246711,7 +246711,6 @@ Tom & Jerry:
 "Tom Clancy's SSN":
   pageId: 189507
 "Tom Clancy's Splinter Cell":
-  state: outdated
   gog: 1207659034
   lutris: tom-clancys-splinter-cell
   pageId: 8580
@@ -246998,7 +246997,6 @@ Tomb Raider IV-VI Remastered:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Core Design\\TombRaiderAngelOfDarkness\\1.0\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
 "Tomb Raider: The Last Revelation":
-  state: outdated
   gog: 1207663513
   gogSide:
     - 1207659077
@@ -255356,9 +255354,9 @@ Umbrella:
   pageId: 127401
   steam: 1019170
 Umbrella Corps:
-  state: outdated
   cloud:
     steam: true
+  lutris: umbrella-corps
   pageId: 33391
   steam: 390340
   steamSide:

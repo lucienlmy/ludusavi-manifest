@@ -442915,7 +442915,6 @@ Metro 2033:
 Metro 2033 Redux:
   cloud:
     gog: true
-    steam: true
   files:
     "<base>/<storeUserId>/user.cfg":
       tags:
@@ -575259,6 +575258,9 @@ Rex Rocket:
   steam:
     id: 288020
 "Rex: Another Island":
+  id:
+    steamExtra:
+      - 788400
   installDir:
     Rex Another Island: {}
   launch:
@@ -786947,6 +786949,7 @@ Umbrella Corps:
   cloud:
     steam: true
   id:
+    lutris: umbrella-corps
     steamExtra:
       - 450000
       - 450001
