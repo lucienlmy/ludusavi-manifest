@@ -585033,6 +585033,48 @@
   installDir: Dead End Aegis
   launch:
     - executable: DeadEndAegis.exe
+1836560:
+  cloud:
+    saves:
+      - path: SeismicSquirrel/Aether And Iron
+        pattern: "*.dat"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: SeismicSquirrel/Aether And Iron
+            replace: SeismicSquirrel/Aether And Iron
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SeismicSquirrel/Aether And Iron
+            replace: SeismicSquirrel/Aether And Iron
+        root: gameinstall
+        useInstead: MacAppSupport
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SeismicSquirrel/Aether And Iron
+            replace: com.seismicsquirrel.aetherandiron
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Aether and Iron
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: AetherAndIron.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: AetherAndIron.app
+      type: default
+  nameLocalized:
+    schinese: 以太与铁
 1836730:
   cloud:
     saves:
@@ -626969,6 +627011,7 @@
         oslist: macos
       executable: FollowTheMeaning.app
       type: default
+2723430: {}
 2725260:
   cloud:
     saves:

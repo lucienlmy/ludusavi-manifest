@@ -21838,6 +21838,49 @@ Aeternum:
             store: steam
   steam:
     id: 454750
+Aether & Iron:
+  cloud:
+    steam: true
+  files:
+    "<base>/SeismicSquirrel/Aether And Iron/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SeismicSquirrel/Aether And Iron/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/SeismicSquirrel/Aether And Iron":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.seismicsquirrel.aetherandiron":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    steamExtra:
+      - 4012310
+      - 4175420
+      - 4183830
+  installDir:
+    Aether and Iron: {}
+  launch:
+    "<base>/AetherAndIron.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/AetherAndIron.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1836560
 Aether Drift:
   cloud:
     steam: true
@@ -78349,6 +78392,48 @@ Beyond:
             store: steam
   steam:
     id: 947830
+Beyond All Reason:
+  files:
+    "<base>/data/LuaUI/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/data/bar_hotkeys_custom.lua":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data/demos":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/data/screenshots":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/data/springsettings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data/uikeys.txt":
+      tags:
+        - config
+      when:
+        - os: windows
 "Beyond Arm's Reach":
   steam:
     id: 713360
@@ -355653,6 +355738,14 @@ InGame.exe:
             store: steam
   steam:
     id: 705230
+InKonbini:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3638700
+  steam:
+    id: 2723430
 InMind 2 VR:
   installDir:
     InMind 2: {}
@@ -537025,6 +537118,13 @@ PowerWash Simulator 2:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: powerwash-simulator-2
+    steamExtra:
+      - 4043170
+      - 4173830
+      - 4229450
+      - 4556380
   installDir:
     PowerWash Simulator 2: {}
   launch:

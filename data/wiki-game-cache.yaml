@@ -6858,6 +6858,18 @@ Aeternum:
     steam: true
   pageId: 65853
   steam: 454750
+Aether & Iron:
+  cloud:
+    steam: true
+  pageId: 215367
+  steam: 1836560
+  steamSide:
+    - 4012310
+    - 4175420
+    - 4183830
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SeismicSquirrel\\Aether And Iron\\*.dat|{{p|userprofile\\appdata\\locallow}}\\SeismicSquirrel\\Aether And Iron\\*.dat}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/SeismicSquirrel/Aether And Iron|{{p|osxhome}}/Library/Application Support/com.seismicsquirrel.aetherandiron}}"
 Aether Drift:
   cloud:
     steam: true
@@ -25364,10 +25376,10 @@ Beyond:
 Beyond All Reason:
   pageId: 192516
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\data\\springsettings.cfg<br>{{P|game}}\\data\\config.json<br>{{P|game}}\\data\\uikeys.txt<br>{{P|game}}\\data\\bar_hotkeys_custom.lua<br>{{P|game}}\\data\\LuaUI\\Config\\}}"
-    - "{{Game data/config|Linux|{{P|xdgstatehome}}/Beyond All Reason/data/springsettings.cfg<br>{{P|xdgstatehome}}/Beyond All Reason/data/config.json<br>{{P|xdgstatehome}}/Beyond All Reason/data/uikeys.txt<br>{{P|xdgstatehome}}/Beyond All Reason/data/bar_hotkeys_custom.lua<br>{{P|xdgstatehome}}/Beyond All Reason/data/LuaUI/Config/}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\data\\Saves\\<br>{{P|game}}\\data\\demos\\<br>{{P|game}}\\data\\screenshots\\}}"
-    - "{{Game data/saves|Linux|{{P|xdgstatehome}}/Beyond All Reason/data/Saves/<br>{{P|xdgstatehome}}/Beyond All Reason/data/demos/<br>{{P|xdgstatehome}}/Beyond All Reason/data/screenshots/}}"
+    - "{{Game data/config|Windows|{{P|game}}\\data\\springsettings.cfg|{{P|game}}\\data\\config.json|{{P|game}}\\data\\uikeys.txt|{{P|game}}\\data\\bar_hotkeys_custom.lua|{{P|game}}\\data\\LuaUI\\Config\\}}"
+    - "{{Game data/config|Linux|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/springsettings.cfg|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/config.json|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/uikeys.txt|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/bar_hotkeys_custom.lua|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/LuaUI/Config/}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\data\\Saves\\|{{P|game}}\\data\\demos\\|{{P|game}}\\data\\screenshots\\}}"
+    - "{{Game data/saves|Linux|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/Saves/|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/demos/|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/screenshots/}}"
 "Beyond Arm's Reach":
   pageId: 70709
   steam: 713360
@@ -114795,6 +114807,13 @@ InFlux Redux:
 InGame.exe:
   pageId: 70637
   steam: 705230
+InKonbini:
+  cloud:
+    steam: true
+  pageId: 215365
+  steam: 2723430
+  steamSide:
+    - 3638700
 InMind 2 VR:
   pageId: 57987
   steam: 522220
@@ -174057,8 +174076,14 @@ PowerWash Simulator 2:
   cloud:
     steam: true
     xbox: true
+  lutris: powerwash-simulator-2
   pageId: 207066
   steam: 2968420
+  steamSide:
+    - 4043170
+    - 4173830
+    - 4229450
+    - 4556380
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\FuturLab\\PowerWash Simulator 2\\PC_Steam\\}}"
 Powerdrome:
@@ -222912,6 +222937,8 @@ Sword of Rapier:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\vDog\\Sword of Rapier}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\vDog\\Sword of Rapier\\SaveData.dat}}"
+Sword of Sodan:
+  pageId: 215362
 Sword of Vermilion:
   lutris: sword-of-vermilion
   pageId: 30842
