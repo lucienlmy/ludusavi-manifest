@@ -203710,6 +203710,8 @@ Doom Eternal:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1344230395
   id:
     lutris: doom-eternal
     steamExtra:
