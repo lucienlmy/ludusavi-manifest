@@ -619856,6 +619856,22 @@
   nameLocalized:
     japanese: あまえんぼ冬
     schinese: 冬日狂想曲
+2496180:
+  cloud:
+    saves:
+      - path: Fireproof Games/Ghost Town
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: GhostTown
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch in VR Mode
+      executable: GhostTown.exe
+      type: openxr
 2496640:
   installDir: Futanari di Funghi
   launch:
@@ -641107,6 +641123,30 @@
   nameLocalized:
     koreana: 블루 아카이브
     tchinese: 蔚藍檔案
+3558400:
+  installDir: Backseat Drivers
+  launch:
+    - arguments: "-DX11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 11
+      executable: BDS.exe
+      type: default
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 12
+      executable: BDS.exe
+      type: option1
+    - arguments: "-FeatureLevelES31 -DX11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Potato Mode (Experimental)
+      executable: BDS.exe
+      type: option2
 3558670:
   nameLocalized:
     japanese: トゥームレイダー：レガシー・オブ・アトランティス

@@ -20195,6 +20195,15 @@ Backpacker Junior:
     steam: true
   pageId: 202180
   steam: 2141730
+Backseat Drivers:
+  cloud:
+    steam: true
+  lutris: backseat-drivers
+  pageId: 215381
+  steam: 3558400
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BDS\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BDS\\Saved\\SaveGames}}"
 Backspace Bouken:
   cloud:
     steam: true
@@ -94638,6 +94647,14 @@ Ghost Stories:
 Ghost Sweeper:
   pageId: 42151
   steam: 496990
+Ghost Town:
+  cloud:
+    steam: true
+  lutris: ghost-town--4
+  pageId: 215376
+  steam: 2496180
+  steamSide:
+    - 3732460
 "Ghost Town Mine Ride & Shootin' Gallery":
   pageId: 51673
   steam: 459010
@@ -185018,8 +185035,34 @@ Resident Evil 2 (2019):
   pageId: 97738
   steam: 883710
   steamSide:
+    - 895950
+    - 920560
+    - 920561
+    - 920562
+    - 920563
+    - 920564
+    - 920565
+    - 920566
+    - 920567
+    - 920568
+    - 920569
+    - 920570
+    - 920571
+    - 920590
+    - 920591
+    - 920592
+    - 920593
+    - 920594
+    - 920595
+    - 920596
+    - 920597
+    - 920598
+    - 920599
+    - 920600
+    - 920601
     - 961440
     - 1168280
+    - 1335170
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\re2_config.ini}}"
     - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\883710\\remote\\}}"
@@ -185031,10 +185074,13 @@ Resident Evil 3 (2020):
   pageId: 154505
   steam: 952060
   steamSide:
+    - 1100830
     - 1158730
+    - 1158760
     - 1173690
     - 1295160
     - 1348140
+    - 1348150
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\steamapps\\common\\RE3\\re3_config.ini}}"
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\952060\\remote}}"
@@ -185154,7 +185200,41 @@ Resident Evil 6:
   pageId: 35030
   steam: 418370
   steamSide:
+    - 529930
+    - 530590
+    - 530591
+    - 530592
+    - 530593
+    - 530594
+    - 530595
+    - 530596
+    - 530597
+    - 530598
+    - 530599
+    - 530610
+    - 530611
     - 530940
+    - 533590
+    - 533591
+    - 533592
+    - 540340
+    - 543550
+    - 543750
+    - 553980
+    - 564190
+    - 564200
+    - 579500
+    - 579501
+    - 579502
+    - 579503
+    - 579504
+    - 579505
+    - 579506
+    - 579507
+    - 579508
+    - 580140
+    - 583810
+    - 584960
   templates:
     - "{{Game data/config|Steam|{{p|game}}\\re7_config.ini}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\F024294D.RESIDENTEVIL7biohazard_8fty0by30jkny\\SystemAppData\\wgs\\}}"
@@ -185176,6 +185256,16 @@ Resident Evil HD Remaster:
     steam: true
   pageId: 166166
   steam: 1236300
+  steamSide:
+    - 1607011
+    - 1607012
+    - 1607013
+    - 1607014
+    - 1607015
+    - 1607016
+    - 1607017
+    - 1607018
+    - 1607019
 Resident Evil Requiem:
   cloud:
     steam: true
@@ -185195,6 +185285,9 @@ Resident Evil Resistance:
     steam: true
   pageId: 146587
   steam: 952070
+  steamSide:
+    - 1108280
+    - 1295350
   templates:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\952070\\remote}}"
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\952070\\remote}}"
@@ -185217,8 +185310,17 @@ Resident Evil Village:
     - 1456361
     - 1456362
     - 1456363
+    - 1456370
+    - 1456371
+    - 1456372
+    - 1456373
+    - 1541780
+    - 1608280
     - 1731080
     - 1731081
+    - 1731100
+    - 1731101
+    - 2062120
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\1196590\\remote\\win64_save}}"
@@ -230208,6 +230310,7 @@ The Chant:
     - 1642732455
     - 1709958526
     - 2019977845
+  lutris: the-chant
   pageId: 182778
   steam: 1577250
   steamSide:

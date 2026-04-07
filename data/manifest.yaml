@@ -63153,6 +63153,33 @@ Backpack Twins:
             store: steam
   steam:
     id: 2141730
+Backseat Drivers:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BDS/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BDS/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: backseat-drivers
+  installDir:
+    Backseat Drivers: {}
+  launch:
+    "<base>/BDS.exe":
+      - arguments: "-DX11"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3558400
 Backspace Bouken:
   cloud:
     steam: true
@@ -293584,6 +293611,22 @@ Ghost Sweeper:
             store: steam
   steam:
     id: 496990
+Ghost Town:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Fireproof Games/Ghost Town/*.save":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: ghost-town--4
+    steamExtra:
+      - 3732460
+  installDir:
+    GhostTown: {}
+  steam:
+    id: 2496180
 "Ghost Town Mine Ride & Shootin' Gallery":
   installDir:
     Ghost Town Mine Ride: {}
@@ -571446,8 +571489,34 @@ Resident Evil 2 (2019):
   id:
     lutris: resident-evil-2-biohazard-re2
     steamExtra:
+      - 895950
+      - 920560
+      - 920561
+      - 920562
+      - 920563
+      - 920564
+      - 920565
+      - 920566
+      - 920567
+      - 920568
+      - 920569
+      - 920570
+      - 920571
+      - 920590
+      - 920591
+      - 920592
+      - 920593
+      - 920594
+      - 920595
+      - 920596
+      - 920597
+      - 920598
+      - 920599
+      - 920600
+      - 920601
       - 961440
       - 1168280
+      - 1335170
   installDir:
     RESIDENT EVIL 2  BIOHAZARD RE2: {}
   launch:
@@ -571476,10 +571545,13 @@ Resident Evil 3 (2020):
   id:
     lutris: resident-evil-3
     steamExtra:
+      - 1100830
       - 1158730
+      - 1158760
       - 1173690
       - 1295160
       - 1348140
+      - 1348150
   installDir:
     RE3: {}
   launch:
@@ -571732,7 +571804,41 @@ Resident Evil 6:
   id:
     lutris: resident-evil-7
     steamExtra:
+      - 529930
+      - 530590
+      - 530591
+      - 530592
+      - 530593
+      - 530594
+      - 530595
+      - 530596
+      - 530597
+      - 530598
+      - 530599
+      - 530610
+      - 530611
       - 530940
+      - 533590
+      - 533591
+      - 533592
+      - 540340
+      - 543550
+      - 543750
+      - 553980
+      - 564190
+      - 564200
+      - 579500
+      - 579501
+      - 579502
+      - 579503
+      - 579504
+      - 579505
+      - 579506
+      - 579507
+      - 579508
+      - 580140
+      - 583810
+      - 584960
   installDir:
     RESIDENT EVIL 7 biohazard: {}
   launch:
@@ -571779,6 +571885,17 @@ Resident Evil HD Remaster:
 "Resident Evil Re:Verse":
   cloud:
     steam: true
+  id:
+    steamExtra:
+      - 1607011
+      - 1607012
+      - 1607013
+      - 1607014
+      - 1607015
+      - 1607016
+      - 1607017
+      - 1607018
+      - 1607019
   installDir:
     Resident Evil ReVerse: {}
   launch:
@@ -571840,6 +571957,10 @@ Resident Evil Resistance:
         - store: steam
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 1108280
+      - 1295350
   installDir:
     RESIDENT EVIL RESISTANCE: {}
   launch:
@@ -571884,8 +572005,17 @@ Resident Evil Village:
       - 1456361
       - 1456362
       - 1456363
+      - 1456370
+      - 1456371
+      - 1456372
+      - 1456373
+      - 1541780
+      - 1608280
       - 1731080
       - 1731081
+      - 1731100
+      - 1731101
+      - 2062120
   installDir:
     Resident Evil Village BIOHAZARD VILLAGE: {}
   launch:
@@ -712697,6 +712827,7 @@ The Chant:
       - 1642732455
       - 1709958526
       - 2019977845
+    lutris: the-chant
     steamExtra:
       - 2133410
       - 2144430
