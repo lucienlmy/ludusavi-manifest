@@ -42395,6 +42395,9 @@ Cities XL 2012:
     steam: true
   pageId: 6179
   steam: 201760
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XL 2012\\live\\offline\\player1.cxl}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Focus Home Interactive\\Cities XL 2012\\live\\offline\\solo\\}}"
 Cities XL Platinum:
   cloud:
     steam: true
@@ -82204,6 +82207,9 @@ Far Away:
     steam: true
   pageId: 174063
   steam: 1250760
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\HongChaGame\\海沙风云\\GameSaves\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\HongChaGame\\海沙风云\\GameSaves\\}}"
 "Far Beyond: A Space Odyssey":
   pageId: 52247
   steam: 531050
@@ -115340,6 +115346,8 @@ Industria 2:
   lutris: industria-2
   pageId: 194609
   steam: 2154070
+  steamSide:
+    - 4063300
 Industrial Annihilation:
   pageId: 200042
   steam: 1796720
@@ -184108,6 +184116,7 @@ Reigns:
     - 512621
     - 512622
   templates:
+    - "{{Game data/config|Linux|~/.config/unity3d/devolver/Reigns/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Nerial\\Reigns\\}}"
 "Reigns: Beyond":
   pageId: 164333
@@ -188390,6 +188399,8 @@ Road to Vostok:
   lutris: road-to-vostok
   pageId: 205935
   steam: 1963610
+  steamSide:
+    - 2141300
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Road to Vostok}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Road to Vostok}}"

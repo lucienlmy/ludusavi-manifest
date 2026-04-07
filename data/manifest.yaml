@@ -132370,9 +132370,16 @@ Cities XL 2012:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Focus Home Interactive/Cities XL 2012/live/offline/solo":
+    "<winLocalAppData>/Focus Home Interactive/Cities XL 2012/live/offline/player1.cxl":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Focus Home Interactive/Cities XL 2012/live/offline/solo":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Cities XL 2012: {}
   launch:
@@ -254341,12 +254348,12 @@ Far Away:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/HongChaGame/海沙风云/GameSaves/*.head":
+    "<home>/AppData/LocalLow/HongChaGame/海沙风云/GameSaves":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/HongChaGame/海沙风云/GameSaves/*.save":
-      when:
-        - store: steam
+        - os: windows
   installDir:
     海沙风云: {}
   launch:
@@ -357320,6 +357327,8 @@ Industria 2:
     id: 2085256842
   id:
     lutris: industria-2
+    steamExtra:
+      - 4063300
   steam:
     id: 2154070
 Industrial Annihilation:
@@ -389958,10 +389967,34 @@ Kulebra and the Souls of Limbo:
 "KuloNiku: Bowl Up!":
   cloud:
     steam: true
+  files:
+    "<home>/.config/unity3d/Gambir Studio/Kuloniku/Saves":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Gambir Studio/Kuloniku/Saves":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Gambir Studio/Kuloniku/Saves":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: kuloniku-bowl-up
     steamExtra:
       - 3732560
+  installDir:
+    KuloNiku: {}
+  launch:
+    "<base>/KuloNiku.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/KuloNiku.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3357960
 "Kult of Ktulu: Olympic":
@@ -568648,6 +568681,11 @@ Reigns:
   cloud:
     gog: true
   files:
+    "<home>/.config/unity3d/devolver/Reigns/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/Nerial/Reigns":
       tags:
         - save
@@ -581355,6 +581393,20 @@ Road to Vostok:
         - os: windows
   id:
     lutris: road-to-vostok
+    steamExtra:
+      - 2141300
+  installDir:
+    Road to Vostok: {}
+  launch:
+    "<base>/RTV.exe":
+      - when:
+          - store: steam
+      - arguments: "--rendering-driver d3d12"
+        when:
+          - store: steam
+      - arguments: "--rendering-driver vulkan"
+        when:
+          - store: steam
   steam:
     id: 1963610
 Road to your City:

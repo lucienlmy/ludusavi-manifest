@@ -14660,7 +14660,6 @@
 * [Kudos 2](https://www.pcgamingwiki.com/wiki/?curid=10308)
 * [Kukoo Kitchen](https://www.pcgamingwiki.com/wiki/?curid=123604)
 * [Kukui](https://www.pcgamingwiki.com/wiki/?curid=67549)
-* [KuloNiku: Bowl Up!](https://www.pcgamingwiki.com/wiki/?curid=214468)
 * [Kult: The Temple of Flying Saucers](https://www.pcgamingwiki.com/wiki/?curid=79354)
 * [Kulzas Tomb](https://www.pcgamingwiki.com/wiki/?curid=112884)
 * [KUMACURE](https://www.pcgamingwiki.com/wiki/?curid=136720)

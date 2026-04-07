@@ -593959,7 +593959,17 @@
     japanese: Cuisineer（キュイジニア）
     schinese: Cuisineer 猫娘小厨
     tchinese: "Cuisineer 貓娘小廚 "
-1963610: {}
+1963610:
+  installDir: Road to Vostok
+  launch:
+    - executable: RTV.exe
+      type: default
+    - arguments: "--rendering-driver d3d12"
+      description: "Road to Vostok [DirectX]"
+      executable: RTV.exe
+    - arguments: "--rendering-driver vulkan"
+      description: "Road to Vostok [Vulkan]"
+      executable: RTV.exe
 1964000:
   installDir: Sunline
   launch:
@@ -638737,6 +638747,38 @@
       executable: Nedra.exe
 3357650: {}
 3357960:
+  cloud:
+    saves:
+      - path: Gambir Studio/Kuloniku/Saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Gambir Studio/Kuloniku/Saves
+            replace: Gambir Studio/Kuloniku/Saves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Gambir Studio/Kuloniku/Saves
+            replace: ".config/unity3d/Gambir Studio/Kuloniku/Saves"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: KuloNiku
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: KuloNiku.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: KuloNiku.app
+      type: default
   nameLocalized:
     schinese: 肉丸烹饪：盛满快乐
 3358250:
