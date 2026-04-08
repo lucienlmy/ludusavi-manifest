@@ -576818,9 +576818,30 @@
     - executable: motogp22.exe
       type: none
 1710820:
+  cloud:
+    saves:
+      - path: "Not Knowing Corporation\\Cleared Hot"
+        pattern: savegame.json
+        root: WinAppDataLocalLow
+      - path: "Not Knowing Corporation\\Cleared Hot"
+        pattern: uuid.txt
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Not Knowing Corporation\\Cleared Hot"
+            replace: ".config/unity3d/Not Knowing Corporation/Cleared Hot"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: ClearedHot
   launch:
-    - executable: ClearedHot.exe
+    - config:
+        oslist: windows
+      executable: ClearedHot.exe
+    - config:
+        oslist: linux
+      executable: ClearedHot
 1711700:
   installDir: "Souno's curse"
   launch:
@@ -586726,6 +586747,14 @@
   launch:
     - executable: Symphonia.exe
 1866130:
+  cloud:
+    saves:
+      - path: SCREEN JUICE/Morbid Metal/Saves
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+  installDir: Morbid Metal
+  launch:
+    - executable: Morbid Metal.exe
   nameLocalized:
     schinese: 异变金属
 1866180:
@@ -601174,6 +601203,25 @@
       executable: Nomori.x86_64
       type: default
 2092840:
+  cloud:
+    saves:
+      - path: The_Occultist/Saved/SaveGames/SlotGame
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: The Occultist
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: The_Occultist.exe
+      type: default
+    - config:
+        oslist: windows
+        ownsdlc: "4012990"
+      description: Bonus Content
+      executable: open_bonus_win.bat
   nameLocalized:
     schinese: 诡岛灵探 - The Occultist
     tchinese: 詭島靈探 - The Occultist

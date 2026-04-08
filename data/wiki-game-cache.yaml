@@ -43365,7 +43365,9 @@ Cleared Hot:
     - 3756490
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Not Knowing Corporation\\Cleared Hot\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Not Knowing Corporation/Cleared Hot/}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Not Knowing Corporation\\Cleared Hot\\savegame.json}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Not Knowing Corporation/Cleared Hot/savegame.json}}"
 "Cleo's Lost Idols":
   cloud:
     steam: true
@@ -56287,6 +56289,7 @@ DayDream Mosaics:
 DayZ:
   cloud:
     steam: true
+    xbox: true
   pageId: 13445
   steam: 221100
   steamSide:
@@ -148340,9 +148343,13 @@ Moral King:
   pageId: 137226
   steam: 875830
 Morbid Metal:
+  cloud:
+    steam: true
   lutris: morbid-metal
   pageId: 211234
   steam: 1866130
+  steamSide:
+    - 3762220
 "Morbid: The Seven Acolytes":
   cloud:
     steam: true
@@ -194280,10 +194287,14 @@ Samsara Room:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rusty Lake\\SamsaraRoom\\saveGame.sav}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rusty Lake\\SamsaraRoom\\saveGame.sav}}"
 Samson:
+  cloud:
+    epic: true
+    steam: true
   lutris: samson
   pageId: 211707
   steam: 3634520
   steamSide:
+    - 4540000
     - 4540060
 Samudai:
   pageId: 48751
@@ -238167,11 +238178,15 @@ The Occluder:
   pageId: 120727
   steam: 897880
 The Occultist:
+  cloud:
+    steam: true
   lutris: the-occultist
   pageId: 196860
   steam: 2092840
   steamSide:
     - 2328850
+    - 3691700
+    - 4012990
 The Occupant:
   pageId: 89252
   steam: 717670

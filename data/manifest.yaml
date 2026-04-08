@@ -135270,15 +135270,30 @@ Cleared Hot:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Not Knowing Corporation/Cleared Hot":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Not Knowing Corporation/Cleared Hot/savegame.json":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     steamExtra:
       - 3756490
   installDir:
     ClearedHot: {}
   launch:
+    "<base>/ClearedHot":
+      - when:
+          - os: linux
+            store: steam
     "<base>/ClearedHot.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 1710820
 "Cleo's Lost Idols":
@@ -458472,8 +458487,22 @@ Moral King:
   steam:
     id: 875830
 Morbid Metal:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SCREEN JUICE/Morbid Metal/Saves/*.save":
+      when:
+        - store: steam
   id:
     lutris: morbid-metal
+    steamExtra:
+      - 3762220
+  installDir:
+    Morbid Metal: {}
+  launch:
+    "<base>/Morbid Metal.exe":
+      - when:
+          - store: steam
   steam:
     id: 1866130
 "Morbid: The Seven Acolytes":
@@ -599580,6 +599609,9 @@ Samsara Room:
   steam:
     id: 1281800
 Samson:
+  cloud:
+    epic: true
+    steam: true
   files:
     "<base>/Samson/Saved/SaveGames/*.sav":
       when:
@@ -599587,6 +599619,7 @@ Samson:
   id:
     lutris: samson
     steamExtra:
+      - 4540000
       - 4540060
   installDir:
     Samson: {}
@@ -736626,10 +736659,27 @@ The Occluder:
   steam:
     id: 897880
 The Occultist:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/The_Occultist/Saved/SaveGames/SlotGame/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: the-occultist
     steamExtra:
       - 2328850
+      - 3691700
+      - 4012990
+  installDir:
+    The Occultist: {}
+  launch:
+    "<base>/The_Occultist.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2092840
 The Occupant:
