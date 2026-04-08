@@ -8313,6 +8313,7 @@ AirStrike 2:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\game.bin}}"
 "AirStrike 2: Gulf Thunder":
+  lutris: airstrike-ii-gulf-thunder
   pageId: 173690
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
@@ -21972,6 +21973,8 @@ Bass Blocks:
     - "{{Game data/saves|Windows|{{p|programdata}}\\Trophy Bass 2007}}"
 "Bass Pro Shops: Trophy Hunter 2007":
   pageId: 192139
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Data\\Profiles\\{{p|uid}}.sav}}"
 Bassline Sinker:
   pageId: 114614
   steam: 945100
@@ -182194,6 +182197,17 @@ ReX:
 ReYal:
   pageId: 136694
   steam: 1080780
+Reach:
+  cloud:
+    steam: true
+  lutris: reach--3
+  pageId: 215432
+  steam: 3273480
+  steamSide:
+    - 3565160
+    - 3919610
+    - 3919650
+    - 3919660
 "Reach 50 : Sexy Hentai Girls":
   pageId: 123858
   steam: 987580

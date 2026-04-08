@@ -637313,6 +637313,26 @@
   nameLocalized:
     japanese: 爆走次元ネプテューヌ VS巨神スライヌ
 3273370: {}
+3273480:
+  cloud:
+    saves:
+      - path: Atlas/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Atlas
+  launch:
+    - arguments: "-d3d11"
+      config:
+        oslist: windows
+      description: Meta Headset
+      executable: Atlas.exe
+      type: othervr
+    - arguments: "-d3d11"
+      config:
+        oslist: windows
+      description: Non Meta Headset
+      executable: Atlas.exe
+      type: vr
 3273980:
   cloud:
     saves:
@@ -642164,7 +642184,18 @@
     koreana: 렘넌트의 바다
     schinese: 遗忘之海
     tchinese: 遺忘之海
-3634520: {}
+3634520:
+  cloud:
+    saves:
+      - path: Samson/Saved/SaveGames/
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Samson
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CJSteam.exe
 3636060:
   cloud:
     saves:

@@ -26345,6 +26345,8 @@ AirStrike 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: airstrike-ii-gulf-thunder
 "AirStrike 3D: Operation W.A.T":
   alias: "AirStrike 3D: Operation W.A.T."
 "AirStrike 3D: Operation W.A.T.":
@@ -68711,6 +68713,13 @@ Bass Blocks:
       when:
         - os: windows
     "<winProgramData>/Trophy Bass 2007":
+      tags:
+        - save
+      when:
+        - os: windows
+"Bass Pro Shops: Trophy Hunter 2007":
+  files:
+    "<base>/Data/Profiles/<storeUserId>.sav":
       tags:
         - save
       when:
@@ -562752,6 +562761,24 @@ ReYal:
             store: steam
   steam:
     id: 1080780
+Reach:
+  cloud:
+    steam: true
+  files:
+    "<base>/Atlas/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: reach--3
+    steamExtra:
+      - 3565160
+      - 3919610
+      - 3919650
+      - 3919660
+  installDir:
+    Atlas: {}
+  steam:
+    id: 3273480
 "Reach 50 : Sexy Hentai Girls":
   installDir:
     reach50SHG: {}
@@ -599553,10 +599580,22 @@ Samsara Room:
   steam:
     id: 1281800
 Samson:
+  files:
+    "<base>/Samson/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: samson
     steamExtra:
       - 4540060
+  installDir:
+    Samson: {}
+  launch:
+    "<base>/CJSteam.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3634520
 Samudai:
