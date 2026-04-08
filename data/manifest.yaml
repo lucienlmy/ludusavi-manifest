@@ -481668,6 +481668,9 @@ Nickelodeon All-Star Brawl 2:
           - store: steam
   steam:
     id: 2017080
+Nickelodeon Extreme Tennis Next!:
+  steam:
+    id: 4111390
 "Nickelodeon Kart Racers 2: Grand Prix":
   cloud:
     steam: true
@@ -757619,13 +757622,13 @@ Timberborn:
         - save
       when:
         - os: windows
-  gog:
-    id: 1711765822
   id:
     gogExtra:
       - 1706191726
+    lutris: timberborn
     steamExtra:
       - 1237620
+      - 1752670
   installDir:
     Timberborn: {}
   launch:

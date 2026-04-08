@@ -644676,6 +644676,7 @@
     - config:
         oslist: windows
       executable: chakana.exe
+4111390: {}
 4113570: {}
 4115450:
   nameLocalized:

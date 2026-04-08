@@ -155955,6 +155955,9 @@ Nickelodeon BrainBender:
   pageId: 183495
 Nickelodeon Extreme Tennis:
   pageId: 173696
+Nickelodeon Extreme Tennis Next!:
+  pageId: 215430
+  steam: 4111390
 "Nickelodeon Kart Racers 2: Grand Prix":
   cloud:
     steam: true
@@ -245085,13 +245088,14 @@ Timberborn:
     epic: true
     gog: true
     steam: true
-  gog: 1711765822
   gogSide:
     - 1706191726
+  lutris: timberborn
   pageId: 151436
   steam: 1062090
   steamSide:
     - 1237620
+    - 1752670
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\Saves|{{P|userprofile\\Documents}}\\Timberborn\\ExperimentalSaves{{note|Only used for the Experimental branch of the game.}}}}"
 Timberman:
