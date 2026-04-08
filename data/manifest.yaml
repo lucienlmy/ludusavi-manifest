@@ -26336,6 +26336,8 @@ AirStrike 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: airstrike-2
 "AirStrike 2: Gulf Thunder":
   files:
     "<base>/config.ini":
@@ -112105,6 +112107,10 @@ Call of War:
   steam:
     id: 672680
 Call of the Elder Gods:
+  cloud:
+    steam: true
+  id:
+    lutris: call-of-the-elder-gods
   steam:
     id: 2174380
 Call of the Mighty Warriors:
@@ -115067,6 +115073,22 @@ Car Puzzler:
             store: steam
   steam:
     id: 774191
+Car Service Together:
+  id:
+    lutris: car-service-together
+    steamExtra:
+      - 3772580
+      - 3867980
+  installDir:
+    Car Service Together: {}
+  launch:
+    "<base>/Launcher/CSTLauncher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3501070
 Car Soccer World Cup:
   installDir:
     CarSoccerWorldCup: {}
@@ -156523,6 +156545,8 @@ CrisisActionVR:
         - os: windows
   id:
     lutris: crisol-theater-of-idols
+    steamExtra:
+      - 3989380
   installDir:
     Crisol Theater of Idols: {}
   launch:
@@ -518833,6 +518857,28 @@ People Playground:
             store: steam
   steam:
     id: 1118200
+People of Note:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winLocalAppData>/PeopleOfNote/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: people-of-note
+    steamExtra:
+      - 4518200
+  installDir:
+    People of Note: {}
+  launch:
+    "<base>/PeopleOfNote.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1626170
 "People's General":
   cloud:
     gog: true
@@ -611436,6 +611482,11 @@ Serment - Contract with a Devil:
             store: steam
   steam:
     id: 632900
+"Serpens: Eternal Thievery":
+  id:
+    lutris: serpens-eternal-thievery
+  steam:
+    id: 2642850
 Serpent Fusion:
   installDir:
     Serpent Fusion: {}
@@ -657947,6 +657998,13 @@ Star Fleet Armada Rogue Adventures:
     STAR FLEET II: {}
   steam:
     id: 1470940
+Star Fox 64 (Starship):
+  files:
+    "<base>/default.sav":
+      tags:
+        - save
+      when:
+        - os: windows
 Star Garden:
   steam:
     id: 3370970

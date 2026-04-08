@@ -8307,6 +8307,7 @@ AirShock:
   pageId: 128049
   steam: 1017800
 AirStrike 2:
+  lutris: airstrike-2
   pageId: 168719
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
@@ -36140,6 +36141,10 @@ Call of War:
   pageId: 67956
   steam: 672680
 Call of the Elder Gods:
+  cloud:
+    steam: true
+    xbox: true
+  lutris: call-of-the-elder-gods
   pageId: 205357
   steam: 2174380
 Call of the Mighty Warriors:
@@ -37045,6 +37050,13 @@ Car Puzzler:
     steam: true
   pageId: 80478
   steam: 774191
+Car Service Together:
+  lutris: car-service-together
+  pageId: 215401
+  steam: 3501070
+  steamSide:
+    - 3772580
+    - 3867980
 Car Soccer World Cup:
   pageId: 141679
   steam: 1111200
@@ -50197,6 +50209,8 @@ CrisisActionVR:
   lutris: crisol-theater-of-idols
   pageId: 205295
   steam: 1790930
+  steamSide:
+    - 3989380
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\SaveGames\\}}"
@@ -168199,6 +168213,16 @@ People Playground:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.json|{{P|game}}\\ControlScheme.json|{{P|game}}\\stats}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Contraptions\\}}"
+People of Note:
+  cloud:
+    epic: true
+    steam: true
+    xbox: true
+  lutris: people-of-note
+  pageId: 215399
+  steam: 1626170
+  steamSide:
+    - 4518200
 "People's General":
   cloud:
     gog: true
@@ -198008,6 +198032,10 @@ Serment - Contract with a Devil:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\SermentFinal\\persistent|{{p|game}}\\game\\saves\\persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\SermentFinal\\*.save|{{p|game}}\\game\\saves\\*.save}}"
+"Serpens: Eternal Thievery":
+  lutris: serpens-eternal-thievery
+  pageId: 215395
+  steam: 2642850
 Serpent Fusion:
   pageId: 149406
   steam: 1126260
@@ -212897,7 +212925,7 @@ Star Fox 64 (Starship):
   pageId: 200383
   templates:
     - "{{Game data/config|Windows|In-game settings:<br>{{p|game}}\\default.sav<br>Decomp settings:<br>{{p|game}}\\starship.cfg.json}}"
-    - "{{Game data/saves|Windows|<br>{{p|game}}\\default.sav<br>}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\default.sav}}"
 Star Garden:
   pageId: 209195
   steam: 3370970
@@ -253710,8 +253738,8 @@ Turnip Boy Robs a Bank:
     - "{{Game data/config|Epic Games Launcher|{{P|localappdata}}\\turnip2\\epic\\settings.json}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\turnip2\\steam\\settings.json}}"
     - "{{Game data/saves|Epic Games Launcher|{{P|localappdata}}\\turnip2\\epic\\progress.json|{{P|localappdata}}\\turnip2\\epic\\save.json|{{P|localappdata}}\\turnip2\\epic\\save_old.json}}"
-    - "{{Game data/saves|Steam|{{P|localappdata}}\\turnip2\\steam\\progress.json|{{P|localappdata}}\\turnip2\\steam\\save.json|{{P|localappdata}}\\turnip2\\steam\\save_old.json}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\GraffitiGames.TurnipBoyRobsaBank_zs4fqap7s3pxa\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\turnip2\\steam\\progress.json|{{P|localappdata}}\\turnip2\\steam\\save.json|{{P|localappdata}}\\turnip2\\steam\\save_old.json}}"
 Turnover:
   cloud:
     steam: true

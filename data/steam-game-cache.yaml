@@ -570193,6 +570193,26 @@
         oslist: windows
       executable: Loverowind.exe
       type: default
+1626170:
+  cloud:
+    saves:
+      - path: PeopleOfNote/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: People of Note
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Standard Launch
+      executable: PeopleOfNote.exe
+      type: none
+  nameLocalized:
+    japanese: ピープル・オブ・ノート
+    koreana: 음계의 주인공들(People of Note)
+    schinese: 卓乐新声
+    tchinese: 樂土之人
 1626610:
   cloud:
     saves:
@@ -624255,6 +624275,7 @@
     japanese: ザ・ウィムズ・オブ・ゴッズ
     schinese: The Whims of the Gods
     tchinese: 眾神的奇思妙想
+2642850: {}
 2643010:
   cloud:
     saves:
@@ -640450,6 +640471,18 @@
     - executable: DreadOut Remastered Collection.exe
       type: default
 3500810: {}
+3501070:
+  installDir: Car Service Together
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Launcher\\CSTLauncher.exe"
+  nameLocalized:
+    japanese: やれ！整備工場ブラザーズ
+    koreana: 오늘도 같이 자동차 정비
+    schinese: 修车吧！兄弟！
+    tchinese: 修車吧！兄弟！
 3504560:
   cloud:
     saves:
