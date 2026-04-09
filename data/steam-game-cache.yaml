@@ -28263,28 +28263,28 @@
       description: Launch
       executable: BattleBlockTheater.exe
     - config:
+        betakey: legacy
         oslist: linux
       description: Launch
       executable: BattleBlockTheater.sh
     - config:
         oslist: macos
       description: Launch
-      executable: BattleBlockTheater.app/Contents/MacOS/BattleBlockTheater
-    - config:
-        betakey: behemothtest
-        osarch: "64"
-        oslist: windows
-      description: New Launch
-      executable: BeGame.exe
-      type: default
-    - arguments: "-beta -serviceenv live"
+      executable: BattleBlockTheater.app
+    - arguments: "-beta"
       config:
-        betakey: kog_test
-        osarch: "64"
+        betakey: release_beta
         oslist: windows
-      description: New Launch
-      executable: BeGame.exe
-      type: default
+      description: Beta Launch
+      executable: BattleBlockTheater.exe
+      type: option1
+    - arguments: "-beta"
+      config:
+        betakey: release_beta
+        oslist: macos
+      description: Beta Launch
+      executable: BattleBlockTheater.app
+      type: option1
 238530:
   installDir: Super Puzzle Platformer Deluxe
   launch:
@@ -618433,7 +618433,9 @@
       executable: Lessaria.exe
   nameLocalized:
     schinese: 莱萨里亚：英雄之歌
-2461440: {}
+2461440:
+  nameLocalized:
+    russian: Былина
 2461850:
   cloud:
     saves:

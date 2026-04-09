@@ -71364,17 +71364,13 @@ BattleBlock Theater:
   installDir:
     BattleBlock Theater: {}
   launch:
-    "<base>/BattleBlockTheater.app/Contents/MacOS/BattleBlockTheater":
+    "<base>/BattleBlockTheater.app":
       - when:
           - os: mac
             store: steam
     "<base>/BattleBlockTheater.exe":
       - when:
           - os: windows
-            store: steam
-    "<base>/BattleBlockTheater.sh":
-      - when:
-          - os: linux
             store: steam
   steam:
     id: 238460
