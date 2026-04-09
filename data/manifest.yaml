@@ -409508,7 +409508,12 @@ Livelock:
   cloud:
     steam: true
   files:
-    "<base>/SaveGame":
+    "<base>/LocalConfig.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SaveGame/SaveGame.sav":
       tags:
         - save
       when:
@@ -736688,10 +736693,16 @@ The Occultist:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/The_Occultist/Saved/SaveGames/SlotGame/*.sav":
+    "<winLocalAppData>/The_Occultist/Saved/SaveGames":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/The_Occultist/Saved/SaveGames/SlotGame":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: the-occultist
     steamExtra:

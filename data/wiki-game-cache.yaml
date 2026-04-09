@@ -46783,6 +46783,8 @@ Connected Hearts - Visual novel:
 "Connectionism:Pain Control":
   pageId: 114412
   steam: 941350
+Connections:
+  pageId: 215445
 "Connie & Bonnie's Birthday BlastOff":
   pageId: 209838
 Conquer:
@@ -132376,8 +132378,8 @@ Livelock:
   steamSide:
     - 518370
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\VideoSettings.xml}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\SaveGame\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\VideoSettings.xml|{{P|game}}\\LocalConfig.xml}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\SaveGame\\SaveGame.sav}}"
 Lives so Sweet:
   pageId: 150729
   steam: 1165920
@@ -197152,6 +197154,8 @@ Seek Love:
 Seek Not a Lighthouse:
   pageId: 76049
   steam: 748730
+Seek and Destroy:
+  pageId: 215443
 Seek or Die:
   pageId: 90058
   steam: 803030
@@ -233587,6 +233591,8 @@ The Grand Mafia:
 The Grand Museum VR:
   pageId: 103213
   steam: 896240
+The Grandest Fleet:
+  pageId: 215447
 The Grandmaster:
   cloud:
     steam: true
@@ -238188,6 +238194,9 @@ The Occultist:
     - 2328850
     - 3691700
     - 4012990
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/The_Occultist/Saved/SaveGames/}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/The_Occultist/Saved/SaveGames/SlotGame/}}"
 The Occupant:
   pageId: 89252
   steam: 717670
