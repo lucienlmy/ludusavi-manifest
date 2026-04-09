@@ -629393,6 +629393,18 @@
     schinese: 巨人杀手：暗黑之潮
     tchinese: 巨人殺手：暗黑之潮
 2821110:
+  cloud:
+    saves:
+      - path: Southward Studios/SubversiveMemories/
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Subversive Memories
+  launch:
+    - config:
+        oslist: windows
+      executable: SubversiveMemories.exe
   nameLocalized:
     schinese: 颠覆回忆 - Subversive Memories
 2821610:
@@ -637634,7 +637646,22 @@
       description: DirectX 11 ( Best performance)
       executable: EllsTalesChairbound.exe
       type: option2
-3281520: {}
+3281520:
+  cloud:
+    saves:
+      - path: Way Forward/Sigma Star Saga DX
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Sigma Star Saga DX
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: SigmaStarSagaDX.exe
+      type: default
 3281900:
   cloud:
     saves:

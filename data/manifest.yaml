@@ -623867,6 +623867,19 @@ Sigils of Elohim:
 Sigma Star Saga DX:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Way Forward/Sigma Star Saga DX":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Sigma Star Saga DX: {}
+  launch:
+    "<base>/SigmaStarSagaDX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3281520
 "Sigma Theory: Global Cold War":
@@ -675690,6 +675703,18 @@ Subverse:
   steam:
     id: 1034140
 Subversive Memories:
+  files:
+    "<home>/AppData/LocalLow/Southward Studios/SubversiveMemories/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Subversive Memories: {}
+  launch:
+    "<base>/SubversiveMemories.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2821110
 Subwar 2050:
@@ -736660,6 +736685,7 @@ The Occluder:
     id: 897880
 The Occultist:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/The_Occultist/Saved/SaveGames/SlotGame/*.sav":

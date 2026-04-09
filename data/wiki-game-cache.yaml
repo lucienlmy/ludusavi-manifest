@@ -238179,6 +238179,7 @@ The Occluder:
   steam: 897880
 The Occultist:
   cloud:
+    epic: true
     steam: true
   lutris: the-occultist
   pageId: 196860
