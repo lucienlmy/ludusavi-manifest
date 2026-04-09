@@ -103467,6 +103467,7 @@ Brotato:
     steamExtra:
       - 2868390
       - 3281080
+      - 4498220
   installDir:
     Brotato: {}
   launch:
@@ -110529,6 +110530,7 @@ Cairn:
     steamExtra:
       - 3937220
       - 4207340
+      - 4487450
   installDir:
     Cairn: {}
   launch:
@@ -133148,6 +133150,9 @@ City Life:
           - store: steam
   steam:
     id: 4460
+City Masterplan:
+  steam:
+    id: 4536610
 City Monsters:
   installDir:
     City Monsters: {}
@@ -137567,13 +137572,21 @@ CloverPit:
         - config
       when:
         - os: windows
+  id:
+    lutris: cloverpit
+    steamExtra:
+      - 3347820
+      - 3691690
+      - 4341120
   installDir:
     CloverPit: {}
   launch:
     "<base>/CloverPit.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
+      - arguments: " --force-d3d11"
+        when:
+          - store: steam
   steam:
     id: 3314790
 Clown House:
@@ -396371,6 +396384,14 @@ Laws of Machine:
 Lay of the Land:
   id:
     lutris: lay-of-the-land
+  installDir:
+    Lay of the Land: {}
+  launch:
+    "<base>/LayOfTheLand.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2776090
 Layer Section & Galactic Attack S-Tribute:
@@ -414189,6 +414210,9 @@ Lost Planet 3:
           - store: steam
   steam:
     id: 45720
+Lost Railway:
+  steam:
+    id: 862750
 "Lost Records: Bloom":
   alias: "Lost Records: Bloom & Rage"
 "Lost Records: Bloom & Rage":
@@ -612814,6 +612838,13 @@ Shadow Empire:
         - store: steam
   gog:
     id: 1965027070
+  id:
+    gogExtra:
+      - 1946898127
+      - 1960235282
+    steamExtra:
+      - 2183640
+      - 3645760
   installDir:
     Shadow Empire: {}
   launch:
@@ -652747,6 +652778,9 @@ Spidersaurs:
           - store: steam
   steam:
     id: 1191620
+"Spies VS Mercs: Bold: Networked Newt Action":
+  steam:
+    id: 4153760
 Spiiiders:
   installDir:
     SPIIIDERS: {}

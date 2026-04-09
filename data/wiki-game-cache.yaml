@@ -33358,6 +33358,7 @@ Brotato:
   steamSide:
     - 2868390
     - 3281080
+    - 4498220
   templates:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Brotato/{{p|uid}}/settings.json}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Brotato\\{{p|uid}}\\*.json}}"
@@ -35655,6 +35656,7 @@ Cairn:
   steamSide:
     - 3937220
     - 4207340
+    - 4487450
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\TheGameBakers\\Cairn_RETAIL\\PERSISTENT\\PLAYER}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\TheGameBakers\\Cairn_RETAIL\\SAVEGAMES\\RETAIL\\STORY}}"
@@ -42717,6 +42719,9 @@ City Life:
     - 4410
 City Mania:
   pageId: 199647
+City Masterplan:
+  pageId: 215484
+  steam: 4536610
 City Monsters:
   pageId: 88642
   steam: 801760
@@ -44086,8 +44091,13 @@ Clover Tale:
 CloverPit:
   cloud:
     steam: true
+  lutris: cloverpit
   pageId: 207032
   steam: 3314790
+  steamSide:
+    - 3347820
+    - 3691690
+    - 4341120
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SaveData\\SettingsData\\SettingsDataFull.json}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveData\\GameData\\GameDataFull.json}}"
@@ -133875,6 +133885,9 @@ Lost Planet 3:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\capcom\\lostplanetcolonies\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\capcom\\lostplanetcolonies\\}}"
+Lost Railway:
+  pageId: 215488
+  steam: 862750
 "Lost Records: Bloom & Rage":
   cloud:
     steam: true
@@ -198499,8 +198512,14 @@ Shadow Empire:
     gog: true
     steam: true
   gog: 1965027070
+  gogSide:
+    - 1946898127
+    - 1960235282
   pageId: 151137
   steam: 1154840
+  steamSide:
+    - 2183640
+    - 3645760
 Shadow Fear Path to Insanity:
   pageId: 105371
   steam: 908830
@@ -211282,6 +211301,7 @@ Spidersaurs:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/1191620/remote/}}"
 "Spies VS Mercs: Bold: Networked Newt Action":
   pageId: 210426
+  steam: 4153760
 Spiiiders:
   pageId: 70331
   steam: 711310

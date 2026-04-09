@@ -369687,6 +369687,10 @@
   launch:
     - executable: OneShift.exe
       type: default
+862750:
+  nameLocalized:
+    japanese: ロスト・レイルウェイ
+    schinese: 迷失铁道
 862770:
   installDir: KOMech
   launch:
@@ -582954,7 +582958,10 @@
         oslist: windows
       executable: DarkCity_Paris_CE.exe
       type: default
-1805110: {}
+1805110:
+  nameLocalized:
+    japanese: Solarpunk ソーラーパンク：天空の島
+    schinese: 太阳朋克：浮岛家园
 1805240:
   cloud:
     saves:
@@ -628404,7 +628411,14 @@
   launch:
     - executable: TheBossGangsters.exe
       type: default
-2776090: {}
+2776090:
+  installDir: Lay of the Land
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LayOfTheLand.exe
+      type: default
 2776860:
   cloud:
     saves:
@@ -633955,6 +633969,7 @@
       type: default
 3041230:
   nameLocalized:
+    japanese: Windrose / ウィンドローズ
     schinese: "Windrose: 风启之旅"
 3041770:
   cloud:
@@ -637686,7 +637701,9 @@
       description: Linux / SteamOS (EXPERIMENTAL)
       executable: cleaninggame.exe
       type: default
-3283240: {}
+3283240:
+  nameLocalized:
+    schinese: "升降梯外: 超自然修理工模拟器"
 3285420:
   cloud:
     saves:
@@ -638150,8 +638167,11 @@
         root: gameinstall
   installDir: CloverPit
   launch:
-    - config:
-        oslist: windows
+    - description: Launch CloverPit
+      executable: CloverPit.exe
+      type: default
+    - arguments: " --force-d3d11"
+      description: Launch with this if you experience crashes at launch
       executable: CloverPit.exe
       type: default
   nameLocalized:
@@ -644827,6 +644847,7 @@
 4144680: {}
 4146000: {}
 4149610: {}
+4153760: {}
 4157130: {}
 4160210:
   cloud:
@@ -645201,4 +645222,7 @@
 4484200: {}
 4491360: {}
 4514310: {}
+4536610:
+  nameLocalized:
+    schinese: 城市蓝图
 3221903386: {}
