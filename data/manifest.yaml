@@ -262801,6 +262801,21 @@ Final SIM:
             store: steam
   steam:
     id: 997280
+Final Sentence:
+  id:
+    lutris: final-sentence
+    steamExtra:
+      - 4021860
+      - 4556350
+  installDir:
+    Final Sentence: {}
+  launch:
+    "<base>/TheEnd.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2413950
 Final Slam 2:
   installDir:
     FinalSlam2: {}
@@ -305565,6 +305580,9 @@ Graveyard Keeper:
         - config
   steam:
     id: 599140
+Graveyard Keeper 2:
+  steam:
+    id: 4358690
 Graveyard Shift:
   installDir:
     Graveyard Shift: {}
@@ -479962,6 +479980,10 @@ Neversong:
 Neverway:
   cloud:
     steam: true
+  id:
+    lutris: neverway
+    steamExtra:
+      - 4520130
   steam:
     id: 2318330
 Neverwinter:
@@ -599822,9 +599844,10 @@ Samson:
     epic: true
     steam: true
   files:
-    "<base>/Samson/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Samson/Saved/SaveGames/*.sav":
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: samson
     steamExtra:
@@ -675535,7 +675558,10 @@ Subnautica:
     id: 264710
 Subnautica 2:
   cloud:
+    epic: true
     steam: true
+  id:
+    lutris: subnautica-2
   steam:
     id: 1962700
 "Subnautica: Below Zero":
@@ -768152,7 +768178,7 @@ Touhou Chouseisho ~ Sapphire Panlogism:
         - os: windows
 Touhou Danmaku Kagura Phantasia Lost:
   files:
-    "<home>/AppData/LocalLow/AllianceArts/DankaguPL/save":
+    "<home>/AppData/LocalLow/AllianceArts/DankaguPL/save/<storeUserId>/save*.sv":
       tags:
         - save
       when:

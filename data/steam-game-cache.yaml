@@ -606479,7 +606479,11 @@
     - config:
         oslist: windows
       executable: DankaguPL.exe
+    - config:
+        betakey: debug
+      executable: launcher/AA-Launcher.exe
   nameLocalized:
+    english: Touhou Danmaku Kagura Phantasia Lost
     japanese: 東方ダンマクカグラ ファンタジア・ロスト
     koreana: 동방 탄막 카구라 판타지아 로스트
     schinese: 东方弹幕神乐 失落幻想
@@ -616041,6 +616045,13 @@
     - config:
         oslist: linux
       executable: pogo/pogo.x86.64
+      type: default
+2413950:
+  installDir: Final Sentence
+  launch:
+    - config:
+        oslist: windows
+      executable: TheEnd.exe
       type: default
 2414270:
   cloud:
@@ -642306,7 +642317,9 @@
     saves:
       - path: Samson/Saved/SaveGames/
         pattern: "*.sav"
-        root: gameinstall
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Samson
   launch:
     - config:
@@ -645209,6 +645222,9 @@
     japanese: Pickmon / ピックモン
     schinese: Pickmon / 精灵皮可
     tchinese: Pickmon / 精靈皮可
+4358690:
+  nameLocalized:
+    schinese: 守墓人2
 4372990:
   nameLocalized:
     english: EVO Card

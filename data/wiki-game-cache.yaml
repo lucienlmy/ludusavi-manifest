@@ -85022,6 +85022,13 @@ Final Rush:
 Final SIM:
   pageId: 130113
   steam: 997280
+Final Sentence:
+  lutris: final-sentence
+  pageId: 215511
+  steam: 2413950
+  steamSide:
+    - 4021860
+    - 4556350
 Final Slam 2:
   pageId: 50083
   steam: 291330
@@ -98583,6 +98590,9 @@ Graveyard Keeper:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Graveyard Keeper}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lazy Bear Games/Graveyard Keeper}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Lazy Bear Games/Graveyard Keeper}}"
+Graveyard Keeper 2:
+  pageId: 215513
+  steam: 4358690
 Graveyard Shift:
   pageId: 51951
   steam: 511190
@@ -155385,8 +155395,11 @@ Neversong:
 Neverway:
   cloud:
     steam: true
+  lutris: neverway
   pageId: 215504
   steam: 2318330
+  steamSide:
+    - 4520130
 Neverwinter:
   pageId: 12229
   steam: 109600
@@ -218648,8 +218661,10 @@ Subnautica:
     - "{{Game data/saves|Epic Games Store|{{p|userprofile\\appdata\\locallow}}\\Unknown Worlds\\Subnautica\\Subnautica\\SavedGames}}"
 Subnautica 2:
   cloud:
+    epic: true
     steam: true
     xbox: true
+  lutris: subnautica-2
   pageId: 198487
   steam: 1962700
 "Subnautica: Below Zero":
@@ -241845,6 +241860,8 @@ The Thirst of Hearts:
 "The Three Musketeers - D'Artagnan & The 12 Jewels":
   pageId: 91793
   steam: 827110
+The Three Stooges:
+  pageId: 215515
 The Thrill of the Fight:
   pageId: 35142
   steam: 494150
@@ -248592,7 +248609,7 @@ Touhou Danmaku Kagura Phantasia Lost:
     - 3728740
     - 3728750
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\AllianceArts\\DankaguPL\\save}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\AllianceArts\\DankaguPL\\save\\{{P|uid}}\\save*.sv}}"
 Touhou Dark Echoes:
   pageId: 135738
   steam: 1072880
