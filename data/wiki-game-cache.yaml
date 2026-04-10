@@ -32443,7 +32443,9 @@ Breath of Fire IV:
   steam: 4249150
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bof4.cfg}}"
+    - "{{Game data/config|Steam|{{p|game}}\\english\\bof4.cfg|{{p|game}}\\japanese\\bof4.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAV\\*.DAT}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\english}\\SAV\\*.DAT|{{p|game}}\\japanese}\\SAV\\*.DAT}}"
 Breath of Warfare:
   cloud:
     steam: true
@@ -43364,6 +43366,8 @@ ClearIt5:
   pageId: 143889
   steam: 1125820
 Cleared Hot:
+  cloud:
+    steam: true
   pageId: 205488
   steam: 1710820
   steamSide:
@@ -49246,6 +49250,11 @@ Crazy Chicken X:
   pageId: 196685
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\Moorhuhn.sav}}"
+"Crazy Chicken: The Winged Pharaoh":
+  pageId: 215492
+  steam: 2316960
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\data\\}}"
 "Crazy Chicken: Wanted":
   pageId: 198348
   templates:
@@ -125674,6 +125683,9 @@ Korvux:
 Korwin The Game:
   pageId: 46208
   steam: 375030
+"Koshmar: The Last Reverie":
+  pageId: 215490
+  steam: 2882720
 Kosmokrats:
   cloud:
     epic: true
@@ -126892,6 +126904,17 @@ Ladies Orders:
     steam: true
   pageId: 144407
   steam: 1141380
+"Ladies, Don’t Tempt My Immortality":
+  cloud:
+    steam: true
+  pageId: 215502
+  steam: 4190070
+  steamSide:
+    - 4206960
+    - 4483110
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Fata Morgana\\LDTMI\\Archive\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Fata Morgana\\LDTMI\\Archive\\{{P|uid}}\\}}"
 Ladra:
   cloud:
     steam: true
@@ -132914,6 +132937,7 @@ Long Count:
   pageId: 153832
   steam: 1190270
 Long Gone:
+  lutris: long-gone
   pageId: 207284
   steam: 1977610
 Long Gone Days:
@@ -155143,7 +155167,15 @@ Neurowake:
   steam: 617750
 Neva:
   cloud:
+    gog: true
     steam: true
+  gog: 1980594794
+  gogSide:
+    - 1282845133
+    - 1662241323
+    - 1674034560
+    - 1962182614
+    - 1992491642
   lutris: neva
   pageId: 198477
   steam: 2420660
@@ -155350,6 +155382,11 @@ Neversong:
   renamedFrom:
     - "Nevertales: The Beauty Within Collector's Edition"
   steam: 466010
+Neverway:
+  cloud:
+    steam: true
+  pageId: 215504
+  steam: 2318330
 Neverwinter:
   pageId: 12229
   steam: 109600
@@ -173646,7 +173683,9 @@ Possessions:
   pageId: 147865
 Possessor(s):
   cloud:
+    gog: true
     steam: true
+  gog: 1839377078
   lutris: possessor-s
   pageId: 206865
   steam: 2132890
@@ -176745,6 +176784,9 @@ Prototypers:
     - "{{Game data/saves|Windows|{{p|appdata}}\\MOB_OPS\\}}"
 Proun:
   pageId: 183055
+"Prove You're Human":
+  pageId: 215507
+  steam: 4533950
 Proviant:
   pageId: 64876
   steam: 659090
@@ -185087,7 +185129,7 @@ Resident Evil:
   pageId: 218
   steam: 4249100
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\CAPCOM\\RESIDENT EVIL{{note|For the GOG release}}|{{p|hklm}}\\SOFTWARE\\CAPCOM\\STEAM_R EVIL1{{note|For the Steam release}}|{{p|hklm}}\\SOFTWARE\\CAPCOM\\BIO HAZARD{{note|For the MediaKite release}}}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\CAPCOM\\RESIDENT EVIL{{note|For the GOG release}}|{{P|hkcu}}\\SOFTWARE\\CAPCOM\\STEAM_R EVIL1{{note|For the Steam release}}|{{p|hklm}}\\SOFTWARE\\CAPCOM\\BIO HAZARD{{note|For the MediaKite release}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\savedat*.dat|{{p|game}}\\SAVE\\savedata}}"
     - "{{Game data/saves|Steam|{{p|game}}\\english\\SAVE\\savedat*.dat|{{p|game}}\\french\\SAVE\\savedat*.dat|{{p|game}}\\german\\SAVE\\savedat*.dat|{{p|game}}\\japanese\\SAVE\\savedat*.daj|}}"
 Resident Evil 2:
@@ -185098,7 +185140,9 @@ Resident Evil 2:
   steam: 4249110
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\CAPCOM\\RESIDENT EVIL2}}"
+    - "{{Game data/config|Steam|{{P|hkcu}}\\Software\\CAPCOM\\STEAM_R EVIL2}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves|{{p|game}}\\savedata}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\english\\saves|{{p|game}}\\french\\saves|{{p|game}}\\german\\saves|{{p|game}}\\italian\\saves|{{p|game}}\\japanese\\saves|{{p|game}}\\spanish\\saves}}"
 Resident Evil 2 (2019):
   cloud:
     steam: true
@@ -185165,7 +185209,9 @@ Resident Evil 3 (2020):
   steam: 4249120
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bio3.ini}}"
+    - "{{Game data/config|Steam|{{p|game}}\\english\\bio3.ini\\|{{p|game}}\\french\\bio3.ini\\|{{p|game}}\\german\\bio3.ini\\|{{p|game}}\\italian\\bio3.ini\\|{{p|game}}\\japanese\\bio3.ini\\|{{p|game}}\\spanish\\bio3.ini\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\english\\saves\\|{{p|game}}\\french\\saves\\|{{p|game}}\\german\\saves\\|{{p|game}}\\italian\\saves\\|{{p|game}}\\japanese\\saves\\|{{p|game}}\\spanish\\saves\\}}"
 Resident Evil 4:
   pageId: 690
   templates:

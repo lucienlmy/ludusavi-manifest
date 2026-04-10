@@ -415722,8 +415722,7 @@
       type: default
     - config:
         oslist: macos
-      executable: BloonsTD6.app/Contents/MacOS/BloonsTD6
-      type: none
+      executable: BloonsTD6.app
 960130:
   installDir: GALAXITY Beta
   launch:
@@ -594901,7 +594900,11 @@
       executable: "ASC\\Binaries\\Win64\\ASC.exe"
   nameLocalized:
     schinese: 退潮
-1977610: {}
+1977610:
+  nameLocalized:
+    japanese: LONG GONE（ロング・ゴーン）
+    schinese: LONG GONE：远逝
+    tchinese: LONG GONE：遠逝
 1978210:
   installDir: The Grinch
   launch:
@@ -612168,6 +612171,7 @@
         oslist: linux
       executable: C09RU-1.0/C09RU.sh
       type: default
+2318330: {}
 2318660:
   cloud:
     saves:
@@ -630643,6 +630647,7 @@
       description: Launch
       executable: OneBarbarianFutaTribeChapter2.exe
       type: default
+2882720: {}
 2882930:
   cloud:
     saves:
@@ -639872,7 +639877,21 @@
   launch:
     - executable: JalecoSports.exe
       type: default
-3430260: {}
+3430260:
+  cloud:
+    saves:
+      - path: "Team Beef\\WRATH Aeon of RUIN VR"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Wrath Aeon of Ruin VR
+  launch:
+    - config:
+        oslist: windows
+      executable: WRATH Aeon of Ruin VR.exe
+      type: openxr
 3430340: {}
 3430450:
   cloud:
@@ -644889,6 +644908,45 @@
 4184130: {}
 4184360: {}
 4184400: {}
+4190070:
+  cloud:
+    saves:
+      - path: "Fata Morgana\\LDTMI\\Archive\\{64BitSteamID}"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Fata Morgana\\LDTMI\\Archive\\{64BitSteamID}"
+            replace: "com.FataMorgana.LDTMI/Archive/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Ladies Dont Tempt My Immortality
+  launch:
+    - config:
+        oslist: windows
+      executable: LDTMI.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: LDTMI.app
+      type: default
+  nameLocalized:
+    brazilian: "Moças, Não Tentem Minha Imortalidade"
+    english: "Ladies, Don’t Tempt My Immortality"
+    indonesian: "Gadis-gadis, Jangan Ganggu Jalan Keabadianku"
+    japanese: 実写RPG：美女との修行は捗りすぎ！
+    koreana: 제발～ 내 수련을 방해하지 마
+    latam: "Chicas, No Tienten Mi Inmortalidad"
+    portuguese: "Moças, Não Tentem Minha Imortalidade"
+    russian: "Девочки, не испытывайте мою бессмертность"
+    schinese: 美女，請別影響我成仙
+    spanish: "Chicas, No Tienten Mi Inmortalidad"
+    tchinese: 美女，請別影響我成仙
+    thai: สาวๆ โปรดอย่าทำให้ผมหลุดสมาธิ จนบินสู่สวรรค์ไม่ได้
+    turkish: "Hanımlar, Ölümsüzlüğümü Sınamayın"
+    vietnamese: "Mỹ Nữ, Đừng Cám Dỗ Ta Tu Tiên"
 4191000:
   installDir: ColdSide Retro Edition
   launch:
@@ -645222,6 +645280,7 @@
 4484200: {}
 4491360: {}
 4514310: {}
+4533950: {}
 4536610:
   nameLocalized:
     schinese: 城市蓝图

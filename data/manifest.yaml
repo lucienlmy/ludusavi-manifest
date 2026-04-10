@@ -91711,7 +91711,7 @@ Bloons TD 6:
   installDir:
     BloonsTD6: {}
   launch:
-    "<base>/BloonsTD6.app/Contents/MacOS/BloonsTD6":
+    "<base>/BloonsTD6.app":
       - when:
           - os: mac
             store: steam
@@ -100653,6 +100653,26 @@ Breath of Fire IV:
         - config
       when:
         - os: windows
+    "<base>/english/bof4.cfg":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/english}/SAV/*.DAT":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/japanese/bof4.cfg":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/japanese}/SAV/*.DAT":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1587885678
   installDir:
@@ -135260,6 +135280,8 @@ ClearIt5:
   steam:
     id: 1125820
 Cleared Hot:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Not Knowing Corporation/Cleared Hot":
       tags:
@@ -153606,6 +153628,21 @@ Crazy Chicken X:
         - save
       when:
         - os: windows
+"Crazy Chicken: The Winged Pharaoh":
+  files:
+    "<base>/data":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Moorhuhn Jump and Run 'Traps and Treasures'": {}
+  launch:
+    "<base>/Moorhuhn Jump and Run 'Traps and Treasures'.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2316960
 "Crazy Chicken: Wanted":
   files:
     "<base>/HighScore.txt":
@@ -389002,6 +389039,9 @@ Korwin The Game:
             store: steam
   steam:
     id: 375030
+"Koshmar: The Last Reverie":
+  steam:
+    id: 2882720
 Kosmokrats:
   cloud:
     epic: true
@@ -392707,6 +392747,33 @@ Ladies Orders:
             store: steam
   steam:
     id: 1141380
+"Ladies, Don’t Tempt My Immortality":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Fata Morgana/LDTMI/Archive/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4206960
+      - 4483110
+  installDir:
+    Ladies Dont Tempt My Immortality: {}
+  launch:
+    "<base>/LDTMI.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/LDTMI.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4190070
 Ladra:
   cloud:
     steam: true
@@ -411097,6 +411164,8 @@ Long Count:
   steam:
     id: 1190270
 Long Gone:
+  id:
+    lutris: long-gone
   steam:
     id: 1977610
 Long Gone Days:
@@ -479172,6 +479241,7 @@ Neurowake:
     id: 617750
 Neva:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/nomada studio/Neva/<storeUserId>/Save01":
@@ -479194,7 +479264,15 @@ Neva:
         - config
       when:
         - os: mac
+  gog:
+    id: 1980594794
   id:
+    gogExtra:
+      - 1282845133
+      - 1662241323
+      - 1674034560
+      - 1962182614
+      - 1992491642
     lutris: neva
     steamExtra:
       - 2482520
@@ -479881,6 +479959,11 @@ Neversong:
     id: 466010
 "Nevertales: The Beauty Within Collector's Edition":
   alias: "Nevertales: The Beauty Within"
+Neverway:
+  cloud:
+    steam: true
+  steam:
+    id: 2318330
 Neverwinter:
   files:
     "<root>/Cryptic Studios/Neverwinter/Live/localdata":
@@ -535786,6 +535869,7 @@ Possession:
     id: 629340
 Possessor(s):
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/Pose/Saved/SaveGames/<storeUserId>/*.sav":
@@ -535794,6 +535878,8 @@ Possessor(s):
     "<winLocalAppData>/Pose/Saved/SaveGames/<storeUserId>/*.sav":
       when:
         - store: steam
+  gog:
+    id: 1839377078
   id:
     lutris: possessor-s
   installDir:
@@ -545480,6 +545566,9 @@ Prototypers:
     Prototypers: {}
   steam:
     id: 2058980
+"Prove You're Human":
+  steam:
+    id: 4533950
 Proviant:
   steam:
     id: 659090
@@ -571600,13 +571689,13 @@ Resident Evil:
       - when:
           - store: steam
   registry:
+    HKEY_CURRENT_USER/SOFTWARE/CAPCOM/STEAM_R EVIL1:
+      tags:
+        - config
     HKEY_LOCAL_MACHINE/SOFTWARE/CAPCOM/BIO HAZARD:
       tags:
         - config
     HKEY_LOCAL_MACHINE/SOFTWARE/CAPCOM/RESIDENT EVIL:
-      tags:
-        - config
-    HKEY_LOCAL_MACHINE/SOFTWARE/CAPCOM/STEAM_R EVIL1:
       tags:
         - config
   steam:
@@ -571620,11 +571709,41 @@ Resident Evil 2:
         - save
       when:
         - os: windows
+    "<base>/english/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/french/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/german/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/italian/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/japanese/saves":
+      tags:
+        - save
+      when:
+        - store: steam
     "<base>/savedata":
       tags:
         - save
       when:
         - os: windows
+    "<base>/spanish/saves":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1534123252
   installDir:
@@ -571634,6 +571753,11 @@ Resident Evil 2:
       - when:
           - store: steam
   registry:
+    HKEY_CURRENT_USER/Software/CAPCOM/STEAM_R EVIL2:
+      tags:
+        - config
+      when:
+        - store: steam
     HKEY_LOCAL_MACHINE/Software/CAPCOM/RESIDENT EVIL2:
       tags:
         - config
@@ -571739,6 +571863,66 @@ Resident Evil 3 (2020):
         - config
       when:
         - os: windows
+    "<base>/english/bio3.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/english/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/french/bio3.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/french/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/german/bio3.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/german/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/italian/bio3.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/italian/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/japanese/bio3.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/japanese/saves":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/spanish/bio3.ini":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<base>/spanish/saves":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1266089300
   id:
@@ -834799,6 +834983,13 @@ Wrath of the Samurai:
 "Wrath: Aeon of Ruin VR":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Team Beef/WRATH Aeon of RUIN VR":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Wrath Aeon of Ruin VR: {}
   steam:
     id: 3430260
 Wrecked Destruction Simulator:
