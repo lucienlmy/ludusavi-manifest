@@ -204620,6 +204620,11 @@ Slayer of Traitors:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\NoMoreRobots.SlayersXTerminalAftermathVenganceofth_671zbmwb2bw9p\\Settings\\settings.dat}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Tendershoot\\Slayers X_ Terminal Aftermath_ Vengance of the Slayer}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\NoMoreRobots.SlayersXTerminalAftermathVenganceofth_671zbmwb2bw9p\\SystemAppData\\wgs}}"
+Sledding Game:
+  cloud:
+    steam: true
+  pageId: 215509
+  steam: 3438850
 Sleengster:
   pageId: 53924
   steam: 559500

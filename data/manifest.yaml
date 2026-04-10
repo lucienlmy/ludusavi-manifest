@@ -632058,6 +632058,11 @@ Slayer of Traitors:
         - config
   steam:
     id: 1931020
+Sledding Game:
+  cloud:
+    steam: true
+  steam:
+    id: 3438850
 Sleengster:
   steam:
     id: 559500
