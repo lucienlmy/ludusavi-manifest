@@ -598044,6 +598044,19 @@
   nameLocalized:
     japanese: "BIOHAZARD RE:4"
     koreana: "BIOHAZARD RE:4"
+2050710:
+  cloud:
+    saves:
+      - path: "Redsensation\\Narin The Orange Room\\MMData\\Save"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Narin The Orange Room
+  launch:
+    - config:
+        oslist: windows
+      executable: Narin The Orange Room.exe
 2051010:
   cloud:
     saves:
@@ -640867,6 +640880,23 @@
       executable: HeartRatesPlus.sh
       type: default
 3527290:
+  cloud:
+    saves:
+      - path: LandCrab/PEAK
+        pattern: "*.peak"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: unity3d/LandCrab/PEAK
+        pattern: "*.peak"
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+      - path: unity.LandCrab.PEAK
+        pattern: "*.peak"
+        platforms:
+          - MacOS
+        root: MacAppSupport
   installDir: PEAK
   launch:
     - config:

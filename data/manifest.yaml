@@ -473478,6 +473478,25 @@ Narcosis:
             store: steam
   steam:
     id: 637860
+"Narin: The Orange Room":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Redsensation/Narin The Orange Room/MMData/Save/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: narin-the-orange-room
+  installDir:
+    Narin The Orange Room: {}
+  launch:
+    "<base>/Narin The Orange Room.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2050710
 Narita Boy:
   cloud:
     epic: true
@@ -630213,6 +630232,8 @@ Skyborn:
     "<winLocalAppData>/BHM/Saved/**/*.sav":
       when:
         - store: steam
+  id:
+    lutris: skydances-behemoth
   installDir:
     "Skydance's BEHEMOTH": {}
   steam:

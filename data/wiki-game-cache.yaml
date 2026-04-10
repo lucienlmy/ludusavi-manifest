@@ -153227,6 +153227,12 @@ Narcosis:
 "Narcotics Police: Black and White":
   pageId: 62933
   steam: 637860
+"Narin: The Orange Room":
+  cloud:
+    steam: true
+  lutris: narin-the-orange-room
+  pageId: 215522
+  steam: 2050710
 Narita Boy:
   cloud:
     epic: true
@@ -204107,6 +204113,7 @@ Skyborn:
 "Skydance's Behemoth":
   cloud:
     steam: true
+  lutris: skydances-behemoth
   pageId: 195331
   steam: 1707990
 SkydiVeR:
