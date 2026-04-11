@@ -148401,6 +148401,8 @@ Morbid Metal:
   steam: 1866130
   steamSide:
     - 3762220
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SCREEN JUICE\\Morbid Metal\\Saves\\}}"
 "Morbid: The Seven Acolytes":
   cloud:
     steam: true
@@ -151518,6 +151520,8 @@ Mysterium:
 "Mystery Case Files: Prime Suspects":
   pageId: 41151
   steam: 50980
+  templates:
+    - "{{Game data/saves|Windows|HKEY_CURRENT_USER\\Software\\Big Fish Games\\Games\\Mystery Case Files - Prime Suspects\\}}"
 "Mystery Case Files: Ravenhearst":
   pageId: 41149
   steam: 50990
@@ -188689,6 +188693,8 @@ Robin Hood Sherwood Builders:
     - "{{Game data/config|Microsoft Store|{{p|LOCALAPPDATA}}\\RobinHoodFull\\Saved\\Config\\WinGDK}}"
 "Robin Hood's Games of Skill and Chance":
   pageId: 147345
+"Robin Hood's Quest":
+  pageId: 215540
 "Robin Hood: Country Heroes":
   cloud:
     steam: true
@@ -240973,6 +240979,8 @@ The Smurfs:
 The Sniper VR:
   pageId: 60868
   steam: 615630
+The Snow Queen Quest:
+  pageId: 215538
 The Snowboard Game:
   pageId: 89500
   steam: 803830

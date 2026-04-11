@@ -458606,9 +458606,11 @@ Morbid Metal:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/SCREEN JUICE/Morbid Metal/Saves/*.save":
+    "<home>/AppData/LocalLow/SCREEN JUICE/Morbid Metal/Saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: morbid-metal
     steamExtra:
@@ -468385,6 +468387,12 @@ Mysterium:
   steam:
     id: 1145450
 "Mystery Case Files: Prime Suspects":
+  files:
+    HKEY_CURRENT_USER/Software/Big Fish Games/Games/Mystery Case Files - Prime Suspects:
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Mystery Case Files PRime Suspects: {}
   launch:
