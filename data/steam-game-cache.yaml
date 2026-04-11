@@ -51642,6 +51642,18 @@
         oslist: linux
       executable: hotel_steam_linux_x64
       type: default
+    - config:
+        oslist: windows
+      description: Legacy Point and Click version - Polish
+      executable: "ogre3d_pl\\Hotel.exe"
+      type: option3
+      workingdir: ogre3d_pl
+  nameLocalized:
+    french: "Brightstone Mysteries : Hôtel Paranormal (Édition Collector de l’Hôtel)"
+    german: "Brightstone Mysteries: Paranormales Hotel (Sammleredition des Hotels)"
+    italian: "Brightstone Mysteries: Hotel Paranormale (Edizione da Collezione dell’Hotel)"
+    japanese: ブライトストーン・ミステリーズ：パラノーマルホテル（ホテル コレクターズエディション）
+    spanish: "Brightstone Mysteries: Hotel Paranormal (Edición Coleccionista del Hotel)"
 288790:
   installDir: White Haven Mysteries
   launch:

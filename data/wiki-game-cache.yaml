@@ -57171,6 +57171,8 @@ Dead Watch:
   lutris: dead-watch
   pageId: 207116
   steam: 3464670
+  steamSide:
+    - 4326150
 Dead Weight:
   pageId: 210180
   steam: 2646720
@@ -60813,6 +60815,8 @@ Desktop Explorer:
   lutris: desktop-explorer
   pageId: 210219
   steam: 2527160
+  steamSide:
+    - 2533590
 Desktop Girls:
   pageId: 145945
   steam: 1044500
@@ -185427,7 +185431,6 @@ Resident Evil Requiem:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\GSE Saves\\3764200\\remote\\win64_save\\|note=Goldberg Steam Emulator}}"
 Resident Evil Resistance:
   cloud:
     steam: true
@@ -200392,6 +200395,8 @@ Shift At Midnight:
   lutris: shift-at-midnight
   pageId: 210611
   steam: 3722330
+  steamSide:
+    - 4050060
 Shift Happens:
   cloud:
     steam: true

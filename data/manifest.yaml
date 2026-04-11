@@ -177921,6 +177921,8 @@ Dead Watch:
     steam: true
   id:
     lutris: dead-watch
+    steamExtra:
+      - 4326150
   steam:
     id: 3464670
 Dead Weight:
@@ -189685,6 +189687,8 @@ Desktop Dungeons Rewind:
 Desktop Explorer:
   id:
     lutris: desktop-explorer
+    steamExtra:
+      - 2533590
   steam:
     id: 2527160
 Desktop Girls:
@@ -572326,16 +572330,6 @@ Resident Evil Requiem:
         - save
       when:
         - store: steam
-    "<winAppData>/GSE Saves/3764200/remote/win64_save":
-      tags:
-        - save
-      when:
-        - os: windows
-    Goldberg Steam Emulator:
-      tags:
-        - save
-      when:
-        - os: windows
   id:
     lutris: resident-evil-requiem
     steamExtra:
@@ -618586,6 +618580,8 @@ Shift 87:
 Shift At Midnight:
   id:
     lutris: shift-at-midnight
+    steamExtra:
+      - 4050060
   steam:
     id: 3722330
 Shift Happens:
