@@ -47338,6 +47338,7 @@ Control Freak:
   pageId: 120923
   steam: 964450
 Control Resonant:
+  lutris: control-resonant--1
   pageId: 182878
   renamedFrom:
     - Control 2
@@ -82924,6 +82925,7 @@ Fast Food Tycoon 2:
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\Save}}"
 Fast Lanes Bowling:
+  lutris: fastlane-bowling
   pageId: 208639
   steam: 1644930
   templates:
@@ -160503,6 +160505,8 @@ Ohr:
 "Oi, Innkeep! - Chronicles!":
   pageId: 130502
   steam: 1025620
+Oids:
+  pageId: 215529
 Oik:
   pageId: 57786
   steam: 588970
@@ -170402,6 +170406,7 @@ Pirate Hell:
   pageId: 49379
   steam: 321080
 Pirate Hunter:
+  lutris: pirate-hunter
   pageId: 90751
   steam: 3061910
   templates:
@@ -175753,6 +175758,8 @@ Professor Chuckenhope:
 Professor Fizzwizzle and the Molten Mystery:
   pageId: 41141
   steam: 50910
+Professor Layton and the New World of Steam:
+  pageId: 215534
 Professor Lupo and His Horrible Pets:
   cloud:
     steam: true
@@ -194376,6 +194383,8 @@ Samson:
   steamSide:
     - 4540000
     - 4540060
+  templates:
+    - "{{Game data/saves|Windows|%LocalAppData%\\Samson\\Saved\\SaveGames\\}}"
 Samudai:
   pageId: 48751
   steam: 342740
@@ -238279,7 +238288,14 @@ The Occluder:
 The Occultist:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gog: 2053145869
+  gogSide:
+    - 1488738934
+    - 1601467583
+    - 1774758132
+    - 2017479570
   lutris: the-occultist
   pageId: 196860
   steam: 2092840
@@ -238834,6 +238850,11 @@ The Pinball Arcade:
 The Pinball Wizard:
   pageId: 147968
   steam: 2101800
+The Pines:
+  cloud:
+    steam: true
+  pageId: 215530
+  steam: 4271520
 The Pink Panther in Hokus Pokus Pink:
   lutris: the-pink-panther-hokus-pokus-pink
   pageId: 92503

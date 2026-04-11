@@ -147913,6 +147913,8 @@ Control Freak:
   steam:
     id: 964450
 Control Resonant:
+  id:
+    lutris: control-resonant--1
   steam:
     id: 3669870
 Control Room Alpha:
@@ -256629,6 +256631,8 @@ Fast Lanes Bowling:
         - save
       when:
         - os: windows
+  id:
+    lutris: fastlane-bowling
   installDir:
     Fastlane Bowling: {}
   launch:
@@ -525354,6 +525358,8 @@ Pirate Hunter:
         - save
       when:
         - os: windows
+  id:
+    lutris: pirate-hunter
   installDir:
     Pirate Hunter: {}
   launch:
@@ -599863,10 +599869,11 @@ Samson:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/Samson/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Samson/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: samson
     steamExtra:
@@ -736957,6 +736964,7 @@ The Occluder:
 The Occultist:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/The_Occultist/Saved/SaveGames":
@@ -736969,7 +736977,14 @@ The Occultist:
         - save
       when:
         - os: windows
+  gog:
+    id: 2053145869
   id:
+    gogExtra:
+      - 1488738934
+      - 1601467583
+      - 1774758132
+      - 2017479570
     lutris: the-occultist
     steamExtra:
       - 2328850
@@ -738656,6 +738671,11 @@ The Pinball Wizard:
             store: steam
   steam:
     id: 2101800
+The Pines:
+  cloud:
+    steam: true
+  steam:
+    id: 4271520
 The Pink Panther in Hokus Pokus Pink:
   id:
     lutris: the-pink-panther-hokus-pokus-pink
