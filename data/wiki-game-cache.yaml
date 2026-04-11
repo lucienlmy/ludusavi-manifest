@@ -16439,6 +16439,9 @@ Asian Riddles:
 Asimov Laws:
   pageId: 93737
   steam: 840920
+Asket:
+  pageId: 215562
+  steam: 3079170
 Askutron Quiz Show:
   cloud:
     steam: true
@@ -55744,6 +55747,9 @@ Darkstone:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+Darkstone Restoration:
+  pageId: 215555
+  steam: 4557490
 Darkwater:
   cloud:
     steam: true
@@ -132455,6 +132461,10 @@ Living with Jaguars:
 Living with a Scarecrow:
   pageId: 150057
   steam: 1155670
+LivingForest:
+  lutris: livingforest
+  pageId: 215558
+  steam: 3027490
 Liz ~The Tower and the Grimoire~:
   cloud:
     steam: true
@@ -143702,6 +143712,14 @@ Microcosm (1994):
 Microgons:
   pageId: 59496
   steam: 529870
+Microlandia:
+  cloud:
+    steam: true
+  lutris: microlandia
+  pageId: 215560
+  steam: 4094120
+  steamSide:
+    - 4094830
 Micron:
   cloud:
     steam: true
@@ -149190,6 +149208,18 @@ Motor Mechanic:
 Motor Rock:
   pageId: 13550
   steam: 263260
+"Motor Town: Behind The Wheel":
+  cloud:
+    steam: true
+  lutris: motor-town-behind-the-wheel
+  pageId: 215556
+  steam: 1369670
+  steamSide:
+    - 1615960
+    - 1737040
+    - 2223650
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\MotorTown\\Saved\\SaveGames\\Characters\\*.sav}}"
 "MotorM4X: Offroad Extreme":
   lutris: motorm4x-offroad-extreme
   pageId: 63940
@@ -195978,7 +196008,9 @@ Scott Pilgrim EX:
   steam: 2640950
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Tribute Games\\ScottPilgrim\\Settings.cfg}}"
+    - "{{Game data/config|Linux|~/.local/share/Tribute Games/ScottPilgrimEX/Settings.cfg}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2640950\\remote}}"
+    - "{{Game data/saves|Linux|~/.local/share/Tribute Games/ScottPilgrimEX/GameSave.sav}}"
 "Scott Pilgrim vs. The World: The Game":
   pageId: 163313
   renamedFrom:

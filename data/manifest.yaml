@@ -51360,6 +51360,9 @@ Asimov Laws:
             store: steam
   steam:
     id: 840920
+Asket:
+  steam:
+    id: 3079170
 Askutron Quiz Show:
   cloud:
     steam: true
@@ -173296,6 +173299,9 @@ Darkstone:
             store: steam
   steam:
     id: 320320
+Darkstone Restoration:
+  steam:
+    id: 4557490
 Darkwater:
   cloud:
     steam: true
@@ -409739,6 +409745,19 @@ Living with a Scarecrow:
             store: steam
   steam:
     id: 1155670
+LivingForest:
+  id:
+    lutris: livingforest
+  installDir:
+    LivingForest: {}
+  launch:
+    "<base>/LivingForest.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3027490
 Liz ~The Tower and the Grimoire~:
   cloud:
     steam: true
@@ -444474,6 +444493,45 @@ Microgons:
             store: steam
   steam:
     id: 529870
+Microlandia:
+  cloud:
+    steam: true
+  files:
+    "<home>/.microlandia/db":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Microlandia/db":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Microlandia/db":
+      when:
+        - store: steam
+  id:
+    lutris: microlandia
+    steamExtra:
+      - 4094830
+  installDir:
+    Microlandia: {}
+  launch:
+    "<base>/microlandia.app":
+      - arguments: "--webgpu"
+        when:
+          - os: mac
+            store: steam
+    "<base>/microlandia.exe":
+      - arguments: "--out-of-process-gpu --enable-direct-composition --webgpu"
+        when:
+          - os: windows
+            store: steam
+    "<base>/run.sh":
+      - arguments: "--webgpu"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4094120
 Micron:
   cloud:
     steam: true
@@ -460911,6 +460969,36 @@ Motor Rock:
           - store: steam
   steam:
     id: 263260
+"Motor Town: Behind The Wheel":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/MotorTown/Saved/SaveGames/Characters/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: motor-town-behind-the-wheel
+    steamExtra:
+      - 1615960
+      - 1737040
+      - 2223650
+  installDir:
+    Motor Town: {}
+  launch:
+    "<base>/MotorTown/Binaries/Win64/MotorTown-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-DX11"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1369670
 "MotorM4X: Offroad Extreme":
   files:
     "<winDocuments>/Motorm4x":
@@ -604770,6 +604858,16 @@ Scott Pilgrim EX:
   cloud:
     steam: true
   files:
+    "<home>/.local/share/Tribute Games/ScottPilgrimEX/GameSave.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/Tribute Games/ScottPilgrimEX/Settings.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
     "<root>/userdata/<storeUserId>/2640950/remote":
       tags:
         - save

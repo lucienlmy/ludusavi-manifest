@@ -548746,6 +548746,29 @@
         oslist: linux
       executable: EnderLilies.sh
       type: default
+1369670:
+  cloud:
+    saves:
+      - path: MotorTown/Saved/SaveGames/Characters
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: MotorTown/Saved/SaveGames/Worlds
+        pattern: "*.world"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Motor Town
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 12 (Recommended)
+      executable: "MotorTown\\Binaries\\Win64\\MotorTown-Win64-Shipping.exe"
+    - arguments: "-DX11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 11 (For Players having trouble with DX12)
+      executable: "MotorTown\\Binaries\\Win64\\MotorTown-Win64-Shipping.exe"
 1369720:
   cloud:
     saves:
@@ -633644,6 +633667,14 @@
         oslist: windows
       executable: BEHEMOTH.exe
       type: default
+3027490:
+  installDir: LivingForest
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LivingForest.exe
+      type: default
 3027600:
   cloud:
     saves:
@@ -634764,6 +634795,7 @@
   installDir: MotoGP™25
   launch:
     - executable: motogp25.exe
+3079170: {}
 3080510:
   cloud:
     saves:
@@ -644849,6 +644881,59 @@
   nameLocalized:
     english: Karous
     japanese: カラス
+4094120:
+  cloud:
+    saves:
+      - path: Microlandia/db
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Microlandia/db
+            replace: Microlandia/db
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Microlandia/db
+            replace: ".microlandia/db"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Microlandia
+  launch:
+    - arguments: "--webgpu"
+      config:
+        oslist: macos
+      executable: microlandia.app
+      type: default
+    - arguments: "--out-of-process-gpu --enable-direct-composition --webgpu"
+      config:
+        oslist: windows
+      executable: microlandia.exe
+      type: default
+    - arguments: "--webgpu"
+      config:
+        oslist: linux
+      executable: run.sh
+      type: default
+    - arguments: "--out-of-process-gpu --enable-direct-composition --webgpu"
+      config:
+        betakey: prerelease
+        oslist: windows
+      description: Microlandia (WebGPU)
+      executable: microlandia.exe
+      type: option1
+    - arguments: "--webgpu"
+      config:
+        betakey: prerelease
+        oslist: macos
+      description: Microlandia (WebGPU)
+      executable: microlandia.app
+      type: option1
 4094670:
   installDir: rayman30th
   launch:
@@ -645344,4 +645429,5 @@
 4536610:
   nameLocalized:
     schinese: 城市蓝图
+4557490: {}
 3221903386: {}
