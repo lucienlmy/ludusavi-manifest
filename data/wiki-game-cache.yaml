@@ -72825,6 +72825,8 @@ Edgar - Bokbok in Boulzac:
   steam: 1007830
 "Edgar Torronteras' Moto-X 2000":
   pageId: 190356
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.prf}}"
 "Edgar Torronteras' eXtreme Biker":
   pageId: 190319
 Edge:

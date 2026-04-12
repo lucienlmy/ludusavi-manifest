@@ -226353,6 +226353,13 @@ Edgar - Bokbok in Boulzac:
             store: steam
   steam:
     id: 1007830
+"Edgar Torronteras' Moto-X 2000":
+  files:
+    "<base>/Profiles/<storeUserId>.prf":
+      tags:
+        - save
+      when:
+        - os: windows
 Edge:
   cloud:
     steam: true
