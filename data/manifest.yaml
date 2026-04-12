@@ -226360,6 +226360,13 @@ Edgar - Bokbok in Boulzac:
         - save
       when:
         - os: windows
+"Edgar Torronteras' eXtreme Biker":
+  files:
+    "<base>/Profiles/<storeUserId>.prf":
+      tags:
+        - save
+      when:
+        - os: windows
 Edge:
   cloud:
     steam: true
@@ -480150,6 +480157,17 @@ Neversong:
 Neverway:
   cloud:
     steam: true
+  files:
+    "<home>/Library/Application Support/Neverway/.preferences":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Neverway/save_data.gz":
+      tags:
+        - save
+      when:
+        - os: mac
   id:
     lutris: neverway
     steamExtra:
@@ -650127,6 +650145,28 @@ Spark and The Digital Daydream:
             store: steam
   steam:
     id: 1065750
+Spark in the Dark:
+  gog:
+    id: 1450374085
+  id:
+    gogExtra:
+      - 1730707327
+    lutris: spark-in-the-dark
+    steamExtra:
+      - 1783940
+  installDir:
+    Spark in the Dark: {}
+  launch:
+    "<base>/Spark in the Dark.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/sid.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1315180
 Spark of Light:
   installDir:
     Spark of Light: {}

@@ -542921,6 +542921,17 @@
         oslist: macos
       executable: "FlickerOfHope.app\\Contents\\MacOS\\FlickerOfHope"
       type: default
+1315180:
+  installDir: Spark in the Dark
+  launch:
+    - config:
+        oslist: windows
+      executable: Spark in the Dark.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: sid.app
+      type: default
 1315200:
   cloud:
     saves:

@@ -70737,6 +70737,7 @@ Dying Light:
     - "{{Game data/config|Linux|{{p|game}}\\DW\\out\\Settings\\}}"
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\239140\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\DyingLight\\out\\save\\|{{p|userprofile\\Documents}}\\Dying Light\\out\\save\\}}"
+    - "{{Game data/saves|Linux|via Heroic Launcher (Wine/Proton): ~/Games/Heroic/Prefixes/default/Dying Light/pfx/drive_c/users/<username>/Documents/DyingLight/out/save/}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\239140\\remote\\out\\}}"
 Dying Light 2 Stay Human:
   cloud:
@@ -72829,6 +72830,9 @@ Edgar - Bokbok in Boulzac:
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.prf}}"
 "Edgar Torronteras' eXtreme Biker":
   pageId: 190319
+  templates:
+    - "{{Game data/config|Windows}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.prf}}"
 Edge:
   cloud:
     steam: true
@@ -155457,6 +155461,9 @@ Neverway:
   steam: 2318330
   steamSide:
     - 4520130
+  templates:
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Neverway/.preferences}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Neverway/save_data.gz}}"
 Neverwinter:
   pageId: 12229
   steam: 109600
@@ -210397,6 +210404,15 @@ Spark Rising:
 Spark and The Digital Daydream:
   pageId: 134992
   steam: 1065750
+Spark in the Dark:
+  gog: 1450374085
+  gogSide:
+    - 1730707327
+  lutris: spark-in-the-dark
+  pageId: 215571
+  steam: 1315180
+  steamSide:
+    - 1783940
 Spark of Light:
   pageId: 130086
   steam: 1029070
