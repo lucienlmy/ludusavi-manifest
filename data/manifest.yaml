@@ -219180,6 +219180,24 @@ Dusk:
     gog: true
     steam: true
   files:
+    "<base>/DLC/DUSK HD/config/scores":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<base>/DLC/DUSK HD/saveimages":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<base>/DLC/DUSK HD/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
     "<base>/config":
       tags:
         - config
@@ -255706,6 +255724,28 @@ Farmer Pug Dash:
             store: steam
   steam:
     id: 678900
+"Farmer's Dynasty 2":
+  cloud:
+    gog: true
+  files:
+    "<winAppData>/Farm2/Save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1474126546
+  installDir:
+    "Farmer's Dynasty 2": {}
+  launch:
+    "<base>/Farm2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2569670
 "Farmer's Fairy Tale":
   files:
     "<home>/AppData/LocalLow/upjers GmbH/Farmer's Fairy Tale/Steam/steamdata.sav":

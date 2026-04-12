@@ -70354,8 +70354,8 @@ Dusk:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\dusk.ini}}"
     - "{{Game data/config|Linux|{{p|game}}/config}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\config\\scores|{{p|game}}\\saves\\|{{p|game}}\\saveimages\\}}"
-    - "{{Game data/saves|Linux|{{p|game}}/config/scores|{{p|game}}/saves\\|{{p|game}}/saveimages\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\config\\scores|{{p|game}}\\saves|{{p|game}}\\saveimages|{{p|game}}\\DLC\\DUSK HD\\config\\scores|{{p|game}}\\DLC\\DUSK HD\\saves|{{p|game}}\\DLC\\DUSK HD\\saveimages}}"
+    - "{{Game data/saves|Linux|{{p|game}}/config/scores|{{p|game}}/saves|{{p|game}}/saveimages|{{p|game}}/DLC/DUSK HD/config/scores|{{p|game}}/DLC/DUSK HD/saves|{{p|game}}/DLC/DUSK HD/saveimages}}"
 "Dusk '82":
   cloud:
     steam: true
@@ -82649,6 +82649,15 @@ Farmer Pug Dash:
   templates:
     - "{{Game data/config|Windows|{{p|AppData}}\\FarmersDynasty\\Save}}"
     - "{{Game data/saves|Windows|{{p|AppData}}\\FarmersDynasty\\Save}}"
+"Farmer's Dynasty 2":
+  cloud:
+    gog: true
+  gog: 1474126546
+  pageId: 215565
+  steam: 2569670
+  templates:
+    - "{{Game data/config|Windows|{{p|AppData}}\\Farm2\\Save}}"
+    - "{{Game data/saves|Windows|{{p|AppData}}\\Farm2\\Save}}"
 "Farmer's Fairy Tale":
   pageId: 108920
   steam: 821820
@@ -230221,6 +230230,8 @@ The Button:
 The Button Witch:
   pageId: 157348
   steam: 1198270
+The C.H.A.O.S. Continuum:
+  pageId: 215568
 "The Cabin: VR Escape the Room":
   pageId: 54798
   steam: 560640

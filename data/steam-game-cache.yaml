@@ -622586,6 +622586,63 @@
     koreana: MLB 라이벌
     spanish: MLB Rivals
     tchinese: MLB 勁旅對決
+2569670:
+  cloud:
+    saves:
+      - path: Farm2/Save
+        pattern: "*.bin"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.blk"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.fld"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.mts"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.sks"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.trn"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.grd"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Farm2/Save
+        pattern: "*.lgs"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: "Farmer's Dynasty 2"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Farm2.exe
+      type: default
+  nameLocalized:
+    schinese: "农夫王朝2 - Farmer's Dynasty 2"
 2569760: {}
 2570210:
   cloud:
