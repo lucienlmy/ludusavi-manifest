@@ -3481,7 +3481,16 @@
         root: WinMyDocuments
   installDir: Death Track
   launch:
-    - executable: deathtrack.exe
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 7850:
   cloud:
     saves:
@@ -52356,7 +52365,7 @@
         oslist: windows
       executable: bfs.exe
   nameLocalized:
-    russian: "KREED: Битва за Савитар"
+    russian: "Kreed: Битва за Савитар"
 289760:
   installDir: ROCKETSROCKETSROCKETS
   launch:
@@ -347511,6 +347520,14 @@
       type: default
 818290: {}
 818320:
+  cloud:
+    saves:
+      - path: Warner Bros. Interactive Entertainment/LEGO The Incredibles/SAVEDGAMES
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
   installDir: LEGO The Incredibles
   launch:
     - config:
@@ -634478,6 +634495,21 @@
         osarch: "64"
         oslist: windows
       description: F1® 25 (EH)
+      executable: F1_25.exe
+      type: vr
+    - config:
+        betakey: internal_s_2
+        osarch: "64"
+        oslist: windows
+      description: F1® 25 (no sf)  - Use this option
+      executable: F1_25.exe
+      type: default
+    - arguments: "-vr"
+      config:
+        betakey: internal_s_2
+        osarch: "64"
+        oslist: windows
+      description: F1® 25 (no sf)
       executable: F1_25.exe
       type: vr
     - config:

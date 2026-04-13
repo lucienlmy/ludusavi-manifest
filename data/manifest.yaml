@@ -180631,9 +180631,16 @@ Death Toll:
   installDir:
     Death Track: {}
   launch:
-    "<base>/deathtrack.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - store: steam
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 7840
 Death Tractor:
@@ -732352,6 +732359,8 @@ The Lift:
   steam:
     id: 843160
 "The Lift: Supernatural Handyman Simulator":
+  id:
+    lutris: the-lift--1
   steam:
     id: 3283240
 The Light:
