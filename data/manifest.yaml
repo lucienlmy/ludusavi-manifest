@@ -155871,6 +155871,12 @@ Crime Scene Cleaner:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/5901F20F.CrimeSceneCleaner_t06nbjdc8fw86/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: crime-scene-cleaner
     steamExtra:
@@ -262761,6 +262767,7 @@ Final Islands:
 "Final Liberation: Warhammer Epic 40,000":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SAV":
       tags:
@@ -262774,6 +262781,19 @@ Final Islands:
         - os: windows
   gog:
     id: 1436454557
+  installDir:
+    "Final Liberation Warhammer Epic 40,000": {}
+  launch:
+    "<base>/Epic40k.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "- WINEDLLOVERRIDES=“ddraw=n,b” %command%"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4280920
 Final Match:
   files:
     "<base>/FinalMatch/Saved/SaveGames/*.sav":
@@ -373148,6 +373168,12 @@ Journey to the Savage Planet:
     epic: true
     gog: true
   files:
+    "<winLocalAppData>/Packages/505GAMESS.P.A.JourneytotheSavagePlanet-EotMPCGP_tefn33qh9azfc/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Towers/Saved/Config/WinGDK":
       tags:
         - config
@@ -716535,6 +716561,8 @@ The Darkside Detective:
     id: 2010828533
   id:
     lutris: the-darkside-detective-backside-of-the-moon
+    steamExtra:
+      - 4353000
   steam:
     id: 3990360
 "The Dawn: First War":
@@ -813299,6 +813327,7 @@ Warhalla:
 "Warhammer 40,000: Chaos Gate":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/Save_G":
       tags:
@@ -813307,6 +813336,19 @@ Warhalla:
         - os: windows
   gog:
     id: 1433928487
+  installDir:
+    "Warhammer 40,000 Chaos Gate": {}
+  launch:
+    "<base>/WH40K.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "- WINEDLLOVERRIDES=“ddraw=n,b” %command%"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4280890
 "Warhammer 40,000: Chaos Gate - Daemonhunters":
   cloud:
     epic: true
@@ -813809,6 +813851,7 @@ Warhalla:
 "Warhammer 40,000: Fire Warrior":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/Data/FireWarrior.dat":
       tags:
@@ -813834,6 +813877,15 @@ Warhalla:
     id: 1394528466
   id:
     lutris: warhammer-40000-fire-warrior
+  installDir:
+    "Warhammer 40,000 Fire Warrior": {}
+  launch:
+    "<base>/FireWarrior.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4280930
 "Warhammer 40,000: Gladius - Relics of War":
   cloud:
     epic: true
@@ -814055,6 +814107,7 @@ Warhalla:
 "Warhammer 40,000: Rites of War":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/save":
       tags:
@@ -814065,6 +814118,19 @@ Warhalla:
     id: 1443606025
   id:
     lutris: warhammer-40000-rites-of-war
+  installDir:
+    "Warhammer 40,000 Rites of War": {}
+  launch:
+    "<base>/row.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "- WINEDLLOVERRIDES=“ddraw=n,b” %command%"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4280900
 "Warhammer 40,000: Rogue Trader":
   cloud:
     gog: true
@@ -814646,6 +814712,7 @@ Warhammer Survivors:
 "Warhammer: Dark Omen":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SaveGame":
       tags:
@@ -814656,10 +814723,18 @@ Warhammer Survivors:
     id: 1253607412
   id:
     lutris: warhammer-dark-omen
+  installDir:
+    Warhammer Dark Omen: {}
+  launch:
+    "<base>/PRG_ENG/DarkOmen.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Electronic Arts/Dark Omen/1.0/Options:
       tags:
         - config
+  steam:
+    id: 4280860
 "Warhammer: End Times - Vermintide":
   files:
     "<winAppData>/Fatshark/Warhammer End Times Vermintide/*.config":
@@ -814706,9 +814781,18 @@ Warhammer Survivors:
         - os: windows
   gog:
     id: 1609408156
+  installDir:
+    Warhammer Mark of Chaos - Gold Edition: {}
+  launch:
+    "<base>/Warhammer.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4280940
 "Warhammer: Shadow of the Horned Rat":
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/TEMP":
       tags:
@@ -814724,6 +814808,14 @@ Warhammer Survivors:
     id: 1433929853
   id:
     lutris: warhammer-shadow-of-the-horned-rat
+  installDir:
+    Warhammer Shadow of the Horned Rat: {}
+  launch:
+    "<base>/WHSHR.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4280870
 "Warhammer: Vermintide 2":
   files:
     "<winAppData>/Fatshark/Vermintide 2/launcher.config":

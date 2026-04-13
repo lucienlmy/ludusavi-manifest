@@ -645423,6 +645423,115 @@
       type: default
 4271520: {}
 4277630: {}
+4280860:
+  cloud:
+    saves:
+      - path: SaveGame
+        pattern: "*"
+        root: gameinstall
+  installDir: Warhammer Dark Omen
+  launch:
+    - description: English Version
+      executable: PRG_ENG/DarkOmen.exe
+    - config:
+        oslist: windows
+      description: Graphic Settings
+      executable: PRG_ENG/dgVoodooCpl.exe
+      type: option1
+4280870:
+  cloud:
+    saves:
+      - path: SAVE/
+        pattern: "*.*"
+        root: gameinstall
+  installDir: Warhammer Shadow of the Horned Rat
+  launch:
+    - executable: WHSHR.exe
+4280890:
+  cloud:
+    saves:
+      - path: Save_G
+        pattern: "*.*"
+        root: gameinstall
+  installDir: "Warhammer 40,000 Chaos Gate"
+  launch:
+    - config:
+        oslist: windows
+      executable: WH40K.exe
+    - arguments: "- WINEDLLOVERRIDES=“ddraw=n,b” %command%"
+      config:
+        oslist: linux
+      executable: WH40K.exe
+      type: default
+4280900:
+  cloud:
+    saves:
+      - path: save
+        pattern: "*.csv"
+        root: gameinstall
+      - path: ""
+        pattern: "*.int"
+        root: gameinstall
+      - path: ""
+        pattern: "*.ini"
+        root: gameinstall
+  installDir: "Warhammer 40,000 Rites of War"
+  launch:
+    - config:
+        oslist: windows
+      executable: row.exe
+    - arguments: "- WINEDLLOVERRIDES=“ddraw=n,b” %command%"
+      config:
+        oslist: linux
+      executable: row.exe
+      type: default
+4280920:
+  cloud:
+    saves:
+      - path: sav
+        pattern: "*.dat"
+        root: gameinstall
+  installDir: "Final Liberation Warhammer Epic 40,000"
+  launch:
+    - config:
+        oslist: windows
+      executable: Epic40k.exe
+    - arguments: "- WINEDLLOVERRIDES=“ddraw=n,b” %command%"
+      config:
+        oslist: linux
+      executable: Epic40k.exe
+      type: default
+4280930:
+  cloud:
+    saves:
+      - path: Data
+        pattern: "*.dat"
+        root: gameinstall
+  installDir: "Warhammer 40,000 Fire Warrior"
+  launch:
+    - config:
+        oslist: windows
+      executable: FireWarrior.exe
+    - config:
+        oslist: windows
+      description: Configuration Tool
+      executable: FWPCConfig.exe
+      type: option1
+4280940:
+  cloud:
+    saves:
+      - path: Warhammer Mark of Chaos Gold Classic/Save
+        pattern: "*.WHBMSave"
+        recursive: true
+        root: WinMyDocuments
+      - path: Warhammer Mark of Chaos Gold Classic/Save/Profiles
+        pattern: "*.bin"
+        recursive: true
+        root: WinMyDocuments
+  installDir: Warhammer Mark of Chaos - Gold Edition
+  launch:
+    - executable: Warhammer.exe
+      type: default
 4289030:
   cloud:
     saves:

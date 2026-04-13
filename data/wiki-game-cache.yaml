@@ -21439,6 +21439,8 @@ Banners of Ruin:
     - 2523180
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\MonteBearo\\BannersOfRuin\\SaveData}}"
+Banquet for Fools:
+  pageId: 215593
 Banshee Force:
   pageId: 80942
   steam: 771540
@@ -50000,6 +50002,7 @@ Crime Scene Cleaner:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\CrimeCleaner_Data\\*.es3|{{P|hkcu}}\\Software\\President Studio\\CrimeCleaner}}"
     - "{{Game data/saves|Windows|{{P|game}}\\CrimeCleaner_Data\\Saves\\{{P|uid}}\\*.es3}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\5901F20F.CrimeSceneCleaner_t06nbjdc8fw86\\SystemAppData\\wgs\\}}"
 "Crime Scene: Reconstruction of Crime":
   pageId: 97361
   steam: 850030
@@ -85012,8 +85015,10 @@ Final Islands:
 "Final Liberation: Warhammer Epic 40,000":
   cloud:
     gog: true
+    steam: true
   gog: 1436454557
   pageId: 32235
+  steam: 4280920
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\epic.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAV}}"
@@ -120427,6 +120432,7 @@ Journey to the Savage Planet:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Towers\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Towers\\Saved\\Config\\WinGDK\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\505GAMESS.P.A.JourneytotheSavagePlanet-EotMPCGP_tefn33qh9azfc\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Towers\\Saved\\SaveGames\\}}"
 "Journey's End":
   pageId: 209935
@@ -231581,6 +231587,8 @@ The Darkside Detective:
   lutris: the-darkside-detective-backside-of-the-moon
   pageId: 211863
   steam: 3990360
+  steamSide:
+    - 4353000
 "The Dawn: First War":
   pageId: 55811
   steam: 574510
@@ -264303,8 +264311,10 @@ Warhalla:
 "Warhammer 40,000: Chaos Gate":
   cloud:
     gog: true
+    steam: true
   gog: 1433928487
   pageId: 8431
+  steam: 4280890
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save_G}}"
@@ -264513,9 +264523,11 @@ Warhalla:
 "Warhammer 40,000: Fire Warrior":
   cloud:
     gog: true
+    steam: true
   gog: 1394528466
   lutris: warhammer-40000-fire-warrior
   pageId: 58401
+  steam: 4280930
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\fw.config.xml|{{p|game}}\\active_fwp.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\FireWarrior.dat|{{p|game}}\\Data\\Saves\\FW.dat{{note|GOG Preservation Program version}}}}"
@@ -264641,9 +264653,11 @@ Warhalla:
 "Warhammer 40,000: Rites of War":
   cloud:
     gog: true
+    steam: true
   gog: 1443606025
   lutris: warhammer-40000-rites-of-war
   pageId: 131754
+  steam: 4280900
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\save}}"
 "Warhammer 40,000: Rogue Trader":
@@ -264908,9 +264922,11 @@ Warhammer Survivors:
 "Warhammer: Dark Omen":
   cloud:
     gog: true
+    steam: true
   gog: 1253607412
   lutris: warhammer-dark-omen
   pageId: 26848
+  steam: 4280860
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\Dark Omen\\1.0\\Options}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame}}"
@@ -264928,14 +264944,17 @@ Warhammer Survivors:
     gog: true
   gog: 1609408156
   pageId: 13156
+  steam: 4280940
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Warhammer Mark of Chaos\\Save\\|{{p|userprofile\\Documents}}\\Warhammer Battle March\\Save\\}}"
 "Warhammer: Shadow of the Horned Rat":
   cloud:
     gog: true
+    steam: true
   gog: 1433929853
   lutris: warhammer-shadow-of-the-horned-rat
   pageId: 131752
+  steam: 4280870
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\TEMP}}"
     - "{{Game data/saves|Windows|{{p|game}}\\TEMP\\savegame.*}}"
