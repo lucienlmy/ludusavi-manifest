@@ -414951,6 +414951,8 @@ Lost in Random:
         - save
       when:
         - os: windows
+  id:
+    lutris: lost-in-randomtm
   installDir:
     Lost in Random: {}
   registry:
@@ -554354,6 +554356,24 @@ R42:
     R42: {}
   steam:
     id: 1127120
+"RACCOIN: Coin Pusher Roguelike":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DoraccoonGames/RACCOIN/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    RACCOIN: {}
+  launch:
+    "<base>/RACCOIN.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3784030
 RACE - The WTCC Game:
   id:
     steamExtra:
@@ -638634,6 +638654,28 @@ Sokos:
             store: steam
   steam:
     id: 387370
+Sol Cesto:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/SolCesto/User Data/Default":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Sol Cesto: {}
+  launch:
+    "<base>/SolCesto":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/SolCesto.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2738490
 Sol Cresta:
   cloud:
     steam: true

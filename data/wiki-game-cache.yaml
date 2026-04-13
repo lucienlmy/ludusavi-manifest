@@ -134141,6 +134141,7 @@ Lost in Purple:
 Lost in Random:
   cloud:
     origin: true
+  lutris: lost-in-randomtm
   pageId: 169422
   steam: 1462570
   templates:
@@ -179538,6 +179539,13 @@ R.U.S.E.:
 R42:
   pageId: 144574
   steam: 1127120
+"RACCOIN: Coin Pusher Roguelike":
+  cloud:
+    steam: true
+  pageId: 215589
+  steam: 3784030
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DoraccoonGames\\RACCOIN\\SaveData\\}}"
 RACE - The WTCC Game:
   pageId: 34901
   steam: 4230
@@ -203878,6 +203886,8 @@ Skript:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Southpaw Games\\Skul\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Southpaw Games\\Skul\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Neowiz.SkulTheHeroSlayer_r4z3116tdh636\\SystemAppData\\wgs\\{{p|uid}}\\}}"
+Skull Cracker:
+  pageId: 215587
 Skull Feast:
   pageId: 89359
   steam: 815030
@@ -206654,6 +206664,13 @@ Sokos:
 "Sol 0: Mars Colonization":
   pageId: 44974
   steam: 387370
+Sol Cesto:
+  cloud:
+    steam: true
+  pageId: 215591
+  steam: 2738490
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\SolCesto\\User Data\\Default\\}}"
 Sol Cresta:
   cloud:
     steam: true

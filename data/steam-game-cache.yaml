@@ -627662,6 +627662,26 @@
     - config:
         oslist: macos
       executable: The House of Tesla.app/Contents/MacOS/The House of Tesla
+2738490:
+  cloud:
+    saves:
+      - path: SolCesto/User Data/Default
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Sol Cesto
+  launch:
+    - config:
+        oslist: windows
+      executable: SolCesto.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: SolCesto
+      type: default
+  nameLocalized:
+    schinese: 寻日之旅
+    tchinese: 尋日之旅
 2738630:
   cloud:
     saves:
@@ -643599,6 +643619,36 @@
         oslist: windows
       executable: TheLastSip.exe
       type: default
+3784030:
+  cloud:
+    saves:
+      - path: "DoraccoonGames/RACCOIN/SaveData/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "DoraccoonGames/RACCOIN/SaveData/{64BitSteamID}"
+            replace: "unity.DoraccoonGames.RACCOIN.SaveData.{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "DoraccoonGames/RACCOIN/SaveData/{64BitSteamID}"
+            replace: ".config/unity3d/DoraccoonGames/RACCOIN/SaveData/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: RACCOIN
+  launch:
+    - config:
+        oslist: windows
+      executable: RACCOIN.exe
+  nameLocalized:
+    schinese: 浣熊推币机
+    tchinese: 浣熊推幣機
 3787240: {}
 3788800:
   nameLocalized:
