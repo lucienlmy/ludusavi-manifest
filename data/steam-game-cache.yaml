@@ -523399,6 +523399,20 @@
     - executable: Remuage-MeltySensation.exe
       type: vr
 1198970:
+  cloud:
+    saves:
+      - path: IMJCH/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: IMJCH/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Linux
+        recursive: true
+        root: gameinstall
   installDir: I Am Jesus Christ
   launch:
     - config:
@@ -609287,6 +609301,9 @@
   nameLocalized:
     schinese: 勇闯死人谷：暗黑之日
     tchinese: " 勇闖死人谷:暗黑之日"
+2239770:
+  nameLocalized:
+    schinese: 饥荒：异域
 2240080:
   installDir: Spilled!
   launch:

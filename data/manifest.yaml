@@ -202735,6 +202735,9 @@ Don Bradman Cricket 17:
             store: steam
   steam:
     id: 219740
+"Don't Starve Elsewhere":
+  steam:
+    id: 2239770
 "Don't Starve Together":
   files:
     "<home>/.klei/DoNotStarveTogether/<storeUserId>":
@@ -226069,6 +226072,8 @@ Ectolibrium:
 Ecumene Aztec:
   id:
     lutris: ecumene-aztec
+    steamExtra:
+      - 4501490
   steam:
     id: 2383240
 Eczema Angel Orifice:
@@ -348463,6 +348468,12 @@ I Am Gooey:
 I Am Jesus Christ:
   cloud:
     epic: true
+  files:
+    "<winLocalAppData>/IMJCH/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: i-am-jesus-christ
     steamExtra:
@@ -452087,6 +452098,8 @@ Mixolumia:
   steam:
     id: 1414020
 Mixtape:
+  cloud:
+    steam: true
   id:
     lutris: mixtape--1
   steam:
@@ -460949,6 +460962,13 @@ Motocross Madness 2:
         - os: windows
   id:
     lutris: motocross-madness-2
+Motocross Mania:
+  files:
+    "<base>/Profiles/<storeUserId>.prf":
+      tags:
+        - save
+      when:
+        - os: windows
 "Motocross: Chasing the Dream":
   installDir:
     Motocross Chasing the Dream: {}
@@ -606075,12 +606095,10 @@ Scritchy Scratchy:
     steam: true
   files:
     "<home>/AppData/LocalLow/Lunch Money Games/Scritchy Scratchy/*.json":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: scritchy-scratchy
     steamExtra:
@@ -664006,11 +664024,17 @@ Starscape:
     id: 20700
 Starsector:
   files:
+    "<base>/data/config":
+      tags:
+        - config
+      when:
+        - os: linux
     "<base>/saves":
       tags:
         - save
       when:
         - os: windows
+        - os: linux
     "<base>/starsector-core/data/config":
       tags:
         - config
@@ -669814,6 +669838,16 @@ Stoneshard:
         - save
       when:
         - os: linux
+    "<home>/AppData/Local/StoneShard/characters_v1/*.map":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/Local/StoneShard/characters_v1/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 2056667973
   id:

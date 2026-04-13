@@ -65189,6 +65189,9 @@ Don Bradman Cricket 17:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/Klei/DoNotStarve/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.klei/DoNotStarve/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{P|uid}}/219740/remote/}}"
+"Don't Starve Elsewhere":
+  pageId: 215579
+  steam: 2239770
 "Don't Starve Together":
   lutris: dont-starve-together
   pageId: 22870
@@ -72729,6 +72732,8 @@ Ecumene Aztec:
   lutris: ecumene-aztec
   pageId: 205259
   steam: 2383240
+  steamSide:
+    - 4501490
 Eczema Angel Orifice:
   pageId: 134924
   steam: 422010
@@ -112559,6 +112564,8 @@ I Am Jesus Christ:
   steam: 1198970
   steamSide:
     - 2007580
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\IMJCH\\Saved\\SaveGames}}"
 "I Am Jesus Christ: Prologue":
   lutris: i-am-jesus-christ-prologue
   pageId: 174006
@@ -146182,6 +146189,8 @@ Mixolumia:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}/AppData/Local/Mixolumia/profiles/}}"
 Mixtape:
+  cloud:
+    steam: true
   lutris: mixtape--1
   pageId: 206363
   steam: 2582320
@@ -149201,6 +149210,8 @@ Motocross Madness 2:
     - "{{Game data/saves|Windows|{{P|game}}\\UI\\Profile\\}}"
 Motocross Mania:
   pageId: 190268
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.prf}}"
 "Motocross: Chasing the Dream":
   pageId: 154255
   steam: 830540
@@ -196380,6 +196391,8 @@ Scritchy Scratchy:
     - 4124780
     - 4428640
     - 4517590
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Lunch Money Games\\Scritchy Scratchy\\*.json}}"
 Scroll2Read:
   pageId: 125135
   steam: 999540
@@ -214955,7 +214968,9 @@ Starsector:
   pageId: 143059
   templates:
     - "{{Game data/config|Windows|\n{{P|game}}\\starsector-core\\data\\config|\n{{p|userprofile}}\\Starsector\\starsector-core\\data\\config}}"
+    - "{{Game data/config|Linux|\n{{P|game}}/data/config\n}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves}}"
+    - "{{Game data/saves|Linux|{{p|game}}/saves}}"
 Starseed Pilgrim:
   pageId: 7147
   steam: 230980
@@ -216859,6 +216874,7 @@ Stoneshard:
     - 869760
   templates:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/StoneShard/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\StoneShard\\characters_v1\\*.sav|{{P|userprofile}}\\AppData\\Local\\StoneShard\\characters_v1\\*.map}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/StoneShard/}}"
 Stonetowers:
   cloud:
