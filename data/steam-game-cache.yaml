@@ -573111,7 +573111,19 @@
         oslist: windows
       executable: Reigns Beyond.exe
       type: default
-1663850: {}
+1663850:
+  cloud:
+    saves:
+      - path: "SadCatStudios/Replaced/saves/{64BitSteamID}"
+        pattern: player*.*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: REPLACED
+  launch:
+    - config:
+        oslist: windows
+      executable: Replaced.exe
 1664220:
   cloud:
     saves:

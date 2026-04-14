@@ -309821,6 +309821,12 @@ Ground Zero:
   steam:
     id: 1188160
 Ground of Aces:
+  files:
+    "<home>/AppData/LocalLow/Blindflug Studios/Squadron_Leader_Demo_release/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3851890
@@ -309841,6 +309847,10 @@ Ground of Aces:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Blindflug Studios/Squadron_Leader_Demo_release:
+      tags:
+        - config
   steam:
     id: 2308690
 GroundFall:
@@ -411807,12 +411817,18 @@ LooWarVR:
     id: 510990
 Look Outside:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/save":
       when:
         - store: steam
+  gog:
+    id: 1582305837
   id:
+    gogExtra:
+      - 1823226955
+    lutris: look-outside
     steamExtra:
       - 3580350
   installDir:
@@ -475885,6 +475901,9 @@ Necrophosis:
     id: 1775684513
   id:
     lutris: necrophosis
+    steamExtra:
+      - 2959950
+      - 3837860
   installDir:
     Necrophosis: {}
   launch:
@@ -571215,13 +571234,29 @@ Repetendium:
     id: 2055500
 Replaced:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Packages/Thunderful.REPLACED-Game_8j53pwgd019sy/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1936811781
   id:
     lutris: replaced
     steamExtra:
       - 4261860
+      - 4537980
+  installDir:
+    REPLACED: {}
+  launch:
+    "<base>/Replaced.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1663850
 Replay - VHS is not dead:
@@ -716404,6 +716439,8 @@ The Dark Mod:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-dark-mod
 The Dark Occult:
   files:
     "<winLocalAppData>/The_Dark_Occult/Saved/Config/WindowsNoEditor":

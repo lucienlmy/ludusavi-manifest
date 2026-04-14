@@ -64704,6 +64704,8 @@ Doki Doki Ragnarok:
   steam: 1578330
   steamSide:
     - 1907610
+Doki Maternal:
+  pageId: 215603
 Dokkaebi Hentai Adventures:
   pageId: 87131
   steam: 805500
@@ -99897,6 +99899,9 @@ Ground of Aces:
   steam: 2308690
   steamSide:
     - 3851890
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Blindflug Studios\\Squadron_Leader_Demo_release}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Blindflug Studios\\Squadron_Leader_Demo_release\\Saves\\}}"
 GroundFall:
   pageId: 132664
   steam: 934260
@@ -133074,7 +133079,12 @@ LooWarVR:
   steam: 510990
 Look Outside:
   cloud:
+    gog: true
     steam: true
+  gog: 1582305837
+  gogSide:
+    - 1823226955
+  lutris: look-outside
   pageId: 202904
   steam: 3373660
   steamSide:
@@ -153958,10 +153968,14 @@ Necrophosis:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1775684513
   lutris: necrophosis
   pageId: 206304
   steam: 2019760
+  steamSide:
+    - 2959950
+    - 3837860
 Necropolis:
   cloud:
     steam: true
@@ -184934,13 +184948,18 @@ Repetendium:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Repetendium}}"
 Replaced:
   cloud:
+    gog: true
     steam: true
+    xbox: true
   gog: 1936811781
   lutris: replaced
   pageId: 169280
   steam: 1663850
   steamSide:
     - 4261860
+    - 4537980
+  templates:
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.REPLACED-Game_8j53pwgd019sy\\SystemAppData\\wgs}}"
 Replay - VHS is not dead:
   pageId: 47337
   steam: 333490
@@ -231479,6 +231498,7 @@ The Dark Legions:
   pageId: 42459
   steam: 492530
 The Dark Mod:
+  lutris: the-dark-mod
   pageId: 11162
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Darkmod.cfg}}"
