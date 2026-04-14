@@ -21440,7 +21440,15 @@ Banners of Ruin:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\MonteBearo\\BannersOfRuin\\SaveData}}"
 Banquet for Fools:
+  cloud:
+    steam: true
+  gog: 2068696421
+  lutris: banquet-for-fools
   pageId: 215593
+  steam: 3172700
+  steamSide:
+    - 3173190
+    - 4341680
 Banshee Force:
   pageId: 80942
   steam: 771540
@@ -155275,9 +155283,9 @@ Neva:
     - 4437840
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\nomada studio\\Neva\\{{p|uid}}\\Save01\\Config.gs}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/Config.gs}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.devolverdigital.neva/{{p|uid}}/Save01/Config.gs|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/Config.gs}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\nomada studio\\Neva\\{{p|uid}}\\Save01\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.devolverdigital.neva/{{p|uid}}/Save01/|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/}}"
 Nevaeh:
   cloud:
     steam: true
@@ -174396,6 +174404,8 @@ Pragmata:
   lutris: pragmata
   pageId: 161023
   steam: 3357650
+  steamSide:
+    - 4003800
 Prana:
   pageId: 74918
   steam: 599150
@@ -179548,10 +179558,16 @@ R42:
 "RACCOIN: Coin Pusher Roguelike":
   cloud:
     steam: true
+  lutris: raccoin-coin-pusher-roguelike
   pageId: 215589
   steam: 3784030
+  steamSide:
+    - 3921890
+    - 4054170
+    - 4413940
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DoraccoonGames\\RACCOIN\\SaveData\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\DoraccoonGames\\RACCOIN\\SaveData\\{{p|uid}}\\commonData.json|{{p|hkcu}}\\Software\\DoraccoonGames\\RACCOIN\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\DoraccoonGames\\RACCOIN\\SaveData\\{{p|uid}}\\}}"
 RACE - The WTCC Game:
   pageId: 34901
   steam: 4230
@@ -193559,6 +193575,11 @@ Sacred Sword Princesses:
 Sacred Zodongga Defense:
   pageId: 187592
   steam: 2223350
+"Sacred: Last Pixel of Ancaria":
+  cloud:
+    steam: true
+  pageId: 215599
+  steam: 4092130
 SacriFire:
   cloud:
     gog: true
@@ -209284,12 +209305,24 @@ Space Hotel:
 Space Hulk:
   pageId: 213646
 Space Hulk (2013):
+  cloud:
+    steam: true
   pageId: 9169
   steam: 242570
+  steamSide:
+    - 246561
+    - 246562
+    - 246563
+    - 246564
+    - 265410
+    - 274430
+    - 274431
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\Full Control\\SpaceHulk\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/Full Control/SpaceHulk/}}"
 "Space Hulk: Ascension":
+  cloud:
+    steam: true
   pageId: 49349
   renamedFrom:
     - Space Hulk Ascension

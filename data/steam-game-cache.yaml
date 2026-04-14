@@ -29486,6 +29486,13 @@
         oslist: windows
       executable: Rayman Legends.exe
 242570:
+  cloud:
+    saves:
+      - path: "Full Control\\SpaceHulk"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
   installDir: Space Hulk
   launch:
     - config:
@@ -49080,16 +49087,13 @@
       description: Launch
       executable: BeamNG.drive.exe
       type: default
-    - config:
+    - arguments: "-forceCloud on"
+      config:
+        osarch: "64"
         oslist: linux
       description: BeamNG.drive (Linux)
       executable: BinLinux/BeamNG.drive.x64
-      type: option1
-    - config:
-        oslist: linux
-      description: BeamNG.drive (Windows)
-      executable: BeamNG.drive.exe
-      type: option2
+      type: default
 284180:
   installDir: Magicians and Looters
   launch:
@@ -68212,7 +68216,7 @@
         platforms:
           - MacOS
         root: MacHome
-      - path: "FullControl\\SpaceHulkAscension"
+      - path: "Full Control\\SpaceHulkAscension"
         pattern: "*"
         platforms:
           - Windows
@@ -636295,6 +636299,82 @@
     - executable: basketball.exe
       type: default
 3172440: {}
+3172700:
+  cloud:
+    saves:
+      - path: Hannah and Joseph Games/Banquet for Fools/QuickSave
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools/Save1
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: QuickSave.png
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: Guide.es3
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: Keys.es3
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: Version.es3
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: SerpentData.es3
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: Save1.png
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: Save2.png
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools
+        pattern: Scores.es3
+        root: gameinstall
+      - path: Hannah and Joseph Games/Banquet for Fools/Save2
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxXdgConfigHome
+  installDir: Banquet for Fools
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Banquet for Fools.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: Banquet for Fools.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Banquet for Fools.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Banquet for Fools.exe
+      type: default
 3177010:
   installDir: "Don't Mess With Bober"
   launch:
@@ -645048,6 +645128,7 @@
   nameLocalized:
     english: Karous
     japanese: カラス
+4092130: {}
 4094120:
   cloud:
     saves:

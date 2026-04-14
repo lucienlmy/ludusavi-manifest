@@ -67061,6 +67061,202 @@ Banners of Ruin:
             store: steam
   steam:
     id: 1075740
+Banquet for Fools:
+  cloud:
+    steam: true
+  files:
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Guide.es3":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Keys.es3":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/QuickSave":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/QuickSave.png":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Save1":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Save1.png":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Save2":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Save2.png":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Scores.es3":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/SerpentData.es3":
+      when:
+        - store: steam
+    "<base>/Hannah and Joseph Games/Banquet for Fools/Version.es3":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Guide.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Keys.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/QuickSave":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/QuickSave.png":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Save1":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Save1.png":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Save2":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Save2.png":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Scores.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/SerpentData.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Hannah and Joseph Games/Banquet for Fools/Version.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Guide.es3":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Keys.es3":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/QuickSave":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/QuickSave.png":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Save1":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Save1.png":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Save2":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Save2.png":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Scores.es3":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/SerpentData.es3":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Hannah and Joseph Games/Banquet for Fools/Version.es3":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Guide.es3":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Keys.es3":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/QuickSave":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/QuickSave.png":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Save1":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Save1.png":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Save2":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Save2.png":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Scores.es3":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/SerpentData.es3":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Hannah and Joseph Games/Banquet for Fools/Version.es3":
+      when:
+        - os: linux
+          store: steam
+  gog:
+    id: 2068696421
+  id:
+    lutris: banquet-for-fools
+    steamExtra:
+      - 3173190
+      - 4341680
+  installDir:
+    Banquet for Fools: {}
+  launch:
+    "<base>/Banquet for Fools.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Banquet for Fools.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3172700
 Banshee Force:
   installDir:
     Banshee Force: {}
@@ -73453,6 +73649,12 @@ BeamNG.drive:
     "<base>/BeamNG.drive.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/BinLinux/BeamNG.drive.x64":
+      - arguments: "-forceCloud on"
+        when:
+          - bit: 64
+            os: linux
             store: steam
   steam:
     id: 284160
@@ -479514,6 +479716,16 @@ Neva:
         - config
       when:
         - os: mac
+    "<home>/Library/Application Support/com.devolverdigital.neva/<storeUserId>/Save01":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.devolverdigital.neva/<storeUserId>/Save01/Config.gs":
+      tags:
+        - config
+      when:
+        - os: mac
   gog:
     id: 1980594794
   id:
@@ -537953,6 +538165,8 @@ Pragmata:
     steam: true
   id:
     lutris: pragmata
+    steamExtra:
+      - 4003800
   steam:
     id: 3357650
 Prana:
@@ -554386,11 +554600,22 @@ R42:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/DoraccoonGames/RACCOIN/SaveData":
+    "<home>/AppData/LocalLow/DoraccoonGames/RACCOIN/SaveData/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/DoraccoonGames/RACCOIN/SaveData/<storeUserId>/commonData.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: raccoin-coin-pusher-roguelike
+    steamExtra:
+      - 3921890
+      - 4054170
+      - 4413940
   installDir:
     RACCOIN: {}
   launch:
@@ -554398,6 +554623,10 @@ R42:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/DoraccoonGames/RACCOIN:
+      tags:
+        - config
   steam:
     id: 3784030
 RACE - The WTCC Game:
@@ -597246,6 +597475,11 @@ Sacred Zodongga Defense:
           - store: steam
   steam:
     id: 2223350
+"Sacred: Last Pixel of Ancaria":
+  cloud:
+    steam: true
+  steam:
+    id: 4092130
 SacriFire:
   cloud:
     gog: true
@@ -646722,6 +646956,8 @@ Space Hotel:
   steam:
     id: 564900
 Space Hulk (2013):
+  cloud:
+    steam: true
   files:
     "<home>/.config/Full Control/SpaceHulk":
       tags:
@@ -646733,6 +646969,15 @@ Space Hulk (2013):
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 246561
+      - 246562
+      - 246563
+      - 246564
+      - 265410
+      - 274430
+      - 274431
   installDir:
     Space Hulk: {}
   launch:
@@ -646753,6 +646998,8 @@ Space Hulk (2013):
 Space Hulk Ascension:
   alias: "Space Hulk: Ascension"
 "Space Hulk: Ascension":
+  cloud:
+    steam: true
   files:
     "<winAppData>/Full Control/SpaceHulkAscension":
       tags:
