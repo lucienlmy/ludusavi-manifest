@@ -268789,10 +268789,13 @@ Windows Subsystem for Android:
     - Windows Subsystem for Android™
 Windrose:
   cloud:
+    epic: true
     steam: true
   lutris: windrose
   pageId: 214042
   steam: 3041230
+  steamSide:
+    - 4564200
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\R5\\Saved\\Config\\Windows}}"
 Winds of Change:

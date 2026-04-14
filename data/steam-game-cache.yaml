@@ -634166,6 +634166,25 @@
       executable: "Hwr\\Binaries\\Win64\\Hwr-Win64-ShippingDRM.exe"
       type: default
 3041230:
+  cloud:
+    saves:
+      - path: "R5/Saved/SaveProfiles/{64BitSteamID}/"
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: Steam/steamapps/compatdata/3041230/pfx/drive_c/users/steamuser/AppData/Local/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgDataHome
+  installDir: Windrose
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Windrose.exe
+      type: default
   nameLocalized:
     japanese: Windrose / ウィンドローズ
     schinese: "Windrose: 风启之旅"

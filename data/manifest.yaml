@@ -827087,6 +827087,7 @@ Windowkill:
     id: 2726450
 Windrose:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/R5/Saved/Config/Windows":
@@ -827096,6 +827097,16 @@ Windrose:
         - os: windows
   id:
     lutris: windrose
+    steamExtra:
+      - 4564200
+  installDir:
+    Windrose: {}
+  launch:
+    "<base>/Windrose.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3041230
 Winds of Change:
