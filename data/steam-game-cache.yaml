@@ -633072,6 +633072,7 @@
     tchinese: 異世界歸來的我錯過了愛情
     thai: กลับจากต่างโลก ฉันพลาดความรัก
     vietnamese: "Trở Về Từ Thế Giới Khác, Tôi Đã Bỏ Lỡ Tình Yêu"
+2999670: {}
 3001200:
   cloud:
     saves:
@@ -644471,6 +644472,16 @@
       executable: CelebrityPoker.exe
       type: default
 3900950: {}
+3902520:
+  installDir: Ukrainian Warfare Gostomel Heroes
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin\\Gostomel.exe"
+      type: default
+  nameLocalized:
+    russian: Гостомельские богатыри
 3903490:
   cloud:
     saves:

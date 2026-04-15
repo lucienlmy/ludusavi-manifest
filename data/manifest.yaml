@@ -163092,8 +163092,12 @@ Cuphead:
   id:
     gogExtra:
       - 1828931756
+      - 1999621840
+      - 2048763853
     steamExtra:
+      - 704710
       - 1117850
+      - 2072990
   installDir:
     Cuphead: {}
   launch:
@@ -280206,6 +280210,9 @@ Front Defense:
     Front Defense Heroes: {}
   steam:
     id: 763430
+Front Edge:
+  steam:
+    id: 2999670
 Front Lines:
   installDir:
     Front Lines: {}
@@ -786635,6 +786642,17 @@ Ukrainian Ninja:
             store: steam
   steam:
     id: 339000
+"Ukrainian Warfare: Gostomel Heroes":
+  installDir:
+    Ukrainian Warfare Gostomel Heroes: {}
+  launch:
+    "<base>/bin/Gostomel.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3902520
 "Ulama: Arena of the Gods":
   installDir:
     Ulama Arena of the Gods: {}

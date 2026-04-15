@@ -52221,10 +52221,14 @@ Cuphead:
   gog: 1963513391
   gogSide:
     - 1828931756
+    - 1999621840
+    - 2048763853
   pageId: 63516
   steam: 268910
   steamSide:
+    - 704710
     - 1117850
+    - 2072990
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Studio MDHR\\Cuphead}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Studio MDHR.Cuphead.plist}}"
@@ -90293,6 +90297,9 @@ Front Defense:
 "Front Defense: Heroes":
   pageId: 89232
   steam: 763430
+Front Edge:
+  pageId: 215632
+  steam: 2999670
 Front Lines:
   pageId: 138927
   steam: 1084980
@@ -146827,6 +146834,8 @@ Money Puzzle Exchanger:
   cloud:
     xbox: true
   pageId: 168861
+"Mongil: Star Dive":
+  pageId: 215628
 Mongrel:
   pageId: 136047
   steam: 1078340
@@ -255257,6 +255266,9 @@ Ukrainian Ninja:
     steam: true
   pageId: 49065
   steam: 339000
+"Ukrainian Warfare: Gostomel Heroes":
+  pageId: 215630
+  steam: 3902520
 "Ulama: Arena of the Gods":
   pageId: 60073
   steam: 529140
