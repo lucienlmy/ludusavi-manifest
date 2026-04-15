@@ -42785,6 +42785,11 @@ City Survival Project:
     - 4246820
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Irregular Shapes\\City Tales\\saves\\{{p|uid}}\\}}"
+City Transport Simulator 2026:
+  cloud:
+    steam: true
+  pageId: 215611
+  steam: 4148530
 City VR:
   pageId: 41476
   steam: 517990
@@ -101762,12 +101767,15 @@ Hades II:
   cloud:
     epic: true
     steam: true
+    xbox: true
   lutris: hades-ii
   pageId: 183626
   steam: 1145350
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Hades II\\GlobalSettingsWin.sjson}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\SupergiantGamesLLC.HadesII_q53c1yqmx7pha\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Hades II\\Profile*.sav}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}Path\\Packages\\SupergiantGamesLLC.HadesII_q53c1yqmx7pha\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Supergiant Games/Hades II/Profile*.sav}}"
 "Hades' Star":
   pageId: 124390
@@ -169411,6 +169419,8 @@ Pharaoh Rebirth+:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\config\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\config\\}}"
+"Pharaoh's Ascent":
+  pageId: 215619
 "Pharaoh's Tomb":
   pageId: 30447
   steam: 358330
@@ -170276,6 +170286,12 @@ Pinball World:
 Pinball universe:
   pageId: 155570
   steam: 1206870
+Pinball with a Gun:
+  lutris: pinball-with-a-gun
+  pageId: 215621
+  steam: 3566120
+  steamSide:
+    - 4397570
 Pinchcliffe Grand Prix:
   pageId: 176137
   steam: 1668080
@@ -174197,7 +174213,8 @@ Power Solitaire VR:
 "Power Spike: Pro Beach Volleyball":
   pageId: 205334
   templates:
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\Infogrames\\Powerspike\\1.00.000}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Power Spikes II:
   cloud:
     xbox: true
@@ -184281,11 +184298,19 @@ Regions of Ruin:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\voxGames\\Regions of Ruin\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Regions of Ruin_Data\\gameData.json}}"
 "Regions of Ruin: Runegate":
+  cloud:
+    steam: true
+  gog: 1888095809
+  gogSide:
+    - 1139531532
+    - 1595914874
   lutris: regions-of-ruin-runegate--1
   pageId: 212979
   steam: 1375750
   steamSide:
     - 4019140
+    - 4338370
+    - 4446470
 Regular Human Basketball:
   cloud:
     discord: true
@@ -256491,10 +256516,10 @@ UnderMine:
   steam: 656350
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Thorium Entertainment\\UnderMine\\Config.json}}"
-    - "{{Game data/config|Microsoft Store|{{p|userprofile}}\\AppData\\Local\\Packages\\Thorium.UnderMine_j6gc5ewhjtwag\\LocalState\\Config.json}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Thorium.UnderMine_j6gc5ewhjtwag\\LocalState\\Config.json}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Thorium Entertainment/UnderMine/Config.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Thorium Entertainment\\UnderMine\\Saves}}"
-    - "{{Game data/saves|Microsoft Store|{{p|userprofile}}\\AppData\\Local\\Packages\\Thorium.UnderMine_j6gc5ewhjtwag\\LocalState\\{{p|uid}}Saves}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Thorium.UnderMine_j6gc5ewhjtwag\\LocalState\\{{p|uid}}Saves}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Thorium Entertainment.UnderMine/Saves}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Thorium Entertainment/UnderMine/Saves}}"
 UnderParty:

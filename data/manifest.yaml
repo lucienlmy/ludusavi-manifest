@@ -133527,6 +133527,25 @@ City Survival Project:
             store: steam
   steam:
     id: 3265070
+City Transport Simulator 2026:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/CityTransportSim/Saved_Steam/Config/Windows/*.ini":
+      when:
+        - store: steam
+    "<winLocalAppData>/CityTransportSim/Saved_Steam/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    City Transport Simulator 2026: {}
+  launch:
+    "<base>/CityTransportSim.exe":
+      - arguments: "-saveddirsuffix=Steam"
+        when:
+          - store: steam
+  steam:
+    id: 4148530
 City VR:
   installDir:
     CityVR: {}
@@ -315577,6 +315596,18 @@ Hades II:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/SupergiantGamesLLC.HadesII_q53c1yqmx7pha/SystemAppData/wgs":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>Path/Packages/SupergiantGamesLLC.HadesII_q53c1yqmx7pha/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: hades-ii
   installDir:
@@ -525106,6 +525137,28 @@ Pinball universe:
             store: steam
   steam:
     id: 1206870
+Pinball with a Gun:
+  id:
+    lutris: pinball-with-a-gun
+    steamExtra:
+      - 4397570
+  installDir:
+    PinballWithAGun: {}
+  launch:
+    "<base>/PinballWithAGun/PinballWithAGun.app/Contents/MacOS/PinballWithAGun":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/PinballWithAGun/PinballWithAGun.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/PinballWithAGun/PinballWithAGun.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3566120
 Pinchcliffe Grand Prix:
   installDir:
     Flåklypa Grand Prix: {}
@@ -537575,6 +537628,10 @@ Power Solitaire VR:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/Infogrames/Powerspike/1.00.000:
+      tags:
+        - config
 Power Stealers:
   installDir:
     PowerStealers: {}
@@ -569205,10 +569262,53 @@ Regions of Ruin:
   steam:
     id: 680360
 "Regions of Ruin: Runegate":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Gameclaw/Regions of Ruin Runegate/DemoData.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Gameclaw/Regions of Ruin Runegate/Save Files":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Gameclaw/Regions of Ruin Runegate/DemoData.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Gameclaw/Regions of Ruin Runegate/Save Files":
+      when:
+        - store: steam
+    "<xdgConfig>/Gameclaw/Regions of Ruin Runegate/DemoData.json":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/Gameclaw/Regions of Ruin Runegate/Save Files":
+      when:
+        - os: linux
+          store: steam
+  gog:
+    id: 1888095809
   id:
+    gogExtra:
+      - 1139531532
+      - 1595914874
     lutris: regions-of-ruin-runegate--1
     steamExtra:
       - 4019140
+      - 4338370
+      - 4446470
+  installDir:
+    Regions of Ruin Runegate: {}
+  launch:
+    "<base>/Regions of Ruin Runegate.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Regions of Ruin Runegate.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1375750
 Regular Human Basketball:
@@ -790245,18 +790345,6 @@ UnderMine:
         - save
       when:
         - os: linux
-    "<home>/AppData/Local/Packages/Thorium.UnderMine_j6gc5ewhjtwag/LocalState/<storeUserId>Saves":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
-    "<home>/AppData/Local/Packages/Thorium.UnderMine_j6gc5ewhjtwag/LocalState/Config.json":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
     "<home>/AppData/LocalLow/Thorium Entertainment/UnderMine/Config.json":
       tags:
         - config
@@ -790272,6 +790360,18 @@ UnderMine:
         - save
       when:
         - os: mac
+    "<winLocalAppData>/Packages/Thorium.UnderMine_j6gc5ewhjtwag/LocalState/<storeUserId>Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/Thorium.UnderMine_j6gc5ewhjtwag/LocalState/Config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     UnderMine: {}
   launch:

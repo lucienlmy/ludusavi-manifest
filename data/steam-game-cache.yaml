@@ -500510,7 +500510,7 @@
       description: Preview Default
       executable: "./Hades II.app"
       type: default
-    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.075 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport
+    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.075 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport /AllowManualBugReports
       config:
         betakey: public
         osarch: "64"
@@ -549532,6 +549532,42 @@
     schinese: 经典回归 魔界村
     tchinese: 經典回歸 魔界村
 1375750:
+  cloud:
+    saves:
+      - path: Gameclaw/Regions of Ruin Runegate/Save Files
+        pattern: "*"
+        recursive: true
+        root: MacAppSupport
+      - path: Gameclaw/Regions of Ruin Runegate
+        pattern: DemoData.json
+        root: MacAppSupport
+      - path: unity3d/Gameclaw/Regions of Ruin Runegate/Save Files
+        pattern: "*"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxXdgConfigHome
+      - path: Gameclaw/Regions of Ruin Runegate
+        pattern: DemoData.json
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+  installDir: Regions of Ruin Runegate
+  launch:
+    - config:
+        oslist: windows
+      executable: Regions of Ruin Runegate.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Regions of Ruin Runegate.app
+      type: default
   nameLocalized:
     schinese: 废墟国度：符文之门
 1376070:
@@ -641775,6 +641811,21 @@
   installDir: DECRYPTO Project
   launch:
     - executable: Decrypto_Project.exe
+3566120:
+  installDir: PinballWithAGun
+  launch:
+    - config:
+        oslist: windows
+      executable: PinballWithAGun/PinballWithAGun.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: PinballWithAGun/PinballWithAGun.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: PinballWithAGun/PinballWithAGun.app/Contents/MacOS/PinballWithAGun
+      type: default
 3566200:
   cloud:
     saves:
@@ -645285,6 +645336,20 @@
 4144090: {}
 4144680: {}
 4146000: {}
+4148530:
+  cloud:
+    saves:
+      - path: CityTransportSim/Saved_Steam/Config/Windows
+        pattern: "*.ini"
+        root: WinAppDataLocal
+      - path: CityTransportSim/Saved_Steam/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: City Transport Simulator 2026
+  launch:
+    - arguments: "-saveddirsuffix=Steam"
+      executable: CityTransportSim.exe
+      type: default
 4149610: {}
 4153760: {}
 4157130: {}
