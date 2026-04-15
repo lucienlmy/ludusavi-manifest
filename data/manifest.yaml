@@ -571344,6 +571344,16 @@ Replaced:
     gog: true
     steam: true
   files:
+    "<home>/AppData/LocalLow/SadCatStudios/Replaced/saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SadCatStudios/Replaced/saves/<storeUserId>/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Packages/Thunderful.REPLACED-Game_8j53pwgd019sy/SystemAppData/wgs":
       tags:
         - save
@@ -660370,11 +660380,14 @@ Star Trek Timelines:
   id:
     lutris: star-trek-hidden-evil
 "Star Trek: Infection":
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/Played With Fire/Star Trek_ Infection/**/*.*":
+    "<home>/AppData/LocalLow/Played With Fire/Star Trek_ Infection":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Star Trek Infection: {}
   steam:
@@ -760788,6 +760801,39 @@ Tiny Bird Garden Deluxe:
             store: steam
   steam:
     id: 945440
+Tiny Bookshop:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/neoludic games/Tiny Bookshop/<storeUserId>/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/neoludic games/Tiny Bookshop/<storeUserId>/**/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/neoludic games/Tiny Bookshop/<storeUserId>/*.save":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Tiny Bookshop: {}
+  launch:
+    "<base>/Tiny Bookshop.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Tiny Bookshop.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Tiny Bookshop.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 2133760
 Tiny Brains:
   cloud:
     steam: true

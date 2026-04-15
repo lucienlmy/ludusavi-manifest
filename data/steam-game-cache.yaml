@@ -603783,6 +603783,46 @@
         osarch: "64"
         oslist: windows
       executable: Pose.exe
+2133760:
+  cloud:
+    saves:
+      - path: "neoludic games/Tiny Bookshop/{Steam3AccountID}"
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "neoludic games/Tiny Bookshop/{Steam3AccountID}"
+            replace: "neoludic games/Tiny Bookshop/{Steam3AccountID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "neoludic games/Tiny Bookshop/{Steam3AccountID}"
+            replace: ".config/unity3d/neoludic games/Tiny Bookshop/{Steam3AccountID}/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Tiny Bookshop
+  launch:
+    - config:
+        oslist: windows
+      executable: Tiny Bookshop.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Tiny Bookshop.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Tiny Bookshop.x86_64
+      type: default
+  nameLocalized:
+    schinese: 小小书店
+    tchinese: 小小書店
 2133830:
   cloud:
     saves:
@@ -626166,7 +626206,7 @@
       executable: Newton.release.exe
       type: option1
     - config:
-        betakey: "internal_1, internal_2, internal_03, staging_qa,  build_branch1_profile, build_mainline_profile, build_mainline2_profile, outsource_lqa, external_03, build_branch2_profile, external_06, external_07, internal_02"
+        betakey: "internal_1, internal_2, internal_03, staging_qa,  build_branch1_profile, build_mainline_profile, build_mainline2_profile, outsource_lqa, external_03, build_branch2_profile, external_06, external_07, internal_02, external_02"
       description: Profile Build
       executable: Newton.profile.exe
       type: option2
@@ -634218,7 +634258,7 @@
   cloud:
     saves:
       - path: "R5/Saved/SaveProfiles/{64BitSteamID}/"
-        pattern: "*.*"
+        pattern: "*"
         recursive: true
         root: WinAppDataLocal
     overrides:
@@ -642691,8 +642731,6 @@
     saves:
       - path: Samson/Saved/SaveGames/
         pattern: "*.sav"
-        platforms:
-          - Windows
         root: WinAppDataLocal
   installDir: Samson
   launch:

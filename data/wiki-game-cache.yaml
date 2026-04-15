@@ -36067,6 +36067,8 @@ Call of Duty 2:
 "Call of Duty: Online":
   pageId: 94163
 "Call of Duty: Vanguard":
+  cloud:
+    xbox: true
   pageId: 170793
   steam: 1985820
   templates:
@@ -148132,6 +148134,8 @@ Moon Bus:
 Moon Castle:
   pageId: 88229
   steam: 803750
+Moon Child:
+  pageId: 215636
 Moon Colonization Project:
   cloud:
     steam: true
@@ -171749,6 +171753,7 @@ Planet Coaster:
 Planet Coaster 2:
   cloud:
     steam: true
+    xbox: true
   pageId: 196337
   steam: 2688950
   steamSide:
@@ -184993,7 +184998,9 @@ Replaced:
     - 4261860
     - 4537980
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\SadCatStudios\\Replaced\\saves\\{{p|uid}}\\settings.json}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.REPLACED-Game_8j53pwgd019sy\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\SadCatStudios\\Replaced\\saves\\{{p|uid}}\\}}"
 Replay - VHS is not dead:
   pageId: 47337
   steam: 333490
@@ -194540,7 +194547,7 @@ Samson:
     - 4540000
     - 4540060
   templates:
-    - "{{Game data/saves|Windows|%LocalAppData%\\Samson\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Samson\\Saved\\SaveGames\\}}"
 Samudai:
   pageId: 48751
   steam: 342740
@@ -213686,8 +213693,12 @@ Star Trek Timelines:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Star Trek: Infection":
+  cloud:
+    steam: true
   pageId: 209139
   steam: 3954580
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Played With Fire\\Star Trek_ Infection\\}}"
 "Star Trek: Infinite":
   pageId: 188001
   steam: 1622900
@@ -242036,6 +242047,7 @@ The Thaumaturge:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1732820030
   gogSide:
     - 1616398391
@@ -246061,6 +246073,12 @@ Tiny Battle Simulator:
 Tiny Bird Garden Deluxe:
   pageId: 123842
   steam: 945440
+Tiny Bookshop:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 215640
+  steam: 2133760
 Tiny Brains:
   cloud:
     steam: true
