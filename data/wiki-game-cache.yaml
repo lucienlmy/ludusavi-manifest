@@ -137644,8 +137644,9 @@ Magical Girl Witch Trials:
   pageId: 211738
   steam: 3101040
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Re,AER\\manosaba\\Saves_v1\\*}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.manosaba.game/Saves_v1/*}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Re,AER\\manosaba\\Saves_v1\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Re,AER\\manosaba\\Saves_v1\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.manosaba.game/Saves_v1/}}"
 Magical MILFs:
   pageId: 148635
   steam: 1157620
@@ -162719,6 +162720,17 @@ Opus Mortem:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\SIGONO\\OPUS_ Echo of Starsong\\Save}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\22048KowloonNights.OPUSEchoofStarsong_eapw3rq7hybpy\\SystemAppData\\wgs\\{{P|uid}}}}"
+"Opus: Prism Peak":
+  cloud:
+    steam: true
+  lutris: opus-prism-peak
+  pageId: 215657
+  steam: 1947910
+  steamSide:
+    - 4164450
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SIGONO\\OPUS_ Prism Peak\\SaveData\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SIGONO\\OPUS_ Prism Peak\\SaveData\\}}"
 "Opus: Rocket of Whispers":
   cloud:
     steam: true

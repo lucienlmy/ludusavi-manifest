@@ -592999,6 +592999,34 @@
         oslist: macos
       executable: "Queen's Wish 2.app\\Contents\\MacOS\\Queen's Wish 2"
       type: default
+1947910:
+  cloud:
+    saves:
+      - path: SIGONO/OPUS_ Prism Peak/SaveData
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SIGONO/OPUS_ Prism Peak/SaveData
+            replace: com.SIGONO.OPUS--Prism-Peak/SaveData
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: OPUS Prism Peak
+  launch:
+    - config:
+        oslist: windows
+      executable: OPUS_ Prism Peak.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: OPUS_ Prism Peak.app
+      type: default
+  nameLocalized:
+    schinese: OPUS：心相吾山
+    tchinese: OPUS：心相吾山
 1947940:
   installDir: beat refle
   launch:

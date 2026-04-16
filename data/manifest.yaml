@@ -425978,6 +425978,7 @@ Magical Girl Witch Trials:
   files:
     "<home>/AppData/LocalLow/Re,AER/manosaba/Saves_v1":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -502226,6 +502227,33 @@ Opus Mortem:
             store: steam
   steam:
     id: 1504500
+"Opus: Prism Peak":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SIGONO/OPUS_ Prism Peak/SaveData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: opus-prism-peak
+    steamExtra:
+      - 4164450
+  installDir:
+    OPUS Prism Peak: {}
+  launch:
+    "<base>/OPUS_ Prism Peak.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/OPUS_ Prism Peak.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1947910
 "Opus: Rocket of Whispers":
   cloud:
     steam: true
