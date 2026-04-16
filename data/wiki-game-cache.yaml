@@ -7876,6 +7876,10 @@ Agent Hugo:
   pageId: 189274
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Game.ini}}"
+"Agent Hugo: RoboRumble":
+  pageId: 215645
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\ITE\\AgentHugoRoboRumble}}"
 Agent Intercept:
   cloud:
     steam: true
@@ -23726,8 +23730,8 @@ BeamNG.drive:
     - BeamNG Drive
   steam: 284160
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\BeamNG.drive\\<game.version>\\settings\\}}"
-    - "{{Game data/config|Linux|{{P|xdgdatahome}}/BeamNG/}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BeamNG\\BeamNG.drive\\<game.version>\\settings\\}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/BeamNG/BeamNG.drive}}"
 Bean Battles:
   pageId: 104837
   steam: 765410
@@ -27646,6 +27650,7 @@ Blade & Bones:
 Blade & Sorcery:
   cloud:
     steam: true
+  lutris: blade-and-sorcery
   pageId: 122448
   steam: 629730
   templates:
@@ -111325,6 +111330,8 @@ Hugo Retro Mania:
     - "{{Game data/config|Windows|{{p|game}}\\*.ini|{{p|hkcu}}\\SOFTWARE\\ITE\\Bukkazoom}}"
 "Hugo: Cannon Cruise":
   pageId: 202682
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\ITE\\CannonCruise}}"
 "Hugo: The Forces of Nature":
   pageId: 20413
 Hulala Baby:
@@ -112513,6 +112520,8 @@ Hyspherical 2:
 Hyss:
   pageId: 123976
   steam: 982540
+"Hysteria Hospital: Emergency Ward":
+  pageId: 215647
 Hytale:
   pageId: 164963
   templates:
@@ -241465,7 +241474,7 @@ The Stillness of the Wind:
 The Sting!:
   pageId: 61354
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\neoSoftware\\TheSting!\\Settings}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\neoSoftware\\DerClou!2\\Settings|{{p|hkcu}}\\Software\\neoSoftware\\TheSting!\\Settings}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Savegame}}"
 The Stone:
   pageId: 68116
@@ -247445,7 +247454,7 @@ Tomb Raider (2013):
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Tomb Raider/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/feral-interactive/Tomb Raider/}}"
     - "{{Game data/saves|Epic Games Store|{{p|userprofile\\Documents}}\\Tomb Raider\\{{p|uid}}}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/203160/remote\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\203160\\remote\\}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile\\Documents}}\\My Games\\Tomb Raider}}"
 Tomb Raider - The Final Hours Digital Book:
   pageId: 37523
@@ -265050,11 +265059,13 @@ Warhammer Survivors:
 "Warhammer: Mark of Chaos":
   cloud:
     gog: true
+    steam: true
   gog: 1609408156
   pageId: 13156
   steam: 4280940
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Warhammer Mark of Chaos\\Save\\|{{p|userprofile\\Documents}}\\Warhammer Battle March\\Save\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Warhammer Mark of Chaos Gold Classic\\Save\\}}"
 "Warhammer: Shadow of the Horned Rat":
   cloud:
     gog: true
@@ -271709,10 +271720,12 @@ Wrath of the Samurai:
     - "{{Game data/config|Linux|{{P|game}}/kp1/wrath.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\kp1\\data\\profiles}}"
     - "{{Game data/saves|Linux|{{P|game}}/kp1/data/profiles}}"
-"Wrath: Aeon of Ruin VR":
+"Wrath: Aeon of Ruin VR - Brutal Edition":
   cloud:
     steam: true
   pageId: 203721
+  renamedFrom:
+    - "Wrath: Aeon of Ruin VR"
   steam: 3430260
 Wreck-it Ralph:
   pageId: 170968

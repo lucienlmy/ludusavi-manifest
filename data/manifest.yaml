@@ -24973,6 +24973,11 @@ Agent Hugo:
         - os: windows
   id:
     lutris: agent-hugo-lemoon-twist
+"Agent Hugo: RoboRumble":
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/ITE/AgentHugoRoboRumble:
+      tags:
+        - config
 Agent Intercept:
   cloud:
     steam: true
@@ -73636,7 +73641,7 @@ BeamNG.drive:
   cloud:
     steam: true
   files:
-    "<xdgData>/BeamNG":
+    "<xdgData>/BeamNG/BeamNG.drive":
       tags:
         - config
       when:
@@ -85714,6 +85719,8 @@ Blade & Sorcery:
         - config
       when:
         - os: windows
+  id:
+    lutris: blade-and-sorcery
   installDir:
     Blade & Sorcery: {}
   steam:
@@ -344743,6 +344750,11 @@ Huge Enemy - Worldbreakers:
         - os: windows
   registry:
     HKEY_CURRENT_USER/SOFTWARE/ITE/Bukkazoom:
+      tags:
+        - config
+"Hugo: Cannon Cruise":
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/ITE/CannonCruise:
       tags:
         - config
 Hulala Baby:
@@ -746557,6 +746569,9 @@ The Sting!:
       when:
         - os: windows
   registry:
+    HKEY_CURRENT_USER/Software/neoSoftware/DerClou!2/Settings:
+      tags:
+        - config
     HKEY_CURRENT_USER/Software/neoSoftware/TheSting!/Settings:
       tags:
         - config
@@ -815216,12 +815231,19 @@ Warhammer Survivors:
 "Warhammer: Mark of Chaos":
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/Warhammer Battle March/Save":
       tags:
         - save
       when:
         - os: windows
+    "<winDocuments>/Warhammer Mark of Chaos Gold Classic/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<winDocuments>/Warhammer Mark of Chaos/Save":
       tags:
         - save
@@ -835878,6 +835900,8 @@ Wrath of the Samurai:
   steam:
     id: 1000410
 "Wrath: Aeon of Ruin VR":
+  alias: "Wrath: Aeon of Ruin VR - Brutal Edition"
+"Wrath: Aeon of Ruin VR - Brutal Edition":
   cloud:
     steam: true
   files:
