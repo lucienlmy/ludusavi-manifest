@@ -502241,6 +502241,9 @@ Opus Mortem:
     lutris: opus-prism-peak
     steamExtra:
       - 4164450
+      - 4549960
+      - 4549970
+      - 4549980
   installDir:
     OPUS Prism Peak: {}
   launch:
@@ -538290,6 +538293,14 @@ Pragmata:
     lutris: pragmata
     steamExtra:
       - 4003800
+  installDir:
+    PRAGMATA: {}
+  launch:
+    "<base>/PRAGMATA.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3357650
 Prana:
@@ -665372,6 +665383,19 @@ Starwalker:
             store: steam
   steam:
     id: 339820
+Starward:
+  installDir:
+    StarWings: {}
+  launch:
+    "<base>/XZYPlay.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/xygame/星之翼:
+      tags:
+        - config
+  steam:
+    id: 2764370
 Starward Rogue:
   cloud:
     steam: true

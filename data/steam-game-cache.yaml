@@ -515000,6 +515000,14 @@
         pattern: "*.gz"
         recursive: true
         root: WinMyDocuments
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: My Games/TerraInvicta/Saves/
+            replace: Pavonis Interactive/TerraInvicta/Saves/
+        root: WinMyDocuments
+        useInstead: MacAppSupport
   installDir: Terra Invicta
   launch:
     - config:
@@ -515022,7 +515030,7 @@
     - config:
         betakey: mac-release
         oslist: macos
-      executable: Terra-Invicta.app/Contents/MacOS/TerraInvicta
+      executable: Terra-Invicta.app
       type: default
     - config:
         osarch: "64"
@@ -628522,6 +628530,16 @@
         osarch: "32"
       description: Play Polda
       executable: Polda132.exe
+2764370:
+  installDir: StarWings
+  launch:
+    - executable: XZYPlay.exe
+  nameLocalized:
+    english: Starward
+    japanese: 星の翼
+    sc_schinese: 星之翼
+    schinese: 星之翼（Starward）
+    tchinese: 星之翼（Starward）
 2764460:
   nameLocalized:
     japanese: Sandustry サンダストリー
@@ -639309,7 +639327,13 @@
         oslist: windows
       description: Launch
       executable: Nedra.exe
-3357650: {}
+3357650:
+  installDir: PRAGMATA
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: PRAGMATA.exe
 3357960:
   cloud:
     saves:

@@ -162728,6 +162728,9 @@ Opus Mortem:
   steam: 1947910
   steamSide:
     - 4164450
+    - 4549960
+    - 4549970
+    - 4549980
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SIGONO\\OPUS_ Prism Peak\\SaveData\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SIGONO\\OPUS_ Prism Peak\\SaveData\\}}"
@@ -215355,6 +215358,11 @@ Starvoid:
 Starwalker:
   pageId: 49061
   steam: 339820
+Starward:
+  pageId: 215667
+  steam: 2764370
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\xygame\\星之翼}}"
 Starward Rogue:
   cloud:
     steam: true
