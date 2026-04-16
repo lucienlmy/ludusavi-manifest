@@ -56151,11 +56151,13 @@ Atomic Heart:
         - os: windows
           store: microsoft
   id:
+    lutris: atomic-heart
     steamExtra:
       - 2214820
       - 2214821
       - 2214822
       - 2214823
+      - 2214824
       - 2214825
       - 2214826
       - 2214830
@@ -161124,8 +161126,23 @@ Cthulhu Saves the World:
   steam:
     id: 1119040
 "Cthulhu: The Cosmic Abyss":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/CthulhuTCA/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: cthulhu-the-cosmic-abyss
+    steamExtra:
+      - 4277070
+  installDir:
+    CthulhuTCA: {}
+  launch:
+    "<base>/CthulhuTCA.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2760560
 Ctrl Alt Ego:
@@ -177168,13 +177185,16 @@ Dead Letter Dept.:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Belief Engine/DEAD LETTER DEPT":
-      when:
-        - os: linux
-          store: steam
     "<home>/AppData/LocalLow/Belief Engine/DEAD LETTER DEPT":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Belief Engine/DEAD LETTER DEPT/Settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     DEAD LETTER DEPT: {}
   launch:
@@ -256954,6 +256974,10 @@ Fast Lanes Bowling:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Lab Rats Bowling:
+      tags:
+        - config
   steam:
     id: 1644930
 Fast Rolling:
@@ -309839,8 +309863,29 @@ Ground War:
 Ground Zero:
   cloud:
     steam: true
+  files:
+    "<base>/Saved/Config/**/*.ini":
+      when:
+        - store: steam
+    "<base>/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/GroundZero/Saved/Config/**/*.ini":
+      when:
+        - store: steam
+    "<winLocalAppData>/GroundZero/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: ground-zero--2
+  installDir:
+    Ground Zero: {}
+  launch:
+    "<base>/GroundZero.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2340130
 "Ground Zero Texas: Nuclear Edition":
@@ -443708,6 +443753,13 @@ Metro 2033 Redux:
             store: steam
   steam:
     id: 286690
+Metro 2039:
+  cloud:
+    steam: true
+  id:
+    lutris: metro-2039
+  steam:
+    id: 2590240
 Metro Awakening:
   cloud:
     steam: true
@@ -462038,8 +462090,26 @@ Mouse in Lab:
 "Mouse: P.I. For Hire":
   cloud:
     steam: true
+  files:
+    "<home>/.config/unity3d/Fumi Games/MOUSE/Save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Fumi Games/MOUSE/Save":
+      when:
+        - store: steam
   id:
     lutris: mouse-pi-for-hire--1
+    steamExtra:
+      - 3879460
+      - 3879490
+      - 3912890
+  installDir:
+    MOUSE: {}
+  launch:
+    "<base>/MOUSE.exe":
+      - when:
+          - store: steam
   steam:
     id: 2416450
 MouseCraft:
@@ -746634,6 +746704,7 @@ The Stone:
     id: 676990
 The Stone of Madness:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -833376,6 +833447,17 @@ World Ship Simulator:
             store: steam
   steam:
     id: 403980
+World Snooker Championship 2005:
+  files:
+    "<base>/Saves/<storeUserId>/char.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/SEGA/World Snooker Championship 2005/STARTUP:
+      tags:
+        - config
 World Traveler VR:
   steam:
     id: 682110

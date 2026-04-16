@@ -613240,7 +613240,31 @@
       description: Windows 64-bit
       executable: TheLacerator.exe
       type: default
-2340130: {}
+2340130:
+  cloud:
+    saves:
+      - path: Saved/Config
+        pattern: "*.ini"
+        recursive: true
+        root: gameinstall
+      - path: Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: GroundZero/Saved/Config
+        pattern: "*.ini"
+        recursive: true
+        root: WinAppDataLocal
+      - path: GroundZero/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Ground Zero
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GroundZero.exe
 2340520:
   cloud:
     saves:
@@ -616388,6 +616412,23 @@
       executable: Goodnight Universe.exe
       type: default
 2416450:
+  cloud:
+    saves:
+      - path: Fumi Games/MOUSE/Save
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Fumi Games/MOUSE/Save
+            replace: ".config/unity3d/Fumi Games/MOUSE/Save"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: MOUSE
+  launch:
+    - executable: MOUSE.exe
   nameLocalized:
     japanese: MOUSE：やとわれの探偵
     russian: Частный детектив МАУС
@@ -623219,6 +623260,7 @@
     japanese: Faaast Penguin / ファーストペンギン
     schinese: 一鹅当先 / Faaast Penguin
     tchinese: 一鵝當先 / Faaast Penguin
+2590240: {}
 2591010:
   installDir: Silent Depth 2 - Pacific
   launch:
@@ -628497,7 +628539,18 @@
   installDir: Rubber Hose Rampage
   launch:
     - executable: Rubber Hose Rampage.exe
-2760560: {}
+2760560:
+  cloud:
+    saves:
+      - path: CthulhuTCA/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: CthulhuTCA
+  launch:
+    - config:
+        oslist: windows
+      executable: CthulhuTCA.exe
+      type: default
 2760720: {}
 2762710:
   cloud:

@@ -18041,6 +18041,7 @@ Atomic Heart:
   cloud:
     steam: true
     xbox: true
+  lutris: atomic-heart
   pageId: 78571
   steam: 668580
   steamSide:
@@ -18048,6 +18049,7 @@ Atomic Heart:
     - 2214821
     - 2214822
     - 2214823
+    - 2214824
     - 2214825
     - 2214826
     - 2214830
@@ -51620,9 +51622,13 @@ Cthulhu Saves the World:
   pageId: 151244
   steam: 1119040
 "Cthulhu: The Cosmic Abyss":
+  cloud:
+    steam: true
   lutris: cthulhu-the-cosmic-abyss
   pageId: 202063
   steam: 2760560
+  steamSide:
+    - 4277070
 Ctrl Alt Ego:
   cloud:
     gog: true
@@ -56884,6 +56890,9 @@ Dead Letter Dept.:
     steam: true
   pageId: 201161
   steam: 1627350
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Belief Engine\\DEAD LETTER DEPT\\Settings.xml}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Belief Engine\\DEAD LETTER DEPT\\}}"
 Dead Line:
   pageId: 68160
   steam: 679480
@@ -82988,6 +82997,7 @@ Fast Lanes Bowling:
   pageId: 208639
   steam: 1644930
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Lab Rats Bowling}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save}}"
 Fast Rolling:
   pageId: 78040
@@ -143385,6 +143395,13 @@ Metro 2033 Redux:
     - "{{Game data/saves|Linux|{{P|Game}}/{{p|uid}}/}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\}}"
+Metro 2039:
+  cloud:
+    steam: true
+    xbox: true
+  lutris: metro-2039
+  pageId: 215675
+  steam: 2590240
 Metro Awakening:
   cloud:
     steam: true
@@ -149504,11 +149521,16 @@ Mouse in Lab:
 "Mouse: P.I. For Hire":
   cloud:
     steam: true
+    xbox: true
   lutris: mouse-pi-for-hire--1
   pageId: 191902
   renamedFrom:
     - Mouse
   steam: 2416450
+  steamSide:
+    - 3879460
+    - 3879490
+    - 3912890
 MouseCraft:
   cloud:
     steam: true
@@ -241501,6 +241523,7 @@ The Stone:
   steam: 676990
 The Stone of Madness:
   cloud:
+    epic: true
     gog: true
     steam: true
     xbox: true
@@ -270834,6 +270857,11 @@ World Racing 2:
 World Ship Simulator:
   pageId: 45603
   steam: 403980
+World Snooker Championship 2005:
+  pageId: 215671
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\SEGA\\World Snooker Championship 2005\\STARTUP}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\{{p|uid}}\\char.dat}}"
 World Traveler VR:
   pageId: 138781
   steam: 682110
