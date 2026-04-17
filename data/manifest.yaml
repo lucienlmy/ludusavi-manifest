@@ -52771,6 +52771,11 @@ Aster:
             store: steam
   steam:
     id: 1070940
+Asterfel:
+  id:
+    lutris: asterfel
+  steam:
+    id: 3892510
 Asteria:
   files:
     "<winDocuments>/My Games/Asteria/*.Player":
@@ -121123,6 +121128,7 @@ Catz:
 Causal Loop:
   cloud:
     gog: true
+    steam: true
   gog:
     id: 2008721818
   id:
@@ -161127,15 +161133,28 @@ Cthulhu Saves the World:
     id: 1119040
 "Cthulhu: The Cosmic Abyss":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/CthulhuTCA/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  gog:
+    id: 2077051779
   id:
+    gogExtra:
+      - 1170508859
+      - 1261330744
+      - 1269334466
+      - 1846917175
+      - 2090461456
     lutris: cthulhu-the-cosmic-abyss
     steamExtra:
       - 4277070
+      - 4277080
+      - 4338990
+      - 4339000
+      - 4339020
   installDir:
     CthulhuTCA: {}
   launch:
@@ -581282,6 +581301,15 @@ Rituals in the Dark:
             store: steam
   steam:
     id: 1118880
+Rivage:
+  cloud:
+    steam: true
+  id:
+    lutris: rivage
+    steamExtra:
+      - 4465080
+  steam:
+    id: 4094660
 Rivais Em Batalha:
   files:
     "<winLocalAppData>/RivaisEmBatalha/**/*.sav":
@@ -606276,12 +606304,12 @@ Screamer (2026):
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/hotwheels/Saved/Config/Windows":
+    "<winLocalAppData>/screamer/Saved/Config/Windows":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/hotwheels/Saved/SaveGames":
+    "<winLocalAppData>/screamer/Saved/SaveGames":
       tags:
         - save
       when:
@@ -735674,8 +735702,14 @@ The Midnight Walk:
         - save
       when:
         - os: windows
+  gog:
+    id: 1081173744
   id:
+    gogExtra:
+      - 1179878174
     lutris: the-midnight-walk
+    steamExtra:
+      - 4002560
   installDir:
     The Midnight Walk: {}
   launch:
@@ -756682,6 +756716,12 @@ Threes!:
         - config
   steam:
     id: 1818570
+Thrifty Business:
+  id:
+    steamExtra:
+      - 4091410
+  steam:
+    id: 3693650
 Thrill Rollercoasters:
   installDir:
     Thrill Rollercoasters: {}
@@ -809380,6 +809420,17 @@ WRONGED:
           - store: steam
   steam:
     id: 750460
+"WSC Real 09: World Snooker Championship":
+  files:
+    "<winDocuments>/WSC Real 09/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Blade/World Snooker Championship 2009/STARTUP:
+      tags:
+        - config
 WTF:
   installDir:
     WhatTheFAQ: {}

@@ -16887,6 +16887,10 @@ Aster:
   templates:
     - "{{Game data/config|Windows|{{p|game}}/config.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}/save1.txt}}"
+Asterfel:
+  lutris: asterfel
+  pageId: 215677
+  steam: 3892510
 Asteria:
   pageId: 50007
   steam: 307130
@@ -38996,6 +39000,7 @@ Catz:
 Causal Loop:
   cloud:
     gog: true
+    steam: true
   gog: 2008721818
   lutris: causal-loop
   pageId: 203416
@@ -51623,12 +51628,24 @@ Cthulhu Saves the World:
   steam: 1119040
 "Cthulhu: The Cosmic Abyss":
   cloud:
+    gog: true
     steam: true
+  gog: 2077051779
+  gogSide:
+    - 1170508859
+    - 1261330744
+    - 1269334466
+    - 1846917175
+    - 2090461456
   lutris: cthulhu-the-cosmic-abyss
   pageId: 202063
   steam: 2760560
   steamSide:
     - 4277070
+    - 4277080
+    - 4338990
+    - 4339000
+    - 4339020
 Ctrl Alt Ego:
   cloud:
     gog: true
@@ -188353,6 +188370,14 @@ Rituals:
 Rituals in the Dark:
   pageId: 149358
   steam: 1118880
+Rivage:
+  cloud:
+    steam: true
+  lutris: rivage
+  pageId: 215681
+  steam: 4094660
+  steamSide:
+    - 4465080
 Rivais Em Batalha:
   pageId: 39564
   steam: 493820
@@ -196419,8 +196444,8 @@ Screamer (2026):
   pageId: 200262
   steam: 2814990
   templates:
-    - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\hotwheels\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\\hotwheels\\Saved\\SaveGames\\}}"
+    - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\screamer\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\\screamer\\Saved\\SaveGames\\}}"
 Screamer 2:
   gog: 1207659141
   lutris: screamer-2
@@ -237932,9 +237957,14 @@ The Midnight Sanctuary:
 The Midnight Walk:
   cloud:
     steam: true
+  gog: 1081173744
+  gogSide:
+    - 1179878174
   lutris: the-midnight-walk
   pageId: 204178
   steam: 2863640
+  steamSide:
+    - 4002560
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TheMidnightWalk\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\TheMidnightWalk\\Saved\\SaveGames\\}}"
@@ -244822,6 +244852,11 @@ Threes!:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Sirvo LLC\\Threes\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Sirvo LLC\\Threes\\threes_cloud.save | {{p|appdata}}\\Sirvo LLC\\Threes\\threes_local.save}}"
+Thrifty Business:
+  pageId: 215685
+  steam: 3693650
+  steamSide:
+    - 4091410
 Thrill Rollercoasters:
   pageId: 112892
   steam: 943230
@@ -262902,6 +262937,11 @@ WREST:
 WRONGED:
   pageId: 76191
   steam: 750460
+"WSC Real 09: World Snooker Championship":
+  pageId: 215684
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Blade\\World Snooker Championship 2009\\STARTUP}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\WSC Real 09\\Saves}}"
 WTF:
   pageId: 94001
   steam: 854770

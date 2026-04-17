@@ -643384,6 +643384,12 @@
     - executable: RVRGame.exe
       type: default
 3692730: {}
+3693650:
+  nameLocalized:
+    japanese: Thrifty Business ヴィンテージショップへようこそ
+    koreana: 우리동네 중고상회
+    schinese: 淘淘旧货铺
+    tchinese: 小小二手鋪
 3696410:
   cloud:
     saves:
@@ -644566,6 +644572,7 @@
   installDir: Dearmeiwas
   launch:
     - executable: "Dear me, I was.exe"
+3892510: {}
 3895130: {}
 3895170:
   installDir: Intuitive Level Design
@@ -645418,6 +645425,9 @@
       description: Microlandia (WebGPU)
       executable: microlandia.app
       type: option1
+4094660:
+  nameLocalized:
+    schinese: 她在时间之外
 4094670:
   installDir: rayman30th
   launch:
