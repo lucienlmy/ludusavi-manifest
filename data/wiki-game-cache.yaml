@@ -31147,6 +31147,7 @@ Borderlands 2 VR:
 Borderlands 3:
   cloud:
     epic: true
+    xbox: true
   lutris: borderlands-3
   pageId: 131630
   steam: 397540
@@ -33851,6 +33852,8 @@ Bug Academy:
   pageId: 100702
   steam: 881040
 Bug Adventure:
+  cloud:
+    steam: true
   malformed: true
   pageId: 167629
   steam: 4395380
@@ -62985,8 +62988,12 @@ Dinosaur:
 Dinosaur Adventure:
   pageId: 177106
 Dinosaur Adventure 3-D:
+  cloud:
+    steam: true
   pageId: 190216
   steam: 4395390
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 Dinosaur Battles:
   pageId: 190222
 Dinosaur Bone Digging:
@@ -68001,6 +68008,7 @@ DreamWorks All-Star Kart Racing:
   cloud:
     steam: true
     xbox: true
+  lutris: gabbys-dollhouse-ready-to-party
   pageId: 214575
   steam: 3222830
 DreamWorks Trolls Remix Rescue:
@@ -136577,11 +136585,15 @@ MachiaVillain:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\MachiaVillain_Data\\Saves\\}}"
 Machiavelli the Prince:
+  cloud:
+    steam: true
   gog: 2077138522
   gogSide:
     - 1374796729
   pageId: 163330
   steam: 1297570
+  steamSide:
+    - 4319110
 Machina of the Planet Tree -Planet Ruler-:
   pageId: 33648
   steam: 383960
@@ -144388,6 +144400,7 @@ Might & Magic X - Legacy:
   pageId: 40522
   steam: 256410
 "Might & Magic: Fates TCG":
+  lutris: might-and-magic-fates-the-trading-card-game
   pageId: 214082
   steam: 3918850
 Might & Mayhem:
@@ -165021,6 +165034,7 @@ PASKA BATTLE STYLE!:
   cloud:
     steam: true
     xbox: true
+  lutris: paw-patrol-rescue-wheels-championship
   pageId: 213632
   steam: 3291010
 PAW Patrol World:
@@ -174527,6 +174541,9 @@ Pragmata:
   steamSide:
     - 3859930
     - 4003800
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3357650\\remote\\win64_save\\}}"
 Prana:
   pageId: 74918
   steam: 599150
@@ -188395,6 +188412,7 @@ Rituals in the Dark:
 Rivage:
   cloud:
     steam: true
+    xbox: true
   lutris: rivage
   pageId: 215681
   steam: 4094660
@@ -246186,8 +246204,13 @@ Tiny Bookshop:
   cloud:
     steam: true
     xbox: true
+  lutris: tiny-bookshop
   pageId: 215640
   steam: 2133760
+  steamSide:
+    - 3002280
+    - 3933680
+    - 3933690
 Tiny Brains:
   cloud:
     steam: true

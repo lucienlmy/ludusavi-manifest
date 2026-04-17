@@ -541387,7 +541387,35 @@
       executable: "dosbox_windows\\DOSBox.exe"
       type: option1
       workingdir: "dosbox_windows\\"
-1297570: {}
+1297570:
+  cloud:
+    saves:
+      - path: Machievelli the Prince/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Machievelli the Prince/Saves/
+            replace: ".config/Machievelli the Prince/"
+        root: WinMyDocuments
+        useInstead: LinuxHome
+  installDir: Machiavelli the Prince
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Prince.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: prince
+      type: default
 1297900: {}
 1298080:
   installDir: Almost My Floor Test
@@ -640390,7 +640418,16 @@
         oslist: windows
       executable: WRATH Aeon of Ruin VR.exe
       type: openxr
-3430340: {}
+3430340:
+  cloud:
+    saves:
+      - path: dice_a_million/default
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Dice A Million
+  launch:
+    - executable: dice a million.exe
+      type: default
 3430450:
   cloud:
     saves:
@@ -646025,12 +646062,142 @@
     - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
       description: Skip to level 9
       executable: Start.exe
-4395360: {}
-4395370: {}
-4395380: {}
-4395390: {}
-4395400: {}
-4395410: {}
+4395360:
+  installDir: 3D Body Adventure
+  launch:
+    - arguments: "-conf zoom_3dbody.conf -noconsole -exit"
+      config:
+        oslist: windows
+      executable: "DOSBOX\\dosbox.exe"
+      type: default
+    - arguments: "-conf zoom_3dbody.conf -noconsole -exit"
+      config:
+        oslist: linux
+      executable: "DOSBox\\dosbox"
+      type: default
+    - config:
+        oslist: macos
+      executable: launch.sh
+      type: default
+4395370:
+  installDir: 3D Dinosaur Adventure
+  launch:
+    - arguments: "-conf zoom_3ddino.conf -noconsole -exit"
+      config:
+        oslist: windows
+      executable: "DOSBOX\\dosbox.exe"
+      type: default
+    - arguments: "-conf zoom_3ddino.conf -noconsole -exit"
+      config:
+        oslist: linux
+      executable: "DOSBox\\dosbox"
+      type: default
+    - config:
+        oslist: macos
+      executable: launch.sh
+      type: default
+4395380:
+  cloud:
+    saves:
+      - path: Bug Adventure 1998 Edition/PREFS
+        pattern: "*.txt"
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Bug Adventure
+  launch:
+    - arguments: "-conf zoom_bug.conf -c cls -noconsole -exit"
+      config:
+        oslist: windows
+      description: 1995 Edition (DOS)
+      executable: "DOSBOX\\dosbox.exe"
+      type: option1
+    - arguments: "-conf zoom_bug.conf -c cls -noconsole -exit"
+      config:
+        oslist: linux
+      executable: "DOSBox\\dosbox"
+      type: default
+    - config:
+        oslist: macos
+      executable: launch.sh
+      type: default
+    - config:
+        oslist: windows
+      description: 1998 Edition
+      executable: "Bug Adventure 1998 Edition\\Launch Game.bat"
+      type: option1
+      workingdir: Bug Adventure 1998 Edition
+4395390:
+  cloud:
+    saves:
+      - path: saves
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: Dinosaur Adventure 3-D (1999 Version)
+  launch:
+    - executable: DINO3D4.EXE
+      type: default
+4395400:
+  installDir: "Kid's Zoo A Baby Animal Adventure"
+  launch:
+    - arguments: "-conf zoom_zoo.conf -noconsole -exit"
+      config:
+        oslist: windows
+      executable: "DOSBOX\\dosbox.exe"
+      type: default
+    - arguments: "-conf zoom_zoo.conf -noconsole -exit"
+      config:
+        oslist: linux
+      executable: "DOSBox\\dosbox"
+      type: default
+    - config:
+        oslist: macos
+      executable: launch.sh
+      type: default
+4395410:
+  installDir: Undersea Adventure
+  launch:
+    - arguments: "-conf zoom_undersea.conf -noconsole -exit"
+      config:
+        oslist: windows
+      description: 1994 Packard Bell OEM Edition
+      executable: "1994 Packard Bell OEM Edition\\DOSBOX\\dosbox.exe"
+      type: option1
+      workingdir: 1994 Packard Bell OEM Edition
+    - arguments: "-conf zoom_undersea.conf -noconsole -exit"
+      config:
+        oslist: windows
+      description: 1995 Standalone Edition
+      executable: "1995 Standalone Edition\\DOSBOX\\dosbox.exe"
+      type: option1
+      workingdir: 1995 Standalone Edition
+    - arguments: "-conf zoom_undersea.conf -noconsole -exit"
+      config:
+        oslist: linux
+      description: 1994 Packard Bell OEM Edition
+      executable: "1994 Packard Bell OEM Edition\\DOSBox\\dosbox"
+      type: option1
+      workingdir: 1994 Packard Bell OEM Edition
+    - arguments: "-conf zoom_undersea.conf -noconsole -exit"
+      config:
+        oslist: linux
+      description: 1995 Standalone Edition
+      executable: "1995 Standalone Edition\\DOSBox\\dosbox"
+      type: option1
+      workingdir: 1995 Standalone Edition
+    - config:
+        oslist: macos
+      description: 1994 Packard Bell OEM Edition
+      executable: "1994 Packard Bell OEM Edition\\launch.sh"
+      type: option1
+      workingdir: 1994 Packard Bell OEM Edition
+    - config:
+        oslist: macos
+      description: 1995 Standalone Edition
+      executable: "1995 Standalone Edition\\launch.sh"
+      type: option1
+      workingdir: 1995 Standalone Edition
 4402250:
   nameLocalized:
     japanese: 凶乱マカイズム

@@ -4266,6 +4266,23 @@ $1 Ride:
   steam:
     id: 534910
 3D Body Adventure:
+  installDir:
+    3D Body Adventure: {}
+  launch:
+    "<base>/DOSBOX/dosbox.exe":
+      - arguments: "-conf zoom_3dbody.conf -noconsole -exit"
+        when:
+          - os: windows
+            store: steam
+    "<base>/DOSBox/dosbox":
+      - arguments: "-conf zoom_3dbody.conf -noconsole -exit"
+        when:
+          - os: linux
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4395360
 3D Brick Blaster Unlimited:
@@ -4346,6 +4363,23 @@ $1 Ride:
   steam:
     id: 985760
 3D Dinosaur Adventure:
+  installDir:
+    3D Dinosaur Adventure: {}
+  launch:
+    "<base>/DOSBOX/dosbox.exe":
+      - arguments: "-conf zoom_3ddino.conf -noconsole -exit"
+        when:
+          - os: windows
+            store: steam
+    "<base>/DOSBox/dosbox":
+      - arguments: "-conf zoom_3ddino.conf -noconsole -exit"
+        when:
+          - os: linux
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4395370
 3D Engineers:
@@ -105087,12 +105121,26 @@ Bug Academy:
   steam:
     id: 881040
 Bug Adventure:
+  cloud:
+    steam: true
   files:
     "<base>/KA.CNF":
       tags:
         - config
       when:
         - os: dos
+  installDir:
+    Bug Adventure: {}
+  launch:
+    "<base>/DOSBox/dosbox":
+      - arguments: "-conf zoom_bug.conf -c cls -noconsole -exit"
+        when:
+          - os: linux
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4395380
 Bug Attack!:
@@ -194043,6 +194091,16 @@ Diary of Defender:
 Dice A Million:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/dice_a_million/default":
+      when:
+        - store: steam
+  installDir:
+    Dice A Million: {}
+  launch:
+    "<base>/dice a million.exe":
+      - when:
+          - store: steam
   steam:
     id: 3430340
 Dice Defenders:
@@ -196300,6 +196358,20 @@ Dinosaur:
       when:
         - os: windows
 Dinosaur Adventure 3-D:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Dinosaur Adventure 3-D (1999 Version): {}
+  launch:
+    "<base>/DINO3D4.EXE":
+      - when:
+          - store: steam
   steam:
     id: 4395390
 Dinosaur Bone Digging:
@@ -211451,6 +211523,8 @@ DreamWorks All-Star Kart Racing:
 "DreamWorks Gabby's Dollhouse: Ready to Party":
   cloud:
     steam: true
+  id:
+    lutris: gabbys-dollhouse-ready-to-party
   installDir:
     Project Gabby: {}
   launch:
@@ -381405,6 +381479,23 @@ Kid Chameleon:
   steam:
     id: 1117770
 "Kid's Zoo: A Baby Animal Adventure":
+  installDir:
+    "Kid's Zoo A Baby Animal Adventure": {}
+  launch:
+    "<base>/DOSBOX/dosbox.exe":
+      - arguments: "-conf zoom_zoo.conf -noconsole -exit"
+        when:
+          - os: windows
+            store: steam
+    "<base>/DOSBox/dosbox":
+      - arguments: "-conf zoom_zoo.conf -noconsole -exit"
+        when:
+          - os: linux
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 4395400
 "Kid,napper: Gosh, I'm Kidnapped by a Pupil":
@@ -422847,11 +422938,37 @@ MachiaVillain:
   steam:
     id: 555510
 Machiavelli the Prince:
+  cloud:
+    steam: true
+  files:
+    "<home>/Machievelli the Prince":
+      when:
+        - os: linux
+          store: steam
+    "<winDocuments>/Machievelli the Prince":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 2077138522
   id:
     gogExtra:
       - 1374796729
+    steamExtra:
+      - 4319110
+  installDir:
+    Machiavelli the Prince: {}
+  launch:
+    "<base>/Prince.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/prince":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 1297570
 Machina of the Planet Tree -Planet Ruler-:
@@ -446423,6 +446540,8 @@ Might & Magic X - Legacy:
   steam:
     id: 256410
 "Might & Magic: Fates TCG":
+  id:
+    lutris: might-and-magic-fates-the-trading-card-game
   installDir:
     FATES: {}
   launch:
@@ -509502,6 +509621,8 @@ PASKA BATTLE STYLE!:
     "<winLocalAppData>/PPR/Saved/SaveGames/**/*.sav":
       when:
         - store: steam
+  id:
+    lutris: paw-patrol-rescue-wheels-championship
   installDir:
     Project Paupa: {}
   launch:
@@ -538399,6 +538520,17 @@ Praey for the Gods:
 Pragmata:
   cloud:
     steam: true
+  files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/3357650/remote/win64_save":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     lutris: pragmata
     steamExtra:
@@ -761028,6 +761160,12 @@ Tiny Bookshop:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: tiny-bookshop
+    steamExtra:
+      - 3002280
+      - 3933680
+      - 3933690
   installDir:
     Tiny Bookshop: {}
   launch:
@@ -791001,6 +791139,8 @@ Underrail:
   steam:
     id: 694320
 Undersea Adventure:
+  installDir:
+    Undersea Adventure: {}
   steam:
     id: 4395410
 Underspace:
