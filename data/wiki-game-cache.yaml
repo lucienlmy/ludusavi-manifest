@@ -1117,6 +1117,14 @@ $1 Ride:
 2nd Circle - Powerful Places:
   pageId: 112596
   steam: 936510
+2nd Eve:
+  cloud:
+    steam: true
+  pageId: 215702
+  steam: 3516780
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/ZolaUnreal/Saved/SaveGames/}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/ZolaUnreal/Saved/SaveGames/}}"
 "3 Blind Mice: A Remediation Game for Improper Children":
   pageId: 150412
   steam: 1182040
@@ -149382,6 +149390,7 @@ Motorhead (2015):
 Motorslice:
   cloud:
     steam: true
+  gog: 1547815003
   lutris: motorslice
   pageId: 204581
   steam: 2830030
@@ -149548,6 +149557,9 @@ Mouse in Lab:
     - 3879460
     - 3879490
     - 3912890
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Fumi Games\\MOUSE\\Save}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Fumi Games\\MOUSE\\Save}}"
 MouseCraft:
   cloud:
     steam: true
@@ -180794,6 +180806,10 @@ Rage Quest:
 "Rage Quest: The Worst Game":
   pageId: 79912
   steam: 570810
+Rage Rally:
+  pageId: 215696
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\RageRally.cfg}}"
 Rage Room:
   pageId: 78340
   steam: 745130

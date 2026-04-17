@@ -3595,6 +3595,26 @@ $1 Ride:
             store: steam
   steam:
     id: 936510
+2nd Eve:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ZolaUnreal/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    2nd Eve: {}
+  launch:
+    "<base>/secondEve.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3516780
 "3 Blind Mice: A Remediation Game for Improper Children":
   installDir:
     3 BLIND MICE A REMEDIATION GAME FOR IMPROPER CHILDREN: {}
@@ -461601,6 +461621,8 @@ Motorhead (2015):
 Motorslice:
   cloud:
     steam: true
+  gog:
+    id: 1547815003
   id:
     lutris: motorslice
   steam:
@@ -462110,13 +462132,12 @@ Mouse in Lab:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Fumi Games/MOUSE/Save":
+    "<winLocalAppData>/Fumi Games/MOUSE/Save":
+      tags:
+        - config
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Fumi Games/MOUSE/Save":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: mouse-pi-for-hire--1
     steamExtra:
@@ -558517,6 +558538,13 @@ Rage Quest:
             store: steam
   steam:
     id: 570810
+Rage Rally:
+  files:
+    "<base>/RageRally.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Rage Room:
   installDir:
     Rage Room: {}

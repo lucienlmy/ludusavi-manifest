@@ -641310,6 +641310,19 @@
     english: Ballshit
     schinese: 无基之谈
     tchinese: 無基之談
+3516780:
+  cloud:
+    saves:
+      - path: ZolaUnreal/Saved/SaveGames
+        pattern: SM_ZolaSync*_gm.sav
+        root: WinAppDataLocal
+  installDir: 2nd Eve
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: secondEve.exe
+      type: default
 3519530:
   installDir: Merge Maestro
   launch:
