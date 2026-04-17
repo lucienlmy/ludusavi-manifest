@@ -538402,6 +538402,7 @@ Pragmata:
   id:
     lutris: pragmata
     steamExtra:
+      - 3859930
       - 4003800
   installDir:
     PRAGMATA: {}
@@ -549607,6 +549608,11 @@ Puzzle Bobble 4:
         - save
       when:
         - os: windows
+Puzzle Bobble Everybubble!:
+  cloud:
+    steam: true
+  steam:
+    id: 3990960
 Puzzle Bots:
   id:
     lutris: puzzle-bots

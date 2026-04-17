@@ -174525,6 +174525,7 @@ Pragmata:
   pageId: 161023
   steam: 3357650
   steamSide:
+    - 3859930
     - 4003800
 Prana:
   pageId: 74918
@@ -178101,6 +178102,11 @@ Puzzle Bobble 4:
   pageId: 123108
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save.dat}}"
+Puzzle Bobble Everybubble!:
+  cloud:
+    steam: true
+  pageId: 215704
+  steam: 3990960
 Puzzle Bots:
   lutris: puzzle-bots
   pageId: 22360

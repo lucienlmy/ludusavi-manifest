@@ -645082,6 +645082,12 @@
       type: default
 3989960: {}
 3990360: {}
+3990960:
+  nameLocalized:
+    japanese: パズルボブル エブリバブル!
+    koreana: 퍼즐버블 에브리버블!
+    schinese: "益智泡泡龙:一起泡泡战!"
+    tchinese: "益智泡泡龍:一起泡泡戰!"
 3994690:
   installDir: Skateboard_Game
   launch:
