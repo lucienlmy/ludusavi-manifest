@@ -148965,7 +148965,54 @@
         oslist: windows
       executable: Empires.exe
       type: none
-440000: {}
+440000:
+  cloud:
+    saves:
+      - path: "p2ce/SAVE/{64BitSteamID}"
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Portal 2 Community Edition
+  launch:
+    - arguments: "-game p2ce -playtest"
+      config:
+        oslist: linux
+        ownsdlc: "1900000"
+      description: Campaign Playtest
+      executable: p2ce.sh
+      type: option3
+    - arguments: "-playtest"
+      config:
+        oslist: windows
+        ownsdlc: "1900000"
+      description: Campaign Playtest
+      executable: bin/win64/p2ce.exe
+      type: option3
+    - arguments: "-game p2ce"
+      config:
+        betakey: dx9-final
+        oslist: windows
+      description: DX9
+      executable: p2ce.bat
+      type: option1
+    - arguments: "-tools -dev"
+      config:
+        oslist: windows
+      description: Launch Engine Tools
+      executable: bin/win64/p2ce.exe
+    - arguments: "-tools -dev"
+      config:
+        oslist: linux
+      description: Launch Engine Tools
+      executable: p2ce.sh
+    - config:
+        oslist: linux
+      executable: p2ce.sh
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: bin/win64/p2ce.exe
+      type: default
 440020:
   installDir: bit Dungeon+
   launch:
@@ -635671,6 +635718,20 @@
     koreana: "나는 군단이다: 스탠드 생존자"
     schinese: 我即军团：替身幸存者
     tchinese: 我即軍團：替身倖存者
+3111030:
+  cloud:
+    saves:
+      - path: "Yekta Ozcan\\Express Car Wash Simulator\\Slot_0"
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Express Car Wash Simulator
+  launch:
+    - config:
+        oslist: windows
+      executable: "Express Car Wash Simulator\\Express Car Wash Simulator.exe"
+      type: default
 3111080:
   cloud:
     saves:
@@ -641826,6 +641887,11 @@
         platforms:
           - Windows
         recursive: true
+        root: WinAppDataRoaming
+      - path: "Relic Entertainment\\Dawn of War\\Stats"
+        pattern: "*.bin"
+        platforms:
+          - Windows
         root: WinAppDataRoaming
   installDir: Dawn of War Definitive Edition
   launch:

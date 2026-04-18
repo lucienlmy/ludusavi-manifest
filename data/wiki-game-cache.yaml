@@ -12842,7 +12842,7 @@ Anne Frank House VR:
   pageId: 187200
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Freedom.cfg|{{p|game}}\\Freedom.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame}}"
 Annie Amber:
   pageId: 33561
   steam: 464440
@@ -79323,6 +79323,11 @@ Export Simulator:
 Exposure:
   pageId: 94358
   steam: 788810
+Express Car Wash Simulator:
+  pageId: 215719
+  steam: 3111030
+  steamSide:
+    - 3224860
 Express Raider:
   cloud:
     gog: true
@@ -233943,15 +233948,15 @@ The Godfather II:
   pageId: 26057
   steam: 24830
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\EA Games\\{{LocalizedPath|The Godfather™ II}} }}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\{{LocalizedPath|The Godfather™ II}} }}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\EA Games\\{{LocalizedPath|The Godfather™ II}}}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\{{LocalizedPath|The Godfather™ II}}}}"
 "The Godfather: The Game":
   lutris: the-godfather
   pageId: 23620
   steam: 24820
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Electronic Arts\\The Godfather The Game\\VideoSettings\\|{{P|userprofile\\Documents}}\\GF\\settings.ini}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\GF\\SG\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\GF\\SG}}"
 The Golden Compass:
   lutris: the-golden-compass
   pageId: 88501

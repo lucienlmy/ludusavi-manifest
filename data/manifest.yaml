@@ -246772,6 +246772,24 @@ Exposure:
             store: steam
   steam:
     id: 788810
+Express Car Wash Simulator:
+  files:
+    "<home>/AppData/LocalLow/Yekta Ozcan/Express Car Wash Simulator/Slot_0/*.json":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3224860
+  installDir:
+    Express Car Wash Simulator: {}
+  launch:
+    "<base>/Express Car Wash Simulator/Express Car Wash Simulator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3111030
 Express Raider:
   cloud:
     gog: true
@@ -536292,6 +536310,30 @@ Portal 2 Sixense Perceptual Pack:
 "Portal 2: Community Edition":
   cloud:
     steam: true
+  files:
+    "<base>/p2ce/SAVE/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Portal 2 Community Edition: {}
+  launch:
+    "<base>/bin/win64/p2ce.exe":
+      - arguments: "-tools -dev"
+        when:
+          - os: windows
+            store: steam
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/p2ce.sh":
+      - arguments: "-tools -dev"
+        when:
+          - os: linux
+            store: steam
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 440000
 "Portal Dungeon: Goblin Escape":
