@@ -299492,6 +299492,7 @@ Goblin Cleanup:
       when:
         - os: windows
   id:
+    lutris: goblin-cleanup
     steamExtra:
       - 2757650
       - 2779430
@@ -714158,6 +714159,13 @@ The Cat and the Coup (4K Remaster):
 The Cat in 14a:
   steam:
     id: 1075350
+The Cat in the Hat (2003):
+  files:
+    "<base>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 "The Cat! Porfirio's Adventure":
   installDir:
     "The Cat! Porfirio's Adventure": {}

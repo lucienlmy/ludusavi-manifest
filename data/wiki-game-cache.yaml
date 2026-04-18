@@ -96515,6 +96515,7 @@ Gobliiins 5:
 Goblin Cleanup:
   cloud:
     steam: true
+  lutris: goblin-cleanup
   pageId: 195755
   steam: 2748340
   steamSide:
@@ -230736,8 +230737,7 @@ The Cat in the Hat:
 The Cat in the Hat (2003):
   pageId: 192228
   templates:
-    - "{{Game data/config|Windows}}"
-    - "{{Game data/saves|Windows}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGames}}"
 "The Cat! Porfirio's Adventure":
   pageId: 41833
   steam: 492270
