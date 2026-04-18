@@ -253225,6 +253225,9 @@ Falnarion Tactics II:
             store: steam
   steam:
     id: 1078450
+False Echo:
+  steam:
+    id: 4418080
 False Front:
   cloud:
     steam: true
@@ -784942,12 +784945,12 @@ Two Point Campus:
         - save
       when:
         - os: linux
-    "<xdgConfig>/unity3d/Two Point Studios/Two Point Campus/localpreferences.json":
+    "<xdgConfig>/unity3d/Two Point Studios/Two Point Campus/Cloud/<storeUserId>/preferences.json":
       tags:
         - config
       when:
         - os: linux
-    "<xdgConfig>/unity3d/Two Point Studios/Two Point Hospital/Cloud/<storeUserId>/preferences.json":
+    "<xdgConfig>/unity3d/Two Point Studios/Two Point Campus/localpreferences.json":
       tags:
         - config
       when:

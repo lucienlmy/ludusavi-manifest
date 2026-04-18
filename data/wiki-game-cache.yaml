@@ -81605,6 +81605,9 @@ Falnarion Tactics:
 Falnarion Tactics II:
   pageId: 135594
   steam: 1078450
+False Echo:
+  pageId: 215728
+  steam: 4418080
 False Front:
   cloud:
     steam: true
@@ -254734,7 +254737,7 @@ Two Point Campus:
     - 2195430
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Two Point Studios\\Two Point Campus\\localpreferences.json|{{p|userprofile}}\\AppData\\LocalLow\\Two Point Studios\\Two Point Campus\\Cloud}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Two Point Studios/Two Point Campus/localpreferences.json|{{p|xdgconfighome}}/unity3d/Two Point Studios/Two Point Hospital/Cloud/{{p|uid}}/preferences.json}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Two Point Studios/Two Point Campus/localpreferences.json|{{p|xdgconfighome}}/unity3d/Two Point Studios/Two Point Campus/Cloud/{{p|uid}}/preferences.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Two Point Studios\\Two Point Campus\\Cloud\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\7904SEGAEuropeLtd.TwoPointCampus_zs7esxpzd8d5c\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Two Point Studios/Two Point Campus/Cloud/{{p|uid}}/}}"
