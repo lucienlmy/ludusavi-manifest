@@ -157595,6 +157595,13 @@ No More Room in Hell:
 No More Room in Hell 2:
   pageId: 89831
   steam: 292000
+No More Snow:
+  gog: 1914400841
+  lutris: no-more-snow
+  pageId: 215731
+  steam: 2244970
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Barzda\\No More Snow\\NoMoreSnowSettings.xml}}"
 No One:
   pageId: 75564
   steam: 735540

@@ -486681,6 +486681,25 @@ No More Room in Hell 2:
             store: steam
   steam:
     id: 292000
+No More Snow:
+  files:
+    "<home>/AppData/LocalLow/Barzda/No More Snow/NoMoreSnowSettings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1914400841
+  id:
+    lutris: no-more-snow
+  installDir:
+    No More Snow: {}
+  launch:
+    "<base>/No More Snow.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2244970
 No One:
   installDir:
     NO ONE: {}

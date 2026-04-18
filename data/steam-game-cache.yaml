@@ -602597,7 +602597,7 @@
       type: option1
       workingdir: "root\\bin\\pc"
     - config:
-        betakey: " patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest"
+        betakey: " patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest, fe_prototype"
         osarch: "64"
         oslist: windows
       description: Roadcraft RELEASE (debug)
@@ -602605,7 +602605,7 @@
       type: option2
       workingdir: "root\\bin\\pc\\"
     - config:
-        betakey: "patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest"
+        betakey: "patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest, fe_prototype"
         osarch: "64"
         oslist: windows
       description: Roadcraft PROFILE (debug)
@@ -602624,7 +602624,7 @@
       type: option2
       workingdir: "root\\bin\\pc"
     - config:
-        betakey: "patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest"
+        betakey: "patch, prod, stable, perf_branch, mod_editor,  fe_external_sharing, fe_hw,  fh_marketing, fe_playtest, fe_prototype"
         osarch: "64"
         oslist: windows
       description: Roadcraft RETAIL (debug)
@@ -609750,6 +609750,10 @@
 2244780:
   nameLocalized:
     schinese: 深渊国度：天启
+2244970:
+  installDir: No More Snow
+  launch:
+    - executable: No More Snow.exe
 2245180:
   installDir: VORON
   launch:
