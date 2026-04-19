@@ -16794,6 +16794,9 @@ Abyss Odyssey:
 "Abyss World: Apocalypse":
   steam:
     id: 2244780
+Abyss of Kings:
+  steam:
+    id: 4160590
 "Abyss: The Wraiths of Eden":
   cloud:
     steam: true
@@ -330516,6 +330519,9 @@ Hero of the Kingdom III:
             store: steam
   steam:
     id: 772430
+Hero of the Kingdom IV:
+  steam:
+    id: 4605200
 "Hero of the Kingdom: The Lost Tales 1":
   cloud:
     gog: true
@@ -824444,6 +824450,7 @@ Whiskered Away:
     id: 890930
 Whiskerwood:
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/Library/Application Support/Epic/Whiskerwood/Saved/SaveGames/_meta.sav":

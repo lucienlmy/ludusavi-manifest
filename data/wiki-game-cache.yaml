@@ -5227,6 +5227,9 @@ Abyss Odyssey:
 "Abyss World: Apocalypse":
   pageId: 183798
   steam: 2244780
+Abyss of Kings:
+  pageId: 215756
+  steam: 4160590
 "Abyss: The Wraiths of Eden":
   cloud:
     steam: true
@@ -106754,6 +106757,7 @@ Hero of the Kingdom III:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Lonely Troops/Hero of the Kingdom III/Save.dat}}"
 Hero of the Kingdom IV:
   pageId: 157891
+  steam: 4605200
 "Hero of the Kingdom: The Lost Tales 1":
   cloud:
     gog: true
@@ -267992,6 +267996,7 @@ Whiskered Away:
   steam: 890930
 Whiskerwood:
   cloud:
+    epic: true
     steam: true
     xbox: true
   pageId: 210674
