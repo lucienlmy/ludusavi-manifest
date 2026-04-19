@@ -31358,7 +31358,7 @@ Aliens&Asteroids:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/ASF/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/ASF/Saved/SaveGames":
       tags:
         - save
       when:
@@ -524263,6 +524263,56 @@ Pid:
         - config
   steam:
     id: 218740
+Piece by Piece (Gamkat):
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Gamkat/Piece by Piece/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: piece-by-piece--1
+    steamExtra:
+      - 3468410
+  installDir:
+    Piece by Piece: {}
+  launch:
+    "<base>/Piece by Piece.exe":
+      - arguments: STEAM_COMPAT_DATA_PATH=~/.steam/steam/steamapps/compatdata/3468410 ~/.steam/steam/steamapps/common/Proton 9.0-4/proton run %command%
+        when:
+          - store: steam
+  steam:
+    id: 3179050
+Piece by Piece (Neon Polygons):
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Piece by Piece/*.save":
+      when:
+        - store: steam
+    "<xdgData>/Piece by Piece/*.save":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: piece-by-piece--2
+    steamExtra:
+      - 3429540
+  installDir:
+    Piece by Piece: {}
+  launch:
+    "<base>/PieceByPiece.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/PieceByPiece.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3249380
 Piece of Memory:
   installDir:
     Piece of Memory: {}
@@ -790995,6 +791045,18 @@ Undercover Agent:
         workingDir: "<base>/bin"
   steam:
     id: 403390
+"Undercover: Operation Wintersun":
+  files:
+    "<base>/data/options.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data/pc/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
 Undercrewed:
   files:
     "<winLocalAppData>/undercrewed/roamingsave.ini":

@@ -636729,6 +636729,51 @@
     koreana: "무쌍: 어비스"
     schinese: 无双深渊
     tchinese: 無雙深淵
+3179050:
+  cloud:
+    saves:
+      - path: "\\Gamkat\\Piece by Piece\\Saves"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "\\Gamkat\\Piece by Piece\\Temp"
+        pattern: "*.png"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "\\Gamkat\\Piece by Piece\\Icons_Temp"
+        pattern: "*.png"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "\\Gamkat\\Piece by Piece\\Saves"
+            replace: /.config/unity3d/Gamkat/Piece by Piece/Saves
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "\\Gamkat\\Piece by Piece\\Saves"
+            replace: /.config/unity3d/Gamkat/Piece by Piece/Temp
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: /.config/unity3d/Gamkat/Piece by Piece/Icons_Temp
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Piece by Piece
+  launch:
+    - arguments: STEAM_COMPAT_DATA_PATH=~/.steam/steam/steamapps/compatdata/3468410 ~/.steam/steam/steamapps/common/Proton 9.0-4/proton run %command%
+      executable: Piece by Piece.exe
+      type: default
 3180070:
   installDir: "No, I'm not a Human"
   launch:
@@ -637755,6 +637800,34 @@
   installDir: Tap 4 Sex
   launch:
     - executable: Tap4Sex.exe
+3249380:
+  cloud:
+    saves:
+      - path: Piece by Piece
+        pattern: "*.save"
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Piece by Piece
+            replace: Piece by Piece
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: Piece by Piece
+  launch:
+    - config:
+        oslist: windows
+      executable: PieceByPiece.exe
+    - config:
+        oslist: macos
+      executable: PieceByPiece.app
+    - arguments: "--rendering-driver d3d12"
+      config:
+        oslist: windows
+      description: Piece by Piece (DirectX12)
+      executable: PieceByPiece.exe
+      type: option1
 3249650:
   installDir: Little Fighter 2 remastered
   launch:

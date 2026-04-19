@@ -9955,7 +9955,7 @@ Aliens&Asteroids:
     - 2272330
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\ASF\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\ASF\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\ASF\\Saved\\SaveGames\\*}}"
 "Aliens: Fireteam Elite":
   cloud:
     steam: true
@@ -169990,6 +169990,25 @@ Pid:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Might and Delight\\Pid\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\218740\\remote\\}}"
+Piece by Piece (Gamkat):
+  cloud:
+    steam: true
+  lutris: piece-by-piece--1
+  malformed: true
+  pageId: 215768
+  steam: 3179050
+  steamSide:
+    - 3468410
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Gamkat\\Piece by Piece\\Saves}}"
+Piece by Piece (Neon Polygons):
+  cloud:
+    steam: true
+  lutris: piece-by-piece--2
+  pageId: 215770
+  steam: 3249380
+  steamSide:
+    - 3429540
 Piece of Memory:
   pageId: 65457
   steam: 674420
@@ -256743,6 +256762,9 @@ Undercover Agent:
   steam: 403390
 "Undercover: Operation Wintersun":
   pageId: 196354
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\data\\options.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\data\\pc\\Savegames}}"
 Undercrewed:
   pageId: 87535
   steam: 731310
