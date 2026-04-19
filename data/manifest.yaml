@@ -828740,6 +828740,10 @@ Winter Burrow:
   installDir:
     Winter Burrow: {}
   launch:
+    "<base>/Winter Burrow.app/Contents/MacOS/Winter Burrow":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Winter Burrow.exe":
       - when:
           - store: steam

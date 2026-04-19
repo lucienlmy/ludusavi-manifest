@@ -255676,6 +255676,14 @@
       type: none
 647820: {}
 647830:
+  cloud:
+    saves:
+      - path: Warner Bros. Interactive Entertainment/LEGO Marvel Super Heroes 2/SAVEDGAMES
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
   installDir: LEGO Marvel Super Heroes 2
   launch:
     - config:
@@ -633448,6 +633456,10 @@
   installDir: Winter Burrow
   launch:
     - executable: Winter Burrow.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Winter Burrow.app/Contents/MacOS/Winter Burrow
       type: default
   nameLocalized:
     schinese: 林间暖巢 Winter Burrow
