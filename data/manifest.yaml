@@ -127987,6 +127987,8 @@ Chinese Inn:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: the-legend-of-sword-and-fairy-4
   installDir:
     Chinese Paladin 4: {}
   launch:
@@ -421752,9 +421754,12 @@ MINImax Tinyverse:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/MIO/Saves/Steam/<storeUserId>/*.save":
+    "<winLocalAppData>/Packages/FocusHomeInteractiveSA.MioMemoriesinOrbit_4hny5m903y3g0/SystemAppData/wgs":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: microsoft
   id:
     lutris: mio-memories-in-orbit
   installDir:
@@ -462273,7 +462278,7 @@ Mouse in Lab:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Fumi Games/MOUSE/Save":
+    "<home>/AppData/LocalLow/Fumi Games/MOUSE/Save":
       tags:
         - config
         - save
@@ -510676,6 +510681,9 @@ PUT IN BAD:
   steam:
     id: 1079720
 "PVKK: Planetenverteidigungskanonenkommandant":
+  id:
+    steamExtra:
+      - 3109220
   steam:
     id: 2956040
 PWND:
@@ -598723,7 +598731,17 @@ Saints Row IV:
         - os: windows
         - os: windows
           store: microsoft
-    "<root>/userdata/<storeUserId>/206420":
+    "<root>/userdata/<storeUserId>/206420/savedir.sr3d_pc":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/206420/sr3def_profile":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/206420/sr3save_*.sr3s_pc":
       tags:
         - save
       when:
@@ -598778,7 +598796,17 @@ Saints Row IV:
       when:
         - store: steam
         - os: windows
-    "<root>/userdata/<storeUserId>/206420":
+    "<root>/userdata/<storeUserId>/206420/savedir.srgd_pc":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/206420/srgDEF_PROFILE":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/206420/srgsave_*.srgs_pc":
       tags:
         - save
       when:
@@ -720836,6 +720864,8 @@ The Exit 8:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-exit-8
   installDir:
     Exit8: {}
   launch:
@@ -720844,6 +720874,13 @@ The Exit 8:
           - store: steam
   steam:
     id: 2653790
+The Exit 8 VR:
+  id:
+    lutris: the-exit-8-vr
+  installDir:
+    The Exit 8 VR: {}
+  steam:
+    id: 3193770
 The Exorcist:
   steam:
     id: 683160
@@ -796281,6 +796318,8 @@ V-Rally Multiplayer Championship Edition:
 V.A Proxy:
   id:
     lutris: va-proxy
+    steamExtra:
+      - 2064920
   steam:
     id: 2063390
 V.L.A.D.i.K:

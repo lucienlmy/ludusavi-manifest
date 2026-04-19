@@ -41069,6 +41069,7 @@ Chinese Inn:
 "Chinese Paladin: Sword and Fairy 4":
   cloud:
     steam: true
+  lutris: the-legend-of-sword-and-fairy-4
   pageId: 68853
   steam: 681820
 "Chinese Paladin: Sword and Fairy 5":
@@ -136195,6 +136196,8 @@ MINImax Tinyverse:
   lutris: mio-memories-in-orbit
   pageId: 205203
   steam: 1672810
+  templates:
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.MioMemoriesinOrbit_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
 MIR4:
   pageId: 178540
   steam: 1623660
@@ -149580,8 +149583,8 @@ Mouse in Lab:
     - 3879490
     - 3912890
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Fumi Games\\MOUSE\\Save}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Fumi Games\\MOUSE\\Save}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fumi Games\\MOUSE\\Save}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fumi Games\\MOUSE\\Save}}"
 MouseCraft:
   cloud:
     steam: true
@@ -165420,6 +165423,8 @@ PUZZLE & DRAGONS STORY:
 "PVKK: Planetenverteidigungskanonenkommandant":
   pageId: 196129
   steam: 2956040
+  steamSide:
+    - 3109220
 PWND:
   pageId: 64848
   steam: 553660
@@ -194015,7 +194020,7 @@ Saints Row IV:
     - "{{Game data/config|Steam|{{p|game}}/display.ini}}"
     - "{{Game data/saves|Windows|{{P|game}}\\_saves\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DeepSilver.SaintsRowIVRe-Elected_hmv7qcest37me\\SystemAppData\\wgs}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/206420/}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\206420\\savedir.sr3d_pc|{{p|steam}}\\userdata\\{{p|uid}}\\206420\\sr3def_profile|{{p|steam}}\\userdata\\{{p|uid}}\\206420\\sr3save_*.sr3s_pc}}"
 "Saints Row: Gat out of Hell":
   cloud:
     gog: true
@@ -194030,8 +194035,8 @@ Saints Row IV:
     - "{{Game data/config|Windows|{{p|game}}/display.ini}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/vpltd/SaintsRow4GooH/}}"
     - "{{Game data/config|Steam|{{p|game}}/display.ini}}"
-    - "{{Game data/saves|Windows|{{P|game}}/_saves/}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/206420/}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\_saves\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\206420\\savedir.srgd_pc|{{p|steam}}\\userdata\\{{p|uid}}\\206420\\srgDEF_PROFILE|{{p|steam}}\\userdata\\{{p|uid}}\\206420\\srgsave_*.srgs_pc}}"
 "Saints Row: The Third":
   cloud:
     gog: true
@@ -228433,6 +228438,8 @@ Tesseract:
 Tesseract VR:
   pageId: 92615
   steam: 809150
+Test Drive:
+  pageId: 215750
 Test Drive 4:
   pageId: 51534
 Test Drive 5:
@@ -228473,6 +228480,8 @@ Test Drive Unlimited Solar Crown:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Test Drive Ferrari Racing Legends\\graphicsconfig.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Test Drive Ferrari Racing Legends\\profiles\\{{p|uid}}.sav}}"
+"Test Drive: Off-Road 2":
+  pageId: 215748
 "Test Drive: Off-Road 3":
   pageId: 120492
   templates:
@@ -232933,10 +232942,15 @@ The Existence Abstract:
   pageId: 62807
   steam: 572290
 The Exit 8:
+  lutris: the-exit-8
   pageId: 192334
   steam: 2653790
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Exit8\\Saved\\SaveGames}}"
+The Exit 8 VR:
+  lutris: the-exit-8-vr
+  pageId: 215752
+  steam: 3193770
 The Exorcist:
   pageId: 67243
   steam: 683160
@@ -258452,6 +258466,8 @@ V.A Proxy:
   lutris: va-proxy
   pageId: 210499
   steam: 2063390
+  steamSide:
+    - 2064920
 V.I.P.:
   pageId: 172563
 V.L.A.D.i.K:

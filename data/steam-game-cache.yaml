@@ -636884,6 +636884,19 @@
         oslist: macos
       executable: Smack Monkey.app
       type: default
+3193770:
+  installDir: The Exit 8 VR
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Exit8VR.exe
+      type: vr
+  nameLocalized:
+    japanese: ８番出口VR
+    koreana: 8번 출구 VR
+    schinese: 8号出口VR
+    tchinese: 8號出口VR
 3194360:
   cloud:
     saves:
