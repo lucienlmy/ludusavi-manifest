@@ -43745,6 +43745,8 @@ ClockwiZZZe:
 Clockwise:
   pageId: 61652
   steam: 581380
+"Clockwiser: Time is Running Out...":
+  pageId: 215793
 Clockwork:
   pageId: 39209
   steam: 509210
@@ -79276,6 +79278,8 @@ Experience (2019):
 Experiment Gone Rogue:
   pageId: 122082
   steam: 569870
+Expert Pool:
+  pageId: 215791
 Expert Rifleman - Reloaded:
   pageId: 46863
   steam: 383590
@@ -119915,6 +119919,8 @@ Jetstream:
     steam: true
   pageId: 108776
   steam: 738860
+Jetstrike:
+  pageId: 215795
 "Jett: The Far Shore":
   cloud:
     epic: true
