@@ -475044,6 +475044,18 @@
         oslist: linux
       executable: YesMaster.x86_64
       type: none
+1090920:
+  cloud:
+    saves:
+      - path: "."
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Gubble Classic
+  launch:
+    - config:
+        oslist: windows
+      executable: GUBBLE.exe
+      type: none
 1090930:
   installDir: Endless RPG
   launch:
@@ -607779,7 +607791,20 @@
     koreana: 와이즈맨즈 월드 리트라이
     schinese: 魔法师世界Re;Try
     tchinese: 魔法師世界Re;Try
-2215200: {}
+2215200:
+  nameLocalized:
+    brazilian: "LEGO® Batman™: O Legado do Cavaleiro das Trevas"
+    french: "LEGO® Batman™ : L'Héritage du Chevalier Noir"
+    german: "LEGO® Batman™: Das Vermächtnis des Dunklen Ritters"
+    italian: "LEGO® Batman™: L’eredità del Cavaliere oscuro"
+    japanese: レゴ®バットマン™：レガシー・オブ・ザ・ダークナイト
+    koreana: "LEGO® Batman™: 레거시 오브 더 다크나이트"
+    latam: "LEGO® Batman™: El Legado del Caballero de la Noche"
+    polish: "LEGO® Batman™: Dziedzictwo Mrocznego Rycerza"
+    russian: "LEGO® Бэтмен™: Наследие Темного рыцаря"
+    schinese: 乐高®蝙蝠侠™：黑暗骑士之遗
+    spanish: "LEGO® Batman™: El Legado del Caballero Oscuro"
+    tchinese: LEGO® 蝙蝠俠™：黑暗騎士傳奇
 2215260:
   installDir: Scott Pilgrim vs The World
   launch:
@@ -644061,6 +644086,7 @@
     japanese: 007 ファーストライト
     koreana: 007 퍼스트 라이트
     schinese: 007 初露锋芒
+    tchinese: 《007 曙光初現》
 3771220:
   installDir: Half-Life Arena
   launch:

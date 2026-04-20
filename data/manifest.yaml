@@ -67610,6 +67610,13 @@ Barbie Explorer:
 Barbie Fashion Designer:
   id:
     lutris: barbie-fashion-designer
+"Barbie Fashion Show: An Eye for Style":
+  files:
+    "<winDocuments>/BarbieFashionShow2008":
+      tags:
+        - save
+      when:
+        - os: windows
 "Barbie Horse Adventures: Mystery Ride":
   id:
     lutris: barbie-horse-adventures-mystery-ride
@@ -69497,6 +69504,13 @@ Batla:
     gogExtra:
       - 1431357301
     lutris: batman-arkham-origins
+    steamExtra:
+      - 237618
+      - 237619
+      - 237620
+      - 237621
+      - 257070
+      - 277830
   installDir:
     Batman Arkham Origins: {}
   launch:
@@ -311121,6 +311135,20 @@ Gubble 2:
     HKEY_CURRENT_USER/Software/Actual Entertainment/Gubble 2:
       tags:
         - config
+Gubble HD:
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Gubble Classic: {}
+  launch:
+    "<base>/GUBBLE.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1090920
 Guess Da Meme:
   installDir:
     Guess Da Meme: {}
@@ -524267,8 +524295,9 @@ Piece by Piece (Gamkat):
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Gamkat/Piece by Piece/Saves":
+    "<winLocalAppData>/Gamkat/Piece by Piece":
       tags:
+        - config
         - save
       when:
         - os: windows

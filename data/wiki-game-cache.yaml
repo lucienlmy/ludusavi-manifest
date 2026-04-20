@@ -21572,6 +21572,10 @@ Barbie Explorer:
 Barbie Fashion Designer:
   lutris: barbie-fashion-designer
   pageId: 170638
+"Barbie Fashion Show: An Eye for Style":
+  pageId: 215776
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\BarbieFashionShow2008}}"
 "Barbie Horse Adventures: Mystery Ride":
   lutris: barbie-horse-adventures-mystery-ride
   pageId: 191496
@@ -22222,6 +22226,13 @@ Batman Returns:
   lutris: batman-arkham-origins
   pageId: 10725
   steam: 209000
+  steamSide:
+    - 237618
+    - 237619
+    - 237620
+    - 237621
+    - 257070
+    - 277830
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SinglePlayer\\BMGame\\Config\\|{{P|userprofile\\Documents}}\\WB Games\\Batman Arkham Origins\\BMGame\\Config|{{p|userprofile\\Documents}}\\WB Games\\Batman Arkham Origins\\GFXSettings.BatmanArkhamOrigins.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\WB Games\\Batman Arkham Origins\\SaveData\\}}"
@@ -100345,6 +100356,9 @@ Gubble 2:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Actual Entertainment\\Gubble 2\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\gubble0#.sav}}"
+Gubble HD:
+  pageId: 215778
+  steam: 1090920
 Guess Da Meme:
   pageId: 96553
   steam: 869110
@@ -169994,13 +170008,13 @@ Piece by Piece (Gamkat):
   cloud:
     steam: true
   lutris: piece-by-piece--1
-  malformed: true
   pageId: 215768
   steam: 3179050
   steamSide:
     - 3468410
   templates:
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Gamkat\\Piece by Piece\\Saves}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Gamkat\\Piece by Piece\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Gamkat\\Piece by Piece\\}}"
 Piece by Piece (Neon Polygons):
   cloud:
     steam: true
