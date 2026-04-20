@@ -48054,6 +48054,11 @@ Corruption of Champions II:
     steam: true
   pageId: 190297
   steam: 1292690
+Corsair Cove:
+  cloud:
+    steam: true
+  pageId: 215789
+  steam: 1368140
 "Corsairs: Battle of the Caribbean":
   gog: 1756882332
   pageId: 187532
@@ -64826,10 +64831,17 @@ Dollar Dash:
 Dollhouse:
   cloud:
     steam: true
+  lutris: dollhouse
   pageId: 39534
   steam: 280850
   templates:
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\280850\\remote\\}}"
+"Dollhouse: Behind the Broken Mirror":
+  cloud:
+    steam: true
+  lutris: dollhouse-behind-the-broken-mirror
+  pageId: 215783
+  steam: 1791660
 Dolls Nest:
   pageId: 195484
   steam: 1839430
@@ -66763,6 +66775,9 @@ Dragon Ball Xenoverse 2:
     - "{{Game data/config|Steam|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\DB Xenoverse 2\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\NAMCOBANDAIGamesInc.DBXV2BaseGame_gdy2aq6ez762w\\SystemAppData\\wgs\\000900000730DEF8_7D520100D0DD470EAE79336D3CC3BCFC}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\323470\\remote\\DBXV21\\DBXV2.sav}}"
+Dragon Ball Xenoverse 3:
+  pageId: 215785
+  steam: 1857810
 "Dragon Ball Z: Kakarot":
   cloud:
     steam: true
@@ -120311,6 +120326,8 @@ Johnny Bung:
 "Johnny Graves: The Unchosen One":
   pageId: 33494
   steam: 476030
+"Johnny Herbert's Grand Prix Championship 1998":
+  pageId: 215780
 Johns.game:
   pageId: 58892
   steam: 597240

@@ -548686,6 +548686,12 @@
     koreana: 파크 비욘드
     schinese: 狂想乐园
     tchinese: 狂想樂園
+1368140:
+  nameLocalized:
+    japanese: Corsair Cove コルセア・コーヴ
+    koreana: Corsair Cove 커세어 코브
+    schinese: 纵横秘湾 Corsair Cove
+    tchinese: 縱橫秘灣 Corsair Cove
 1368340:
   installDir: Beneath a Steel Sky
   launch:
@@ -582542,6 +582548,22 @@
   nameLocalized:
     schinese: 魔界战记 DISGAEA RPG
     tchinese: 魔界戰記 DISGAEA RPG
+1791660:
+  cloud:
+    saves:
+      - path: Dollhouse/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: Dollhouse/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Dollhouse - Behind the Broken Mirror
+  launch:
+    - config:
+        oslist: windows
+      executable: Dollhouse - Behind the Broken Mirror.exe
 1791790:
   installDir: Fire & Steel
   launch:
@@ -586655,6 +586677,12 @@
     japanese: 機動戦士ガンダムSEED BATTLE DESTINY REMASTERED
     schinese: 机动战士 GUNDAM SEED 激斗命运 复刻版
     tchinese: 機動戰士 GUNDAM SEED 激鬥命運 復刻版
+1857810:
+  nameLocalized:
+    japanese: ドラゴンボール ゼノバース３
+    koreana: 드래곤볼 제노버스 3
+    schinese: 七龙珠 异战3
+    tchinese: 七龍珠 異戰3
 1858090:
   installDir: A Modest Legacy
   launch:

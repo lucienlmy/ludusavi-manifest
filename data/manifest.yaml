@@ -150062,6 +150062,11 @@ Corruption of Champions II:
             store: steam
   steam:
     id: 1292690
+Corsair Cove:
+  cloud:
+    steam: true
+  steam:
+    id: 1368140
 "Corsairs: Battle of the Caribbean":
   gog:
     id: 1756882332
@@ -201610,6 +201615,8 @@ Dollhouse:
         - save
       when:
         - store: steam
+  id:
+    lutris: dollhouse
   installDir:
     Dollhouse: {}
   launch:
@@ -201619,6 +201626,28 @@ Dollhouse:
             store: steam
   steam:
     id: 280850
+"Dollhouse: Behind the Broken Mirror":
+  cloud:
+    steam: true
+  files:
+    "<base>/Dollhouse/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Dollhouse/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: dollhouse-behind-the-broken-mirror
+  installDir:
+    Dollhouse - Behind the Broken Mirror: {}
+  launch:
+    "<base>/Dollhouse - Behind the Broken Mirror.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1791660
 Dolls Nest:
   files:
     "<winLocalAppData>/DollsNest/Saved/SaveGames/**/*.sav":
@@ -207682,6 +207711,9 @@ Dragon Ball Xenoverse 2:
             store: steam
   steam:
     id: 454650
+Dragon Ball Xenoverse 3:
+  steam:
+    id: 1857810
 "Dragon Ball Z: Kakarot":
   cloud:
     steam: true
