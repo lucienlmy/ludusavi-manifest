@@ -25660,10 +25660,10 @@ Beyond a Steel Sky:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BASS2\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Containers/BASS2/Data/Library/Preferences/BASS2/MacNoEditor/}}"
-    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Epic/BASS2/Saved/Config/LinuxNoEditor/}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/Epic/BASS2/Saved/Config/LinuxNoEditor/}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BASS2\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Containers/BASS2/Data/Library/Application Support/Epic/BASS2/Saved/SaveGames}}"
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Epic/BASS2/Saved/SaveGames/}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Epic/BASS2/Saved/SaveGames/}}"
 Beyond a Total Loss:
   cloud:
     steam: true
@@ -199914,6 +199914,12 @@ Shape Shifter (2016):
 "Shape of America: Episode One":
   pageId: 78721
   steam: 752330
+Shape of Dreams:
+  cloud:
+    steam: true
+  lutris: shape-of-dreams
+  pageId: 215804
+  steam: 2444750
 Shape of the World:
   cloud:
     steam: true
@@ -258129,6 +258135,7 @@ Uppers:
   pageId: 36135
   steam: 514050
 "Uprising44: The Silent Shadows":
+  lutris: uprising44-the-silent-shadows
   pageId: 50414
   steam: 280380
 "Uprising: Join or Die":

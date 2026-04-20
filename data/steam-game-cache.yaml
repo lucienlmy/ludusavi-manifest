@@ -617983,6 +617983,36 @@
         osarch: "64"
         oslist: windows
       executable: EnchantedPortals.exe
+2444750:
+  cloud:
+    saves:
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: dl_profile*.json
+        root: WinAppDataLocalLow
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: dl_items.json
+        root: WinAppDataLocalLow
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: r_profile*.json
+        root: WinAppDataLocalLow
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: r_items.json
+        root: WinAppDataLocalLow
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: r_continue*.json
+        root: WinAppDataLocalLow
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: r_stats*.json
+        root: WinAppDataLocalLow
+  installDir: Shape of Dreams
+  launch:
+    - config:
+        oslist: windows
+      executable: Shape of Dreams.exe
+      type: default
+  nameLocalized:
+    schinese: 梦之形
+    tchinese: 夢之形
 2444760: {}
 2445340:
   cloud:

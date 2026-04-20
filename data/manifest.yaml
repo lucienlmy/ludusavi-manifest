@@ -79460,12 +79460,12 @@ Beyond a Steel Sky:
         - save
       when:
         - os: windows
-    "<xdgData>/Epic/BASS2/Saved/Config/LinuxNoEditor":
+    "<xdgConfig>/Epic/BASS2/Saved/Config/LinuxNoEditor":
       tags:
         - config
       when:
         - os: linux
-    "<xdgData>/Epic/BASS2/Saved/SaveGames":
+    "<xdgConfig>/Epic/BASS2/Saved/SaveGames":
       tags:
         - save
       when:
@@ -617259,6 +617259,39 @@ Shape Shifter (2016):
             store: steam
   steam:
     id: 752330
+Shape of Dreams:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/dl_items.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/dl_profile*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_continue*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_items.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_profile*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_stats*.json":
+      when:
+        - store: steam
+  id:
+    lutris: shape-of-dreams
+  installDir:
+    Shape of Dreams: {}
+  launch:
+    "<base>/Shape of Dreams.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2444750
 Shape of the World:
   cloud:
     steam: true
@@ -795302,6 +795335,8 @@ Uppers:
   steam:
     id: 514050
 "Uprising44: The Silent Shadows":
+  id:
+    lutris: uprising44-the-silent-shadows
   installDir:
     Uprising44: {}
   launch:
