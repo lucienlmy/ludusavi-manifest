@@ -199932,6 +199932,8 @@ Shape of Dreams:
   lutris: shape-of-dreams
   pageId: 215804
   steam: 2444750
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lizard Smoothie\\Shape of Dreams\\QuickSave\\}}"
 Shape of the World:
   cloud:
     steam: true
@@ -269129,6 +269131,7 @@ Windrose:
     - 4564200
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\R5\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\R5\\Saved\\SaveProfiles\\{your_Steam_ID}\\RocksDB}}"
 Winds of Change:
   cloud:
     steam: true

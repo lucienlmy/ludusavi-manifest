@@ -617292,24 +617292,11 @@ Shape of Dreams:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/dl_items.json":
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/dl_profile*.json":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_continue*.json":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_items.json":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_profile*.json":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_stats*.json":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: shape-of-dreams
   installDir:
@@ -827971,6 +827958,11 @@ Windrose:
     "<winLocalAppData>/R5/Saved/Config/Windows":
       tags:
         - config
+      when:
+        - os: windows
+    "<winLocalAppData>/R5/Saved/SaveProfiles/{your_Steam_ID}/RocksDB":
+      tags:
+        - save
       when:
         - os: windows
   id:
