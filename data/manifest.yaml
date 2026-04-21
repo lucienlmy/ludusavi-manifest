@@ -150080,6 +150080,8 @@ Corruption of Champions II:
 Corsair Cove:
   cloud:
     steam: true
+  id:
+    lutris: corsair-cove
   steam:
     id: 1368140
 "Corsairs: Battle of the Caribbean":
@@ -292056,6 +292058,31 @@ Generation Zero:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 1062400
+      - 1062420
+      - 1099600
+      - 1103830
+      - 1157550
+      - 1173930
+      - 1252740
+      - 1301740
+      - 1450340
+      - 1580920
+      - 1610690
+      - 1610720
+      - 1771050
+      - 1850670
+      - 2009530
+      - 2144760
+      - 2144761
+      - 2200740
+      - 2334430
+      - 2473770
+      - 2591100
+      - 2689180
+      - 2955520
   installDir:
     GenerationZero: {}
   launch:
