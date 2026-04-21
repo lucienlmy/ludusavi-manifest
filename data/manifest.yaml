@@ -11789,6 +11789,18 @@ A Tractor:
             store: steam
   steam:
     id: 779050
+A Tribute To Donkey Kong Country:
+  files:
+    "C:/UDK/A Tribute To DKC/UDKGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "C:/UDK/A Tribute To DKC/UDKGame/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
 "A Trip to Yugoslavia: Director's Cut":
   installDir:
     "A Trip to Yugoslavia Director's Cut": {}
@@ -799250,6 +799262,29 @@ Vampire Bloody Star X:
             store: steam
   steam:
     id: 964220
+Vampire Crawlers:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Nosebleed Interactive/Vampire Crawlers/Save/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Vampire Crawlers: {}
+  launch:
+    "<base>/Vampire Crawlers.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Vampire Crawlers.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3265700
 Vampire Hunters:
   cloud:
     steam: true

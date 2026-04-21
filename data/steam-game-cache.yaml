@@ -245071,27 +245071,38 @@
       type: option1
     - config:
         betakey: dedicated_client
+        osarch: "64"
+        oslist: windows
       description: Shipping
       executable: "Anc\\Binaries\\Win64\\Anc-Win64-Shipping.exe"
       type: option2
     - arguments: "-Log"
       config:
         betakey: dedicated_client
+        osarch: "64"
+        oslist: windows
       description: Test-Logs
       executable: "Anc\\Binaries\\Win64\\Anc-Win64-Test.exe"
       type: option1
     - arguments: "-nothreadtimeout -FULLMEMORYDUMP"
       config:
         betakey: internaltesting
+        oslist: windows
       description: FULL MEMORY DUMP
       executable: "Launcher\\DCConfig.exe"
       type: option2
     - arguments: "-gpucrashdebugging -nothreadtimeout -path ..\\Anc\\Binaries\\Win64\\Anc-Win64-Shipping_log.exe"
       config:
         betakey: "internaltesting,experimental"
+        oslist: windows
       description: Shipping with logs
       executable: "Launcher\\DCConfig.exe"
       type: option3
+    - config:
+        betakey: macos_testing
+        oslist: macos
+      executable: AncestorsLegacy.app
+      type: default
 620630:
   installDir: Civil War 1865
   launch:
@@ -293368,6 +293379,10 @@
       description: Thrones
       executable: Thrones.exe
       type: none
+  nameLocalized:
+    koreana: "토탈워 사가: 브리타니아의 왕좌"
+    schinese: 全面战争传奇：不列颠王座
+    tchinese: 全軍破敵傳奇：不列顛王座
 712120: {}
 712140: {}
 712150:
@@ -638096,6 +638111,36 @@
   nameLocalized:
     schinese: MindsEye 心之眼
     tchinese: MindsEye 心之眼
+3265700:
+  cloud:
+    saves:
+      - path: Nosebleed Interactive/Vampire Crawlers/Save
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: Nosebleed Interactive/Vampire Crawlers/Save
+        pattern: "*.demosave"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Nosebleed Interactive/Vampire Crawlers/Save
+            replace: com.poncle.vampirecrawlers/Save
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Vampire Crawlers
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Vampire Crawlers.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Vampire Crawlers.app
+  nameLocalized:
+    schinese: "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者"
+    tchinese: "吸血鬼爬行者: 屠戮地牢的吸血鬼倖存者"
 3267460: {}
 3268150:
   cloud:

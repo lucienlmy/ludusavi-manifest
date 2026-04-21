@@ -3609,6 +3609,9 @@ A Tractor:
   steam: 779050
 A Tribute To Donkey Kong Country:
   pageId: 215805
+  templates:
+    - "{{Game data/config|Windows|C:\\UDK\\A Tribute To DKC\\UDKGame\\Config}}"
+    - "{{Game data/saves|Windows|C:\\UDK\\A Tribute To DKC\\UDKGame\\SaveData}}"
 "A Trip to Yugoslavia: Director's Cut":
   pageId: 58001
   steam: 545410
@@ -196615,6 +196618,7 @@ Screamer 2:
 Screamer 4x4:
   gog: 1207664523
   lutris: screamer-4x4
+  malformed: true
   pageId: 2856
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Saved}}"
@@ -217725,6 +217729,8 @@ Strangeland:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/ags/Strangeland/}}"
 Stranger:
   pageId: 168427
+Stranger Than Heaven:
+  pageId: 215812
 "Stranger Things 3: The Game":
   cloud:
     epic: true
@@ -259649,6 +259655,13 @@ Valzar:
 Vampire Bloody Star X:
   pageId: 120812
   steam: 964220
+Vampire Crawlers:
+  cloud:
+    steam: true
+  pageId: 215811
+  steam: 3265700
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Nosebleed Interactive\\Vampire Crawlers\\Save\\*.save}}"
 Vampire Hunters:
   cloud:
     steam: true
