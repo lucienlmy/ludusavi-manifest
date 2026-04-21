@@ -3607,6 +3607,8 @@ A Tofu Tail:
 A Tractor:
   pageId: 103971
   steam: 779050
+A Tribute To Donkey Kong Country:
+  pageId: 215805
 "A Trip to Yugoslavia: Director's Cut":
   pageId: 58001
   steam: 545410
@@ -34953,10 +34955,15 @@ Bygone Dreams:
   pageId: 78086
   steam: 716410
 Bylina:
+  cloud:
+    steam: true
   gog: 1521816749
   lutris: bylina
   pageId: 210063
   steam: 2461440
+  steamSide:
+    - 4588110
+    - 4591670
 Bystander:
   pageId: 76177
   steam: 674860
@@ -104262,8 +104269,12 @@ He Will Shoot:
   steam: 1814200
 He is Coming:
   cloud:
+    epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1889700436
+  lutris: he-is-coming
   pageId: 206219
   steam: 2824490
 "He-Man and the Masters of the Universe: Dragon Pearl of Destruction":
@@ -113342,6 +113353,7 @@ IGrow Game:
   pageId: 33912
   steam: 489020
 IHF Handball Challenge 12:
+  lutris: ihf-handball-challenge-12
   pageId: 50540
   steam: 283490
 IHF Handball Challenge 14:
@@ -221935,6 +221947,8 @@ SuperGrind RPG:
 SuperHyperCube:
   pageId: 75841
   steam: 554870
+SuperKarts:
+  pageId: 215807
 SuperLuminauts:
   cloud:
     steam: true
@@ -236593,6 +236607,7 @@ The Legend of Bum-Bo:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Edmund McMillen Games\\The Legend of Bum-bo}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Edmund McMillen Games\\The Legend of Bum-bo\\progression.sav}}"
 The Legend of California:
+  lutris: the-legend-of-california
   pageId: 215031
   steam: 2550530
 "The Legend of Candlewind: Nights & Candles":

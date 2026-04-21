@@ -12669,8 +12669,15 @@
   installDir: Fantasy Wars
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      executable: FantasyWars.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 63910:
   cloud:
     saves:
@@ -618888,6 +618895,16 @@
   nameLocalized:
     schinese: 莱萨里亚：英雄之歌
 2461440:
+  cloud:
+    saves:
+      - path: Bylina/SaveGames
+        pattern: "*"
+        recursive: true
+        root: WinMyDocuments
+  installDir: The Epic
+  launch:
+    - executable: TheEpicProject.exe
+      type: default
   nameLocalized:
     russian: Былина
 2461850:

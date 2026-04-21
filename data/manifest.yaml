@@ -108497,10 +108497,25 @@ Bygone Dreams:
   steam:
     id: 716410
 Bylina:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/Bylina/SaveGames":
+      when:
+        - store: steam
   gog:
     id: 1521816749
   id:
     lutris: bylina
+    steamExtra:
+      - 4588110
+      - 4591670
+  installDir:
+    The Epic: {}
+  launch:
+    "<base>/TheEpicProject.exe":
+      - when:
+          - store: steam
   steam:
     id: 2461440
 Bystander:
@@ -254783,9 +254798,15 @@ Fantasy Wars:
   installDir:
     Fantasy Wars: {}
   launch:
-    "<base>/FantasyWars.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 63900
@@ -322850,6 +322871,8 @@ He Will Shoot:
     id: 1814200
 He is Coming:
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/Chronocle/He Is Coming/*.txt":
@@ -322863,6 +322886,10 @@ He is Coming:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1889700436
+  id:
+    lutris: he-is-coming
   installDir:
     He is coming: {}
   launch:
@@ -351084,6 +351111,8 @@ IHF Handball Challenge 12:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: ihf-handball-challenge-12
   installDir:
     Ihf Handball Challenge 12: {}
   launch:
@@ -731927,6 +731956,8 @@ The Legend of Bum-Bo:
   steam:
     id: 1148650
 The Legend of California:
+  id:
+    lutris: the-legend-of-california
   steam:
     id: 2550530
 "The Legend of Candlewind: Nights & Candles":
