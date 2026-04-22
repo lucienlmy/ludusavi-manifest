@@ -532254,13 +532254,14 @@
   installDir: Company of Crime
   launch:
     - config:
-        oslist: windows
-      executable: CompanyOfCrime.exe
-      type: default
-    - config:
         oslist: macos
       executable: "CompanyOfCrime.app\\Contents\\MacOS\\CompanyOfCrime"
       type: default
+    - config:
+        oslist: windows
+      description: Launcher
+      executable: launcher.exe
+      type: option1
 1229460:
   installDir: Dice Legacy
   launch:

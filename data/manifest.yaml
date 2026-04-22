@@ -145069,10 +145069,6 @@ Company of Crime:
       - when:
           - os: mac
             store: steam
-    "<base>/CompanyOfCrime.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 1229420
 Company of Heroes:
@@ -156399,6 +156395,11 @@ Crimson Desert:
   cloud:
     steam: true
   files:
+    "<home>/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winLocalAppData>/Pearl Abyss/CD/save/<storeUserId>":
       tags:
         - save
@@ -366769,6 +366770,16 @@ Isle of Jura:
         - config
       when:
         - os: windows
+    "<home>/Library/Application Support/com.EMGames.IsleOfJura/playerSave.fish":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.EMGames.IsleOfJura/settings.fish":
+      tags:
+        - config
+      when:
+        - os: mac
     "<xdgConfig>/.config/unity3d/EM Games/IsleOfJura/playerSave.fish":
       tags:
         - save

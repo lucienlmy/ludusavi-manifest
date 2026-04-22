@@ -50142,7 +50142,7 @@ Crimson Desert:
     - "{{Game data/config|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
     - "{{Game data/config|OS X}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/{{p|uid}}}}"
-    - "{{Game data/saves|OS X}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save}}"
 Crimson Earth:
   pageId: 61762
   steam: 616360
@@ -118334,8 +118334,10 @@ Isle of Jura:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\EM Games\\IsleOfJura\\settings.fish}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/.config/unity3d/EM Games/IsleOfJura/settings.fish}}"
+    - "{{Game data/config|OS X|~/Library/Application Support/com.EMGames.IsleOfJura/settings.fish}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\EM Games\\IsleOfJura\\playerSave.fish}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/.config/unity3d/EM Games/IsleOfJura/playerSave.fish}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/com.EMGames.IsleOfJura/playerSave.fish}}"
 Isle of Skye:
   cloud:
     steam: true
