@@ -731377,6 +731377,12 @@ The Last Sip:
   steam:
     id: 3781520
 The Last Sky:
+  files:
+    "<home>/AppData/LocalLow/Little Guy Games/The Last Sky/saveData.dat":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     The Last Sky: {}
   launch:

@@ -236458,6 +236458,8 @@ The Last Sip:
 The Last Sky:
   pageId: 154188
   steam: 536900
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Little Guy Games\\The Last Sky\\saveData.dat}}"
 The Last Sniper VR:
   pageId: 41866
   steam: 502710
