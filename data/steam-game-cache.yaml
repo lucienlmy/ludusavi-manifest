@@ -561311,6 +561311,9 @@
     - config:
         oslist: macos
       executable: "Contents\\MacOS\\The Whispering Valley"
+  nameLocalized:
+    english: The Whispering Valley
+    french: La Vallée qui murmure
 1512480:
   cloud:
     saves:
@@ -574395,8 +574398,14 @@
   installDir: Company of Heroes 3
   launch:
     - arguments: "-print_turn_action_log_continuously -turn_soft_lock_detection_seconds 60"
+      config:
+        oslist: windows
       executable: RelicCoH3.exe
       type: default
+    - config:
+        betakey: "domesticated_qa_a,domesticated_qa_b"
+        oslist: macos
+      executable: Company of Heroes 3.app
 1677310:
   cloud:
     saves:
@@ -602476,11 +602485,6 @@
       executable: Cronos.app/Contents/MacOS/Cronos
       type: option2
       workingdir: Cronos.app/Contents/MacOS/
-    - config:
-        betakey: staging
-        oslist: macos
-      executable: Cronos-Mac-Shipping.app
-      type: default
     - config:
         betakey: personal_1
         osarch: "64"
@@ -643031,6 +643035,11 @@
     - arguments: "-steam_launch -local-bundle -CL"
       config:
         betakey: clone
+      description: Clone서버 접속
+      executable: "WIN64\\BSH.exe"
+    - arguments: "-steam_launch -local-bundle -CL"
+      config:
+        betakey: creator
       description: Clone서버 접속
       executable: "WIN64\\BSH.exe"
 3617830: {}

@@ -145273,7 +145273,8 @@ Company of Heroes 3:
     "<base>/RelicCoH3.exe":
       - arguments: "-print_turn_action_log_continuously -turn_soft_lock_detection_seconds 60"
         when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 1677280
 "Company of Heroes: Eastern Front":
@@ -383977,6 +383978,11 @@ King under the Mountain:
       - 1760263296
       - 1846949639
       - 1847323141
+    lutris: kings-bounty-ii
+    steamExtra:
+      - 1640381
+      - 1640382
+      - 1640390
   installDir:
     "King's Bounty II": {}
   launch:
@@ -613132,6 +613138,10 @@ Servant of The People:
   steam:
     id: 1146600
 Servant of the Lake:
+  id:
+    lutris: servant-of-the-lake
+    steamExtra:
+      - 3996940
   steam:
     id: 3636770
 Servo:
@@ -633349,6 +633359,10 @@ Slayer of Traitors:
 Sledding Game:
   cloud:
     steam: true
+  id:
+    lutris: sledding-game
+    steamExtra:
+      - 4029310
   steam:
     id: 3438850
 Sleengster:
@@ -752239,6 +752253,8 @@ The Whisperer in Darkness:
   steam:
     id: 435000
 The Whispering Valley:
+  cloud:
+    gog: true
   gog:
     id: 2044656083
   id:
@@ -799263,6 +799279,8 @@ Vampire Bloody Star X:
   steam:
     id: 964220
 Vampire Crawlers:
+  alias: "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors"
+"Vampire Crawlers: The Turbo Wildcard from Vampire Survivors":
   cloud:
     steam: true
   files:
@@ -799271,6 +799289,11 @@ Vampire Crawlers:
         - save
       when:
         - os: windows
+  id:
+    lutris: vampire-crawlers-the-turbo-wildcard-from-vampire-survivors
+    steamExtra:
+      - 4329470
+      - 4564300
   installDir:
     Vampire Crawlers: {}
   launch:

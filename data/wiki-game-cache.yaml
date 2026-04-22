@@ -123982,8 +123982,13 @@ King rocket:
     - 1760263296
     - 1846949639
     - 1847323141
+  lutris: kings-bounty-ii
   pageId: 143334
   steam: 1135300
+  steamSide:
+    - 1640381
+    - 1640382
+    - 1640390
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\KingsBounty2\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\KingsBounty2\\Saved\\SaveGames}}"
@@ -186581,6 +186586,8 @@ Returnal:
 Returner 77:
   pageId: 87083
   steam: 799810
+Reunion:
+  pageId: 215822
 Reus:
   cloud:
     gog: true
@@ -198573,8 +198580,11 @@ Servant of The People:
   pageId: 150741
   steam: 1146600
 Servant of the Lake:
+  lutris: servant-of-the-lake
   pageId: 204070
   steam: 3636770
+  steamSide:
+    - 3996940
 Servo:
   pageId: 34296
   steam: 305510
@@ -205064,8 +205074,12 @@ Slayer of Traitors:
 Sledding Game:
   cloud:
     steam: true
+    xbox: true
+  lutris: sledding-game
   pageId: 215509
   steam: 3438850
+  steamSide:
+    - 4029310
 Sleengster:
   pageId: 53924
   steam: 559500
@@ -243418,6 +243432,8 @@ The Whisperer in Darkness:
   pageId: 51443
   steam: 435000
 The Whispering Valley:
+  cloud:
+    gog: true
   gog: 2044656083
   lutris: the-whispering-valley
   pageId: 189008
@@ -259655,11 +259671,17 @@ Valzar:
 Vampire Bloody Star X:
   pageId: 120812
   steam: 964220
-Vampire Crawlers:
+"Vampire Crawlers: The Turbo Wildcard from Vampire Survivors":
   cloud:
     steam: true
+  lutris: vampire-crawlers-the-turbo-wildcard-from-vampire-survivors
   pageId: 215811
+  renamedFrom:
+    - Vampire Crawlers
   steam: 3265700
+  steamSide:
+    - 4329470
+    - 4564300
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Nosebleed Interactive\\Vampire Crawlers\\Save\\*.save}}"
 Vampire Hunters:
