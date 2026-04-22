@@ -116833,6 +116833,18 @@ Carmen Sandiego:
           - store: steam
   steam:
     id: 2475300
+"Carmen Sandiego's ThinkQuick Challenge":
+  files:
+    "<base>/ACME Support/Group":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/MOHAWK.W32":
+      tags:
+        - config
+      when:
+        - os: windows
 Carnage Battle Arena:
   cloud:
     steam: true
@@ -470615,6 +470627,11 @@ N++:
   cloud:
     steam: true
   files:
+    "<home>/Documents/Metanet/N++/nprofile":
+      tags:
+        - save
+      when:
+        - os: mac
     "<root>/userdata/<storeUserId>/230270/remote/nprofile":
       tags:
         - save
@@ -596235,9 +596252,33 @@ SELF:
   steam:
     id: 1170910
 "SENSE: The Game":
+  cloud:
+    steam: true
+  files:
+    "<base>/**/*.ttf":
+      when:
+        - store: steam
+    "<base>/*.otf":
+      when:
+        - store: steam
+    "<base>/decor.cfg":
+      when:
+        - store: steam
+    "<base>/decor/*.png":
+      when:
+        - store: steam
+    "<base>/font.cfg":
+      when:
+        - store: steam
+    "<base>/localization.cfg":
+      when:
+        - store: steam
   installDir:
     SENSE-The-Game: {}
   launch:
+    "<base>/SENSE-The-Game.apk":
+      - when:
+          - store: steam
     "<base>/SENSE_THE_GAME.exe":
       - when:
           - os: windows
@@ -758697,12 +758738,34 @@ Tides of Existence:
   steam:
     id: 1068480
 Tides of Tomorrow:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/Ego/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Ego/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
   gog:
     id: 1175822148
   id:
+    gogExtra:
+      - 1081690779
+      - 1356585187
     lutris: tides-of-tomorrow
     steamExtra:
       - 3951580
+      - 4162940
+      - 4212570
+  installDir:
+    Tides of Tomorrow: {}
+  launch:
+    "<base>/TidesOfTomorrow.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2678080
 Tides of Tomorrow 🌊:
@@ -769238,12 +769301,23 @@ Total Tank Simulator:
       - when:
           - os: linux
             store: steam
+    "<base>/Warhammer3.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
     "<base>/launcher/launcher.exe":
       - when:
           - bit: 64
             os: windows
             store: steam
         workingDir: "<base>/launcher"
+    "<base>/twmm/twmm.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/twmm"
   steam:
     id: 1142710
 Totally Accurate Battle Simulator:

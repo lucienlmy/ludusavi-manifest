@@ -37591,8 +37591,8 @@ Carmen Sandiego Returns:
 "Carmen Sandiego's ThinkQuick Challenge":
   pageId: 111324
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\MOHAWK.W32}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\ACME Support\\Group}}"
 Carnage Battle Arena:
   cloud:
     steam: true
@@ -152226,6 +152226,7 @@ N++:
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Metanet/N++/keys.vars|{{p|xdgdatahome}}/Metanet/N++/levels/|{{p|xdgdatahome}}/Metanet/N++/npp.conf}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Metanet\\N++\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/230270/remote/nprofile}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/Metanet/N++/nprofile}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Metanet/N++/nprofile}}"
 N-body:
   pageId: 72096
@@ -193194,6 +193195,8 @@ SELF:
   pageId: 154136
   steam: 1170910
 "SENSE: The Game":
+  cloud:
+    steam: true
   pageId: 208598
   steam: 3832650
   templates:
@@ -245531,7 +245534,13 @@ Tides of Existence:
   pageId: 152993
   steam: 1068480
 Tides of Tomorrow:
+  cloud:
+    gog: true
+    steam: true
   gog: 1175822148
+  gogSide:
+    - 1081690779
+    - 1356585187
   lutris: tides-of-tomorrow
   pageId: 206747
   renamedFrom:
@@ -245539,6 +245548,8 @@ Tides of Tomorrow:
   steam: 2678080
   steamSide:
     - 3951580
+    - 4162940
+    - 4212570
 Tides of War:
   pageId: 210236
 Tidy Your Room Simulator:

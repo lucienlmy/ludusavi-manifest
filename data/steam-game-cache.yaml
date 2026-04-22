@@ -25048,11 +25048,12 @@
       executable: N++.bin.x86_64
       type: default
     - config:
-        betakey: devtest
+        betakey: test64
         osarch: "64"
         oslist: windows
+      description: 64-bit test version!
       executable: Win64/N++.exe
-      type: default
+      type: option1
 230290:
   cloud:
     saves:
@@ -499441,6 +499442,7 @@
     - config:
         osarch: "64"
         oslist: windows
+      description: TW Launcher (Legacy)
       executable: launcher/launcher.exe
       type: default
       workingdir: launcher
@@ -499452,6 +499454,25 @@
         oslist: linux
       executable: TotalWarhammer3.sh
       type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: TW Mod Manager (Early Access)
+      executable: twmm/twmm.exe
+      workingdir: twmm
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Play Game (Skip Launcher)
+      executable: Warhammer3.exe
+    - config:
+        betakey: "upload_test, tree"
+        osarch: "64"
+        oslist: windows
+      description: TW Launcher (Legacy)
+      executable: launcher/launcher.exe
+      type: default
+      workingdir: launcher
   nameLocalized:
     koreana: "토탈워: 워해머 3"
     schinese: 全面战争：战锤3
@@ -593165,7 +593186,7 @@
 1947910:
   cloud:
     saves:
-      - path: SIGONO/OPUS_ Prism Peak/SaveData
+      - path: SIGONO/OPUS_ Prism Peak/SaveDataV2
         pattern: "*.*"
         recursive: true
         root: WinAppDataLocalLow
@@ -593173,8 +593194,8 @@
       - os: MacOS
         osCompare: "="
         pathTransforms:
-          - find: SIGONO/OPUS_ Prism Peak/SaveData
-            replace: com.SIGONO.OPUS--Prism-Peak/SaveData
+          - find: SIGONO/OPUS_ Prism Peak/SaveDataV2
+            replace: com.SIGONO.OPUS--Prism-Peak/SaveDataV2
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
   installDir: OPUS Prism Peak
@@ -626097,6 +626118,20 @@
     spanish: "Indiana Jones y el Gran Círculo "
     tchinese: "《印第安納瓊斯：古老之圈》 "
 2678080:
+  cloud:
+    saves:
+      - path: "Ego/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: gameinstall
+      - path: "Ego/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Tides of Tomorrow
+  launch:
+    - config:
+        oslist: windows
+      executable: TidesOfTomorrow.exe
+      type: default
   nameLocalized:
     schinese: 明日潮汐 Tides of Tomorrow 🌊
     tchinese: 明日潮汐 Tides of Tomorrow 🌊
@@ -644581,6 +644616,33 @@
         oslist: windows
       executable: Patch me if you can.exe
 3832650:
+  cloud:
+    saves:
+      - path: decor
+        pattern: "*.png"
+        root: gameinstall
+      - path: ""
+        pattern: decor.cfg
+        root: gameinstall
+      - path: ""
+        pattern: font.cfg
+        root: gameinstall
+      - path: ""
+        pattern: localization.cfg
+        root: gameinstall
+      - path: ""
+        pattern: "*.ttf"
+        recursive: true
+        root: gameinstall
+      - path: ""
+        pattern: "*.otf"
+        root: gameinstall
+    overrides:
+      - addPath: com.ipoleksenko.sense
+        os: Android
+        osCompare: "="
+        root: gameinstall
+        useInstead: AndroidExternalData
   installDir: SENSE-The-Game
   launch:
     - config:
@@ -644589,6 +644651,9 @@
     - config:
         oslist: linux
       executable: SENSE_THE_GAME.sh
+    - config:
+        oslist: android
+      executable: SENSE-The-Game.apk
 3833280:
   nameLocalized:
     english: "Loulan: The Cursed Sand"
