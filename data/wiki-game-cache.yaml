@@ -204095,6 +204095,8 @@ Ski Sniper:
 "Ski Sport: Jumping VR":
   pageId: 57190
   steam: 582390
+Ski-Doo X-Team Racing:
+  pageId: 215882
 Ski-World Simulator:
   cloud:
     steam: true
@@ -270485,6 +270487,7 @@ Wolfenstein 3D:
     - 1847884051
     - 1982055340
   lutris: wolfenstein-ii-the-new-colossus
+  malformed: true
   pageId: 63522
   steam: 612880
   steamSide:
