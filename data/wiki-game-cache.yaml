@@ -65858,8 +65858,8 @@ Door Kickers:
   pageId: 167984
   steam: 1239080
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\KillHouseGames\\DoorKickers2\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\KillHouseGames\\DoorKickers2\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\KillHouseGames\\DoorKickers2\\\n\n}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\KillHouseGames\\DoorKickers2\\\ntest}}"
 "Door Kickers: Action Squad":
   cloud:
     gog: true
@@ -111805,6 +111805,15 @@ Hunt and Snare:
 Hunt for Junk:
   pageId: 180373
   steam: 1973040
+Hunt the Night:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 1579221286
+  lutris: hunt-the-night
+  pageId: 215880
+  steam: 1649740
 Hunt the Thailand Hidden:
   pageId: 138764
   steam: 1092270
@@ -274329,6 +274338,8 @@ YouTube VR:
 YouTubers Galaxy:
   pageId: 65072
   steam: 667120
+"Young Dilbert: Hi-Tech Hijinks":
+  pageId: 215874
 "Young Justice: Legacy":
   pageId: 12564
   steam: 235760

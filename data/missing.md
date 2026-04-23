@@ -31283,6 +31283,7 @@
 * [You're My Favorite Person](https://www.pcgamingwiki.com/wiki/?curid=208876)
 * [You, With Me - A Kinetic Novel](https://www.pcgamingwiki.com/wiki/?curid=58023)
 * [You: The Untold Stories](https://www.pcgamingwiki.com/wiki/?curid=104571)
+* [Young Dilbert: Hi-Tech Hijinks](https://www.pcgamingwiki.com/wiki/?curid=215874)
 * [Young Suns](https://www.pcgamingwiki.com/wiki/?curid=211328)
 * [Your Anime Waifu](https://www.pcgamingwiki.com/wiki/?curid=148811)
 * [Your Ball Exploded](https://www.pcgamingwiki.com/wiki/?curid=96713)

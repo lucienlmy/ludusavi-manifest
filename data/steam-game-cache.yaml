@@ -572271,6 +572271,24 @@
       executable: "DOSBox\\dosbox.exe"
       type: option1
       workingdir: "DOSBox\\Configuration"
+1649740:
+  cloud:
+    saves:
+      - path: Moonlight Games/Hunt the Night
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Hunt the Night
+  launch:
+    - config:
+        oslist: windows
+      executable: Hunt the Night.exe
+      type: default
+  nameLocalized:
+    schinese: 狩夜人
+    tchinese: 暗夜獵光
 1649950:
   cloud:
     saves:

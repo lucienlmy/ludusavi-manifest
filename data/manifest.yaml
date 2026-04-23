@@ -204896,7 +204896,6 @@ Door Kickers:
     "<winLocalAppData>/KillHouseGames/DoorKickers2":
       tags:
         - config
-        - save
       when:
         - os: windows
   installDir:
@@ -346212,6 +346211,29 @@ Hunt for Junk:
             store: steam
   steam:
     id: 1973040
+Hunt the Night:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Moonlight Games/Hunt the Night":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1579221286
+  id:
+    lutris: hunt-the-night
+  installDir:
+    Hunt the Night: {}
+  launch:
+    "<base>/Hunt the Night.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1649740
 Hunt the Thailand Hidden:
   installDir:
     Hunt the Thailand Hidden: {}
