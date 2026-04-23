@@ -11697,6 +11697,10 @@ Amygdala:
 "Amygdala: Prelude":
   pageId: 192275
   steam: 2411790
+An Abyss of Dreams:
+  gog: 1190512807
+  pageId: 215866
+  steam: 3346520
 "An Adventurer's Tale":
   pageId: 124372
   steam: 942580
@@ -14708,6 +14712,9 @@ Arctic Awakening:
 Arctic Cave:
   pageId: 92785
   steam: 848540
+Arctic Eggs:
+  pageId: 198239
+  steam: 2763670
 Arctic Fleet:
   pageId: 124352
   steam: 983880
@@ -49046,7 +49053,7 @@ Crash Time 2:
   steam: 11390
   templates:
     - "{{Game data/config|Windows|{{p|ProgramData}}\\Synetic\\BurningWheels}}"
-    - "{{Game data/saves|Windows|{{p|ProgramData}}\\Synetic\\BurningWheels}}"
+    - "{{Game data/saves|Windows|{{p|ProgramData}}\\Synetic\\BurningWheels\\SavedGame}}"
 Crash Time 3:
   pageId: 33193
   steam: 33620
@@ -95895,6 +95902,9 @@ Glitch:
 Glitch Arena:
   pageId: 136757
   steam: 1083800
+"Glitch Busters: Stuck On You":
+  pageId: 195872
+  steam: 1616110
 Glitch Pets:
   pageId: 100066
   steam: 886630
@@ -134403,6 +134413,10 @@ Lost in the Ocean VR:
 "Lost in the Rift: Reborn":
   pageId: 53397
   steam: 542520
+Lost in the Roots:
+  malformed: true
+  pageId: 215872
+  steam: 2872240
 Lost in the Tomb:
   pageId: 73933
   steam: 732070
@@ -247368,6 +247382,14 @@ Tokyo Xtreme Racer:
 ToledoVR:
   pageId: 55766
   steam: 557460
+Toll Booth Simulator:
+  cloud:
+    steam: true
+  pageId: 215868
+  steam: 3896300
+  steamSide:
+    - 3944120
+    - 4506650
 Toltec and the mysteries of the Secret Island:
   pageId: 122014
   steam: 961870

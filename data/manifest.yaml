@@ -36592,6 +36592,17 @@ Amygdala:
 "Amygdala: Prelude":
   steam:
     id: 2411790
+An Abyss of Dreams:
+  gog:
+    id: 1190512807
+  installDir:
+    DansLAbimeDuReve: {}
+  launch:
+    "<base>/DansLAbimeDuReve.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3346520
 "An Adventurer's Tale":
   installDir:
     "An Adventurer's Tale": {}
@@ -46108,6 +46119,25 @@ Arctic Awakening:
 Arctic Cave:
   steam:
     id: 848540
+Arctic Eggs:
+  installDir:
+    ArcticEggs: {}
+  launch:
+    "<base>/Arctic Eggs.app/Contents/MacOS/Arctic Eggs":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Arctic Eggs.app/Contents/MacOS"
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/game.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2763670
 Arctic Fleet:
   installDir:
     Strategy Game 1: {}
@@ -153208,6 +153238,10 @@ Crash Time 2:
     "<winProgramData>/Synetic/BurningWheels":
       tags:
         - config
+      when:
+        - os: windows
+    "<winProgramData>/Synetic/BurningWheels/SavedGame":
+      tags:
         - save
       when:
         - os: windows
@@ -297325,6 +297359,16 @@ Glitch Arena:
         workingDir: "<base>/Glitch_steam/Binaries/Win64"
   steam:
     id: 1083800
+"Glitch Busters: Stuck On You":
+  installDir:
+    GlitchBusters: {}
+  launch:
+    "<base>/GlitchBusters.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1616110
 Glitch Pets:
   installDir:
     GlitchPets: {}
@@ -415819,6 +415863,9 @@ Lost in the Ocean VR:
     Lost in the Rift - Reborn: {}
   steam:
     id: 542520
+Lost in the Roots:
+  steam:
+    id: 2872240
 Lost in the Tomb:
   installDir:
     Lost in the tomb: {}
@@ -764749,6 +764796,15 @@ ToledoVR:
     ToledoVR: {}
   steam:
     id: 557460
+Toll Booth Simulator:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3944120
+      - 4506650
+  steam:
+    id: 3896300
 Toltec and the mysteries of the Secret Island:
   installDir:
     TOLTEC AND THE MYSTERIES OF THE SECRET ISLAND: {}

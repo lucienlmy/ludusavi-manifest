@@ -569653,6 +569653,17 @@
         oslist: windows
       executable: Ravenous_Devils.exe
       type: default
+1616110:
+  installDir: GlitchBusters
+  launch:
+    - config:
+        oslist: windows
+      executable: GlitchBusters.exe
+  nameLocalized:
+    french: "Anti-bug : Ça vous colle à la peau"
+    german: "Glitch-Jäger: Magnetisches Chaos"
+    japanese: グリッチバスターズ：スタックオンユー
+    schinese: 病毒特攻队
 1616210:
   installDir: Mystery of Camp Enigma
   launch:
@@ -628825,6 +628836,21 @@
         osarch: "32"
       description: Play Polda
       executable: Polda132.exe
+2763670:
+  installDir: ArcticEggs
+  launch:
+    - config:
+        oslist: windows
+      executable: game.exe
+    - config:
+        oslist: linux
+      executable: game.x86_64
+    - config:
+        oslist: macos
+      executable: Arctic Eggs.app/Contents/MacOS/Arctic Eggs
+      workingdir: Arctic Eggs.app/Contents/MacOS
+  nameLocalized:
+    schinese: 极地煎蛋
 2764370:
   installDir: StarWings
   launch:
@@ -630950,6 +630976,7 @@
   nameLocalized:
     schinese: 鼠鼠餐厅
 2871520: {}
+2872240: {}
 2873080:
   cloud:
     saves:
@@ -639610,6 +639637,12 @@
   installDir: Fill Up The Hole
   launch:
     - executable: Fill Up The Hole.exe
+3346520:
+  installDir: DansLAbimeDuReve
+  launch:
+    - executable: DansLAbimeDuReve.exe
+  nameLocalized:
+    french: "Dans l'abîme du rêve"
 3347310:
   installDir: "Let's Build Wonders Galaxy"
   launch:
@@ -645021,6 +645054,12 @@
         oslist: windows
       executable: IntLD.exe
       type: default
+3896300:
+  nameLocalized:
+    japanese: Toll Booth Simulator | 料金所シミュレーター
+    koreana: Toll Booth Simulator | 톨 부스 시뮬레이터
+    schinese: Toll Booth Simulator | 收费站模拟器
+    turkish: Toll Booth Simulator | Gişe Simülatörü
 3896860:
   cloud:
     saves:
