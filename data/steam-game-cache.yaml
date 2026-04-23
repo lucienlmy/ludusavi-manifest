@@ -34795,7 +34795,7 @@
       executable: Binaries/Linux/RocketLeague
       type: default
     - config:
-        betakey: "devqa,qa-test,qa-cert,qa-staging,enzyme"
+        betakey: "devqa,qa-test,qa-cert,qa-staging,enzyme,playtests,enzyme2"
         oslist: windows
       description: with EAC
       executable: Binaries/Win64/RocketLeague_EAC.exe
@@ -460599,7 +460599,95 @@
   launch:
     - executable: Skully Pinball.exe
       type: none
-1059220: {}
+1059220:
+  cloud:
+    saves:
+      - path: "XV83\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: "XV83\\Saved\\Config\\Windows"
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: "'83"
+  launch:
+    - arguments: "-STEAM_BRANCH=production"
+      config:
+        betakey: Default
+        osarch: "64"
+        oslist: windows
+      executable: XV83.exe
+      type: default
+    - arguments: "-STEAM_BRANCH=daily"
+      config:
+        betakey: "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5"
+        osarch: "64"
+        oslist: windows
+      description: Development build for extra debugging and dev tools
+      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
+    - arguments: "-STEAM_BRANCH=daily"
+      config:
+        betakey: "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5"
+        osarch: "64"
+        oslist: windows
+      description: Test build config
+      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
+    - arguments: "-STEAM_BRANCH=smoke-test"
+      config:
+        betakey: 83-smoke-shipping
+        osarch: "64"
+        oslist: windows
+      executable: XV83.exe
+      type: default
+    - arguments: "-STEAM_BRANCH=daily"
+      config:
+        betakey: "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5"
+        osarch: "64"
+      description: Launch with the daily servers
+      executable: XV83.exe
+      type: default
+    - arguments: "-STEAM_BRANCH=daily-test"
+      config:
+        betakey: "qa-dev, 83-qa_adhoc"
+        osarch: "64"
+        oslist: windows
+      description: Launch with the fqa servers
+      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
+      type: default
+    - arguments: "-STEAM_BRANCH=daily-test"
+      config:
+        betakey: "83-daily-test, 83-daily-dev"
+        osarch: "64"
+        oslist: windows
+      description: Test Config (Default Option)
+      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
+      type: default
+    - arguments: "-STEAM_BRANCH=daily-test"
+      config:
+        betakey: "83-daily-test, 83-daily-dev"
+        osarch: "64"
+        oslist: windows
+      description: Development build for extra debugging and dev tools
+      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
+    - arguments: "-STEAM_BRANCH=daily-test -trace=default,gpu,net,slate -host=localhost -statnamedevents   "
+      config:
+        betakey: "83-daily-test, 83-daily-dev"
+        osarch: "64"
+        oslist: windows
+      description: with traces
+      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
+      type: option1
+    - arguments: "-STEAM_BRANCH=steam-review"
+      config:
+        betakey: 83-default
+        osarch: "64"
+        oslist: windows
+      executable: XV83.exe
+      type: default
 1059230:
   installDir: When I Was Young
   launch:
@@ -619535,6 +619623,21 @@
   nameLocalized:
     schinese: 惊悚故事：异世迷境
     tchinese: 驚悚故事：異世迷境
+2476490:
+  cloud:
+    saves:
+      - path: Isekai Rondo_Data/save
+        pattern: "*"
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Isekai Rondo
+  launch:
+    - config:
+        oslist: windows
+      executable: Isekai Rondo.exe
+  nameLocalized:
+    japanese: 異世界輪舞 ～御社も異世界もブラックなのでここから先はホワイトライフを目指します！～
 2477090:
   cloud:
     saves:
@@ -640884,6 +640987,7 @@
         oslist: windows
       executable: CheatersCheetah.exe
 3440070: {}
+3440200: {}
 3444480:
   cloud:
     saves:
@@ -644199,6 +644303,28 @@
     schinese: 超级枪弹辩驳２×２
     tchinese: 超級槍彈辯駁２×２
 3751260: {}
+3751950:
+  nameLocalized:
+    brazilian: "Assassin's Creed Black Flag Resynced"
+    danish: "Assassin's Creed Black Flag Resynced"
+    dutch: "Assassin's Creed Black Flag Resynced"
+    finnish: "Assassin's Creed Black Flag Resynced"
+    french: "Assassin's Creed Black Flag Resynced"
+    german: "Assassin's Creed Black Flag Resynced"
+    italian: "Assassin's Creed Black Flag Resynced"
+    japanese: "アサシン クリード ブラック フラッグ RE:シンクロ"
+    koreana: 어쌔신 크리드 블랙 플래그 리싱크드
+    norwegian: "Assassin's Creed Black Flag Resynced"
+    polish: "Assassin's Creed Black Flag Resynced"
+    portuguese: "Assassin's Creed Black Flag Resynced"
+    russian: "Assassin's Creed Black Flag Resynced"
+    schinese: 刺客信条：黑旗 记忆重置
+    spanish: "Assassin's Creed Black Flag Resynced"
+    swedish: "Assassin's Creed Black Flag Resynced"
+    tchinese: 刺客教條：黑旗 同步重置
+    thai: "Assassin's Creed Black Flag Resynced"
+    turkish: "Assassin's Creed Black Flag Resynced"
+    ukrainian: "Assassin's Creed Black Flag Resynced"
 3755670:
   installDir: Car Dealer Life Simulator
   launch:
@@ -644866,6 +644992,7 @@
         oslist: macos
       executable: "Glass Masquerade 4.app\\Contents\\MacOS\\Glass Masquerade 4"
       type: default
+3849000: {}
 3849030: {}
 3853780:
   installDir: Just Grandma and Me

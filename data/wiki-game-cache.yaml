@@ -16698,6 +16698,9 @@ Assassin 2015:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Assassin's Creed Valhalla\\ACValhalla.ini}}"
     - "{{Game data/saves|Windows|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\13504\\}}"
     - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\7013\\}}"
+"Assassin's Creed: Black Flag Resynced":
+  pageId: 215896
+  steam: 3751950
 "Assassin's Creed: Brotherhood":
   lutris: assassins-creed-brotherhood
   pageId: 222
@@ -71516,7 +71519,8 @@ EA Sports WRC:
   steam: 1849250
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\WRC\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1849250\\remote\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1849250\\remote\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\WRC\\Savegame\\}}"
 EAGLETALON vs. HORDE OF THE FLIES:
   pageId: 156104
   steam: 1150900
@@ -118142,6 +118146,14 @@ Isekai Quest:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Ginkgo\\ISEKAI QUEST\\config|{{p|hkcu}}\\Software\\Studio Ginkgo\\ISEKAI QUEST\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Ginkgo\\ISEKAI QUEST\\*.sav}}"
+Isekai Rondo:
+  cloud:
+    steam: true
+  pageId: 215889
+  steam: 2476490
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Isekai Rondo_Data\\save\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Isekai Rondo_Data\\save\\}}"
 "Ishar 2: Messengers of Doom":
   cloud:
     gog: true
@@ -158195,6 +158207,7 @@ Nocturnal:
     - 2459730
     - 2827700
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Sunnyside Games\\Nocturnal}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Sunnyside Games\\Nocturnal\\{{p|uid}}\\*.sav}}"
 Nocturnal 2:
   cloud:
@@ -234803,6 +234816,9 @@ The Hole Story:
   steam: 356730
   steamSide:
     - 357970
+The Holy Fool:
+  pageId: 215885
+  steam: 3440200
 The Holy Gosh Darn:
   cloud:
     steam: true
@@ -236095,6 +236111,9 @@ The Language of Love:
   steam: 1027620
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\RenPy\\lovelanguage-1539706983\\*|{{p|game}}\\game\\saves\\*}}"
+The Lantern of the Laughless Saint:
+  pageId: 215884
+  steam: 3849000
 The Lar:
   pageId: 136838
   steam: 1084570
@@ -270487,7 +270506,6 @@ Wolfenstein 3D:
     - 1847884051
     - 1982055340
   lutris: wolfenstein-ii-the-new-colossus
-  malformed: true
   pageId: 63522
   steam: 612880
   steamSide:
@@ -272144,8 +272162,8 @@ Wreckreation:
   pageId: 180741
   steam: 1594040
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\SaveGames\\*.sav}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\SaveGames\\*.sav}}"
 Wrench:
   pageId: 114134
   steam: 936720

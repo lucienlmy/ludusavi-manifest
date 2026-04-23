@@ -95,10 +95,21 @@ $1 Ride:
   steam:
     id: 508290
 "'83":
+  files:
+    "<winLocalAppData>/XV83/Saved/Config/Windows/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/XV83/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 2680660
       - 3934040
+  installDir:
+    "'83": {}
   steam:
     id: 1059220
 "'90s Football Stars":
@@ -52228,6 +52239,9 @@ Asphyxia:
     "Assassin's Creed Valhalla": {}
   steam:
     id: 2208920
+"Assassin's Creed: Black Flag Resynced":
+  steam:
+    id: 3751950
 "Assassin's Creed: Brotherhood":
   files:
     "<home>/Saved Games/Assassin's Creed Brotherhood":
@@ -222468,11 +222482,15 @@ EA Sports WRC:
       tags:
         - save
       when:
-        - os: windows
-          store: steam
+        - store: steam
     "<winLocalAppData>/WRC/Saved/Config/WindowsNoEditor":
       tags:
         - config
+      when:
+        - os: windows
+    "<winLocalAppData>/WRC/Savegame":
+      tags:
+        - save
       when:
         - os: windows
   installDir:
@@ -366213,6 +366231,25 @@ Isekai Quest:
         - config
   steam:
     id: 1268110
+Isekai Rondo:
+  cloud:
+    steam: true
+  files:
+    "<base>/Isekai Rondo_Data/save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Isekai Rondo: {}
+  launch:
+    "<base>/Isekai Rondo.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2476490
 "Ishar 2: Messengers of Doom":
   cloud:
     gog: true
@@ -488418,6 +488455,10 @@ Nocturnal:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Sunnyside Games/Nocturnal:
+      tags:
+        - config
   steam:
     id: 1634080
 Nocturnal 2:
@@ -726427,6 +726468,9 @@ The Hole Story:
             store: steam
   steam:
     id: 356730
+The Holy Fool:
+  steam:
+    id: 3440200
 The Holy Gosh Darn:
   cloud:
     steam: true
@@ -730311,6 +730355,9 @@ The Language of Love:
             store: steam
   steam:
     id: 1027620
+The Lantern of the Laughless Saint:
+  steam:
+    id: 3849000
 The Lar:
   files:
     "<base>/CH/Saves/**/*.rvdata2":
