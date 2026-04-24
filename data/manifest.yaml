@@ -202005,6 +202005,7 @@ Dome Keeper:
       - 2150000
       - 2152440
       - 2380060
+      - 4331610
   installDir:
     Dome Keeper: {}
   launch:
@@ -242812,11 +242813,6 @@ Ever Forward:
   cloud:
     gog: true
     steam: true
-  files:
-    "<home>/AppData/LocalLow/Pathea Games/EverForward/<storeUserId>/SavedGame":
-      when:
-        - os: windows
-          store: steam
   gog:
     id: 1314559542
   id:
@@ -242826,13 +242822,6 @@ Ever Forward:
       - 1277270
       - 1325290
       - 1382760
-  installDir:
-    Ever Forward: {}
-  launch:
-    "<base>/EverForward.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 1220370
 EverHero:
@@ -332126,6 +332115,47 @@ Heroes of Scene:
             store: steam
   steam:
     id: 356130
+Heroes of Science and Fiction:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/.config/unity3d/Oxymoron Games/Silence of the Siren/Autosaves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Oxymoron Games/Silence of the Siren/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Oxymoron Games/Silence of the Siren/Autosaves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Oxymoron Games/Silence of the Siren/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1765610130
+  installDir:
+    Silence of the Siren: {}
+  launch:
+    "<base>/Silence of the Siren.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/silence_of_the_siren.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2147380
 Heroes of Shadow Guard:
   installDir:
     Heroes of Shadow Guard: {}
@@ -438878,6 +438908,7 @@ Mega Man Star Force Legacy Collection:
   id:
     steamExtra:
       - 4059840
+      - 4059850
       - 4059860
   installDir:
     MegaMan StarForce LegacyCollection: {}
@@ -523510,9 +523541,14 @@ Philosophic Love:
   cloud:
     steam: true
   files:
-    Documents/PIPE Studio/Phineas and Ferb/SAVES:
+    "<winDocuments>/PIPE Studio/Phineas and Ferb/SAVES":
       tags:
         - save
+      when:
+        - os: windows
+    "<winDocuments>/PIPE Studio/Phineas and Ferb/SAVES/settings.sav":
+      tags:
+        - config
       when:
         - os: windows
   installDir:
@@ -678107,6 +678143,25 @@ Sudden Strike 4:
 Sudden Strike 5:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Kite Games/Sudden Strike 5/SaveData/Steam/<storeUserId>/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4108030
+      - 4108050
+  installDir:
+    Sudden Strike 5: {}
+  launch:
+    "<base>/Sudden Strike 5.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2808550
 Sudeki:
@@ -818162,6 +818217,7 @@ Wartales:
       - 1456073153
       - 1578807127
       - 1932034254
+      - 2014657972
       - 2063684829
       - 2128545249
     steamExtra:
@@ -818173,6 +818229,7 @@ Wartales:
       - 3559560
       - 3899740
       - 4165520
+      - 4490120
   installDir:
     Wartales: {}
   launch:
@@ -828361,7 +828418,7 @@ Windrose:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/R5/Saved/SaveProfiles/{your_Steam_ID}/RocksDB":
+    "<winLocalAppData>/R5/Saved/SaveProfiles/<storeUserId>/RocksDB":
       tags:
         - save
       when:
@@ -847385,6 +847442,8 @@ Zenless Zone Zero:
     HKEY_CURRENT_USER/Software/miHoYo/ZenlessZoneZero:
       tags:
         - config
+  steam:
+    id: 4162040
 Zeno Clash:
   cloud:
     steam: true

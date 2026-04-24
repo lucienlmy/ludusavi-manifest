@@ -3733,10 +3733,11 @@
       executable: "2KLauncher\\LauncherPatcher.exe"
       workingdir: "Binaries\\Win32"
     - config:
-        betakey: proton_test
+        betakey: "proton_test,qatest2"
         oslist: linux
       description: Windows Executable Test
       executable: "Binaries\\Win32\\BioShockInfinite.exe"
+      type: default
   nameLocalized:
     japanese: バイオショック インフィニット　コンプリート・エディション
     koreana: "바이오쇼크 인피니트: 컴플리트 에디션"
@@ -52326,6 +52327,15 @@
         oslist: macos
       description: MacOS
       executable: kingsbounty.app
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
+  nameLocalized:
+    schinese: 国王的恩赐：黑暗之路
 289580:
   installDir: Aggression - Reign Over Europe
   launch:
@@ -530756,21 +530766,8 @@
       type: default
 1220360: {}
 1220370:
-  cloud:
-    saves:
-      - path: "Pathea Games/EverForward/{64BitSteamID}"
-        pattern: SavedGame
-        platforms:
-          - Windows
-        root: WinAppDataLocalLow
-  installDir: Ever Forward
-  launch:
-    - config:
-        oslist: windows
-      executable: EverForward.exe
-      type: none
   nameLocalized:
-    sc_schinese: 永进
+    schinese: 永进
 1220410:
   nameLocalized:
     japanese: 葉の海
@@ -605050,6 +605047,32 @@
     schinese: 我委托了一些蜜蜂7
     spanish: Mi gran comisión de abejas 7
     swedish: Jag anlitade några bin 7
+2147380:
+  cloud:
+    saves:
+      - path: Oxymoron Games/Silence of the Siren/Saves
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: Oxymoron Games/Silence of the Siren/Autosaves
+        pattern: VICTORY*
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Silence of the Siren
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Silence of the Siren.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: silence_of_the_siren.x86_64
+      type: default
 2149010:
   cloud:
     saves:
@@ -630053,7 +630076,20 @@
     english: Battlefield™ 6
     schinese: 战地风云™ 6
     tchinese: 戰地風雲™ 6
-2808550: {}
+2808550:
+  cloud:
+    saves:
+      - path: "Kite Games/Sudden Strike 5/SaveData/Steam/{64BitSteamID}"
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Sudden Strike 5
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Sudden Strike 5.exe
+      type: default
 2808560:
   cloud:
     saves:
@@ -646304,6 +646340,13 @@
   launch:
     - executable: Geri.exe
 4160590: {}
+4162040:
+  nameLocalized:
+    english: Zenless Zone Zero
+    japanese: ゼンレスゾーンゼロ
+    koreana: 젠레스 존 제로
+    schinese: 绝区零
+    tchinese: 絕區零
 4162690: {}
 4164420:
   cloud:

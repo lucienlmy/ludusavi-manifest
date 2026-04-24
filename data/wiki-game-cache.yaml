@@ -64948,6 +64948,7 @@ Dome Keeper:
     - 2150000
     - 2152440
     - 2380060
+    - 4331610
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Dome Keeper\\options.txt}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/godot/app_userdata/Dome Keeper/options.txt}}"
@@ -76547,7 +76548,6 @@ Escape Code - Coding Adventure:
   pageId: 92863
   steam: 842350
 Escape Dead Island:
-  state: outdated
   cloud:
     steam: true
   lutris: escape-dead-island
@@ -107269,6 +107269,16 @@ Heroes of Pure Land:
 Heroes of Scene:
   pageId: 46701
   steam: 356130
+Heroes of Science and Fiction:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1765610130
+  pageId: 215933
+  steam: 2147380
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Oxymoron Games\\Silence of the Siren\\Saves\\|{{p|userprofile\\appdata\\locallow}}\\Oxymoron Games\\Silence of the Siren\\Autosaves\\}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Oxymoron Games/Silence of the Siren/Saves|{{p|linuxhome}}/.config/unity3d/Oxymoron Games/Silence of the Siren/Autosaves}}"
 Heroes of Shadow Guard:
   pageId: 41862
   steam: 438720
@@ -141757,6 +141767,7 @@ Mega Man Star Force Legacy Collection:
   steam: 3500390
   steamSide:
     - 4059840
+    - 4059850
     - 4059860
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3500390\\remote\\win64_save\\data001Slot.bin}}"
@@ -169771,10 +169782,12 @@ Philosophic Love:
 "Phineas and Ferb: New Inventions":
   cloud:
     steam: true
+  malformed: true
   pageId: 48629
   steam: 318300
   templates:
-    - "{{Game data/saves|Windows|Documents\\PIPE Studio\\Phineas and Ferb\\SAVES}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Documents\\PIPE Studio\\Phineas and Ferb\\SAVES\\settings.sav}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\PIPE Studio\\Phineas and Ferb\\SAVES}}"
 Phlyndir:
   pageId: 144369
   steam: 448990
@@ -219531,6 +219544,11 @@ Sudden Strike 5:
     steam: true
   pageId: 206232
   steam: 2808550
+  steamSide:
+    - 4108030
+    - 4108050
+  templates:
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Kite Games\\Sudden Strike 5\\SaveData\\Steam\\{{p|uid}}\\*.save}}"
 Sudeki:
   cloud:
     steam: true
@@ -266051,6 +266069,7 @@ Wartales:
     - 1456073153
     - 1578807127
     - 1932034254
+    - 2014657972
     - 2063684829
     - 2128545249
   pageId: 186505
@@ -266064,6 +266083,7 @@ Wartales:
     - 3559560
     - 3899740
     - 4165520
+    - 4490120
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\7286ShiroGamesSAS.Wartales_esjzrp5ntrs52\\SystemAppData\\wgs\\{{P|uid}}}}"
@@ -269280,7 +269300,7 @@ Windrose:
     - 4564200
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\R5\\Saved\\Config\\Windows}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\R5\\Saved\\SaveProfiles\\{your_Steam_ID}\\RocksDB}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\R5\\Saved\\SaveProfiles\\{{P|uid}}\\RocksDB\\}}"
 Winds of Change:
   cloud:
     steam: true
@@ -275542,6 +275562,7 @@ Zenkat:
 Zenless Zone Zero:
   lutris: zenless-zone-zero
   pageId: 192246
+  steam: 4162040
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\miHoYo\\ZenlessZoneZero}}"
 Zeno Clash:
