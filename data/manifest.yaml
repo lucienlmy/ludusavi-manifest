@@ -6437,6 +6437,11 @@ $1 Ride:
           - store: steam
   steam:
     id: 1143420
+70s-Style Robot Anime Geppy-X:
+  id:
+    lutris: 70-s-robot-anime-geppy-x
+  steam:
+    id: 4120310
 "7554: Glorious Memories Revived":
   files:
     "<base>/SaveGames":
@@ -16513,6 +16518,11 @@ Absolute Drift:
       when:
         - os: windows
           store: gog
+    "<root>/userdata/<storeUserId>/320140":
+      tags:
+        - save
+      when:
+        - store: steam
     "<xdgData>/Steam/userdata/<storeUserId>/320140":
       tags:
         - save
@@ -46998,6 +47008,11 @@ Arizona Sunshine:
         - save
       when:
         - os: windows
+    "<root>/userdata/<storeUserId>/342180":
+      tags:
+        - save
+      when:
+        - store: steam
   installDir:
     ArizonaSunshine: {}
   steam:
@@ -116811,6 +116826,11 @@ Carmageddon TDR 2000:
   cloud:
     steam: true
   files:
+    "<root>/userdata/<storeUserId>/249380":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winDocuments>/Carmageddon Reincarnation/savegames":
       tags:
         - save
@@ -121297,10 +121317,22 @@ Causal Loop:
   cloud:
     gog: true
     steam: true
+  files:
+    "<winLocalAppData>/CL_Prototype/**/*.sav":
+      when:
+        - store: steam
   gog:
     id: 2008721818
   id:
     lutris: causal-loop
+    steamExtra:
+      - 3921450
+  installDir:
+    Causal Loop: {}
+  launch:
+    "<base>/CausalLoop.exe":
+      - when:
+          - store: steam
   steam:
     id: 3374460
 Causality:
@@ -169487,6 +169519,11 @@ Dangerous Golf:
   cloud:
     steam: true
   files:
+    "<root>/userdata/<storeUserId>/405500":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winLocalAppData>/Orlando/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -183681,6 +183718,13 @@ Deep Rock Galactic:
             store: steam
   steam:
     id: 548430
+"Deep Rock Galactic: Rogue Core":
+  id:
+    lutris: deep-rock-galactic-rogue-core
+    steamExtra:
+      - 2860770
+  steam:
+    id: 2605790
 "Deep Rock Galactic: Survivor":
   cloud:
     steam: true
@@ -183696,6 +183740,14 @@ Deep Rock Galactic:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: deep-rock-galactic-survivor
+    steamExtra:
+      - 2437880
+      - 2452430
+      - 2782850
+      - 3818560
+      - 4395500
   installDir:
     Deep Rock Survivor: {}
   launch:
@@ -204158,6 +204210,11 @@ Doom + Doom II:
         - save
       when:
         - os: windows
+    "<root>/userdata/<root>/2280":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1317223010
   id:
@@ -209728,6 +209785,12 @@ DrainLive:
   steam:
     id: 1092150
 DrainSim:
+  files:
+    "<home>/AppData/Local/DrainSim/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: drainsim
     steamExtra:
@@ -312964,6 +313027,12 @@ Gunman Clive 2:
   steam:
     id: 394550
 Gunman Taco Truck:
+  files:
+    "<winAppData>/Romero Games Ltd/Gunman Taco Truck/Documents":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Gunman Taco Truck: {}
   launch:
@@ -382904,6 +382973,13 @@ Kilmonger:
     steam: true
   steam:
     id: 678680
+Kiln:
+  cloud:
+    steam: true
+  installDir:
+    Kiln: {}
+  steam:
+    id: 1165990
 Kim:
   cloud:
     steam: true
@@ -390441,6 +390517,12 @@ Kristala:
           store: steam
   id:
     lutris: kristala
+    steamExtra:
+      - 2493530
+      - 4602520
+      - 4602530
+      - 4602540
+      - 4602550
   installDir:
     Kristala: {}
   launch:
@@ -409862,8 +409944,22 @@ Little Nightmares III:
 "Little Nightmares VR: Altered Echoes":
   cloud:
     steam: true
+  files:
+    "<home>/.config/com/Iconik/Little Nightmares VR":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Iconik/Little Nightmares VR":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Iconik/Little Nightmares VR":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: little-nightmares-vr-altered-echoes
+  installDir:
+    LittleNightmaresVRAlteredEchoes: {}
   steam:
     id: 2482940
 "Little Noah: Scion of Paradise":
@@ -476193,11 +476289,6 @@ NecroVisioN:
     id: 1489253805
   installDir:
     NecrovisioN Lost Company: {}
-  launch:
-    "<base>/Bin/NecroVisioN.exe":
-      - when:
-          - store: steam
-        workingDir: "<base>/Bin"
   steam:
     id: 46250
 Necroarmy:

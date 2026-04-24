@@ -1990,6 +1990,10 @@ $1 Ride:
 70 Seconds! Adventure:
   pageId: 144419
   steam: 1143420
+70s-Style Robot Anime Geppy-X:
+  lutris: 70-s-robot-anime-geppy-x
+  pageId: 215906
+  steam: 4120310
 "7554: Glorious Memories Revived":
   pageId: 162011
   templates:
@@ -5129,10 +5133,11 @@ Absolute Drift:
   steam: 320140
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Funselektor Labs Inc.\\Absolute Drift\\}}"
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Funselektor Labs Inc.\\Absolute Drift\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\AppData\\LocalLow\\Funselektor Labs Inc_\\Absolute Drift\\EOS_cloud}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile}}\\AppData\\LocalLow\\Funselektor Labs Inc_\\Absolute Drift\\GOG_cloud}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Steam/userdata/{{P|uid}}/320140}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{P|uid}}\\320140}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Funselektor Labs Inc.\\Absolute Drift\\}}"
 Absolute Fall:
   pageId: 138752
   steam: 1091670
@@ -15008,6 +15013,7 @@ Arizona Sunshine:
   pageId: 39470
   steam: 342180
   templates:
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\342180}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Vertigo Games\\ArizonaSunshine}}"
 Arizona Sunshine 2:
   pageId: 198553
@@ -37562,6 +37568,7 @@ Carmageddon TDR 2000:
   pageId: 16273
   steam: 249380
   templates:
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\249380}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Carmageddon Reincarnation\\savegames}}"
 "Carmageddon: Rogue Shift":
   cloud:
@@ -39050,6 +39057,8 @@ Causal Loop:
   lutris: causal-loop
   pageId: 203416
   steam: 3374460
+  steamSide:
+    - 3921450
 Causality:
   cloud:
     steam: true
@@ -54398,6 +54407,7 @@ Dangerous Golf:
   steam: 405500
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Orlando\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\405500}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Orlando\\Saved\\SaveGames}}"
 Dangerous Ground:
   pageId: 120816
@@ -58979,12 +58989,25 @@ Deep Rock Galactic:
     - "{{Game data/config|Microsoft Store|{{p|game}}\\FSD\\Saved\\Config\\WinGDK\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\FSD\\Saved\\SaveGames\\*.sav}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\CoffeeStainStudios.DeepRockGalactic_496a1srhmar9w\\SystemAppData\\wgs\\[long alphanumeric sequence folder]\\[long alphanumeric sequence folder]\\[long alphanumeric sequence file]</br>{{ii}} This file is actually an unnamed .sav file and can be used with Steam as well.}}"
+"Deep Rock Galactic: Rogue Core":
+  lutris: deep-rock-galactic-rogue-core
+  pageId: 215907
+  steam: 2605790
+  steamSide:
+    - 2860770
 "Deep Rock Galactic: Survivor":
   cloud:
     steam: true
     xbox: true
+  lutris: deep-rock-galactic-survivor
   pageId: 193196
   steam: 2321470
+  steamSide:
+    - 2437880
+    - 2452430
+    - 2782850
+    - 3818560
+    - 4395500
   templates:
     - "{{Game data/config|Windows|{{p|HKEY_CURRENT_USER}}\\SOFTWARE\\Funday Games\\DRG Survivor}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Funday Games\\DRG Survivor}}"
@@ -65597,6 +65620,7 @@ Doom + Doom II:
   steam: 2280
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\DOOM\\kexengine.cfg}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|steam}}\\2280}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\DOOM\\saves\\*.sav}}"
 Doom 3:
   cloud:
@@ -67454,6 +67478,8 @@ DrainSim:
   steamSide:
     - 4075050
     - 4188470
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\Local\\DrainSim\\Saved\\SaveGames}}"
 Drains:
   pageId: 195782
 Drainus:
@@ -101040,6 +101066,8 @@ Gunman Clive 2:
 Gunman Taco Truck:
   pageId: 57200
   steam: 586310
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Romero Games Ltd\\Gunman Taco Truck\\Documents}}"
 Gunman Tales:
   pageId: 95065
   steam: 760320
@@ -105514,10 +105542,10 @@ Helldivers:
   pageId: 30063
   steam: 394510
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Arrowhead\\Helldivers\\}}"
-    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\394510\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Arrowhead\\Helldivers\\saves}}"
-    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\394510\\}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Arrowhead\\Helldivers}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\394510}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Arrowhead\\Helldivers\\saves}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\394510}}"
 Helldivers 2:
   cloud:
     steam: true
@@ -123626,6 +123654,11 @@ Kilmonger:
     steam: true
   pageId: 66460
   steam: 678680
+Kiln:
+  cloud:
+    steam: true
+  pageId: 215902
+  steam: 1165990
 Kim:
   cloud:
     steam: true
@@ -126116,6 +126149,12 @@ Kristala:
   lutris: kristala
   pageId: 203139
   steam: 1206410
+  steamSide:
+    - 2493530
+    - 4602520
+    - 4602530
+    - 4602540
+    - 4602550
 Kritika Online:
   pageId: 72230
   steam: 439350
@@ -229089,6 +229128,8 @@ The 7th Guest:
     - "{{Game data/saves|DOS|{{p|game}}\\t7g.*}}"
     - "{{Game data/saves|Windows|{{p|game}}\\t7g.*}}"
 The 7th Guest Remake:
+  cloud:
+    xbox: true
   gog: 1457196421
   lutris: the-7th-guest-remake
   pageId: 214606

@@ -10766,7 +10766,9 @@
         root: gameinstall
   installDir: NecrovisioN Lost Company
   launch:
-    - executable: "Bin\\NecroVisioN.exe"
+    - description: Launcher
+      executable: "Bin\\launcher.exe"
+      type: option1
       workingdir: Bin
 46260:
   cloud:
@@ -510619,6 +510621,38 @@
         oslist: macos
       executable: LivesSoSweet.app
       type: default
+1165990:
+  installDir: Kiln
+  launch:
+    - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Test"
+      config:
+        betakey: latest
+      description: Latest
+      executable: KilnGDKBootstrap.exe
+      type: option1
+    - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Shipping"
+      config:
+        betakey: release
+      description: Release
+      executable: KilnGDKBootstrap.exe
+      type: option1
+    - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Test -ServerAlias=021b2d19-4962-4c59-baf8-9e5156bedac6 -LobbyAlias=0a0de078-2d4b-4f2c-a69b-b24a9714ee3e"
+      config:
+        betakey: combat
+      description: Combat
+      executable: KilnGDKBootstrap.exe
+      type: option1
+    - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Shipping"
+      config:
+        betakey: public
+      executable: KilnGDKBootstrap.exe
+      type: default
+    - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Test -ServerAlias=b9f16f54-b681-4b73-91b1-681eba784801 -LobbyAlias=8035ef77-218d-4f33-acd7-a5665215822c"
+      config:
+        betakey: external_playtest
+      description: Playtest
+      executable: KilnGDKBootstrap.exe
+      type: option1
 1166000:
   installDir: Battleships and Carriers - Pacific War
   launch:
@@ -619959,6 +619993,31 @@
       executable: RethinkLite.exe
       type: default
 2482940:
+  cloud:
+    saves:
+      - path: Iconik/Little Nightmares VR
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Iconik/LittleNightmaresVR
+            replace: com.Iconik.LittleNightmaresVR
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Iconik/Little Nightmares VR
+            replace: ".config/com/Iconik/Little Nightmares VR"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: LittleNightmaresVRAlteredEchoes
+  launch:
+    - arguments: "--socialPlatform=steam"
+      executable: Little Nightmares VR.exe
+      type: openxr
   nameLocalized:
     japanese: リトルナイトメア VR Altered Echoes
     koreana: "리틀 나이트메어 VR: 왜곡된 메아리"
@@ -623989,6 +624048,9 @@
         osarch: "64"
       executable: Space Drop.exe
       type: openxr
+2605790:
+  nameLocalized:
+    schinese: 深岩银河：异动核心
 2608050:
   cloud:
     saves:
@@ -632941,6 +633003,22 @@
       executable: Sapo 3D.app/Contents/MacOS/Sapo 3D
       type: default
 2963800:
+  cloud:
+    saves:
+      - path: DrainSim/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: DrainSim/Saved/SaveGames
+        pattern: "*.exr"
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: DrainSim/Saved/SaveGames
+            replace: ".local/share/Steam/steamapps/compatdata/2963800/pfx/drive_c/users/steamuser/AppData/Local/DrainSim/Saved/SaveGames/"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
   installDir: DrainSim
   launch:
     - arguments: "-d3d12"
@@ -640254,7 +640332,17 @@
   installDir: Dice People
   launch:
     - executable: dicepeople.exe
-3374460: {}
+3374460:
+  cloud:
+    saves:
+      - path: CL_Prototype
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Causal Loop
+  launch:
+    - executable: CausalLoop.exe
+      type: default
 3375780:
   cloud:
     saves:
@@ -646093,6 +646181,16 @@
   nameLocalized:
     schinese: 影之刃零
     tchinese: 影之刃零
+4120310:
+  nameLocalized:
+    english: 70s-style Robot Anime Geppy-X
+    french: "Geppy-X, robot animé style années 70"
+    german: Roboter-Anime „Geppy-X“ im Stil der 70er
+    italian: 70s-style Robot Anime Geppy-X
+    koreana: 70년대풍 로봇 만화 영화 겟피-X
+    schinese: 70年代风格机器人动画 杰比-X
+    spanish: "Geppy-X, anime de robots setentero"
+    tchinese: 70年代風格機器人動畫《蓋比X》
 4120860: {}
 4122860:
   installDir: Z.A.T.O.  I Love the World and Everything In It
