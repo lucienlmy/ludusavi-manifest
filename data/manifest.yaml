@@ -7006,6 +7006,17 @@ $1 Ride:
             store: steam
   steam:
     id: 487040
+8AM:
+  id:
+    lutris: 8am
+  installDir:
+    8AM: {}
+  launch:
+    "<base>/am.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2835590
 8Bit Fiesta:
   files:
     "<base>/SavesDir/*.sav":
@@ -142739,11 +142750,6 @@ Comanche 4:
           - store: steam
   steam:
     id: 32750
-Comatose:
-  cloud:
-    steam: true
-  steam:
-    id: 3301370
 Combat Air Patrol 2:
   installDir:
     Combat Air Patrol 2: {}
@@ -177845,35 +177851,6 @@ Dead Rising 2:
           - store: steam
   steam:
     id: 45770
-Dead Rising 3:
-  cloud:
-    steam: true
-  files:
-    "<winDocuments>/My Games/Dead Rising 3":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winDocuments>/My Games/Dead Rising 3/saves":
-      tags:
-        - save
-      when:
-        - os: windows
-  id:
-    lutris: dead-rising-3
-    steamExtra:
-      - 274110
-      - 274111
-      - 274112
-      - 278140
-  installDir:
-    deadrising3: {}
-  launch:
-    "<base>/deadrising3.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 265550
 Dead Rising 4:
   cloud:
     steam: true
@@ -305216,28 +305193,6 @@ Grand Theft Auto V:
             store: steam
   steam:
     id: 271590
-Grand Theft Auto V Enhanced:
-  files:
-    "<winDocuments>/Rockstar Games/GTAV Enhanced/Profiles/<storeUserId>":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winDocuments>/Rockstar Games/GTAV Enhanced/settings.xml":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    Grand Theft Auto V Enhanced: {}
-  launch:
-    "<base>/PlayGTAV.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 3240220
 "Grand Theft Auto: Episodes from Liberty City":
   files:
     "<winLocalAppData>/Rockstar Games/GTA IV/Settings/SETTINGS_EFLC.CFG":
@@ -345524,6 +345479,41 @@ Human-powered Spacecraft:
         - config
   steam:
     id: 687280
+HumanitZ:
+  files:
+    "<winLocalAppData>/HumanitZ/Saved/Minimap/*.exr":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/HumanitZ/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/HumanitZ/Saved/SaveGames/Minimap/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/TSSGame/Saved/**/*.exr":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/TSSGame/Saved/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/TSSGame/Saved/Config/WindowsNoEditor/**/*.ini":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    HumanitZ: {}
+  launch:
+    "<base>/HumanitZ.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1766060
 Humanity:
   cloud:
     steam: true
@@ -402182,37 +402172,6 @@ Leila:
     steam: true
   steam:
     id: 664640
-Leisure Suit Larry - Wet Dreams Dry Twice:
-  cloud:
-    gog: true
-    steam: true
-  gog:
-    id: 2147483119
-  id:
-    gogExtra:
-      - 2118773017
-    steamExtra:
-      - 1432870
-  installDir:
-    Leisure Suit Larry - Wet Dreams Dry Twice: {}
-  launch:
-    "<base>/Leisure Suit Larry - Wet Dreams Dry Twice.app/Contents/MacOS/Leisure Suit Larry - Wet Dreams Dry Twice":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/Leisure Suit Larry - Wet Dreams Dry Twice.exe":
-      - when:
-          - os: windows
-            store: steam
-  registry:
-    HKEY_CURRENT_USER/Software/Assemble Entertainment/Leisure Suit Larry - Wet Dreams Dry Twice:
-      tags:
-        - config
-    HKEY_CURRENT_USER/Software/Assemble Entertainment/Leisure Suit Larry - Wet Dreams Dry Twice/savegames:
-      tags:
-        - save
-  steam:
-    id: 1373430
 "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work":
   cloud:
     gog: true
@@ -510413,6 +510372,25 @@ PINPIN BALLBALL:
           - store: steam
   steam:
     id: 891180
+PIT OF GOBLIN:
+  files:
+    "<home>/AppData/LocalLow/Friendly Foe/Pit of Goblin/SaveFiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: pit-of-goblin
+  installDir:
+    Pit of Goblin: {}
+  launch:
+    "<base>/Pit of Goblin.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3253530
 "PJ Masks: Heroes of the Night":
   cloud:
     steam: true
@@ -526719,6 +526697,16 @@ Pirate Survival Fantasy Shooter:
             store: steam
   steam:
     id: 359370
+Pirate101:
+  installDir:
+    Pirate101: {}
+  launch:
+    "<base>/Pirate101.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 620620
 Pirates Are BLANKing Awesome:
   installDir:
     paba: {}
@@ -530093,7 +530081,7 @@ Planes Attack:
     steamExtra:
       - 613230
   installDir:
-    Project P: {}
+    Planescape Torment Enhanced Edition: {}
   launch:
     "<base>/Planescape Torment - Enhanced Edition.app":
       - when:
@@ -596887,6 +596875,16 @@ SOMA:
         - save
       when:
         - os: mac
+    "<root>/userdata/<storeUserId>/282140/remote/*.cfg":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/282140/remote/Main/*.sav":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winDocuments>/My Games/Soma/Main":
       tags:
         - config
@@ -686887,6 +686885,17 @@ Superball:
 Superbike 2000:
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/EA SPORTS/Superbike 2000:
+      tags:
+        - config
+Superbike 2001:
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/EA SPORTS/Superbike 2001:
       tags:
         - config
 Superbike World Championship:
@@ -837089,14 +837098,18 @@ Wreckreation:
   files:
     "<winLocalAppData>/Wreckreation/Saved/Config/WindowsNoEditor":
       tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Wreckreation/Saved/SaveGames/*.sav":
-      tags:
         - config
       when:
         - os: windows
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Wreckreation/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: windows
+          store: steam
   gog:
     id: 1535202607
   id:

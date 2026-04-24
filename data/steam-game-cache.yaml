@@ -164441,7 +164441,7 @@
       executable: BitShiftBattleGrid.exe
       type: default
 466300:
-  installDir: Project P
+  installDir: Planescape Torment Enhanced Edition
   launch:
     - config:
         oslist: windows
@@ -245105,6 +245105,13 @@
         betakey: macos_testing
         oslist: macos
       executable: AncestorsLegacy.app
+      type: default
+620620:
+  installDir: Pirate101
+  launch:
+    - config:
+        oslist: windows
+      executable: Pirate101.exe
       type: default
 620630:
   installDir: Civil War 1865
@@ -537603,7 +537610,7 @@
         osarch: "64"
         oslist: windows
       description: PAYDAY3
-      executable: PAYDAY3Client.exe
+      executable: PAYDAY3.exe
       type: option1
     - config:
         betakey: ue5_test
@@ -537612,26 +537619,6 @@
       description: UE5 Game version
       executable: PAYDAY3.exe
       type: option3
-    - config:
-        betakey: playtest
-        osarch: "64"
-        oslist: windows
-      description: Play Playtest
-      executable: PAYDAY3.exe
-    - config:
-        betakey: "qa_testing_3, qa_testing_2"
-        osarch: "64"
-        oslist: windows
-      description: Use this option
-      executable: PAYDAY3.exe
-      type: option1
-    - config:
-        betakey: "qa_testing_6, open_beta"
-        osarch: "64"
-        oslist: windows
-      description: Open Beta - Select this option
-      executable: PAYDAY3.exe
-      type: option1
   nameLocalized:
     schinese: "PAYDAY3 (收获日3)  "
 1272110:
@@ -581115,6 +581102,50 @@
         osarch: "64"
         oslist: windows
       executable: ADACA.exe
+      type: default
+1766060:
+  cloud:
+    saves:
+      - path: TSSGame/Saved
+        pattern: "*.exr"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: TSSGame/Saved
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: TSSGame/Saved/Config/WindowsNoEditor
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: HumanitZ/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: HumanitZ/Saved/Minimap
+        pattern: "*.exr"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: HumanitZ/Saved/SaveGames/Minimap
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: HumanitZ
+  launch:
+    - config:
+        oslist: windows
+      description: Used for the release map
+      executable: HumanitZ.exe
       type: default
 1766100:
   cloud:
@@ -630561,6 +630592,10 @@
       executable: "Buckshot Roulette_linux\\Buckshot Roulette.x86_64"
   nameLocalized:
     schinese: 恶魔轮盘
+2835590:
+  installDir: 8AM
+  launch:
+    - executable: am.exe
 2837280:
   installDir: Counterpick Labs
   launch:
@@ -638220,6 +638255,14 @@
         oslist: macos
       description: On MacOS
       executable: lf2.app
+3253530:
+  installDir: Pit of Goblin
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Pit of Goblin.exe
+      type: default
 3253630:
   cloud:
     saves:

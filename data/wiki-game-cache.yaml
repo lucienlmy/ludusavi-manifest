@@ -2177,6 +2177,10 @@ $1 Ride:
   gog: 2115164708
   pageId: 59079
   steam: 487040
+8AM:
+  lutris: 8am
+  pageId: 215914
+  steam: 2835590
 8Bit Fiesta:
   pageId: 37513
   steam: 382260
@@ -45672,11 +45676,6 @@ Comanche 4:
     - "{{Game data/saves|Windows|{{p|game}}\\c4plyr.sav}}"
 "Comanche: Maximum Overkill":
   pageId: 213419
-Comatose:
-  cloud:
-    steam: true
-  pageId: 215279
-  steam: 3301370
 Combat:
   pageId: 7781
 Combat Air Patrol 2:
@@ -57103,20 +57102,6 @@ Dead Rising 2:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Dead Rising 2 Off The Record}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Dead Rising 2 Off The Record\\saves\\}}"
-Dead Rising 3:
-  cloud:
-    steam: true
-  lutris: dead-rising-3
-  pageId: 17711
-  steam: 265550
-  steamSide:
-    - 274110
-    - 274111
-    - 274112
-    - 278140
-  templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Dead Rising 3\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Dead Rising 3\\saves\\}}"
 Dead Rising 4:
   cloud:
     steam: true
@@ -76562,6 +76547,7 @@ Escape Code - Coding Adventure:
   pageId: 92863
   steam: 842350
 Escape Dead Island:
+  state: outdated
   cloud:
     steam: true
   lutris: escape-dead-island
@@ -98457,12 +98443,6 @@ Grand Theft Auto V:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTA V\\settings.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTA V\\Profiles\\{{P|uid}}|{{P|programdata}}\\Socialclub\\Player\\}}"
-Grand Theft Auto V Enhanced:
-  pageId: 201889
-  steam: 3240220
-  templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTAV Enhanced\\settings.xml}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTAV Enhanced\\Profiles\\{{P|uid}}}}"
 Grand Theft Auto VI:
   pageId: 212191
 "Grand Theft Auto: Chinatown Wars":
@@ -111601,6 +111581,7 @@ Human-powered Spacecraft:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\DarkPolygon\\HumanKind\\}}"
 HumanitZ:
   pageId: 214770
+  steam: 1766060
 Humanity:
   cloud:
     steam: true
@@ -123657,6 +123638,7 @@ Kilmonger:
 Kiln:
   cloud:
     steam: true
+    xbox: true
   pageId: 215902
   steam: 1165990
 Kim:
@@ -129968,20 +129950,6 @@ Leila:
     steam: true
   pageId: 66486
   steam: 664640
-Leisure Suit Larry - Wet Dreams Dry Twice:
-  cloud:
-    gog: true
-    steam: true
-  gog: 2147483119
-  gogSide:
-    - 2118773017
-  pageId: 162416
-  steam: 1373430
-  steamSide:
-    - 1432870
-  templates:
-    - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice}}"
-    - "{{Game data/saves|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice\\savegames}}"
 "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work":
   cloud:
     gog: true
@@ -165360,6 +165328,12 @@ PING 1.5+:
 PINPIN BALLBALL:
   pageId: 121079
   steam: 891180
+PIT OF GOBLIN:
+  lutris: pit-of-goblin
+  pageId: 215909
+  steam: 3253530
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Friendly Foe\\Pit of Goblin\\SaveFiles\\}}"
 "PJ Masks: Heroes of the Night":
   cloud:
     steam: true
@@ -170863,6 +170837,7 @@ Pirate Survival Fantasy Shooter:
   pageId: 179310
 Pirate101:
   pageId: 214937
+  steam: 620620
 Pirates Are BLANKing Awesome:
   pageId: 135582
   steam: 1058730
@@ -193409,12 +193384,14 @@ SOMA:
   pageId: 27531
   steam: 282140
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Soma\\Main\\}}"
-    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Frictional Games/Soma/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/frictionalgames/Soma/Main/}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Soma\\Main\\{{P|uid}}\\}}"
-    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Frictional Games/Soma/{{P|uid}}/}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Frictional Games/Soma/}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\282140\\remote\\*.cfg}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Soma\\Main\\}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/frictionalgames/Soma/Main/{{P|uid}}/}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Frictional Games/Soma/{{P|uid}}/}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\282140\\remote\\Main\\*.sav}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Soma\\Main\\{{P|uid}}\\}}"
 SOMOS:
   cloud:
     steam: true
@@ -222167,6 +222144,9 @@ Superbike 2000:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\EA SPORTS\\Superbike 2000}}"
 Superbike 2001:
   pageId: 23830
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\EA SPORTS\\Superbike 2001}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Superbike World Championship:
   pageId: 76836
   templates:
@@ -259782,6 +259762,7 @@ Vampire Bloody Star X:
 "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors":
   cloud:
     steam: true
+    xbox: true
   lutris: vampire-crawlers-the-turbo-wildcard-from-vampire-survivors
   pageId: 215811
   renamedFrom:
@@ -272203,8 +272184,10 @@ Wreckreation:
   pageId: 180741
   steam: 1594040
   templates:
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\Config\\WindowsNoEditor}}"
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\Wreckreation\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\Wreckreation\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Wreckreation\\Saved\\SaveGames\\*.sav}}"
 Wrench:
   pageId: 114134
   steam: 936720
