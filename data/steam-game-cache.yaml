@@ -119675,15 +119675,19 @@
   installDir: Endless Space 2
   launch:
     - config:
+        betakey: "1.4.21, 1.5.3, 1.5.31, 1.5.48, 1.5.60, oldversion, test"
         osarch: "64"
         oslist: windows
       description: Launch
       executable: EndlessSpace2.exe
-      type: none
     - config:
         oslist: macos
       executable: EndlessSpace2.app
       type: none
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: EndlessSpace2.cmd
 392120:
   installDir: City Z
   launch:
@@ -121047,12 +121051,12 @@
       executable: dowser
       type: default
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2
         oslist: macos
       description: Launch game (skip launcher)
       executable: hoi4.app
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2
         oslist: linux
       description: Launch game (skip launcher)
       executable: run_hoi4
@@ -121101,7 +121105,7 @@
       description: Launch game (1.7.1 and older)
       executable: hoi4
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2
         oslist: windows
       description: Launch game (skip launcher)
       executable: hoi4.exe
@@ -548461,6 +548465,19 @@
       type: none
   nameLocalized:
     russian: Отряд Его Величества
+1365010:
+  cloud:
+    saves:
+      - path: "LostPotato/{Steam3AccountID}"
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Lost Potato
+  launch:
+    - config:
+        oslist: windows
+      executable: LostPotato.exe
+      type: default
 1365750:
   cloud:
     saves:
@@ -584517,6 +584534,11 @@
         oslist: windows
       executable: Asphalt9_Steam_x64_rtl.exe
       type: default
+    - config:
+        oslist: macos
+      executable: Asphalt.app/Contents/MacOS/Asphalt
+      type: default
+      workingdir: Asphalt.app/Contents/MacOS
   nameLocalized:
     japanese: アスファルト：Legends
     koreana: 아스팔트 레전드
@@ -612364,9 +612386,18 @@
         root: WinMyDocuments
   installDir: IntoTheRadius2
   launch:
-    - config:
+    - arguments: "-dx11"
+      config:
         osarch: "64"
         oslist: windows
+      description: DirectX 11
+      executable: IntoTheRadius2.exe
+      type: openxr
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 12
       executable: IntoTheRadius2.exe
       type: openxr
 2308110:
@@ -633163,6 +633194,7 @@
     german: Starsand Island
     japanese: スターサンド・アイランド
     portuguese: Starsand Island
+    sc_schinese: 星砂岛
     schinese: 星砂岛
     tchinese: 星砂島
 2966850:
@@ -644335,6 +644367,14 @@
     koreana: 하숙생이 전부 미녀입니다만? 시즌2
     schinese: "阿西, 美女室友竟然...？2"
     tchinese: "阿西, 美女室友竟然...？2"
+3732960:
+  installDir: Rest Area Simulator
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: RestAreaSimulator.exe
+      type: default
 3734010: {}
 3738910:
   cloud:
@@ -645458,13 +645498,13 @@
 3907350:
   nameLocalized:
     japanese: テニスの王子様　も～っと 学園祭の王子様 ♡-40 and more...
-    schinese: " 网球王子 学园祭的王子们 ♡-40 and more..."
+    schinese: 网球王子 学园祭的王子们 ♡-40 and more...
     tchinese: 網球王子 學園祭的王子們 ♡-40 and more...
 3907380:
   nameLocalized:
-    japanese: テニスの王子様　ぎゅ～っと！ ドキドキサバイバル Tie break ♡game
-    schinese: 网球王子 心跳求生 Tie break ♡game
-    tchinese: 網球王子 心跳求生 Tie break ♡game
+    japanese: テニスの王子様　ぎゅ～っと！ ドキドキサバイバル Tie break ♡ game
+    schinese: 网球王子 心跳求生 Tie break ♡ game
+    tchinese: 網球王子 心跳求生 Tie break ♡ game
 3907620: {}
 3909960:
   cloud:
@@ -645927,6 +645967,7 @@
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"
     schinese: "幻兽帕鲁：帕鲁农场 / Palworld: Palfarm"
     tchinese: "幻獸帕魯：帕魯農場 / Palworld: Palfarm"
+4039320: {}
 4041890:
   installDir: The Last Elixir
   launch:
@@ -646991,6 +647032,7 @@
 4536610:
   nameLocalized:
     schinese: 城市蓝图
+4549480: {}
 4557490: {}
 4605200: {}
 3221903386: {}

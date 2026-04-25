@@ -33357,6 +33357,9 @@ Broken of Darkness:
   lutris: brokenlore-dark-dawn--1
   pageId: 212260
   steam: 2283250
+"BrokenLore: Don't Play":
+  pageId: 215963
+  steam: 4549480
 "BrokenLore: Don't Watch":
   cloud:
     steam: true
@@ -42393,6 +42396,8 @@ Circuit Superstars:
 Circuit Warz:
   pageId: 64052
   steam: 656620
+"Circuit's Edge":
+  pageId: 215961
 Circuitous:
   cloud:
     steam: true
@@ -45676,6 +45681,11 @@ Comanche 4:
     - "{{Game data/saves|Windows|{{p|game}}\\c4plyr.sav}}"
 "Comanche: Maximum Overkill":
   pageId: 213419
+Comatose:
+  cloud:
+    steam: true
+  pageId: 215279
+  steam: 3301370
 Combat:
   pageId: 7781
 Combat Air Patrol 2:
@@ -123200,6 +123210,9 @@ Kick Ass Commandos:
 Kick Bot:
   pageId: 145485
   steam: 1136290
+Kick Buds:
+  pageId: 215950
+  steam: 4039320
 Kick Of Dungeon:
   pageId: 155600
   steam: 1206550
@@ -134196,6 +134209,11 @@ Lost Planet 3:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\capcom\\lostplanetcolonies\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\capcom\\lostplanetcolonies\\}}"
+Lost Potato:
+  cloud:
+    steam: true
+  pageId: 215959
+  steam: 1365010
 Lost Railway:
   pageId: 215488
   steam: 862750
@@ -186117,6 +186135,12 @@ Respublica:
 Rest:
   pageId: 139645
   steam: 1100320
+Rest Area Simulator:
+  lutris: rest-area-simulator
+  pageId: 215965
+  steam: 3732960
+  steamSide:
+    - 4059170
 Rest House:
   pageId: 57762
   steam: 582290
@@ -209594,10 +209618,13 @@ Space Girls:
 Space Gladiator:
   pageId: 121831
   steam: 965110
-"Space Gladiators: Escaping Tartarus":
+Space Gladiators:
   cloud:
     steam: true
+  lutris: space-gladiators
   pageId: 148659
+  renamedFrom:
+    - "Space Gladiators: Escaping Tartarus"
   steam: 1144910
 Space God:
   pageId: 82414

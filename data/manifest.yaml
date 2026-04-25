@@ -51661,6 +51661,11 @@ Asphalt Legends:
   installDir:
     Asphalt 9 Legends: {}
   launch:
+    "<base>/Asphalt.app/Contents/MacOS/Asphalt":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Asphalt.app/Contents/MacOS"
     "<base>/Asphalt9_Steam_x64_rtl.exe":
       - when:
           - bit: 64
@@ -103655,6 +103660,9 @@ Broken of Darkness:
     lutris: brokenlore-dark-dawn--1
   steam:
     id: 2283250
+"BrokenLore: Don't Play":
+  steam:
+    id: 4549480
 "BrokenLore: Don't Watch":
   cloud:
     steam: true
@@ -142750,6 +142758,11 @@ Comanche 4:
           - store: steam
   steam:
     id: 32750
+Comatose:
+  cloud:
+    steam: true
+  steam:
+    id: 3301370
 Combat Air Patrol 2:
   installDir:
     Combat Air Patrol 2: {}
@@ -234557,7 +234570,7 @@ Endless Space 2:
       - when:
           - os: mac
             store: steam
-    "<base>/EndlessSpace2.exe":
+    "<base>/EndlessSpace2.cmd":
       - when:
           - bit: 64
             os: windows
@@ -381667,6 +381680,9 @@ Kick Ass Commandos:
 Kick Bot:
   steam:
     id: 1136290
+Kick Buds:
+  steam:
+    id: 4039320
 Kick Of Dungeon:
   installDir:
     win: {}
@@ -415240,6 +415256,22 @@ Lost Planet 3:
           - store: steam
   steam:
     id: 45720
+Lost Potato:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/LostPotato/<storeUserId>/**/*.json":
+      when:
+        - store: steam
+  installDir:
+    Lost Potato: {}
+  launch:
+    "<base>/LostPotato.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1365010
 Lost Railway:
   steam:
     id: 862750
@@ -574357,6 +574389,21 @@ Rest:
             store: steam
   steam:
     id: 1100320
+Rest Area Simulator:
+  id:
+    lutris: rest-area-simulator
+    steamExtra:
+      - 4059170
+  installDir:
+    Rest Area Simulator: {}
+  launch:
+    "<base>/RestAreaSimulator.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3732960
 Rest House:
   files:
     "<base>/SavesDir/*.sav":
@@ -647728,13 +647775,15 @@ Space Gladiator:
             store: steam
   steam:
     id: 965110
-"Space Gladiators: Escaping Tartarus":
+Space Gladiators:
   cloud:
     steam: true
   files:
     "<winLocalAppData>/SpaceGladiators/<storeUserId>/**/*.json":
       when:
         - store: steam
+  id:
+    lutris: space-gladiators
   installDir:
     Space Gladiators: {}
   launch:
@@ -647744,6 +647793,8 @@ Space Gladiator:
             store: steam
   steam:
     id: 1144910
+"Space Gladiators: Escaping Tartarus":
+  alias: Space Gladiators
 Space God:
   installDir:
     SpaceGod: {}
