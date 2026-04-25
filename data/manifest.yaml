@@ -550292,6 +550292,16 @@ Puzzle Bobble 4:
 Puzzle Bobble Everybubble!:
   cloud:
     steam: true
+  files:
+    "<base>/PuzzleBobble EveryBubble_Data/SaveData":
+      when:
+        - store: steam
+  installDir:
+    PBEB: {}
+  launch:
+    "<base>/PuzzleBobble EveryBubble.exe":
+      - when:
+          - store: steam
   steam:
     id: 3990960
 Puzzle Bots:

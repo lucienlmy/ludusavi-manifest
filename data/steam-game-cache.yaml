@@ -645900,6 +645900,14 @@
 3989960: {}
 3990360: {}
 3990960:
+  cloud:
+    saves:
+      - path: PuzzleBobble EveryBubble_Data/SaveData
+        pattern: "*"
+        root: gameinstall
+  installDir: PBEB
+  launch:
+    - executable: PuzzleBobble EveryBubble.exe
   nameLocalized:
     japanese: パズルボブル エブリバブル!
     koreana: 퍼즐버블 에브리버블!
