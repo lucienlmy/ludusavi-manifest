@@ -7670,7 +7670,10 @@ Age of Mythology:
     - 2991180
     - 2991190
     - 3076160
+    - 3398380
     - 4180380
+    - 4197930
+    - 4197940
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Games\\Age of Mythology Retold\\{{p|uid}}\\users\\*.xml}}"
     - "{{Game data/config|Microsoft Store|{{P|userprofile}}\\Games\\Age of Mythology Retold\\{{p|uid}}\\users\\*.xml}}"
@@ -10508,6 +10511,8 @@ Alpha Nomos:
   lutris: alpha-nomos
   pageId: 210328
   steam: 2529960
+  steamSide:
+    - 4154870
 Alpha Polaris:
   pageId: 45954
   steam: 405780
@@ -11724,6 +11729,8 @@ An Airport for Aliens Currently Run by Dogs:
 An Alien with a Magnet:
   pageId: 59502
   steam: 390620
+"An American Tail: The Computer Adventure of Fievel and His Friends":
+  pageId: 215977
 An Ankou:
   cloud:
     steam: true
@@ -21430,6 +21437,7 @@ Banished Castle VR:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/BanjoRecompiled/saves}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/BanjoRecompiled/saves}}"
 "Banjo-Kazooie (Banjo: Recompiled)":
+  lutris: banjo-kazooie
   pageId: 213119
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BanjoRecompiled\\general.json|{{P|localappdata}}\\BanjoRecompiled\\graphics.json|{{P|localappdata}}\\BanjoRecompiled\\controls.json|{{P|localappdata}}\\BanjoRecompiled\\sound.json|{{P|localappdata}}\\BanjoRecompiled\\mods.json|{{P|localappdata}}\\BanjoRecompiled\\mod_config}}"
@@ -55522,6 +55530,12 @@ Darkblade Ascent:
 Darkblood Chronicles:
   pageId: 76575
   steam: 604920
+Darkbound:
+  lutris: darkbound
+  pageId: 215983
+  steam: 3091260
+  steamSide:
+    - 3707330
 "Darkcase: The Basement":
   pageId: 95001
   steam: 430100
@@ -89269,7 +89283,10 @@ Fox n Forests:
   steam: 603400
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Bonus Level Entertainment\\FOXnFORESTS\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Bonus Level Entertainment/FOXnFORESTS/game/Settings*.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Bonus Level Entertainment\\FOXnFORESTS\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Bonus Level Entertainment.FOXnFORESTS/game/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Bonus Level Entertainment/FOXnFORESTS/game/User*.dat}}"
 Fox soldier:
   pageId: 141204
   steam: 1076130
@@ -105077,7 +105094,9 @@ Hedon:
     - 1903580
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\gzdoom-{{P|uid}}.ini|{{p|game}}\\hedon-{{P|uid}}.ini}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/hedon/hedon.ini|}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save*.zds}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/hedon/save*.zds}}"
 "Heebie Jeebies: The Roller Coaster":
   pageId: 153127
   steam: 1190480
@@ -105805,6 +105824,7 @@ Helltaker:
     - 1298590
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\vanripper\\Helltaker}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/vanripper/Helltaker/prefs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\vanripper\\Helltaker}}"
 Helltower:
   pageId: 130217
@@ -129973,6 +129993,20 @@ Leila:
     steam: true
   pageId: 66486
   steam: 664640
+Leisure Suit Larry - Wet Dreams Dry Twice:
+  cloud:
+    gog: true
+    steam: true
+  gog: 2147483119
+  gogSide:
+    - 2118773017
+  pageId: 162416
+  steam: 1373430
+  steamSide:
+    - 1432870
+  templates:
+    - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice}}"
+    - "{{Game data/saves|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice\\savegames}}"
 "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work":
   cloud:
     gog: true
@@ -147883,7 +147917,10 @@ Monster Prom:
     - 1276400
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Beautiful Glitch\\Monster Prom\\}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Beautiful Glitch/Monster Prom/prefs}}"
     - "{{Game data/saves|Windows|{{P|game}}\\UserData\\}}"
+    - "{{Game data/saves|OS X|{{P|game}}/UserData/}}"
+    - "{{Game data/saves|Linux|{{P|game}}/UserData/}}"
 "Monster Prom 2: Monster Camp":
   cloud:
     gog: true
@@ -148371,6 +148408,7 @@ Moon Castle:
   pageId: 88229
   steam: 803750
 Moon Child:
+  lutris: moon-child
   pageId: 215636
 Moon Colonization Project:
   cloud:
@@ -151511,6 +151549,7 @@ My Sugar Mommy is a Futanari:
 My Summer Car:
   cloud:
     steam: true
+  lutris: my-summer-car
   pageId: 51613
   steam: 516750
   templates:
@@ -172020,6 +172059,7 @@ Planet Alpha:
     - "{{Game data/config|Windows|{{P|localappdata}}\\PlanetAlpha\\Saved\\Config\\WindowsNoEditor\\|{{P|localappdata}}\\PlanetAlpha\\Saved\\SaveGames\\SavedSettings.sav}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\PlanetAlpha\\Saved\\SaveGames\\}}"
 Planet Ancyra Chronicles:
+  lutris: planet-ancyra-chronicles
   pageId: 62833
   steam: 324060
 Planet Assault:
@@ -183747,6 +183787,10 @@ Red Bow:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Red Bow\\acsetup.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Red Bow\\agssave.*}}"
+"Red Bow: Strange Dream":
+  pageId: 215990
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\save\\}}"
 Red Bull Doodle Art - Global VR Gallery:
   pageId: 64729
   steam: 642840
@@ -184538,6 +184582,7 @@ Refraction:
   pageId: 127852
   steam: 951420
 Reframed:
+  lutris: reframed
   pageId: 90330
   steam: 815860
 Refunct:
@@ -191383,7 +191428,9 @@ Routine:
   pageId: 23061
   steam: 606160
   templates:
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Routine\\Saved\\Config\\WinGDK}}"
     - "{{Game data/config|Windows|{{p|localappdata}}\\Routine\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\RawFury.ROUTINE_9s0pnehqffj7t\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Routine\\Saved\\SaveGames}}"
 Rover Builder:
   pageId: 70581
@@ -212758,6 +212805,10 @@ Sprawl:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\SPRAWL\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SPRAWL\\Saved\\SaveGames}}"
+Sprawl Zero:
+  lutris: sprawl-zero
+  pageId: 215981
+  steam: 3748520
 Spray Dynamite X Radioactive Insects:
   pageId: 122400
   steam: 967960
@@ -253556,6 +253607,8 @@ Trolley Gold:
 "Trollhunters: Defenders of Arcadia":
   pageId: 177726
   steam: 1344070
+Trolls:
+  pageId: 215973
 Trollskog:
   cloud:
     steam: true
@@ -260603,6 +260656,9 @@ Vending Machine Co.:
   lutris: vending-machine-co
   pageId: 211020
   steam: 3622640
+  steamSide:
+    - 3737470
+    - 4585810
 "Vendir: Plague of Lies":
   cloud:
     steam: true

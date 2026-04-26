@@ -635872,6 +635872,7 @@
     japanese: Truckful / トラックフル
     schinese: Truckful / 乡野奇运
     tchinese: Truckful / 鄉野奇運
+3091260: {}
 3092530:
   nameLocalized:
     english: Fate Trigger
@@ -636815,6 +636816,11 @@
       config:
         oslist: linux
       executable: "InfinityNikki\\InfinityNikki.exe"
+      type: default
+    - config:
+        betakey: dev_maccn
+        oslist: macos
+      executable: X6Game-Mac-Test.app
       type: default
   nameLocalized:
     english: Infinity Nikki
@@ -643498,6 +643504,38 @@
       executable: APRILGROVE.exe
       type: default
 3622640:
+  cloud:
+    saves:
+      - path: Rogue Duck Interactive/Vending Machine Co
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: Rogue Duck Interactive/Vending Machine Co
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: ".config/unity3d/Rogue Duck Interactive/Vending Machine Co"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Vending Machine Co
+  launch:
+    - config:
+        oslist: windows
+      executable: Vending Machine Co.exe
+    - config:
+        oslist: macos
+      executable: mac.app
+    - config:
+        oslist: linux
+      executable: app.x86_64
   nameLocalized:
     japanese: 自販機シミュレーター
     koreana: 자판기 시뮬레이터
@@ -644497,6 +644535,7 @@
   launch:
     - executable: defiance.exe
       type: default
+3748520: {}
 3749580: {}
 3751160:
   nameLocalized:
