@@ -26454,6 +26454,11 @@ AirStrike 2:
         - config
       when:
         - os: windows
+    "<base>/game.bin":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: airstrike-ii-gulf-thunder
 "AirStrike 3D: Operation W.A.T":

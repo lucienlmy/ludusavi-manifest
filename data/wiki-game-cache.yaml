@@ -8349,6 +8349,7 @@ AirStrike 2:
   pageId: 173690
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\game.bin}}"
 "AirStrike 3D: Operation W.A.T.":
   lutris: airstrike-3d-operation-wat
   pageId: 173665
