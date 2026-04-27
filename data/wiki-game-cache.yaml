@@ -5752,6 +5752,7 @@ Acid Nimbus:
   pageId: 109552
   steam: 909110
 Acid Spy:
+  lutris: acid-spy/
   pageId: 95131
   steam: 817230
 "Acorn Assault: Rodent Revolution":
@@ -58914,6 +58915,9 @@ Deep Dish Dungeon:
   steam: 2871520
   steamSide:
     - 3618740
+  templates:
+    - "{{Game data/config|Windows|Computer\\HKEY_CURRENT_USER\\Software\\Behold Studios\\Deep Dish Dungeon - Demo}}"
+    - "{{Game data/saves|Windows|%localappdata%low\\Behold Studios\\Deep Dish Dungeon - Demo\\SavedGames}}"
 Deep Diving Simulator:
   cloud:
     gog: true

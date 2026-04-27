@@ -18243,6 +18243,8 @@ Acid Nimbus:
   steam:
     id: 909110
 Acid Spy:
+  id:
+    lutris: acid-spy/
   installDir:
     Acid Spy: {}
   launch:
@@ -183521,6 +183523,17 @@ Deep Dark Labyrinth:
 Deep Dark L♂byrinth:
   alias: Deep Dark Labyrinth
 Deep Dish Dungeon:
+  files:
+    "<winLocalAppData>low/Behold Studios/Deep Dish Dungeon - Demo/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    Computer/HKEY_CURRENT_USER/Software/Behold Studios/Deep Dish Dungeon - Demo:
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3618740
