@@ -216634,6 +216634,11 @@ Dune Sea:
   cloud:
     steam: true
   files:
+    "<winDocuments>/DuneAwakening":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winLocalAppData>/DuneSandbox/Saved/Cloud":
       tags:
         - save
@@ -426435,6 +426440,29 @@ Magicae Mundi:
             store: steam
   steam:
     id: 949330
+Magical Bakery:
+  files:
+    "<winLocalAppData>/MagicalBakery/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/MagicalBakery/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3049310
+  installDir:
+    Magical Bakery: {}
+  launch:
+    "<base>/MagicalBakery.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2595940
 Magical Battle Festa:
   cloud:
     steam: true
@@ -660995,13 +661023,11 @@ Star Stuff:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Animo Games Studio LLC/Star Stuff/*.json":
+    "<home>/AppData/LocalLow/Animo Games Studio LLC/Star Stuff":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Animo Games Studio LLC/Star Stuff/*.json":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   installDir:
     Star Stuff: {}
   launch:
@@ -767180,40 +767206,27 @@ Tony Tough and the Night of Roasted Moths:
       when:
         - os: mac
   installDir:
-    Tony Tough: {}
+    Tony Tough and the Night of Roasted Moths: {}
   launch:
-    "<base>/ScummVM_Linux/launch_tonytough_opengl.sh":
-      - when:
-          - os: linux
-            store: steam
-        workingDir: "<base>/ScummVM_Linux"
-    "<base>/ScummVM_Linux/launch_tonytough_safe.sh":
-      - when:
-          - os: linux
-            store: steam
-        workingDir: "<base>/ScummVM_Linux"
-    "<base>/ScummVM_Mac/ScummVM.app/Contents/MacOS/scummvm":
-      - arguments: "-c \"scummvm-tonytough-opengl.ini\" tony-win"
+    "<base>/ScummVM/ScummVM.app/Contents/MacOS/scummvm":
+      - arguments: "-c \"scummvm-tonytough.ini\" tony-win"
         when:
           - os: mac
             store: steam
-        workingDir: "<base>/ScummVM_Mac"
-      - arguments: "-c \"scummvm-tonytough-safe.ini\" tony-win"
-        when:
-          - os: mac
+        workingDir: "<base>/ScummVM"
+    "<base>/ScummVM/launch_tonytough.sh":
+      - when:
+          - bit: 64
+            os: linux
             store: steam
-        workingDir: "<base>/ScummVM_Mac"
-    "<base>/ScummVM_Windows/scummvm.exe":
-      - arguments: "--no-console -c \"scummvm-tonytough-opengl.ini\" tony-win"
+        workingDir: "<base>/ScummVM"
+    "<base>/ScummVM/scummvm.exe":
+      - arguments: "--no-console -c \"scummvm-tonytough.ini\" tony-win"
         when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
-        workingDir: "<base>/ScummVM_Windows"
-      - arguments: "--no-console -c \"scummvm-tonytough-safe.ini\" tony-win"
-        when:
-          - os: windows
-            store: steam
-        workingDir: "<base>/ScummVM_Windows"
+        workingDir: "<base>/ScummVM"
   steam:
     id: 356210
 Too Angry to Space:

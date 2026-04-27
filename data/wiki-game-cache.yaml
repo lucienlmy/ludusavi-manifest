@@ -69555,7 +69555,7 @@ Dune Sea:
     - 3596920
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Config\\WindowsClient\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Cloud\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Cloud\\|{{p|userprofile}}\\Documents\\DuneAwakening\\}}"
 "Dune: Imperium":
   lutris: dune-imperium
   pageId: 193738
@@ -137804,6 +137804,15 @@ MagicJam:
 Magicae Mundi:
   pageId: 114842
   steam: 949330
+Magical Bakery:
+  malformed: true
+  pageId: 216011
+  steam: 2595940
+  steamSide:
+    - 3049310
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MagicalBakery\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\MagicalBakery\\Saved\\SaveGames\\}}"
 Magical Battle Festa:
   cloud:
     steam: true
@@ -213938,6 +213947,8 @@ Star Stuff:
     steam: true
   pageId: 201509
   steam: 1955110
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Animo Games Studio LLC\\Star Stuff\\}}"
 Star Surveyor:
   pageId: 39550
   steam: 467340

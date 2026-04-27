@@ -94184,45 +94184,27 @@
       - path: Saves
         pattern: "*.*"
         root: gameinstall
-  installDir: Tony Tough
+  installDir: Tony Tough and the Night of Roasted Moths
   launch:
-    - arguments: "--no-console -c \"scummvm-tonytough-opengl.ini\" tony-win"
+    - arguments: "--no-console -c \"scummvm-tonytough.ini\" tony-win"
       config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: "ScummVM_Windows\\scummvm.exe"
-      workingdir: "ScummVM_Windows\\"
-    - arguments: "--no-console -c \"scummvm-tonytough-safe.ini\" tony-win"
-      config:
-        oslist: windows
-      description: "Play in 'Safe Graphics' Mode"
-      executable: "ScummVM_Windows\\scummvm.exe"
-      type: none
-      workingdir: "ScummVM_Windows\\"
-    - arguments: "-c \"scummvm-tonytough-opengl.ini\" tony-win"
+      executable: "ScummVM\\scummvm.exe"
+      type: default
+      workingdir: "ScummVM\\"
+    - arguments: "-c \"scummvm-tonytough.ini\" tony-win"
       config:
         oslist: macos
-      description: Launch
-      executable: "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
-      workingdir: "ScummVM_Mac\\"
-    - arguments: "-c \"scummvm-tonytough-safe.ini\" tony-win"
-      config:
-        oslist: macos
-      description: "Play in 'Safe Graphics' Mode"
-      executable: "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
-      type: none
-      workingdir: "ScummVM_Mac\\"
+      executable: "ScummVM\\ScummVM.app\\Contents\\MacOS\\scummvm"
+      type: default
+      workingdir: "ScummVM\\"
     - config:
+        osarch: "64"
         oslist: linux
-      description: Launch
-      executable: "ScummVM_Linux\\launch_tonytough_opengl.sh"
-      workingdir: "ScummVM_Linux\\"
-    - config:
-        oslist: linux
-      description: "Play in 'Safe Graphics' Mode"
-      executable: "ScummVM_Linux\\launch_tonytough_safe.sh"
-      type: none
-      workingdir: "ScummVM_Linux\\"
+      executable: "ScummVM\\launch_tonytough.sh"
+      type: default
+      workingdir: "ScummVM\\"
 356250:
   installDir: Gathering Sky
   launch:
@@ -623914,6 +623896,25 @@
     schinese: 蕾斯莱莉娅娜的炼金工房 ～忘却的炼金术与极夜的解放者～
     tchinese: 蕾斯萊莉婭娜的鍊金工房 ～忘卻的鍊金術與極夜的解放者～
 2595260: {}
+2595940:
+  cloud:
+    saves:
+      - path: MagicalBakery/Saved/SaveGames
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: MagicalBakery/Saved/SaveGames
+            replace: ".config/Epic/MagicalBakery/Saved/SaveGames"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Magical Bakery
+  launch:
+    - executable: MagicalBakery.exe
 2597080:
   cloud:
     saves:
