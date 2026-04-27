@@ -18243,6 +18243,17 @@ Acid Nimbus:
   steam:
     id: 909110
 Acid Spy:
+  files:
+    "<winLocalAppData>/Shooter/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Shooter/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: acid-spy/
   installDir:
@@ -19714,10 +19725,16 @@ Adios:
     epic: true
     gog: true
   files:
-    "<winLocalAppData>/Adios/Saved/SaveGames/**/SaveData.sav":
+    "<winLocalAppData>/Adios/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Adios/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1686135098
   installDir:
@@ -30800,6 +30817,12 @@ Alien Shooter in Space Cradle - Virtual Reality:
   steam:
     id: 33110
 "Alien Shooter: Vengeance":
+  files:
+    "<winDocuments>/AlienShooter2 Saves/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Alien Shooter Vengeance: {}
   launch:
@@ -101044,12 +101067,17 @@ Breath of Fire IV:
         - config
       when:
         - os: windows
+    "<base>/english/SAV/*.DAT":
+      tags:
+        - save
+      when:
+        - store: steam
     "<base>/english/bof4.cfg":
       tags:
         - config
       when:
         - store: steam
-    "<base>/english}/SAV/*.DAT":
+    "<base>/japanese/SAV/*.DAT":
       tags:
         - save
       when:
@@ -101057,11 +101085,6 @@ Breath of Fire IV:
     "<base>/japanese/bof4.cfg":
       tags:
         - config
-      when:
-        - store: steam
-    "<base>/japanese}/SAV/*.DAT":
-      tags:
-        - save
       when:
         - store: steam
   gog:
@@ -315150,6 +315173,14 @@ HOT GIRLS:
 HOVR:
   steam:
     id: 501870
+"HR: Human Remains":
+  id:
+    lutris: hr-human-remains
+    steamExtra:
+      - 3599950
+      - 4632440
+  steam:
+    id: 3541630
 HRDINA:
   installDir:
     HRDINA: {}

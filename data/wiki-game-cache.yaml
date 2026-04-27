@@ -5755,6 +5755,9 @@ Acid Spy:
   lutris: acid-spy/
   pageId: 95131
   steam: 817230
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Shooter\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Shooter\\Saved\\SaveGames}}"
 "Acorn Assault: Rodent Revolution":
   cloud:
     steam: true
@@ -6230,6 +6233,9 @@ Adios:
   gog: 1686135098
   pageId: 169636
   steam: 1271400
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Adios\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Adios\\Saved\\SaveGames}}"
 Adjacency:
   cloud:
     steam: true
@@ -9741,6 +9747,8 @@ Alien Shooter in Space Cradle - Virtual Reality:
 "Alien Shooter: Vengeance":
   pageId: 60041
   steam: 6290
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\AlienShooter2 Saves\\Saves\\}}"
 Alien Simulator:
   pageId: 150681
   steam: 1160730
@@ -32527,7 +32535,7 @@ Breath of Fire IV:
     - "{{Game data/config|Windows|{{p|game}}\\bof4.cfg}}"
     - "{{Game data/config|Steam|{{p|game}}\\english\\bof4.cfg|{{p|game}}\\japanese\\bof4.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAV\\*.DAT}}"
-    - "{{Game data/saves|Steam|{{p|game}}\\english}\\SAV\\*.DAT|{{p|game}}\\japanese}\\SAV\\*.DAT}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\english\\SAV\\*.DAT|{{p|game}}\\japanese\\SAV\\*.DAT}}"
 Breath of Warfare:
   cloud:
     steam: true
@@ -51288,8 +51296,8 @@ Crypt Custodian:
   pageId: 197358
   steam: 2394650
   templates:
-    - "{{Game data/config|Windows|%LocalAppData%\\CryptCustodian}}"
-    - "{{Game data/saves|Windows|%LocalAppData%\\CryptCustodian}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\CryptCustodian}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\CryptCustodian}}"
 Crypt Hunter:
   pageId: 69476
   steam: 693790
@@ -101707,6 +101715,13 @@ HOT GIRLS:
 HOVR:
   pageId: 57920
   steam: 501870
+"HR: Human Remains":
+  lutris: hr-human-remains
+  pageId: 216031
+  steam: 3541630
+  steamSide:
+    - 3599950
+    - 4632440
 HRDINA:
   pageId: 139139
   steam: 1077730
@@ -191957,6 +191972,8 @@ Rumbleverse:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Rumbleverse\\Saved\\Config\\WindowsClient}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Rumbleverse\\Saved\\SaveGames}}"
+Rumbral:
+  pageId: 216032
 Rumia in the darkness:
   cloud:
     steam: true
