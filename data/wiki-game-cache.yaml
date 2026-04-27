@@ -183799,6 +183799,7 @@ Red Bow:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Red Bow\\agssave.*}}"
 "Red Bow: Strange Dream":
   pageId: 215990
+  steam: 3856060
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\save\\}}"
 Red Bull Doodle Art - Global VR Gallery:
@@ -215489,6 +215490,7 @@ Starsand:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Tunnel Vision Studio\\Starsand\\{{p|uid}}}}"
 Starsand Island:
   cloud:
+    steam: true
     xbox: true
   pageId: 209726
   steam: 2966320

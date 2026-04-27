@@ -200565,10 +200565,12 @@
     saves:
       - path: My Games/Xenonauts 2/Saves/
         pattern: "*.json"
-        platforms:
-          - Windows
         recursive: true
         root: WinMyDocuments
+      - path: Goldhawk Interactive/Xenonauts 2/Saves/
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: Xenonauts2
   launch:
     - config:
@@ -645255,6 +645257,14 @@
   installDir: BLACK SOULS II
   launch:
     - executable: Game.exe
+3856060:
+  installDir: Red Bow Strange Dream
+  launch:
+    - config:
+        oslist: windows
+      description: "Play Red Bow: Strange Dream"
+      executable: Game.exe
+      type: default
 3857790: {}
 3862670:
   cloud:

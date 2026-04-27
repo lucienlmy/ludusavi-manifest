@@ -567343,6 +567343,15 @@ Red Bow:
         - save
       when:
         - os: windows
+  installDir:
+    Red Bow Strange Dream: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3856060
 Red Bull Doodle Art - Global VR Gallery:
   installDir:
     Red_Bull_Doodle_Art_Global_VR_Gallery: {}
@@ -665567,6 +665576,8 @@ Starsand:
   steam:
     id: 1380220
 Starsand Island:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/SeedLab/StarsandIsland/steam.pre/steam__<storeUserId>":
       tags:
