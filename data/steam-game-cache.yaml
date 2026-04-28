@@ -443020,6 +443020,8 @@
         oslist: linux
       executable: CyberKnights.x86_64
       type: default
+  nameLocalized:
+    schinese: "《赛博骑士：闪点行动 Cyber Knights: Flashpoint》"
 1021220:
   installDir: The seven deadly seas
   launch:
@@ -567049,6 +567051,7 @@
       type: option1
   nameLocalized:
     schinese: 困兽之国 Drova - Forsaken Kin
+    tchinese: 困獸之国 Drova - Forsaken Kin
 1585220:
   cloud:
     saves:
@@ -627980,6 +627983,35 @@
         oslist: macos
       executable: FollowTheMeaning.app
       type: default
+2720950:
+  cloud:
+    saves:
+      - path: Sokpop Collective/Grunn
+        pattern: "*.txt"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Sokpop Collective/Grunn
+            replace: Sokpop Collective/Grunn
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Sokpop Collective/Grunn
+            replace: ".config/unity3d/Sokpop Collective/Grunn"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Grunn
+  launch:
+    - config:
+        oslist: windows
+      executable: Grunn/Grunn.exe
+    - config:
+        oslist: macos
+      executable: Grunn_mac.app
 2723430: {}
 2725260:
   cloud:
@@ -637820,7 +637852,14 @@
         oslist: windows
       executable: Super Woden Rally Edge.exe
 3219630: {}
-3220050: {}
+3220050:
+  installDir: Big Beautiful Women
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BBW.exe
+      type: default
 3220060:
   cloud:
     saves:
@@ -640399,6 +640438,21 @@
     english: "Mamizou's Mimic Check"
     japanese: マミゾウの化け化けチェック
     schinese: "Mamizou's Mimic Check"
+3370870:
+  cloud:
+    saves:
+      - path: Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry/CloudSave
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: BerryBerryBerry
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BerryBerryBerryBerryBerryBerryBerryBerryBerry.exe
+      type: default
 3370970: {}
 3371240:
   cloud:
@@ -641258,7 +641312,10 @@
         oslist: macos
       executable: Untitled Hand Game - Titled Edition.app/Contents/MacOS/Untitled Hand Game_ Titled Edition
 3449370: {}
-3449470: {}
+3449470:
+  installDir: Poly Bricks
+  launch:
+    - executable: polybricks.exe
 3450310:
   installDir: Europa Universalis V
   launch:
@@ -645458,6 +645515,14 @@
       executable: IntLD.exe
       type: default
 3896300:
+  cloud:
+    saves:
+      - path: "SifDev\\Toll Booth Simulator"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Toll Booth Simulator
+  launch:
+    - executable: Toll Booth Simulator.exe
   nameLocalized:
     japanese: Toll Booth Simulator | 料金所シミュレーター
     koreana: Toll Booth Simulator | 톨 부스 시뮬레이터
@@ -646877,10 +646942,10 @@
       type: default
 4358270:
   nameLocalized:
-    english: Pickmon
-    japanese: Pickmon / ピックモン
-    schinese: Pickmon / 精灵皮可
-    tchinese: Pickmon / 精靈皮可
+    english: Pickmos
+    japanese: Pickmos / ピックモス
+    schinese: Pickmos / 精灵皮可
+    tchinese: Pickmos / 精靈皮可
 4358690:
   nameLocalized:
     schinese: 守墓人2

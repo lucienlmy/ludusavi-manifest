@@ -25205,6 +25205,14 @@ Bernie Needs Love:
 "Bernie's Nightmare":
   pageId: 102659
   steam: 894390
+Berry Bury Berry:
+  cloud:
+    steam: true
+  pageId: 216033
+  steam: 3370870
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\CloudSave}}"
 Berry Pop Match:
   pageId: 68344
   steam: 676640
@@ -35062,7 +35070,8 @@ Bzzzt:
   steamSide:
     - 2916060
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Squid Shock Studios\\Bo}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Squid Shock Studios\\Bo}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Squid Shock Studios\\Bo}}"
 B画少说:
   pageId: 127229
   steam: 1007870
@@ -63040,6 +63049,9 @@ Dinoblade:
   lutris: dinoblade
   pageId: 210456
   steam: 3440070
+  steamSide:
+    - 3646400
+    - 4106740
 Dinobreak:
   pageId: 195825
   steam: 1932180
@@ -82494,6 +82506,7 @@ Far Cry 3:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Far Cry 3\\GamerProfile.xml|{{p|localappdata}}\\My Games\\Far Cry 3\\InputUserActionMap.xml}}"
     - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\46\\}}"
+    - "{{Game data/saves|Windows|{{p|programdata}}\\Orbit\\46\\}}"
 Far Cry 3 Blood Dragon:
   cloud:
     uplay: true
@@ -100246,6 +100259,14 @@ Gruel:
 Grumpy Witch:
   pageId: 128694
   steam: 580900
+Grunn:
+  cloud:
+    steam: true
+  pageId: 216034
+  steam: 2720950
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Sokpop Collective\\Grunn\\grunn_v1_settings.txt}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Sokpop Collective\\Grunn}}"
 Grunt1914:
   pageId: 134560
   steam: 1059040
@@ -132418,6 +132439,9 @@ Little Kite:
     xbox: true
   pageId: 194957
   steam: 1177980
+  steamSide:
+    - 2411900
+    - 2912860
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Double Dagger Studio\\Little Kitty, Big City\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DoubleDaggerStudio.33389DEE9C2FF_gnfvbrdh3f00m\\SystemAppData\\wgs\\}}"
@@ -247569,6 +247593,7 @@ ToledoVR:
 Toll Booth Simulator:
   cloud:
     steam: true
+  lutris: toll-booth-simulator
   pageId: 215868
   steam: 3896300
   steamSide:
@@ -277288,8 +277313,8 @@ Zzzzz:
   pageId: 278
   steam: 2905090
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Run\\config.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Run\\SAVES\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVES\\}}"
 ÜberSoldier II:
   pageId: 50534
   steam: 281410

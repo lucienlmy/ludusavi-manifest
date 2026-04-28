@@ -77950,6 +77950,30 @@ Bernie Needs Love:
             store: steam
   steam:
     id: 894390
+Berry Bury Berry:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry/CloudSave":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    BerryBerryBerry: {}
+  launch:
+    "<base>/BerryBerryBerryBerryBerryBerryBerryBerryBerry.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3370870
 Berry Pop Match:
   steam:
     id: 676640
@@ -80323,6 +80347,14 @@ Big Battle And Defence Simulator:
   steam:
     id: 1103820
 "Big Beautiful Women: Giantess Dating Action":
+  installDir:
+    Big Beautiful Women: {}
+  launch:
+    "<base>/BBW.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3220050
 Big Blue - Memory:
@@ -108826,6 +108858,10 @@ Bzzzt:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Squid Shock Studios/Bo:
+      tags:
+        - config
   steam:
     id: 1614440
 B画少说:
@@ -196465,6 +196501,9 @@ DinoTrek:
 Dinoblade:
   id:
     lutris: dinoblade
+    steamExtra:
+      - 3646400
+      - 4106740
   steam:
     id: 3440070
 Dinobreak:
@@ -255253,6 +255292,11 @@ Far Cry 3:
         - config
       when:
         - os: windows
+    "<winProgramData>/Orbit/46":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: far-cry-3
     steamExtra:
@@ -310757,6 +310801,33 @@ Gruel:
 Grumpy Witch:
   steam:
     id: 580900
+Grunn:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Sokpop Collective/Grunn":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Sokpop Collective/Grunn/grunn_v1_settings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Grunn: {}
+  launch:
+    "<base>/Grunn/Grunn.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Grunn_mac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2720950
 Grunt1914:
   installDir:
     Grunt1914: {}
@@ -409771,6 +409842,10 @@ Little Kite:
       when:
         - os: windows
           store: microsoft
+  id:
+    steamExtra:
+      - 2411900
+      - 2912860
   installDir:
     LittleKittyBigCity: {}
   launch:
@@ -534926,6 +535001,12 @@ Poly Bricks:
         - save
       when:
         - os: windows
+  installDir:
+    Poly Bricks: {}
+  launch:
+    "<base>/polybricks.exe":
+      - when:
+          - store: steam
   steam:
     id: 3449470
 Poly Bridge:
@@ -765286,10 +765367,21 @@ ToledoVR:
 Toll Booth Simulator:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/SifDev/Toll Booth Simulator":
+      when:
+        - store: steam
   id:
+    lutris: toll-booth-simulator
     steamExtra:
       - 3944120
       - 4506650
+  installDir:
+    Toll Booth Simulator: {}
+  launch:
+    "<base>/Toll Booth Simulator.exe":
+      - when:
+          - store: steam
   steam:
     id: 3896300
 Toltec and the mysteries of the Secret Island:
@@ -852739,12 +852831,12 @@ Zzzzz:
     id: 1170200
 ÜberSoldier:
   files:
-    "<base>/Run/SAVES":
+    "<base>/SAVES":
       tags:
         - save
       when:
         - os: windows
-    "<base>/Run/config.ini":
+    "<base>/config.ini":
       tags:
         - config
       when:
