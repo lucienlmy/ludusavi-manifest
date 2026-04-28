@@ -34783,7 +34783,7 @@
         osarch: "64"
         oslist: windows
       description: Launch
-      executable: Binaries/Win64/RocketLeague.exe
+      executable: Binaries/Win64/RocketLeague_EAC.exe
       type: default
       workingdir: Binaries/Win64
     - config:
@@ -34798,10 +34798,10 @@
       executable: Binaries/Linux/RocketLeague
       type: default
     - config:
-        betakey: "devqa,qa-test,qa-cert,qa-staging,enzyme,playtests,enzyme2"
+        osarch: "64"
         oslist: windows
-      description: with EAC
-      executable: Binaries/Win64/RocketLeague_EAC.exe
+      description: Rocket League with Anti-Cheat Disabled (Mods and Limited Online Play)
+      executable: Binaries/Win64/RocketLeague.exe
       type: option1
       workingdir: Binaries/Win64
 252970:
@@ -638494,6 +638494,48 @@
         oslist: windows
       executable: "Relooted\\Binaries\\Win64\\Relooted-Win64-Shipping.exe"
       type: default
+3256150:
+  cloud:
+    saves:
+      - path: "Hyper Games/Moomintroll Winter's Warmth/Saves"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Hyper Games/Moomintroll Winter's Warmth/Saves"
+            replace: no.hypergames.moomintroll/Saves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Moomintroll
+  launch:
+    - config:
+        oslist: windows
+      executable: WintersWarmth.exe
+    - config:
+        oslist: macos
+      executable: WintersWarmth.app
+    - config:
+        oslist: linux
+      executable: WintersWarmth.exe
+  nameLocalized:
+    brazilian: "Moomintroll: Calor do Inverno"
+    danish: "Mumitrolden: Vinterens varme"
+    finnish: "Muumipeikko: Talven taika"
+    french: "Moomintroll: La Chaleur de l'hiver"
+    german: "Mumintroll: Die Wärme des Winters"
+    japanese: ムーミントロール：冬のぬくもり
+    koreana: "무민: 겨울의 온기"
+    latam: "Mumintroll: La calidez del invierno"
+    norwegian: "Mummitrollet: Vinterens varme"
+    polish: "Muminek: Ciepło zimy"
+    russian: "Муми-тролль: Тепло среди зимы"
+    schinese: 姆明：暖心冬日
+    spanish: "Mumintroll: La calidez del invierno"
+    swedish: "Mumintrollet: Vinterns värme"
+    tchinese: 姆明：冬日尋暖
+    turkish: "Mumiş: Sıcacık Bir Kış"
 3259470:
   cloud:
     saves:

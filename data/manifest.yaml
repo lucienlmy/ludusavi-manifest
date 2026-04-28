@@ -118164,9 +118164,14 @@ Cash Cleaner Simulator:
       when:
         - os: windows
   id:
+    lutris: cash-cleaner-simulator
     steamExtra:
+      - 2843160
+      - 2844780
       - 3660300
       - 3660310
+      - 3795660
+      - 4037500
   installDir:
     Cash Cleaner Simulator: {}
   launch:
@@ -145013,6 +145018,7 @@ Commandos 3 HD Remaster:
       - 3194180
       - 3565060
       - 3933550
+      - 4172650
   installDir:
     Commandos Origins: {}
   launch:
@@ -194001,6 +194007,28 @@ Diablo IV:
         - os: windows
   id:
     lutris: diablo-iv
+    steamExtra:
+      - 2453170
+      - 2453190
+      - 2572010
+      - 2572020
+      - 2572030
+      - 2575620
+      - 2575630
+      - 2575640
+      - 2721550
+      - 2721560
+      - 2721570
+      - 2941030
+      - 2941050
+      - 2941060
+      - 3043530
+      - 3184520
+      - 3559880
+      - 3958690
+      - 3958700
+      - 3958710
+      - 3958720
   installDir:
     Diablo IV: {}
   launch:
@@ -458922,6 +458950,30 @@ Moofa:
             store: steam
   steam:
     id: 1125290
+"Moomintroll: Winter's Warmth":
+  files:
+    "<home>/AppData/LocalLow/Hyper Games/Moomintroll Winter's Warmth/Saves/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/no.hypergames.moomintroll/Saves/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Moomintroll: {}
+  launch:
+    "<base>/WintersWarmth.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/WintersWarmth.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 3256150
 Moon Breakers:
   id:
     steamExtra:
@@ -481290,6 +481342,9 @@ Nevermind This:
             store: steam
   steam:
     id: 2181100
+Neverness to Everness:
+  id:
+    lutris: "https://lutris.net/games/neverness-to-everness/"
 Neverout:
   installDir:
     Neverout: {}
@@ -586163,7 +586218,7 @@ Rocket League:
       - when:
           - os: linux
             store: steam
-    "<base>/Binaries/Win64/RocketLeague.exe":
+    "<base>/Binaries/Win64/RocketLeague_EAC.exe":
       - when:
           - bit: 64
             os: windows

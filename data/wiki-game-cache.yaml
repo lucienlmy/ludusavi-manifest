@@ -38021,11 +38021,16 @@ Casey Powell Lacrosse 18:
 Cash Cleaner Simulator:
   cloud:
     steam: true
+  lutris: cash-cleaner-simulator
   pageId: 204323
   steam: 2488370
   steamSide:
+    - 2843160
+    - 2844780
     - 3660300
     - 3660310
+    - 3795660
+    - 4037500
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\CashCleanerSimulator\\Saved\\SaveGames\\Settings.sav|{{P|localappdata}}\\CashCleanerSimulator\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CashCleanerSimulator\\Saved\\SaveGames\\PlayerDataSlot*.sav}}"
@@ -46380,6 +46385,7 @@ Commandos 3 HD Remaster:
     - 3194180
     - 3565060
     - 3933550
+    - 4172650
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Commandos\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Commandos\\Saved\\SaveGames\\*.sav}}"
@@ -62203,6 +62209,28 @@ Diablo IV:
   lutris: diablo-iv
   pageId: 151763
   steam: 2344520
+  steamSide:
+    - 2453170
+    - 2453190
+    - 2572010
+    - 2572020
+    - 2572030
+    - 2575620
+    - 2575630
+    - 2575640
+    - 2721550
+    - 2721560
+    - 2721570
+    - 2941030
+    - 2941050
+    - 2941060
+    - 3043530
+    - 3184520
+    - 3559880
+    - 3958690
+    - 3958700
+    - 3958710
+    - 3958720
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Documents\\Diablo IV\\LocalPrefs.txt}}"
 Diablo Immortal:
@@ -148458,6 +148486,9 @@ Mooch:
 Moofa:
   pageId: 149342
   steam: 1125290
+"Moomintroll: Winter's Warmth":
+  pageId: 216076
+  steam: 3256150
 Moon Breakers:
   pageId: 40779
   steam: 208030
@@ -155823,6 +155854,9 @@ Nevermind This:
   steam: 2181100
   steamSide:
     - 2619820
+Neverness to Everness:
+  lutris: "https://lutris.net/games/neverness-to-everness/"
+  pageId: 216079
 Neverout:
   cloud:
     xbox: true
