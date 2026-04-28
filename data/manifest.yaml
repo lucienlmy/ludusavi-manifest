@@ -67941,6 +67941,12 @@ Bare Metal:
             store: steam
   steam:
     id: 674130
+Barely Breathing:
+  id:
+    steamExtra:
+      - 4514130
+  steam:
+    id: 4514070
 Barely Racing:
   cloud:
     gog: true
@@ -382608,6 +382614,9 @@ KillStreak.tv:
         - config
   steam:
     id: 1053060
+Killa:
+  steam:
+    id: 2524200
 Killbot:
   installDir:
     Killbot: {}
@@ -630738,6 +630747,13 @@ Skin Witch:
             store: steam
   steam:
     id: 1164990
+Skinface:
+  id:
+    lutris: skinface
+    steamExtra:
+      - 4475540
+  steam:
+    id: 4475520
 Skinny:
   installDir:
     Skinny: {}
@@ -673309,6 +673325,9 @@ Strangeland:
             store: steam
   steam:
     id: 1369520
+Stranger Than Heaven:
+  id:
+    lutris: stranger-than-heaven
 "Stranger Things 3: The Game":
   cloud:
     epic: true

@@ -21696,6 +21696,11 @@ Bardbarian:
 Bare Metal:
   pageId: 77616
   steam: 674130
+Barely Breathing:
+  pageId: 216051
+  steam: 4514070
+  steamSide:
+    - 4514130
 Barely Racing:
   cloud:
     gog: true
@@ -123531,6 +123536,9 @@ KillStreak.tv:
     - 1057160
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\SideQuest\\KillStreak.tv\\}}"
+Killa:
+  pageId: 216053
+  steam: 2524200
 Killbot:
   pageId: 42457
   steam: 473810
@@ -204324,6 +204332,12 @@ Skin Stealers:
 Skin Witch:
   pageId: 154269
   steam: 1164990
+Skinface:
+  lutris: skinface
+  pageId: 216057
+  steam: 4475520
+  steamSide:
+    - 4475540
 Skinny:
   pageId: 122030
   steam: 977340
@@ -217955,6 +217969,9 @@ Strangeland:
 Stranger:
   pageId: 168427
 Stranger Than Heaven:
+  cloud:
+    xbox: true
+  lutris: stranger-than-heaven
   pageId: 215812
 "Stranger Things 3: The Game":
   cloud:
