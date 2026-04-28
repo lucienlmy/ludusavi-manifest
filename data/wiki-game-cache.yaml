@@ -13743,6 +13743,13 @@ Aphelion:
   lutris: aphelion--1
   pageId: 205293
   steam: 1966410
+  steamSide:
+    - 4252750
+    - 4252780
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\PIO\\Saved}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DONTNODEntertainment.Pioneer-P10_1t8sv8k1cftdw\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\PIO\\Saved\\SaveGames}}"
 Apico:
   cloud:
     steam: true
@@ -82511,7 +82518,6 @@ Far Cry 3:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Far Cry 3\\GamerProfile.xml|{{p|localappdata}}\\My Games\\Far Cry 3\\InputUserActionMap.xml}}"
     - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\46\\}}"
-    - "{{Game data/saves|Windows|{{p|programdata}}\\Orbit\\46\\}}"
 Far Cry 3 Blood Dragon:
   cloud:
     uplay: true
@@ -195311,8 +195317,13 @@ Sand Land:
 Sandbox:
   cloud:
     steam: true
+  lutris: sbox
   pageId: 164911
   steam: 590830
+  steamSide:
+    - 1892930
+    - 2129370
+    - 3639320
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\core\\cfg}}"
 Sandbox Anything:
@@ -196010,6 +196021,12 @@ Scalak:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Hamster On Coke Games\\Scalak\\}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Hamster On Coke Games\\Scalak\\Data\\saveData.txt}}"
+Scale the Depths:
+  lutris: scale-the-depths
+  pageId: 216063
+  steam: 3198890
+  steamSide:
+    - 3821770
 "Scallywag's Honor":
   cloud:
     steam: true
@@ -199675,6 +199692,8 @@ Shadowrain:
   steam: 1175480
 Shadowrun:
   pageId: 3177
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\Fasa\\Shadowrun\\}}"
 Shadowrun Chronicles - Boston Lockdown:
   pageId: 24773
   steam: 267750
@@ -217507,6 +217526,12 @@ Stop Santa - Tower Defense:
 Stop Sign VR:
   pageId: 153470
   steam: 1196450
+Stop The F:
+  lutris: stop-the-f
+  pageId: 216073
+  steam: 2846770
+  steamSide:
+    - 3802540
 Stop it - Driving Simulation:
   pageId: 141509
   steam: 1122860
@@ -243595,8 +243620,12 @@ The Weaponographist:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\WeaponographistSaves}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/WeaponographistSaves}}"
 "The Weeping Swan: Ten Days of the City's Fall":
+  cloud:
+    steam: true
   pageId: 214599
   steam: 3220060
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ZeroCreations\\TheLamentingGeese\\}}"
 The Wendigo:
   pageId: 58789
   steam: 603230

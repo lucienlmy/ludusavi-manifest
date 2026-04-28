@@ -50580,6 +50580,11 @@
       description: Launch
       executable: MetroRedux2033.app
       type: none
+  nameLocalized:
+    japanese: メトロ2033 リダックス
+    koreana: 메트로 2033 리덕스
+    schinese: 地铁2033 重制版
+    tchinese: 戰慄深隧2033 重製版
 286730:
   installDir: Gunship
   launch:
@@ -229381,7 +229386,27 @@
         oslist: windows
       executable: Pixel Stories of Dungeon.exe
       type: default
-590830: {}
+590830:
+  cloud:
+    saves:
+      - path: config/convar
+        pattern: "*.json"
+        root: gameinstall
+      - path: config/game
+        pattern: "*.json"
+        root: gameinstall
+      - path: data
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
+  installDir: sbox
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Play s&box
+      executable: sbox.exe
+      type: default
 590840:
   installDir: Attack of the Giant Mutant Lizard
   launch:
@@ -594654,7 +594679,33 @@
       config:
         oslist: windows
       executable: maze.exe
-1966410: {}
+1966410:
+  cloud:
+    saves:
+      - path: PIO/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Aphelion/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Aphelion
+  launch:
+    - config:
+        ownsdlc: "1977290"
+      description: Shipping
+      executable: "PIO\\Binaries\\Win64\\PIO-Win64-Shipping.exe"
+    - config:
+        ownsdlc: "1977290"
+      description: Test
+      executable: "PIO\\Binaries\\Win64\\PIO-Win64-Test.exe"
+    - config:
+        ownsdlc: "1977290"
+      description: Dev
+      executable: "PIO\\Binaries\\Win64\\PIO.exe"
 1966420:
   cloud:
     saves:
@@ -630900,6 +630951,7 @@
   nameLocalized:
     schinese: 破碎怪谈：恶意关注
     tchinese: 破碎怪談：惡意關注
+2846770: {}
 2847780:
   nameLocalized:
     schinese: 离火长明2
@@ -633773,7 +633825,19 @@
     spanish: "Las Tortugas Ninja: El destino de Splinter"
     tchinese: 忍者龜：史林特的命運
     turkish: "Ninja Kaplumbağalar Splinter'ın Kaderi"
-2996080: {}
+2996080:
+  cloud:
+    saves:
+      - path: ""
+        pattern: e.acc
+        root: gameinstall
+  installDir: TAMASHIKA
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TAMASHIKA.exe
+      type: default
 2996780:
   nameLocalized:
     french: Les Fourmis (2000)
@@ -637553,6 +637617,9 @@
     koreana: 플레이투게더
     schinese: 天天玩乐园
     tchinese: 天天玩樂園
+3198890:
+  nameLocalized:
+    schinese: 深海刮刮乐
 3199170:
   installDir: BLOODSTRIKE
   launch:
@@ -637864,7 +637931,7 @@
 3220060:
   cloud:
     saves:
-      - path: ZeroCreation/TheLamentingGees
+      - path: "ZeroCreations\\TheLamentingGeese"
         pattern: "*"
         platforms:
           - Windows
@@ -646436,7 +646503,10 @@
     schinese: 70年代风格机器人动画 杰比-X
     spanish: "Geppy-X, anime de robots setentero"
     tchinese: 70年代風格機器人動畫《蓋比X》
-4120860: {}
+4120860:
+  installDir: Rock Paper Kill
+  launch:
+    - executable: "rock_paper_kill-win32-x64\\rock_paper_kill.exe"
 4122860:
   installDir: Z.A.T.O.  I Love the World and Everything In It
   launch:

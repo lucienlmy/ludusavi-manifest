@@ -43299,8 +43299,30 @@ Apez:
 Aphelion:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/PIO/Saved":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/PIO/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/DONTNODEntertainment.Pioneer-P10_1t8sv8k1cftdw/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: aphelion--1
+    steamExtra:
+      - 4252750
+      - 4252780
+  installDir:
+    Aphelion: {}
   steam:
     id: 1966410
 Apico:
@@ -255296,11 +255318,6 @@ Far Cry 3:
     "<winLocalAppData>/My Games/Far Cry 3/InputUserActionMap.xml":
       tags:
         - config
-      when:
-        - os: windows
-    "<winProgramData>/Orbit/46":
-      tags:
-        - save
       when:
         - os: windows
   id:
@@ -585599,6 +585616,12 @@ Rock Painting Story:
   steam:
     id: 795060
 Rock Paper Kill:
+  installDir:
+    Rock Paper Kill: {}
+  launch:
+    "<base>/rock_paper_kill-win32-x64/rock_paper_kill.exe":
+      - when:
+          - store: steam
   steam:
     id: 4120860
 Rock Paper Scissors Champion:
@@ -602604,6 +602627,20 @@ Sandbox:
         - config
       when:
         - os: windows
+  id:
+    lutris: sbox
+    steamExtra:
+      - 1892930
+      - 2129370
+      - 3639320
+  installDir:
+    sbox: {}
+  launch:
+    "<base>/sbox.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 590830
 Sandbox Anything:
@@ -604997,6 +605034,13 @@ Scalak:
         - config
   steam:
     id: 858760
+Scale the Depths:
+  id:
+    lutris: scale-the-depths
+    steamExtra:
+      - 3821770
+  steam:
+    id: 3198890
 "Scallywag's Honor":
   cloud:
     steam: true
@@ -616408,6 +616452,11 @@ Shadowrain:
             store: steam
   steam:
     id: 1175480
+Shadowrun:
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/Fasa/Shadowrun:
+      tags:
+        - config
 Shadowrun Chronicles - Boston Lockdown:
   files:
     "<home>/Library/Preferences/unity.Cliffhanger.Shadowrun Chronicles.plist":
@@ -671726,6 +671775,13 @@ Stop Sign VR:
     Stop Sign VR: {}
   steam:
     id: 1196450
+Stop The F:
+  id:
+    lutris: stop-the-f
+    steamExtra:
+      - 3802540
+  steam:
+    id: 2846770
 Stop it - Driving Simulation:
   installDir:
     Stop it - Driving Simulation: {}
@@ -700233,6 +700289,18 @@ Tamashii:
 Tamashika:
   cloud:
     steam: true
+  files:
+    "<base>/e.acc":
+      when:
+        - store: steam
+  installDir:
+    TAMASHIKA: {}
+  launch:
+    "<base>/TAMASHIKA.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2996080
 Tametsi:
@@ -752640,11 +752708,14 @@ The Weaponographist:
   steam:
     id: 329240
 "The Weeping Swan: Ten Days of the City's Fall":
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/ZeroCreation/TheLamentingGees":
+    "<home>/AppData/LocalLow/ZeroCreations/TheLamentingGeese":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     哀鸿：城破十日记: {}
   launch:
