@@ -73133,6 +73133,7 @@ Edge of Memories:
   pageId: 214028
   steam: 2738170
 Edge of Nowhere:
+  lutris: edge-of-nowhere
   pageId: 35790
 Edge of Reality Visual Novel:
   cloud:
@@ -151335,6 +151336,11 @@ My Haunted Doll:
 My Heart Grows Fonder:
   pageId: 135897
   steam: 892980
+My Helpers:
+  pageId: 216094
+  steam: 4002600
+  steamSide:
+    - 4137980
 "My Hero Academia: All's Justice":
   cloud:
     steam: true
@@ -155866,7 +155872,7 @@ Nevermind This:
   steamSide:
     - 2619820
 Neverness to Everness:
-  lutris: "https://lutris.net/games/neverness-to-everness/"
+  lutris: neverness-to-everness/
   pageId: 216079
 Neverout:
   cloud:

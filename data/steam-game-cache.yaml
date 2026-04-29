@@ -646183,6 +646183,7 @@
   launch:
     - executable: "Launch Maggie's Farmyard Adventure.bat"
       type: default
+4002600: {}
 4004630: {}
 4005370:
   cloud:
