@@ -5498,8 +5498,8 @@ Aces and Adventures:
 Aces of World War I:
   pageId: 200689
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Tatanka\\Aces of WWI eng\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\aces of WWI savegames\\}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Tatanka\\Aces of WWI eng}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\aces of WWI savegames}}"
 Aces of the Deep:
   pageId: 205607
 Aces of the Galaxy:
@@ -94956,6 +94956,7 @@ Ghost Guns:
     - Ghost Guns - Horror Shooter
   steam: 1148690
 Ghost Haunting:
+  lutris: ghost-haunting--1
   pageId: 206024
   steam: 3594530
 Ghost In The Barn House:
@@ -98549,6 +98550,12 @@ Grand Theft Auto V:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTA V\\settings.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTA V\\Profiles\\{{P|uid}}|{{P|programdata}}\\Socialclub\\Player\\}}"
+Grand Theft Auto V Enhanced:
+  pageId: 201889
+  steam: 3240220
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTAV Enhanced\\settings.xml}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTAV Enhanced\\Profiles\\{{P|uid}}}}"
 Grand Theft Auto VI:
   pageId: 212191
 "Grand Theft Auto: Chinatown Wars":
@@ -149732,6 +149739,7 @@ Motorhead (2015):
 Motorslice:
   cloud:
     steam: true
+    xbox: true
   gog: 1547815003
   lutris: motorslice
   pageId: 204581
@@ -173936,6 +173944,14 @@ Pool Shark 2:
 Pool of Death:
   pageId: 39570
   steam: 497240
+Pool of Madness:
+  cloud:
+    steam: true
+  lutris: pool-of-madness
+  pageId: 216108
+  steam: 2873750
+  steamSide:
+    - 2887480
 Pool of Radiance:
   cloud:
     gog: true
@@ -184590,8 +184606,13 @@ Reek:
 "Reel Fishing: Road Trip Adventure":
   pageId: 149696
   steam: 1051190
-Reentry - An Orbital Simulator:
+Reentry - A Space Flight Simulator:
+  cloud:
+    steam: true
+  lutris: reentry-an-orbital-simulator
   pageId: 109212
+  renamedFrom:
+    - Reentry - An Orbital Simulator
   steam: 882140
 RefRain - Prism Memories:
   cloud:
@@ -228573,6 +228594,7 @@ Terraformers:
   gog: 1677359007
   gogSide:
     - 1132435802
+    - 1144116855
     - 1469234268
     - 1794729006
   pageId: 169775
@@ -228583,6 +228605,7 @@ Terraformers:
     - 1795320
     - 2646850
     - 2779050
+    - 2779060
   templates:
     - "{{Game data/config|Windows|%userprofile%\\AppData\\LocalLow\\Asteroid Lab\\Terraformers}}"
     - "{{Game data/config|OS X|~/Library/Application Support/Asteroid Lab/Terraformers}}"
@@ -248363,6 +248386,7 @@ Tonka Space Station:
   cloud:
     steam: true
     xbox: true
+  lutris: tony-hawkstm-pro-skatertm-3-4
   pageId: 202014
   steam: 2545710
   templates:

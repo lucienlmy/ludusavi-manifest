@@ -541249,6 +541249,44 @@
 1295660:
   installDir: "Sid Meier's Civilization VII"
   launch:
+    - arguments: "-TitleConfig InvernessTitleConfig_1.4.0.PTRCOPY"
+      config:
+        betakey: ffw3-extended-access
+        osarch: "64"
+        oslist: windows
+      description: FFW Extended Access (DX 12)
+      executable: "Base\\Binaries\\Win64\\Civ7_Win64_DX12_FinalRelease.exe"
+      type: option1
+    - arguments: "-TitleConfig InvernessTitleConfig_1.4.0.PTRCOPY"
+      config:
+        betakey: ffw3-extended-access
+        osarch: "64"
+        oslist: windows
+      description: FFW Extended Access (Vulkan)
+      executable: "Base\\Binaries\\Win64\\Civ7_Win64_Vulkan_FinalRelease.exe"
+      type: option2
+    - arguments: "-TitleConfig InvernessTitleConfig_1.4.0.PTRCOPY"
+      config:
+        betakey: ffw3-extended-access
+        oslist: macos
+      description: FFW Extended Access (macOS)
+      executable: "CivilizationVII.app\\Contents\\MacOS\\CivilizationVII"
+      type: default
+    - arguments: "-TitleConfig InvernessTitleConfig_1.4.0.PTRCOPY"
+      config:
+        betakey: ffw3-extended-access
+        oslist: linux
+      description: FFW Extended Access (Linux)
+      executable: "Base\\Binaries\\linux\\Civ7_linux_Vulkan.sh"
+      type: default
+    - arguments: "-QATesting"
+      config:
+        betakey: "smoke, 2kqa_a"
+        osarch: "64"
+        oslist: windows
+      description: "Sid Meier's Civilization VII (DirectX 12, Release, -QATesting)"
+      executable: "Base\\Binaries\\Win64\\Civ7_Win64_DX12_Release.exe"
+      type: option3
     - config:
         osarch: "64"
         oslist: windows
@@ -541293,7 +541331,7 @@
       executable: "Base\\Binaries\\Win64\\runCiv7Vulkan.bat"
       type: option2
     - config:
-        betakey: "smoke, smoke-dev-1-0-1, smoke-dev-1-1-0, smoke-dev-1-1-1, smoke-legacy"
+        betakey: "smoke, smoke-dev-1-0-1, smoke-dev-1-1-0, smoke-dev-1-1-1, smoke-legacy, playtest-internal, 2kqa_a"
         osarch: "64"
         oslist: windows
       description: "Sid Meier's Civilization VII (DirectX 12, Release)"
@@ -593018,10 +593056,10 @@
       type: option1
     - arguments: "-LOG"
       config:
-        betakey: "daily,weekly,erbbranch,2k_internal,staging,day_15,freeride,image_stability,image_stability_pc,sptm,hotfix"
+        betakey: "daily,weekly,erbbranch,2k_internal,staging,day_15,freeride,sptm,hotfix"
       description: Nero - Test (Optimization / Logs)
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
-      type: option2
+      type: option3
     - config:
         betakey: fpmbranch
       description: Nero - Shipping
@@ -593029,12 +593067,12 @@
       type: option1
     - arguments: "-LOG"
       config:
-        betakey: "daily,weekly,2k_internal,staging,day_15,freeride,image_stability,image_stability_pc,sptm,hotfix"
+        betakey: "daily,weekly,2k_internal,staging,day_15,freeride,sptm,hotfix"
       description: Nero - Dev (No Optimizations / All Logs)
       executable: "\\Nero\\Binaries\\Win64\\Nero.exe"
       type: option1
     - config:
-        betakey: "daily_shipping,weekly_shipping,staging_shipping,external_tech_shipping,release,day_15_shipping,preview,compat_testing,freeride_shipping,image_stability_shipping,image_stability_pc_shipping,sptm_shipping,hotfix_shipping"
+        betakey: "daily_shipping,weekly_shipping,staging_shipping,external_tech_shipping,release,day_15_shipping,preview,compat_testing,freeride_shipping,sptm_shipping,hotfix_shipping"
       description: Nero - Shipping (No Cheats)
       executable: "\\MafiaTheOldCountry\\Binaries\\Win64\\MafiaTheOldCountry.exe"
       type: option1
@@ -593055,6 +593093,18 @@
         oslist: windows
       executable: "\\MafiaTheOldCountry\\Binaries\\Win64\\MafiaTheOldCountry.exe"
       type: default
+    - arguments: "-LOG -ExecCmds=\"H13.Entitlements.GrantAllEntitlements\" -enableDLC -enableFreeride"
+      config:
+        betakey: "daily,weekly"
+      description: "Nero - Test, All DLCs Unlocked (Optimization / Logs)"
+      executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
+      type: option2
+    - arguments: "-LOG -ExecCmds=\"H13.DebugOverlay.Enable 0, DISABLEALLSCREENMESSAGES, Slate.GameLayer.DebugCanvasVisible 0, H13.Entitlements.GrantAllEntitlements\" -enableDLC -enableFreeride"
+      config:
+        betakey: "staging,manoh,playtest"
+      description: "Nero - Test, All DLCs Unlocked, No Debug UI"
+      executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
+      type: option1
     - arguments: "-LOG"
       config:
         betakey: "interim,erbbranch,fcbranch,qatest,devtest,ccbranch,clbranch"
@@ -631406,6 +631456,7 @@
 2873440:
   nameLocalized:
     koreana: 크로노 오디세이
+2873750: {}
 2875280:
   installDir: Is this game trying to kill me Preface
   launch:

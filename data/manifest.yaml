@@ -294463,6 +294463,8 @@ Ghost Guns:
 Ghost Guns - Horror Shooter:
   alias: Ghost Guns
 Ghost Haunting:
+  id:
+    lutris: ghost-haunting--1
   steam:
     id: 3594530
 Ghost In The Barn House:
@@ -305400,6 +305402,28 @@ Grand Theft Auto V:
             store: steam
   steam:
     id: 271590
+Grand Theft Auto V Enhanced:
+  files:
+    "<winDocuments>/Rockstar Games/GTAV Enhanced/Profiles/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Rockstar Games/GTAV Enhanced/settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Grand Theft Auto V Enhanced: {}
+  launch:
+    "<base>/PlayGTAV.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3240220
 "Grand Theft Auto: Episodes from Liberty City":
   files:
     "<winLocalAppData>/Rockstar Games/GTA IV/Settings/SETTINGS_EFLC.CFG":
@@ -536441,6 +536465,15 @@ Pool Shark 2:
 Pool of Death:
   steam:
     id: 497240
+Pool of Madness:
+  cloud:
+    steam: true
+  id:
+    lutris: pool-of-madness
+    steamExtra:
+      - 2887480
+  steam:
+    id: 2873750
 Pool of Radiance:
   cloud:
     gog: true
@@ -569815,11 +569848,15 @@ Reek:
             store: steam
   steam:
     id: 1051190
-Reentry - An Orbital Simulator:
+Reentry - A Space Flight Simulator:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Wilhelmsen Studios/ReEntry/System/*.rsf":
       when:
         - store: steam
+  id:
+    lutris: reentry-an-orbital-simulator
   installDir:
     Reentry - An Orbital Simulator: {}
   launch:
@@ -569830,6 +569867,8 @@ Reentry - An Orbital Simulator:
             store: steam
   steam:
     id: 882140
+Reentry - An Orbital Simulator:
+  alias: Reentry - A Space Flight Simulator
 RefRain - Prism Memories:
   cloud:
     steam: true
@@ -707041,6 +707080,7 @@ Terraformers:
   id:
     gogExtra:
       - 1132435802
+      - 1144116855
       - 1469234268
       - 1794729006
     steamExtra:
@@ -707049,6 +707089,7 @@ Terraformers:
       - 1795320
       - 2646850
       - 2779050
+      - 2779060
   installDir:
     Terraformers: {}
   launch:
@@ -767406,6 +767447,8 @@ Tonight We Riot:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: tony-hawkstm-pro-skatertm-3-4
   installDir:
     THPS34: {}
   launch:
