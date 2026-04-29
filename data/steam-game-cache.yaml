@@ -542279,6 +542279,34 @@
         oslist: windows
       executable: ToodeeAndTopdee.exe
       type: none
+1304280:
+  cloud:
+    saves:
+      - path: AnKaeGames/Elementallis
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Elementallis
+  launch:
+    - config:
+        oslist: windows
+      executable: Elementallis.exe
+    - config:
+        oslist: macos
+      executable: Elementallis.app
+    - config:
+        oslist: linux
+      executable: Elementallis.x86_64
 1304340:
   cloud:
     saves:
@@ -644719,7 +644747,11 @@
     japanese: スーパーダンガンロンパ２×２
     schinese: 超级枪弹辩驳２×２
     tchinese: 超級槍彈辯駁２×２
-3751260: {}
+3751260:
+  nameLocalized:
+    koreana: The Blood of Dawnwalker 더 블러드 오브 던워커
+    schinese: The Blood of Dawnwalker 黎明行者之血
+    tchinese: The Blood of Dawnwalker 黎明行者之血
 3751950:
   nameLocalized:
     brazilian: "Assassin's Creed Black Flag Resynced"

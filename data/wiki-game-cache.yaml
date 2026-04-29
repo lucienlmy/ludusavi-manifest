@@ -25220,6 +25220,7 @@ Bernie Needs Love:
 Berry Bury Berry:
   cloud:
     steam: true
+  lutris: berry-bury-berry
   pageId: 216033
   steam: 3370870
   templates:
@@ -74002,6 +74003,16 @@ Elemental War 2:
 "Elemental: Reforged":
   pageId: 210091
   steam: 3796960
+Elementallis:
+  cloud:
+    steam: true
+  pageId: 216092
+  steam: 1304280
+  steamSide:
+    - 4449270
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/AnKaeGames/Elementallis/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/AnKaeGames/Elementallis/}}"
 Elementals:
   pageId: 151339
   steam: 1174230
@@ -230635,6 +230646,7 @@ The Blood of Dawnwalker:
   cloud:
     steam: true
     xbox: true
+  lutris: the-blood-of-dawnwalker
   pageId: 200865
   steam: 3751260
 The Bloodline:

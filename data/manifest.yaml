@@ -77992,6 +77992,8 @@ Berry Bury Berry:
         - save
       when:
         - os: windows
+  id:
+    lutris: berry-bury-berry
   installDir:
     BerryBerryBerry: {}
   launch:
@@ -229992,6 +229994,36 @@ Elemental War 2:
           - store: steam
   steam:
     id: 3796960
+Elementallis:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/AnKaeGames/Elementallis":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4449270
+  installDir:
+    Elementallis: {}
+  launch:
+    "<base>/Elementallis.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Elementallis.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Elementallis.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1304280
 Elementals:
   steam:
     id: 1174230
@@ -713476,6 +713508,8 @@ The Blood Eclipse:
 The Blood of Dawnwalker:
   cloud:
     steam: true
+  id:
+    lutris: the-blood-of-dawnwalker
   steam:
     id: 3751260
 The Bloodline:
