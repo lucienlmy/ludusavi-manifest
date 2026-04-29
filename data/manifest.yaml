@@ -454500,6 +454500,13 @@ Mold on Pizza:
             store: steam
   steam:
     id: 387870
+Mole:
+  id:
+    lutris: mole--4
+    steamExtra:
+      - 4137420
+  steam:
+    id: 4064510
 Mole Control:
   installDir:
     Mole Control: {}
@@ -512066,6 +512073,18 @@ PacketStorm:
 Packing Life:
   id:
     lutris: packing-life
+  installDir:
+    Packing Life: {}
+  launch:
+    "<base>/Packing Life.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Packing Life.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3482510
 Pact with a Witch:
@@ -614020,6 +614039,7 @@ Settlement Survival:
         - os: mac
           store: steam
   id:
+    lutris: settlement-survival
     steamExtra:
       - 2511170
       - 3061350
@@ -850593,9 +850613,29 @@ Zombie Panic In Wonderland DX:
   steam:
     id: 1173850
 Zombie Panic!:
+  files:
+    "<base>/zp/config.cfg":
+      when:
+        - store: steam
+    "<base>/zp/config_zp.cfg":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 90044
+  installDir:
+    Zombie Panic Mod: {}
+  launch:
+    "<base>/zp.exe":
+      - arguments: "-game zp -gl -steam -secure"
+        when:
+          - os: windows
+            store: steam
+    "<base>/zp.sh":
+      - arguments: "-game zp -gl -steam -secure"
+        when:
+          - os: linux
+            store: steam
   steam:
     id: 3825360
 Zombie Panic! Source:

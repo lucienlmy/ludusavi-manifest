@@ -641849,6 +641849,17 @@
     english: There Are No Orcs
     schinese: 这里没有兽人
 3482510:
+  installDir: Packing Life
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Packing Life.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Packing Life.x86_64
+      type: default
   nameLocalized:
     japanese: パッキングライフ
     koreana: 패킹 라이프
@@ -645227,7 +645238,27 @@
   launch:
     - executable: Megastore Simulator.exe
 3820550: {}
-3825360: {}
+3825360:
+  cloud:
+    saves:
+      - path: zp
+        pattern: config.cfg
+        root: gameinstall
+      - path: zp
+        pattern: config_zp.cfg
+        root: gameinstall
+  installDir: Zombie Panic Mod
+  launch:
+    - arguments: "-game zp -gl -steam -secure"
+      config:
+        oslist: windows
+      executable: zp.exe
+      type: default
+    - arguments: "-game zp -gl -steam -secure"
+      config:
+        oslist: linux
+      executable: zp.sh
+      type: default
 3827840:
   cloud:
     saves:
@@ -646446,6 +646477,7 @@
 4058000: {}
 4061090: {}
 4062420: {}
+4064510: {}
 4069520:
   installDir: Super Battle Golf
   launch:

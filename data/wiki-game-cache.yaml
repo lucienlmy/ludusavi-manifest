@@ -78021,6 +78021,8 @@ Eve of Destruction - REDUX:
   pageId: 199479
 "Eve: The Lost One":
   pageId: 199473
+"Evel Knievel: Interactive Stunt Game":
+  pageId: 216100
 Evemnesis:
   pageId: 104559
   steam: 911440
@@ -118028,6 +118030,8 @@ Iron Man:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\engine.ini}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Sega\\Iron Man\\}}"
+Iron Man and X-O Manowar in Heavy Metal:
+  pageId: 216105
 Iron Marines:
   cloud:
     gog: true
@@ -146978,6 +146982,12 @@ Mold on Pizza:
     steam: true
   pageId: 41417
   steam: 387870
+Mole:
+  lutris: mole--4
+  pageId: 216098
+  steam: 4064510
+  steamSide:
+    - 4137420
 Mole Control:
   pageId: 210035
   steam: 23130
@@ -198888,6 +198898,7 @@ Settled:
 Settlement Survival:
   cloud:
     steam: true
+  lutris: settlement-survival
   pageId: 212311
   steam: 1509510
   steamSide:
@@ -269923,6 +269934,8 @@ Winter Novel:
 Winter Polaris:
   pageId: 153398
   steam: 1150550
+Winter Race 3D:
+  pageId: 216103
 Winter Resort Simulator:
   pageId: 150856
   steam: 1089790
