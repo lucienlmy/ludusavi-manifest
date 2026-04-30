@@ -16216,6 +16216,13 @@ About Elise:
           - store: steam
   steam:
     id: 448930
+About Fishing:
+  id:
+    lutris: about-fishing
+    steamExtra:
+      - 3940070
+  steam:
+    id: 3856530
 "About Love, Hate and the other ones":
   cloud:
     steam: true
@@ -46835,6 +46842,12 @@ Ariana and the Elder Codex:
   id:
     steamExtra:
       - 4241900
+  installDir:
+    Ariana and the Elder Codex: {}
+  launch:
+    "<base>/Ariana and the Elder Codex.exe":
+      - when:
+          - store: steam
   steam:
     id: 3986690
 Arid:
@@ -92818,6 +92831,7 @@ Blue Prince:
     lutris: blue-prince
     steamExtra:
       - 2984250
+      - 3711820
   installDir:
     Blue Prince: {}
   launch:
@@ -439030,6 +439044,13 @@ Meet the Miner - WDR VR Bergwerk:
     Meet the Miner - WDR VR Bergwerk: {}
   steam:
     id: 916130
+Meet the Robinsons:
+  files:
+    "<winAppData>/Disney Interactive Studios/Meet The Robinsons/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 Meet.Hunter:
   installDir:
     MeetHunter: {}
@@ -493707,6 +493728,13 @@ Obey Me:
             store: steam
   steam:
     id: 781880
+Object Impermanence:
+  id:
+    lutris: object-impermanence
+    steamExtra:
+      - 4056540
+  steam:
+    id: 3595450
 Objects in Space:
   cloud:
     gog: true
@@ -524234,6 +524262,10 @@ Phoning Home:
 Phonopolis:
   gog:
     id: 1093540480
+  id:
+    lutris: phonopolis
+    steamExtra:
+      - 4109130
   steam:
     id: 1206070
 Photo Finish:

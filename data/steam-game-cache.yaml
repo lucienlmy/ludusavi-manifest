@@ -526598,7 +526598,12 @@
         oslist: macos
       executable: HappyGame.app
       type: default
-1206070: {}
+1206070:
+  nameLocalized:
+    japanese: Phonopolis(フォノポリス)
+    koreana: Phonopolis (포노폴리스)
+    schinese: 《喇叭之城 (Phonopolis)》
+    tchinese: 《音域之城》（Phonopolis）
 1206080:
   installDir: Zombie World Apocalypse
   launch:
@@ -643295,6 +643300,7 @@
     tchinese: 《決勝時刻®：現代戰爭® III 2023》
     turkish: "Call of Duty®: Modern Warfare® III"
     ukrainian: "Call of Duty®: Modern Warfare® III"
+3595450: {}
 3597580:
   cloud:
     saves:
@@ -645548,6 +645554,10 @@
       description: "Play Red Bow: Strange Dream"
       executable: Game.exe
       type: default
+3856530:
+  nameLocalized:
+    schinese: 待钓之鱼
+    tchinese: 待釣之魚
 3857790: {}
 3862670:
   cloud:
@@ -646248,6 +646258,14 @@
     schinese: 城市猎人
     tchinese: 城市獵人
 3986690:
+  cloud:
+    saves:
+      - path: "Ariana and the Elder Codex/{64BitSteamID}/"
+        pattern: "*"
+        root: WinAppDataRoaming
+  installDir: Ariana and the Elder Codex
+  launch:
+    - executable: Ariana and the Elder Codex.exe
   nameLocalized:
     japanese: 魔法司書アリアナ ～七英傑の書～
     schinese: 魔法司书阿莉艾娜 ～七英杰之书～

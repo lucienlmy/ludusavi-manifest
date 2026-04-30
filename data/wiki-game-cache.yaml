@@ -5021,6 +5021,12 @@ Aborigenus:
 About Elise:
   pageId: 51519
   steam: 448930
+About Fishing:
+  lutris: about-fishing
+  pageId: 216115
+  steam: 3856530
+  steamSide:
+    - 3940070
 "About Love, Hate and the other ones":
   cloud:
     steam: true
@@ -29973,6 +29979,7 @@ Blue Prince:
   steam: 1569580
   steamSide:
     - 2984250
+    - 3711820
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dogubomb\\BLUE PRINCE\\storage}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\RawFury.BluePrince_9s0pnehqffj7t\\SystemAppData\\wgs\\}}"
@@ -141853,7 +141860,10 @@ Meet the Miner - WDR VR Bergwerk:
   pageId: 112204
   steam: 916130
 Meet the Robinsons:
+  malformed: true
   pageId: 81386
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Disney Interactive Studios\\Meet The Robinsons\\SaveGames}}"
 Meet.Hunter:
   pageId: 93043
   steam: 731680
@@ -159989,6 +159999,12 @@ Obey Me:
 "Object \"Cleaning\"":
   pageId: 80960
   steam: 781880
+Object Impermanence:
+  lutris: object-impermanence
+  pageId: 216124
+  steam: 3595450
+  steamSide:
+    - 4056540
 Objects in Space:
   cloud:
     gog: true
@@ -170075,8 +170091,11 @@ Phoning Home:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Ion Lands\\Phoning Home\\}}"
 Phonopolis:
   gog: 1093540480
+  lutris: phonopolis
   pageId: 178546
   steam: 1206070
+  steamSide:
+    - 4109130
 Photo Finish:
   pageId: 114544
   steam: 943950
@@ -250343,6 +250362,8 @@ Toy Generals:
 Toy Goblins:
   pageId: 70014
   steam: 679080
+"Toy Golf: Extreme":
+  pageId: 216119
 Toy Gun Office Simulator:
   pageId: 107968
   steam: 913770
