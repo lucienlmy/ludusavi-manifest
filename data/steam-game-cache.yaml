@@ -219505,6 +219505,12 @@
       executable: BattlefleetGothic2/Binaries/Win64/BattlefleetGothic2-Win64-Test.exe
       type: none
       workingdir: BattlefleetGothic2/Binaries/Win64/
+    - config:
+        betakey: autoupload
+        osarch: "64"
+        oslist: windows
+      description: OpenSSL test
+      executable: BattlefleetGothic2-Win64-Shipping.exe
 573110:
   installDir: AWAY
   launch:
@@ -443692,6 +443698,26 @@
       executable: Game.exe
       type: none
 1022980:
+  cloud:
+    saves:
+      - path: Blue Bottle Games/Ostranauts/Saves/
+        pattern: "*.zip"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Blue Bottle Games/Ostranauts/Saves/
+        pattern: "*.json"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Blue Bottle Games/Ostranauts/Saves/
+        pattern: "*.png"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: Ostranauts
   launch:
     - config:
@@ -513496,7 +513522,7 @@
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290
         osarch: "64"
         oslist: windows
       description: Dev Endpoints (EOS)
@@ -513504,7 +513530,7 @@
       type: option1
     - arguments: "-steam"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290
         osarch: "64"
         oslist: windows
       description: Prod Endpoints (EOS)
@@ -594538,7 +594564,7 @@
   nameLocalized:
     japanese: サブノーティカ２
     koreana: 서브노티카 2
-    schinese: 深海迷航2
+    schinese: Subnautica 2：异星水域
 1963040:
   cloud:
     saves:
@@ -614334,7 +614360,12 @@
     sc_schinese: 秘境战盟
     schinese: 秘境战盟
     tchinese: 秘境戰盟
-2353060: {}
+2353060:
+  installDir: InvincibleVS
+  launch:
+    - description: InvincibleVS
+      executable: InvincibleVS.exe
+      type: option1
 2353280:
   cloud:
     saves:
@@ -628148,7 +628179,31 @@
     - config:
         oslist: macos
       executable: Grunn_mac.app
-2723430: {}
+2723430:
+  cloud:
+    saves:
+      - path: Nagai Industries/inKonbini/
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: inKonbini
+  launch:
+    - config:
+        oslist: windows
+      executable: inKONBINI.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: inKONBINI.app
+    - config:
+        ownsdlc: "4689760"
+      description: The Art of inKONBINI
+      executable: The_Art_of_inKONBINI.pdf
 2725260:
   cloud:
     saves:
@@ -643921,6 +643976,14 @@
   installDir: RogueDiceR
   launch:
     - executable: Dice.exe
+3636440:
+  installDir: Click To Continue
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: PaperclipFactory
+      type: default
 3636620:
   cloud:
     saves:
@@ -645831,6 +645894,22 @@
         oslist: windows
       executable: Prune.exe
       type: default
+3903800:
+  cloud:
+    saves:
+      - path: /Resources/save/
+        pattern: "*"
+        root: gameinstall
+  installDir: Mom Stolen in Space
+  launch:
+    - config:
+        oslist: windows
+      executable: player.exe
+  nameLocalized:
+    japanese: 廃コロニーからの脱出
+    koreana: 폐허 콜로니로부터 탈출
+    schinese: 迷失在太空废墟中的母亲
+    tchinese: 迷失在太空廢墟中的母親
 3906660:
   cloud:
     saves:
@@ -646930,6 +647009,7 @@
         oslist: windows
       executable: Legacy of Kain Ascendance.exe
       type: default
+4244770: {}
 4244910: {}
 4249100:
   installDir: 4249100_Biohazard

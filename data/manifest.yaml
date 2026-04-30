@@ -43276,10 +43276,6 @@ Apex Legends:
           - bit: 64
             os: windows
             store: steam
-  registry:
-    HKEY_CURRENT_USER/SOFTWARE/Valve/Source/r2:
-      tags:
-        - config
   steam:
     id: 1172470
 Apex Tournament:
@@ -60674,6 +60670,10 @@ Azai - TD:
   steam:
     id: 681610
 "Azaran: Islands of the Jinn":
+  id:
+    lutris: azaran-islands-of-the-jinn
+    steamExtra:
+      - 3769110
   steam:
     id: 2994220
 "Azkend 2: The World Beneath":
@@ -136107,6 +136107,30 @@ Click and Manage Tycoon:
 Click the Business:
   steam:
     id: 959980
+Click to Continue:
+  files:
+    "<base>/PaperclipFactory/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/PaperclipFactory/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: click-to-continue
+  installDir:
+    Click To Continue: {}
+  launch:
+    "<base>/PaperclipFactory":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3636440
 Click.O.Fast:
   steam:
     id: 856510
@@ -343937,6 +343961,9 @@ House of Decay:
     steam: true
   id:
     lutris: house-of-decay
+    steamExtra:
+      - 3296340
+      - 4111460
   steam:
     id: 2899350
 House of Detention:
@@ -357050,9 +357077,29 @@ InGame.exe:
 InKonbini:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Nagai Industries/inKonbini/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Nagai Industries/inKonbini/*.dat":
+      when:
+        - os: mac
+          store: steam
   id:
+    lutris: inkonbini
     steamExtra:
       - 3638700
+  installDir:
+    inKonbini: {}
+  launch:
+    "<base>/inKONBINI.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/inKONBINI.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2723430
 InMind 2 VR:
@@ -364781,6 +364828,17 @@ Invicta Beam:
 Invincible VS:
   id:
     lutris: invincible-vs
+    steamExtra:
+      - 4229690
+      - 4229700
+      - 4439910
+      - 4439980
+      - 4439990
+      - 4440070
+      - 4440100
+      - 4440110
+  installDir:
+    InvincibleVS: {}
   steam:
     id: 2353060
 Invisible:
@@ -446934,6 +446992,11 @@ Midnight Ultra:
             store: steam
   steam:
     id: 731590
+"Midnight Watcher: Village":
+  cloud:
+    steam: true
+  steam:
+    id: 4244770
 Midnight Wave:
   steam:
     id: 904840
@@ -454726,6 +454789,22 @@ Molten Armor:
             store: steam
   steam:
     id: 693670
+Mom Stolen in Space:
+  cloud:
+    steam: true
+  files:
+    "<base>/Resources/save":
+      when:
+        - store: steam
+  installDir:
+    Mom Stolen in Space: {}
+  launch:
+    "<base>/player.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3903800
 "Momento Temporis: Light from the Deep":
   cloud:
     steam: true
@@ -616461,7 +616540,7 @@ Shadowgate (2014):
     id: 294440
 Shadowgrounds:
   files:
-    "<base>/Config/options.txt":
+    "<base>/Config":
       tags:
         - config
       when:
@@ -662643,7 +662722,7 @@ Star Wars Outlaws:
       - when:
           - store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Petroglyph:
+    HKEY_CURRENT_USER/Software/Petroglyph/StarWars:
       tags:
         - config
   steam:
@@ -762444,17 +762523,11 @@ Tiny Bookshop:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/neoludic games/Tiny Bookshop/<storeUserId>/*.save":
+    "<home>/AppData/LocalLow/neoludic games/Tiny Bookshop/uid/Saves":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/neoludic games/Tiny Bookshop/<storeUserId>/**/*.save":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/neoludic games/Tiny Bookshop/<storeUserId>/*.save":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: tiny-bookshop
     steamExtra:

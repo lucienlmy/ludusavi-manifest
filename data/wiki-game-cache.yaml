@@ -13735,7 +13735,7 @@ Apex Legends:
   pageId: 126989
   steam: 1172470
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Respawn\\Apex\\local\\settings.cfg|{{P|userprofile}}\\Saved Games\\Respawn\\Apex\\local\\videoconfig.txt|{{P|userprofile}}\\Saved Games\\Respawn\\Apex\\profile\\profile.cfg|{{P|hkcu}}\\SOFTWARE\\Valve\\Source\\r2}}"
+    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Respawn\\Apex\\local\\settings.cfg|{{P|userprofile}}\\Saved Games\\Respawn\\Apex\\local\\videoconfig.txt|{{P|userprofile}}\\Saved Games\\Respawn\\Apex\\profile\\profile.cfg}}"
 Apex Tournament:
   pageId: 77198
   steam: 656260
@@ -19448,8 +19448,11 @@ Azai - TD:
   pageId: 66197
   steam: 681610
 "Azaran: Islands of the Jinn":
+  lutris: azaran-islands-of-the-jinn
   pageId: 205382
   steam: 2994220
+  steamSide:
+    - 3769110
 "Azkend 2: The World Beneath":
   cloud:
     steam: true
@@ -43603,6 +43606,13 @@ Click and Manage Tycoon:
 Click the Business:
   pageId: 121321
   steam: 959980
+Click to Continue:
+  lutris: click-to-continue
+  pageId: 216130
+  steam: 3636440
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\PaperclipFactory\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\PaperclipFactory\\Saved\\SaveGames\\}}"
 Click.O.Fast:
   pageId: 93735
   steam: 856510
@@ -111177,6 +111187,9 @@ House of Decay:
   renamedFrom:
     - House Of Decay
   steam: 2899350
+  steamSide:
+    - 3296340
+    - 4111460
 House of Detention:
   pageId: 164354
   steam: 1293230
@@ -115274,6 +115287,7 @@ InGame.exe:
 InKonbini:
   cloud:
     steam: true
+  lutris: inkonbini
   pageId: 215365
   steam: 2723430
   steamSide:
@@ -117711,6 +117725,15 @@ Invincible VS:
   lutris: invincible-vs
   pageId: 207292
   steam: 2353060
+  steamSide:
+    - 4229690
+    - 4229700
+    - 4439910
+    - 4439980
+    - 4439990
+    - 4440070
+    - 4440100
+    - 4440110
 Invisible:
   pageId: 80346
   steam: 777560
@@ -144611,6 +144634,11 @@ Midnight Swamp:
 Midnight Ultra:
   pageId: 74459
   steam: 731590
+"Midnight Watcher: Village":
+  cloud:
+    steam: true
+  pageId: 216147
+  steam: 4244770
 Midnight Wave:
   pageId: 113586
   steam: 904840
@@ -147044,6 +147072,11 @@ Molly - Can you survive 100 nights?:
 Molten Armor:
   pageId: 68484
   steam: 693670
+Mom Stolen in Space:
+  cloud:
+    steam: true
+  pageId: 216133
+  steam: 3903800
 "Momento Temporis: Light from the Deep":
   cloud:
     steam: true
@@ -199756,7 +199789,7 @@ Shadowgrounds:
   steamSide:
     - 2510
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Config\\options.txt}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Config\\}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.frozenbyte/shadowgrounds/}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.frozenbyte/shadowgrounds/}}"
@@ -214632,7 +214665,7 @@ Star Wars Outlaws:
   steamSide:
     - 32472
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Petroglyph\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Petroglyph\\\\StarWars}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Petroglyph\\Empire At War\\Save\\}}"
 "Star Wars: Episode I - Battle for Naboo":
   pageId: 6482
@@ -246765,6 +246798,8 @@ Tiny Bookshop:
     - 3002280
     - 3933680
     - 3933690
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\neoludic games\\Tiny Bookshop\\uid\\Saves}}"
 Tiny Brains:
   cloud:
     steam: true
