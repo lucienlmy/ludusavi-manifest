@@ -539434,19 +539434,19 @@
       description: Play Retail
       executable: "OakGame\\Binaries\\Win64\\Borderlands4.exe"
     - config:
-        betakey: gbxinternal
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Test) - gbxinternal
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
     - config:
-        betakey: gbxinternal
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Shipping) - gbxinternal
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Shipping.exe"
     - config:
-        betakey: gbxinternal
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Development) - gbxinternal
@@ -546738,7 +546738,18 @@
     japanese: ウォーグルーヴ 2
     schinese: 战律 2
     tchinese: 戰律 2
-1346290: {}
+1346290:
+  cloud:
+    saves:
+      - path: Interabang Entertainment/Jay and Silent Bob_ Chronic Blunt Punch
+        pattern: "*.jasbs"
+        root: WinAppDataLocalLow
+  installDir: Jay and Silent Bob Chronic Blunt Punch
+  launch:
+    - config:
+        oslist: windows
+      executable: Jay and Silent Bob Chronic Blunt Punch.exe
+      type: default
 1346360:
   cloud:
     saves:
@@ -590504,9 +590515,13 @@
       description: Open Readme (English)
       executable: Readme_en.txt
     - arguments: "-prefernvidia"
+      config:
+        oslist: windows
       description: Run on NVidia GPU
       executable: CaptainGazman.exe
     - arguments: "-preferintel"
+      config:
+        oslist: windows
       description: Run on Intel GPU
       executable: CaptainGazman.exe
     - arguments: "-notexturestreaming -d3d12"
@@ -590524,16 +590539,6 @@
         oslist: macos
       description: Run with Metal (recommended)
       executable: CaptainGazman-Mac-Shipping.app
-    - arguments: "-featureleveles31"
-      config:
-        oslist: macos
-      description: "Run with Metal ES 3.1 (Potato Mode #1)"
-      executable: CaptainGazman-Mac-Shipping.app
-    - arguments: "-metalmrt"
-      config:
-        oslist: macos
-      description: "Run with Metal for tvOS (Potato Mode #2)"
-      executable: CaptainGazman-Mac-Shipping.app
     - config:
         oslist: macos
       description: Open Readme (English)
@@ -590542,10 +590547,6 @@
         oslist: macos
       description: Open Readme (Russian)
       executable: Readme_ru.txt
-    - config:
-        oslist: macos
-      description: Open Readme (Romanian)
-      executable: Readme_ro.txt
     - config:
         oslist: windows
       description: Open Readme (Russian)
@@ -590559,16 +590560,6 @@
         oslist: macos
       description: Standard Mac Run
       executable: CaptainGazman-Mac-Shipping.app
-    - arguments: "-featureleveles31 -vulkan"
-      config:
-        oslist: windows
-      description: Run with Potato Vulkan
-      executable: CaptainGazman.exe
-    - arguments: "-featureleveles31 -vulkan"
-      config:
-        oslist: linux
-      description: Run with Potato Vulkan (Linux)
-      executable: CaptainGazman.sh
     - config:
         oslist: linux
       description: RTFM (English)
@@ -590581,34 +590572,23 @@
         oslist: linux
       description: RTFM (Romanian)
       executable: Readme_ro.txt
-    - arguments: "-featureleveles31 -d3d11"
+    - arguments: "-d3d12 -shitmode"
       config:
         oslist: windows
-      description: Run in potato mode (DirectX 11)
+      description: Low-Res Textures (DirectX 12)
       executable: CaptainGazman.exe
     - config:
         oslist: windows
-      description: Open Readme (Romanian)
-      executable: Readme_ro.txt
-    - arguments: "-d3d12"
-      config:
+      description: Open Manual (English)
+      executable: manual_en.pdf
+    - config:
         oslist: windows
-      description: Run with DirectX 12 (recommended)
-      executable: CaptainGazman.exe
+      description: Open Manual (Russian)
+      executable: manual_ru.pdf
     - arguments: "-d3d11"
       config:
         oslist: windows
       description: Run with DirectX 11 (Windows 8.1 and older)
-      executable: CaptainGazman.exe
-    - arguments: "-featureleveles31 -d3d12"
-      config:
-        oslist: windows
-      description: Run in potato mode (DirectX 12)
-      executable: CaptainGazman.exe
-    - arguments: "-vulkan -sm5"
-      config:
-        oslist: windows
-      description: Run with Vulkan
       executable: CaptainGazman.exe
     - arguments: "-vulkan"
       config:
@@ -590616,6 +590596,8 @@
       description: Run with Vulkan (Linux)
       executable: CaptainGazman.sh
     - arguments: "-preferamd"
+      config:
+        oslist: windows
       description: Run on AMD GPU
       executable: CaptainGazman.exe
 1907440:
@@ -605416,7 +605398,26 @@
     koreana: "브라더스: 두 아들 이야기 리메이크 (Brothers: A Tale of Two Sons Remake)"
     schinese: "兄弟：双子传说 重制版（Brothers: A Tale of Two Sons Remake）"
     tchinese: "《兄弟：雙子傳說》重製版（Brothers: A Tale of Two Sons Remake）"
-2154070: {}
+2154070:
+  cloud:
+    saves:
+      - path: Industria_2/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: INDUSTRIA 2
+  launch:
+    - arguments: "-d3d12"
+      config:
+        oslist: windows
+      description: INDUSTRIA 2 Ray Tracing (DX12)
+      executable: Industria_2.exe
+      type: option1
+    - arguments: "-d3d11"
+      config:
+        oslist: windows
+      description: INDUSTRIA 2 Performance Mode (DX11)
+      executable: Industria_2.exe
+      type: option2
 2154230:
   installDir: AIArtImpostor
   launch:
@@ -645999,6 +646000,28 @@
       type: default
       workingdir: launcher
 3935020: {}
+3936610:
+  nameLocalized:
+    brazilian: "Monopoly: Star Wars™ Heroes vs. Villains"
+    danish: "Monopoly: Star Wars™ Heroes vs. Villains"
+    dutch: "Monopoly: Star Wars™ Heroes vs. Villains"
+    finnish: "Monopoly: Star Wars™ Heroes vs. Villains"
+    french: "Monopoly: Star Wars™ Heroes vs. Villains"
+    german: "Monopoly: Star Wars™ Heroes vs. Villains"
+    italian: "Monopoly: Star Wars™ Heroes vs. Villains"
+    japanese: モノポリー：スター・ウォーズ ヒーロー vs ヴィラン
+    koreana: "모노폴리: 스타워즈 히어로즈 vs 빌런즈"
+    norwegian: "Monopoly: Star Wars™ Heroes vs. Villains"
+    polish: "Monopoly: Star Wars™ Heroes vs. Villains"
+    portuguese: "Monopoly: Star Wars™ Heroes vs. Villains"
+    russian: "Monopoly: Star Wars™ Heroes vs. Villains"
+    schinese: 地产大亨：星球大战™正邪交锋
+    spanish: "Monopoly: Star Wars™ Heroes vs. Villains"
+    swedish: "Monopoly: Star Wars™ Heroes vs. Villains"
+    tchinese: 地產大亨：星際大戰 英雄 vs 惡棍
+    thai: "Monopoly: Star Wars™ Heroes vs. Villains"
+    turkish: "Monopoly: Star Wars™ Heroes vs. Villains"
+    ukrainian: "Monopoly: Star Wars™ Heroes vs. Villains"
 3937550:
   cloud:
     saves:

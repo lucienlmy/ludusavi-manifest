@@ -104747,8 +104747,6 @@ Bubli:
   steam:
     id: 322430
 Bubsy 4D:
-  cloud:
-    steam: true
   gog:
     id: 1844328427
   id:
@@ -114744,14 +114742,6 @@ Captain Gazman Day Of The Rage:
         when:
           - os: mac
             store: steam
-      - arguments: "-featureleveles31"
-        when:
-          - os: mac
-            store: steam
-      - arguments: "-metalmrt"
-        when:
-          - os: mac
-            store: steam
       - arguments: "-metalsm5"
         when:
           - os: mac
@@ -114766,10 +114756,12 @@ Captain Gazman Day Of The Rage:
             store: steam
       - arguments: "-prefernvidia"
         when:
-          - store: steam
+          - os: windows
+            store: steam
       - arguments: "-preferintel"
         when:
-          - store: steam
+          - os: windows
+            store: steam
       - arguments: "-notexturestreaming -d3d12"
         when:
           - os: windows
@@ -114778,11 +114770,7 @@ Captain Gazman Day Of The Rage:
         when:
           - os: windows
             store: steam
-      - arguments: "-featureleveles31 -vulkan"
-        when:
-          - os: windows
-            store: steam
-      - arguments: "-featureleveles31 -d3d11"
+      - arguments: "-d3d12 -shitmode"
         when:
           - os: windows
             store: steam
@@ -114790,22 +114778,11 @@ Captain Gazman Day Of The Rage:
         when:
           - os: windows
             store: steam
-      - arguments: "-featureleveles31 -d3d12"
-        when:
-          - os: windows
-            store: steam
-      - arguments: "-vulkan -sm5"
-        when:
-          - os: windows
-            store: steam
       - arguments: "-preferamd"
         when:
-          - store: steam
-    "<base>/CaptainGazman.sh":
-      - arguments: "-featureleveles31 -vulkan"
-        when:
-          - os: linux
+          - os: windows
             store: steam
+    "<base>/CaptainGazman.sh":
       - arguments: "-vulkan"
         when:
           - os: linux
@@ -114820,10 +114797,6 @@ Captain Gazman Day Of The Rage:
             store: steam
     "<base>/Readme_ro.txt":
       - when:
-          - os: windows
-            store: steam
-          - os: mac
-            store: steam
           - os: linux
             store: steam
     "<base>/Readme_ru.txt":
@@ -114833,6 +114806,14 @@ Captain Gazman Day Of The Rage:
           - os: mac
             store: steam
           - os: linux
+            store: steam
+    "<base>/manual_en.pdf":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/manual_ru.pdf":
+      - when:
+          - os: windows
             store: steam
   steam:
     id: 1907400
@@ -114868,14 +114849,6 @@ Captain Gazman Day Of The Rage:
         when:
           - os: mac
             store: steam
-      - arguments: "-featureleveles31"
-        when:
-          - os: mac
-            store: steam
-      - arguments: "-metalmrt"
-        when:
-          - os: mac
-            store: steam
       - arguments: "-metalsm5"
         when:
           - os: mac
@@ -114890,10 +114863,12 @@ Captain Gazman Day Of The Rage:
             store: steam
       - arguments: "-prefernvidia"
         when:
-          - store: steam
+          - os: windows
+            store: steam
       - arguments: "-preferintel"
         when:
-          - store: steam
+          - os: windows
+            store: steam
       - arguments: "-notexturestreaming -d3d12"
         when:
           - os: windows
@@ -114902,11 +114877,7 @@ Captain Gazman Day Of The Rage:
         when:
           - os: windows
             store: steam
-      - arguments: "-featureleveles31 -vulkan"
-        when:
-          - os: windows
-            store: steam
-      - arguments: "-featureleveles31 -d3d11"
+      - arguments: "-d3d12 -shitmode"
         when:
           - os: windows
             store: steam
@@ -114914,22 +114885,11 @@ Captain Gazman Day Of The Rage:
         when:
           - os: windows
             store: steam
-      - arguments: "-featureleveles31 -d3d12"
-        when:
-          - os: windows
-            store: steam
-      - arguments: "-vulkan -sm5"
-        when:
-          - os: windows
-            store: steam
       - arguments: "-preferamd"
         when:
-          - store: steam
-    "<base>/CaptainGazman.sh":
-      - arguments: "-featureleveles31 -vulkan"
-        when:
-          - os: linux
+          - os: windows
             store: steam
+    "<base>/CaptainGazman.sh":
       - arguments: "-vulkan"
         when:
           - os: linux
@@ -114944,10 +114904,6 @@ Captain Gazman Day Of The Rage:
             store: steam
     "<base>/Readme_ro.txt":
       - when:
-          - os: windows
-            store: steam
-          - os: mac
-            store: steam
           - os: linux
             store: steam
     "<base>/Readme_ru.txt":
@@ -114957,6 +114913,14 @@ Captain Gazman Day Of The Rage:
           - os: mac
             store: steam
           - os: linux
+            store: steam
+    "<base>/manual_en.pdf":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/manual_ru.pdf":
+      - when:
+          - os: windows
             store: steam
   steam:
     id: 1907400
@@ -188618,6 +188582,7 @@ Densha de Go! Final:
         - config
 Denshattack!:
   id:
+    lutris: denshattack
     steamExtra:
       - 4142750
   steam:
@@ -358599,12 +358564,18 @@ Industria:
 Industria 2:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Industria_2/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   gog:
     id: 2085256842
   id:
     lutris: industria-2
     steamExtra:
       - 4063300
+  installDir:
+    INDUSTRIA 2: {}
   steam:
     id: 2154070
 Industrial Annihilation:
@@ -371230,8 +371201,19 @@ Jay Walker:
   steam:
     id: 937320
 "Jay and Silent Bob: Chronic Blunt Punch":
+  files:
+    "<home>/AppData/LocalLow/Interabang Entertainment/Jay and Silent Bob_ Chronic Blunt Punch/*.jasbs":
+      when:
+        - store: steam
   id:
     lutris: jay-and-silent-bob-chronic-blunt-punch
+  installDir:
+    Jay and Silent Bob Chronic Blunt Punch: {}
+  launch:
+    "<base>/Jay and Silent Bob Chronic Blunt Punch.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1346290
 "Jay and Silent Bob: Mall Brawl":
@@ -455966,6 +455948,9 @@ Monopoly Tycoon:
         - save
       when:
         - os: windows
+"Monopoly: Star Wars - Heroes vs. Villains":
+  steam:
+    id: 3936610
 Monovert DX:
   installDir:
     Monovert DX: {}
@@ -616464,6 +616449,8 @@ Shadowgrounds:
     id: 1207658914
   id:
     lutris: shadowgrounds
+    steamExtra:
+      - 2510
   installDir:
     Shadowgrounds: {}
   launch:

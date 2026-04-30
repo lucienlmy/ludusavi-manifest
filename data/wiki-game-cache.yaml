@@ -33747,7 +33747,6 @@ Bubli:
   steam: 322430
 Bubsy 4D:
   cloud:
-    steam: true
     xbox: true
   gog: 1844328427
   lutris: bubsy-4d
@@ -60479,6 +60478,7 @@ Densha de Go! Final:
 Denshattack!:
   cloud:
     xbox: true
+  lutris: denshattack
   pageId: 207242
   steam: 2524850
   steamSide:
@@ -147445,6 +147445,9 @@ Monopoly Tycoon:
     - "{{Game data/saves|Windows|{{p|game}}\\profiles}}"
 "Monopoly: SpongeBob SquarePants Edition":
   pageId: 189870
+"Monopoly: Star Wars - Heroes vs. Villains":
+  pageId: 216112
+  steam: 3936610
 Monovert DX:
   pageId: 130070
   steam: 1033130
@@ -182718,6 +182721,8 @@ Re-Loaded:
   steam: 2395450
   steamSide:
     - 379380
+Re-Mission:
+  pageId: 216110
 Re-O-Ri:
   pageId: 122872
   steam: 958750
@@ -199729,6 +199734,8 @@ Shadowgrounds:
   lutris: shadowgrounds
   pageId: 1578
   steam: 2500
+  steamSide:
+    - 2510
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Config\\options.txt}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.frozenbyte/shadowgrounds/}}"
