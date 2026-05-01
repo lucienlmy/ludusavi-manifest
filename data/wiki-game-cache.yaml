@@ -42504,6 +42504,11 @@ Citadel 1986:
   steam: 510830
   steamSide:
     - 513040
+Citadel Remonstered:
+  cloud:
+    gog: true
+  gog: 1786501441
+  pageId: 216171
 Citadel Stormer 2:
   pageId: 198485
   steam: 2224160
@@ -47581,6 +47586,8 @@ Cook Serve Forever:
   lutris: cook-serve-delicious-2
   pageId: 40369
   steam: 386620
+  steamSide:
+    - 713690
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\NEW_CSD2_PS4Steam}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/NEW_CSD2_PS4Steam}}"
@@ -123366,6 +123373,10 @@ Kiborg:
   renamedFrom:
     - KIBORG
   steam: 2405060
+  steamSide:
+    - 3590420
+    - 3760560
+    - 4298680
 "Kiborg: Arena":
   pageId: 195863
   renamedFrom:
@@ -148583,8 +148594,21 @@ Moofa:
   pageId: 149342
   steam: 1125290
 "Moomintroll: Winter's Warmth":
+  cloud:
+    steam: true
+  lutris: moomintroll-winters-warmth
   pageId: 216076
   steam: 3256150
+  steamSide:
+    - 4331970
+    - 4331980
+    - 4331990
+    - 4384180
+    - 4384190
+    - 4384200
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Moomintroll Winter's Warmth\\SettingsData.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Moomintroll Winter's Warmth\\Saves\\GlobalData.json|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Moomintroll Winter's Warmth\\Saves\\SaveSlot*.json}}"
 Moon Breakers:
   pageId: 40779
   steam: 208030
@@ -230560,11 +230584,13 @@ The Bible Trivia Challenge:
 The Bibleman:
   pageId: 142875
 The Big Catch:
+  lutris: the-big-catch--1
   pageId: 207132
   steam: 2146290
 "The Big Catch: Tacklebox":
   cloud:
     steam: true
+  lutris: the-big-catch-tacklebox
   pageId: 195513
   steam: 2985610
   templates:

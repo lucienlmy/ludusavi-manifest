@@ -132816,6 +132816,11 @@ Citadel 1986:
             store: steam
   steam:
     id: 510830
+Citadel Remonstered:
+  cloud:
+    gog: true
+  gog:
+    id: 1786501441
 Citadel Stormer 2:
   installDir:
     Citadel Stormer 2: {}
@@ -148731,6 +148736,8 @@ Cook Serve Forever:
     id: 1091423420
   id:
     lutris: cook-serve-delicious-2
+    steamExtra:
+      - 713690
   installDir:
     CookServeDelicious2: {}
   launch:
@@ -382025,6 +382032,10 @@ Kiborg:
           store: steam
   id:
     lutris: kiborg
+    steamExtra:
+      - 3590420
+      - 3760560
+      - 4298680
   installDir:
     KIBORG: {}
   launch:
@@ -459179,14 +459190,33 @@ Moofa:
   steam:
     id: 1125290
 "Moomintroll: Winter's Warmth":
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/Hyper Games/Moomintroll Winter's Warmth/Saves/*.json":
+    "<home>/AppData/LocalLow/Hyper Games/Moomintroll Winter's Warmth/Saves/GlobalData.json":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/no.hypergames.moomintroll/Saves/*.json":
+        - os: windows
+    "<home>/AppData/LocalLow/Hyper Games/Moomintroll Winter's Warmth/Saves/SaveSlot*.json":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Hyper Games/Moomintroll Winter's Warmth/SettingsData.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: moomintroll-winters-warmth
+    steamExtra:
+      - 4331970
+      - 4331980
+      - 4331990
+      - 4384180
+      - 4384190
+      - 4384200
   installDir:
     Moomintroll: {}
   launch:
@@ -713200,6 +713230,8 @@ The Berlin Wall:
   steam:
     id: 836880
 The Big Catch:
+  id:
+    lutris: the-big-catch--1
   steam:
     id: 2146290
 "The Big Catch: Tacklebox":
@@ -713216,6 +713248,8 @@ The Big Catch:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-big-catch-tacklebox
   installDir:
     The Big Catch Tacklebox: {}
   launch:
@@ -747826,11 +747860,18 @@ The Spell Brigade:
     "<home>/AppData/LocalLow/BoltBlasterGames/TheSpellBrigade/*.es3":
       when:
         - store: steam
+    "<home>/AppData/LocalLow/BoltBlasterGames/TheSpellBrigade/save_*":
+      when:
+        - store: steam
     "<xdgConfig>/unity3d/BoltBlasterGames/TheSpellBrigade/*.bac":
       when:
         - os: linux
           store: steam
     "<xdgConfig>/unity3d/BoltBlasterGames/TheSpellBrigade/*.es3":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/BoltBlasterGames/TheSpellBrigade/save_*":
       when:
         - os: linux
           store: steam
@@ -747840,10 +747881,6 @@ The Spell Brigade:
     "<base>/TheSpellBrigade.exe":
       - when:
           - os: windows
-            store: steam
-    "<base>/TheSpellBrigade.x86_64":
-      - when:
-          - os: linux
             store: steam
   steam:
     id: 2904000

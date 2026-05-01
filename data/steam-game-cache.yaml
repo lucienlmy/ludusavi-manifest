@@ -632139,6 +632139,9 @@
       - path: BoltBlasterGames/TheSpellBrigade/
         pattern: "*.bac"
         root: WinAppDataLocalLow
+      - path: BoltBlasterGames/TheSpellBrigade/
+        pattern: save_*
+        root: WinAppDataLocalLow
     overrides:
       - os: Linux
         osCompare: "="
@@ -632153,11 +632156,6 @@
         oslist: windows
       description: Launch Windows
       executable: TheSpellBrigade.exe
-      type: default
-    - config:
-        oslist: linux
-      description: Launch Linux
-      executable: TheSpellBrigade.x86_64
       type: default
   nameLocalized:
     japanese: 呪文団
