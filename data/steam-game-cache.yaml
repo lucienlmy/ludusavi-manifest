@@ -345213,6 +345213,12 @@
       description: "Age of Empires II: Definitive Edition"
       executable: AoE2DE_s.exe
       type: default
+    - config:
+        betakey: "domesticated_qa_a,domesticated_qa_b"
+        oslist: macos
+      description: "Age of Empires II: Definitive Edition"
+      executable: Age of Empires II.app
+      type: default
 813820:
   installDir: Realm Royale
   launch:
@@ -602340,6 +602346,7 @@
         oslist: windows
       executable: kong.exe
       type: default
+2097940: {}
 2098470:
   cloud:
     saves:
@@ -641483,7 +641490,17 @@
   installDir: Slingbot Survivors
   launch:
     - executable: Slingbot Survivors.exe
-3438850: {}
+3438850:
+  cloud:
+    saves:
+      - path: "\\The Sledding Corporation\\Sledding Game"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Sledding Game
+  launch:
+    - config:
+        oslist: windows
+      executable: Sledding Game.exe
 3438990:
   cloud:
     saves:
@@ -643562,6 +643579,27 @@
 3603720: {}
 3603730: {}
 3603740: {}
+3604430:
+  cloud:
+    saves:
+      - path: Digger/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: Digger/Saved/SaveGames/DataLayers
+        pattern: "*.sav"
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ".config/RainStyleGames/Digger/Saved/SaveGames"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Digger Galactic Treasures
+  launch:
+    - config:
+        oslist: windows
+      description: "Digger: Galactic Treasures"
+      executable: Digger.exe
 3604560:
   cloud:
     saves:
@@ -645803,6 +645841,26 @@
   launch:
     - executable: "Dear me, I was.exe"
 3892510: {}
+3894520:
+  cloud:
+    saves:
+      - path: "HornyMelon\\KeinesExpandingClass"
+        pattern: save.json
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ".config"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: "Keine's Expanding Class"
+  launch:
+    - config:
+        oslist: windows
+      executable: KeineExpandingClass.exe
+    - config:
+        oslist: linux
+      executable: KeineExpandingClass.x86_64
 3895130: {}
 3895170:
   installDir: Intuitive Level Design
@@ -646314,9 +646372,7 @@
         root: WinAppDataLocalLow
   installDir: Leaf it Alone
   launch:
-    - config:
-        oslist: windows
-      executable: Leaf it Alone.exe
+    - executable: Leaf it Alone.exe
       type: default
 3983000:
   nameLocalized:

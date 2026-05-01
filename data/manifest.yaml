@@ -30078,7 +30078,7 @@ Alien Blitz:
     id: 434240
 Alien Breed:
   gog:
-    id: 1207658988
+    id: 1207663733
   id:
     lutris: alien-breed
 "Alien Breed 2: Assault":
@@ -30178,7 +30178,7 @@ Alien Breed:
       when:
         - os: dos
   gog:
-    id: 1207658988
+    id: 1207663753
 Alien Bubble Destroyer:
   steam:
     id: 779310
@@ -73036,6 +73036,8 @@ Battlestar Galactica Deadlock:
   steam:
     id: 544610
 "Battlestar Galactica: Scattered Hopes":
+  cloud:
+    steam: true
   steam:
     id: 2535950
 "Battlestations: Midway":
@@ -87669,16 +87671,18 @@ BlazBlue Centralfiction:
     "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Global":
       tags:
         - config
+        - save
       when:
         - os: windows
     "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Save":
       tags:
         - config
+        - save
       when:
         - os: windows
     "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Steam/<storeUserId>/Save":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<home>/AppData/LocalLow/91Act/BlazBlueEntropyEffect/Steam/<storeUserId>/Settings":
@@ -135846,7 +135850,7 @@ Cleared Hot:
         - os: linux
     "<xdgConfig>/unity3d/Not Knowing Corporation/Cleared Hot/savegame.json":
       tags:
-        - config
+        - save
       when:
         - os: linux
   id:
@@ -157197,7 +157201,7 @@ CrisisActionVR:
   files:
     "<winLocalAppData>/CRToiPrototype/Saved/Config/Windows":
       tags:
-        - save
+        - config
       when:
         - os: windows
     "<winLocalAppData>/CRToiPrototype/Saved/SaveGames":
@@ -181134,6 +181138,7 @@ Death Stranding:
     "<winDocuments>/DEATH STRANDING 2 - ON THE BEACH":
       tags:
         - config
+        - save
       when:
         - os: windows
   id:
@@ -195297,6 +195302,37 @@ Digger Simulator:
         - save
       when:
         - os: windows
+"Digger: Galactic Treasures":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/RainStyleGames/Digger/Saved/SaveGames/Digger/Saved/SaveGames/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/RainStyleGames/Digger/Saved/SaveGames/Digger/Saved/SaveGames/DataLayers/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/Digger/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Digger/Saved/SaveGames/DataLayers/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: digger-galactic-treasures
+    steamExtra:
+      - 3772370
+  installDir:
+    Digger Galactic Treasures: {}
+  launch:
+    "<base>/Digger.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3604430
 Diggerman:
   cloud:
     steam: true
@@ -257742,7 +257778,7 @@ Fatal Fight:
   files:
     "<winLocalAppData>/KoeiTecmo/FatalFrameII/Savedata/<storeUserId>":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<winLocalAppData>/KoeiTecmo/FatalFrameII/Savedata/graphics_option.json":
@@ -275038,11 +275074,14 @@ Formula Legends:
   id:
     gogExtra:
       - 1141283192
+      - 1431780773
       - 1476545389
       - 1494837394
       - 1496854299
       - 1562896824
+      - 1861956202
       - 1871598025
+      - 2067177842
     lutris: formula-legends
     steamExtra:
       - 4060830
@@ -275051,6 +275090,8 @@ Formula Legends:
       - 4143910
       - 4143920
       - 4216430
+      - 4222670
+      - 4362310
   installDir:
     Formula Legends: {}
   launch:
@@ -293277,7 +293318,7 @@ Geometric Sniper Blood in Paris:
   files:
     "<home>/AppData/LocalLow/YAW Studios/GS_BP/config.bin":
       tags:
-        - save
+        - config
       when:
         - os: windows
     "<home>/AppData/LocalLow/YAW Studios/GS_BP/save.bin":
@@ -310920,7 +310961,7 @@ Grunn:
   files:
     "<home>/AppData/LocalLow/Sokpop Collective/Grunn":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<home>/AppData/LocalLow/Sokpop Collective/Grunn/grunn_v1_settings.txt":
@@ -380933,6 +380974,30 @@ Keiko Everlasting:
             store: steam
   steam:
     id: 852630
+"Keine's Expanding Class!":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/HornyMelon/KeinesExpandingClass/save.json":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/HornyMelon/KeinesExpandingClass/save.json":
+      when:
+        - store: steam
+  installDir:
+    "Keine's Expanding Class": {}
+  launch:
+    "<base>/KeineExpandingClass.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/KeineExpandingClass.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3894520
 Kejora:
   installDir:
     Kejora: {}
@@ -381394,6 +381459,8 @@ Kero Blaster:
 Kero Quest 64:
   cloud:
     steam: true
+  id:
+    lutris: kero-quest-64
   steam:
     id: 3411900
 "Kevin Sheedy's AFL Coach 2002":
@@ -398347,15 +398414,21 @@ Leaf it Alone:
     steam: true
   files:
     "<home>/AppData/LocalLow/Eternity/Leaf it Alone/Saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Eternity/Leaf it Alone/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Leaf it Alone: {}
   launch:
     "<base>/Leaf it Alone.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
   steam:
     id: 3981100
 Leaflet Love Story:
@@ -439109,6 +439182,10 @@ Meet the Robinsons:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Disney Interactive Studios/Meet The Robinsons:
+      tags:
+        - config
 Meet.Hunter:
   installDir:
     MeetHunter: {}
@@ -451881,7 +451958,7 @@ Miraculous - Paris Under Siege:
         - os: windows
     "<winLocalAppData>/valentine/Saved/SaveGames":
       tags:
-        - config
+        - save
       when:
         - os: windows
   installDir:
@@ -456673,7 +456750,7 @@ Monster Hunter Stories:
         - os: windows
     "<root>/userdata/<storeUserId>/2852190/remote/win64_save":
       tags:
-        - config
+        - save
       when:
         - os: windows
           store: steam
@@ -493817,6 +493894,19 @@ Object Impermanence:
 Objects in Space:
   cloud:
     gog: true
+  files:
+    "<base>/Objects in Space/ObjectsInSpace/objectsinspace.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+    "<base>/ObjectsInSpace/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
   gog:
     id: 1538068873
   installDir:
@@ -498671,6 +498761,8 @@ On A Roll 3D:
   steam:
     id: 341090
 On Air:
+  id:
+    lutris: on-air
   steam:
     id: 1122160
 On Board 4 PC:
@@ -563122,7 +563214,7 @@ Ravenfield:
   files:
     "<winLocalAppData>Low/SteelRaven7/RavenfieldSteam":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<xdgConfig>/unity3d/SteelRaven7/RavenfieldSteam":
@@ -564353,7 +564445,7 @@ Re.poly:
   files:
     "<winDocuments>/My Games/ReZERO-TPT":
       tags:
-        - save
+        - config
       when:
         - os: windows
     "<winDocuments>/My Games/ReZERO-TPT/Saves":
@@ -574458,7 +574550,7 @@ Resident Evil Zero HD Remaster:
         - os: windows
     "<winLocalAppData>/GOG.com/Galaxy/Applications/58342960733154355/Storage/Shared/Files":
       tags:
-        - config
+        - save
       when:
         - os: windows
           store: gog
@@ -580629,6 +580721,7 @@ RippleIsland Kyle and Cal’s Restaurant:
   files:
     "<home>/AppData/LocalLow/SUNSOFT/Ripple Island/savedata/shared":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -634104,7 +634197,7 @@ Slay the Spire 2:
         - os: windows
     "<winAppData>/SlayTheSpire2/steam/<storeUserId>":
       tags:
-        - config
+        - save
       when:
         - os: windows
     "<xdgData>/SlayTheSpire2/steam/<storeUserId>":
@@ -634299,10 +634392,23 @@ Slayer of Traitors:
 Sledding Game:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/The Sledding Corporation/Sledding Game":
+      when:
+        - store: steam
   id:
     lutris: sledding-game
     steamExtra:
       - 4029310
+      - 4492720
+      - 4527730
+  installDir:
+    Sledding Game: {}
+  launch:
+    "<base>/Sledding Game.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3438850
 Sleengster:
@@ -755267,6 +755373,11 @@ Theatre of War (2006):
             store: steam
   steam:
     id: 63960
+"Theatre of War: Rearmed":
+  cloud:
+    steam: true
+  steam:
+    id: 2097940
 Theatre of the Absurd:
   installDir:
     Theatre Of The Absurd: {}
@@ -778450,7 +778561,7 @@ Treasure Hunter Simulator:
         - os: windows
     "<winLocalAppData>/TH/Saved/SaveGames/SaveGame.sav":
       tags:
-        - config
+        - save
       when:
         - os: windows
   installDir:
@@ -784368,6 +784479,12 @@ Turbo Pug DX:
 Turbo Sloths:
   cloud:
     steam: true
+  id:
+    lutris: turbo-sloths
+    steamExtra:
+      - 1760730
+      - 2226040
+      - 2226050
   installDir:
     Turbo Sloths: {}
   launch:

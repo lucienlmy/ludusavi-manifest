@@ -9495,7 +9495,7 @@ Alien Blitz:
   pageId: 43119
   steam: 434240
 Alien Breed:
-  gog: 1207658988
+  gog: 1207663733
   lutris: alien-breed
   pageId: 7237
 "Alien Breed 2: Assault":
@@ -9535,7 +9535,7 @@ Alien Breed:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\AlienBreedEp1Game\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\AlienBreedEp1Game\\SaveData\\}}"
 "Alien Breed: Tower Assault":
-  gog: 1207658988
+  gog: 1207663753
   pageId: 7241
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\tower\\ta.cfg}}"
@@ -23470,6 +23470,8 @@ Battlestar Galactica Deadlock:
     - "{{Game data/saves|GOG.com|{{P|userprofile\\Documents}}\\Black Lab Games\\BSG\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\544610\\remote}}"
 "Battlestar Galactica: Scattered Hopes":
+  cloud:
+    steam: true
   pageId: 208579
   steam: 2535950
 "Battlestations: Midway":
@@ -28352,12 +28354,8 @@ BlazBlue Centralfiction:
   pageId: 193134
   steam: 2273430
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Save}}"
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Global}}"
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Steam\\{{p|uid}}\\Settings}}"
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Save}}"
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Global}}"
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Steam\\{{p|uid}}\\Save}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Save|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Global|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Steam\\{{p|uid}}\\Settings}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Save|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Global|{{P|userprofile\\appdata\\locallow}}\\91Act\\BlazBlueEntropyEffect\\Steam\\{{p|uid}}\\Save}}"
 "Blaze & Blade: Eternal Quest":
   pageId: 161659
 "Blaze and the Monster Machines: Axle City Racers":
@@ -43526,7 +43524,7 @@ Cleared Hot:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Not Knowing Corporation\\Cleared Hot\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Not Knowing Corporation/Cleared Hot/}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Not Knowing Corporation\\Cleared Hot\\savegame.json}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Not Knowing Corporation/Cleared Hot/savegame.json}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Not Knowing Corporation/Cleared Hot/savegame.json}}"
 "Cleo's Lost Idols":
   cloud:
     steam: true
@@ -50406,7 +50404,7 @@ CrisisActionVR:
   steamSide:
     - 3989380
   templates:
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\CRToiPrototype\\Saved\\SaveGames\\}}"
 Crispy Chicken:
   cloud:
@@ -58196,7 +58194,7 @@ Death Stranding:
   steam: 3280350
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
 "Death Stranding Director's Cut":
   cloud:
     epic: true
@@ -62643,6 +62641,14 @@ Digger Simulator:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options.txt}}"
     - "{{Game data/saves|Windows|{{p|programdata}}\\Digger Simulator 2008}}"
+"Digger: Galactic Treasures":
+  cloud:
+    steam: true
+  lutris: digger-galactic-treasures
+  pageId: 216151
+  steam: 3604430
+  steamSide:
+    - 3772370
 Diggerman:
   cloud:
     steam: true
@@ -83319,7 +83325,7 @@ Fatal Fight:
     - 4123370
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/graphics_option.json}}"
-    - "{{Game data/config|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/{{P|uid}}/}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/KoeiTecmo/FatalFrameII/Savedata/{{P|uid}}/}}"
 "Fatal Frame: Maiden of Black Water":
   cloud:
     steam: true
@@ -88789,11 +88795,14 @@ Formula Legends:
   gog: 1724664345
   gogSide:
     - 1141283192
+    - 1431780773
     - 1476545389
     - 1494837394
     - 1496854299
     - 1562896824
+    - 1861956202
     - 1871598025
+    - 2067177842
   lutris: formula-legends
   pageId: 211445
   steam: 3194360
@@ -88804,6 +88813,8 @@ Formula Legends:
     - 4143910
     - 4143920
     - 4216430
+    - 4222670
+    - 4362310
 Formula One 97:
   pageId: 77448
 Formula One 99:
@@ -94621,7 +94632,7 @@ Geometric Sniper Blood in Paris:
   pageId: 214265
   steam: 1499800
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\YAW Studios\\GS_BP\\config.bin}}"
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\YAW Studios\\GS_BP\\config.bin}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\YAW Studios\\GS_BP\\save.bin}}"
 Geometry Boxer:
   pageId: 92253
@@ -100343,7 +100354,7 @@ Grunn:
   steam: 2720950
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Sokpop Collective\\Grunn\\grunn_v1_settings.txt}}"
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Sokpop Collective\\Grunn}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Sokpop Collective\\Grunn\\}}"
 Grunt1914:
   pageId: 134560
   steam: 1059040
@@ -123033,6 +123044,11 @@ Keepsake:
 Keiko Everlasting:
   pageId: 96271
   steam: 852630
+"Keine's Expanding Class!":
+  cloud:
+    steam: true
+  pageId: 216156
+  steam: 3894520
 Kejora:
   pageId: 212700
   steam: 1410400
@@ -123183,6 +123199,7 @@ Kero Blaster:
 Kero Quest 64:
   cloud:
     steam: true
+  lutris: kero-quest-64
   pageId: 201332
   steam: 3411900
 "Kevin Sheedy's AFL Coach 2002":
@@ -128780,6 +128797,9 @@ Leaf it Alone:
     steam: true
   pageId: 210653
   steam: 3981100
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\settings.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\Saves}}"
 Leaflet Love Story:
   pageId: 104889
   steam: 895220
@@ -141886,6 +141906,7 @@ Meet the Robinsons:
   malformed: true
   pageId: 81386
   templates:
+    - "{{Game data/config|Windows|{{p|HKCU}}\\SOFTWARE\\Disney Interactive Studios\\Meet The Robinsons}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Disney Interactive Studios\\Meet The Robinsons\\SaveGames}}"
 Meet.Hunter:
   pageId: 93043
@@ -146165,7 +146186,7 @@ Miraculous - Paris Under Siege:
   steam: 2676410
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\valentine\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/config|Windows|{{p|localappdata}}\\valentine\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\valentine\\Saved\\SaveGames\\}}"
 "Miraculous: Rise of the Sphinx":
   pageId: 182512
   renamedFrom:
@@ -147711,7 +147732,7 @@ Monster Hunter Stories:
   steam: 2852190
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
-    - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2852190\\remote\\win64_save}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2852190\\remote\\win64_save}}"
 Monster Hunter Wilds:
   cloud:
     steam: true
@@ -152538,7 +152559,7 @@ N.I.C.E. 2:
 "N.O.V.A. 2: Near Orbit Vanguard Alliance":
   pageId: 199809
   templates:
-    - "{{Game data/saves|OS X|‎⁨ /⁨Users⁩/%Username%/Library/⁨N.O.V.A.2⁩}}"
+    - "{{Game data/config|OS X|‎⁨ /⁨Users⁩/%Username%/Library/⁨N.O.V.A.2⁩}}"
     - "{{Game data/saves|OS X|‎⁨ /⁨Users⁩/%Username%/Library/⁨N.O.V.A.2⁩}}"
 N.P.P.D. RUSH - The Milk of Ultraviolet:
   pageId: 50665
@@ -160045,10 +160066,10 @@ Objects in Space:
   pageId: 94401
   steam: 824070
   templates:
-    - "{{Game data/config|Windows|<GameDIR>/Objects in Space/ObjectsInSpace/objectsinspace.cfg}}"
-    - "{{Game data/config|Linux|<GameDIR>/Objects in Space/ObjectsInSpace/objectsinspace.cfg}}"
-    - "{{Game data/saves|Windows|<GameDIR>/ObjectsInSpace/saves/}}"
-    - "{{Game data/config|Linux|<GameDIR>/ObjectsInSpace/saves/}}"
+    - "{{Game data/config|Windows|{{P|game}}\\Objects in Space\\ObjectsInSpace\\objectsinspace.cfg}}"
+    - "{{Game data/config|Linux|{{P|game}}/Objects in Space/ObjectsInSpace/objectsinspace.cfg}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\ObjectsInSpace\\saves\\}}"
+    - "{{Game data/saves|Linux|{{P|game}}/ObjectsInSpace/saves/}}"
 Obligation:
   cloud:
     steam: true
@@ -161698,6 +161719,7 @@ On A Roll 3D:
     - 487570
     - 529190
 On Air:
+  lutris: on-air
   pageId: 145365
   steam: 1122160
 On Board 4 PC:
@@ -182400,7 +182422,7 @@ Ravenfield:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\SteelRaven7\\Ravenfield}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/SteelRaven7/RavenfieldSteam}}"
-    - "{{Game data/config|Windows|{{p|localappdata}}Low\\SteelRaven7\\RavenfieldSteam}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}Low\\SteelRaven7\\RavenfieldSteam}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/SteelRaven7/RavenfieldSteam}}"
 Ravenland:
   pageId: 126478
@@ -182818,7 +182840,7 @@ Re.poly:
   pageId: 166164
   steam: 1277510
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\ReZERO-TPT\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\ReZERO-TPT\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\ReZERO-TPT\\Saves\\}}"
 "Re;Lord 1: The Witch of Herfort and Stuffed Animals":
   cloud:
@@ -186223,7 +186245,7 @@ Resident Evil Zero HD Remaster:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CAPCOM\\RESIDENT EVIL 0 HD REMASTER\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\339340\\remote\\}}"
-    - "{{Game data/config|GOG.com|{{P|localappdata}}\\GOG.com\\Galaxy\\Applications\\58342960733154355\\Storage\\Shared\\Files}}"
+    - "{{Game data/saves|GOG.com|{{P|localappdata}}\\GOG.com\\Galaxy\\Applications\\58342960733154355\\Storage\\Shared\\Files}}"
 "Resident Evil: Operation Raccoon City":
   pageId: 2208
   steam: 209100
@@ -188259,7 +188281,7 @@ RippleIsland Kyle and Cal’s Restaurant:
   pageId: 209338
   steam: 3844150
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\SUNSOFT\\Ripple Island\\savedata\\shared}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\SUNSOFT\\Ripple Island\\savedata\\shared}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\SUNSOFT\\Ripple Island\\savedata\\shared}}"
 Riptale:
   cloud:
@@ -201868,7 +201890,7 @@ Shooty Shooty Robot Invasion:
     - 3763820
   templates:
     - "{{Game data/config|Windows|{{p|steamlibrary}}\\ShootyShooty\\Saved\\Config\\WindowsNoEditor}}"
-    - "{{Game data/config|Windows|{{p|steamlibrary}}\\ShootyShooty\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{p|steamlibrary}}\\ShootyShooty\\Saved\\SaveGames}}"
 Shooty Skies:
   cloud:
     steam: true
@@ -205381,7 +205403,7 @@ Slay the Princess:
     - "{{Game data/config|OS X|{{p|machome}}/Library/RenPy/SlaythePrincess-1651597024/persistent}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.renpy/SlaythePrincess-1651597024/persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\SlaythePrincess-1651597024\\}}"
-    - "{{Game data/config|OS X|{{p|machome}}/Library/RenPy/SlaythePrincess-1651597024/}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/RenPy/SlaythePrincess-1651597024/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/SlaythePrincess-1651597024/}}"
 Slay the Spire:
   cloud:
@@ -205414,7 +205436,7 @@ Slay the Spire 2:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\SlayTheSpire2}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}}}"
-    - "{{Game data/config|Windows|{{p|appdata}}\\SlayTheSpire2\\steam\\{{p|uid}}}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\SlayTheSpire2\\steam\\{{p|uid}}}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}/profile1}}"
 Slay.one:
   pageId: 80677
@@ -205456,6 +205478,8 @@ Sledding Game:
   steam: 3438850
   steamSide:
     - 4029310
+    - 4492720
+    - 4527730
 Sleengster:
   pageId: 53924
   steam: 559500
@@ -207859,8 +207883,7 @@ Solo:
   steam: 2373990
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE}}"
-    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\NetmarbleNeo\\Solo_Leveling_ARISE_OVERDRIVE\\{{P|uid}}\\SaveFolder}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\NetmarbleNeo\\Solo Leveling:ARISE|{{P|userprofile\\appdata\\locallow}}\\NetmarbleNeo\\Solo_Leveling_ARISE_OVERDRIVE\\{{P|uid}}\\SaveFolder}}"
 Solraven:
   pageId: 44301
   steam: 437400
@@ -244530,6 +244553,11 @@ Theatre of War (2006):
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\users\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\users\\*.sav}}"
+"Theatre of War: Rearmed":
+  cloud:
+    steam: true
+  pageId: 216158
+  steam: 2097940
 Theatre of the Absurd:
   pageId: 50308
   steam: 299110
@@ -252767,7 +252795,7 @@ Treasure Hunter Simulator:
   steam: 748300
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TH\\Saved\\SaveGames\\}}"
-    - "{{Game data/config|Windows|{{P|localappdata}}\\TH\\Saved\\SaveGames\\SaveGame.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TH\\Saved\\SaveGames\\SaveGame.sav}}"
 Treasure Island (1985):
   pageId: 187269
 Treasure Island (2009):
@@ -254739,8 +254767,13 @@ Turbo Pug DX:
 Turbo Sloths:
   cloud:
     steam: true
+  lutris: turbo-sloths
   pageId: 181817
   steam: 1443630
+  steamSide:
+    - 1760730
+    - 2226040
+    - 2226050
 Turbo Soccer VR:
   pageId: 95150
   steam: 828770
