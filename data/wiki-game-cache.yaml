@@ -44718,6 +44718,9 @@ Codename Silver:
   steam: 411320
   steamSide:
     - 443660
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\options.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}\\SaveGames\\}}"
 "Codename: Phantom":
   pageId: 76101
   steam: 703140
@@ -55070,6 +55073,8 @@ Dark Old Sun:
   pageId: 79943
   steam: 739290
 "Dark Pals: The 1st Floor":
+  cloud:
+    steam: true
   lutris: dark-pals
   pageId: 214096
   steam: 4157130
@@ -96816,6 +96821,8 @@ Goblin Storm:
 Goblin Times / 哥布林时代:
   pageId: 154035
   steam: 1191870
+"Goblin Vyke: The Thief Tycoon":
+  pageId: 216204
 Goblin Walker:
   pageId: 164284
   steam: 834060
@@ -164476,6 +164483,12 @@ OutSplit:
 Outback Survival:
   pageId: 109406
   steam: 898460
+Outbound:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216195
+  steam: 2681030
 Outbreak:
   pageId: 39536
   steam: 514990
@@ -218222,6 +218235,14 @@ Strangeland:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/ags/Strangeland/}}"
 Stranger:
   pageId: 168427
+Stranger Maidens Please Protect Me!:
+  cloud:
+    steam: true
+  pageId: 216193
+  steam: 3028830
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Volcanic Good Boy\\Stranger Maidens\\NaninovelData\\Saves\\Settings.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Volcanic Good Boy\\Stranger Maidens\\NaninovelData\\Saves\\GlobalSave.nson}}"
 Stranger Than Heaven:
   cloud:
     xbox: true
@@ -227362,12 +227383,21 @@ Tasty Blue:
   pageId: 37961
   steam: 345200
 Tasty Planet:
+  lutris: tasty-planet
   pageId: 74247
   steam: 687540
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\dingogames\\tastyplanet}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\dingogames\\tastyplanet}}"
 Tasty Planet Forever:
+  lutris: tasty-planet-forever
   pageId: 114654
   steam: 946010
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\dingogames\\tastyplanet4}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\dingogames\\tastyplanet4}}"
 "Tasty Planet: Back for Seconds":
+  lutris: tasty-planet-back-for-seconds
   pageId: 38121
   steam: 445110
   templates:
@@ -229108,6 +229138,8 @@ Test Drive Unlimited Solar Crown:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Test Drive Ferrari Racing Legends\\graphicsconfig.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Test Drive Ferrari Racing Legends\\profiles\\{{p|uid}}.sav}}"
+"Test Drive: Off-Road":
+  pageId: 216191
 "Test Drive: Off-Road 2":
   pageId: 215748
 "Test Drive: Off-Road 3":

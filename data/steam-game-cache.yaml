@@ -619055,6 +619055,18 @@
       type: option1
     - arguments: "-nvaftermath -aftermathall -gpucrashdebugging"
       config:
+        betakey: release.2.1
+      description: Dev Exe
+      executable: AvowedDev.exe
+      type: option1
+    - arguments: "-nvaftermath -aftermathall -gpucrashdebugging"
+      config:
+        betakey: release.2.1
+      description: Test Exe
+      executable: AvowedTest.exe
+      type: option1
+    - arguments: "-nvaftermath -aftermathall -gpucrashdebugging"
+      config:
         betakey: release.1.4
         osarch: "64"
         oslist: windows
@@ -626766,6 +626778,12 @@
       description: "Hollywood Animal (test [beta])"
       executable: Hollywood Animal.exe
       type: default
+2681030:
+  nameLocalized:
+    japanese: Outbound / アウトバウンド
+    koreana: Outbound / 아웃바운드
+    schinese: Outbound / 拾光旅人
+    tchinese: Outbound / 車居綠活
 2682580:
   installDir: DUCKSIDE
   launch:
@@ -633606,6 +633624,17 @@
     schinese: 色彩枪2：平行宇宙
     tchinese: 色彩槍2：平行宇宙
 2982360:
+  installDir: Bandit Trap
+  launch:
+    - config:
+        oslist: windows
+      executable: BanditTrap.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Bandit Trap.app/Contents/MacOS/Bandit Trap
+      type: default
+      workingdir: Bandit Trap.app/Contents/MacOS
   nameLocalized:
     schinese: 陷阱派对
     tchinese: 陷阱派對
@@ -634900,6 +634929,21 @@
         oslist: windows
       executable: "Cakey's Twisted Bakery.exe"
       type: default
+3028830:
+  cloud:
+    saves:
+      - path: StrangerMaiden
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+  installDir: Stranger Maidens Please Protect Me
+  launch:
+    - config:
+        oslist: windows
+      executable: Stranger Maidens.exe
+  nameLocalized:
+    english: Stranger Maidens Please Protect Me!
+    schinese: 外族娘！请好好保护我吧！
+    tchinese: 外族娘！請好好保護我吧！
 3029750:
   cloud:
     saves:
@@ -646938,7 +646982,23 @@
       type: default
 4149610: {}
 4153760: {}
-4157130: {}
+4157130:
+  cloud:
+    saves:
+      - path: The5thFloor/Saved/SaveGames
+        pattern: "*_Game.sav"
+        root: WinAppDataLocal
+      - path: The5thFloor/Saved/SaveGames
+        pattern: "*_Backup.sav"
+        root: WinAppDataLocal
+  installDir: Dark Pals
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: The5thFloor.exe
+  nameLocalized:
+    schinese: 黑暗密友：望升院
 4160210:
   cloud:
     saves:

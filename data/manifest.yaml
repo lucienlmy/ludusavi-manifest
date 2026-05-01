@@ -66708,6 +66708,18 @@ Bandit Simulator:
   steam:
     id: 1133040
 Bandit Trap:
+  installDir:
+    Bandit Trap: {}
+  launch:
+    "<base>/Bandit Trap.app/Contents/MacOS/Bandit Trap":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Bandit Trap.app/Contents/MacOS"
+    "<base>/BanditTrap.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2982360
 Bandit the game:
@@ -139639,6 +139651,17 @@ Codename Nemesis:
   steam:
     id: 411310
 "Codename: Panzers - Phase Two":
+  files:
+    "<base>/Profiles/<storeUserId>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/options.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1455704410
   id:
@@ -171476,10 +171499,27 @@ Dark Old Sun:
   steam:
     id: 739290
 "Dark Pals: The 1st Floor":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/The5thFloor/Saved/SaveGames/*_Backup.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/The5thFloor/Saved/SaveGames/*_Game.sav":
+      when:
+        - store: steam
   id:
     lutris: dark-pals
     steamExtra:
       - 4348890
+  installDir:
+    Dark Pals: {}
+  launch:
+    "<base>/The5thFloor.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4157130
 "Dark Parables: Ballad of Rapunzel":
@@ -507554,6 +507594,11 @@ Outback Survival:
             store: steam
   steam:
     id: 898460
+Outbound:
+  cloud:
+    steam: true
+  steam:
+    id: 2681030
 Outbreak:
   installDir:
     Outbreak: {}
@@ -673850,6 +673895,29 @@ Strangeland:
             store: steam
   steam:
     id: 1369520
+Stranger Maidens Please Protect Me!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Volcanic Good Boy/Stranger Maidens/NaninovelData/Saves/GlobalSave.nson":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Volcanic Good Boy/Stranger Maidens/NaninovelData/Saves/Settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Stranger Maidens Please Protect Me: {}
+  launch:
+    "<base>/Stranger Maidens.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3028830
 Stranger Than Heaven:
   id:
     lutris: stranger-than-heaven
@@ -702794,26 +702862,14 @@ Tasty Blue:
     id: 345200
 Tasty Planet:
   files:
-    "<winAppData>/dingogames/tastyplanet/dingosteamworks.xml":
+    "<winAppData>/dingogames/tastyplanet":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet/eatenentities.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet/levelprogress.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet/profiles.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet/splashads.xml":
-      when:
-        - os: windows
-          store: steam
+  id:
+    lutris: tasty-planet
   installDir:
     Tasty Planet: {}
   launch:
@@ -702829,34 +702885,14 @@ Tasty Planet:
     id: 687540
 Tasty Planet Forever:
   files:
-    "<winAppData>/dingogames/tastyplanet4/*ea.xml":
+    "<winAppData>/dingogames/tastyplanet4":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet4/*ml.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet4/*p123.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet4/*pr.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet4/dingosteamworks.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet4/itoned.bin":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet4/splashads.xml":
-      when:
-        - os: windows
-          store: steam
+  id:
+    lutris: tasty-planet-forever
   installDir:
     Tasty Planet Forever: {}
   launch:
@@ -702878,6 +702914,8 @@ Tasty Planet Forever:
         - save
       when:
         - os: windows
+  id:
+    lutris: tasty-planet-back-for-seconds
   installDir:
     Tasty Planet Back for Seconds: {}
   launch:
