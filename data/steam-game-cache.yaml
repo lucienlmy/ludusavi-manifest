@@ -618549,6 +618549,7 @@
     - config:
         oslist: windows
       executable: DarkDeity2.exe
+2446760: {}
 2446820:
   installDir: Drag Her!
   launch:
@@ -641198,15 +641199,18 @@
 3407390:
   cloud:
     saves:
-      - path: Endless Legend 2/Save Files
+      - path: Amplitude Studios/Endless Legend 2/Save Files
         pattern: "*.ctr"
         root: SteamCloudDocuments
+      - path: Amplitude Studios/Endless Legend 2/Persistent
+        pattern: CustomFactions.xml
+        root: gameinstall
     overrides:
       - addPath: ""
         os: Windows
         osCompare: "="
         root: SteamCloudDocuments
-        useInstead: WinMyDocuments
+        useInstead: WinAppDataLocal
   installDir: ENDLESS Legend 2
   launch:
     - config:
@@ -642337,6 +642341,7 @@
         oslist: windows
       executable: fe2.exe
       type: default
+3510530: {}
 3511620:
   installDir: Super Spy Violet
   launch:
@@ -643047,6 +643052,19 @@
     koreana: 연운
     schinese: 燕云十六声
     tchinese: 燕雲十六聲
+3565040:
+  cloud:
+    saves:
+      - path: Rumbral/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Rumbral
+  launch:
+    - config:
+        oslist: windows
+      description: This is Rumbral
+      executable: "Windows\\Rumbral\\Binaries\\Win64\\Rumbral-Win64-Shipping.exe"
+      type: default
 3565680:
   cloud:
     saves:
@@ -643371,6 +643389,20 @@
     turkish: "Call of Duty®: Modern Warfare® III"
     ukrainian: "Call of Duty®: Modern Warfare® III"
 3595450: {}
+3596700:
+  cloud:
+    saves:
+      - path: TerraTech_Legion
+        pattern: "*.dat"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: TerraTech Legion
+  launch:
+    - executable: TerraTech_LegionEOS.exe
+      type: default
+  nameLocalized:
+    japanese: TerraTech レギオン
+    schinese: 泰拉科技魇团
 3597580:
   cloud:
     saves:
@@ -644108,6 +644140,7 @@
   nameLocalized:
     japanese: アーネスト・エバンスCOLLECTION
 3641000: {}
+3641250: {}
 3641830: {}
 3643170:
   cloud:
@@ -646101,6 +646134,13 @@
     - config:
         oslist: macos
       executable: ANightWithNeighbor.app
+3925720:
+  installDir: FISH³ FIRST CATCH
+  launch:
+    - config:
+        oslist: windows
+      executable: Fish Fish Fish.exe
+      type: default
 3929410:
   cloud:
     saves:
@@ -646871,6 +646911,14 @@
   launch:
     - executable: "Game\\prospi.exe"
 4138130: {}
+4139880:
+  installDir: Inner Voice
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: IV_Clean_Build.exe
+      type: default
 4144090: {}
 4144680: {}
 4146000: {}

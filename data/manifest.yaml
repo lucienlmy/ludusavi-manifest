@@ -214561,13 +214561,16 @@ Drox Operative 2:
     gog: true
     steam: true
   files:
-    "<home>/.local/share/DroxOperative2/User/chars":
+    "<winLocalAppData>/DroxOperative2/User":
+      tags:
+        - config
       when:
-        - os: linux
-          store: steam
+        - os: windows
     "<winLocalAppData>/DroxOperative2/User/chars":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1457552826
   id:
@@ -265784,6 +265787,28 @@ Fish or Die:
             store: steam
   steam:
     id: 701960
+"Fish3: First Catch":
+  cloud:
+    steam: true
+  id:
+    lutris: fish3-first-catch
+    steamExtra:
+      - 4049630
+  installDir:
+    FISH³ FIRST CATCH: {}
+  launch:
+    "<base>/Fish Fish Fish.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3925720
+"Fish3: Fishtastic Fishing Fishscapes":
+  id:
+    steamExtra:
+      - 3668460
+  steam:
+    id: 3641250
 FishVerse - Ultimate Fishing:
   installDir:
     FishVerse - Ultimate Fishing: {}
@@ -334142,6 +334167,12 @@ Hibiscus Red:
   steam:
     id: 1175970
 Hidden & Dangerous:
+  files:
+    "<base>/savegame/single/<storeUserId>.bin":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1251397362
   id:
@@ -334179,6 +334210,10 @@ Hidden & Dangerous:
           - os: windows
             store: steam
         workingDir: "<base>/HD"
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Take2/Hidden and Dangerous/1.00:
+      tags:
+        - config
   steam:
     id: 703310
 Hidden & Dangerous 2:
@@ -361319,6 +361354,25 @@ Inner Mazes - Souls Guides:
 Inner Riddle:
   steam:
     id: 818090
+Inner Voice:
+  cloud:
+    gog: true
+  gog:
+    id: 1559242166
+  id:
+    lutris: inner-voice
+    steamExtra:
+      - 4218140
+  installDir:
+    Inner Voice: {}
+  launch:
+    "<base>/IV_Clean_Build.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4139880
 Inner Voices:
   files:
     "<winLocalAppData>/Purgatory_4_14/Saved":
@@ -592814,6 +592868,27 @@ Rumbleverse:
         - save
       when:
         - os: windows
+Rumbral:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winLocalAppData>/Rumbral/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: rumbral
+    steamExtra:
+      - 3768440
+  installDir:
+    Rumbral: {}
+  launch:
+    "<base>/Windows/Rumbral/Binaries/Win64/Rumbral-Win64-Shipping.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3565040
 Rumia in the darkness:
   cloud:
     steam: true
@@ -603305,6 +603380,11 @@ Sangokushi Eiketsuden:
             store: steam
   steam:
     id: 628150
+Sangra:
+  id:
+    lutris: sangra
+  steam:
+    id: 3510530
 Sanguine:
   files:
     "<home>/AppData/LocalLow/Seeker Studios/SanguineGame":
@@ -702792,30 +702872,12 @@ Tasty Planet Forever:
     id: 946010
 "Tasty Planet: Back for Seconds":
   files:
-    "<winAppData>/dingogames/tastyplanet2/*ea.xml":
+    "<winAppData>/dingogames/tastyplanet2":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet2/*ml.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet2/*p123.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet2/*pr.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet2/dingosteamworks.xml":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/dingogames/tastyplanet2/splashads.xml":
-      when:
-        - os: windows
-          store: steam
   installDir:
     Tasty Planet Back for Seconds: {}
   launch:
@@ -707242,6 +707304,21 @@ TerraTech:
             store: steam
   steam:
     id: 285920
+TerraTech Legion:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TerraTech_Legion/**/*.dat":
+      when:
+        - store: steam
+  installDir:
+    TerraTech Legion: {}
+  launch:
+    "<base>/TerraTech_LegionEOS.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3596700
 Terracotta - Shards of Doom:
   files:
     "<base>/Terracotta_Data/input.xml":
@@ -842765,6 +842842,14 @@ Yasuke Simulator:
           - store: steam
   steam:
     id: 3272300
+"Yasuke: A Lost Descendant":
+  id:
+    lutris: yasuke-a-lost-descendant
+    steamExtra:
+      - 2861930
+      - 2862090
+  steam:
+    id: 2446760
 Yatagarasu Attack on Cataclysm:
   files:
     "<winAppData>/PDWHOTAPEN":

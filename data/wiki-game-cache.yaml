@@ -46869,7 +46869,7 @@ Conflict Zone:
   lutris: conflict-desert-storm-ii
   pageId: 26306
   templates:
-    - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\SCi Games\\CDS II\\Device Settings\\}}"
+    - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\SCi Games\\CDS II\\Device Settings}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\SCi\\CDSII}}"
 "Conflict: Europe":
   gog: 1973799922
@@ -68993,6 +68993,9 @@ Drox Operative 2:
   steam: 1305310
   steamSide:
     - 1784110
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\DroxOperative2\\User}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\DroxOperative2\\User\\chars}}"
 Drug Dealer Simulator:
   cloud:
     gog: true
@@ -85980,6 +85983,19 @@ Fish or Die:
 "Fish's Trip":
   pageId: 70208
   steam: 701960
+"Fish3: First Catch":
+  cloud:
+    steam: true
+  lutris: fish3-first-catch
+  pageId: 216186
+  steam: 3925720
+  steamSide:
+    - 4049630
+"Fish3: Fishtastic Fishing Fishscapes":
+  pageId: 216183
+  steam: 3641250
+  steamSide:
+    - 3668460
 FishVerse - Ultimate Fishing:
   pageId: 195270
   steam: 2689500
@@ -107941,6 +107957,9 @@ Hidden & Dangerous:
   lutris: hidden-dangerous-action-pack
   pageId: 68045
   steam: 703310
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Take2\\Hidden and Dangerous\\1.00}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame\\single\\{{p|uid}}.bin}}"
 Hidden & Dangerous 2:
   gog: 1576810170
   lutris: hidden-dangerous-2
@@ -115305,6 +115324,7 @@ InGame.exe:
 InKonbini:
   cloud:
     steam: true
+    xbox: true
   lutris: inkonbini
   pageId: 215365
   steam: 2723430
@@ -116700,6 +116720,15 @@ Inner Mazes - Souls Guides:
 Inner Riddle:
   pageId: 91256
   steam: 818090
+Inner Voice:
+  cloud:
+    gog: true
+  gog: 1559242166
+  lutris: inner-voice
+  pageId: 216178
+  steam: 4139880
+  steamSide:
+    - 4218140
 Inner Voices:
   pageId: 54439
   steam: 559130
@@ -192196,7 +192225,14 @@ Rumbleverse:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Rumbleverse\\Saved\\Config\\WindowsClient}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Rumbleverse\\Saved\\SaveGames}}"
 Rumbral:
+  cloud:
+    epic: true
+    steam: true
+  lutris: rumbral
   pageId: 216032
+  steam: 3565040
+  steamSide:
+    - 3768440
 Rumia in the darkness:
   cloud:
     steam: true
@@ -195605,6 +195641,10 @@ Sangokushi Eiketsuden:
     steam: true
   pageId: 69438
   steam: 628150
+Sangra:
+  lutris: sangra
+  pageId: 216180
+  steam: 3510530
 Sanguine:
   pageId: 203875
   steam: 2825080
@@ -227330,6 +227370,9 @@ Tasty Planet Forever:
 "Tasty Planet: Back for Seconds":
   pageId: 38121
   steam: 445110
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\dingogames\\tastyplanet2}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\dingogames\\tastyplanet2}}"
 Tasty Shame in Silver Soul!:
   pageId: 110190
   steam: 923330
@@ -228682,6 +228725,12 @@ TerraTech:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\TerraTech\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/TerraTech/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/TerraTech/}}"
+TerraTech Legion:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216179
+  steam: 3596700
 Terracotta - Shards of Doom:
   pageId: 141673
   steam: 1109750
@@ -274163,6 +274212,13 @@ Yasuke Simulator:
     - 3599190
     - 3599230
     - 3599240
+"Yasuke: A Lost Descendant":
+  lutris: yasuke-a-lost-descendant
+  pageId: 216175
+  steam: 2446760
+  steamSide:
+    - 2861930
+    - 2862090
 Yatagarasu Attack on Cataclysm:
   pageId: 26200
   steam: 319280
