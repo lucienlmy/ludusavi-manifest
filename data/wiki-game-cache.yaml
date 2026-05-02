@@ -57384,10 +57384,12 @@ Dead Wishes:
 Dead and Buried:
   pageId: 128924
 Dead as Disco:
+  lutris: dead-as-disco
   pageId: 208674
   steam: 3404260
   steamSide:
     - 3763830
+    - 4647130
 Dead by Daylight:
   cloud:
     epic: true
@@ -126879,6 +126881,12 @@ L.S.S II:
     steam: true
   pageId: 144435
   steam: 1056330
+L8r Sk8r:
+  lutris: l8r-sk8r
+  pageId: 216228
+  steam: 3046610
+  steamSide:
+    - 3662100
 LA Cops:
   cloud:
     steam: true

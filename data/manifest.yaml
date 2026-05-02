@@ -178618,8 +178618,10 @@ Dead Wishes:
     id: 1010970
 Dead as Disco:
   id:
+    lutris: dead-as-disco
     steamExtra:
       - 3763830
+      - 4647130
   steam:
     id: 3404260
 Dead by Daylight:
@@ -392597,6 +392599,13 @@ L.S.S II:
             store: steam
   steam:
     id: 1056330
+L8r Sk8r:
+  id:
+    lutris: l8r-sk8r
+    steamExtra:
+      - 3662100
+  steam:
+    id: 3046610
 LA Cops:
   cloud:
     steam: true
