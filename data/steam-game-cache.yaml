@@ -617210,6 +617210,10 @@
   installDir: WitchHand
   launch:
     - executable: WitchHand.exe
+2421000:
+  nameLocalized:
+    schinese: 偷天骑士
+    tchinese: 偷天騎士
 2423470:
   cloud:
     saves:
@@ -644723,7 +644727,14 @@
     - executable: Wrack.exe
 3710600: {}
 3710840: {}
-3713650: {}
+3713650:
+  installDir: Teenage Mutant Ninja Turtles Empire City
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TMNT-EC.exe
+      type: openxr
 3714430: {}
 3717070:
   installDir: WWE 2K26

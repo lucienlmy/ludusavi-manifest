@@ -66680,6 +66680,13 @@ Bandit Kings of Ancient China:
             store: steam
   steam:
     id: 521680
+Bandit Knight:
+  id:
+    lutris: bandit-knight
+    steamExtra:
+      - 3229960
+  steam:
+    id: 2421000
 Bandit Point:
   cloud:
     steam: true
@@ -156654,6 +156661,11 @@ Crimson Desert:
     "<home>/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save":
       tags:
         - save
+      when:
+        - os: mac
+    "<home>/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml":
+      tags:
+        - config
       when:
         - os: mac
     "<winLocalAppData>/Pearl Abyss/CD/save/<storeUserId>":
@@ -704264,8 +704276,14 @@ Teenage Mutant Ninja Turtles (2007):
   steam:
     id: 2527580
 "Teenage Mutant Ninja Turtles: Empire City":
+  cloud:
+    steam: true
   id:
     lutris: teenage-mutant-ninja-turtles-empire-city
+    steamExtra:
+      - 4443090
+  installDir:
+    Teenage Mutant Ninja Turtles Empire City: {}
   steam:
     id: 3713650
 "Teenage Mutant Ninja Turtles: Mutants Unleashed":
@@ -831186,6 +831204,12 @@ Witch It:
         - os: windows
   id:
     lutris: witch-it
+    steamExtra:
+      - 3212440
+      - 3212450
+      - 3212460
+      - 3212470
+      - 3311600
   installDir:
     WitchIt: {}
   launch:

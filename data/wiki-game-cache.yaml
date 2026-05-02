@@ -21344,6 +21344,12 @@ Bandit Kings of Ancient China:
     steam: true
   pageId: 58302
   steam: 521680
+Bandit Knight:
+  lutris: bandit-knight
+  pageId: 216219
+  steam: 2421000
+  steamSide:
+    - 3229960
 Bandit Point:
   cloud:
     steam: true
@@ -50238,7 +50244,7 @@ Crimson Desert:
     - 4024620
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
-    - "{{Game data/config|OS X}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/{{p|uid}}}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save}}"
 Crimson Earth:
@@ -218029,6 +218035,8 @@ Story in the Dream World -Volcano And Possession-:
 Story of Monster:
   pageId: 136436
   steam: 1082100
+Story of My Life:
+  pageId: 216215
 "Story of Seasons: A Wonderful Life":
   cloud:
     steam: true
@@ -227841,9 +227849,13 @@ Teenage Mutant Ninja Turtles (2003):
   pageId: 195982
   steam: 2527580
 "Teenage Mutant Ninja Turtles: Empire City":
+  cloud:
+    steam: true
   lutris: teenage-mutant-ninja-turtles-empire-city
   pageId: 215281
   steam: 3713650
+  steamSide:
+    - 4443090
 "Teenage Mutant Ninja Turtles: Manhattan Missions":
   pageId: 176772
 "Teenage Mutant Ninja Turtles: Mutant Melee":
@@ -233382,6 +233394,8 @@ The Endless Stairwell:
 The Endless White:
   pageId: 153987
   steam: 1099450
+The Energizer-Target Racing Game:
+  pageId: 216213
 The Energy Lab:
   pageId: 125318
   steam: 949420
@@ -270371,6 +270385,12 @@ Witch It:
   lutris: witch-it
   pageId: 55301
   steam: 559650
+  steamSide:
+    - 3212440
+    - 3212450
+    - 3212460
+    - 3212470
+    - 3311600
   templates:
     - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\WitchIt\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\\WitchIt\\Saved\\SaveGames}}"
