@@ -50854,6 +50854,11 @@
         oslist: macos
       description: Launch
       executable: MetroLastLightRedux.app
+  nameLocalized:
+    japanese: メトロ ラストライト リダックス
+    koreana: "메트로: 라스트 라이트 리덕스"
+    schinese: 地铁：最后的曙光 重制版
+    tchinese: 戰慄深隧：最後曙光 重製版
 287450:
   cloud:
     saves:
@@ -636715,6 +636720,27 @@
       description: Battlemarked
       executable: Battlemarked.app
       type: default
+3124540:
+  cloud:
+    saves:
+      - path: FarFarWest/Saved/SaveGames/
+        pattern: "*.save"
+        root: WinAppDataLocal
+      - path: FarFarWest/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: FarFarWest
+  launch:
+    - description: "DX12 (Default, recommended)"
+      executable: FarFarWest.exe
+    - arguments: "-dx11"
+      config:
+        oslist: linux
+      description: DX11 (Linux or old computers)
+      executable: FarFarWest.exe
+  nameLocalized:
+    schinese: 遥遥西土 Far Far West
+    tchinese: 遙遙西土 Far Far West
 3125750:
   cloud:
     saves:
@@ -646069,6 +646095,7 @@
     schinese: 网球王子 心跳求生 Tie break ♡ game
     tchinese: 網球王子 心跳求生 Tie break ♡ game
 3907620: {}
+3908100: {}
 3909960:
   cloud:
     saves:

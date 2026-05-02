@@ -82672,6 +82672,14 @@ Far Cry Primal:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Far Cry Primal\\*.xml}}"
     - "{{Game data/saves|Ubisoft Connect|{{p|uplay}}\\savegames\\{{p|uid}}\\2010\\}}"
     - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\2029\\}}"
+Far Far West:
+  cloud:
+    steam: true
+  pageId: 216207
+  steam: 3124540
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\FarFarWest\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\FarFarWest\\Saved\\SaveGames\\}}"
 Far From Orbit:
   pageId: 149586
   steam: 1148740
@@ -108374,6 +108382,7 @@ High on Life 2:
   steam: 2069250
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\HighOnLife2\\Saved\\SaveGames\\}}"
 HighFleet:
   cloud:
@@ -216446,6 +216455,9 @@ Steam Squad:
 Steam Tactics:
   pageId: 70293
   steam: 708950
+Steam To Electric:
+  pageId: 216209
+  steam: 3908100
 Steam and Metal:
   cloud:
     steam: true

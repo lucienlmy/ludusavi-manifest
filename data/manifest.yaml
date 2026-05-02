@@ -255697,6 +255697,32 @@ Far Cry Primal:
           - store: steam
   steam:
     id: 371660
+Far Far West:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/FarFarWest/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/FarFarWest/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    FarFarWest: {}
+  launch:
+    "<base>/FarFarWest.exe":
+      - when:
+          - store: steam
+      - arguments: "-dx11"
+        when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3124540
 Far From Orbit:
   installDir:
     Far From Orbit: {}
@@ -335575,6 +335601,12 @@ High on Life 2:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/HighOnLife2/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/HighOnLife2/Saved/Config/Windows":
       tags:
         - config
@@ -668559,6 +668591,9 @@ Steam Tactics:
             store: steam
   steam:
     id: 708950
+Steam To Electric:
+  steam:
+    id: 3908100
 Steam and Metal:
   cloud:
     steam: true
