@@ -23478,6 +23478,7 @@ Battlestar Galactica Deadlock:
 "Battlestar Galactica: Scattered Hopes":
   cloud:
     steam: true
+  gog: 1615322203
   pageId: 208579
   steam: 2535950
 "Battlestations: Midway":
@@ -34342,15 +34343,17 @@ Bullynoid:
 Bullyparade - DER Spiel:
   pageId: 67798
   steam: 656780
-"Bulwark Evolution: Falconeer Chronicles":
+"Bulwark: Falconeer Chronicles":
   pageId: 188184
   renamedFrom:
     - "Bulwark: Falconeer Chronicles"
+    - "Bulwark Evolution: Falconeer Chronicles"
   steam: 290100
   steamSide:
     - 2278440
   templates:
-    - "{{Game data/config|Windows|{{File|{{P|userprofile\\appdata\\locallow}}\\Wired Productions\\Bulwark\\settings.dat}}}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Wired Productions\\Bulwark\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Wired Productions\\Bulwark\\*.dat}}"
 Bum Simulator:
   pageId: 94555
   steam: 855740
@@ -73911,6 +73914,9 @@ Electro Ride:
   pageId: 137058
   steam: 696150
 Electroman:
+  cloud:
+    gog: true
+  gog: 1228404619
   pageId: 142590
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\config.dta}}"
@@ -104832,6 +104838,9 @@ Hearthstone:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Blizzard\\Hearthstone\\options.txt}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Applications/Hearthstone/client.config}}"
 Heartlight:
+  cloud:
+    gog: true
+  gog: 1566417775
   pageId: 142652
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\config.dta}}"
@@ -113188,6 +113197,12 @@ I Have No Change:
 I Know Everything:
   pageId: 136828
   steam: 1040310
+"I Know a Guy: Shady Life Simulator":
+  cloud:
+    steam: true
+  lutris: i-know-a-guy
+  pageId: 216229
+  steam: 4173620
 I Know a Tale:
   pageId: 40432
   steam: 529450
@@ -142530,6 +142545,8 @@ Melty Blood Actress Again Current Code:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\System\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\System\\}}"
+"Melty Blood: Twi-Lumina":
+  pageId: 216234
 "Melty Blood: Type Lumina":
   pageId: 169467
   steam: 1372280
@@ -165067,7 +165084,7 @@ Overcooked! 2:
     - 1138400
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Team17\\Overcooked2\\}}"
-    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\{{p|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{p|uid}}\\|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{Note|note=Save files are stored directly in the Saves folder for the offline installation method (for example, using GOG standalone installers).}}}}"
     - "{{Game data/saves|Microsoft Store|{{p|LOCALAPPDATA}}Packages\\Team17DigitalLimited.Overcooked2Win10_j5x4vj4y67jhc\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Team17/Overcooked2/{{p|uid}}}}"
 Overcooked! All You Can Eat:
@@ -190253,6 +190270,7 @@ Rocket Ranger:
 Rocket Rats:
   cloud:
     steam: true
+  lutris: rocket-rats
   pageId: 208811
   steam: 3069810
   templates:
@@ -200644,6 +200662,9 @@ Shark Castle:
 Shark Dating Simulator XL:
   pageId: 64858
   steam: 666020
+Shark Dentist:
+  pageId: 216232
+  steam: 3423280
 Shark Simulator:
   pageId: 72332
   steam: 708340

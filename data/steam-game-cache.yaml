@@ -510663,6 +510663,13 @@
     - executable: 6.0.exe
       type: none
 1165870:
+  cloud:
+    saves:
+      - path: MagicalGirlDF/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Mahou Arms
   launch:
     - executable: MagicalGirlDF.exe
@@ -635928,6 +635935,9 @@
         oslist: windows
       executable: Rocket Rats.exe
       type: default
+  nameLocalized:
+    schinese: 鼠鼠登月 Rocket Rats
+    tchinese: 鼠鼠登月 Rocket Rats
 3070070:
   cloud:
     saves:
@@ -641478,6 +641488,9 @@
         oslist: windows
       executable: "Frankie's FunClub.exe"
       type: default
+3423280:
+  nameLocalized:
+    schinese: "鲨鱼牙医 "
 3425550:
   installDir: Guncaster
   launch:
@@ -647077,6 +647090,20 @@
         osarch: "64"
         oslist: windows
       executable: mywintercar.exe
+4173620:
+  cloud:
+    saves:
+      - path: BunchoNerds/I Know a Guy
+        pattern: Save_*.json
+        root: WinAppDataLocalLow
+      - path: BunchoNerds/I Know a Guy
+        pattern: Statistics.json
+        root: WinAppDataLocalLow
+  installDir: I Know a Guy
+  launch:
+    - config:
+        oslist: windows
+      executable: I Know a Guy.exe
 4176460: {}
 4181410:
   nameLocalized:

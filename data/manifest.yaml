@@ -73057,6 +73057,8 @@ Battlestar Galactica Deadlock:
 "Battlestar Galactica: Scattered Hopes":
   cloud:
     steam: true
+  gog:
+    id: 1615322203
   steam:
     id: 2535950
 "Battlestations: Midway":
@@ -106579,22 +106581,19 @@ Bullyparade - DER Spiel:
   steam:
     id: 656780
 "Bulwark Evolution: Falconeer Chronicles":
+  alias: "Bulwark: Falconeer Chronicles"
+"Bulwark: Falconeer Chronicles":
   files:
-    "<home>/AppData/LocalLow/Wired Productions/Bulwark/achievements.dat":
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/*.dat":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/Wired Productions/Bulwark/save.dat":
+        - os: windows
+    "<home>/AppData/LocalLow/Wired Productions/Bulwark/settings.dat":
+      tags:
+        - config
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/Wired Productions/Bulwark/scen0.dat":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Wired Productions/Bulwark/scen1.dat":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Wired Productions/Bulwark/scen2.dat":
-      when:
-        - store: steam
+        - os: windows
   id:
     steamExtra:
       - 2278440
@@ -106607,8 +106606,6 @@ Bullyparade - DER Spiel:
             store: steam
   steam:
     id: 290100
-"Bulwark: Falconeer Chronicles":
-  alias: "Bulwark Evolution: Falconeer Chronicles"
 Bum Simulator:
   files:
     "<winLocalAppData>/BumSim/Saved/Config":
@@ -229617,6 +229614,8 @@ Electro Ride:
   steam:
     id: 696150
 Electroman:
+  cloud:
+    gog: true
   files:
     "<base>/config.dta":
       tags:
@@ -229628,6 +229627,8 @@ Electroman:
         - save
       when:
         - os: dos
+  gog:
+    id: 1228404619
 Electromaze Defense:
   files:
     "<base>/ElectromazeDefense_Data/SaveData.cjc":
@@ -324514,12 +324515,16 @@ Hearthstone:
   id:
     lutris: hearthstone
 Heartlight:
+  cloud:
+    gog: true
   files:
     "<base>/config.dta":
       tags:
         - config
       when:
         - os: dos
+  gog:
+    id: 1566417775
 Heartomics:
   installDir:
     Heartomics: {}
@@ -350394,6 +350399,27 @@ I Know Everything:
             store: steam
   steam:
     id: 1040310
+"I Know a Guy: Shady Life Simulator":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BunchoNerds/I Know a Guy/Save_*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/BunchoNerds/I Know a Guy/Statistics.json":
+      when:
+        - store: steam
+  id:
+    lutris: i-know-a-guy
+  installDir:
+    I Know a Guy: {}
+  launch:
+    "<base>/I Know a Guy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4173620
 I Know a Tale:
   installDir:
     I Know a Tale: {}
@@ -509229,7 +509255,12 @@ Overcooked! 2:
         - save
       when:
         - os: linux
-    "<home>/AppData/LocalLow/Team17/Overcooked2/<storeUserId>":
+    "<home>/AppData/LocalLow/Team17/Overcooked2/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Team17/Overcooked2/Saves/<storeUserId>":
       tags:
         - save
       when:
@@ -586752,6 +586783,8 @@ Rocket Rats:
         - save
       when:
         - os: windows
+  id:
+    lutris: rocket-rats
   installDir:
     Rocket Rats: {}
   launch:
@@ -619071,6 +619104,9 @@ Shark Dating Simulator XL:
             store: steam
   steam:
     id: 666020
+Shark Dentist:
+  steam:
+    id: 3423280
 Shark Simulator:
   installDir:
     Shark Simulator: {}
