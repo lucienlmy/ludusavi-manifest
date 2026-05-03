@@ -22499,6 +22499,25 @@ After the Inferno:
             store: steam
   steam:
     id: 2027360
+AfterBeat:
+  cloud:
+    steam: true
+  files:
+    "<base>/settings":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Project Arrhythmia: {}
+  launch:
+    "<base>/Project Arrhythmia.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 440310
 AfterShock:
   steam:
     id: 432080
@@ -181209,6 +181228,10 @@ Death Stranding:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/KOJIMA PRODUCTIONS/DEATH STRANDING 2 - ON THE BEACH:
+      tags:
+        - config
   steam:
     id: 3280350
 "Death Stranding Director's Cut":
@@ -337974,13 +337997,16 @@ Hive Jump:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Graphite Lab/Hive Jump Survivors/saves/*.sav":
+    "<home>/AppData/LocalLow/Graphite Lab/Hive Jump Survivors/saves/Save.sav":
+      tags:
+        - config
       when:
-        - store: steam
-    "<xdgConfig>/unity3d/Graphite Lab/Hive Jump Survivors/saves/*.sav":
+        - os: windows
+    "<xdgConfig>/unity3d/Graphite Lab/Hive Jump Survivors/saves/Save.sav":
+      tags:
+        - config
       when:
         - os: linux
-          store: steam
   gog:
     id: 1577460220
   id:
@@ -350411,6 +350437,8 @@ I Know Everything:
         - store: steam
   id:
     lutris: i-know-a-guy
+    steamExtra:
+      - 4333670
   installDir:
     I Know a Guy: {}
   launch:
@@ -509255,12 +509283,12 @@ Overcooked! 2:
         - save
       when:
         - os: linux
-    "<home>/AppData/LocalLow/Team17/Overcooked2/Saves":
+    "<home>/AppData/LocalLow/Team17/Overcooked2/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
-    "<home>/AppData/LocalLow/Team17/Overcooked2/Saves/<storeUserId>":
+    "<home>/AppData/LocalLow/Team17/Overcooked2/Saves":
       tags:
         - save
       when:
@@ -544885,24 +544913,7 @@ Project Ara - Crucible:
   steam:
     id: 704970
 Project Arrhythmia:
-  cloud:
-    steam: true
-  files:
-    "<base>/settings":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  installDir:
-    Project Arrhythmia: {}
-  launch:
-    "<base>/Project Arrhythmia.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 440310
+  alias: AfterBeat
 Project Aura:
   cloud:
     steam: true
@@ -584490,6 +584501,12 @@ Robbo:
         - config
       when:
         - os: dos
+  gog:
+    id: 1421207615
+  id:
+    gogExtra:
+      - 1472210676
+    lutris: robbo
 Robbo Millennium:
   files:
     "<base>/data":
@@ -681242,6 +681259,24 @@ Sunflower:
           - store: steam
   steam:
     id: 1118910
+Sunfluffs:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Sunfluffs":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Sunfluffs: {}
+  launch:
+    "<base>/fluff.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3776680
 Sunken:
   installDir:
     Sunken: {}
@@ -786866,16 +786901,16 @@ Two Worlds:
   cloud:
     steam: true
   files:
+    "<base>/Game/Two Worlds Saves":
+      tags:
+        - save
+      when:
+        - os: linux
     "<base>/Parameters/AutoexecGame.con":
       tags:
         - config
       when:
         - os: windows
-    "<base>/game/game/Game/Two Worlds Saves":
-      tags:
-        - save
-      when:
-        - os: linux
     "<home>/Saved Games/Two Worlds Saves":
       tags:
         - save

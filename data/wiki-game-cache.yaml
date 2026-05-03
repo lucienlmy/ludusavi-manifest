@@ -7078,6 +7078,16 @@ After the Fall:
 After the Inferno:
   pageId: 180244
   steam: 2027360
+AfterBeat:
+  cloud:
+    steam: true
+  pageId: 39665
+  renamedFrom:
+    - Project Arrhythmia
+  steam: 440310
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\settings}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\settings}}"
 AfterShock:
   pageId: 39347
   steam: 432080
@@ -58216,7 +58226,7 @@ Death Stranding:
   pageId: 213700
   steam: 3280350
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\|\n{{p|hkcu}}\\SOFTWARE\\KOJIMA PRODUCTIONS\\DEATH STRANDING 2 - ON THE BEACH}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\DEATH STRANDING 2 - ON THE BEACH\\}}"
 "Death Stranding Director's Cut":
   cloud:
@@ -102354,7 +102364,7 @@ Half-Life:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Valve\\Half-Life\\}}"
     - "{{Game data/config|Steam|{{P|game}}/valve/*.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\valve\\SAVE\\}}"
-    - "{{Game data/saves|OS X|{{P|game}}/valve/SAVE}}"
+    - "{{Game data/saves|OS X|{{P|game}}/valve/SAVE/}}"
     - "{{Game data/saves|Linux|{{P|game}}/valve/SAVE/}}"
 Half-Life 2:
   cloud:
@@ -109129,6 +109139,9 @@ Hive Jump:
   lutris: hive-jump-2-survivors
   pageId: 197652
   steam: 2545740
+  templates:
+    - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Graphite Lab\\Hive Jump Survivors\\saves\\Save.sav}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Graphite Lab/Hive Jump Survivors/saves\\Save.sav}}"
 Hive Quest:
   pageId: 96183
   steam: 843280
@@ -113203,6 +113216,8 @@ I Know Everything:
   lutris: i-know-a-guy
   pageId: 216229
   steam: 4173620
+  steamSide:
+    - 4333670
 I Know a Tale:
   pageId: 40432
   steam: 529450
@@ -165084,7 +165099,7 @@ Overcooked! 2:
     - 1138400
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Team17\\Overcooked2\\}}"
-    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{p|uid}}\\|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{Note|note=Save files are stored directly in the Saves folder for the offline installation method (for example, using GOG standalone installers).}}}}"
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\{{p|uid}}\\|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{Note|note=Save files are stored directly in the Saves folder for the offline installation method (for example, using GOG standalone installers).}}}}"
     - "{{Game data/saves|Microsoft Store|{{p|LOCALAPPDATA}}Packages\\Team17DigitalLimited.Overcooked2Win10_j5x4vj4y67jhc\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Team17/Overcooked2/{{p|uid}}}}"
 Overcooked! All You Can Eat:
@@ -176698,14 +176713,6 @@ Project Apocalypse:
 Project Ara - Crucible:
   pageId: 152819
   steam: 704970
-Project Arrhythmia:
-  cloud:
-    steam: true
-  pageId: 39665
-  steam: 440310
-  templates:
-    - "{{Game data/config|Windows|{{P|game}}\\settings}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\settings}}"
 Project Aura:
   cloud:
     steam: true
@@ -189518,6 +189525,10 @@ Robbie Swifthand and the Orb of Mysteries:
   pageId: 77096
   steam: 718010
 Robbo:
+  gog: 1421207615
+  gogSide:
+    - 1472210676
+  lutris: robbo
   pageId: 142639
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\config.dta}}"
@@ -220580,6 +220591,14 @@ Sune och hans Värld - Pussjakten:
 Sunflower:
   pageId: 142167
   steam: 1118910
+Sunfluffs:
+  cloud:
+    steam: true
+  pageId: 216246
+  steam: 3776680
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Sunfluffs\\}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Sunfluffs\\}}"
 Sunken:
   pageId: 42888
   steam: 405960
@@ -255613,7 +255632,7 @@ Two Worlds:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Reality Pump\\TwoWorlds\\|{{p|game}}\\Parameters\\AutoexecGame.con}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Two Worlds Saves\\}}"
-    - "{{Game data/saves|Linux|{{P|game}}/game/game/Game/Two Worlds Saves}}"
+    - "{{Game data/saves|Linux|{{P|game}}/Game/Two Worlds Saves/}}"
 Two Worlds II:
   cloud:
     steam: true

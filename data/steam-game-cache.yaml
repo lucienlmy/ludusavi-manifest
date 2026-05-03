@@ -149128,6 +149128,11 @@
         oslist: windows
       executable: Project Arrhythmia.exe
       type: default
+    - config:
+        betakey: alpha
+      description: Use to launch the new Afterbeat.exe instead of the ProjectArrhythmia.exe
+      executable: afterbeat.exe
+      type: default
 440330:
   installDir: Warhammer Arcane Magic
   launch:
@@ -645232,6 +645237,12 @@
         oslist: macos
       executable: DogWalk.app/Contents/MacOS/DOGWALK
       type: default
+3776680:
+  installDir: Sunfluffs
+  launch:
+    - config:
+        oslist: windows
+      executable: fluff.exe
 3779190:
   installDir: The Puppy
   launch:
