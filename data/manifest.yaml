@@ -239162,6 +239162,11 @@ Escape Machines:
             store: steam
   steam:
     id: 363490
+"Escape Memoirs: Bank Heist":
+  id:
+    lutris: escape-memoirs-bank-heist
+  steam:
+    id: 3295420
 "Escape Memoirs: Mansion Heist":
   id:
     lutris: escape-memoirs-mansion-heist
@@ -288391,6 +288396,11 @@ Gambonanza:
         - save
       when:
         - os: windows
+  id:
+    lutris: gambonanza
+    steamExtra:
+      - 3842920
+      - 4256840
   installDir:
     Gambonanza: {}
   launch:
@@ -300360,6 +300370,32 @@ Goblin Times / 哥布林时代:
             store: steam
   steam:
     id: 1191870
+"Goblin Vyke: The Thief Tycoon":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/ArtThieves/GoblinVyke/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/ArtThieves/GoblinVyke/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.ArtThieves.GoblinVyke/*.json":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: goblin-vyke-the-thief-tycoon
+  installDir:
+    Goblin Vyke: {}
+  launch:
+    "<base>/Build_9_19/GoblinVyke.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3794610
 Goblin Walker:
   files:
     "<base>/*.sav":
@@ -357409,6 +357445,7 @@ InKonbini:
     lutris: inkonbini
     steamExtra:
       - 3638700
+      - 4689760
   installDir:
     inKonbini: {}
   launch:
@@ -445559,6 +445596,7 @@ Metropolis:
     id: 782410
 Metropolis 1998:
   id:
+    lutris: metropolis-1998
     steamExtra:
       - 2728140
   steam:
@@ -509399,6 +509437,12 @@ Overcooked! 2:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/Team17/Overcooked2/Saves/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
     "<winLocalAppData>Packages/Team17DigitalLimited.Overcooked2Win10_j5x4vj4y67jhc/SystemAppData/wgs":
       tags:
         - save
@@ -546605,6 +546649,16 @@ Project Temporality:
             store: steam
   steam:
     id: 290320
+Project Thea:
+  installDir:
+    Project Thea: {}
+  launch:
+    "<base>/ProjectThea.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3360890
 Project Three:
   cloud:
     steam: true
@@ -691656,6 +691710,13 @@ Swarmriders:
             store: steam
   steam:
     id: 490230
+"Swashbucklers: Blue vs. Grey":
+  files:
+    "<winDocuments>/My Games/Swashbucklers/settings":
+      tags:
+        - config
+      when:
+        - os: windows
 SweatShop:
   files:
     "<home>/AppData/LocalLow/DucksLab/SweatShop/persistentData/default":
@@ -707585,11 +707646,18 @@ TerraTech:
     id: 285920
 TerraTech Legion:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/TerraTech_Legion/**/*.dat":
       when:
         - store: steam
+  id:
+    lutris: terratech-legion
+    steamExtra:
+      - 3729960
+      - 4443500
+      - 4533940
   installDir:
     TerraTech Legion: {}
   launch:
@@ -794316,6 +794384,13 @@ UniteStar:
 United Force of Osiris (pre Alpha):
   steam:
     id: 958290
+"United Heist: Facility Zero":
+  cloud:
+    steam: true
+  id:
+    lutris: united-heist-facility-zero
+  steam:
+    id: 3387160
 United Tactics:
   steam:
     id: 662570

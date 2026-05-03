@@ -422,6 +422,8 @@ $1 Ride:
 "101: The Airborne Invasion of Normandy":
   pageId: 206909
   steam: 3863630
+102 Dalmatians Activity Center:
+  pageId: 216296
 "102 Dalmatians: Puppies to the Rescue":
   pageId: 55326
   templates:
@@ -76848,6 +76850,10 @@ Escape Machines:
   steam: 363490
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Macromedia\\Flash Player\\#SharedObjects\\{{p|uid}}\\{{p|game}}\\NEOScavenger.exe\\EM.sol}}"
+"Escape Memoirs: Bank Heist":
+  lutris: escape-memoirs-bank-heist
+  pageId: 216298
+  steam: 3295420
 "Escape Memoirs: Mansion Heist":
   lutris: escape-memoirs-mansion-heist
   pageId: 216282
@@ -93022,8 +93028,12 @@ Gambol:
 Gambonanza:
   cloud:
     steam: true
+  lutris: gambonanza
   pageId: 216280
   steam: 3509230
+  steamSide:
+    - 3842920
+    - 4256840
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Blukulélé\\Gambonanza\\*.json}}"
 Gambys:
@@ -96893,7 +96903,11 @@ Goblin Times / 哥布林时代:
   pageId: 154035
   steam: 1191870
 "Goblin Vyke: The Thief Tycoon":
+  cloud:
+    steam: true
+  lutris: goblin-vyke-the-thief-tycoon
   pageId: 216204
+  steam: 3794610
 Goblin Walker:
   pageId: 164284
   steam: 834060
@@ -115427,6 +115441,7 @@ InKonbini:
   steam: 2723430
   steamSide:
     - 3638700
+    - 4689760
 InMind 2 VR:
   pageId: 57987
   steam: 522220
@@ -144124,6 +144139,7 @@ Metropolis:
   pageId: 82181
   steam: 782410
 Metropolis 1998:
+  lutris: metropolis-1998
   pageId: 194178
   steam: 2287430
   steamSide:
@@ -165151,6 +165167,7 @@ Overcooked! 2:
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Team17\\Overcooked2\\}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\{{p|uid}}\\|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{Note|note=Save files are stored directly in the Saves folder for the offline installation method (for example, using GOG standalone installers).}}}}"
+    - "{{Game data/saves|GOG.com|{{p|USERPROFILE}}\\AppData\\LocalLow\\Team17\\Overcooked2\\Saves\\{{p|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|LOCALAPPDATA}}Packages\\Team17DigitalLimited.Overcooked2Win10_j5x4vj4y67jhc\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Team17/Overcooked2/{{p|uid}}}}"
 Overcooked! All You Can Eat:
@@ -177274,6 +177291,9 @@ Project Temporality:
     steam: true
   pageId: 50242
   steam: 290320
+Project Thea:
+  pageId: 216302
+  steam: 3360890
 Project Three:
   cloud:
     steam: true
@@ -223933,6 +223953,8 @@ Swarmriders:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SWARMRIDERS\\}}"
 "Swashbucklers: Blue vs. Grey":
   pageId: 212513
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\My Games\\Swashbucklers\\settings}}"
 SweatShop:
   pageId: 42133
   steam: 496680
@@ -228883,10 +228905,16 @@ TerraTech:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/TerraTech/}}"
 TerraTech Legion:
   cloud:
+    epic: true
     steam: true
     xbox: true
+  lutris: terratech-legion
   pageId: 216179
   steam: 3596700
+  steamSide:
+    - 3729960
+    - 4443500
+    - 4533940
 Terracotta - Shards of Doom:
   pageId: 141673
   steam: 1109750
@@ -258082,6 +258110,12 @@ UniteStar:
 United Force of Osiris (pre Alpha):
   pageId: 122454
   steam: 958290
+"United Heist: Facility Zero":
+  cloud:
+    steam: true
+  lutris: united-heist-facility-zero
+  pageId: 216314
+  steam: 3387160
 United Tactics:
   pageId: 64558
   steam: 662570

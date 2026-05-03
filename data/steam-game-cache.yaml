@@ -639614,6 +639614,7 @@
   launch:
     - executable: Killer Depths/Killer Depths.exe
       type: default
+3295420: {}
 3296790:
   cloud:
     saves:
@@ -640620,6 +640621,13 @@
         oslist: windows
       executable: BloodmoonRush.exe
       type: default
+3360890:
+  installDir: Project Thea
+  launch:
+    - config:
+        oslist: windows
+      executable: ProjectThea.exe
+      type: default
 3361210:
   installDir: BROKChristmas
   launch:
@@ -641060,6 +641068,7 @@
         osarch: "64"
         oslist: windows
       executable: Castle of Heart Retold.exe
+3387160: {}
 3388530:
   installDir: Banana Massacre
   launch:
@@ -645374,6 +645383,40 @@
     schinese: 原子之心 2
     tchinese: 原子之心 2
 3789050: {}
+3794610:
+  cloud:
+    saves:
+      - path: ArtThieves/GoblinVyke
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ArtThieves/GoblinVyke
+            replace: unity.ArtThieves.GoblinVyke
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ArtThieves/GoblinVyke
+            replace: ".config/unity3d/ArtThieves/GoblinVyke"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Goblin Vyke
+  launch:
+    - config:
+        oslist: windows
+      executable: "Build_9_19\\GoblinVyke.exe"
+      type: default
+  nameLocalized:
+    english: "Goblin Vyke: The Thief Tycoon"
+    japanese: ゴブリン ヴァイク：ヌスビトタイクーン
+    koreana: "고블린 위크: 암행 재벌"
+    schinese: 哥布林维克：窃贼大亨
+    tchinese: 哥布林維克：竊賊大亨
 3794770:
   cloud:
     saves:
