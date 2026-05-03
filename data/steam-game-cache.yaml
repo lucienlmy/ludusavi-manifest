@@ -209289,7 +209289,7 @@
         osarch: "64"
         oslist: windows
         ownsdlc: "1999180"
-      description: stingray_win64_profile.exe
+      description: stingray_win64_profile.exe !THIS PRODUCES A LOT OF DATA!
       executable: "bin\\profile\\stingray_win64_profile.exe"
       type: option2
 553880:
@@ -591847,6 +591847,14 @@
     thai: "ฝันร้ายของเอสเทลล่า: พื้นที่ปิดผนึกและคำสาปของซัคคิวบัส"
     turkish: "Estella'nın Kabusu: Mühürlü Mekan ve Succubus'un Laneti"
     vietnamese: "Ác mộng của Estella: Không gian kín và lời nguyền của Succubus"
+1925320:
+  installDir: Escape Memoirs - Mansion Heist
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: EscapeMemoirs1.exe
+      type: default
 1925940:
   installDir: TheOfficeRooms
   launch:
@@ -602364,6 +602372,14 @@
       executable: kong.exe
       type: default
 2097940: {}
+2098350:
+  installDir: Escape Memoirs - Mini Stories
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: EscapeMemoirsMS.exe
+      type: default
 2098470:
   cloud:
     saves:
@@ -614912,6 +614928,14 @@
         osarch: "64"
         oslist: windows
       executable: Poostall_Royale.exe
+      type: default
+2363730:
+  installDir: Escape Memoirs - Questionable Side Stories
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: EscapeMemoirsQSS.exe
       type: default
 2365810:
   cloud:
@@ -628226,6 +628250,12 @@
     - config:
         oslist: macos
       executable: Grunn_mac.app
+2722360:
+  installDir: Escape Memoirs - Safe House
+  launch:
+    - description: Launch
+      executable: EscapeMemoirsSH.exe
+      type: default
 2723430:
   cloud:
     saves:
@@ -637664,6 +637694,7 @@
       description: Late Emergency
       executable: Late Emergency.exe
       type: default
+3182950: {}
 3183280:
   installDir: Game of Thrones Kingsroad
   launch:
@@ -642434,6 +642465,39 @@
         oslist: windows
       executable: fe2.exe
       type: default
+3509230:
+  cloud:
+    saves:
+      - path: Blukulélé/Gambonanza
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Blukulélé/Gambonanza
+            replace: Blukulélé/Gambonanza
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Blukulélé/Gambonanza
+            replace: unity3d/Blukulélé/Gambonanza
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Gambonanza
+  launch:
+    - config:
+        oslist: windows
+      executable: Gambonanza/Gambonanza.exe
+    - config:
+        oslist: macos
+      executable: Gambonanza.app
+    - config:
+        oslist: linux
+      executable: Gambonanza.x86_64
 3510530: {}
 3511620:
   installDir: Super Spy Violet

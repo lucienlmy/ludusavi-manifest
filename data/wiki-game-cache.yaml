@@ -5987,6 +5987,8 @@ Acts of Blood:
   lutris: acts-of-blood
   pageId: 199721
   steam: 3031890
+  steamSide:
+    - 3304670
 Actua Golf:
   cloud:
     steam: true
@@ -43749,6 +43751,8 @@ Cliff Empire:
 Cliff Hanger:
   pageId: 37008
   steam: 515200
+"Clifford the Big Red Dog: Phonics":
+  pageId: 216271
 "Clifford the Big Red Dog: Thinking Adventures":
   pageId: 210391
 "Cliffs of War: Fortress Defenders":
@@ -76844,6 +76848,30 @@ Escape Machines:
   steam: 363490
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Macromedia\\Flash Player\\#SharedObjects\\{{p|uid}}\\{{p|game}}\\NEOScavenger.exe\\EM.sol}}"
+"Escape Memoirs: Mansion Heist":
+  lutris: escape-memoirs-mansion-heist
+  pageId: 216282
+  steam: 1925320
+"Escape Memoirs: Mini Stories":
+  lutris: escape-memoirs-mini-stories
+  pageId: 216284
+  steam: 2098350
+  steamSide:
+    - 2190440
+    - 2222460
+"Escape Memoirs: Questionable Side Stories":
+  lutris: escape-memoirs-questionable-side-stories
+  pageId: 216263
+  steam: 2363730
+  steamSide:
+    - 3375010
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\EscapeMemoirsQSS\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\EscapeMemoirsQSS\\Saved\\SaveGames}}"
+"Escape Memoirs: Safe House":
+  lutris: escape-memoirs-safe-house
+  pageId: 216294
+  steam: 2722360
 Escape Mind:
   pageId: 148513
   steam: 1138910
@@ -92991,6 +93019,13 @@ Gamble of Gods:
 Gambol:
   pageId: 72113
   steam: 713310
+Gambonanza:
+  cloud:
+    steam: true
+  pageId: 216280
+  steam: 3509230
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Blukulélé\\Gambonanza\\*.json}}"
 Gambys:
   pageId: 188941
 Game Breaker:
@@ -105761,7 +105796,7 @@ Helldivers 2:
   steamSide:
     - 2514130
   templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Roaming\\Arrowhead\\Helldivers2\\user_settings.config|{{P|steam}}/userdata/{{p|uid}}/553850/remote/input_settings.config}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Arrowhead\\Helldivers2\\user_settings.config|{{P|steam}}/userdata/{{p|uid}}/553850/remote/input_settings.config}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Arrowhead\\Helldivers2\\saves\\}}"
 Helldorado:
   cloud:
@@ -111602,6 +111637,8 @@ Hoyle Official Card Games:
 Hoyle Official Casino Games:
   pageId: 51849
   steam: 532950
+Hoyle Slots & Video Poker:
+  pageId: 216265
 Hoyle Solitaire:
   pageId: 147353
 "Hoyle's Official Book of Games: Volume 1":
@@ -113262,6 +113299,8 @@ I Shall Remain:
   pageId: 200396
 "I Spy: Mystery":
   pageId: 211312
+"I Spy: Spooky Mansion":
+  pageId: 216269
 "I Spy: Treasure Hunt":
   pageId: 198183
   templates:
@@ -140604,10 +140643,11 @@ Massive Air Combat:
     - 1045540
 Massive Assault:
   gog: 1422288780
+  lutris: massive-assault
   pageId: 24654
   steam: 34630
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 Massive Assault Network 2:
   pageId: 41209
@@ -140933,6 +140973,12 @@ Matchbox Driving Adventures:
     - 1840960
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Torus Games\\Matchpoint\\Matchpoint*.save|{{p|userprofile\\appdata\\locallow}}\\Torus Games\\Matchpoint\\Career*.sav}}"
+"Matchstick: Cosmic Flame":
+  lutris: matchstick-cosmic-flame
+  pageId: 216278
+  steam: 3182950
+  steamSide:
+    - 3384160
 Matchville:
   pageId: 108744
   steam: 695720
@@ -183308,6 +183354,8 @@ Ready or Not:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\ReadyOrNot\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\ReadyOrNot\\Saved\\SaveGames}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\VOIDInteractive.ReadyorNot_wzdj6a56z6mzp\\SystemAppData\\wgs}}"
+Ready to Read with Pooh:
+  pageId: 216290
 "Ready, Aim, Splat!":
   pageId: 55948
   steam: 559170
@@ -240987,6 +241035,8 @@ The Royal Marines Commando:
   templates:
     - "{{Game data/config|Windows|{{p|Public}}\\Documents\\City Interactive\\Royal Marines Commando\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|Public}}\\Documents\\City Interactive\\Royal Marines Commando\\Profiles\\|{{p|Public}}\\Documents\\City Interactive\\Royal Marines Commando\\Save\\}}"
+"The Rugrats Movie: Activity Challenge":
+  pageId: 216273
 "The Ruins: VR Escape the Room":
   pageId: 61000
   steam: 592320

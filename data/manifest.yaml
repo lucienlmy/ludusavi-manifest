@@ -18983,6 +18983,8 @@ Actraiser Renaissance:
 Acts of Blood:
   id:
     lutris: acts-of-blood
+    steamExtra:
+      - 3304670
   steam:
     id: 3031890
 Actua Golf:
@@ -239160,6 +239162,69 @@ Escape Machines:
             store: steam
   steam:
     id: 363490
+"Escape Memoirs: Mansion Heist":
+  id:
+    lutris: escape-memoirs-mansion-heist
+  installDir:
+    Escape Memoirs - Mansion Heist: {}
+  launch:
+    "<base>/EscapeMemoirs1.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1925320
+"Escape Memoirs: Mini Stories":
+  id:
+    lutris: escape-memoirs-mini-stories
+    steamExtra:
+      - 2190440
+      - 2222460
+  installDir:
+    Escape Memoirs - Mini Stories: {}
+  launch:
+    "<base>/EscapeMemoirsMS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2098350
+"Escape Memoirs: Questionable Side Stories":
+  files:
+    "<winLocalAppData>/EscapeMemoirsQSS/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/EscapeMemoirsQSS/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: escape-memoirs-questionable-side-stories
+    steamExtra:
+      - 3375010
+  installDir:
+    Escape Memoirs - Questionable Side Stories: {}
+  launch:
+    "<base>/EscapeMemoirsQSS.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2363730
+"Escape Memoirs: Safe House":
+  id:
+    lutris: escape-memoirs-safe-house
+  installDir:
+    Escape Memoirs - Safe House: {}
+  launch:
+    "<base>/EscapeMemoirsSH.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2722360
 Escape Mind:
   installDir:
     Escape Mind: {}
@@ -288317,6 +288382,32 @@ Gambol:
             store: steam
   steam:
     id: 713310
+Gambonanza:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Blukulélé/Gambonanza/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Gambonanza: {}
+  launch:
+    "<base>/Gambonanza.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Gambonanza.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Gambonanza/Gambonanza.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3509230
 Game Breaker:
   installDir:
     Game Breaker: {}
@@ -327247,7 +327338,7 @@ Helldivers 2:
         - save
       when:
         - os: windows
-    "<winAppData>/Roaming/Arrowhead/Helldivers2/user_settings.config":
+    "<winAppData>/Arrowhead/Helldivers2/user_settings.config":
       tags:
         - config
       when:
@@ -434964,6 +435055,8 @@ Massive Assault:
         - os: windows
   gog:
     id: 1422288780
+  id:
+    lutris: massive-assault
   installDir:
     Massive Assault: {}
   launch:
@@ -435999,6 +436092,13 @@ Matchbox Driving Adventures:
             store: steam
   steam:
     id: 1345760
+"Matchstick: Cosmic Flame":
+  id:
+    lutris: matchstick-cosmic-flame
+    steamExtra:
+      - 3384160
+  steam:
+    id: 3182950
 Matchville:
   installDir:
     MatchVille: {}
