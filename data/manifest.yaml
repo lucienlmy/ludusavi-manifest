@@ -54946,10 +54946,14 @@ Asyula 方舟之链:
   steam:
     id: 689070
 At Dead of Night:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/At Dead Of Night/User Data":
       when:
         - store: steam
+  id:
+    lutris: at-dead-of-night
   installDir:
     AtDeadOfNight: {}
   launch:
@@ -149250,6 +149254,8 @@ Copy Kitty:
         - save
       when:
         - os: windows
+  id:
+    lutris: copy-kitty
   installDir:
     Copy Kitty: {}
   launch:
@@ -681268,6 +681274,8 @@ Sunfluffs:
         - config
       when:
         - os: windows
+  id:
+    lutris: sunfluffs
   installDir:
     Sunfluffs: {}
   launch:

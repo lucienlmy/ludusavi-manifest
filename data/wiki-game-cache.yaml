@@ -17567,6 +17567,9 @@ Asyula 方舟之链:
   pageId: 67810
   steam: 689070
 At Dead of Night:
+  cloud:
+    steam: true
+  lutris: at-dead-of-night
   pageId: 166053
   renamedFrom:
     - At Dead Of Night
@@ -47790,6 +47793,7 @@ Copter and Sky:
 Copy Kitty:
   cloud:
     steam: true
+  lutris: copy-kitty
   pageId: 41663
   steam: 349250
   templates:
@@ -119652,6 +119656,7 @@ Jambo:
 "James Bond 007: Goldfinger":
   pageId: 183868
 "James Bond 007: Nightfire":
+  malformed: true
   pageId: 13057
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Gearbox Software\\Nightfire\\bond\\config.cfg}}"
@@ -220594,6 +220599,7 @@ Sunflower:
 Sunfluffs:
   cloud:
     steam: true
+  lutris: sunfluffs
   pageId: 216246
   steam: 3776680
   templates:
