@@ -167610,8 +167610,12 @@ Parcel Panic:
 Parcel Simulator:
   cloud:
     steam: true
+  lutris: parcel-simulator
   pageId: 205877
   steam: 2424010
+  steamSide:
+    - 2498040
+    - 3475940
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\parcel\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\parcel\\Saved\\SaveGames}}"
@@ -227558,6 +227562,8 @@ Tasty Planet:
     - "{{Game data/config|Windows|{{P|appdata}}\\dingogames\\tastyplanet}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\dingogames\\tastyplanet}}"
 Tasty Planet Forever:
+  cloud:
+    steam: true
   lutris: tasty-planet-forever
   pageId: 114654
   steam: 946010
@@ -258142,6 +258148,13 @@ UniteStar:
 United Force of Osiris (pre Alpha):
   pageId: 122454
   steam: 958290
+United Heist:
+  lutris: united-heist
+  pageId: 216308
+  steam: 2119740
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\CoopPuzzle\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\CoopPuzzle\\Saved\\SaveGames}}"
 "United Heist: Facility Zero":
   cloud:
     steam: true
@@ -269734,12 +269747,16 @@ Will to Live Online:
   steam: 588040
   steamSide:
     - 639620
-"Will: Follow The Light":
+"Will: Follow the Light":
   cloud:
-    steam: true
+    xbox: true
   lutris: will-follow-the-light
   pageId: 202087
+  renamedFrom:
+    - "Will: Follow The Light"
   steam: 3144860
+  steamSide:
+    - 4393620
 Willful:
   pageId: 65331
   steam: 664060

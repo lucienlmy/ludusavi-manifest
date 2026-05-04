@@ -516744,6 +516744,11 @@ Parcel Simulator:
         - save
       when:
         - os: windows
+  id:
+    lutris: parcel-simulator
+    steamExtra:
+      - 2498040
+      - 3475940
   installDir:
     Parcel Simulator: {}
   launch:
@@ -703221,6 +703226,8 @@ Tasty Planet:
   steam:
     id: 687540
 Tasty Planet Forever:
+  cloud:
+    steam: true
   files:
     "<winAppData>/dingogames/tastyplanet4":
       tags:
@@ -794428,6 +794435,28 @@ UniteStar:
 United Force of Osiris (pre Alpha):
   steam:
     id: 958290
+United Heist:
+  files:
+    "<winLocalAppData>/CoopPuzzle/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/CoopPuzzle/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: united-heist
+  installDir:
+    UnitedHeist: {}
+  launch:
+    "<base>/CoopPuzzle.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2119740
 "United Heist: Facility Zero":
   cloud:
     steam: true
@@ -829007,11 +829036,11 @@ Will to Live Online:
             store: steam
   steam:
     id: 588040
-"Will: Follow The Light":
-  cloud:
-    steam: true
+"Will: Follow the Light":
   id:
     lutris: will-follow-the-light
+    steamExtra:
+      - 4393620
   steam:
     id: 3144860
 Willful:

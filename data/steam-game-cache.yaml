@@ -603588,6 +603588,11 @@
   installDir: SuperTotalCarnage
   launch:
     - executable: STC.exe
+2119740:
+  installDir: UnitedHeist
+  launch:
+    - executable: CoopPuzzle.exe
+      type: default
 2120900:
   installDir: Fears to Fathom - Episode 3
   launch:
@@ -636774,9 +636779,6 @@
     saves:
       - path: FarFarWest/Saved/SaveGames/
         pattern: "*.save"
-        root: WinAppDataLocal
-      - path: FarFarWest/Saved/SaveGames/
-        pattern: "*.sav"
         root: WinAppDataLocal
   installDir: FarFarWest
   launch:
