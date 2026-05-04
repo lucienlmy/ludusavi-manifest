@@ -21853,6 +21853,13 @@ Aerofly RC 7:
             store: steam
   steam:
     id: 322930
+Aeromachina:
+  id:
+    lutris: aeromachina
+    steamExtra:
+      - 3744860
+  steam:
+    id: 3523120
 Aeronaut:
   installDir:
     Aeronaut: {}
@@ -574839,6 +574846,11 @@ Resident Evil Requiem:
         - save
       when:
         - store: steam
+    "<winAppData>/GSE Saves/3764200/remote/win64_save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: resident-evil-requiem
     steamExtra:
@@ -717932,6 +717944,7 @@ The Crimson Maid:
   cloud:
     steam: true
   id:
+    lutris: the-crimson-maid
     steamExtra:
       - 2697080
   steam:
@@ -827487,6 +827500,21 @@ Wick:
 Wicked Seed:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Dead Right Games/Wicked Seed/*.es3":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: wicked-seed
+    steamExtra:
+      - 3634260
+  installDir:
+    Wicked Seed: {}
+  launch:
+    "<base>/Wicked Seed.exe":
+      - when:
+          - store: steam
   steam:
     id: 2767530
 Wicked Witches:

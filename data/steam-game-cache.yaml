@@ -626735,6 +626735,10 @@
         ownsdlc: "2999660"
       description: "Metaphor: ReFantazio - Atlus 35th Digital All-Time Best Soundtrack"
       executable: Artbook/sound35th/metaphor_sound35th.exe
+    - config:
+        ownsdlc: "4128470"
+      description: "Metaphor: ReFantazio - Essential Digital Strategy Guide"
+      executable: Artbook/guide/metaphor_guide.exe
   nameLocalized:
     japanese: メタファー：リファンタジオ
     koreana: "메타포: 리판타지오"
@@ -629484,7 +629488,17 @@
     koreana: 마블 라이벌즈
     schinese: 漫威争锋
     tchinese: 漫威爭鋒
-2767530: {}
+2767530:
+  cloud:
+    saves:
+      - path: Dead Right Games/Wicked Seed
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Wicked Seed
+  launch:
+    - executable: Wicked Seed.exe
 2768430:
   cloud:
     saves:
@@ -642620,6 +642634,7 @@
         oslist: linux
       executable: HeartRatesPlus.sh
       type: default
+3523120: {}
 3527290:
   cloud:
     saves:

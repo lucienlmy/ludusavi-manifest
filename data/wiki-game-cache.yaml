@@ -6856,6 +6856,12 @@ Aerofly FS 2 Flight Simulator:
 Aerofly RC 7:
   pageId: 49390
   steam: 322930
+Aeromachina:
+  lutris: aeromachina
+  pageId: 216326
+  steam: 3523120
+  steamSide:
+    - 3744860
 Aeronaut:
   pageId: 149783
   steam: 929740
@@ -186363,6 +186369,7 @@ Resident Evil Requiem:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\GSE Saves\\3764200\\remote\\win64_save}}"
 Resident Evil Resistance:
   cloud:
     steam: true
@@ -232217,6 +232224,7 @@ The Crimson Diamond:
 The Crimson Maid:
   cloud:
     steam: true
+  lutris: the-crimson-maid
   pageId: 192499
   steam: 2695260
   steamSide:
@@ -269273,8 +269281,11 @@ Wick:
 Wicked Seed:
   cloud:
     steam: true
+  lutris: wicked-seed
   pageId: 212688
   steam: 2767530
+  steamSide:
+    - 3634260
 Wicked Witches:
   pageId: 45471
   steam: 411630
