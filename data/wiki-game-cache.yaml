@@ -14716,6 +14716,12 @@ Archipelago:
 "Archipelago: Navigable VR Comic":
   pageId: 56258
   steam: 577120
+Architect of the Union:
+  cloud:
+    steam: true
+  lutris: architect-of-the-union
+  pageId: 216322
+  steam: 2604850
 Archmage:
   pageId: 168040
 Archmage Rises:
@@ -105772,6 +105778,9 @@ Hellbound:
   steam: 802200
 "Hellboy: Dogs of the Night":
   pageId: 90889
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\hellboy.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save Games}}"
 "Hellboy: Web of Wyrd":
   pageId: 183622
   steam: 2160480
@@ -214909,7 +214918,7 @@ Star Wars Outlaws:
     - "Star Wars Episode I: Jedi Power Battles"
   steam: 2443630
   templates:
-    - "{{Game data/saves|Steam|{{p|game}}\\bin\\x64\\Steam_Release\\SAVEDATA0\\*.game}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\bin\\x64\\Steam_Release\\SAVEDATA0\\Game}}"
 "Star Wars: Episode I - Racer":
   cloud:
     gog: true
@@ -260968,6 +260977,9 @@ Vector Velocity:
 "Vector's Adventures":
   pageId: 95077
   steam: 773870
+VectorBall:
+  pageId: 216318
+  steam: 2512660
 VectorMan:
   pageId: 30879
   steam: 34280

@@ -621772,6 +621772,7 @@
   installDir: "Butcher's Creek"
   launch:
     - executable: "Butcher's Creek.exe"
+2512660: {}
 2512840:
   installDir: DoronkoWanko
   launch:
@@ -624348,6 +624349,7 @@
   installDir: Loi The Lover
   launch:
     - executable: Loi The Lover.exe
+2604850: {}
 2605140:
   cloud:
     saves:

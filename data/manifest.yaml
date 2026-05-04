@@ -46060,6 +46060,13 @@ Archipelago:
     Archipelago Navigable VR Comic: {}
   steam:
     id: 577120
+Architect of the Union:
+  cloud:
+    steam: true
+  id:
+    lutris: architect-of-the-union
+  steam:
+    id: 2604850
 Archmage Rises:
   files:
     "<home>/.local/share/Steam/steamapps/compdata/506480/pfx/drive_c/users/steamuser/AppData/LocalLow/Defiance Game Studio/ArchmageRises/CustomPortraits":
@@ -327273,6 +327280,18 @@ Hellbound:
     Hellbound Survival Mode: {}
   steam:
     id: 802200
+"Hellboy: Dogs of the Night":
+  files:
+    "<base>/Save Games":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/hellboy.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 "Hellboy: Web of Wyrd":
   files:
     "<home>/AppData/LocalLow/UpstreamArcade/Hellboy/<storeUserId>":
@@ -663266,7 +663285,7 @@ Star Wars Outlaws:
     gog: true
     steam: true
   files:
-    "<base>/bin/x64/Steam_Release/SAVEDATA0/*.game":
+    "<base>/bin/x64/Steam_Release/SAVEDATA0/Game":
       tags:
         - save
       when:
@@ -802591,6 +802610,9 @@ Vector Velocity:
             store: steam
   steam:
     id: 773870
+VectorBall:
+  steam:
+    id: 2512660
 VectorMan:
   files:
     "<winDocuments>/SEGA Genesis Classics/0010":
