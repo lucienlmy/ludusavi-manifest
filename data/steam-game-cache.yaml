@@ -505324,6 +505324,9 @@
       - path: TQ2/Saved/SaveGames
         pattern: "*.sav"
         root: WinAppDataLocal
+      - path: TQ2/Saved/SaveGames
+        pattern: "*.bak"
+        root: WinAppDataLocal
   installDir: Titan Quest II
   launch:
     - config:
@@ -505343,13 +505346,6 @@
       description: Titan Quest II Development Build
       executable: TQ2_Development.exe
       type: option2
-    - arguments: "-MP"
-      config:
-        betakey: public
-        oslist: windows
-      description: (UNSTABLE) Titan Quest II Early Multiplayer Preview (Not for Review)
-      executable: TQ2.exe
-      type: option1
 1154040:
   installDir: SpellForceThree
   launch:
@@ -628975,22 +628971,9 @@
       description: Change video settings
       executable: Settings.exe
     - config:
-        osarch: "64"
-        oslist: windows
-      description: Technical Support
-      executable: Tech_Support/Spacefarer Tech Support.exe
-    - config:
         oslist: linux
       executable: TDCOTRemake.x86_64
       type: default
-    - config:
-        oslist: linux
-      executable: TDCOT_REMAKE_EN_GOLD_MANUAL.pdf
-      type: manual
-    - config:
-        oslist: linux
-      description: Technical Support
-      executable: Tech_Support/start.sh
     - config:
         oslist: macos
       executable: TDCOTR.app
@@ -644059,6 +644042,7 @@
     japanese: ぱる♡わーるど！ ～もう友達(パル)じゃいられない～
     schinese: 幻兽♡帕鲁！ ～已经不想只做朋友了～
     tchinese: 幻獸♡帕魯！ ～已經不想只做朋友(帕魯)了～
+3620530: {}
 3621410:
   installDir: The Expedition
   launch:

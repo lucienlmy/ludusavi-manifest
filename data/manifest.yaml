@@ -535568,6 +535568,11 @@ Police Stories:
         - os: windows
   gog:
     id: 1261094933
+  id:
+    lutris: police-stories
+    steamExtra:
+      - 1158270
+      - 1329730
   installDir:
     PoliceStories: {}
   launch:
@@ -535586,7 +535591,12 @@ Police Stories:
             store: steam
   steam:
     id: 539470
+Police Stories 2:
+  steam:
+    id: 3620530
 "Police Stories: The Academy":
+  id:
+    lutris: police-stories-the-academy
   installDir:
     Police Stories The Academy: {}
   launch:
@@ -719277,15 +719287,6 @@ The Dawning Clocks of Time Remake:
       - when:
           - os: linux
             store: steam
-    "<base>/Tech_Support/Spacefarer Tech Support.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-    "<base>/Tech_Support/start.sh":
-      - when:
-          - os: linux
-            store: steam
     "<base>/The Dawning Clocks of Time Remake.exe":
       - when:
           - bit: 64
@@ -764333,6 +764334,9 @@ Titan Quest II:
     "<base>/TQ2/Saved/SaveGames/*.sav":
       when:
         - store: steam
+    "<winLocalAppData>/TQ2/Saved/SaveGames/*.bak":
+      when:
+        - store: steam
     "<winLocalAppData>/TQ2/Saved/SaveGames/*.sav":
       when:
         - store: steam
@@ -792667,6 +792671,14 @@ Under the Waves:
         - os: windows
   gog:
     id: 1725432183
+  id:
+    gogExtra:
+      - 1521970259
+      - 1986574620
+    lutris: under-the-waves
+    steamExtra:
+      - 2216990
+      - 3069100
   installDir:
     Under The Waves: {}
   launch:

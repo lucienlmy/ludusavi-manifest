@@ -173837,12 +173837,20 @@ Police Stories:
     gog: true
     steam: true
   gog: 1261094933
+  lutris: police-stories
   pageId: 55960
   steam: 539470
+  steamSide:
+    - 1158270
+    - 1329730
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\PoliceStoriesRelease\\settings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\PoliceStoriesRelease\\}}"
+Police Stories 2:
+  pageId: 216335
+  steam: 3620530
 "Police Stories: The Academy":
+  lutris: police-stories-the-academy
   pageId: 180210
   steam: 1986760
 Police Stunt Cars:
@@ -257558,11 +257566,18 @@ Under the Waves:
     gog: true
     steam: true
   gog: 1725432183
+  gogSide:
+    - 1521970259
+    - 1986574620
+  lutris: under-the-waves
   pageId: 189436
   renamedFrom:
     - Under the waves
     - Under The Waves
   steam: 1975440
+  steamSide:
+    - 2216990
+    - 3069100
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\UnderTheWaves\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\UnderTheWaves\\Saved\\SaveGames\\}}"
