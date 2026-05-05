@@ -143796,6 +143796,8 @@ MetalArms:
 "Metaloid : Origin":
   pageId: 126010
   steam: 974390
+"Metaltech: Battledrome":
+  pageId: 216343
 "Metaltech: Earthsiege":
   pageId: 29476
   templates:
@@ -214927,7 +214929,7 @@ Star Wars Outlaws:
   steamSide:
     - 32472
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Petroglyph\\\\StarWars}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Petroglyph\\StarWars}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Petroglyph\\Empire At War\\Save\\}}"
 "Star Wars: Episode I - Battle for Naboo":
   pageId: 6482
