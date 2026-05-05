@@ -86619,6 +86619,7 @@ Blades of Orterra:
 Blades of Time:
   cloud:
     gog: true
+    steam: true
   files:
     "<root>/userdata/<storeUserId>/208670/remote":
       tags:
@@ -90717,6 +90718,26 @@ Blood Typers:
             store: steam
   steam:
     id: 2790330
+Blood Vial:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/BloodVialFull/*.cfg":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/BloodVialFull/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Blood Vial: {}
+  launch:
+    "<base>/Blood Vial.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3648730
 Blood Waves:
   installDir:
     Blood Waves: {}
@@ -516739,7 +516760,7 @@ Parcel Simulator:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/parcel/Saved/SaveGames":
+    "<winLocalAppData>/parcel/Saved/SaveGames/*.sav":
       tags:
         - save
       when:

@@ -28000,6 +28000,7 @@ Blades of Steel (2010):
 Blades of Time:
   cloud:
     gog: true
+    steam: true
   gog: 1164193173
   gogSide:
     - 1613811126
@@ -29301,6 +29302,11 @@ Blood Typers:
     steam: true
   pageId: 201804
   steam: 2790330
+Blood Vial:
+  cloud:
+    steam: true
+  pageId: 216340
+  steam: 3648730
 Blood Waves:
   pageId: 76219
   steam: 654470
@@ -167618,7 +167624,7 @@ Parcel Simulator:
     - 3475940
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\parcel\\Saved\\Config}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\parcel\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\parcel\\Saved\\SaveGames\\*.sav}}"
 Parcheesi Boardgame Simulator:
   cloud:
     steam: true

@@ -644340,6 +644340,23 @@
     koreana: 프로스트펑크 1886
     schinese: 冰汽时代1886
     tchinese: 冰汽時代1886
+3648730:
+  cloud:
+    saves:
+      - path: BloodVialFull
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: BloodVialFull
+        pattern: "*.cfg"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Blood Vial
+  launch:
+    - executable: Blood Vial.exe
+      type: default
 3649490:
   cloud:
     saves:
