@@ -178697,11 +178697,26 @@ Dead Wishes:
   steam:
     id: 1010970
 Dead as Disco:
+  cloud:
+    steam: true
+  files:
+    "<base>/Pagoda/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Pagoda/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: dead-as-disco
     steamExtra:
       - 3763830
       - 4647130
+  installDir:
+    Dead as Disco: {}
+  launch:
+    "<base>/Pagoda.exe":
+      - when:
+          - store: steam
   steam:
     id: 3404260
 Dead by Daylight:
@@ -365288,6 +365303,7 @@ Invincible VS:
       - 4229690
       - 4229700
       - 4439910
+      - 4439920
       - 4439980
       - 4439990
       - 4440070
@@ -463153,10 +463169,29 @@ Motorhead (2015):
 Motorslice:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/MotorSlice/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/MotorSlice/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1547815003
   id:
     lutris: motorslice
+    steamExtra:
+      - 3910170
+  installDir:
+    MOTORSLICE: {}
+  launch:
+    "<base>/MotorSlice.exe":
+      - when:
+          - store: steam
   steam:
     id: 2830030
 Motorsport Manager:
@@ -672856,6 +672891,8 @@ Store Simulator 2018:
   steam:
     id: 816260
 Storebound:
+  cloud:
+    steam: true
   id:
     lutris: storebound--1
   installDir:
@@ -796752,6 +796789,11 @@ Untitled Goose Game:
             store: steam
   steam:
     id: 3448930
+Untitled John Wick Game:
+  id:
+    lutris: untitled-john-wick-game
+  steam:
+    id: 2947860
 Unto the End:
   cloud:
     gog: true

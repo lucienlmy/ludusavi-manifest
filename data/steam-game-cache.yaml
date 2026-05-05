@@ -630899,6 +630899,25 @@
   nameLocalized:
     schinese: 永恒寒冬
 2830030:
+  cloud:
+    saves:
+      - path: MotorSlice/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: MotorSlice/Saved/SaveGames
+            replace: Motorslice/Saved/SavedGames
+        root: WinAppDataLocal
+        useInstead: LinuxXdgConfigHome
+  installDir: MOTORSLICE
+  launch:
+    - executable: MotorSlice.exe
   nameLocalized:
     japanese: MOTORSLICE モータースライス
     schinese: 废都电锯姬
@@ -633143,6 +633162,7 @@
   nameLocalized:
     schinese: 妮可·威尔森的消逝 - The Fading of Nicole Wilson
     tchinese: 妮可·威爾森的消逝 - The Fading of Nicole Wilson
+2947860: {}
 2948310:
   cloud:
     saves:
@@ -641317,7 +641337,18 @@
       type: default
 3402720: {}
 3403540: {}
-3404260: {}
+3404260:
+  cloud:
+    saves:
+      - path: Pagoda/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: Pagoda/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Dead as Disco
+  launch:
+    - executable: Pagoda.exe
 3405340:
   cloud:
     saves:

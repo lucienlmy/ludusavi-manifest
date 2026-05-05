@@ -57431,6 +57431,8 @@ Dead Wishes:
 Dead and Buried:
   pageId: 128924
 Dead as Disco:
+  cloud:
+    steam: true
   lutris: dead-as-disco
   pageId: 208674
   steam: 3404260
@@ -117925,6 +117927,7 @@ Invincible VS:
     - 4229690
     - 4229700
     - 4439910
+    - 4439920
     - 4439980
     - 4439990
     - 4440070
@@ -150034,6 +150037,11 @@ Motorslice:
   lutris: motorslice
   pageId: 204581
   steam: 2830030
+  steamSide:
+    - 3910170
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MotorSlice\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\MotorSlice\\Saved\\SaveGames\\*.sav}}"
 Motorsport Manager:
   cloud:
     steam: true
@@ -218017,6 +218025,8 @@ Store Simulator 2018:
   pageId: 89591
   steam: 816260
 Storebound:
+  cloud:
+    steam: true
   lutris: storebound--1
   pageId: 210949
   steam: 3417410
@@ -258875,6 +258885,10 @@ Untitled Goose Game:
 "Untitled Hand Game: Titled Edition":
   pageId: 212547
   steam: 3448930
+Untitled John Wick Game:
+  lutris: untitled-john-wick-game
+  pageId: 216360
+  steam: 2947860
 Unto the End:
   cloud:
     gog: true
