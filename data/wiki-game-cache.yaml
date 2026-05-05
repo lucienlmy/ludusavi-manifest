@@ -28694,6 +28694,12 @@ BlindMaze:
 BlindOak Prow:
   pageId: 124617
   steam: 951910
+Blindfire:
+  pageId: 216344
+  steam: 2854480
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Blindfire\\Saved\\Config\\WindowsClient}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Blindfire\\Saved\\Config\\WinGDK}}"
 Blindia:
   pageId: 112900
   steam: 943510
@@ -73531,6 +73537,12 @@ Eight.Domino.Heart:
 Eikan wa Kimi ni Legend Pack:
   pageId: 49003
   steam: 338100
+"Eilean Mor: The Lost Keepers":
+  lutris: eilean-mor-the-lost-keepers
+  pageId: 216347
+  steam: 3871570
+  steamSide:
+    - 4014360
 Eilf:
   cloud:
     steam: true
@@ -97809,8 +97821,12 @@ Gone In November:
 Gone Rogue:
   cloud:
     steam: true
+  lutris: gone-rogue
   pageId: 197009
   steam: 1803600
+  steamSide:
+    - 1897070
+    - 2319630
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Gone Rogue_Data\\Saves\\*.json}}"
 Gone Viral:
@@ -144222,6 +144238,8 @@ Mhakna Gramura and Fairy Bell:
 MiDZone:
   pageId: 42434
   steam: 494290
+MiG Alley:
+  pageId: 216349
 MiG-29 Fulcrum (1998):
   pageId: 20341
   steam: 32740
@@ -178071,6 +178089,16 @@ Pull Me Out:
 Pull Stay:
   pageId: 157158
   steam: 1179890
+Pulling No Punches:
+  lutris: pulling-no-punches
+  pageId: 216355
+  steam: 1425760
+  steamSide:
+    - 2190040
+    - 2252050
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Braindead Broccoli\\Punhos de Repudio}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Braindead Broccoli\\Punhos de Repudio\\SaveFiles_25072022}}"
 Pulse:
   cloud:
     steam: true

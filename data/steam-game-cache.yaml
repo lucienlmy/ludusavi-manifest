@@ -554414,6 +554414,23 @@
     japanese: ぎゃる☆がん　りたーんず
     koreana: 걸☆건 리턴즈
     tchinese: 少女☆射擊 回歸初心
+1425760:
+  installDir: Punhos de Repudio
+  launch:
+    - config:
+        oslist: windows
+      executable: Punhos de Repudio.exe
+    - config:
+        oslist: linux
+      executable: PunhosDeRepudio.x86_64
+    - config:
+        oslist: macos
+      executable: PunhosDeRepudio.app/Contents/MacOS/Punhos de Repudio
+      type: default
+      workingdir: PunhosDeRepudio.app/Contents/MacOS
+  nameLocalized:
+    brazilian: Punhos de Repúdio
+    portuguese: Punhos de Repúdio
 1426010:
   cloud:
     saves:
@@ -631269,6 +631286,47 @@
     koreana: 스컬 앤 본즈
     schinese: 碧海黑帆
     tchinese: 怒海戰記
+2854480:
+  installDir: Blindfire
+  launch:
+    - description: Launch (Default)
+      executable: Blindfire/Binaries/Win64/start_protected_game.exe
+      type: default
+    - config:
+        betakey: test.matchmaking
+      description: Dev Build
+      executable: Parmo/Binaries/Win64/start_protected_game.exe
+      type: option1
+    - config:
+        betakey: dev.s
+      description: Dev Build (Shipping)
+      executable: Parmo/Binaries/Win64/start_protected_game.exe
+      type: option1
+    - config:
+        betakey: experimental
+      description: Experimental
+      executable: Parmo/Binaries/Win64/start_protected_game.exe
+      type: option1
+    - config:
+        betakey: development
+      description: Dev Build
+      executable: Parmo/Binaries/Win64/start_protected_game.exe
+      type: option1
+    - config:
+        betakey: dev.t
+      description: Dev Build
+      executable: Parmo/Binaries/Win64/start_protected_game.exe
+      type: option1
+    - config:
+        betakey: dev.d
+      description: Dev Build
+      executable: Parmo/Binaries/Win64/start_protected_game.exe
+      type: option1
+    - config:
+        betakey: playtest
+      description: Matchmaking Playtest
+      executable: Blindfire.exe
+      type: option1
 2854740:
   installDir: Nunholy
   launch:
@@ -645986,6 +646044,7 @@
 3867170:
   nameLocalized:
     schinese: 兰斯7 战国兰斯
+3871570: {}
 3873970:
   cloud:
     saves:

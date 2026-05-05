@@ -88675,6 +88675,27 @@ BlindMaze:
 BlindOak Prow:
   steam:
     id: 951910
+Blindfire:
+  files:
+    "<winLocalAppData>/Blindfire/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Blindfire/Saved/Config/WindowsClient":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Blindfire: {}
+  launch:
+    "<base>/Blindfire/Binaries/Win64/start_protected_game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2854480
 Blindia:
   installDir:
     Blindia: {}
@@ -228449,6 +228470,13 @@ Eikan wa Kimi ni Legend Pack:
           - store: steam
   steam:
     id: 338100
+"Eilean Mor: The Lost Keepers":
+  id:
+    lutris: eilean-mor-the-lost-keepers
+    steamExtra:
+      - 4014360
+  steam:
+    id: 3871570
 Eilf:
   cloud:
     steam: true
@@ -303294,6 +303322,11 @@ Gone Rogue:
         - save
       when:
         - os: windows
+  id:
+    lutris: gone-rogue
+    steamExtra:
+      - 1897070
+      - 2319630
   installDir:
     Gone Rogue: {}
   launch:
@@ -549134,6 +549167,40 @@ Pull Stay:
             store: steam
   steam:
     id: 1179890
+Pulling No Punches:
+  files:
+    "<home>/AppData/LocalLow/Braindead Broccoli/Punhos de Repudio/SaveFiles_25072022":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: pulling-no-punches
+    steamExtra:
+      - 2190040
+      - 2252050
+  installDir:
+    Punhos de Repudio: {}
+  launch:
+    "<base>/Punhos de Repudio.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/PunhosDeRepudio.app/Contents/MacOS/Punhos de Repudio":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/PunhosDeRepudio.app/Contents/MacOS"
+    "<base>/PunhosDeRepudio.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Braindead Broccoli/Punhos de Repudio:
+      tags:
+        - config
+  steam:
+    id: 1425760
 Pulse:
   cloud:
     steam: true
