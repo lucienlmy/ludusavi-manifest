@@ -636580,6 +636580,12 @@
       executable: baseball 2001.exe
       type: default
 3105440:
+  installDir: Heroes of Might and Magic Olden Era
+  launch:
+    - config:
+        oslist: windows
+      executable: HeroesOldenEra.exe
+      type: default
   nameLocalized:
     japanese: "Heroes of Might and Magic: Olden Era ヒーローズ・オブ・マイト・アンド・マジック：オルデン・エラ"
     koreana: "Heroes of Might and Magic: Olden Era 히어로즈 오브 마이트 앤 매직: 올든 에라"

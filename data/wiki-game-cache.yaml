@@ -107491,13 +107491,6 @@ Heroes of Loot 2:
 Heroes of Maidan 2:
   pageId: 125781
   steam: 1010070
-"Heroes of Might & Magic: Olden Era":
-  cloud:
-    xbox: true
-  pageId: 197245
-  steam: 3105440
-  steamSide:
-    - 3241970
 Heroes of Might and Magic II:
   cloud:
     gog: true
@@ -107572,6 +107565,20 @@ Heroes of Might and Magic V:
     - "{{Game data/config|Windows|{{p|game}}\\HEROES.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\GAMES}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GAMES}}"
+"Heroes of Might and Magic: Olden Era":
+  cloud:
+    steam: true
+    xbox: true
+  lutris: heroes-of-might-and-magic-olden-era
+  pageId: 197245
+  renamedFrom:
+    - "Heroes of Might & Magic: Olden Era"
+  steam: 3105440
+  steamSide:
+    - 3241970
+  templates:
+    - "{{Game data/config|Steam|{{p|userprofile\\appdata\\locallow}}\\Unfrozen\\HeroesOldenEra\\user\\Steam_{{p|uid}}\\prefs\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Unfrozen\\HeroesOldenEra\\user\\Steam_{{p|uid}}\\saves\\|{{p|userprofile\\appdata\\locallow}}\\Unfrozen\\HeroesOldenEra\\user\\Steam_{{p|uid}}\\campaign\\|{{p|userprofile\\appdata\\locallow}}\\Unfrozen\\HeroesOldenEra\\user\\Steam_{{p|uid}}\\my_maps\\|{{p|userprofile\\appdata\\locallow}}\\Unfrozen\\HeroesOldenEra\\user\\Steam_{{p|uid}}\\my_map_templates\\}}"
 Heroes of Myth:
   cloud:
     steam: true
@@ -262760,6 +262767,7 @@ Visage:
   gog: 2147483087
   gogSide:
     - 1821328211
+  lutris: visage
   pageId: 112988
   steam: 594330
   steamSide:

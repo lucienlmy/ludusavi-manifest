@@ -332574,11 +332574,7 @@ Heroes of Maidan 2:
   steam:
     id: 1010070
 "Heroes of Might & Magic: Olden Era":
-  id:
-    steamExtra:
-      - 3241970
-  steam:
-    id: 3105440
+  alias: "Heroes of Might and Magic: Olden Era"
 Heroes of Might and Magic II:
   cloud:
     gog: true
@@ -332754,6 +332750,53 @@ Heroes of Might and Magic V:
     id: 1207658748
   id:
     lutris: heroes-of-might-and-magic
+"Heroes of Might and Magic: Olden Era":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Unfrozen/HeroesOldenEra/user/Steam_<storeUserId>/campaign":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Unfrozen/HeroesOldenEra/user/Steam_<storeUserId>/my_map_templates":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Unfrozen/HeroesOldenEra/user/Steam_<storeUserId>/my_maps":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Unfrozen/HeroesOldenEra/user/Steam_<storeUserId>/prefs":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Unfrozen/HeroesOldenEra/user/Steam_<storeUserId>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: heroes-of-might-and-magic-olden-era
+    steamExtra:
+      - 3241970
+  installDir:
+    Heroes of Might and Magic Olden Era: {}
+  launch:
+    "<base>/HeroesOldenEra.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3105440
 Heroes of Myth:
   cloud:
     steam: true
@@ -807865,6 +807908,7 @@ Visage:
   id:
     gogExtra:
       - 1821328211
+    lutris: visage
     steamExtra:
       - 938721
   installDir:
