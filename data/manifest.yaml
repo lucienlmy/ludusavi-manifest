@@ -215560,6 +215560,10 @@ Ducati World Championship:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Acclaim/Ducati/BootSys:
+      tags:
+        - config
 "Duck Detective: The Ghost of Glamping":
   cloud:
     gog: true
@@ -433932,6 +433936,54 @@ Marty Thinks 4D:
 Maru:
   steam:
     id: 1150300
+Marvel Cosmic Invasion:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/GSE Saves/2753970/remote/GameSave.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/GSE Saves/settings/configs.user.ini":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<root>/userdata/<storeUserId>/2753970/remote/GameSave.sav":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winDocuments>/Tribute Games/MARVELCosmicInvasion/GameSave.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Tribute Games/MARVELCosmicInvasion/Settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/DotEmu.Poutine_map6zyh9ym1xy/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  installDir:
+    MARVEL Cosmic Invasion: {}
+  launch:
+    "<base>/Game":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2753970
 Marvel End Time Arena:
   installDir:
     MARVEL END TIME ARENA: {}
@@ -837364,6 +837416,18 @@ World of Warships:
             store: steam
   steam:
     id: 552990
+"World of Warships: Legends":
+  cloud:
+    steam: true
+  installDir:
+    Kingmaker Academy Warriors Duels: {}
+  launch:
+    "<base>/KingmakerWarriors.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2409690
 World of Zombies:
   installDir:
     World of Zombies: {}

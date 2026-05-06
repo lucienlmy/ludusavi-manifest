@@ -616880,6 +616880,13 @@
     swedish: Inspector Gadget - MAD Time Party
     tchinese: 神探蓋傑特：瘋狂時光派對
     turkish: Inspector Gadget - MAD Time Party
+2409690:
+  installDir: Kingmaker Academy Warriors Duels
+  launch:
+    - config:
+        oslist: windows
+      executable: KingmakerWarriors.exe
+      type: default
 2410170:
   cloud:
     saves:

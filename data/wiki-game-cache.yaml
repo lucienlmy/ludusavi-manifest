@@ -69322,6 +69322,7 @@ Ducati World Championship:
 "Ducati World: Racing Challenge":
   pageId: 202323
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Acclaim\\Ducati\\BootSys}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Duck City:
   pageId: 205812
@@ -140289,6 +140290,19 @@ Marty Thinks 4D:
 Maru:
   pageId: 150992
   steam: 1150300
+Marvel Cosmic Invasion:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 203746
+  steam: 2753970
+  templates:
+    - "{{Game data/config|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\Settings.cfg}}"
+    - "{{Game data/config|Linux|~/.local/share/GSE Saves/settings/configs.user.ini}}"
+    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\2753970\\remote\\GameSave.sav}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DotEmu.Poutine_map6zyh9ym1xy\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\GameSave.sav}}"
+    - "{{Game data/saves|Linux|~/.local/share/GSE Saves/2753970/remote/GameSave.sav}}"
 Marvel End Time Arena:
   pageId: 87509
   steam: 790650
@@ -269692,6 +269706,8 @@ Wildfrost:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Deadpan Games\\Wildfrost}}"
 Wildgate:
+  cloud:
+    xbox: true
   lutris: wildgate
   pageId: 206469
   steam: 3504780
@@ -272539,6 +272555,12 @@ World of Warships:
     - 2066700
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
+"World of Warships: Legends":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216382
+  steam: 2409690
 World of Zombies:
   pageId: 125605
   steam: 869130
