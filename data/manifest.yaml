@@ -79666,6 +79666,15 @@ Beyond The Veil:
 Beyond The Veil (2019):
   steam:
     id: 1020670
+Beyond These Stars:
+  gog:
+    id: 1107179410
+  id:
+    lutris: beyond-these-stars
+    steamExtra:
+      - 2546270
+  steam:
+    id: 2295060
 Beyond Zork:
   cloud:
     gog: true
@@ -210127,6 +210136,8 @@ DrainLive:
   steam:
     id: 1092150
 DrainSim:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/Local/DrainSim/Saved/SaveGames":
       tags:
@@ -215522,6 +215533,11 @@ Ducati - 90th Anniversary:
     id: 456780
 Ducati World Championship:
   files:
+    "<base>/GlobalID.Dat":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Save":
       tags:
         - save
@@ -732689,6 +732705,41 @@ The Last Front:
             store: steam
   steam:
     id: 843520
+The Last Gas Station:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Alawar/TheLastGasStation/Release":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/com.Alawar.TheLastGasStation/Release":
+      when:
+        - os: mac
+          store: steam
+  gog:
+    id: 1901015854
+  id:
+    gogExtra:
+      - 2000195674
+    lutris: the-last-gas-station
+    steamExtra:
+      - 4071600
+      - 4071610
+      - 4580230
+  installDir:
+    The Last Gas Station: {}
+  launch:
+    "<base>/TheLastGasStation.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TheLastGasStation.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3690030
 The Last General:
   steam:
     id: 2566700
@@ -821029,6 +821080,21 @@ Wavey the Rocket:
 Wavy Trip:
   steam:
     id: 810730
+Wax Heads:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/Wax Heads/steam/<storeUserId>/full_game":
+      when:
+        - store: steam
+    "<xdgData>/godot/app_userdata/Wax Heads/steam/<storeUserId>/full_game":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Wax Heads: {}
+  steam:
+    id: 2769240
 Waxworks:
   cloud:
     gog: true

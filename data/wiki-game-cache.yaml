@@ -25745,6 +25745,13 @@ Beyond The Veil:
 Beyond The Veil (2019):
   pageId: 137420
   steam: 1020670
+Beyond These Stars:
+  gog: 1107179410
+  lutris: beyond-these-stars
+  pageId: 216369
+  steam: 2295060
+  steamSide:
+    - 2546270
 Beyond Zork:
   cloud:
     gog: true
@@ -67640,6 +67647,8 @@ DrainLive:
   pageId: 153652
   steam: 1092150
 DrainSim:
+  cloud:
+    steam: true
   lutris: drainsim
   pageId: 214783
   steam: 2963800
@@ -69307,6 +69316,7 @@ Ducati World Championship:
   pageId: 51095
   steam: 6270
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\GlobalID.Dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Ducati World: Racing Challenge":
   pageId: 202323
@@ -237103,6 +237113,19 @@ The Last Friend:
 The Last Front:
   pageId: 93150
   steam: 843520
+The Last Gas Station:
+  cloud:
+    steam: true
+  gog: 1901015854
+  gogSide:
+    - 2000195674
+  lutris: the-last-gas-station
+  pageId: 216370
+  steam: 3690030
+  steamSide:
+    - 4071600
+    - 4071610
+    - 4580230
 The Last General:
   pageId: 205213
   steam: 2566700
@@ -267251,6 +267274,11 @@ Wavey the Rocket:
 Wavy Trip:
   pageId: 88099
   steam: 810730
+Wax Heads:
+  cloud:
+    steam: true
+  pageId: 216375
+  steam: 2769240
 Waxworks:
   cloud:
     gog: true

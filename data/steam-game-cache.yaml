@@ -612125,6 +612125,12 @@
         oslist: windows
       executable: CLAIRE.exe
 2293380: {}
+2295060:
+  nameLocalized:
+    japanese: Beyond These Stars ビヨンド・ジーズ・スターズ
+    koreana: Beyond These Stars 비욘드 디스 스타즈
+    schinese: 繁星之海 Beyond These Stars
+    tchinese: 繁星之海 Beyond These Stars
 2295610:
   cloud:
     saves:
@@ -629530,6 +629536,47 @@
   nameLocalized:
     schinese: 金刚：绝境求生
     tchinese: 金剛：絕境求生
+2769240:
+  cloud:
+    saves:
+      - path: "Godot/app_userdata/Wax Heads/steam/{64BitSteamID}/full_game/"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Godot/app_userdata/Wax Heads/steam/{64BitSteamID}/full_game/"
+            replace: "godot/app_userdata/Wax Heads/steam/{64BitSteamID}/full_game/"
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: Wax Heads
+  launch:
+    - config:
+        oslist: windows
+      description: DirectX 12 (Recommended)
+      executable: wax_heads.exe
+      type: option1
+    - config:
+        oslist: linux
+      description: Vulkan (Recommended)
+      executable: wax_heads.x86_64
+      type: option1
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: OpenGL3 (compatibility mode)
+      executable: wax_heads.exe
+      type: option2
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: linux
+      description: OpenGL3 (compatibility mode)
+      executable: wax_heads.x86_64
+      type: option2
+  nameLocalized:
+    schinese: 我看人下碟 / Wax Heads
 2769570: {}
 2771670:
   installDir: Psychopomp
@@ -644853,6 +644900,36 @@
     koreana: 후즈 앳 더 도어
     schinese: 谁在门外?
     tchinese: 誰在門外?
+3690030:
+  cloud:
+    saves:
+      - path: "\\Alawar\\TheLastGasStation\\Release"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: com.Alawar.TheLastGasStation/Release
+        pattern: "*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
+  installDir: The Last Gas Station
+  launch:
+    - config:
+        oslist: windows
+      executable: TheLastGasStation.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: TheLastGasStation.app
+      type: default
+  nameLocalized:
+    japanese: 最後のガソリンスタンド
+    koreana: 최후의 주유소
+    schinese: 最后的加油站
+    tchinese: 最後的加油站
 3692660:
   installDir: The New Flesh
   launch:
