@@ -53573,6 +53573,7 @@ DC Universe Online:
   steam: 1944850
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\PHL Collective\\DCJLCC}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\PHL Collective\\DCJLCC}}"
 DCL - The Game:
   pageId: 126452
   steam: 964570
@@ -87074,6 +87075,8 @@ Flip the Table:
 Flip-Out!:
   pageId: 155741
   steam: 962310
+FlipOut!:
+  pageId: 216377
 FlipWitch - Forbidden Sex Hex:
   cloud:
     steam: true
@@ -247394,6 +247397,9 @@ Tiny Toast:
   steam: 587750
 "Tiny Toon Adventures: Buster and the Beanstalk":
   pageId: 126702
+Tiny Towers:
+  pageId: 216381
+  steam: 4352900
 Tiny Town VR:
   pageId: 66150
   steam: 653930

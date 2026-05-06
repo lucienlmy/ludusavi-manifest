@@ -647805,6 +647805,7 @@
         oslist: linux
       executable: "dosbox\\dosbox"
       type: manual
+4352900: {}
 4353020:
   installDir: Rags to Riches
   launch:
