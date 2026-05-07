@@ -23136,7 +23136,7 @@ Agassi Tennis Generation:
         - save
       when:
         - os: windows
-    "<base>/irunin.dat":
+    "<base>/settings.cfg":
       tags:
         - config
       when:
@@ -50593,9 +50593,15 @@ Ascension to the Throne:
   installDir:
     AttT: {}
   launch:
-    "<base>/ATThrone.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289200
@@ -422596,35 +422602,6 @@ MADELA:
             store: steam
   steam:
     id: 1186650
-MADiSON:
-  cloud:
-    gog: true
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/BLOODIOUS GAMES LLC/MADiSON/Data":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/AppData/LocalLow/BLOODIOUS GAMES LLC/MADiSON/Data/*.dat":
-      tags:
-        - config
-      when:
-        - os: windows
-  gog:
-    id: 1920689614
-  id:
-    steamExtra:
-      - 1949860
-  installDir:
-    MADiSON: {}
-  launch:
-    "<base>/MADiSON.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1670870
 MAGICAL×SPIRAL:
   installDir:
     MAGICALSPIRAL: {}
@@ -425663,6 +425640,52 @@ Madievals:
             store: steam
   steam:
     id: 916240
+Madison:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BLOODIOUS GAMES LLC/MADiSON/Data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BLOODIOUS GAMES LLC/MADiSON/Data/*.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1920689614
+  id:
+    lutris: madison
+    steamExtra:
+      - 1949860
+  installDir:
+    MADiSON: {}
+  launch:
+    "<base>/MADiSON.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1670870
+Madison VR:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BLOODIOUS GAMES LLC/MADiSON VR/Data/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: madison-vr
+    steamExtra:
+      - 2880160
+  installDir:
+    MADiSON VR: {}
+  steam:
+    id: 2414550
 Madland:
   installDir:
     Madland: {}
@@ -454075,8 +454098,23 @@ Mixolumia:
 Mixtape:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Packages/AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: mixtape--1
+  installDir:
+    Mixtape: {}
+  launch:
+    "<base>/Mixtape.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2582320
 Mizari Loves Company:

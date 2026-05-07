@@ -19978,6 +19978,8 @@
     - config:
         oslist: macos
       executable: Guacamelee_Steam.app
+  nameLocalized:
+    schinese: "墨西哥英雄大混战:黄金版 Guacamelee! Gold Edition"
 214790:
   installDir: basement
   launch:
@@ -52004,9 +52006,15 @@
   installDir: AttT
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: ATThrone.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 289220:
   cloud:
     saves:
@@ -617070,6 +617078,22 @@
       description: Graphics settings
       executable: ".\\DOSBOX\\ConfigTool.exe"
       type: option2
+2414550:
+  cloud:
+    saves:
+      - path: BLOODIOUS GAMES LLC/MADiSON VR/Data/
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: MADiSON VR
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MADiSON VR.exe
+      type: openxr
 2414630:
   cloud:
     saves:
@@ -623930,7 +623954,25 @@
     japanese: シーフェアラー：シップシミュレーター
     schinese: 海员人生：行船模拟
     tchinese: 《模擬航行：勇闖大海》
-2582320: {}
+2582320:
+  cloud:
+    saves:
+      - path: "NewMoon/Saved/SaveGames/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "NewMoon/Saved/SaveGames/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Mixtape
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Mixtape.exe
 2582560:
   installDir: Madden NFL 25
   launch:
@@ -625891,6 +625933,7 @@
       type: default
   nameLocalized:
     japanese: バニーガーデン
+    koreana: 버니 가든
     schinese: 兔兔秘密花园
     tchinese: 兔兔秘密花園
 2654860:
