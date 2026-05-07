@@ -146940,10 +146940,12 @@ Mixolumia:
 Mixtape:
   cloud:
     steam: true
+    xbox: true
   lutris: mixtape--1
   pageId: 206363
   steam: 2582320
   templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\NewMoon\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm\\SystemAppData\\wgs}}"
 Mizari Loves Company:
   pageId: 150960
@@ -208585,6 +208587,7 @@ Songs of Silence:
     - 1863991716
     - 1917982173
     - 1984868726
+    - 2115470467
     - 2133340084
   lutris: songs-of-silence
   pageId: 194182
@@ -208599,6 +208602,7 @@ Songs of Silence:
     - 3774820
     - 3776820
     - 4179260
+    - 4561030
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Chimera Entertainment GmbH\\SongsOfSilence\\Steam_2195410_{{p|uid}}\\}}"
 Songs of Skydale:
@@ -269890,6 +269894,7 @@ Will to Live Online:
     - 639620
 "Will: Follow the Light":
   cloud:
+    steam: true
     xbox: true
   lutris: will-follow-the-light
   pageId: 202087
@@ -269898,6 +269903,7 @@ Will to Live Online:
   steam: 3144860
   steamSide:
     - 4393620
+    - 4689870
 Willful:
   pageId: 65331
   steam: 664060

@@ -585376,13 +585376,19 @@
       - path: AS/Saved/Config/WindowsNoEditor
         pattern: GameplaySettings.ini
         root: WinAppDataLocal
+    overrides:
+      - addPath: ".local/share/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
   installDir: Laysara Summit Kingdom
   launch:
     - config:
         oslist: windows
       executable: Laysara.exe
       type: default
-    - arguments: "-vulkan"
+    - arguments: "-steamdeck"
       config:
         oslist: linux
       executable: Laysara.exe
@@ -634901,6 +634907,10 @@
       - path: Firefly Studios/Stronghold Crusader Definitive Edition
         pattern: custom_trails.cfg
         root: WinAppDataLocalLow
+      - path: Firefly Studios/Stronghold Crusader Definitive Edition/CustomMedia
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
       - path: Firefly Studios/Stronghold Crusader Definitive Edition
         pattern: skirmishmasters.cfg
         root: WinAppDataLocalLow
@@ -637148,7 +637158,19 @@
       description: "Launch PUBG: BLINDSPOT"
       executable: ArcClient_ZK.exe
       type: default
-3144860: {}
+3144860:
+  installDir: WILL
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Will.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: Steam Deck (Proton)
+      executable: Will.exe
 3145510:
   cloud:
     saves:

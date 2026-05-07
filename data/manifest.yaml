@@ -398581,7 +398581,7 @@ Layers of Fears:
       - when:
           - os: windows
             store: steam
-      - arguments: "-vulkan"
+      - arguments: "-steamdeck"
         when:
           - os: linux
             store: steam
@@ -454099,6 +454099,12 @@ Mixtape:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/NewMoon/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Packages/AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm/SystemAppData/wgs":
       tags:
         - save
@@ -644260,6 +644266,7 @@ Songs of Silence:
       - 1863991716
       - 1917982173
       - 1984868726
+      - 2115470467
       - 2133340084
     lutris: songs-of-silence
     steamExtra:
@@ -644272,6 +644279,7 @@ Songs of Silence:
       - 3774820
       - 3776820
       - 4179260
+      - 4561030
   installDir:
     Songs Of Silence: {}
   launch:
@@ -829413,10 +829421,24 @@ Will to Live Online:
   steam:
     id: 588040
 "Will: Follow the Light":
+  cloud:
+    steam: true
   id:
     lutris: will-follow-the-light
     steamExtra:
       - 4393620
+      - 4689870
+  installDir:
+    WILL: {}
+  launch:
+    "<base>/Will.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 3144860
 Willful:
