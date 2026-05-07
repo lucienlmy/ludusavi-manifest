@@ -250628,9 +250628,11 @@ Tower of Guns:
 Tower of Kalemonvo:
   cloud:
     steam: true
+  lutris: tower-of-kalemonvo
   pageId: 202833
   steam: 2351860
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\osur\\Tower of Kalemonvo}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\osur\\Tower of Kalemonvo\\*.dat}}"
 Tower of Lust:
   pageId: 72079

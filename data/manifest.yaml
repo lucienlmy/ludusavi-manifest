@@ -773514,6 +773514,8 @@ Tower of Kalemonvo:
         - save
       when:
         - os: windows
+  id:
+    lutris: tower-of-kalemonvo
   installDir:
     Tower of Kalemonvo: {}
   launch:
@@ -773521,6 +773523,10 @@ Tower of Kalemonvo:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/osur/Tower of Kalemonvo:
+      tags:
+        - config
   steam:
     id: 2351860
 Tower of Lust:
