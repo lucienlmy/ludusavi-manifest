@@ -467627,6 +467627,13 @@ My Beastly Lovers:
             store: steam
   steam:
     id: 776610
+"My Beautiful Faraway, Please Don't Be Cruel To Me":
+  id:
+    lutris: my-beautiful-faraway-please-dont-be-cruel-to-me
+    steamExtra:
+      - 4610050
+  steam:
+    id: 4516190
 My Beautiful Paper Smile:
   cloud:
     steam: true
@@ -630813,6 +630820,32 @@ Size Matters:
 SizeBlock:
   steam:
     id: 508960
+Sizeable:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Business Goose Studios/Sizeable":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Sizeable: {}
+  launch:
+    "<base>/Sizeable_Linux/Sizeable_Linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Sizeable_MAC/Sizeable_MAC.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sizeable_Steam_Windows/Sizeable.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1333910
 "Skald: Against the Black Priory":
   cloud:
     gog: true
@@ -674472,6 +674505,8 @@ Stranger Maidens Please Protect Me!:
 Stranger Than Heaven:
   id:
     lutris: stranger-than-heaven
+  steam:
+    id: 4260840
 "Stranger Things 3: The Game":
   cloud:
     epic: true
@@ -808543,6 +808578,8 @@ Viviette:
   steam:
     id: 883070
 Vivisector - Beast Within:
+  alias: "Vivisector: Beast Within"
+"Vivisector: Beast Within":
   files:
     "<base>/Data/Save":
       tags:

@@ -151450,6 +151450,12 @@ My Arctic Farm:
 My Beastly Lovers:
   pageId: 80543
   steam: 776610
+"My Beautiful Faraway, Please Don't Be Cruel To Me":
+  lutris: my-beautiful-faraway-please-dont-be-cruel-to-me
+  pageId: 216401
+  steam: 4516190
+  steamSide:
+    - 4610050
 My Beautiful Paper Smile:
   cloud:
     steam: true
@@ -204480,6 +204486,13 @@ Size Matters:
 SizeBlock:
   pageId: 36710
   steam: 508960
+Sizeable:
+  cloud:
+    steam: true
+  pageId: 216398
+  steam: 1333910
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Business Goose Studios\\Sizeable}}"
 "Skald: Against the Black Priory":
   cloud:
     gog: true
@@ -218489,6 +218502,7 @@ Stranger Than Heaven:
     xbox: true
   lutris: stranger-than-heaven
   pageId: 215812
+  steam: 4260840
 "Stranger Things 3: The Game":
   cloud:
     epic: true
@@ -262974,9 +262988,11 @@ Viviette:
     steam: true
   pageId: 109220
   steam: 883070
-Vivisector - Beast Within:
+"Vivisector: Beast Within":
   lutris: vivisector-beast-within
   pageId: 24364
+  renamedFrom:
+    - Vivisector - Beast Within
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Save\\}}"

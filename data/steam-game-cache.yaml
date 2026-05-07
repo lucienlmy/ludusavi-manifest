@@ -545181,6 +545181,33 @@
         oslist: windows
       executable: RHFirefighter.exe
       type: default
+1333910:
+  cloud:
+    saves:
+      - path: "Business Goose Studios\\Sizeable"
+        pattern: sizeable-save-file.txt
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Business Goose Studios/Sizeable
+        pattern: sizeable-save-file.txt
+        platforms:
+          - MacOS
+        root: MacAppSupport
+  installDir: Sizeable
+  launch:
+    - config:
+        oslist: windows
+      executable: "Sizeable_Steam_Windows\\Sizeable.exe"
+      type: default
+    - config:
+        oslist: macos
+      executable: Sizeable_MAC/Sizeable_MAC.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Sizeable_Linux/Sizeable_Linux.x86_64
+      type: default
 1334000:
   cloud:
     saves:
@@ -647613,6 +647640,7 @@
         oslist: windows
       description: Runes Card
       executable: CODES.BAT
+4260840: {}
 4264230:
   cloud:
     saves:
@@ -648051,6 +648079,7 @@
 4491360: {}
 4514070: {}
 4514310: {}
+4516190: {}
 4533950: {}
 4536610:
   nameLocalized:
