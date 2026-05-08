@@ -97303,6 +97303,8 @@ Gods vs Humans:
 "Gods, Death & Reapers":
   pageId: 207408
   steam: 3086590
+"Gods: Lands of Infinity":
+  pageId: 216430
 Godsend:
   pageId: 123540
   steam: 949740
@@ -113002,6 +113004,12 @@ Hypnocult:
 Hypnorain:
   pageId: 42489
   steam: 495230
+Hypnos:
+  lutris: hypnos
+  pageId: 216428
+  steam: 2861210
+  steamSide:
+    - 4407050
 Hypnosis:
   cloud:
     steam: true
@@ -191936,6 +191944,11 @@ Rotwood:
   lutris: rough-justice-84
   pageId: 178197
   steam: 1291860
+Roulette Hero:
+  pageId: 216426
+  steam: 3371510
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\CLLC\\RouletteHero\\}}}}"
 Roulette Simulator:
   pageId: 79816
   steam: 779570
@@ -268296,6 +268309,9 @@ Werewolf Voice - Party Game:
   lutris: werewolf-the-apocalypse-purgatory
   pageId: 213376
   steam: 2463980
+"Werewolf: The Apocalypse - Rageborn":
+  pageId: 216424
+  steam: 3746290
 "Werewolf: The Apocalypse - The Book of Hungry Names":
   cloud:
     steam: true

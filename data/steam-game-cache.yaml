@@ -631571,6 +631571,14 @@
   nameLocalized:
     schinese: " 闹鬼爪子 Haunted Paws"
     tchinese: 鬧鬼爪子 Haunted Paws
+2861210:
+  installDir: Hypnos
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: HYPNOS.exe
+      type: default
 2863640:
   cloud:
     saves:
@@ -641105,6 +641113,40 @@
   launch:
     - executable: beyond_citadel.exe
       type: default
+3371510:
+  cloud:
+    saves:
+      - path: CLLC/RouletteHero
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: CLLC/RouletteHero
+            replace: CLLC/RouletteHero
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: CLLC/RouletteHero
+            replace: ".config/unity3d/CLLC/RouletteHero"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: RouletteHero
+  launch:
+    - executable: RouletteHero.exe
+    - config:
+        oslist: windows
+      description: ModEditor
+      executable: "Mod\\ModTool\\ModEditor\\RouletteHeroEditor.exe"
+      type: editor
+  nameLocalized:
+    english: Roulette Hero
+    japanese: Roulette Hero
+    schinese: 轮盘英雄
+    tchinese: 輪盤英雄
 3372980:
   cloud:
     saves:
@@ -645385,6 +645427,7 @@
     schinese: 《托马斯和朋友™：多多岛奇观》
     spanish: "Thomas y sus amigos™: las maravillas de Sodor"
 3744040: {}
+3746290: {}
 3746310: {}
 3747730:
   cloud:

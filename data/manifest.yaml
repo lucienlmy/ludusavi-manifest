@@ -349628,6 +349628,21 @@ Hypnorain:
             store: steam
   steam:
     id: 495230
+Hypnos:
+  id:
+    lutris: hypnos
+    steamExtra:
+      - 4407050
+  installDir:
+    Hypnos: {}
+  launch:
+    "<base>/HYPNOS.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2861210
 Hypnosis:
   cloud:
     steam: true
@@ -591835,6 +591850,27 @@ Rotwood:
             store: steam
   steam:
     id: 1291860
+Roulette Hero:
+  files:
+    "<home>/.config/unity3d/CLLC/RouletteHero/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/CLLC/RouletteHero/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/CLLC/RouletteHero/*.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    RouletteHero: {}
+  launch:
+    "<base>/RouletteHero.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3371510
 Roulette Simulator:
   installDir:
     RouletteSimulator: {}
@@ -824410,6 +824446,9 @@ Werewolf Voice - Party Game:
             store: steam
   steam:
     id: 2463980
+"Werewolf: The Apocalypse - Rageborn":
+  steam:
+    id: 3746290
 "Werewolf: The Apocalypse - The Book of Hungry Names":
   cloud:
     steam: true
