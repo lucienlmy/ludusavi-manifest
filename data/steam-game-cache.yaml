@@ -572456,6 +572456,7 @@
         oslist: windows
       executable: CostumeParty/CostumeParty.exe
       type: default
+1648360: {}
 1649010:
   cloud:
     saves:
@@ -595950,6 +595951,19 @@
       description: 打工吧！天使酱
       executable: Game.exe
       type: default
+1984790:
+  cloud:
+    saves:
+      - path: Save
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Drago Noka
+  launch:
+    - executable: Game.exe
+  nameLocalized:
+    japanese: ドラゴノーカ
+    schinese: 龙背上的农家
+    tchinese: 龍背上的農家
 1985260:
   cloud:
     saves:
@@ -638068,6 +638082,11 @@
         root: WinAppDataLocalLow
       - path: Dark Machine/White Knuckle/
         pattern: save-backup.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Dark Machine/White Knuckle/
+        pattern: wk_save.json
         platforms:
           - Windows
         root: WinAppDataLocalLow

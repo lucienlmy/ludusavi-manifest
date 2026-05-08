@@ -66900,6 +66900,13 @@ Draggo:
   pageId: 159166
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Game.ini|{{p|game}}\\Gamma.ini|{{p|hklm}}\\SOFTWARE\\Detalion\\Draggo\\Version 1.00}}"
+Drago Noka:
+  cloud:
+    steam: true
+  pageId: 216421
+  steam: 1984790
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\Save\\}}"
 DragoDino:
   pageId: 53980
   steam: 561510
@@ -121061,6 +121068,9 @@ Joy Climb:
 Joy Pony:
   pageId: 67169
   steam: 685950
+  templates:
+    - "{{Game data/config|Windows|%appdata%\\..\\LocalLow\\Fat Pug Games\\My Pocket Pony}}"
+    - "{{Game data/saves|Windows|%appdata%\\..\\LocalLow\\Fat Pug Games\\My Pocket Pony}}"
 "Joyfess: Martin's Secret Recipe":
   pageId: 154283
   steam: 1095700
@@ -135904,6 +135914,11 @@ Lumina:
     steam: true
   pageId: 138777
   steam: 1063050
+Luminary:
+  cloud:
+    steam: true
+  pageId: 216417
+  steam: 1648360
 Lumines:
   pageId: 12935
   steam: 11900
@@ -146945,7 +146960,7 @@ Mixtape:
   pageId: 206363
   steam: 2582320
   templates:
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\NewMoon\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\NewMoon\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm\\SystemAppData\\wgs}}"
 Mizari Loves Company:
   pageId: 150960
@@ -255845,6 +255860,7 @@ Two Point Museum:
     - 2999850
     - 3592600
     - 3804850
+    - 4114070
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Two Point Studios\\Two Point Museum\\Cloud{{p|uid}}\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.twopointstudios.twopointmuseum/{{p|uid}}/}}"
@@ -269187,10 +269203,12 @@ White Haven Mysteries:
   pageId: 50428
   steam: 288790
 White Knuckle:
+  cloud:
+    steam: true
   pageId: 204692
   steam: 3195790
   templates:
-    - "{{Game data/config|Windows|C:\\Users\\Cricket\\AppData\\LocalLow\\Dark Machine\\White Knuckle}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Dark Machine\\White Knuckle}}"
 White Mirror:
   pageId: 44816
   steam: 428630

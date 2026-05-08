@@ -207935,6 +207935,23 @@ Draggo:
     HKEY_LOCAL_MACHINE/SOFTWARE/Detalion/Draggo/Version 1.00:
       tags:
         - config
+Drago Noka:
+  cloud:
+    steam: true
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Drago Noka: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1984790
 DragoDino:
   installDir:
     DragoDino: {}
@@ -374923,6 +374940,13 @@ Joy Climb:
   steam:
     id: 792350
 Joy Pony:
+  files:
+    "<winAppData>/../LocalLow/Fat Pug Games/My Pocket Pony":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Joy Pony: {}
   launch:
@@ -420279,6 +420303,11 @@ Lumina:
             store: steam
   steam:
     id: 1063050
+Luminary:
+  cloud:
+    steam: true
+  steam:
+    id: 1648360
 Lumines:
   id:
     steamExtra:
@@ -454104,7 +454133,6 @@ Mixtape:
         - config
       when:
         - os: windows
-          store: microsoft
     "<winLocalAppData>/Packages/AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm/SystemAppData/wgs":
       tags:
         - save
@@ -787412,6 +787440,7 @@ Two Point Museum:
       - 2999850
       - 3592600
       - 3804850
+      - 4114070
   installDir:
     Two Point Museum: {}
   launch:
@@ -827129,8 +827158,10 @@ White Haven Mysteries:
   steam:
     id: 288790
 White Knuckle:
+  cloud:
+    steam: true
   files:
-    "C:/Users/Cricket/AppData/LocalLow/Dark Machine/White Knuckle":
+    "<home>/AppData/LocalLow/Dark Machine/White Knuckle":
       tags:
         - config
       when:
