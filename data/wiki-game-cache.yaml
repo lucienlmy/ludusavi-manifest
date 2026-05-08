@@ -7195,6 +7195,7 @@ Aftermath:
   cloud:
     steam: true
   gog: 1963764578
+  lutris: aftermath--2
   pageId: 174291
   steam: 1705720
 Aftermath Y2K:
@@ -52583,6 +52584,9 @@ Curse of the Crescent Isle DX:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\CurseDXSettings.sav}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveFile.sav}}"
+Curse of the Crimson Stag:
+  pageId: 216432
+  steam: 4669670
 Curse of the Dead Gods:
   cloud:
     gog: true
@@ -57447,6 +57451,9 @@ Dead as Disco:
   steamSide:
     - 3763830
     - 4647130
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Pagoda\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Pagoda\\Saved\\SaveGames\\}}"
 Dead by Daylight:
   cloud:
     epic: true
@@ -61892,6 +61899,14 @@ Devellage:
 Deviant Dungeon:
   pageId: 145974
   steam: 1012900
+Devil Blade Reboot:
+  cloud:
+    steam: true
+  lutris: devil-blade-reboot
+  pageId: 216443
+  steam: 2882440
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\savedata}}"
 Devil Daggers:
   cloud:
     gog: true
@@ -242743,6 +242758,7 @@ The Suicide of Rachel Foster:
     gog: true
     steam: true
   gog: 1827190281
+  lutris: the-suicide-of-rachel-foster
   pageId: 154166
   steam: 1057750
   templates:

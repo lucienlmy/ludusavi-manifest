@@ -632111,6 +632111,19 @@
       description: Launch
       executable: OneBarbarianFutaTribeChapter2.exe
       type: default
+2882440:
+  cloud:
+    saves:
+      - path: savedata
+        pattern: "*.*"
+        root: gameinstall
+  installDir: DEVIL BLADE REBOOT
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DEVIL_BLADE.EXE
+      type: default
 2882720: {}
 2882930:
   cloud:
@@ -648214,4 +648227,8 @@
 4549480: {}
 4557490: {}
 4605200: {}
+4669670:
+  nameLocalized:
+    schinese: 血色鹿影
+    tchinese: 血色鹿影
 3221903386: {}

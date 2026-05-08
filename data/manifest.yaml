@@ -22815,6 +22815,8 @@ Aftermath:
     steam: true
   gog:
     id: 1963764578
+  id:
+    lutris: aftermath--2
   steam:
     id: 1705720
 Aftermath Y2K:
@@ -163997,6 +163999,9 @@ Curse of the Crescent Isle DX:
             store: steam
   steam:
     id: 365120
+Curse of the Crimson Stag:
+  steam:
+    id: 4669670
 Curse of the Dead Gods:
   cloud:
     gog: true
@@ -178715,12 +178720,16 @@ Dead as Disco:
   cloud:
     steam: true
   files:
-    "<base>/Pagoda/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Pagoda/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/Pagoda/Saved/SaveGames/*.sav":
+        - os: windows
+    "<winLocalAppData>/Pagoda/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: dead-as-disco
     steamExtra:
@@ -192970,6 +192979,27 @@ Deviant Dungeon:
             store: steam
   steam:
     id: 1012900
+Devil Blade Reboot:
+  cloud:
+    steam: true
+  files:
+    "<base>/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: devil-blade-reboot
+  installDir:
+    DEVIL BLADE REBOOT: {}
+  launch:
+    "<base>/DEVIL_BLADE.EXE":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2882440
 Devil Daggers:
   cloud:
     gog: true
@@ -749627,6 +749657,8 @@ The Suicide of Rachel Foster:
         - os: windows
   gog:
     id: 1827190281
+  id:
+    lutris: the-suicide-of-rachel-foster
   installDir:
     The Suicide of Rachel Foster: {}
   launch:
