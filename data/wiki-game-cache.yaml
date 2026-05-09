@@ -100278,6 +100278,8 @@ Groid:
   steam: 1216270
 "Grolier's CornerStone Home":
   pageId: 213944
+"Grom: ...Terror in Tibet!":
+  pageId: 216456
 Grompula:
   pageId: 109454
   steam: 904500
@@ -226020,6 +226022,8 @@ Tabletop Simulator:
 Tabletopia:
   pageId: 43929
   steam: 402560
+Tabloid Tycoon:
+  pageId: 216460
 "Taboos: Cracks":
   cloud:
     steam: true
