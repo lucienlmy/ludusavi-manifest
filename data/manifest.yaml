@@ -54361,6 +54361,26 @@ Astro Joust:
             store: steam
   steam:
     id: 372190
+Astro Prospector:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Incrementalist/Astro Prospector/FullGame/Release":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: astro-prospector
+  installDir:
+    Astro Prospector: {}
+  launch:
+    "<base>/Astro Prospector.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3503440
 Astro Tripper:
   id:
     lutris: astro-tripper
@@ -244590,6 +244610,44 @@ Evil Hazard:
             store: steam
   steam:
     id: 403440
+Evil Inside:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/JanduSoft/Evil_Inside/*.dat":
+      when:
+        - store: steam
+  id:
+    lutris: evil-inside
+    steamExtra:
+      - 1579520
+  installDir:
+    Evil Inside: {}
+  launch:
+    "<base>/Evil_Inside.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1243880
+"Evil Inside: Prologue":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/JanduSoft/Evil_Inside/*.dat":
+      when:
+        - store: steam
+  id:
+    lutris: evil-inside-prologue
+  installDir:
+    Evil Inside - Prologue: {}
+  launch:
+    "<base>/Evil_Inside.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1485870
 "Evil Islands: Curse of the Lost Soul":
   files:
     "<base>/config":
@@ -589075,6 +589133,9 @@ Roguebreaker:
             store: steam
   steam:
     id: 731420
+Roguecraft DX:
+  steam:
+    id: 3674680
 Roguelands:
   files:
     "<home>/AppData/LocalLow/DefaultCompany/Roguelands/PlayerPrefs.txt":
@@ -633469,6 +633530,32 @@ Skyfront:
     SkyFront: {}
   steam:
     id: 640800
+Skygard Arena:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/GemelliGames/SkygardArena/*.json":
+      when:
+        - store: steam
+  id:
+    lutris: skygard-arena
+  installDir:
+    Skygard Arena: {}
+  launch:
+    "<base>/ProjetArenaServer.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ShardTactics.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SkygardArena.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2148970
 Skyhill:
   files:
     "<home>/Library/Application Support/Daedalic Entertainment GmbH/Skyhill/Savegames/*.xml":
@@ -656729,6 +656816,36 @@ Spintires:
 Spiny Adventures:
   steam:
     id: 628850
+Spiral:
+  cloud:
+    steam: true
+  files:
+    "<base>/compatdata/1579390/pfx/drive_c/Spiral/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Spiral/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Spiral/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: spiral
+    steamExtra:
+      - 3231420
+      - 3231440
+  installDir:
+    Spiral: {}
+  launch:
+    "<base>/Spiral.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1579390
 Spiral Clicker:
   cloud:
     steam: true

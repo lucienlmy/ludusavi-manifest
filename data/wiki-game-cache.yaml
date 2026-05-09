@@ -17389,6 +17389,15 @@ Astro Joust:
     - 485170
     - 485180
     - 485190
+Astro Prospector:
+  cloud:
+    steam: true
+  lutris: astro-prospector
+  pageId: 216464
+  steam: 3503440
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Incrementalist\\Astro Prospector\\FullGame\\Release}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Incrementalist\\Astro Prospector\\FullGame\\Release}}"
 Astro Tripper:
   lutris: astro-tripper
   pageId: 9411
@@ -78736,6 +78745,20 @@ Evil Glitch:
 Evil Hazard:
   pageId: 46440
   steam: 403440
+Evil Inside:
+  cloud:
+    steam: true
+  lutris: evil-inside
+  pageId: 216471
+  steam: 1243880
+  steamSide:
+    - 1579520
+"Evil Inside: Prologue":
+  cloud:
+    steam: true
+  lutris: evil-inside-prologue
+  pageId: 216468
+  steam: 1485870
 "Evil Islands: Curse of the Lost Soul":
   gog: 1457950224
   pageId: 35407
@@ -191074,6 +191097,9 @@ Roguebreaker:
     steam: true
   pageId: 99644
   steam: 731420
+Roguecraft DX:
+  pageId: 216473
+  steam: 3674680
 Roguelands:
   pageId: 33719
   steam: 364420
@@ -205373,6 +205399,12 @@ Skyforge:
 Skyfront:
   pageId: 67303
   steam: 640800
+Skygard Arena:
+  cloud:
+    steam: true
+  lutris: skygard-arena
+  pageId: 216477
+  steam: 2148970
 Skyhill:
   gog: 1458729425
   pageId: 36343
@@ -212766,6 +212798,15 @@ Spintires:
 Spiny Adventures:
   pageId: 64176
   steam: 628850
+Spiral:
+  cloud:
+    steam: true
+  lutris: spiral
+  pageId: 216475
+  steam: 1579390
+  steamSide:
+    - 3231420
+    - 3231440
 Spiral Clicker:
   cloud:
     steam: true

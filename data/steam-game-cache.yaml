@@ -533972,6 +533972,18 @@
         oslist: windows
       executable: ThisBedWeMade.exe
       type: default
+1243880:
+  cloud:
+    saves:
+      - path: JanduSoft/Evil_Inside/
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+  installDir: Evil Inside
+  launch:
+    - config:
+        oslist: windows
+      executable: Evil_Inside.exe
+      type: default
 1243890:
   cloud:
     saves:
@@ -559896,6 +559908,18 @@
     russian: Магнат зельеварения - Potion Tycoon
     schinese: 药剂大亨 - Potion Tycoon
     tchinese: 藥劑大亨 - Potion Tycoon
+1485870:
+  cloud:
+    saves:
+      - path: JanduSoft/Evil_Inside/
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+  installDir: Evil Inside - Prologue
+  launch:
+    - config:
+        oslist: windows
+      executable: Evil_Inside.exe
+      type: default
 1486630:
   cloud:
     saves:
@@ -566755,6 +566779,34 @@
   nameLocalized:
     schinese: "Shadow Tactics: 爱子的选择 Aiko's Choice"
     tchinese: "Shadow Tactics: 愛子的抉擇 Aiko's Choice"
+1579390:
+  cloud:
+    saves:
+      - path: "Spiral/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Spiral/Saved/SaveGames/{64BitSteamID}"
+            replace: "compatdata/1579390/pfx/drive_c/Spiral/Saved/SaveGames/{64BitSteamID}"
+        root: WinAppDataLocal
+        useInstead: gameinstall
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacHome
+  installDir: Spiral
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Spiral.exe
+      type: default
+  nameLocalized:
+    schinese: 拾忆之旅 Spiral
 1579880:
   cloud:
     saves:
@@ -605337,6 +605389,29 @@
         oslist: linux
       executable: silence_of_the_siren.x86_64
       type: default
+2148970:
+  cloud:
+    saves:
+      - path: "\\GemelliGames\\SkygardArena"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+  installDir: Skygard Arena
+  launch:
+    - config:
+        oslist: windows
+      executable: SkygardArena.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: ShardTactics.app
+      type: default
+    - config:
+        oslist: linux
+      executable: ProjetArenaServer.x86_64
+      type: default
+  nameLocalized:
+    schinese: 天境争锋 Skygard Arena
+    tchinese: 天境争锋 Skygard Arena
 2149010:
   cloud:
     saves:
@@ -642652,6 +642727,30 @@
     koreana: 오늘도 같이 자동차 정비
     schinese: 修车吧！兄弟！
     tchinese: 修車吧！兄弟！
+3503440:
+  cloud:
+    saves:
+      - path: "Incrementalist/Astro Prospector/FullGame/Steam/{64BitSteamID}/Release"
+        pattern: Achievements.coffee
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "Incrementalist/Astro Prospector/FullGame/Steam/{64BitSteamID}/Release"
+        pattern: GameProgress.coffee
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "Incrementalist/Astro Prospector/FullGame/Steam/{64BitSteamID}/Release"
+        pattern: Rogue.coffee
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Astro Prospector
+  launch:
+    - executable: Astro Prospector.exe
+  nameLocalized:
+    schinese: 咖啡星矿工 Astro Prospector
+    tchinese: 咖啡星礦工 Astro Prospector
 3504560:
   cloud:
     saves:
@@ -644955,6 +645054,7 @@
       executable: FALLSTRUKTUR.app
       type: default
 3674590: {}
+3674680: {}
 3677050: {}
 3679080:
   installDir: The Seven Deadly Sins Origin
