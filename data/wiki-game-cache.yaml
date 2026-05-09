@@ -82563,6 +82563,12 @@ Fantasy Little Jobs:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\fmw_dosd\\savedata\\config.json}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\fmw_dosd\\savedata\\}}"
+"Fantasy Maiden Wars: Scarlet":
+  lutris: fantasy-maiden-wars-scarlet
+  pageId: 216484
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\*.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\savedata\\}}"
 Fantasy Monarch:
   pageId: 139282
   steam: 949680
@@ -110625,6 +110631,15 @@ Horresco Referens:
 "Horrid Henry: Missions of Mischief":
   pageId: 208207
   steam: 38240
+Horripilant:
+  cloud:
+    steam: true
+  lutris: horripilant
+  pageId: 216492
+  steam: 3525970
+  steamSide:
+    - 3771400
+    - 4326710
 Horror Fish Simulator:
   pageId: 91542
   steam: 835510
@@ -117287,6 +117302,15 @@ Instant Dungeon!:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Instant Dungeon\\video.conf}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Instant Dungeon\\save.dat}}"
+Instants:
+  cloud:
+    epic: true
+    steam: true
+  lutris: instants
+  pageId: 216480
+  steam: 2948560
+  steamSide:
+    - 3760260
 Instinct:
   lutris: instinct
   pageId: 94894
@@ -123319,6 +123343,7 @@ Keiko Everlasting:
 "Keine's Expanding Class!":
   cloud:
     steam: true
+  lutris: keines-expanding-class
   pageId: 216156
   steam: 3894520
 Kejora:
@@ -127165,6 +127190,12 @@ LGBT Battlegrounds:
   renamedFrom:
     - "LIT: Lux in Tenebris"
   steam: 1190160
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\CopperGlass\\LIT}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/CopperGlass/LIT/prefs}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\CopperGlass\\LIT\\LITSaveFile}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/CopperGlass/LIT/LITSaveFile}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/CopperGlass/LIT/LITSaveFile}}"
 "LIZ: Before the Plague":
   cloud:
     steam: true
@@ -206290,6 +206321,12 @@ Slinki:
 Slip:
   pageId: 50358
   steam: 291070
+"Slip 'n Slime":
+  cloud:
+    steam: true
+  lutris: slip-n-slime
+  pageId: 216494
+  steam: 1151990
 SlipDrive:
   pageId: 95925
   steam: 650720
@@ -217757,6 +217794,12 @@ Stick Spartans:
 Stick man Flipper:
   pageId: 123379
   steam: 988600
+Stick to the Plan:
+  cloud:
+    steam: true
+  lutris: stick-to-the-plan
+  pageId: 216482
+  steam: 2334280
 Stick to the end:
   pageId: 120866
   steam: 952970

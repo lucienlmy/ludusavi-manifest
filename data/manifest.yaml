@@ -255217,6 +255217,20 @@ Fantasy Little Jobs:
             store: steam
   steam:
     id: 3575980
+"Fantasy Maiden Wars: Scarlet":
+  files:
+    "<base>/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savedata":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: fantasy-maiden-wars-scarlet
 Fantasy Monarch:
   installDir:
     Fantasy Monarch: {}
@@ -342362,6 +342376,35 @@ Horresco Referens:
           - store: steam
   steam:
     id: 38240
+Horripilant:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/Horripilant/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/Godot/app_userdata/Horripilant/*.json":
+      when:
+        - store: steam
+  id:
+    lutris: horripilant
+    steamExtra:
+      - 3771400
+      - 4326710
+  installDir:
+    Horripilant: {}
+  launch:
+    "<base>/Horripilant.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Horripilant.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3525970
 Horror Fish Simulator:
   installDir:
     Horror Fish Simulator: {}
@@ -362951,6 +362994,27 @@ Instant Dungeon!:
             store: steam
   steam:
     id: 326720
+Instants:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winLocalAppData>/Instants/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: instants
+    steamExtra:
+      - 3760260
+  installDir:
+    Instants: {}
+  launch:
+    "<base>/Instants.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2948560
 Instinct:
   files:
     "<base>/user_data/config_engine":
@@ -381612,6 +381676,8 @@ Keiko Everlasting:
     "<winLocalAppData>/HornyMelon/KeinesExpandingClass/save.json":
       when:
         - store: steam
+  id:
+    lutris: keines-expanding-class
   installDir:
     "Keine's Expanding Class": {}
   launch:
@@ -393283,28 +393349,26 @@ LGBT Battlegrounds:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/CopperGlass/LIT":
+    "<home>/AppData/LocalLow/CopperGlass/LIT/LITSaveFile":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/.config/unity3d/CopperGlass/LIT/Solutions/*.jpg":
-      when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/CopperGlass/LIT":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/CopperGlass/LIT/Solutions/*.jpg":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/CopperGlass/LIT":
+        - os: windows
+    "<home>/Library/Application Support/CopperGlass/LIT/LITSaveFile":
+      tags:
+        - save
       when:
         - os: mac
-          store: steam
-    "<home>/Library/Application Support/CopperGlass/LIT/Solutions/*.jpg":
+    "<xdgConfig>/unity3d/CopperGlass/LIT/LITSaveFile":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
+        - os: linux
+    "<xdgConfig>/unity3d/CopperGlass/LIT/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     lutris: lit-bend-the-light
   installDir:
@@ -393322,6 +393386,10 @@ LGBT Battlegrounds:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/CopperGlass/LIT:
+      tags:
+        - config
   steam:
     id: 1190160
 "LIT: Lux in Tenebris":
@@ -636802,6 +636870,42 @@ Slip:
             store: steam
   steam:
     id: 291070
+"Slip 'n Slime":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Godot/app_userdata/SlipNSlime/saveData.json":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Godot/app_userdata/SlipNSlime/saveData.json":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+    "<xdgData>/Godot/app_userdata/SlipNSlime/saveData.json":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: slip-n-slime
+  installDir:
+    "Slip 'n Slime": {}
+  launch:
+    "<base>/Slip 'n Slime.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/slip-n-slime-linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/slip-n-slime-windows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1151990
 SlipDrive:
   installDir:
     SlipDrive: {}
@@ -672028,6 +672132,24 @@ Stick Spartans:
 Stick man Flipper:
   steam:
     id: 988600
+Stick to the Plan:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Dead Pixel Tales/Stick to the Plan/<storeUserId>/*.es3":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: stick-to-the-plan
+  installDir:
+    Stick to the Plan: {}
+  launch:
+    "<base>/Stick to the Plan.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2334280
 Stick to the end:
   installDir:
     Stick_to_the_end: {}

@@ -382031,6 +382031,10 @@
       executable: launcher/launcher.exe
       type: default
       workingdir: launcher
+  nameLocalized:
+    koreana: "토탈워: 로마 리마스터"
+    schinese: 全面战争：罗马 重制版
+    tchinese: 全軍破敵：羅馬－重製版
 886010:
   installDir: Smash Halloween Pumpkins The Challenge
   launch:
@@ -504348,6 +504352,45 @@
       type: default
 1151960: {}
 1151980: {}
+1151990:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/SlipNSlime/
+        pattern: saveData.json
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: WinAppDataRoaming
+  installDir: "Slip 'n Slime"
+  launch:
+    - config:
+        oslist: windows
+      executable: slip-n-slime-windows.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "Slip 'n Slime.app"
+      type: default
+    - config:
+        oslist: linux
+      executable: slip-n-slime-linux.x86_64
+  nameLocalized:
+    japanese: "スルスルスライム / Slip 'n Slime"
+    schinese: "滑滑史莱姆 / Slip 'n Slime"
+    tchinese: "滑滑史萊姆 / Slip 'n Slime"
 1152000:
   installDir: Psihanul
   launch:
@@ -613849,6 +613892,19 @@
         oslist: windows
       executable: PlariumGamesLauncher.exe
       type: default
+2334280:
+  cloud:
+    saves:
+      - path: "Dead Pixel Tales/Stick to the Plan/{64BitSteamID}"
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Stick to the Plan
+  launch:
+    - executable: Stick to the Plan.exe
+  nameLocalized:
+    schinese: 过木不汪 Stick to the Plan
 2334730:
   cloud:
     saves:
@@ -633437,6 +633493,21 @@
         oslist: windows
       executable: The House of Da Vinci VR.exe
       type: vr
+2948560:
+  cloud:
+    saves:
+      - path: Instants/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Instants
+  launch:
+    - executable: Instants.exe
+  nameLocalized:
+    japanese: インスタントメモリー
+    schinese: 絮絮手帐本 Instants
+    tchinese: 絮絮手賬本 Instants
 2949120:
   installDir: NoVacationForAnExecutioner
   launch:
@@ -643034,6 +643105,40 @@
       executable: HeartRatesPlus.sh
       type: default
 3523120: {}
+3525970:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Horripilant/
+        pattern: "*.json"
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Horripilant/
+            replace: ".local/share/godot/app_userdata/Horripilant/"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Horripilant
+  launch:
+    - config:
+        oslist: windows
+      executable: Horripilant.exe
+    - config:
+        oslist: linux
+      executable: Horripilant.x86_64
+    - arguments: "--rendering-method gl_compatibility"
+      config:
+        oslist: linux
+      description: Horripilant (Compatibility Mode)
+      executable: Horripilant.x86_64
+      type: option1
+    - arguments: "--rendering-method gl_compatibility"
+      config:
+        oslist: windows
+      description: Horripilant (Compatibility Mode)
+      executable: Horripilant.exe
+      type: option1
 3527290:
   cloud:
     saves:
