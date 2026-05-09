@@ -395663,6 +395663,8 @@ Landlord Simulator:
 "Landlord's Super":
   files:
     "<home>/AppData/LocalLow/Minskworks/LandlordsSuper":
+      tags:
+        - save
       when:
         - os: windows
           store: steam
@@ -463398,7 +463400,7 @@ Motorslice:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/MotorSlice/Saved/Config/WinGDK":
+    "<winLocalAppData>/MotorSlice/Saved/Config/Windows":
       tags:
         - config
       when:
@@ -490102,6 +490104,9 @@ Noir Syndrome:
             store: steam
   steam:
     id: 299780
+Noirmancer:
+  steam:
+    id: 3674590
 Noise:
   installDir:
     Noise: {}

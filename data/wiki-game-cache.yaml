@@ -17940,7 +17940,7 @@ Athens 2004:
   pageId: 89770
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\ATHENS 2004\\Athens.ini}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\ATHENS 2004\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\ATHENS 2004}}"
 "Ather: Chapter 1":
   pageId: 91512
   steam: 819990
@@ -98119,6 +98119,8 @@ Google Earth VR:
   steam: 714780
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Google Spotlight Stories - Special Delivery\\storyplayer.cfg}}"
+"Gooka: The Mystery of Janatris":
+  pageId: 216453
 Goose Goose Duck:
   pageId: 171771
   steam: 1568590
@@ -127959,6 +127961,8 @@ Landlord Simulator:
 "Landlord's Super":
   pageId: 145232
   steam: 1127840
+  templates:
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Minskworks\\LandlordsSuper\\}}"
 Landmark:
   pageId: 17321
   steam: 297810
@@ -150129,7 +150133,7 @@ Motorslice:
   steamSide:
     - 3910170
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\MotorSlice\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MotorSlice\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\MotorSlice\\Saved\\SaveGames\\*.sav}}"
 Motorsport Manager:
   cloud:
@@ -158900,6 +158904,9 @@ Noir Syndrome:
   steam: 299780
   templates:
     - "{{Game data/saves|Windows|%USERPROFILE%\\.prefs\\}}"
+Noirmancer:
+  pageId: 216451
+  steam: 3674590
 Noise:
   pageId: 65714
   steam: 676760
