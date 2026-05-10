@@ -85605,6 +85605,24 @@ Blacksea Odyssey:
             store: steam
   steam:
     id: 369550
+Blackshard:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winLocalAppData>/BLACKSHARD/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: blackshard
+    steamExtra:
+      - 3462270
+      - 3762090
+  installDir:
+    BLACKSHARD: {}
+  steam:
+    id: 3223390
 Blackshift:
   cloud:
     steam: true
@@ -366274,6 +366292,9 @@ Iron Blood VR:
     Iron Blood VR: {}
   steam:
     id: 1162900
+Iron Bramble:
+  steam:
+    id: 4328820
 Iron Brigade:
   cloud:
     steam: true

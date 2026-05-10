@@ -638704,6 +638704,28 @@
     - config:
         oslist: linux
       executable: Hentai Tales Futanari Office.x86_64
+3223390:
+  cloud:
+    saves:
+      - path: BLACKSHARD/Saved/SaveGames/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: BLACKSHARD
+  launch:
+    - arguments: "-dx12"
+      config:
+        oslist: windows
+      description: BLACKSHARD with DirectX 12 (recommended)
+      executable: BLACKSHARD.exe
+      type: option1
+    - arguments: "-dx11"
+      config:
+        oslist: windows
+      description: BLACKSHARD with DirectX 11
+      executable: BLACKSHARD.exe
+      type: option1
 3224770:
   installDir: UmamusumePrettyDerby
   launch:
@@ -648213,6 +648235,10 @@
     tchinese: 一盞秋聲：錦衣衛
 4317460: {}
 4328440: {}
+4328820:
+  nameLocalized:
+    japanese: アイアン ブランブル
+    schinese: 铁棘
 4333430: {}
 4335460: {}
 4339870:

@@ -2713,10 +2713,13 @@ A Fine Mess:
 "A Fisherman's Tale":
   cloud:
     steam: true
+  malformed: true
   pageId: 108668
   steam: 559330
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Fisherman\\Saved\\SaveGames\\}}"
+"A Fisherman's Tale 2":
+  pageId: 216530
 A Fistful of Gun:
   gog: 1442910587
   gogSide:
@@ -27653,6 +27656,16 @@ Blackscreen Simulator:
 Blacksea Odyssey:
   pageId: 34495
   steam: 369550
+Blackshard:
+  cloud:
+    epic: true
+    steam: true
+  lutris: blackshard
+  pageId: 216532
+  steam: 3223390
+  steamSide:
+    - 3462270
+    - 3762090
 Blackshift:
   cloud:
     steam: true
@@ -118281,6 +118294,9 @@ Iron Blood:
 Iron Blood VR:
   pageId: 150357
   steam: 1162900
+Iron Bramble:
+  pageId: 216526
+  steam: 4328820
 Iron Brigade:
   cloud:
     steam: true
