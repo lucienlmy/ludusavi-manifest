@@ -13521,6 +13521,7 @@ Antonball Deluxe:
 Antonblast:
   cloud:
     steam: true
+  lutris: antonblast
   pageId: 190335
   steam: 1887400
   templates:
@@ -26712,6 +26713,18 @@ BirdGut:
   steam: 1072390
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Micah\\BirdGut\\}}"
+Birdcage:
+  cloud:
+    steam: true
+  lutris: birdcage
+  pageId: 216517
+  steam: 2158550
+  steamSide:
+    - 4114500
+    - 4171320
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\birdcage}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\birdcage}}"
 Birdcakes:
   pageId: 87553
   steam: 699230
@@ -73064,6 +73077,10 @@ Eco:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Strange Loop Games\\Eco|{{p|hkcu}}\\SOFTWARE\\Strange Loop Games\\Eco}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Eco_Data\\Server\\Configs|{{P|game}}\\Eco_Data\\Server\\Storage}}"
+Eco Breaker:
+  lutris: eco-breaker
+  pageId: 216521
+  steam: 2116200
 "EcoQuest: The Search for Cetus":
   pageId: 147102
 Economic Conquest:
@@ -238154,6 +238171,9 @@ The Legend of Viccess:
     - "{{Game data/saves|Windows|{{P|game}}\\Save\\file*.sav}}"
 "The Legend of Zelda: Twilight Princess (Dusk)":
   pageId: 216508
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
 The Legend of the Dragonflame High School:
   pageId: 68394
   steam: 696910

@@ -42585,6 +42585,8 @@ Antonblast:
         - config
       when:
         - os: windows
+  id:
+    lutris: antonblast
   installDir:
     Antonblast: {}
   launch:
@@ -82781,6 +82783,30 @@ BirdGut:
         - config
   steam:
     id: 1072390
+Birdcage:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/birdcage":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: birdcage
+    steamExtra:
+      - 4114500
+      - 4171320
+  installDir:
+    BIRDCAGE: {}
+  launch:
+    "<base>/birdcage.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2158550
 Birdcakes:
   installDir:
     Birdcakes: {}
@@ -227037,6 +227063,11 @@ Eco:
         - config
   steam:
     id: 382310
+Eco Breaker:
+  id:
+    lutris: eco-breaker
+  steam:
+    id: 2116200
 Economic Conquest:
   installDir:
     Economic Conquest: {}
@@ -735474,6 +735505,14 @@ The Legend of Viccess:
         - os: windows
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
+"The Legend of Zelda: Twilight Princess (Dusk)":
+  files:
+    "<winAppData>/TwilitRealm/Dusk":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 The Legend of the Dragonflame High School:
   installDir:
     The Legend of the Dragonflame High School: {}

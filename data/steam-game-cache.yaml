@@ -603698,6 +603698,7 @@
   installDir: PROJECT QUARANTINE
   launch:
     - executable: Test_C.exe
+2116200: {}
 2117160: {}
 2117400:
   cloud:
@@ -605814,6 +605815,18 @@
         osarch: "64"
         oslist: windows
       executable: RetroRealms.exe
+      type: default
+2158550:
+  cloud:
+    saves:
+      - path: birdcage
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: BIRDCAGE
+  launch:
+    - config:
+        oslist: windows
+      executable: birdcage.exe
       type: default
 2158860:
   installDir: JBMod
