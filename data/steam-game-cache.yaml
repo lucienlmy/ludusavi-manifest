@@ -543575,6 +543575,26 @@
       type: none
   nameLocalized:
     koreana: "킹덤언더파이어: 히어로즈"
+1315210:
+  cloud:
+    saves:
+      - path: Ikai/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Ikai
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Ikai.exe
+    - config:
+        betakey: beta
+        osarch: "64"
+        oslist: windows
+      description: Beta
+      executable: Ikai.exe
 1315610:
   cloud:
     saves:
@@ -645911,6 +645931,44 @@
       description: Configurator
       executable: pcrazy.exe
       type: config
+3780950:
+  cloud:
+    saves:
+      - path: Chipmatic
+        pattern: "*"
+        root: WinMyDocuments
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Chipmatic
+            replace: Chipmatic
+        root: WinMyDocuments
+        useInstead: MacDocuments
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Chipmatic
+            replace: Documents/Chipmatic
+        root: WinMyDocuments
+        useInstead: LinuxHome
+  installDir: Chipmatic
+  launch:
+    - config:
+        oslist: windows
+      executable: Chipmatic.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Chipmatic.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Chipmatic
+      type: default
+  nameLocalized:
+    schinese: 地心工业线 Chipmatic
+    tchinese: 地心工業線 Chipmatic
 3781520:
   installDir: The Last Sip
   launch:
@@ -647681,6 +647739,9 @@
         oslist: linux
       executable: ZATO.sh
       type: default
+4124320:
+  nameLocalized:
+    japanese: サイレントロード
 4127530: {}
 4128260:
   installDir: Highguard

@@ -41322,6 +41322,14 @@ Chip:
   steam: 348300
   steamSide:
     - 356630
+Chipmatic:
+  cloud:
+    steam: true
+  lutris: chipmatic
+  pageId: 216498
+  steam: 3780950
+  steamSide:
+    - 4569190
 Chipmonk!:
   pageId: 128702
   steam: 1019730
@@ -114649,6 +114657,10 @@ Igo Meijin:
   pageId: 147484
 "Igor: The Game":
   pageId: 191714
+Ikai:
+  lutris: ikai
+  pageId: 216502
+  steam: 1315210
 Ikao The Lost Souls:
   pageId: 127405
   steam: 1017130
@@ -152501,6 +152513,8 @@ Mysterium:
 "Mystery Case Files: Ravenhearst":
   pageId: 41149
   steam: 50990
+  templates:
+    - "{{Game data/saves|Windows|\\HKEY_CURRENT_USER\\Software\\Big Fish Games\\Games\\Mystery Case Files - Ravenhearst}}"
 "Mystery Case Files: Ravenhearst Unlocked":
   pageId: 148747
   steam: 1168830
@@ -203632,6 +203646,10 @@ Silent Hunter III:
 Silent Night:
   pageId: 113526
   steam: 893670
+Silent Road:
+  lutris: silent-road
+  pageId: 216504
+  steam: 4124320
 Silent Service:
   gog: 1207661883
   gogSide:
@@ -238134,6 +238152,8 @@ The Legend of Viccess:
   templates:
     - "{{Game data/config|Windows|In-game settings:<br>{{P|game}}\\Save\\global.sav<br>Decomp settings:<br>{{P|game}}\\shipofharkinian.json}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save\\file*.sav}}"
+"The Legend of Zelda: Twilight Princess (Dusk)":
+  pageId: 216508
 The Legend of the Dragonflame High School:
   pageId: 68394
   steam: 696910

@@ -128606,6 +128606,40 @@ Chip:
             store: steam
   steam:
     id: 348300
+Chipmatic:
+  cloud:
+    steam: true
+  files:
+    "<home>/Documents/Chipmatic":
+      when:
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
+    "<winDocuments>/Chipmatic":
+      when:
+        - store: steam
+  id:
+    lutris: chipmatic
+    steamExtra:
+      - 4569190
+  installDir:
+    Chipmatic: {}
+  launch:
+    "<base>/Chipmatic":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Chipmatic.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Chipmatic.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3780950
 Chipmonk!:
   files:
     "<home>/AppData/LocalLow/Niemi Bros Entertainment/Chipmonk!/Steam/<storeUserId>/**/*.xml":
@@ -354849,6 +354883,23 @@ Igo Meijin:
             store: steam
   steam:
     id: 741390
+Ikai:
+  files:
+    "<winLocalAppData>/Ikai/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: ikai
+  installDir:
+    Ikai: {}
+  launch:
+    "<base>/Ikai.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1315210
 Ikao The Lost Souls:
   installDir:
     Ikao The lost souls: {}
@@ -470920,6 +470971,12 @@ Mysterium:
   steam:
     id: 50980
 "Mystery Case Files: Ravenhearst":
+  files:
+    /HKEY_CURRENT_USER/Software/Big Fish Games/Games/Mystery Case Files - Ravenhearst:
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Mystery Case Files Ravenhearst: {}
   launch:
@@ -628137,6 +628194,11 @@ Silent Hunter III:
 Silent Night:
   steam:
     id: 893670
+Silent Road:
+  id:
+    lutris: silent-road
+  steam:
+    id: 4124320
 Silent Service:
   files:
     "PC-Booter Game, no path":
