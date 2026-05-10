@@ -238173,7 +238173,9 @@ The Legend of Viccess:
   pageId: 216508
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
+    - "{{Game data/config|OS X|{{p|machome}}\\Library\\Application Support\\TwilitRealm\\Dusk}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
+    - "{{Game data/saves|OS X|{{p|machome}}\\Library\\Application Support\\TwilitRealm\\Dusk}}"
 The Legend of the Dragonflame High School:
   pageId: 68394
   steam: 696910
