@@ -2713,7 +2713,6 @@ A Fine Mess:
 "A Fisherman's Tale":
   cloud:
     steam: true
-  malformed: true
   pageId: 108668
   steam: 559330
   templates:
@@ -23780,6 +23779,7 @@ Beach Head 2000:
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\SAVE\\}}"
 Beach Head 2002:
+  lutris: beachhead-2002
   pageId: 61990
   steam: 511660
   templates:
@@ -40479,6 +40479,12 @@ ChatAid:
 Chateau Garden:
   pageId: 63480
   steam: 636010
+Cheap Car Repair:
+  pageId: 216549
+  steam: 2904040
+  steamSide:
+    - 3323560
+    - 3501610
 Cheap Golf:
   pageId: 61060
   steam: 616520
@@ -145374,7 +145380,9 @@ Mighty No. 9:
   steam: 314710
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\MN9Game\\Config\\}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Comcept/Mighty No. 9/MN9Game/Config}}"
     - "{{Game data/saves|Windows|{{p|game}}\\MN9Game\\SaveData\\}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Comcept/Mighty No. 9/MN9Game/SaveData}}"
 Mighty Party:
   pageId: 60249
   steam: 575720
@@ -164882,8 +164890,12 @@ Outbound:
   cloud:
     steam: true
     xbox: true
+  lutris: outbound
   pageId: 216195
   steam: 2681030
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Square Glade Games\\Outbound\\Settings}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Square Glade Games\\Outbound\\Savegames}}"
 Outbreak:
   pageId: 39536
   steam: 514990

@@ -627161,6 +627161,23 @@
       executable: Hollywood Animal.exe
       type: default
 2681030:
+  cloud:
+    saves:
+      - path: Square Glade Games/Outbound/Savegames
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: Square Glade Games/Outbound/Savegames
+        pattern: "*.autosave"
+        root: WinAppDataLocalLow
+      - path: Square Glade Games/Outbound/Settings
+        pattern: "*.synced"
+        root: WinAppDataLocalLow
+  installDir: Outbound
+  launch:
+    - config:
+        oslist: windows
+      executable: Outbound.exe
+      type: default
   nameLocalized:
     japanese: Outbound / アウトバウンド
     koreana: Outbound / 아웃바운드
@@ -632689,6 +632706,9 @@
     schinese: 咒语旅团
     tchinese: 法術小隊
     thai: กองเวทมนตร์
+2904040:
+  nameLocalized:
+    polish: Auto Fuszerka
 2905090:
   installDir: Ubersoldier
   launch:

@@ -73763,6 +73763,8 @@ Beach Head 2002:
         - save
       when:
         - os: windows
+  id:
+    lutris: beachhead-2002
   installDir:
     Beachhead 2002: {}
   launch:
@@ -125935,6 +125937,13 @@ Chateau Garden:
           - store: steam
   steam:
     id: 636010
+Cheap Car Repair:
+  id:
+    steamExtra:
+      - 3323560
+      - 3501610
+  steam:
+    id: 2904040
 Cheap Golf:
   installDir:
     Cheap Golf: {}
@@ -448789,6 +448798,16 @@ Mighty No. 9:
         - save
       when:
         - os: windows
+    "<home>/.local/share/Comcept/Mighty No. 9/MN9Game/Config":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/Comcept/Mighty No. 9/MN9Game/SaveData":
+      tags:
+        - save
+      when:
+        - os: linux
   installDir:
     Mighty No. 9: {}
   launch:
@@ -508504,6 +508523,26 @@ Outback Survival:
 Outbound:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Square Glade Games/Outbound/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Square Glade Games/Outbound/Settings":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: outbound
+  installDir:
+    Outbound: {}
+  launch:
+    "<base>/Outbound.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2681030
 Outbreak:
