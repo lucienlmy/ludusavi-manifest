@@ -127195,6 +127195,8 @@ LA Cops:
 LA Deadzone:
   pageId: 144115
   steam: 926220
+"LA Law: The Computer Game":
+  pageId: 216544
 LA Soul:
   pageId: 65664
   steam: 674030
@@ -144215,17 +144217,17 @@ Metro 2033 Redux:
   pageId: 17417
   steam: 286690
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\4A Games\\Metro Redux\\{{p|uid}}\\user.cfg}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\4A Games\\Metro 2033\\{{p|uid}}\\user.cfg}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\DeepSilver.Metro2033Redux_hmv7qcest37me\\SystemAppData\\wgs\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Metro_Redux_2033/}}"
     - "{{Game data/config|Linux|{{P|Game}}/{{p|uid}}/user.cfg}}"
-    - "{{Game data/config|GOG.com|{{p|localappdata}}\\4A Games\\Metro Redux\\user.cfg}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\{{p|uid}}\\}}"
+    - "{{Game data/config|GOG.com|{{p|localappdata}}\\4A Games\\Metro 2033\\user.cfg}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\{{p|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DeepSilver.Metro2033Redux_hmv7qcest37me\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Metro_Redux_2033/}}"
     - "{{Game data/saves|Linux|{{P|Game}}/{{p|uid}}/}}"
-    - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\}}"
-    - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\Documents\\4A Games\\Metro Redux\\}}"
+    - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\}}"
+    - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\}}"
 Metro 2039:
   cloud:
     steam: true
@@ -186508,6 +186510,7 @@ Resident Evil 4 (2023):
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\local_config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2050650\\remote\\win64_save\\}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Containers/jp.co.capcom.RE4US/Data/Library/Application Support/CAPCOM/jp.co.capcom.RE4US/SaveData}}"
 Resident Evil 4 Ultimate HD Edition:
   cloud:
     steam: true
@@ -197616,7 +197619,9 @@ Scritchy Scratchy:
     - 4428640
     - 4517590
   templates:
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.DefaultCompany.2D-URP.plist}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Lunch Money Games\\Scritchy Scratchy\\*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json}}"
 Scroll2Read:
   pageId: 125135
   steam: 999540
@@ -246938,8 +246943,11 @@ Time Gal:
 Time Gal HD Remaster:
   cloud:
     steam: true
+  lutris: timegal-hd-remaster
   pageId: 204168
   steam: 3050490
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\株式会社タイトー\\TIMEGAL HD Remaster\\Save}}"
 Time Gap Mystery:
   pageId: 72389
   steam: 500150

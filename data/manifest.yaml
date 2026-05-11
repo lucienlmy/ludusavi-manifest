@@ -445706,24 +445706,24 @@ Metro 2033 Redux:
         - save
       when:
         - os: mac
-    "<winDocuments>/4A Games/Metro Redux":
+    "<winDocuments>/4A Games/Metro 2033":
       tags:
         - save
       when:
         - os: windows
         - os: windows
           store: gog
-    "<winDocuments>/4A Games/Metro Redux/<storeUserId>":
+    "<winDocuments>/4A Games/Metro 2033/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
-    "<winLocalAppData>/4A Games/Metro Redux/<storeUserId>/user.cfg":
+    "<winLocalAppData>/4A Games/Metro 2033/<storeUserId>/user.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/4A Games/Metro Redux/user.cfg":
+    "<winLocalAppData>/4A Games/Metro 2033/user.cfg":
       tags:
         - config
       when:
@@ -575210,6 +575210,11 @@ Resident Evil 4 (2023):
         - config
       when:
         - os: windows
+    "<home>/Library/Containers/jp.co.capcom.RE4US/Data/Library/Application Support/CAPCOM/jp.co.capcom.RE4US/SaveData":
+      tags:
+        - save
+      when:
+        - os: mac
     "<root>/userdata/<storeUserId>/2050650/remote/win64_save":
       tags:
         - save
@@ -609310,6 +609315,16 @@ Scritchy Scratchy:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/com.DefaultCompany.2D-URP.plist":
+      tags:
+        - config
+      when:
+        - os: mac
   id:
     lutris: scritchy-scratchy
     steamExtra:
@@ -762298,10 +762313,13 @@ Time Gal HD Remaster:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/株式会社タイトー/TIMEGAL HD Remaster/Save/<storeUserId>":
+    "<home>/AppData/LocalLow/株式会社タイトー/TIMEGAL HD Remaster/Save":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+  id:
+    lutris: timegal-hd-remaster
   installDir:
     TIMEGAL HD-Remaster: {}
   launch:
