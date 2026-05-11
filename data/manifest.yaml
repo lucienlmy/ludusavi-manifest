@@ -197342,8 +197342,26 @@ Directionless:
 Directive 8020:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Directive8020/Saved/SaveGames/DP*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Directive8020/Saved/SaveGames/OptionSettings.sav":
+      when:
+        - store: steam
   id:
     lutris: directive-8020
+  installDir:
+    The Dark Pictures Anthology - Directive 8020: {}
+  launch:
+    "<base>/Directive8020.exe":
+      - arguments: "-dx12"
+        when:
+          - os: linux
+            store: steam
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2255370
 Director of Football:
@@ -215964,6 +215982,35 @@ Duck Season PC:
             store: steam
   steam:
     id: 746510
+Duck Side of the Moon:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/DucksideGame/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/DucksideGame/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Duck Side of the Moon: {}
+  launch:
+    "<base>/DucksideGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/DucksideGame.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 2959770
 Duck Simulator 2:
   files:
     "<home>/AppData/LocalLow/Orius Games/Duck Simulator 2/*.sav":
@@ -432001,6 +432048,8 @@ Marathon (2026):
         - config
       when:
         - os: windows
+  id:
+    lutris: marathon--2
   installDir:
     Marathon: {}
   launch:
@@ -584944,6 +584993,9 @@ Road to Vostok:
         when:
           - store: steam
       - arguments: "--rendering-driver vulkan"
+        when:
+          - store: steam
+      - arguments: "--rendering-method mobile"
         when:
           - store: steam
   steam:

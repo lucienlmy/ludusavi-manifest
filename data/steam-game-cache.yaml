@@ -86359,6 +86359,10 @@
     - description: Launch
       executable: launcher/launcher.exe
       type: none
+  nameLocalized:
+    koreana: "토탈워: 미디블 - 컬렉션"
+    schinese: 全面战争：中世纪 - 合集
+    tchinese: 全軍破敵：中世紀－系列合集
 345280:
   installDir: Lost in a Forest
   launch:
@@ -594871,6 +594875,9 @@
     - arguments: "--rendering-driver vulkan"
       description: "Road to Vostok [Vulkan]"
       executable: RTV.exe
+    - arguments: "--rendering-method mobile"
+      description: "Road to Vostok [Compatibility]"
+      executable: RTV.exe
 1964000:
   installDir: Sunline
   launch:
@@ -610879,6 +610886,34 @@
     schinese: 戈德曼的永生
     tchinese: 戈德曼的永生
 2255370:
+  cloud:
+    saves:
+      - path: Directive8020/Saved/SaveGames
+        pattern: OptionSettings.sav
+        root: WinAppDataLocal
+      - path: Directive8020/Saved/SaveGames
+        pattern: DP*.sav
+        root: WinAppDataLocal
+  installDir: The Dark Pictures Anthology - Directive 8020
+  launch:
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Directive8020.exe
+      type: default
+    - arguments: "-dx12"
+      config:
+        oslist: linux
+      description: Steamdeck launcher
+      executable: Directive8020.exe
+      type: default
+    - arguments: "Uberlevel -unattended -debug \"-LogCmds=LogAkAudio off, LogCook warning, LogSavePackage warning, LogStreaming warning, LogMovieScene error, LogSkinnedMeshComp error, SMGLocale off\" -automate -automatecombat=succeed -automateqte=succeed -automatechoice=LEFT -SyncVideoCapture -EnableInGameMetricsCapture -CinematicTimeDisplay -ContinuousTimeCode -dx12"
+      config:
+        betakey: automation
+      description: Automation launcher
+      executable: Directive8020.exe
+      type: option1
   nameLocalized:
     schinese: 8020号指令
 2256420:
@@ -633807,6 +633842,33 @@
   nameLocalized:
     schinese: 洛维什传说
     tchinese: 洛維什傳說
+2959770:
+  cloud:
+    saves:
+      - path: DucksideGame/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: DucksideGame/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ".config/Epic/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Duck Side of the Moon
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DucksideGame.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: DucksideGame.sh
+      type: default
 2960500:
   cloud:
     saves:
@@ -645273,7 +645335,7 @@
       executable: Nioh3.exe
       type: default
     - config:
-        betakey: "profile,test,rating,power_check,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile"
+        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0"
         osarch: "64"
         oslist: windows
       description: Daylight.exe

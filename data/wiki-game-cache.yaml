@@ -69467,6 +69467,14 @@ Duck Season:
 Duck Season PC:
   pageId: 138845
   steam: 746510
+Duck Side of the Moon:
+  cloud:
+    steam: true
+  pageId: 216539
+  steam: 2959770
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\DucksideGame\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\DucksideGame\\Saved\\SaveGames\\*.sav}}"
 Duck Simulator 2:
   pageId: 175901
   steam: 1808800
@@ -139749,6 +139757,7 @@ Marathon:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Aleph One\\Quick Saves|{{p|userprofile}}\\Documents\\Aleph One\\Recordings|{{p|userprofile}}\\Documents\\Aleph One\\Saved Games}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/AlephOne/Quick Saves/Marathon}}"
 Marathon (2026):
+  lutris: marathon--2
   pageId: 203411
   renamedFrom:
     - Marathon (2025)
