@@ -619664,8 +619664,19 @@
         root: WinMyDocuments
   installDir: The Epic
   launch:
-    - executable: TheEpicProject.exe
-      type: default
+    - arguments: "-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Bylina (DirectX 11) (Recommended)
+      executable: TheEpicProject.exe
+      type: config
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Bylina (DirectX 12)
+      executable: TheEpicProject.exe
+      type: config
   nameLocalized:
     russian: Былина
 2461850:
@@ -635940,6 +635951,14 @@
   installDir: Nicktoons and The Dice of Destiny
   launch:
     - executable: Dice.exe
+3053950:
+  installDir: DungeonRampage
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DungeonRampage.exe
+      type: default
 3054690:
   installDir: Norse
   launch:
@@ -646712,9 +646731,9 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: anuket_Shipping_Playfab_Steam_x64.exe
+      executable: BloodRefreshedSupply.exe
       type: default
-    - arguments: "-conf dosbox_blood.conf -conf dosbox_blood_launch.conf -noconsole"
+    - arguments: "-conf dosbox_blood_windows.conf -conf dosbox_blood_windows_launch.conf -noconsole"
       config:
         osarch: "64"
         oslist: windows
@@ -646722,6 +646741,12 @@
       executable: "DOS\\_DOSBOX\\dosbox-staging.exe"
       type: option1
       workingdir: "DOS\\_DOSBOX\\"
+    - config:
+        betakey: quantic
+        osarch: "64"
+        oslist: windows
+      executable: anuket_Shipping_Playfab_Steam_x64.exe
+      type: default
 3886200:
   nameLocalized:
     schinese: 破碎怪谈：切勿欺骗

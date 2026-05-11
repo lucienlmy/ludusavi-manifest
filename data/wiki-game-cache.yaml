@@ -10518,8 +10518,8 @@ Alpha & Beta:
 "Alpha Black Zero: Intrepid Protocol":
   pageId: 194563
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Scripts\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Scripts}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame}}"
 Alpha Decay:
   pageId: 36984
   steam: 513970
@@ -70157,6 +70157,9 @@ Dungeon Quest:
     steam: true
   pageId: 93035
   steam: 849920
+Dungeon Rampage:
+  pageId: 216535
+  steam: 3053950
 Dungeon Rankers:
   pageId: 103089
   steam: 867110
@@ -83170,8 +83173,11 @@ Farmer Pug Dash:
   pageId: 145554
   steam: 1137750
 Farming & Supermarket Simulator:
+  lutris: farming-supermarket-simulator
   pageId: 205557
   steam: 3070880
+  steamSide:
+    - 3479320
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Bull Games\\Farming and Supermarket Simulator}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Bull Games\\Farming and Supermarket Simulator}}"
@@ -118557,6 +118563,8 @@ Ironclad Tactics:
 "Ironclads: American Civil War":
   pageId: 41138
   steam: 46700
+  templates:
+    - "{{Game data/saves|Windows|C:\\Users\\Public\\Documents\\Ironclads American Civil War\\saves}}"
 "Ironclads: Anglo Russian War 1866":
   pageId: 40955
   steam: 46830
@@ -205942,8 +205950,10 @@ Slay the Spire 2:
   steam: 2868840
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\SlayTheSpire2}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/SlayTheSpire2/steam/{{p|uid}}/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\SlayTheSpire2\\steam\\{{p|uid}}}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/SlayTheSpire2/steam/{{p|uid}}/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SlayTheSpire2/steam/{{p|uid}}/profile1}}"
 Slay.one:
   pageId: 80677
@@ -238189,9 +238199,11 @@ The Legend of Viccess:
   pageId: 216508
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
-    - "{{Game data/config|OS X|{{p|machome}}\\Library\\Application Support\\TwilitRealm\\Dusk}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusk}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusk}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
-    - "{{Game data/saves|OS X|{{p|machome}}\\Library\\Application Support\\TwilitRealm\\Dusk}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusk}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusk}}"
 The Legend of the Dragonflame High School:
   pageId: 68394
   steam: 696910

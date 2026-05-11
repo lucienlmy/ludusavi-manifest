@@ -91091,7 +91091,7 @@ Blood will be Spilled:
   installDir:
     Blood - Refreshed Supply: {}
   launch:
-    "<base>/anuket_Shipping_Playfab_Steam_x64.exe":
+    "<base>/BloodRefreshedSupply.exe":
       - when:
           - bit: 64
             os: windows
@@ -108895,10 +108895,6 @@ Bylina:
       - 4591670
   installDir:
     The Epic: {}
-  launch:
-    "<base>/TheEpicProject.exe":
-      - when:
-          - store: steam
   steam:
     id: 2461440
 Bystander:
@@ -218408,6 +218404,17 @@ Dungeon Quest:
             store: steam
   steam:
     id: 849920
+Dungeon Rampage:
+  installDir:
+    DungeonRampage: {}
+  launch:
+    "<base>/DungeonRampage.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3053950
 Dungeon Rankers:
   installDir:
     Dungeon Rankers: {}
@@ -257119,6 +257126,10 @@ Farming & Supermarket Simulator:
         - save
       when:
         - os: windows
+  id:
+    lutris: farming-supermarket-simulator
+    steamExtra:
+      - 3479320
   installDir:
     Farming and Supermarket Simulator: {}
   launch:
@@ -367041,6 +367052,12 @@ Ironclad Tactics:
   steam:
     id: 549400
 "Ironclads: American Civil War":
+  files:
+    "C:/Users/Public/Documents/Ironclads American Civil War/saves":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Ironclads American Civil War: {}
   launch:
@@ -635336,6 +635353,12 @@ Slay the Spire 2:
   cloud:
     steam: true
   files:
+    "<home>/Library/Application Support/SlayTheSpire2/steam/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
     "<winAppData>/SlayTheSpire2":
       tags:
         - config
@@ -735534,6 +735557,12 @@ The Legend of Viccess:
         - save
       when:
         - os: windows
+    "<xdgData>/TwilitRealm/Dusk":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
 The Legend of the Dragonflame High School:
   installDir:
     The Legend of the Dragonflame High School: {}
