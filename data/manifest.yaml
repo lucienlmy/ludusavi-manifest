@@ -112840,8 +112840,21 @@ Call of War:
 Call of the Elder Gods:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/COTEG/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/COTEG/Saved/SaveGames/AppData.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: call-of-the-elder-gods
+    steamExtra:
+      - 4197180
   steam:
     id: 2174380
 Call of the Mighty Warriors:
@@ -171459,6 +171472,8 @@ Dark Light:
   steam:
     id: 288970
 Dark Mass:
+  id:
+    lutris: dark-mass
   steam:
     id: 1879940
 Dark Matter:
@@ -298544,6 +298559,27 @@ Glitchspace:
             store: steam
   steam:
     id: 290060
+Glitchspankr:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/GlitchSpank/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: glitchspankr
+    steamExtra:
+      - 2772130
+      - 4151500
+  installDir:
+    GlitchSPANKR: {}
+  launch:
+    "<base>/GlitchSPANKR/GlitchSpank.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2727660
 Glittermitten Grove:
   files:
     "<home>/AppData/LocalLow/Mostly Tigerproof/Glittermitten Grove":
@@ -488392,6 +488428,8 @@ No King No Kingdom VR:
   steam:
     id: 946700
 No Law:
+  id:
+    lutris: no-law
   steam:
     id: 2161710
 No Lights:
@@ -761398,6 +761436,17 @@ Tiger Fighter 1931 Tora!Tora!Tora!:
   steam:
     id: 1131360
 Tiger Hunt:
+  files:
+    "<base>/conf.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: tiger-hunt
   installDir:

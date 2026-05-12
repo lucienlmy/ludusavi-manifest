@@ -36378,6 +36378,11 @@ Call of the Elder Gods:
   lutris: call-of-the-elder-gods
   pageId: 205357
   steam: 2174380
+  steamSide:
+    - 4197180
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\COTEG\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\COTEG\\Saved\\SaveGames\\AppData.sav}}"
 Call of the Mighty Warriors:
   cloud:
     steam: true
@@ -55112,6 +55117,7 @@ Dark Light:
   pageId: 50472
   steam: 288970
 Dark Mass:
+  lutris: dark-mass
   pageId: 203462
   steam: 1879940
 Dark Matter:
@@ -96377,6 +96383,15 @@ Glitchspace:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Space Budgie\\Glitchspace\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Space Budgie\\Glitchspace\\}}"
+Glitchspankr:
+  cloud:
+    steam: true
+  lutris: glitchspankr
+  pageId: 216556
+  steam: 2727660
+  steamSide:
+    - 2772130
+    - 4151500
 Glittermitten Grove:
   pageId: 54939
   steam: 536890
@@ -158371,6 +158386,7 @@ No King No Kingdom VR:
   pageId: 121445
   steam: 946700
 No Law:
+  lutris: no-law
   pageId: 211960
   steam: 2161710
 No Lights:
@@ -246685,6 +246701,9 @@ Tiger Hunt:
   lutris: tiger-hunt
   pageId: 64002
   steam: 655430
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\conf.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Tiger Knight:
   pageId: 80332
   renamedFrom:

@@ -628742,6 +628742,19 @@
     japanese: WHAT THE CAR? - うんてん、できるかな？
     schinese: WHAT THE CAR? 万物皆可赛车
     tchinese: WHAT THE CAR? 萬物皆可賽車
+2727660:
+  cloud:
+    saves:
+      - path: GlitchSpank/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: GlitchSPANKR
+  launch:
+    - config:
+        oslist: windows
+      executable: GlitchSPANKR/GlitchSpank.exe
+      type: default
 2728190:
   cloud:
     saves:
