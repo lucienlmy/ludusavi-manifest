@@ -140501,11 +140501,9 @@ Marvel Cosmic Invasion:
   steam: 2753970
   templates:
     - "{{Game data/config|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\Settings.cfg}}"
-    - "{{Game data/config|Linux|~/.local/share/GSE Saves/settings/configs.user.ini}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\2753970\\remote\\GameSave.sav}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DotEmu.Poutine_map6zyh9ym1xy\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\GameSave.sav}}"
-    - "{{Game data/saves|Linux|~/.local/share/GSE Saves/2753970/remote/GameSave.sav}}"
 Marvel End Time Arena:
   pageId: 87509
   steam: 790650

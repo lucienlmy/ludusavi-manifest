@@ -9707,6 +9707,12 @@
   launch:
     - executable: Coniclysm.exe
 40100:
+  cloud:
+    saves:
+      - path: "My Games\\SquareEnix\\Supreme Commander 2\\savegames\\{Steam3AccountID}"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Supreme Commander 2
   launch:
     - config:

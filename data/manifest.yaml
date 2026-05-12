@@ -434422,16 +434422,6 @@ Marvel Cosmic Invasion:
   cloud:
     steam: true
   files:
-    "<home>/.local/share/GSE Saves/2753970/remote/GameSave.sav":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/.local/share/GSE Saves/settings/configs.user.ini":
-      tags:
-        - config
-      when:
-        - os: linux
     "<root>/userdata/<storeUserId>/2753970/remote/GameSave.sav":
       tags:
         - save
