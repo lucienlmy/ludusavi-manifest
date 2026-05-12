@@ -624544,7 +624544,14 @@
     japanese: "サイオニックセントリー : インフィニット"
     koreana: "사이오닉 파수기: 인피니트"
     schinese: 灵能哨卫：无限
-2599690: {}
+2599690:
+  installDir: Better than Dead
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BTD.exe
+      type: default
 2600140:
   cloud:
     saves:
@@ -646405,6 +646412,7 @@
   installDir: windows
   launch:
     - executable: Heaven Does Not Respond.exe
+3817710: {}
 3819640:
   cloud:
     saves:
@@ -647514,7 +647522,15 @@
         root: WinAppDataLocal
   installDir: TorchOfShadows
   launch:
-    - executable: TorchOfShadows.exe
+    - config:
+        oslist: windows
+      executable: TorchOfShadows.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: Play Torch of Shadows Linux
+      executable: AppRun
+      type: default
 4012810: {}
 4016300:
   installDir: Beer Machine

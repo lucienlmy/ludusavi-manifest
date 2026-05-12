@@ -78734,6 +78734,14 @@ Better Off Tread:
 Better Than Dead:
   id:
     lutris: better-than-dead
+  installDir:
+    Better than Dead: {}
+  launch:
+    "<base>/BTD.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2599690
 Between Horizons:
@@ -311355,6 +311363,7 @@ Grove flowers:
     id: 1031290
 Grow Home:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/323320/remote":
@@ -311372,6 +311381,8 @@ Grow Home:
         - config
       when:
         - os: linux
+  gog:
+    id: 1533865045
   id:
     lutris: grow-home
   installDir:
@@ -593518,6 +593529,11 @@ Rugosi:
           - store: steam
   steam:
     id: 2633950
+"Rugrats: Retro Rewind Collection":
+  cloud:
+    steam: true
+  steam:
+    id: 3817710
 Ruin City Gasolina:
   installDir:
     Ruin City Gasolina: {}
@@ -769982,9 +769998,15 @@ Torch of Shadows:
   installDir:
     TorchOfShadows: {}
   launch:
+    "<base>/AppRun":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
     "<base>/TorchOfShadows.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 4007420
 Torchlight:

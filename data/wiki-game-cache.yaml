@@ -100544,7 +100544,9 @@ Grove flowers:
   steam: 1031290
 Grow Home:
   cloud:
+    gog: true
     steam: true
+  gog: 1533865045
   lutris: grow-home
   pageId: 22676
   steam: 323320
@@ -192534,6 +192536,11 @@ Rugrats Munchin Land:
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
 "Rugrats: All Growed Up":
   pageId: 209724
+"Rugrats: Retro Rewind Collection":
+  cloud:
+    steam: true
+  pageId: 216576
+  steam: 3817710
 "Rugrats: Totally Angelica Boredom Buster":
   pageId: 180533
 Ruin City Gasolina:
