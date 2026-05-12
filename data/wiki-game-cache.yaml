@@ -10026,6 +10026,9 @@ Aliens&Asteroids:
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\ColdIronStudiosLLC.AliensFireteam_r52mqvf2yh3da\\LocalCache\\Local\\Endeavor\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Endeavor\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\ColdIronStudiosLLC.AliensFireteam_r52mqvf2yh3da\\SystemAppData\\wgs\\}}"
+"Aliens: Fireteam Elite 2":
+  pageId: 216582
+  steam: 3448650
 Alight:
   pageId: 136058
   steam: 1050270
@@ -100557,13 +100560,15 @@ Grow Home:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/323320/remote/}}"
 Grow Up:
   cloud:
+    gog: true
     steam: true
+  gog: 2032258750
   lutris: grow-up
   pageId: 36017
   steam: 426790
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Reflections\\Grow Up\\}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/426790/remote/}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\426790\\remote\\}}"
 "Grow: Song of the Evertree":
   cloud:
     gog: true
@@ -105781,6 +105786,9 @@ Hell Girls:
 Hell Hole:
   pageId: 130074
   steam: 1037430
+Hell Is Other People:
+  pageId: 216584
+  steam: 4665880
 Hell Knights:
   pageId: 103015
   steam: 891110
@@ -221273,6 +221281,11 @@ Super 123:
     - "{{Game data/config|Windows|{{P|appdata}}\\Noah3D\\noah3d.cfg}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAM#.N3D}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Noah3D\\}}"
+Super Adventure Hand:
+  pageId: 216586
+  steam: 1992700
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Devm Games AB\\Super Adventure Hand - Game\\}}"
 Super Agent 008:
   pageId: 203482
   templates:

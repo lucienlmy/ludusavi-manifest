@@ -596478,6 +596478,13 @@
     - config:
         oslist: windows
       executable: "CheeseGameBuild\\Cheese Game.exe"
+1992700:
+  installDir: Super Adventure Hand
+  launch:
+    - executable: Super Adventure Hand.exe
+      type: default
+  nameLocalized:
+    schinese: 有手就行
 1993230: {}
 1993830:
   cloud:
@@ -606532,6 +606539,18 @@
   launch:
     - executable: ProjectWATERFALL/ProjectWATERFALL.exe
 2174380:
+  cloud:
+    saves:
+      - path: "COTEG\\Saved\\SaveGames"
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Call of the Elder Gods
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: COTEG.exe
+      type: default
   nameLocalized:
     schinese: 古神之呼唤
     tchinese: 古神的呼喚
@@ -642342,6 +642361,7 @@
   nameLocalized:
     japanese: 初音ミク ロジックペイントS+
 3447740: {}
+3448650: {}
 3448680: {}
 3448930:
   installDir: Untitled Hand Game Titled Edition
@@ -648675,6 +648695,7 @@
 4549480: {}
 4557490: {}
 4605200: {}
+4665880: {}
 4669670:
   nameLocalized:
     schinese: 血色鹿影

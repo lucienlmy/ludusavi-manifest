@@ -31530,6 +31530,9 @@ Aliens&Asteroids:
           - store: steam
   steam:
     id: 1549970
+"Aliens: Fireteam Elite 2":
+  steam:
+    id: 3448650
 Alight:
   steam:
     id: 1050270
@@ -112863,6 +112866,14 @@ Call of the Elder Gods:
     lutris: call-of-the-elder-gods
     steamExtra:
       - 4197180
+  installDir:
+    Call of the Elder Gods: {}
+  launch:
+    "<base>/COTEG.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2174380
 Call of the Mighty Warriors:
@@ -311412,6 +311423,7 @@ Grow Home:
     id: 323320
 Grow Up:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/426790/remote":
@@ -311419,6 +311431,8 @@ Grow Up:
         - save
       when:
         - store: steam
+  gog:
+    id: 2032258750
   id:
     lutris: grow-up
   installDir:
@@ -327215,6 +327229,9 @@ Hell Hole:
     id: 1037430
 Hell Hunt:
   alias: Dread Templar
+Hell Is Other People:
+  steam:
+    id: 4665880
 Hell Knights:
   installDir:
     Hell Knights: {}
@@ -683222,6 +683239,21 @@ Super 123:
             store: steam
   steam:
     id: 371180
+Super Adventure Hand:
+  files:
+    "<home>/AppData/LocalLow/Devm Games AB/Super Adventure Hand - Game":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Super Adventure Hand: {}
+  launch:
+    "<base>/Super Adventure Hand.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1992700
 Super Agent 008:
   files:
     "<base>/Control/Data/Profiles/*.pro":
