@@ -585148,36 +585148,44 @@
 1818450:
   installDir: STALCRAFT
   launch:
-    - arguments: "bin_%REALM%/win64/java/bin/stalcraftw.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.client.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-platform steam bin_%REALM%/win64/java/bin/stalcraftw.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
         osarch: "64"
         oslist: windows
-      executable: sclauncher.exe
+      executable: bin_global/win64/java/bin/ExensLauncher.exe
       type: default
-    - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.client.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-platform steam bin_ru/win64/java/bin/stalcraftw.exe -classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
         betakey: toster
         osarch: "64"
         oslist: windows
       description: "STALCRAFT PTS [RU]"
-      executable: bin_ru/win64/java/bin/stalcraftw.exe
+      executable: bin_ru/win64/java/bin/ExensLauncher.exe
       type: option1
-    - arguments: "-classpath \"bin_global/classes.jar;bin_global/libs.jar;modassets;bin_global/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_global/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dforced_language_realm=GLOBAL\" \"-Dforced_realm_id=EU\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_global/patchassets\" exbo.stalcraft.client.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-platform steam bin_global/win64/java/bin/stalcraftw.exe -classpath \"bin_global/classes.jar;bin_global/libs.jar;modassets;bin_global/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_global/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dforced_language_realm=GLOBAL\" \"-Dforced_realm_id=EU\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_global/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
         betakey: toster
         osarch: "64"
         oslist: windows
       description: "STALCRAFT GTS [GLOBAL]"
-      executable: bin_global/win64/java/bin/stalcraftw.exe
+      executable: bin_global/win64/java/bin/ExensLauncher.exe
       type: option1
-    - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.client.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
-        betakey: open_test_srv
+        betakey: open_test_server_may
         osarch: "64"
         oslist: windows
-      description: "STALCRAFT OTS — test server; use this launch option if you're outside the RU region."
+      description: STALCRAFT OTS — test server
       executable: bin_ru/win64/java/bin/stalcraftw.exe
       type: option2
+    - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dbundle.backend_address=85.119.149.147:30059\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+      config:
+        betakey: sc_dev
+        osarch: "64"
+        oslist: windows
+      description: Stalcraft DEV
+      executable: bin_ru/win64/java/bin/stalcraftw.exe
+      type: option1
 1818570:
   cloud:
     saves:
@@ -594772,6 +594780,27 @@
     schinese: 使命召唤®：战争地带™
     tchinese: "《決勝時刻®: 現代戰域™》"
 1962700:
+  cloud:
+    saves:
+      - path: Subnautica2/Saved/SaveGames
+        pattern: savegame_*.sav
+        root: gameinstall
+      - path: Subnautica2/Saved/SaveGames
+        pattern: SharedGameSettings.sav
+        root: gameinstall
+      - path: Subnautica2/Saved/SaveGames
+        pattern: savegame_*.sav
+        root: WinAppDataLocal
+      - path: Subnautica2/Saved/SaveGames
+        pattern: SharedGameSettings.sav
+        root: WinAppDataLocal
+  installDir: Subnautica2
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Subnautica2.exe
+      type: default
   nameLocalized:
     japanese: サブノーティカ２
     koreana: 서브노티카 2
@@ -648682,6 +648711,7 @@
         oslist: macos
       executable: LEAVES 3.app
       type: default
+4465790: {}
 4475520: {}
 4484200: {}
 4491360: {}

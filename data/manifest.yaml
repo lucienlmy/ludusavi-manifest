@@ -112866,6 +112866,8 @@ Call of the Elder Gods:
     lutris: call-of-the-elder-gods
     steamExtra:
       - 4197180
+      - 4556550
+      - 4656660
   installDir:
     Call of the Elder Gods: {}
   launch:
@@ -113788,7 +113790,6 @@ Candlelight:
 "Candleman: The Complete Journey":
   cloud:
     gog: true
-    steam: true
   files:
     "<home>/AppData/LocalLow/Spotlightor Interactive/Candleman":
       tags:
@@ -180489,6 +180490,7 @@ Deadweight:
     id: 385350
 "Deadzone: Rogue":
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Valhalla/Saved/Config/Windows":
@@ -180502,9 +180504,11 @@ Deadweight:
       when:
         - os: windows
   id:
+    lutris: deadzone-rogue
     steamExtra:
       - 3883890
       - 3897660
+      - 4208730
   installDir:
     Deadzone Rogue: {}
   launch:
@@ -180515,6 +180519,9 @@ Deadweight:
             store: steam
   steam:
     id: 3228590
+"Deadzone: Rogue 2":
+  steam:
+    id: 4465790
 "Dealer's Life":
   cloud:
     steam: true
@@ -661309,8 +661316,8 @@ Stairs:
   installDir:
     STALCRAFT: {}
   launch:
-    "<base>/sclauncher.exe":
-      - arguments: "bin_%REALM%/win64/java/bin/stalcraftw.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.client.Main --gameDir . --assetsDir ./assets"
+    "<base>/bin_global/win64/java/bin/ExensLauncher.exe":
+      - arguments: "-platform steam bin_%REALM%/win64/java/bin/stalcraftw.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
         when:
           - bit: 64
             os: windows
@@ -679445,8 +679452,28 @@ Subnautica 2:
   cloud:
     epic: true
     steam: true
+  files:
+    "<base>/Subnautica2/Saved/SaveGames/SharedGameSettings.sav":
+      when:
+        - store: steam
+    "<base>/Subnautica2/Saved/SaveGames/savegame_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Subnautica2/Saved/SaveGames/SharedGameSettings.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Subnautica2/Saved/SaveGames/savegame_*.sav":
+      when:
+        - store: steam
   id:
     lutris: subnautica-2
+  installDir:
+    Subnautica2: {}
+  launch:
+    "<base>/Subnautica2.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1962700
 "Subnautica: Below Zero":
@@ -693925,6 +693952,12 @@ Sword and Fairy 7:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Pal7/Saved/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   installDir:
     仙剑奇侠传七: {}
   launch:
@@ -735732,6 +735765,8 @@ The Legend of Viccess:
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
 "The Legend of Zelda: Twilight Princess (Dusk)":
+  alias: "The Legend of Zelda: Twilight Princess (Dusklight)"
+"The Legend of Zelda: Twilight Princess (Dusklight)":
   files:
     "<winAppData>/TwilitRealm/Dusk":
       tags:

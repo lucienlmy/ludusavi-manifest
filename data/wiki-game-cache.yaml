@@ -36383,6 +36383,8 @@ Call of the Elder Gods:
   steam: 2174380
   steamSide:
     - 4197180
+    - 4556550
+    - 4656660
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\COTEG\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\COTEG\\Saved\\SaveGames\\AppData.sav}}"
@@ -36668,7 +36670,6 @@ Candlelight:
 "Candleman: The Complete Journey":
   cloud:
     gog: true
-    steam: true
   gog: 1913602334
   gogSide:
     - 1088284979
@@ -58021,15 +58022,21 @@ Deadweight:
   steam: 385350
 "Deadzone: Rogue":
   cloud:
+    epic: true
     steam: true
+  lutris: deadzone-rogue
   pageId: 210255
   steam: 3228590
   steamSide:
     - 3883890
     - 3897660
+    - 4208730
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Valhalla\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Valhalla\\Saved\\SaveGames\\}}"
+"Deadzone: Rogue 2":
+  pageId: 216591
+  steam: 4465790
 Deal or No Deal:
   pageId: 90806
 "Deal or No Deal: Secret Vault Games":
@@ -138388,7 +138395,6 @@ Magicae Mundi:
   pageId: 114842
   steam: 949330
 Magical Bakery:
-  malformed: true
   pageId: 216011
   steam: 2595940
   steamSide:
@@ -206411,6 +206417,8 @@ Slingbot Survivors:
 Slinger VR:
   pageId: 62080
   steam: 609850
+Slingo:
+  pageId: 216593
 Slingray:
   pageId: 90382
   steam: 709730
@@ -224697,6 +224705,7 @@ Sword and Fairy 7:
   steam: 1543030
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Pal7\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\Pal7\\Saved\\Steam\\{{p|uid}}\\}}"
 Sword and Shield:
   pageId: 52866
   steam: 533990
@@ -238255,8 +238264,10 @@ The Legend of Viccess:
   templates:
     - "{{Game data/config|Windows|In-game settings:<br>{{P|game}}\\Save\\global.sav<br>Decomp settings:<br>{{P|game}}\\shipofharkinian.json}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save\\file*.sav}}"
-"The Legend of Zelda: Twilight Princess (Dusk)":
+"The Legend of Zelda: Twilight Princess (Dusklight)":
   pageId: 216508
+  renamedFrom:
+    - "The Legend of Zelda: Twilight Princess (Dusk)"
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
     - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusk}}"
