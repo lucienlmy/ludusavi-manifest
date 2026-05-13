@@ -43336,6 +43336,7 @@ Apez:
     id: 683210
 Aphelion:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/PIO/Saved":
@@ -43354,7 +43355,14 @@ Aphelion:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1561928791
   id:
+    gogExtra:
+      - 1508883440
+      - 1753914806
+      - 2011183752
+      - 2087490632
     lutris: aphelion--1
     steamExtra:
       - 4252750
@@ -216024,11 +216032,15 @@ Duck Season:
   steam:
     id: 503580
 Duck Season PC:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Stress Level Zero/DuckSeasonPC/**/*.dat":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: duck-season-pc
   installDir:
     DuckSeasonPC: {}
   launch:
@@ -735786,13 +735798,13 @@ The Legend of Viccess:
   alias: "The Legend of Zelda: Twilight Princess (Dusklight)"
 "The Legend of Zelda: Twilight Princess (Dusklight)":
   files:
-    "<winAppData>/TwilitRealm/Dusk":
+    "<winAppData>/TwilitRealm/Dusklight":
       tags:
         - config
         - save
       when:
         - os: windows
-    "<xdgData>/TwilitRealm/Dusk":
+    "<xdgData>/TwilitRealm/Dusklight":
       tags:
         - config
         - save
@@ -751139,6 +751151,9 @@ The Talos Principle 2:
             store: steam
   steam:
     id: 835960
+The Talos Principle 3:
+  steam:
+    id: 3703630
 The Talos Principle VR:
   cloud:
     steam: true

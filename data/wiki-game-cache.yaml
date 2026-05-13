@@ -13771,8 +13771,15 @@ Apez:
   steam: 683210
 Aphelion:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1561928791
+  gogSide:
+    - 1508883440
+    - 1753914806
+    - 2011183752
+    - 2087490632
   lutris: aphelion--1
   pageId: 205293
   steam: 1966410
@@ -69488,6 +69495,9 @@ Duck Season:
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Stress Level Zero\\Duck Season\\}}"
 Duck Season PC:
+  cloud:
+    steam: true
+  lutris: duck-season-pc
   pageId: 138845
   steam: 746510
 Duck Side of the Moon:
@@ -238282,12 +238292,12 @@ The Legend of Viccess:
   renamedFrom:
     - "The Legend of Zelda: Twilight Princess (Dusk)"
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
-    - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusk}}"
-    - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusk}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusk}}"
-    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusk}}"
-    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusk}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
 The Legend of the Dragonflame High School:
   pageId: 68394
   steam: 696910
@@ -243303,6 +243313,9 @@ The Talos Principle 2:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Talos2\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Talos2\\Saved\\SaveGames\\}}"
+The Talos Principle 3:
+  pageId: 216602
+  steam: 3703630
 The Talos Principle VR:
   cloud:
     steam: true
