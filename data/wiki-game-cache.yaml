@@ -200530,9 +200530,15 @@ Shadows of Cairn:
   pageId: 210504
 Shadows of Doubt:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1755185542
+  gogSide:
+    - 1132322340
+    - 1315036485
+    - 1563605244
+  lutris: shadows-of-doubt
   pageId: 139748
   steam: 986130
   steamSide:

@@ -618429,6 +618429,7 @@ Shadows of Adam:
     id: 506510
 Shadows of Doubt:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -618445,6 +618446,11 @@ Shadows of Doubt:
   gog:
     id: 1755185542
   id:
+    gogExtra:
+      - 1132322340
+      - 1315036485
+      - 1563605244
+    lutris: shadows-of-doubt
     steamExtra:
       - 2497620
       - 3229880
