@@ -52426,6 +52426,12 @@ Asphyxia:
       when:
         - os: windows
           store: uplay
+    "<root>/savegames/<storeUserId>/665":
+      tags:
+        - save
+      when:
+        - store: steam
+        - store: uplay
     "<winDocuments>/Assassin's Creed Freedom Cry/Assassin4.ini":
       tags:
         - config
@@ -290621,6 +290627,9 @@ Garfield Lasagna Party:
 "Garfield: Caught in the Act":
   id:
     lutris: garfield-caught-in-the-act
+"Garfield: Escape From Monday":
+  steam:
+    id: 3932790
 "Garfield: Saving Arlene":
   files:
     Game Directory/game.sav:
@@ -434156,6 +434165,9 @@ Marshmallow Melee:
     Marshmallow Melee: {}
   steam:
     id: 705100
+"Marsupilami 2: Salsa Palombia":
+  steam:
+    id: 3650170
 "Marsupilami: Hoobadventure":
   cloud:
     steam: true

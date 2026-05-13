@@ -567481,6 +567481,10 @@
           - Windows
         recursive: true
         root: WinAppDataLocalLow
+      - path: Ocellus/Marsupilami Hoobadventure/SerializedData
+        pattern: "*.bytes"
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: Marsupilami Hoobadventure
   launch:
     - config:
@@ -645121,6 +645125,7 @@
   nameLocalized:
     english: Stray Children
     japanese: ストレイチルドレン
+3650170: {}
 3653600:
   installDir: This Isnt Just Tower Defense
   launch:
@@ -647240,6 +647245,7 @@
     - executable: Marvel.exe
       type: default
 3932120: {}
+3932790: {}
 3932890:
   installDir: Escape from Tarkov
   launch:

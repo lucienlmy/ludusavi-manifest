@@ -16789,6 +16789,7 @@ Assassin 2015:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Freedom Cry\\Assassin4.ini|{{p|userprofile\\Documents}}\\Assassin's Creed Freedom Cry\\GFXSettings.*.xml}}"
     - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\664\\}}"
+    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\665\\}}"
 "Assassin's Creed: Liberation HD":
   lutris: assassins-creed-liberation
   pageId: 14074
@@ -93801,6 +93802,9 @@ Garfield Lasagna Party:
 "Garfield: Caught in the Act":
   lutris: garfield-caught-in-the-act
   pageId: 88455
+"Garfield: Escape From Monday":
+  pageId: 216596
+  steam: 3932790
 "Garfield: It's All about Phonics - Kindergarten":
   pageId: 90683
   renamedFrom:
@@ -140403,6 +140407,9 @@ Marshmallow Madness:
 Marshmallow Melee:
   pageId: 71762
   steam: 705100
+"Marsupilami 2: Salsa Palombia":
+  pageId: 216599
+  steam: 3650170
 "Marsupilami: Hoobadventure":
   cloud:
     steam: true
