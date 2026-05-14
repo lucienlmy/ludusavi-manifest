@@ -236912,6 +236912,11 @@ The Killing Antidote:
   lutris: the-killing-antidote
   pageId: 198283
   steam: 2254890
+  steamSide:
+    - 3274030
+    - 3761650
+    - 4350520
+    - 4350590
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TheKillingAntidote\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TheKillingAntidote\\}}"

@@ -732011,6 +732011,11 @@ The Killing Antidote:
         - os: windows
   id:
     lutris: the-killing-antidote
+    steamExtra:
+      - 3274030
+      - 3761650
+      - 4350520
+      - 4350590
   installDir:
     TheKillingAntidote: {}
   launch:
