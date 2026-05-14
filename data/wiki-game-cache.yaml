@@ -63448,6 +63448,9 @@ Directive 8020:
   lutris: directive-8020
   pageId: 197203
   steam: 2255370
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}/Directive8020/Saved/SaveGames/Option*.sav}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}/Directive8020/Saved/SaveGames/DP*.sav}}"
 Director of Football:
   gog: 1696173501
   pageId: 112056
@@ -196340,12 +196343,14 @@ Sapper Boom!:
   pageId: 42501
   steam: 497590
 Sapphire Safari:
+  cloud:
+    steam: true
   gog: 1804860967
   pageId: 190729
   steam: 1526900
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\GameOptions.sav|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Settings\\}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Sapphire.sav|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Sapphire_FogMap|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Sapphire_PhotoData.sav}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\GameOptions.sav|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Settings\\|{{P|localappdata}}\\SapphireSafari\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Sapphire.sav|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Sapphire_FogMap|{{P|localappdata}}\\SapphireSafari\\Saved\\SaveGames\\Sapphire_PhotoData.sav|{{P|localappdata}}\\SapphireSafari\\Saved\\Photos\\}}"
 Sapphire Yours:
   cloud:
     steam: true

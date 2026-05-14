@@ -197408,11 +197408,15 @@ Directive 8020:
     steam: true
   files:
     "<winLocalAppData>/Directive8020/Saved/SaveGames/DP*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/Directive8020/Saved/SaveGames/OptionSettings.sav":
+        - os: windows
+    "<winLocalAppData>/Directive8020/Saved/SaveGames/Option*.sav":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: directive-8020
   installDir:
@@ -605199,7 +605203,19 @@ Sapper Boom!:
   steam:
     id: 497590
 Sapphire Safari:
+  cloud:
+    steam: true
   files:
+    "<winLocalAppData>/SapphireSafari/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/SapphireSafari/Saved/Photos":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winLocalAppData>/SapphireSafari/Saved/SaveGames/GameOptions.sav":
       tags:
         - config
