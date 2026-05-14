@@ -86672,6 +86672,18 @@ Blades of Fire:
         - os: windows
   id:
     lutris: blades-of-fire
+    steamExtra:
+      - 4335780
+      - 4434940
+      - 4434950
+  installDir:
+    Project Iron: {}
+  launch:
+    "<base>/Bin/BladesOfFire.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2091020
 Blades of Gory:
@@ -145765,6 +145777,7 @@ Company of Heroes 3:
       - 3300460
       - 3469800
       - 4095900
+      - 4523380
   installDir:
     Company of Heroes 3: {}
   launch:
@@ -263806,8 +263819,6 @@ Final Fantasy VIII:
       tags:
         - config
 Final Fantasy VIII (2013):
-  cloud:
-    steam: true
   files:
     "<winDocuments>/Square Enix/FINAL FANTASY VIII Steam":
       tags:
@@ -274914,8 +274925,15 @@ Forgive Me Father 2:
   gog:
     id: 1807290517
   id:
+    gogExtra:
+      - 1260439339
+      - 1362070236
+      - 1750826485
     steamExtra:
       - 2530770
+      - 3297170
+      - 3297180
+      - 4110790
   installDir:
     Forgive Me Father 2: {}
   launch:
@@ -445764,6 +445782,7 @@ MetrixVR:
     id: 1022600
 Metro 2033:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/43110/remote/user.cfg":
@@ -445777,6 +445796,8 @@ Metro 2033:
         - save
       when:
         - os: windows
+  gog:
+    id: 1259935712
   id:
     steamExtra:
       - 43120
@@ -446114,6 +446135,7 @@ Metro Warp:
     id: 383540
 "Metro: Last Light":
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/<storeUserId>/user.cfg":
@@ -446146,6 +446168,8 @@ Metro Warp:
         - config
       when:
         - os: windows
+  gog:
+    id: 1855184473
   id:
     lutris: metro-last-light
   installDir:
@@ -462751,6 +462775,11 @@ Moss Destruction:
     Moss Book II: {}
   steam:
     id: 2059670
+"Moss: The Forgotten Relic":
+  cloud:
+    steam: true
+  steam:
+    id: 3914860
 Most Correct Football Simulator:
   installDir:
     Most Correct Football Simulator: {}
@@ -568812,11 +568841,20 @@ Recycle:
   steam:
     id: 1035960
 Recycling Center Simulator:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/BalasGames/rcsim/*.rcs":
+    "<home>/AppData/LocalLow/BalasGames/rcsim":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
+  id:
+    lutris: recycling-center-simulator
+    steamExtra:
+      - 2975280
+      - 4028400
   installDir:
     Recycling Center Simulator: {}
   launch:
@@ -679500,20 +679538,20 @@ Subnautica 2:
     epic: true
     steam: true
   files:
-    "<base>/Subnautica2/Saved/SaveGames/SharedGameSettings.sav":
+    "<winLocalAppData>/Subnautica2/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
-    "<base>/Subnautica2/Saved/SaveGames/savegame_*.sav":
+        - os: windows
+    "<winLocalAppData>/Subnautica2/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/Subnautica2/Saved/SaveGames/SharedGameSettings.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/Subnautica2/Saved/SaveGames/savegame_*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: subnautica-2
+    steamExtra:
+      - 3803320
   installDir:
     Subnautica2: {}
   launch:

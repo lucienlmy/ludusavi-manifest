@@ -424902,6 +424902,27 @@
         oslist: macos
       executable: spacehaven.app
       type: default
+    - arguments: modloader
+      config:
+        betakey: "test,play_with_mods"
+        oslist: windows
+      description: with mods
+      executable: spacehaven.exe
+      type: option1
+    - arguments: modloader
+      config:
+        betakey: "test,play_with_mods"
+        oslist: linux
+      description: with mods
+      executable: spacehaven
+      type: option1
+    - arguments: modloader
+      config:
+        betakey: "test,play_with_mods"
+        oslist: macos
+      description: with mods
+      executable: spacehaven.app
+      type: option1
 979120:
   cloud:
     saves:
@@ -602104,6 +602125,44 @@
     schinese: 热血物语SP
     tchinese: 熱血物語SP
 2091020:
+  cloud:
+    saves:
+      - path: "MercurySteam/Blades of Fire/{64BitSteamID}"
+        pattern: Profile.BoF
+        root: WinAppDataLocal
+  installDir: Project Iron
+  launch:
+    - config:
+        betakey: testing_bof
+        oslist: windows
+      description: Retail
+      executable: bin/bladesoffire.exe
+      type: option2
+    - arguments: "-cfg:\"cfg\\cases\\Milestones\\Production_gold_TESTING.cfg\""
+      config:
+        betakey: test
+        oslist: windows
+      description: MercurySteam - Release
+      executable: bin/game.exe
+      type: option1
+    - config:
+        betakey: test
+        oslist: windows
+      description: MercurySteam - Retail
+      executable: bin/bladesoffire.exe
+      type: option2
+    - arguments: "-cfg:\"cfg\\cases\\Milestones\\Production_gold_TESTING.cfg\""
+      config:
+        betakey: testing_bof
+        oslist: windows
+      description: Release
+      executable: bin/game.exe
+      type: option1
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Bin\\BladesOfFire.exe"
+      type: default
   nameLocalized:
     koreana: 블레이드 오브 파이어 Blades of Fire
     schinese: 《烈焰之刃》 Blades of Fire
@@ -647127,6 +647186,7 @@
         oslist: windows
       executable: PRIVETETONEBOLNO.exe
       type: default
+3914860: {}
 3915220:
   installDir: Love Too Easily 2
   launch:

@@ -28029,6 +28029,10 @@ Blades of Fire:
   lutris: blades-of-fire
   pageId: 202016
   steam: 2091020
+  steamSide:
+    - 4335780
+    - 4434940
+    - 4434950
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\|{{p|localappdata}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\|{{p|localappdata}}\\MercurySteam\\Blades of Fire\\{{P|uid}}\\}}"
@@ -46717,6 +46721,7 @@ Company of Heroes 3:
     - 3300460
     - 3469800
     - 4095900
+    - 4523380
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\configuration_system.lua|\n{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\users\\{{P|uid}}\\configuration_user.lua}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\users\\{{P|uid}}\\savegames\\}}"
@@ -85408,8 +85413,6 @@ Final Fantasy VIII:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Square Soft, Inc\\FINAL FANTASY VIII\\1.00}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Final Fantasy VIII (2013):
-  cloud:
-    steam: true
   lutris: final-fantasy-viii
   pageId: 13151
   steam: 39150
@@ -88845,10 +88848,17 @@ Forgive Me Father 2:
     gog: true
     steam: true
   gog: 1807290517
+  gogSide:
+    - 1260439339
+    - 1362070236
+    - 1750826485
   pageId: 190519
   steam: 2272250
   steamSide:
     - 2530770
+    - 3297170
+    - 3297180
+    - 4110790
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\FMF2\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\FMF2\\Saved\\SaveGames}}"
@@ -89462,6 +89472,8 @@ Forza Horizon 6:
     xbox: true
   pageId: 208900
   steam: 2483190
+  templates:
+    - "{{Game data/saves|Windows|%SystemDrive%\\XboxGames\\GameSave\\pgs\\u_<userID>_16D460\\<versionID>\\ContainersRoot\\User_<xboxProfileID>}}"
 Forza Motorsport:
   pageId: 162113
   steam: 2440510
@@ -144253,7 +144265,9 @@ MetrixVR:
   steam: 1022600
 Metro 2033:
   cloud:
+    gog: true
     steam: true
+  gog: 1259935712
   pageId: 720
   steam: 43110
   steamSide:
@@ -144387,7 +144401,9 @@ Metro Warp:
   steam: 383540
 "Metro: Last Light":
   cloud:
+    gog: true
     steam: true
+  gog: 1855184473
   lutris: metro-last-light
   pageId: 4547
   steam: 43160
@@ -149969,6 +149985,11 @@ Moss Destruction:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Moss2\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Moss2\\Saved\\SaveGames}}"
+"Moss: The Forgotten Relic":
+  cloud:
+    steam: true
+  pageId: 216614
+  steam: 3914860
 Most Correct Football Simulator:
   pageId: 136471
   steam: 1081710
@@ -184471,8 +184492,17 @@ Recycle:
   pageId: 132088
   steam: 1035960
 Recycling Center Simulator:
+  cloud:
+    steam: true
+  lutris: recycling-center-simulator
   pageId: 198801
   steam: 2928520
+  steamSide:
+    - 2975280
+    - 4028400
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\BalasGames\\rcsim}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\BalasGames\\rcsim}}"
 Recyclomania:
   pageId: 143932
   steam: 1139830
@@ -220217,6 +220247,11 @@ Subnautica 2:
   lutris: subnautica-2
   pageId: 198487
   steam: 1962700
+  steamSide:
+    - 3803320
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Subnautica2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Subnautica2\\Saved\\SaveGames\\}}"
 "Subnautica: Below Zero":
   cloud:
     steam: true
