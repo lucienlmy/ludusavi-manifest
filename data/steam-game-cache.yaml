@@ -585674,6 +585674,26 @@
         oslist: windows
       executable: "WindowsNoEditor\\SecurityBoothDC.exe"
       type: default
+1829270:
+  cloud:
+    saves:
+      - path: roadout_2022/default/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: RoadOut
+  launch:
+    - executable: RoadOut.exe
 1829470:
   installDir: "Melody's Escape 2"
   launch:

@@ -585240,6 +585240,29 @@ RoadCraft:
     RoadCraft: {}
   steam:
     id: 2104890
+RoadOut:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/roadout_2022/default/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<home>/roadout_2022/default/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/roadout_2022/default/*.sav":
+      when:
+        - store: steam
+  installDir:
+    RoadOut: {}
+  launch:
+    "<base>/RoadOut.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1829270
 RoadRunner:
   steam:
     id: 1097940

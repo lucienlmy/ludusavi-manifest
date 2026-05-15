@@ -189905,6 +189905,11 @@ RoadCraft:
     - "{{Game data/config|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\config\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\EOS\\user\\{{p|uid}}\\Main\\save\\}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Saber\\RoadCraftGame\\storage\\steam\\user\\{{p|uid}}\\Main\\save\\}}"
+RoadOut:
+  cloud:
+    steam: true
+  pageId: 216631
+  steam: 1829270
 RoadRunner:
   pageId: 138912
   steam: 1097940
