@@ -49632,6 +49632,7 @@ Arthur and the Invisibles:
   files:
     "<base>/SAVE":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -327311,6 +327312,11 @@ Hell Let Loose:
             store: steam
   steam:
     id: 686810
+"Hell Let Loose: Vietnam":
+  id:
+    lutris: hell-let-loose-vietnam
+  steam:
+    id: 3079210
 Hell Pie:
   cloud:
     gog: true
@@ -501420,6 +501426,10 @@ One More Roll:
   steam:
     id: 911520
 One Move Away:
+  id:
+    lutris: one-move-away
+    steamExtra:
+      - 3796410
   steam:
     id: 3172440
 One Must Fall 2097:
@@ -575699,11 +575709,6 @@ Resident Evil Requiem:
         - save
       when:
         - store: steam
-    "<winAppData>/GSE Saves/3764200/remote/win64_save":
-      tags:
-        - save
-      when:
-        - os: windows
   id:
     lutris: resident-evil-requiem
     steamExtra:
@@ -585328,6 +585333,8 @@ Roadside Assistance Simulator:
   steam:
     id: 302440
 Roadside Research:
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/CyberneticWalrus/Roadside Research/saves/CyberneticWalrus/Roadside Research/saves/*.sav":
       when:
@@ -585342,6 +585349,9 @@ Roadside Research:
           store: steam
   id:
     lutris: roadside-research
+    steamExtra:
+      - 3911570
+      - 3911640
   installDir:
     Roadside Research: {}
   launch:
@@ -653781,6 +653791,9 @@ Spark and The Digital Daydream:
   steam:
     id: 1065750
 Spark in the Dark:
+  cloud:
+    gog: true
+    steam: true
   gog:
     id: 1450374085
   id:
@@ -827604,10 +827617,21 @@ Whipseey and the Lost Atlas:
 Whirlight - No Time To Trip:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/imaginarylab/Whirlight":
+      when:
+        - store: steam
   id:
     lutris: whirlight-no-time-to-trip
     steamExtra:
       - 3001300
+  installDir:
+    Whirlight: {}
+  launch:
+    "<base>/Whirlight.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2706980
 Whirlpool:
@@ -830400,6 +830424,7 @@ Willy Morgan and the Curse of Bone Town:
   id:
     gogExtra:
       - 1466566692
+    lutris: willy-morgan
     steamExtra:
       - 1134590
   installDir:

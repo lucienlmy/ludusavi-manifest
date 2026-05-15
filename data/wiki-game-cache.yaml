@@ -15879,6 +15879,7 @@ Arthur and the Invisibles:
   lutris: arthur-and-the-invisibles
   pageId: 28989
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\SAVE}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE}}"
 Arthur and the Revenge of Maltazard:
   pageId: 172708
@@ -105836,6 +105837,12 @@ Hell Let Loose:
   steam: 686810
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\HLL\\Saved\\Config\\WindowsNoEditor}}"
+"Hell Let Loose: Vietnam":
+  cloud:
+    xbox: true
+  lutris: hell-let-loose-vietnam
+  pageId: 216625
+  steam: 3079210
 Hell Pie:
   cloud:
     gog: true
@@ -162681,8 +162688,11 @@ One More Roll:
   pageId: 121033
   steam: 911520
 One Move Away:
+  lutris: one-move-away
   pageId: 200135
   steam: 3172440
+  steamSide:
+    - 3796410
 One Must Fall 2097:
   pageId: 2292
   templates:
@@ -186743,7 +186753,6 @@ Resident Evil Requiem:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3764200\\remote\\win64_save\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\GSE Saves\\3764200\\remote\\win64_save}}"
 Resident Evil Resistance:
   cloud:
     steam: true
@@ -189930,10 +189939,14 @@ Roadside Assistance Simulator:
   steam: 302440
 Roadside Research:
   cloud:
+    steam: true
     xbox: true
   lutris: roadside-research
   pageId: 210464
   steam: 3643170
+  steamSide:
+    - 3911570
+    - 3911640
 Roadwarden:
   cloud:
     gog: true
@@ -211838,6 +211851,9 @@ Spark and The Digital Daydream:
   pageId: 134992
   steam: 1065750
 Spark in the Dark:
+  cloud:
+    gog: true
+    steam: true
   gog: 1450374085
   gogSide:
     - 1730707327
@@ -270314,6 +270330,7 @@ Willy Morgan and the Curse of Bone Town:
   gog: 1247772513
   gogSide:
     - 1466566692
+  lutris: willy-morgan
   pageId: 145417
   renamedFrom:
     - Willy Morgan

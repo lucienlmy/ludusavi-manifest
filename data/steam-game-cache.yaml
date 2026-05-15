@@ -628273,6 +628273,16 @@
       executable: "Hands of Necromancy II.app\\Contents\\MacOS\\handsofnecromancy2"
       type: default
 2706980:
+  cloud:
+    saves:
+      - path: imaginarylab/Whirlight
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Whirlight
+  launch:
+    - config:
+        oslist: windows
+      executable: Whirlight.exe
   nameLocalized:
     japanese: ワールライト・タイムリミット
     koreana: "훨라이트: 시공간을 넘은 여정"
@@ -636732,6 +636742,9 @@
   launch:
     - executable: motogp25.exe
 3079170: {}
+3079210:
+  nameLocalized:
+    schinese: "人间地狱：越南 "
 3080510:
   cloud:
     saves:
@@ -642014,6 +642027,8 @@
   installDir: Dead as Disco
   launch:
     - executable: Pagoda.exe
+  nameLocalized:
+    schinese: 亡命迪斯科
 3405340:
   cloud:
     saves:
