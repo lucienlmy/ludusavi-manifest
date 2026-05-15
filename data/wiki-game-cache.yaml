@@ -111101,6 +111101,8 @@ Hot Wheels World Race:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\Roaming\\Octane\\Hot Wheels™ World's Best Driver™\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Roaming\\Octane\\Hot Wheels™ World's Best Driver™\\}}"
+"Hot Wheels: Bash Arena":
+  pageId: 216635
 "Hot Wheels: Beat That!":
   lutris: hot-wheels-beat-that
   pageId: 146769
@@ -213303,6 +213305,8 @@ Spiritual Warfare:
   steam: 624550
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SPIRIT.SAV}}"
+Spirou:
+  pageId: 216637
 Spitkiss:
   pageId: 120917
   steam: 949770
@@ -245857,6 +245861,8 @@ Think of the Children:
 ThinkAhead:
   pageId: 63787
   steam: 655180
+ThinkTanks:
+  pageId: 216633
 "Thinkin' Things Collection 1":
   pageId: 201656
 "Thinkin' Things: All Around FrippleTown":
@@ -275462,8 +275468,8 @@ Yotsunoha:
 You Are Empty:
   pageId: 6712
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames}}"
 You Are God:
   pageId: 58176
   steam: 596280
