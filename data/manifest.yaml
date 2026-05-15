@@ -69684,6 +69684,12 @@ Batla:
         - save
       when:
         - store: steam
+    "<winLocalAppData>/Packages/WarnerBros.Interactive.7b0450f1-4a73-4eb9-b96a-e8f_ktmk1xygcecda/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1881970704
   id:
@@ -108174,6 +108180,8 @@ Bus Driver:
         - save
       when:
         - os: windows
+  id:
+    lutris: bus-driver
   installDir:
     Bus Driver: {}
   launch:
@@ -477363,6 +477371,12 @@ Naxia:
   steam:
     id: 1049220
 "Nayla's Castle":
+  files:
+    "<base>/Resources/save":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1686449631
   installDir:
@@ -526491,7 +526505,7 @@ Piece by Piece (Gamkat):
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Gamkat/Piece by Piece":
+    "<home>/AppData/LocalLow/Gamkat/Piece by Piece":
       tags:
         - config
         - save
@@ -588406,6 +588420,8 @@ Rogalik:
   steam:
     id: 843570
 "Rogan: The Thief in the Castle":
+  id:
+    lutris: rogan-the-thief-in-the-castle
   installDir:
     ROGAN: {}
   steam:
@@ -790644,6 +790660,16 @@ Ultimate Arena (Triverske):
     id: 757160
 Ultimate Beach Soccer:
   files:
+    "<base>/Keys.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/PBSConfig.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Save":
       tags:
         - save

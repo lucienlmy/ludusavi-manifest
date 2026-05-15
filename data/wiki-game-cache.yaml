@@ -22337,6 +22337,7 @@ Batman Returns:
     - 418930
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\BMGame\\Config\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\WarnerBros.Interactive.7b0450f1-4a73-4eb9-b96a-e8f_ktmk1xygcecda\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\BMGame\\SaveData\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\208650\\}}"
 "Batman: Arkham Origins":
@@ -34866,6 +34867,7 @@ Bus Controller Simulator:
   pageId: 135953
   steam: 1057610
 Bus Driver:
+  lutris: bus-driver
   pageId: 19166
   steam: 302080
   templates:
@@ -154699,6 +154701,8 @@ Naxia:
   gog: 1686449631
   pageId: 190593
   steam: 2097880
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Resources\\save\\}}"
 Nazi 2:
   pageId: 103141
   steam: 896180
@@ -170980,8 +170984,8 @@ Piece by Piece (Gamkat):
   steamSide:
     - 3468410
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Gamkat\\Piece by Piece\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Gamkat\\Piece by Piece\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Gamkat\\Piece by Piece\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Gamkat\\Piece by Piece\\}}"
 Piece by Piece (Neon Polygons):
   cloud:
     steam: true
@@ -190977,6 +190981,7 @@ Rogalik:
   pageId: 92700
   steam: 843570
 "Rogan: The Thief in the Castle":
+  lutris: rogan-the-thief-in-the-castle
   pageId: 139261
   steam: 966560
 "Roger Wilco's Spaced Out Game Pack":
@@ -257045,6 +257050,7 @@ Ultimate Arena (Triverske):
 Ultimate Beach Soccer:
   pageId: 205346
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\PBSConfig.ini|{{p|game}}\\Keys.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Ultimate Body Blows:
   gog: 1207659180
