@@ -91494,7 +91494,7 @@ Full Spectrum Warrior:
   pageId: 15617
   steam: 4530
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\FSW2}}"
 Full Strength Strongman Competition:
   pageId: 90739
@@ -164919,7 +164919,9 @@ Out of Space:
   steam: 400080
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Behold Studios\\Out of Space\\}}"
+    - "{{Game data/config|OS X|~/Library/Application Support/Behold Studios/Out of Space/}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Behold Studios\\Out of Space\\progression-data.oos}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/Behold Studios/Out of Space/}}"
 Out of Time:
   pageId: 150982
   steam: 1150260
@@ -177588,6 +177590,9 @@ Project RPG:
 "Project RTD : Random Tower Defense":
   pageId: 156772
   steam: 1207850
+Project Rabbit:
+  pageId: 216669
+  steam: 4683260
 Project Rampage VR:
   pageId: 91785
   steam: 808550

@@ -508353,6 +508353,12 @@ Out of Space:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/Behold Studios/Out of Space":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
   installDir:
     Out of Space: {}
   launch:
@@ -547253,6 +547259,9 @@ Project RPG:
             store: steam
   steam:
     id: 1207850
+Project Rabbit:
+  steam:
+    id: 4683260
 Project Rampage VR:
   installDir:
     Rampage VR: {}
