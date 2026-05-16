@@ -585631,6 +585631,11 @@
     schinese: 魔卡地下城
     tchinese: 地城魔法風雲
 1825250:
+  cloud:
+    saves:
+      - path: Kaseigai
+        pattern: memory.ksg
+        root: WinAppDataLocal
   installDir: "Touhou Lensed Night Sky, 果世外"
   launch:
     - executable: Kaseigai.exe
@@ -636988,6 +636993,35 @@
         oslist: windows
       executable: "Liar's Bar.exe"
       type: default
+3100370:
+  cloud:
+    saves:
+      - path: Mipumi Games/BlackJacket/
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: FRD
+  launch:
+    - config:
+        betakey: default
+      executable: BlackJacket.exe
+      type: default
+    - config:
+        betakey: playtest-external
+      executable: BlackJacket.exe
+    - config:
+        betakey: qualified-external
+      executable: BlackJacket.exe
+    - config:
+        betakey: main-nightly
+      executable: BlackJacket.exe
+    - config:
+        betakey: testing-external
+      executable: BlackJacket.exe
+  nameLocalized:
+    schinese: 地狱黑杰克 Black Jacket
+    tchinese: 地獄黑傑克 Black Jacket
 3101040:
   cloud:
     saves:

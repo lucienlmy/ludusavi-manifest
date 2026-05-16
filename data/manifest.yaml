@@ -84384,6 +84384,18 @@ Black Jack Story:
             store: steam
   steam:
     id: 831060
+Black Jacket:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Mipumi Games/BlackJacket/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    FRD: {}
+  steam:
+    id: 3100370
 Black Jewel:
   files:
     "<winAppData>/MMFApplications/blackjewel.ini":
@@ -276838,6 +276850,16 @@ Forza Horizon 6:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 4439260
+      - 4439280
+      - 4439300
+      - 4439750
+      - 4440380
+      - 4444140
+      - 4444150
+      - 4562050
   steam:
     id: 2483190
 Forza Motorsport:
@@ -773088,6 +773110,8 @@ Touhou La La Dui:
   steam:
     id: 2493340
 "Touhou Lensed Night Sky, Kaseigai":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Kaseigai":
       tags:

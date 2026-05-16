@@ -27247,6 +27247,12 @@ Black Island:
 Black Jack Story:
   pageId: 92119
   steam: 831060
+Black Jacket:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216664
+  steam: 3100370
 Black Jewel:
   pageId: 77618
   steam: 761320
@@ -89477,6 +89483,15 @@ Forza Horizon 6:
     xbox: true
   pageId: 208900
   steam: 2483190
+  steamSide:
+    - 4439260
+    - 4439280
+    - 4439300
+    - 4439750
+    - 4440380
+    - 4444140
+    - 4444150
+    - 4562050
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\}}"
     - "{{Game data/saves|Microsoft Store|%SystemDrive%\\XboxGames\\GameSave\\pgs\\u_<userID>_16D460\\<versionID>\\ContainersRoot\\User_<xboxProfileID>{{dubious|date=2026-05-16|reason=Path doesn't seem to match with other Forza games and Microsoft Store games generally save to %localappdata%}}}}"
@@ -250618,12 +250633,14 @@ Touhou La La Dui:
     - "{{Game data/config|Windows|{{p|game}}\\Settings.dat|{{p|hkcu}}\\Software\\SlimeSmile\\LaLaDui\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Score.dat| {{p|game}}\\Replay\\| {{p|game}}\\LaLaDui_Data\\ScreenShot\\}}"
 "Touhou Lensed Night Sky, Kaseigai":
+  cloud:
+    steam: true
   lutris: touhou-lensed-night-sky-kaseigai
   pageId: 206792
   steam: 1825250
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\\\Kaseigai\\memory.ksg}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\\\Kaseigai\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Kaseigai\\memory.ksg}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Kaseigai\\}}"
 Touhou Luna Nights:
   cloud:
     steam: true
@@ -262025,6 +262042,8 @@ Vermis Orbita:
   steam: 367010
 Versailles 1685:
   pageId: 145813
+"Versailles II: Testament of the King":
+  pageId: 216666
 Versus Game:
   cloud:
     steam: true
