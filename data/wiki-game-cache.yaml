@@ -89478,7 +89478,9 @@ Forza Horizon 6:
   pageId: 208900
   steam: 2483190
   templates:
-    - "{{Game data/saves|Windows|%SystemDrive%\\XboxGames\\GameSave\\pgs\\u_<userID>_16D460\\<versionID>\\ContainersRoot\\User_<xboxProfileID>}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\}}"
+    - "{{Game data/saves|Microsoft Store|%SystemDrive%\\XboxGames\\GameSave\\pgs\\u_<userID>_16D460\\<versionID>\\ContainersRoot\\User_<xboxProfileID>{{dubious|date=2026-05-16|reason=Path doesn't seem to match with other Forza games and Microsoft Store games generally save to %localappdata%}}}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\User_{{P|uid}}\\}}"
 Forza Motorsport:
   pageId: 162113
   steam: 2440510
@@ -91271,6 +91273,14 @@ Fruit couple:
 Fruit for the Village:
   pageId: 70238
   steam: 528930
+Fruitbus:
+  cloud:
+    steam: true
+  pageId: 216650
+  steam: 2484130
+  templates:
+    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\Krillbite\\Fruitbus\\|}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Krillbite\\Fruitbus\\|}}"
 Fruits Inc. Deluxe Pack:
   pageId: 48661
   steam: 349060
@@ -242639,6 +242649,14 @@ The Slater:
 The Slaughtering Grounds:
   pageId: 60407
   steam: 329950
+The Slaverian Trucker:
+  cloud:
+    steam: true
+  pageId: 216651
+  steam: 1822450
+  templates:
+    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\SawyerK Games\\The Slaverian Trucker\\|}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\SawyerK Games\\The Slaverian Trucker\\|}}"
 "The Slimeking's Tower":
   cloud:
     steam: true

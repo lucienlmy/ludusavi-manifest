@@ -276825,6 +276825,19 @@ Forza Horizon 5:
   steam:
     id: 1551360
 Forza Horizon 6:
+  files:
+    "<winLocalAppData>/ForzaHorizon6/LocalStorage_Shared":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/ForzaHorizon6/LocalStorage_Shared/User_<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 2483190
 Forza Motorsport:
@@ -282637,6 +282650,20 @@ Fruit for the Village:
     Fruitforthevillage: {}
   steam:
     id: 528930
+Fruitbus:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Krillbite/Fruitbus":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Fruitbus: {}
+  steam:
+    id: 2484130
 Fruits Inc. Deluxe Pack:
   installDir:
     Fruits Inc. Deluxe Pack: {}
@@ -749011,6 +749038,25 @@ The Slater:
 The Slaughtering Grounds:
   steam:
     id: 329950
+The Slaverian Trucker:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SawyerK Games/The Slaverian Trucker":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    The Wasteland Trucker: {}
+  launch:
+    "<base>/The Wasteland Trucker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1822450
 "The Slimeking's Tower":
   cloud:
     steam: true
@@ -830354,6 +830400,10 @@ Will to Live Online:
 "Will: Follow the Light":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/WillProject/Saved/SaveGames/*_SAV.sav":
+      when:
+        - store: steam
   id:
     lutris: will-follow-the-light
     steamExtra:

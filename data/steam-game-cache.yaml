@@ -585469,6 +585469,13 @@
     - config:
         oslist: windows
       executable: Hole in the Clouds.exe
+1822450:
+  installDir: The Wasteland Trucker
+  launch:
+    - config:
+        oslist: windows
+      executable: The Wasteland Trucker.exe
+      type: default
 1822560:
   cloud:
     saves:
@@ -620786,6 +620793,26 @@
         oslist: windows
       description: Launcher実行です
       executable: Launcher.exe
+2484130:
+  cloud:
+    saves:
+      - path: Krillbite/Fruitbus/Fruitbus Save Data
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Fruitbus
+  launch:
+    - config:
+        betakey: develop
+        oslist: windows
+      executable: Fruitbus.exe
+      type: default
+    - config:
+        betakey: no-ducks
+      executable: No Ducks.exe
+      type: default
 2485460:
   installDir: State of Survival
   launch:
@@ -637644,6 +637671,17 @@
       executable: ArcClient_ZK.exe
       type: default
 3144860:
+  cloud:
+    saves:
+      - path: WillProject/Saved/SaveGames
+        pattern: "*_SAV.sav"
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
   installDir: WILL
   launch:
     - config:
