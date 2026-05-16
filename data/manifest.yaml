@@ -117342,6 +117342,16 @@ Carnal Instinct:
         - save
       when:
         - os: windows
+    "C:/Users/USERNAME/AppData/Local/Carnal_Instinct_UE5/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "C:/Users/USERNAME/AppData/Local/Carnal_Instinct_UE5/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     CarnalInstinct: {}
   launch:
@@ -434658,6 +434668,9 @@ Marvel Rivals:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 4406010
   installDir:
     MarvelRivals: {}
   launch:
@@ -670159,23 +670172,41 @@ SteamWorld Dig 2:
     gog: true
     steam: true
   files:
-    /compatdata/571310/pfx/drive_c/users/steamuser/Documents/My Games/SteamWorld Dig 2/81844267:
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
-    "<home>/Library/Application Support/SteamWorld Dig 2/<storeUserId>":
+    "<home>/Library/Application Support/SteamWorld Dig 2/<storeUserId>/*.dat":
       tags:
         - save
       when:
         - os: mac
-    "<winDocuments>/My Games/SteamWorld Dig 2":
+    "<winDocuments>/My Games/SteamWorld Dig 2/*.cfg":
       tags:
         - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/SteamWorld Dig 2/*.dat":
+      tags:
         - save
       when:
         - os: windows
+    "<winDocuments>/My Games/SteamWorld Dig 2/*.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/SteamWorld Dig 2/*.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/SteamWorld Dig 2/*.dat":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/SteamWorld Dig 2/*.xml":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1861082507
   id:

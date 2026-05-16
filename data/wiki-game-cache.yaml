@@ -37801,7 +37801,9 @@ Carnal Instinct:
   pageId: 174786
   steam: 1495320
   templates:
+    - "{{Game data/config|Windows|C:\\Users\\USERNAME\\AppData\\Local\\Carnal_Instinct_UE5\\Saved\\Config}}"
     - "{{Game data/saves|Windows|C:\\Users\\USERNAME\\AppData\\Local\\Carnal_Instinct}}"
+    - "{{Game data/saves|Windows|C:\\Users\\USERNAME\\AppData\\Local\\Carnal_Instinct_UE5\\Saved\\SaveGames}}"
 "CarneyVale: Showtime":
   pageId: 89112
   templates:
@@ -140590,6 +140592,8 @@ Marvel Puzzle Quest:
 Marvel Rivals:
   pageId: 194000
   steam: 2767030
+  steamSide:
+    - 4406010
   templates:
     - "{{Game data/config|Windows\n|{{P|localappdata}}\\Marvel\\Saved\\Config\\Windows\\GameUserSettings.ini\n|{{P|localappdata}}\\Marvel\\Saved\\Saved\\Config\\MarvelUserSetting.ini\n|{{P|localappdata}}\\Marvel\\Saved\\Saved\\Config\\{id}\\MarvelUserSetting.ini\n|{{P|localappdata}}\\MarvelRivals_Launcher\\meta_info\n}}"
 Marvel Snap:
@@ -217136,11 +217140,11 @@ SteamWorld Dig 2:
   pageId: 64634
   steam: 571310
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\SteamWorld Dig 2\\}}"
-    - "{{Game data/config|Linux|/compatdata/571310/pfx/drive_c/users/steamuser/Documents/My Games/SteamWorld Dig 2/81844267/}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\SteamWorld Dig 2\\}}"
-    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/SteamWorld Dig 2/{{P|uid}}/|}}"
-    - "{{Game data/saves|Linux|/compatdata/571310/pfx/drive_c/users/steamuser/Documents/My Games/SteamWorld Dig 2/81844267/}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\SteamWorld Dig 2\\*.cfg|{{p|userprofile\\Documents}}\\My Games\\SteamWorld Dig 2\\*.xml}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/SteamWorld Dig 2/*.cfg|{{P|xdgdatahome}}/SteamWorld Dig 2/*.xml}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\SteamWorld Dig 2\\*.dat}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/SteamWorld Dig 2/{{P|uid}}/*.dat|}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SteamWorld Dig 2/*.dat}}"
 SteamWorld Heist:
   cloud:
     steam: true
