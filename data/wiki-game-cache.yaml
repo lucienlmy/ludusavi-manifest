@@ -7775,6 +7775,7 @@ Age of Wonders 4:
     - 1197286076
     - 1467390423
     - 1578247919
+    - 1592003664
     - 1611759997
     - 1642017911
     - 1677754007
@@ -68276,6 +68277,8 @@ Dream Jump Adventure:
 Dream Keeper:
   pageId: 141546
   steam: 1120970
+"Dream Land: Final Solution":
+  pageId: 216688
 Dream Manor:
   pageId: 112512
   steam: 934870
@@ -159388,9 +159391,11 @@ Nordenfelt:
 Nordhold:
   cloud:
     steam: true
+  lutris: nordhold
   pageId: 202756
   steam: 3028310
   steamSide:
+    - 3453980
     - 3453990
 "Nordic Ashes: Survivors of Ragnarok":
   cloud:
@@ -167333,6 +167338,7 @@ Panzer Corps 2:
     - 1545797396
     - 1561571432
     - 1679263411
+    - 1713547012
     - 1723047586
     - 1766183815
     - 1789656627
@@ -167362,6 +167368,7 @@ Panzer Corps 2:
     - 3508950
     - 3714230
     - 4093750
+    - 4193350
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Panzer Corps 2\\Saves}}"
 Panzer Doctrine:
@@ -214933,6 +214940,7 @@ Star Stuff:
   pageId: 201509
   steam: 1955110
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Animo Games Studio LLC\\Star Stuff\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Animo Games Studio LLC\\Star Stuff\\}}"
 Star Surveyor:
   pageId: 39550
@@ -257807,6 +257815,10 @@ Unbox the Room:
     steam: true
   pageId: 211536
   steam: 3017730
+Unboxing the Cryptic Killer:
+  lutris: unboxing-the-cryptic-killer
+  pageId: 216690
+  steam: 2069040
 Unbreakable Vr Runner:
   pageId: 42597
   steam: 494310

@@ -24779,6 +24779,7 @@ Age of Wonders 4:
       - 1197286076
       - 1467390423
       - 1578247919
+      - 1592003664
       - 1611759997
       - 1642017911
       - 1677754007
@@ -491294,7 +491295,9 @@ Nordhold:
   cloud:
     steam: true
   id:
+    lutris: nordhold
     steamExtra:
+      - 3453980
       - 3453990
   installDir:
     Nordhold: {}
@@ -515637,6 +515640,7 @@ Panzer Corps 2:
       - 1545797396
       - 1561571432
       - 1679263411
+      - 1713547012
       - 1723047586
       - 1766183815
       - 1789656627
@@ -515664,6 +515668,7 @@ Panzer Corps 2:
       - 3508950
       - 3714230
       - 4093750
+      - 4193350
   installDir:
     Panzer Corps 2: {}
   launch:
@@ -663286,6 +663291,10 @@ Star Stuff:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Animo Games Studio LLC/Star Stuff:
+      tags:
+        - config
   steam:
     id: 1955110
 Star Surveyor:
@@ -793087,6 +793096,22 @@ Unbox the Room:
           - store: steam
   steam:
     id: 3017730
+Unboxing the Cryptic Killer:
+  id:
+    lutris: unboxing-the-cryptic-killer
+  installDir:
+    Unboxing the Cryptic Killer: {}
+  launch:
+    "<base>/UnboxingTheCrypticKiller.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/UnboxingTheCrypticKiller.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2069040
 Unbreakable Vr Runner:
   installDir:
     Unbreakable Vr Runner: {}

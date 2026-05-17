@@ -600554,6 +600554,17 @@
       description: Launch the latest public release.
       executable: The Exile of Aphrodisia (2023).exe
 2068950: {}
+2069040:
+  installDir: Unboxing the Cryptic Killer
+  launch:
+    - config:
+        oslist: windows
+      executable: UnboxingTheCrypticKiller.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: UnboxingTheCrypticKiller.app
+      type: default
 2069110:
   installDir: I commissioned some bees 3
   launch:
