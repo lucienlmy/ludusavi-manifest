@@ -357290,6 +357290,8 @@ In Darkness:
   steam:
     id: 781680
 In Death:
+  id:
+    lutris: in-death
   installDir:
     InDeath: {}
   steam:
@@ -367622,9 +367624,16 @@ Is this Game Trying to Kill Me?:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/StatelySnail/IsThisGameTryingToKillMe/*.save":
+    "<home>/AppData/LocalLow/StatelySnail/IsThisGameTryingToKillMe/common.data":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/StatelySnail/IsThisGameTryingToKillMe/save_*.save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: is-this-game-trying-to-kill-me
   installDir:
@@ -442665,6 +442674,8 @@ Memory of Torenia 思念的夏堇花:
   steam:
     id: 1063200
 Memory of a Broken Dimension:
+  id:
+    lutris: memory-of-a-broken-dimension
   steam:
     id: 544300
 "Memory's Dogma CODE:01":
@@ -488377,6 +488388,30 @@ Nitro Family:
         - config
       when:
         - os: windows
+Nitro Gen Omega:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/Local/Overdrive/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/Local/Overdrive/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    NITROGENOMEGA: {}
+  launch:
+    "<base>/Overdrive.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2525510
 Nitro Racers:
   files:
     "<base>/NITRO-X.CFG":
@@ -735999,10 +736034,29 @@ The Legend of Viccess:
   alias: "The Legend of Zelda: Twilight Princess (Dusklight)"
 "The Legend of Zelda: Twilight Princess (Dusklight)":
   files:
-    "<winAppData>/TwilitRealm/Dusklight":
+    "<winAppData>/TwilitRealm/Dusklight/*.controller":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/TwilitRealm/Dusklight/EUR/Card A":
+      tags:
         - save
+      when:
+        - os: windows
+    "<winAppData>/TwilitRealm/Dusklight/USA/Card A":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/TwilitRealm/Dusklight/achievements.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/TwilitRealm/Dusklight/config.json":
+      tags:
+        - config
       when:
         - os: windows
     "<xdgData>/TwilitRealm/Dusklight":

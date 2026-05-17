@@ -622775,6 +622775,35 @@
     - config:
         oslist: windows
       executable: tomb456.exe
+2525510:
+  cloud:
+    saves:
+      - path: Overdrive/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: Overdrive/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: Overdrive/Saved/CustomPilots
+        pattern: "*.pilot"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: Epic/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgConfigHome
+  installDir: NITROGENOMEGA
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Overdrive.exe
+      type: default
+  nameLocalized:
+    schinese: 终末机兵
+    tchinese: 終末機兵
 2526200: {}
 2526310:
   cloud:

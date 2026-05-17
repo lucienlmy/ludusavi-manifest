@@ -115473,6 +115473,7 @@ In Darkness:
   pageId: 81077
   steam: 781680
 In Death:
+  lutris: in-death
   pageId: 79352
   steam: 605450
 In Defense of Aliens:
@@ -118773,6 +118774,9 @@ Is this Game Trying to Kill Me?:
   lutris: is-this-game-trying-to-kill-me
   pageId: 211734
   steam: 2658470
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\StatelySnail\\IsThisGameTryingToKillMe\\common.data}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\StatelySnail\\IsThisGameTryingToKillMe\\save_*.save}}"
 Is this Game Trying to Kill Me? Preface:
   pageId: 211732
   steam: 2875280
@@ -143201,6 +143205,7 @@ Memory of Torenia 思念的夏堇花:
   pageId: 136909
   steam: 1063200
 Memory of a Broken Dimension:
+  lutris: memory-of-a-broken-dimension
   pageId: 54457
   steam: 544300
 "Memory's Dogma CODE:01":
@@ -158393,6 +158398,14 @@ Nitro Family:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Scripts\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
+Nitro Gen Omega:
+  cloud:
+    steam: true
+  pageId: 216671
+  steam: 2525510
+  templates:
+    - "{{Game data/config|Windows| {{P|userprofile}}\\AppData\\Local\\Overdrive\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows| {{P|userprofile}}\\AppData\\Local\\Overdrive\\Saved\\SaveGames\\*.sav}}"
 Nitro Nation Drag & Drift:
   pageId: 172211
 Nitro Racers:
@@ -238402,10 +238415,10 @@ The Legend of Viccess:
   renamedFrom:
     - "The Legend of Zelda: Twilight Princess (Dusk)"
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\config.json|{{p|appdata}}\\TwilitRealm\\Dusklight\\*.controller}}"
     - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\EUR\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\USA\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\achievements.json}}"
     - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
 The Legend of the Dragonflame High School:
