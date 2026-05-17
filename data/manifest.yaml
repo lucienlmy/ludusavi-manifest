@@ -517147,6 +517147,34 @@ Parallax:
 Parallel Arena:
   steam:
     id: 889460
+Parallel Experiment:
+  files:
+    "<home>/.config/unity3d/Eleven Puzzles/Parallel Experiment/PESaves/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Eleven Puzzles/Parallel Experiment/PESaves/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Eleven Puzzles.Parallel Experiment.PESaves/*.save":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: parallel-experiment
+  installDir:
+    Parallel Experiment: {}
+  launch:
+    "<base>/Parallel Experiment.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Parallel Experiment.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2012320
 Parallel Pixel:
   installDir:
     parallel pixel: {}
@@ -533903,6 +533931,12 @@ Platfinity:
   steam:
     id: 365440
 Platform 8:
+  files:
+    "<winLocalAppData>/Platform8/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: platform-8
   installDir:
@@ -797568,6 +797602,22 @@ Unsighted:
         - config
   steam:
     id: 1062110
+Unsolved Case:
+  id:
+    lutris: unsolved-case
+  installDir:
+    Unsolved Case: {}
+  launch:
+    "<base>/Unsolved Case.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Unsolved Case.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2084050
 "Unsolved Mystery Club: Amelia Earhart":
   installDir:
     Unsolved Mystery Club Amelia Earhart: {}

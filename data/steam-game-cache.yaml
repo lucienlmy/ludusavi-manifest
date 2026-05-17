@@ -597827,6 +597827,37 @@
   installDir: Juicy Futa
   launch:
     - executable: JuicyFuta.exe
+2012320:
+  cloud:
+    saves:
+      - path: Eleven Puzzles/Parallel Experiment/PESaves
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Eleven Puzzles/Parallel Experiment/PESaves
+            replace: unity.Eleven Puzzles.Parallel Experiment.PESaves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Eleven Puzzles/Parallel Experiment/PESaves
+            replace: ".config/unity3d/Eleven Puzzles/Parallel Experiment/PESaves"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Parallel Experiment
+  launch:
+    - config:
+        oslist: windows
+      executable: Parallel Experiment.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Parallel Experiment.app
+      type: default
 2012510:
   installDir: Stormgate
   launch:
@@ -601583,6 +601614,17 @@
     japanese: 将軍 対決
     schinese: 将军 对决
     tchinese: 將軍 對決
+2084050:
+  installDir: Unsolved Case
+  launch:
+    - config:
+        oslist: windows
+      executable: Unsolved Case.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Unsolved Case.app
+      type: default
 2084070: {}
 2084110:
   installDir: Desktop Jumpscares

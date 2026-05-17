@@ -167849,6 +167849,10 @@ Parallax:
 Parallel Arena:
   pageId: 102715
   steam: 889460
+Parallel Experiment:
+  lutris: parallel-experiment
+  pageId: 216679
+  steam: 2012320
 Parallel Pixel:
   pageId: 99344
   steam: 865780
@@ -173423,6 +173427,8 @@ Platform 8:
   lutris: platform-8
   pageId: 206826
   steam: 2903560
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Platform8\\Saved\\SaveGames}}"
 Platform Builder:
   cloud:
     steam: true
@@ -259265,6 +259271,10 @@ Unsighted:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Studio Pixel Punk\\UNSIGHTED\\GlobalGameData.dat|{{P|hkcu}}\\Software\\Studio Pixel Punk\\UNSIGHTED\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Studio Pixel Punk\\UNSIGHTED\\GlobalGameData.dat}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HumbleBundle.UNSIGHTED_q2mcdwmzx4qja\\SystemAppData}}"
+Unsolved Case:
+  lutris: unsolved-case
+  pageId: 216685
+  steam: 2084050
 "Unsolved Mystery Club: Amelia Earhart":
   pageId: 144394
   steam: 1116890
