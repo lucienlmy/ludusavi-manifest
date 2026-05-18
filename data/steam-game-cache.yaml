@@ -1793,6 +1793,8 @@
       description: Launcher
       executable: launcher-x64.exe
       type: option1
+  nameLocalized:
+    schinese: 国王的恩赐：戎装公主
 3230:
   installDir: Genesis Rising
   launch:
@@ -4255,8 +4257,15 @@
   installDir: Death to Spies
   launch:
     - config:
+        osarch: "32"
         oslist: windows
-      executable: smersh.exe
+      executable: launcher-ia32.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
 9850:
   installDir: Codename Panzers Cold War
   launch:
@@ -7365,6 +7374,8 @@
       description: Launcher
       executable: launcher-x64.exe
       type: option1
+  nameLocalized:
+    schinese: 国王的恩赐：传奇
 25910:
   installDir: Supreme Ruler 2020
   launch:
@@ -8243,7 +8254,16 @@
 33540:
   installDir: Dawn of Magic II
   launch:
-    - executable: dawnofmagic2.exe
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 33570:
   installDir: Patrician III
   launch:
@@ -8571,8 +8591,16 @@
         root: WinMyDocuments
   installDir: Death to Spies Moment of Truth
   launch:
-    - description: Launch Game
-      executable: Truth.exe
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
 34420:
   cloud:
     saves:
@@ -10951,6 +10979,20 @@
         oslist: windows
       description: Configure
       executable: options.exe
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
+    - config:
+        betakey: internal
+        osarch: "32"
+        oslist: windows
+      description: Launcher
+      executable: launcher-ia32.exe
+      type: option2
 46350:
   cloud:
     saves:
@@ -10967,6 +11009,13 @@
       executable: config.exe
     - description: Launch Real Warfare Editor
       executable: editor.exe
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
 46360:
   cloud:
     saves:
@@ -11029,6 +11078,20 @@
         oslist: windows
       description: Configure
       executable: options.exe
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
+    - config:
+        betakey: internal
+        osarch: "32"
+        oslist: windows
+      description: Launcher
+      executable: launcher-ia32.exe
+      type: option2
 46370:
   cloud:
     saves:
@@ -11047,6 +11110,18 @@
   installDir: Rig n Roll
   launch:
     - executable: rungame.exe
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        betakey: internal
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 46380:
   cloud:
     saves:
@@ -12708,6 +12783,8 @@
       description: Launcher
       executable: launcher-x64.exe
       type: option1
+  nameLocalized:
+    schinese: 国王的恩赐：交错世界
 63940:
   cloud:
     saves:
@@ -16330,6 +16407,15 @@
         oslist: macos
       executable: "King's Bounty - Warriors of the North.app"
       type: default
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
+  nameLocalized:
+    schinese: 国王的恩赐：北方勇士
 203510:
   installDir: Fortune Summoners
   launch:
@@ -51997,9 +52083,15 @@
   installDir: AIM2
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: AIMII.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 289200:
   cloud:
     saves:
@@ -52033,9 +52125,17 @@
   installDir: BorderZone
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: BorderZone.exe
+      description: Launcher
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      description: Launcher
+      executable: launcher-ia32.exe
+      type: default
 289240:
   cloud:
     saves:
@@ -52048,13 +52148,20 @@
   installDir: PerimeterET
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: PerimeterET.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
     - config:
         oslist: windows
       description: Configure
       executable: Config.exe
+      type: option1
 289260:
   installDir: Dreamscapes The Sandman
   launch:
@@ -52192,9 +52299,15 @@
   installDir: Konung2
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: Konung2.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 289380:
   cloud:
     saves:
@@ -52206,9 +52319,15 @@
   installDir: Konung3
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: Konung3.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 289400:
   cloud:
     saves:
@@ -52221,9 +52340,15 @@
   installDir: Parkan2
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: Parkan2.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 289420:
   cloud:
     saves:
@@ -52242,9 +52367,15 @@
   installDir: PlanetAlcatraz
   launch:
     - config:
+        osarch: "32"
         oslist: windows
-      description: Launch
-      executable: Erasers.exe
+      executable: launcher-ia32.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
 289440:
   cloud:
     saves:
@@ -56444,11 +56575,18 @@
   installDir: E5
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: E5.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
     - description: Configure
       executable: E5Config.exe
+      type: option1
 296220:
   installDir: Farm Frenzy 4
   launch:
@@ -94316,9 +94454,15 @@
   installDir: DesertLaw
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: Game.exe
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
 356290:
   cloud:
     saves:
@@ -174323,8 +174467,9 @@
         root: WinAppDataLocalLow
   installDir: Haimrik
   launch:
-    - executable: Haimrik.exe
-      type: default
+    - description: Launcher
+      executable: launcher.exe
+      type: option1
 492200:
   installDir: CapRiders Euro Soccer
   launch:
@@ -177103,6 +177248,20 @@
         oslist: windows
       executable: Renoir.exe
       type: default
+    - config:
+        betakey: internal
+        osarch: "32"
+        oslist: windows
+      description: Launcher
+      executable: launcher-ia32.exe
+      type: option1
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
 496440:
   installDir: The Challenge
   launch:
@@ -192379,8 +192538,15 @@
   installDir: In Fear I Trust
   launch:
     - config:
+        osarch: "64"
         oslist: windows
-      executable: Binaries/Win32/IfitGame-Win32-Shipping.exe
+      description: Launcher
+      executable: Binaries/Win32/Launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: Binaries/Win32/Launcher-ia32.exe
       type: default
 522700:
   installDir: "The Final Days I'm Still Alive"
@@ -294461,7 +294627,7 @@
 714250:
   installDir: Eternity The Last Unicorn
   launch:
-    - executable: Eternity.exe
+    - executable: launcher.exe
       type: default
 714260: {}
 714280:
@@ -329525,7 +329691,7 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: Re-Legion.exe
+      executable: launcher.exe
       type: default
 782160:
   installDir: Raptainment
@@ -336631,16 +336797,22 @@
   installDir: Gift of Parthax
   launch:
     - config:
-        oslist: windows
-      executable: Gift of Parthax.exe
-      type: default
-    - config:
         oslist: macos
       executable: Gift of Parthax.app
       type: default
     - config:
         oslist: linux
       executable: Gift of Parthax.x86_64
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
       type: default
 795640:
   installDir: VINDICTA Arcade
@@ -409869,7 +410041,7 @@
   launch:
     - config:
         oslist: windows
-      executable: Secret Government.exe
+      executable: launcher.exe
       type: default
     - config:
         oslist: macos
@@ -443634,16 +443806,16 @@
   installDir: Conglomerate 451
   launch:
     - config:
-        oslist: windows
-      executable: Conglomerate 451.exe
-      type: default
-    - config:
         oslist: macos
       executable: Contents/MacOS/C451
       type: default
     - config:
         oslist: linux
       executable: Conglomerate451.x86_64
+      type: default
+    - config:
+        oslist: windows
+      executable: launcher.exe
       type: default
 1022740: {}
 1022770:
@@ -499375,7 +499547,12 @@
       executable: Challenging Dogfights.exe
       type: default
 1142010: {}
-1142050: {}
+1142050:
+  installDir: Deadhaus Sonata
+  launch:
+    - config:
+        oslist: windows
+      executable: DeadhausSonata.exe
 1142070:
   installDir: Paladin Slayer
   launch:
@@ -549573,8 +549750,8 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: Praest.exe
-      type: none
+      executable: launcher.exe
+      type: default
     - arguments: "-d3d11"
       config:
         osarch: "64"
@@ -552131,7 +552308,7 @@
   launch:
     - config:
         oslist: windows
-      executable: Reverie Knights Tactics.exe
+      executable: launcher.exe
       type: default
     - config:
         oslist: macos
@@ -552166,7 +552343,7 @@
   launch:
     - config:
         oslist: windows
-      executable: Kapital.exe
+      executable: launcher.exe
       type: default
     - config:
         oslist: macos
@@ -552267,9 +552444,8 @@
   installDir: "Lovecraft's Untold Stories 2"
   launch:
     - config:
-        osarch: "64"
         oslist: windows
-      executable: LUS2.exe
+      executable: launcher.exe
       type: default
 1401590:
   installDir: Disney Dreamlight Valley
@@ -562223,8 +562399,13 @@
   launch:
     - config:
         oslist: windows
-      executable: The Pegasus Expedition.exe
+      executable: launcher.exe
       type: default
+    - config:
+        betakey: internal
+      description: Internal
+      executable: The Pegasus Expedition.exe
+      type: option1
 1521160:
   cloud:
     saves:
@@ -585931,6 +586112,14 @@
         oslist: windows
       executable: GOODBYE_WORLD.exe
       type: default
+1834620:
+  installDir: ShoreVR
+  launch:
+    - arguments: "-popupwindow"
+      config:
+        oslist: windows
+      executable: ShoreVR.exe
+      type: vr
 1835240:
   cloud:
     saves:

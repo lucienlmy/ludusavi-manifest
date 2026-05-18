@@ -57742,6 +57742,7 @@ Deadfall Tropics:
   pageId: 93086
   steam: 842770
 Deadhaus Sonata:
+  lutris: deadhaus-sonata
   pageId: 151615
   steam: 1142050
 Deadhold:
@@ -209576,6 +209577,10 @@ Sorcerer Lord:
   gog: 2018345699
   pageId: 149438
   steam: 1150670
+"Sorcerer's Apprentice":
+  pageId: 216692
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
 "Sorcerer's Dream":
   pageId: 64258
   steam: 656220
@@ -242333,6 +242338,10 @@ The Shore:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Theisland\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Theisland\\Saved\\SaveGames\\}}"
+The Shore VR:
+  lutris: the-shore-vr
+  pageId: 216696
+  steam: 1834620
 The Short Story of a Drifting Labyrinth:
   pageId: 81087
   steam: 773910

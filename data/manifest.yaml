@@ -12711,9 +12711,15 @@ A.I.L.A:
   installDir:
     AIM2: {}
   launch:
-    "<base>/AIMII.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289180
@@ -96795,9 +96801,15 @@ BorderZone:
   installDir:
     BorderZone: {}
   launch:
-    "<base>/BorderZone.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289220
@@ -102482,13 +102494,16 @@ Brig 12:
   installDir:
     E5: {}
   launch:
-    "<base>/E5.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
             store: steam
-    "<base>/E5Config.exe":
+    "<base>/launcher-x64.exe":
       - when:
-          - store: steam
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 296210
 Brigador Killers:
@@ -146881,10 +146896,6 @@ Conglomerate 451:
   installDir:
     Conglomerate 451: {}
   launch:
-    "<base>/Conglomerate 451.exe":
-      - when:
-          - os: windows
-            store: steam
     "<base>/Conglomerate451.x86_64":
       - when:
           - os: linux
@@ -146892,6 +146903,10 @@ Conglomerate 451:
     "<base>/Contents/MacOS/C451":
       - when:
           - os: mac
+            store: steam
+    "<base>/launcher.exe":
+      - when:
+          - os: windows
             store: steam
   registry:
     HKEY_CURRENT_USER/Software/RuneHeads/Conglomerate 451:
@@ -175552,9 +175567,16 @@ Dawn of Magic 2:
   installDir:
     Dawn of Magic II: {}
   launch:
-    "<base>/dawnofmagic2.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - store: steam
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 33540
 Dawn of Man:
@@ -179526,6 +179548,15 @@ Deadfall Tropics:
   steam:
     id: 842770
 Deadhaus Sonata:
+  id:
+    lutris: deadhaus-sonata
+  installDir:
+    Deadhaus Sonata: {}
+  launch:
+    "<base>/DeadhausSonata.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1142050
 Deadhold:
@@ -182195,9 +182226,15 @@ Death to Spies:
   installDir:
     Death to Spies: {}
   launch:
-    "<base>/smersh.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 9800
@@ -182225,9 +182262,16 @@ Death to Spies:
   installDir:
     Death to Spies Moment of Truth: {}
   launch:
-    "<base>/Truth.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - store: steam
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 34410
 "Death's Door":
@@ -190421,9 +190465,15 @@ Desert Law:
   installDir:
     DesertLaw: {}
   launch:
-    "<base>/Game.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 356280
@@ -241975,7 +242025,7 @@ Eternity Warriors VR:
   installDir:
     Eternity The Last Unicorn: {}
   launch:
-    "<base>/Eternity.exe":
+    "<base>/launcher.exe":
       - when:
           - store: steam
   steam:
@@ -296707,13 +296757,19 @@ Gift of Parthax:
       - when:
           - os: mac
             store: steam
-    "<base>/Gift of Parthax.exe":
-      - when:
-          - os: windows
-            store: steam
     "<base>/Gift of Parthax.x86_64":
       - when:
           - os: linux
+            store: steam
+    "<base>/launcher-ia32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 795610
@@ -307247,14 +307303,14 @@ Graven:
   installDir:
     GRAVEN: {}
   launch:
-    "<base>/Praest.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
     "<base>/Praest/Binaries/Win64/Praest-Win64-Shipping.exe":
       - arguments: "-d3d11"
         when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/launcher.exe":
+      - when:
           - bit: 64
             os: windows
             store: steam
@@ -317384,10 +317440,6 @@ Haimrik:
     id: 1421848741
   installDir:
     Haimrik: {}
-  launch:
-    "<base>/Haimrik.exe":
-      - when:
-          - store: steam
   steam:
     id: 492180
 Hair of the Dog:
@@ -357375,9 +357427,15 @@ In Fear I Trust:
   installDir:
     In Fear I Trust: {}
   launch:
-    "<base>/Binaries/Win32/IfitGame-Win32-Shipping.exe":
+    "<base>/Binaries/Win32/Launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/Binaries/Win32/Launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 522690
@@ -380222,13 +380280,13 @@ Kapia:
       - when:
           - os: mac
             store: steam
-    "<base>/Kapital.exe":
-      - when:
-          - os: windows
-            store: steam
     "<base>/Kapital.x86_64":
       - when:
           - os: linux
+            store: steam
+    "<base>/launcher.exe":
+      - when:
+          - os: windows
             store: steam
   steam:
     id: 1399700
@@ -391228,9 +391286,15 @@ Kontrakt:
   installDir:
     Konung2: {}
   launch:
-    "<base>/Konung2.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289360
@@ -391251,9 +391315,15 @@ Kontrakt:
   installDir:
     Konung3: {}
   launch:
-    "<base>/Konung3.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289380
@@ -419055,10 +419125,9 @@ Lovecraft Tales:
   installDir:
     "Lovecraft's Untold Stories 2": {}
   launch:
-    "<base>/LUS2.exe":
+    "<base>/launcher.exe":
       - when:
-          - bit: 64
-            os: windows
+          - os: windows
             store: steam
   steam:
     id: 1401400
@@ -517854,9 +517923,15 @@ Parkan II:
   installDir:
     Parkan2: {}
   launch:
-    "<base>/Parkan2.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   registry:
     HKEY_CURRENT_USER/SOFTWARE/Nikita/ParkanII:
@@ -523173,13 +523248,15 @@ Perimeter:
   installDir:
     PerimeterET: {}
   launch:
-    "<base>/Config.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
             store: steam
-    "<base>/PerimeterET.exe":
+    "<base>/launcher-x64.exe":
       - when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
   steam:
     id: 289240
@@ -532164,9 +532241,15 @@ Planet Alcatraz:
   installDir:
     PlanetAlcatraz: {}
   launch:
-    "<base>/Erasers.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
   registry:
     HKEY_CURRENT_USER/Software/1C/Planet Alcatraz:
@@ -565719,7 +565802,7 @@ Re-Legion:
   installDir:
     Re-Legion: {}
   launch:
-    "<base>/Re-Legion.exe":
+    "<base>/launcher.exe":
       - when:
           - bit: 64
             os: windows
@@ -578861,13 +578944,13 @@ Reverie Knights Tactics:
       - when:
           - os: mac
             store: steam
-    "<base>/Reverie Knights Tactics.exe":
-      - when:
-          - os: windows
-            store: steam
     "<base>/Reverie Knights Tactics.x86_64":
       - when:
           - os: linux
+            store: steam
+    "<base>/launcher.exe":
+      - when:
+          - os: windows
             store: steam
   steam:
     id: 1399690
@@ -611335,14 +611418,14 @@ Secret Government:
       - when:
           - os: mac
             store: steam
-    "<base>/Secret Government.exe":
-      - when:
-          - os: windows
-            store: steam
     "<base>/Secret Government.x86_64":
       - when:
           - bit: 64
             os: linux
+            store: steam
+    "<base>/launcher.exe":
+      - when:
+          - os: windows
             store: steam
   steam:
     id: 946990
@@ -646787,6 +646870,13 @@ Sorcerer Lord:
             store: steam
   steam:
     id: 1150670
+"Sorcerer's Apprentice":
+  files:
+    "<base>/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 "Sorcerer's Dream":
   files:
     "<winDocuments>/My Games/Sorcerer's Dream/savedata/*.sav":
@@ -742803,7 +742893,7 @@ The Pegasus Expedition:
   installDir:
     The Pegasus Expedition: {}
   launch:
-    "<base>/The Pegasus Expedition.exe":
+    "<base>/launcher.exe":
       - when:
           - os: windows
             store: steam
@@ -748191,6 +748281,13 @@ The Shore:
             store: steam
   steam:
     id: 1297300
+The Shore VR:
+  id:
+    lutris: the-shore-vr
+  installDir:
+    ShoreVR: {}
+  steam:
+    id: 1834620
 The Short Story of a Drifting Labyrinth:
   installDir:
     The Short Story of a Drifting Labyrinth: {}

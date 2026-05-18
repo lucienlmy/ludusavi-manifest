@@ -27717,6 +27717,7 @@
 * [The Shenanigans of Cherry and Trix](https://www.pcgamingwiki.com/wiki/?curid=153822)
 * [The Shivah (Classic)](https://www.pcgamingwiki.com/wiki/?curid=195278)
 * [The Shopkeeper](https://www.pcgamingwiki.com/wiki/?curid=49464)
+* [The Shore VR](https://www.pcgamingwiki.com/wiki/?curid=216696)
 * [The Short Story of a Drifting Labyrinth](https://www.pcgamingwiki.com/wiki/?curid=81087)
 * [The Show](https://www.pcgamingwiki.com/wiki/?curid=195312)
 * [The Sibling Experiment](https://www.pcgamingwiki.com/wiki/?curid=95009)
