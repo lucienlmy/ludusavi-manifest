@@ -22687,6 +22687,11 @@ Afterimage:
         - save
       when:
         - os: windows
+  id:
+    lutris: afterimage
+    steamExtra:
+      - 2389750
+      - 2389760
   installDir:
     Afterimage: {}
   launch:
@@ -59645,13 +59650,11 @@ Awaken - Astral Blade:
         - save
       when:
         - os: windows
-  installDir:
-    AWAKEN - Astral Blade: {}
-  launch:
-    "<base>/Awaken.exe":
-      - when:
-          - os: windows
-            store: steam
+  id:
+    steamExtra:
+      - 3266670
+      - 3268980
+      - 3269010
   steam:
     id: 1716310
 "Awaken: Gunpowder Adventurer Day.Dream":
@@ -94485,6 +94488,7 @@ Bomb Rush Cyberfunk:
     lutris: bomb-rush-cyberfunk
     steamExtra:
       - 2518220
+      - 2537200
   installDir:
     BombRushCyberfunk: {}
   launch:
@@ -592075,6 +592079,10 @@ Root Letter:
   steam:
     id: 550310
 Roots of Insanity:
+  id:
+    lutris: roots-of-insanity
+    steamExtra:
+      - 1550930
   installDir:
     Roots of Insanity: {}
   launch:
@@ -736173,6 +736181,11 @@ The Legend of Viccess:
       when:
         - os: windows
     "<winAppData>/TwilitRealm/Dusklight/EUR/Card A":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/TwilitRealm/Dusklight/MemoryCardA.*.raw":
       tags:
         - save
       when:

@@ -578330,24 +578330,8 @@
   nameLocalized:
     japanese: モンスターファーム１＆２ DX
 1716310:
-  cloud:
-    saves:
-      - path: DarkPigeonGames/AWAKEN - Astral Blade/GameSave
-        pattern: "*.dat"
-        root: WinAppDataLocalLow
-      - path: DarkPigeonGames/AWAKEN - Astral Blade/GameSave
-        pattern: "*.sav"
-        platforms:
-          - MacOS
-        root: MacHome
-  installDir: AWAKEN - Astral Blade
-  launch:
-    - config:
-        oslist: windows
-      executable: Awaken.exe
   nameLocalized:
     english: AWAKEN - Astral Blade
-    sc_schinese: 觉醒异刃
     schinese: 觉醒异刃
     tchinese: 覺醒異刃
 1716740:

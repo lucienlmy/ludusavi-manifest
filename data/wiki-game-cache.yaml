@@ -7155,8 +7155,12 @@ Aftergrinder:
 Afterimage:
   cloud:
     steam: true
+  lutris: afterimage
   pageId: 173616
   steam: 1701520
+  steamSide:
+    - 2389750
+    - 2389760
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Afterimage\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Afterimage\\Saved\\SaveGames\\}}"
@@ -19205,6 +19209,10 @@ Awaken - Astral Blade:
     steam: true
   pageId: 198619
   steam: 1716310
+  steamSide:
+    - 3266670
+    - 3268980
+    - 3269010
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\DarkPigeonGames\\AWAKEN - Astral Blade\\GameSave\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DarkPigeonGames\\AWAKEN - Astral Blade\\GameSave\\}}"
@@ -30555,6 +30563,7 @@ Bomb Rush Cyberfunk:
   steam: 1353230
   steamSide:
     - 2518220
+    - 2537200
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Team Reptile\\Bomb Rush Cyberfunk\\}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile\\appdata\\locallow}}\\Team Reptile\\Bomb Rush Cyberfunk\\}}"
@@ -75152,6 +75161,8 @@ Empire of Ember:
     steam: true
   pageId: 177788
   steam: 980640
+Empire of Magic:
+  pageId: 216698
 Empire of Sin:
   cloud:
     steam: true
@@ -180940,6 +180951,8 @@ RC Daredevil:
 RC Fun City:
   pageId: 78573
   steam: 758120
+"RC Helicopter: Indoor Flight Simulation":
+  pageId: 216700
 RC Mini Racers:
   pageId: 47245
   steam: 311820
@@ -192101,8 +192114,11 @@ Root Letter:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\EastFog\\Root Of Evil :The Tailor}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\EastFog\\Root Of Evil _The Tailor\\The_Tailor.txt}}"
 Roots of Insanity:
+  lutris: roots-of-insanity
   pageId: 58846
   steam: 598440
+  steamSide:
+    - 1550930
 Roots of Pacha:
   cloud:
     steam: true
@@ -238439,7 +238455,7 @@ The Legend of Viccess:
     - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\config.json|{{p|appdata}}\\TwilitRealm\\Dusklight\\*.controller}}"
     - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\EUR\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\USA\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\achievements.json}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\EUR\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\USA\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\MemoryCardA.*.raw|{{p|appdata}}\\TwilitRealm\\Dusklight\\achievements.json}}"
     - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
 The Legend of the Dragonflame High School:
