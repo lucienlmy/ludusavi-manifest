@@ -79971,23 +79971,32 @@
   installDir: Pilot Brothers 2
   launch:
     - config:
+        osarch: "32"
         oslist: windows
       description: Launch
-      executable: bin/Pilot Brothers.exe
+      executable: bin/Launcher-ia32.exe
+      type: default
       workingdir: bin
     - config:
-        betakey: internal
         osarch: "64"
         oslist: windows
-      description: Launcher
       executable: bin/Launcher-x64.exe
-      type: option1
+      type: default
       workingdir: bin
 336780:
   installDir: Pilot Brothers 3 Back Side of the Earth
   launch:
-    - description: Launch
-      executable: bin/Pilot Brothers.exe
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: bin/Launcher-ia32.exe
+      type: default
+      workingdir: bin
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: bin/Launcher-x64.exe
+      type: default
       workingdir: bin
 336790:
   installDir: KWAAN
@@ -326924,7 +326933,15 @@
 776930:
   installDir: Omnibion War
   launch:
-    - executable: Omnibion_war.exe
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
       type: default
 776960:
   installDir: Mouse (Sneaking)
@@ -649121,6 +649138,9 @@
 4414560: {}
 4418080: {}
 4434610: {}
+4459850:
+  nameLocalized:
+    english: NAMCO LEGENDARY Mountains
 4460170:
   cloud:
     saves:

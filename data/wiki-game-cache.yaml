@@ -22345,7 +22345,7 @@ Batman Returns:
     - 415650
     - 418930
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\BMGame\\Config\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\BMGame\\Config\\|{{p|userprofile\\Documents}}\\WB Games\\Batman Arkham Knight\\GFXSettings.BatmanArkhamKnight.xml}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\WarnerBros.Interactive.7b0450f1-4a73-4eb9-b96a-e8f_ktmk1xygcecda\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\BMGame\\SaveData\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\208650\\}}"
@@ -66903,6 +66903,8 @@ Dracula Awakens:
     steam: true
   pageId: 194651
   steam: 2634470
+Dracula Twins:
+  pageId: 216705
 Dracula Unleashed:
   pageId: 209040
 "Dracula's Legacy":
@@ -150269,6 +150271,7 @@ MotoGP 23:
 MotoGP 24:
   cloud:
     steam: true
+    xbox: true
   pageId: 194423
   steam: 2581700
 MotoGP 25:
@@ -154029,6 +154032,11 @@ Naklua VR:
 Namaste Virtual Yoga Retreat:
   pageId: 79716
   steam: 762130
+Namco Legendary Mountains:
+  cloud:
+    steam: true
+  pageId: 216707
+  steam: 4459850
 Namco Museum 50th Anniversary:
   pageId: 145672
   templates:
@@ -238454,10 +238462,10 @@ The Legend of Viccess:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\config.json|{{p|appdata}}\\TwilitRealm\\Dusklight\\*.controller}}"
     - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
-    - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight/config.json|{{p|xdgdatahome}}/TwilitRealm/Dusklight/*.controller}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\TwilitRealm\\Dusklight\\EUR\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\USA\\Card A\\|{{p|appdata}}\\TwilitRealm\\Dusklight\\MemoryCardA.*.raw|{{p|appdata}}\\TwilitRealm\\Dusklight\\achievements.json}}"
     - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/TwilitRealm/Dusklight}}"
-    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/TwilitRealm/Dusklight/EUR/Card A/|{{p|xdgdatahome}}/TwilitRealm/Dusklight/USA/Card A/|{{p|xdgdatahome}}/TwilitRealm/Dusklight/MemoryCardA.*.raw|{{p|xdgdatahome}}/TwilitRealm/Dusklight/achievements.json}}"
 The Legend of the Dragonflame High School:
   pageId: 68394
   steam: 696910

@@ -69694,6 +69694,11 @@ Batla:
         - save
       when:
         - store: steam
+    "<winDocuments>/WB Games/Batman Arkham Knight/GFXSettings.BatmanArkhamKnight.xml":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Packages/WarnerBros.Interactive.7b0450f1-4a73-4eb9-b96a-e8f_ktmk1xygcecda/SystemAppData/wgs":
       tags:
         - save
@@ -475172,6 +475177,11 @@ Namaste Virtual Yoga Retreat:
     Namaste Virtual Yoga Retreat: {}
   steam:
     id: 762130
+Namco Legendary Mountains:
+  cloud:
+    steam: true
+  steam:
+    id: 4459850
 Namco Museum 50th Anniversary:
   files:
     "<base>/config/scores.dat":
@@ -499994,9 +500004,16 @@ Omnibion War:
   installDir:
     Omnibion War: {}
   launch:
-    "<base>/Omnibion_war.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - store: steam
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 776930
 Omnicube:
@@ -527569,9 +527586,16 @@ Pilot Brothers 2:
   installDir:
     Pilot Brothers 2: {}
   launch:
-    "<base>/bin/Pilot Brothers.exe":
+    "<base>/bin/Launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+        workingDir: "<base>/bin"
+    "<base>/bin/Launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
         workingDir: "<base>/bin"
   steam:
@@ -527582,9 +527606,17 @@ Pilot Brothers 2:
   installDir:
     Pilot Brothers 3 Back Side of the Earth: {}
   launch:
-    "<base>/bin/Pilot Brothers.exe":
+    "<base>/bin/Launcher-ia32.exe":
       - when:
-          - store: steam
+          - bit: 32
+            os: windows
+            store: steam
+        workingDir: "<base>/bin"
+    "<base>/bin/Launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
         workingDir: "<base>/bin"
   steam:
     id: 336780
@@ -736205,10 +736237,34 @@ The Legend of Viccess:
         - config
       when:
         - os: windows
-    "<xdgData>/TwilitRealm/Dusklight":
+    "<xdgData>/TwilitRealm/Dusklight/*.controller":
       tags:
         - config
+      when:
+        - os: linux
+    "<xdgData>/TwilitRealm/Dusklight/EUR/Card A":
+      tags:
         - save
+      when:
+        - os: linux
+    "<xdgData>/TwilitRealm/Dusklight/MemoryCardA.*.raw":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/TwilitRealm/Dusklight/USA/Card A":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/TwilitRealm/Dusklight/achievements.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/TwilitRealm/Dusklight/config.json":
+      tags:
+        - config
       when:
         - os: linux
 The Legend of the Dragonflame High School:
