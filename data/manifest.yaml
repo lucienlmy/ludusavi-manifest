@@ -573289,6 +573289,9 @@ Relooted:
           store: steam
   id:
     lutris: relooted
+    steamExtra:
+      - 3972400
+      - 4270920
   installDir:
     Relooted: {}
   launch:
