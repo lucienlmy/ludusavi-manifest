@@ -22266,7 +22266,7 @@ Batman Returns:
   gog: 1482504285
   lutris: batman-arkham-asylum-goty-edition
   pageId: 638
-  steam: 35140
+  steam: 35010
   steamSide:
     - 35020
     - 35060
@@ -49006,6 +49006,9 @@ Cows VS Vikings:
     steam: true
   pageId: 122197
   steam: 854860
+Cozy Game Restoration:
+  pageId: 216715
+  steam: 3581230
 Cozy Grove:
   cloud:
     epic: true
@@ -119228,6 +119231,16 @@ It Moves:
 It Pays To Be A Winner:
   pageId: 149513
   steam: 1114990
+It Reaches:
+  cloud:
+    steam: true
+  lutris: it-reaches
+  pageId: 216719
+  steam: 4119360
+  steamSide:
+    - 4119380
+    - 4705830
+    - 4705840
 It Runs Red:
   pageId: 134556
   steam: 1068980
@@ -242752,8 +242765,8 @@ The Slaverian Trucker:
   pageId: 216651
   steam: 1822450
   templates:
-    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\SawyerK Games\\The Slaverian Trucker\\|}}"
-    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\SawyerK Games\\The Slaverian Trucker\\|}}"
+    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\Budai\\The Wasteland Trucker\\|}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Budai\\The Wasteland Trucker\\|}}"
 "The Slimeking's Tower":
   cloud:
     steam: true
@@ -246661,6 +246674,8 @@ Thunder Tier One:
   steam: 377300
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Thunder2305\\Saved\\}}"
+Thunder Truck Rally:
+  pageId: 216717
 Thunder Wolves:
   lutris: thunder-wolves
   pageId: 38327
@@ -249796,6 +249811,8 @@ Toree Saturn:
   lutris: toree-saturn
   pageId: 198216
   steam: 2549240
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Siactro\\Toree_Saturn}}"
 Toren:
   cloud:
     steam: true
@@ -271438,6 +271455,10 @@ With Loneliness:
 "Withering Kingdom: Flurry of Arrows":
   pageId: 36706
   steam: 516230
+Withering Realms:
+  lutris: withering-realms
+  pageId: 216713
+  steam: 3441990
 Withering Rooms:
   cloud:
     steam: true

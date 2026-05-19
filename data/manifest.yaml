@@ -69615,20 +69615,16 @@ Batla:
     steamExtra:
       - 35020
       - 35060
+      - 35140
   installDir:
-    Batman Arkham Asylum GOTY: {}
+    Batman Arkham Asylum: {}
   launch:
-    "<base>/Batman Arkham Asylum GOTY.app":
-      - when:
-          - os: mac
-            store: steam
     "<base>/Binaries/BmLauncher.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
         workingDir: "<base>/Binaries"
   steam:
-    id: 35140
+    id: 35010
 "Batman: Arkham City":
   cloud:
     gog: true
@@ -152911,6 +152907,9 @@ Cows VS Vikings:
             store: steam
   steam:
     id: 854860
+Cozy Game Restoration:
+  steam:
+    id: 3581230
 Cozy Grove:
   cloud:
     epic: true
@@ -276938,6 +276937,14 @@ Forza Horizon 6:
       - 4444140
       - 4444150
       - 4562050
+  installDir:
+    ForzaHorizon6: {}
+  launch:
+    "<base>/forzahorizon6.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2483190
 Forza Motorsport:
@@ -369200,6 +369207,27 @@ It Pays To Be A Winner:
             store: steam
   steam:
     id: 1114990
+It Reaches:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ItReaches/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: it-reaches
+    steamExtra:
+      - 4119380
+      - 4705830
+      - 4705840
+  installDir:
+    It Reaches: {}
+  launch:
+    "<base>/ItReaches.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4119360
 It Runs Red:
   installDir:
     It Runs Red: {}
@@ -749405,7 +749433,7 @@ The Slaverian Trucker:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/SawyerK Games/The Slaverian Trucker":
+    "<home>/AppData/LocalLow/Budai/The Wasteland Trucker":
       tags:
         - config
         - save
@@ -770879,6 +770907,12 @@ Toree 3D:
   steam:
     id: 1554840
 Toree Saturn:
+  files:
+    "<home>/AppData/LocalLow/Siactro/Toree_Saturn":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: toree-saturn
   installDir:
@@ -833930,6 +833964,11 @@ With Loneliness:
 "Withering Kingdom: Flurry of Arrows":
   steam:
     id: 516230
+Withering Realms:
+  id:
+    lutris: withering-realms
+  steam:
+    id: 3441990
 Withering Rooms:
   cloud:
     steam: true

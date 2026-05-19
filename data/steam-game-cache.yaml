@@ -621047,6 +621047,34 @@
     schinese: "小小梦魇VR: 异境回响"
     tchinese: "小小夢魘VR: 異境迴響"
 2483190:
+  installDir: ForzaHorizon6
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: forzahorizon6.exe
+      type: default
+    - config:
+        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install"
+        osarch: "64"
+        oslist: windows
+      description: Forte Profile
+      executable: forza_x64_profile.exe
+      type: option1
+    - config:
+        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install"
+        osarch: "64"
+        oslist: windows
+      description: Forte Release
+      executable: forza_x64_release.exe
+      type: option2
+    - config:
+        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install"
+        osarch: "64"
+        oslist: windows
+      description: Forte Release Final
+      executable: forza_x64_release_final.exe
+      type: option3
   nameLocalized:
     schinese: 极限竞速：地平线 6
 2484110:
@@ -642806,6 +642834,7 @@
       executable: CheatersCheetah.exe
 3440070: {}
 3440200: {}
+3441990: {}
 3444480:
   cloud:
     saves:
@@ -644607,6 +644636,7 @@
   launch:
     - executable: ArthurSC.exe
       type: default
+3581230: {}
 3582980:
   cloud:
     saves:
@@ -648405,6 +648435,16 @@
   nameLocalized:
     schinese: 影之刃零
     tchinese: 影之刃零
+4119360:
+  cloud:
+    saves:
+      - path: ItReaches/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: It Reaches
+  launch:
+    - executable: ItReaches.exe
 4120310:
   nameLocalized:
     english: 70s-style Robot Anime Geppy-X
