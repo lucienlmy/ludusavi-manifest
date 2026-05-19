@@ -37332,6 +37332,11 @@ Ancestors Legacy:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/com.vpltd.ancestorslegacy":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winDocuments>/AncestorsLegacy/SaveGames":
       tags:
         - save
@@ -37348,10 +37353,13 @@ Ancestors Legacy:
     id: 1848455842
   id:
     gogExtra:
+      - 1093926826
       - 1338520897
+      - 1371802621
       - 1774090337
       - 1797616458
       - 1855776856
+      - 1951593802
       - 2117158635
     lutris: ancestors-legacy
     steamExtra:
@@ -37367,6 +37375,10 @@ Ancestors Legacy:
         when:
           - bit: 64
             os: windows
+            store: steam
+    "<base>/AncestorsLegacy.app":
+      - when:
+          - os: mac
             store: steam
   steam:
     id: 620590
@@ -149565,9 +149577,11 @@ Copycat (2024):
   cloud:
     steam: true
   files:
-    "<base>/Copycat_Data/saves/*.json":
+    "<base>/Copycat_Data/saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     steamExtra:
       - 3185120
@@ -149582,6 +149596,10 @@ Copycat (2024):
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Spoonful of Wonder/Copycat:
+      tags:
+        - config
   steam:
     id: 1622350
 Coral Island:
@@ -289559,6 +289577,7 @@ Game of Thrones Winter is Coming:
       - 3477690
       - 3508440
       - 3516830
+      - 4214820
   installDir:
     Game of Thrones Kingsroad: {}
   launch:
@@ -402645,6 +402664,8 @@ Lego Alpha Team:
   steam:
     id: 313690
 "Lego Batman: Legacy of the Dark Knight":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames/steam/<storeUserId>/*.sav":
       when:
@@ -690927,6 +690948,7 @@ Supreme Commander:
 Supreme Commander 2:
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/My Games/SquareEnix/Supreme Commander 2/savegames":
       tags:

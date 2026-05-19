@@ -11935,10 +11935,13 @@ Ancestors Legacy:
     steam: true
   gog: 1848455842
   gogSide:
+    - 1093926826
     - 1338520897
+    - 1371802621
     - 1774090337
     - 1797616458
     - 1855776856
+    - 1951593802
     - 2117158635
   lutris: ancestors-legacy
   pageId: 62203
@@ -11953,6 +11956,7 @@ Ancestors Legacy:
     - "{{Game data/config|Windows|{{P|game}}\\Anc\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\AncestorsLegacy\\SaveGames\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Anc\\Savegames\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.vpltd.ancestorslegacy}}"
 "Ancestors: The Humankind Odyssey":
   cloud:
     epic: true
@@ -47939,6 +47943,9 @@ Copycat (2024):
   steam: 1622350
   steamSide:
     - 3185120
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Spoonful of Wonder\\Copycat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Copycat_Data\\saves}}"
 Coral Island:
   cloud:
     steam: true
@@ -93463,6 +93470,7 @@ Game of Thrones:
     - 3477690
     - 3508440
     - 3516830
+    - 4214820
 "Game of Thrones: Tale of Crows":
   pageId: 162607
   templates:
@@ -130253,6 +130261,8 @@ Lego Alpha Team:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Feral Interactive/LEGO Batman 3/SaveData/}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\313690\\remote\\savedgames\\}}"
 "Lego Batman: Legacy of the Dark Knight":
+  cloud:
+    steam: true
   lutris: lego-batman-legacy-of-the-dark-knight
   pageId: 207259
   steam: 2215200
@@ -223753,6 +223763,7 @@ Supreme Commander:
 Supreme Commander 2:
   cloud:
     gog: true
+    steam: true
   gog: 1702120068
   gogSide:
     - 1715364604

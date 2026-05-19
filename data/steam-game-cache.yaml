@@ -245289,12 +245289,19 @@
         platforms:
           - Windows
         root: WinMyDocuments
+      - path: com.vpltd.ancestorslegacy
+        pattern: "*.sav"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
   installDir: Ancestors Legacy
   launch:
     - arguments: "-nothreadtimeout"
       config:
         osarch: "64"
         oslist: windows
+      description: Default Windows version
       executable: "Anc\\Binaries\\Win64\\Anc-Win64-Shipping.exe"
       type: default
     - config:
@@ -245334,8 +245341,8 @@
       executable: "Launcher\\DCConfig.exe"
       type: option3
     - config:
-        betakey: macos_testing
         oslist: macos
+      description: Default macOS version
       executable: AncestorsLegacy.app
       type: default
 620620:
