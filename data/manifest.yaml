@@ -69615,16 +69615,20 @@ Batla:
     steamExtra:
       - 35020
       - 35060
-      - 35140
   installDir:
-    Batman Arkham Asylum: {}
+    Batman Arkham Asylum GOTY: {}
   launch:
+    "<base>/Batman Arkham Asylum GOTY.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Binaries/BmLauncher.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
         workingDir: "<base>/Binaries"
   steam:
-    id: 35010
+    id: 35140
 "Batman: Arkham City":
   cloud:
     gog: true
@@ -150669,8 +150673,22 @@ Corsair Cove:
   steam:
     id: 1368140
 "Corsairs: Battle of the Caribbean":
+  cloud:
+    gog: true
   gog:
     id: 1756882332
+  id:
+    gogExtra:
+      - 1818221097
+    lutris: corsairs-battle-of-the-caribbean
+    steamExtra:
+      - 4639560
+  installDir:
+    Corsairs: {}
+  launch:
+    "<base>/Corsairs.exe":
+      - when:
+          - store: steam
   steam:
     id: 2397510
 "Corsairs: Conquest at Sea":
@@ -402599,8 +402617,20 @@ Lego Alpha Team:
   steam:
     id: 313690
 "Lego Batman: Legacy of the Dark Knight":
+  files:
+    "<winLocalAppData>/Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames/steam/<storeUserId>/*.sav":
+      when:
+        - store: steam
   id:
     lutris: lego-batman-legacy-of-the-dark-knight
+  installDir:
+    LEGO Batman - Legacy of the Dark Knight: {}
+  launch:
+    "<base>/LEGOBatmanLotDK.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2215200
 "Lego Batman: The Videogame":
@@ -460473,6 +460503,26 @@ Moofa:
         - config
       when:
         - os: windows
+    "<home>/Library/Application Support/no.hypergames.moomintroll/Saves/GlobalData.json":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/no.hypergames.moomintroll/Saves/SaveSlot*.json":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/no.hypergames.moomintroll/SettingsData.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Preferences/no.hypergames.moomintroll.plist":
+      tags:
+        - config
+      when:
+        - os: mac
   id:
     lutris: moomintroll-winters-warmth
     steamExtra:
@@ -641349,6 +641399,21 @@ Snuffles and Co.:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/com.rawfury.snufkin/Saves/*.json":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.rawfury.snufkin/SettingsData.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Preferences/com.rawfury.snufkin.plist":
+      tags:
+        - config
+      when:
+        - os: mac
   id:
     lutris: snufkin-melody-of-moominvalley
     steamExtra:
@@ -641356,6 +641421,7 @@ Snuffles and Co.:
       - 2782670
       - 2782680
       - 2782690
+      - 2875880
   installDir:
     Snufkin - Melody of Moominvalley: {}
   launch:
@@ -831516,7 +831582,7 @@ Windrose:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/R5/Saved/SaveProfiles/<storeUserId>/RocksDB":
+    "<winLocalAppData>/R5/Saved/SaveProfiles/<storeUserId>/RocksDB_v2":
       tags:
         - save
       when:

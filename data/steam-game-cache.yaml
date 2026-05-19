@@ -608906,6 +608906,18 @@
     schinese: 魔法师世界Re;Try
     tchinese: 魔法師世界Re;Try
 2215200:
+  cloud:
+    saves:
+      - path: "Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames/steam/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: LEGO Batman - Legacy of the Dark Knight
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LEGOBatmanLotDK.exe
+      type: default
   nameLocalized:
     brazilian: "LEGO® Batman™: O Legado do Cavaleiro das Trevas"
     french: "LEGO® Batman™ : L'Héritage du Chevalier Noir"
@@ -616881,6 +616893,10 @@
     tchinese: 藍色小精靈 2：綠寶石的囚徒 (The Smurfs 2 - The Prisoner of the Green Stone)
     turkish: "Şirinler 2: Yeşil Taş’ın Tutsağı"
 2397510:
+  installDir: Corsairs
+  launch:
+    - executable: Corsairs.exe
+      type: default
   nameLocalized:
     french: Corsairs – La Bataille des Caraibes
     japanese: Corsairs – カリブ海の戦い
@@ -636266,7 +636282,11 @@
 3041230:
   cloud:
     saves:
-      - path: "R5/Saved/SaveProfiles/{64BitSteamID}/"
+      - path: "R5/Saved/SaveProfiles/{64BitSteamID}/RocksDB/"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: "R5/Saved/SaveProfiles/{64BitSteamID}/RocksDB_v2_Backups/"
         pattern: "*"
         recursive: true
         root: WinAppDataLocal

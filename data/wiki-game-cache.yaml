@@ -22266,7 +22266,7 @@ Batman Returns:
   gog: 1482504285
   lutris: batman-arkham-asylum-goty-edition
   pageId: 638
-  steam: 35010
+  steam: 35140
   steamSide:
     - 35020
     - 35060
@@ -48324,9 +48324,16 @@ Corsair Cove:
   pageId: 215789
   steam: 1368140
 "Corsairs: Battle of the Caribbean":
+  cloud:
+    gog: true
   gog: 1756882332
+  gogSide:
+    - 1818221097
+  lutris: corsairs-battle-of-the-caribbean
   pageId: 187532
   steam: 2397510
+  steamSide:
+    - 4639560
 "Corsairs: Conquest at Sea":
   cloud:
     steam: true
@@ -149161,7 +149168,9 @@ Moofa:
     - 4384200
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Moomintroll Winter's Warmth\\SettingsData.json}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/no.hypergames.moomintroll/SettingsData.json|{{p|osxhome}}/Library/Preferences/no.hypergames.moomintroll.plist}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Moomintroll Winter's Warmth\\Saves\\GlobalData.json|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Moomintroll Winter's Warmth\\Saves\\SaveSlot*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/no.hypergames.moomintroll/Saves/GlobalData.json|{{p|osxhome}}/Library/Application Support/no.hypergames.moomintroll/Saves/SaveSlot*.json}}"
 Moon Breakers:
   pageId: 40779
   steam: 208030
@@ -207833,9 +207842,12 @@ Snuffles and Co.:
     - 2782670
     - 2782680
     - 2782690
+    - 2875880
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Hyper Games\\Snufkin - Melody of Moominvalley\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.rawfury.snufkin/SettingsData.json|{{p|osxhome}}/Library/Preferences/com.rawfury.snufkin.plist}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Snufkin - Melody of Moominvalley\\Saves\\GlobalData.json|{{p|userprofile\\AppData\\LocalLow}}\\Hyper Games\\Snufkin - Melody of Moominvalley\\Saves\\SaveSlot*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.rawfury.snufkin/Saves/*.json}}"
 Snuggle Truck:
   pageId: 4660
   steam: 111100
@@ -270664,7 +270676,7 @@ Windrose:
     - 4564200
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\R5\\Saved\\Config\\Windows}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\R5\\Saved\\SaveProfiles\\{{P|uid}}\\RocksDB\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\R5\\Saved\\SaveProfiles\\{{P|uid}}\\RocksDB_v2\\ {{Note|note=Versions prior to 0.10.0.0.5.120 stored saves in <code>RocksDB</code>.<ref>{{Refcheck|user=Xteamlyerr|date=2026-05-18|comment=}}</ref><ref>{{Refurl|url=https://steamcommunity.com/games/3041230/announcements/detail/658231077844812606|title=Steam Community Announcement - Patch Notes, version: 0.10.0.5.120-073042fb|date=2026-05-18|snippet=Save Migration System: Implemented a system to migrate old save files (pre-version 0.10.0.5.120-073042fb) to the new format. In most cases, this process is seamless and invisible}}</ref>}}}}"
 Winds of Change:
   cloud:
     steam: true
