@@ -37079,6 +37079,8 @@ Ana The Game:
   steam:
     id: 811090
 Anachronox:
+  cloud:
+    steam: true
   files:
     "<base>/anoxdata/CONFIGS":
       tags:
@@ -168811,6 +168813,8 @@ Dahlia View:
   steam:
     id: 1548750
 Daikatana:
+  cloud:
+    steam: true
   files:
     "<base>/data":
       tags:
@@ -184343,10 +184347,32 @@ Deep Rock Galactic:
   steam:
     id: 548430
 "Deep Rock Galactic: Rogue Core":
+  cloud:
+    steam: true
+  files:
+    "<base>/RogueCore/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/RogueCore/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: deep-rock-galactic-rogue-core
     steamExtra:
       - 2860770
+  installDir:
+    Deep Rock Galactic RogueCore: {}
+  launch:
+    "<base>/RogueCore.exe":
+      - arguments: "-disablemodding"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2605790
 "Deep Rock Galactic: Survivor":
@@ -344100,6 +344126,10 @@ Hotel Anatolia:
 Hotel Architect:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/HotelArchitect/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   installDir:
     Hotel Architect: {}
   launch:
@@ -390953,6 +390983,7 @@ Koikoi:
     id: 763380
 Koira:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.local/share/godot/app_userdata/Koira/*.save":
@@ -390964,6 +390995,8 @@ Koira:
     "<winAppData>/Godot/app_userdata/Koira/*.save":
       when:
         - store: steam
+  gog:
+    id: 2127467286
   id:
     lutris: koira
     steamExtra:
@@ -416998,6 +417031,7 @@ Lost Railway:
   alias: "Lost Records: Bloom & Rage"
 "Lost Records: Bloom & Rage":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Bloom&Rage/Saved/Config/Windows":
@@ -417010,6 +417044,12 @@ Lost Railway:
         - save
       when:
         - os: windows
+  gog:
+    id: 1450067114
+  id:
+    gogExtra:
+      - 1618599497
+      - 2040831230
   installDir:
     Lost Records - Bloom & Rage: {}
   launch:
@@ -421331,6 +421371,17 @@ Luna (Funomena):
 Luna Abyss:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/LunaAbyss/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/LunaAbyss/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: luna-abyss
     steamExtra:
@@ -568216,6 +568267,11 @@ Reanimal:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/Everholm/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/REANIMAL/Saved/SaveGames/<storeUserId>/*.sav":
       tags:
         - save
@@ -758646,11 +758702,6 @@ Thick Air:
             store: steam
   steam:
     id: 525350
-Thick As Thieves:
-  id:
-    lutris: thick-as-thieves
-  steam:
-    id: 3341000
 Thick Light:
   steam:
     id: 877760
@@ -758660,6 +758711,30 @@ Thick Light 2:
 Thick Light 3:
   steam:
     id: 993970
+Thick as Thieves:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TAT/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TAT/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: thick-as-thieves
+  installDir:
+    Thick As Thieves: {}
+  launch:
+    "<base>/TAT.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3341000
 Thief:
   cloud:
     epic: true
@@ -852899,6 +852974,18 @@ Zombie Dinos from Planet Zeltoid:
     Zombie Dinos from Planet Zeltoid: {}
   steam:
     id: 1749720
+Zombie Driver:
+  cloud:
+    steam: true
+  installDir:
+    Zombie Driver: {}
+  launch:
+    "<base>/Release/ZombieDriver.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/Release"
+  steam:
+    id: 31410
 Zombie Driver HD:
   cloud:
     steam: true

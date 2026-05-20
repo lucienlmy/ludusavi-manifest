@@ -7676,6 +7676,11 @@
   installDir: Tunnel Rats
   launch:
     - executable: Launcher.exe
+31410:
+  installDir: Zombie Driver
+  launch:
+    - executable: "Release\\ZombieDriver.exe"
+      workingdir: Release
 31700:
   installDir: Iron Grip Warlord
   launch:
@@ -29891,6 +29896,12 @@
       description: Launch
       executable: Application-steam-x64.exe
 242940:
+  cloud:
+    saves:
+      - path: "anoxdata\\SAVE"
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
   installDir: Anachronox
   launch:
     - description: Launch
@@ -29901,6 +29912,12 @@
     - description: Launch
       executable: bo2.exe
 242980:
+  cloud:
+    saves:
+      - path: "\\data\\save"
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
   installDir: Daikatana
   launch:
     - description: Launch
@@ -488499,7 +488516,7 @@
       type: default
 1118520:
   nameLocalized:
-    schinese: 帕拉人生 Paralives
+    schinese: 平行人生 Paralives
 1118530: {}
 1118550:
   cloud:
@@ -569216,6 +569233,12 @@
     tchinese: 通古斯：禁區實錄 - 終極剪輯版
     ukrainian: "Тунгуска: Відвідування - Фінальна версія"
 1602000:
+  cloud:
+    saves:
+      - path: HotelArchitect/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
   installDir: Hotel Architect
   launch:
     - config:
@@ -569225,6 +569248,7 @@
       type: default
   nameLocalized:
     schinese: 酒店建筑师 Hotel Architect
+    tchinese: 酒店建築師 Hotel Architect
 1602010:
   cloud:
     saves:
@@ -625231,6 +625255,35 @@
       executable: Space Drop.exe
       type: openxr
 2605790:
+  cloud:
+    saves:
+      - path: RogueCore/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Deep Rock Galactic RogueCore
+  launch:
+    - arguments: "-disablemodding"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: RogueCore.exe
+      type: default
+    - arguments: "-disablemodding"
+      config:
+        betakey: internal_testing
+        osarch: "64"
+        oslist: windows
+      description: Testing build
+      executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
+      type: option1
+    - arguments: "-disablemodding"
+      config:
+        betakey: internal_marketing
+        osarch: "64"
+        oslist: windows
+      description: Testing build
+      executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
+      type: option1
   nameLocalized:
     schinese: 深岩银河：异动核心
 2608050:
@@ -641518,6 +641571,17 @@
     russian: "Герой Королевства: Утраченные Сказания 3"
     ukrainian: "Герой Королівства: Втрачені оповіді 3"
 3341000:
+  cloud:
+    saves:
+      - path: TAT/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Thick As Thieves
+  launch:
+    - executable: TAT.exe
+      type: default
   nameLocalized:
     schinese: 面面俱盗
 3341190: {}

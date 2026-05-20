@@ -11862,6 +11862,8 @@ Ana The Game:
   pageId: 90228
   steam: 811090
 Anachronox:
+  cloud:
+    steam: true
   gog: 1207659012
   lutris: anachronox
   pageId: 2981
@@ -54236,6 +54238,8 @@ Dahlia View:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\DahliaView\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\DahliaView\\Saved\\SaveGames\\}}"
 Daikatana:
+  cloud:
+    steam: true
   gog: 1207659168
   lutris: daikatana
   pageId: 14168
@@ -59263,11 +59267,16 @@ Deep Rock Galactic:
     - "{{Game data/saves|Windows|{{p|game}}\\FSD\\Saved\\SaveGames\\*.sav}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\CoffeeStainStudios.DeepRockGalactic_496a1srhmar9w\\SystemAppData\\wgs\\[long alphanumeric sequence folder]\\[long alphanumeric sequence folder]\\[long alphanumeric sequence file]</br>{{ii}} This file is actually an unnamed .sav file and can be used with Steam as well.}}"
 "Deep Rock Galactic: Rogue Core":
+  cloud:
+    steam: true
   lutris: deep-rock-galactic-rogue-core
   pageId: 215907
   steam: 2605790
   steamSide:
     - 2860770
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\RogueCore\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\RogueCore\\Saved\\SaveGames\\*.sav}}"
 "Deep Rock Galactic: Survivor":
   cloud:
     steam: true
@@ -126469,7 +126478,9 @@ Koikoi:
   steam: 763380
 Koira:
   cloud:
+    gog: true
     steam: true
+  gog: 2127467286
   lutris: koira
   pageId: 203007
   steam: 1626620
@@ -134958,8 +134969,13 @@ Lost Railway:
   steam: 862750
 "Lost Records: Bloom & Rage":
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1450067114
+  gogSide:
+    - 1618599497
+    - 2040831230
   pageId: 201368
   renamedFrom:
     - "Lost Records: Bloom"
@@ -136321,6 +136337,9 @@ Luna Abyss:
   steam: 1933000
   steamSide:
     - 2423690
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\LunaAbyss\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\LunaAbyss\\Saved\\SaveGames}}"
 "Luna Online: Reborn":
   pageId: 68474
   steam: 457590
@@ -184296,6 +184315,7 @@ Reanimal:
   pageId: 197182
   steam: 2129530
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Everholm\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 Reanimation Inc.:
   pageId: 150188
@@ -245850,10 +245870,6 @@ Thibalryn:
 Thick Air:
   pageId: 38955
   steam: 525350
-Thick As Thieves:
-  lutris: thick-as-thieves
-  pageId: 200127
-  steam: 3341000
 Thick Light:
   pageId: 96983
   steam: 877760
@@ -245863,6 +245879,17 @@ Thick Light 2:
 Thick Light 3:
   pageId: 124137
   steam: 993970
+Thick as Thieves:
+  cloud:
+    steam: true
+  lutris: thick-as-thieves
+  pageId: 200127
+  renamedFrom:
+    - Thick As Thieves
+  steam: 3341000
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TAT\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TAT\\Saved\\SaveGames}}"
 Thief:
   cloud:
     epic: true
@@ -277717,6 +277744,11 @@ Zombie Dinos from Planet Zeltoid:
   gog: 1650051827
   pageId: 171917
   steam: 1749720
+Zombie Driver:
+  cloud:
+    steam: true
+  pageId: 216735
+  steam: 31410
 Zombie Driver HD:
   cloud:
     steam: true
