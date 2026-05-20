@@ -73177,8 +73177,21 @@ Battlestar Galactica Deadlock:
 "Battlestar Galactica: Scattered Hopes":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Alt Shift/Battlestar Galactica Scattered Hopes/Saves":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1615322203
+  installDir:
+    BattlestarGalacticaScatteredHopes: {}
+  launch:
+    "<base>/BattlestarGalacticaScatteredHopes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2535950
 "Battlestations: Midway":
@@ -174273,11 +174286,6 @@ Darksiders Warmastered Edition:
     lutris: darksiders-warmastered-edition
   installDir:
     Darksiders Warmastered Edition: {}
-  launch:
-    "<base>/darksiders1.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 462780
 Darkspore:
@@ -402665,6 +402673,7 @@ Lego Alpha Team:
     id: 313690
 "Lego Batman: Legacy of the Dark Knight":
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames/steam/<storeUserId>/*.sav":
@@ -483711,6 +483720,7 @@ New Star Soccer 5:
   id:
     gogExtra:
       - 1495957441
+    lutris: new-super-luckys-tale
     steamExtra:
       - 1491620
   installDir:
@@ -547235,6 +547245,16 @@ Project Mirror:
   steam:
     id: 2171840
 Project Mist:
+  files:
+    "<home>/AppData/LocalLow/Chicken Launcher/ProjectMist":
+      when:
+        - store: steam
+  installDir:
+    Mist: {}
+  launch:
+    "<base>/ProjectMist.exe":
+      - when:
+          - store: steam
   steam:
     id: 2383130
 Project Mix:

@@ -130262,6 +130262,7 @@ Lego Alpha Team:
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\313690\\remote\\savedgames\\}}"
 "Lego Batman: Legacy of the Dark Knight":
   cloud:
+    epic: true
     steam: true
   lutris: lego-batman-legacy-of-the-dark-knight
   pageId: 207259
@@ -136304,6 +136305,7 @@ Luna (Funomena):
 Luna Abyss:
   cloud:
     steam: true
+    xbox: true
   lutris: luna-abyss
   pageId: 188177
   steam: 1933000
@@ -156850,6 +156852,7 @@ New Star Soccer 5:
   gog: 1316293882
   gogSide:
     - 1495957441
+  lutris: new-super-luckys-tale
   pageId: 162734
   steam: 1038300
   steamSide:
@@ -158458,6 +158461,7 @@ Nitro Family:
 Nitro Gen Omega:
   cloud:
     steam: true
+    xbox: true
   pageId: 216671
   steam: 2525510
   templates:
@@ -189688,6 +189692,7 @@ Riven (2024):
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1211603686
   gogSide:
     - 1313794941

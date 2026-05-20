@@ -162261,6 +162261,7 @@
   installDir: Darksiders Warmastered Edition
   launch:
     - config:
+        betakey: "public, warmastered2016"
         oslist: windows
       executable: darksiders1.exe
       type: default
@@ -593007,7 +593008,9 @@
         oslist: windows
       executable: LunarLux.exe
       type: default
-1933000: {}
+1933000:
+  nameLocalized:
+    schinese: 月之深渊
 1933650:
   cloud:
     saves:
@@ -616364,6 +616367,15 @@
         oslist: windows
       executable: Garten of Banban 4.exe
 2383130:
+  cloud:
+    saves:
+      - path: "Chicken Launcher\\ProjectMist"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Mist
+  launch:
+    - executable: ProjectMist.exe
   nameLocalized:
     schinese: 迷雾计划
     tchinese: 迷霧計畫
@@ -623518,7 +623530,22 @@
     - description: Squirrel Stapler (Classic)
       executable: "goodies\\Squirrel Stapler (Dread X Collection II Version)\\Squirrel Stapler.exe"
       type: option2
-2535950: {}
+2535950:
+  cloud:
+    saves:
+      - path: Alt Shift/Battlestar Galactica Scattered Hopes/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: BattlestarGalacticaScatteredHopes
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BattlestarGalacticaScatteredHopes.exe
+      type: default
 2536510:
   nameLocalized:
     sc_schinese: 逆神者
