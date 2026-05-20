@@ -276970,6 +276970,12 @@ Forza Horizon 6:
       when:
         - os: windows
           store: steam
+    "<winLocalAppData>/Packages/Microsoft.ForteBaseGame_8wekyb3d8bbwe/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     steamExtra:
       - 4439260
@@ -402693,9 +402699,11 @@ Lego Alpha Team:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames/steam/<storeUserId>/*.sav":
+    "<winLocalAppData>/Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: lego-batman-legacy-of-the-dark-knight
   installDir:

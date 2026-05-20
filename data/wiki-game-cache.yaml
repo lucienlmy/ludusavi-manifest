@@ -89536,7 +89536,7 @@ Forza Horizon 6:
     - 4562050
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\}}"
-    - "{{Game data/saves|Microsoft Store|%SystemDrive%\\XboxGames\\GameSave\\pgs\\u_<userID>_16D460\\<versionID>\\ContainersRoot\\User_<xboxProfileID>{{dubious|date=2026-05-16|reason=Path doesn't seem to match with other Forza games and Microsoft Store games generally save to %localappdata%}}}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.ForteBaseGame_8wekyb3d8bbwe\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\User_{{P|uid}}\\}}"
 Forza Motorsport:
   pageId: 162113
@@ -130275,6 +130275,8 @@ Lego Alpha Team:
   lutris: lego-batman-legacy-of-the-dark-knight
   pageId: 207259
   steam: 2215200
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Warner Bros. Interactive Entertainment\\LEGO Batman - Legacy of the Dark Knight\\SaveGames}}"
 "Lego Batman: The Videogame":
   cloud:
     gog: true
@@ -183410,6 +183412,8 @@ Rayman Raving Rabbids 2:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ubisoft\\Rayman Raving Rabbids 2}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\RRR2\\RRR2*.sav}}"
+Rayman Raving Rabbids Activity Centre:
+  pageId: 216732
 Rayman Redemption:
   lutris: rayman-redemption
   pageId: 162771
