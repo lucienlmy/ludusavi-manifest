@@ -2516,6 +2516,12 @@ A Building Full of Cats:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\progress.cfg}}"
+A Bumpy Ride:
+  cloud:
+    steam: true
+  malformed: true
+  pageId: 216726
+  steam: 3056840
 A Business Power:
   pageId: 121855
   steam: 975220
@@ -25868,6 +25874,8 @@ Beyond the Ice Palace II:
 "Beyond the Invisible: Evening":
   pageId: 64206
   steam: 650880
+"Beyond the Limit: Ultimate Climb":
+  pageId: 216725
 Beyond the Mind:
   pageId: 98784
   steam: 883390
@@ -186075,6 +186083,14 @@ Remnith:
   gog: 1452095777
   pageId: 128753
   steam: 867960
+Remorses:
+  cloud:
+    steam: true
+  lutris: remorses
+  pageId: 216729
+  steam: 2292160
+  steamSide:
+    - 4694130
 "Remothered: Broken Porcelain":
   cloud:
     gog: true
@@ -195010,6 +195026,7 @@ SacriFire:
   cloud:
     gog: true
   gog: 1474807617
+  lutris: sacrifire
   pageId: 169293
   steam: 1661330
 Sacrifice:

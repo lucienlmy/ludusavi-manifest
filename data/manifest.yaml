@@ -8095,6 +8095,23 @@ A Building Full of Cats:
             store: steam
   steam:
     id: 1969080
+A Bumpy Ride:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ABumpyRide/Saved/SaveGames/Save.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    A Bumpy Ride: {}
+  launch:
+    "<base>/ABumpyRide.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3056840
 A Business Power:
   installDir:
     A Business Power: {}
@@ -573873,6 +573890,15 @@ Remnith:
             store: steam
   steam:
     id: 867960
+Remorses:
+  cloud:
+    steam: true
+  id:
+    lutris: remorses
+    steamExtra:
+      - 4694130
+  steam:
+    id: 2292160
 "Remothered: Broken Porcelain":
   cloud:
     gog: true
@@ -600981,6 +601007,8 @@ SacriFire:
     gog: true
   gog:
     id: 1474807617
+  id:
+    lutris: sacrifire
   steam:
     id: 1661330
 Sacrifice:

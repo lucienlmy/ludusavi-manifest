@@ -612706,6 +612706,7 @@
       type: default
   nameLocalized:
     schinese: 法术圆盘
+2292160: {}
 2292260:
   cloud:
     saves:
@@ -636640,6 +636641,38 @@
       executable: ShantaeAdvanceRiskyRevolution.exe
       type: default
 3056650: {}
+3056840:
+  cloud:
+    saves:
+      - path: ABumpyRide/Saved/SaveGames
+        pattern: Save.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: A Bumpy Ride
+  launch:
+    - arguments: "-dx12"
+      config:
+        oslist: windows
+      description: with DX12 (Recommended)
+      executable: ABumpyRide.exe
+      type: option1
+    - arguments: "-dx11"
+      config:
+        oslist: windows
+      description: with DX11 (Legacy Compatibility Mode)
+      executable: ABumpyRide.exe
+      type: option2
+    - arguments: "-vulkan"
+      config:
+        oslist: windows
+      description: with Vulkan (Experimental)
+      executable: ABumpyRide.exe
+      type: option3
+    - config:
+        oslist: windows
+      description: Play with Default Launch Option
+      executable: ABumpyRide.exe
 3058190:
   installDir: Bible Trivia Game
   launch:
