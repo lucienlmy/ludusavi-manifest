@@ -511025,6 +511025,12 @@
         betakey: public
       executable: KilnGDKBootstrap.exe
       type: default
+    - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Test  -ServerAlias=3c3b1b38-96e1-4f20-8c75-5582f92f3fa1 -LobbyAlias=ab7a3f98-132b-445b-9be8-489b692338b0 -QueueOverride=StandardQueueLocQA"
+      config:
+        betakey: localizationqa
+      description: LocalizationQA
+      executable: KilnGDKBootstrap.exe
+      type: default
     - arguments: "-NoScreenMessages -SaveToUserDir --configuration=Test -ServerAlias=b9f16f54-b681-4b73-91b1-681eba784801 -LobbyAlias=8035ef77-218d-4f33-acd7-a5665215822c"
       config:
         betakey: external_playtest
@@ -526945,6 +526951,30 @@
       executable: HappyGame.app
       type: default
 1206070:
+  cloud:
+    saves:
+      - path: "Amanita Design\\Phonopolis/CloudSaves"
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Amanita Design\\Phonopolis/CloudSaves"
+            replace: Amanita Design/Phonopolis/CloudSaves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Phonopolis
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Phonopolis.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Phonopolis.app
+      type: default
   nameLocalized:
     japanese: Phonopolis(フォノポリス)
     koreana: Phonopolis (포노폴리스)

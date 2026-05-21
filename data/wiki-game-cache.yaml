@@ -45916,6 +45916,7 @@ Comanche 4:
 Comatose:
   cloud:
     steam: true
+  lutris: comatose--1
   pageId: 215279
   steam: 3301370
 Combat:
@@ -134969,6 +134970,7 @@ Lost Railway:
   steam: 862750
 "Lost Records: Bloom & Rage":
   cloud:
+    epic: true
     gog: true
     steam: true
     xbox: true
@@ -134976,10 +134978,13 @@ Lost Railway:
   gogSide:
     - 1618599497
     - 2040831230
+  lutris: lost-records-bloom-rage
   pageId: 201368
   renamedFrom:
     - "Lost Records: Bloom"
   steam: 1902960
+  steamSide:
+    - 3500970
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Bloom&Rage\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Bloom&Rage\\Saved\\SaveGames}}"
@@ -170853,12 +170858,20 @@ Phoning Home:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Ion Lands\\Phoning Home\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Ion Lands\\Phoning Home\\}}"
 Phonopolis:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
   gog: 1093540480
+  gogSide:
+    - 1763745792
+    - 2139299534
   lutris: phonopolis
   pageId: 178546
   steam: 1206070
   steamSide:
     - 4109130
+    - 4599900
 Photo Finish:
   pageId: 114544
   steam: 943950
@@ -250018,6 +250031,7 @@ Tormentor X Punisher:
 Tormentum II:
   cloud:
     steam: true
+  lutris: tormentum-ii
   pageId: 122794
   steam: 931060
 "Tormentum: Dark Sorrow":

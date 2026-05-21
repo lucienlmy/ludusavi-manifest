@@ -143267,6 +143267,8 @@ Comanche 4:
 Comatose:
   cloud:
     steam: true
+  id:
+    lutris: comatose--1
   steam:
     id: 3301370
 Combat Air Patrol 2:
@@ -417031,6 +417033,7 @@ Lost Railway:
   alias: "Lost Records: Bloom & Rage"
 "Lost Records: Bloom & Rage":
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -417050,6 +417053,9 @@ Lost Railway:
     gogExtra:
       - 1618599497
       - 2040831230
+    lutris: lost-records-bloom-rage
+    steamExtra:
+      - 3500970
   installDir:
     Lost Records - Bloom & Rage: {}
   launch:
@@ -526086,12 +526092,40 @@ Phoning Home:
   steam:
     id: 431650
 Phonopolis:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Amanita Design/Phonopolis/CloudSaves/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Amanita Design/Phonopolis/CloudSaves/*.dat":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1093540480
   id:
+    gogExtra:
+      - 1763745792
+      - 2139299534
     lutris: phonopolis
     steamExtra:
       - 4109130
+      - 4599900
+  installDir:
+    Phonopolis: {}
+  launch:
+    "<base>/Phonopolis.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Phonopolis.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1206070
 Photo Finish:
@@ -771495,6 +771529,8 @@ Tormentor X Punisher:
 Tormentum II:
   cloud:
     steam: true
+  id:
+    lutris: tormentum-ii
   steam:
     id: 931060
 "Tormentum: Dark Sorrow":
