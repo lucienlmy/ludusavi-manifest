@@ -101444,11 +101444,16 @@ Breath of Fire IV:
   cloud:
     gog: true
   files:
-    "<base>/SAV/*.DAT":
+    "<base>/BOF4-*.DAT":
       tags:
         - save
       when:
         - os: windows
+    "<base>/SAV/*.DAT":
+      tags:
+        - save
+      when:
+        - store: gog
     "<base>/bof4.cfg":
       tags:
         - config
@@ -140425,8 +140430,28 @@ Coffee Talk:
   steam:
     id: 1663220
 Coffee Talk Tokyo:
+  files:
+    "<home>/AppData/LocalLow/Chorus Worldwide/CTT/SaveData/Steam/<storeUserId>":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Chorus Worldwide/CTT/SaveData/Steam/<storeUserId>":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1655473839
+  installDir:
+    Coffee Talk Tokyo: {}
+  launch:
+    "<base>/CTT.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CTT.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3161220
 Coffee Trainer VR:
@@ -421411,6 +421436,14 @@ Luna Abyss:
     lutris: luna-abyss
     steamExtra:
       - 2423690
+  installDir:
+    Luna Abyss: {}
+  launch:
+    "<base>/LunaAbyss.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1933000
 "Luna Online: Reborn":
@@ -650866,6 +650899,7 @@ Space Hotel:
     id: 564900
 Space Hulk (2013):
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/Full Control/SpaceHulk":
@@ -650878,6 +650912,8 @@ Space Hulk (2013):
         - save
       when:
         - os: windows
+  gog:
+    id: 1233233578
   id:
     steamExtra:
       - 246561
@@ -650908,6 +650944,7 @@ Space Hulk Ascension:
   alias: "Space Hulk: Ascension"
 "Space Hulk: Ascension":
   cloud:
+    gog: true
     steam: true
   files:
     "<winAppData>/Full Control/SpaceHulkAscension":
@@ -650915,6 +650952,8 @@ Space Hulk Ascension:
         - save
       when:
         - os: windows
+  gog:
+    id: 1281601346
   id:
     steamExtra:
       - 335260
@@ -818120,6 +818159,7 @@ Warhalla:
       - 1973808336
       - 2004956225
       - 2105142233
+      - 2116108601
     steamExtra:
       - 1718640
       - 1793050
@@ -818130,6 +818170,7 @@ Warhalla:
       - 2583910
       - 3202720
       - 3577600
+      - 3577690
   installDir:
     Warhammer 40000 Battlesector: {}
   launch:
@@ -818635,6 +818676,9 @@ Warhalla:
   steam:
     id: 285190
 "Warhammer 40,000: Dawn of War IV":
+  id:
+    steamExtra:
+      - 4759250
   steam:
     id: 2272360
 "Warhammer 40,000: Dawn of War: Dark Crusade":
@@ -818835,6 +818879,7 @@ Warhalla:
       - 1267649005
       - 1274205699
       - 1296748658
+      - 1329725338
       - 1377836469
       - 1399110589
       - 1420534358
@@ -818867,6 +818912,7 @@ Warhalla:
       - 3326080
       - 3743110
       - 4084640
+      - 4660150
   installDir:
     Warhammer 40000 Gladius - Relics of War: {}
   launch:

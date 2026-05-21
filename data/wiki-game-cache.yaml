@@ -1411,6 +1411,8 @@ $1 Ride:
 3D Pool:
   pageId: 33539
   steam: 492160
+3D Scooter Racing:
+  pageId: 216755
 3D Text Adventure 2:
   pageId: 151629
   renamedFrom:
@@ -32701,7 +32703,8 @@ Breath of Fire IV:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bof4.cfg}}"
     - "{{Game data/config|Steam|{{p|game}}\\english\\bof4.cfg|{{p|game}}\\japanese\\bof4.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SAV\\*.DAT}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\BOF4-**.DAT}}"
+    - "{{Game data/saves|GOG.com|{{p|game}}\\SAV\\*.DAT}}"
     - "{{Game data/saves|Steam|{{p|game}}\\english\\SAV\\*.DAT|{{p|game}}\\japanese\\SAV\\*.DAT}}"
 Breath of Warfare:
   cloud:
@@ -210906,7 +210909,9 @@ Space Hulk:
   pageId: 213646
 Space Hulk (2013):
   cloud:
+    gog: true
     steam: true
+  gog: 1233233578
   pageId: 9169
   steam: 242570
   steamSide:
@@ -210922,7 +210927,9 @@ Space Hulk (2013):
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/Full Control/SpaceHulk/}}"
 "Space Hulk: Ascension":
   cloud:
+    gog: true
     steam: true
+  gog: 1281601346
   pageId: 49349
   renamedFrom:
     - Space Hulk Ascension
@@ -258461,6 +258468,8 @@ Underground Blossom:
 Underground Bone Marrow:
   pageId: 95359
   steam: 863770
+Underground Fighting:
+  pageId: 216757
 Underground Keeper:
   cloud:
     steam: true
@@ -266268,6 +266277,7 @@ Warhalla:
     - 1973808336
     - 2004956225
     - 2105142233
+    - 2116108601
   pageId: 167145
   steam: 1295500
   steamSide:
@@ -266280,6 +266290,7 @@ Warhalla:
     - 2583910
     - 3202720
     - 3577600
+    - 3577690
 "Warhammer 40,000: Boltgun":
   cloud:
     epic: true
@@ -266484,6 +266495,8 @@ Warhalla:
 "Warhammer 40,000: Dawn of War IV":
   pageId: 207248
   steam: 2272360
+  steamSide:
+    - 4759250
 "Warhammer 40,000: Dawn of War: Dark Crusade":
   cloud:
     gog: true
@@ -266552,6 +266565,7 @@ Warhalla:
     - 1267649005
     - 1274205699
     - 1296748658
+    - 1329725338
     - 1377836469
     - 1399110589
     - 1420534358
@@ -266586,6 +266600,7 @@ Warhalla:
     - 3326080
     - 3743110
     - 4084640
+    - 4660150
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE\\Documents}}\\Proxy Studios\\Gladius\\Configuration\\Gladius.xml}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/Proxy Studios/Gladius}}"

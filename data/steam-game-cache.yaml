@@ -29622,6 +29622,11 @@
         oslist: linux
       description: Launch
       executable: game.x86
+    - config:
+        betakey: vb_internal_test
+        oslist: linux
+      executable: game.exe
+      type: default
 242610:
   installDir: Grappledrome
   launch:
@@ -246133,6 +246138,11 @@
       executable: NA_The_Turning_Thorn.exe
       type: default
 622650:
+  cloud:
+    saves:
+      - path: Joey Drew Studios/Bendy and the Ink Machine/Saves
+        pattern: batim.game
+        root: WinAppDataLocalLow
   installDir: Bendy and the Ink Machine
   launch:
     - config:
@@ -593068,6 +593078,26 @@
       executable: LunarLux.exe
       type: default
 1933000:
+  cloud:
+    saves:
+      - path: LunaAbyss/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgDataHome
+  installDir: Luna Abyss
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LunaAbyss.exe
+      type: default
   nameLocalized:
     schinese: 月之深渊
 1933650:
@@ -619707,6 +619737,10 @@
       description: Default-macOS
       executable: inZOI.app
       type: default
+  nameLocalized:
+    japanese: inZOI (インゾイ)
+    koreana: inZOI (인조이)
+    schinese: inZOI (云族裔)
 2456960:
   installDir: The 7th Guest VR
   launch:
@@ -638445,7 +638479,32 @@
     schinese: 刺客信条：影
     tchinese: 刺客教條：暗影者
 3160140: {}
-3161220: {}
+3161220:
+  cloud:
+    saves:
+      - path: "Chorus Worldwide/CTT/SaveData/Steam/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Chorus Worldwide/CTT/SaveData/Steam/{64BitSteamID}"
+            replace: "Chorus Worldwide/CTT/SaveData/Steam/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Coffee Talk Tokyo
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CTT.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: CTT.app
+      type: default
 3161310: {}
 3164230:
   nameLocalized:
