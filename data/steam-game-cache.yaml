@@ -8696,6 +8696,11 @@
       description: Razor2 Hidden Skies
       executable: razor.exe
 35000:
+  cloud:
+    saves:
+      - path: "Eidos\\Mini Ninjas"
+        pattern: "*.*"
+        root: WinSavedGames
   installDir: Mini Ninjas
   launch:
     - executable: ninja.exe
@@ -632468,7 +632473,33 @@
   nameLocalized:
     schinese: 午夜漫步
     tchinese: 午夜漫步
-2863680: {}
+2863680:
+  cloud:
+    saves:
+      - path: ZAUM Studio/Zero Parades/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: ZAUM Studio/Zero Parades/Settings
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Zero Parades
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ZeroParades.exe
+    - arguments: "-force-vulkan"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Play ZERO PARADES for Steamdeck
+      executable: ZeroParades.exe
+  nameLocalized:
+    schinese: 归零巡礼：亡谍镇魂曲
 2863690:
   installDir: Twilight Manor Roguelite FPS
   launch:
@@ -648086,6 +648117,9 @@
         oslist: macos
       executable: /Contents/MacOS/SleepoverreWake
       type: default
+3965750:
+  nameLocalized:
+    japanese: DEBUG NEPHEMEE -デバッグネフェミー-
 3970660:
   installDir: Hunter The Reckoning — A Time of Monsters
   launch:

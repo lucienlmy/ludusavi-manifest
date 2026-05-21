@@ -183347,6 +183347,9 @@ Debuff:
             store: steam
   steam:
     id: 759850
+Debug Nephemee:
+  steam:
+    id: 3965750
 "Debugger 3.16: 100% bugged":
   cloud:
     steam: true
@@ -452143,6 +452146,8 @@ Mini Motorways:
   steam:
     id: 1127500
 Mini Ninjas:
+  cloud:
+    steam: true
   files:
     "<home>/Saved Games/Eidos/Mini Ninjas/main.ini":
       tags:
@@ -656423,6 +656428,8 @@ Spellcaster University:
   steam:
     id: 895620
 Spellcasters Chronicles:
+  id:
+    lutris: spellcasters-chronicles
   installDir:
     SpellcastersChronicles: {}
   steam:
@@ -851388,10 +851395,39 @@ Zero One / 杀戮世界:
 Zero Parades:
   alias: "Zero Parades: For Dead Spies"
 "Zero Parades: For Dead Spies":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ZAUM Studio/Zero Parades/Saves":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/ZAUM Studio/Zero Parades/Settings":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1726016440
   id:
     lutris: zero-parades-for-dead-spies
+    steamExtra:
+      - 4464230
+      - 4719150
+  installDir:
+    Zero Parades: {}
+  launch:
+    "<base>/ZeroParades.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2863680
 Zero Point:

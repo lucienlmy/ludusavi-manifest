@@ -58953,6 +58953,9 @@ Debtor:
 Debuff:
   pageId: 77932
   steam: 759850
+Debug Nephemee:
+  pageId: 216753
+  steam: 3965750
 "Debugger 3.16: 100% bugged":
   cloud:
     steam: true
@@ -146448,6 +146451,8 @@ Mini Motorways:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\1127500\\remote\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\1127500\\remote\\}}"
 Mini Ninjas:
+  cloud:
+    steam: true
   lutris: mini-ninjas
   pageId: 2137
   steam: 35000
@@ -212733,6 +212738,7 @@ Spellcaster University:
   templates:
     - "{{Game data/saves|Windows|{{P|USERPROFILE}}\\AppData\\LocalLow\\Sneaky Yak Studio\\Spellcaster University\\PlayerFolder\\Saves}}"
 Spellcasters Chronicles:
+  lutris: spellcasters-chronicles
   pageId: 211954
   steam: 2458470
 Spellcastia:
@@ -277240,12 +277246,19 @@ Zero One / 杀戮世界:
   pageId: 130061
   steam: 1040610
 "Zero Parades: For Dead Spies":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
   gog: 1726016440
   lutris: zero-parades-for-dead-spies
   pageId: 207253
   renamedFrom:
     - Zero Parades
   steam: 2863680
+  steamSide:
+    - 4464230
+    - 4719150
 Zero Point:
   pageId: 49434
   steam: 268710
