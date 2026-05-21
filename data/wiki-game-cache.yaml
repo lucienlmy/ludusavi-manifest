@@ -102288,6 +102288,7 @@ HYPERFIGHT Max Battle:
   pageId: 129707
   steam: 1005870
 HYPERFUNK:
+  lutris: hyperfunk
   pageId: 208689
   steam: 3183480
 "HYPERNOVA: Escape from Hadea":
@@ -115784,13 +115785,24 @@ InGame.exe:
   steam: 705230
 InKonbini:
   cloud:
+    epic: true
+    gog: true
     steam: true
     xbox: true
-  lutris: inkonbini
+  gog: 1974598212
+  gogSide:
+    - 1678702499
+    - 1751254516
+    - 1798714211
+    - 1986984158
+    - 2110513065
+  lutris: inkonbini-one-store-many-stories
   pageId: 215365
   steam: 2723430
   steamSide:
     - 3638700
+    - 4508150
+    - 4676870
     - 4689760
 InMind 2 VR:
   pageId: 57987
@@ -129348,6 +129360,7 @@ Leaf Blower Revolution:
 Leaf it Alone:
   cloud:
     steam: true
+  lutris: leaf-it-alone
   pageId: 210653
   steam: 3981100
   templates:
@@ -156204,6 +156217,9 @@ NeptuneGL:
     xbox: true
   pageId: 197934
   steam: 3341510
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}/My Games/Idea Factory International, Inc/Neptunia Game Maker REvolution/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}/My Games/Idea Factory International, Inc/Neptunia Game Maker REvolution/}}"
 Neptunia Riders VS Dogoos:
   cloud:
     steam: true
@@ -182842,6 +182858,8 @@ Rampart Tactics:
   pageId: 179486
   steam: 1480400
 "Rance 01: Quest for Hikari":
+  cloud:
+    gog: true
   gog: 1282391412
   gogSide:
     - 1272604591

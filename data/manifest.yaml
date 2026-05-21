@@ -316497,6 +316497,8 @@ HYPERFIGHT Max Battle:
   steam:
     id: 1005870
 HYPERFUNK:
+  id:
+    lutris: hyperfunk
   steam:
     id: 3183480
 "HYPERNOVA: Escape from Hadea":
@@ -358291,6 +358293,8 @@ InGame.exe:
     id: 705230
 InKonbini:
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Nagai Industries/inKonbini/*.dat":
@@ -358300,10 +358304,20 @@ InKonbini:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1974598212
   id:
-    lutris: inkonbini
+    gogExtra:
+      - 1678702499
+      - 1751254516
+      - 1798714211
+      - 1986984158
+      - 2110513065
+    lutris: inkonbini-one-store-many-stories
     steamExtra:
       - 3638700
+      - 4508150
+      - 4676870
       - 4689760
   installDir:
     inKonbini: {}
@@ -399715,6 +399729,8 @@ Leaf it Alone:
         - config
       when:
         - os: windows
+  id:
+    lutris: leaf-it-alone
   installDir:
     Leaf it Alone: {}
   launch:
@@ -481789,8 +481805,11 @@ NeptuneGL:
     steam: true
   files:
     "<winDocuments>/My Games/Idea Factory International, Inc/Neptunia Game Maker REvolution":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Neptunia Game Maker REvolution: {}
   launch:
@@ -564005,6 +564024,8 @@ Rampart Tactics:
   steam:
     id: 1480400
 "Rance 01: Quest for Hikari":
+  cloud:
+    gog: true
   files:
     "<winDocuments>/AliceSoft/Rance01/SaveData":
       tags:
