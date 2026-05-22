@@ -2585,6 +2585,10 @@
       description: "Medieval II: Total War Americas"
       executable: Medieval2.sh
       type: none
+  nameLocalized:
+    koreana: "토탈워: 미디블2 - 데피니티브 에디션"
+    schinese: 全面战争：中世纪2 - 终极版
+    tchinese: 全軍破敵：中世紀2－終極版
 4720:
   cloud:
     saves:
@@ -637446,6 +637450,36 @@
       description: with OpenGL compatibility
       executable: ChronoGear.exe
       type: option2
+3083300:
+  cloud:
+    saves:
+      - path: Divide The Plunder Limited/Proverbs
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Divide The Plunder Limited/Proverbs
+            replace: com.dividetheplunder.proverbs
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Divide The Plunder Limited/Proverbs
+            replace: ".config/com/dividetheplunder/proverbs"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Proverbs
+  launch:
+    - config:
+        oslist: windows
+      executable: Proverbs.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Proverbs.app
 3084280:
   cloud:
     saves:
@@ -643548,9 +643582,12 @@
       type: default
   nameLocalized:
     english: Road to Empress I
-    japanese: 盛世天下～女帝への道～ I
+    french: Road to Empress I
+    german: Road to Empress I
+    japanese: 盛世天下：女帝への道I
     koreana: "성세천하: 여제의 탄생 I"
     schinese: 女王的游戏：盛世天下 媚娘篇
+    spanish: Road to Empress I
     tchinese: 女王的遊戲：盛世天下 媚娘篇
     thai: ฮ่องเต้หญิงฟ้าลิขิต I
 3478700:
@@ -648224,6 +648261,7 @@
 3965750:
   nameLocalized:
     japanese: DEBUG NEPHEMEE -デバッグネフェミー-
+3968040: {}
 3970660:
   installDir: Hunter The Reckoning — A Time of Monsters
   launch:
@@ -648804,6 +648842,14 @@
 4144090: {}
 4144680: {}
 4146000: {}
+4148240:
+  nameLocalized:
+    english: Road to Empress Ⅱ
+    japanese: 盛世天下：女帝への道II
+    koreana: "성세천하: 여제의 탄생 II"
+    schinese: 女王的游戏：盛世天下 女帝篇
+    tchinese: 女王的遊戲：盛世天下 女帝篇
+    thai: ฮ่องเต้หญิงฟ้าลิขิต Ⅱ
 4148530:
   cloud:
     saves:

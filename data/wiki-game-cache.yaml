@@ -24689,6 +24689,8 @@ Becrowned:
   lutris: becrowned
   pageId: 214768
   steam: 2266890
+  steamSide:
+    - 2776410
 Bed Lying Simulator:
   pageId: 155464
   steam: 1150620
@@ -33897,6 +33899,9 @@ Bubli:
   steam: 322430
 Bubsy 4D:
   cloud:
+    epic: true
+    gog: true
+    steam: true
     xbox: true
   gog: 1844328427
   lutris: bubsy-4d
@@ -33904,6 +33909,9 @@ Bubsy 4D:
   steam: 3237970
   steamSide:
     - 4032170
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Fabraz _ Atari\\Bubsy 4D|{{P|userprofile\\appdata\\locallow}}\\Fabraz _ Atari\\Bubsy 4D}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\3237970\\remote}}"
 Bubsy Two-Fur:
   lutris: bubsy-two-fur
   pageId: 30209
@@ -109879,6 +109887,12 @@ Hollow Song of Birds:
 Hollow Steps:
   pageId: 87137
   steam: 802900
+"Hollow Stories: Lockdown":
+  lutris: hollow-stories-lockdown
+  pageId: 216776
+  steam: 3968040
+  steamSide:
+    - 4244200
 Hollow Throne:
   pageId: 78703
   steam: 750790
@@ -178266,6 +178280,17 @@ Proun:
 "Prove You're Human":
   pageId: 215507
   steam: 4533950
+Proverbs:
+  cloud:
+    steam: true
+  lutris: proverbs
+  pageId: 216777
+  steam: 3083300
+  steamSide:
+    - 3083300
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Divide The Plunder Limited\\Proverbs\\Unity}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Divide The Plunder Limited\\Proverbs}}"
 Proviant:
   pageId: 64876
   steam: 659090
@@ -190078,10 +190103,14 @@ Road to Eden:
   pageId: 112332
   steam: 929060
 Road to Empress I:
+  lutris: road-to-empress-i
   pageId: 214449
   steam: 3478050
   steamSide:
     - 3972390
+Road to Empress II:
+  pageId: 216781
+  steam: 4148240
 Road to Guangdong:
   pageId: 128571
   steam: 995840

@@ -76003,6 +76003,8 @@ Becrowned:
     steam: true
   id:
     lutris: becrowned
+    steamExtra:
+      - 2776410
   steam:
     id: 2266890
 Bed Lying Simulator:
@@ -105082,12 +105084,32 @@ Bubli:
   steam:
     id: 322430
 Bubsy 4D:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Fabraz _ Atari/Bubsy 4D":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/3237970/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1844328427
   id:
     lutris: bubsy-4d
     steamExtra:
       - 4032170
+  registry:
+    HKEY_CURRENT_USER/Software/Fabraz _ Atari/Bubsy 4D:
+      tags:
+        - config
   steam:
     id: 3237970
 Bubsy Two-Fur:
@@ -340128,6 +340150,13 @@ Hollow Steps:
             store: steam
   steam:
     id: 802900
+"Hollow Stories: Lockdown":
+  id:
+    lutris: hollow-stories-lockdown
+    steamExtra:
+      - 4244200
+  steam:
+    id: 3968040
 Hollow Throne:
   files:
     "<winAppData>/HollowThrone/**/*.dongeroo":
@@ -549385,6 +549414,35 @@ Prototypers:
 "Prove You're Human":
   steam:
     id: 4533950
+Proverbs:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Divide The Plunder Limited/Proverbs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Divide The Plunder Limited/Proverbs/Unity":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: proverbs
+  installDir:
+    Proverbs: {}
+  launch:
+    "<base>/Proverbs.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Proverbs.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3083300
 Proviant:
   steam:
     id: 659090
@@ -585711,6 +585769,7 @@ Road to Eden:
     id: 929060
 Road to Empress I:
   id:
+    lutris: road-to-empress-i
     steamExtra:
       - 3972390
   installDir:
@@ -585723,6 +585782,9 @@ Road to Empress I:
             store: steam
   steam:
     id: 3478050
+Road to Empress II:
+  steam:
+    id: 4148240
 Road to Guangdong:
   files:
     "<winDocuments>/Excalibur/RoadToGuangdong":
