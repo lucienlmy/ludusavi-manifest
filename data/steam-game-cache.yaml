@@ -639930,6 +639930,13 @@
     spanish: "Puzzle Quest: Edición Inmortal"
     tchinese: "益智方塊: 不朽版"
 3237970:
+  installDir: Bubsy 4D
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Bubsy 4D.exe
+      type: default
   nameLocalized:
     japanese: Bubsy 4D (やまねこバブジー4D)
 3238580:
@@ -643629,6 +643636,7 @@
   nameLocalized:
     english: There Are No Orcs
     schinese: 这里没有兽人
+3481610: {}
 3482510:
   installDir: Packing Life
   launch:
@@ -647291,7 +647299,22 @@
   installDir: windows
   launch:
     - executable: Heaven Does Not Respond.exe
-3817710: {}
+3817710:
+  cloud:
+    saves:
+      - path: Limited Run Games/Rugrats Retro Rewind Collection/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Rugrats Collection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Rugrats.exe
+      type: default
 3819640:
   cloud:
     saves:
@@ -649258,11 +649281,11 @@
       - path: Warhammer Mark of Chaos Gold Classic/Save
         pattern: "*.WHBMSave"
         recursive: true
-        root: WinMyDocuments
+        root: WinAppDataRoaming
       - path: Warhammer Mark of Chaos Gold Classic/Save/Profiles
         pattern: "*.bin"
         recursive: true
-        root: WinMyDocuments
+        root: WinAppDataRoaming
   installDir: Warhammer Mark of Chaos - Gold Edition
   launch:
     - executable: Warhammer.exe

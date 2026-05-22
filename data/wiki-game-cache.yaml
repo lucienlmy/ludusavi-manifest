@@ -110670,6 +110670,10 @@ Hopeless Masquerade:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
+Hopetown:
+  lutris: hopetown
+  pageId: 216783
+  steam: 3481610
 Hopkins FBI:
   pageId: 16655
   templates:
@@ -267012,7 +267016,7 @@ Warhammer Survivors:
   steam: 4280940
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Warhammer Mark of Chaos\\Save\\|{{p|userprofile\\Documents}}\\Warhammer Battle March\\Save\\}}"
-    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Warhammer Mark of Chaos Gold Classic\\Save\\}}"
+    - "{{Game data/saves|Steam|{{p|appdata}}\\Warhammer Mark of Chaos Gold Classic\\Save\\}}"
 "Warhammer: Shadow of the Horned Rat":
   cloud:
     gog: true

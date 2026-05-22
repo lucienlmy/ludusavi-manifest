@@ -105106,6 +105106,14 @@ Bubsy 4D:
     lutris: bubsy-4d
     steamExtra:
       - 4032170
+  installDir:
+    Bubsy 4D: {}
+  launch:
+    "<base>/Bubsy 4D.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/Fabraz _ Atari/Bubsy 4D:
       tags:
@@ -342386,6 +342394,11 @@ HopeLine:
             store: steam
   steam:
     id: 886520
+Hopetown:
+  id:
+    lutris: hopetown
+  steam:
+    id: 3481610
 Hopkins FBI:
   files:
     "<base>/SAVE":
@@ -594317,6 +594330,19 @@ Rugosi:
 "Rugrats: Retro Rewind Collection":
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Limited Run Games/Rugrats Retro Rewind Collection":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Rugrats Collection: {}
+  launch:
+    "<base>/Rugrats.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3817710
 Ruin City Gasolina:
@@ -819838,17 +819864,17 @@ Warhammer Survivors:
     gog: true
     steam: true
   files:
-    "<winDocuments>/Warhammer Battle March/Save":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winDocuments>/Warhammer Mark of Chaos Gold Classic/Save":
+    "<winAppData>/Warhammer Mark of Chaos Gold Classic/Save":
       tags:
         - save
       when:
         - os: windows
           store: steam
+    "<winDocuments>/Warhammer Battle March/Save":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Warhammer Mark of Chaos/Save":
       tags:
         - save
