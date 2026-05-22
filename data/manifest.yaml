@@ -75999,6 +75999,8 @@ Becoming a Dandelion Spore:
   steam:
     id: 1048410
 Becrowned:
+  cloud:
+    steam: true
   id:
     lutris: becrowned
   steam:
@@ -259294,6 +259296,8 @@ Fateholders of Tetsoidea:
 Fatekeeper:
   cloud:
     steam: true
+  id:
+    lutris: fatekeeper
   steam:
     id: 2186990
 Fateless:
@@ -402778,6 +402782,11 @@ Lego Alpha Team:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/Dinner/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Warner Bros. Interactive Entertainment/LEGO Batman - Legacy of the Dark Knight/SaveGames":
       tags:
         - save
@@ -421436,6 +421445,7 @@ Luna Abyss:
     lutris: luna-abyss
     steamExtra:
       - 2423690
+      - 4577390
   installDir:
     Luna Abyss: {}
   launch:
@@ -767750,6 +767760,25 @@ Tohu:
         - config
   steam:
     id: 1075200
+Toilet Paper Idle:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/CHIZ/Toilet Paper Idle":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: toilet-paper-idle
+  installDir:
+    Toilet Paper Idle: {}
+  launch:
+    "<base>/Toilet Paper Idle.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4280420
 Toilet Party:
   steam:
     id: 2859880
@@ -819045,6 +819074,27 @@ Warhalla:
   steam:
     id: 673880
 "Warhammer 40,000: Mechanicus II":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BulwarkStudios/Mechanicus2/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BulwarkStudios/Mechanicus2/Variables":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Mechanicus2: {}
+  launch:
+    "<base>/Mechanicus2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2532480
 "Warhammer 40,000: Regicide":

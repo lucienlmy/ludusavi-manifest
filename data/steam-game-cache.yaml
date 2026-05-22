@@ -623493,7 +623493,52 @@
     - config:
         oslist: macos
       executable: VampiresMelody2.app/Contents/MacOS/VampiresMelody2
-2532480: {}
+2532480:
+  cloud:
+    saves:
+      - path: BulwarkStudios/Mechanicus2/Saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: BulwarkStudios/Mechanicus2/Variables
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: BulwarkStudios/Mechanicus2/Saves
+            replace: BulwarkStudios/Mechanicus2/Saves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: BulwarkStudios/Mechanicus2/Saves
+            replace: ".config/unity3d/BulwarkStudios/Mechanicus2/Saves"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: BulwarkStudios/Mechanicus2/Saves
+            replace: BulwarkStudios/Mechanicus2/Variables
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: BulwarkStudios/Mechanicus2/Saves
+            replace: ".config/unity3d/BulwarkStudios/Mechanicus2/Variables"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Mechanicus2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Mechanicus2.exe
 2532490:
   cloud:
     saves:
@@ -649063,6 +649108,10 @@
       type: default
 4271520: {}
 4277630: {}
+4280420:
+  installDir: Toilet Paper Idle
+  launch:
+    - executable: Toilet Paper Idle.exe
 4280860:
   cloud:
     saves:

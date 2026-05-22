@@ -2521,7 +2521,6 @@ A Building Full of Cats:
 A Bumpy Ride:
   cloud:
     steam: true
-  malformed: true
   pageId: 216726
   steam: 3056840
 A Business Power:
@@ -24685,6 +24684,8 @@ Becoming a Dandelion Spore:
   pageId: 132024
   steam: 1048410
 Becrowned:
+  cloud:
+    steam: true
   lutris: becrowned
   pageId: 214768
   steam: 2266890
@@ -83925,6 +83926,7 @@ Fateholders of Tetsoidea:
 Fatekeeper:
   cloud:
     steam: true
+  lutris: fatekeeper
   pageId: 206722
   steam: 2186990
 Fateless:
@@ -130304,9 +130306,11 @@ Lego Alpha Team:
     epic: true
     steam: true
   lutris: lego-batman-legacy-of-the-dark-knight
+  malformed: true
   pageId: 207259
   steam: 2215200
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Dinner\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Warner Bros. Interactive Entertainment\\LEGO Batman - Legacy of the Dark Knight\\SaveGames}}"
 "Lego Batman: The Videogame":
   cloud:
@@ -136361,6 +136365,7 @@ Luna Abyss:
   steam: 1933000
   steamSide:
     - 2423690
+    - 4577390
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\LunaAbyss\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\LunaAbyss\\Saved\\SaveGames}}"
@@ -248710,6 +248715,14 @@ Tohu:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Fireart Games\\TOHU\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Fireart Games\\TOHU\\}}"
+Toilet Paper Idle:
+  cloud:
+    steam: true
+  lutris: toilet-paper-idle
+  pageId: 216760
+  steam: 4280420
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\CHIZ\\Toilet Paper Idle}}"
 Toilet Party:
   pageId: 199920
   steam: 2859880
@@ -266661,8 +266674,12 @@ Warhalla:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\BulwarkStudios\\Mechanicus\\Saves\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/BulwarkStudios/Mechanicus/Saves/}}"
 "Warhammer 40,000: Mechanicus II":
+  cloud:
+    steam: true
   pageId: 195213
   steam: 2532480
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BulwarkStudios\\Mechanicus2\\Saves|{{p|userprofile\\appdata\\locallow}}\\BulwarkStudios\\Mechanicus2\\Variables}}"
 "Warhammer 40,000: Regicide":
   pageId: 46518
   steam: 322910
