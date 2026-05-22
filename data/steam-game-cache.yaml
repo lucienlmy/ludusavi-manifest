@@ -102947,7 +102947,7 @@
         root: gameinstall
   installDir: Angels Fall First
   launch:
-    - arguments: "-SEEKFREELOADING"
+    - arguments: "-SEEKFREELOADING -DX9"
       config:
         oslist: windows
       description: Launch
@@ -597588,7 +597588,10 @@
     schinese: 战场的赋格曲2
     spanish: "Fuga: Melodies of Steel 2"
     tchinese: 戰場的賦格曲 2
-2001760: {}
+2001760:
+  nameLocalized:
+    schinese: 轮回之兽
+    tchinese: 轉世之獸
 2002850:
   installDir: Raiden IV x MIKADO remix
   launch:

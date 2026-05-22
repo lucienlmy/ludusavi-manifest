@@ -38639,7 +38639,7 @@ Angels Fall First:
     Angels Fall First: {}
   launch:
     "<base>/Binaries/AFFLift.exe":
-      - arguments: "-SEEKFREELOADING"
+      - arguments: "-SEEKFREELOADING -DX9"
         when:
           - os: windows
             store: steam
@@ -402836,6 +402836,12 @@ Lego Alpha Team:
         - os: windows
   id:
     lutris: lego-batman-legacy-of-the-dark-knight
+    steamExtra:
+      - 4168610
+      - 4168620
+      - 4168630
+      - 4168640
+      - 4468750
   installDir:
     LEGO Batman - Legacy of the Dark Knight: {}
   launch:
@@ -487690,12 +487696,15 @@ Ninja Code:
     id: 949880
 Ninja Five-O:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Saved Games/Limited Run Games/Ninja Five-O":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1911433238
   installDir:
     Ninja Five-O: {}
   launch:
@@ -588379,10 +588388,15 @@ Rocket Knight:
   steam:
     id: 19030
 "Rocket Knight Adventures: Re-Sparked!":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<home>/Saved Games/Limited Run Games/ Rocket Knight Adventures":
       when:
         - store: steam
+  gog:
+    id: 1876835821
   installDir:
     Rocket Knight Adventures Re-Sparked!: {}
   launch:
@@ -739433,13 +739447,13 @@ The Matchless Kungfu:
     lutris: the-matrix-path-of-neo
 The Maw:
   files:
-    "<root>/userdata/96898617/26000/local":
+    "<root>/userdata/<storeUserId>/26000/local":
       tags:
         - save
       when:
         - os: windows
           store: steam
-    "<root>/userdata/96898617/26000/local/prefs.xml":
+    "<root>/userdata/<storeUserId>/26000/local/prefs.xml":
       tags:
         - config
       when:

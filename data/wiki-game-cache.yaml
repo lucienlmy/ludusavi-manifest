@@ -24045,6 +24045,8 @@ Beast Quest:
   lutris: beast-wars-transformers
   pageId: 80068
 Beast of Reincarnation:
+  cloud:
+    xbox: true
   lutris: beast-of-reincarnation
   pageId: 205825
   steam: 2001760
@@ -130324,9 +130326,14 @@ Lego Alpha Team:
     epic: true
     steam: true
   lutris: lego-batman-legacy-of-the-dark-knight
-  malformed: true
   pageId: 207259
   steam: 2215200
+  steamSide:
+    - 4168610
+    - 4168620
+    - 4168630
+    - 4168640
+    - 4468750
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Dinner\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Warner Bros. Interactive Entertainment\\LEGO Batman - Legacy of the Dark Knight\\SaveGames}}"
@@ -158194,7 +158201,9 @@ Ninja Commando:
   pageId: 168745
 Ninja Five-O:
   cloud:
+    gog: true
     steam: true
+  gog: 1911433238
   pageId: 202292
   steam: 2728200
 Ninja Gaiden:
@@ -190932,6 +190941,10 @@ Rocket Knight:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Climax\\RocketKnight\\GameFrameWork\\GameSettings}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\19030\\remote\\}}"
 "Rocket Knight Adventures: Re-Sparked!":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1876835821
   pageId: 204234
   steam: 2728190
 Rocket League:
@@ -239527,8 +239540,8 @@ The Maw:
   pageId: 15603
   steam: 26000
   templates:
-    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\96898617\\26000\\local\\prefs.xml}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\96898617\\26000\\local}}"
+    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{p|uid}}\\26000\\local\\prefs.xml}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{p|uid}}\\26000\\local}}"
 The Maze of Horror:
   pageId: 148455
   steam: 1170560
