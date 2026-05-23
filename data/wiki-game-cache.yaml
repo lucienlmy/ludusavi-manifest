@@ -38658,10 +38658,9 @@ Castlevania Dominus Collection:
   pageId: 9474
   steam: 234080
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\bin\\Profile\\Saves\\Castlevania.cfg|{{P|localappdata}}\\MercurySteam\\CastlevaniaLoS\\Castlevania.localcfg}}"
-    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\234080\\remote\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\bin\\Profile\\Saves\\Castlevania.profile}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\234080\\remote\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MercurySteam\\CastlevaniaLoS\\Castlevania.localcfg}}"
+    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\234080\\remote\\Castlevania.cfg}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\234080\\remote\\Castlevania.profile}}"
 "Castlevania: Lords of Shadow - Mirror of Fate HD":
   cloud:
     steam: true
@@ -73105,6 +73104,7 @@ Echoes of Aetheria:
 Echoes of Aincrad:
   cloud:
     steam: true
+  lutris: echoes-of-aincrad
   pageId: 214337
   steam: 2244210
 "Echoes of War: The Last Heartbeat":
@@ -208206,6 +208206,7 @@ Soda Drinker Pro:
 Soda Dungeon:
   cloud:
     steam: true
+  lutris: soda-dungeon
   pageId: 55059
   steam: 564710
   templates:

@@ -119880,19 +119880,13 @@ Castlevania Dominus Collection:
   cloud:
     steam: true
   files:
-    "<base>/bin/Profile/Saves/Castlevania.cfg":
+    "<root>/userdata/<storeUserId>/234080/remote/Castlevania.cfg":
       tags:
         - config
       when:
-        - os: windows
-    "<base>/bin/Profile/Saves/Castlevania.profile":
+        - store: steam
+    "<root>/userdata/<storeUserId>/234080/remote/Castlevania.profile":
       tags:
-        - save
-      when:
-        - os: windows
-    "<root>/userdata/<storeUserId>/234080/remote":
-      tags:
-        - config
         - save
       when:
         - store: steam
@@ -227095,6 +227089,8 @@ Echoes of Aetheria:
 Echoes of Aincrad:
   cloud:
     steam: true
+  id:
+    lutris: echoes-of-aincrad
   steam:
     id: 2244210
 "Echoes of War: The Last Heartbeat":
@@ -642515,6 +642511,8 @@ Soda Dungeon:
         - save
       when:
         - os: windows
+  id:
+    lutris: soda-dungeon
   installDir:
     Soda Dungeon: {}
   launch:
