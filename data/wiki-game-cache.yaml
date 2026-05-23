@@ -57359,6 +57359,7 @@ Dead Reset:
   pageId: 208759
   steam: 1346840
   steamSide:
+    - 3365550
     - 3496680
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\1346840\\remote\\}}"
@@ -186186,7 +186187,11 @@ Remnith:
   pageId: 66669
   steam: 578390
 "Remorse: The List":
+  cloud:
+    gog: true
+    steam: true
   gog: 1452095777
+  lutris: remorse-the-list
   pageId: 128753
   steam: 867960
 Remorses:
@@ -189707,6 +189712,10 @@ Rite of Life:
 Ritter:
   pageId: 104375
   steam: 887710
+Ritual Tides:
+  lutris: ritual-tides
+  pageId: 216796
+  steam: 3548810
 Ritual of the Moon:
   pageId: 124386
   steam: 993500
@@ -244172,6 +244181,10 @@ The Twelve Trials:
 The Twiggles VR:
   pageId: 110700
   steam: 931570
+The Twilight Project:
+  lutris: the-twilight-project
+  pageId: 216792
+  steam: 3838790
 The Twins:
   pageId: 156392
   steam: 1218570
@@ -244180,6 +244193,14 @@ The Twins:
     steam: true
   pageId: 11856
   steam: 246580
+  steamSide:
+    - 255210
+    - 259210
+    - 259211
+    - 278130
+    - 278131
+    - 282520
+    - 286920
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Sega\\Typing of the Dead Overkill}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Sega\\Typing of the Dead Overkill}}"

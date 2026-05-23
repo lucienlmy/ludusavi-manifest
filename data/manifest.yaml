@@ -178391,6 +178391,7 @@ Dead Reset:
   id:
     lutris: dead-reset
     steamExtra:
+      - 3365550
       - 3496680
   installDir:
     Dead Reset: {}
@@ -574117,6 +574118,9 @@ Remnith:
   steam:
     id: 578390
 "Remorse: The List":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<winLocalAppData>/Doubt/Saved/SaveGames/*.sav":
       when:
@@ -574124,6 +574128,8 @@ Remnith:
           store: steam
   gog:
     id: 1452095777
+  id:
+    lutris: remorse-the-list
   installDir:
     Remorse The List: {}
   launch:
@@ -584496,6 +584502,11 @@ Ritter:
           - store: steam
   steam:
     id: 887710
+Ritual Tides:
+  id:
+    lutris: ritual-tides
+  steam:
+    id: 3548810
 Ritual of the Moon:
   installDir:
     Ritual of the Moon: {}
@@ -753495,6 +753506,11 @@ The Twiggles VR:
     Twiggles: {}
   steam:
     id: 931570
+The Twilight Project:
+  id:
+    lutris: the-twilight-project
+  steam:
+    id: 3838790
 The Twins:
   installDir:
     The Twins: {}
@@ -753515,6 +753531,15 @@ The Twins:
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 255210
+      - 259210
+      - 259211
+      - 278130
+      - 278131
+      - 282520
+      - 286920
   installDir:
     Typing of the Dead Overkill: {}
   launch:
