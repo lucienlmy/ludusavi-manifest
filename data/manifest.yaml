@@ -172512,6 +172512,9 @@ Dark Scavenger:
             store: steam
   steam:
     id: 293880
+Dark Scrolls:
+  steam:
+    id: 2912550
 Dark Sector:
   files:
     "<base>/Configs":
@@ -310887,6 +310890,11 @@ Grin Bandana:
 Grind Zones:
   steam:
     id: 327680
+Grindset T.V.:
+  id:
+    lutris: grindset-tv
+  steam:
+    id: 3159750
 Grindstone:
   cloud:
     epic: true
@@ -720378,6 +720386,22 @@ The Curse of Nordic Cove:
             store: steam
   steam:
     id: 358000
+The Curse of Womanland:
+  files:
+    "<home>/AppData/LocalLow/FuliGames/Cruse Of Womanland/CloudData/Saves":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    The Curse of Womanland: {}
+  launch:
+    "<base>/Cruse Of Womanland.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3995110
 The Curse of Yendor:
   installDir:
     The Curse Of Yendor: {}

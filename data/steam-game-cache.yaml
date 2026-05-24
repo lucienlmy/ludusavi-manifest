@@ -633588,6 +633588,7 @@
         oslist: windows
       executable: Sift Heads - Cartels.exe
       type: default
+2912550: {}
 2914390:
   cloud:
     saves:
@@ -638578,6 +638579,9 @@
     koreana: 어쌔신 크리드 섀도우스
     schinese: 刺客信条：影
     tchinese: 刺客教條：暗影者
+3159750:
+  nameLocalized:
+    schinese: 奶头乐TV
 3160140: {}
 3161220:
   cloud:
@@ -648459,6 +648463,10 @@
         oslist: windows
       executable: Skateboard_Game.exe
       type: default
+3995110:
+  installDir: The Curse of Womanland
+  launch:
+    - executable: Cruse Of Womanland.exe
 3996530:
   installDir: "Maggie's Farmyard Adventure"
   launch:

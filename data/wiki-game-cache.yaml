@@ -39085,6 +39085,8 @@ Catechumen:
   pageId: 77673
 Caterpillar:
   pageId: 214897
+Caterpillar Construction Tycoon:
+  pageId: 216816
 Caterpillar Royale:
   pageId: 135012
   steam: 1071800
@@ -55464,6 +55466,9 @@ Dark Scavenger:
     - 339770
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\DarkScavenger\\SaveFile.txt}}"
+Dark Scrolls:
+  pageId: 216826
+  steam: 2912550
 Dark Sector:
   lutris: dark-sector
   pageId: 13010
@@ -100402,6 +100407,10 @@ Grin Bandana:
 Grind Zones:
   pageId: 42257
   steam: 327680
+Grindset T.V.:
+  lutris: grindset-tv
+  pageId: 216822
+  steam: 3159750
 Grindstone:
   cloud:
     epic: true
@@ -190586,6 +190595,8 @@ Robot Arena:
 Robot Arena III:
   pageId: 35234
   steam: 363530
+"Robot Arena: Design and Destroy":
+  pageId: 216820
 Robot Boy:
   pageId: 152951
   steam: 1186760
@@ -211887,6 +211898,8 @@ SpaceGeon:
 SpaceJourney VR:
   pageId: 57560
   steam: 574920
+SpaceKids:
+  pageId: 216824
 SpaceMerc:
   cloud:
     steam: true
@@ -233183,6 +233196,12 @@ The Curse of Montezuma:
 The Curse of Nordic Cove:
   pageId: 48112
   steam: 358000
+The Curse of Womanland:
+  pageId: 216815
+  steam: 3995110
+  templates:
+    - "{{Game data/config|Steam|{{P|userprofile\\appdata\\locallow}}\\FuliGames\\Cruse Of Womanland\\CloudData\\Saves\\}}"
+    - "{{Game data/config|Steam|{{P|userprofile\\appdata\\locallow}}\\FuliGames\\Cruse Of Womanland\\CloudData\\Saves\\}}"
 The Curse of Yendor:
   pageId: 57004
   steam: 576420
