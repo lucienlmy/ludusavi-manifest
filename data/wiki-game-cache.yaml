@@ -144475,7 +144475,8 @@ Metro 2033:
     - 43130
     - 43140
   templates:
-    - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\43110\\remote\\user.cfg}}"
+    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\43110\\remote\\user.cfg{{note|A local copy of the settings is stored in {{file|{{p|localappdata}}\\4A Games\\Metro 2033\\user.cfg}}, but only changes made to the Steam instance will be effective.}}}}"
+    - "{{Game data/config|GOG.com|{{p|localappdata}}\\4A Games\\Metro 2033\\user.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\4A Games\\Metro 2033\\}}"
 Metro 2033 Redux:
   cloud:
@@ -183304,6 +183305,7 @@ Ravenous Devils:
   gog: 1493727988
   gogSide:
     - 1866198789
+  lutris: ravenous-devils
   pageId: 177365
   steam: 1615290
   steamSide:
@@ -230706,6 +230708,8 @@ The Adventures of Elena Temple:
   lutris: the-adventures-of-elliot-the-millennium-tales
   pageId: 213500
   steam: 3483510
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\The Adventures of Elliot_The Millennium Tales\\Steam\\Config\\Windows}}"
 The Adventures of Fatman:
   cloud:
     steam: true

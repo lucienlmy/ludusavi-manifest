@@ -446272,13 +446272,18 @@ Metro 2033:
       tags:
         - config
       when:
-        - os: windows
-          store: steam
+        - store: steam
     "<winDocuments>/4A Games/Metro 2033":
       tags:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/4A Games/Metro 2033/user.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: gog
   gog:
     id: 1259935712
   id:
@@ -565308,6 +565313,7 @@ Ravenous Devils:
   id:
     gogExtra:
       - 1866198789
+    lutris: ravenous-devils
     steamExtra:
       - 1696410
   installDir:
@@ -712725,6 +712731,12 @@ The Adventures of Elena Temple:
 "The Adventures of Elliot: The Millennium Tales":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/The Adventures of Elliot_The Millennium Tales/Steam/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: the-adventures-of-elliot-the-millennium-tales
   steam:
