@@ -147308,6 +147308,10 @@ Mistress of Maids:
 "Mistress of Maids: First Castle":
   pageId: 130145
   steam: 1035800
+Mists of Aiden:
+  lutris: mists-of-aiden
+  pageId: 216828
+  steam: 1239050
 Mists of Noyah:
   pageId: 210131
   steam: 1168870
@@ -158234,12 +158238,12 @@ Ninja Commando:
     xbox: true
   pageId: 168745
 Ninja Five-O:
-  cloud:
-    gog: true
-    steam: true
   gog: 1911433238
+  malformed: true
   pageId: 202292
   steam: 2728200
+  templates:
+    - "{{Game data/config|Windows|{{Game data|\n{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Ninja Five-O\\system.cfg}}}}\n}}\n}}"
 Ninja Gaiden:
   pageId: 176109
 Ninja Gaiden 2 Black:
@@ -190993,7 +190997,7 @@ Rocket Knight:
   pageId: 204234
   steam: 2728190
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\system.cfg}}"
+    - "{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\system.cfg}}}}"
     - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\0}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\1}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\2}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\3}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\4}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\5}}}}"
 Rocket League:
   cloud:
@@ -269210,6 +269214,8 @@ Western Province:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\WestildsLawWin64\\SavesDir\\*.sav}}"
     - "{{Game data/saves|Linux|{{p|game}}/linux64/SavesDir/*.sav}}"
+Westlife Fan-O-Mania:
+  pageId: 216831
 Westmark Manor:
   cloud:
     gog: true

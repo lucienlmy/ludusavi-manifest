@@ -454858,6 +454858,19 @@ Mistress of Maids:
           - store: steam
   steam:
     id: 1035800
+Mists of Aiden:
+  id:
+    lutris: mists-of-aiden
+  installDir:
+    Fear Deception: {}
+  launch:
+    "<base>/MistsOfAiden.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1239050
 Mists of Noyah:
   id:
     steamExtra:
@@ -487747,9 +487760,6 @@ Ninja Code:
   steam:
     id: 949880
 Ninja Five-O:
-  cloud:
-    gog: true
-    steam: true
   files:
     "<home>/Saved Games/Limited Run Games/Ninja Five-O":
       when:
@@ -588455,11 +588465,9 @@ Rocket Knight:
     gog: true
     steam: true
   files:
-    "<home>/Saved Games/Limited Run Games/Rocket Knight Adventures/system.cfg":
-      tags:
-        - config
+    "<home>/Saved Games/Limited Run Games/ Rocket Knight Adventures":
       when:
-        - os: windows
+        - store: steam
   gog:
     id: 1876835821
   installDir:

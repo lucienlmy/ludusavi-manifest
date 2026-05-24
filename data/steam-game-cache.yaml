@@ -533853,6 +533853,14 @@
         oslist: windows
       executable: TogetherBNB.exe
       type: default
+1239050:
+  installDir: Fear Deception
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MistsOfAiden.exe
+      type: default
 1239080:
   cloud:
     saves:
