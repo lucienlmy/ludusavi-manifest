@@ -1415,6 +1415,7 @@
         oslist: macos
       description: Launch Call of Duty 2 Multiplayer
       executable: Call of Duty 2.app/Contents/Call of Duty 2 Multiplayer.app
+2670: {}
 2680:
   installDir: The History Channel Civil War
   launch:
@@ -630070,6 +630071,23 @@
     - config:
         oslist: macos
       executable: gears.app
+2747330:
+  cloud:
+    saves:
+      - path: SpeciesUnknown/Saved/SaveGames
+        pattern: SaveGame_Progress.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Species Unknown
+  launch:
+    - arguments: "-nohmd"
+      executable: SpeciesUnknown.exe
+      type: default
+    - arguments: "-nohmd -dx11"
+      description: with DirectX11 compatibility (may reduce crashes)
+      executable: SpeciesUnknown.exe
+      type: option1
 2747550:
   cloud:
     saves:
@@ -646335,6 +646353,46 @@
       type: option2
   nameLocalized:
     schinese: 裂隙防线 Repel The Rifts
+3689520:
+  cloud:
+    saves:
+      - path: "EmpromGame/Bioprototype/{Steam3AccountID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "EmpromGame/Bioprototype/{Steam3AccountID}"
+            replace: ".config/unity3d/EmpromGame/Bioprototype/{Steam3AccountID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "EmpromGame/Bioprototype/{Steam3AccountID}"
+            replace: "EmpromGame/Bioprototype/{Steam3AccountID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Bioprototype
+  launch:
+    - config:
+        oslist: windows
+      executable: Bioprototype.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Bioprototype.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: "Bioprototype.app\\Contents\\MacOS\\Bioprototype"
+      type: default
+  nameLocalized:
+    japanese: "バイオプロトタイプ "
+    schinese: 原点计划
+    tchinese: 原點計劃
 3690010:
   cloud:
     saves:
@@ -649604,6 +649662,7 @@
 4475520: {}
 4484200: {}
 4491360: {}
+4508340: {}
 4514070: {}
 4514310: {}
 4516190: {}

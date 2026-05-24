@@ -53892,6 +53892,8 @@ Astral Ascent:
     id: 1258111216
   id:
     gogExtra:
+      - 1096220576
+      - 1109163799
       - 1192016490
       - 1418842699
       - 1474285640
@@ -53902,6 +53904,8 @@ Astral Ascent:
       - 1704140
       - 3073420
       - 3372880
+      - 4116520
+      - 4499280
   installDir:
     Astral Ascent: {}
   launch:
@@ -82598,6 +82602,33 @@ Bionicle Heroes:
             store: steam
   steam:
     id: 414770
+Bioprototype:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/EmpromGame/Bioprototype/86850130":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Bioprototype: {}
+  launch:
+    "<base>/Bioprototype.app/Contents/MacOS/Bioprototype":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Bioprototype.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Bioprototype.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3689520
 Biorhythm:
   files:
     "<home>/AppData/LocalLow/overfull/biorhythm/SteamUserData/<storeUserId>/*.gd":
@@ -115856,6 +115887,10 @@ Car Mechanic Simulator 2018:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Red Dot Games/Car Mechanic Simulator 2018:
+      tags:
+        - config
   steam:
     id: 645630
 Car Mechanic Simulator 2021:
@@ -140456,6 +140491,8 @@ Coffee Talk:
   steam:
     id: 1663220
 Coffee Talk Tokyo:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Chorus Worldwide/CTT/SaveData/Steam/<storeUserId>":
       when:
@@ -327100,8 +327137,10 @@ Hektor:
   steam:
     id: 334070
 Hela:
+  alias: "Hela: Of Mice & Magic"
+"Hela: Of Mice & Magic":
   id:
-    lutris: hela
+    lutris: hela-of-mice-and-magic
   steam:
     id: 3161310
 Heldric - The legend of the shoemaker:
@@ -422571,7 +422610,6 @@ Lusty God:
     id: 2300660
 Luto:
   cloud:
-    epic: true
     steam: true
   files:
     "<winLocalAppData>/Luto/Saved/Config/Windows":
@@ -422586,6 +422624,8 @@ Luto:
         - os: windows
   id:
     lutris: luto
+    steamExtra:
+      - 4075240
   installDir:
     Luto: {}
   launch:
@@ -483224,6 +483264,8 @@ Nevermind This:
 Neverness to Everness:
   id:
     lutris: neverness-to-everness/
+  steam:
+    id: 4508340
 Neverout:
   installDir:
     Neverout: {}
@@ -588399,9 +588441,11 @@ Rocket Knight:
     gog: true
     steam: true
   files:
-    "<home>/Saved Games/Limited Run Games/ Rocket Knight Adventures":
+    "<home>/Saved Games/Limited Run Games/Rocket Knight Adventures/system.cfg":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1876835821
   installDir:
@@ -655303,6 +655347,21 @@ Special Warfare:
             store: steam
   steam:
     id: 774541
+"Species: Unknown":
+  files:
+    "<winLocalAppData>/SpeciesUnknown/Saved/SaveGames/SaveGame_Progress.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Species Unknown: {}
+  launch:
+    "<base>/SpeciesUnknown.exe":
+      - arguments: "-nohmd"
+        when:
+          - store: steam
+  steam:
+    id: 2747330
 Speckle:
   installDir:
     Speckle: {}
@@ -838066,6 +838125,9 @@ World Racing 2:
     gog: true
   gog:
     id: 1207658990
+"World Series of Poker: Tournament of Champions":
+  steam:
+    id: 2670
 World Ship Simulator:
   installDir:
     World Ship Simulator: {}

@@ -17273,6 +17273,8 @@ Astral Ascent:
     steam: true
   gog: 1258111216
   gogSide:
+    - 1096220576
+    - 1109163799
     - 1192016490
     - 1418842699
     - 1474285640
@@ -17285,6 +17287,8 @@ Astral Ascent:
     - 1704140
     - 3073420
     - 3372880
+    - 4116520
+    - 4499280
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Astral Ascent\\{{P|uid}}\\aa_options.sav}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Astral Ascent/{{P|uid}}/aa_options.sav}}"
@@ -26689,6 +26693,14 @@ Bionicle Heroes:
 "Bionite: Origins":
   pageId: 45146
   steam: 414770
+Bioprototype:
+  cloud:
+    steam: true
+  pageId: 216802
+  steam: 3689520
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\EmpromGame\\Bioprototype\\86850130\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\EmpromGame\\Bioprototype\\86850130\\}}"
 Biorhythm:
   pageId: 132789
   steam: 1033340
@@ -37322,6 +37334,7 @@ Car Mechanic Simulator 2018:
   pageId: 63322
   steam: 645630
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator 2018}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Red Dot Games\\Car Mechanic Simulator 2018\\}}"
 Car Mechanic Simulator 2021:
   cloud:
@@ -44997,6 +45010,8 @@ Coffee Talk:
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Toge Productions\\CTHB\\SaveData\\Steam\\{{p|uid}}}}"
 Coffee Talk Tokyo:
+  cloud:
+    steam: true
   gog: 1655473839
   pageId: 200390
   steam: 3161220
@@ -93930,6 +93945,8 @@ Garfield Lasagna Party:
   lutris: garfield-caught-in-the-act
   pageId: 88455
 "Garfield: Escape From Monday":
+  cloud:
+    xbox: true
   pageId: 216596
   steam: 3932790
 "Garfield: It's All about Phonics - Kindergarten":
@@ -103587,6 +103604,8 @@ Hangman:
 Hangover:
   pageId: 79246
   steam: 770440
+Hangover Gallery:
+  pageId: 216809
 Hangry Bunnies From Mars:
   pageId: 67907
   steam: 672910
@@ -105777,9 +105796,11 @@ Hektor:
   steam: 334070
   steamSide:
     - 355590
-Hela:
-  lutris: hela
+"Hela: Of Mice & Magic":
+  lutris: hela-of-mice-and-magic
   pageId: 214162
+  renamedFrom:
+    - Hela
   steam: 3161310
 Heldric - The legend of the shoemaker:
   pageId: 50420
@@ -136719,11 +136740,12 @@ Lusty God:
   steam: 2300660
 Luto:
   cloud:
-    epic: true
     steam: true
   lutris: luto
   pageId: 206265
   steam: 1729740
+  steamSide:
+    - 4075240
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Luto\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Luto\\Saved\\SaveGames\\}}"
@@ -156685,6 +156707,7 @@ Nevermind This:
 Neverness to Everness:
   lutris: neverness-to-everness/
   pageId: 216079
+  steam: 4508340
 Neverout:
   cloud:
     xbox: true
@@ -190956,6 +190979,9 @@ Rocket Knight:
   gog: 1876835821
   pageId: 204234
   steam: 2728190
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\system.cfg}}"
+    - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\0}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\1}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\2}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\3}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\4}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\5}}}}"
 Rocket League:
   cloud:
     steam: true
@@ -212387,6 +212413,9 @@ Special Warfare:
 "Species: Artificial Life, Real Evolution":
   pageId: 105201
   steam: 774541
+"Species: Unknown":
+  pageId: 216803
+  steam: 2747330
 Speckle:
   pageId: 96733
   steam: 873160
@@ -272835,6 +272864,9 @@ World Racing 2:
   pageId: 171006
 "World Series of Poker: Full House Pro":
   pageId: 178671
+"World Series of Poker: Tournament of Champions":
+  pageId: 216807
+  steam: 2670
 World Ship Simulator:
   pageId: 45603
   steam: 403980
