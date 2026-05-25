@@ -648806,34 +648806,32 @@
         useInstead: LinuxHome
   installDir: Microlandia
   launch:
-    - arguments: "--webgpu"
-      config:
+    - config:
         oslist: macos
       executable: microlandia.app
       type: default
-    - arguments: "--out-of-process-gpu --enable-direct-composition --webgpu"
-      config:
+    - config:
         oslist: windows
       executable: microlandia.exe
       type: default
-    - arguments: "--webgpu"
+    - arguments: "--use-gl-angle"
       config:
         oslist: linux
       executable: run.sh
       type: default
-    - arguments: "--out-of-process-gpu --enable-direct-composition --webgpu"
+    - arguments: "--webgl"
       config:
         betakey: prerelease
         oslist: windows
-      description: Microlandia (WebGPU)
+      description: Microlandia (WebGL)
       executable: microlandia.exe
       type: option1
-    - arguments: "--webgpu"
+    - arguments: "--webgl"
       config:
         betakey: prerelease
-        oslist: macos
-      description: Microlandia (WebGPU)
-      executable: microlandia.app
+        oslist: linux
+      description: Microlandia (WebGL)
+      executable: run.sh
       type: option1
 4094660:
   nameLocalized:

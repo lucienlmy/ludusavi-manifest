@@ -212433,8 +212433,16 @@ Special Warfare:
   pageId: 105201
   steam: 774541
 "Species: Unknown":
+  cloud:
+    steam: true
+  lutris: species-unknown
   pageId: 216803
   steam: 2747330
+  steamSide:
+    - 4030870
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\SpeciesUnknown\\Saved\\SaveGames\\|{{p|localappdata}}\\SpeciesUnknown\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\SpeciesUnknown\\Saved\\SaveGames\\SaveGame_Progress.sav}}"
 Speckle:
   pageId: 96733
   steam: 873160

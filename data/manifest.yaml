@@ -447562,17 +447562,15 @@ Microlandia:
     Microlandia: {}
   launch:
     "<base>/microlandia.app":
-      - arguments: "--webgpu"
-        when:
+      - when:
           - os: mac
             store: steam
     "<base>/microlandia.exe":
-      - arguments: "--out-of-process-gpu --enable-direct-composition --webgpu"
-        when:
+      - when:
           - os: windows
             store: steam
     "<base>/run.sh":
-      - arguments: "--webgpu"
+      - arguments: "--use-gl-angle"
         when:
           - os: linux
             store: steam
@@ -655370,11 +655368,28 @@ Special Warfare:
   steam:
     id: 774541
 "Species: Unknown":
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/SpeciesUnknown/Saved/SaveGames/SaveGame_Progress.sav":
+    "<winLocalAppData>/SpeciesUnknown/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/SpeciesUnknown/Saved/SaveGames":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/SpeciesUnknown/Saved/SaveGames/SaveGame_Progress.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: species-unknown
+    steamExtra:
+      - 4030870
   installDir:
     Species Unknown: {}
   launch:
