@@ -593650,8 +593650,9 @@
       description: Nero - Shipping (No Cheats)
       executable: "\\game\\Nero\\Binaries\\Win64\\MafiaTheOldCountry.exe"
       type: option1
-    - config:
-        betakey: test_protected
+    - arguments: "-final -ExecCmds=\"H13.DebugOverlay.Enable 0, DISABLEALLSCREENMESSAGES, Slate.GameLayer.DebugCanvasVisible 0, H13.Entitlements.GrantAllEntitlements\" -enableDLC -enableFreeride"
+      config:
+        betakey: age_ratings
       description: Nero - Test (Disabled Debug UI)
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
       type: option1
@@ -624018,7 +624019,7 @@
     czech: "Broken Sword - Stín templářů: Reforged"
     english: "Broken Sword - Shadow of the Templars: Reforged"
     french: "Les Chevaliers de Baphomet - L'Ombre des Templiers: Reforged"
-    german: "Baphomets Fluch - Die Verschwörung der Tempelritter: Reforged Edition"
+    german: "Baphomets Fluch - Die Verschwörung der Tempelritter: Reforged"
     italian: "Broken Sword - Il Segreto dei Templari: Reforged"
     polish: "Broken Sword - Cień templariuszy: Reforged"
     russian: "Сломанный меч – Тень Тамплиеров: Перекованное издание"
@@ -648424,6 +648425,14 @@
   installDir: Perfect Date - HD -
   launch:
     - executable: PerfectDateHD.exe
+3979350:
+  installDir: Butcherman
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Butcherman.exe
+      type: default
 3979770: {}
 3981100:
   cloud:

@@ -108759,6 +108759,19 @@ ButcherBoy:
             store: steam
   steam:
     id: 826160
+Butcherman:
+  id:
+    lutris: butcherman
+  installDir:
+    Butcherman: {}
+  launch:
+    "<base>/Butcherman.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3979350
 Butsbal:
   installDir:
     Butsbal: {}
@@ -421806,6 +421819,8 @@ Lunacid:
   steam:
     id: 3506110
 "Lunacy: Saint Rhodes":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Lunacy/Saved/*.jpg":
       when:
@@ -421815,6 +421830,12 @@ Lunacid:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2051120275
+  id:
+    lutris: lunacy-saint-rhodes
+    steamExtra:
+      - 2183510
   installDir:
     Lunacy: {}
   launch:
@@ -787296,6 +787317,17 @@ Turbo Pug DX:
 Turbo Sloths:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Turbo Sloths/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Turbo Sloths/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: turbo-sloths
     steamExtra:

@@ -35073,6 +35073,10 @@ Butcher:
 ButcherBoy:
   pageId: 91214
   steam: 826160
+Butcherman:
+  lutris: butcherman
+  pageId: 216866
+  steam: 3979350
 Butsbal:
   pageId: 47647
   steam: 375330
@@ -136497,8 +136501,14 @@ Lunacid:
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
 "Lunacy: Saint Rhodes":
+  cloud:
+    steam: true
+  gog: 2051120275
+  lutris: lunacy-saint-rhodes
   pageId: 109172
   steam: 874450
+  steamSide:
+    - 2183510
 Lunaform:
   pageId: 65053
   steam: 597190
@@ -256005,6 +256015,9 @@ Turbo Sloths:
     - 1760730
     - 2226040
     - 2226050
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Turbo Sloths\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Turbo Sloths\\Saved\\SaveGames}}"
 Turbo Soccer VR:
   pageId: 95150
   steam: 828770
