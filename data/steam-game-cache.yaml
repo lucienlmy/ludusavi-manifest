@@ -587117,6 +587117,16 @@
         oslist: windows
       executable: NightmareOfDecay.exe
       type: default
+1848460:
+  installDir: Odyssey of Gianna
+  launch:
+    - arguments: "-windowed"
+      config:
+        oslist: windows
+      executable: Odyssey of Gianna Launcher.exe
+      type: default
+  nameLocalized:
+    japanese: オデッセイ・オブ・ジアナ
 1848870:
   installDir: Hologram
   launch:
@@ -615414,6 +615424,22 @@
   installDir: Kill It With Fire 2
   launch:
     - executable: Kani.exe
+2357400:
+  cloud:
+    saves:
+      - path: "My Games\\Idea Factory International, Inc\\Mary Skelter Finale"
+        pattern: "*.*"
+        root: WinMyDocuments
+  installDir: Mary Skelter Finale
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MarySkelterFinale.exe
+      type: default
+  nameLocalized:
+    japanese: 神獄塔 メアリスケルターFinale
+    tchinese: 神獄塔 斷罪瑪麗Finale
 2357570:
   installDir: Overwatch
   launch:
@@ -649673,6 +649699,27 @@
       executable: LEAVES 3.app
       type: default
 4465790: {}
+4466620:
+  cloud:
+    saves:
+      - path: Uu/SiNiSistar2/SaveData_S/
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: com.Uu.SiNiSistar2/SaveData_S/
+        pattern: "*"
+        platforms:
+          - MacOS
+        root: MacAppSupport
+  installDir: SiNiSistar 2
+  launch:
+    - config:
+        oslist: windows
+      executable: SiNiSistar2.exe
+    - config:
+        oslist: macos
+      executable: SiNiSistar2.app
 4475520: {}
 4484200: {}
 4491360: {}
@@ -649686,6 +649733,12 @@
     schinese: 城市蓝图
 4549480: {}
 4557490: {}
+4562200:
+  installDir: Unfair Corners
+  launch:
+    - description: Windows
+      executable: BouncingBall.exe
+      type: default
 4605200: {}
 4665880: {}
 4669670:

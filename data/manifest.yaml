@@ -435667,6 +435667,26 @@ Mary Skelter 2:
             store: steam
   steam:
     id: 1496250
+Mary Skelter Finale:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Idea Factory International, Inc/Mary Skelter Finale":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Mary Skelter Finale: {}
+  launch:
+    "<base>/MarySkelterFinale.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2357400
 "Mary Skelter: Nightmares":
   cloud:
     gog: true
@@ -497562,6 +497582,36 @@ Odyssey Reborn:
           - store: steam
   steam:
     id: 738600
+Odyssey of Gianna:
+  files:
+    "<base>/Game/www/save_Easy":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<base>/Game/www/save_Hard":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<base>/Game/www/save_Normal":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Odyssey of Gianna: {}
+  launch:
+    "<base>/Odyssey of Gianna Launcher.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1848460
 Oedipus Dating Sim:
   cloud:
     steam: true
@@ -627127,6 +627177,29 @@ SiNKR 3:
             store: steam
   steam:
     id: 1705580
+SiNiSistar 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Uu/SiNiSistar2/SaveData_S":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    SiNiSistar 2: {}
+  launch:
+    "<base>/SiNiSistar2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SiNiSistar2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4466620
 Siam Twinstick:
   installDir:
     Siam Twinstick: {}
@@ -720414,7 +720487,9 @@ The Curse of Womanland:
     "<home>/AppData/LocalLow/FuliGames/Cruse Of Womanland/CloudData/Saves":
       tags:
         - config
+        - save
       when:
+        - os: windows
         - os: windows
           store: steam
   installDir:
@@ -796113,6 +796188,15 @@ Unexplored:
           - store: steam
   steam:
     id: 1095040
+Unfair Corners:
+  installDir:
+    Unfair Corners: {}
+  launch:
+    "<base>/BouncingBall.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4562200
 Unfair Jousting Fair:
   installDir:
     Unfair Jousting Fair: {}
@@ -827738,6 +827822,8 @@ When Sirens Fall Silent:
     steam: true
   gog:
     id: 1149533967
+  id:
+    lutris: when-sirens-fall-silent
   steam:
     id: 2600920
 When Ski Lifts Go Wrong:

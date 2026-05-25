@@ -140969,6 +140969,14 @@ Mary Skelter 2:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\MarySkelter2.ini}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Ghostlight Ltd\\Mary Skelter 2}}"
+Mary Skelter Finale:
+  cloud:
+    steam: true
+  pageId: 216857
+  steam: 2357400
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}/My Games/Idea Factory International, Inc/Mary Skelter Finale/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}/My Games/Idea Factory International, Inc/Mary Skelter Finale/}}"
 "Mary Skelter: Nightmares":
   cloud:
     gog: true
@@ -161490,6 +161498,12 @@ Odyssey Reborn:
 "Odyssey VR: The Deep Space Expedition":
   pageId: 76002
   steam: 738600
+Odyssey of Gianna:
+  pageId: 216835
+  steam: 1848460
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Game\\www\\save_Easy\\|{{P|game}}\\Game\\www\\save_Normal\\|{{P|game}}\\Game\\www\\save_Hard\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Game\\www\\save_Easy\\|{{P|game}}\\Game\\www\\save_Normal\\|{{P|game}}\\Game\\www\\save_Hard\\}}"
 Oedipus Dating Sim:
   cloud:
     steam: true
@@ -203445,6 +203459,14 @@ SiNKR 3:
   lutris: sinkr-3
   pageId: 186736
   steam: 1705580
+SiNiSistar 2:
+  cloud:
+    steam: true
+  pageId: 216846
+  steam: 4466620
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/Uu/SiNiSistar2/SaveData_S/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/Uu/SiNiSistar2/SaveData_S/}}"
 Siam Twinstick:
   pageId: 121817
   steam: 969240
@@ -233213,7 +233235,7 @@ The Curse of Womanland:
   steam: 3995110
   templates:
     - "{{Game data/config|Steam|{{P|userprofile\\appdata\\locallow}}\\FuliGames\\Cruse Of Womanland\\CloudData\\Saves\\}}"
-    - "{{Game data/config|Steam|{{P|userprofile\\appdata\\locallow}}\\FuliGames\\Cruse Of Womanland\\CloudData\\Saves\\}}"
+    - "{{Game data/saves| Windows | {{p|userprofile\\appdata\\locallow}}\\FuliGames\\Cruse Of Womanland\\CloudData\\Saves\\ | }}"
 The Curse of Yendor:
   pageId: 57004
   steam: 576420
@@ -258888,6 +258910,9 @@ Unexplored:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Ludomotion\\Unexplored2\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Ludomotion\\Unexplored2\\}}"
+Unfair Corners:
+  pageId: 216858
+  steam: 4562200
 Unfair Jousting Fair:
   pageId: 46578
   steam: 377550
@@ -269574,6 +269599,7 @@ When Sirens Fall Silent:
   cloud:
     steam: true
   gog: 1149533967
+  lutris: when-sirens-fall-silent
   pageId: 211716
   steam: 2600920
 When Ski Lifts Go Wrong:
@@ -275049,6 +275075,8 @@ Xuan-Yuan Sword VII:
 X少女逃脱 x girl escape:
   pageId: 143867
   steam: 1140340
+"Y2K: The Game":
+  pageId: 216862
 "YANKAI'S PEAK.":
   cloud:
     steam: true
