@@ -145728,6 +145728,14 @@ Migrate:
 "Mika and Sadie's Adventure":
   pageId: 190040
   steam: 1764960
+"Mika and The Witch's Mountain":
+  cloud:
+    steam: true
+  lutris: mika-and-the-witchs-mountain
+  pageId: 216867
+  steam: 1819460
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Chibig\\Mika\\Save}}"
 Mikapyon:
   pageId: 128001
   steam: 969060
@@ -148245,6 +148253,8 @@ Monopoly Tycoon:
     - "{{Game data/saves|Windows|{{p|game}}\\profiles}}"
 "Monopoly: SpongeBob SquarePants Edition":
   pageId: 189870
+  templates:
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Virtools\\UserConfig\\Sarbakan\\SBMonopoly\\}}"
 "Monopoly: Star Wars - Heroes vs. Villains":
   pageId: 216112
   steam: 3936610
@@ -257111,6 +257121,13 @@ UNI TURRET:
 "UNSUBSCRIBED: THE GAME":
   pageId: 135223
   steam: 1072950
+UP:
+  pageId: 81414
+  renamedFrom:
+    - Up
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\UP\\config.opt}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\THQ\\Disney_Pixar\\UP\\*.DISNEY_PIXAR_UPSavedGame}}"
 URBO:
   cloud:
     steam: true
@@ -259864,11 +259881,6 @@ Unworthy:
   templates:
     - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\Unworthy\\settings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Unworthy\\}}"
-Up:
-  pageId: 81414
-  templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\UP\\config.opt}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\THQ\\Disney_Pixar\\UP\\*.DISNEY_PIXAR_UPSavedGame}}"
 Up And Up:
   pageId: 95563
   steam: 869930

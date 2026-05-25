@@ -449623,6 +449623,25 @@ Migrate:
           - store: steam
   steam:
     id: 1764960
+"Mika and The Witch's Mountain":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Chibig/Mika/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: mika-and-the-witchs-mountain
+  installDir:
+    Mika: {}
+  launch:
+    "<base>/Mika.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1819460
 Mikapyon:
   installDir:
     mikapyon: {}
@@ -457785,6 +457804,11 @@ Monopoly Tycoon:
         - save
       when:
         - os: windows
+"Monopoly: SpongeBob SquarePants Edition":
+  registry:
+    HKEY_CURRENT_USER/Software/Virtools/UserConfig/Sarbakan/SBMonopoly:
+      tags:
+        - save
 "Monopoly: Star Wars - Heroes vs. Villains":
   steam:
     id: 3936610
@@ -790817,6 +790841,18 @@ UNI TURRET:
 "UNSUBSCRIBED: THE GAME":
   steam:
     id: 1072950
+UP:
+  files:
+    "<winAppData>/UP/config.opt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/THQ/Disney_Pixar/UP/*.DISNEY_PIXAR_UPSavedGame":
+      tags:
+        - save
+      when:
+        - os: windows
 URBO:
   cloud:
     steam: true
@@ -799252,18 +799288,6 @@ Unworthy:
             store: steam
   steam:
     id: 613190
-Up:
-  files:
-    "<winAppData>/UP/config.opt":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winDocuments>/THQ/Disney_Pixar/UP/*.DISNEY_PIXAR_UPSavedGame":
-      tags:
-        - save
-      when:
-        - os: windows
 Up And Up:
   installDir:
     Up And Up: {}

@@ -75971,6 +75971,42 @@
           - Linux
         recursive: true
         root: LinuxHome
+      - path: MidBoss/ROM
+        pattern: "*.rom"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: MidBoss/ROM
+        pattern: "*.meta"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: MidBoss/ROM
+        pattern: "*.rom"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
+      - path: MidBoss/ROM
+        pattern: "*.meta"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
+      - path: ".config/unity3d/MidBoss/ROM"
+        pattern: "*.rom"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxHome
+      - path: ".config/unity3d/MidBoss/ROM"
+        pattern: "*.meta"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxHome
       - path: ".config/unity3d/MidBoss/2064 Read Only Memories"
         pattern: "*.rom"
         platforms:
@@ -585653,6 +585689,19 @@
     - config:
         oslist: windows
       executable: Koa.exe
+1819460:
+  cloud:
+    saves:
+      - path: Chibig/Mika/Save/Game
+        pattern: "*.json"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Mika
+  launch:
+    - executable: Mika.exe
+      type: default
 1820000:
   cloud:
     saves:
