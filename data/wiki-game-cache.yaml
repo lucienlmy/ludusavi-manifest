@@ -16776,8 +16776,8 @@ Assassin 2015:
   steam: 368500
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Assassin's Creed Syndicate\\AC.ini}}"
-    - "{{Game data/saves|Windows|{{P|uplay}}\\savegames\\{{p|uid}}\\1875\\}}"
-    - "{{Game data/saves|Steam|{{P|uplay}}\\savegames\\{{p|uid}}\\1957\\}}"
+    - "{{Game data/saves|Uplay|{{P|uplay}}\\savegames\\{{p|uid}}\\1875\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1955\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1956\\}}"
+    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\1957\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1958\\}}"
 "Assassin's Creed Unity":
   cloud:
     uplay: true
@@ -58620,6 +58620,16 @@ Death end re;Quest 2:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1266220\\remote\\SYSTEMSAVE_GAME.BIN|{{P|steam}}\\userdata\\{{P|uid}}\\1266220\\remote\\SYSTEMSAVE_param.sfo}}"
     - "{{Game data/saves|Windows|Documents\\Idea Factory\\Death end reQuest2\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1266220\\remote\\}}"
+"Death end re;Quest: Code Z":
+  cloud:
+    steam: true
+  pageId: 216878
+  steam: 2914490
+  steamSide:
+    - 3678270
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/IDEA FACTORY/Death end re;Quest Code Z/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/IDEA FACTORY/Death end re;Quest Code Z/}}"
 "Death from Unknown: Survival":
   pageId: 90324
   steam: 809550
@@ -81504,6 +81514,14 @@ Fairy Fencer F:
     - 555120
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Idea Factory International, Inc\\Fairy Fencer F Advent Dark Force\\}}"
+"Fairy Fencer F: Refrain Chord":
+  cloud:
+    steam: true
+  pageId: 216883
+  steam: 2228390
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/Idea Factory International, Inc/Fairy Fencer F_ Refrain Chord/SaveData/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/Idea Factory International, Inc/Fairy Fencer F_ Refrain Chord/SaveData/}}"
 Fairy Fixer:
   pageId: 180516
   templates:
@@ -93565,6 +93583,9 @@ GameDevVR:
 GameEllen:
   pageId: 121014
   steam: 961060
+GameMaker 25th Anniversary:
+  pageId: 216872
+  steam: 3219220
 "GameMaster: Magus":
   pageId: 94459
   steam: 844250
@@ -109245,6 +109266,9 @@ Hinedere Beat:
     steam: true
   pageId: 108792
   steam: 759220
+Hino:
+  pageId: 216880
+  steam: 3946090
 Hinterhalt:
   pageId: 74323
   steam: 732520
@@ -184741,6 +184765,16 @@ Record Life:
 Record Store Nightmare:
   pageId: 72961
   steam: 722400
+Record of Agarest War Mariage:
+  cloud:
+    steam: true
+  pageId: 216895
+  steam: 740550
+  steamSide:
+    - 1015490
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\740550\\remote\\}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\740550\\remote\\}}"
 Record of Lodoss War Online:
   pageId: 125665
   steam: 949690
@@ -193405,6 +193439,13 @@ Rune:
     - "{{Game data/config|Windows|{{p|game}}\\System}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.loki/rune}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+Rune Dice:
+  cloud:
+    steam: true
+  pageId: 216899
+  steam: 3542380
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Smart Raven Studio\\Rune Dice}}"
 Rune Factory 3 Special:
   cloud:
     steam: true
@@ -223667,6 +223708,14 @@ Superdimension Neptune VS Sega Hard Girls:
     steam: true
   pageId: 63022
   steam: 571530
+  steamSide:
+    - 620740
+    - 620741
+    - 620742
+    - 620743
+    - 620744
+    - 620745
+    - 620746
   templates:
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\571530\\remote\\NeptuneVS.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\571530\\remote\\}}"
@@ -273376,6 +273425,11 @@ World of Tanks Blitz:
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\444200\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\wotblitz\\DAVAProject}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\7458BE2C.WorldofTanksBlitz_x4tje2y229k00\\LocalState\\DAVAProject}}"
+"World of Tanks: Heat":
+  pageId: 216897
+  steam: 2100280
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\coldwar\\game.settings}}"
 World of Tea:
   pageId: 95401
   steam: 865050
@@ -278935,6 +278989,15 @@ Zzzzz:
 Ôpe:
   pageId: 150237
   steam: 1170200
+Öoo:
+  cloud:
+    steam: true
+  lutris: ooo-1
+  pageId: 216884
+  steam: 2721890
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Ooo\\option.bin}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Ooo\\main.bin}}"
 ÜberSoldier:
   pageId: 278
   steam: 2905090

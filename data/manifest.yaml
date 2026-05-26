@@ -52351,9 +52351,24 @@ Asphyxia:
       tags:
         - save
       when:
-        - os: windows
-          store: uplay
+        - store: uplay
+    "<root>/savegames/<storeUserId>/1955":
+      tags:
+        - save
+      when:
+        - store: uplay
+    "<root>/savegames/<storeUserId>/1956":
+      tags:
+        - save
+      when:
+        - store: uplay
     "<root>/savegames/<storeUserId>/1957":
+      tags:
+        - save
+      when:
+        - store: steam
+        - store: uplay
+    "<root>/savegames/<storeUserId>/1958":
       tags:
         - save
       when:
@@ -182236,6 +182251,27 @@ Death end re;Quest 2:
             store: steam
   steam:
     id: 1266220
+"Death end re;Quest: Code Z":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/IDEA FACTORY/Death end re;Quest Code Z":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3678270
+  installDir:
+    Death end re;Quest Code Z: {}
+  launch:
+    "<base>/Death end re;Quest Code Z.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2914490
 "Death from Unknown: Survival":
   steam:
     id: 809550
@@ -252632,6 +252668,24 @@ Fairy Fencer F Advent Dark Force:
           - store: steam
   steam:
     id: 524580
+"Fairy Fencer F: Refrain Chord":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Idea Factory International, Inc/Fairy Fencer F_ Refrain Chord/SaveData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Fairy Fencer F Refrain Chord: {}
+  launch:
+    "<base>/Fairy Fencer F Refrain Chord.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2228390
 Fairy Fixer:
   files:
     "<base>/game/saves":
@@ -289851,6 +289905,20 @@ GameEllen:
             store: steam
   steam:
     id: 961060
+GameMaker 25th Anniversary:
+  installDir:
+    GM25: {}
+  launch:
+    "<base>/GM-25.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/GameMaker 25th Anniversary.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 3219220
 "GameMaster: Magus":
   installDir:
     GameMasterMAGUS: {}
@@ -338056,6 +338124,9 @@ Hinedere Beat:
             store: steam
   steam:
     id: 759220
+Hino:
+  steam:
+    id: 3946090
 Hinterhalt:
   installDir:
     Hinterhalt: {}
@@ -569457,6 +569528,29 @@ Record Store Nightmare:
           - store: steam
   steam:
     id: 722400
+Record of Agarest War Mariage:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/740550/remote":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 1015490
+  installDir:
+    Agarest Mariage: {}
+  launch:
+    "<base>/Exe/AgarestMariage.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/Exe"
+  steam:
+    id: 740550
 Record of Lodoss War Online:
   installDir:
     Record of Lodoss War Online: {}
@@ -595884,6 +595978,23 @@ Rune:
         workingDir: "<base>/System"
   steam:
     id: 210950
+Rune Dice:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Smart Raven Studio/Rune Dice":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Rune Dice: {}
+  launch:
+    "<base>/Rune Dice.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3542380
 Rune Factory 3 Special:
   cloud:
     steam: true
@@ -690487,6 +690598,15 @@ Superdimension Neptune VS Sega Hard Girls:
         - config
       when:
         - store: steam
+  id:
+    steamExtra:
+      - 620740
+      - 620741
+      - 620742
+      - 620743
+      - 620744
+      - 620745
+      - 620746
   installDir:
     Superdimension Neptune VS Sega Hard Girls: {}
   launch:
@@ -839571,6 +839691,23 @@ World of Tanks Blitz:
             store: steam
   steam:
     id: 444200
+"World of Tanks: Heat":
+  files:
+    "<winLocalAppData>/coldwar/game.settings":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    WoT HEAT: {}
+  launch:
+    "<base>/wgcs_api.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2100280
 World of Tea:
   steam:
     id: 865050
@@ -856536,6 +856673,30 @@ Zzzzz:
             store: steam
   steam:
     id: 1170200
+Öoo:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Ooo/main.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Ooo/option.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: ooo-1
+  installDir:
+    Ooo: {}
+  launch:
+    "<base>/Ooo.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2721890
 ÜberSoldier:
   files:
     "<base>/SAVES":

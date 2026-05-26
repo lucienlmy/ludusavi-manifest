@@ -308296,6 +308296,16 @@
         oslist: windows
       executable: MysteryTales_TheTwilightWorld_CE.exe
       type: default
+740550:
+  installDir: Agarest Mariage
+  launch:
+    - executable: Exe/AgarestMariage.exe
+      type: none
+      workingdir: Exe/
+  nameLocalized:
+    japanese: アガレスト戦記 Mariage
+    schinese: 阿加雷斯特战记　甜蜜新婚
+    tchinese: 阿加雷斯特戰記　甜蜜新婚
 740560:
   installDir: star of lemutia
   launch:
@@ -603186,6 +603196,15 @@
   installDir: MotoGP™23
   launch:
     - executable: motogp23.exe
+2100280:
+  installDir: WoT HEAT
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: WGCSteam
+      executable: wgcs_api.exe
+      type: default
 2101110:
   cloud:
     saves:
@@ -609816,6 +609835,21 @@
         osarch: "64"
         oslist: windows
       executable: Memoriapolis.exe
+2228390:
+  cloud:
+    saves:
+      - path: "Idea Factory International, Inc/Fairy Fencer F_ Refrain Chord/SaveData"
+        pattern: "*.savedata"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Fairy Fencer F Refrain Chord
+  launch:
+    - executable: Fairy Fencer F Refrain Chord.exe
+  nameLocalized:
+    japanese: フェアリーフェンサー エフ Refrain Chord
+    schinese: Fairy Fencer F Refrain Chord
+    tchinese: Fairy Fencer F Refrain Chord
 2229350:
   cloud:
     saves:
@@ -629432,6 +629466,15 @@
     - config:
         oslist: macos
       executable: Grunn_mac.app
+2721890:
+  cloud:
+    saves:
+      - path: Ooo
+        pattern: "*.bin"
+        root: WinAppDataLocal
+  installDir: Ooo
+  launch:
+    - executable: Ooo.exe
 2722360:
   installDir: Escape Memoirs - Safe House
   launch:
@@ -633719,6 +633762,15 @@
         oslist: windows
       executable: house_of_golf/Binaries/Win64/house_of_golf-Win64-Shipping.exe
       type: default
+2914490:
+  cloud:
+    saves:
+      - path: IDEA FACTORY/Death end re;Quest Code Z
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: Death end re;Quest Code Z
+  launch:
+    - executable: Death end re;Quest Code Z.exe
 2915460:
   cloud:
     saves:
@@ -639759,6 +639811,15 @@
     - config:
         oslist: windows
       executable: Super Woden Rally Edge.exe
+3219220:
+  installDir: GM25
+  launch:
+    - config:
+        oslist: windows
+      executable: GM-25.exe
+    - config:
+        oslist: macos
+      executable: GameMaker 25th Anniversary.app
 3219630: {}
 3220050:
   installDir: Big Beautiful Women
@@ -644564,6 +644625,29 @@
     schinese: Metal Garden | 机械荒庭
     ukrainian: Metal Garden | Сад Металу
 3541630: {}
+3542380:
+  cloud:
+    saves:
+      - path: Smart Raven Studio/Rune Dice
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: Smart Raven Studio
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: Rune Dice
+  launch:
+    - executable: Rune Dice.exe
+  nameLocalized:
+    japanese: ルーンダイス
+    koreana: 룬 다이스
+    schinese: 符文之骰
+    tchinese: 符文之骰
 3542500: {}
 3545060:
   installDir: Team Fortress 2 Classified
@@ -648342,6 +648426,7 @@
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
+3946090: {}
 3948120:
   cloud:
     saves:
