@@ -35975,9 +35975,41 @@
   nameLocalized:
     japanese: Biohazard 4 (2005)
     koreana: Biohazard 4 (2005)
-254760: {}
-254780: {}
-254800: {}
+254760:
+  installDir: Empire Earth Gold Edition
+  launch:
+    - config:
+        oslist: windows
+      description: Empire Earth
+      executable: "Empire Earth\\Empire Earth.exe"
+      type: option1
+      workingdir: "Empire Earth\\"
+    - config:
+        oslist: windows
+      description: "Empire Earth: The Art of Conquest"
+      executable: "Empire Earth - The Art of Conquest\\EE-AOC.exe"
+      type: option1
+      workingdir: "Empire Earth - The Art of Conquest\\"
+254780:
+  installDir: Empire Earth II Gold Edition
+  launch:
+    - config:
+        oslist: windows
+      description: Empire Earth II
+      executable: EE2.exe
+      type: option1
+    - config:
+        oslist: windows
+      description: "Empire Earth II: The Art of Supremacy"
+      executable: EE2X.exe
+      type: option1
+254800:
+  installDir: Empire Earth III
+  launch:
+    - config:
+        oslist: windows
+      executable: EE3.exe
+      type: default
 254820:
   installDir: Ground Control Anthology
   launch:
@@ -143200,6 +143232,14 @@
         oslist: windows
       description: Launch Tethered (non-VR)
       executable: Tethered_NONVR.bat
+      type: default
+431170:
+  installDir: "Sorcerer's Maze"
+  launch:
+    - config:
+        oslist: windows
+      description: Launch game
+      executable: "sorcerer's maze.exe"
       type: default
 431180:
   installDir: WolfQuest
@@ -637640,6 +637680,7 @@
       description: with OpenGL compatibility
       executable: ChronoGear.exe
       type: option2
+3082730: {}
 3083300:
   cloud:
     saves:
@@ -647154,6 +647195,10 @@
       executable: betterfortress_win64.exe
       type: default
 3768760:
+  installDir: 007 First Light
+  launch:
+    - executable: Retail/007FirstLight.exe
+      type: default
   nameLocalized:
     japanese: 007 ファーストライト
     koreana: 007 퍼스트 라이트
@@ -649238,6 +649283,9 @@
         oslist: windows
       executable: I Know a Guy.exe
 4176460: {}
+4180370:
+  nameLocalized:
+    english: "O.D.T: Escape Again... Or Die Trying"
 4181410:
   nameLocalized:
     koreana: "골목길: 귀흔"

@@ -139,8 +139,33 @@ $1 Ride:
   pageId: 77351
   steam: 639880
 007 First Light:
+  cloud:
+    steam: true
   pageId: 205132
   steam: 3768760
+  steamSide:
+    - 3950810
+    - 3950820
+    - 3950830
+    - 3950850
+    - 3950870
+    - 3950880
+    - 3950900
+    - 3950910
+    - 3950930
+    - 3954230
+    - 3954250
+    - 3954260
+    - 4521800
+    - 4521810
+    - 4521820
+    - 4521830
+    - 4521840
+    - 4601250
+    - 4707780
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\IO Interactive\\007 First Light|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
 007 Legends:
   lutris: 007-legends
   pageId: 31663
@@ -113135,6 +113160,11 @@ HyperRogue:
   templates:
     - "{{Game data/config|Linux|{{p|linuxhome}}/hyperrogue.ini}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/hyperrogue.log}}"
+"HyperYuki: Snowboard Syndicate":
+  cloud:
+    steam: true
+  pageId: 216916
+  steam: 3082730
 HyperZen Training:
   pageId: 99784
   steam: 884160
@@ -130027,8 +130057,10 @@ Legend of Lusca:
   steam: 1068330
 Legend of Mana:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1868111779
   pageId: 166729
   steam: 1175830
   templates:
@@ -132809,7 +132841,9 @@ Link the animals:
 "Link's Awakening DX HD":
   pageId: 191828
   templates:
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Zelda_LA/settings}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles\\}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Zelda_LA/SaveFiles/}}"
 "Link: The Faces of Evil":
   pageId: 199714
 "Link: The Unleashed Nexus":
@@ -160549,6 +160583,9 @@ O.C.D. - On Completeness & Dissonance:
     steam: true
   pageId: 99640
   steam: 887880
+"O.D.T.: Escape Again... Or Die Trying":
+  pageId: 216903
+  steam: 4180370
 "O.D.T.: Escape... Or Die Trying":
   cloud:
     gog: true
@@ -187477,6 +187514,7 @@ Resurgence:
   pageId: 216316
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Nebula.Ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Games}}"
 Resurrector:
   pageId: 150355
   steam: 1178380
@@ -209943,6 +209981,9 @@ Sorcerer Lord:
 "Sorcerer's Dream":
   pageId: 64258
   steam: 656220
+"Sorcerer's Maze":
+  pageId: 216908
+  steam: 431170
 "Sorcerer's Path":
   pageId: 87267
   steam: 776410
@@ -254454,8 +254495,10 @@ Trials of Innocence:
     - 3439220
 Trials of Mana:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1525434144
   pageId: 138547
   steam: 924980
   templates:

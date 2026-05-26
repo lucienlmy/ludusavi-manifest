@@ -428,6 +428,47 @@ $1 Ride:
   steam:
     id: 639880
 007 First Light:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3768760":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 3950810
+      - 3950820
+      - 3950830
+      - 3950850
+      - 3950870
+      - 3950880
+      - 3950900
+      - 3950910
+      - 3950930
+      - 3954230
+      - 3954250
+      - 3954260
+      - 4521800
+      - 4521810
+      - 4521820
+      - 4521830
+      - 4521840
+      - 4601250
+      - 4707780
+  installDir:
+    007 First Light: {}
+  launch:
+    "<base>/Retail/007FirstLight.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/IO Interactive/007 First Light:
+      tags:
+        - config
   steam:
     id: 3768760
 007 Legends:
@@ -233576,6 +233617,8 @@ Empire Earth:
     steamExtra:
       - 3770
       - 3780
+  installDir:
+    Empire Earth Gold Edition: {}
   registry:
     HKEY_CURRENT_USER/SOFTWARE/Mad Doc Software/EE-AOC:
       tags:
@@ -233606,6 +233649,8 @@ Empire Earth II:
     steamExtra:
       - 63300
       - 63310
+  installDir:
+    Empire Earth II Gold Edition: {}
   steam:
     id: 254780
 Empire Earth III:
@@ -233625,6 +233670,13 @@ Empire Earth III:
   id:
     steamExtra:
       - 63370
+  installDir:
+    Empire Earth III: {}
+  launch:
+    "<base>/EE3.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 254800
 Empire Live:
@@ -349713,6 +349765,11 @@ HyperRogue:
             store: steam
   steam:
     id: 342610
+"HyperYuki: Snowboard Syndicate":
+  cloud:
+    steam: true
+  steam:
+    id: 3082730
 HyperZen Training:
   installDir:
     HyperZen Training: {}
@@ -401771,6 +401828,7 @@ Legend of Lusca:
     id: 1068330
 Legend of Mana:
   cloud:
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/Legend of Mana/Steam/<storeUserId>":
@@ -401779,6 +401837,8 @@ Legend of Mana:
         - save
       when:
         - os: windows
+  gog:
+    id: 1868111779
   installDir:
     Legend of Mana: {}
   launch:
@@ -410383,6 +410443,16 @@ Link the animals:
         - save
       when:
         - os: windows
+    "<xdgData>/Zelda_LA/SaveFiles":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/settings":
+      tags:
+        - save
+      when:
+        - os: linux
 "Link: The Unleashed Nexus":
   id:
     steamExtra:
@@ -494638,6 +494708,9 @@ O.C.D. - On Completeness & Dissonance:
     id: 887880
 O.D.T. Escape or Die Trying:
   alias: "O.D.T.: Escape... Or Die Trying"
+"O.D.T.: Escape Again... Or Die Trying":
+  steam:
+    id: 4180370
 "O.D.T.: Escape... Or Die Trying":
   cloud:
     gog: true
@@ -577563,6 +577636,11 @@ Resurgence:
     id: 674250
 "Resurrection: The Return of the Black Dragon":
   files:
+    "<base>/Games":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/Nebula.Ini":
       tags:
         - config
@@ -647720,6 +647798,16 @@ Sorcerer Lord:
             store: steam
   steam:
     id: 656220
+"Sorcerer's Maze":
+  installDir:
+    "Sorcerer's Maze": {}
+  launch:
+    "<base>/sorcerer's maze.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 431170
 "Sorcerer's Path":
   id:
     steamExtra:
@@ -782628,6 +782716,7 @@ Trials of Innocence:
     id: 2983140
 Trials of Mana:
   cloud:
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/Trials of Mana/Steam/<storeUserId>/Saved/Config/WindowsNoEditor":
@@ -782652,6 +782741,8 @@ Trials of Mana:
         - save
       when:
         - os: windows
+  gog:
+    id: 1525434144
   installDir:
     Trials of Mana: {}
   launch:
