@@ -77265,6 +77265,10 @@ Bejeweled 3:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: bejeweled-3
+    steamExtra:
+      - 78002
   installDir:
     Bejeweled 3: {}
   launch:
@@ -77300,6 +77304,10 @@ Bejeweled Twist:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: bejeweled-twist
+    steamExtra:
+      - 3562
   installDir:
     Bejeweled Twist: {}
   launch:
@@ -182262,6 +182270,7 @@ Death end re;Quest 2:
       when:
         - os: windows
   id:
+    lutris: death-end-re-quest-code-z
     steamExtra:
       - 3678270
   installDir:
@@ -252678,6 +252687,8 @@ Fairy Fencer F Advent Dark Force:
         - save
       when:
         - os: windows
+  id:
+    lutris: fairy-fencer-f-refrain-chord
   installDir:
     Fairy Fencer F Refrain Chord: {}
   launch:
@@ -522058,6 +522069,10 @@ Peggle:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: peggle-deluxe
+    steamExtra:
+      - 3482
   installDir:
     Peggle Deluxe: {}
   launch:
@@ -522097,6 +522112,10 @@ Peggle Nights:
         - save
       when:
         - os: windows
+  id:
+    lutris: peggle-nights
+    steamExtra:
+      - 3542
   installDir:
     Peggle Nights: {}
   launch:
@@ -534333,6 +534352,10 @@ Plants vs. Zombies:
         - save
       when:
         - os: windows
+  id:
+    lutris: plants-vs-zombies-game-of-the-year
+    steamExtra:
+      - 3592
   installDir:
     Plants Vs Zombies: {}
   launch:
@@ -767805,6 +767828,12 @@ ToHeart2:
         - save
       when:
         - os: windows
+ToMyX:
+  id:
+    steamExtra:
+      - 4458330
+  steam:
+    id: 4444610
 ToaZZle:
   installDir:
     ToaZZle: {}
@@ -836334,6 +836363,13 @@ Wolf Tails:
             store: steam
   steam:
     id: 822930
+Wolf Team:
+  files:
+    "<base>/profiles/Player.txt":
+      tags:
+        - config
+      when:
+        - os: windows
 Wolf or Boy:
   files:
     "<home>/AppData/LocalLow/Airlib/Wolf or Boy":
@@ -856175,6 +856211,10 @@ Zuma Legend VR:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: zumas-revenge
+    steamExtra:
+      - 3622
   installDir:
     "Zuma's Revenge": {}
   launch:

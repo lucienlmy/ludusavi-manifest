@@ -25043,8 +25043,11 @@ Bejeweled 2:
 Bejeweled 3:
   cloud:
     origin: true
+  lutris: bejeweled-3
   pageId: 19940
   steam: 78000
+  steamSide:
+    - 78002
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\PopCap\\Bejeweled3}}"
     - "{{Game data/config|Steam|{{p|hkcu}}\\SOFTWARE\\SteamPopCap\\Bejeweled3}}"
@@ -25055,8 +25058,11 @@ Bejeweled 3:
 Bejeweled LIVE:
   pageId: 157594
 Bejeweled Twist:
+  lutris: bejeweled-twist
   pageId: 35017
   steam: 3560
+  steamSide:
+    - 3562
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\PopCap\\BejeweledTwist\\}}"
     - "{{Game data/config|Steam|{{p|hkcu}}\\SOFTWARE\\Steam\\BejeweledTwist\\}}"
@@ -58623,6 +58629,7 @@ Death end re;Quest 2:
 "Death end re;Quest: Code Z":
   cloud:
     steam: true
+  lutris: death-end-re-quest-code-z
   pageId: 216878
   steam: 2914490
   steamSide:
@@ -81517,6 +81524,7 @@ Fairy Fencer F:
 "Fairy Fencer F: Refrain Chord":
   cloud:
     steam: true
+  lutris: fairy-fencer-f-refrain-chord
   pageId: 216883
   steam: 2228390
   templates:
@@ -169567,8 +169575,11 @@ Pegasus Door:
   pageId: 99808
   steam: 794030
 Peggle:
+  lutris: peggle-deluxe
   pageId: 15440
   steam: 3480
+  steamSide:
+    - 3482
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\PopCap\\Peggle\\}}"
     - "{{Game data/saves|Windows|{{p|programdata}}\\PopCap Games\\Peggle\\userdata\\}}"
@@ -169579,8 +169590,11 @@ Peggle Extreme:
   templates:
     - "{{Game data/saves|Windows|{{p|programdata}}\\Steam\\PeggleExtreme\\userdata}}"
 Peggle Nights:
+  lutris: peggle-nights
   pageId: 15446
   steam: 3540
+  steamSide:
+    - 3542
   templates:
     - "{{Game data/saves|Windows|{{p|programdata}}\\Steam\\PeggleNights\\userdata\\}}"
 "Peggle: World of Warcraft Edition":
@@ -173576,8 +173590,11 @@ Plants vs. Zombies:
   cloud:
     origin: true
     steam: true
+  lutris: plants-vs-zombies-game-of-the-year
   pageId: 348
   steam: 3590
+  steamSide:
+    - 3592
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\PopCap\\PlantsVsZombies\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.popcap.plantsvszombies.plist}}"
@@ -248780,6 +248797,11 @@ ToHeart2:
   templates:
     - "{{Game data/config|Windows|\n{{p|game}}\\CONFIG.ini}}"
     - "{{Game data/saves|Windows|\n{{p|game}}\\Sys.sav|{{p|game}}\\save_*.sav}}"
+ToMyX:
+  pageId: 216901
+  steam: 4444610
+  steamSide:
+    - 4458330
 ToaZZle:
   pageId: 88822
   steam: 817470
@@ -272279,6 +272301,8 @@ Wolf Tails:
     - "{{Game data/saves|Windows|{{p|game}}\\game\\saves}}"
 Wolf Team:
   pageId: 152364
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\profiles\\Player.txt}}"
 Wolf or Boy:
   pageId: 134986
   steam: 1030330
@@ -278848,8 +278872,11 @@ Zuma Legend VR:
   pageId: 123665
   steam: 935960
 "Zuma's Revenge!":
+  lutris: zumas-revenge
   pageId: 12227
   steam: 3620
+  steamSide:
+    - 3622
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\PopCap\\ZumasRevenge}}"
     - "{{Game data/config|Steam|{{p|hkcu}}\\Software\\SteamPopCap\\ZumasRevenge}}"
