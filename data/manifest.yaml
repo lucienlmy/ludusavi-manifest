@@ -506902,6 +506902,10 @@ Ori and the Blind Forest:
     id: 1384944984
   id:
     lutris: ori-and-the-blind-forest-definitive-edition
+    steamExtra:
+      - 406380
+      - 465980
+      - 466390
   installDir:
     Ori DE: {}
   launch:
@@ -517683,6 +517687,22 @@ Paragon:
   steam:
     id: 1531430
 Paralives:
+  files:
+    "<base>/MySavedGames":
+      when:
+        - store: steam
+  installDir:
+    Paralives: {}
+  launch:
+    "<base>/Paralives.app/Contents/MacOS/Paralives":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Paralives.app/Contents/MacOS"
+    "<base>/Paralives.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1118520
 Parallax:
@@ -577424,6 +577444,13 @@ Resurgence:
             store: steam
   steam:
     id: 674250
+"Resurrection: The Return of the Black Dragon":
+  files:
+    "<base>/Nebula.Ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Resurrector:
   installDir:
     Resurrector: {}
@@ -736878,11 +736905,36 @@ The Legend of Viccess:
         - os: windows
 "The Legend of Zelda: Majora's Mask (Zelda 64: Recompiled)":
   files:
+    "<winLocalAppData>/Zelda64Recompiled/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Zelda64Recompiled/mod_config/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Zelda64Recompiled/saves":
       tags:
         - save
       when:
         - os: windows
+    "<xdgConfig>/Zelda64Recompiled/*.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/Zelda64Recompiled/mod_config/*.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/Zelda64Recompiled/saves":
+      tags:
+        - save
+      when:
+        - os: linux
 "The Legend of Zelda: Ocarina of Time":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)":
@@ -736892,6 +736944,19 @@ The Legend of Viccess:
         - save
       when:
         - os: windows
+        - os: linux
+    "<base>/Save/global.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+    "<base>/shipofharkinian.json":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
 "The Legend of Zelda: Twilight Princess (Dusk)":
@@ -777068,6 +777133,25 @@ Tracks and Turrets:
 "Tracks of Triumph: Summertime":
   steam:
     id: 528210
+Tracks of the Arcana:
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/ArcanaTrain_Prototyp/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Tracks of the Arcana: {}
+  launch:
+    "<base>/Tracks of the Arcana.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2620870
 "Tracon!2012:SE":
   id:
     steamExtra:

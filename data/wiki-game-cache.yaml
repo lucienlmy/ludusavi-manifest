@@ -164517,6 +164517,10 @@ Ori and the Blind Forest:
   lutris: ori-and-the-blind-forest-definitive-edition
   pageId: 32520
   steam: 387290
+  steamSide:
+    - 406380
+    - 465980
+    - 466390
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft Studios\\Ori And The Blind Forest: Definitive Edition\\|{{p|localappdata}}\\Ori and the Blind Forest DE\\*.txt|{{p|localappdata}}\\Ori and the Blind Forest DE\\settings.bin}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.OriandtheBlindForestDefinitiveEdition_8wekyb3d8bbwe\\Settings}}"
@@ -187418,6 +187422,10 @@ Resurgence:
 "Resurgence: Earth United":
   pageId: 70538
   steam: 674250
+"Resurrection: The Return of the Black Dragon":
+  pageId: 216316
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Nebula.Ini}}"
 Resurrector:
   pageId: 150355
   steam: 1178380
@@ -238741,16 +238749,20 @@ The Legend of Viccess:
 "The Legend of Zelda: Majora's Mask (Zelda 64: Recompiled)":
   pageId: 195013
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Zelda64Recompiled\\controls.json<br>{{P|localappdata}}\\Zelda64Recompiled\\general.json<br>{{P|localappdata}}\\Zelda64Recompiled\\graphics.json<br>{{P|localappdata}}\\Zelda64Recompiled\\sound.json}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Zelda64Recompiled\\mod_config\\*.json|{{P|localappdata}}\\Zelda64Recompiled\\*.json}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/Zelda64Recompiled/mod_config/*.json|{{p|xdgconfighome}}/Zelda64Recompiled/*.json}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Zelda64Recompiled\\saves\\}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Zelda64Recompiled/saves/}}"
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)":
   pageId: 178166
   renamedFrom:
     - "The Legend of Zelda: Ocarina of Time"
     - "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)"
   templates:
-    - "{{Game data/config|Windows|In-game settings:<br>{{P|game}}\\Save\\global.sav<br>Decomp settings:<br>{{P|game}}\\shipofharkinian.json}}"
+    - "{{Game data/config|Windows|{{P|game}}\\Save\\global.sav|{{P|game}}\\shipofharkinian.json}}"
+    - "{{Game data/config|Linux|{{P|game}}/Save/global.sav|{{P|game}}/shipofharkinian.json}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save\\file*.sav}}"
+    - "{{Game data/saves|Linux|{{P|game}}/Save/file*.sav}}"
 "The Legend of Zelda: Twilight Princess (Dusklight)":
   pageId: 216508
   renamedFrom:
@@ -251938,6 +251950,11 @@ Tracks and Turrets:
 "Tracks of Triumph: Summertime":
   pageId: 40076
   steam: 528210
+Tracks of the Arcana:
+  cloud:
+    steam: true
+  pageId: 216870
+  steam: 2620870
 "Tracon!2012:SE":
   pageId: 82627
   steam: 646350

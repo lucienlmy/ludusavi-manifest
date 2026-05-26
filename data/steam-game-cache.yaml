@@ -488571,6 +488571,23 @@
       executable: WindowsNoEditor/ThugstersBR.exe
       type: default
 1118520:
+  cloud:
+    saves:
+      - path: MySavedGames
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: Paralives
+  launch:
+    - config:
+        oslist: windows
+      executable: Paralives.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "Paralives.app\\Contents\\MacOS\\Paralives"
+      type: default
+      workingdir: "Paralives.app\\Contents\\MacOS"
   nameLocalized:
     schinese: 平行人生 Paralives
 1118530: {}
@@ -625883,6 +625900,21 @@
     sc_schinese: 偏差者
     schinese: 偏差者
     tchinese: 偏差者
+2620870:
+  cloud:
+    saves:
+      - path: ArcanaTrain_Prototyp/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: SavesDir/
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Tracks of the Arcana
+  launch:
+    - config:
+        oslist: windows
+      executable: Tracks of the Arcana.exe
+      type: default
 2621650:
   installDir: AffectionateAnnie
   launch:
