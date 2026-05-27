@@ -423155,6 +423155,26 @@ Lyantei:
             store: steam
   steam:
     id: 1022000
+Lyca:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Incremental_Game/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: lyca
+  installDir:
+    Lyca: {}
+  launch:
+    "<base>/Lyca.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3421300
 Lycah:
   installDir:
     Lycah: {}
@@ -497079,6 +497099,9 @@ Octopath Traveler 0:
         - os: windows
   id:
     lutris: octopath-traveler-0
+    steamExtra:
+      - 3014330
+      - 3825480
   installDir:
     Octopath_Traveler0: {}
   launch:

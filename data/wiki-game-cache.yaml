@@ -136936,6 +136936,12 @@ Luxury Liner Tycoon:
 Lyantei:
   pageId: 127971
   steam: 1022000
+Lyca:
+  cloud:
+    steam: true
+  lutris: lyca
+  pageId: 216928
+  steam: 3421300
 Lycah:
   pageId: 65989
   steam: 681980
@@ -161353,6 +161359,9 @@ Octopath Traveler 0:
   lutris: octopath-traveler-0
   pageId: 208581
   steam: 3014320
+  steamSide:
+    - 3014330
+    - 3825480
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}/My Games/Octopath_Traveler0/Steam/}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}/My Games/Octopath_Traveler0/Steam/{{P|uid}}/SaveGames/}}"

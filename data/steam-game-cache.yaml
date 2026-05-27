@@ -582394,12 +582394,22 @@
     - config:
         betakey: eap_td_test
       description: "STAR WARS Jedi: Survivor™ - Test"
-      executable: "SwGame\\Binaries\\Win64\\SwGame-Win64-Test.exe"
+      executable: "SwGame\\Binaries\\Win64\\SwGameSteam-Win64-Test.exe"
       type: option1
     - config:
         betakey: eap_td_shipping
       description: "STAR WARS Jedi: Survivor™ - Shipping"
-      executable: "SwGame\\Binaries\\Win64\\SwGame-Win64-Shipping.exe"
+      executable: "SwGame\\Binaries\\Win64\\SwGameSteam-Win64-Shipping.exe"
+      type: option1
+    - config:
+        betakey: eap_td_test
+      description: "STAR WARS Jedi: Survivor™ - Test Renamed exe"
+      executable: "SwGame\\Binaries\\Win64\\SwGame-Win64-Test.exe"
+      type: option1
+    - config:
+        betakey: eap_td_shipping
+      description: "STAR WARS Jedi: Survivor™ - Shipping Renamed exe"
+      executable: "SwGame\\Binaries\\Win64\\JediSurvivor.exe"
       type: option1
   nameLocalized:
     japanese: STAR WARS ジェダイ：サバイバー™
@@ -643323,6 +643333,23 @@
     tchinese: 落跑雞：蛋蛋大作戰
     turkish: "Tavuklar Firarda: Gıdak Kaçışı"
     ukrainian: "Втеча з курника: Яйвакуація"
+3421300:
+  cloud:
+    saves:
+      - path: Incremental_Game
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Lyca
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Lyca.exe
+      type: default
+  nameLocalized:
+    schinese: 莱卡
 3422160:
   installDir: "Frankie's FunClub"
   launch:
