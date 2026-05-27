@@ -154264,6 +154264,11 @@ Crashnauts:
             store: steam
   steam:
     id: 414490
+Crashout Crew:
+  cloud:
+    steam: true
+  steam:
+    id: 3583210
 Crashphalt:
   installDir:
     Crashphalt: {}
@@ -226945,6 +226950,18 @@ Echo Generation:
             store: steam
   steam:
     id: 1072300
+Echo Generation 2:
+  cloud:
+    steam: true
+  installDir:
+    Echo Generation 2: {}
+  launch:
+    "<base>/Echo Generation 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1115990
 Echo Grotto:
   installDir:
     Echo Grotto: {}
@@ -379415,6 +379432,38 @@ Kabus 22:
         - config
       when:
         - os: windows
+Kabuto Park:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/DootTinyGames/KabutoPark/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/DootTinyGames/KabutoPark/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/DootTinyGames/KabutoPark/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Kabuto Park: {}
+  launch:
+    "<base>/Contents/MacOS/KabutoPark":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/KabutoPark.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/KabutoPark.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3376990
 Kach:
   installDir:
     Kach: {}
@@ -449507,17 +449556,14 @@ Mighty Gemstones:
   steam:
     id: 778230
 Mighty Goose:
+  cloud:
+    steam: true
   files:
-    "<base>/Mighty Goose.app/Contents/Resources/storageMighty Goose.app/Contents/Resources/dat":
-      when:
-        - os: mac
-          store: steam
     "<base>/storage.dat":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-        - os: linux
-          store: steam
   installDir:
     Mighty Goose: {}
   launch:
@@ -517866,9 +517912,16 @@ Paragon:
     id: 1531430
 Paralives:
   files:
-    "<base>/MySavedGames":
+    "<home>/AppData/LocalLow/Paralives/Paralives/MyOptions.mod":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/Paralives/Paralives/MySavedGames.mod":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Paralives: {}
   launch:

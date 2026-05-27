@@ -487455,6 +487455,13 @@
         oslist: windows
       executable: Something for Someone Else.exe
       type: none
+1115990:
+  installDir: Echo Generation 2
+  launch:
+    - config:
+        oslist: windows
+      executable: Echo Generation 2.exe
+      type: default
 1116010:
   installDir: Blockoid
   launch:
@@ -542344,7 +542351,7 @@
   nameLocalized:
     japanese: マイティ・グース
     schinese: 暴走大鹅
-    tchinese: 暴走大鹅
+    tchinese: 暴走大鵝
 1299370:
   installDir: Friendship with Benefits
   launch:
@@ -642730,6 +642737,46 @@
   installDir: THE HOUSE OF THE DEAD 2 Remake
   launch:
     - executable: THE HOUSE OF THE DEAD 2 Remake.exe
+3376990:
+  cloud:
+    saves:
+      - path: DootTinyGames/KabutoPark
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: DootTinyGames/KabutoPark
+            replace: ".config/unity3d/DootTinyGames/KabutoPark"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: DootTinyGames/KabutoPark
+            replace: Library/Application Support/DootTinyGames/KabutoPark
+        root: WinAppDataLocalLow
+        useInstead: MacHome
+  installDir: Kabuto Park
+  launch:
+    - config:
+        oslist: windows
+      executable: KabutoPark.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: KabutoPark.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Contents/MacOS/KabutoPark
+      type: default
+  nameLocalized:
+    japanese: カブトパーク
+    koreana: 카부토 파크
+    schinese: 兜虫公园 (Kabuto Park)
+    tchinese: 兜蟲園區 (Kabuto Park)
 3378960:
   cloud:
     saves:
@@ -645322,6 +645369,12 @@
       type: default
   nameLocalized:
     japanese: ミラノのアルバイトこれくしょん
+3583210:
+  nameLocalized:
+    brazilian: "Empilha, Não Pira"
+    japanese: クラッシュアウトクル
+    russian: Складской дрифт
+    schinese: 崩溃小队
 3583670: {}
 3585630:
   installDir: this game will end in 205 clicks

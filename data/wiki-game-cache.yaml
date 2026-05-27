@@ -42217,6 +42217,8 @@ Chronicles of a Vampire Hunter:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\}}"
+Chronicles of the Sword:
+  pageId: 216937
 Chronicles of the Witches and Warlocks:
   pageId: 45579
   steam: 396850
@@ -49473,6 +49475,12 @@ Crashlands 2:
 Crashnauts:
   pageId: 59297
   steam: 414490
+Crashout Crew:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216934
+  steam: 3583210
 Crashphalt:
   pageId: 113746
   steam: 921700
@@ -73089,6 +73097,12 @@ Echo Generation:
     xbox: true
   pageId: 172415
   steam: 1072300
+Echo Generation 2:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216933
+  steam: 1115990
 Echo Grotto:
   pageId: 70176
   steam: 705870
@@ -97146,6 +97160,8 @@ Goalkeeper VR Challenge:
   pageId: 123653
   steam: 949860
 Goals:
+  cloud:
+    xbox: true
   pageId: 214589
   steam: 2753000
   templates:
@@ -122691,6 +122707,12 @@ Kabus 22:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\options.k22}}"
     - "{{Game data/saves|Windows|{{p|game}}\\kayitxx.sav}}"
+Kabuto Park:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 216932
+  steam: 3376990
 Kach:
   pageId: 180874
   steam: 2091220
@@ -145165,6 +145187,10 @@ Microsoft International Soccer 2000:
   pageId: 120641
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\SAVE}}"
+Microsoft Jewel:
+  cloud:
+    xbox: true
+  pageId: 216931
 Microsoft Jigsaw:
   cloud:
     xbox: true
@@ -145715,9 +145741,12 @@ Mighty Gemstones:
   steam: 778230
 Mighty Goose:
   cloud:
+    steam: true
     xbox: true
   pageId: 172007
   steam: 1299360
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\storage.dat}}"
 Mighty Gunvolt:
   cloud:
     steam: true
@@ -168159,6 +168188,9 @@ Paragon:
 Paralives:
   pageId: 157497
   steam: 1118520
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Paralives\\Paralives\\MyOptions.mod\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Paralives\\Paralives\\MySavedGames.mod\\}}"
 Parallax:
   pageId: 37618
   steam: 325060
@@ -245468,6 +245500,8 @@ The Witcher Adventure Game:
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\CD Projekt RED S.A.\\The Witcher AG\\}}"
 The Witcher IV:
   pageId: 200142
+The Witcher Remake:
+  pageId: 216930
 "The Witches' Tea Party":
   pageId: 65748
   steam: 594950
