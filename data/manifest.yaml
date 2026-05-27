@@ -181365,13 +181365,16 @@ Death Must Die:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Saves/*.sav":
+    "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Options":
+      tags:
+        - config
       when:
-        - store: steam
-    "<home>/Library/Application Support/Realm Archive/Death Must Die/Saves/*.sav":
+        - os: windows
+    "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Saves":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: death-must-die
   installDir:
@@ -267447,17 +267450,12 @@ Five Hearts Under One Roof:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Storytaco/MilkGame/SavesDir/**/*.sav":
+    "<home>/AppData/LocalLow/Storytaco/MilkGame/GOGSave":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Storytaco/MilkGame/SavesDir/**/*.sav":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/Storytaco/MilkGame/SavesDir/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
+          store: gog
   gog:
     id: 1963012717
   installDir:
@@ -439888,6 +439886,7 @@ MechWarrior 3:
       - 1254147353
       - 1444478826
       - 1459558952
+      - 1543101560
       - 1554421209
       - 1687807209
       - 1811346339
@@ -439904,6 +439903,7 @@ MechWarrior 3:
       - 2489020
       - 2782050
       - 3799610
+      - 4371500
   installDir:
     MechWarrior 5 Mercenaries: {}
   launch:
@@ -642963,6 +642963,10 @@ Soda Dungeon 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: soda-dungeon-2
+    steamExtra:
+      - 1379690
   installDir:
     Soda Dungeon 2: {}
   launch:
@@ -669378,12 +669382,14 @@ Starship Troopers - Terran Command:
     id: 2138535729
   id:
     gogExtra:
+      - 1418607390
       - 1649592488
       - 1762634820
     steamExtra:
       - 1753940
       - 2139990
       - 2139991
+      - 3454110
   installDir:
     Starship Troopers - Terran Command: {}
   launch:
@@ -776244,6 +776250,29 @@ Town of Salem:
         - config
   steam:
     id: 334230
+Town to City:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TownToCity/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: town-to-city
+    steamExtra:
+      - 3653800
+      - 3812070
+      - 3829160
+      - 3873380
+  installDir:
+    Town To City: {}
+  launch:
+    "<base>/TownToCity.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3115220
 TownCraft:
   files:
     "<base>/saves/*.prf":
@@ -800224,6 +800253,11 @@ Urban Runner:
   id:
     lutris: urban-runner
 Urban Strife:
+  files:
+    "<winLocalAppData>/USG/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Urban Strife: {}
   launch:

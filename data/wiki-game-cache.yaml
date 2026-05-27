@@ -141,6 +141,7 @@ $1 Ride:
 007 First Light:
   cloud:
     steam: true
+    xbox: true
   pageId: 205132
   steam: 3768760
   steamSide:
@@ -58353,6 +58354,9 @@ Death Must Die:
   lutris: death-must-die
   pageId: 195955
   steam: 2334730
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Realm Archive\\Death Must Die\\Options}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Realm Archive\\Death Must Die\\Saves}}"
 "Death Note: Killer Within":
   pageId: 199827
   steam: 2213190
@@ -77236,6 +77240,7 @@ Escape Rosecliff Island:
 Escape Simulator:
   cloud:
     steam: true
+    xbox: true
   pageId: 168266
   steam: 1435790
   steamSide:
@@ -86649,6 +86654,8 @@ Five Hearts Under One Roof:
   gog: 1963012717
   pageId: 211809
   steam: 3021100
+  templates:
+    - "{{Game data/saves|GOG.com|{{p|userprofile\\appdata\\locallow}}\\Storytaco\\MilkGame\\GOGSave\\}}"
 Five Hearts Under One Roof Season 2:
   cloud:
     gog: true
@@ -142324,6 +142331,7 @@ MechWarrior 3:
     - 1254147353
     - 1444478826
     - 1459558952
+    - 1543101560
     - 1554421209
     - 1687807209
     - 1811346339
@@ -142342,6 +142350,7 @@ MechWarrior 3:
     - 2489020
     - 2782050
     - 3799610
+    - 4371500
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\MW5Mercs\\Saved\\Config\\WindowsNoEditor\\|{{P|localappdata}}\\MW5Mercs\\Saved\\SavedHOTAS\\HOTASMappings.Remap}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MW5Mercs\\Saved\\SavedLoadouts\\|{{P|localappdata}}\\MW5Mercs\\Saved\\SaveGames\\|{{P|localappdata}}\\MW5Mercs\\Saved\\CustomSkins.json}}"
@@ -184385,6 +184394,7 @@ Realm Royale Reforged:
 Realm of Ink:
   cloud:
     steam: true
+    xbox: true
   lutris: realm-of-ink
   pageId: 214239
   steam: 2597080
@@ -208415,8 +208425,11 @@ Soda Dungeon:
 Soda Dungeon 2:
   cloud:
     steam: true
+  lutris: soda-dungeon-2
   pageId: 151287
   steam: 946050
+  steamSide:
+    - 1379690
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ANProductions\\SodaDungeon2\\soda_dungeon_2_save_data.dat}}"
 Soda Girls:
@@ -217033,6 +217046,7 @@ Starship Troopers:
     steam: true
   gog: 2138535729
   gogSide:
+    - 1418607390
     - 1649592488
     - 1762634820
   pageId: 152633
@@ -217043,6 +217057,7 @@ Starship Troopers:
     - 1753940
     - 2139990
     - 2139991
+    - 3454110
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Starship Troopers\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Starship Troopers\\Saves\\}}"
@@ -251728,6 +251743,17 @@ Town of Salem:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\334230\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BlankMediaGames\\Town of Salem\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\334230\\}}"
+Town to City:
+  cloud:
+    steam: true
+  lutris: town-to-city
+  pageId: 216919
+  steam: 3115220
+  steamSide:
+    - 3653800
+    - 3812070
+    - 3829160
+    - 3873380
 TownCraft:
   pageId: 48607
   steam: 296280

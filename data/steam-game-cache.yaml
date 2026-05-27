@@ -292538,6 +292538,13 @@
       executable: DreadStar.exe
       type: default
 710230:
+  cloud:
+    saves:
+      - path: USG/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Urban Strife
   launch:
     - config:
@@ -525496,6 +525503,12 @@
         platforms:
           - Windows
         root: WinMyDocuments
+      - path: The Artistocrats/Starship Troopers/Player
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: Starship Troopers - Terran Command
   launch:
     - executable: Launcher.exe
@@ -556182,6 +556195,13 @@
             replace: ".config/unity3d/Pine Studio/Escape Simulator"
         root: gameinstall
         useInstead: LinuxHome
+      - os: Android
+        osCompare: "="
+        pathTransforms:
+          - find: Pine Studio/Escape Simulator
+            replace: Pine Studio/Escape Simulator
+        root: gameinstall
+        useInstead: AndroidExternalData
   installDir: Escape Simulator
   launch:
     - config:
@@ -556201,6 +556221,11 @@
         oslist: linux
       executable: EscapeSimulator
       type: default
+    - arguments: es_vr
+      config:
+        oslist: android
+      executable: EscapeSimulator.apk
+      type: openxr
   nameLocalized:
     english: Escape Simulator
     japanese: 脱出ルームシミュレーター
@@ -636132,16 +636157,11 @@
         oslist: linux
       executable: MilkGame.x86_64
   nameLocalized:
-    brazilian: "Cinco Corações, Um Teto Cheio de Amor"
     english: Five Hearts Under One Roof
-    french: Cinq Cœurs Sous un Toit d’Amour
-    indonesian: Lima Hati di Bawah Satu Atap
     japanese: まさか！下宿生が 美女ですって？
     koreana: 하숙생이 전부 미녀입니다만?
-    portuguese: "Cinco Corações, Um Teto Cheio de Amor"
-    russian: Пять Сердец Под Одной Крышей
     schinese: " 阿西, 美女室友竟然...？"
-    thai: ห้าหัวใจใต้หลังคาเดียวกัน
+    tchinese: "阿西, 美女室友竟然...？"
 3021390:
   installDir: ReThink 5
   launch:
@@ -638253,6 +638273,21 @@
   launch:
     - executable: NBA Bounce.exe
 3115160: {}
+3115220:
+  cloud:
+    saves:
+      - path: TownToCity/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Town To City
+  launch:
+    - executable: TownToCity.exe
+  nameLocalized:
+    schinese: 自在城镇
+    tchinese: 無所市市
 3117820:
   cloud:
     saves:
