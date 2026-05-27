@@ -579369,6 +579369,8 @@ Reveal The Deep:
     id: 411560
 Reveil:
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Pixelsplit/REVEIL/**/Collectables":
@@ -579392,6 +579394,16 @@ Reveil:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1731997182
+  id:
+    gogExtra:
+      - 1134414790
+      - 1553049898
+    lutris: reveil
+    steamExtra:
+      - 2418300
+      - 2581720
   installDir:
     REVEIL: {}
   launch:

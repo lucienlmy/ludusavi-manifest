@@ -120372,6 +120372,8 @@ Janky Tanks:
   steam: 344220
   steamSide:
     - 371070
+"Janosch: Tiger und Bär im Straßenverkehr":
+  pageId: 216939
 Janosik:
   cloud:
     gog: true
@@ -188060,11 +188062,21 @@ Reveal The Deep:
     - "{{Game data/saves|Windows|{{P|game}}\\userData}}"
 Reveil:
   cloud:
+    epic: true
+    gog: true
     steam: true
+  gog: 1731997182
+  gogSide:
+    - 1134414790
+    - 1553049898
+  lutris: reveil
   pageId: 88908
   renamedFrom:
     - Solos
   steam: 809060
+  steamSide:
+    - 2418300
+    - 2581720
 Revelation:
   gog: 1834116710
   pageId: 169666
