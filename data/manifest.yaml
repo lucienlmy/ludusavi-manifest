@@ -96537,6 +96537,24 @@ Boomerang X:
         - config
   steam:
     id: 1170060
+Boomeroad:
+  files:
+    "<base>/BOOMEROAD_Data/SaveData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: boomeroad
+  installDir:
+    BOOMEROAD: {}
+  launch:
+    "<base>/BOOMEROAD.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2512820
 Boon Boon:
   installDir:
     Boon Boon: {}
@@ -717511,12 +717529,18 @@ The Bridge:
     id: 2331330
 "The Bridge Curse: Road to Salvation":
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/TBC/Saved/SaveGames/*.sav":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: the-bridge-curse-road-to-salvation
+    steamExtra:
+      - 1836100
+      - 2022750
   installDir:
     TheBridgeCurse: {}
   steam:

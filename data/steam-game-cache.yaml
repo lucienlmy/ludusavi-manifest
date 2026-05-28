@@ -622885,6 +622885,11 @@
   launch:
     - executable: "Butcher's Creek.exe"
 2512660: {}
+2512820:
+  installDir: BOOMEROAD
+  launch:
+    - executable: BOOMEROAD.exe
+      type: default
 2512840:
   installDir: DoronkoWanko
   launch:

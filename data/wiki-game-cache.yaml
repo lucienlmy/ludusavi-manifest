@@ -31193,6 +31193,13 @@ Boomerang X:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\DANG!\\BOOMERANG X\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\DANG!\\BOOMERANG X\\*.save}}"
+Boomeroad:
+  lutris: boomeroad
+  pageId: 216945
+  steam: 2512820
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\BOOMEROAD_Data\\SaveData}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\BOOMEROAD_Data\\SaveData}}"
 Boon Boon:
   pageId: 139304
   steam: 1092750
@@ -232313,9 +232320,14 @@ The Bridge:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TBC2\\Saved\\SaveGames\\}}"
 "The Bridge Curse: Road to Salvation":
   cloud:
+    epic: true
     steam: true
+  lutris: the-bridge-curse-road-to-salvation
   pageId: 181139
   steam: 1611430
+  steamSide:
+    - 1836100
+    - 2022750
 The Bright Path:
   pageId: 203692
   steam: 3554930
