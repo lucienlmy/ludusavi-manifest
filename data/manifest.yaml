@@ -450880,6 +450880,8 @@ Mina the Hollower:
     steam: true
   id:
     lutris: mina-the-hollower
+    steamExtra:
+      - 3741460
   steam:
     id: 1875580
 Minabo:

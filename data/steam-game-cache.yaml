@@ -569793,7 +569793,10 @@
     - config:
         oslist: macos
       executable: UnusualFindings.app
-1605850: {}
+1605850:
+  nameLocalized:
+    schinese: 零度空间 ZeroSpace
+    tchinese: 零度空間 ZeroSpace
 1606130:
   installDir: Warhammer Age of Sigmar Soul Arena
   launch:
@@ -588710,7 +588713,10 @@
         oslist: windows
       executable: T.exe
       type: default
-1875580: {}
+1875580:
+  nameLocalized:
+    schinese: 挖掘者米娜
+    tchinese: 《探地者米娜》
 1875590:
   installDir: tower
   launch:

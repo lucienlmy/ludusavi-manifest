@@ -146156,6 +146156,8 @@ Mina the Hollower:
   lutris: mina-the-hollower
   pageId: 205366
   steam: 1875580
+  steamSide:
+    - 3741460
 Minabo:
   cloud:
     steam: true
