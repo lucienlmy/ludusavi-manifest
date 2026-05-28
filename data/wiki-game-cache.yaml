@@ -36077,6 +36077,7 @@ Calibre 10 Racing:
   steam: 266370
 Calico:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1167578660
@@ -77471,6 +77472,7 @@ Escape the Ayuwoki:
 Escape the Backrooms:
   cloud:
     steam: true
+    xbox: true
   pageId: 200579
   steam: 1943950
   templates:
@@ -171993,6 +171995,7 @@ Pioneers of Pagonia:
   gog: 1094761599
   gogSide:
     - 1190088237
+    - 1312122633
     - 2018186901
     - 2083144874
   pageId: 191800
@@ -172001,6 +172004,7 @@ Pioneers of Pagonia:
     - 2717840
     - 2721120
     - 4351430
+    - 4518280
 Pioner:
   lutris: pioner
   pageId: 202703
@@ -232312,9 +232316,17 @@ The Bridge:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{P|uid}}/204240/}}"
 "The Bridge Curse 2: The Extrication":
   cloud:
+    epic: true
+    gog: true
     steam: true
+  gog: 1336548526
+  lutris: the-bridge-curse-2-the-extrication
   pageId: 194997
   steam: 2331330
+  steamSide:
+    - 2417770
+    - 2915350
+    - 2963530
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TBC2\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TBC2\\Saved\\SaveGames\\}}"
@@ -277515,6 +277527,8 @@ Zenerchi:
     steam: true
   pageId: 68452
   steam: 694960
+"Zenfar: The Adventure":
+  pageId: 216950
 Zenge:
   pageId: 37138
   steam: 461840

@@ -345569,7 +345569,6 @@
       executable: AoE2DE_s.exe
       type: default
     - config:
-        betakey: "domesticated_qa_a,domesticated_qa_b"
         oslist: macos
       description: "Age of Empires II: Definitive Edition"
       executable: Age of Empires II.app
@@ -649238,7 +649237,12 @@
     - config:
         oslist: windows
       executable: chakana.exe
-4111390: {}
+4111390:
+  installDir: Project Mandarine
+  launch:
+    - config:
+        oslist: windows
+      executable: Nickelodeon Extreme Tennis.exe
 4113570: {}
 4115450:
   nameLocalized:
@@ -649286,7 +649290,19 @@
 4124320:
   nameLocalized:
     japanese: サイレントロード
-4127530: {}
+4127530:
+  cloud:
+    saves:
+      - path: Halfbrick/BlueysQuest/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: "Bluey's Quest For The Gold Pen"
+  launch:
+    - config:
+        osarch: "64"
+      executable: BlueysQuest.exe
+      type: default
 4128260:
   installDir: Highguard
   launch:

@@ -23699,6 +23699,10 @@ Age of Empires II (2013):
   installDir:
     AoE2DE: {}
   launch:
+    "<base>/Age of Empires II.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/AoE2DE_s.exe":
       - when:
           - os: windows
@@ -93727,6 +93731,17 @@ Blueshift:
   steam:
     id: 3064040
 "Bluey's Quest for the Gold Pen":
+  files:
+    "<home>/AppData/LocalLow/Halfbrick/BlueysQuest":
+      when:
+        - store: steam
+  installDir:
+    "Bluey's Quest For The Gold Pen": {}
+  launch:
+    "<base>/BlueysQuest.exe":
+      - when:
+          - bit: 64
+            store: steam
   steam:
     id: 4127530
 "Bluey: The Videogame":
@@ -111783,6 +111798,7 @@ Calibre 10 Racing:
     id: 266370
 Calico:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -485575,6 +485591,13 @@ Nickelodeon All-Star Brawl 2:
   steam:
     id: 2017080
 Nickelodeon Extreme Tennis Next!:
+  installDir:
+    Project Mandarine: {}
+  launch:
+    "<base>/Nickelodeon Extreme Tennis.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4111390
 "Nickelodeon Kart Racers 2: Grand Prix":
@@ -529256,12 +529279,14 @@ Pioneers of Pagonia:
   id:
     gogExtra:
       - 1190088237
+      - 1312122633
       - 2018186901
       - 2083144874
     steamExtra:
       - 2717840
       - 2721120
       - 4351430
+      - 4518280
   installDir:
     Pioneers of Pagonia: {}
   launch:
@@ -717505,6 +717530,8 @@ The Bridge:
     id: 204240
 "The Bridge Curse 2: The Extrication":
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/TBC2/Saved/Config/WindowsNoEditor":
@@ -717517,6 +717544,14 @@ The Bridge:
         - save
       when:
         - os: windows
+  gog:
+    id: 1336548526
+  id:
+    lutris: the-bridge-curse-2-the-extrication
+    steamExtra:
+      - 2417770
+      - 2915350
+      - 2963530
   installDir:
     TBC2: {}
   launch:
