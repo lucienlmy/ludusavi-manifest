@@ -310387,6 +310387,7 @@ Grim Dawn:
       - 642280
       - 897670
       - 1088290
+      - 2699230
       - 2701090
   installDir:
     Grim Dawn: {}
@@ -313658,6 +313659,16 @@ Gumball Drift:
     Gumball Drift: {}
   steam:
     id: 418260
+Gumball in Trick-or-Treat Land:
+  installDir:
+    Gumball in Trick-or-Treat Land: {}
+  launch:
+    "<base>/Gumball in Trick-or-Treat Land.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3640330
 Gumboy Tournament:
   installDir:
     Gumboy Tournament: {}
@@ -362071,6 +362082,8 @@ Infliction:
         - os: windows
   gog:
     id: 1368061512
+  id:
+    lutris: infliction
   installDir:
     Infliction: {}
   launch:
@@ -479175,6 +479188,7 @@ Necrophosis:
     steamExtra:
       - 2959950
       - 3837860
+      - 4769800
   installDir:
     Necrophosis: {}
   launch:

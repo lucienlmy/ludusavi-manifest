@@ -100264,6 +100264,7 @@ Grim Dawn:
     - 642280
     - 897670
     - 1088290
+    - 2699230
     - 2701090
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Grim Dawn\\Settings\\}}"
@@ -101413,6 +101414,9 @@ Gum Guy:
 Gumball Drift:
   pageId: 43815
   steam: 418260
+Gumball in Trick-or-Treat Land:
+  pageId: 216954
+  steam: 3640330
 Gumboy Tournament:
   pageId: 41373
   steam: 11230
@@ -117093,6 +117097,7 @@ Infliction:
   cloud:
     gog: true
   gog: 1368061512
+  lutris: infliction
   pageId: 67998
   steam: 692100
   templates:
@@ -155392,6 +155397,7 @@ Necrophosis:
   steamSide:
     - 2959950
     - 3837860
+    - 4769800
 Necropolis:
   cloud:
     steam: true

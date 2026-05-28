@@ -646265,6 +646265,12 @@
     koreana: 코타마 & 아카데미 시타델
     schinese: 少女与学院城
     tchinese: 少女與學院城
+3640330:
+  installDir: Gumball in Trick-or-Treat Land
+  launch:
+    - config:
+        oslist: windows
+      executable: Gumball in Trick-or-Treat Land.exe
 3640550:
   cloud:
     saves:
@@ -647328,7 +647334,7 @@
     japanese: 007 ファーストライト
     koreana: 007 퍼스트 라이트
     schinese: 007 初露锋芒
-    tchinese: 《007 曙光初現》
+    tchinese: 007 初露鋒芒
 3771220:
   installDir: Half-Life Arena
   launch:
