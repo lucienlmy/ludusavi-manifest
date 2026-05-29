@@ -436,8 +436,14 @@ $1 Ride:
         - config
         - save
       when:
+        - store: steam
         - os: windows
           store: steam
+    "<winAppData>/IO Interactive/Epic/<storeUserId>/007 First Light/KntSlotSaveFile-0":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3950810
@@ -112723,6 +112729,9 @@ Call of Duty Black Ops Cold War:
       - 42690
   steam:
     id: 115300
+"Call of Duty: Modern Warfare 4":
+  steam:
+    id: 4435490
 "Call of Duty: Modern Warfare II":
   files:
     "<winDocuments>/Call of Duty MWII/players":
@@ -219064,6 +219073,7 @@ Dungeon Shooter 2:
 Dungeon Siege:
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/Dungeon Siege/DungeonSiege.ini":
       tags:
@@ -533811,23 +533821,6 @@ Planet Zoo:
         - os: windows
   id:
     lutris: planet-zoo
-    steamExtra:
-      - 1098120
-      - 1098121
-      - 1196770
-      - 1238440
-      - 1349400
-      - 1471590
-      - 1567110
-      - 1647620
-      - 1726150
-      - 1747960
-      - 1934140
-      - 2013290
-      - 2150050
-      - 2199210
-      - 2346830
-      - 2675740
   installDir:
     Planet Zoo: {}
   launch:
@@ -541377,6 +541370,13 @@ Power Punch II:
             store: steam
   steam:
     id: 1110100
+"Power Rangers: Super Legends":
+  files:
+    "<base>/engine.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Power Solitaire VR:
   installDir:
     Power Solitaire VR: {}

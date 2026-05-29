@@ -166,7 +166,8 @@ $1 Ride:
     - 4707780
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\IO Interactive\\007 First Light|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
+    - "{{Game data/saves|Epic Games Store|{{P|appdata}}\\IO Interactive\\Epic\\{{P|uid}}\\007 First Light\\KntSlotSaveFile-0}}"
 007 Legends:
   lutris: 007-legends
   pageId: 31663
@@ -36368,6 +36369,9 @@ Call of Duty 2:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\players2\\config.cfg|{{p|game}}\\players2\\config_mp.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\players2\\settings_c.zip.iw5|{{p|game}}\\players2\\settings_s.zip.iw5|{{p|game}}\\players2\\save}}"
+"Call of Duty: Modern Warfare 4":
+  pageId: 216958
+  steam: 4435490
 "Call of Duty: Modern Warfare II":
   pageId: 178173
   steam: 3595230
@@ -56901,6 +56905,8 @@ Days Under Custody:
 Days of Purgatory:
   pageId: 78709
   steam: 684840
+Days of Thunder:
+  pageId: 216960
 Days of War:
   cloud:
     steam: true
@@ -70407,6 +70413,7 @@ Dungeon Shooter 2:
 Dungeon Siege:
   cloud:
     gog: true
+    steam: true
   gog: 1142020247
   gogSide:
     - 1185868626
@@ -173452,23 +173459,6 @@ Planet Zoo:
   lutris: planet-zoo
   pageId: 135909
   steam: 703080
-  steamSide:
-    - 1098120
-    - 1098121
-    - 1196770
-    - 1238440
-    - 1349400
-    - 1471590
-    - 1567110
-    - 1647620
-    - 1726150
-    - 1747960
-    - 1934140
-    - 2013290
-    - 2150050
-    - 2199210
-    - 2346830
-    - 2675740
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Zoo\\{{p|uid}}\\Config|{{p|localappdata}}\\Frontier Developments\\Planet Zoo}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Zoo\\{{p|uid}}\\Saves}}"
@@ -175795,6 +175785,8 @@ Power Rangers Zeo Versus the Machine Empire:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\nWay.PowerRangersBattlefortheGrid_p9e4qmq568j3m\\SystemAppData\\wgs\\}}"
 "Power Rangers: Super Legends":
   pageId: 171058
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\engine.ini}}"
 Power Solitaire VR:
   pageId: 57208
   steam: 584850
