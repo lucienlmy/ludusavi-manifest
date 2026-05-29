@@ -49491,8 +49491,12 @@ Crashout Crew:
   cloud:
     steam: true
     xbox: true
+  lutris: crashout-crew
   pageId: 216934
   steam: 3583210
+  steamSide:
+    - 4076520
+    - 4736070
 Crashphalt:
   pageId: 113746
   steam: 921700
@@ -176055,6 +176059,16 @@ Pranky Cat:
 Pratagon:
   pageId: 121478
   steam: 950780
+Pratfall:
+  cloud:
+    steam: true
+  lutris: pratfall
+  pageId: 216972
+  steam: 4244510
+  steamSide:
+    - 4245100
+    - 4296600
+    - 4327880
 Pray for Death:
   gog: 1642230881
   lutris: pray-for-death

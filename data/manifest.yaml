@@ -126287,6 +126287,13 @@ Cheap Car Repair:
     steamExtra:
       - 3323560
       - 3501610
+  installDir:
+    Auto Fuszerka: {}
+  launch:
+    "<base>/Fuszerka.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2904040
 Cheap Golf:
@@ -154310,6 +154317,23 @@ Crashnauts:
 Crashout Crew:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Aggro Crab/CrashoutCrew/saves/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: crashout-crew
+    steamExtra:
+      - 4076520
+      - 4736070
+  installDir:
+    CrashoutCrew: {}
+  launch:
+    "<base>/CrashoutCrew.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3583210
 Crashphalt:
@@ -542152,6 +542176,24 @@ Pratagon:
             store: steam
   steam:
     id: 950780
+Pratfall:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Pratfall/save_data/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: pratfall
+    steamExtra:
+      - 4245100
+      - 4296600
+      - 4327880
+  installDir:
+    Pratfall: {}
+  steam:
+    id: 4244510
 Pray for Death:
   gog:
     id: 1642230881

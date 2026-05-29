@@ -209582,6 +209582,13 @@
         oslist: windows
       executable: "bin\\helldivers2.exe"
       type: default
+    - arguments: "--bundle-dir data --release"
+      config:
+        betakey: nixxes_3
+        osarch: "64"
+        ownsdlc: "1999180"
+      description: Easy Anti Cheat
+      executable: start_protected_game.exe
     - arguments: "--bundle-dir data"
       config:
         osarch: "64"
@@ -633793,6 +633800,11 @@
     tchinese: 法術小隊
     thai: กองเวทมนตร์
 2904040:
+  installDir: Auto Fuszerka
+  launch:
+    - config:
+        oslist: windows
+      executable: Fuszerka.exe
   nameLocalized:
     polish: Auto Fuszerka
 2905090:
@@ -645462,6 +645474,18 @@
   nameLocalized:
     japanese: ミラノのアルバイトこれくしょん
 3583210:
+  cloud:
+    saves:
+      - path: "Aggro Crab/CrashoutCrew/saves/{Steam3AccountID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: CrashoutCrew
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CrashoutCrew.exe
+      type: default
   nameLocalized:
     brazilian: "Empilha, Não Pira"
     japanese: クラッシュアウトクル
@@ -649648,6 +649672,58 @@
         oslist: windows
       executable: Legacy of Kain Ascendance.exe
       type: default
+4244510:
+  cloud:
+    saves:
+      - path: Pratfall/save_data
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Pratfall
+  launch:
+    - arguments: "--steam --rendering-driver vulkan"
+      config:
+        oslist: windows
+      description: using Vulkan
+      executable: Pratfall.exe
+      type: option1
+    - arguments: "--steam --rendering-driver d3d12"
+      config:
+        oslist: windows
+      description: using DirectX 12
+      executable: Pratfall.exe
+      type: option2
+    - arguments: "--steam --rendering-driver vulkan"
+      config:
+        betakey: development
+        oslist: windows
+      description: Pratfall using Vulkan (with console)
+      executable: Pratfall.console.exe
+      type: option3
+    - arguments: "--steam --rendering-driver d3d12"
+      config:
+        betakey: development
+        oslist: windows
+      description: Pratfall using DirectX 12 (with console)
+      executable: Pratfall.console.exe
+      type: option3
+    - arguments: "--steam --rendering-driver d3d12"
+      config:
+        oslist: windows
+      description: using DirectX 12 (Intel Arc)
+      executable: GameLauncher.exe
+      type: option3
+    - arguments: "--steam --rendering-driver vulkan"
+      config:
+        betakey: development_release
+        oslist: windows
+      description: Pratfall using Vulkan (with console)
+      executable: Pratfall.console.exe
+      type: option3
+  nameLocalized:
+    koreana: 프랫폴
+    schinese: 掘地求狗
 4244770: {}
 4244910: {}
 4249100:
