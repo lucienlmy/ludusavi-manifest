@@ -19776,6 +19776,13 @@ B.i.t.Lock:
 B.m.g 19 - bike messenger go!:
   pageId: 130078
   steam: 1038120
+BABBDI:
+  lutris: babbdi
+  pageId: 216983
+  steam: 2240530
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LemaitreBros\\Babbdi\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\LemaitreBros\\Babbdi\\save.dabadi}}"
 BAE:
   pageId: 66434
   steam: 685000
@@ -81115,12 +81122,13 @@ Faaast Penguin:
     - "{{Game data/config|Windows|{{P|localappdata}}\\FaaastPenguin\\Saved\\Config\\WindowsClient}}"
 Fable (1996):
   pageId: 195600
-Fable (2026):
+Fable (2027):
   lutris: fable--1
   pageId: 162121
   renamedFrom:
     - Fable (2021)
     - Fable (2025)
+    - Fable (2026)
   steam: 2769570
 Fable Anniversary:
   cloud:
@@ -146194,6 +146202,9 @@ Mina the Hollower:
   steamSide:
     - 3741460
     - 4743810
+  templates:
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/gamePrefs.yc}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/saveData.yc}}"
 Minabo:
   cloud:
     steam: true
@@ -216674,6 +216685,8 @@ Stardrop:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\STARDROP\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\STARDROP\\Saved\\SaveGames\\}}"
+Stardust:
+  pageId: 216978
 Stardust Demon:
   cloud:
     steam: true
@@ -232696,6 +232709,9 @@ The Cat in the Hat (2003):
   pageId: 192228
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames}}"
+"The Cat in the Hat: Rainy Day Mayhem":
+  pageId: 216975
+  steam: 3465710
 "The Cat! Porfirio's Adventure":
   pageId: 41833
   steam: 492270

@@ -643923,6 +643923,27 @@
 3465690:
   nameLocalized:
     english: "Still Wakes the Deep: Siren’s Rest"
+3465710:
+  nameLocalized:
+    brazilian: "O Gatola da Cartola: Chuva e Travessuras"
+    danish: "Katten med hatten: Rabalder på en regnvejrsdag"
+    dutch: "The Cat in the Hat: chaos in de regen"
+    finnish: "The Cat in the Hat: sadepäivän sotku"
+    french: "Le Chat Chapeauté : Pagaille sous la pluie"
+    german: "Der Kater mit Hut: Regentagwahnsinn"
+    italian: "Il gatto col cappello: scompiglio in un giorno di pioggia"
+    japanese: キャットインザハット ぼうしをかぶったへんなねこ：雨の日の大さわぎ
+    koreana: "모자 속 고양이: 비 내리는 날 소동"
+    latam: "El gato ensombrerado: Caos en día lluvioso"
+    polish: "Kot Prot: Szaleństwo deszczowego dnia"
+    portuguese: "O Gato do Chapéu: Loucura Chuvosa"
+    russian: "Кот в шляпе: Хаос в дождливый день"
+    schinese: 戴帽子的猫：雨天大乱斗
+    spanish: "El Gato Garabato: Caos en el Chaparrón"
+    swedish: "Katten i hatten: Regndagsrabalder"
+    tchinese: 戴帽子的貓：熱鬧雨天
+    turkish: "Şapkalı Kedi: Yağmurlu Gün Karmaşası"
+    ukrainian: "The Cat in the Hat: «Хаос у дощовий день»"
 3467040:
   cloud:
     saves:

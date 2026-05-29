@@ -61645,6 +61645,36 @@ B.m.g 19 - bike messenger go!:
             store: steam
   steam:
     id: 1038120
+BABBDI:
+  files:
+    "<home>/AppData/LocalLow/LemaitreBros/Babbdi/save.dabadi":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: babbdi
+  installDir:
+    BABBDI: {}
+  launch:
+    "<base>/BABBDI_1.2.5.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/BABBDI_Mac_1.2.5.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Babbdi.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/LemaitreBros/Babbdi:
+      tags:
+        - config
+  steam:
+    id: 2240530
 BAE:
   steam:
     id: 685000
@@ -251308,10 +251338,12 @@ Faaast Penguin:
   steam:
     id: 2590150
 Fable (2021):
-  alias: Fable (2026)
+  alias: Fable (2027)
 Fable (2025):
-  alias: Fable (2026)
+  alias: Fable (2027)
 Fable (2026):
+  alias: Fable (2027)
+Fable (2027):
   id:
     lutris: fable--1
   steam:
@@ -450966,6 +450998,17 @@ Mina the Hollower:
   cloud:
     gog: true
     steam: true
+  files:
+    "<xdgData>/Yacht Club Games/Mina the Hollower/gamePrefs.yc":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/Yacht Club Games/Mina the Hollower/saveData.yc":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 1413488655
   id:
@@ -718685,6 +718728,9 @@ The Cat in the Hat (2003):
         - save
       when:
         - os: windows
+"The Cat in the Hat: Rainy Day Mayhem":
+  steam:
+    id: 3465710
 "The Cat! Porfirio's Adventure":
   installDir:
     "The Cat! Porfirio's Adventure": {}
