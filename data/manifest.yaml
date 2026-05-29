@@ -157429,6 +157429,11 @@ Crimson Metal:
     CRIMSON METAL: {}
   steam:
     id: 606960
+Crimson Moon:
+  id:
+    lutris: crimson-moon--1
+  steam:
+    id: 4317690
 Crimson Nights:
   installDir:
     Crimson Nights: {}
@@ -380401,6 +380406,7 @@ Kandagawa Jet Girls:
 "Kane & Lynch 2: Dog Days":
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/Square Enix/Kane & Lynch 2 - Dog Days":
       tags:
@@ -450934,11 +450940,34 @@ MinSweeper:
     id: 726030
 Mina the Hollower:
   cloud:
+    gog: true
     steam: true
+  gog:
+    id: 1413488655
   id:
+    gogExtra:
+      - 1138750326
+      - 2007575600
     lutris: mina-the-hollower
     steamExtra:
       - 3741460
+      - 4743810
+  installDir:
+    Mina the Hollower: {}
+  launch:
+    "<base>/Mina the Hollower.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/MinaTheHollower":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/MinaTheHollower.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1875580
 Minabo:
@@ -466139,6 +466168,27 @@ Mr. Robot:
         - config
   steam:
     id: 20710
+Mr. Saitou:
+  files:
+    "<base>/*.rxdata":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    MrSaitou: {}
+  launch:
+    "<base>/Mr. Saitou.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/mrsaitou.bin":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 628740
 Mr. Shadow:
   installDir:
     Mr. Shadow: {}
@@ -608012,10 +608062,32 @@ Scalak:
   steam:
     id: 858760
 Scale the Depths:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Glass Gecko Games/Scale The Depths":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1285127237
   id:
     lutris: scale-the-depths
     steamExtra:
       - 3821770
+  installDir:
+    Scale the Depths: {}
+  launch:
+    "<base>/Scale The Depths.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Scale The Depths.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3198890
 "Scallywag's Honor":
@@ -750416,6 +750488,13 @@ The Skies:
           - store: steam
   steam:
     id: 337950
+The Skin Stapler:
+  id:
+    lutris: the-skin-stapler
+    steamExtra:
+      - 4343530
+  steam:
+    id: 4310610
 The Sky Climber:
   installDir:
     The Sky Climber: {}

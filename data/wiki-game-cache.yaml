@@ -50546,6 +50546,10 @@ Crimson Memories:
 Crimson Metal:
   pageId: 61476
   steam: 606960
+Crimson Moon:
+  lutris: crimson-moon--1
+  pageId: 216962
+  steam: 4317690
 Crimson Nights:
   pageId: 55744
   steam: 538390
@@ -123036,6 +123040,7 @@ Kandagawa Jet Girls:
 "Kane & Lynch 2: Dog Days":
   cloud:
     gog: true
+    steam: true
   gog: 2057392130
   gogSide:
     - 1911154018
@@ -146173,12 +146178,18 @@ MinSweeper:
   steam: 726030
 Mina the Hollower:
   cloud:
+    gog: true
     steam: true
+  gog: 1413488655
+  gogSide:
+    - 1138750326
+    - 2007575600
   lutris: mina-the-hollower
   pageId: 205366
   steam: 1875580
   steamSide:
     - 3741460
+    - 4743810
 Minabo:
   cloud:
     steam: true
@@ -151147,6 +151158,11 @@ Mr. Robot:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Moonpod\\MrRobot}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\MrRobot\\data\\saves}}"
+Mr. Saitou:
+  pageId: 216968
+  steam: 628740
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\*.rxdata}}"
 Mr. Shadow:
   pageId: 53099
   steam: 543270
@@ -197337,11 +197353,17 @@ Scalak:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Hamster On Coke Games\\Scalak\\}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Hamster On Coke Games\\Scalak\\Data\\saveData.txt}}"
 Scale the Depths:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1285127237
   lutris: scale-the-depths
   pageId: 216063
   steam: 3198890
   steamSide:
     - 3821770
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Glass Gecko Games\\Scale The Depths}}"
 "Scallywag's Honor":
   cloud:
     steam: true
@@ -243214,6 +243236,12 @@ The Skies:
   steam: 337950
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\eforb\\}}"
+The Skin Stapler:
+  lutris: the-skin-stapler
+  pageId: 216966
+  steam: 4310610
+  steamSide:
+    - 4343530
 The Sky Climber:
   pageId: 120711
   steam: 958690

@@ -7559,6 +7559,12 @@
   launch:
     - executable: deadhorde.exe
 28000:
+  cloud:
+    saves:
+      - path: "Square Enix\\Kane & Lynch 2 - Dog Days"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Kane & Lynch 2 - Dog Days
   launch:
     - executable: KL2.exe
@@ -248938,6 +248944,46 @@
       type: default
   nameLocalized:
     koreana: 산타는 교복을 입을 수 밖에 없어
+628740:
+  cloud:
+    saves:
+      - path: "."
+        pattern: "*.rxdata"
+        root: gameinstall
+      - path: "."
+        pattern: "*.yaml"
+        root: gameinstall
+  installDir: MrSaitou
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Mr. Saitou
+      executable: mrsaitou.exe
+      type: option1
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Mr. Saitou (DirectX)
+      executable: mrsaitou_directx.bat
+      type: option2
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Mr. Saitou (OpenGL)
+      executable: mrsaitou_opengl.bat
+      type: option3
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: mrsaitou.bin
+      type: default
+    - config:
+        oslist: macos
+      executable: Mr. Saitou.app
+      type: default
+  nameLocalized:
+    japanese: MR. SAITOU
 628750:
   cloud:
     saves:
@@ -588719,6 +588765,21 @@
       executable: T.exe
       type: default
 1875580:
+  installDir: Mina the Hollower
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MinaTheHollower.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: MinaTheHollower
+      type: default
+    - config:
+        oslist: macos
+      executable: Mina the Hollower.app
+      type: default
   nameLocalized:
     schinese: 挖掘者米娜
     tchinese: 《探地者米娜》
@@ -639619,6 +639680,21 @@
     schinese: 天天玩乐园
     tchinese: 天天玩樂園
 3198890:
+  cloud:
+    saves:
+      - path: Glass Gecko Games/Scale The Depths
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+  installDir: Scale the Depths
+  launch:
+    - config:
+        oslist: windows
+      executable: Scale The Depths.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Scale The Depths.app
+      type: default
   nameLocalized:
     schinese: 深海刮刮乐
 3199170:
@@ -649785,7 +649861,9 @@
     english: "A Whisper of Fall: Jinyiwei"
     schinese: 一盏秋声：锦衣卫
     tchinese: 一盞秋聲：錦衣衛
+4310610: {}
 4317460: {}
+4317690: {}
 4328440: {}
 4328820:
   nameLocalized:
