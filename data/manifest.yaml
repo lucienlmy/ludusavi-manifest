@@ -6485,8 +6485,6 @@ $1 Ride:
   steam:
     id: 1143420
 70s-Style Robot Anime Geppy-X:
-  id:
-    lutris: 70-s-robot-anime-geppy-x
   steam:
     id: 4120310
 "7554: Glorious Memories Revived":
@@ -65228,13 +65226,13 @@ Balatro:
         - config
       when:
         - os: mac
-    "<winAppData>/Balatro":
+    "<winAppData>/Roaming/Balatro":
       tags:
         - save
       when:
         - os: windows
           store: steam
-    "<winAppData>/Balatro/settings.jkr":
+    "<winAppData>/Roaming/Balatro/settings.jkr":
       tags:
         - config
       when:
@@ -184687,13 +184685,13 @@ Deep Rock Galactic:
   id:
     lutris: deep-rock-galactic-rogue-core
     steamExtra:
-      - 2860770
+      - 4216130
+      - 4630280
   installDir:
     Deep Rock Galactic RogueCore: {}
   launch:
     "<base>/RogueCore.exe":
-      - arguments: "-disablemodding"
-        when:
+      - when:
           - bit: 64
             os: windows
             store: steam
@@ -280875,13 +280873,11 @@ Fretless - The Wrath of Riffson:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Ritual Studios/Fretless_ The Wrath of Riffson/*.sav":
+    "<home>/AppData/LocalLow/Ritual Studios/Fretless_ The Wrath of Riffson":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Ritual Studios/Fretless_ The Wrath of Riffson/Ritual Studios/Fretless_ The Wrath of Riffson/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     steamExtra:
       - 2581940
@@ -449987,6 +449983,11 @@ Migrate:
         - save
       when:
         - os: windows
+    "<root>/userdata/<storeUserId>/1819460/ac/WinAppDataLocalLow/Chibig/Mika":
+      tags:
+        - config
+      when:
+        - store: steam
   id:
     lutris: mika-and-the-witchs-mountain
   installDir:
@@ -470345,6 +470346,21 @@ My Little Kitties:
             store: steam
   steam:
     id: 2235440
+My Little Puppy:
+  files:
+    "<home>/AppData/LocalLow/Dreamotion/My Little Puppy":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    My Little Puppy: {}
+  launch:
+    "<base>/puppy.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2102040
 My Little Riding Champion:
   installDir:
     My Little Riding Champion: {}
@@ -585919,6 +585935,29 @@ River City Melee Mach!!:
             store: steam
   steam:
     id: 1851610
+River Town Factory:
+  files:
+    "<base>/GameSet":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    JiangCity: {}
+  launch:
+    "<base>/jcGame.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 2281410
 Riverbed Soul Saver:
   files:
     "<base>/config.dat":
@@ -807853,6 +807892,11 @@ Vexius:
             store: steam
   steam:
     id: 757190
+Vholume:
+  id:
+    lutris: vholume
+  steam:
+    id: 4131730
 ViKubb:
   installDir:
     ViKubb: {}

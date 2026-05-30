@@ -2022,7 +2022,6 @@ $1 Ride:
   pageId: 144419
   steam: 1143420
 70s-Style Robot Anime Geppy-X:
-  lutris: 70-s-robot-anime-geppy-x
   pageId: 215906
   steam: 4120310
 "7554: Glorious Memories Revived":
@@ -20925,9 +20924,9 @@ Balatro:
   steamSide:
     - 2834460
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Balatro\\settings.jkr}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Roaming\\Balatro\\settings.jkr}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Balatro/settings.jkr}}"
-    - "{{Game data/saves|Steam|{{p|appdata}}\\Balatro\\}}"
+    - "{{Game data/saves|Steam|{{p|appdata}}\\Roaming\\Balatro\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\PlayStack.Balatro_3wcqaesafpzfy\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Balatro/}}"
 Balconing Simulator 2020:
@@ -59407,7 +59406,8 @@ Deep Rock Galactic:
   pageId: 215907
   steam: 2605790
   steamSide:
-    - 2860770
+    - 4216130
+    - 4630280
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\RogueCore\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|game}}\\RogueCore\\Saved\\SaveGames\\*.sav}}"
@@ -90682,6 +90682,8 @@ Fretless - The Wrath of Riffson:
   steamSide:
     - 2581940
     - 3796050
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Ritual Studios\\Fretless_ The Wrath of Riffson\\}}"
 Frets on Fire:
   pageId: 165743
   templates:
@@ -145895,6 +145897,7 @@ Migrate:
   steam: 1819460
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Chibig\\Mika\\Save}}"
+    - "{{Game data/config|Steam|{{p|steam}}/userdata/{{p|uid}}/1819460/ac/WinAppDataLocalLow/Chibig/Mika/}}"
 Mikapyon:
   pageId: 128001
   steam: 969060
@@ -152511,6 +152514,11 @@ My Little Kitties:
   pageId: 183341
 "My Little Pony: Pinkie Pie's Party Parade":
   pageId: 138320
+My Little Puppy:
+  pageId: 217001
+  steam: 2102040
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Dreamotion\\My Little Puppy\\}}"
 My Little Riding Champion:
   pageId: 113212
   steam: 789900
@@ -190220,6 +190228,12 @@ River City Melee Mach!!:
     - 2717430
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Kid Onion Studio\\River Tails - Stronger Together}}"
+River Town Factory:
+  pageId: 216998
+  steam: 2281410
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\GameSet}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Riverbed Soul Saver:
   lutris: touhou-tougenkyuu-riverbed-soul-saver
   pageId: 208351
@@ -262935,6 +262949,10 @@ Vexius:
     steam: true
   pageId: 77881
   steam: 757190
+Vholume:
+  lutris: vholume
+  pageId: 216999
+  steam: 4131730
 ViKubb:
   pageId: 150255
   steam: 681790

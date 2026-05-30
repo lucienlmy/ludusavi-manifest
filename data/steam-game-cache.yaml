@@ -603861,6 +603861,27 @@
       workingdir: "Cronos\\Binaries\\Win64"
   nameLocalized:
     schinese: 时间旅者：重生曙光
+2102040:
+  cloud:
+    saves:
+      - path: Dreamotion/My Little Puppy
+        pattern: "*.cloud"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+  installDir: My Little Puppy
+  launch:
+    - executable: puppy.exe
+  nameLocalized:
+    english: My Little Puppy
+    japanese: マイリトルパピー
+    koreana: 마이 리틀 퍼피
+    schinese: 我的小柯基
+    tchinese: 我的小柯基
 2102450:
   cloud:
     saves:
@@ -612485,6 +612506,31 @@
     - config:
         oslist: macos
       executable: Tennis Manager 2023.app
+2281410:
+  cloud:
+    saves:
+      - path: Save
+        pattern: "*"
+        root: gameinstall
+  installDir: JiangCity
+  launch:
+    - config:
+        oslist: windows
+      executable: jcGame.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: jcGame.exe
+      type: default
+  nameLocalized:
+    brazilian: Cidade Do Rio Fábrica
+    english: River Town Factory
+    german: Flussstadt Fabrik
+    japanese: 江城のきぎょう物語
+    portuguese: Cidade Do Rio Fábrica
+    russian: Речной Город Завод
+    schinese: 江城创业记
+    tchinese: 江城創業記
 2281650:
   cloud:
     saves:
@@ -625685,8 +625731,7 @@
         root: gameinstall
   installDir: Deep Rock Galactic RogueCore
   launch:
-    - arguments: "-disablemodding"
-      config:
+    - config:
         osarch: "64"
         oslist: windows
       executable: RogueCore.exe
@@ -625706,6 +625751,14 @@
         oslist: windows
       description: Testing build
       executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
+      type: option1
+    - arguments: "-DefaultServiceOverride=Steam"
+      config:
+        betakey: test_serverlist
+        osarch: "64"
+        oslist: windows
+      description: "Network test "
+      executable: RogueCore.exe
       type: option1
   nameLocalized:
     schinese: 深岩银河：异动核心
@@ -649451,6 +649504,7 @@
   installDir: eBaseball PRO SPIRIT
   launch:
     - executable: "Game\\prospi.exe"
+4131730: {}
 4138130: {}
 4139880:
   installDir: Inner Voice
