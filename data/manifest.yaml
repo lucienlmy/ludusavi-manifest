@@ -119529,6 +119529,16 @@ Castle Story:
     id: 227860
 Castle Strike:
   files:
+    "<base>/Engine.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/PROFILES.INI":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/savegame":
       tags:
         - save
@@ -275202,6 +275212,11 @@ Foreveracers:
             store: steam
   steam:
     id: 548450
+Foreverthorn:
+  id:
+    lutris: foreverthorn
+  steam:
+    id: 3918930
 Forewarned:
   files:
     "<home>/AppData/LocalLow/Dreambyte Games/FOREWARNED":
@@ -600869,6 +600884,15 @@ STEELPAW:
             store: steam
   steam:
     id: 1022820
+STELLAR INC – Internship:
+  installDir:
+    STELLAR INC: {}
+  launch:
+    "<base>/STELLAR.INC.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3655720
 STONE:
   cloud:
     steam: true
@@ -851664,6 +851688,11 @@ Zebra Logic Master:
           - store: steam
   steam:
     id: 1135730
+Zebulon 3D:
+  id:
+    lutris: zebulon-3d
+  steam:
+    id: 4436520
 Zed Survival:
   installDir:
     Zed Survival: {}

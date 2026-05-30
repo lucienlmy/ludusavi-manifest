@@ -38533,8 +38533,8 @@ Castle Story:
 Castle Strike:
   pageId: 171686
   templates:
-    - "{{Game data/config|Windows|{{p|game}}}}"
-    - "{{Game data/saves|Windows|{{p|game}}/savegame}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Engine.ini|{{p|game}}\\PROFILES.INI}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 "Castle Torgeath: Descent into Darkness":
   pageId: 44856
   steam: 431870
@@ -88989,6 +88989,10 @@ Forever Space:
 Foreveracers:
   pageId: 89579
   steam: 548450
+Foreverthorn:
+  lutris: foreverthorn
+  pageId: 217024
+  steam: 3918930
 Forewarned:
   pageId: 190814
   steam: 1562420
@@ -195061,6 +195065,9 @@ STEELPAW:
     steam: true
   pageId: 148587
   steam: 1022820
+STELLAR INC – Internship:
+  pageId: 217025
+  steam: 3655720
 STONE:
   cloud:
     steam: true
@@ -277500,6 +277507,10 @@ Zeal:
 Zebra Logic Master:
   pageId: 145447
   steam: 1135730
+Zebulon 3D:
+  lutris: zebulon-3d
+  pageId: 217022
+  steam: 4436520
 Zed Blade:
   cloud:
     xbox: true

@@ -646604,6 +646604,10 @@
         oslist: windows
       executable: Midnight.exe
       type: default
+3655720:
+  installDir: STELLAR INC
+  launch:
+    - executable: STELLAR.INC.exe
 3656800:
   installDir: Train Sim World 6
   launch:
@@ -648633,6 +648637,7 @@
         oslist: windows
       executable: fates.exe
       type: default
+3918930: {}
 3919810: {}
 3920610:
   cloud:
@@ -649010,7 +649015,10 @@
         oslist: windows
       executable: Death in a Party.exe
       type: default
-3989960: {}
+3989960:
+  nameLocalized:
+    schinese: 青蛙小队🐸 / Frog Sqwad
+    tchinese: 青蛙小隊🐸 / Frog Sqwad
 3990360: {}
 3990960:
   cloud:
@@ -650312,6 +650320,7 @@
     thai: "Call of Duty®: Modern Warfare® 4"
     turkish: "Call of Duty®: Modern Warfare® 4"
     ukrainian: "Call of Duty®: Modern Warfare® 4"
+4436520: {}
 4444610: {}
 4459850:
   nameLocalized:
