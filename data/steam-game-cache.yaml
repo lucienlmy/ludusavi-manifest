@@ -545780,6 +545780,7 @@
         oslist: linux
       executable: Sizeable_Linux/Sizeable_Linux.x86_64
       type: default
+1333930: {}
 1334000:
   cloud:
     saves:
@@ -600931,6 +600932,7 @@
       executable: CrimsonSnow.exe
   nameLocalized:
     schinese: 猩红之雪
+2067820: {}
 2067850:
   installDir: Drakensang Online
   launch:
@@ -631591,6 +631593,7 @@
         oslist: windows
       executable: RENTAL.exe
       type: default
+2799050: {}
 2799350:
   cloud:
     saves:
@@ -641061,6 +641064,7 @@
     koreana: PATLABOR the Case Files
     schinese: PATLABOR the Case Files
     tchinese: PATLABOR the Case Files
+3275410: {}
 3275880:
   cloud:
     saves:
@@ -643052,6 +643056,7 @@
         oslist: linux
       executable: WorldOfGoo2
       type: default
+3386030: {}
 3386900:
   cloud:
     saves:
@@ -649860,6 +649865,7 @@
         oslist: windows
       description: Runes Card
       executable: CODES.BAT
+4259930: {}
 4260840: {}
 4264230:
   cloud:

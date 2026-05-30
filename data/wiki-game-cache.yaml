@@ -104338,6 +104338,11 @@ Harpoon Cat:
   steam: 3086120
 Harpoon!:
   pageId: 172216
+Harpooner:
+  pageId: 217014
+  steam: 4259930
+  steamSide:
+    - 4667560
 Harrier Jump Jet:
   gog: 1248656404
   pageId: 177415
@@ -124432,7 +124437,7 @@ Killer Frequency:
   steam: 1903620
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Team17\\KillerFrequency\\}}"
-    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Team17\\KillerFrequency\\{{p|uid}}\\*.sav}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Team17\\KillerFrequency\\{{p|uid}}\\*.sav}}"
 Killer Gin:
   pageId: 152827
   steam: 1164480
@@ -150895,6 +150900,10 @@ Mournful Sword:
 Mourning Inc.:
   pageId: 179062
   steam: 1398170
+Mourning Tide:
+  lutris: mourning-tide
+  pageId: 217003
+  steam: 2799050
 Mouse Mayhem Shooting & Racing:
   pageId: 153517
   steam: 1201200
@@ -179170,6 +179179,9 @@ Puppeteer:
 PuppetsVR:
   pageId: 69711
   steam: 494040
+Puppetsite:
+  pageId: 217007
+  steam: 3275410
 Puppies vs Undead:
   pageId: 82147
   steam: 651060
@@ -187861,6 +187873,10 @@ RetroRealms Arcade:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\WayForward Technologies\\RetroRealms}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\WayForward Technologies\\RetroRealms\\_savedata\\}}"
+RetroSpace:
+  lutris: retrospace
+  pageId: 217010
+  steam: 2067820
 RetroVamp:
   pageId: 153039
   steam: 1178680
@@ -270385,6 +270401,10 @@ White Knuckle:
   steam: 3195790
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Dark Machine\\White Knuckle}}"
+White Line Fever:
+  lutris: white-line-fever
+  pageId: 217005
+  steam: 3386030
 White Mirror:
   pageId: 44816
   steam: 428630
@@ -273870,6 +273890,10 @@ World to the West:
 "World's Nicht":
   pageId: 139123
   steam: 1101330
+"World's Worst Handyman":
+  lutris: worlds-worst-handyman
+  pageId: 217012
+  steam: 1333930
 WorldBox:
   cloud:
     steam: true

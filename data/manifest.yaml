@@ -322472,6 +322472,12 @@ Harpoon Cat:
             store: steam
   steam:
     id: 3086120
+Harpooner:
+  id:
+    steamExtra:
+      - 4667560
+  steam:
+    id: 4259930
 Harrier Jump Jet:
   gog:
     id: 1248656404
@@ -384671,7 +384677,6 @@ Killer Frequency:
         - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: killer-frequency
   installDir:
@@ -465304,6 +465309,11 @@ Mourning Inc.:
             store: steam
   steam:
     id: 1398170
+Mourning Tide:
+  id:
+    lutris: mourning-tide
+  steam:
+    id: 2799050
 Mouse:
   alias: "Mouse: P.I. For Hire"
 Mouse Mayhem Shooting & Racing:
@@ -551902,6 +551912,9 @@ PuppetsVR:
     PuppetsVR: {}
   steam:
     id: 494040
+Puppetsite:
+  steam:
+    id: 3275410
 Puppies vs Undead:
   steam:
     id: 651060
@@ -578653,6 +578666,11 @@ RetroRealms Arcade:
         - config
   steam:
     id: 2158030
+RetroSpace:
+  id:
+    lutris: retrospace
+  steam:
+    id: 2067820
 RetroVamp:
   installDir:
     RetroVamp: {}
@@ -830004,6 +830022,11 @@ White Knuckle:
           - store: steam
   steam:
     id: 3195790
+White Line Fever:
+  id:
+    lutris: white-line-fever
+  steam:
+    id: 3386030
 White Mirror:
   installDir:
     White Mirror: {}
@@ -840653,6 +840676,11 @@ World to the West:
             store: steam
   steam:
     id: 1101330
+"World's Worst Handyman":
+  id:
+    lutris: worlds-worst-handyman
+  steam:
+    id: 1333930
 WorldBox:
   cloud:
     steam: true
