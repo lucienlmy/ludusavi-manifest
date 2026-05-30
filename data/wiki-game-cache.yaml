@@ -14018,6 +14018,11 @@ Apple Jack 1&2:
   steam: 351690
   steamSide:
     - 629470
+Apple Picker:
+  pageId: 216987
+  steam: 4573410
+  steamSide:
+    - 4715760
 Apple Pop:
   pageId: 144025
   steam: 1136030
@@ -20131,8 +20136,12 @@ Baba Is You:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Baba_Is_You}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Baba_Is_You}}"
 Babbdi:
+  lutris: babbdi
   pageId: 210589
   steam: 2240530
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LemaitreBros\\Babbdi\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\LemaitreBros\\Babbdi\\save.dabadi}}"
 Babel Climbers:
   pageId: 148673
   renamedFrom:
@@ -151276,6 +151285,11 @@ MuX:
 Muay Thai Fighting:
   pageId: 99340
   steam: 878400
+Muchi Muchi Pork! & PinkSweets Boosted:
+  cloud:
+    steam: true
+  pageId: 216993
+  steam: 4229200
 MudRunner:
   cloud:
     epic: true
@@ -212859,6 +212873,8 @@ Speed Dating for Ghosts:
   steam: 746400
   steamSide:
     - 748700
+Speed Demons (1999):
+  pageId: 216991
 Speed Demons (2019):
   pageId: 147828
 Speed Haste:
@@ -248157,6 +248173,8 @@ Times & Galaxy:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Copychaser Games\\Times and Galaxy\\{{p|uid}}\\Save}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Copychaser Games\\Times and Galaxy\\{{p|uid}}\\Save}}"
+Times of Conflict:
+  pageId: 216989
 Times of Lore:
   pageId: 73418
   templates:

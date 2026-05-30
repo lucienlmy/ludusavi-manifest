@@ -649685,6 +649685,9 @@
     koreana: "록맨: 듀얼 오버라이드"
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
+4229200:
+  nameLocalized:
+    japanese: むちむちポーク！＆ピンクスゥイーツ Boosted
 4231820: {}
 4233530:
   installDir: Legacy of Kain Ascendance
@@ -650316,6 +650319,7 @@
     - description: Windows
       executable: BouncingBall.exe
       type: default
+4573410: {}
 4605200: {}
 4665880: {}
 4669670:

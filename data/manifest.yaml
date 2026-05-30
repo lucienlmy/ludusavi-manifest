@@ -43999,6 +43999,12 @@ Apple Jack 1&2:
     id: 351690
 Apple Knight:
   alias: Apple Slash
+Apple Picker:
+  id:
+    steamExtra:
+      - 4715760
+  steam:
+    id: 4573410
 Apple Pop:
   steam:
     id: 1136030
@@ -62838,6 +62844,14 @@ Baba Is You:
   steam:
     id: 736260
 Babbdi:
+  files:
+    "<home>/AppData/LocalLow/LemaitreBros/Babbdi/save.dabadi":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: babbdi
   installDir:
     BABBDI: {}
   launch:
@@ -62853,6 +62867,10 @@ Babbdi:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/LemaitreBros/Babbdi:
+      tags:
+        - config
   steam:
     id: 2240530
 Babel Climbers:
@@ -466541,6 +466559,11 @@ Muay Thai Fighting:
             store: steam
   steam:
     id: 878400
+Muchi Muchi Pork! & PinkSweets Boosted:
+  cloud:
+    steam: true
+  steam:
+    id: 4229200
 MudRunner:
   cloud:
     epic: true
