@@ -65226,13 +65226,13 @@ Balatro:
         - config
       when:
         - os: mac
-    "<winAppData>/Roaming/Balatro":
+    "<winAppData>/Balatro":
       tags:
         - save
       when:
         - os: windows
           store: steam
-    "<winAppData>/Roaming/Balatro/settings.jkr":
+    "<winAppData>/Balatro/settings.jkr":
       tags:
         - config
       when:
@@ -104466,9 +104466,19 @@ Brotato:
         - save
       when:
         - os: mac
+    "<home>/Library/Application Support/Brotato/<storeUserId>/settings.json":
+      tags:
+        - config
+      when:
+        - os: mac
     "<winAppData>/Brotato/<storeUserId>/*.json":
       tags:
         - save
+      when:
+        - os: windows
+    "<winAppData>/Brotato/<storeUserId>/settings.json":
+      tags:
+        - config
       when:
         - os: windows
   gog:
@@ -116009,6 +116019,30 @@ Car Mechanic Simulator 2018:
         - save
       when:
         - os: windows
+  id:
+    lutris: car-mechanic-simulator-2018
+    steamExtra:
+      - 672270
+      - 672271
+      - 710430
+      - 717490
+      - 754920
+      - 754921
+      - 754922
+      - 754923
+      - 783150
+      - 799950
+      - 868280
+      - 947930
+      - 987050
+      - 1019540
+      - 1125210
+      - 1215050
+      - 1265620
+      - 1710610
+      - 1851590
+      - 1851591
+      - 1966190
   installDir:
     Car Mechanic Simulator 2018: {}
   launch:

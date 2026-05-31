@@ -20923,9 +20923,9 @@ Balatro:
   steamSide:
     - 2834460
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Roaming\\Balatro\\settings.jkr}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Balatro\\settings.jkr}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Balatro/settings.jkr}}"
-    - "{{Game data/saves|Steam|{{p|appdata}}\\Roaming\\Balatro\\}}"
+    - "{{Game data/saves|Steam|{{p|appdata}}\\Balatro\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\PlayStack.Balatro_3wcqaesafpzfy\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Balatro/}}"
 Balconing Simulator 2020:
@@ -33696,6 +33696,8 @@ Brotato:
     - 3281080
     - 4498220
   templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Brotato\\{{p|uid}}\\settings.json}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Brotato/{{p|uid}}/settings.json}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Brotato/{{p|uid}}/settings.json}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Brotato\\{{p|uid}}\\*.json}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Brotato/{{p|uid}}/*.json}}"
@@ -37393,8 +37395,31 @@ Car Mechanic Simulator 2015:
 Car Mechanic Simulator 2018:
   cloud:
     steam: true
+  lutris: car-mechanic-simulator-2018
   pageId: 63322
   steam: 645630
+  steamSide:
+    - 672270
+    - 672271
+    - 710430
+    - 717490
+    - 754920
+    - 754921
+    - 754922
+    - 754923
+    - 783150
+    - 799950
+    - 868280
+    - 947930
+    - 987050
+    - 1019540
+    - 1125210
+    - 1215050
+    - 1265620
+    - 1710610
+    - 1851590
+    - 1851591
+    - 1966190
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator 2018}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Red Dot Games\\Car Mechanic Simulator 2018\\}}"
