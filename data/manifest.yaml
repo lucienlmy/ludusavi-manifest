@@ -148533,6 +148533,8 @@ Content Creator Simulator:
   steam:
     id: 811250
 Content Warning:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Landfall Games/Content Warning":
       tags:
@@ -158148,6 +158150,7 @@ Critters - Cute Cubs in a Cruel World:
     id: 717280
 Critters for Sale:
   id:
+    lutris: critters-for-sale
     steamExtra:
       - 1350240
   installDir:
@@ -475803,6 +475806,15 @@ NVL:
         - save
       when:
         - os: windows
+NZ78:
+  files:
+    "<winLocalAppData>/TP_PFS_noMulti/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4125810
 "Naau: The Lost Eye":
   installDir:
     Naau The Lost Eye: {}
@@ -795360,6 +795372,8 @@ Undead Horde:
         - os: linux
   gog:
     id: 1668089272
+  id:
+    lutris: undead-horde
   installDir:
     Undead Horde: {}
   launch:

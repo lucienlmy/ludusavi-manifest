@@ -47574,6 +47574,9 @@ Content Creator Simulator:
   pageId: 88023
   steam: 811250
 Content Warning:
+  cloud:
+    steam: true
+    xbox: true
   pageId: 194109
   steam: 2881650
   templates:
@@ -50761,6 +50764,7 @@ Critters - Cute Cubs in a Cruel World:
   pageId: 78088
   steam: 717280
 Critters for Sale:
+  lutris: critters-for-sale
   pageId: 137026
   steam: 1078420
   steamSide:
@@ -154356,6 +154360,11 @@ NVL:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\NYR.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+NZ78:
+  pageId: 217047
+  steam: 4125810
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TP_PFS_noMulti\\Saved\\SaveGames\\}}"
 "Naau: The Lost Eye":
   pageId: 145413
   steam: 1124600
@@ -258722,6 +258731,7 @@ Undead Horde:
     steam: true
     xbox: true
   gog: 1668089272
+  lutris: undead-horde
   pageId: 87601
   steam: 790850
   templates:
