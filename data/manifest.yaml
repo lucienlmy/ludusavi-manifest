@@ -130619,6 +130619,9 @@ Chowdertwo:
             store: steam
   steam:
     id: 585750
+"Chris Moneymaker's World Poker Championship":
+  id:
+    lutris: chris-moneymakers-world-poker-championship
 "Chris Sawyer's Locomotion":
   files:
     "<base>/Data/GAME.CFG":
@@ -154428,6 +154431,9 @@ Crate Punks:
             store: steam
   steam:
     id: 517960
+Craving Wisps:
+  steam:
+    id: 4334910
 Crawl:
   cloud:
     steam: true
@@ -475289,6 +475295,13 @@ NHL Eastside Hockey Manager 2007:
         - config
       when:
         - os: windows
+"NHRA Drag Racing: Quarter Mile Showdown":
+  files:
+    "<base>/NHRA.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 "NHRA: Speed for All":
   installDir:
     NHRA Championship Drag Racing Speed For All: {}
@@ -475808,7 +475821,7 @@ NVL:
         - os: windows
 NZ78:
   files:
-    "<winLocalAppData>/TP_PFS_noMulti/Saved/SaveGames":
+    "<winLocalAppData>/NZ78/Saved/SaveGames":
       tags:
         - save
       when:
@@ -522497,6 +522510,9 @@ Pegasus Door:
             store: steam
   steam:
     id: 794030
+Pegfinity:
+  steam:
+    id: 3947040
 Peggle:
   files:
     "<winProgramData>/PopCap Games/Peggle/userdata":
@@ -549224,6 +549240,8 @@ Project Zero Deaths:
   steam:
     id: 1089650
 Project Zomboid:
+  cloud:
+    steam: true
   files:
     "<home>/Zomboid":
       tags:
@@ -639965,6 +639983,12 @@ Smashbox Arena:
 Smasher:
   steam:
     id: 989230
+Smashing Bottles:
+  id:
+    steamExtra:
+      - 4675800
+  steam:
+    id: 4637870
 Smashing the Battle:
   installDir:
     SMASHING THE BATTLE: {}
@@ -640028,6 +640052,9 @@ Smelter:
             store: steam
   steam:
     id: 1094540
+"Smersh: Wolfhound":
+  steam:
+    id: 4431400
 Smile To Fly:
   installDir:
     Smile To Fly: {}
@@ -795391,6 +795418,35 @@ Undead Horde:
             store: steam
   steam:
     id: 790850
+"Undead Horde 2: Necropolis":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/10tons/UndeadHorde2/save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1586513788
+  id:
+    lutris: undead-horde-2-necropolis
+  installDir:
+    Undead Horde 2 Necropolis: {}
+  launch:
+    "<base>/UndeadHorde2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/UndeadHorde2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2065810
 Undead Hunter:
   steam:
     id: 591080
@@ -839134,6 +839190,13 @@ World Peace Simulator 2019:
             store: steam
   steam:
     id: 1027960
+"World Poker Championship 2: Final Table Showdown":
+  files:
+    "<base>/WPC2.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 World Racing 2:
   files:
     "<base>/Config.ini":

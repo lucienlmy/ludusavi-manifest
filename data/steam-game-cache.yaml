@@ -600629,6 +600629,34 @@
         oslist: windows
       description: Rush Rush Rally Reloaded
       executable: Rush Rush Rally Reloaded.exe
+2065810:
+  cloud:
+    saves:
+      - path: 10tons/UndeadHorde2/save
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - addPath: ".local/share/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Undead Horde 2 Necropolis
+  launch:
+    - config:
+        oslist: windows
+      executable: UndeadHorde2.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: UndeadHorde2.app
+      type: default
 2065840:
   cloud:
     saves:
@@ -648825,6 +648853,7 @@
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
 3946090: {}
+3947040: {}
 3948120:
   cloud:
     saves:
@@ -650073,6 +650102,7 @@
     japanese: アイアン ブランブル
     schinese: 铁棘
 4333430: {}
+4334910: {}
 4335460: {}
 4339870:
   installDir: Goreagulation
@@ -650330,6 +650360,9 @@
     japanese: 凶乱マカイズム
 4414560: {}
 4418080: {}
+4431400:
+  nameLocalized:
+    russian: "Смерш: Охотник на волков"
 4434610: {}
 4435490:
   nameLocalized:
@@ -650425,6 +650458,7 @@
       type: default
 4573410: {}
 4605200: {}
+4637870: {}
 4665880: {}
 4669670:
   nameLocalized:
