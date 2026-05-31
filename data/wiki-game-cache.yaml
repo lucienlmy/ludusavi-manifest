@@ -3728,8 +3728,7 @@ A War Story:
   pageId: 69693
   steam: 701830
 A Way Out:
-  cloud:
-    origin: true
+  lutris: a-way-out
   pageId: 81902
   steam: 1222700
   templates:
@@ -64566,6 +64565,10 @@ Disturbing Forest:
 Dithered:
   pageId: 149281
   steam: 1116530
+Dithered (2026):
+  lutris: dithered--1
+  pageId: 217037
+  steam: 4234320
 Divan Chronicles:
   pageId: 148707
   steam: 1158390
@@ -65697,6 +65700,12 @@ Don Bradman Cricket 17:
 "Don't Let Go!":
   pageId: 39944
   steam: 519030
+"Don't Let It Starve":
+  lutris: dont-let-it-starve
+  pageId: 217043
+  steam: 3930510
+  steamSide:
+    - 3977370
 "Don't Look Back":
   pageId: 58785
   steam: 601550
@@ -90782,6 +90791,12 @@ Fright:
 Fright Light:
   pageId: 36726
   steam: 520290
+Fright Train:
+  lutris: fright-train
+  pageId: 217041
+  steam: 4132890
+  steamSide:
+    - 4458010
 FrightShow Fighter:
   pageId: 39255
   steam: 455830
@@ -138043,6 +138058,8 @@ Mad Streets:
 Mad Tower Tycoon:
   pageId: 109600
   steam: 910880
+Mad Tracks:
+  pageId: 217045
 Mad Tracks (2020):
   cloud:
     steam: true
@@ -146224,7 +146241,9 @@ Mina the Hollower:
     - 3741460
     - 4743810
   templates:
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/gamePrefs.yc}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Yacht Club Games\\Mina the Hollower\\}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/gamePrefs.yc}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Yacht Club Games\\Mina the Hollower\\saveData.yc}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/saveData.yc}}"
 Minabo:
   cloud:
@@ -158468,12 +158487,15 @@ Ninja Commando:
     xbox: true
   pageId: 168745
 Ninja Five-O:
+  cloud:
+    gog: true
+    steam: true
   gog: 1911433238
-  malformed: true
   pageId: 202292
   steam: 2728200
   templates:
-    - "{{Game data/config|Windows|{{Game data|\n{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Ninja Five-O\\system.cfg}}}}\n}}\n}}"
+    - "{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Ninja Five-O\\carbon.cfg}}|\n{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Ninja Five-O\\system.cfg}}}}"
+    - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Ninja Five-O\\0}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Ninja Five-O\\1}}}}"
 Ninja Gaiden:
   pageId: 176109
 Ninja Gaiden 2 Black:
@@ -191291,7 +191313,7 @@ Rocket Knight:
   pageId: 204234
   steam: 2728190
   templates:
-    - "{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\system.cfg}}}}"
+    - "{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\carbon.cfg}}|\n{{file|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\system.cfg}}}}"
     - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\0}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\1}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\2}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\3}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\4}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Limited Run Games\\Rocket Knight Adventures\\5}}}}"
 Rocket League:
   cloud:
@@ -194964,6 +194986,10 @@ SOS:
 SOS Atlas:
   pageId: 99756
   steam: 781380
+SOS Recordings:
+  lutris: sos-recordings
+  pageId: 217035
+  steam: 3702550
 "SOS: Special Operative Stories":
   pageId: 53698
   steam: 501410
@@ -208191,6 +208217,9 @@ Snow Bros. Classic Collection:
     steam: true
   pageId: 213430
   steam: 3233400
+  templates:
+    - "{{Game data/config|Windows|{{file|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\carbon.cfg}}|\n{{file|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\system.cfg}}}}"
+    - "{{Game data/saves|Windows|{{folder|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\0}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\1}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\2}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\3}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\4}}|\n{{folder|{{P|userprofile}}\\Saved Games\\Tatsujin\\Snow Bros. Classic Collection\\5}}}}"
 Snow Clearing Driving Simulator:
   pageId: 149559
   steam: 1155920

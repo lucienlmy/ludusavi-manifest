@@ -12161,8 +12161,6 @@ A War Story:
   steam:
     id: 701830
 A Way Out:
-  cloud:
-    origin: true
   files:
     "<winDocuments>/My Games/A Way Out":
       tags:
@@ -12179,6 +12177,8 @@ A Way Out:
         - config
       when:
         - os: windows
+  id:
+    lutris: a-way-out
   installDir:
     AWayOut: {}
   steam:
@@ -200506,6 +200506,11 @@ Dithered:
             store: steam
   steam:
     id: 1116530
+Dithered (2026):
+  id:
+    lutris: dithered--1
+  steam:
+    id: 4234320
 Divan Chronicles:
   installDir:
     " Убогое Издание": {}
@@ -204073,6 +204078,13 @@ Don Bradman Cricket 17:
     "Don't let go!": {}
   steam:
     id: 519030
+"Don't Let It Starve":
+  id:
+    lutris: dont-let-it-starve
+    steamExtra:
+      - 3977370
+  steam:
+    id: 3930510
 "Don't Look Back":
   files:
     "<base>/Binaries/Win64/PreSave":
@@ -281177,6 +281189,13 @@ Fright Light:
           - store: steam
   steam:
     id: 520290
+Fright Train:
+  id:
+    lutris: fright-train
+    steamExtra:
+      - 4458010
+  steam:
+    id: 4132890
 FrightShow Fighter:
   installDir:
     FrightShow Fighter: {}
@@ -451038,9 +451057,19 @@ Mina the Hollower:
     gog: true
     steam: true
   files:
-    "<xdgData>/Yacht Club Games/Mina the Hollower/gamePrefs.yc":
+    "<winAppData>/Yacht Club Games/Mina the Hollower":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Yacht Club Games/Mina the Hollower/saveData.yc":
       tags:
         - save
+      when:
+        - os: windows
+    "<xdgData>/Yacht Club Games/Mina the Hollower/gamePrefs.yc":
+      tags:
+        - config
       when:
         - os: linux
     "<xdgData>/Yacht Club Games/Mina the Hollower/saveData.yc":
@@ -488289,6 +488318,9 @@ Ninja Code:
   steam:
     id: 949880
 Ninja Five-O:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<home>/Saved Games/Limited Run Games/Ninja Five-O":
       when:
@@ -600581,6 +600613,11 @@ SOS Atlas:
           - store: steam
   steam:
     id: 781380
+SOS Recordings:
+  id:
+    lutris: sos-recordings
+  steam:
+    id: 3702550
 "SOS: Special Operative Stories":
   installDir:
     SOS: {}

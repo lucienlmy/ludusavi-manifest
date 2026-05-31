@@ -631893,7 +631893,7 @@
         oslist: windows
       description: LQV Prod
       executable: EAAntiCheat.GameServiceLauncher.exe
-    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 8739120"
+    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 8739121"
       config:
         betakey: test_capture-s1
         osarch: "64"
@@ -631913,6 +631913,34 @@
         osarch: "64"
         oslist: windows
       description: Review for Repeat.gg
+      executable: EAAntiCheat.GameServiceLauncher.exe
+    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 403666"
+      config:
+        betakey: prod_CashCup66
+        osarch: "64"
+        oslist: windows
+      description: Rogue REDSEC Cash Cup 66
+      executable: EAAntiCheat.GameServiceLauncher.exe
+    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 403068"
+      config:
+        betakey: prod_CashCup68
+        osarch: "64"
+        oslist: windows
+      description: Rogue REDSEC Cash Cup 68
+      executable: EAAntiCheat.GameServiceLauncher.exe
+    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 403066"
+      config:
+        betakey: event-66
+        osarch: "64"
+        oslist: windows
+      description: Event 66
+      executable: EAAntiCheat.GameServiceLauncher.exe
+    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 403068"
+      config:
+        betakey: event-68
+        osarch: "64"
+        oslist: windows
+      description: Event 68
       executable: EAAntiCheat.GameServiceLauncher.exe
     - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 4859736"
       config:
@@ -647069,6 +647097,9 @@
   nameLocalized:
     schinese: 没落贵族的大小姐
     tchinese: 沒落貴族的大小姐
+3702550:
+  nameLocalized:
+    schinese: SOS录音档案
 3703630:
   nameLocalized:
     schinese: 塔罗斯的法则3
@@ -648713,6 +648744,7 @@
         oslist: windows
       executable: system/SplinterCell2.exe
       type: default
+3930510: {}
 3931060:
   cloud:
     saves:
@@ -649518,6 +649550,7 @@
   launch:
     - executable: "Game\\prospi.exe"
 4131730: {}
+4132890: {}
 4138130: {}
 4139880:
   installDir: Inner Voice
@@ -649763,6 +649796,7 @@
         oslist: windows
       executable: Legacy of Kain Ascendance.exe
       type: default
+4234320: {}
 4244510:
   cloud:
     saves:
