@@ -829139,6 +829139,12 @@ Where Is The Beach?:
   steam:
     id: 1008260
 Where The Forest Ends:
+  installDir:
+    Where the forest ends: {}
+  launch:
+    "<base>/ZombieShooter.exe":
+      - when:
+          - store: steam
   steam:
     id: 3583670
 Where They Cremate the Roadkill:

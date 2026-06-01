@@ -191219,6 +191219,8 @@ Rock God Tycoon:
   steam: 410840
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\RockGodTycoon\\save_data\\}}"
+Rock Manager:
+  pageId: 217084
 Rock Painting Story:
   pageId: 120830
   steam: 795060

@@ -645626,7 +645626,10 @@
     japanese: クラッシュアウトクル
     russian: Складской дрифт
     schinese: 崩溃小队
-3583670: {}
+3583670:
+  installDir: Where the forest ends
+  launch:
+    - executable: ZombieShooter.exe
 3585630:
   installDir: this game will end in 205 clicks
   launch:
