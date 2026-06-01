@@ -82001,6 +82001,33 @@ BioForge:
     id: 1207659125
   id:
     lutris: bioforge
+BioGun:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BioGun/User Data":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: biogun
+    steamExtra:
+      - 3498160
+  installDir:
+    Bio-Gun: {}
+  launch:
+    "<base>/BioGun":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/BioGun.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1219240
 BioMech:
   installDir:
     BioMech: {}
@@ -104306,10 +104333,24 @@ Broken of Darkness:
   steam:
     id: 3886200
 "BrokenLore: Follow":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Follow/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: brokenlore-follow--1
     steamExtra:
       - 2864770
+  installDir:
+    FOLLOW: {}
+  launch:
+    "<base>/Follow.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2846530
 "BrokenLore: Low":
@@ -228046,6 +228087,11 @@ Eden Star:
             store: steam
   steam:
     id: 259570
+"Eden's Frontier":
+  id:
+    lutris: edens-frontier
+  steam:
+    id: 3397010
 "Eden's Ritter: Paladins of Ecstasy":
   cloud:
     steam: true
@@ -323540,7 +323586,12 @@ Hatred:
       when:
         - os: windows
         - os: linux
+  gog:
+    id: 2069488821
   id:
+    gogExtra:
+      - 1425605808
+      - 1695976085
     lutris: hatred
     steamExtra:
       - 1171890
@@ -455673,6 +455724,25 @@ Mixtape:
         - config
       when:
         - os: windows
+          store: microsoft
+    "<winLocalAppData>/NewMoon/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/NewMoon/Saved/SaveGames/Steam/<storeUserId>/DefaultSaveGame.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/NewMoon/Saved/SaveGames/Steam/<storeUserId>/SharedGameSettings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
     "<winLocalAppData>/Packages/AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm/SystemAppData/wgs":
       tags:
         - save
@@ -518591,6 +518661,11 @@ Paranormal:
     Paranormal Activity The Lost Soul: {}
   steam:
     id: 467660
+"Paranormal Activity: Threshold":
+  id:
+    lutris: paranormal-activity-threshold
+  steam:
+    id: 3394030
 "Paranormal Detective: Escape from the 80's":
   installDir:
     "Paranormal Detective Escape from the 80's": {}
@@ -681340,6 +681415,12 @@ Subnautica 2:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/Subnautica2/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Subnautica2/Saved/Config/Windows":
       tags:
         - config

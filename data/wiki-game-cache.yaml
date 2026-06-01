@@ -26521,6 +26521,17 @@ BioForge:
   gog: 1207659125
   lutris: bioforge
   pageId: 8047
+BioGun:
+  cloud:
+    steam: true
+  lutris: biogun
+  pageId: 217105
+  steam: 1219240
+  steamSide:
+    - 3498160
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BioGun\\User Data}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BioGun\\User Data}}"
 BioMech:
   pageId: 144727
   steam: 1139130
@@ -33633,6 +33644,8 @@ Broken of Darkness:
   pageId: 210156
   steam: 3886200
 "BrokenLore: Follow":
+  cloud:
+    steam: true
   lutris: brokenlore-follow--1
   pageId: 212256
   steam: 2846530
@@ -73484,6 +73497,10 @@ Eden Star:
   steam: 259570
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\EdenGame\\Saved\\Config\\WindowsNoEditor\\}}"
+"Eden's Frontier":
+  lutris: edens-frontier
+  pageId: 217095
+  steam: 3397010
 "Eden's Ritter: Paladins of Ecstasy":
   cloud:
     steam: true
@@ -104699,6 +104716,10 @@ Hatoful Kareshi:
 Hatred:
   cloud:
     steam: true
+  gog: 2069488821
+  gogSide:
+    - 1425605808
+    - 1695976085
   lutris: hatred
   pageId: 22779
   steam: 341940
@@ -147671,8 +147692,10 @@ Mixtape:
   pageId: 206363
   steam: 2582320
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\NewMoon\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\NewMoon\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\NewMoon\\Saved\\Config\\Windows\\GameUserSettings.ini|{{P|localappdata}}\\NewMoon\\Saved\\SaveGames\\Steam\\{{p|uid}}\\SharedGameSettings.sav}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\AnnapurnaInteractive.BlueMoonLagoon_c96c51jf6wkvm\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\NewMoon\\Saved\\SaveGames\\Steam\\{{p|uid}}\\DefaultSaveGame.sav}}"
 Mizari Loves Company:
   pageId: 150960
   steam: 1150070
@@ -168445,6 +168468,10 @@ Paranormal:
   steam: 467660
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Paranormal Activity The Lost Soul\\}}"
+"Paranormal Activity: Threshold":
+  lutris: paranormal-activity-threshold
+  pageId: 217097
+  steam: 3394030
 "Paranormal Detective: Escape from the 80's":
   pageId: 142066
   steam: 1114460
@@ -221047,6 +221074,7 @@ Subnautica 2:
     - 3803320
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Subnautica2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Subnautica2\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Subnautica2\\Saved\\SaveGames\\}}"
 "Subnautica: Below Zero":
   cloud:

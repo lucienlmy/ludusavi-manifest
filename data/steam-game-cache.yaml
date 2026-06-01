@@ -51774,6 +51774,12 @@
         oslist: linux
       executable: witch_steam_linux_x64
       type: default
+  nameLocalized:
+    french: "Mythes d’Orion : Livres du Pouvoir"
+    german: "Mythen von Orion: Bücher der Macht"
+    italian: "Miti di Orion: Libri del Potere"
+    japanese: オリオンの神話：力の書
+    spanish: "Mitos de Orión: Libros del Poder"
 288690:
   installDir: Sudokuball Detective
   launch:
@@ -531137,6 +531143,41 @@
         oslist: macos
       executable: "bingo-hall.app\\Contents\\MacOS\\BingoHall"
       type: default
+1219240:
+  cloud:
+    saves:
+      - path: BioGun/User Data/Default
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: BioGun/User Data/Default
+            replace: ".config/BioGun/Default"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: BioGun/User Data/Default
+            replace: BioGun
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Bio-Gun
+  launch:
+    - config:
+        oslist: windows
+      executable: BioGun.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: BioGun
+  nameLocalized:
+    koreana: 바이오건
+    schinese: 生物枪
+    thai: ไบโอกัน
 1219280: {}
 1219290: {}
 1219310:
@@ -632757,6 +632798,19 @@
       executable: Subterror.exe
       type: default
 2846530:
+  cloud:
+    saves:
+      - path: Follow/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: FOLLOW
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Follow.exe
+      type: default
   nameLocalized:
     schinese: 破碎怪谈：恶意关注
     tchinese: 破碎怪談：惡意關注
@@ -635042,12 +635096,12 @@
   installDir: Jurassic World Evolution 3
   launch:
     - config:
-        betakey: "qa_staging, internal_01, build_mainline_release, build_mainline_releaseprofile, internal_03, internal_04, build_branch1_release, build_branch1_releaseprofile, build_mainline2_release, build_branch2_release, internal_02, "
+        betakey: "qa_staging, internal_01, build_mainline_release, build_mainline_releaseprofile, internal_03, internal_04, build_branch1_release, build_branch1_releaseprofile, build_mainline2_release, build_branch2_release, internal_02, external_04, "
       description: Release Build
       executable: Anning.release.exe
       type: option1
     - config:
-        betakey: "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_05, external_01, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02"
+        betakey: "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_04, external_01, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02, internal_03, external_05"
       description: Profile Build
       executable: Anning.profile.exe
       type: option2
@@ -643162,6 +643216,7 @@
     koreana: 괴수 8호 THE GAME
     schinese: 怪兽 8号 THE GAME
     tchinese: 怪獸 8號 THE GAME
+3394030: {}
 3395320: {}
 3395930:
   cloud:
@@ -643183,6 +643238,7 @@
   launch:
     - executable: Em_8ER.exe
       type: default
+3397010: {}
 3398110:
   cloud:
     saves:
