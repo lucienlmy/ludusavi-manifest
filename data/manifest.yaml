@@ -257561,6 +257561,8 @@ Farm Frenzy Collection:
   steam:
     id: 511330
 Farm Machines Championships 2014:
+  id:
+    lutris: farm-machines-championships-2014
   installDir:
     FMC 2014: {}
   launch:
@@ -346705,6 +346707,11 @@ How to be Best Russian Game Developer:
           - store: steam
   steam:
     id: 880550
+How to kill a fly H2KAF:
+  id:
+    lutris: how-to-kill-a-fly
+  steam:
+    id: 4566700
 Howard Phillips Lovecar:
   installDir:
     Howard Phillips Lovecar: {}
@@ -353428,6 +353435,8 @@ IKO 39:
     SistineVR: {}
   steam:
     id: 1165850
+IL-2 Korea:
+  alias: Korea. IL-2 Series
 IL-2 Sturmovik:
   files:
     "<base>/Users":
@@ -392145,6 +392154,9 @@ Koral:
           - store: steam
   steam:
     id: 896750
+Korea. IL-2 Series:
+  steam:
+    id: 247970
 "Korean Scary Folk Tales VR: The Forbidden Book":
   installDir:
     Korean Scary Folk Tales VR  The Forbidden Book: {}
@@ -518573,6 +518585,8 @@ Paranormal:
         - save
       when:
         - os: windows
+  id:
+    lutris: paranormal-activity-the-lost-soul
   installDir:
     Paranormal Activity The Lost Soul: {}
   steam:

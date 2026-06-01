@@ -83387,6 +83387,7 @@ Farm It!:
   pageId: 36185
   steam: 511330
 Farm Machines Championships 2014:
+  lutris: farm-machines-championships-2014
   pageId: 50569
   steam: 284290
 Farm Manager 2018:
@@ -112195,6 +112196,10 @@ How to be Best Russian Game Developer:
   steam: 880550
   steamSide:
     - 887980
+How to kill a fly H2KAF:
+  lutris: how-to-kill-a-fly
+  pageId: 217087
+  steam: 4566700
 Howard Phillips Lovecar:
   pageId: 62809
   steam: 644370
@@ -114353,8 +114358,6 @@ IKO 39:
 "IL DIVINO: Michelangelo's Sistine Ceiling in VR":
   pageId: 153182
   steam: 1165850
-IL-2 Korea:
-  pageId: 211500
 IL-2 Sturmovik:
   pageId: 174853
   templates:
@@ -126948,6 +126951,11 @@ Koral:
   steam: 896750
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Koral\\Saved\\SaveGames\\}}"
+Korea. IL-2 Series:
+  pageId: 211500
+  renamedFrom:
+    - IL-2 Korea
+  steam: 247970
 "Korea: Forgotten Conflict":
   pageId: 198341
 "Korean Scary Folk Tales VR: The Forbidden Book":
@@ -168432,6 +168440,7 @@ Paranormal:
 "Paranormal Activity: The Lost Soul":
   cloud:
     steam: true
+  lutris: paranormal-activity-the-lost-soul
   pageId: 59215
   steam: 467660
   templates:

@@ -31777,6 +31777,9 @@
   launch:
     - description: Launch Sacred 3
       executable: sacred3.exe
+247970:
+  nameLocalized:
+    russian: Корея. Серия Ил-2
 248190:
   installDir: Knytt Underground
   launch:
@@ -650459,6 +650462,7 @@
     - description: Windows
       executable: BouncingBall.exe
       type: default
+4566700: {}
 4573410: {}
 4605200: {}
 4637870: {}
