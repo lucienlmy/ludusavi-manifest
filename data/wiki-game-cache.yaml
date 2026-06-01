@@ -84482,6 +84482,9 @@ Feed A Titanosaur:
 Feed Eve:
   pageId: 87303
   steam: 790950
+Feed It:
+  pageId: 217119
+  steam: 4370990
 "Feed and Grow: Fish":
   pageId: 45047
   steam: 429050
@@ -125902,6 +125905,10 @@ Kirigiriso:
 Kirikou:
   lutris: kirikou
   pageId: 172466
+Kirk Mephisto:
+  lutris: kirk-mephisto
+  pageId: 217116
+  steam: 4605490
 Kisaragi no Hougyoku:
   pageId: 51427
   steam: 502990
@@ -177178,6 +177185,14 @@ Prison Chainball Massacre:
 Prison Escape:
   pageId: 129571
   steam: 1035900
+"Prison Escape Simulator: Dig Out":
+  cloud:
+    steam: true
+  lutris: prison-escape-simulator-dig-out
+  pageId: 217106
+  steam: 3672720
+  templates:
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Digital Melody Games\\Prison Escape Simulator\\Save\\}}"
 Prison Forever:
   pageId: 155300
   steam: 1219580
@@ -183158,6 +183173,7 @@ Raise the Dead:
 "Raji: Kaliyuga":
   cloud:
     steam: true
+  lutris: raji-kaliyuga
   pageId: 211159
   steam: 4096880
 Rake:
@@ -250723,8 +250739,11 @@ Tormentum II:
 Torn:
   cloud:
     steam: true
+  lutris: torn--1
   pageId: 91184
   steam: 557520
+  steamSide:
+    - 922160
 Torn Asunder:
   cloud:
     steam: true
@@ -256949,6 +256968,10 @@ Twinkle Star Sprites:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\twinspri\\UserDefault.xml}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\twinspri\\achievements|{{p|localappdata}}\\twinspri\\highscores|{{p|localappdata}}\\twinspri\\missionunlock}}"
+Twinkle’s Galactic Tour:
+  lutris: twinkles-galactic-tour
+  pageId: 217114
+  steam: 3938440
 Twinora:
   pageId: 151226
   steam: 1178770

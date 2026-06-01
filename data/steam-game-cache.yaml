@@ -646905,6 +646905,29 @@
     japanese: バロックシューティング： リバース
     schinese: "BAROQUE SHOOTING: REVERSED"
     tchinese: "BAROQUE SHOOTING: REVERSED"
+3672720:
+  cloud:
+    saves:
+      - path: Digital Melody Games/Prison Escape Simulator
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Prison Escape Simulator Dig Out
+  launch:
+    - config:
+        oslist: windows
+      executable: Prison Escape Simulator.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Prison Escape Simulator.app
+      type: default
 3672840: {}
 3674270:
   cloud:
@@ -648914,6 +648937,7 @@
     koreana: 용과 같이 극3 / 용과 같이3 외전 Dark Ties
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
+3938440: {}
 3946090: {}
 3947040: {}
 3948120:
@@ -650245,6 +650269,7 @@
 4358690:
   nameLocalized:
     schinese: 守墓人2
+4370990: {}
 4372990:
   nameLocalized:
     english: EVO Card
@@ -650521,6 +650546,7 @@
 4566700: {}
 4573410: {}
 4605200: {}
+4605490: {}
 4637870: {}
 4665880: {}
 4669670:

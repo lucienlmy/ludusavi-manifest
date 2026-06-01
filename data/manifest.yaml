@@ -260866,6 +260866,9 @@ Feed Eve:
     Feed Eve: {}
   steam:
     id: 790950
+Feed It:
+  steam:
+    id: 4370990
 "Feed and Grow: Fish":
   files:
     "<base>/SavesDir/*.sav":
@@ -388905,6 +388908,11 @@ Kira:
 Kirikou:
   id:
     lutris: kirikou
+Kirk Mephisto:
+  id:
+    lutris: kirk-mephisto
+  steam:
+    id: 4605490
 Kisaragi no Hougyoku:
   installDir:
     Kisaragi no Hougyoku: {}
@@ -545376,6 +545384,30 @@ Prison Escape:
             store: steam
   steam:
     id: 1035900
+"Prison Escape Simulator: Dig Out":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Digital Melody Games/Prison Escape Simulator/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: prison-escape-simulator-dig-out
+  installDir:
+    Prison Escape Simulator Dig Out: {}
+  launch:
+    "<base>/Prison Escape Simulator.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Prison Escape Simulator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3672720
 Prison Forever:
   installDir:
     Prison Forever: {}
@@ -564542,6 +564574,8 @@ Raise the Dead:
 "Raji: Kaliyuga":
   cloud:
     steam: true
+  id:
+    lutris: raji-kaliyuga
   steam:
     id: 4096880
 Rake:
@@ -772973,6 +773007,10 @@ Torn:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: torn--1
+    steamExtra:
+      - 922160
   installDir:
     Torn: {}
   steam:
@@ -789806,6 +789844,11 @@ Twinkle Star Sprites:
           - store: steam
   steam:
     id: 366280
+Twinkle’s Galactic Tour:
+  id:
+    lutris: twinkles-galactic-tour
+  steam:
+    id: 3938440
 Twinora:
   steam:
     id: 1178770
