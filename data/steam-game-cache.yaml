@@ -550311,6 +550311,10 @@
       executable: "Legacy Version\\rayne.exe"
       type: option1
       workingdir: "Legacy Version\\"
+1373530:
+  nameLocalized:
+    russian: Милиционер
+    schinese: 警目如炬
 1373550:
   cloud:
     saves:
@@ -637170,6 +637174,13 @@
     - config:
         oslist: windows
       executable: Croc64.exe
+3044540:
+  installDir: Riddle Tower
+  launch:
+    - config:
+        oslist: windows
+      executable: "Riddle Tower\\Riddle Tower.exe"
+      type: default
 3045530:
   nameLocalized:
     schinese: 终焉镇
@@ -650555,6 +650566,7 @@
       type: default
 4566700: {}
 4573410: {}
+4581370: {}
 4605200: {}
 4605490: {}
 4637870: {}

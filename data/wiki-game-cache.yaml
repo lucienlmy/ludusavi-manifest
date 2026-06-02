@@ -66401,6 +66401,8 @@ Dooors VR:
 Door:
   pageId: 99364
   steam: 882560
+  templates:
+    - "{{Game data/saves|Windows|{{registry|{{p|hkcu}}\\Software\\DefaultCompany\\door}}}}"
 Door Kickers:
   cloud:
     steam: true
@@ -69332,9 +69334,15 @@ Drop Cat:
   steam: 1193470
 Drop Duchy:
   cloud:
+    steam: true
     xbox: true
   pageId: 205375
   steam: 2525310
+  steamSide:
+    - 3839960
+    - 4091080
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\DropDuchy\\Saved\\SaveGames\\Users\\*.sav}}"
 Drop Hunt - Adventure Puzzle:
   pageId: 58229
   steam: 596870
@@ -146116,6 +146124,10 @@ Militia 2:
     steam: true
   pageId: 144287
   steam: 1070510
+Militsioner:
+  lutris: militsioner
+  pageId: 217153
+  steam: 1373530
 Milk inside a Bag of Milk inside a Bag of Milk:
   pageId: 173968
   steam: 1392820
@@ -183208,6 +183220,7 @@ Raise the Dead:
 "Raji: Kaliyuga":
   cloud:
     steam: true
+  gog: 1751662464
   lutris: raji-kaliyuga
   pageId: 211159
   steam: 4096880
@@ -189017,6 +189030,12 @@ Riddle Joker:
     - "{{Game data/config|Windows|{{p|appdata}}\\YuzuSoft\\RiddleJoker}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savedata\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1277930\\remote\\}}"
+Riddle Tower:
+  malformed: true
+  pageId: 217157
+  steam: 3044540
+  templates:
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\RT\\Riddle Tower}}"
 "Riddle of the Sphinx: The Awakening (Enhanced Edition)":
   cloud:
     gog: true
@@ -192293,6 +192312,8 @@ Rollers of the Realm:
   lutris: rollin-rascal
   pageId: 198822
   steam: 2740750
+  steamSide:
+    - 2809080
 Rolling Bird:
   pageId: 125383
   steam: 978800
@@ -270266,6 +270287,9 @@ Where Are We Now:
 Where Cards Fall:
   pageId: 58178
   steam: 589450
+Where Dolls Hang:
+  pageId: 217149
+  steam: 4581370
 "Where Humans Shouldn't Go":
   pageId: 110050
   steam: 921090

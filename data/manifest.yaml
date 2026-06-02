@@ -215278,10 +215278,18 @@ Drop Cat:
   steam:
     id: 1193470
 Drop Duchy:
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/DropDuchy/Saved/SaveGames/Users/**/*.sav":
+    "<winLocalAppData>/DropDuchy/Saved/SaveGames/Users/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+  id:
+    steamExtra:
+      - 3839960
+      - 4091080
   installDir:
     Drop Duchy: {}
   launch:
@@ -450560,6 +450568,11 @@ Militia 2:
             store: steam
   steam:
     id: 1070510
+Militsioner:
+  id:
+    lutris: militsioner
+  steam:
+    id: 1373530
 Milk inside a Bag of Milk inside a Bag of Milk:
   files:
     "<base>/game/saves":
@@ -564625,6 +564638,8 @@ Raise the Dead:
 "Raji: Kaliyuga":
   cloud:
     steam: true
+  gog:
+    id: 1751662464
   id:
     lutris: raji-kaliyuga
   steam:
@@ -582089,6 +582104,20 @@ Riddle Joker:
           - store: steam
   steam:
     id: 1277930
+Riddle Tower:
+  installDir:
+    Riddle Tower: {}
+  launch:
+    "<base>/Riddle Tower/Riddle Tower.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/RT/Riddle Tower:
+      tags:
+        - save
+  steam:
+    id: 3044540
 "Riddle of the Sphinx: The Awakening (Enhanced Edition)":
   cloud:
     gog: true
@@ -591906,6 +591935,8 @@ Rollers of the Realm:
 "Rollin' Rascal":
   id:
     lutris: rollin-rascal
+    steamExtra:
+      - 2809080
   steam:
     id: 2740750
 Rolling Bird:
@@ -829306,6 +829337,9 @@ Where Cards Fall:
             store: steam
   steam:
     id: 589450
+Where Dolls Hang:
+  steam:
+    id: 4581370
 "Where Humans Shouldn't Go":
   installDir:
     "Where Humans Shouldn't Go": {}
