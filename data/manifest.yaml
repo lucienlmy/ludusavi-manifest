@@ -159692,6 +159692,11 @@ Crowtel Renovations:
             store: steam
   steam:
     id: 573520
+Cru:
+  id:
+    lutris: cru
+  steam:
+    id: 4005500
 Crucial Throw:
   installDir:
     Crucial Throw: {}
@@ -607479,6 +607484,9 @@ Saturn:
             store: steam
   steam:
     id: 2742840
+Saturn. Legacy:
+  steam:
+    id: 4540480
 Saturnalia:
   cloud:
     gog: true
@@ -608474,9 +608482,14 @@ Sayonara Wild Hearts:
   files:
     "<home>/AppData/LocalLow/Simogo/Sayonara Wild Hearts/gamedata.bin":
       tags:
+        - config
         - save
       when:
         - os: windows
+  id:
+    lutris: sayonara-wild-hearts
+    steamExtra:
+      - 1202460
   installDir:
     Sayonara Wild Hearts: {}
   launch:
@@ -688243,6 +688256,20 @@ Super Mario 64 (Coop Deluxe):
       tags:
         - config
       when:
+        - os: linux
+Super Mario 64 (Ghostship):
+  files:
+    "<base>/ghostship.cfg.json":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+    "<base>/saves/save_*.json":
+      tags:
+        - save
+      when:
+        - os: windows
         - os: linux
 Super Mario 64 (sm64ex):
   files:
@@ -835433,6 +835460,8 @@ WitchHand:
   steam:
     id: 2420880
 WitchSpring R:
+  cloud:
+    steam: true
   installDir:
     WitchSpring R: {}
   launch:

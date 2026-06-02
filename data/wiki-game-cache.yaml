@@ -51280,6 +51280,10 @@ Crowntakers:
 Crowtel Renovations:
   pageId: 55829
   steam: 573520
+Cru:
+  lutris: cru
+  pageId: 217140
+  steam: 4005500
 Crucial Throw:
   pageId: 89492
   steam: 669990
@@ -197287,6 +197291,9 @@ Saturn:
   lutris: saturn--1
   pageId: 205575
   steam: 2742840
+Saturn. Legacy:
+  pageId: 217144
+  steam: 4540480
 Saturnalia:
   cloud:
     gog: true
@@ -197577,10 +197584,13 @@ Sayonara Umihara Kawase:
 Sayonara Wild Hearts:
   cloud:
     steam: true
+  lutris: sayonara-wild-hearts
   pageId: 147729
   steam: 1122720
+  steamSide:
+    - 1202460
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Simogo\\Sayonara Wild Hearts\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Simogo\\Sayonara Wild Hearts\\|{{p|userprofile}}\\AppData\\LocalLow\\Simogo\\Sayonara Wild Hearts\\gamedata.bin}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Simogo\\Sayonara Wild Hearts\\gamedata.bin}}"
 Scalak:
   cloud:
@@ -223103,6 +223113,11 @@ Super Mario 64 (Coop Deluxe):
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/sm64coopdx/sm64_save_file.bin|{{P|xdgdatahome}}/sm64coopdx/sav/}}"
 Super Mario 64 (Ghostship):
   pageId: 212957
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\ghostship.cfg.json}}"
+    - "{{Game data/config|Linux|{{P|game}}/ghostship.cfg.json}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\saves\\save_*.json}}"
+    - "{{Game data/saves|Linux|{{P|game}}/saves/save_*.json}}"
 Super Mario 64 (sm64ex):
   pageId: 160103
   renamedFrom:
@@ -272221,6 +272236,8 @@ WitchHand:
   pageId: 203372
   steam: 2420880
 WitchSpring R:
+  cloud:
+    steam: true
   pageId: 195953
   steam: 1958220
 WitchWay:

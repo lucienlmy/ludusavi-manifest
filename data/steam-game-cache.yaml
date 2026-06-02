@@ -649219,6 +649219,7 @@
       description: VR
       executable: Maid of Sker VR.exe
       type: openxr
+4005500: {}
 4007420:
   cloud:
     saves:
@@ -650539,6 +650540,10 @@
 4536610:
   nameLocalized:
     schinese: 城市蓝图
+4540480:
+  nameLocalized:
+    english: SATURN. LEGACY
+    russian: САТУРН. НАСЛЕДИЕ
 4540840: {}
 4549480: {}
 4557490: {}
