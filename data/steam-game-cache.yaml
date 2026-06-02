@@ -367885,13 +367885,13 @@
       executable: GravityCircuit.app
       type: default
     - config:
-        betakey: public
+        betakey: "default,public,extratest"
         oslist: linux
       description: Default branch launch option.
       executable: GravityCircuit.AppImage
       type: default
     - config:
-        betakey: "linux-support, linux-appdir"
+        betakey: "linux-support,linux-appdir,linux-appdir-1.2.1,linux-appdir-test"
         oslist: linux
       description: Launch extracted AppImage on linux-support branch.
       executable: squashfs-root/AppRun
@@ -592375,6 +592375,7 @@
   installDir: Fallen Legion Revenants
   launch:
     - executable: Fallen Legion Revenants.exe
+1921490: {}
 1921560:
   cloud:
     saves:
@@ -625027,6 +625028,7 @@
         osarch: "64"
         oslist: windows
       executable: Obesity Simulator.exe
+2572060: {}
 2574840:
   installDir: GoForaPunch_SakiSanobashi
   launch:
@@ -629818,6 +629820,7 @@
         oslist: windows
       executable: EnderMagnolia.exe
       type: default
+2725610: {}
 2726450:
   cloud:
     saves:
@@ -638993,6 +638996,7 @@
     schinese: 阿加莎·克里斯蒂 – 尼罗河上的惨案  (Agatha Christie - Death on the Nile)
     spanish: "Agatha Christie: Muerte en el Nilo"
     tchinese: 阿嘉莎．克莉絲蒂：《尼羅河謀殺案》 (Agatha Christie - Death on the Nile)
+3151360: {}
 3151670:
   cloud:
     saves:
@@ -650535,6 +650539,7 @@
 4536610:
   nameLocalized:
     schinese: 城市蓝图
+4540840: {}
 4549480: {}
 4557490: {}
 4562200:

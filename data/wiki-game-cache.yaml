@@ -8043,6 +8043,13 @@ Aggressors of Dark Kombat:
   steam: 783210
 Agile Warrior F-111X:
   pageId: 14794
+"Agni: Village of Calamity":
+  cloud:
+    xbox: true
+  gog: 1141061595
+  lutris: agni-village-of-calamity
+  pageId: 217135
+  steam: 3151360
 Agony:
   cloud:
     gog: true
@@ -9031,6 +9038,7 @@ Alaskan Road Truckers:
     gog: true
     steam: true
   gog: 1892014768
+  lutris: alba-a-wildlife-adventure
   pageId: 165256
   steam: 1337010
   templates:
@@ -16962,8 +16970,10 @@ Assemble with Care:
   steamSide:
     - 1293620
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\AWC\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ustwo games\\AWC\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ustwo games\\AWC\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Containers/com.ustwo.awc/Data/Library/Preferences/com.ustwo.awc.plist}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1202900\\remote\\{{p|uid}}.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.ustwo.awc/Data/Library/Application Support/com.ustwo.awc/CloudSave/Default/*.sav}}"
 Assembly League:
   pageId: 82894
   steam: 725890
@@ -63663,6 +63673,9 @@ Diorama Dungeoncrawl:
 Diorama Worlds:
   pageId: 60708
   steam: 602630
+Dioxide:
+  pageId: 217131
+  steam: 4540840
 Diplomacy Is Not an Option:
   cloud:
     gog: true
@@ -104808,6 +104821,10 @@ Haunted:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Haunted\\settings-user.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Haunted\\save\\}}"
+Haunted Bloodlines:
+  lutris: haunted-bloodlines
+  pageId: 217124
+  steam: 2725610
 Haunted Chocolatier:
   pageId: 172410
 Haunted Dream House:
@@ -149230,10 +149247,13 @@ Monster Train:
     steam: true
     xbox: true
   gog: 1304291300
+  lutris: monster-train
   pageId: 160675
   steam: 1102190
   steamSide:
+    - 1310440
     - 1319750
+    - 1359320
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Shiny Shoe\\MonsterTrain\\preferences-local.json|{{P|hkcu}}\\SOFTWARE\\Shiny Shoe\\MonsterTrain\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Shiny Shoe\\MonsterTrain\\saves\\}}"
@@ -149241,8 +149261,15 @@ Monster Train 2:
   cloud:
     steam: true
     xbox: true
+  lutris: monster-train-2
   pageId: 204846
   steam: 2742830
+  steamSide:
+    - 3296150
+    - 3580200
+    - 3580220
+    - 3993450
+    - 4739980
 Monster Trampoline:
   pageId: 125717
   steam: 939560
@@ -172978,6 +173005,10 @@ Pixel Survivors:
 Pixel War:
   pageId: 68400
   steam: 697700
+Pixel Washer:
+  lutris: pixel-washer
+  pageId: 217128
+  steam: 2572060
 Pixel World:
   pageId: 121288
   steam: 963190
@@ -204764,6 +204795,8 @@ Silver Pines:
   lutris: silver-pines
   pageId: 214711
   steam: 2333000
+  steamSide:
+    - 4540100
 Silver Tale:
   pageId: 68072
   steam: 677220
@@ -270005,6 +270038,9 @@ What the Golf?:
     - 1894642988
   pageId: 87561
   steam: 785790
+  steamSide:
+    - 813330
+    - 1620450
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Triband\\WHAT THE GOLF?\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.thelabelgames.golfmac.plist}}"
@@ -270925,6 +270961,11 @@ Wild Assault:
   steam: 2827230
   steamSide:
     - 3639940
+Wild Blue Skies:
+  cloud:
+    steam: true
+  pageId: 217121
+  steam: 1921490
 "Wild Buster: Heroes of Titan":
   pageId: 68697
   steam: 681860

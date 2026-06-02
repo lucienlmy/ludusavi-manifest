@@ -25410,6 +25410,13 @@ Aggelos:
     id: 783210
 "Agni: Queen of Darkness":
   alias: "Netherworld: Beyond Time I Stand"
+"Agni: Village of Calamity":
+  gog:
+    id: 1141061595
+  id:
+    lutris: agni-village-of-calamity
+  steam:
+    id: 3151360
 Agony:
   cloud:
     gog: true
@@ -28450,6 +28457,8 @@ Alaskan Truck Simulator:
         - os: mac
   gog:
     id: 1892014768
+  id:
+    lutris: alba-a-wildlife-adventure
   installDir:
     Alba: {}
   launch:
@@ -52898,12 +52907,21 @@ Assemble with Care:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/ustwo games/AWC":
+    "<home>/Library/Containers/com.ustwo.awc/Data/Library/Application Support/com.ustwo.awc/CloudSave/Default/*.sav":
       tags:
-        - config
         - save
       when:
-        - os: windows
+        - os: mac
+    "<home>/Library/Containers/com.ustwo.awc/Data/Library/Preferences/com.ustwo.awc.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<root>/userdata/<storeUserId>/1202900/remote/<storeUserId>.json":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     lutris: assemble-with-care
     steamExtra:
@@ -52927,6 +52945,10 @@ Assemble with Care:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/ustwo games/AWC:
+      tags:
+        - config
   steam:
     id: 1202900
 Assembly League:
@@ -197953,6 +197975,9 @@ Diorama Worlds:
     DioramaWorlds: {}
   steam:
     id: 602630
+Dioxide:
+  steam:
+    id: 4540840
 Diplomacy Is Not an Option:
   cloud:
     gog: true
@@ -323821,6 +323846,11 @@ Haunted:
         workingDir: "<base>/bin/release_optimized"
   steam:
     id: 260550
+Haunted Bloodlines:
+  id:
+    lutris: haunted-bloodlines
+  steam:
+    id: 2725610
 Haunted Dream House:
   installDir:
     Hunted Dream House: {}
@@ -459975,8 +460005,11 @@ Monster Train:
   gog:
     id: 1304291300
   id:
+    lutris: monster-train
     steamExtra:
+      - 1310440
       - 1319750
+      - 1359320
   installDir:
     Monster Train: {}
   launch:
@@ -460100,6 +460133,14 @@ Monster Train 2:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: monster-train-2
+    steamExtra:
+      - 3296150
+      - 3580200
+      - 3580220
+      - 3993450
+      - 4739980
   installDir:
     Monster Train 2: {}
   launch:
@@ -532159,6 +532200,11 @@ Pixel Survivors:
 Pixel War:
   steam:
     id: 697700
+Pixel Washer:
+  id:
+    lutris: pixel-washer
+  steam:
+    id: 2572060
 Pixel World:
   installDir:
     PixelWorldUnityChan: {}
@@ -630944,6 +630990,8 @@ Silver Pines:
     steam: true
   id:
     lutris: silver-pines
+    steamExtra:
+      - 4540100
   steam:
     id: 2333000
 Silver Tale:
@@ -828597,6 +828645,9 @@ What the Golf?:
   id:
     gogExtra:
       - 1894642988
+    steamExtra:
+      - 813330
+      - 1620450
   installDir:
     WHAT THE GOLF: {}
   launch:
@@ -831441,6 +831492,11 @@ Wild Assault:
             store: steam
   steam:
     id: 2827230
+Wild Blue Skies:
+  cloud:
+    steam: true
+  steam:
+    id: 1921490
 "Wild Buster: Heroes of Titan":
   steam:
     id: 681860
