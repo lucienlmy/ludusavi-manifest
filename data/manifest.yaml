@@ -259785,8 +259785,19 @@ Fateholders of Tetsoidea:
 Fatekeeper:
   cloud:
     steam: true
+  files:
+    "<winAppData>/Paraglacial/Fatekeeper/SaveGames/**/*.*":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: fatekeeper
+  installDir:
+    Fatekeeper: {}
+  launch:
+    "<base>/SLASHER.exe":
+      - when:
+          - store: steam
   steam:
     id: 2186990
 Fateless:
@@ -506802,6 +506813,28 @@ OrbusVR:
     OrbusVR: {}
   steam:
     id: 746930
+Orbyss:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Orbyss/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: orbyss
+    steamExtra:
+      - 3457130
+      - 3890470
+  installDir:
+    Orbyss: {}
+  launch:
+    "<base>/Orbyss.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1385340
 Orc Assault:
   installDir:
     Orc Assault: {}
@@ -545442,7 +545475,7 @@ Prison Escape:
   installDir:
     Prison Escape: {}
   launch:
-    "<base>/PrisonEscape.exe":
+    "<base>/Prison Escape.exe":
       - when:
           - os: windows
             store: steam
@@ -717126,11 +717159,17 @@ The Black Death:
 The Black Ice:
   id:
     lutris: the-black-ice
+    steamExtra:
+      - 3587890
   installDir:
     The Black Ice: {}
   launch:
     "<base>/TheBlackIce.exe":
-      - when:
+      - arguments: dx12
+        when:
+          - store: steam
+      - arguments: dx11
+        when:
           - store: steam
   steam:
     id: 3254050
@@ -777466,6 +777505,9 @@ Toy Story:
         - save
       when:
         - os: windows
+"Toy Story 3: Complete Edition":
+  steam:
+    id: 4049180
 "Toy Story 3: The Video Game":
   cloud:
     steam: true
@@ -777502,6 +777544,9 @@ Toy Story Mania!:
           - store: steam
   steam:
     id: 317580
+"Toy Story: Retro Roundup!":
+  steam:
+    id: 4049170
 Toy Tanks:
   gog:
     id: 1789907787

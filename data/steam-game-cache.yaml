@@ -450208,7 +450208,7 @@
   launch:
     - config:
         oslist: windows
-      executable: PrisonEscape.exe
+      executable: Prison Escape.exe
       type: default
 1035920:
   cloud:
@@ -551560,6 +551560,20 @@
       executable: "\\_exe\\Pipemania.exe"
       type: default
       workingdir: "\\_exe\\"
+1385340:
+  cloud:
+    saves:
+      - path: Orbyss/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Orbyss
+  launch:
+    - config:
+        oslist: windows
+      executable: Orbyss.exe
+      type: default
 1385380:
   cloud:
     saves:
@@ -608323,7 +608337,19 @@
       type: default
   nameLocalized:
     schinese: "Warhammer 40,000: 行商浪人"
-2186990: {}
+2186990:
+  cloud:
+    saves:
+      - path: Paraglacial/Fatekeeper/SaveGames
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Fatekeeper
+  launch:
+    - executable: SLASHER.exe
+      type: default
 2187220:
   installDir: Apollo Justice Ace Attorney Trilogy
   launch:
@@ -640777,7 +640803,12 @@
 3254050:
   installDir: The Black Ice
   launch:
-    - executable: TheBlackIce.exe
+    - arguments: dx12
+      description: The Black Ice DX12
+      executable: TheBlackIce.exe
+    - arguments: dx11
+      description: The Black Ice DX11
+      executable: TheBlackIce.exe
 3254250:
   installDir: Tigershark
   launch:
@@ -649282,6 +649313,8 @@
   installDir: Bip and Bop
   launch:
     - executable: ProjAS.exe
+4049170: {}
+4049180: {}
 4051470:
   nameLocalized:
     schinese: 破碎怪谈：东京塔

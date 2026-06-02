@@ -164606,6 +164606,15 @@ Orbt XL:
 OrbusVR:
   pageId: 77277
   steam: 746930
+Orbyss:
+  cloud:
+    steam: true
+  lutris: orbyss
+  pageId: 217166
+  steam: 1385340
+  steamSide:
+    - 3457130
+    - 3890470
 Orc Assault:
   pageId: 43115
   steam: 371360
@@ -232327,6 +232336,8 @@ The Black Ice:
   lutris: the-black-ice
   pageId: 210352
   steam: 3254050
+  steamSide:
+    - 3587890
 The Black Knight:
   pageId: 124100
   steam: 991490
@@ -252298,6 +252309,9 @@ Toy Story:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\ToyXXX.sav}}"
+"Toy Story 3: Complete Edition":
+  pageId: 217162
+  steam: 4049180
 "Toy Story 3: The Video Game":
   cloud:
     steam: true
@@ -252315,6 +252329,9 @@ Toy Story Mania!:
   steam: 317580
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\SaveGames\\}}"
+"Toy Story: Retro Roundup!":
+  pageId: 217164
+  steam: 4049170
 "Toy Story: Smash It!":
   pageId: 174491
 Toy Tanks:
