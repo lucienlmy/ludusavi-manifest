@@ -575237,10 +575237,22 @@ Remnith:
 Remorses:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/RemorsesFull/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: remorses
     steamExtra:
       - 4694130
+  installDir:
+    RemorsesFull: {}
+  launch:
+    "<base>/RemorsesFull/Binaries/Win64/RemorsesFull-Win64-Shipping.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2292160
 "Remothered: Broken Porcelain":
@@ -722265,6 +722277,13 @@ The Dark Tales of Katarina:
 "The Dark Veil: West Haven":
   steam:
     id: 1085620
+The Dark West:
+  cloud:
+    steam: true
+  id:
+    lutris: the-dark-west
+  steam:
+    id: 3574750
 The Dark Wish:
   steam:
     id: 1141540

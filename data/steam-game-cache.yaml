@@ -613235,7 +613235,20 @@
       type: default
   nameLocalized:
     schinese: 法术圆盘
-2292160: {}
+2292160:
+  cloud:
+    saves:
+      - path: RemorsesFull/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: RemorsesFull
+  launch:
+    - config:
+        oslist: windows
+      executable: RemorsesFull/Binaries/Win64/RemorsesFull-Win64-Shipping.exe
+      type: default
 2292260:
   cloud:
     saves:
@@ -645685,6 +645698,7 @@
         oslist: linux
       executable: Serre.sh
       type: default
+3574750: {}
 3575980:
   cloud:
     saves:

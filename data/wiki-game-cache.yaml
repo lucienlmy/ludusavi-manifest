@@ -234032,6 +234032,12 @@ The Dark Tales of Katarina:
 "The Dark Veil: West Haven":
   pageId: 139713
   steam: 1085620
+The Dark West:
+  cloud:
+    steam: true
+  lutris: the-dark-west
+  pageId: 217212
+  steam: 3574750
 The Dark Wish:
   pageId: 150586
   steam: 1141540
