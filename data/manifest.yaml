@@ -17437,6 +17437,8 @@ Ace Attorney Investigations Collection:
   steam:
     id: 502500
 "Ace Combat 8: Wings of Theve":
+  cloud:
+    steam: true
   steam:
     id: 2288340
 "Ace Combat: Assault Horizon - Enhanced Edition":
@@ -66880,6 +66882,11 @@ Banano Bros:
             store: steam
   steam:
     id: 723820
+Bancho the Chef:
+  cloud:
+    steam: true
+  steam:
+    id: 3596430
 Band of Defenders:
   installDir:
     Band of Defenders: {}
@@ -259786,10 +259793,21 @@ Fatekeeper:
   cloud:
     steam: true
   files:
-    "<winAppData>/Paraglacial/Fatekeeper/SaveGames/**/*.*":
+    "<winAppData>/Paraglacial/Fatekeeper/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/SLASHER/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/SLASHER/Saved/GameSettings":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: fatekeeper
   installDir:
@@ -383008,6 +383026,9 @@ Kemonomichi-White Moment-:
             store: steam
   steam:
     id: 843760
+Kemuri:
+  id:
+    lutris: kemuri
 "Ken Follett's The Pillars of the Earth":
   cloud:
     epic: true
@@ -504136,6 +504157,8 @@ Onimod Land:
   steam:
     id: 761600
 "Onimusha: Way of the Sword":
+  id:
+    lutris: onimusha-way-of-the-sword
   steam:
     id: 2638890
 Oninaki:
@@ -560430,6 +560453,19 @@ ROGO:
             store: steam
   steam:
     id: 965470
+ROGUE LIGHT DECK BUILDER:
+  id:
+    lutris: rogue-light-deck-builder
+  installDir:
+    ROGUE LIGHT DECK BUILDER: {}
+  launch:
+    "<base>/RLDB.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3149370
 ROGUS - Kingdom of The Lost Souls:
   cloud:
     steam: true
@@ -566813,6 +566849,9 @@ Rayman Legends:
         - config
   steam:
     id: 242550
+Rayman Legends Retold:
+  steam:
+    id: 4084710
 Rayman M:
   files:
     "<base>/MENU/SaveGame/raymanm.sav":
@@ -739974,6 +740013,13 @@ The Lost Village:
             store: steam
   steam:
     id: 1963040
+The Lost Wild:
+  cloud:
+    steam: true
+  id:
+    lutris: the-lost-wild
+  steam:
+    id: 1952620
 The Lost Wizard:
   installDir:
     The Lost Wizard: {}

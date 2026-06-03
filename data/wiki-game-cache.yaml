@@ -5460,6 +5460,8 @@ Ace Attorney Investigations Collection:
     - "{{Game data/config|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\ACE COMBAT 7\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\ACE COMBAT 7\\SaveGames\\}}"
 "Ace Combat 8: Wings of Theve":
+  cloud:
+    steam: true
   pageId: 211975
   steam: 2288340
 "Ace Combat: Assault Horizon - Enhanced Edition":
@@ -21456,6 +21458,11 @@ Banana Town:
 Banano Bros:
   pageId: 74516
   steam: 723820
+Bancho the Chef:
+  cloud:
+    steam: true
+  pageId: 217175
+  steam: 3596430
 Band of Defenders:
   pageId: 78786
   steam: 644640
@@ -84164,6 +84171,9 @@ Fatekeeper:
   lutris: fatekeeper
   pageId: 206722
   steam: 2186990
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\SLASHER\\Saved\\Config\\Windows\\|{{p|localappdata}}\\SLASHER\\Saved\\GameSettings\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Paraglacial\\Fatekeeper\\SaveGames\\}}"
 Fateless:
   pageId: 152895
   steam: 1186670
@@ -123946,6 +123956,9 @@ Kelvin and the Infamous Machine:
 Kemonomichi-White Moment-:
   pageId: 92853
   steam: 843760
+Kemuri:
+  lutris: kemuri
+  pageId: 217186
 "Ken Follett's The Pillars of the Earth":
   cloud:
     epic: true
@@ -163762,6 +163775,7 @@ Onimod Land:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\761600\\remote\\PCConfig.dat}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\761600\\remote\\Save.dat}}"
 "Onimusha: Way of the Sword":
+  lutris: onimusha-way-of-the-sword
   pageId: 200169
   steam: 2638890
 Oninaki:
@@ -181844,6 +181858,13 @@ ROG CITADEL XV:
 ROGO:
   pageId: 124058
   steam: 965470
+ROGUE LIGHT DECK BUILDER:
+  lutris: rogue-light-deck-builder
+  pageId: 217183
+  steam: 3149370
+  templates:
+    - "{{Game data/config|Windows|{{Path| localappdata}}\\RLDB\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{Path| localappdata}}\\RLDB\\Saved\\SaveGames\\}}"
 ROGUS - Kingdom of The Lost Souls:
   cloud:
     steam: true
@@ -183947,6 +183968,9 @@ Rayman Legends:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ubisoft\\Rayman Legends\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Rayman Legends\\}}"
+Rayman Legends Retold:
+  pageId: 217177
+  steam: 4084710
 Rayman M:
   lutris: rayman-arena
   pageId: 17882
@@ -239930,6 +239954,12 @@ The Lost Village:
     - 2850340
     - 2917210
     - 3227480
+The Lost Wild:
+  cloud:
+    steam: true
+  lutris: the-lost-wild
+  pageId: 217179
+  steam: 1952620
 The Lost Wizard:
   pageId: 73509
   steam: 727110

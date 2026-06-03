@@ -594750,6 +594750,7 @@
         oslist: windows
       executable: Voltaire The Vegan Vampire.exe
       type: default
+1952620: {}
 1953070:
   cloud:
     saves:
@@ -638968,6 +638969,14 @@
         oslist: windows
       executable: webfishing.exe
       type: default
+3149370:
+  installDir: ROGUE LIGHT DECK BUILDER
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: RLDB.exe
+      type: default
 3149840:
   installDir: Skuf Fishing
   launch:
@@ -645881,6 +645890,12 @@
     turkish: "Call of Duty®: Modern Warfare® III"
     ukrainian: "Call of Duty®: Modern Warfare® III"
 3595450: {}
+3596430:
+  nameLocalized:
+    japanese: バンチョ・ザ・シェフ
+    koreana: 반쵸 더 셰프
+    schinese: 料理人班乔
+    tchinese: 料理人班喬
 3596700:
   cloud:
     saves:
@@ -649535,6 +649550,7 @@
     koreana: "스타워즈: 은하계 레이서™"
     schinese: 星球大战：银河赛车手™
     tchinese: 星際大戰：銀河賽車手™
+4084710: {}
 4090420:
   cloud:
     saves:
