@@ -78329,11 +78329,6 @@ Berry Bury Berry:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry":
-      tags:
-        - config
-      when:
-        - os: windows
     "<home>/AppData/LocalLow/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry/CloudSave":
       tags:
         - save
@@ -78349,6 +78344,10 @@ Berry Bury Berry:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry/CloudSave:
+      tags:
+        - config
   steam:
     id: 3370870
 Berry Pop Match:
@@ -212168,6 +212167,7 @@ DreadOut Remastered Collection:
         - os: windows
           store: steam
   id:
+    lutris: dreadout-remastered-collection
     steamExtra:
       - 3858020
   installDir:
@@ -529970,6 +529970,11 @@ Pipistrello and the Cursed Yoyo:
       when:
         - os: windows
           store: steam
+    "<home>/AppData/LocalLow/Pocket Trap/Pipistrello/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3012330
@@ -529979,6 +529984,10 @@ Pipistrello and the Cursed Yoyo:
     "<base>/Pipistrello.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Pocket Trap/Pipistrello:
+      tags:
+        - config
   steam:
     id: 2870350
 Piposh:
@@ -621687,9 +621696,14 @@ Shape of Dreams:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave":
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/*.json":
       tags:
         - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Lizard Smoothie/Shape of Dreams/QuickSave/r_platform.json":
+      tags:
+        - config
       when:
         - os: windows
   id:
@@ -621701,6 +621715,10 @@ Shape of Dreams:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Lizard Smoothie/Shape of Dreams:
+      tags:
+        - config
   steam:
     id: 2444750
 Shape of the World:
@@ -786965,6 +786983,7 @@ True Colors:
     id: 935580
 "True Fear: Forsaken Souls Part 3":
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -809815,9 +809834,15 @@ Village Rhapsody:
     steam: true
   files:
     "<base>/data/*.qt":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<base>/data/resolutionSize.txt":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     VillageRhapsody: {}
   launch:

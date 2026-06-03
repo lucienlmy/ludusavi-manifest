@@ -25394,8 +25394,8 @@ Berry Bury Berry:
   pageId: 216033
   steam: 3370870
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\CloudSave}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\CloudSave\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\CloudSave\\}}"
 Berry Pop Match:
   pageId: 68344
   steam: 676640
@@ -68397,6 +68397,7 @@ DreadOut 3:
 DreadOut Remastered Collection:
   cloud:
     steam: true
+  lutris: dreadout-remastered-collection
   pageId: 213084
   steam: 3500800
   steamSide:
@@ -172323,6 +172324,7 @@ Pipistrello and the Cursed Yoyo:
   steamSide:
     - 3012330
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Pocket Trap\\Pipistrello\\settings.json|{{p|hkcu}}\\Software\\Pocket Trap\\Pipistrello\\}}"
     - "{{Game data/saves|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Pocket Trap\\Pipistrello\\}}"
 Piposh:
   pageId: 139661
@@ -201860,7 +201862,8 @@ Shape of Dreams:
   pageId: 215804
   steam: 2444750
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lizard Smoothie\\Shape of Dreams\\QuickSave\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lizard Smoothie\\Shape of Dreams\\QuickSave\\r_platform.json|{{p|hkcu}}\\Software\\Lizard Smoothie\\Shape of Dreams\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lizard Smoothie\\Shape of Dreams\\QuickSave\\*.json}}"
 Shape of the World:
   cloud:
     steam: true
@@ -256138,6 +256141,7 @@ True Colors:
     - "{{Game data/saves|OS X|{{P|osxhome}}/.local/share/Goblinz/True Fear 2/Profiles/}}"
 "True Fear: Forsaken Souls Part 3":
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1221656213
@@ -263758,6 +263762,9 @@ Village Rhapsody:
     steam: true
   pageId: 214437
   steam: 2109460
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\data\\resolutionSize.txt}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\data\\*.qt}}"
 Village Story:
   pageId: 58511
   steam: 601280
