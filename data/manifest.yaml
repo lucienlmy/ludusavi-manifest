@@ -426040,6 +426040,11 @@ Machine Hunt:
             store: steam
   steam:
     id: 485390
+Machine Party:
+  id:
+    lutris: machine-party
+  steam:
+    id: 4108000
 Machine World 2:
   installDir:
     Machine World 2: {}
@@ -501701,6 +501706,24 @@ Once Again:
         - config
   steam:
     id: 2025610
+Once Alive:
+  id:
+    lutris: once-alive
+    steamExtra:
+      - 3394140
+  installDir:
+    Once Alive: {}
+  launch:
+    "<base>/Once_Alive.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Once_Alive.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2336440
 "Once Bitten, Twice Dead!":
   installDir:
     "Once Bitten, Twice Dead!": {}
@@ -653608,6 +653631,29 @@ Space Robot Samurai Zombie Slayer:
             store: steam
   steam:
     id: 364100
+Space Rock Breaker:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/WAKAWAKA/SPACEROCKBREAKER":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: space-rock-breaker
+  installDir:
+    Space Rock Breaker: {}
+  launch:
+    "<base>/SPACEROCKBREAKER.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/WAKAWAKA/SPACEROCKBREAKER:
+      tags:
+        - config
+  steam:
+    id: 4035270
 Space Rocket:
   installDir:
     Space Rocket: {}
@@ -680822,6 +680868,9 @@ StuntMania Reloaded:
     id: 324750
 "Stuntfest: World Tour":
   alias: Jected - Rivals
+"Stuntman: Hollywood":
+  steam:
+    id: 2487330
 Stupid Bat:
   installDir:
     Stupid Bat: {}
@@ -767291,6 +767340,9 @@ Tiny Toast:
   steam:
     id: 587750
 Tiny Towers:
+  id:
+    steamExtra:
+      - 4613880
   steam:
     id: 4352900
 Tiny Town VR:

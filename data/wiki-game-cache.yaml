@@ -46053,6 +46053,8 @@ Comanche:
     - 1423740
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Comanche\\Saved\\Config\\WindowsClient}}"
+Comanche 2:
+  pageId: 217203
 Comanche 3:
   pageId: 185729
   templates:
@@ -137946,6 +137948,10 @@ Machine Hunter:
 "Machine Made: Rebirth":
   pageId: 37162
   steam: 485390
+Machine Party:
+  lutris: machine-party
+  pageId: 217191
+  steam: 4108000
 Machine World 2:
   pageId: 65694
   steam: 650350
@@ -163003,6 +163009,12 @@ Once Again:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\RB Wolf Design\\Once Again\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\RB Wolf Design\\Once Again\\save.oa}}"
+Once Alive:
+  lutris: once-alive
+  pageId: 217193
+  steam: 2336440
+  steamSide:
+    - 3394140
 "Once Bitten, Twice Dead!":
   pageId: 47365
   steam: 360590
@@ -212071,6 +212083,15 @@ Space Robinson:
 Space Robot Samurai Zombie Slayer:
   pageId: 47833
   steam: 364100
+Space Rock Breaker:
+  cloud:
+    steam: true
+  lutris: space-rock-breaker
+  pageId: 217198
+  steam: 4035270
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\WAKAWAKA\\SPACEROCKBREAKER}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\WAKAWAKA\\SPACEROCKBREAKER}}"
 Space Rocket:
   pageId: 80378
   steam: 781660
@@ -220928,6 +220949,9 @@ Stunt Toys:
 StuntMania Reloaded:
   pageId: 49329
   steam: 324750
+"Stuntman: Hollywood":
+  pageId: 217190
+  steam: 2487330
 Stunts:
   pageId: 2296
 Stupid Bat:
@@ -248844,6 +248868,8 @@ Tiny Toast:
 Tiny Towers:
   pageId: 216381
   steam: 4352900
+  steamSide:
+    - 4613880
 Tiny Town VR:
   pageId: 66150
   steam: 653930

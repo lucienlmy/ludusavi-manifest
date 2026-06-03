@@ -614977,6 +614977,25 @@
       executable: Feed The Cups.app/Contents/MacOS/Feed The Cups
   nameLocalized:
     schinese: 杯杯倒满 Feed The Cups
+2336440:
+  installDir: Once Alive
+  launch:
+    - config:
+        oslist: windows
+      executable: Once_Alive.exe
+    - config:
+        oslist: linux
+      executable: Once_Alive.sh
+      type: default
+    - config:
+        oslist: macos
+      executable: Mac Build/Once_Alive.app
+      type: option2
+  nameLocalized:
+    japanese: 沈黙の地
+    koreana: 침묵의 땅
+    schinese: 无声之地
+    tchinese: 無聲之地
 2337630:
   cloud:
     saves:
@@ -621876,6 +621895,7 @@
         betakey: external-review
       description: Arcade - Camera free and Left stick throttle
       executable: input_2/game.exe
+2487330: {}
 2487350:
   cloud:
     saves:
@@ -649318,6 +649338,15 @@
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"
     schinese: "幻兽帕鲁：帕鲁农场 / Palworld: Palfarm"
     tchinese: "幻獸帕魯：帕魯農場 / Palworld: Palfarm"
+4035270:
+  cloud:
+    saves:
+      - path: "\\WAKAWAKA\\SPACEROCKBREAKER"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Space Rock Breaker
+  launch:
+    - executable: SPACEROCKBREAKER.exe
 4039320: {}
 4041890:
   installDir: The Last Elixir
@@ -649648,6 +649677,7 @@
     - config:
         oslist: windows
       executable: chakana.exe
+4108000: {}
 4111390:
   installDir: Project Mandarine
   launch:
