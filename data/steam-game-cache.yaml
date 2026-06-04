@@ -3102,6 +3102,12 @@
     - description: "Battlestations: Midway Options"
       executable: Options.exe
 6880:
+  cloud:
+    saves:
+      - path: "JustCause\\Saves\\JCSaves"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Just Cause
   launch:
     - executable: JustCause.exe
@@ -41695,10 +41701,6 @@
 268050:
   cloud:
     saves:
-      - path: "TangoGameworks\\The Evil Within\\base"
-        pattern: "*.cfg"
-        recursive: true
-        root: WinSavedGames
       - path: "TangoGameworks\\The Evil Within\\base"
         pattern: "*.bin"
         recursive: true
@@ -557612,10 +557614,82 @@
       executable: TheOuterWorlds2.exe
       type: option3
     - config:
+        betakey: latest_arx1
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: latest_arx1
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option2
+    - config:
+        betakey: release-1.1.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option3
+    - config:
         betakey: ms_playtest
         oslist: windows
       description: Arkansas Test Configuration
       executable: ArkansasTest.exe
+      type: option2
+    - config:
+        betakey: release-1.1.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option3
+    - config:
+        betakey: release-1.1.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option3
+    - config:
+        betakey: release-1.1.0.1_all
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: release-1.1.0.1_all
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option1
+    - config:
+        betakey: lastverified_arx1
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: lastverified_arx1
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option1
+    - config:
+        betakey: release-1.2.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option3
+    - config:
+        betakey: release-1.2.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: release-1.2.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
       type: option2
     - config:
         betakey: ms_playtest
@@ -593998,13 +594072,13 @@
       type: default
     - arguments: "-LOG -ExecCmds=\"H13.Entitlements.GrantAllEntitlements\" -enableDLC -enableFreeride"
       config:
-        betakey: "daily,weekly"
+        betakey: "daily,weekly,playtest"
       description: "Nero - Test, All DLCs Unlocked (Optimization / Logs)"
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
       type: option2
     - arguments: "-LOG -ExecCmds=\"H13.DebugOverlay.Enable 0, DISABLEALLSCREENMESSAGES, Slate.GameLayer.DebugCanvasVisible 0, H13.Entitlements.GrantAllEntitlements\" -enableDLC -enableFreeride"
       config:
-        betakey: "staging,manoh,playtest"
+        betakey: "staging,manoh"
       description: "Nero - Test, All DLCs Unlocked, No Debug UI"
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
       type: option1
@@ -647251,6 +647325,40 @@
       type: default
 3692730: {}
 3693650:
+  cloud:
+    saves:
+      - path: "Spellgarden Games/Thrifty Business/Steam/Savegame_{64BitSteamID}"
+        pattern: "*.spell"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Spellgarden Games/Thrifty Business/Steam/Savegame_{64BitSteamID}"
+            replace: ".config/unity3d/Spellgarden Games/Thrifty Business/Steam/Savegame_{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Thrifty Business
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ThriftyBusiness.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: ThriftyBusiness.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: ThriftyBusiness
+      type: default
   nameLocalized:
     japanese: Thrifty Business ヴィンテージショップへようこそ
     koreana: 우리동네 중고상회

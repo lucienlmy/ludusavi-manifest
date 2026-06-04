@@ -435787,6 +435787,8 @@ Marvel Snap:
   steam:
     id: 1997040
 "Marvel Tōkon: Fighting Souls":
+  id:
+    lutris: marvel-tokon-fighting-souls
   steam:
     id: 3787240
 "Marvel vs. Capcom Fighting Collection: Arcade Classics":
@@ -762415,9 +762417,38 @@ Threes!:
   steam:
     id: 1818570
 Thrifty Business:
+  files:
+    "<home>/.config/unity3d/Spellgarden Games/Thrifty Business/Steam/Savegame_<storeUserId>/*.spell":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Spellgarden Games/Thrifty Business/Steam/Savegame_<storeUserId>/*.spell":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Spellgarden Games/Thrifty Business/Steam/Savegame_<storeUserId>/*.spell":
+      when:
+        - os: mac
+          store: steam
   id:
     steamExtra:
       - 4091410
+  installDir:
+    Thrifty Business: {}
+  launch:
+    "<base>/ThriftyBusiness":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/ThriftyBusiness.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ThriftyBusiness.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3693650
 Thrill Rollercoasters:

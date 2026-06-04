@@ -139701,6 +139701,10 @@ Majin Woman:
     steam: true
   pageId: 102321
   steam: 895180
+Majogami:
+  cloud:
+    steam: true
+  pageId: 217226
 Major League Baseball 2K10:
   pageId: 15802
   steam: 50120
@@ -141114,6 +141118,7 @@ Marvel Snap:
 Marvel Trading Card Game:
   pageId: 208441
 "Marvel Tōkon: Fighting Souls":
+  lutris: marvel-tokon-fighting-souls
   pageId: 205571
   renamedFrom:
     - "MARVEL Tōkon: Fighting Souls"
