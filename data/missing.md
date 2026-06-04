@@ -26412,7 +26412,6 @@
 * [The 3D Adventures of Sailor Moon](https://www.pcgamingwiki.com/wiki/?curid=201904)
 * [The 50 States Quiz](https://www.pcgamingwiki.com/wiki/?curid=99260)
 * [The 7th Circle - Endless Nightmare](https://www.pcgamingwiki.com/wiki/?curid=94064)
-* [The 7th Guest Remake](https://www.pcgamingwiki.com/wiki/?curid=214606)
 * [The Abbey](https://www.pcgamingwiki.com/wiki/?curid=49935)
 * [The Ables: Freepoint High](https://www.pcgamingwiki.com/wiki/?curid=43694)
 * [The Adliberum Engine](https://www.pcgamingwiki.com/wiki/?curid=63839)

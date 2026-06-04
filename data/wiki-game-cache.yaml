@@ -84549,6 +84549,15 @@ Feed the Cups:
 Feed the Pets:
   pageId: 112588
   steam: 936010
+Feed the Reactor:
+  cloud:
+    steam: true
+  lutris: feed-the-reactor
+  pageId: 217232
+  steam: 4009730
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Adam Travers\\Feed the Reactor}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Adam Travers\\Feed the Reactor}}"
 Feeding Frenzy:
   pageId: 178272
   templates:
@@ -86820,6 +86829,7 @@ Five Hearts Under One Roof:
   pageId: 211809
   steam: 3021100
   templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Storytaco\\MilkGame\\}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile\\appdata\\locallow}}\\Storytaco\\MilkGame\\GOGSave\\}}"
 Five Hearts Under One Roof Season 2:
   cloud:
@@ -193870,6 +193880,7 @@ Runaway VR:
   steam: 687890
 "Runaway: A Road Adventure":
   gog: 1207658727
+  lutris: runaway-a-road-adventure
   pageId: 13567
   steam: 7210
   templates:
@@ -194820,6 +194831,11 @@ SC2VN - The eSports Visual Novel:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\renpy\\config.py}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\SC2VN-1424038548\\}}"
+SCAD:
+  pageId: 217228
+  steam: 2854620
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\NAISU\\SCAD\\}}}}"
 SCAR Squadra Corse Alfa Romeo:
   pageId: 4212
   templates:
@@ -231201,6 +231217,8 @@ The 7th Guest:
     - "{{Game data/saves|Windows|{{p|game}}\\t7g.*}}"
 The 7th Guest Remake:
   cloud:
+    epic: true
+    steam: true
     xbox: true
   gog: 1457196421
   lutris: the-7th-guest-remake

@@ -261004,6 +261004,31 @@ Feed the Pets:
             store: steam
   steam:
     id: 936010
+Feed the Reactor:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Adam Travers/Feed the Reactor":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: feed-the-reactor
+  installDir:
+    Feed the Reactor: {}
+  launch:
+    "<base>/Feed the Reactor.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Adam Travers/Feed the Reactor:
+      tags:
+        - config
+  steam:
+    id: 4009730
 Feeding Frenzy:
   registry:
     HKEY_CURRENT_USER/Software/GameHouse/FeedingFrenzy:
@@ -267781,6 +267806,11 @@ Five Hearts Under One Roof:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/Storytaco/MilkGame":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/Storytaco/MilkGame/GOGSave":
       tags:
         - save
@@ -596800,6 +596830,8 @@ Runaway VR:
         - os: windows
   gog:
     id: 1207658727
+  id:
+    lutris: runaway-a-road-adventure
   installDir:
     Runaway A Road Adventure: {}
   launch:
@@ -599789,6 +599821,30 @@ SC2VN - The eSports Visual Novel:
             store: steam
   steam:
     id: 404480
+SCAD:
+  files:
+    "<home>/AppData/LocalLow/NAISU/SCAD/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/NAISU/SCAD/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    SCAD: {}
+  launch:
+    "<base>/SCAD.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SCAD.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2854620
 SCAR Squadra Corse Alfa Romeo:
   files:
     "<base>/saves":
@@ -713554,10 +713610,23 @@ The 7th Guest:
   steam:
     id: 255920
 The 7th Guest Remake:
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<winLocalAppData>/The7thGuestRemake/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   gog:
     id: 1457196421
   id:
     lutris: the-7th-guest-remake
+  installDir:
+    The 7th Guest Remake: {}
+  launch:
+    "<base>/The7thGuestVR.exe":
+      - when:
+          - store: steam
   steam:
     id: 4491360
 The 7th Guest VR:
