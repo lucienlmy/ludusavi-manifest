@@ -115926,6 +115926,9 @@ Car Dealer Simulator:
           store: steam
   id:
     lutris: car-dealer-simulator
+    steamExtra:
+      - 3413480
+      - 4046960
   installDir:
     Car Dealer Simulator: {}
   steam:
@@ -126443,6 +126446,7 @@ Chateau Garden:
     id: 636010
 Cheap Car Repair:
   id:
+    lutris: cheap-car-repair
     steamExtra:
       - 3323560
       - 3501610
@@ -210458,6 +210462,8 @@ Dragon of Legends:
         - save
       when:
         - os: windows
+  id:
+    lutris: dragon-s-lair-3d-return-to-the-lair
 "Dragon's Lair II: Time Warp":
   cloud:
     gog: true
@@ -218966,6 +218972,9 @@ Dungeon Lords:
             store: steam
   steam:
     id: 322580
+Dungeon Lurker:
+  steam:
+    id: 4669960
 Dungeon Manager ZV:
   installDir:
     Dungeon Manager ZV: {}
@@ -345559,6 +345568,17 @@ House Flipper Remastered Collection:
     steamExtra:
       - 4005190
       - 4314250
+  installDir:
+    House Flipper Remastered Collection: {}
+  launch:
+    "<base>/HouseFlipper.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/HouseFlipper.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3710840
 House Flipper VR:
@@ -507621,13 +507641,18 @@ Organized Inside:
   cloud:
     steam: true
   files:
-    "<home>/Library/Application Support/OrganizedInside/saves":
+    "<winAppData>/OrganizedInside":
+      tags:
+        - config
       when:
-        - os: mac
-          store: steam
+        - os: windows
     "<winAppData>/OrganizedInside/saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+  id:
+    lutris: organized-inside
   installDir:
     Organized Inside: {}
   launch:
@@ -607481,6 +607506,23 @@ Satellite Command:
             store: steam
   steam:
     id: 514670
+"Satellite Odyssey: Jupiter":
+  id:
+    lutris: satellite-odyssey-jupiter
+  steam:
+    id: 3352140
+"Satellite Odyssey: Prologue":
+  id:
+    lutris: satellite-odyssey-prologue
+  installDir:
+    Satellite Odyssey Prologue: {}
+  launch:
+    "<base>/Satellite Odyssey Prologue.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2579270
 Satellite Reign:
   cloud:
     steam: true
@@ -647014,6 +647056,7 @@ Songs of Conquest:
   id:
     gogExtra:
       - 1099330640
+      - 1456022419
       - 1493194442
       - 1590674379
       - 1800138364
@@ -647027,6 +647070,7 @@ Songs of Conquest:
       - 2977430
       - 3260210
       - 3511790
+      - 4341060
   installDir:
     SongsOfConquest: {}
   launch:
@@ -648333,6 +648377,20 @@ Sonic the Hedgehog 2 (mobile decompilation):
         - os: windows
   id:
     lutris: sonics-schoolhouse
+"Sonki's Lagoon":
+  id:
+    lutris: sonkis-lagoon
+    steamExtra:
+      - 4369270
+  installDir:
+    "Sonki's Lagoon": {}
+  launch:
+    "<base>/MantaMadness.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3976150
 Sonny:
   cloud:
     steam: true

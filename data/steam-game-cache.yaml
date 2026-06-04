@@ -625282,6 +625282,12 @@
         oslist: windows
       executable: Bombabomb.exe
       type: default
+2579270:
+  installDir: Satellite Odyssey Prologue
+  launch:
+    - config:
+        oslist: windows
+      executable: Satellite Odyssey Prologue.exe
 2579470:
   installDir: Futanari girlfriends ⚧👧🍆
   launch:
@@ -642666,6 +642672,7 @@
   installDir: Alien Grounds
   launch:
     - executable: Windows/TP_PFS_noMulti.exe
+3352140: {}
 3352690:
   cloud:
     saves:
@@ -647460,7 +647467,35 @@
   launch:
     - executable: Wrack.exe
 3710600: {}
-3710840: {}
+3710840:
+  cloud:
+    saves:
+      - path: Frozen Way/House Flipper Remastered Collection/Saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Frozen Way/House Flipper Remastered Collection
+        pattern: CatchedTextures
+        root: WinAppDataLocalLow
+      - path: Frozen Way/House Flipper Remastered Collection/Profiles
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: House Flipper Remastered Collection
+  launch:
+    - config:
+        oslist: windows
+      executable: HouseFlipper.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: HouseFlipper.app
 3713650:
   installDir: Teenage Mutant Ninja Turtles Empire City
   launch:
@@ -649311,6 +649346,15 @@
         oslist: linux
       executable: TimeOfMonsters
 3970690: {}
+3976150:
+  installDir: "Sonki's Lagoon"
+  launch:
+    - config:
+        oslist: windows
+      executable: MantaMadness.exe
+    - config:
+        oslist: windows
+      executable: MantaMadness.exe
 3977380:
   cloud:
     saves:
@@ -650826,5 +650870,6 @@
   nameLocalized:
     schinese: 血色鹿影
     tchinese: 血色鹿影
+4669960: {}
 4683260: {}
 3221903386: {}

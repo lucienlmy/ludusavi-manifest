@@ -37367,6 +37367,9 @@ Car Dealer Simulator:
   lutris: car-dealer-simulator
   pageId: 209584
   steam: 2404880
+  steamSide:
+    - 3413480
+    - 4046960
 Car Dealership Simulator:
   lutris: car-dealership-simulator
   pageId: 209580
@@ -40681,6 +40684,7 @@ Chateau Garden:
   pageId: 63480
   steam: 636010
 Cheap Car Repair:
+  lutris: cheap-car-repair
   pageId: 216549
   steam: 2904040
   steamSide:
@@ -67867,6 +67871,7 @@ Dragon of Legends:
   pageId: 7485
   steam: 227380
 "Dragon's Lair 3D: Return to the Lair":
+  lutris: dragon-s-lair-3d-return-to-the-lair
   pageId: 59559
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
@@ -70439,6 +70444,9 @@ Dungeon Lords:
 "Dungeon Lurk II: Leona":
   pageId: 49438
   steam: 322580
+Dungeon Lurker:
+  pageId: 217246
+  steam: 4669960
 Dungeon Manager ZV:
   pageId: 46014
   steam: 402300
@@ -164901,8 +164909,12 @@ Organism 8:
 Organized Inside:
   cloud:
     steam: true
+  lutris: organized-inside
   pageId: 211439
   steam: 3609750
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\OrganizedInside}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\OrganizedInside\\saves}}"
 Organosphere:
   pageId: 91468
   steam: 811620
@@ -182217,6 +182229,7 @@ Race Arcade:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Codemasters\\GRID\\hardwaresettings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Codemasters\\GRID\\savegame\\}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support<ref>{{Refurl|url=https://web.archive.org/web/20170915144559/http://support.feralinteractive.com/en/mac-linux-games/grid/faqs/saves/|title=Feral Support - GRID™ FAQs - Where are my saved games stored? (archived)|date=2026-06-04}}</ref>}}"
 Race Race Racer:
   pageId: 152751
   steam: 1190380
@@ -197329,6 +197342,14 @@ Satellite Command:
   steam: 514670
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}/GESGame/Saved/SaveGames}}"
+"Satellite Odyssey: Jupiter":
+  lutris: satellite-odyssey-jupiter
+  pageId: 217237
+  steam: 3352140
+"Satellite Odyssey: Prologue":
+  lutris: satellite-odyssey-prologue
+  pageId: 217239
+  steam: 2579270
 Satellite Reign:
   cloud:
     steam: true
@@ -209800,6 +209821,7 @@ Songs of Conquest:
   gog: 1097426220
   gogSide:
     - 1099330640
+    - 1456022419
     - 1493194442
     - 1590674379
     - 1800138364
@@ -209815,6 +209837,7 @@ Songs of Conquest:
     - 2977430
     - 3260210
     - 3511790
+    - 4341060
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Lavapotion\\SongsOfConquest}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lavapotion\\SongsOfConquest\\Savegames}}"
@@ -210314,6 +210337,12 @@ Sonic the Hedgehog 2 (mobile decompilation):
   templates:
     - "{{Game data/config|Windows|{{P|windir}}\\SONIC.INI{{Note|note=[[#Version differences|Version 1.0]] only.|name=Config1}}|{{P|windir}}\\SONICSH.INI{{Note|note=[[#Version differences|Version 1.1]] only.|name=Config2}}}}"
     - "{{Game data/saves|Windows|{{P|windir}}\\SONIC.INI{{Note|name=Config1}}|{{P|windir}}\\SONICSH.INI{{Note|name=Config2}}}}"
+"Sonki's Lagoon":
+  lutris: sonkis-lagoon
+  pageId: 217249
+  steam: 3976150
+  steamSide:
+    - 4369270
 Sonny:
   cloud:
     steam: true
