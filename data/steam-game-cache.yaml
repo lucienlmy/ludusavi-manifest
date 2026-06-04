@@ -547993,7 +547993,7 @@
         oslist: windows
       executable: K2.exe
   nameLocalized:
-    tchinese: KREED / 異界戰士
+    tchinese: Kreed / 異界戰士
 1351450:
   installDir: Steel Fury Kharkov 1942
   launch:
@@ -637989,6 +637989,7 @@
   installDir: Goosebumps Terror in Little Creek
   launch:
     - executable: goosebumps.exe
+3080520: {}
 3081320:
   cloud:
     saves:

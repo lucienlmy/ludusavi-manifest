@@ -69352,6 +69352,7 @@ Drop Duchy:
     - 3839960
     - 4091080
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\DropDuchy\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DropDuchy\\Saved\\SaveGames\\Users\\*.sav}}"
 Drop Hunt - Adventure Puzzle:
   pageId: 58229
@@ -83682,6 +83683,10 @@ Farragnarok:
   steam: 1112760
 "Farscape: The Game":
   pageId: 197146
+Farsight:
+  lutris: farsight
+  pageId: 217221
+  steam: 3080520
 Farstorm:
   pageId: 112268
   steam: 923420
@@ -163791,6 +163796,8 @@ Onimod Land:
   lutris: onimusha-way-of-the-sword
   pageId: 200169
   steam: 2638890
+  templates:
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3974650\\remote\\win64_save}}"
 Oninaki:
   cloud:
     steam: true
@@ -181872,13 +181879,6 @@ ROG CITADEL XV:
 ROGO:
   pageId: 124058
   steam: 965470
-ROGUE LIGHT DECK BUILDER:
-  lutris: rogue-light-deck-builder
-  pageId: 217183
-  steam: 3149370
-  templates:
-    - "{{Game data/config|Windows|{{Path| localappdata}}\\RLDB\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/saves|Windows|{{Path| localappdata}}\\RLDB\\Saved\\SaveGames\\}}"
 ROGUS - Kingdom of The Lost Souls:
   cloud:
     steam: true
@@ -191927,6 +191927,15 @@ Rogue Legacy 2:
     - "{{Game data/config|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Cellar Door Games\\Rogue Legacy 2\\Saves\\Steam\\GameConfig.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Cellar Door Games\\Rogue Legacy 2}}"
     - "{{Game data/saves|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Cellar Door Games\\Rogue Legacy 2\\Saves\\Steam\\{{p|uid}}\\*}}"
+Rogue Light Deck Builder:
+  lutris: rogue-light-deck-builder
+  pageId: 217183
+  renamedFrom:
+    - ROGUE LIGHT DECK BUILDER
+  steam: 3149370
+  templates:
+    - "{{Game data/config|Windows|{{Path| localappdata}}\\RLDB\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{Path| localappdata}}\\RLDB\\Saved\\SaveGames\\}}"
 Rogue Loops:
   pageId: 203195
   steam: 3275010

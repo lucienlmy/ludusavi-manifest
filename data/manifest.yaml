@@ -215288,6 +215288,11 @@ Drop Duchy:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/DropDuchy/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/DropDuchy/Saved/SaveGames/Users/*.sav":
       tags:
         - save
@@ -258483,6 +258488,11 @@ Farragnarok:
           - store: steam
   steam:
     id: 1112760
+Farsight:
+  id:
+    lutris: farsight
+  steam:
+    id: 3080520
 Farstorm:
   installDir:
     Farstorm: {}
@@ -504180,6 +504190,12 @@ Onimod Land:
   steam:
     id: 761600
 "Onimusha: Way of the Sword":
+  files:
+    "<root>/userdata/<storeUserId>/3974650/remote/win64_save":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     lutris: onimusha-way-of-the-sword
   steam:
@@ -560485,19 +560501,6 @@ ROGO:
             store: steam
   steam:
     id: 965470
-ROGUE LIGHT DECK BUILDER:
-  id:
-    lutris: rogue-light-deck-builder
-  installDir:
-    ROGUE LIGHT DECK BUILDER: {}
-  launch:
-    "<base>/RLDB.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 3149370
 ROGUS - Kingdom of The Lost Souls:
   cloud:
     steam: true
@@ -590734,6 +590737,19 @@ Rogue Legacy 2:
         - config
   steam:
     id: 1253920
+Rogue Light Deck Builder:
+  id:
+    lutris: rogue-light-deck-builder
+  installDir:
+    ROGUE LIGHT DECK BUILDER: {}
+  launch:
+    "<base>/RLDB.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3149370
 Rogue Loops:
   files:
     "<home>/AppData/LocalLow/fubu games/rogue_loops/prefs.dat":
