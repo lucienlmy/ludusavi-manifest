@@ -127085,6 +127085,7 @@ Korwin The Game:
   pageId: 46208
   steam: 375030
 "Koshmar: The Last Reverie":
+  lutris: koshmar-the-last-reverie
   pageId: 215490
   steam: 2882720
 Kosmokrats:
@@ -131764,6 +131765,10 @@ Lets Beats:
     steam: true
   pageId: 100186
   steam: 880610
+Letter Lost:
+  lutris: letter-lost
+  pageId: 217266
+  steam: 3624790
 "Letter Quest: Grimm's Journey":
   cloud:
     steam: true
