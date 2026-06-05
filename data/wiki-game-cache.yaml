@@ -61456,6 +61456,11 @@ Desktop Girls:
 Desktop Jumpscares:
   pageId: 180264
   steam: 2084110
+Desktop Raid:
+  pageId: 217270
+  steam: 3122460
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\LeeStudio\\Desktop Raid\\}}}}"
 Desktop Soccer:
   pageId: 125390
   steam: 990890
@@ -276834,6 +276839,14 @@ You Have to Win the Game:
     - "{{Game data/config|Linux|{{p|game}}/Config/}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\You Have to Win the Game\\Saves}}"
     - "{{Game data/saves|Linux|{{p|game}}/Autosave.vsg}}"
+You Know The Drill:
+  cloud:
+    steam: true
+  lutris: you-know-the-drill--1
+  pageId: 217269
+  steam: 3833760
+  steamSide:
+    - 4596600
 You Must Build a Boat:
   pageId: 47631
   renamedFrom:

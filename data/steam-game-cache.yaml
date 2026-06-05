@@ -638834,6 +638834,27 @@
     - config:
         oslist: windows
       executable: "Lost Diskettes Vol.1\\Lost Diskettes Vol.1.exe"
+3122460:
+  cloud:
+    saves:
+      - path: LeeStudio/Desktop Raid
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Desktop Raid
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Desktop Raid.exe
+      type: default
+  nameLocalized:
+    japanese: 卓上冒険物語：放置ほっこりタイム
+    koreana: "데스크탑 레이드 이야기: 방치형 즐거운 시간"
+    schinese: 桌面副本物语：放置好时光
+    tchinese: 桌面副本物語：放置好時光
 3123080:
   installDir: Alien Weapon Test Grounds
   launch:
@@ -648482,6 +648503,31 @@
     english: "Loulan: The Cursed Sand"
     schinese: 楼兰：诅咒之沙
     tchinese: 楼蘭：詛咒之沙
+3833760:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/You Know the Drill!/saves
+        pattern: "*.save"
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/You Know the Drill!/saves
+            replace: ".local/share/godot/app_userdata/You Know The Drill!/saves"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: You Know The Drill
+  launch:
+    - config:
+        oslist: windows
+      executable: yktd.exe
+    - config:
+        oslist: linux
+      executable: yktd.x86_64
+  nameLocalized:
+    schinese: 你懂的钻头 You Know The Drill
+    tchinese: 你懂的钻头 You Know The Drill
 3837340:
   cloud:
     saves:

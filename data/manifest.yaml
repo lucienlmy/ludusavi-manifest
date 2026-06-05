@@ -191351,6 +191351,22 @@ Desktop Jumpscares:
             store: steam
   steam:
     id: 2084110
+Desktop Raid:
+  files:
+    "<home>/AppData/LocalLow/LeeStudio/Desktop Raid/**/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Desktop Raid: {}
+  launch:
+    "<base>/Desktop Raid.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3122460
 Desktop Soccer:
   installDir:
     Desktop Soccer: {}
@@ -849210,6 +849226,34 @@ You Have to Win the Game:
             store: steam
   steam:
     id: 286100
+You Know The Drill:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/You Know The Drill!/saves/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/Godot/app_userdata/You Know the Drill!/saves/*.save":
+      when:
+        - store: steam
+  id:
+    lutris: you-know-the-drill--1
+    steamExtra:
+      - 4596600
+  installDir:
+    You Know The Drill: {}
+  launch:
+    "<base>/yktd.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/yktd.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3833760
 You Must Build a Boat:
   files:
     "<home>/AppData/LocalLow/EightyEightGames/#ymbab/save":
