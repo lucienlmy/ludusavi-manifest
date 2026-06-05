@@ -28844,6 +28844,8 @@ Alchemist Simulator:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: alchemist-simulator
   installDir:
     Alchemist Simulator: {}
   launch:
@@ -143648,8 +143650,21 @@ Comanche 4:
 Comatose:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Comatose/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: comatose--1
+    steamExtra:
+      - 4297010
+      - 4502880
+  installDir:
+    Comatose: {}
+  launch:
+    "<base>/Comatose.exe":
+      - when:
+          - store: steam
   steam:
     id: 3301370
 Combat Air Patrol 2:
@@ -184582,18 +184597,8 @@ Deep Dark Labyrinth:
 Deep Dark L♂byrinth:
   alias: Deep Dark Labyrinth
 Deep Dish Dungeon:
-  files:
-    "<winLocalAppData>low/Behold Studios/Deep Dish Dungeon - Demo/SavedGames":
-      tags:
-        - save
-      when:
-        - os: windows
-    Computer/HKEY_CURRENT_USER/Software/Behold Studios/Deep Dish Dungeon - Demo:
-      tags:
-        - config
-      when:
-        - os: windows
   id:
+    lutris: deep-dish-dungeon
     steamExtra:
       - 3618740
   steam:
@@ -223786,6 +223791,9 @@ E3.14CENTER:
             store: steam
   steam:
     id: 862240
+EA Sports College Football 27:
+  steam:
+    id: 4032350
 EA Sports FC 24:
   cloud:
     origin: true
@@ -325092,6 +325100,9 @@ Headcrab Frenzy!:
             store: steam
   steam:
     id: 354900
+Headcutter:
+  steam:
+    id: 4603230
 "Header Goal VR: Being Axel Rix":
   cloud:
     steam: true
@@ -421792,6 +421803,23 @@ Lume and the Shifting Void:
     steam: true
   steam:
     id: 1133470
+"LumenTale: Memories of Trey":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Beehive Studios/LumenTale Memories of Trey/<storeUserId>/*.gd":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    LumenTale Memories of Trey: {}
+  launch:
+    "<base>/LumenTale Memories of Trey.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2261430
 Lumencraft:
   cloud:
     gog: true
@@ -709269,6 +709297,9 @@ Temptation:
             store: steam
   steam:
     id: 825000
+Tempus Vitae:
+  steam:
+    id: 2360820
 Temtem:
   cloud:
     steam: true

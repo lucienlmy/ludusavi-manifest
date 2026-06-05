@@ -612088,6 +612088,23 @@
   launch:
     - executable: ForTheQueen.exe
 2261380: {}
+2261430:
+  cloud:
+    saves:
+      - path: "Beehive Studios/LumenTale Memories of Trey/{64BitSteamID}"
+        pattern: "*.gd"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: LumenTale Memories of Trey
+  launch:
+    - config:
+        oslist: windows
+      description: Standard Game Launch
+      executable: LumenTale Memories of Trey.exe
+      type: default
+  nameLocalized:
+    schinese: "流明物语：特雷的回忆 "
 2262610:
   cloud:
     saves:
@@ -616122,6 +616139,7 @@
         oslist: windows
       executable: PixelRipped1978.exe
       type: vr
+2360820: {}
 2361460:
   cloud:
     saves:
@@ -641864,6 +641882,14 @@
         oslist: windows
       executable: Garten of Banban 0.exe
 3301370:
+  cloud:
+    saves:
+      - path: Comatose/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Comatose
+  launch:
+    - executable: Comatose.exe
   nameLocalized:
     japanese: コーマトーズ
     koreana: 코마토스
@@ -649545,6 +649571,7 @@
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"
     schinese: "幻兽帕鲁：帕鲁农场 / Palworld: Palfarm"
     tchinese: "幻獸帕魯：帕魯農場 / Palworld: Palfarm"
+4032350: {}
 4035270:
   cloud:
     saves:
@@ -650862,6 +650889,7 @@
 4566700: {}
 4573410: {}
 4581370: {}
+4603230: {}
 4605200: {}
 4605490: {}
 4637870: {}

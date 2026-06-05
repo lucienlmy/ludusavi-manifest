@@ -9159,6 +9159,7 @@ Alchemist Penguin:
   pageId: 35124
   steam: 491390
 Alchemist Simulator:
+  lutris: alchemist-simulator
   pageId: 142198
   steam: 1105040
 "Alchemist's Awakening":
@@ -46079,6 +46080,9 @@ Comatose:
   lutris: comatose--1
   pageId: 215279
   steam: 3301370
+  steamSide:
+    - 4297010
+    - 4502880
 Combat:
   pageId: 7781
 Combat Air Patrol 2:
@@ -48873,6 +48877,8 @@ Cotton Reboot!:
   steam: 1656820
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\save_data.sav}}"
+Cotton Reboot! High Tension!:
+  pageId: 217254
 "Cotton Rock 'n' Roll: Superlative Night Dreams":
   pageId: 169518
   renamedFrom:
@@ -59383,13 +59389,11 @@ Deep Dark Labyrinth:
     - Deep Dark L♂byrinth
   steam: 847260
 Deep Dish Dungeon:
+  lutris: deep-dish-dungeon
   pageId: 207378
   steam: 2871520
   steamSide:
     - 3618740
-  templates:
-    - "{{Game data/config|Windows|Computer\\HKEY_CURRENT_USER\\Software\\Behold Studios\\Deep Dish Dungeon - Demo}}"
-    - "{{Game data/saves|Windows|%localappdata%low\\Behold Studios\\Deep Dish Dungeon - Demo\\SavedGames}}"
 Deep Diving Simulator:
   cloud:
     gog: true
@@ -72096,6 +72100,9 @@ E06-Anomaly:
 E3.14CENTER:
   pageId: 123460
   steam: 862240
+EA Sports College Football 27:
+  pageId: 217265
+  steam: 4032350
 EA Sports FC 24:
   cloud:
     origin: true
@@ -105277,6 +105284,9 @@ Headcrab Frenzy!:
   steam: 354900
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\headcrab frenzy\\hcfrenzy\\valve\\}}"
+Headcutter:
+  pageId: 217255
+  steam: 4603230
 "Header Goal VR: Being Axel Rix":
   cloud:
     steam: true
@@ -136621,6 +136631,11 @@ Lume and the Shifting Void:
   steam: 1133470
 Lumen.:
   pageId: 166478
+"LumenTale: Memories of Trey":
+  cloud:
+    steam: true
+  pageId: 217263
+  steam: 2261430
 Lumencraft:
   cloud:
     gog: true
@@ -229890,6 +229905,9 @@ Temporality:
 Temptation:
   pageId: 90150
   steam: 825000
+Tempus Vitae:
+  pageId: 217259
+  steam: 2360820
 Temtem:
   cloud:
     discord: true
