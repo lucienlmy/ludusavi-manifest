@@ -542334,7 +542334,41 @@
         oslist: linux
       executable: prince
       type: default
-1297900: {}
+1297900:
+  cloud:
+    saves:
+      - path: G1R/Saved/SaveGames
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: G1R/Saved/SaveGames
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
+  installDir: Gothic 1 Remake
+  launch:
+    - config:
+        betakey: "calom, magicbarrier, magicbarrier_gamescom, clown, testgate, evaluation"
+        oslist: windows
+      description: Gothic 1 Remake (Dev Exe)
+      executable: G1R.exe
+      type: option1
+    - config:
+        betakey: "calom, magicbarrier, magicbarrier_gamescom, magicbarrier_fordistribution, clown, testgate, sneak, evaluation"
+      description: Gothic 1 Remake (Shipping Exe)
+      executable: G1R-Win64-Shipping.exe
+      type: option1
+    - config:
+        betakey: "calom, magicbarrier, magicbarrier_gamescom, clown, testgate"
+      description: Gothic 1 Remake (Test Exe)
+      executable: G1R-Win64-Test.exe
+      type: option1
+    - config:
+        betakey: "public, combat, agedwell, press, pressspecial, reviews, valve, loca"
+        oslist: windows
+      description: Gothic 1 Remake (Shipping)
+      executable: G1R-Win64-Shipping.exe
+      type: default
 1298080:
   installDir: Almost My Floor Test
   launch:
@@ -625969,7 +626003,8 @@
         root: gameinstall
   installDir: Deep Rock Galactic RogueCore
   launch:
-    - config:
+    - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
+      config:
         osarch: "64"
         oslist: windows
       executable: RogueCore.exe
@@ -625990,14 +626025,29 @@
       description: Testing build
       executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
       type: option1
-    - arguments: "-DefaultServiceOverride=Steam"
+    - arguments: "-LogCmds=\"LogEOSSDK VeryVerbose, LogSocketSubsystemEOS Verbose, LogNet Verbose, LogNetTraffic Verbose, LogOnline Verbose\""
       config:
         betakey: test_serverlist
         osarch: "64"
         oslist: windows
-      description: "Network test "
+      description: Connection test 1
       executable: RogueCore.exe
       type: option1
+    - arguments: "-DefaultServiceOverride=Steam"
+      config:
+        betakey: "experimental_closed, internal_release_ship"
+        osarch: "64"
+      description: Please test this one.
+      executable: RogueCore.exe
+      type: option1
+    - arguments: "-DefaultServiceOverride=Steam -LogCmds=\"LogEOSSDK VeryVerbose, LogSocketSubsystemEOS Verbose, LogNet Verbose, LogNetTraffic Verbose, LogOnline Verbose\""
+      config:
+        betakey: test_serverlist
+        osarch: "64"
+        oslist: windows
+      description: Connection test 2
+      executable: RogueCore.exe
+      type: option2
   nameLocalized:
     schinese: 深岩银河：异动核心
 2608050:
@@ -626826,6 +626876,9 @@
     saves:
       - path: "TokyoXtremeRacer/Saved/SaveGames/{64BitSteamID}"
         pattern: UserData_00.sav
+        root: WinAppDataLocal
+      - path: "TokyoXtremeRacer/Saved/SaveGames/{64BitSteamID}"
+        pattern: UserData_00.sav.tmp
         root: WinAppDataLocal
   installDir: TokyoXtremeRacer
   launch:
@@ -632595,17 +632648,8 @@
     schinese: 迷魅狩猎
     tchinese: 迷魅狩獵
 2827230:
-  installDir: WildAssaultEA
-  launch:
-    - arguments: "-session=1 -logintype=1 -PlatformService=Steam  -SavedVersion=20250411"
-      config:
-        osarch: "64"
-        oslist: windows
-      executable: WildAssault.exe
-      type: default
   nameLocalized:
     english: Wild Assault
-    sc_schinese: 兽猎突袭
     schinese: 兽猎突袭
     tchinese: 兽猎突袭
 2827820: {}

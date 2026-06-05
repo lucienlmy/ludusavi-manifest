@@ -25395,7 +25395,7 @@ Berry Bury Berry:
   pageId: 216033
   steam: 3370870
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\CloudSave\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Get(Color) Games\\BerryBerryBerryBerryBerryBerryBerryBerryBerry\\CloudSave\\}}"
 Berry Pop Match:
   pageId: 68344

@@ -78347,7 +78347,7 @@ Berry Bury Berry:
             os: windows
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry/CloudSave:
+    HKEY_CURRENT_USER/Software/Get(Color) Games/BerryBerryBerryBerryBerryBerryBerryBerryBerry:
       tags:
         - config
   steam:
@@ -184827,7 +184827,8 @@ Deep Rock Galactic:
     Deep Rock Galactic RogueCore: {}
   launch:
     "<base>/RogueCore.exe":
-      - when:
+      - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
+        when:
           - bit: 64
             os: windows
             store: steam
@@ -306005,6 +306006,13 @@ Gothic 1 Remake:
   cloud:
     gog: true
     steam: true
+  files:
+    "<base>/G1R/Saved/SaveGames/**/*.*":
+      when:
+        - store: steam
+    "<winLocalAppData>/G1R/Saved/SaveGames/**/*.*":
+      when:
+        - store: steam
   gog:
     id: 1537831577
   id:
@@ -306013,6 +306021,8 @@ Gothic 1 Remake:
     lutris: gothic-1-remake
     steamExtra:
       - 3448280
+  installDir:
+    Gothic 1 Remake: {}
   steam:
     id: 1297900
 Gothic 3:
@@ -831957,15 +831967,6 @@ Wild Assault:
   id:
     steamExtra:
       - 3639940
-  installDir:
-    WildAssaultEA: {}
-  launch:
-    "<base>/WildAssault.exe":
-      - arguments: "-session=1 -logintype=1 -PlatformService=Steam  -SavedVersion=20250411"
-        when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 2827230
 Wild Blue Skies:
