@@ -9946,6 +9946,9 @@ Alien vs Predator Jaguar Remake:
     - "{{Game data/saves|GOG.com|{{p|userprofile\\Documents}}\\My Games\\Alien Isolation\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{P|localappdata}}\\The Creative Assembly\\Alien Isolation\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/feral-interactive/AlienIsolation/Steam Saves ({{p|uid}})}}"
+"Alien: Isolation 2":
+  pageId: 217336
+  steam: 4665290
 "Alien: Rogue Incursion":
   pageId: 200221
   steam: 1850050
@@ -146025,6 +146028,8 @@ Might is Right:
 Mighty Action RPG:
   pageId: 72785
   steam: 722940
+Mighty Cuphead Adventure:
+  pageId: 217350
 Mighty Dungeons:
   cloud:
     steam: true
@@ -186638,6 +186643,12 @@ Relicta:
     - 1302980
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\PAway\\Saved\\SaveGames}}"
+Relief:
+  pageId: 217365
+  steam: 3929330
+  steamSide:
+    - 4110890
+    - 4402910
 Reliefs:
   pageId: 90620
   steam: 821180
@@ -221494,6 +221505,9 @@ Subway Surfers Tag:
 Successor of the Moon:
   pageId: 129897
   steam: 1014020
+Succubless:
+  pageId: 217363
+  steam: 4036540
 Succubus:
   cloud:
     gog: true

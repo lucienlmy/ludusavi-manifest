@@ -31258,6 +31258,9 @@ Alien invasion:
             store: steam
   steam:
     id: 214490
+"Alien: Isolation 2":
+  steam:
+    id: 4665290
 "Alien: Rogue Incursion":
   files:
     "<winLocalAppData>/Midnight/Saved/Config/Windows":
@@ -574869,6 +574872,13 @@ Relicta:
     Relicta: {}
   steam:
     id: 941570
+Relief:
+  id:
+    steamExtra:
+      - 4110890
+      - 4402910
+  steam:
+    id: 3929330
 Reliefs:
   installDir:
     Reliefs The Time of the Lemures: {}
@@ -682508,6 +682518,16 @@ Successor of the Moon:
             store: steam
   steam:
     id: 1014020
+Succubless:
+  installDir:
+    Succubless: {}
+  launch:
+    "<base>/Succubless/Succubless.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4036540
 Succubus:
   cloud:
     gog: true

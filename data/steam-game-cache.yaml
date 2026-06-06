@@ -324642,7 +324642,7 @@
     schinese: "Isles of Etherion: 浮岛风云"
 771800:
   nameLocalized:
-    schinese: Deadstick - Bush Flight Simulator ( 绝境：荒野飞行模拟器 )
+    schinese: Deadstick - Bush Pilot Simulator ( 绝境：荒野飞行模拟器 )
 771810:
   cloud:
     saves:
@@ -649274,6 +649274,11 @@
         oslist: windows
       executable: Fish Fish Fish.exe
       type: default
+3929330:
+  nameLocalized:
+    japanese: 西遊怪談録
+    schinese: 释厄传
+    tchinese: 釋厄傳
 3929410:
   cloud:
     saves:
@@ -649729,6 +649734,17 @@
   installDir: Space Rock Breaker
   launch:
     - executable: SPACEROCKBREAKER.exe
+4036540:
+  installDir: Succubless
+  launch:
+    - config:
+        oslist: windows
+      executable: "Succubless\\Succubless.exe"
+  nameLocalized:
+    japanese: サキュブレス Succubless
+    koreana: 서큐블레스 Succubless
+    schinese: 魅魔赐福 Succubless
+    tchinese: 魅魔賜福 Succubless
 4039320: {}
 4041890:
   installDir: The Last Elixir
@@ -651056,6 +651072,12 @@
 4605200: {}
 4605490: {}
 4637870: {}
+4665290:
+  nameLocalized:
+    japanese: "エイリアン : 最後の生存者"
+    koreana: "에이리언: 아이솔레이션 2"
+    schinese: 异形：隔离 2
+    tchinese: "異形 : 孤立 2"
 4665880: {}
 4669670:
   nameLocalized:
