@@ -38103,6 +38103,11 @@ Carpe Diem:
 Carpet Bombing:
   pageId: 155713
   steam: 1210970
+Carpet Cleaning Simulator:
+  pageId: 217367
+  steam: 4634560
+  steamSide:
+    - 4798550
 Carreras de Velocidad:
   pageId: 130368
   steam: 1032060
@@ -59724,8 +59729,14 @@ Deepworld:
   pageId: 48138
   steam: 340810
 Deer & Boy:
+  cloud:
+    epic: true
+    steam: true
+  lutris: deer-and-boy
   pageId: 207371
   steam: 1803140
+  steamSide:
+    - 4626870
 Deer Avenger:
   pageId: 205467
 "Deer Avenger 2: Deer in the City":
@@ -60928,6 +60939,11 @@ Demons with Shotguns:
 DemonsAreCrazy:
   pageId: 96337
   steam: 861050
+Demonschool:
+  cloud:
+    steam: true
+  pageId: 217401
+  steam: 1900250
 Den of Wolves:
   pageId: 200183
   steam: 1818140
@@ -63994,6 +64010,12 @@ Discolored:
 Discontinue:
   pageId: 138677
   steam: 1061220
+Discounty:
+  cloud:
+    steam: true
+  gog: 1078493913
+  pageId: 217398
+  steam: 2274620
 Discouraged Workers:
   cloud:
     steam: true
@@ -86944,6 +86966,8 @@ Five Nations:
 "Five Nights at Freddy's: Help Wanted 2":
   pageId: 192355
   steam: 2287520
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\HW2\\Saved\\SaveGames}}"
 "Five Nights at Freddy's: Into the Pit":
   cloud:
     epic: true
@@ -149948,6 +149972,11 @@ Moonlight:
 Moonlight Minions:
   pageId: 49468
   steam: 311170
+Moonlight Peaks:
+  cloud:
+    steam: true
+  pageId: 217380
+  steam: 2209900
 Moonlight Warrior:
   pageId: 132534
   steam: 1054590
@@ -194322,6 +194351,8 @@ Rush Rush Rally Reloaded:
     steam: true
   pageId: 212747
   steam: 2065610
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\rrrrelod.sav}}"
 Rush for Berlin:
   pageId: 41211
   steam: 40320
@@ -203928,6 +203959,10 @@ Shrek the Third:
 Shrine of the God-Ape:
   pageId: 140922
   steam: 1103930
+"Shrine: Circus Tycoon":
+  pageId: 217373
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Saved Games}}"
 Shrines Of Sacred Essenсe:
   pageId: 121373
   steam: 949830
@@ -226138,6 +226173,10 @@ Swords of Gargantua:
 Swords of Gurrah:
   pageId: 139499
   steam: 833090
+Swords of Legends:
+  lutris: swords-of-legends
+  pageId: 217378
+  steam: 4729320
 Swords of Legends Online:
   pageId: 169900
   renamedFrom:
@@ -249318,6 +249357,11 @@ Titanis:
     steam: true
   pageId: 47595
   steam: 365060
+Titanium Court:
+  cloud:
+    steam: true
+  pageId: 217396
+  steam: 2364580
 Titans of Space 2.0:
   pageId: 37417
   steam: 468820

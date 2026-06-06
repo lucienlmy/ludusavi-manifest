@@ -584355,7 +584355,10 @@
         oslist: windows
       executable: CCLauncher.exe
       type: config
-1803140: {}
+1803140:
+  nameLocalized:
+    japanese: 鹿と少年
+    schinese: 男孩与鹿
 1803600:
   cloud:
     saves:
@@ -590209,6 +590212,18 @@
     - config:
         oslist: macos
       executable: "Dolmenjord.app\\Contents\\MacOS\\Dolmenjord"
+1900250:
+  installDir: Demonschool
+  launch:
+    - config:
+        oslist: windows
+      executable: Demonschool.exe
+    - config:
+        oslist: macos
+      executable: Demonschool.app
+    - config:
+        oslist: linux
+      executable: Demonschool.x86_64
 1900280:
   installDir: "Just Ignore Them Brea's Story"
   launch:
@@ -609253,6 +609268,7 @@
       executable: ACValhalla.exe
   nameLocalized:
     schinese: 刺客信条：英灵殿
+2209900: {}
 2210150: {}
 2210520: {}
 2210800:
@@ -612524,6 +612540,52 @@
         osarch: "64"
         oslist: linux
       executable: NSFWSolitaire_Linux/NSFWSolitaire.x86_64
+2274620:
+  cloud:
+    saves:
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: SaveData0.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: SaveData1.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: synched.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: SaveData2.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Save0.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Save1.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Save2.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Chapter4Save0.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Chapter4Save1.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Chapter4Save2.json
+        root: WinAppDataLocalLow
+      - path: "Crinkle Cut Games\\Discounty"
+        pattern: Chapter4SaveState.json
+        root: WinAppDataLocalLow
+  installDir: Discounty
+  launch:
+    - config:
+        oslist: windows
+      executable: Discounty.exe
+  nameLocalized:
+    japanese: "Discounty : ドタバタスーパー物語"
+    koreana: "Discounty : 크레이지 마트"
+    schinese: "Discounty : 打骨折超市日记"
+    tchinese: "Discounty : 打骨折超市日記"
 2275150:
   cloud:
     saves:
@@ -616354,6 +616416,28 @@
         oslist: windows
       description: Launch
       executable: EscapeMemoirsQSS.exe
+      type: default
+2364580:
+  cloud:
+    saves:
+      - path: AP Thomson/TitaniumCourt
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Titanium Court
+  launch:
+    - config:
+        oslist: windows
+      executable: TitaniumCourt.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: TitaniumCourt.app
       type: default
 2365810:
   cloud:
@@ -651071,6 +651155,11 @@
 4603230: {}
 4605200: {}
 4605490: {}
+4634560:
+  nameLocalized:
+    english: Carpet Cleaning Simulator
+    japanese: 絨毯を洗うゲーム
+    schinese: Carpet Cleaning Simulator
 4637870: {}
 4665290:
   nameLocalized:
@@ -651089,6 +651178,11 @@
   nameLocalized:
     schinese: 穿越火线：潜伏
 4716160: {}
+4729320:
+  nameLocalized:
+    english: Swords of Legends
+    schinese: 古剑
+    tchinese: 古劍
 4731620:
   cloud:
     saves:

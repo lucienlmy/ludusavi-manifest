@@ -118108,6 +118108,12 @@ Carpet Bombing:
             store: steam
   steam:
     id: 1210970
+Carpet Cleaning Simulator:
+  id:
+    steamExtra:
+      - 4798550
+  steam:
+    id: 4634560
 Carreras de Velocidad:
   installDir:
     Carreras de Velocidad: {}
@@ -185526,6 +185532,13 @@ Deepworld:
   steam:
     id: 340810
 Deer & Boy:
+  cloud:
+    epic: true
+    steam: true
+  id:
+    lutris: deer-and-boy
+    steamExtra:
+      - 4626870
   steam:
     id: 1803140
 Deer Hunt Legends:
@@ -189610,6 +189623,26 @@ DemonsAreCrazy:
     id: 861050
 DemonsTier:
   alias: "Demon's Tier"
+Demonschool:
+  cloud:
+    steam: true
+  installDir:
+    Demonschool: {}
+  launch:
+    "<base>/Demonschool.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Demonschool.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Demonschool.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1900250
 Den of Wolves:
   steam:
     id: 1818140
@@ -198784,6 +198817,54 @@ Discontinue:
     Discontinue: {}
   steam:
     id: 1061220
+Discounty:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Chapter4Save0.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Chapter4Save1.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Chapter4Save2.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Chapter4SaveState.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Save0.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Save1.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/Save2.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/SaveData0.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/SaveData1.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/SaveData2.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Crinkle Cut Games/Discounty/synched.json":
+      when:
+        - store: steam
+  gog:
+    id: 1078493913
+  installDir:
+    Discounty: {}
+  launch:
+    "<base>/Discounty.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2274620
 Discouraged Workers:
   cloud:
     steam: true
@@ -268086,6 +268167,12 @@ Five Nations:
   steam:
     id: 732690
 "Five Nights at Freddy's: Help Wanted 2":
+  files:
+    "<winLocalAppData>/HW2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     HW2: {}
   launch:
@@ -462235,6 +462322,11 @@ Moonlight Minions:
             store: steam
   steam:
     id: 311170
+Moonlight Peaks:
+  cloud:
+    steam: true
+  steam:
+    id: 2209900
 Moonlight Warrior:
   installDir:
     MoonlightWarrior: {}
@@ -598088,9 +598180,11 @@ Rush Rush Rally Reloaded:
   cloud:
     steam: true
   files:
-    "<base>/*.sav":
+    "<base>/rrrrelod.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Rush Rush Rally Reloaded: {}
   launch:
@@ -627808,6 +627902,13 @@ Shrine of the God-Ape:
             store: steam
   steam:
     id: 1103930
+"Shrine: Circus Tycoon":
+  files:
+    "<base>/Saved Games":
+      tags:
+        - save
+      when:
+        - os: windows
 Shrines Of Sacred Essenсe:
   installDir:
     Shrines Of Sacred Essenсe: {}
@@ -697273,6 +697374,11 @@ Swords of Gurrah:
     Gurrah: {}
   steam:
     id: 833090
+Swords of Legends:
+  id:
+    lutris: swords-of-legends
+  steam:
+    id: 4729320
 Swords of Legends Online:
   id:
     steamExtra:
@@ -768507,6 +768613,30 @@ Titanis:
             store: steam
   steam:
     id: 365060
+Titanium Court:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/AP Thomson/TitaniumCourt":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/AP Thomson/TitaniumCourt":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Titanium Court: {}
+  launch:
+    "<base>/TitaniumCourt.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TitaniumCourt.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2364580
 Titans of Space 2.0:
   installDir:
     Titans of Space 2.0: {}
