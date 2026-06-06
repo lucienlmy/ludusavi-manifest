@@ -2208,6 +2208,14 @@ $1 Ride:
 "16 Planes:Return":
   steam:
     id: 986770
+"1666: Amsterdam":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4519690
+  steam:
+    id: 3949550
 16bit Trader:
   cloud:
     steam: true
@@ -139423,6 +139431,9 @@ Clutch:
           - store: steam
   steam:
     id: 35310
+Clutch (2027):
+  steam:
+    id: 3061930
 Clutchball:
   installDir:
     clutchball: {}
@@ -306049,12 +306060,11 @@ Gothic 1 Remake:
     gog: true
     steam: true
   files:
-    "<base>/G1R/Saved/SaveGames/**/*.*":
+    "<winLocalAppData>/G1R/Saved/SaveGames/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/G1R/Saved/SaveGames/**/*.*":
-      when:
-        - store: steam
+        - os: windows
   gog:
     id: 1537831577
   id:
@@ -339445,6 +339455,9 @@ Hitman World of Assassination:
           - store: steam
   steam:
     id: 6860
+"Hitman: Classic Trilogy Remastered":
+  steam:
+    id: 4716160
 "Hitman: Codename 47":
   cloud:
     steam: true
@@ -344707,6 +344720,11 @@ Hot Wheels World Race:
     HKEY_LOCAL_MACHINE/SOFTWARE/Wow6432Node/Activision Value/Hot Wheels:
       tags:
         - config
+"Hot Wheels: Infinite Rush":
+  cloud:
+    steam: true
+  steam:
+    id: 2821390
 "Hot Wheels: Micro Racers":
   id:
     lutris: hot-wheels-micro-racers
@@ -577717,6 +577735,9 @@ Resident Evil Survivor:
         - save
       when:
         - os: windows
+Resident Evil Veronica:
+  steam:
+    id: 4824610
 Resident Evil Village:
   cloud:
     steam: true
@@ -611463,6 +611484,11 @@ Screen VR:
     Screen VR: {}
   steam:
     id: 1114170
+Screenbound:
+  id:
+    lutris: screenbound
+  steam:
+    id: 2805070
 Screencheat:
   cloud:
     steam: true
@@ -637047,6 +637073,9 @@ Slap Fight:
             store: steam
   steam:
     id: 2022980
+Slap Out Of It!:
+  steam:
+    id: 3564410
 Slap The Fly:
   installDir:
     Slap The Fly: {}
@@ -758592,6 +758621,9 @@ The Wolf Among Us:
             store: steam
   steam:
     id: 250320
+The Wolf Among Us Remastered:
+  steam:
+    id: 3884860
 "The Wolf's Bite":
   files:
     "<winAppData>/Eric Bernier, David Coughlin, Karen Teixeira, Fat Bard/WolfsBite":
@@ -771004,6 +771036,20 @@ Toltec and the mysteries of the Secret Island:
     "Tom Clancy's The Division 2": {}
   steam:
     id: 2221490
+"Tom Clancy's The Division Resurgence":
+  cloud:
+    uplay: true
+  files:
+    "<winLocalAppData>/TheDivision/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TheDivision/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 "Tom Clancy's XDefiant":
   alias: XDefiant
 "Tom Clancy's ruthless.com":

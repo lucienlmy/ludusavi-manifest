@@ -666,6 +666,13 @@ $1 Ride:
 "16 Planes:Return":
   pageId: 124464
   steam: 986770
+"1666: Amsterdam":
+  cloud:
+    steam: true
+  pageId: 217311
+  steam: 3949550
+  steamSide:
+    - 4519690
 16bit Trader:
   cloud:
     steam: true
@@ -44728,6 +44735,9 @@ Clutch:
   steam: 35310
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Clutch}}"
+Clutch (2027):
+  pageId: 217329
+  steam: 3061930
 Clutchball:
   pageId: 155359
   steam: 1167710
@@ -85770,6 +85780,8 @@ Final Fantasy VII Remake Intergrade:
     - "{{Game data/saves|Epic Games Store|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\EOS\\}}"
     - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\Steam\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
+Final Fantasy VII Revelation:
+  pageId: 217305
 "Final Fantasy VII: Ever Crisis":
   pageId: 191339
   steam: 2484110
@@ -98960,6 +98972,8 @@ Gothic 1 Remake:
   steam: 1297900
   steamSide:
     - 3448280
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\G1R\\Saved\\SaveGames\\*.sav}}"
 Gothic 3:
   cloud:
     gog: true
@@ -109806,6 +109820,9 @@ Hitman GO:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\HitmanBloodMoney.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Hitman Blood Money\\Profiles}}"
+"Hitman: Classic Trilogy Remastered":
+  pageId: 217321
+  steam: 4716160
 "Hitman: Codename 47":
   cloud:
     steam: true
@@ -111577,6 +111594,11 @@ Hot Wheels World Race:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Hot Wheels\\}}"
 "Hot Wheels: Crash!":
   pageId: 192983
+"Hot Wheels: Infinite Rush":
+  cloud:
+    steam: true
+  pageId: 217320
+  steam: 2821390
 "Hot Wheels: Jetz":
   pageId: 212170
 "Hot Wheels: Mechanix":
@@ -187636,6 +187658,9 @@ Resident Evil Survivor:
   pageId: 55324
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+Resident Evil Veronica:
+  pageId: 217313
+  steam: 4824610
 Resident Evil Village:
   cloud:
     steam: true
@@ -198633,6 +198658,10 @@ Screaming Skies:
 Screen VR:
   pageId: 143936
   steam: 1114170
+Screenbound:
+  lutris: screenbound
+  pageId: 217326
+  steam: 2805070
 Screencheat:
   cloud:
     steam: true
@@ -206842,6 +206871,9 @@ Slap Fight:
   gog: 1983087516
   pageId: 189023
   steam: 2022980
+Slap Out Of It!:
+  pageId: 217330
+  steam: 3564410
 Slap The Fly:
   pageId: 52586
   steam: 543030
@@ -246136,6 +246168,9 @@ The Wolf Among Us:
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/TheWolfAmongUs/}}"
 The Wolf Among Us 2:
   pageId: 154605
+The Wolf Among Us Remastered:
+  pageId: 217307
+  steam: 3884860
 "The Wolf's Bite":
   pageId: 65738
   steam: 656040
@@ -250101,6 +250136,13 @@ Tom & Jerry:
   cloud:
     uplay: true
   pageId: 168285
+"Tom Clancy's The Division Resurgence":
+  cloud:
+    uplay: true
+  pageId: 217303
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\TheDivision\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\TheDivision\\Saved\\SaveGames\\}}"
 "Tom Clancy's ruthless.com":
   pageId: 170481
   templates:

@@ -574054,6 +574054,9 @@
       description: Launch game (MacOS)
       executable: Hitman WOA.app
       type: default
+    - arguments: "-ao VR_ALLOWINSTANTSWITCH 1 -SKIP_LAUNCHER"
+      executable: Launcher.exe
+      type: vr
 1659050:
   cloud:
     saves:
@@ -632074,6 +632077,7 @@
         oslist: windows
       executable: Diabotical-Launcher.exe
       type: default
+2805070: {}
 2805850:
   nameLocalized:
     schinese: 艾特尔：神祇之路
@@ -632503,6 +632507,7 @@
       executable: SubversiveMemories.exe
   nameLocalized:
     schinese: 颠覆回忆 - Subversive Memories
+2821390: {}
 2821610:
   cloud:
     saves:
@@ -637903,6 +637908,7 @@
     german: "Instinct: Die Hölle von Yanggang"
     japanese: Instinct インスティンクト
     russian: Инстинкт
+3061930: {}
 3062610:
   cloud:
     saves:
@@ -645769,6 +645775,7 @@
     - config:
         oslist: linux
       executable: Car Driving School Simulator.x86_64
+3564410: {}
 3564500: {}
 3564740:
   installDir: Where Winds Meet
@@ -648965,6 +648972,7 @@
         oslist: windows
       executable: anuket_Shipping_Playfab_Steam_x64.exe
       type: default
+3884860: {}
 3886200:
   nameLocalized:
     schinese: 破碎怪谈：切勿欺骗
@@ -649424,6 +649432,7 @@
       description: dev_debug version
       executable: ysx_pn_dev_debug.exe
       type: option1
+3949550: {}
 3949740:
   installDir: (BURIED TAPES) The Cleaner
   launch:
@@ -651057,6 +651066,7 @@
 4687500:
   nameLocalized:
     schinese: 穿越火线：潜伏
+4716160: {}
 4731620:
   cloud:
     saves:
@@ -651077,4 +651087,7 @@
     schinese: 财富磨坊
 4743930: {}
 4767480: {}
+4824610:
+  nameLocalized:
+    japanese: "BIOHAZARD RE:Veronica"
 3221903386: {}
