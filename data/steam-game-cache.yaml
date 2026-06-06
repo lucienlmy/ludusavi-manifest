@@ -550554,6 +550554,20 @@
         betakey: adventurerbranch
       executable: Aqua-Coyote.exe
       type: default
+    - config:
+        betakey: "trunk.dev.latest,trunk.dev.stable"
+        ownsdlc: "4179820"
+      description: Shadows of Ashenfall
+      executable: ShadowsOfAshenfall/RSDragonwilds.exe
+      type: option2
+    - config:
+        betakey: trunk.dev.latest
+        ownsdlc: "4179820"
+      description: "Runescape: Dragonwilds"
+      executable: RSDragonwilds.exe
+      type: option1
+  nameLocalized:
+    schinese: "RuneScape: Dragonwilds 符文世界：龙之荒野"
 1374840:
   cloud:
     saves:
@@ -595693,6 +595707,11 @@
     - arguments: "--rendering-method mobile"
       description: "Road to Vostok [Compatibility]"
       executable: RTV.exe
+1963680:
+  nameLocalized:
+    koreana: 건담 로그 오비트
+    schinese: GUNDAM 异轨征途
+    tchinese: GUNDAM 異軌征途
 1964000:
   installDir: Sunline
   launch:
@@ -633434,6 +633453,7 @@
       description: using DirectX 11 (try this if you experience performance issues)
       executable: "JETRUNNER\\Binaries\\Win64\\JetrunnerGame.exe"
       type: option2
+2865960: {}
 2868840:
   installDir: Slay the Spire 2
   launch:
@@ -634492,6 +634512,12 @@
   installDir: Fast Food Simulator
   launch:
     - executable: Fast Food Simulator.exe
+2916700:
+  nameLocalized:
+    japanese: 進撃の巨人３
+    koreana: 진격의거인３
+    schinese: Attack on Titan 3
+    tchinese: 進撃的巨人３
 2917040:
   installDir: Garten of Banban 8 Anti Devil
   launch:
@@ -642730,6 +642756,7 @@
   nameLocalized:
     english: "GIRLS' FRONTLINE"
     schinese: 少女前线
+3348210: {}
 3350030:
   installDir: The Permanent Residence  Souls Kept
   launch:
@@ -645106,6 +645133,7 @@
       executable: HeartRatesPlus.sh
       type: default
 3523120: {}
+3524720: {}
 3525970:
   cloud:
     saves:
@@ -647250,6 +647278,26 @@
 3674590: {}
 3674680: {}
 3677050: {}
+3678970:
+  cloud:
+    saves:
+      - path: TesseractStudio/TaskbarHero/
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+  installDir: TaskbarHero
+  launch:
+    - config:
+        oslist: windows
+      executable: TaskBarHero.exe
+      type: default
+  nameLocalized:
+    japanese: タスクバーヒーロー
+    koreana: "TBH: 태스크바 히어로"
+    russian: "TBH: Таск Бар Хиро"
+    schinese: "TBH: 塔斯克巴·英雄"
+    tchinese: "TBH: 塔斯克巴·英雄"
+    thai: "TBH: ทาสก์บาร์ ฮีโร่"
+    ukrainian: "TBH: Таск Бар Хіро"
 3679080:
   installDir: The Seven Deadly Sins Origin
   launch:
@@ -650599,6 +650647,21 @@
     english: "A Whisper of Fall: Jinyiwei"
     schinese: 一盏秋声：锦衣卫
     tchinese: 一盞秋聲：錦衣衛
+4304930:
+  cloud:
+    saves:
+      - path: "Cosmic Platypus/Chef Knight/save/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ".local/share/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Chef Knight
+  launch:
+    - executable: Chef Knight.exe
 4310610: {}
 4317460: {}
 4317690: {}
@@ -650991,4 +651054,27 @@
     tchinese: 血色鹿影
 4669960: {}
 4683260: {}
+4687500:
+  nameLocalized:
+    schinese: 穿越火线：潜伏
+4731620:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Fortune Mill
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Fortune Mill
+  launch:
+    - config:
+        oslist: windows
+      executable: FortuneMill.exe
+      type: default
+  nameLocalized:
+    japanese: フォーチュンミル
+    koreana: 포춘 밀
+    schinese: 财富磨坊
+4743930: {}
+4767480: {}
 3221903386: {}

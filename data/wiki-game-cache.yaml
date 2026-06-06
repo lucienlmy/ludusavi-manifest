@@ -18452,6 +18452,9 @@ Attack on Titan 2:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\KoeiTecmo\\Attack on Titan2_AOT2\\System\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\Attack on Titan2_AOT2\\SAVEDATA\\}}"
+Attack on Titan 3:
+  pageId: 217295
+  steam: 2916700
 Attack on Toys:
   cloud:
     steam: true
@@ -40748,6 +40751,11 @@ Chef:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Inner Void Interactive\\Chef_ A Restaurant Tycoon Game\\GameSettings.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Inner Void Interactive\\Chef_ A Restaurant Tycoon Game\\}}"
+Chef Knight:
+  cloud:
+    steam: true
+  pageId: 217281
+  steam: 4304930
 Chef RPG:
   cloud:
     steam: true
@@ -51105,6 +51113,9 @@ Crossed Swords:
 Crosser:
   pageId: 143865
   steam: 1124510
+"Crossfire (That's No Moon)":
+  pageId: 217301
+  steam: 4687500
 "Crossfire: Dungeons":
   cloud:
     steam: true
@@ -89738,6 +89749,11 @@ Fortune & Gloria:
 Fortune Avenue:
   pageId: 193433
   steam: 1810050
+Fortune Mill:
+  cloud:
+    steam: true
+  pageId: 217283
+  steam: 4731620
 "Fortune Summoners: Secret of the Elemental Stone":
   pageId: 778
   steam: 203510
@@ -94921,6 +94937,8 @@ Gems of the Aztecs:
 Gemstone Keeper:
   pageId: 59637
   steam: 522080
+Gen Atlas:
+  pageId: 217297
 Gender Bender:
   pageId: 68911
   steam: 682270
@@ -101392,6 +101410,9 @@ Guild Wars 2:
     - 3845870
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Guild Wars 2\\GFXSettings.Gw2.exe.xml}}"
+Guild Wars 3:
+  pageId: 217290
+  steam: 4743930
 Guild of Ascension:
   cloud:
     gog: true
@@ -101828,6 +101849,9 @@ Gundam Evolution:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\EvoGame\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\EvoGame\\}}"
+Gundam Rogue Orbit:
+  pageId: 217288
+  steam: 1963680
 GundeadliGne:
   cloud:
     steam: true
@@ -102866,6 +102890,9 @@ Hades II:
 Haeven:
   pageId: 41815
   steam: 508540
+Haex:
+  pageId: 217286
+  steam: 3524720
 Hags Castle:
   pageId: 102295
   steam: 905260
@@ -123166,6 +123193,8 @@ Kamikaze Kommittee Ouka 2:
 Kamikaze Lassplanes:
   cloud:
     steam: true
+  gog: 1290088049
+  lutris: kamikaze-lassplanes
   pageId: 198510
   steam: 2253930
   templates:
@@ -134847,6 +134876,7 @@ Lords of the Fallen (2023):
 Lords of the Fallen II:
   lutris: lords-of-the-fallen-ii
   pageId: 207245
+  steam: 4767480
 Lords of the Lockerroom:
   pageId: 164351
   steam: 1068070
@@ -197682,6 +197712,9 @@ Saw:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Saw\\SawGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Saw\\SawGame\\Checkpoints\\default_checkpoint.sav}}"
+"Saw: Genesis":
+  pageId: 217293
+  steam: 2865960
 Say Goodbye:
   pageId: 55752
   steam: 557880
@@ -224129,6 +224162,9 @@ Super Woden GP 2:
 Super X Chess:
   pageId: 121375
   steam: 814990
+Super Yooka-Laylee Kart:
+  pageId: 217299
+  steam: 3348210
 Super Zaxxon:
   pageId: 176061
 Super Zombie Arcade:
@@ -226720,6 +226756,11 @@ TAYAL:
   steam: 818960
   steamSide:
     - 947800
+"TBH: Task Bar Hero":
+  cloud:
+    steam: true
+  pageId: 217279
+  steam: 3678970
 TCG Card Shop Simulator:
   cloud:
     steam: true
@@ -229988,6 +230029,11 @@ TendyTrainer:
   pageId: 123519
   steam: 983120
 Tenebris Somnia:
+  cloud:
+    xbox: true
+  gog: 2084941195
+  gogSide:
+    - 1713102951
   lutris: tenebris-somnia
   pageId: 181631
   steam: 2121510

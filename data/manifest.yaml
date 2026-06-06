@@ -57235,6 +57235,9 @@ Attack on Titan 2:
         - config
   steam:
     id: 601050
+Attack on Titan 3:
+  steam:
+    id: 2916700
 Attack on Toys:
   cloud:
     steam: true
@@ -126679,6 +126682,25 @@ Chef:
     id: 886900
 Chef - A Restaurant Tycoon Game:
   alias: Chef
+Chef Knight:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Cosmic Platypus/Chef Knight/save/<storeUserId>/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Cosmic Platypus/Chef Knight/save/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Chef Knight: {}
+  launch:
+    "<base>/Chef Knight.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4304930
 Chef RPG:
   cloud:
     steam: true
@@ -159129,6 +159151,9 @@ Crosser:
     Crosser: {}
   steam:
     id: 1124510
+"Crossfire (That's No Moon)":
+  steam:
+    id: 4687500
 "Crossfire: Dungeons":
   cloud:
     steam: true
@@ -277353,6 +277378,23 @@ Fortune Avenue:
             store: steam
   steam:
     id: 1810050
+Fortune Mill:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/Fortune Mill/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Fortune Mill: {}
+  launch:
+    "<base>/FortuneMill.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4731620
 "Fortune Summoners: Secret of the Elemental Stone":
   files:
     "<base>/user":
@@ -313450,6 +313492,9 @@ Guild Wars 2:
             store: steam
   steam:
     id: 1284210
+Guild Wars 3:
+  steam:
+    id: 4743930
 Guild Wars Factions:
   alias: Guild Wars
 Guild Wars Nightfall:
@@ -314679,6 +314724,9 @@ Gundam Evolution:
             store: steam
   steam:
     id: 1816670
+Gundam Rogue Orbit:
+  steam:
+    id: 1963680
 GundeadliGne:
   cloud:
     steam: true
@@ -318098,6 +318146,9 @@ Haeven:
             store: steam
   steam:
     id: 508540
+Haex:
+  steam:
+    id: 3524720
 Hags Castle:
   installDir:
     Hags Castle: {}
@@ -380613,6 +380664,10 @@ Kamikaze Lassplanes:
         - config
       when:
         - os: windows
+  gog:
+    id: 1290088049
+  id:
+    lutris: kamikaze-lassplanes
   installDir:
     Kamikaze Lassplanes: {}
   launch:
@@ -416180,6 +416235,8 @@ Lords of the Fallen (2023):
 Lords of the Fallen II:
   id:
     lutris: lords-of-the-fallen-ii
+  steam:
+    id: 4767480
 Lords of the Lockerroom:
   installDir:
     Lords Of The Lockerroom: {}
@@ -608692,6 +608749,9 @@ Saw:
           - store: steam
   steam:
     id: 27300
+"Saw: Genesis":
+  steam:
+    id: 2865960
 Say Goodbye:
   id:
     steamExtra:
@@ -691325,6 +691385,9 @@ Super X Chess:
             store: steam
   steam:
     id: 814990
+Super Yooka-Laylee Kart:
+  steam:
+    id: 3348210
 Super Zombie Arcade:
   installDir:
     Super Zombie Arcade: {}
@@ -699177,6 +699240,22 @@ TAYAL:
             store: steam
   steam:
     id: 818960
+"TBH: Task Bar Hero":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/TesseractStudio/TaskbarHero/*.es3":
+      when:
+        - store: steam
+  installDir:
+    TaskbarHero: {}
+  launch:
+    "<base>/TaskBarHero.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3678970
 TCG Card Shop Simulator:
   cloud:
     steam: true
@@ -709578,7 +709657,11 @@ TendyTrainer:
   steam:
     id: 983120
 Tenebris Somnia:
+  gog:
+    id: 2084941195
   id:
+    gogExtra:
+      - 1713102951
     lutris: tenebris-somnia
     steamExtra:
       - 2578120
