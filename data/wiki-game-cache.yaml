@@ -7599,6 +7599,7 @@ Age of Empires IV:
     - 3067190
     - 3144890
     - 3746540
+    - 4336170
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Age of Empires IV\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Age of Empires IV\\Users\\(UserID)\\Savegames\\}}"
@@ -38006,9 +38007,9 @@ Carnal Instinct:
   pageId: 174786
   steam: 1495320
   templates:
-    - "{{Game data/config|Windows|C:\\Users\\USERNAME\\AppData\\Local\\Carnal_Instinct_UE5\\Saved\\Config}}"
-    - "{{Game data/saves|Windows|C:\\Users\\USERNAME\\AppData\\Local\\Carnal_Instinct}}"
-    - "{{Game data/saves|Windows|C:\\Users\\USERNAME\\AppData\\Local\\Carnal_Instinct_UE5\\Saved\\SaveGames}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Carnal_Instinct_UE5\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Carnal_Instinct}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Carnal_Instinct_UE5\\Saved\\SaveGames}}"
 "CarneyVale: Showtime":
   pageId: 89112
   templates:
@@ -66407,6 +66408,7 @@ Doom of the Clawn:
   pageId: 195569
   steam: 3017860
   steamSide:
+    - 3469450
     - 3698350
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\id Software\\DOOMTheDarkAges\\base\\}}"
@@ -92877,6 +92879,8 @@ GT Racers:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Packages\\GAMELOFTSA.GTRacing2TheRealCarExperience_0pp20fcewvvtj\\Settings}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Packages\\GAMELOFTSA.GTRacing2TheRealCarExperience_0pp20fcewvvtj\\LocalState}}"
+GT Racing 97:
+  pageId: 217443
 GT-R 400:
   pageId: 24179
   templates:
@@ -94802,6 +94806,8 @@ Gears of War 4:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Packages\\Microsoft.SpartaUWP_8wekyb3d8bbwe\\LocalState\\GearGame\\Saved\\Config\\UWP\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Packages\\Microsoft.SpartaUWP_8wekyb3d8bbwe}}"
 "Gears of War: E-Day":
+  cloud:
+    xbox: true
   pageId: 195567
   steam: 3010850
 "Gears of War: Reloaded":
@@ -148285,6 +148291,13 @@ Mold on Pizza:
     steam: true
   pageId: 41417
   steam: 387870
+Moldwasher:
+  cloud:
+    steam: true
+  pageId: 217438
+  steam: 3688130
+  steamSide:
+    - 4327990
 Mole:
   lutris: mole--4
   pageId: 216098

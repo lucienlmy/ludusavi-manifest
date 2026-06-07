@@ -23865,6 +23865,7 @@ Age of Empires IV:
       - 3067190
       - 3144890
       - 3746540
+      - 4336170
   installDir:
     Age of Empires IV: {}
   steam:
@@ -117793,17 +117794,17 @@ Carnal:
     id: 1586290
 Carnal Instinct:
   files:
-    "C:/Users/USERNAME/AppData/Local/Carnal_Instinct":
+    "<winLocalAppData>/Carnal_Instinct":
       tags:
         - save
       when:
         - os: windows
-    "C:/Users/USERNAME/AppData/Local/Carnal_Instinct_UE5/Saved/Config":
+    "<winLocalAppData>/Carnal_Instinct_UE5/Saved/Config":
       tags:
         - config
       when:
         - os: windows
-    "C:/Users/USERNAME/AppData/Local/Carnal_Instinct_UE5/Saved/SaveGames":
+    "<winLocalAppData>/Carnal_Instinct_UE5/Saved/SaveGames":
       tags:
         - save
       when:
@@ -206049,6 +206050,7 @@ Doom of the Clawn:
   id:
     lutris: doom-the-dark-ages
     steamExtra:
+      - 3469450
       - 3698350
   installDir:
     DOOMTheDarkAges: {}
@@ -457335,6 +457337,14 @@ Mold on Pizza:
             store: steam
   steam:
     id: 387870
+Moldwasher:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4327990
+  steam:
+    id: 3688130
 Mole:
   id:
     lutris: mole--4

@@ -625774,7 +625774,12 @@
     japanese: Faaast Penguin / ファーストペンギン
     schinese: 一鹅当先 / Faaast Penguin
     tchinese: 一鵝當先 / Faaast Penguin
-2590240: {}
+2590240:
+  nameLocalized:
+    japanese: メトロ2039
+    koreana: 메트로 2039
+    schinese: 地铁2039 
+    tchinese: 戰慄深隧2039
 2591010:
   installDir: Silent Depth 2 - Pacific
   launch:
@@ -629907,7 +629912,9 @@
   nameLocalized:
     schinese: 虚之少女
     tchinese: 虛之少女
-2713000: {}
+2713000:
+  nameLocalized:
+    schinese: 共鸣：瘟疫传说传承
 2714620:
   cloud:
     saves:
@@ -647587,6 +647594,10 @@
       type: option2
   nameLocalized:
     schinese: 裂隙防线 Repel The Rifts
+3688130:
+  nameLocalized:
+    japanese: モルドワッシャー
+    schinese: " 厨房清洁大师"
 3689520:
   cloud:
     saves:
