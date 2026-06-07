@@ -542382,7 +542382,7 @@
       executable: G1R-Win64-Test.exe
       type: option1
     - config:
-        betakey: "public, combat, agedwell, press, pressspecial, reviews, valve, loca"
+        betakey: "public, combat, press, pressspecial, reviews, valve, loca, publictesting"
         oslist: windows
       description: Gothic 1 Remake (Shipping)
       executable: G1R-Win64-Shipping.exe

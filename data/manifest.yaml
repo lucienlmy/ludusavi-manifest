@@ -306173,9 +306173,19 @@ Gothic 1 Remake:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/G1R/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/G1R/Saved/SaveGames/*.sav":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/G1R/Saved/SaveGames/EnhancedInputUserSettings.sav":
+      tags:
+        - config
       when:
         - os: windows
   gog:
@@ -306185,6 +306195,7 @@ Gothic 1 Remake:
       - 1913243335
     lutris: gothic-1-remake
     steamExtra:
+      - 2671240
       - 3448280
   installDir:
     Gothic 1 Remake: {}
@@ -529723,15 +529734,14 @@ Pinball with a Gun:
   steam:
     id: 3566120
 Pinchcliffe Grand Prix:
-  installDir:
-    Flåklypa Grand Prix: {}
-  launch:
-    "<base>/FGP_Project.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1668080
+  files:
+    "<base>/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: pinchcliffe-grand-prix
 Pine:
   cloud:
     epic: true

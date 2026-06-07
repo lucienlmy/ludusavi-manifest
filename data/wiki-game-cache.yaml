@@ -99019,8 +99019,10 @@ Gothic 1 Remake:
   pageId: 167207
   steam: 1297900
   steamSide:
+    - 2671240
     - 3448280
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\G1R\\Saved\\Config\\Windows\\GameUserSettings.ini|{{p|localappdata}}\\G1R\\Saved\\SaveGames\\EnhancedInputUserSettings.sav}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\G1R\\Saved\\SaveGames\\*.sav}}"
 Gothic 3:
   cloud:
@@ -172298,8 +172300,10 @@ Pinball with a Gun:
   steamSide:
     - 4397570
 Pinchcliffe Grand Prix:
+  lutris: pinchcliffe-grand-prix
   pageId: 176137
-  steam: 1668080
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\profiles}}"
 Pine:
   cloud:
     epic: true
