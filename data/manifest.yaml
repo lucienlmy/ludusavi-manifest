@@ -68109,6 +68109,9 @@ Barbie Horse Trails:
           - store: steam
   steam:
     id: 2786660
+Barbie Rewind:
+  steam:
+    id: 4082030
 Barbie Sparkling Ice Show:
   files:
     "<base>/Game.dat":
@@ -99970,6 +99973,7 @@ Brainy Joy:
     id: 732010
 "Bramble: The Mountain King":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Bramble_TMK/Saved/Config/WindowsNoEditor":
@@ -99988,9 +99992,17 @@ Brainy Joy:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1854721136
   id:
+    gogExtra:
+      - 1186616777
+      - 1566481816
+      - 1931101861
+    lutris: bramble-the-mountain-king
     steamExtra:
       - 2161880
+      - 2362250
       - 2362270
   installDir:
     Bramble The Mountain King: {}
@@ -111318,6 +111330,9 @@ Cabernet:
     Cabins Jigsaw Puzzles: {}
   steam:
     id: 884270
+Cable City:
+  steam:
+    id: 4658830
 Cactus Canyon:
   installDir:
     Cactus Canyon: {}
@@ -264629,6 +264644,10 @@ Final Fantasy VII (2020):
           store: microsoft
   gog:
     id: 1698970154
+  id:
+    steamExtra:
+      - 4270250
+      - 4425210
   installDir:
     FINAL FANTASY VII Steam Edition: {}
   launch:
@@ -303068,6 +303087,9 @@ Godzilla Voxel Wars:
         - config
   steam:
     id: 2439780
+"Godzilla: Destroy All Monsters Melee Remastered":
+  steam:
+    id: 4251460
 Goetia:
   cloud:
     gog: true
@@ -306642,6 +306664,11 @@ Graffiti Bombing:
     Graffiti-Bombing: {}
   steam:
     id: 561440
+Graft:
+  id:
+    lutris: graft
+  steam:
+    id: 3141390
 Grail to the Thief:
   installDir:
     Grail to the Thief: {}
@@ -366041,6 +366068,9 @@ Into the Core:
         workingDir: "<base>/into-the-dark"
   steam:
     id: 266050
+"Into the Dead: Crimson Heights":
+  steam:
+    id: 4638740
 "Into the Dead: Our Darkest Days":
   cloud:
     steam: true
@@ -464335,6 +464365,8 @@ Moss Destruction:
 "Moss: The Forgotten Relic":
   cloud:
     steam: true
+  id:
+    lutris: moss-the-forgotten-relic
   steam:
     id: 3914860
 Most Correct Football Simulator:
@@ -552267,6 +552299,16 @@ Punch Club:
     origin: true
     steam: true
   files:
+    "<home>/.config/unity3d/Lazy Bear Games/Punch Club":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Lazy Bear Games/Punch Club/settings.txt":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/Lazy Bear Games/Punch Club":
       tags:
         - save
@@ -635793,6 +635835,23 @@ Sky Noon:
             store: steam
   steam:
     id: 569530
+"Sky Oceans: Wings for Hire":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/OctetoStudios/Sky Oceans":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Sky Oceans Wings for Hire: {}
+  launch:
+    "<base>/Sky Oceans.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1691750
 Sky Pirates of Actorius:
   cloud:
     steam: true
@@ -666200,6 +666259,9 @@ Star Trek Timelines:
           - store: steam
   steam:
     id: 2653940
+"Star Trek: Shadow Frontier":
+  steam:
+    id: 4744030
 "Star Trek: Starfleet Academy":
   files:
     "<base>/options.cfg":
@@ -751564,6 +751626,8 @@ The Sinking City 2:
     id: 1653226562
   id:
     lutris: the-sinking-city-2
+    steamExtra:
+      - 4684710
   steam:
     id: 2825860
 The Sinking City Remastered:

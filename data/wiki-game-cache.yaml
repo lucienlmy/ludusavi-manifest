@@ -21808,6 +21808,9 @@ Barbie Horse Trails:
   steam: 2786660
 Barbie Pet Rescue:
   pageId: 170646
+Barbie Rewind:
+  pageId: 217413
+  steam: 4082030
 Barbie Sparkling Ice Show:
   pageId: 197324
   templates:
@@ -32315,12 +32318,20 @@ Brainy Joy:
   pageId: 176872
 "Bramble: The Mountain King":
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1854721136
+  gogSide:
+    - 1186616777
+    - 1566481816
+    - 1931101861
+  lutris: bramble-the-mountain-king
   pageId: 182676
   steam: 1623940
   steamSide:
     - 2161880
+    - 2362250
     - 2362270
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Bramble_TMK\\Saved\\Config\\WindowsNoEditor\\}}"
@@ -35917,6 +35928,9 @@ Cabernet:
 "Cabins: Jigsaw Puzzles":
   pageId: 99436
   steam: 884270
+Cable City:
+  pageId: 217418
+  steam: 4658830
 Cactus Canyon:
   pageId: 87209
   steam: 807280
@@ -75524,8 +75538,8 @@ Empire of the Ants:
   pageId: 24719
   steam: 2996780
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\ini\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Savegame\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Savegame}}"
 Empire of the Ants (2024):
   cloud:
     epic: true
@@ -85772,6 +85786,9 @@ Final Fantasy VII (2020):
     - Final Fantasy VII (2020)
     - Final Fantasy VII (2026)
   steam: 3837340
+  steamSide:
+    - 4270250
+    - 4425210
   templates:
     - "{{Game data/config|GOG.com|{{p|localappdata}}\\FINAL FANTASY VII GOG Edition\\config.txt}}"
     - "{{Game data/config|Steam|{{p|localappdata}}\\FINAL FANTASY VII Steam Edition\\config.txt}}"
@@ -97948,6 +97965,9 @@ Godzilla Voxel Wars:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\nukenin\\voxelgodzilla\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\nukenin\\voxelgodzilla\\*.sav}}"
+"Godzilla: Destroy All Monsters Melee Remastered":
+  pageId: 217406
+  steam: 4251460
 Goetia:
   cloud:
     gog: true
@@ -99166,6 +99186,10 @@ Graffiti Bombing:
   steam: 561440
   steamSide:
     - 1004680
+Graft:
+  lutris: graft
+  pageId: 217415
+  steam: 3141390
 Grail to the Thief:
   pageId: 47791
   steam: 373140
@@ -118394,6 +118418,9 @@ Into the Core:
   steam: 266050
 Into the Dead:
   pageId: 178663
+"Into the Dead: Crimson Heights":
+  pageId: 217410
+  steam: 4638740
 "Into the Dead: Our Darkest Days":
   cloud:
     steam: true
@@ -150714,6 +150741,7 @@ Moss Destruction:
 "Moss: The Forgotten Relic":
   cloud:
     steam: true
+  lutris: moss-the-forgotten-relic
   pageId: 216614
   steam: 3914860
 Most Correct Football Simulator:
@@ -179422,7 +179450,9 @@ Punch Club:
     - 431490
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Punch Club\\settings.txt|{{P|hkcu}}\\Software\\Lazy Bear Games\\Punch Club\\}}"
+    - "{{Game data/config|Linux|~/.config/unity3d/Lazy Bear Games/Punch Club/settings.txt}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Punch Club\\}}"
+    - "{{Game data/saves|Linux|~/.config/unity3d/Lazy Bear Games/Punch Club/}}"
 "Punch Club 2: Fast Forward":
   cloud:
     steam: true
@@ -206519,6 +206549,13 @@ Sky Nations:
 Sky Noon:
   pageId: 57713
   steam: 569530
+"Sky Oceans: Wings for Hire":
+  cloud:
+    steam: true
+  pageId: 217405
+  steam: 1691750
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OctetoStudios\\Sky Oceans\\}}"
 Sky Pirates of Actorius:
   cloud:
     steam: true
@@ -216215,6 +216252,9 @@ Star Trek Timelines:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\StarTrekGame\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\StarTrekGame\\Saved\\SaveGames\\}}"
+"Star Trek: Shadow Frontier":
+  pageId: 217420
+  steam: 4744030
 "Star Trek: Starfleet Academy":
   gog: 1429170550
   lutris: star-trektm-starfleet-academy
@@ -243797,6 +243837,8 @@ The Sinking City 2:
   lutris: the-sinking-city-2
   pageId: 193625
   steam: 2825860
+  steamSide:
+    - 4684710
 The Sinking City Remastered:
   cloud:
     epic: true

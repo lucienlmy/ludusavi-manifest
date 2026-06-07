@@ -576817,6 +576817,57 @@
   installDir: Steel Hunters Public Test
   launch:
     - executable: wgcs_api.exe
+1691750:
+  cloud:
+    saves:
+      - path: "OctetoStudios\\Sky Oceans"
+        pattern: SLOT_1
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: ".config/unity3d/.config/unity3d/OctetoStudios/Sky Oceans"
+        pattern: SLOT_1
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+      - path: "OctetoStudios\\Sky Oceans"
+        pattern: SLOT_2
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "OctetoStudios\\Sky Oceans"
+        pattern: SLOT_3
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "OctetoStudios\\Sky Oceans"
+        pattern: AUTO
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: ".config/unity3d/.config/unity3d/OctetoStudios/Sky Oceans"
+        pattern: SLOT_1
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+      - path: ".config/unity3d/.config/unity3d/OctetoStudios/Sky Oceans"
+        pattern: SLOT_2
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+      - path: "OctetoStudios\\Sky Oceans"
+        pattern: SLOT_3
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+      - path: "OctetoStudios\\Sky Oceans"
+        pattern: AUTO
+        platforms:
+          - Linux
+        root: LinuxXdgConfigHome
+  installDir: Sky Oceans Wings for Hire
+  launch:
+    - executable: Sky Oceans.exe
 1691970:
   cloud:
     saves:
@@ -639224,6 +639275,7 @@
       executable: BillyBlade.exe
       type: default
 3139440: {}
+3141390: {}
 3143710:
   cloud:
     saves:
@@ -650061,6 +650113,7 @@
     koreana: "스타워즈: 은하계 레이서™"
     schinese: 星球大战：银河赛车手™
     tchinese: 星際大戰：銀河賽車手™
+4082030: {}
 4084710: {}
 4090420:
   cloud:
@@ -650583,6 +650636,7 @@
     - executable: 4249150_Launcher.exe
   nameLocalized:
     japanese: ブレス オブ ファイアIV うつろわざるもの
+4251460: {}
 4253970:
   installDir: Napoleon 1813
   launch:
@@ -651161,6 +651215,8 @@
     japanese: 絨毯を洗うゲーム
     schinese: Carpet Cleaning Simulator
 4637870: {}
+4638740: {}
+4658830: {}
 4665290:
   nameLocalized:
     japanese: "エイリアン : 最後の生存者"
@@ -651202,6 +651258,7 @@
     koreana: 포춘 밀
     schinese: 财富磨坊
 4743930: {}
+4744030: {}
 4767480: {}
 4824610:
   nameLocalized:
