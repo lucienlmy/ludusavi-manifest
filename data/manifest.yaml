@@ -219509,6 +219509,7 @@ Dungeon Siege:
 Dungeon Siege II:
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/My Games/Dungeon Siege 2 Broken World/DungeonSiege2BrokenWorld.ini":
       tags:
@@ -528090,6 +528091,30 @@ Pico Park:
             store: steam
   steam:
     id: 1509960
+Pico Park 2:
+  files:
+    "<home>/AppData/LocalLow/TECOPARK/PICO PARK 2/Steam/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/TECOPARK/PICO PARK 2/Steam/<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    PICO PARK 2: {}
+  launch:
+    "<base>/pico_park_2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/pico_park_2.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 2644470
 "Pico Park: Classic Edition":
   installDir:
     PICO_PARK: {}
@@ -648210,6 +648235,9 @@ Sonic P-06:
         - config
       when:
         - os: windows
+Sonic Pico Park:
+  steam:
+    id: 4304060
 Sonic Project Hero:
   files:
     "<base>/Sonic - Project Hero_Data/hero_settings.bin":
@@ -693104,6 +693132,7 @@ Supreme Casino City:
 Supreme Commander:
   cloud:
     gog: true
+    steam: true
   files:
     "<winLocalAppData>/Gas Powered Games/SupremeCommander/Game.prefs":
       tags:
@@ -693176,6 +693205,7 @@ Supreme Commander 2:
 "Supreme Commander: Forged Alliance":
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/My Games/Gas Powered Games/Supreme Commander Forged Alliance/savegames":
       tags:
@@ -748267,6 +748297,13 @@ The Road Trip:
             store: steam
   steam:
     id: 856320
+The Road of Dust and Sorrow:
+  id:
+    lutris: the-road-of-dust-and-sorrow
+    steamExtra:
+      - 4550910
+  steam:
+    id: 3895110
 The Road to Canterbury:
   cloud:
     steam: true

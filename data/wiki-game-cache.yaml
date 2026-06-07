@@ -70622,6 +70622,7 @@ Dungeon Siege:
 Dungeon Siege II:
   cloud:
     gog: true
+    steam: true
   gog: 1142020247
   gogSide:
     - 1837106902
@@ -171751,6 +171752,9 @@ Pico Park:
   renamedFrom:
     - PICO PARK
   steam: 1509960
+Pico Park 2:
+  pageId: 217429
+  steam: 2644470
 "Pico Park: Classic Edition":
   pageId: 43360
   renamedFrom:
@@ -210343,6 +210347,9 @@ Sonic P-06:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Sonic the Hedgehog_Data\\Settings.bin}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles}}"
+Sonic Pico Park:
+  pageId: 217431
+  steam: 4304060
 Sonic Project Hero:
   pageId: 207897
   templates:
@@ -224809,6 +224816,7 @@ Supreme Casino City:
 Supreme Commander:
   cloud:
     gog: true
+    steam: true
   gog: 1448050501
   gogSide:
     - 1158031056
@@ -224844,6 +224852,7 @@ Supreme Commander 2:
 "Supreme Commander: Forged Alliance":
   cloud:
     gog: true
+    steam: true
   gog: 1448050501
   gogSide:
     - 1444785261
@@ -242719,6 +242728,14 @@ The Rivers of Alice - Extended Version:
 The Road Trip:
   pageId: 93974
   steam: 856320
+The Road of Dust and Sorrow:
+  cloud:
+    xbox: true
+  lutris: the-road-of-dust-and-sorrow
+  pageId: 217426
+  steam: 3895110
+  steamSide:
+    - 4550910
 The Road to Canterbury:
   cloud:
     steam: true

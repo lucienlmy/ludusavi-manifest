@@ -4096,6 +4096,12 @@
   launch:
     - executable: RelicCOH.exe
 9350:
+  cloud:
+    saves:
+      - path: "Gas Powered Games\\SupremeCommander\\savegames"
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocal
   installDir: Supreme Commander
   launch:
     - executable: "bin\\SupremeCommander.exe"
@@ -4104,6 +4110,12 @@
   launch:
     - executable: j2launcher.exe
 9420:
+  cloud:
+    saves:
+      - path: "My Games\\Gas Powered Games\\Supreme Commander Forged Alliance\\savegames"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Supreme Commander Forged Alliance
   launch:
     - executable: "bin\\SupremeCommander.exe"
@@ -9562,6 +9574,12 @@
   launch:
     - executable: DungeonSiege.exe
 39200:
+  cloud:
+    saves:
+      - path: "My Games\\Dungeon Siege 2\\Save"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Dungeon Siege 2
   launch:
     - arguments: fullscreen=false
@@ -627405,6 +627423,29 @@
     koreana: 왕의무덤
     schinese: 国王之墓
     tchinese: 王陵崛起
+2644470:
+  cloud:
+    saves:
+      - path: "TECOPARK/PICO PARK 2/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: PICO PARK 2
+  launch:
+    - config:
+        oslist: windows
+      executable: pico_park_2.exe
+    - config:
+        oslist: linux
+      executable: pico_park_2.exe
+    - config:
+        oslist: macos
+      executable: pico_park_2.app
 2645580:
   cloud:
     saves:
@@ -649158,6 +649199,7 @@
     - config:
         oslist: linux
       executable: KeineExpandingClass.x86_64
+3895110: {}
 3895130: {}
 3895170:
   installDir: Intuitive Level Design
@@ -650810,6 +650852,7 @@
     english: "A Whisper of Fall: Jinyiwei"
     schinese: 一盏秋声：锦衣卫
     tchinese: 一盞秋聲：錦衣衛
+4304060: {}
 4304930:
   cloud:
     saves:
