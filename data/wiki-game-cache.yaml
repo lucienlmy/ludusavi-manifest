@@ -966,14 +966,17 @@ $1 Ride:
   pageId: 77132
   steam: 757950
 20 Minutes till Dawn:
-  cloud:
-    steam: true
+  lutris: 20-minutes-till-dawn
   pageId: 189658
   renamedFrom:
     - 20 Minutes Till Dawn
   steam: 1966900
+  steamSide:
+    - 1980790
   templates:
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.Flanne.MinutesTillDawn.plist}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Flanne\\MinutesTillDawn\\*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.Flanne.MinutesTillDawn/gamedata.json}}"
 20 Small Mazes:
   cloud:
     steam: true
@@ -30044,7 +30047,8 @@ Bloons TD 6:
     - 4096360
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Ninja Kiwi\\BloonsTD6}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{p|uid}}\\960090}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.ninjakiwi.bloonstd6.plist}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\960090}}"
 Bloons TD Battles:
   pageId: 43494
   steam: 444640
@@ -214221,10 +214225,14 @@ Spindle:
   gog: 1250926668
   gogSide:
     - 1604506899
+  lutris: spindle
   pageId: 170069
   steam: 1386750
   steamSide:
     - 1698620
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Spindle}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Spindle}}"
 Spine:
   cloud:
     steam: true
@@ -244962,6 +244970,7 @@ The Thing With Mistletoes:
     gog: true
     steam: true
   gog: 1695904593
+  lutris: the-thing-remastered
   pageId: 195511
   steam: 2958970
   templates:
@@ -247182,6 +247191,7 @@ Thief Town:
   cloud:
     steam: true
   gog: 1477689565
+  lutris: thief-the-dark-project-remastered
   pageId: 217454
   steam: 4200960
 Thievery:
@@ -266561,8 +266571,17 @@ Wandersong:
   cloud:
     gog: true
   gog: 1720779330
+  gogSide:
+    - 1534770795
+    - 1546202846
+    - 1567917125
+  lutris: wandersong
   pageId: 70389
   steam: 530320
+  steamSide:
+    - 949640
+    - 949641
+    - 949642
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\wandersong\\}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/com.greglobanov.wandersong/}}"

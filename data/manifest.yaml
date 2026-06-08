@@ -3127,14 +3127,26 @@ $1 Ride:
   steam:
     id: 757950
 20 Minutes till Dawn:
-  cloud:
-    steam: true
   files:
     "<home>/AppData/LocalLow/Flanne/MinutesTillDawn/*.json":
       tags:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/com.Flanne.MinutesTillDawn/gamedata.json":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/com.Flanne.MinutesTillDawn.plist":
+      tags:
+        - config
+      when:
+        - os: mac
+  id:
+    lutris: 20-minutes-till-dawn
+    steamExtra:
+      - 1980790
   installDir:
     20MinuteTillDawn: {}
   launch:
@@ -92722,12 +92734,16 @@ Bloons TD 5:
     id: 306020
 Bloons TD 6:
   files:
+    "<home>/Library/Preferences/com.ninjakiwi.bloonstd6.plist":
+      tags:
+        - config
+      when:
+        - os: mac
     "<root>/userdata/<storeUserId>/960090":
       tags:
         - save
       when:
-        - os: windows
-          store: steam
+        - store: steam
   id:
     lutris: bloons-td-6
     steamExtra:
@@ -659820,26 +659836,18 @@ Spindle:
     gog: true
     steam: true
   files:
-    "<base>/app_userdata/Spindle/**/*.json":
-      when:
-        - store: steam
-    "<home>/.local/share/godot/app_userdata/Spindle/**/*.json":
-      when:
-        - os: linux
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Spindle/**/*.json":
-      when:
-        - os: mac
-          store: steam
-    "<winAppData>/Godot/app_userdata/Spindle/**/*.json":
+    "<winAppData>/Godot/app_userdata/Spindle":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   gog:
     id: 1250926668
   id:
     gogExtra:
       - 1604506899
+    lutris: spindle
     steamExtra:
       - 1698620
   installDir:
@@ -754800,6 +754808,8 @@ The Thing With Mistletoes:
         - os: windows
   gog:
     id: 1695904593
+  id:
+    lutris: the-thing-remastered
   installDir:
     The Thing Remastered: {}
   launch:
@@ -761416,6 +761426,8 @@ Thief Town:
     steam: true
   gog:
     id: 1477689565
+  id:
+    lutris: thief-the-dark-project-remastered
   steam:
     id: 4200960
 Thievery:
@@ -817969,6 +817981,16 @@ Wandersong:
         - os: windows
   gog:
     id: 1720779330
+  id:
+    gogExtra:
+      - 1534770795
+      - 1546202846
+      - 1567917125
+    lutris: wandersong
+    steamExtra:
+      - 949640
+      - 949641
+      - 949642
   installDir:
     Wandersong: {}
   launch:
