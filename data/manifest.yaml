@@ -146344,6 +146344,9 @@ Company of Heroes 3:
             store: steam
   steam:
     id: 1677280
+"Company of Heroes: Definitive Edition":
+  steam:
+    id: 4691270
 "Company of Heroes: Eastern Front":
   installDir:
     Company of Heroes Relaunch: {}
@@ -155747,6 +155750,9 @@ Crazy Taxi (Steam):
         - save
       when:
         - os: windows
+"Crazy Taxi: World Tour":
+  steam:
+    id: 2924540
 Crazy Toad:
   installDir:
     Crazy Toad: {}
@@ -156839,6 +156845,21 @@ Creepy Tale 2:
   id:
     steamExtra:
       - 3542280
+  installDir:
+    CreepyTaleSnowChild: {}
+  launch:
+    "<base>/CreepyTale5.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CreepyTale5.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/CreepyTale5.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3529690
 "Creepy Tale: Some Other Place":
@@ -210843,6 +210864,26 @@ DragonStrike:
           - store: steam
   steam:
     id: 2350520
+"DragonSword : Awakening":
+  cloud:
+    steam: true
+  files:
+    "<base>/DS/Saved/Config/WindowsClient":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/DS/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4575730
+  steam:
+    id: 4570720
 DragonWingsVR:
   cloud:
     steam: true
@@ -616794,6 +616835,11 @@ Sentry Knight Tactics:
             store: steam
   steam:
     id: 503210
+Senua:
+  cloud:
+    steam: true
+  steam:
+    id: 3676410
 "Senua's Saga: Hellblade II":
   cloud:
     steam: true
@@ -662884,6 +662930,8 @@ Spyro Reignited Trilogy:
         - save
       when:
         - os: windows
+  id:
+    lutris: spyrotm-reignited-trilogy
   installDir:
     Spyro Reignited Trilogy: {}
   launch:
@@ -662892,6 +662940,9 @@ Spyro Reignited Trilogy:
           - store: steam
   steam:
     id: 996580
+"Spyro: A Realm Beyond":
+  steam:
+    id: 4245560
 Squad:
   cloud:
     steam: true
@@ -680811,6 +680862,9 @@ Stronghold 3:
             store: steam
   steam:
     id: 47400
+Stronghold 4:
+  steam:
+    id: 2153760
 Stronghold Crusader:
   cloud:
     gog: true
@@ -761340,6 +761394,13 @@ Thief Town:
           - store: steam
   steam:
     id: 211600
+"Thief: The Dark Project Remastered":
+  cloud:
+    steam: true
+  gog:
+    id: 1477689565
+  steam:
+    id: 4200960
 Thievery:
   installDir:
     Thievery: {}
@@ -805831,6 +805892,9 @@ Vampire of the Sands:
         - config
   steam:
     id: 1096410
+"Vampire: The Masquerade - Eternal Whispers":
+  steam:
+    id: 4102480
 "Vampire: The Masquerade - Justice":
   id:
     lutris: vampire-the-masquerade-justice
@@ -811929,6 +811993,9 @@ Virtually Real Life:
             store: steam
   steam:
     id: 1209610
+Virtue and a Sledgehammer:
+  steam:
+    id: 3743260
 Virtuelle Moorhuhn Jagd:
   files:
     "<base>/Moorhuhn.sav":
@@ -820549,21 +820616,16 @@ Warhalla:
     epic: true
     steam: true
   files:
-    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector/*.txt":
+    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector/Campaigns":
+        - os: windows
+    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector/Saves":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector/Maps":
-      when:
-        - store: steam
-    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector/Saves/*.bssave":
-      when:
-        - store: steam
-    "<winDocuments>/Black Lab Games/Warhammer 40,000 Battlesector/Skirmish":
-      when:
-        - store: steam
+        - os: windows
   gog:
     id: 1928462226
   id:
@@ -837827,6 +837889,9 @@ WizzBall:
     WizzBall: {}
   steam:
     id: 629780
+"Wo Long 2: Wings of Ember":
+  steam:
+    id: 4507990
 "Wo Long: Fallen Dynasty":
   cloud:
     steam: true

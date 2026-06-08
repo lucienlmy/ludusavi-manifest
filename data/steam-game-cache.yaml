@@ -606769,6 +606769,11 @@
     koreana: "브라더스: 두 아들 이야기 리메이크 (Brothers: A Tale of Two Sons Remake)"
     schinese: "兄弟：双子传说 重制版（Brothers: A Tale of Two Sons Remake）"
     tchinese: "《兄弟：雙子傳說》重製版（Brothers: A Tale of Two Sons Remake）"
+2153760:
+  nameLocalized:
+    koreana: Stronghold 4 스트롱홀드 4
+    schinese: Stronghold 4 要塞4
+    tchinese: Stronghold 4 要塞4
 2154070:
   cloud:
     saves:
@@ -634833,6 +634838,12 @@
     schinese: 超级浣熊羊
     tchinese: 超級浣熊羊
 2924520: {}
+2924540:
+  nameLocalized:
+    japanese: クレイジータクシー：ワールドツアー
+    koreana: "크레이지 택시: 월드 투어"
+    schinese: 疯狂出租车：极速环游
+    tchinese: 瘋狂計程車：極速環遊
 2926110:
   installDir: Vay
   launch:
@@ -645445,6 +645456,20 @@
       executable: Rudolph The Red Nosed Reindeer.exe
       type: default
 3529690:
+  installDir: CreepyTaleSnowChild
+  launch:
+    - config:
+        oslist: windows
+      executable: CreepyTale5.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: CreepyTale5.app
+      type: default
+    - config:
+        oslist: linux
+      executable: CreepyTale5.x86_64
+      type: default
   nameLocalized:
     schinese: 惊悚故事：雪孩子
 3531260:
@@ -647468,6 +647493,7 @@
       type: default
 3674590: {}
 3674680: {}
+3676410: {}
 3677050: {}
 3678970:
   cloud:
@@ -648071,6 +648097,7 @@
     - config:
         oslist: macos
       executable: ASM_steam.app
+3743260: {}
 3743670: {}
 3743790:
   installDir: Thomas & Friends™ Wonders of Sodor
@@ -650252,6 +650279,7 @@
 4095380: {}
 4096880: {}
 4097180: {}
+4102480: {}
 4105240:
   cloud:
     saves:
@@ -650554,6 +650582,7 @@
     - config:
         oslist: macos
       executable: Reclaim! Azhe-Giiwewining.app
+4200960: {}
 4202710: {}
 4208140: {}
 4209010:
@@ -650650,6 +650679,30 @@
     schinese: 掘地求狗
 4244770: {}
 4244910: {}
+4245560:
+  nameLocalized:
+    arabic: "Spyro™: A Realm Beyond"
+    brazilian: "Spyro™: A Realm Beyond"
+    danish: "Spyro™: A Realm Beyond"
+    dutch: "Spyro™: A Realm Beyond"
+    finnish: "Spyro™: A Realm Beyond"
+    french: "Spyro™: A Realm Beyond"
+    german: "Spyro™: A Realm Beyond"
+    italian: "Spyro™: A Realm Beyond"
+    japanese: "Spyro™: A Realm Beyond"
+    koreana: "Spyro™: A Realm Beyond"
+    latam: "Spyro™: A Realm Beyond"
+    norwegian: "Spyro™: A Realm Beyond"
+    polish: "Spyro™: A Realm Beyond"
+    portuguese: "Spyro™: A Realm Beyond"
+    russian: "Spyro™: A Realm Beyond"
+    schinese: 小龙斯派罗™：天外国度
+    spanish: "Spyro™: A Realm Beyond"
+    swedish: "Spyro™: A Realm Beyond"
+    tchinese: "Spyro™: A Realm Beyond"
+    thai: "Spyro™: A Realm Beyond"
+    turkish: "Spyro™: A Realm Beyond"
+    ukrainian: "Spyro™: A Realm Beyond"
 4249100:
   installDir: 4249100_Biohazard
   launch:
@@ -651236,6 +651289,10 @@
   installDir: The 7th Guest Remake
   launch:
     - executable: The7thGuestVR.exe
+4507990:
+  nameLocalized:
+    schinese: "Wo Long 2: Wings of Ember（卧龙2：凤火连天）"
+    tchinese: "Wo Long 2: Wings of Ember（臥龍2：鳳火連天） "
 4508340: {}
 4514070: {}
 4514310: {}
@@ -651258,6 +651315,12 @@
       executable: BouncingBall.exe
       type: default
 4566700: {}
+4570720:
+  nameLocalized:
+    japanese: "ドラゴンソード:アウェイクニング"
+    koreana: "드래곤소드 : 어웨이크닝"
+    schinese: "龙之剑:觉醒"
+    tchinese: "龍之劍:覺醒"
 4573410: {}
 4581370: {}
 4603230: {}
@@ -651287,6 +651350,7 @@
 4687500:
   nameLocalized:
     schinese: 穿越火线：潜伏
+4691270: {}
 4716160: {}
 4729320:
   nameLocalized:
