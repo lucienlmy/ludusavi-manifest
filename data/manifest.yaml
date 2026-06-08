@@ -39334,6 +39334,9 @@ Angvik:
             store: steam
   steam:
     id: 278890
+"Anhedonia: Sanctuary of Ash":
+  steam:
+    id: 4202540
 "Anicon - Animal Complex - Cat's Path":
   installDir:
     "Anicon - Animal Complex - Cat's Path": {}
@@ -116624,6 +116627,9 @@ Caravanserail:
 Carbon Steel:
   id:
     lutris: carbon-steel
+Carcass Clad:
+  steam:
+    id: 3327430
 Carcassonne:
   files:
     "<home>/AppData/LocalLow/Asmodee/Carcassonne/Default":
@@ -439071,6 +439077,11 @@ Maximum Override:
           - store: steam
   steam:
     id: 389220
+Maximum Thunderness:
+  cloud:
+    steam: true
+  steam:
+    id: 1037170
 May:
   installDir:
     May: {}
@@ -606638,17 +606649,7 @@ Sanctus Mortem:
   steam:
     id: 858490
 Sand:
-  files:
-    "<home>/AppData/LocalLow/Hologryph/Sand":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    steamExtra:
-      - 2981610
-  steam:
-    id: 1431300
+  alias: "Sand: Raiders of Sophie"
 Sand Is the Soul:
   steam:
     id: 716780
@@ -606687,6 +606688,19 @@ Sand Land:
           - store: steam
   steam:
     id: 1979440
+"Sand: Raiders of Sophie":
+  files:
+    "<home>/AppData/LocalLow/Hologryph/Sand":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: sand-raiders-of-sophie
+    steamExtra:
+      - 2981610
+  steam:
+    id: 1431300
 "Sand:box":
   files:
     "<base>/saves":
@@ -664027,6 +664041,9 @@ Stage Presence:
             store: steam
   steam:
     id: 391640
+Stage Tour:
+  steam:
+    id: 4452700
 Stage of Light:
   installDir:
     Stage of Light: {}
@@ -805613,6 +805630,7 @@ Vampire Survivors:
       - 3210350
       - 3451100
       - 3929770
+      - 4781330
   installDir:
     Vampire Survivors: {}
   launch:

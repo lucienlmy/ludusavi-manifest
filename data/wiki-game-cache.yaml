@@ -12579,6 +12579,9 @@ Angus Hates Aliens:
 Angvik:
   pageId: 50630
   steam: 278890
+"Anhedonia: Sanctuary of Ash":
+  pageId: 217481
+  steam: 4202540
 "Anicon - Animal Complex - Cat's Path":
   pageId: 41890
   steam: 502120
@@ -37633,6 +37636,9 @@ Caravanserail:
 Carbon Steel:
   lutris: carbon-steel
   pageId: 210834
+Carcass Clad:
+  pageId: 217490
+  steam: 3327430
 Carcassonne:
   gog: 1340672747
   gogSide:
@@ -142276,6 +142282,11 @@ Maximum Override:
   steam: 389220
 Maximum Roadkill:
   pageId: 214955
+Maximum Thunderness:
+  cloud:
+    steam: true
+  pageId: 217496
+  steam: 1037170
 Maxx Trucks:
   pageId: 88353
 May:
@@ -170891,6 +170902,10 @@ Persona 5 Tactica:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\SEGA\\p5x_en}}"
     - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\SEGA\\p5x_en}}"
+Persona 6:
+  cloud:
+    xbox: true
+  pageId: 217494
 Personal Disco VR:
   pageId: 60734
   steam: 618350
@@ -197156,13 +197171,6 @@ Sanctum Breach:
 Sanctus Mortem:
   pageId: 95272
   steam: 858490
-Sand:
-  pageId: 209356
-  steam: 1431300
-  steamSide:
-    - 2981610
-  templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Hologryph\\Sand\\}}"
 Sand Is the Soul:
   pageId: 78514
   steam: 716780
@@ -197176,6 +197184,16 @@ Sand Land:
     - "{{Game data/config|Windows|{{p|localappdata}}\\SANDLAND\\Saved\\Config\\WindowsNoEditor\\*.ini}}"
     - "{{Game data/config|Steam|{{p|localappdata}}\\SANDLAND\\Saved\\SaveGames\\{{p|uid}}\\System.sav}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\SANDLAND\\Saved\\SaveGames\\{{p|uid}}\\SaveData*.sav}}"
+"Sand: Raiders of Sophie":
+  lutris: sand-raiders-of-sophie
+  pageId: 209356
+  renamedFrom:
+    - Sand
+  steam: 1431300
+  steamSide:
+    - 2981610
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Hologryph\\Sand\\}}"
 "Sand:box":
   pageId: 192872
   steam: 2179380
@@ -215501,6 +215519,9 @@ Stage Presence:
     steam: true
   pageId: 55063
   steam: 391640
+Stage Tour:
+  pageId: 217477
+  steam: 4452700
 Stage of Light:
   pageId: 130275
   steam: 1007240
@@ -262503,6 +262524,7 @@ Vampire Survivors:
     - 3210350
     - 3451100
     - 3929770
+    - 4781330
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\poncle\\Vampire Survivors}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Vampire_Survivors\\saves}}"

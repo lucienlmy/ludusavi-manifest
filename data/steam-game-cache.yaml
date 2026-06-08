@@ -450877,6 +450877,7 @@
         oslist: windows
       executable: Zakk Hazard.exe
       type: none
+1037170: {}
 1037190:
   installDir: Shipped
   launch:
@@ -642696,6 +642697,7 @@
     english: Sofia in Exchange for Lies
     schinese: 苏菲亚的谎言与代价
 3327120: {}
+3327430: {}
 3328180:
   installDir: Snoopy and The Great Mystery Club
   launch:
@@ -650583,6 +650585,7 @@
         oslist: macos
       executable: Reclaim! Azhe-Giiwewining.app
 4200960: {}
+4202540: {}
 4202710: {}
 4208140: {}
 4209010:
@@ -651230,6 +651233,7 @@
     ukrainian: "Call of Duty®: Modern Warfare® 4"
 4436520: {}
 4444610: {}
+4452700: {}
 4459850:
   nameLocalized:
     english: NAMCO LEGENDARY Mountains
