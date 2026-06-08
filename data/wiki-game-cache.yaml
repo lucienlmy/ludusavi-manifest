@@ -24133,6 +24133,7 @@ Beast Quest:
   pageId: 80068
 Beast of Reincarnation:
   cloud:
+    steam: true
     xbox: true
   lutris: beast-of-reincarnation
   pageId: 205825
@@ -36590,6 +36591,7 @@ Call of the Elder Gods:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\COTEG\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\COTEG\\Saved\\SaveGames\\AppData.sav}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Kwalee.CalloftheElderGods_bm08s5vda6r86\\SystemAppData\\wgs}}"
 Call of the Mighty Warriors:
   cloud:
     steam: true
@@ -38458,6 +38460,11 @@ Cassette Beasts:
     - "{{Game data/saves|Windows|{{p|appdata}}\\CassetteBeasts}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\RawFury.CassetteBeasts_9s0pnehqffj7t\\SystemAppData\\wgs\\{{P|uid}}}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/CassetteBeasts}}"
+Cassette Beasts 2002:
+  cloud:
+    steam: true
+  pageId: 217527
+  steam: 3802140
 Cassiodora:
   cloud:
     steam: true
@@ -139297,6 +139304,12 @@ Magicians Legacy:
     steam: true
   pageId: 151153
   steam: 1173170
+"Magicians: The Devil's Deal":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 217511
+  steam: 3299300
 Magicite:
   pageId: 21269
   steam: 268750
@@ -199061,6 +199074,11 @@ Sea of Stars:
   cloud:
     steam: true
     xbox: true
+  gog: 1254594850
+  gogSide:
+    - 1124662664
+    - 1628144748
+    - 1924927409
   pageId: 179423
   steam: 1244090
   steamSide:
@@ -204980,6 +204998,10 @@ Silent Hunter III:
 Silent Night:
   pageId: 113526
   steam: 893670
+Silent Night - A Christmas Delivery:
+  lutris: silent-night-a-christmas-delivery
+  pageId: 217523
+  steam: 1630740
 Silent Road:
   lutris: silent-road
   pageId: 216504
@@ -207469,6 +207491,12 @@ Slice&Dice (VR):
 "Slice, Dice & Rice":
   pageId: 58698
   steam: 598450
+Slide - Animal Race:
+  lutris: slide-animal-race
+  pageId: 217525
+  steam: 1345280
+  steamSide:
+    - 1630150
 Slide Furry Futanari:
   cloud:
     steam: true
@@ -278278,6 +278306,17 @@ Zefira:
   lutris: Zefira
   pageId: 139606
   steam: 1078380
+"Zefyr: A Thief's Melody":
+  cloud:
+    steam: true
+  lutris: zefyr-a-thiefs-melody
+  pageId: 217516
+  steam: 1344990
+  steamSide:
+    - 3687840
+    - 3688940
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Oneiric Worlds\\Zefyr}}"
 Zeitgeist:
   lutris: jupiter-strike
   pageId: 195913

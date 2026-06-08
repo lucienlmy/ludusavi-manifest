@@ -415708,7 +415708,10 @@
         oslist: windows
       executable: TopDown.exe
       type: none
-958520: {}
+958520:
+  nameLocalized:
+    schinese: 33不朽灵魂
+    tchinese: 33不朽灵魂
 958560: {}
 958640:
   installDir: Super Turbo Sudoku
@@ -547361,6 +547364,40 @@
         oslist: linux
       executable: AkerFern.sh
       type: none
+1344990:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.sav"
+        root: gameinstall
+      - path: ""
+        pattern: "*.back"
+        root: gameinstall
+  installDir: "A Thief's Melody"
+  launch:
+    - config:
+        oslist: windows
+      executable: zefyr.exe
+      type: default
+  nameLocalized:
+    schinese: 如风：盗贼之歌
+1345280:
+  installDir: Slide
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: slide.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: slide.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: slide
+      type: default
 1345440:
   installDir: Toy Tanks
   launch:
@@ -572084,6 +572121,11 @@
   installDir: Slime Girl Smoothies
   launch:
     - executable: SlimegirlMixer.exe
+1630740:
+  installDir: Silent Night - A Christmas Delivery
+  launch:
+    - executable: silentNight.exe
+      type: default
 1630960:
   cloud:
     saves:
@@ -584542,6 +584584,18 @@
       executable: DarkCity_Paris_CE.exe
       type: default
 1805110:
+  cloud:
+    saves:
+      - path: "Solarpunk\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Solarpunk
+  launch:
+    - executable: Solarpunk.exe
+      type: default
   nameLocalized:
     japanese: Solarpunk ソーラーパンク：天空の島
     schinese: 太阳朋克：浮岛家园
@@ -642166,6 +642220,7 @@
     schinese: 天之少女
     tchinese: 天之少女
 3296990: {}
+3299300: {}
 3299820: {}
 3299920: {}
 3300410:
@@ -643892,7 +643947,13 @@
         oslist: windows
       executable: UIUniverse.exe
       type: default
-3402720: {}
+3402720:
+  installDir: Clean Up Earth
+  launch:
+    - config:
+        oslist: windows
+      executable: Clean Up Earth.exe
+      type: default
 3403540: {}
 3404260:
   cloud:
@@ -648584,6 +648645,7 @@
   nameLocalized:
     japanese: 桜御前
     schinese: 樱御前
+3802140: {}
 3802620: {}
 3802770: {}
 3805420:
@@ -650280,7 +650342,34 @@
     tchinese: 雷射超人：30 週年紀念版
 4095380: {}
 4096880: {}
-4097180: {}
+4097180:
+  cloud:
+    saves:
+      - path: game/saves/
+        pattern: "*"
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: game/saves/
+            replace: Library/Renpy/SpookY2K-1756888761
+        root: gameinstall
+        useInstead: MacHome
+  installDir: spookY2K
+  launch:
+    - config:
+        oslist: windows
+      executable: spookY2K.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: spookY2K.app
+      type: default
+    - config:
+        oslist: linux
+      executable: spookY2K.sh
+      type: default
 4102480: {}
 4105240:
   cloud:

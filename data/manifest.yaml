@@ -74732,6 +74732,8 @@ Beast Quest:
   id:
     lutris: beast-wars-transformers
 Beast of Reincarnation:
+  cloud:
+    steam: true
   id:
     lutris: beast-of-reincarnation
   steam:
@@ -113342,6 +113344,12 @@ Call of the Elder Gods:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Kwalee.CalloftheElderGods_bm08s5vda6r86/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: call-of-the-elder-gods
     steamExtra:
@@ -119142,6 +119150,11 @@ Cassette Beasts:
             store: steam
   steam:
     id: 1321440
+Cassette Beasts 2002:
+  cloud:
+    steam: true
+  steam:
+    id: 3802140
 Cassiodora:
   cloud:
     steam: true
@@ -136595,6 +136608,13 @@ Clea:
   steam:
     id: 981020
 Clean Up Earth:
+  installDir:
+    Clean Up Earth: {}
+  launch:
+    "<base>/Clean Up Earth.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3402720
 Clean VR:
@@ -429776,6 +429796,11 @@ Magicians Legacy:
     steam: true
   steam:
     id: 1173170
+"Magicians: The Devil's Deal":
+  cloud:
+    steam: true
+  steam:
+    id: 3299300
 Magicite:
   installDir:
     Magicite: {}
@@ -612612,7 +612637,13 @@ Sea of Stars:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1254594850
   id:
+    gogExtra:
+      - 1124662664
+      - 1628144748
+      - 1924927409
     steamExtra:
       - 2385060
       - 3457510
@@ -631070,6 +631101,17 @@ Silent Hunter III:
 Silent Night:
   steam:
     id: 893670
+Silent Night - A Christmas Delivery:
+  id:
+    lutris: silent-night-a-christmas-delivery
+  installDir:
+    Silent Night - A Christmas Delivery: {}
+  launch:
+    "<base>/silentNight.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1630740
 Silent Road:
   id:
     lutris: silent-road
@@ -638908,6 +638950,30 @@ Slice&Dice (VR):
             store: steam
   steam:
     id: 598450
+Slide - Animal Race:
+  id:
+    lutris: slide-animal-race
+    steamExtra:
+      - 1630150
+  installDir:
+    Slide: {}
+  launch:
+    "<base>/slide":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/slide.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/slide.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1345280
 Slide Furry Futanari:
   cloud:
     steam: true
@@ -645582,6 +645648,12 @@ Solarpunk:
         - save
       when:
         - os: windows
+  installDir:
+    Solarpunk: {}
+  launch:
+    "<base>/Solarpunk.exe":
+      - when:
+          - store: steam
   steam:
     id: 1805110
 Solas 128:
@@ -661734,6 +661806,29 @@ Sponchies:
 SpookY2K:
   cloud:
     steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+    "<home>/Library/Renpy/SpookY2K-1756888761*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    spookY2K: {}
+  launch:
+    "<base>/spookY2K.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/spookY2K.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/spookY2K.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4097180
 Spookware:
@@ -853116,6 +853211,27 @@ Zefira:
           - store: steam
   steam:
     id: 1078380
+"Zefyr: A Thief's Melody":
+  cloud:
+    steam: true
+  id:
+    lutris: zefyr-a-thiefs-melody
+    steamExtra:
+      - 3687840
+      - 3688940
+  installDir:
+    "A Thief's Melody": {}
+  launch:
+    "<base>/zefyr.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Oneiric Worlds/Zefyr:
+      tags:
+        - config
+  steam:
+    id: 1344990
 Zeitgeist:
   id:
     lutris: jupiter-strike
