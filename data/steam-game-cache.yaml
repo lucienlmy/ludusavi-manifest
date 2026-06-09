@@ -631219,7 +631219,13 @@
         oslist: macos
       executable: launch.sh
       type: default
-2753000: {}
+2753000:
+  installDir: GOALS
+  launch:
+    - config:
+        oslist: windows
+      executable: GOALS.exe
+      type: default
 2753600:
   installDir: VambraceDungeonMonarch
   launch:

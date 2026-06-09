@@ -301518,6 +301518,13 @@ Goals:
         - config
       when:
         - os: windows
+  installDir:
+    GOALS: {}
+  launch:
+    "<base>/GOALS.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2753000
 Goaltender VR:

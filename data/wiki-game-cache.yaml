@@ -116057,6 +116057,8 @@ In Exilium:
   steam: 344880
   steamSide:
     - 369350
+In Extremis (1993):
+  pageId: 217551
 In Extremis (2016):
   cloud:
     steam: true
@@ -209494,6 +209496,8 @@ Solarpower:
   pageId: 137147
   steam: 852870
 Solarpunk:
+  cloud:
+    xbox: true
   pageId: 201881
   steam: 1805110
   templates:
