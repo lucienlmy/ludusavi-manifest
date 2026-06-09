@@ -21311,6 +21311,7 @@ Ballistics:
   lutris: ballistics
   pageId: 32978
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\display_settings.txt}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Savegames\\}}"
 Ballistix:
   pageId: 199653
@@ -84600,6 +84601,9 @@ Fearmonium:
 "Fears to Fathom: Nordwood Hitchhike":
   pageId: 208708
   steam: 1763050
+"Fears to Fathom: Scratch Creek":
+  pageId: 217553
+  steam: 4121170
 "Fears to Fathom: Woodbury Getaway":
   pageId: 208712
   steam: 2961530
@@ -85744,6 +85748,11 @@ Final Fantasy IX:
     - "{{Game data/config|Windows|{{p|game}}\\Settings.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\SquareEnix\\FINAL FANTASY IX\\Steam\\EncryptedSavedData\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\\\39EA002F.FINALFANTASYIX_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
+Final Fantasy Resonance:
+  cloud:
+    steam: true
+  pageId: 217559
+  steam: 3259780
 Final Fantasy Tactics - The Ivalice Chronicles:
   cloud:
     steam: true
@@ -151972,6 +151981,9 @@ Muppet Treasure Island:
 Mural:
   pageId: 138791
   steam: 1060900
+"Muramasa: Revenant Blades":
+  pageId: 217555
+  steam: 4253770
 Murasaki:
   cloud:
     steam: true
@@ -172085,6 +172097,9 @@ Pikuniku:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Sectordub\\Pikuniku\\saves\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Sectordub/Pikuniku/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{P|uid}}/572890/remote/}}"
+Pikuniku 2:
+  pageId: 217563
+  steam: 2676350
 Pilam Sky:
   pageId: 63171
   steam: 611960
@@ -172382,6 +172397,7 @@ Pinchcliffe Grand Prix:
   lutris: pinchcliffe-grand-prix
   pageId: 176137
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\Software\\WOW6432Node\\CapricornuS AS\\Flåklypa Grand Prix\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\profiles}}"
 Pine:
   cloud:
@@ -190954,6 +190970,7 @@ Road to Empress I:
   steamSide:
     - 3972390
 Road to Empress II:
+  lutris: road-to-empress-ii
   pageId: 216781
   steam: 4148240
 Road to Guangdong:

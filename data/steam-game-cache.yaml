@@ -628505,6 +628505,10 @@
       executable: Beltmatic.exe
       type: default
 2675650: {}
+2676350:
+  nameLocalized:
+    schinese: 野餐大冒险 2
+    tchinese: 野餐大冒險 2
 2676410:
   installDir: Miraculous Paris Under Siege
   launch:
@@ -641455,6 +641459,10 @@
     koreana: 진홍의 연금술사와 순백의 수호자 ~레슬레리아나의 아틀리에~
     schinese: 红色的炼金术士和白色的守护者 ～蕾斯莱莉娅娜的炼金工房～
     tchinese: 紅色的鍊金術士和白色的守護者 ～蕾斯萊莉婭娜的鍊金工房～
+3259780:
+  nameLocalized:
+    english: FINAL FANTASY RESONANCE
+    japanese: ファイナルファンタジー レゾナンス
 3260490:
   cloud:
     saves:
@@ -650473,6 +650481,7 @@
   installDir: Rock Paper Kill
   launch:
     - executable: "rock_paper_kill-win32-x64\\rock_paper_kill.exe"
+4121170: {}
 4122860:
   installDir: Z.A.T.O.  I Love the World and Everything In It
   launch:
@@ -650535,6 +650544,13 @@
 4144680: {}
 4146000: {}
 4148240:
+  installDir: roadtoempress2
+  launch:
+    - arguments: "-windowed"
+      config:
+        oslist: windows
+      executable: sstx2.exe
+      type: default
   nameLocalized:
     english: Road to Empress Ⅱ
     japanese: 盛世天下：女帝への道II
@@ -650892,6 +650908,12 @@
   nameLocalized:
     japanese: ブレス オブ ファイアIV うつろわざるもの
 4251460: {}
+4253770:
+  nameLocalized:
+    japanese: 朧村正怪奇譚
+    koreana: "오보로 무라마사: 괴이록"
+    schinese: 胧村正怪奇谭
+    tchinese: 朧村正怪奇譚
 4253970:
   installDir: Napoleon 1813
   launch:

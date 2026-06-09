@@ -66406,6 +66406,11 @@ Ballistics:
         - save
       when:
         - os: windows
+    "<base>/display_settings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: ballistics
 Balloon:
@@ -261068,6 +261073,9 @@ Fearmonium:
             store: steam
   steam:
     id: 1763050
+"Fears to Fathom: Scratch Creek":
+  steam:
+    id: 4121170
 "Fears to Fathom: Woodbury Getaway":
   installDir:
     Fears to Fathom - Woodbury Getaway: {}
@@ -264489,6 +264497,11 @@ Final Fantasy IX:
             store: steam
   steam:
     id: 377840
+Final Fantasy Resonance:
+  cloud:
+    steam: true
+  steam:
+    id: 3259780
 Final Fantasy Tactics - The Ivalice Chronicles:
   cloud:
     steam: true
@@ -468127,6 +468140,9 @@ Mural:
             store: steam
   steam:
     id: 1060900
+"Muramasa: Revenant Blades":
+  steam:
+    id: 4253770
 Murasaki:
   cloud:
     steam: true
@@ -529057,6 +529073,9 @@ Pikuniku:
         - config
   steam:
     id: 572890
+Pikuniku 2:
+  steam:
+    id: 2676350
 Pilam Sky:
   installDir:
     PilamSky: {}
@@ -529884,6 +529903,10 @@ Pinchcliffe Grand Prix:
         - os: windows
   id:
     lutris: pinchcliffe-grand-prix
+  registry:
+    HKEY_LOCAL_MACHINE/Software/WOW6432Node/CapricornuS AS/Flåklypa Grand Prix:
+      tags:
+        - config
 Pine:
   cloud:
     epic: true
@@ -587505,6 +587528,16 @@ Road to Empress I:
   steam:
     id: 3478050
 Road to Empress II:
+  id:
+    lutris: road-to-empress-ii
+  installDir:
+    roadtoempress2: {}
+  launch:
+    "<base>/sstx2.exe":
+      - arguments: "-windowed"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 4148240
 Road to Guangdong:
