@@ -615017,6 +615017,7 @@
     japanese: 全裸徘徊女子大生 はずかしーなちゃん
     schinese: 全裸徘徊的女子大学生~害羞的椎名酱
     tchinese: 全裸徘徊的女子大學生~害羞的椎名酱
+2327720: {}
 2328650:
   cloud:
     saves:
@@ -635595,6 +635596,13 @@
     - config:
         oslist: linux
       executable: proximate-linux/proximate.x86_64
+2957940:
+  installDir: Jurig Escape
+  launch:
+    - config:
+        oslist: windows
+      executable: Jurig.exe
+      type: default
 2958130:
   cloud:
     saves:
@@ -651440,6 +651448,7 @@
     tchinese: 血色鹿影
 4669960: {}
 4683260: {}
+4686060: {}
 4687500:
   nameLocalized:
     schinese: 穿越火线：潜伏

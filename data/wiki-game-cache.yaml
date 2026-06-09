@@ -43204,6 +43204,9 @@ City Car Driving:
     - "{{Game data/config|Steam|{{P|userprofile\\Documents}}\\Forward Development\\City Car Driving Steam\\config\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Forward Development\\City Car Driving\\}}"
     - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\Forward Development\\City Car Driving Steam\\}}"
+City Car Driving 2.0:
+  pageId: 217534
+  steam: 2327720
 City Climber:
   pageId: 51677
   steam: 538840
@@ -50809,8 +50812,12 @@ Cris Tales:
 "Crisis Core: Final Fantasy VII Reunion":
   cloud:
     steam: true
+  lutris: crisis-core-final-fantasy-vii-reunion
   pageId: 178322
   steam: 1608070
+  steamSide:
+    - 2066830
+    - 2131710
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\CCFF7R\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\CRISIS CORE FINAL FANTASY VII REUNION\\Steam\\{{P|uid}}\\}}"
@@ -122542,6 +122549,10 @@ Jurassic World Evolution 3:
     - 3651200
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Jurassic World Evolution 3\\{{p|uid}}\\Saves}}"
+Jurig Escape:
+  lutris: jurig-escape
+  pageId: 217531
+  steam: 2957940
 Juro Janosik:
   cloud:
     steam: true
@@ -195324,6 +195335,9 @@ SHATTER (2019):
   renamedFrom:
     - SHATTER
   steam: 1181340
+SHE (Seraphim Helix Experiment):
+  pageId: 217537
+  steam: 4686060
 SHEEP SLING:
   pageId: 112212
   steam: 918440
@@ -250476,16 +250490,6 @@ Tomb Raider (2013):
 Tomb Raider - The Final Hours Digital Book:
   pageId: 37523
   steam: 233410
-Tomb Raider Chronicles:
-  gog: 1207663523
-  gogSide:
-    - 1207659077
-  lutris: tomb-raider-v-chronicles
-  pageId: 7012
-  steam: 225000
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\savegame.*}}"
 Tomb Raider I-III Remastered:
   cloud:
     epic: true
@@ -250546,6 +250550,18 @@ Tomb Raider IV-VI Remastered:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Tomb Raider Anniversary/Preferences Data}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Eidos\\Tomb Raider - Anniversary\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Tomb Raider Anniversary/profiles}}"
+"Tomb Raider: Chronicles":
+  gog: 1207663523
+  gogSide:
+    - 1207659077
+  lutris: tomb-raider-v-chronicles
+  pageId: 7012
+  renamedFrom:
+    - Tomb Raider Chronicles
+  steam: 225000
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame.*}}"
 "Tomb Raider: Definitive Edition":
   cloud:
     xbox: true

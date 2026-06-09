@@ -134421,6 +134421,9 @@ City Car Driving:
         workingDir: "<base>/bin/win32"
   steam:
     id: 493490
+City Car Driving 2.0:
+  steam:
+    id: 2327720
 City Climber:
   installDir:
     City Climber: {}
@@ -158091,6 +158094,11 @@ Cris Tales:
         - config
       when:
         - os: windows
+  id:
+    lutris: crisis-core-final-fantasy-vii-reunion
+    steamExtra:
+      - 2066830
+      - 2131710
   installDir:
     CCFF7R: {}
   launch:
@@ -378533,6 +378541,18 @@ Jurassic World Evolution 3:
           - store: steam
   steam:
     id: 2958130
+Jurig Escape:
+  id:
+    lutris: jurig-escape
+  installDir:
+    Jurig Escape: {}
+  launch:
+    "<base>/Jurig.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2957940
 Juro Janosik:
   cloud:
     steam: true
@@ -601113,6 +601133,9 @@ SHATTER (2019):
             store: steam
   steam:
     id: 1181340
+SHE (Seraphim Helix Experiment):
+  steam:
+    id: 4686060
 SHEEP SLING:
   installDir:
     SHEEP SLING: {}
@@ -771797,29 +771820,7 @@ Tomb Raider - The Final Hours Digital Book:
   steam:
     id: 233410
 Tomb Raider Chronicles:
-  files:
-    "<base>/savegame.*":
-      tags:
-        - save
-      when:
-        - os: windows
-  gog:
-    id: 1207663523
-  id:
-    gogExtra:
-      - 1207659077
-    lutris: tomb-raider-v-chronicles
-  installDir:
-    Tomb Raider (V) Chronicles: {}
-  launch:
-    "<base>/PCTomb5.exe":
-      - when:
-          - store: steam
-      - arguments: Setup
-        when:
-          - store: steam
-  steam:
-    id: 225000
+  alias: "Tomb Raider: Chronicles"
 Tomb Raider I-III Remastered:
   cloud:
     epic: true
@@ -771976,6 +771977,30 @@ Tomb Raider IV-VI Remastered:
         - config
   steam:
     id: 8000
+"Tomb Raider: Chronicles":
+  files:
+    "<base>/savegame.*":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1207663523
+  id:
+    gogExtra:
+      - 1207659077
+    lutris: tomb-raider-v-chronicles
+  installDir:
+    Tomb Raider (V) Chronicles: {}
+  launch:
+    "<base>/PCTomb5.exe":
+      - when:
+          - store: steam
+      - arguments: Setup
+        when:
+          - store: steam
+  steam:
+    id: 225000
 "Tomb Raider: Legacy of Atlantis":
   steam:
     id: 3558670
