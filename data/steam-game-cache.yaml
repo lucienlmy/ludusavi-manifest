@@ -15919,6 +15919,17 @@
       description: Torchlight II
       executable: ModLauncher.bin.x86
 200900:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.dat"
+        root: gameinstall
+      - path: ""
+        pattern: "*.rec"
+        root: gameinstall
+      - path: ""
+        pattern: "*.json"
+        root: gameinstall
   installDir: Cave Story+
   launch:
     - config:
@@ -569214,7 +569225,14 @@
         oslist: macos
       executable: "Buddy and Lucky Solitaire.app\\Contents\\MacOS\\Buddy and Lucky Solitaire"
       type: none
-1597080: {}
+1597080:
+  installDir: Killer Bean
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Killer Bean.exe
+      type: default
 1597580:
   cloud:
     saves:
@@ -644762,6 +644780,27 @@
         oslist: windows
       executable: cricket26.exe
       type: default
+3469910:
+  nameLocalized:
+    brazilian: "Star Trek: Fronteiras Desconhecidas"
+    danish: "Star Trek: Ukendte Udposter"
+    dutch: "Star Trek: Buitenposten Onbekend"
+    finnish: "Star Trek: Tuntemattomat Tukikohdat"
+    french: "Star Trek: Avant-postes Inconnus"
+    italian: "Star Trek: Avamposti Sconosciuti"
+    japanese: "Star Trek: 未知の前哨基地"
+    koreana: "Star Trek: 미지의 전초기지"
+    latam: "Star Trek: Puestos Desconocidos"
+    norwegian: "Star Trek: Ukjente Utposter"
+    polish: "Star Trek: Nieznane Placówki"
+    portuguese: "Star Trek: Postos Desconhecidos"
+    russian: "Star Trek: Неизвестные аванпосты"
+    schinese: "Star Trek: 未知前哨站"
+    spanish: "Star Trek: Puestos de avanzada desconocidos"
+    swedish: "Star Trek: Utposter Okända"
+    tchinese: "Star Trek: 未知前哨站"
+    turkish: "Star Trek: Bilinmeyen Üsler"
+    ukrainian: "Star Trek: Незвідані аванпости"
 3472040:
   installDir: NBA 2K26
   launch:
@@ -650706,6 +650745,10 @@
         oslist: macos
       executable: Chicky Blocks.app
 4212050: {}
+4213960:
+  nameLocalized:
+    czech: "Posel smrti: Pouto krve"
+    english: "Messenger of Death: Blood Bond"
 4216180: {}
 4223290:
   nameLocalized:

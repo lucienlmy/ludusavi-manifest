@@ -112062,6 +112062,7 @@ House Flipper City:
 House Flipper Remastered Collection:
   cloud:
     steam: true
+  lutris: house-flipper-remastered-collection
   pageId: 204606
   steam: 3710840
   steamSide:
@@ -144345,6 +144346,9 @@ Message Quest:
   steam: 408280
   steamSide:
     - 421920
+"Messenger of Death: Blood Bond":
+  pageId: 217540
+  steam: 4213960
 Messiah:
   gog: 7
   pageId: 240
@@ -216364,6 +216368,9 @@ Star Trek Timelines:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\game.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\game.ini}}"
+"Star Trek: Outposts Unknown":
+  pageId: 217543
+  steam: 3469910
 "Star Trek: Resurgence":
   cloud:
     epic: true
@@ -263423,6 +263430,9 @@ Venus Hostage:
     steam: true
   pageId: 203103
   steam: 3155730
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\Venus Vacation PRISM - DEAD OR ALIVE Xtreme -\\Savedata\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\Venus Vacation PRISM - DEAD OR ALIVE Xtreme -\\Savedata\\{{p|uid}}\\}}"
 "VenusBlood Frontier: International":
   cloud:
     gog: true

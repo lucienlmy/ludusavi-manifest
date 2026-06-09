@@ -345893,6 +345893,7 @@ House Flipper Remastered Collection:
       when:
         - os: windows
   id:
+    lutris: house-flipper-remastered-collection
     steamExtra:
       - 4005190
       - 4314250
@@ -385233,6 +385234,14 @@ Killer Backflip 999:
 Killer Bean:
   cloud:
     steam: true
+  installDir:
+    Killer Bean: {}
+  launch:
+    "<base>/Killer Bean.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1597080
 Killer Chambers:
@@ -445518,6 +445527,9 @@ Message Quest:
             store: steam
   steam:
     id: 408280
+"Messenger of Death: Blood Bond":
+  steam:
+    id: 4213960
 Messiah:
   files:
     "<base>/SAVE":
@@ -666478,6 +666490,9 @@ Star Trek Timelines:
         - save
       when:
         - os: windows
+"Star Trek: Outposts Unknown":
+  steam:
+    id: 3469910
 "Star Trek: Resurgence":
   cloud:
     epic: true
@@ -808363,10 +808378,16 @@ Venture Seas:
   cloud:
     steam: true
   files:
-    "<winDocuments>/KoeiTecmo/Venus Vacation PRISM - DEAD OR ALIVE Xtreme -/Savedata/<storeUserId>":
+    "<winDocuments>/KoeiTecmo/Venus Vacation PRISM - DEAD OR ALIVE Xtreme -/Savedata":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winDocuments>/KoeiTecmo/Venus Vacation PRISM - DEAD OR ALIVE Xtreme -/Savedata/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Venus Vacation PRISM - DEAD OR ALIVE Xtreme -: {}
   steam:
