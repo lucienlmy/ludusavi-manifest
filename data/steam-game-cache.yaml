@@ -149453,15 +149453,10 @@
             replace: settings
         root: gameinstall
         useInstead: gameinstall
-  installDir: Project Arrhythmia
+  installDir: Afterbeat
   launch:
     - config:
         oslist: windows
-      executable: Project Arrhythmia.exe
-      type: default
-    - config:
-        betakey: alpha
-      description: Use to launch the new Afterbeat.exe instead of the ProjectArrhythmia.exe
       executable: afterbeat.exe
       type: default
 440330:
@@ -626356,6 +626351,18 @@
   nameLocalized:
     schinese: 静脉注射2
 2610650:
+  cloud:
+    saves:
+      - path: "INCOLATUS\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: INCOLATUS
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        root: gameinstall
   installDir: Incolatus
   launch:
     - config:
@@ -633254,6 +633261,7 @@
     - arguments: "-uplay_steam_mode"
       executable: Outlaws.exe
 2842160: {}
+2842310: {}
 2842320: {}
 2842720: {}
 2842870:
@@ -644830,6 +644838,11 @@
     tchinese: "Star Trek: 未知前哨站"
     turkish: "Star Trek: Bilinmeyen Üsler"
     ukrainian: "Star Trek: Незвідані аванпости"
+3470960:
+  nameLocalized:
+    japanese: テイルズ オブ エターニア リマスター
+    koreana: 테일즈 오브 이터니아 리마스터
+    tchinese: 永恆傳奇 Remastered
 3472040:
   installDir: NBA 2K26
   launch:
@@ -645749,7 +645762,7 @@
       - path: Smart Raven Studio/Rune Dice
         pattern: "*"
         root: WinAppDataLocalLow
-      - path: Smart Raven Studio
+      - path: Smart Raven Studio/runedice_checkdemo.flg
         pattern: "*"
         root: WinAppDataLocalLow
     overrides:
@@ -650714,6 +650727,7 @@
 4184130: {}
 4184360: {}
 4184400: {}
+4184420: {}
 4190070:
   cloud:
     saves:

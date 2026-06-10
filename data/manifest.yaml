@@ -22609,9 +22609,9 @@ AfterBeat:
       when:
         - os: windows
   installDir:
-    Project Arrhythmia: {}
+    Afterbeat: {}
   launch:
-    "<base>/Project Arrhythmia.exe":
+    "<base>/afterbeat.exe":
       - when:
           - os: windows
             store: steam
@@ -36446,6 +36446,9 @@ Among Us 3D:
           - store: steam
   steam:
     id: 3168600
+"Among Us Story: On Guard":
+  steam:
+    id: 2842310
 Among Us VR:
   installDir:
     Among Us VR: {}
@@ -204846,6 +204849,15 @@ Don Bradman Cricket 17:
   steam:
     id: 868760
 "Don't Stop, Girlypop!":
+  files:
+    "<base>/INCOLATUS/*.ini":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/INCOLATUS/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Incolatus: {}
   launch:
@@ -446299,6 +446311,12 @@ Metal Gear Survive:
             store: steam
   steam:
     id: 543900
+"Metal Gear: Ghost Babel - Master Collection Version":
+  id:
+    steamExtra:
+      - 3859630
+  steam:
+    id: 4184420
 Metal Heads:
   installDir:
     Metal Heads: {}
@@ -704196,6 +704214,9 @@ Tales of Escape:
             store: steam
   steam:
     id: 587860
+Tales of Eternia Remastered:
+  steam:
+    id: 3470960
 Tales of Glacier (VR):
   installDir:
     Tales of Glacier (VR): {}

@@ -11713,6 +11713,9 @@ Among Us:
 Among Us 3D:
   pageId: 201693
   steam: 3168600
+"Among Us Story: On Guard":
+  pageId: 217584
+  steam: 2842310
 Among Us VR:
   pageId: 188609
   steam: 1849900
@@ -144626,6 +144629,11 @@ Metal Gear Survive:
   templates:
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\543900\\local\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\543900\\remote\\}}"
+"Metal Gear: Ghost Babel - Master Collection Version":
+  pageId: 217589
+  steam: 4184420
+  steamSide:
+    - 3859630
 Metal Heads:
   pageId: 145397
   steam: 1132670
@@ -228463,6 +228471,9 @@ Tales of Destruction:
 Tales of Escape:
   pageId: 59474
   steam: 587860
+Tales of Eternia Remastered:
+  pageId: 217580
+  steam: 3470960
 Tales of Glacier (VR):
   pageId: 71696
   steam: 676880
@@ -273552,6 +273563,8 @@ Wolfpack:
   steam: 490920
 Wolfram:
   pageId: 170208
+Wolfschanze:
+  pageId: 217586
 Wolfsong:
   pageId: 44748
   steam: 440410
