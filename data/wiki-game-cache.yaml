@@ -18275,6 +18275,14 @@ Atomic Heart 2:
 Atomic Heist:
   pageId: 89652
   steam: 791000
+Atomic Owl:
+  cloud:
+    steam: true
+  lutris: atomic-owl
+  pageId: 217604
+  steam: 2228490
+  steamSide:
+    - 2793260
 Atomic Rancher:
   pageId: 121221
   steam: 914240
@@ -86004,15 +86012,19 @@ Final Fantasy XVI:
     epic: true
     steam: true
     xbox: true
+  lutris: final-fantasy-xvi
   pageId: 189511
   steam: 2515020
   steamSide:
+    - 2738000
     - 2744050
     - 2744060
     - 2886900
     - 3142080
     - 3142090
     - 3142100
+    - 3372350
+    - 3372360
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\FINAL FANTASY XVI\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\FINAL FANTASY XVI\\}}"
@@ -108168,7 +108180,7 @@ Heroes of Annihilated Empires:
   steam: 4800
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Data\\settings.xml}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\Data\\Save}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Data\\Save\n<br>{{P|game}}\\Data\\Dialogs\\SinglePlayerData.xml}}"
 Heroes of Arca:
   pageId: 57809
   steam: 588890
@@ -151646,6 +151658,14 @@ Mr. Shifty:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Team Shifty\\Mr Shifty\\}}"
     - "{{Game data/saves|OS X|./Library/Preferences/unity.Team Shifty.Mr Shifty.plist}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Team Shifty/Mr Shifty/}}"
+Mr. Sleepy Man:
+  cloud:
+    steam: true
+  lutris: mr-sleepy-man
+  pageId: 217596
+  steam: 1657740
+  steamSide:
+    - 4483160
 "Mr. Sun's Hatbox":
   cloud:
     steam: true

@@ -56659,6 +56659,37 @@ Atomic Heist:
             store: steam
   steam:
     id: 791000
+Atomic Owl:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Monster Theater/AtomicOwl/*.aos":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Monster Theater/AtomicOwl/*.aos":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: atomic-owl
+    steamExtra:
+      - 2793260
+  installDir:
+    Atomic Owl: {}
+  launch:
+    "<base>/AtomicOwl.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/AtomicOwl.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 2228490
 Atomic Rancher:
   installDir:
     Atomic Rancher: {}
@@ -265203,13 +265234,17 @@ Final Fantasy XVI:
       when:
         - os: windows
   id:
+    lutris: final-fantasy-xvi
     steamExtra:
+      - 2738000
       - 2744050
       - 2744060
       - 2886900
       - 3142080
       - 3142090
       - 3142100
+      - 3372350
+      - 3372360
   installDir:
     FINAL FANTASY XVI: {}
   launch:
@@ -333800,11 +333835,6 @@ Heroes in the Sky-Origin:
     id: 586100
 Heroes of Annihilated Empires:
   files:
-    "<base>/Data/Save":
-      tags:
-        - save
-      when:
-        - os: windows
     "<base>/Data/settings.xml":
       tags:
         - config
@@ -467140,6 +467170,26 @@ Mr. Shifty:
         - save
   steam:
     id: 489140
+Mr. Sleepy Man:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Devin Santi/Mr Sleepy Man/*.save":
+      when:
+        - store: steam
+  id:
+    lutris: mr-sleepy-man
+    steamExtra:
+      - 4483160
+  installDir:
+    Mr. Sleepy Man: {}
+  launch:
+    "<base>/Mr Sleepy Man.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1657740
 "Mr. Sun's Hatbox":
   cloud:
     steam: true

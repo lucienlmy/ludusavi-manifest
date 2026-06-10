@@ -573898,6 +573898,17 @@
         oslist: windows
       executable: SlimeRancher2.exe
       type: default
+1657740:
+  cloud:
+    saves:
+      - path: Devin Santi/Mr Sleepy Man
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+  installDir: Mr. Sleepy Man
+  launch:
+    - config:
+        oslist: windows
+      executable: Mr Sleepy Man.exe
 1658040:
   cloud:
     saves:
@@ -610426,6 +610437,31 @@
     japanese: フェアリーフェンサー エフ Refrain Chord
     schinese: Fairy Fencer F Refrain Chord
     tchinese: Fairy Fencer F Refrain Chord
+2228490:
+  cloud:
+    saves:
+      - path: /Monster Theater/AtomicOwl
+        pattern: "*.aos"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: ".config/unity3d/Monster Theater/AtomicOwl"
+        pattern: "*.aos"
+        platforms:
+          - Linux
+        root: LinuxHome
+  installDir: Atomic Owl
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: AtomicOwl.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: AtomicOwl.x86_64
+      type: default
 2229350:
   cloud:
     saves:
