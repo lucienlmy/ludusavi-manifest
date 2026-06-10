@@ -20502,6 +20502,21 @@
       description: Dream Pinball 3D
       executable: RunGame
       type: none
+    - config:
+        oslist: windows
+        ownsdlc: "3070980"
+      description: Digital Deluxe Content
+      executable: ddc.cmd
+    - config:
+        oslist: macos
+        ownsdlc: "3070980"
+      description: Digital Deluxe Content
+      executable: ddc
+    - config:
+        oslist: linux
+        ownsdlc: "3070980"
+      description: Digital Deluxe Content
+      executable: ddc_xdg
 215830:
   installDir: closers
   launch:
@@ -298487,13 +298502,9 @@
     saves:
       - path: glassheart/Vigil_Night
         pattern: "*.io"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
       - path: glassheart/Vigil
         pattern: "*.io"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
     overrides:
       - os: MacOS
@@ -415715,6 +415726,13 @@
       executable: TopDown.exe
       type: none
 958520:
+  installDir: 33Immortals
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: 33 Immortals
+      executable: 33Immortals.exe
   nameLocalized:
     schinese: 33不朽灵魂
     tchinese: 33不朽灵魂
@@ -650834,7 +650852,9 @@
         oslist: macos
       executable: "Steam\\jsp2.app"
       type: default
-4198090: {}
+4198090:
+  nameLocalized:
+    schinese: 獾獾闯天关
 4199910:
   nameLocalized:
     japanese: "トータルウォー：ウォーハンマー40,000"

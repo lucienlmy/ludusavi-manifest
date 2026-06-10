@@ -5006,11 +5006,13 @@ Abiotic Factor:
   cloud:
     steam: true
     xbox: true
+  lutris: abiotic-factor
   pageId: 192814
   steam: 427410
   steamSide:
     - 3018120
     - 3641780
+    - 4687390
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\AbioticFactor\\Saved\\Config\\Windows}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\AbioticFactor\\Saved\\Config\\WinGDK}}"
@@ -141206,8 +141208,12 @@ Marshmallow Melee:
   pageId: 71762
   steam: 705100
 "Marsupilami 2: Salsa Palombia":
+  cloud:
+    steam: true
   pageId: 216599
   steam: 3650170
+  steamSide:
+    - 4261810
 "Marsupilami: Hoobadventure":
   cloud:
     steam: true
@@ -146806,7 +146812,20 @@ Minds of Nations:
 MindsEye:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gog: 1922826619
+  gogSide:
+    - 1218916140
+    - 1234684903
+    - 1293755237
+    - 1447749925
+    - 1490532977
+    - 1564697638
+    - 1749653555
+    - 1779285224
+    - 2010638935
+    - 2085373530
   lutris: mindseye
   pageId: 203619
   steam: 3265250
@@ -206763,6 +206782,8 @@ Sky Sanctuary:
 Sky Shepherd:
   pageId: 134414
   steam: 1060450
+Sky Sports Football Quiz:
+  pageId: 217609
 Sky Target:
   lutris: sky-target
   pageId: 23511
@@ -264090,6 +264111,7 @@ Viewpoints:
   pageId: 128672
   steam: 720560
   steamSide:
+    - 970700
     - 1418070
     - 1448680
   templates:

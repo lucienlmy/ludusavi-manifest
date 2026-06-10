@@ -4100,6 +4100,14 @@ $1 Ride:
 33 Immortals:
   cloud:
     epic: true
+  installDir:
+    33Immortals: {}
+  launch:
+    "<base>/33Immortals.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 958520
 33 Rounds:
@@ -16109,9 +16117,11 @@ Abiotic Factor:
         - os: windows
           store: microsoft
   id:
+    lutris: abiotic-factor
     steamExtra:
       - 3018120
       - 3641780
+      - 4687390
   installDir:
     AbioticFactor: {}
   launch:
@@ -435832,6 +435842,11 @@ Marshmallow Melee:
   steam:
     id: 705100
 "Marsupilami 2: Salsa Palombia":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4261810
   steam:
     id: 3650170
 "Marsupilami: Hoobadventure":
@@ -452418,6 +452433,7 @@ Minds of Nations:
 MindsEye:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/MindsEye/Saved/Config":
@@ -452430,7 +452446,20 @@ MindsEye:
         - save
       when:
         - os: windows
+  gog:
+    id: 1922826619
   id:
+    gogExtra:
+      - 1218916140
+      - 1234684903
+      - 1293755237
+      - 1447749925
+      - 1490532977
+      - 1564697638
+      - 1749653555
+      - 1779285224
+      - 2010638935
+      - 2085373530
     lutris: mindseye
     steamExtra:
       - 3511550
@@ -810349,6 +810378,7 @@ Viewpoints:
   id:
     lutris: vigil-the-longest-night
     steamExtra:
+      - 970700
       - 1418070
       - 1448680
   installDir:
