@@ -118002,6 +118002,10 @@ Insincere:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\setup.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Files\\Gamesaves}}"
+"Insomnia: Chapter One":
+  lutris: insomnia-chapter-one
+  pageId: 217576
+  steam: 3939100
 "Insomnia: The Ark":
   cloud:
     gog: true
@@ -130527,6 +130531,13 @@ Legend of Numbers:
 Legend of Traveller:
   pageId: 132026
   steam: 1044330
+Legend of Ymir:
+  pageId: 217571
+  steam: 4172530
+  steamSide:
+    - 4520020
+    - 4520030
+    - 4520040
 Legend of sword and Magic MMO:
   pageId: 153382
   steam: 1161150
@@ -154343,6 +154354,12 @@ NBA Power Dunkers:
   pageId: 203086
 NBA Powerdunkers:
   pageId: 194454
+NBA The Run:
+  pageId: 217578
+  steam: 2866670
+  steamSide:
+    - 4695820
+    - 4799710
 NBB.EXE:
   pageId: 195772
   steam: 2845720
@@ -215045,6 +215062,8 @@ Sprawl Zero:
   lutris: sprawl-zero
   pageId: 215981
   steam: 3748520
+  steamSide:
+    - 4247830
 Spray Dynamite X Radioactive Insects:
   pageId: 122400
   steam: 967960
@@ -234426,6 +234445,11 @@ The Dark Queen of Krynn:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\DQK.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE\\}}"
+The Dark Queen of Mortholme:
+  gog: 1755345000
+  lutris: the-dark-queen-of-mortholme
+  pageId: 217566
+  steam: 3587610
 The Dark Room:
   cloud:
     steam: true

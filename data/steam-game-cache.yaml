@@ -565139,7 +565139,7 @@
         pattern: "*"
         recursive: true
         root: WinAppDataLocal
-  installDir: SPRAWL
+  installDir: SPRAWL 1
   launch:
     - executable: Sprawl.exe
       type: default
@@ -570221,7 +570221,7 @@
       type: default
     - arguments: "-ini:Engine:[Core.Log]:LogWebSockets=VeryVerbose,LogWinHttp=VeryVerbose,LogNetTraffic=VeryVerbose,LogCosmosWebAPI=Log,LogCosmosSquad=Log"
       config:
-        betakey: "development,s2-dev-debug,s3-dev-debug,s4-dev-debug,s5-dev-debug,s6-dev-debug,s7-dev-debug,s8-dev-debug,s8.1-dev-debug,s8.2-dev-debug,s9-dev-debug,s10-dev-debug,s11-dev-debug,s2-dev-release,s3-dev-release,s4-dev-release,s5-dev-release,s6-dev-release,s7-dev-release,s9.1-dev-debug,s10.1-dev-debug,s11-dev-release,s12-dev-debug,s12-dev-release,s13-dev-debug,mob-dev-debug,s14-dev-debug"
+        betakey: "development,mob-dev-debug,penetration_testing,s16-dev-debug,s17-dev-debug,s18-dev-debug,penetration_testing_eac"
         osarch: "64"
         oslist: windows
       description: Boot without EAC
@@ -633731,6 +633731,21 @@
       executable: "JETRUNNER\\Binaries\\Win64\\JetrunnerGame.exe"
       type: option2
 2865960: {}
+2866670:
+  installDir: NBATHERUN
+  launch:
+    - arguments: "-OnlineBackendType=PragmaRetail"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: NBA THE RUN
+      executable: start_protected_game.exe
+    - config:
+        betakey: "nightly.dev,nightly.test,nightly.ship,nightly.final"
+        osarch: "64"
+        oslist: windows
+      description: NBA THE RUN (beta branch)
+      executable: start_protected_game.exe
 2868840:
   installDir: Slay the Spire 2
   launch:
@@ -646401,6 +646416,19 @@
     - config:
         oslist: macos
       executable: Word Play.app
+3587610:
+  installDir: The Dark Queen of Mortholme
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: The Dark Queen of Mortholme Windows/The Dark Queen of Mortholme.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: The Dark Queen of Mortholme Linux/The Dark Queen of Mortholme.x86_64
+      type: default
 3592020: {}
 3592140:
   installDir: Anima Gate of Memories I & II Remastered
@@ -649723,6 +649751,14 @@
     schinese: 人中之龙 极３ / 人中之龙３外传 Dark Ties
     tchinese: 人中之龍 極３ / 人中之龍３外傳 Dark Ties
 3938440: {}
+3939100:
+  installDir: Insomnia
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: InsomniaP1.exe
+      type: default
 3946090: {}
 3947040: {}
 3948120:
@@ -650630,6 +650666,28 @@
         osarch: "64"
         oslist: windows
       executable: mywintercar.exe
+4172530:
+  installDir: Legend of YMIR
+  launch:
+    - arguments: "-unattended -NotInstalled -dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: "ProjectRE\\Binaries\\Win64\\YmirSteam-Win64-Shipping.exe"
+    - arguments: "-unattended -NotInstalled -dx12"
+      config:
+        betakey: inhouse
+        osarch: "64"
+        oslist: windows
+      description: inhouse 빌드
+      executable: "ProjectRE\\Binaries\\Win64\\YmirSteam.exe"
+    - arguments: "-unattended -NotInstalled -dx12"
+      config:
+        betakey: development
+        osarch: "64"
+        oslist: windows
+      description: development 빌드
+      executable: "ProjectRE\\Binaries\\Win64\\YmirSteam.exe"
 4173620:
   cloud:
     saves:
