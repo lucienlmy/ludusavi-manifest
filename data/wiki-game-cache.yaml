@@ -85770,6 +85770,7 @@ Final Fantasy IX:
 Final Fantasy Resonance:
   cloud:
     steam: true
+    xbox: true
   pageId: 217559
   steam: 3259780
 Final Fantasy Tactics - The Ivalice Chronicles:
@@ -206751,6 +206752,7 @@ Sky Noon:
   pageId: 217405
   steam: 1691750
   templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Sky Oceans_Data\\StreamingAssets\\settings.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OctetoStudios\\Sky Oceans\\}}"
 Sky Pirates of Actorius:
   cloud:

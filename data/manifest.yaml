@@ -636257,6 +636257,11 @@ Sky Noon:
   cloud:
     steam: true
   files:
+    "<base>/Sky Oceans_Data/StreamingAssets/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/OctetoStudios/Sky Oceans":
       tags:
         - save
