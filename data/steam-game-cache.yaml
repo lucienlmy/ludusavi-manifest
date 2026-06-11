@@ -639154,6 +639154,25 @@
       description: VFREVO.exe を実行（EAC無効）
       executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/
+3112730:
+  cloud:
+    saves:
+      - path: "Floor 84 Studio/Dog Man_ Mission Impawsible/{Steam3AccountID}/"
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Dog Man Mission Impawsible
+  launch:
+    - config:
+        oslist: windows
+      executable: Dog Man Mission Impawsible.exe
+  nameLocalized:
+    french: "Super Chien: Mission impossible"
+    japanese: ドッグマン：ミッション・ワンポッシブル
+    schinese: 《神探狗狗：爪不可及》
+    spanish: "Policán: Un día de perros"
+    tchinese: 超狗神探：《不狗能的任務》
 3113680:
   installDir: Missing Banban
   launch:
@@ -650061,6 +650080,9 @@
       executable: Death in a Party.exe
       type: default
 3989960:
+  installDir: Frog Sqwad
+  launch:
+    - executable: Frog Sqwad.exe
   nameLocalized:
     schinese: 青蛙小队🐸 / Frog Sqwad
     tchinese: 青蛙小隊🐸 / Frog Sqwad
@@ -650584,7 +650606,10 @@
   installDir: Rock Paper Kill
   launch:
     - executable: "rock_paper_kill-win32-x64\\rock_paper_kill.exe"
-4121170: {}
+4121170:
+  installDir: Fears to Fathom - Scratch Creek
+  launch:
+    - executable: Fears to Fathom - Scratch Creek.exe
 4122860:
   installDir: Z.A.T.O.  I Love the World and Everything In It
   launch:
@@ -651314,6 +651339,9 @@
         oslist: linux
       executable: "dosbox\\dosbox"
       type: default
+4354570:
+  nameLocalized:
+    english: FINAL FANTASY VII REVELATION
 4358270:
   nameLocalized:
     english: Pickmos

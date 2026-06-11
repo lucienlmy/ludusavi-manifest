@@ -21626,8 +21626,13 @@ Banished Castle VR:
 "Banishers: Ghosts of New Eden":
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1929810705
+  gogSide:
+    - 1296479691
+  lutris: banishers-ghosts-of-new-eden
   pageId: 192417
   steam: 1493640
   steamSide:
@@ -65326,6 +65331,11 @@ Dog In A Box:
 Dog Jam:
   pageId: 109356
   steam: 895120
+"Dog Man: Mission Impawsible":
+  cloud:
+    steam: true
+  pageId: 217626
+  steam: 3112730
 Dog Sled Saga:
   pageId: 37610
   steam: 286240
@@ -84621,6 +84631,7 @@ Fearmonium:
   pageId: 208708
   steam: 1763050
 "Fears to Fathom: Scratch Creek":
+  lutris: fears-to-fathom-scratch-creek
   pageId: 217553
   steam: 4121170
 "Fears to Fathom: Woodbury Getaway":
@@ -85897,6 +85908,7 @@ Final Fantasy VII Remake Intergrade:
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
 Final Fantasy VII Revelation:
   pageId: 217305
+  steam: 4354570
 "Final Fantasy VII: Ever Crisis":
   pageId: 191339
   steam: 2484110
@@ -137746,8 +137758,10 @@ MINImax Tinyverse:
 "MIO: Memories in Orbit":
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1785970306
   lutris: mio-memories-in-orbit
   pageId: 205203
   steam: 1672810

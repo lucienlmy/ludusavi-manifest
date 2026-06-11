@@ -67325,6 +67325,7 @@ Banished Castle VR:
 "Banishers: Ghosts of New Eden":
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Banishers Ghosts of New Eden/Saved/Config/Windows":
@@ -67345,7 +67346,12 @@ Banished Castle VR:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1929810705
   id:
+    gogExtra:
+      - 1296479691
+    lutris: banishers-ghosts-of-new-eden
     steamExtra:
       - 2317940
   installDir:
@@ -202603,6 +202609,23 @@ Dog Jam:
             store: steam
   steam:
     id: 895120
+"Dog Man: Mission Impawsible":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Floor 84 Studio/Dog Man_ Mission Impawsible/<storeUserId>/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dog Man Mission Impawsible: {}
+  launch:
+    "<base>/Dog Man Mission Impawsible.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3112730
 Dog Sled Saga:
   installDir:
     DogSledSaga: {}
@@ -261154,6 +261177,14 @@ Fearmonium:
   steam:
     id: 1763050
 "Fears to Fathom: Scratch Creek":
+  id:
+    lutris: fears-to-fathom-scratch-creek
+  installDir:
+    Fears to Fathom - Scratch Creek: {}
+  launch:
+    "<base>/Fears to Fathom - Scratch Creek.exe":
+      - when:
+          - store: steam
   steam:
     id: 4121170
 "Fears to Fathom: Woodbury Getaway":
@@ -264919,6 +264950,9 @@ Final Fantasy VII Remake Intergrade:
             store: steam
   steam:
     id: 1462040
+Final Fantasy VII Revelation:
+  steam:
+    id: 4354570
 Final Fantasy VII Windows Edition:
   alias: Final Fantasy VII (2020)
 "Final Fantasy VII: Ever Crisis":
@@ -282132,6 +282166,12 @@ Frog Out!:
   steam:
     id: 921720
 Frog Sqwad:
+  installDir:
+    Frog Sqwad: {}
+  launch:
+    "<base>/Frog Sqwad.exe":
+      - when:
+          - store: steam
   steam:
     id: 3989960
 Frog Struggles:
@@ -425216,6 +425256,7 @@ MINImax Tinyverse:
 "MIO: Memories in Orbit":
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Packages/FocusHomeInteractiveSA.MioMemoriesinOrbit_4hny5m903y3g0/SystemAppData/wgs":
@@ -425224,6 +425265,8 @@ MINImax Tinyverse:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1785970306
   id:
     lutris: mio-memories-in-orbit
   installDir:
