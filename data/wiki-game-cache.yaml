@@ -20702,6 +20702,9 @@ Bad Hotel:
     - "{{Game data/config|Steam|{{p|steam}}/userdata/{{p|uid}}/231720/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/BadHotel/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/231720/}}"
+Bad Magpie:
+  pageId: 217619
+  steam: 4278970
 Bad Milk:
   pageId: 175344
 Bad Mojo:
@@ -25838,8 +25841,12 @@ Beyond Gravity:
 Beyond Hanwell:
   cloud:
     steam: true
+  lutris: beyond-hanwell
   pageId: 198167
   steam: 2565550
+  steamSide:
+    - 2814030
+    - 3254710
 Beyond Magic:
   cloud:
     steam: true
@@ -39544,11 +39551,11 @@ Cave Story+:
   pageId: 2359
   steam: 200900
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Profile.dat}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Profile.dat|{{p|game}}\\screen.json|{{p|game}}\\controls.json}}"
     - "{{Game data/config|GOG.com|{{p|userprofile\\Documents}}\\My Games\\Cave Story+ (Galaxy)\\Profile.dat}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/CaveStory+/}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Profile.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profile.dat|{{p|game}}\\Profile-*-#.dat|{{p|game}}\\Save.dat}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile\\Documents}}\\My Games\\Cave Story+ (Galaxy)\\Profile.dat}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Profile.dat}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/CaveStory+/Profile.dat}}"
@@ -168794,7 +168801,9 @@ Paralives:
   steam: 1118520
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Paralives\\Paralives\\MyOptions.mod\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.Paralives.Paralives/}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Paralives\\Paralives\\MySavedGames.mod\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.Paralives.Paralives/MySavedGames.mod/}}"
 Parallax:
   pageId: 37618
   steam: 325060
@@ -206782,6 +206791,8 @@ Sky Sanctuary:
 Sky Shepherd:
   pageId: 134414
   steam: 1060450
+Sky Sports Football Manager:
+  pageId: 217617
 Sky Sports Football Quiz:
   pageId: 217609
 Sky Target:
@@ -213660,6 +213671,7 @@ SpeedRunners:
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SpeedRunners/}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\207140\\remote\\}}"
 "SpeedRunners 2: King of Speed":
+  lutris: speedrunners-2-king-of-speed
   pageId: 214048
   steam: 3183760
   templates:
@@ -232017,6 +232029,14 @@ The Alien Cube:
   steam: 1099220
   steamSide:
     - 1201440
+"The Alighieri Circle: Dante's Bloodline":
+  cloud:
+    steam: true
+  lutris: the-alighieri-circle-dantes-bloodline
+  pageId: 217621
+  steam: 4262620
+  steamSide:
+    - 4391700
 The Alliance Alive HD Remastered:
   cloud:
     gog: true

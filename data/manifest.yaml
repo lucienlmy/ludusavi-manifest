@@ -64544,6 +64544,9 @@ Bad Hotel:
             store: steam
   steam:
     id: 231720
+Bad Magpie:
+  steam:
+    id: 4278970
 Bad Mojo Redux:
   files:
     "<base>/SAVE":
@@ -79795,6 +79798,11 @@ Beyond Hanwell:
     "<winLocalAppData>/BeyondHanwell/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  id:
+    lutris: beyond-hanwell
+    steamExtra:
+      - 2814030
+      - 3254710
   installDir:
     Beyond Hanwell: {}
   launch:
@@ -122460,10 +122468,30 @@ Cave Story+:
   cloud:
     epic: true
   files:
+    "<base>/Profile-*-#.dat":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/Profile.dat":
       tags:
         - config
         - save
+      when:
+        - os: windows
+    "<base>/Save.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/controls.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/screen.json":
+      tags:
+        - config
       when:
         - os: windows
     "<home>/.local/share/CaveStory+":
@@ -519138,6 +519166,16 @@ Paralives:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/com.Paralives.Paralives":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.Paralives.Paralives/MySavedGames.mod":
+      tags:
+        - save
+      when:
+        - os: mac
   installDir:
     Paralives: {}
   launch:
@@ -658147,6 +658185,8 @@ SpeedRunners:
         - save
       when:
         - os: windows
+  id:
+    lutris: speedrunners-2-king-of-speed
   steam:
     id: 3183760
 Speedball (2026):
@@ -715649,6 +715689,15 @@ The Alien Cube:
             store: steam
   steam:
     id: 1099220
+"The Alighieri Circle: Dante's Bloodline":
+  cloud:
+    steam: true
+  id:
+    lutris: the-alighieri-circle-dantes-bloodline
+    steamExtra:
+      - 4391700
+  steam:
+    id: 4262620
 The Alliance Alive HD Remastered:
   cloud:
     gog: true

@@ -651061,6 +651061,7 @@
       executable: CODES.BAT
 4259930: {}
 4260840: {}
+4262620: {}
 4264230:
   cloud:
     saves:
@@ -651087,6 +651088,7 @@
       type: default
 4271520: {}
 4277630: {}
+4278970: {}
 4280420:
   installDir: Toilet Paper Idle
   launch:
