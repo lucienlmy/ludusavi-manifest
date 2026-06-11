@@ -197863,7 +197863,6 @@ Dinoblade:
   id:
     lutris: dinoblade
     steamExtra:
-      - 3646400
       - 4106740
   steam:
     id: 3440070
@@ -679423,15 +679422,23 @@ Street Fighter 6:
         - os: windows
           store: steam
   id:
+    lutris: street-fighter-6
     steamExtra:
       - 1792750
       - 1792751
       - 2224460
       - 2224461
       - 2224462
+      - 2494130
       - 2825190
       - 2825200
       - 3401790
+      - 3410460
+      - 3410470
+      - 3594250
+      - 3899360
+      - 4412680
+      - 4412690
   installDir:
     Street Fighter 6: {}
   launch:

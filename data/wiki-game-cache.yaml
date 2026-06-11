@@ -63666,7 +63666,6 @@ Dinoblade:
   pageId: 210456
   steam: 3440070
   steamSide:
-    - 3646400
     - 4106740
 Dinobreak:
   pageId: 195825
@@ -210625,6 +210624,8 @@ Sonic Rush 3D:
   pageId: 204875
   templates:
     - "{{Game data/config|Windows|{{P|USERPROFILE}}\\AppData\\LocalLow\\TeamVelaNova\\Sonic Rush 3D\\Rush3dUserSettings.json}}"
+Sonic Rush Rerun:
+  pageId: 217623
 Sonic Spinball:
   pageId: 8549
   steam: 34313
@@ -220630,6 +220631,7 @@ Street Fighter 30th Anniversary Collection:
 Street Fighter 6:
   cloud:
     steam: true
+  lutris: street-fighter-6
   pageId: 178027
   steam: 1364780
   steamSide:
@@ -220638,9 +220640,16 @@ Street Fighter 6:
     - 2224460
     - 2224461
     - 2224462
+    - 2494130
     - 2825190
     - 2825200
     - 3401790
+    - 3410460
+    - 3410470
+    - 3594250
+    - 3899360
+    - 4412680
+    - 4412690
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1364780\\remote\\win64_save\\}}"
