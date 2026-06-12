@@ -200908,6 +200908,9 @@ Servant of the Lake:
 Servo:
   pageId: 34296
   steam: 305510
+"Sesame Street: Friends & Fun":
+  pageId: 217653
+  steam: 3930330
 Session:
   cloud:
     steam: true
@@ -234235,6 +234238,8 @@ The Crimson Diamond:
 The Crimson Maid:
   cloud:
     steam: true
+    xbox: true
+  gog: 1450252608
   lutris: the-crimson-maid
   pageId: 192499
   steam: 2695260

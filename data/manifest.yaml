@@ -618404,6 +618404,9 @@ Servo:
             store: steam
   steam:
     id: 305510
+"Sesame Street: Friends & Fun":
+  steam:
+    id: 3930330
 Session:
   cloud:
     steam: true
@@ -722364,6 +722367,8 @@ The Crimson Diamond:
 The Crimson Maid:
   cloud:
     steam: true
+  gog:
+    id: 1450252608
   id:
     lutris: the-crimson-maid
     steamExtra:

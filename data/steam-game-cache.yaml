@@ -629259,7 +629259,9 @@
         oslist: windows
       description: Play Path of Exile
       executable: PathOfExileSteam.exe
-2695260: {}
+2695260:
+  nameLocalized:
+    schinese: 绯色侍女 The Crimson Maid
 2695270:
   cloud:
     saves:
@@ -635136,7 +635138,9 @@
         oslist: windows
       executable: MONOPOLY.exe
       type: default
-2929250: {}
+2929250:
+  nameLocalized:
+    schinese: 越过山丘 over the hill
 2929290:
   nameLocalized:
     schinese: 拉伸法师 Stretchmancer
@@ -649798,6 +649802,24 @@
         oslist: windows
       executable: system/SplinterCell2.exe
       type: default
+3930330:
+  nameLocalized:
+    brazilian: "Sesame Street: Amigos e Diversão"
+    danish: "Sesame Street: Venner og sjov"
+    dutch: "Sesame Street: Pret met je vriendjes"
+    french: "Sesame Street : Amis et Fun"
+    german: "Sesame Street: Freunde & Spaß"
+    italian: "Sesame Street: Amici e risate"
+    koreana: "Sesame Street: 프렌즈 & 펀"
+    latam: "Sesame Street: Alegría y Amigos"
+    polish: "Sesame Street: Ferajna i frajda"
+    portuguese: "Sesame Street: Festa com Amigos"
+    russian: "Sesame Street: Веселые друзья"
+    schinese: Sesame Street：好友同乐
+    spanish: "Sesame Street: Amigos y Risas"
+    swedish: "Sesame Street: Vänskap och skoj"
+    tchinese: "Sesame Street: 好友同樂 "
+    turkish: "Sesame Street: Neşeli Dostlar"
 3930510: {}
 3931060:
   cloud:
