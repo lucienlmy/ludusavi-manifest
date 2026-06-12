@@ -229115,14 +229115,19 @@ Eekeemoo - Splinters of the Dark Shard:
   steam:
     id: 413040
 Eets:
+  cloud:
+    steam: true
   files:
-    "<base>/Eets.app/Contents/Resources/User/Profiles/User/Profiles/*.prf":
+    "<base>/Contents/Resources/User/ProfilesUser/Profiles":
+      tags:
+        - save
       when:
         - os: mac
-          store: steam
     "<base>/User/Profiles/*.prf":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Eets: {}
   launch:
@@ -360675,6 +360680,11 @@ Indiana Jones and the Infernal Machine:
     HKEY_CURRENT_USER/Software/LucasArts Entertainment Company LLC/Indiana Jones and the Infernal Machine:
       tags:
         - config
+      when:
+        - store: steam
+    HKEY_CURRENT_USER/Software/LucasArts Entertainment Company LLC/Indiana Jones and the Infernal Machine/v1.0:
+      tags:
+        - config
   steam:
     id: 904540
 "Indiana Jones and the Last Crusade: The Graphic Adventure":
@@ -476767,6 +476777,12 @@ NZ78:
         - save
       when:
         - os: windows
+  installDir:
+    NZ78: {}
+  launch:
+    "<base>/Windows/nz78.exe":
+      - when:
+          - store: steam
   steam:
     id: 4125810
 "Naau: The Lost Eye":
@@ -726027,6 +726043,30 @@ The Elementalist:
             store: steam
   steam:
     id: 973410
+The Elephant Collection:
+  files:
+    "<home>/Library/Application Support/ElephantCollection/**/*.sol":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/ElephantCollection/**/*.sol":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Elephant Collection: {}
+  launch:
+    "<base>/ElephantCollection.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ElephantCollection_win.app/ElephantCollection.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2274110
 "The Elf on the Shelf: Christmas Heroes":
   steam:
     id: 3210120

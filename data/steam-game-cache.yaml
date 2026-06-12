@@ -612721,6 +612721,30 @@
   nameLocalized:
     schinese: 兽人必须死! 死亡陷阱
     tchinese: 獸人必須死! 死亡陷阱
+2274110:
+  cloud:
+    saves:
+      - path: ElephantCollection
+        pattern: "*.sol"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
+      - path: ElephantCollection
+        pattern: "*.sol"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Elephant Collection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ElephantCollection_win.app/ElephantCollection.exe
+    - config:
+        oslist: macos
+      executable: ElephantCollection.app
 2274120:
   cloud:
     saves:
@@ -645590,13 +645614,20 @@
     - arguments: "--rendering-method gl_compatibility"
       config:
         oslist: linux
-      description: Horripilant (Compatibility Mode)
+      description: Horripilant (OpenGL - Compatibility Mode)
       executable: Horripilant.x86_64
       type: option1
     - arguments: "--rendering-method gl_compatibility"
       config:
         oslist: windows
-      description: Horripilant (Compatibility Mode)
+      description: Horripilant (OpenGL - Compatibility Mode)
+      executable: Horripilant.exe
+      type: option1
+    - arguments: "--rendering-driver d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Horripilant (DirectX 12)
       executable: Horripilant.exe
       type: option1
 3527290:
@@ -650640,7 +650671,10 @@
 4124320:
   nameLocalized:
     japanese: サイレントロード
-4125810: {}
+4125810:
+  installDir: NZ78
+  launch:
+    - executable: Windows/nz78.exe
 4127530:
   cloud:
     saves:

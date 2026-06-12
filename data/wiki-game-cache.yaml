@@ -73914,8 +73914,13 @@ Eekeemoo - Splinters of the Dark Shard:
   pageId: 56812
   steam: 413040
 Eets:
+  cloud:
+    steam: true
   pageId: 8739
   steam: 6100
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\User\\Profiles\\*.prf}}"
+    - "{{Game data/saves|OS X|{{p|game}}/Contents/Resources/User/ProfilesUser/Profiles}}"
 Eets Munchies:
   cloud:
     steam: true
@@ -116746,7 +116751,8 @@ Indiana Jones and the Infernal Machine:
   pageId: 24862
   steam: 904540
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Indiana Jones and the Infernal Machine\\}}"
+    - "{{Game data/config|Steam|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Indiana Jones and the Infernal Machine}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Indiana Jones and the Infernal Machine\\v1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\}}"
 "Indiana Jones and the Last Crusade: The Graphic Adventure":
   cloud:
@@ -235445,6 +235451,11 @@ The Elemental Heart:
 The Elementalist:
   pageId: 135449
   steam: 973410
+The Elephant Collection:
+  pageId: 217650
+  steam: 2274110
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|appdata}}\\ElephantCollection\\Local Store\\#SharedObjects\\}}}}"
 "The Elf on the Shelf: Christmas Heroes":
   pageId: 209334
   steam: 3210120
