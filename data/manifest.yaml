@@ -376052,6 +376052,11 @@ Johns.game:
             store: steam
   steam:
     id: 597240
+Join Us:
+  cloud:
+    steam: true
+  steam:
+    id: 3401960
 "Joint Operations: Typhoon Rising":
   installDir:
     Joint Operations Combined Arms: {}
@@ -412997,9 +413002,12 @@ Little Nightmares III:
   id:
     lutris: little-nightmares-iii--1
     steamExtra:
+      - 2088781
       - 2088783
       - 2088785
       - 2088786
+      - 2088787
+      - 2088788
       - 2170190
   installDir:
     Little Nightmares III: {}
@@ -413184,6 +413192,11 @@ Little Rocket Lab:
           - store: steam
   steam:
     id: 2451100
+Little Samson:
+  cloud:
+    steam: true
+  steam:
+    id: 4008910
 Little Savior / リトルセイバー:
   files:
     "<winAppData>/Sorceryforce/LittleSavior01/App/1/5/**/*.save":
@@ -481713,6 +481726,11 @@ Nekojishi:
             store: steam
   steam:
     id: 570840
+"Nekome: Nazi Hunter":
+  cloud:
+    steam: true
+  steam:
+    id: 4200110
 "Nekomew's Potty Trouble":
   files:
     "<winDocuments>/PikewinGames/NekomewsPottyTrouble/*.dat":
@@ -731156,6 +731174,19 @@ The Green Fairy VR:
     Green Fairy VR: {}
   steam:
     id: 1600970
+The Green Light:
+  gog:
+    id: 2137859649
+  id:
+    lutris: the-green-light
+  installDir:
+    The Green Light: {}
+  launch:
+    "<base>/TheGreenLight.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1962950
 The Greenskins:
   steam:
     id: 705980
@@ -771856,6 +771887,8 @@ Toltec and the mysteries of the Secret Island:
         - save
       when:
         - os: windows
+  steam:
+    id: 3749720
 "Tom Clancy's XDefiant":
   alias: XDefiant
 "Tom Clancy's ruthless.com":

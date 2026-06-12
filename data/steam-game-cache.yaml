@@ -595783,6 +595783,10 @@
     japanese: サブノーティカ２
     koreana: 서브노티카 2
     schinese: Subnautica 2：异星水域
+1962950:
+  installDir: The Green Light
+  launch:
+    - executable: TheGreenLight.exe
 1963040:
   cloud:
     saves:
@@ -644083,6 +644087,7 @@
         oslist: windows
       executable: UIUniverse.exe
       type: default
+3401960: {}
 3402720:
   installDir: Clean Up Earth
   launch:
@@ -648388,6 +648393,12 @@
       type: default
 3748520: {}
 3749580: {}
+3749720:
+  nameLocalized:
+    japanese: ディビジョン リサージェンス
+    koreana: 더 디비전 리서전스
+    schinese: 全境封锁曙光
+    tchinese: 全境封鎖曙光
 3751160:
   nameLocalized:
     japanese: 桑の巫韻 霊界特急
@@ -650156,6 +650167,7 @@
       description: Play Torch of Shadows Linux
       executable: AppRun
       type: default
+4008910: {}
 4009730:
   cloud:
     saves:
@@ -650886,6 +650898,7 @@
     koreana: "토탈워: 워해머 40,000"
     schinese: 全面战争：战锤40000
     tchinese: 全軍破敵：戰鎚40000
+4200110: {}
 4200480:
   installDir: Reclaim! Azhe-giiwewining
   launch:

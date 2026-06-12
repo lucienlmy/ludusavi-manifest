@@ -121713,6 +121713,11 @@ Johnny Bung:
 Johns.game:
   pageId: 58892
   steam: 597240
+Join Us:
+  cloud:
+    steam: true
+  pageId: 217647
+  steam: 3401960
 "Joint Operations: Typhoon Rising":
   pageId: 41232
   steam: 32770
@@ -133868,9 +133873,12 @@ Little Nightmares III:
   pageId: 189359
   steam: 1392860
   steamSide:
+    - 2088781
     - 2088783
     - 2088785
     - 2088786
+    - 2088787
+    - 2088788
     - 2170190
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\LittleNightmaresIII\\Saved\\SaveGames\\OptionSettings.sav}}"
@@ -133935,6 +133943,11 @@ Little Rocket Lab:
     xbox: true
   pageId: 209586
   steam: 2451100
+Little Samson:
+  cloud:
+    steam: true
+  pageId: 217649
+  steam: 4008910
 Little Savior / リトルセイバー:
   pageId: 135236
   steam: 1074150
@@ -156457,6 +156470,11 @@ Nekojishi:
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Neko-171107s\\|{{p|game}}\\game\\saves\\}}"
 "Nekojishi: Lin & Partners":
   pageId: 169799
+"Nekome: Nazi Hunter":
+  cloud:
+    steam: true
+  pageId: 217643
+  steam: 4200110
 "Nekomew's Potty Trouble":
   pageId: 79281
   steam: 774221
@@ -237080,6 +237098,11 @@ The Greedy MaxCoon:
 The Green Fairy VR:
   pageId: 173310
   steam: 1600970
+The Green Light:
+  gog: 2137859649
+  lutris: the-green-light
+  pageId: 217645
+  steam: 1962950
 The Greenskins:
   pageId: 73941
   steam: 705980
@@ -250531,6 +250554,7 @@ Tom & Jerry:
   cloud:
     uplay: true
   pageId: 217303
+  steam: 3749720
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TheDivision\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\TheDivision\\Saved\\SaveGames\\}}"
