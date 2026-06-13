@@ -497184,7 +497184,7 @@ Object Impermanence:
   id:
     lutris: object-impermanence
     steamExtra:
-      - 4056540
+      - 4330960
   steam:
     id: 3595450
 Objects in Space:
@@ -774398,6 +774398,10 @@ Tormented Souls:
         - os: windows
   gog:
     id: 1243021945
+  id:
+    lutris: tormented-souls
+    steamExtra:
+      - 1782240
   installDir:
     Tormented Souls: {}
   launch:

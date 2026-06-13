@@ -161607,7 +161607,7 @@ Object Impermanence:
   pageId: 216124
   steam: 3595450
   steamSide:
-    - 4056540
+    - 4330960
 Objects in Space:
   cloud:
     gog: true
@@ -251431,8 +251431,11 @@ Tormented Souls:
     gog: true
     steam: true
   gog: 1243021945
+  lutris: tormented-souls
   pageId: 166271
   steam: 1367590
+  steamSide:
+    - 1782240
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\duale-abstractd\\Tormented Souls Release\\}}"
     - "{{Game data/config|GOG.com|{{P|userprofile\\appdata\\locallow}}\\duale-abstractd\\Tormented Souls Release GOG\\}}"
