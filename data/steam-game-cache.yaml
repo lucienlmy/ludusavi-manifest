@@ -609475,6 +609475,10 @@
         pattern: "*"
         recursive: true
         root: WinAppDataRoaming
+      - path: "Godot\\app_userdata\\Unrailed2\\savegamesNew"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
     overrides:
       - addPath: ""
         os: MacOS
@@ -609491,6 +609495,11 @@
         oslist: macos
       description: Unrailed2.app/Contents/MacOS/Unrailed2
       executable: Unrailed2.app/Contents/MacOS/Unrailed2
+    - arguments: ++ --booth
+      config:
+        betakey: booth-demo
+      executable: "data_UnrailedGodot_windows_x86_64\\Bootstrap.exe"
+      workingdir: data_UnrailedGodot_windows_x86_64
     - arguments: "--rendering-driver opengl3 --resolution 1280x720 -f ++ --safe"
       config:
         oslist: macos
@@ -609529,6 +609538,7 @@
     japanese: "Unrailed 2:バック・オン・トラック"
     koreana: "Unrailed 2: Back on Track (언레일드 2: 백 온 트랙)"
     schinese: 一起开火车2：汽笛重鸣
+    tchinese: "Unrailed 2: Back on Track (一起開火車2：汽笛重鳴)"
 2211280:
   installDir: RollerChampions
   launch:
