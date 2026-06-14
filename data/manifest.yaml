@@ -23133,6 +23133,13 @@ Against the Storm:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/HoodedHorse.AgainsttheStorm_znaey1dw2bdpr/SystemAppData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1460447406
   id:
@@ -104437,6 +104444,10 @@ Broken of Darkness:
   steam:
     id: 1199610
 "BrokenLore: Ascend":
+  id:
+    lutris: brokenlore-ascend
+    steamExtra:
+      - 4596120
   steam:
     id: 4051470
 "BrokenLore: Dark Dawn":
@@ -189094,6 +189105,24 @@ Demon Lord Reincarnation:
             store: steam
   steam:
     id: 2395150
+"Demon Lord: Just a Block":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/YuWave/DemonLordJustABlock/Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    DemonLordJustABlock: {}
+  launch:
+    "<base>/DemonLordJustABlock.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3720420
 "Demon Mark: A Russian Saga":
   cloud:
     steam: true
@@ -206858,6 +206887,22 @@ DoraKone:
             store: steam
   steam:
     id: 1034880
+Doraemon Dorayaki Shop Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    DoraemonDorayakiShopStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2934180
 Doraemon Story of Seasons:
   alias: "Doraemon: Story of Seasons"
 "Doraemon Story of Seasons: Friends of the Great Kingdom":
@@ -210119,6 +210164,11 @@ Dragon Quest III HD-2D Remake:
     DRAGON QUEST MONSTERS 3: {}
   steam:
     id: 2175540
+"Dragon Quest Monsters: The Withered World":
+  cloud:
+    steam: true
+  steam:
+    id: 3681610
 Dragon Quest Rivals Ace:
   installDir:
     DRAGON QUEST RIVALS: {}
@@ -265221,12 +265271,47 @@ Final Fantasy XIV Online (2010):
       when:
         - os: windows
   id:
+    lutris: final-fantasy-xiv-online
     steamExtra:
-      - 262341
-      - 262342
-      - 267511
-      - 267512
-      - 1016870
+      - 312060
+      - 2649240
+      - 3372220
+      - 3372240
+      - 3372250
+      - 3372260
+      - 3372270
+      - 3372280
+      - 3372290
+      - 3372300
+      - 3372310
+      - 3372320
+      - 3372330
+      - 3951080
+      - 3951100
+      - 3951110
+      - 3951120
+      - 3951130
+      - 3951140
+      - 4164960
+      - 4164970
+      - 4165050
+      - 4165070
+      - 4165090
+      - 4165140
+      - 4167010
+      - 4167030
+      - 4167060
+      - 4167100
+      - 4167130
+      - 4167170
+      - 4167220
+      - 4167760
+      - 4167790
+      - 4167800
+      - 4167810
+      - 4167820
+      - 4425350
+      - 4491290
   installDir:
     FINAL FANTASY XIV Online: {}
   launch:
@@ -337700,6 +337785,13 @@ High on Life 2:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj/SystemAppData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: high-on-life-2
   installDir:
@@ -535177,6 +535269,12 @@ Planet of Lana:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Thunderful.PlanetofLana_8j53pwgd019sy/SystemAppData":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Packages/Thunderful.PlanetofLana_8j53pwgd019sy/SystemAppData/wgs/<storeUserId>":
       tags:
         - save
@@ -535215,6 +535313,13 @@ Planet of Lana II:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Thunderful.4612712B15870_8j53pwgd019sy/SystemAppData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1486363776
   id:
@@ -648784,6 +648889,8 @@ Sonic P-06:
       when:
         - os: windows
 Sonic Pico Park:
+  id:
+    lutris: sonic-pico-park
   steam:
     id: 4304060
 Sonic Project Hero:
@@ -718636,6 +718743,17 @@ The Blackwell Legacy:
             store: steam
   steam:
     id: 80330
+The Blackwood Project:
+  installDir:
+    TheBlackwoodProject: {}
+  launch:
+    "<base>/TheBlackwoodProject.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4566920
 The Blight:
   steam:
     id: 954900
@@ -757452,6 +757570,9 @@ The Walking Dead Onslaught:
             store: steam
   steam:
     id: 261030
+"The Walking Dead: Streets of Survival":
+  steam:
+    id: 3777850
 "The Walking Dead: Survival Instinct":
   cloud:
     steam: true

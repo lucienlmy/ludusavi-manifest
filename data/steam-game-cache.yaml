@@ -635364,6 +635364,24 @@
         oslist: windows
       executable: Travellin Cats in Christmas.exe
       type: default
+2934180:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: DoraemonDorayakiShopStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: ドラえもんのどら焼き屋さん物語
+    koreana: 도라에몽의 팥빵 가게 스토리 (Doraemon Dorayaki Shop Story)
+    schinese: 哆啦A夢的銅鑼燒店物語 (Doraemon Dorayaki Shop Story)
+    tchinese: 哆啦A夢的銅鑼燒店物語 (Doraemon Dorayaki Shop Story)
+    thai: โดราเอมอนเรื่องราวร้านโดรายากิ (Doraemon Dorayaki Shop Story)
 2934190:
   cloud:
     saves:
@@ -647888,6 +647906,18 @@
     japanese: 仁王３
     schinese: 仁王３
     tchinese: 仁王３
+3681610:
+  nameLocalized:
+    english: "DRAGON QUEST MONSTERS: The Withered World"
+    french: "DRAGON QUEST MONSTERS : Le royaume de Boisflétri"
+    german: "DRAGON QUEST MONSTERS: Die welkende Welt"
+    italian: "DRAGON QUEST MONSTERS: Il regno sfiorito"
+    japanese: ドラゴンクエストモンスターズ４　枯れ木の国のビアンカ・フローラ
+    koreana: 드래곤 퀘스트 몬스터즈 4 메마른 나라의 비앙카와 플로라
+    latam: "DRAGON QUEST MONSTERS: El reino marchito"
+    schinese: 勇者斗恶龙怪物仙境4 枯木国的碧安卡与芙萝拉
+    spanish: "DRAGON QUEST MONSTERS: El reino marchito"
+    tchinese: 勇者鬥惡龍怪物仙境4 枯木國的碧安卡與芙蘿拉
 3681810:
   installDir: Blue Protocol Star Resonance
   launch:
@@ -648282,6 +648312,31 @@
     schinese: 人中之龙 极２
     tchinese: 人中之龍 極２
 3717830: {}
+3720420:
+  cloud:
+    saves:
+      - path: YuWave/DemonLordJustABlock
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: YuWave/DemonLordJustABlock
+            replace: ".config/unity3d/YuWave/DemonLordJustABlock"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: DemonLordJustABlock
+  launch:
+    - executable: DemonLordJustABlock.exe
+      type: default
+  nameLocalized:
+    english: "Demon Lord: Just a Block"
+    japanese: "カード魔王: 頭だけになっても！"
+    koreana: "카드 마왕: 머리만 남았다!"
+    schinese: 卡片魔王：只剩个头！
+    tchinese: 卡片魔王：只剩個頭！
 3720440: {}
 3720530: {}
 3722330: {}
@@ -648691,6 +648746,7 @@
     - config:
         oslist: windows
       executable: fluff.exe
+3777850: {}
 3779190:
   installDir: The Puppy
   launch:
@@ -651768,6 +651824,14 @@
       executable: BouncingBall.exe
       type: default
 4566700: {}
+4566920:
+  installDir: TheBlackwoodProject
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TheBlackwoodProject.exe
+      type: default
 4570720:
   nameLocalized:
     japanese: "ドラゴンソード:アウェイクニング"

@@ -7333,7 +7333,9 @@ Against the Storm:
     - 3075500
     - 3725110
   templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.AgainsttheStorm_znaey1dw2bdpr\\SystemAppData}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Eremite Games\\Against the Storm}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.AgainsttheStorm_znaey1dw2bdpr\\SystemAppData}}"
 Agapan:
   pageId: 47707
   steam: 344260
@@ -33701,8 +33703,11 @@ Broken of Darkness:
   pageId: 153648
   steam: 1199610
 "BrokenLore: Ascend":
+  lutris: brokenlore-ascend
   pageId: 212258
   steam: 4051470
+  steamSide:
+    - 4596120
 "BrokenLore: Dark Dawn":
   lutris: brokenlore-dark-dawn--1
   pageId: 212260
@@ -60804,6 +60809,14 @@ Demon Lord Reincarnation:
   steam: 2395150
   templates:
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Graverobber Foundation/Demon Lord Reincarnation/}}"
+"Demon Lord: Just a Block":
+  cloud:
+    steam: true
+  pageId: 217686
+  steam: 3720420
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\YuWave\\DemonLordJustABlock\\Saves }}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\YuWave\\DemonLordJustABlock\\Saves }}"
 "Demon Mark: A Russian Saga":
   cloud:
     steam: true
@@ -66670,6 +66683,11 @@ Dopamine:
 DoraKone:
   pageId: 132136
   steam: 1034880
+Doraemon Dorayaki Shop Story:
+  cloud:
+    steam: true
+  pageId: 217677
+  steam: 2934180
 "Doraemon Story of Seasons: Friends of the Great Kingdom":
   cloud:
     steam: true
@@ -67744,6 +67762,11 @@ Dragon Quest III HD-2D Remake:
     steam: true
   pageId: 197682
   steam: 2175540
+"Dragon Quest Monsters: The Withered World":
+  cloud:
+    steam: true
+  pageId: 217689
+  steam: 3681610
 Dragon Quest Rivals Ace:
   pageId: 167922
   steam: 1223840
@@ -86002,14 +86025,49 @@ Final Fantasy XIV Online (2010):
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\FINAL FANTASY XIV\\}}"
 "Final Fantasy XIV: A Realm Reborn":
+  lutris: final-fantasy-xiv-online
   pageId: 1583
   steam: 39210
   steamSide:
-    - 262341
-    - 262342
-    - 267511
-    - 267512
-    - 1016870
+    - 312060
+    - 2649240
+    - 3372220
+    - 3372240
+    - 3372250
+    - 3372260
+    - 3372270
+    - 3372280
+    - 3372290
+    - 3372300
+    - 3372310
+    - 3372320
+    - 3372330
+    - 3951080
+    - 3951100
+    - 3951110
+    - 3951120
+    - 3951130
+    - 3951140
+    - 4164960
+    - 4164970
+    - 4165050
+    - 4165070
+    - 4165090
+    - 4165140
+    - 4167010
+    - 4167030
+    - 4167060
+    - 4167100
+    - 4167130
+    - 4167170
+    - 4167220
+    - 4167760
+    - 4167790
+    - 4167800
+    - 4167810
+    - 4167820
+    - 4425350
+    - 4491290
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\FINAL FANTASY XIV - A Realm Reborn\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn/}}"
@@ -98335,6 +98393,8 @@ Golden8bits:
   pageId: 6033
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\cfg\\}}"
+Goldeneye Remaster:
+  pageId: 217679
 Goldmine:
   pageId: 90094
   steam: 740790
@@ -109329,7 +109389,9 @@ High on Life 2:
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\Windows\\}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\WinGDK\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj\\SystemAppData\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\HighOnLife2\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj\\SystemAppData\\}}"
 HighFleet:
   cloud:
     steam: true
@@ -174139,6 +174201,7 @@ Planet of Lana:
   pageId: 187322
   steam: 1608230
   templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.PlanetofLana_8j53pwgd019sy\\SystemAppData\\}}"
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Wishfully\\Planet of Lana\\|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana\\settings}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.PlanetofLana_8j53pwgd019sy\\SystemAppData\\wgs\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana\\*.sav}}"
@@ -174154,7 +174217,9 @@ Planet of Lana II:
     - 4349060
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Wishfully\\Planet of Lana 2\\|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana 2\\settings}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.4612712B15870_8j53pwgd019sy\\SystemAppData}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana 2\\*.sav}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.4612712B15870_8j53pwgd019sy\\SystemAppData}}"
 Planet of Mubu:
   pageId: 60097
   steam: 602170
@@ -210617,6 +210682,7 @@ Sonic P-06:
     - "{{Game data/config|Windows|{{P|game}}\\Sonic the Hedgehog_Data\\Settings.bin}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles}}"
 Sonic Pico Park:
+  lutris: sonic-pico-park
   pageId: 217431
   steam: 4304060
 Sonic Project Hero:
@@ -233036,6 +233102,9 @@ The Blackwell Legacy:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Blackwell Legacy\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/My Saved Games/Blackwell Legacy v1.7/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/ags/Blackwell Legacy/}}"
+The Blackwood Project:
+  pageId: 217685
+  steam: 4566920
 The Blight:
   pageId: 121331
   steam: 954900
@@ -245951,6 +246020,9 @@ The Walking Dead Onslaught:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\The Walking Dead Season Two\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/The Walking Dead - Season Two/}}"
+"The Walking Dead: Streets of Survival":
+  pageId: 217683
+  steam: 3777850
 "The Walking Dead: Survival Instinct":
   cloud:
     steam: true
