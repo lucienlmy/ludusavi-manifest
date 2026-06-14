@@ -278017,7 +278017,7 @@ Forza Horizon 6:
       when:
         - os: windows
           store: steam
-    "<winLocalAppData>/Packages/Microsoft.ForteBaseGame_8wekyb3d8bbwe/SystemAppData/wgs":
+    "C:/XboxGames/GameSave/pgs/u_<storeUserId>_16D460":
       tags:
         - save
       when:
@@ -494571,17 +494571,16 @@ Nova Roma:
     gog: true
     steam: true
   files:
+    "<home>/AppData/LocalLow/LionShield/Nova Roma":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/LionShield/Nova Roma/Saves":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/LionShield/Nova Roma/Saves":
-      when:
-        - os: mac
-          store: steam
-    "<xdgConfig>/unity3d/LionShield/Nova Roma/Saves":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   gog:
     id: 1113541187
   installDir:
@@ -503808,6 +503807,11 @@ One Piece Odyssey:
             store: steam
   steam:
     id: 425220
+"One Piece: Grand Gourmet":
+  cloud:
+    steam: true
+  steam:
+    id: 3905010
 "One Piece: Pirate Warriors 3":
   files:
     "<winDocuments>/BNE/One Piece Pirate Warriors 3/SAVEDATA":
@@ -530161,7 +530165,7 @@ Pinchcliffe Grand Prix:
   id:
     lutris: pinchcliffe-grand-prix
   registry:
-    HKEY_LOCAL_MACHINE/Software/WOW6432Node/CapricornuS AS/Flåklypa Grand Prix:
+    HKEY_LOCAL_MACHINE/SOFTWARE/CapricornuS AS/Flåklypa Grand Prix:
       tags:
         - config
 Pine:
@@ -633162,6 +633166,42 @@ Sin Slayers:
       - 1057690
   steam:
     id: 783190
+"Sin Slayers: Reign of The 8th":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/Sin Slayers.app/Contents/Saves/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<base>/Sin Slayers_Data/Saves/**/*.dat":
+      when:
+        - store: steam
+  gog:
+    id: 2081337550
+  id:
+    lutris: sin-slayers-reign-of-the-8th
+    steamExtra:
+      - 3313990
+      - 3324920
+  installDir:
+    Sin Slayers Reign of The 8th: {}
+  launch:
+    "<base>/Sin Slayers.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sin Slayers.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Sin Slayers.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2790000
 Sin play:
   steam:
     id: 1173040
@@ -797941,6 +797981,22 @@ Undercrewed:
             store: steam
   steam:
     id: 731310
+Undercroft Warriors:
+  cloud:
+    steam: true
+  files:
+    "<base>/savefile*.sav":
+      when:
+        - store: steam
+  installDir:
+    Undercroft warriors: {}
+  launch:
+    "<base>/undercroft warriors.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2547140
 Underdog Detective:
   cloud:
     steam: true
@@ -854638,13 +854694,15 @@ Zero Parades:
     steam: true
   files:
     "<home>/AppData/LocalLow/ZAUM Studio/Zero Parades/Saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
     "<home>/AppData/LocalLow/ZAUM Studio/Zero Parades/Settings":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   gog:
     id: 1726016440
   id:

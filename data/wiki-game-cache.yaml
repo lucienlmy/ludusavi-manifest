@@ -90014,7 +90014,7 @@ Forza Horizon 6:
     - 4562050
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\}}"
-    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.ForteBaseGame_8wekyb3d8bbwe\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Microsoft Store|C:\\XboxGames\\GameSave\\pgs\\u_{{p|uid}}_16D460\\}}"
     - "{{Game data/saves|Steam|{{P|localappdata}}\\ForzaHorizon6\\LocalStorage_Shared\\User_{{P|uid}}\\}}"
 Forza Motorsport:
   pageId: 162113
@@ -160813,8 +160813,12 @@ Nova Roma:
     steam: true
     xbox: true
   gog: 1113541187
+  malformed: true
   pageId: 214061
   steam: 2426530
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\LionShield\\Nova Roma\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\LionShield\\Nova Roma\\Saves}}"
 Nova Strike:
   cloud:
     steam: true
@@ -163782,6 +163786,11 @@ One Piece Odyssey:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\425220\\remote\\SYSTEM-DATA\\}}"
+"One Piece: Grand Gourmet":
+  cloud:
+    steam: true
+  pageId: 217675
+  steam: 3905010
 "One Piece: Pirate Warriors 3":
   lutris: one-piece-pirate-warriors-3
   pageId: 23070
@@ -172510,7 +172519,7 @@ Pinchcliffe Grand Prix:
   lutris: pinchcliffe-grand-prix
   pageId: 176137
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\Software\\WOW6432Node\\CapricornuS AS\\Flåklypa Grand Prix\\}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\CapricornuS AS\\Flåklypa Grand Prix}}"
     - "{{Game data/saves|Windows|{{p|game}}\\profiles}}"
 Pine:
   cloud:
@@ -205715,6 +205724,17 @@ Sin Slayers:
   steam: 783190
   steamSide:
     - 1057690
+"Sin Slayers: Reign of The 8th":
+  cloud:
+    gog: true
+    steam: true
+  gog: 2081337550
+  lutris: sin-slayers-reign-of-the-8th
+  pageId: 217671
+  steam: 2790000
+  steamSide:
+    - 3313990
+    - 3324920
 Sin play:
   pageId: 150363
   steam: 1173040
@@ -259905,6 +259925,11 @@ Undercover Agent:
 Undercrewed:
   pageId: 87535
   steam: 731310
+Undercroft Warriors:
+  cloud:
+    steam: true
+  pageId: 217669
+  steam: 2547140
 Underdog Detective:
   cloud:
     steam: true
@@ -278854,6 +278879,9 @@ Zero One / 杀戮世界:
   steamSide:
     - 4464230
     - 4719150
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\ZAUM Studio\\Zero Parades\\Settings}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ZAUM Studio\\Zero Parades\\Saves}}"
 Zero Point:
   pageId: 49434
   steam: 268710

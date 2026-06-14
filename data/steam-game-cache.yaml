@@ -625015,6 +625015,17 @@
     german: Baphomets Fluch - Der Gral des Parzival
     italian: "Broken Sword - Parzival's Stone"
     spanish: "Broken Sword: La gema de Parzival"
+2547140:
+  cloud:
+    saves:
+      - path: ""
+        pattern: savefile*.sav
+        root: gameinstall
+  installDir: Undercroft warriors
+  launch:
+    - config:
+        oslist: windows
+      executable: undercroft warriors.exe
 2548070:
   installDir: "Yujiro's_Mansion"
   launch:
@@ -632061,6 +632072,32 @@
   launch:
     - executable: CULT_VS_GAL.exe
 2789680: {}
+2790000:
+  cloud:
+    saves:
+      - path: Sin Slayers_Data/Saves
+        pattern: "*.dat"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Sin Slayers_Data/Saves
+            replace: Sin Slayers.app/Contents/Saves
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Sin Slayers Reign of The 8th
+  launch:
+    - config:
+        oslist: windows
+      executable: Sin Slayers.exe
+    - config:
+        oslist: linux
+      executable: Sin Slayers.x86_64
+    - config:
+        oslist: macos
+      executable: Sin Slayers.app
 2790020:
   cloud:
     saves:
@@ -649640,6 +649677,13 @@
     koreana: 폐허 콜로니로부터 탈출
     schinese: 迷失在太空废墟中的母亲
     tchinese: 迷失在太空廢墟中的母親
+3905010:
+  nameLocalized:
+    japanese: ONE PIECE 海のごちそうレストラン
+    koreana: 원피스 그랜드 레스토랑
+    schinese: ONE PIECE 海洋盛宴
+    tchinese: ONE PIECE 海洋盛宴
+    thai: ONE PIECE ภัตตาคารเลิศรสลอยทะเล (ชื่อชั่วคราว)
 3906660:
   cloud:
     saves:
