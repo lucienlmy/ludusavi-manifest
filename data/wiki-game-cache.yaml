@@ -24168,6 +24168,12 @@ Beastiarium:
 Beastmancer:
   pageId: 55620
   steam: 562250
+Beastro:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 217692
+  steam: 2417470
 Beasts Battle:
   cloud:
     steam: true
@@ -24655,6 +24661,12 @@ Beatcrash:
   steam: 1064360
 Beatdown:
   pageId: 210460
+Beatdown City Survivors:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 217691
+  steam: 3383040
 Beater Spirit:
   pageId: 34493
   steam: 482120
@@ -30433,6 +30445,8 @@ Blueshift:
   pageId: 214975
   steam: 3064040
 "Bluey's Quest for the Gold Pen":
+  cloud:
+    xbox: true
   pageId: 215044
   steam: 4127530
 "Bluey: The Videogame":
@@ -33712,6 +33726,14 @@ Broken of Darkness:
   lutris: brokenlore-dark-dawn--1
   pageId: 212260
   steam: 2283250
+"BrokenLore: Don't Lie":
+  cloud:
+    xbox: true
+  lutris: brokenlore-dont-lie
+  pageId: 210156
+  renamedFrom:
+    - "BrokenLore: Don’t Lie"
+  steam: 3886200
 "BrokenLore: Don't Play":
   pageId: 215963
   steam: 4549480
@@ -33724,10 +33746,6 @@ Broken of Darkness:
   steamSide:
     - 3272530
     - 3818060
-"BrokenLore: Don’t Lie":
-  lutris: brokenlore-dont-lie
-  pageId: 210156
-  steam: 3886200
 "BrokenLore: Follow":
   cloud:
     steam: true
@@ -90331,6 +90349,8 @@ Foxy Dumplings:
     steam: true
   pageId: 212223
   steam: 4184130
+  steamSide:
+    - 4731190
 FoxyLand:
   pageId: 73248
   steam: 718320
@@ -91273,6 +91293,8 @@ Frog Out!:
   pageId: 110086
   steam: 921720
 Frog Sqwad:
+  cloud:
+    xbox: true
   pageId: 214983
   steam: 3989960
 Frog Struggles:
@@ -122564,6 +122586,12 @@ JunkerBot:
   steam: 730270
 Junkland Jam:
   pageId: 209412
+Junkster:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 217694
+  steam: 1675860
 Junkworld TD:
   pageId: 198869
 Junkyard Simulator:
@@ -195769,6 +195797,11 @@ STAR SOD:
 STARBOY:
   pageId: 122300
   steam: 963980
+"STARSEEKER: Astroneer Expeditions":
+  cloud:
+    xbox: true
+  pageId: 217693
+  steam: 1454370
 STATIONflow:
   cloud:
     steam: true

@@ -558311,6 +558311,15 @@
       executable: One More Island.exe
       type: default
 1454240: {}
+1454370:
+  installDir: Starseeker
+  launch:
+    - config:
+        oslist: windows
+      executable: Starseeker.exe
+      type: default
+  nameLocalized:
+    schinese: 星际探索者：异星远征
 1454400:
   installDir: Cookie Clicker
   launch:
@@ -575508,6 +575517,7 @@
   launch:
     - executable: 1000xRESIST.exe
       type: default
+1675860: {}
 1675900:
   installDir: warlander
   launch:
@@ -618846,6 +618856,42 @@
       config:
         oslist: linux
       executable: BeastOfGlenkildove
+2417470:
+  cloud:
+    saves:
+      - path: "Spinel_02\\Saved\\SaveGames"
+        pattern: SpinelSaveSlot.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Beastro
+  launch:
+    - arguments: "-fullcrashdump"
+      config:
+        betakey: devtest
+      description: Beastro - DevTest
+      executable: Spinel_02.exe
+      type: option1
+    - config:
+        betakey: kepler_internal
+        oslist: windows
+      description: Launch Kepler Playtest build
+      executable: Spinel_02.exe
+      type: option1
+    - description: Play Beastro
+      executable: Spinel_02.exe
+      type: default
+    - arguments: "-logPSO"
+      config:
+        betakey: "devtest, perftest_nolog"
+      description: " and Gather PSOs for Beastro"
+      executable: Spinel_02.exe
+      type: option1
+  nameLocalized:
+    japanese: Beastro ビーストロ
+    koreana: 비스트로 Beastro
+    schinese: 欢迎光临 Beastro
+    tchinese: 歡迎光臨 Beastro
 2417580:
   cloud:
     saves:
@@ -643887,6 +643933,22 @@
         oslist: windows
       executable: ToHeart.exe
       type: default
+3383040:
+  cloud:
+    saves:
+      - path: NuChallenger/BDC Survivors
+        pattern: Save.json
+        root: WinAppDataLocalLow
+      - path: NuChallenger/BDC Survivors
+        pattern: Options.json
+        root: WinAppDataLocalLow
+  installDir: Beatdown City Survivors
+  launch:
+    - config:
+        oslist: windows
+      description: Default
+      executable: BDC Survivors.exe
+      type: default
 3383670: {}
 3384440:
   installDir: blzh
@@ -650981,7 +651043,10 @@
     koreana: "골목길: 귀흔"
     schinese: 深巷
     tchinese: 深巷
-4184130: {}
+4184130:
+  nameLocalized:
+    schinese: 狐狸饺子
+    tchinese: 狐狸饺子
 4184360: {}
 4184400: {}
 4184420: {}

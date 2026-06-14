@@ -74835,6 +74835,22 @@ Beastmancer:
             store: steam
   steam:
     id: 562250
+Beastro:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Spinel_02/Saved/SaveGames/SpinelSaveSlot.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Beastro: {}
+  launch:
+    "<base>/Spinel_02.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2417470
 Beasts Battle:
   cloud:
     steam: true
@@ -75808,6 +75824,25 @@ Beatcrash:
     Beatcrash: {}
   steam:
     id: 1064360
+Beatdown City Survivors:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NuChallenger/BDC Survivors/Options.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/NuChallenger/BDC Survivors/Save.json":
+      when:
+        - store: steam
+  installDir:
+    Beatdown City Survivors: {}
+  launch:
+    "<base>/BDC Survivors.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3383040
 Beater Spirit:
   steam:
     id: 482120
@@ -104455,6 +104490,11 @@ Broken of Darkness:
     lutris: brokenlore-dark-dawn--1
   steam:
     id: 2283250
+"BrokenLore: Don't Lie":
+  id:
+    lutris: brokenlore-dont-lie
+  steam:
+    id: 3886200
 "BrokenLore: Don't Play":
   steam:
     id: 4549480
@@ -104480,10 +104520,7 @@ Broken of Darkness:
   steam:
     id: 2351330
 "BrokenLore: Don’t Lie":
-  id:
-    lutris: brokenlore-dont-lie
-  steam:
-    id: 3886200
+  alias: "BrokenLore: Don't Lie"
 "BrokenLore: Follow":
   cloud:
     steam: true
@@ -279029,6 +279066,9 @@ Foxus:
 Foxy Dumplings:
   cloud:
     steam: true
+  id:
+    steamExtra:
+      - 4731190
   steam:
     id: 4184130
 FoxyLand:
@@ -378472,6 +378512,11 @@ JunkerBot:
             store: steam
   steam:
     id: 730270
+Junkster:
+  cloud:
+    steam: true
+  steam:
+    id: 1675860
 Junkyard Simulator:
   files:
     "<winLocalAppData>/JunkYard/Saved/SaveGames/*.sav":
@@ -602188,6 +602233,16 @@ STARBOY:
         workingDir: "<base>/STARBOY"
   steam:
     id: 963980
+"STARSEEKER: Astroneer Expeditions":
+  installDir:
+    Starseeker: {}
+  launch:
+    "<base>/Starseeker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1454370
 STATIONflow:
   cloud:
     steam: true
