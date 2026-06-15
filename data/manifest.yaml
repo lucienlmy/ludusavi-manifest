@@ -55525,6 +55525,9 @@ Atari Vault:
           - store: steam
   steam:
     id: 1502980
+"Atelier Karia: The Night Kingdom & the Guide of Memories":
+  steam:
+    id: 4532500
 "Atelier Lulua: The Scion of Arland":
   cloud:
     steam: true
@@ -329153,6 +329156,12 @@ Hellbender:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/HellbladeGame/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/HellbladeGame/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -329163,12 +329172,6 @@ Hellbender:
         - save
       when:
         - os: windows
-    "<winLocalAppData>/Packages/NinjaTheoryLtd.HellbladeSenuasSacrifice_nkbnxvch6z38g/LocalState/HellbladeGame/Saved/Config/UWP":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
     "<winLocalAppData>/Packages/NinjaTheoryLtd.HellbladeSenuasSacrifice_nkbnxvch6z38g/SystemAppData/wgs":
       tags:
         - save
@@ -692461,6 +692464,8 @@ Super X Chess:
   steam:
     id: 814990
 Super Yooka-Laylee Kart:
+  id:
+    lutris: super-yooka-laylee-kart
   steam:
     id: 3348210
 Super Zombie Arcade:
@@ -740042,8 +740047,18 @@ The Lift:
   steam:
     id: 843160
 "The Lift: Supernatural Handyman Simulator":
+  files:
+    "<home>/AppData/LocalLow/Fantastic Signals/The Lift/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: the-lift--1
+  registry:
+    HKEY_CURRENT_USER/Software/Fantastic Signals/The Lift:
+      tags:
+        - config
   steam:
     id: 3283240
 The Light:

@@ -121381,12 +121381,12 @@
       executable: dowser
       type: default
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0
         oslist: macos
       description: Launch game (skip launcher)
       executable: hoi4.app
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0
         oslist: linux
       description: Launch game (skip launcher)
       executable: run_hoi4
@@ -121435,7 +121435,7 @@
       description: Launch game (1.7.1 and older)
       executable: hoi4
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0
         oslist: windows
       description: Launch game (skip launcher)
       executable: hoi4.exe
@@ -641548,6 +641548,13 @@
       description: Launch with OpenGL (Not Recommended)
       executable: Psychopomp GOLD.exe
 3244220:
+  cloud:
+    saves:
+      - path: "DiggingGame\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
   installDir: A Game About Digging A Hole
   launch:
     - config:
@@ -651967,6 +651974,17 @@
 4514070: {}
 4514310: {}
 4516190: {}
+4532500:
+  nameLocalized:
+    french: "Atelier Karia : Le Royaume de la Nuit et le Guide des Souvenirs"
+    german: "Atelier Karia: Das Nachtkönigreich und das Lexikon der Erinnerungen"
+    japanese: カリアのアトリエ ～夜の王国と追憶の道標～
+    koreana: 카리아의 아틀리에 ~밤의 왕국과 추억의 이정표~
+    latam: "Atelier Karia: El reino de la noche y la guía de los recuerdos"
+    russian: "Ателье Кария: Ночное королевство и Проводник воспоминаний"
+    schinese: 卡莉亚的炼金工房 ～夜之王国与追忆之道标～
+    spanish: "Atelier Karia: El reino de la noche y la guía de los recuerdos"
+    tchinese: 卡莉亞的鍊金工房 ～夜之王國與追憶之道標～
 4533950: {}
 4536610:
   nameLocalized:

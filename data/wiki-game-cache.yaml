@@ -13729,6 +13729,7 @@ Aooni:
   steam: 2934190
 Aooni (2008):
   lutris: ao-oni
+  malformed: true
   pageId: 207717
 Aozameta Tsuki no Hikari:
   pageId: 214754
@@ -17824,6 +17825,9 @@ Atari Vault:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\KoeiTecmo\\Atelier Firis DX}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\KoeiTecmo\\Atelier Firis DX\\SAVEDATA}}"
+"Atelier Karia: The Night Kingdom & the Guide of Memories":
+  pageId: 217718
+  steam: 4532500
 "Atelier Lulua: The Scion of Arland":
   cloud:
     steam: true
@@ -106682,7 +106686,7 @@ Hellbender:
   steam: 414340
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\HellbladeGame\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\NinjaTheoryLtd.HellbladeSenuasSacrifice_nkbnxvch6z38g\\LocalState\\HellbladeGame\\Saved\\Config\\UWP}}"
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\HellbladeGame\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\HellbladeGame\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\NinjaTheoryLtd.HellbladeSenuasSacrifice_nkbnxvch6z38g\\SystemAppData\\wgs}}"
 "Hellblade: Senua's Sacrifice VR Edition":
@@ -224718,6 +224722,7 @@ Super X Chess:
   pageId: 121375
   steam: 814990
 Super Yooka-Laylee Kart:
+  lutris: super-yooka-laylee-kart
   pageId: 217299
   steam: 3348210
 Super Zaxxon:
@@ -240220,6 +240225,9 @@ The Lift:
   lutris: the-lift--1
   pageId: 208499
   steam: 3283240
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Fantastic Signals\\The Lift}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Fantastic Signals\\The Lift\\*.save}}"
 The Light Brigade:
   cloud:
     steam: true
