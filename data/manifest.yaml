@@ -211635,6 +211635,10 @@ Drake of the 99 Dragons:
     "<base>/drakeshell.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Idol FX/Drake Demo:
+      tags:
+        - config
   steam:
     id: 755630
 Drakeling Labs:
@@ -452156,6 +452160,12 @@ Mina the Hollower:
     gog: true
     steam: true
   files:
+    "<home>/Library/Application Support/Yacht Club Games/Mina the Hollower":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
     "<winAppData>/Yacht Club Games/Mina the Hollower":
       tags:
         - config
@@ -511840,6 +511850,12 @@ Outlaws:
     id: 1536913668
   installDir:
     Outlaws Remastered: {}
+  launch:
+    "<base>/OutlawsAHOM.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3366780
 Outlaws of the Old West:

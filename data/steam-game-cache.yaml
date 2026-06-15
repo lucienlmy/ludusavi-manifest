@@ -643761,11 +643761,17 @@
   installDir: Outlaws Remastered
   launch:
     - config:
-        betakey: beta
         osarch: "64"
         oslist: windows
-      executable: taweret_Shipping_Playfab_Steam_x64.exe
+      executable: OutlawsAHOM.exe
       type: default
+    - config:
+        betakey: quantic
+        osarch: "64"
+        oslist: windows
+      description: Outlaws - Development Version
+      executable: taweret_Shipping_Playfab_Steam_x64.exe
+      type: option1
 3367820: {}
 3368250:
   cloud:

@@ -12295,6 +12295,8 @@ Aneurism IV:
   steam: 905530
 Angband:
   pageId: 175880
+"Angel Devoid: Face of the Enemy":
+  pageId: 217727
 Angel Express:
   cloud:
     steam: true
@@ -68285,6 +68287,7 @@ Drake of the 99 Dragons:
   pageId: 88652
   steam: 755630
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Idol FX\\Drake Demo}}"
     - "{{Game data/saves|Windows|{{P|game}}\\version\\savegames\\}}"
 Drakeling Labs:
   pageId: 89198
@@ -146812,8 +146815,10 @@ Mina the Hollower:
     - 4743810
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Yacht Club Games\\Mina the Hollower\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Yacht Club Games/Mina the Hollower/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/gamePrefs.yc}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Yacht Club Games\\Mina the Hollower\\saveData.yc}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Yacht Club Games/Mina the Hollower/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Yacht Club Games/Mina the Hollower/saveData.yc}}"
 Minabo:
   cloud:
@@ -242899,6 +242904,8 @@ The Rare Nine:
 The Rat Project:
   pageId: 157440
   steam: 1205270
+The Raven Project:
+  pageId: 217729
 The Raven Remastered:
   cloud:
     gog: true
