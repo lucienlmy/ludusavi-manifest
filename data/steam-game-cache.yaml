@@ -3621,6 +3621,12 @@
       executable: "\\XLiveRedist\\XLiveRedist01.02.0241.00.msi"
       type: config
 8100:
+  cloud:
+    saves:
+      - path: "Eidos\\ConflictDeniedOps"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Conflict Denied Ops
   launch:
     - executable: ConflictDeniedOps.exe
@@ -26182,8 +26188,8 @@
 233290:
   cloud:
     saves:
-      - path: SavesDir/
-        pattern: "*.sav"
+      - path: SaveData/
+        pattern: "*.*"
         recursive: true
         root: default
   installDir: Murdered Soul Suspect

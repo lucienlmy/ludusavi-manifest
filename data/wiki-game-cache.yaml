@@ -1245,7 +1245,7 @@ $1 Ride:
 "3-D Ultra Pinball: Thrillride":
   pageId: 196080
   templates:
-    - "{{Game data/config|Windows|HKEY_CLASSES_ROOT\\VirtualStore\\MACHINE\\SOFTWARE\\{{P|wow64}}\\Sierra On-Line\\3D Ultra Pinball Thrillride\\Settings}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Sierra On-Line\\3D Ultra Pinball Thrillride\\Settings}}"
 3-D Ultra Radio Control Racers:
   pageId: 8402
 3-in-1 Bundle Brain Trainings:
@@ -8381,6 +8381,8 @@ Air Marty:
     steam: true
   pageId: 38151
   steam: 423490
+"Air Power: Battle in the Skies":
+  pageId: 217725
 Air Raid Over Britain:
   pageId: 88824
   steam: 812460
@@ -18740,6 +18742,9 @@ Austin Cooper S Racing:
   pageId: 203470
 Austin Powers Pinball:
   pageId: 175673
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\Austin Powers Pinball|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\Austin Powers Pinball\\Display profile}}"
+    - "{{Game data/saves|Windows|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\Austin Powers Pinball\\High scores}}"
 Australia Did It:
   pageId: 210727
   steam: 2396130
@@ -50989,7 +50994,7 @@ Croc 2:
   lutris: croc-2
   pageId: 25170
   templates:
-    - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/config|Windows|{{p|game}}|{{p|hklm}}\\SOFTWARE\\Argonaut Software\\Croc2\\1.00}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
 "Croc's World 3":
   pageId: 177574
@@ -57705,6 +57710,20 @@ Dead Rising 2:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Dead Rising 2 Off The Record}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Dead Rising 2 Off The Record\\saves\\}}"
+Dead Rising 3:
+  cloud:
+    steam: true
+  lutris: dead-rising-3
+  pageId: 17711
+  steam: 265550
+  steamSide:
+    - 274110
+    - 274111
+    - 274112
+    - 278140
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Dead Rising 3\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Dead Rising 3\\saves\\}}"
 Dead Rising 4:
   cloud:
     steam: true
@@ -73789,11 +73808,12 @@ Edgar - Bokbok in Boulzac:
 "Edgar Torronteras' Moto-X 2000":
   pageId: 190356
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Deibus\\MotoX2000}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.prf}}"
 "Edgar Torronteras' eXtreme Biker":
   pageId: 190319
   templates:
-    - "{{Game data/config|Windows}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Deibus\\Extreme Biker}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\{{p|uid}}.prf}}"
 Edge:
   cloud:
@@ -84031,7 +84051,7 @@ Fast Lanes Bowling:
   pageId: 208639
   steam: 1644930
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Lab Rats Bowling}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\LAB Rats Bowling}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save}}"
 Fast Rolling:
   pageId: 78040
@@ -84736,8 +84756,11 @@ Feed Eve:
   pageId: 87303
   steam: 790950
 Feed It:
+  lutris: feed-it
   pageId: 217119
   steam: 4370990
+  steamSide:
+    - 4627870
 "Feed and Grow: Fish":
   pageId: 45047
   steam: 429050
@@ -88671,6 +88694,7 @@ Football Game:
 Football Generation:
   pageId: 157972
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\Trecision\\fgen\\1.00}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves}}"
 "Football Girls: Dream Team":
   pageId: 94770
@@ -95751,7 +95775,7 @@ Get Me Outta Here - Deluxe/Remastered Edition:
 Get Medieval:
   pageId: 100804
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\MEDIEVAL.USR}}"
+    - "{{Game data/config|Windows|{{p|game}}\\MEDIEVAL.USR|{{p|hklm}}\\SOFTWARE\\Monolith Productions\\Get Medieval\\1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\MEDIEVAL.SAV}}"
 Get Off My Lawn!:
   pageId: 49355
@@ -117922,6 +117946,7 @@ Inquisition:
   lutris: inquisition
   pageId: 198945
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Wanadoo Edition\\Inquisition|{{p|hklm}}\\SOFTWARE\\Wanadoo Edition\\Inquisition\\GameEnginePrefs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Datas\\Saves\\}}"
 Inquisitor:
   cloud:
@@ -126326,6 +126351,9 @@ Kiss Before Midnight:
   pageId: 143343
 Kiss Pinball:
   pageId: 175677
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\KISS Pinball|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\KISS Pinball\\Display profile}}"
+    - "{{Game data/saves|Windows|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\KISS Pinball\\High scores}}"
 Kiss or Kill VR:
   pageId: 78810
   steam: 670830
@@ -166339,7 +166367,7 @@ Outlaw Chopper:
 Outlaw Golf:
   pageId: 202591
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Options.ini}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Options.ini|{{p|hklm}}\\SOFTWARE\\Hypnotix\\Outlaw Golf}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame}}"
 Outlaws:
   cloud:
@@ -175779,7 +175807,7 @@ Pool Shark:
 Pool Shark 2:
   pageId: 173930
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\Software\\{{p|wow64}}\\ZooDigital\\Poolshark 2\\startup}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\ZooDigital\\Poolshark 2\\startup}}"
     - "{{Game data/saves|Windows|{{p|game}}Saves}}"
 Pool of Death:
   pageId: 39570
@@ -188603,6 +188631,8 @@ RetroSpace:
   lutris: retrospace
   pageId: 217010
   steam: 2067820
+  steamSide:
+    - 2783450
 RetroVamp:
   pageId: 153039
   steam: 1178680
@@ -227541,7 +227571,7 @@ TNN Outdoors Pro Hunter:
 TNN Outdoors Pro Hunter 2:
   pageId: 193152
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\AUTOEXEC.CFG}}"
+    - "{{Game data/config|Windows|{{p|game}}\\AUTOEXEC.CFG|{{p|hklm}}\\SOFTWARE\\ASC Games\\TNN Pro Hunter 2\\1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\HUNTERS\\}}"
 TNT!:
   pageId: 139272

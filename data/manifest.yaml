@@ -3862,6 +3862,11 @@ $1 Ride:
         - config
       when:
         - os: windows
+"3-D Ultra Pinball: Thrillride":
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Sierra On-Line/3D Ultra Pinball Thrillride/Settings:
+      tags:
+        - config
 3-in-1 Bundle Brain Trainings:
   cloud:
     steam: true
@@ -58054,6 +58059,17 @@ Austin Cooper S Racing:
         - save
       when:
         - os: windows
+Austin Powers Pinball:
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wildfire Studios/Austin Powers Pinball:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wildfire Studios/Austin Powers Pinball/Display profile:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wildfire Studios/Austin Powers Pinball/High scores:
+      tags:
+        - save
 Australia Did It:
   steam:
     id: 2396130
@@ -158607,6 +158623,10 @@ Croakwood:
 Croc 2:
   id:
     lutris: croc-2
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Argonaut Software/Croc2/1.00:
+      tags:
+        - config
 "Croc's World Construction Kit":
   installDir:
     "Croc's World Construction Kit": {}
@@ -179143,6 +179163,35 @@ Dead Rising 2:
           - store: steam
   steam:
     id: 45770
+Dead Rising 3:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Dead Rising 3":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Dead Rising 3/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: dead-rising-3
+    steamExtra:
+      - 274110
+      - 274111
+      - 274112
+      - 278140
+  installDir:
+    deadrising3: {}
+  launch:
+    "<base>/deadrising3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 265550
 Dead Rising 4:
   cloud:
     steam: true
@@ -228752,6 +228801,10 @@ Edgar - Bokbok in Boulzac:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Deibus/MotoX2000:
+      tags:
+        - config
 "Edgar Torronteras' eXtreme Biker":
   files:
     "<base>/Profiles/<storeUserId>.prf":
@@ -228759,6 +228812,10 @@ Edgar - Bokbok in Boulzac:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Deibus/Extreme Biker:
+      tags:
+        - config
 Edge:
   cloud:
     steam: true
@@ -259351,7 +259408,7 @@ Fast Lanes Bowling:
           - os: windows
             store: steam
   registry:
-    HKEY_LOCAL_MACHINE/SOFTWARE/Lab Rats Bowling:
+    HKEY_LOCAL_MACHINE/SOFTWARE/LAB Rats Bowling:
       tags:
         - config
   steam:
@@ -261421,6 +261478,10 @@ Feed Eve:
   steam:
     id: 790950
 Feed It:
+  id:
+    lutris: feed-it
+    steamExtra:
+      - 4627870
   steam:
     id: 4370990
 "Feed and Grow: Fish":
@@ -273331,6 +273392,10 @@ Football Generation:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/Trecision/fgen/1.00:
+      tags:
+        - config
 "Football Girls: Dream Team":
   installDir:
     Football Girls Dream Team: {}
@@ -295987,6 +296052,10 @@ Get Medieval:
         - config
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Monolith Productions/Get Medieval/1.0:
+      tags:
+        - config
 Get Off My Lawn!:
   installDir:
     Get Off My Lawn: {}
@@ -364038,6 +364107,13 @@ Inquisition:
         - os: windows
   id:
     lutris: inquisition
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wanadoo Edition/Inquisition:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wanadoo Edition/Inquisition/GameEnginePrefs:
+      tags:
+        - config
 Inquisitor:
   cloud:
     gog: true
@@ -389750,6 +389826,17 @@ Kismet:
         workingDir: "<base>/2D"
   steam:
     id: 463290
+Kiss Pinball:
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wildfire Studios/KISS Pinball:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wildfire Studios/KISS Pinball/Display profile:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/Wildfire Studios/KISS Pinball/High scores:
+      tags:
+        - save
 Kiss or Kill VR:
   installDir:
     VR Trivia Battle: {}
@@ -511710,6 +511797,10 @@ Outlaw Golf:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Hypnotix/Outlaw Golf:
+      tags:
+        - config
 Outlaws:
   cloud:
     steam: true
@@ -540445,7 +540536,7 @@ Pool Shark 2:
       when:
         - os: windows
   registry:
-    HKEY_LOCAL_MACHINE/Software/WOW6432Node/ZooDigital/Poolshark 2/startup:
+    HKEY_LOCAL_MACHINE/SOFTWARE/ZooDigital/Poolshark 2/startup:
       tags:
         - config
 Pool of Death:
@@ -580052,6 +580143,8 @@ RetroRealms Arcade:
 RetroSpace:
   id:
     lutris: retrospace
+    steamExtra:
+      - 2783450
   steam:
     id: 2067820
 RetroVamp:
@@ -701006,6 +701099,10 @@ TNN Outdoors Pro Hunter 2:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/ASC Games/TNN Pro Hunter 2/1.0:
+      tags:
+        - config
 TNT!:
   steam:
     id: 1086430
