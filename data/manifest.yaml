@@ -351621,12 +351621,22 @@ Hypnospace Outlaw:
         - save
       when:
         - os: mac
-    "<home>/Tendershoot/HypnOS":
+    "<home>/Tendershoot/HypnOS/Enforcer*.sav":
       tags:
         - save
       when:
         - os: windows
     "<home>/Tendershoot/HypnOS/GlobalSettings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Tendershoot/HypnOS/Enforcer*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Tendershoot/HypnOS/GlobalSettings.sav":
       tags:
         - config
       when:
@@ -493930,7 +493940,7 @@ Nosferatu Lilinor:
       - when:
           - store: steam
   registry:
-    HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Idol FX/Nosferatu:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Idol FX/Nosferatu:
       tags:
         - config
   steam:
@@ -587260,6 +587270,21 @@ River City Melee Mach!!:
             store: steam
   steam:
     id: 422810
+"River City Saga: Journey to the West":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/RiverCitySagaJTTW/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    RiverCitySagaJTTW: {}
+  launch:
+    "<base>/RcsJTTW.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4164020
 "River City Saga: Three Kingdoms":
   cloud:
     steam: true
@@ -587277,6 +587302,22 @@ River City Melee Mach!!:
           - store: steam
   steam:
     id: 1013220
+"River City Saga: Three Kingdoms Next":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ARC SYSTEM WORKS/River City Saga Three Kingdoms Next/Save/**/SaveData.dat":
+      when:
+        - store: steam
+  installDir:
+    River City Saga Three Kingdoms Next: {}
+  launch:
+    "<base>/River City Saga Three Kingdoms Next.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2881520
 "River City Super Sports Challenge: All Stars Special":
   cloud:
     steam: true
@@ -592148,6 +592189,28 @@ Rogue Trooper Redux:
         workingDir: "<base>/Launcher"
   steam:
     id: 529490
+Rogue Voltage:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/HorizontComputergrafik/RogueVoltage/Main":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Rogue Voltage: {}
+  launch:
+    "<base>/RogueVoltage.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/RogueVoltage.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1494560
 Rogue Warrior:
   cloud:
     steam: true
@@ -599429,6 +599492,9 @@ Rustler:
             store: steam
   steam:
     id: 844260
+Rustmourne:
+  steam:
+    id: 3775210
 Rusty Hearts:
   installDir:
     Rusty Hearts: {}
@@ -691869,6 +691935,24 @@ Super Switch:
             store: steam
   steam:
     id: 521430
+"Super Technos World: River City & Technos Arcade Classics":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ARC SYSTEM WORKS/Super Technos World/Database/*.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Super Technos World: {}
+  launch:
+    "<base>/Super Technos World.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1053510
 Super Tennis Blast:
   cloud:
     steam: true
@@ -846081,11 +846165,39 @@ XEYYEX:
   steam:
     id: 1085990
 XF Extreme Formula:
+  cloud:
+    steam: true
   files:
-    "<base>/XF ExtremeFormula_Data/*.gs":
+    "<base>/XF ExtremeFormula_Data/ChalProgress.gs":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<base>/XF ExtremeFormula_Data/ChalProgressSTORY.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Graphic Settings.gs":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Records.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Save.gs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XF ExtremeFormula_Data/Settings.gs":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     XF Extreme Formula: {}
   launch:

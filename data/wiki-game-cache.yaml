@@ -113948,9 +113948,9 @@ Hypnospace Outlaw:
   steamSide:
     - 1041000
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\Tendershoot\\HypnOS\\GlobalSettings.sav}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Tendershoot\\HypnOS\\GlobalSettings.sav|{{p|appdata}}\\Tendershoot\\HypnOS\\GlobalSettings.sav}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/Tendershoot/HypnOS/GlobalSettings.gsav}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Tendershoot\\HypnOS\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Tendershoot\\HypnOS\\Enforcer*.sav|{{p|appdata}}\\Tendershoot\\HypnOS\\Enforcer*.sav}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Tendershoot/HypnOS}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/Tendershoot/HypnOS/Enforcer*.sav}}"
 Hyposphere:
@@ -118687,6 +118687,8 @@ Into the Stars:
 Into the Unknown:
   pageId: 52918
   steam: 553130
+Into the Void:
+  pageId: 217709
 Into the Void (2015):
   pageId: 45399
   steam: 420270
@@ -160632,7 +160634,7 @@ Nosferatu Lilinor:
   pageId: 21751
   steam: 283290
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Idol FX\\Nosferatu\\}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Idol FX\\Nosferatu}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Version\\Data\\}}"
 Nosgoth:
   pageId: 169222
@@ -190942,6 +190944,11 @@ River City Melee Mach!!:
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/RiverCityRansomUnderground/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/RiverCityRansomUnderground/}}"
+"River City Saga: Journey to the West":
+  cloud:
+    steam: true
+  pageId: 217705
+  steam: 4164020
 "River City Saga: Three Kingdoms":
   cloud:
     steam: true
@@ -190949,6 +190956,11 @@ River City Melee Mach!!:
   steam: 1013220
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\{{P|localappdata}}\\LocalLow\\ARC SYSTEM WORKS}}"
+"River City Saga: Three Kingdoms Next":
+  cloud:
+    steam: true
+  pageId: 217703
+  steam: 2881520
 "River City Super Sports Challenge: All Stars Special":
   cloud:
     steam: true
@@ -192556,6 +192568,13 @@ Rogue Trooper Redux:
     - "{{Game data/config|Steam|{{p|appdata}}\\Rogue Trooper Redux\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Rogue Trooper Redux GOG\\}}"
     - "{{Game data/saves|Steam|{{p|appdata}}\\Rogue Trooper Redux\\}}"
+Rogue Voltage:
+  cloud:
+    steam: true
+  pageId: 217697
+  steam: 1494560
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\HorizontComputergrafik\\RogueVoltage\\Main}}"
 Rogue Warrior:
   cloud:
     steam: true
@@ -194885,6 +194904,9 @@ Rustler:
   steam: 844260
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\JutsuGames\\Rustler\\}}"
+Rustmourne:
+  pageId: 217711
+  steam: 3775210
 Rusty:
   pageId: 175137
 Rusty Hearts:
@@ -224496,6 +224518,8 @@ Super Star Path:
   steam: 375120
   steamSide:
     - 378910
+Super Stardust:
+  pageId: 217707
 Super Steampunk Pinball 2D:
   pageId: 80352
   steam: 775490
@@ -224543,6 +224567,11 @@ Super Stunt Spectacular:
 Super Switch:
   pageId: 36786
   steam: 521430
+"Super Technos World: River City & Technos Arcade Classics":
+  cloud:
+    steam: true
+  pageId: 217704
+  steam: 1053510
 Super Tennis Blast:
   cloud:
     steam: true
@@ -276111,8 +276140,13 @@ XEYYEX:
   pageId: 143893
   steam: 1085990
 XF Extreme Formula:
+  cloud:
+    steam: true
   pageId: 189484
   steam: 2539910
+  templates:
+    - "{{Game data/config|Windows|\n    {{p|game}}\\XF ExtremeFormula_Data\\Settings.gs |\n    {{p|game}}\\XF ExtremeFormula_Data\\Graphic Settings.gs\n    }}"
+    - "{{Game data/saves|Windows|\n    {{p|game}}\\XF ExtremeFormula_Data\\Save.gs |\n    {{p|game}}\\XF ExtremeFormula_Data\\ChalProgress.gs |\n    {{p|game}}\\XF ExtremeFormula_Data\\ChalProgressSTORY.gs |\n    {{p|game}}\\XF ExtremeFormula_Data\\Records.gs\n    }}"
 XF5700 Mantis Experimental Fighter:
   gog: 1382504295
   pageId: 165136
