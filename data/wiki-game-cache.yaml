@@ -118675,9 +118675,14 @@ Into the Maze:
     - Into The Maze
   steam: 1186300
 Into the Necrovale:
+  cloud:
+    steam: true
   gog: 1756098576
   pageId: 203150
   steam: 1717090
+  templates:
+    - "{{Game data/config|Windows| {{p|localappdata}}\\Necrovale\\settings.sav}}"
+    - "{{Game data/saves|Windows| {{p|localappdata}}\\Necrovale}}"
 Into the Pit:
   cloud:
     gog: true
@@ -151049,9 +151054,12 @@ Moss Destruction:
 "Moss: The Forgotten Relic":
   cloud:
     steam: true
+    xbox: true
   lutris: moss-the-forgotten-relic
   pageId: 216614
   steam: 3914860
+  steamSide:
+    - 4607010
 Most Correct Football Simulator:
   pageId: 136471
   steam: 1081710
@@ -243053,6 +243061,8 @@ The Relentless:
   pageId: 73640
   steam: 695910
 "The Relic: First Guardian":
+  cloud:
+    xbox: true
   lutris: the-relic-first-guardian
   pageId: 208331
   steam: 2827820
@@ -251685,6 +251695,8 @@ Tormentum II:
   lutris: tormentum-ii
   pageId: 122794
   steam: 931060
+  steamSide:
+    - 4733980
 "Tormentum: Dark Sorrow":
   cloud:
     gog: true
@@ -263083,6 +263095,12 @@ Vampire of the Sands:
   steam: 1290270
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\1290270\\remote\\}}"
+"Vampire: The Masquerade - Oaths & Ashes":
+  lutris: vampire-the-masquerade-oaths-and-ashes
+  pageId: 217731
+  steam: 4191110
+  steamSide:
+    - 4746430
 "Vampire: The Masquerade - Out for Blood":
   cloud:
     steam: true

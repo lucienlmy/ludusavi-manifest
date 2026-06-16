@@ -651212,6 +651212,9 @@
         oslist: windows
       executable: "bin\\win_x64\\ColdSideRetroEdition.exe"
       type: default
+4191110:
+  nameLocalized:
+    japanese: ヴァンパイア：ザ・マスカレード — 誓約と灰
 4193270:
   cloud:
     saves:

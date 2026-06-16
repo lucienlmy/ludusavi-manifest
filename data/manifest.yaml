@@ -366626,17 +366626,19 @@ Into the Maze:
   steam:
     id: 1186300
 Into the Necrovale:
+  cloud:
+    steam: true
   files:
-    "<home>/Necrovale/slot*.sav":
+    "<winLocalAppData>/Necrovale":
+      tags:
+        - save
       when:
-        - store: steam
-        - os: linux
-          store: steam
-    "<winLocalAppData>/Necrovale/slot*.sav":
-      when:
-        - store: steam
         - os: windows
-          store: steam
+    "<winLocalAppData>/Necrovale/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1756098576
   installDir:
@@ -464981,6 +464983,8 @@ Moss Destruction:
     steam: true
   id:
     lutris: moss-the-forgotten-relic
+    steamExtra:
+      - 4607010
   steam:
     id: 3914860
 Most Correct Football Simulator:
@@ -774936,6 +774940,8 @@ Tormentum II:
     steam: true
   id:
     lutris: tormentum-ii
+    steamExtra:
+      - 4733980
   steam:
     id: 931060
 "Tormentum: Dark Sorrow":
@@ -806933,6 +806939,13 @@ Vampire of the Sands:
             store: steam
   steam:
     id: 1290270
+"Vampire: The Masquerade - Oaths & Ashes":
+  id:
+    lutris: vampire-the-masquerade-oaths-and-ashes
+    steamExtra:
+      - 4746430
+  steam:
+    id: 4191110
 "Vampire: The Masquerade - Out for Blood":
   cloud:
     steam: true
