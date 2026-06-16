@@ -102950,6 +102950,11 @@ Hack:
   pageId: 175008
   templates:
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.var/games/bsdgames/hack/save}}"
+"Hack '95":
+  cloud:
+    steam: true
+  pageId: 217750
+  steam: 4159720
 "Hack 'n' Slash":
   lutris: hack-n-slash
   pageId: 13602
@@ -171334,6 +171339,8 @@ Petal Crash:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ubisoft\\KingKong\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\KingKong.sav}}"
+"Peter Jacobsen's Golden Tee Golf":
+  pageId: 217756
 "Peter Pan: Adventures in Never Land":
   pageId: 168655
   templates:
@@ -275439,6 +275446,8 @@ Wrath of Thor:
 Wrath of the Fire God:
   pageId: 36214
   steam: 511370
+Wrath of the Gods:
+  pageId: 217752
 "Wrath of the Goliaths: Dinosaurs":
   cloud:
     steam: true

@@ -150141,8 +150141,22 @@ Cop Bastard:
 Copa City:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Triple Espresso/Copa City First Football Tycoon/**/*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Triple Espresso/Copa City First Football Tycoon/Saves/**/*.json":
+      when:
+        - store: steam
   gog:
     id: 1100906076
+  installDir:
+    Copa City: {}
+  launch:
+    "<base>/Copa City.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2210520
 Copa Petrobras de Marcas:
@@ -317936,6 +317950,11 @@ Hack:
         - save
       when:
         - os: linux
+"Hack '95":
+  cloud:
+    steam: true
+  steam:
+    id: 4159720
 "Hack 'n' Slash":
   files:
     "<home>/Documents/Hack ‘n’ Slash":

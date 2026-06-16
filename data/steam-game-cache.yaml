@@ -609509,7 +609509,22 @@
     schinese: 刺客信条：英灵殿
 2209900: {}
 2210150: {}
-2210520: {}
+2210520:
+  cloud:
+    saves:
+      - path: Triple Espresso/Copa City First Football Tycoon
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Triple Espresso/Copa City First Football Tycoon/Saves
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Copa City
+  launch:
+    - config:
+        oslist: windows
+      executable: Copa City.exe
 2210800:
   installDir: Monster Racing League
   launch:
@@ -651081,6 +651096,7 @@
       executable: The5thFloor.exe
   nameLocalized:
     schinese: 黑暗密友：望升院
+4159720: {}
 4160210:
   cloud:
     saves:
