@@ -682513,6 +682513,7 @@ Stupid Raft Battle Simulator:
     id: 779290
 "Styx: Blades of Greed":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Styx3/Saved/Config/WindowsClient":
@@ -682528,6 +682529,11 @@ Stupid Raft Battle Simulator:
   gog:
     id: 2126587036
   id:
+    gogExtra:
+      - 1211243567
+      - 1301751220
+      - 1954730388
+      - 2002944223
     lutris: styx-blades-of-greed
     steamExtra:
       - 3757150
@@ -709507,17 +709513,6 @@ Teenage Mutant Ninja Turtles (2007):
     steamExtra:
       - 2348930
       - 2925190
-  installDir:
-    TMNT: {}
-  launch:
-    "<base>/TMNT":
-      - when:
-          - os: linux
-            store: steam
-    "<base>/TMNT.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 1361510
 "Teenage Mutant Ninja Turtles: Splintered Fate":

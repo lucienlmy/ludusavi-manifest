@@ -275347,8 +275347,6 @@
         oslist: windows
       executable: FarmersDynasty.exe
       type: default
-  nameLocalized:
-    schinese: 农夫王朝
 678910:
   installDir: BombGears
   launch:
@@ -549128,18 +549126,7 @@
       executable: MoonglowBay.exe
       type: default
 1361510:
-  installDir: TMNT
-  launch:
-    - config:
-        oslist: windows
-      executable: TMNT.exe
-      type: default
-    - config:
-        oslist: linux
-      executable: "./TMNT"
-      type: default
   nameLocalized:
-    sc_schinese: 忍者龟：施莱德的复仇
     schinese: 忍者龟：施莱德的复仇
     tchinese: 忍者龜：施萊德的復仇
 1361670:
@@ -621458,6 +621445,22 @@
       description: VOIN (DirectX 12).
       executable: "VOIN\\Binaries\\Win64\\VOIN-Win64-Shipping.exe"
       type: option2
+    - arguments: "-SaveToUserDir"
+      config:
+        betakey: dev_branch
+        osarch: "64"
+        oslist: windows
+      description: VOIN (dev_branch) (DirectX 11).
+      executable: "VOIN\\Binaries\\Win64\\VOIN.exe"
+      type: option1
+    - arguments: "-dx12 -SaveToUserDir"
+      config:
+        betakey: dev_branch
+        osarch: "64"
+        oslist: windows
+      description: VOIN (dev_branch) (DirectX 12).
+      executable: "VOIN\\Binaries\\Win64\\VOIN.exe"
+      type: option2
   nameLocalized:
     schinese: 雷霆孤影 (VOIN)
 2464660:
@@ -624325,7 +624328,10 @@
       type: config
   nameLocalized:
     japanese: 鈴蘭の剣：この平和な世界のために
-2527160: {}
+2527160:
+  nameLocalized:
+    schinese: 桌面探索者
+    tchinese: 桌面探索者
 2527360:
   installDir: MizeriaFolder
   launch:

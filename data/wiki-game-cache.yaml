@@ -221724,8 +221724,14 @@ Stupid Raft Battle Simulator:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Cultic Games/STYGIAN/Profiles}}"
 "Styx: Blades of Greed":
   cloud:
+    gog: true
     steam: true
   gog: 2126587036
+  gogSide:
+    - 1211243567
+    - 1301751220
+    - 1954730388
+    - 2002944223
   lutris: styx-blades-of-greed
   pageId: 202061
   steam: 3290690
