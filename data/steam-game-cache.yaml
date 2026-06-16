@@ -649310,6 +649310,11 @@
         oslist: linux
       executable: zp.sh
       type: default
+3825390:
+  nameLocalized:
+    japanese: "BLUE REFLECTION Quartet: 少女たちのキセキ"
+    schinese: "BLUE REFLECTION Quartet: 少女们的奇迹"
+    tchinese: "BLUE REFLECTION Quartet: 少女們的奇蹟"
 3827840:
   cloud:
     saves:
@@ -650762,7 +650767,18 @@
 4058000: {}
 4061090: {}
 4062420: {}
-4064510: {}
+4064510:
+  cloud:
+    saves:
+      - path: "Mole\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: M.O.L.E
+  launch:
+    - executable: Windows/MOLE.exe
 4069520:
   installDir: Super Battle Golf
   launch:

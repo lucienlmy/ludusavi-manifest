@@ -30309,6 +30309,11 @@ Blue Reflection:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\BLUE REFLECTION\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\BLUE REFLECTION\\SAVEDATA\\}}"
+Blue Reflection Quartet:
+  cloud:
+    steam: true
+  pageId: 217741
+  steam: 3825390
 "Blue Reflection: Second Light":
   cloud:
     steam: true
@@ -73885,6 +73890,8 @@ Edge of Memories:
   lutris: edge-of-memories
   pageId: 214028
   steam: 2738170
+  steamSide:
+    - 4019510
 Edge of Nowhere:
   lutris: edge-of-nowhere
   pageId: 35790
@@ -148596,6 +148603,8 @@ Moldwasher:
   steamSide:
     - 4327990
 Mole:
+  cloud:
+    steam: true
   lutris: mole--4
   pageId: 216098
   steam: 4064510
@@ -241362,11 +241371,11 @@ The Most Challenging Game:
   pageId: 79062
   steam: 762100
 "The Mound: Omen of Cthulhu":
-  cloud:
-    xbox: true
   lutris: the-mound-omen-of-cthulhu
   pageId: 203422
   steam: 2569760
+  steamSide:
+    - 4669520
 The Movie Trivia Challenge:
   pageId: 96911
   steam: 875790
