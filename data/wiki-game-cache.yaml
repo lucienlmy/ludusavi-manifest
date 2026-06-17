@@ -66396,6 +66396,8 @@ Doom 3:
   lutris: doom-3-bfg-edition
   pageId: 4224
   steam: 208200
+  steamSide:
+    - 1898710
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\id Software\\DOOM 3 BFG\\base\\|{{p|userprofile}}\\Saved Games\\id Software\\DOOM 3\\base\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\id Software\\DOOM 3 BFG\\base\\|{{p|userprofile}}\\Saved Games\\id Software\\DOOM 3\\base\\}}"
@@ -66497,6 +66499,7 @@ Doom II RPG:
   steam: 2300
   steamSide:
     - 9160
+    - 1906620
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\DOOM2}}"
     - "{{Game data/config|Windows|{{p|game}}\\Doom II for Windows 95\\}}"
@@ -113960,6 +113963,13 @@ Hypnagogia Boundless Dreams:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Raptorsoft\\Hypnagogia: Boundless Dreams}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Raptorsoft\\Hypnagogia: Boundless Dreams}}"
+HypnoTiles:
+  cloud:
+    steam: true
+  pageId: 217759
+  steam: 4712350
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\*.sav}}"
 Hypnocult:
   cloud:
     steam: true

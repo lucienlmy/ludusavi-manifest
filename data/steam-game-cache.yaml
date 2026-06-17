@@ -652101,6 +652101,18 @@
   nameLocalized:
     schinese: 穿越火线：潜伏
 4691270: {}
+4712350:
+  cloud:
+    saves:
+      - path: "."
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: HypnoTiles
+  launch:
+    - config:
+        oslist: windows
+      executable: HypnoTiles.exe
+      type: default
 4716160: {}
 4729320:
   nameLocalized:

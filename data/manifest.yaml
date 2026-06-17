@@ -206017,6 +206017,8 @@ Doom 3:
     gogExtra:
       - 1135892318
     lutris: doom-3-bfg-edition
+    steamExtra:
+      - 1898710
   installDir:
     DOOM 3 BFG Edition: {}
   launch:
@@ -206285,6 +206287,7 @@ Doom II Enhanced:
     lutris: doom-ii-hell-on-earth
     steamExtra:
       - 9160
+      - 1906620
   installDir:
     Doom 2: {}
   launch:
@@ -351632,6 +351635,24 @@ Hypnagogia Boundless Dreams:
         - save
   steam:
     id: 1665500
+HypnoTiles:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    HypnoTiles: {}
+  launch:
+    "<base>/HypnoTiles.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4712350
 Hypnocult:
   cloud:
     steam: true
