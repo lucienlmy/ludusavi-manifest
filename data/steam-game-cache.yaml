@@ -650118,6 +650118,15 @@
     swedish: "Sesame Street: Vänskap och skoj"
     tchinese: "Sesame Street: 好友同樂 "
     turkish: "Sesame Street: Neşeli Dostlar"
+3930360:
+  installDir: Sinister Remains
+  launch:
+    - arguments: "-fullscreen"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Sinister Remains.exe
+      type: default
 3930510: {}
 3931060:
   cloud:
@@ -651666,6 +651675,7 @@
 4310610: {}
 4317460: {}
 4317690: {}
+4323990: {}
 4328440: {}
 4328820:
   nameLocalized:

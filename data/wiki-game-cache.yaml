@@ -75841,6 +75841,11 @@ Empty Soul:
 Empty Town:
   pageId: 94350
   steam: 779620
+Empulse:
+  pageId: 217764
+  steam: 4323990
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Orion\\Saved\\Config\\WindowsClient\\GameUserSettings.ini}}"
 "Empyre: Lords of the Sea Gates":
   pageId: 70521
   steam: 696810
@@ -124405,7 +124410,12 @@ Ken ga Kimi:
   pageId: 178219
 "Kena: Bridge of Spirits":
   cloud:
+    gog: true
     steam: true
+  gog: 1640077647
+  gogSide:
+    - 1265518843
+    - 1555925447
   lutris: kena-bridge-of-spirits
   pageId: 161024
   steam: 1954200
@@ -138272,8 +138282,17 @@ MYTH:
 MaSzyna:
   cloud:
     steam: true
+  gog: 1081698491
+  gogSide:
+    - 1651818281
+    - 2044124297
+  lutris: maszyna
   pageId: 141683
   steam: 1033030
+  steamSide:
+    - 4344080
+    - 4362300
+    - 4367870
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\eu7.ini}}"
 Maabus:
@@ -145864,6 +145883,9 @@ Microsoft Jewel:
   cloud:
     xbox: true
   pageId: 216931
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Microsoft Studios\\Microsoft Jewel}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Microsoft Studios\\Microsoft Jewel\\saveSafeEditor\\{{P|uid}}}}"
 Microsoft Jigsaw:
   cloud:
     xbox: true
@@ -206062,6 +206084,14 @@ Sinister City:
 Sinister Halloween:
   pageId: 121133
   steam: 747690
+Sinister Remains:
+  cloud:
+    steam: true
+  lutris: sinister-remains
+  pageId: 217766
+  steam: 3930360
+  steamSide:
+    - 3986950
 Sinistry Silinium:
   pageId: 59113
   steam: 603040
@@ -219451,6 +219481,7 @@ Stellaris:
     - 1999794856
     - 2048809075
     - 2062279897
+    - 2071004157
     - 2106739867
     - 2112845659
   lutris: stellaris
@@ -219502,6 +219533,7 @@ Stellaris:
     - 3283220
     - 3417840
     - 3417850
+    - 4241420
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Paradox Interactive\\Stellaris\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Paradox Interactive/Stellaris/}}"

@@ -235100,6 +235100,15 @@ Empty Town:
     EmptyTown: {}
   steam:
     id: 779620
+Empulse:
+  files:
+    "<winLocalAppData>/Orion/Saved/Config/WindowsClient/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  steam:
+    id: 4323990
 "Empyre: Lords of the Sea Gates":
   installDir:
     EMPYRE Lords of the Sea Gates: {}
@@ -383962,6 +383971,7 @@ Ken ga Kimi:
     id: 1162650
 "Kena: Bridge of Spirits":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Kena/Saved/Config/WindowsNoEditor":
@@ -383974,7 +383984,12 @@ Ken ga Kimi:
         - save
       when:
         - os: windows
+  gog:
+    id: 1640077647
   id:
+    gogExtra:
+      - 1265518843
+      - 1555925447
     lutris: kena-bridge-of-spirits
   installDir:
     Kena Bridge of Spirits: {}
@@ -426563,6 +426578,17 @@ MaSzyna:
         - config
       when:
         - os: windows
+  gog:
+    id: 1081698491
+  id:
+    gogExtra:
+      - 1651818281
+      - 2044124297
+    lutris: maszyna
+    steamExtra:
+      - 4344080
+      - 4362300
+      - 4367870
   installDir:
     MaSzyna: {}
   launch:
@@ -449459,6 +449485,17 @@ Microsoft International Soccer 2000:
         - save
       when:
         - os: windows
+Microsoft Jewel:
+  files:
+    "<home>/AppData/LocalLow/Microsoft Studios/Microsoft Jewel/saveSafeEditor/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Microsoft Studios/Microsoft Jewel:
+      tags:
+        - config
 Microsoft Jigsaw:
   files:
     "<winLocalAppData>/Packages/Microsoft.MicrosoftJigsaw_8wekyb3d8bbwe/LocalState":
@@ -633984,6 +634021,24 @@ Sinister Halloween:
             store: steam
   steam:
     id: 747690
+Sinister Remains:
+  cloud:
+    steam: true
+  id:
+    lutris: sinister-remains
+    steamExtra:
+      - 3986950
+  installDir:
+    Sinister Remains: {}
+  launch:
+    "<base>/Sinister Remains.exe":
+      - arguments: "-fullscreen"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3930360
 Sinistry Silinium:
   steam:
     id: 603040
@@ -675506,6 +675561,7 @@ Stellaris:
       - 1999794856
       - 2048809075
       - 2062279897
+      - 2071004157
       - 2106739867
       - 2112845659
     lutris: stellaris
@@ -675555,6 +675611,7 @@ Stellaris:
       - 3283220
       - 3417840
       - 3417850
+      - 4241420
   installDir:
     Stellaris: {}
   launch:
