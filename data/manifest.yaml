@@ -23165,6 +23165,10 @@ Against the Storm:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Eremite Games/Against the Storm:
+      tags:
+        - config
   steam:
     id: 1336490
 Agapan:
@@ -95899,6 +95903,10 @@ Bongo Cat:
     "<base>/BongoCat.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/launch.sh":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 3419430
@@ -550851,6 +550859,32 @@ Prologue for a Vacant Kingdom:
             store: steam
   steam:
     id: 1040490
+"Prologue: Go Wayback!":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Prologue/Saved/SaveGames/History/*.pphd":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Prologue/Saved/SaveGames/ProgressSaveData.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Prologue/Saved/SaveGames/SaveGame*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Prologue: {}
+  launch:
+    "<base>/PrologueSteam.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2943740
 Promenade:
   files:
     "<home>/AppData/LocalLow/Holy Cap/Promenade":
@@ -649546,6 +649580,7 @@ Sonic X Shadow Generations:
       - 2909770
       - 2909780
       - 2909790
+      - 2983600
       - 2999160
   installDir:
     SONIC_X_SHADOW_GENERATIONS: {}
@@ -839932,6 +839967,25 @@ Wondee:
             store: steam
   steam:
     id: 549660
+Wonder Ball:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/WonderBall/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Wonder Ball: {}
+  launch:
+    "<base>/WonderBall.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2640030
 Wonder Blade:
   cloud:
     steam: true

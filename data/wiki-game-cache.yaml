@@ -7335,6 +7335,7 @@ Against the Storm:
     - 3075500
     - 3725110
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Eremite Games\\Against the Storm}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.AgainsttheStorm_znaey1dw2bdpr\\SystemAppData}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Eremite Games\\Against the Storm}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.AgainsttheStorm_znaey1dw2bdpr\\SystemAppData}}"
@@ -179135,6 +179136,11 @@ Prologue for a Vacant Kingdom:
     steam: true
   pageId: 130350
   steam: 1040490
+"Prologue: Go Wayback!":
+  cloud:
+    steam: true
+  pageId: 217775
+  steam: 2943740
 Promenade:
   pageId: 196071
   steam: 1781260
@@ -210958,6 +210964,7 @@ Sonic X Shadow Generations:
     - 2909770
     - 2909780
     - 2909790
+    - 2983600
     - 2999160
   templates:
     - "{{Game data/config|Steam|{{p|appdata}}\\SEGA\\SONIC_X_SHADOW_GENERATIONS\\steam\\x64\\screen_setting.xml{{Note|''Sonic Generations'' only.}}|{{p|appdata}}\\SEGA\\SONIC_X_SHADOW_GENERATIONS\\steam\\{{p|uid}}\\system\\systemdata.sav{{Note|''Shadow Generations'' only.}}{{Note|If ''Redirect default save file'' is checked in ''Hedge Mod Manager'', the file is located in {{folder|{{p|game}}\\savedata\\system\\{{file|systemdata.sav}}}}.}}}}"
@@ -274040,6 +274047,13 @@ Wondee:
     steam: true
   pageId: 53303
   steam: 549660
+Wonder Ball:
+  cloud:
+    steam: true
+  pageId: 217769
+  steam: 2640030
+  templates:
+    - "{{Game data/saves|Windows|{{p|LocalAppData}}\\WonderBall\\Saved\\SaveGames\\}}"
 Wonder Blade:
   cloud:
     steam: true

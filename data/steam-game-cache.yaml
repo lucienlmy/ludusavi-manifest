@@ -627507,6 +627507,23 @@
     - config:
         oslist: linux
       executable: streetoir.x86_64
+2640030:
+  cloud:
+    saves:
+      - path: WonderBall/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: WonderBall/Saved/Previews
+        pattern: "*.png"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Wonder Ball
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: WonderBall.exe
+      type: default
 2640520:
   cloud:
     saves:
@@ -635667,6 +635684,31 @@
     - executable: FragPunk.exe
   nameLocalized:
     schinese: 界外狂潮
+2943740:
+  cloud:
+    saves:
+      - path: Prologue/Saved/SaveGames
+        pattern: SaveGame*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Prologue/Saved/SaveGames/History
+        pattern: "*.pphd"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Prologue/Saved/SaveGames
+        pattern: ProgressSaveData.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Prologue
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: PrologueSteam.exe
+      type: default
 2945270:
   cloud:
     saves:
@@ -644603,6 +644645,10 @@
     - config:
         oslist: macos
       executable: BongoCat.app/Contents/MacOS/BongoCat
+    - config:
+        oslist: linux
+      executable: launch.sh
+      type: default
 3419520:
   cloud:
     saves:
