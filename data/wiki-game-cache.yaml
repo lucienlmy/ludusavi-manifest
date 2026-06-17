@@ -1230,6 +1230,8 @@ $1 Ride:
 "3, 2, 1, Survive!":
   pageId: 94796
   steam: 864190
+3-D TableSports:
+  pageId: 217763
 3-D Ultra Lionel Train Town:
   pageId: 16494
   templates:
@@ -215940,6 +215942,12 @@ Stage Tour:
 Stage of Light:
   pageId: 130275
   steam: 1007240
+"Staged: Open House":
+  lutris: staged-open-house
+  pageId: 217761
+  steam: 4441710
+  steamSide:
+    - 4513990
 Staggered!:
   cloud:
     steam: true

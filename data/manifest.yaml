@@ -664947,6 +664947,13 @@ Stage of Light:
             store: steam
   steam:
     id: 1007240
+"Staged: Open House":
+  id:
+    lutris: staged-open-house
+    steamExtra:
+      - 4513990
+  steam:
+    id: 4441710
 Staggered!:
   cloud:
     steam: true
@@ -854663,6 +854670,13 @@ Zenkat:
 Zenless Zone Zero:
   id:
     lutris: zenless-zone-zero
+  installDir:
+    Zenless Zone Zero: {}
+  launch:
+    "<base>/HYP.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/miHoYo/ZenlessZoneZero:
       tags:

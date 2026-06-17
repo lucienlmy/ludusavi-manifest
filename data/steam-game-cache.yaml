@@ -501323,7 +501323,7 @@
       description: Preview Default
       executable: "./Hades II.app"
       type: default
-    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.075 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport /AllowManualBugReports
+    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.75 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport /AllowManualBugReports
       config:
         betakey: public
         osarch: "64"
@@ -651115,6 +651115,11 @@
     - executable: Geri.exe
 4160590: {}
 4162040:
+  installDir: Zenless Zone Zero
+  launch:
+    - config:
+        oslist: windows
+      executable: HYP.exe
   nameLocalized:
     english: Zenless Zone Zero
     japanese: ゼンレスゾーンゼロ
@@ -651958,6 +651963,7 @@
     turkish: "Call of Duty®: Modern Warfare® 4"
     ukrainian: "Call of Duty®: Modern Warfare® 4"
 4436520: {}
+4441710: {}
 4444610: {}
 4452700: {}
 4459850:
