@@ -518256,6 +518256,16 @@
       description: Launch
       executable: TEOHB.app/Contents/MacOS/AGS
       type: default
+    - config:
+        oslist: macos
+      description: Settings
+      executable: AGSTool.app/Contents/MacOS/bash.command
+      type: config
+    - config:
+        oslist: linux
+      description: Settings
+      executable: "./winsetup"
+      type: config
 1182370:
   installDir: "Mr. Hopp's Playhouse"
   launch:
