@@ -160166,9 +160166,13 @@ Cruelty:
     id: 3011850
 Cruelty Squad:
   files:
-    "<winAppData>/Godot/app_userdata/Cruelty Squad":
+    "<winAppData>/Godot/app_userdata/Cruelty Squad/*.save":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Cruelty Squad/settings.save":
+      tags:
         - save
       when:
         - os: windows
@@ -276379,8 +276383,13 @@ Forgiveness:
     id: 971120
 Forgotlings:
   cloud:
+    gog: true
     steam: true
+  gog:
+    id: 1886673828
   id:
+    gogExtra:
+      - 1390429908
     lutris: forgotlings
     steamExtra:
       - 2475580
@@ -731880,6 +731889,11 @@ The Grim and I:
 The Grinch:
   id:
     lutris: the-grinch
+"The Grinch 2: Saving Christmas":
+  cloud:
+    steam: true
+  steam:
+    id: 3470930
 "The Grinch: Christmas Adventures":
   installDir:
     The Grinch: {}
@@ -802167,6 +802181,9 @@ Until Then:
     id: 1930246738
   id:
     lutris: until-then
+    steamExtra:
+      - 2296400
+      - 3902750
   installDir:
     Until Then: {}
   launch:

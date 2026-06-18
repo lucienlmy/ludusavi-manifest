@@ -51487,8 +51487,8 @@ Cruelty Squad:
   pageId: 167038
   steam: 1388770
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Cruelty Squad}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Cruelty Squad}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Cruelty Squad\\*.save}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Cruelty Squad\\settings.save}}"
 Cruentis The Murderer vol.1:
   pageId: 70162
   steam: 674120
@@ -89518,7 +89518,11 @@ Forgiveness:
   steam: 971120
 Forgotlings:
   cloud:
+    gog: true
     steam: true
+  gog: 1886673828
+  gogSide:
+    - 1390429908
   lutris: forgotlings
   pageId: 187758
   steam: 2059570
@@ -237428,6 +237432,11 @@ The Grim and I:
 The Grinch:
   lutris: the-grinch
   pageId: 187894
+"The Grinch 2: Saving Christmas":
+  cloud:
+    steam: true
+  pageId: 217782
+  steam: 3470930
 "The Grinch: Christmas Adventures":
   cloud:
     xbox: true
@@ -261351,6 +261360,9 @@ Until Then:
   lutris: until-then
   pageId: 196073
   steam: 1574820
+  steamSide:
+    - 2296400
+    - 3902750
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Until Then\\settings.res}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Until Then/settings.res|{{p|xdgdatahome}}/Until Then/input.res}}"

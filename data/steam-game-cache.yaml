@@ -567261,6 +567261,21 @@
         oslist: linux
       executable: launcher.sh
       type: default
+    - config:
+        betakey: beta
+        osarch: "64"
+        oslist: windows
+      description: Until Then (Vulkan)
+      executable: launcher.exe
+      type: option1
+    - arguments: "--d3d12"
+      config:
+        betakey: beta
+        osarch: "64"
+        oslist: windows
+      description: Until Then (DX12)
+      executable: launcher.exe
+      type: option2
 1574870:
   cloud:
     saves:
@@ -645247,6 +645262,19 @@
     tchinese: "Star Trek: 未知前哨站"
     turkish: "Star Trek: Bilinmeyen Üsler"
     ukrainian: "Star Trek: Незвідані аванпости"
+3470930:
+  nameLocalized:
+    brazilian: "O Grinch 2: Salvando o Natal "
+    french: "Le Grinch 2 : À la rescousse de Noël"
+    german: "Der Grinch 2: Rette Weihnachten!"
+    italian: "Il Grinch 2 : Salvando il Natale"
+    japanese: "グリンチ2：クリスマスを救え "
+    koreana: "그린치 2: 크리스마스 구하기 "
+    latam: "El Grinch 2: Salvando la Navidad"
+    polish: "Grinch 2: Ratowanie Świąt"
+    schinese: 圣诞怪杰2：拯救圣诞节
+    tchinese: "鬼靈精 2：拯救聖誕節 "
+    ukrainian: "Ґрінч 2: Рятуючи Різдво "
 3470960:
   nameLocalized:
     japanese: テイルズ オブ エターニア リマスター
