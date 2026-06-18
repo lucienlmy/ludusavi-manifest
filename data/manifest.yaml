@@ -299197,6 +299197,13 @@ Gizmo:
 GlaZ:
   steam:
     id: 391300
+Glace:
+  files:
+    "<base>/Data/*.gsl":
+      tags:
+        - save
+      when:
+        - os: windows
 Glacial:
   installDir:
     Glacial: {}

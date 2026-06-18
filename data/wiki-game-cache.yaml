@@ -96830,6 +96830,10 @@ Gizmo:
 GlaZ:
   pageId: 39562
   steam: 391300
+Glace:
+  pageId: 217777
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Data\\*.gsl\\}}"
 Glacial:
   pageId: 130179
   steam: 1042310
