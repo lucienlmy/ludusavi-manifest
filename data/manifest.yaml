@@ -87109,6 +87109,7 @@ Blades of Avernum:
 Blades of Fire:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winDocuments>/MercurySteam/Blades of Fire/<storeUserId>":
@@ -87124,6 +87125,11 @@ Blades of Fire:
       when:
         - os: windows
   id:
+    gogExtra:
+      - 1830309026
+      - 1957031584
+      - 2099920760
+      - 2129676738
     lutris: blades-of-fire
     steamExtra:
       - 4335780
@@ -134585,6 +134591,27 @@ City Car Driving:
   steam:
     id: 493490
 City Car Driving 2.0:
+  files:
+    "<winLocalAppData>/Forward Development/CityCarDriving2/Saved/Bindings/Presets/**/*.xml":
+      when:
+        - store: steam
+    "<winLocalAppData>/Forward Development/CityCarDriving2/Saved/SaveGames/**/*.ini":
+      when:
+        - store: steam
+    "<winLocalAppData>/Forward Development/CityCarDriving2/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Forward Development/CityCarDriving2/Saved/SaveGames/**/*.xml":
+      when:
+        - store: steam
+  installDir:
+    City Car Driving 2.0: {}
+  launch:
+    "<base>/CityCarDriving2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2327720
 City Climber:
@@ -351672,7 +351699,7 @@ HypnoTiles:
   cloud:
     steam: true
   files:
-    "<base>/*.sav":
+    "<base>/HypnoTiles.sav":
       tags:
         - save
       when:
@@ -508489,6 +508516,15 @@ Order of War:
 Order of the Assassin:
   steam:
     id: 851690
+Order of the Sinking Star:
+  cloud:
+    steam: true
+  id:
+    lutris: order-of-the-sinking-star
+    steamExtra:
+      - 4597250
+  steam:
+    id: 499170
 "Order of the Thorne: The King's Challenge":
   files:
     "<base>/acsetup.cfg":
@@ -526291,6 +526327,9 @@ Persona 5 Tactica:
         - config
   steam:
     id: 3061570
+Persona 6:
+  steam:
+    id: 2649560
 Personal Disco VR:
   installDir:
     Personal Disco VR: {}

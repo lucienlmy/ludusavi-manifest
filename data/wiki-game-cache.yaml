@@ -28232,7 +28232,13 @@ Blades of Exile:
 Blades of Fire:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gogSide:
+    - 1830309026
+    - 1957031584
+    - 2099920760
+    - 2129676738
   lutris: blades-of-fire
   pageId: 202016
   steam: 2091020
@@ -113985,7 +113991,7 @@ HypnoTiles:
   pageId: 217759
   steam: 4712350
   templates:
-    - "{{Game data/saves|Windows|{{P|game}}\\*.sav}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\HypnoTiles.sav}}"
 Hypnocult:
   cloud:
     steam: true
@@ -165382,6 +165388,14 @@ Order of War:
 Order of the Assassin:
   pageId: 94515
   steam: 851690
+Order of the Sinking Star:
+  cloud:
+    steam: true
+  lutris: order-of-the-sinking-star
+  pageId: 217784
+  steam: 499170
+  steamSide:
+    - 4597250
 "Order of the Thorne: The King's Challenge":
   gog: 1444830704
   pageId: 34274
@@ -171268,6 +171282,7 @@ Persona 6:
   cloud:
     xbox: true
   pageId: 217494
+  steam: 2649560
 Personal Disco VR:
   pageId: 60734
   steam: 618350

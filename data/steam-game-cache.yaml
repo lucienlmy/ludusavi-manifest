@@ -179240,6 +179240,9 @@
         oslist: macos
       executable: "OperatorOverload.app\\Contents\\MacOS\\OperatorOverload"
       type: default
+499170:
+  nameLocalized:
+    schinese: 沉星之序
 499180:
   cloud:
     saves:
@@ -286401,39 +286404,25 @@
       type: default
       workingdir: "en_us\\client\\bin\\pc\\"
     - config:
-        betakey: "beta_home,references"
+        betakey: "aftermath_review, beta_branch, beta_for_mrktng, bg_steam, fh_branch, gd_playtests, gd_playtests_2, h2_branch, handheld, hm2_playtest, hmxl_preview, kochprostest, ld_playtest, new_features_playtest, references, release_branch, romexl_preview, sbr_qa_main, sbr_qa_stable, trailerteam_test"
         osarch: "64"
         oslist: windows
       description: Release
       executable: "en_us\\client\\bin\\pc\\wwzRelease.exe"
       workingdir: "en_us\\client\\bin\\pc\\"
     - config:
-        betakey: fh_branch
+        betakey: "aftermath_review, beta_branch, beta_for_mrktng, bg_steam, fh_branch, gd_playtests, gd_playtests_2, h2_branch, handheld, hm2_playtest, hmxl_preview, kochprostest, ld_playtest, new_features_playtest, references, release_branch, romexl_preview, sbr_qa_main, sbr_qa_stable, trailerteam_test"
         osarch: "64"
         oslist: windows
       description: Profile
       executable: "en_us\\client\\bin\\pc\\wwzProfile.exe"
       workingdir: "en_us\\client\\bin\\pc\\"
     - config:
-        betakey: "sbr_qa_main,references"
+        betakey: "aftermath_review, beta_branch, beta_for_mrktng, bg_steam, fh_branch, gd_playtests, gd_playtests_2, h2_branch, handheld, hm2_playtest, hmxl_preview, kochprostest, ld_playtest, new_features_playtest, references, release_branch, romexl_preview, sbr_qa_main, sbr_qa_stable, trailerteam_test"
         osarch: "64"
         oslist: windows
-      description: Profile
-      executable: "en_us\\client\\bin\\pc\\wwzProfile.exe"
-      workingdir: "en_us\\client\\bin\\pc\\"
-    - config:
-        betakey: kochprostest
-        osarch: "64"
-        oslist: windows
-      description: Profile
-      executable: "en_us\\client\\bin\\pc\\wwzProfile.exe"
-      workingdir: "en_us\\client\\bin\\pc\\"
-    - config:
-        betakey: hm2_playtest
-        osarch: "64"
-        oslist: windows
-      description: Profile
-      executable: "en_us\\client\\bin\\pc\\wwzProfile.exe"
+      description: Retail
+      executable: "en_us\\client\\bin\\pc\\wwzRetail.exe"
       workingdir: "en_us\\client\\bin\\pc\\"
 699150:
   installDir: Rex Another Island
@@ -615226,7 +615215,32 @@
     japanese: 全裸徘徊女子大生 はずかしーなちゃん
     schinese: 全裸徘徊的女子大学生~害羞的椎名酱
     tchinese: 全裸徘徊的女子大學生~害羞的椎名酱
-2327720: {}
+2327720:
+  cloud:
+    saves:
+      - path: Forward Development/CityCarDriving2/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Forward Development/CityCarDriving2/Saved/SaveGames
+        pattern: "*.ini"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Forward Development/CityCarDriving2/Saved/SaveGames
+        pattern: "*.xml"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Forward Development/CityCarDriving2/Saved/Bindings/Presets
+        pattern: "*.xml"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: City Car Driving 2.0
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CityCarDriving2.exe
+      type: default
 2328650:
   cloud:
     saves:
@@ -627967,6 +627981,21 @@
         oslist: windows
       executable: SpiritValley.exe
       type: default
+2649560:
+  nameLocalized:
+    brazilian: Persona 6
+    french: Persona 6
+    german: Persona 6
+    italian: Persona 6
+    japanese: ペルソナ６
+    koreana: 페르소나6
+    latam: Persona 6
+    russian: Persona 6
+    schinese: 女神异闻录６
+    spanish: Persona 6
+    tchinese: 女神異聞錄６
+    thai: เพอร์โซนา 6
+    turkish: Persona 6
 2649990:
   installDir: 貢がせろ！女苑ちゃん！！
   launch:
