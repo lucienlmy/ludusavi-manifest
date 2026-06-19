@@ -485232,6 +485232,8 @@ Nevermind This:
 Neverness to Everness:
   id:
     lutris: neverness-to-everness/
+    steamExtra:
+      - 4706890
   steam:
     id: 4508340
 Neverout:
@@ -626942,6 +626944,11 @@ Shiver:
         - config
   steam:
     id: 727730
+Shiver (Team Nocebo):
+  id:
+    lutris: shiver--1
+  steam:
+    id: 3330890
 "Shiver: Poltergeist":
   installDir:
     "Shiver Poltergeist Collector's Edition": {}

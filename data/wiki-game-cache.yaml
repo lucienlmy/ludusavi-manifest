@@ -157692,6 +157692,8 @@ Neverness to Everness:
   lutris: neverness-to-everness/
   pageId: 216079
   steam: 4508340
+  steamSide:
+    - 4706890
 Neverout:
   cloud:
     xbox: true
@@ -203845,6 +203847,10 @@ Shiver:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Kowai Sugoi Studios/Shiver/prefs}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Kowai Sugoi Studios\\Shiver\\*.save}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Kowai Sugoi Studios/Shiver/*.save}}"
+Shiver (Team Nocebo):
+  lutris: shiver--1
+  pageId: 217792
+  steam: 3330890
 "Shiver: Poltergeist":
   pageId: 52532
   steam: 545640

@@ -363806,6 +363806,9 @@
         oslist: windows
       executable: Goat2.exe
       type: default
+  nameLocalized:
+    schinese: 山羊模拟器3
+    tchinese: 《模擬山羊3》
 850230:
   installDir: "Women's Soccer Manager"
   launch:
@@ -643332,6 +643335,7 @@
     thai: MySims™ Kingdom
     turkish: MySims™ Kingdom
     ukrainian: MySims™ Kingdom
+3330890: {}
 3331000:
   installDir: Retrowave 2
   launch:
@@ -644524,6 +644528,10 @@
   installDir: FC 26
   launch:
     - executable: "link2ea://launchgame/3405690?platform=steam&theme=fc26"
+    - config:
+        betakey: eax_test
+      description: eax test special launch mode
+      executable: "steam2ea://launchgame/3405690?platform=steam&theme=fc26"
   nameLocalized:
     brazilian: EA SPORTS FC™ 26
     czech: EA SPORTS FC™ 26
