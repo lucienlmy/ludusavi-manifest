@@ -164278,6 +164278,9 @@ Cuit:
             store: steam
   steam:
     id: 614890
+Culdcept The First:
+  steam:
+    id: 3825600
 "Culina: Hands in the Kitchen":
   cloud:
     steam: true
@@ -715764,6 +715767,15 @@ The Adventures of Elena Temple:
         - os: windows
   id:
     lutris: the-adventures-of-elliot-the-millennium-tales
+    steamExtra:
+      - 4031020
+      - 4126310
+  installDir:
+    The Adventures of Elliot_The Millennium Tales: {}
+  launch:
+    "<base>/Elliot.exe":
+      - when:
+          - store: steam
   steam:
     id: 3483510
 The Adventures of Fatman:
@@ -772580,6 +772592,8 @@ Toltec and the mysteries of the Secret Island:
         - save
       when:
         - os: windows
+  id:
+    lutris: tom-clancys-the-division-resurgence
   steam:
     id: 3749720
 "Tom Clancy's XDefiant":

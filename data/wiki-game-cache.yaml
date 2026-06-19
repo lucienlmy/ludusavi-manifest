@@ -52770,6 +52770,10 @@ Cuisineer:
 Cuit:
   pageId: 60315
   steam: 614890
+Culdcept The First:
+  malformed: true
+  pageId: 217787
+  steam: 3825600
 "Culina: Hands in the Kitchen":
   cloud:
     steam: true
@@ -232192,6 +232196,9 @@ The Adventures of Elena Temple:
   lutris: the-adventures-of-elliot-the-millennium-tales
   pageId: 213500
   steam: 3483510
+  steamSide:
+    - 4031020
+    - 4126310
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\The Adventures of Elliot_The Millennium Tales\\Steam\\Config\\Windows}}"
 The Adventures of Fatman:
@@ -250887,6 +250894,7 @@ Tom & Jerry:
 "Tom Clancy's The Division Resurgence":
   cloud:
     uplay: true
+  lutris: tom-clancys-the-division-resurgence
   pageId: 217303
   steam: 3749720
   templates:

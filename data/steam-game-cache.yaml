@@ -645438,6 +645438,14 @@
     koreana: 패킹 라이프
     schinese: 打包人生
 3483510:
+  cloud:
+    saves:
+      - path: "The Adventures of Elliot_The Millennium Tales/Steam/{64BitSteamID}/SaveGames/"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: The Adventures of Elliot_The Millennium Tales
+  launch:
+    - executable: Elliot.exe
   nameLocalized:
     english: "The Adventures of Elliot: The Millennium Tales"
     japanese: 冒険家エリオットの千年物語
@@ -649449,6 +649457,9 @@
     japanese: "BLUE REFLECTION Quartet: 少女たちのキセキ"
     schinese: "BLUE REFLECTION Quartet: 少女们的奇迹"
     tchinese: "BLUE REFLECTION Quartet: 少女們的奇蹟"
+3825600:
+  nameLocalized:
+    japanese: カルドセプト ザ ファースト
 3827840:
   cloud:
     saves:
