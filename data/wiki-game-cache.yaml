@@ -58041,6 +58041,8 @@ Dead or Alive 6:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\DEADORALIVE6}}"
 Dead or Alive 6 Last Round:
+  cloud:
+    steam: true
   pageId: 213727
   steam: 4144680
 Dead or Alive Xtreme Venus Vacation:
