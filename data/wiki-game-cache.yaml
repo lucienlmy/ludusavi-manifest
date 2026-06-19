@@ -118025,7 +118025,7 @@ Insane:
   pageId: 7225
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Codemasters\\Insane\\|{{p|game}}\\Data\\*.ctl}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Player*.chp|{{p|game}}\\Data\\Replays\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Player*.chp|{{p|game}}\\Data\\Replays}}"
 Insane (2016):
   pageId: 51016
   steam: 452930
@@ -258264,9 +258264,12 @@ Two Point Museum:
   steamSide:
     - 2999840
     - 2999850
+    - 3457760
+    - 3550890
     - 3592600
     - 3804850
     - 4114070
+    - 4511680
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Two Point Studios\\Two Point Museum\\Cloud{{p|uid}}\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.twopointstudios.twopointmuseum/{{p|uid}}/}}"

@@ -792663,9 +792663,12 @@ Two Point Museum:
     steamExtra:
       - 2999840
       - 2999850
+      - 3457760
+      - 3550890
       - 3592600
       - 3804850
       - 4114070
+      - 4511680
   installDir:
     Two Point Museum: {}
   launch:
