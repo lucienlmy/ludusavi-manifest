@@ -33759,6 +33759,8 @@ Broken of Darkness:
   renamedFrom:
     - "BrokenLore: Don’t Lie"
   steam: 3886200
+  steamSide:
+    - 4005770
 "BrokenLore: Don't Play":
   pageId: 215963
   steam: 4549480
@@ -129881,7 +129883,7 @@ Laundry Store Simulator:
   pageId: 88450
   templates:
     - "{{Game data/config|Windows|{{p|windir}}\\UbiSoft\\ubi.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\SaveGame\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\GameData\\SaveGame}}"
 "Lauren's visit":
   pageId: 108290
   steam: 918040

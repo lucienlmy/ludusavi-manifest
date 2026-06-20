@@ -104531,6 +104531,8 @@ Broken of Darkness:
 "BrokenLore: Don't Lie":
   id:
     lutris: brokenlore-dont-lie
+    steamExtra:
+      - 4005770
   steam:
     id: 3886200
 "BrokenLore: Don't Play":
