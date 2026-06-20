@@ -542421,23 +542421,23 @@
   installDir: Gothic 1 Remake
   launch:
     - config:
-        betakey: "calom, magicbarrier, magicbarrier_gamescom, clown, testgate, evaluation"
+        betakey: "calom, magicbarrier, releasebranch_dev, clown, testgate, evaluation"
         oslist: windows
       description: Gothic 1 Remake (Dev Exe)
       executable: G1R.exe
       type: option1
     - config:
-        betakey: "calom, magicbarrier, magicbarrier_gamescom, magicbarrier_fordistribution, clown, testgate, sneak, evaluation"
+        betakey: "calom, magicbarrier, releasebranch_dev, magicbarrier_fordistribution, releasebranch_fordistribution, clown, testgate, sneak, evaluation"
       description: Gothic 1 Remake (Shipping Exe)
       executable: G1R-Win64-Shipping.exe
       type: option1
     - config:
-        betakey: "calom, magicbarrier, magicbarrier_gamescom, clown, testgate"
+        betakey: "calom, magicbarrier, releasebranch_dev, clown, testgate"
       description: Gothic 1 Remake (Test Exe)
       executable: G1R-Win64-Test.exe
       type: option1
     - config:
-        betakey: "public, combat, press, pressspecial, reviews, valve, loca, publictesting"
+        betakey: "public, combat, press, pressspecial, reviews, valve, loca, publictesting, previousrelease, releasebranch_fordistribution"
         oslist: windows
       description: Gothic 1 Remake (Shipping)
       executable: G1R-Win64-Shipping.exe
@@ -631927,7 +631927,9 @@
       type: option2
   nameLocalized:
     schinese: 我看人下碟 / Wax Heads
-2769570: {}
+2769570:
+  nameLocalized:
+    schinese: 神鬼寓言
 2771670:
   installDir: Psychopomp
   launch:
@@ -649225,9 +649227,23 @@
         oslist: windows
       executable: Front Mission 3 Remake.exe
 3796960:
+  cloud:
+    saves:
+      - path: my games/ElementalReforged/Saves
+        pattern: "*.EleSav"
+        recursive: true
+        root: WinMyDocuments
+      - path: my games/ElementalReforged/Saves/Campaign
+        pattern: "*.EleSav"
+        root: WinMyDocuments
   installDir: Elemental Reforged
   launch:
     - executable: StardockLauncher.exe
+      type: default
+    - config:
+        betakey: qa_elemental
+        oslist: linux
+      executable: Elemental.exe
       type: default
 3798840: {}
 3798860: {}

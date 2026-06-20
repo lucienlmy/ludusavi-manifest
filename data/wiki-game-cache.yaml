@@ -10448,7 +10448,9 @@ Alone in Space:
 Alone in the Dark:
   cloud:
     gog: true
-  gog: 1207658923
+  gog: 1207660923
+  gogSide:
+    - 1207658923
   lutris: alone-in-the-dark-1
   pageId: 7524
   steam: 548090
@@ -68230,7 +68232,9 @@ Dragons and Titans:
 Dragons of Flame:
   cloud:
     steam: true
-  gog: 1830158979
+  gog: 1321890219
+  gogSide:
+    - 1830158979
   pageId: 72448
   steam: 2344020
   steamSide:
@@ -68813,6 +68817,7 @@ Dream Stone:
 Dream Tactics:
   cloud:
     steam: true
+  gog: 1381541022
   pageId: 202278
   steam: 1897650
   templates:
@@ -78647,7 +78652,7 @@ Euro-Man:
   pageId: 204255
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\EuroMan}}"
-    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\EuroMan\\Scores\\}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\EuroMan\\Scores}}"
 EuroCops:
   lutris: eurocops
   pageId: 186724
@@ -96112,6 +96117,8 @@ Ghost in the Machine:
     - 412333
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Data\\options.ini}}"
+Ghost in the pool:
+  pageId: 217802
 "Ghost of Tsushima Director's Cut":
   cloud:
     epic: true
@@ -108629,7 +108636,9 @@ Heroes of elements:
 Heroes of the Lance:
   cloud:
     steam: true
-  gog: 1830158979
+  gog: 2125877931
+  gogSide:
+    - 1830158979
   pageId: 72446
   steam: 2344020
   steamSide:
@@ -201743,7 +201752,9 @@ Shadow Runner:
 Shadow Sorcerer:
   cloud:
     steam: true
-  gog: 1830158979
+  gog: 1779703219
+  gogSide:
+    - 1830158979
   pageId: 72450
   steam: 2344020
   steamSide:
@@ -218529,6 +218540,9 @@ State of Decay 2:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\StateOfDecay2\\Saved\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.Dayton_8wekyb3d8bbwe\\SystemAppData\\wgs}}"
 State of Decay 3:
+  cloud:
+    xbox: true
+  lutris: state-of-decay-3
   pageId: 162112
   steam: 1340720
 "State of Decay: Year-One Survival Edition":
@@ -267566,7 +267580,9 @@ War of the Immortals:
 War of the Lance:
   cloud:
     steam: true
-  gog: 1830158979
+  gog: 1485235422
+  gogSide:
+    - 1830158979
   pageId: 185828
   steam: 2344020
   steamSide:

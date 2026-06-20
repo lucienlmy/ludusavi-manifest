@@ -32748,7 +32748,7 @@ Alone in the Dark:
       when:
         - os: dos
   gog:
-    id: 1207658923
+    id: 1207660923
   id:
     lutris: alone-in-the-dark-1
   steam:
@@ -211418,8 +211418,10 @@ Dragons of Flame:
       when:
         - os: dos
   gog:
-    id: 1830158979
+    id: 1321890219
   id:
+    gogExtra:
+      - 1830158979
     steamExtra:
       - 2350512
   installDir:
@@ -213357,6 +213359,8 @@ Dream Tactics:
         - save
       when:
         - os: windows
+  gog:
+    id: 1381541022
   installDir:
     Dream Tactics: {}
   launch:
@@ -231789,6 +231793,13 @@ Elemental War 2:
   steam:
     id: 216390
 "Elemental: Reforged":
+  files:
+    "<winDocuments>/my games/ElementalReforged/Saves/**/*.EleSav":
+      when:
+        - store: steam
+    "<winDocuments>/my games/ElementalReforged/Saves/Campaign/*.EleSav":
+      when:
+        - store: steam
   installDir:
     Elemental Reforged: {}
   launch:
@@ -335155,8 +335166,10 @@ Heroes of the Lance:
       when:
         - os: dos
   gog:
-    id: 1830158979
+    id: 2125877931
   id:
+    gogExtra:
+      - 1830158979
     steamExtra:
       - 2350511
   installDir:
@@ -620532,8 +620545,10 @@ Shadow Sorcerer:
       when:
         - os: dos
   gog:
-    id: 1830158979
+    id: 1779703219
   id:
+    gogExtra:
+      - 1830158979
     steamExtra:
       - 2350510
   installDir:
@@ -672659,6 +672674,8 @@ State of Decay 2:
   steam:
     id: 495420
 State of Decay 3:
+  id:
+    lutris: state-of-decay-3
   steam:
     id: 1340720
 "State of Decay: Year-One Survival Edition":
@@ -820488,8 +820505,10 @@ War of the Lance:
   cloud:
     steam: true
   gog:
-    id: 1830158979
+    id: 1485235422
   id:
+    gogExtra:
+      - 1830158979
     steamExtra:
       - 2350513
   installDir:
