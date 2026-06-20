@@ -27653,6 +27653,9 @@ Black Survival:
 Black Swan:
   pageId: 54317
   steam: 560230
+"Black Tides Draga's Wake":
+  pageId: 217804
+  steam: 4810650
 "Black Viper: Sophia's Fate":
   pageId: 49494
   steam: 322990
@@ -122802,6 +122805,8 @@ Jurassic World Evolution 3:
   steamSide:
     - 3651190
     - 3651200
+    - 4131660
+    - 4131670
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Jurassic World Evolution 3\\{{p|uid}}\\Saves}}"
 Jurig Escape:
@@ -209934,12 +209939,15 @@ Solarpower:
   steam: 852870
 Solarpunk:
   cloud:
+    steam: true
     xbox: true
   pageId: 201881
   steam: 1805110
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Solarpunk\\Saved\\Config\\Windows}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Solarpunk\\Saved\\SaveGames}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Solarpunk\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Solarpunk\\Saved\\Config\\WinGDK\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Solarpunk\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\rokapublish.Solarpunk_6q4vfhsywtz4j\\SystemAppData\\wgs\\}}"
 Solas 128:
   cloud:
     steam: true
@@ -241836,6 +241844,7 @@ The Night of Fire Stealing:
   steam: 899290
 The Night of the Rabbit:
   cloud:
+    gog: true
     steam: true
   gog: 1207659218
   lutris: the-night-of-the-rabbit

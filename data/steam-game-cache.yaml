@@ -636076,12 +636076,12 @@
   installDir: Jurassic World Evolution 3
   launch:
     - config:
-        betakey: "qa_staging, internal_01, build_mainline_release, build_mainline_releaseprofile, internal_03, internal_04, build_branch1_release, build_branch1_releaseprofile, build_mainline2_release, build_branch2_release, internal_02, external_04, "
+        betakey: "qa_staging, internal_01, build_mainline_release, build_mainline_releaseprofile, internal_03, internal_04, build_branch1_release, build_branch1_releaseprofile, build_mainline2_release, build_branch2_release, internal_02, external_04, internal_05, build_branch3_release, "
       description: Release Build
       executable: Anning.release.exe
       type: option1
     - config:
-        betakey: "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_04, external_01, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02, internal_03, external_05"
+        betakey: "qa_staging, internal_01, build_mainline_releaseprofile, outsource_lqa, build_mainline_profile, internal_03, internal_04, build_branch1_profile, build_branch1_releaseprofile, external_04, external_01, external_07, build_mainline2_profile, external_08, build_branch2_profile, internal_02, internal_03, external_05, build_branch3_profile, "
       description: Profile Build
       executable: Anning.profile.exe
       type: option2
@@ -652304,6 +652304,7 @@
 4743930: {}
 4744030: {}
 4767480: {}
+4810650: {}
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"

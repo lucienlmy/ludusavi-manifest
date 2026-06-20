@@ -85411,6 +85411,9 @@ Black Swan:
             store: steam
   steam:
     id: 560230
+"Black Tides Draga's Wake":
+  steam:
+    id: 4810650
 "Black Viper: Sophia's Fate":
   installDir:
     "Black Viper Sophia's Fate": {}
@@ -379060,6 +379063,8 @@ Jurassic World Evolution 3:
     steamExtra:
       - 3651190
       - 3651200
+      - 4131660
+      - 4131670
   installDir:
     Jurassic World Evolution 3: {}
   launch:
@@ -646592,13 +646597,27 @@ Solarpower:
   steam:
     id: 852870
 Solarpunk:
+  cloud:
+    steam: true
   files:
-    "<base>/Solarpunk/Saved/Config/Windows":
+    "<winLocalAppData>/Packages/rokapublish.Solarpunk_6q4vfhsywtz4j/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Solarpunk/Saved/Config/WinGDK":
       tags:
         - config
       when:
         - os: windows
-    "<base>/Solarpunk/Saved/SaveGames":
+          store: microsoft
+    "<winLocalAppData>/Solarpunk/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Solarpunk/Saved/SaveGames":
       tags:
         - save
       when:
@@ -744945,6 +744964,7 @@ The Night of Fire Stealing:
     id: 899290
 The Night of the Rabbit:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Library/Application Support/Daedalic Entertainment/The Night of the Rabbit/Savegames":
