@@ -629369,7 +629369,7 @@
       executable: Newton.release.exe
       type: option1
     - config:
-        betakey: "internal_1, internal_2, internal_03, staging_qa,  build_branch1_profile, build_mainline_profile, build_mainline2_profile, outsource_lqa, external_03, build_branch2_profile, external_06, external_07, internal_02, external_02"
+        betakey: "internal_1, internal_2, internal_03, staging_qa,  build_branch1_profile, build_mainline_profile, build_mainline2_profile, outsource_lqa, external_03, build_branch2_profile, external_06, external_07, internal_02, external_02, internal_04"
       description: Profile Build
       executable: Newton.profile.exe
       type: option2
@@ -643337,6 +643337,35 @@
     thai: MySims™ Kingdom
     turkish: MySims™ Kingdom
     ukrainian: MySims™ Kingdom
+3330250:
+  cloud:
+    saves:
+      - path: "\\Blue Turtle\\Magic Studies\\"
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "\\Blue Turtle\\Magic Studies\\"
+            replace: "\\Blue Turtle\\Magic Studies\\"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: "\\Blue Turtle\\Magic Studies\\"
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+  installDir: Ithya Magic Studies
+  launch:
+    - config:
+        oslist: windows
+      executable: Magic Studies.exe
+    - config:
+        oslist: macos
+      executable: Magic Studies.app
 3330890: {}
 3331000:
   installDir: Retrowave 2

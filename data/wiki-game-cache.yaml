@@ -48460,8 +48460,8 @@ Corona MotorSport:
 Coronel Indoor Kartracing:
   pageId: 203520
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\Coronel Kartracing\\Settings\\}}"
-    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\Coronel Kartracing\\Profiles\\|{{P|hkcu}}\\SOFTWARE\\Engine Software\\Coronel Kartracing\\Scores\\}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\Coronel Kartracing\\Settings}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Engine Software\\Coronel Kartracing\\Profiles|{{P|hkcu}}\\SOFTWARE\\Engine Software\\Coronel Kartracing\\Scores}}"
 Corpo Tale:
   pageId: 41781
   steam: 438240
@@ -111749,11 +111749,12 @@ Hostile User Interface:
   cloud:
     steam: true
   gog: 1207658670
+  lutris: hostile-waters-antaeus-rising
   pageId: 26979
   steam: 267980
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SavedGames\\Opt.dat|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Rage\\HostileWaters\\Options}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SavedGames}}"
 Hot & Steamy Knights:
   pageId: 166546
   steam: 1096730
@@ -120182,6 +120183,11 @@ ItazuraVR Safe for Work:
 Iterform:
   pageId: 96745
   steam: 873210
+"Ithya: Magic Studies":
+  cloud:
+    steam: true
+  pageId: 217807
+  steam: 3330250
 Itineris:
   pageId: 57281
   steam: 582580
@@ -133540,8 +133546,9 @@ Link the animals:
 "Link's Awakening DX HD":
   pageId: 191828
   templates:
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Zelda_LA/settings}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Zelda_LA\\settings}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Zelda_LA/settings}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles\\|{{p|localappdata}}\\Zelda_LA\\SaveFiles\\}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Zelda_LA/SaveFiles/}}"
 "Link: The Faces of Evil":
   pageId: 199714
@@ -174216,6 +174223,10 @@ Planet Coaster 2:
   steamSide:
     - 3091180
     - 3091190
+    - 3337040
+    - 3902620
+    - 4129920
+    - 4492160
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Coaster 2\\{{p|uid}}\\Config\\*.config.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Coaster 2\\{{p|uid}}\\Saves\\}}"
@@ -203066,6 +203077,9 @@ Shelldiver:
   steam: 3862670
   steamSide:
     - 3923340
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Shelldiver\\save\\Settings.json}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Shelldiver\\save\\Game.json}}"
 Shellshock:
   pageId: 210467
 "Shellshock 2: Blood Trails":
@@ -251052,6 +251066,7 @@ Tomb Raider I-III Remastered:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\savegame.dat}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\*.sav}}"
+    - "{{Game data/saves|Epic Games Launcher|{{p|appdata}}\\TRX_EGS\\{{p|uid}}\\savegame.dat}}"
 Tomb Raider II:
   gog: 1207663483
   gogSide:

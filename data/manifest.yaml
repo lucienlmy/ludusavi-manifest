@@ -344907,6 +344907,8 @@ Hostile User Interface:
         - os: windows
   gog:
     id: 1207658670
+  id:
+    lutris: hostile-waters-antaeus-rising
   installDir:
     Hostile Waters Antaeus Rising: {}
   launch:
@@ -371296,6 +371298,30 @@ Iterform:
             store: steam
   steam:
     id: 873210
+"Ithya: Magic Studies":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Blue Turtle/Magic Studies":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Blue Turtle/Magic Studies":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Ithya Magic Studies: {}
+  launch:
+    "<base>/Magic Studies.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Magic Studies.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3330250
 Itineris:
   steam:
     id: 582580
@@ -411839,6 +411865,16 @@ Link the animals:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Zelda_LA/SaveFiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Zelda_LA/settings":
+      tags:
+        - config
+      when:
+        - os: windows
     "<xdgData>/Zelda_LA/SaveFiles":
       tags:
         - save
@@ -411846,7 +411882,7 @@ Link the animals:
         - os: linux
     "<xdgData>/Zelda_LA/settings":
       tags:
-        - save
+        - config
       when:
         - os: linux
 "Link: The Unleashed Nexus":
@@ -535085,6 +535121,10 @@ Planet Coaster 2:
     steamExtra:
       - 3091180
       - 3091190
+      - 3337040
+      - 3902620
+      - 4129920
+      - 4492160
   installDir:
     Planet Coaster 2: {}
   launch:
@@ -624588,9 +624628,16 @@ Shelldiver:
   cloud:
     steam: true
   files:
-    "<winAppData>/Shelldiver":
+    "<winAppData>/Shelldiver/save/Game.json":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<winAppData>/Shelldiver/save/Settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: shelldiver
     steamExtra:
@@ -772950,6 +772997,11 @@ Tomb Raider I-III Remastered:
     "<winAppData>/TRX/<storeUserId>/savegame.dat":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/TRX_EGS/<storeUserId>/savegame.dat":
+      tags:
+        - save
       when:
         - os: windows
   gog:
