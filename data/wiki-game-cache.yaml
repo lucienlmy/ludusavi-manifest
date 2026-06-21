@@ -243147,6 +243147,7 @@ The Red Lantern:
   pageId: 154625
   steam: 1053710
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\TheRedLantern\\Profiles}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\TheRedLantern\\Profiles}}"
 The Red Moon:
   cloud:

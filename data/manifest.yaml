@@ -748910,6 +748910,7 @@ The Red Lantern:
   files:
     "<home>/Saved Games/TheRedLantern/Profiles":
       tags:
+        - config
         - save
       when:
         - os: windows
