@@ -650393,6 +650393,43 @@
         oslist: windows
       executable: InsomniaP1.exe
       type: default
+3939700:
+  cloud:
+    saves:
+      - path: Rogue Duck Interactive/Treasure Beach
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Rogue Duck Interactive/Treasure Beach
+            replace: Rogue Duck Interactive/Treasure Beach
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Rogue Duck Interactive/Treasure Beach
+            replace: ".config/unity3d/Rogue Duck Interactive/Treasure Beach"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Treasure Beach
+  launch:
+    - config:
+        oslist: windows
+      executable: Treasure Beach.exe
+    - config:
+        oslist: macos
+      executable: mac.app
+    - config:
+        oslist: linux
+      executable: app.x86_64
+  nameLocalized:
+    japanese: 海辺のたから屋さん
+    koreana: 바닷가 보물 가게
+    schinese: 海边宝藏小铺
+    tchinese: 海邊寶藏小鋪
 3946090: {}
 3947040: {}
 3948120:

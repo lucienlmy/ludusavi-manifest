@@ -255640,6 +255640,11 @@ Treasure Adventure World:
 Treasure At The Top:
   pageId: 68992
   steam: 693810
+Treasure Beach:
+  cloud:
+    steam: true
+  pageId: 217812
+  steam: 3939700
 Treasure Bolt:
   pageId: 79089
   steam: 642680

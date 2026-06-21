@@ -784662,6 +784662,38 @@ Treasure At The Top:
     Treasure At The Top: {}
   steam:
     id: 693810
+Treasure Beach:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Rogue Duck Interactive/Treasure Beach/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Rogue Duck Interactive/Treasure Beach/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Rogue Duck Interactive/Treasure Beach/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Treasure Beach: {}
+  launch:
+    "<base>/Treasure Beach.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/app.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/mac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 3939700
 Treasure Bolt:
   installDir:
     Treasure Bolt: {}
