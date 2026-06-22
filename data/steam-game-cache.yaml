@@ -592142,6 +592142,14 @@
   launch:
     - executable: Knightfall.exe
 1911610:
+  cloud:
+    saves:
+      - path: "Motion Twin/Windblown/Steam_{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: "Motion Twin/Windblown/Steam_{64BitSteamID}"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
   installDir: Windblown
   launch:
     - config:

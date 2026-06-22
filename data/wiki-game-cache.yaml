@@ -26366,6 +26366,7 @@ Big Tower Tiny Square:
   pageId: 77329
   steam: 751250
 Big Walk:
+  lutris: big-walk
   pageId: 213699
   steam: 1478500
 BigBoy - Visual Crime Novel:
@@ -165441,6 +165442,9 @@ Order of the Sinking Star:
   steam: 499170
   steamSide:
     - 4597250
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Order of the Sinking Star\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Order of the Sinking Star\\}}"
 "Order of the Thorne: The King's Challenge":
   gog: 1444830704
   pageId: 34274
@@ -272662,6 +272666,8 @@ WindSoul:
   pageId: 63205
   steam: 631960
 Windblown:
+  cloud:
+    steam: true
   lutris: windblown
   pageId: 210416
   steam: 1911610

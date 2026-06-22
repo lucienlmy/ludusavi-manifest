@@ -81465,6 +81465,8 @@ Big Tower Tiny Square:
   steam:
     id: 751250
 Big Walk:
+  id:
+    lutris: big-walk
   steam:
     id: 1478500
 BigBoy - Visual Crime Novel:
@@ -508626,6 +508628,13 @@ Order of the Assassin:
 Order of the Sinking Star:
   cloud:
     steam: true
+  files:
+    "<home>/Saved Games/Order of the Sinking Star":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     lutris: order-of-the-sinking-star
     steamExtra:
@@ -835558,6 +835567,15 @@ WindSoul:
   steam:
     id: 631960
 Windblown:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Motion Twin/Windblown/Steam_<storeUserId>/*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Motion Twin/Windblown/Steam_<storeUserId>/*.sav":
+      when:
+        - store: steam
   id:
     lutris: windblown
     steamExtra:
