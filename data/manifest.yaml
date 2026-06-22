@@ -36478,6 +36478,10 @@ Among Us 3D:
   steam:
     id: 3168600
 "Among Us Story: On Guard":
+  id:
+    lutris: among-us-story-on-guard
+    steamExtra:
+      - 4793370
   steam:
     id: 2842310
 Among Us VR:
@@ -65070,6 +65074,28 @@ Bail or Jail:
             store: steam
   steam:
     id: 1715980
+Baionlenja:
+  files:
+    "<winLocalAppData>/BAIONLENJA/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BAIONLENJA/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    BAIONLENJA: {}
+  launch:
+    "<base>/BAIONLENJA.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3509160
 "Bake 'n Switch":
   cloud:
     steam: true

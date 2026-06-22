@@ -626542,7 +626542,7 @@
         oslist: windows
       executable: RogueCore.exe
       type: default
-    - arguments: "-disablemodding"
+    - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
       config:
         betakey: internal_testing
         osarch: "64"
@@ -626550,7 +626550,7 @@
       description: Testing build
       executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
       type: option1
-    - arguments: "-disablemodding"
+    - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
       config:
         betakey: internal_marketing
         osarch: "64"
@@ -626564,13 +626564,6 @@
         osarch: "64"
         oslist: windows
       description: Connection test 1
-      executable: RogueCore.exe
-      type: option1
-    - arguments: "-DefaultServiceOverride=Steam"
-      config:
-        betakey: "experimental_closed, internal_release_ship"
-        osarch: "64"
-      description: Please test this one.
       executable: RogueCore.exe
       type: option1
     - arguments: "-DefaultServiceOverride=Steam -LogCmds=\"LogEOSSDK VeryVerbose, LogSocketSubsystemEOS Verbose, LogNet Verbose, LogNetTraffic Verbose, LogOnline Verbose\""
@@ -645855,6 +645848,14 @@
         osarch: "64"
         oslist: windows
       executable: fe2.exe
+      type: default
+3509160:
+  installDir: BAIONLENJA
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BAIONLENJA.exe
       type: default
 3509230:
   cloud:

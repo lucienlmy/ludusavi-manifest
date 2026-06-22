@@ -11725,8 +11725,11 @@ Among Us 3D:
   pageId: 201693
   steam: 3168600
 "Among Us Story: On Guard":
+  lutris: among-us-story-on-guard
   pageId: 217584
   steam: 2842310
+  steamSide:
+    - 4793370
 Among Us VR:
   pageId: 188609
   steam: 1849900
@@ -20896,6 +20899,12 @@ Baikonur Space:
 Bail or Jail:
   pageId: 179714
   steam: 1715980
+Baionlenja:
+  pageId: 217841
+  steam: 3509160
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BAIONLENJA\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BAIONLENJA\\Saved\\SaveGames}}"
 "Bake 'n Switch":
   cloud:
     steam: true
