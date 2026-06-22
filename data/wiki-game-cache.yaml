@@ -81099,7 +81099,7 @@ FBI Mania:
 "FBI: Hostage Rescue":
   pageId: 69934
   templates:
-    - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\Idol FX\\Hostage Rescue\\}}"
+    - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\Idol FX\\Hostage Rescue}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Version\\SaveGames}}"
 "FCK: Lille Leo Bruger Bolden":
   pageId: 126673
@@ -111186,6 +111186,7 @@ Honkai Impact 3rd:
     - Houkai 3rd
   steam: 1671200
   steamSide:
+    - 1668940
     - 1672740
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\miHoYo\\Honkai Impact 3rd\\}}"
@@ -174819,7 +174820,7 @@ PlayUSA:
 "Playboy: The Mansion":
   pageId: 75395
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\PC\\Saved Games}}"
 Playcraft:
   pageId: 100686
@@ -199874,7 +199875,7 @@ Secret Service:
   pageId: 126715
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Cfg\\render.cfg|{{p|game}}\\Data\\Cfg\\sound.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 "Secret Service: Security Breach":
   pageId: 86793
   templates:
@@ -253034,6 +253035,9 @@ Tower Wizard:
     steam: true
   pageId: 211492
   steam: 3372980
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Tower Wizard\\device_settings.res}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Tower Wizard\\game.res}}"
 Tower and Guardian:
   pageId: 67191
   steam: 683960

@@ -251186,7 +251186,7 @@ FBI Mania:
       when:
         - os: windows
   registry:
-    HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Idol FX/Hostage Rescue:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Idol FX/Hostage Rescue:
       tags:
         - config
 "FEAST: Book One «Family Ties»":
@@ -343210,6 +343210,7 @@ Honeypot Espionage:
 Honkai Impact 3rd:
   id:
     steamExtra:
+      - 1668940
       - 1672740
   installDir:
     HonkaiImpact3rd: {}
@@ -778663,10 +778664,16 @@ Tower Wizard:
   cloud:
     steam: true
   files:
-    "<winAppData>/Godot/app_userdata/Tower Wizard/game.res":
+    "<winAppData>/Godot/app_userdata/Tower Wizard/device_settings.res":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winAppData>/Godot/app_userdata/Tower Wizard/game.res":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Tower Wizard: {}
   launch:

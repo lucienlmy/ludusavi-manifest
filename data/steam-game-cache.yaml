@@ -644047,6 +644047,8 @@
         oslist: windows
       executable: Tower Wizard.exe
       type: default
+  nameLocalized:
+    schinese: 摩天法师塔 Tower Wizard
 3373660:
   cloud:
     saves:
