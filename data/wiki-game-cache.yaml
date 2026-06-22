@@ -4590,7 +4590,7 @@ ARC Raiders:
   pageId: 173630
   steam: 1808500
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\PioneerGame\\Saved\\Config\\WindowsClient}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\PioneerGame\\Saved{{Note|Nexon, Microsoft Store and Steam versions}} | {{p|localappdata}}\\PioneerGame_Entrophy\\Saved{{Note|Tencent server version}} }}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\PioneerGame\\Saved\\Config\\WinGDKClient}}"
 AREA 4643:
   pageId: 124215
@@ -47404,6 +47404,9 @@ Congo Merc:
   steam: 510550
 "Congo: Descent Into Zinj":
   pageId: 213445
+Congratulations On Your Purchase:
+  pageId: 217836
+  steam: 4693030
 Congresswolf:
   cloud:
     steam: true
@@ -100269,6 +100272,7 @@ Gray Grofa:
   steam: 664580
 Gray Matter:
   gog: 1207664743
+  lutris: gray-matter
   pageId: 21624
   steam: 260570
   templates:

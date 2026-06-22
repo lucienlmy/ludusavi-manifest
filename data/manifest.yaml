@@ -14702,13 +14702,18 @@ ARC:
     id: 1124550
 ARC Raiders:
   files:
+    "<winLocalAppData>/PioneerGame/Saved":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/PioneerGame/Saved/Config/WinGDKClient":
       tags:
         - config
       when:
         - os: windows
           store: microsoft
-    "<winLocalAppData>/PioneerGame/Saved/Config/WindowsClient":
+    "<winLocalAppData>/PioneerGame_Entrophy/Saved":
       tags:
         - config
       when:
@@ -147691,6 +147696,16 @@ Congo Merc:
             store: steam
   steam:
     id: 510550
+Congratulations On Your Purchase:
+  installDir:
+    Congratulations On Your Purchase: {}
+  launch:
+    "<base>/COYP.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4693030
 Congresswolf:
   cloud:
     steam: true
@@ -309842,6 +309857,8 @@ Gray Matter:
         - os: windows
   gog:
     id: 1207664743
+  id:
+    lutris: gray-matter
   installDir:
     Gray Matter: {}
   launch:

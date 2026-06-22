@@ -652333,6 +652333,13 @@
   nameLocalized:
     schinese: 穿越火线：潜伏
 4691270: {}
+4693030:
+  installDir: Congratulations On Your Purchase
+  launch:
+    - config:
+        oslist: windows
+      executable: COYP.exe
+      type: default
 4712350:
   cloud:
     saves:
