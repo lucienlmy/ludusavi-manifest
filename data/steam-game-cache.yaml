@@ -545133,6 +545133,13 @@
         oslist: windows
       executable: FestivalTycoon.exe
       type: default
+1326290:
+  installDir: Balrog
+  launch:
+    - config:
+        oslist: windows
+      executable: Balrog.exe
+      type: default
 1326470:
   cloud:
     saves:
@@ -650570,6 +650577,10 @@
   nameLocalized:
     japanese: DEBUG NEPHEMEE -デバッグネフェミー-
 3968040: {}
+3968100:
+  installDir: CD-ROM
+  launch:
+    - executable: CD-ROM.exe
 3970660:
   installDir: Hunter The Reckoning — A Time of Monsters
   launch:

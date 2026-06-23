@@ -61939,6 +61939,20 @@ BALL!:
             store: steam
   steam:
     id: 1007880
+BALROG:
+  id:
+    lutris: balrog
+    steamExtra:
+      - 1721190
+  installDir:
+    Balrog: {}
+  launch:
+    "<base>/Balrog.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1326290
 BALSA Model Flight Simulator:
   files:
     "<base>/Craft":
@@ -110395,6 +110409,15 @@ CCCP Calls!:
           - store: steam
   steam:
     id: 857060
+CD-ROM:
+  installDir:
+    CD-ROM: {}
+  launch:
+    "<base>/CD-ROM.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3968100
 CD-RUN:
   installDir:
     CD-RUN: {}

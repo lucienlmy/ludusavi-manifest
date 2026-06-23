@@ -19889,6 +19889,12 @@ BALL!:
     steam: true
   pageId: 125847
   steam: 1007880
+BALROG:
+  lutris: balrog
+  pageId: 217856
+  steam: 1326290
+  steamSide:
+    - 1721190
 BALSA Model Flight Simulator:
   pageId: 122133
   steam: 977920
@@ -35627,6 +35633,9 @@ CBT With Yuuka Kazami:
 CCCP Calls!:
   pageId: 93989
   steam: 857060
+CD-ROM:
+  pageId: 217853
+  steam: 3968100
 CD-RUN:
   pageId: 148549
   steam: 1051920
