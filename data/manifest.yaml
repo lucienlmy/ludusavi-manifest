@@ -150660,6 +150660,10 @@ Corn Kidz 64:
     "<base>/Corn Kidz 64.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/BogoSoft/Corn Kidz 64:
+      tags:
+        - config
   steam:
     id: 2575900
 Corn Maze:
@@ -299235,6 +299239,9 @@ Give Up The Dupe:
             store: steam
   steam:
     id: 1163470
+Give Us A Sign:
+  steam:
+    id: 4119710
 Give an Imp a Chance!:
   steam:
     id: 1076520
@@ -783003,6 +783010,11 @@ Transference:
       - arguments: "-Retail Steam -uplay_steam_mode"
         when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Ubisoft/Transference:
+      tags:
+        - config
+        - save
   steam:
     id: 647570
 Transformation Tycoon:

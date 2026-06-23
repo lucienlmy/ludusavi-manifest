@@ -48393,7 +48393,7 @@ Corn Kidz 64:
   pageId: 191251
   steam: 2575900
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\LocalLow\\BogoSoft\\Corn Kidz 64\\save1.cow}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\LocalLow\\BogoSoft\\Corn Kidz 64\\save1.cow|{{p|hkcu}}\\Software\\BogoSoft\\Corn Kidz 64\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\LocalLow\\BogoSoft\\Corn Kidz 64\\save1.cow}}"
 Corn Maze:
   pageId: 97463
@@ -96851,6 +96851,9 @@ Give Up The Dupe:
     steam: true
   pageId: 153663
   steam: 1163470
+Give Us A Sign:
+  pageId: 217847
+  steam: 4119710
 Give an Imp a Chance!:
   pageId: 151461
   steam: 1076520
@@ -255129,6 +255132,9 @@ Transcripted:
 Transference:
   pageId: 63650
   steam: 647570
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Ubisoft\\Transference\\}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Ubisoft\\Transference\\}}"
 Transformation Tycoon:
   pageId: 178948
   steam: 1799850
