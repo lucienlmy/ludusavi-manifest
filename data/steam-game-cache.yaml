@@ -551625,6 +551625,16 @@
         oslist: windows
       executable: JetKaveAdventure.exe
       type: default
+1383740:
+  cloud:
+    saves:
+      - path: AppData/LocalLow/CUTE ANIME GIRLS/My Cute Commissar/
+        pattern: "*.txt"
+        root: WinAppDataLocalLow
+  installDir: My Cute Commissar
+  launch:
+    - executable: My Cute Commissar.exe
+      type: none
 1383960:
   installDir: Nickelodeon Kart Racers 2 Grand Prix
   launch:

@@ -10082,7 +10082,9 @@ Aliens&Asteroids:
     - 2272330
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\ASF\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.AliensDarkDescent-Windows_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\ASF\\Saved\\SaveGames\\*}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.AliensDarkDescent-Windows_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
 "Aliens: Fireteam Elite":
   cloud:
     steam: true
@@ -51904,7 +51906,9 @@ Crypt Custodian:
   steam: 2394650
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CryptCustodian}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\TopHatStudiosInc.CryptCustodian_93vj94f8vfryy\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\CryptCustodian}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\TopHatStudiosInc.CryptCustodian_93vj94f8vfryy\\SystemAppData\\wgs\\}}"
 Crypt Hunter:
   pageId: 69476
   steam: 693790
@@ -105639,6 +105643,9 @@ He is Coming:
   lutris: he-is-coming
   pageId: 206219
   steam: 2824490
+  templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.HeisComing_znaey1dw2bdpr\\SystemAppData\\wgs\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.HeisComing_znaey1dw2bdpr\\SystemAppData\\wgs\\}}"
 "He-Man and the Masters of the Universe: Dragon Pearl of Destruction":
   pageId: 207262
   steam: 3749580
@@ -110584,11 +110591,11 @@ Hollow Knight:
     - 916000
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Team Cherry\\Hollow Knight\\|{{p|game}}\\hollow_knight_Data\\Config.ini}}"
-    - "{{Game data/config|Microsoft Store|{{p|programdata}}\\Packages\\TeamCherry.HollowKnightPC_y4jvztpgccj42\\}}"
+    - "{{Game data/config|Microsoft Store|{{p|programdata}}\\Packages\\TeamCherry.15373CD61C66B_y4jvztpgccj42\\SystemAppData\\wgs}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Team Cherry.Hollow Knight.plist}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Team Cherry/Hollow Knight/prefs|{{p|game}}/hollow_knight_Data/Config.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Team Cherry\\Hollow Knight\\*.dat | {{p|userprofile}}\\AppData\\LocalLow\\Team Cherry\\Hollow Knight\\*.bak}}"
-    - "{{Game data/saves|Microsoft Store|{{p|userprofile}}\\AppData\\LocalLow\\Team Cherry\\Hollow Knight\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|programdata}}\\Packages\\TeamCherry.15373CD61C66B_y4jvztpgccj42\\SystemAppData\\wgs}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Team Cherry.Hollow Knight/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Team Cherry/Hollow Knight/*.dat}}"
 "Hollow Knight: Silksong":
@@ -118144,7 +118151,9 @@ Inscryption:
     - 1469850
     - 1753260
   templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\DevolverDigital.Inscryption_6kzv4j18v0c96\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveFile.gwsave}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DevolverDigital.Inscryption_6kzv4j18v0c96\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{p|game}}/Inscryption.App/SaveFile.gwsave}}"
 Insect Revolution VR:
   pageId: 134735
@@ -126228,8 +126237,10 @@ Kingdom-Heroes:
     - 3062360
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\noio\\KingdomTwoCrowns\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\RawFury.0a615e32-96fb-4bd7-a194-f1dc1fdb4f1f_9s0pnehqffj7t\\SystemAppData\\wgs\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/noio/KingdomTwoCrowns/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\noio\\KingdomTwoCrowns\\Release\\global-v35}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\RawFury.0a615e32-96fb-4bd7-a194-f1dc1fdb4f1f_9s0pnehqffj7t\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/noio/KingdomTwoCrowns/Release/global-v35}}"
 Kingdoms:
   pageId: 45912
@@ -153039,6 +153050,9 @@ My Colony:
 My Creampie Heaven:
   pageId: 174004
   steam: 1356710
+My Cute Commissar:
+  pageId: 217863
+  steam: 1383740
 My Days with the Demoness:
   pageId: 142135
   steam: 1114640
@@ -238014,13 +238028,22 @@ The House in Fata Morgana:
     - 844320
 The House of Da Vinci:
   cloud:
+    epic: true
     gog: true
+    xbox: true
   gog: 1554935533
+  gogSide:
+    - 1622300938
+    - 1878164348
+  lutris: the-house-of-da-vinci
   pageId: 76867
   steam: 522470
+  steamSide:
+    - 1347740
+    - 1440830
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Blue Brain Games\\The House of da Vinci|{{P|userprofile}}\\AppData\\LocalLow\\Blue Brain Games\\The House of da Vinci\\Profiles\\plist}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Blue Brain Games\\The House of da Vinci\\Profiles}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Blue Brain Games\\The House of da Vinci|{{p|userprofile\\appdata\\locallow}}\\Blue Brain Games\\The House of da Vinci\\Profiles\\plist}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Blue Brain Games\\The House of da Vinci\\Profiles}}"
     - "{{Game data/saves|OS X|~Library\\Application Support\\bigbluegames}}"
 The House of Da Vinci 2:
   cloud:

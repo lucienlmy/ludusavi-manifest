@@ -31623,6 +31623,13 @@ Aliens&Asteroids:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/FocusHomeInteractiveSA.AliensDarkDescent-Windows_4hny5m903y3g0/SystemAppData/wgs":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: aliens-dark-descent
     steamExtra:
@@ -161328,6 +161335,13 @@ Crypt Custodian:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/TopHatStudiosInc.CryptCustodian_93vj94f8vfryy/SystemAppData/wgs":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1705561922
   id:
@@ -325835,17 +325849,13 @@ He is Coming:
     gog: true
     steam: true
   files:
-    "<home>/.config/unity3d/Chronocle/He Is Coming/*.txt":
+    "<winLocalAppData>/Packages/HoodedHorse.HeisComing_znaey1dw2bdpr/SystemAppData/wgs":
+      tags:
+        - config
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Chronocle/He Is Coming/*.txt":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/unity.Chronocle.He Is Coming/*.txt":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
+          store: microsoft
   gog:
     id: 1889700436
   id:
@@ -341457,12 +341467,6 @@ Hollow Knight:
       when:
         - os: windows
         - os: linux
-    "<home>/AppData/LocalLow/Team Cherry/Hollow Knight":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
     "<home>/AppData/LocalLow/Team Cherry/Hollow Knight/*.bak":
       tags:
         - save
@@ -341483,9 +341487,10 @@ Hollow Knight:
         - config
       when:
         - os: mac
-    "<winProgramData>/Packages/TeamCherry.HollowKnightPC_y4jvztpgccj42":
+    "<winProgramData>/Packages/TeamCherry.15373CD61C66B_y4jvztpgccj42/SystemAppData/wgs":
       tags:
         - config
+        - save
       when:
         - os: windows
           store: microsoft
@@ -364619,6 +364624,13 @@ Inscryption:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/DevolverDigital.Inscryption_6kzv4j18v0c96/SystemAppData/wgs":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1224800338
   id:
@@ -389360,6 +389372,13 @@ Kingdom-Heroes:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/RawFury.0a615e32-96fb-4bd7-a194-f1dc1fdb4f1f_9s0pnehqffj7t/SystemAppData/wgs":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<xdgConfig>/unity3d/noio/KingdomTwoCrowns/Release/global-v35":
       tags:
         - save
@@ -471087,6 +471106,19 @@ My Creampie Heaven:
             store: steam
   steam:
     id: 1356710
+My Cute Commissar:
+  files:
+    "<home>/AppData/LocalLow/AppData/LocalLow/CUTE ANIME GIRLS/My Cute Commissar/*.txt":
+      when:
+        - store: steam
+  installDir:
+    My Cute Commissar: {}
+  launch:
+    "<base>/My Cute Commissar.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1383740
 My Days with the Demoness:
   steam:
     id: 1114640
@@ -733508,6 +733540,7 @@ The House in Fata Morgana:
     id: 804700
 The House of Da Vinci:
   cloud:
+    epic: true
     gog: true
   files:
     "<home>/AppData/LocalLow/Blue Brain Games/The House of da Vinci/Profiles":
@@ -733527,6 +733560,14 @@ The House of Da Vinci:
         - os: mac
   gog:
     id: 1554935533
+  id:
+    gogExtra:
+      - 1622300938
+      - 1878164348
+    lutris: the-house-of-da-vinci
+    steamExtra:
+      - 1347740
+      - 1440830
   installDir:
     The House of Da Vinci: {}
   launch:
