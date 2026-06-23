@@ -19889,12 +19889,6 @@ BALL!:
     steam: true
   pageId: 125847
   steam: 1007880
-BALROG:
-  lutris: balrog
-  pageId: 217856
-  steam: 1326290
-  steamSide:
-    - 1721190
 BALSA Model Flight Simulator:
   pageId: 122133
   steam: 977920
@@ -21465,6 +21459,15 @@ Ballz Royale:
     steam: true
   pageId: 80432
   steam: 705670
+Balrog:
+  lutris: balrog
+  pageId: 217856
+  renamedFrom:
+    - BALROG
+  steam: 1326290
+  steamSide:
+    - 1338440
+    - 1721190
 Balrum:
   gog: 1769415595
   pageId: 35032
@@ -59907,6 +59910,8 @@ Deer & Boy:
   pageId: 207371
   steam: 1803140
   steamSide:
+    - 4588480
+    - 4613120
     - 4626870
 Deer Avenger:
   pageId: 205467

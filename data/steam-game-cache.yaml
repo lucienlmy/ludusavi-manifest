@@ -584598,6 +584598,15 @@
       executable: CCLauncher.exe
       type: config
 1803140:
+  cloud:
+    saves:
+      - path: "LIFELINE\\DeerAndBoy\\Saves"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Deer & Boy
+  launch:
+    - executable: DeerAndBoy.exe
+      type: default
   nameLocalized:
     japanese: 鹿と少年
     schinese: 男孩与鹿

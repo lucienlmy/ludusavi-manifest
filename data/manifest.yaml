@@ -61939,20 +61939,6 @@ BALL!:
             store: steam
   steam:
     id: 1007880
-BALROG:
-  id:
-    lutris: balrog
-    steamExtra:
-      - 1721190
-  installDir:
-    Balrog: {}
-  launch:
-    "<base>/Balrog.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1326290
 BALSA Model Flight Simulator:
   files:
     "<base>/Craft":
@@ -66834,6 +66820,21 @@ Ballz Royale:
             store: steam
   steam:
     id: 705670
+Balrog:
+  id:
+    lutris: balrog
+    steamExtra:
+      - 1338440
+      - 1721190
+  installDir:
+    Balrog: {}
+  launch:
+    "<base>/Balrog.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1326290
 Balrum:
   files:
     "<base>/files/saves":
@@ -185943,10 +185944,22 @@ Deer & Boy:
   cloud:
     epic: true
     steam: true
+  files:
+    "<home>/AppData/LocalLow/LIFELINE/DeerAndBoy/Saves":
+      when:
+        - store: steam
   id:
     lutris: deer-and-boy
     steamExtra:
+      - 4588480
+      - 4613120
       - 4626870
+  installDir:
+    Deer & Boy: {}
+  launch:
+    "<base>/DeerAndBoy.exe":
+      - when:
+          - store: steam
   steam:
     id: 1803140
 Deer Hunt Legends:
