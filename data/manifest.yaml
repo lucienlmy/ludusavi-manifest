@@ -197566,9 +197566,39 @@ Dimetrosaur:
   steam:
     id: 887550
 Dimhaven - The Lost Source:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Zadbox Entertainment/Dimhaven - The Lost Source/**/*.*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Zadbox Entertainment/Dimhaven - The Lost Source/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Zadbox Entertainment/Dimhaven - The Lost Source/*.*":
+      when:
+        - os: linux
+          store: steam
   id:
+    lutris: dimhaven-the-lost-source
     steamExtra:
       - 3010310
+  installDir:
+    Dimhaven - The Lost Source: {}
+  launch:
+    "<base>/Dimhaven - The Lost Source.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Dimhaven - The Lost Source.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Dimhaven Enigmas.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 2458980
 Dimhaven Enigmas:
@@ -702238,6 +702268,35 @@ TT Isle of Man:
             store: steam
   steam:
     id: 1924170
+TTT Classic:
+  cloud:
+    steam: true
+  files:
+    "<base>/ttt/*.cfg":
+      when:
+        - store: steam
+    "<base>/ttt/*.dat":
+      when:
+        - store: steam
+    "<base>/ttt/karma.txt":
+      when:
+        - store: steam
+    "<base>/ttt/voice_ban.dt":
+      when:
+        - store: steam
+    "<base>/ttt/voice_volume.dt":
+      when:
+        - store: steam
+  installDir:
+    TTT Classic: {}
+  launch:
+    "<base>/ttt.exe":
+      - arguments: "-game ttt -gl -steam -secure"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4570530
 TTV2:
   files:
     "<winLocalAppData>/TTV2":
@@ -755374,11 +755433,13 @@ The Séance of Blake Manor:
   installDir:
     The Seance of Blake Manor: {}
   launch:
+    "<base>/The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor":
+      - when:
+          - os: mac
+            store: steam
     "<base>/The Seance of Blake Manor.exe":
       - when:
           - os: windows
-            store: steam
-          - os: mac
             store: steam
     "<base>/The Seance of Blake Manor.x86_64":
       - arguments: "-force-vulkan"

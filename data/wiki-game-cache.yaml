@@ -63567,6 +63567,9 @@ Dimetrosaur:
   pageId: 109260
   steam: 887550
 Dimhaven - The Lost Source:
+  cloud:
+    steam: true
+  lutris: dimhaven-the-lost-source
   pageId: 187859
   renamedFrom:
     - Dimhaven Enigmas
@@ -228022,6 +228025,11 @@ TT Isle of Man:
     steam: true
   pageId: 187032
   steam: 1924170
+TTT Classic:
+  cloud:
+    steam: true
+  pageId: 217896
+  steam: 4570530
 TTV2:
   pageId: 69348
   steam: 701470

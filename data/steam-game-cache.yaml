@@ -133070,7 +133070,6 @@
       executable: TY
       type: none
 411970:
-  state: outdated
   installDir: TY the Tasmanian Tiger 2
   launch:
     - config:
@@ -362522,7 +362521,6 @@
       executable: Roller.exe
       type: default
 847530:
-  state: outdated
   installDir: HyperBowl
   launch:
     - config:
@@ -487825,8 +487823,7 @@
       executable: JerryJobhopper.x86_64
       type: none
 1116370: {}
-1116390:
-  state: outdated
+1116390: {}
 1116430:
   installDir: Mostly Intense Monster Defense
   launch:
@@ -521045,7 +521042,6 @@
       executable: runoveryou.exe
       type: none
 1190000:
-  state: outdated
   cloud:
     saves:
       - path: Red Dot Games/Car Mechanic Simulator 2021
@@ -542413,7 +542409,6 @@
       executable: prince
       type: default
 1297900:
-  state: outdated
   cloud:
     saves:
       - path: G1R/Saved/SaveGames
@@ -552552,7 +552547,6 @@
       executable: "At Eve's Wake.exe"
       type: default
 1395520:
-  state: outdated
   cloud:
     saves:
       - path: Spooky Doorway/The Seance of Blake Manor
@@ -552578,7 +552572,7 @@
       type: default
     - config:
         oslist: macos
-      executable: The Seance of Blake Manor.exe
+      executable: The Seance of Blake Manor.app/Contents/MacOS/The Seance of Blake Manor
       type: default
     - arguments: "-force-vulkan"
       config:
@@ -561426,7 +561420,6 @@
     - executable: Silica.exe
       type: default
 1494560:
-  state: outdated
   cloud:
     saves:
       - path: HorizontComputergrafik/RogueVoltage/
@@ -566811,7 +566804,6 @@
       executable: DXC4Launcher.exe
       type: option2
 1569580:
-  state: outdated
   cloud:
     saves:
       - path: Dogubomb/BLUE PRINCE/storage
@@ -606995,7 +606987,6 @@
     schinese: "兄弟：双子传说 重制版（Brothers: A Tale of Two Sons Remake）"
     tchinese: "《兄弟：雙子傳說》重製版（Brothers: A Tale of Two Sons Remake）"
 2153760:
-  state: outdated
   nameLocalized:
     koreana: Stronghold 4 스트롱홀드 4
     schinese: Stronghold 4 要塞4
@@ -621220,7 +621211,39 @@
         oslist: windows
       description: Towerborne Prerelease
       executable: Belfry.exe
-2458980: {}
+2458980:
+  cloud:
+    saves:
+      - path: Zadbox Entertainment/Dimhaven - The Lost Source
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Zadbox Entertainment/Dimhaven Enigmas
+            replace: unity.Zadbox Entertainment.Dimhaven Enigmas
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Zadbox Entertainment/Dimhaven Enigmas
+            replace: ".config/unity3d/Zadbox Entertainment/Dimhaven Enigmas"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Dimhaven - The Lost Source
+  launch:
+    - config:
+        oslist: windows
+      executable: Dimhaven - The Lost Source.exe
+    - config:
+        oslist: macos
+      executable: Dimhaven - The Lost Source.app
+    - config:
+        oslist: linux
+      executable: Dimhaven Enigmas.x86_64
 2459550:
   cloud:
     saves:
@@ -622448,7 +622471,6 @@
       executable: Pandemommyum.app
       type: default
 2486820:
-  state: outdated
   cloud:
     saves:
       - path: "SEGA/SonicRacingCrossWorlds/steam/{64BitSteamID}"
@@ -632739,8 +632761,7 @@
 2805850:
   nameLocalized:
     schinese: 艾特尔：神祇之路
-2806050:
-  state: outdated
+2806050: {}
 2806120:
   installDir: BIO GODDESS
   launch:
@@ -651392,7 +651413,6 @@
     - executable: Geri.exe
 4160590: {}
 4162040:
-  state: outdated
   installDir: Zenless Zone Zero
   launch:
     - config:
@@ -651580,7 +651600,11 @@
       executable: Reclaim! Azhe-Giiwewining.app
 4200960: {}
 4201590:
-  state: outdated
+  nameLocalized:
+    english: "KochiKame: Ryo-san's Billion-yen Beat"
+    japanese: こちら葛飾区亀有公園前派出所～両さんの商店街物語～
+    schinese: 乌龙派出所~阿两的商店街物语~
+    tchinese: 烏龍派出所～阿兩的商店街物語～
 4202540: {}
 4202710: {}
 4208140: {}
@@ -651707,7 +651731,6 @@
     turkish: "Spyro™: A Realm Beyond"
     ukrainian: "Spyro™: A Realm Beyond"
 4249100:
-  state: outdated
   installDir: 4249100_Biohazard
   launch:
     - executable: 4249100_Launcher.exe
@@ -651715,7 +651738,6 @@
     japanese: BIOHAZARD (1996)
     koreana: BIOHAZARD (1996)
 4249110:
-  state: outdated
   installDir: 4249110_Biohazard2
   launch:
     - executable: 4249110_Launcher.exe
@@ -651723,7 +651745,6 @@
     japanese: BIOHAZARD 2 (1998)
     koreana: BIOHAZARD 2 (1998)
 4249120:
-  state: outdated
   installDir: 4249120_Biohazard3
   launch:
     - executable: 4249120_Launcher.exe
@@ -651737,14 +651758,12 @@
   nameLocalized:
     japanese: DINO CRISIS
 4249140:
-  state: outdated
   installDir: 4249140_DinoCrisis2
   launch:
     - executable: 4249140_Launcher.exe
   nameLocalized:
     japanese: DINO CRISIS 2
 4249150:
-  state: outdated
   installDir: 4249150_BreathofFire4
   launch:
     - executable: 4249150_Launcher.exe
@@ -652356,6 +652375,30 @@
         oslist: windows
       executable: TheBlackwoodProject.exe
       type: default
+4570530:
+  cloud:
+    saves:
+      - path: ttt
+        pattern: "*.cfg"
+        root: gameinstall
+      - path: ttt
+        pattern: voice_ban.dt
+        root: gameinstall
+      - path: ttt
+        pattern: karma.txt
+        root: gameinstall
+      - path: ttt
+        pattern: "*.dat"
+        root: gameinstall
+      - path: ttt
+        pattern: voice_volume.dt
+        root: gameinstall
+  installDir: TTT Classic
+  launch:
+    - arguments: "-game ttt -gl -steam -secure"
+      config:
+        oslist: windows
+      executable: ttt.exe
 4570720:
   nameLocalized:
     japanese: "ドラゴンソード:アウェイクニング"
@@ -652438,8 +652481,7 @@
     schinese: 财富磨坊
 4743930: {}
 4744030: {}
-4767480:
-  state: outdated
+4767480: {}
 4810650: {}
 4824610:
   nameLocalized:
