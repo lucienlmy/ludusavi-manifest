@@ -249649,6 +249649,12 @@
         oslist: windows
       executable: BladeAndSorcery.exe
       type: openxr
+    - arguments: "-vrmode openvr"
+      config:
+        betakey: develop
+        oslist: linux
+      executable: BladeAndSorcery.exe
+      type: vr
 629760:
   cloud:
     saves:
@@ -652317,6 +652323,8 @@
         oslist: windows
       executable: king.exe
       type: default
+  nameLocalized:
+    russian: Дальнобойщики 2
 4491360:
   cloud:
     saves:

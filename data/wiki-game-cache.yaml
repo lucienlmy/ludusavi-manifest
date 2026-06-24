@@ -52877,6 +52877,7 @@ Cult of the Wind:
 Cultic:
   cloud:
     steam: true
+    xbox: true
   lutris: cultic
   pageId: 181604
   steam: 1684930
@@ -215969,7 +215970,7 @@ Squirrel with a Gun:
   steamSide:
     - 3715570
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\SquirrelGun\\Saved\\SaveGames\\release_titlesave.sav}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\SquirrelGun\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SquirrelGun\\Saved\\SaveGames}}"
 Squirreled Away:
   cloud:
@@ -238068,12 +238069,18 @@ The House of Da Vinci:
     - "{{Game data/saves|OS X|~Library\\Application Support\\bigbluegames}}"
 The House of Da Vinci 2:
   cloud:
+    epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1868749591
+  gogSide:
+    - 1600284665
   lutris: the-house-of-da-vinci-2
   pageId: 160782
   steam: 1259840
+  steamSide:
+    - 1342980
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Blue Brain Games\\The House of da Vinci 2\\{{P|uid}}\\Profiles\\|{{P|hkcu}}\\Software\\Blue Brain Games\\The House of da Vinci 2}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Blue Brain Games\\The House of da Vinci 2\\{{P|uid}}\\Profiles\\ProfileLists\\}}"

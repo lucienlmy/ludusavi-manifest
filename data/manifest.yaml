@@ -664896,14 +664896,14 @@ Squirrel with a Gun:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/SquirrelGun/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/SquirrelGun/Saved/SaveGames":
       tags:
         - save
-      when:
-        - os: windows
-    "<winLocalAppData>/SquirrelGun/Saved/SaveGames/release_titlesave.sav":
-      tags:
-        - config
       when:
         - os: windows
   gog:
@@ -733675,6 +733675,7 @@ The House of Da Vinci:
     id: 522470
 The House of Da Vinci 2:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -733696,7 +733697,11 @@ The House of Da Vinci 2:
   gog:
     id: 1868749591
   id:
+    gogExtra:
+      - 1600284665
     lutris: the-house-of-da-vinci-2
+    steamExtra:
+      - 1342980
   installDir:
     The House of Da Vinci 2: {}
   launch:
