@@ -79529,7 +79529,7 @@ Evil Tonight:
 "Evil Twin: Cyprien's Chronicles":
   pageId: 74038
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\save\\Config.sav}}"
+    - "{{Game data/config|Windows|{{p|game}}\\save\\Config.sav|{{p|hkcu}}\\SOFTWARE\\UbiSoft\\Evil Twin}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Evil West:
   cloud:
@@ -127260,6 +127260,11 @@ KoboldKare:
 Koboomballs:
   pageId: 123558
   steam: 983040
+"KochiKame: Ryo-san's Billion-yen Beat":
+  cloud:
+    steam: true
+  pageId: 217890
+  steam: 4201590
 Kochiya Sanae no Kamikaze to Tomo ni:
   lutris: kochiya-sanae-no-kamikaze-to-tomo-ni
   pageId: 206478
@@ -156545,6 +156550,12 @@ Nefarious:
 "Nefertari: Journey to Eternity":
   pageId: 99404
   steam: 861400
+Negative Atmosphere:
+  cloud:
+    steam: true
+  lutris: negative-atmosphere
+  pageId: 217884
+  steam: 1116390
 Negative Space:
   pageId: 128706
   steam: 1017990
@@ -192784,6 +192795,7 @@ Rogue Voltage:
   pageId: 217697
   steam: 1494560
   templates:
+    - "{{Game data/config|Windows|{{p|HKCU}}\\SOFTWARE\\HorizontComputergrafik\\RogueVoltage}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\HorizontComputergrafik\\RogueVoltage\\Main}}"
 Rogue Warrior:
   cloud:

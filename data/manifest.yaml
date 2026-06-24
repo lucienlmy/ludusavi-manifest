@@ -246535,6 +246535,10 @@ Evil Tonight:
         - config
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/UbiSoft/Evil Twin:
+      tags:
+        - config
 Evil West:
   cloud:
     gog: true
@@ -392452,6 +392456,11 @@ Koboomballs:
             store: steam
   steam:
     id: 983040
+"KochiKame: Ryo-san's Billion-yen Beat":
+  cloud:
+    steam: true
+  steam:
+    id: 4201590
 Kochiya Sanae no Kamikaze to Tomo ni:
   id:
     lutris: kochiya-sanae-no-kamikaze-to-tomo-ni
@@ -481681,6 +481690,13 @@ Nefarious:
     Nefertari Journey to Eternity: {}
   steam:
     id: 861400
+Negative Atmosphere:
+  cloud:
+    steam: true
+  id:
+    lutris: negative-atmosphere
+  steam:
+    id: 1116390
 Negative Space:
   steam:
     id: 1017990
@@ -592706,6 +592722,10 @@ Rogue Voltage:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/HorizontComputergrafik/RogueVoltage:
+      tags:
+        - config
   steam:
     id: 1494560
 Rogue Warrior:
