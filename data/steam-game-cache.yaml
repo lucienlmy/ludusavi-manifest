@@ -582908,16 +582908,6 @@
     - config:
         betakey: eap_td_shipping
       description: "STAR WARS Jedi: Survivor™ - Shipping"
-      executable: "SwGame\\Binaries\\Win64\\SwGameSteam-Win64-Shipping.exe"
-      type: option1
-    - config:
-        betakey: eap_td_test
-      description: "STAR WARS Jedi: Survivor™ - Test Renamed exe"
-      executable: "SwGame\\Binaries\\Win64\\SwGame-Win64-Test.exe"
-      type: option1
-    - config:
-        betakey: eap_td_shipping
-      description: "STAR WARS Jedi: Survivor™ - Shipping Renamed exe"
       executable: "SwGame\\Binaries\\Win64\\JediSurvivor.exe"
       type: option1
   nameLocalized:
@@ -652320,6 +652310,13 @@
       executable: SiNiSistar2.app
 4475520: {}
 4484200: {}
+4487840:
+  installDir: Hard Truck 2 King of the Road
+  launch:
+    - config:
+        oslist: windows
+      executable: king.exe
+      type: default
 4491360:
   cloud:
     saves:

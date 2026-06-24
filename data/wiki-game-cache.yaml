@@ -104606,6 +104606,7 @@ Hard Truck 2:
   pageId: 31153
   renamedFrom:
     - King of the Road
+  steam: 4487840
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\truck.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.pl1}}"
@@ -238086,6 +238087,7 @@ The House of Da Vinci 3:
 The House of Da Vinci VR:
   cloud:
     steam: true
+  lutris: the-house-of-da-vinci-vr
   pageId: 195101
   steam: 2948310
 The House of Tesla:

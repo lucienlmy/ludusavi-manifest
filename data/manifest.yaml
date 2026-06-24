@@ -322890,6 +322890,15 @@ Hard Truck 2:
     id: 1731168163
   id:
     lutris: hard-truck-2-king-of-the-road
+  installDir:
+    Hard Truck 2 King of the Road: {}
+  launch:
+    "<base>/king.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4487840
 Hard Truck Apocalypse:
   files:
     "<base>/data/config.cfg":
@@ -733762,6 +733771,8 @@ The House of Da Vinci VR:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: the-house-of-da-vinci-vr
   installDir:
     The House of Da Vinci VR: {}
   steam:
