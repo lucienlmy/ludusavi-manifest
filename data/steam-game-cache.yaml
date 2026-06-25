@@ -651404,6 +651404,7 @@
     - arguments: "-saveddirsuffix=Steam"
       executable: CityTransportSim.exe
       type: default
+4148910: {}
 4149610: {}
 4153760: {}
 4157130:
@@ -652405,7 +652406,25 @@
     russian: САТУРН. НАСЛЕДИЕ
 4540840: {}
 4549480: {}
-4557490: {}
+4557490:
+  cloud:
+    saves:
+      - path: save
+        pattern: "*/*"
+        recursive: true
+        root: gameinstall
+      - path: config
+        pattern: option.txt;keyboard.txt;seed.txt;quest.txt
+        root: gameinstall
+      - path: "."
+        pattern: gamepad_settings.ini
+        root: gameinstall
+  installDir: DarkStone Restoration
+  launch:
+    - config:
+        oslist: windows
+      executable: DarkStone64.exe
+      type: default
 4562200:
   installDir: Unfair Corners
   launch:

@@ -175262,6 +175262,23 @@ Darkstone:
   steam:
     id: 320320
 Darkstone Restoration:
+  files:
+    "<base>/config/option.txt;keyboard.txt;seed.txt;quest.txt":
+      when:
+        - store: steam
+    "<base>/gamepad_settings.ini":
+      when:
+        - store: steam
+    "<base>/save/**":
+      when:
+        - store: steam
+  installDir:
+    DarkStone Restoration: {}
+  launch:
+    "<base>/DarkStone64.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4557490
 Darkwater:
@@ -825955,6 +825972,9 @@ Warzone VR:
 Warzone-X:
   steam:
     id: 678590
+Wasabi:
+  steam:
+    id: 4148910
 Washed Up Wizard:
   installDir:
     Washed Up Wizard: {}
