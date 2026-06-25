@@ -34586,13 +34586,13 @@
         root: gameinstall
   installDir: Rust
   launch:
-    - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning -graphics.dlss 1-"
+    - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning"
       config:
         oslist: windows
       description: Launch
       executable: rust.exe
       type: default
-    - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning -graphics.dlss 1-"
+    - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning"
       config:
         oslist: macos
       description: Launch
@@ -631056,6 +631056,11 @@
         osCompare: "="
         root: WinAppDataLocalLow
         useInstead: LinuxHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: The House of Tesla
   launch:
     - config:
@@ -632219,7 +632224,13 @@
     koreana: 역수한
     schinese: 逆水寒
     tchinese: 逆水寒
-2783360: {}
+2783360:
+  installDir: Age of Empires Mobile PC Edition
+  launch:
+    - config:
+        oslist: windows
+      executable: "launcher\\aoem_launcher.exe"
+      type: default
 2784470:
   cloud:
     saves:
@@ -646338,6 +646349,7 @@
       executable: MetalGarden.exe
       type: default
   nameLocalized:
+    japanese: Metal Garden | メタルガーデン
     koreana: Metal Garden | 메탈 가든
     schinese: Metal Garden | 机械荒庭
     ukrainian: Metal Garden | Сад Металу
@@ -651296,6 +651308,13 @@
 4124320:
   nameLocalized:
     japanese: サイレントロード
+4124830:
+  nameLocalized:
+    brazilian: Hasbro Games™ Junior Coleção
+    japanese: Hasbro Games™ Juniorコレクション
+    koreana: Hasbro Games™ Junior 컬렉션
+    schinese: Hasbro Games™ Junior 系列
+    tchinese: Hasbro Games™ Junior 系列
 4125810:
   installDir: NZ78
   launch:
@@ -651340,7 +651359,21 @@
       executable: IV_Clean_Build.exe
       type: default
 4144090: {}
-4144680: {}
+4144680:
+  cloud:
+    saves:
+      - path: "KoeiTecmo/DEADORALIVE6 Last Round/{64BitSteamID}/SYSTEMDATA"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Dead or Alive 6 Last Round
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DOA6LR.exe
+      type: default
 4146000: {}
 4148240:
   installDir: roadtoempress2
@@ -651450,6 +651483,14 @@
         osarch: "64"
         oslist: windows
       executable: mywintercar.exe
+4171670:
+  installDir: Veil of Mist
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Veil_of_Mist.exe
+      type: default
 4172530:
   installDir: Legend of YMIR
   launch:

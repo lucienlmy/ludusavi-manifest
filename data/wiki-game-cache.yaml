@@ -30210,6 +30210,8 @@ BlowOut:
 Blowhards:
   pageId: 58240
   steam: 552000
+Blown Away:
+  pageId: 217916
 Blowy Fish:
   pageId: 46292
   steam: 399920
@@ -105075,6 +105077,9 @@ Has-Been Heroes:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\HasBeenHeroes\\options.txt}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\492290\\remote\\}}"
+Hasbro Games Junior Collection:
+  pageId: 217914
+  steam: 4124830
 Hasfax:
   cloud:
     steam: true
@@ -144831,6 +144836,9 @@ Metal Garden:
     steam: true
   pageId: 206907
   steam: 3539440
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\MetalGarden\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\MetalGarden\\Saved\\SaveGames\\*.sav}}"
 Metal Gear:
   pageId: 27727
 "Metal Gear & Metal Gear 2: Solid Snake - Master Collection Version":
@@ -207523,6 +207531,9 @@ Slabs:
 Slackers Carts of Glory:
   pageId: 197948
   steam: 2354000
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\CartOfGlory\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\CartOfGlory\\Saved\\SaveGames\\MySlot.sav}}"
 "Slain: Back from Hell":
   gog: 1458053826
   gogSide:
@@ -238087,10 +238098,18 @@ The House of Da Vinci 2:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Blue Brain Games/The House of da Vinci 2/{{P|uid}}/Profiles/ProfileLists/}}"
 The House of Da Vinci 3:
   cloud:
+    epic: true
+    gog: true
     steam: true
+    xbox: true
   gog: 2059810391
+  gogSide:
+    - 1955807217
+  lutris: the-house-of-da-vinci-3
   pageId: 182481
   steam: 1603640
+  steamSide:
+    - 2423190
 The House of Da Vinci VR:
   cloud:
     steam: true
@@ -263896,6 +263915,10 @@ Veil of Darkness:
   steam: 2414320
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVES}}"
+Veil of Mist:
+  lutris: veil-of-mist
+  pageId: 217921
+  steam: 4171670
 Veiled Experts:
   pageId: 178292
   renamedFrom:

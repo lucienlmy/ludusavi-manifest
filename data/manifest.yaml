@@ -23914,6 +23914,13 @@ Age of Empires IV:
   steam:
     id: 1466860
 Age of Empires Mobile:
+  installDir:
+    Age of Empires Mobile PC Edition: {}
+  launch:
+    "<base>/launcher/aoem_launcher.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/SOFTWARE/Timi/AoE:
       tags:
@@ -180193,6 +180200,19 @@ Dead or Alive 6:
 Dead or Alive 6 Last Round:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/KoeiTecmo/DEADORALIVE6 Last Round/<storeUserId>/SYSTEMDATA":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dead or Alive 6 Last Round: {}
+  launch:
+    "<base>/DOA6LR.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4144680
 Dead or Alive Xtreme Venus Vacation:
@@ -324193,6 +324213,9 @@ Has-Been Heroes:
             store: steam
   steam:
     id: 492290
+Hasbro Games Junior Collection:
+  steam:
+    id: 4124830
 Hasfax:
   cloud:
     steam: true
@@ -446694,10 +446717,16 @@ Metal Garden:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/MetalGarden/Saved/SaveGames":
+    "<winLocalAppData>/MetalGarden/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/MetalGarden/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Metal Garden: {}
   launch:
@@ -599923,12 +599952,12 @@ Rust:
           - os: linux
             store: steam
     "<base>/rust.app":
-      - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning -graphics.dlss 1-"
+      - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning"
         when:
           - os: mac
             store: steam
     "<base>/rust.exe":
-      - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning -graphics.dlss 1-"
+      - arguments: "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning"
         when:
           - os: windows
             store: steam
@@ -638385,6 +638414,17 @@ Slabs:
   steam:
     id: 880590
 Slackers Carts of Glory:
+  files:
+    "<winLocalAppData>/CartOfGlory/Saved/Config/WindowsNoEditor/GameUserSettings.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/CartOfGlory/Saved/SaveGames/MySlot.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Slackers - Carts of Glory: {}
   launch:
@@ -733722,6 +733762,8 @@ The House of Da Vinci 2:
     id: 1259840
 The House of Da Vinci 3:
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Blue Brain Games/The House of da Vinci 3/<storeUserId>/Backup":
@@ -733742,6 +733784,12 @@ The House of Da Vinci 3:
           store: steam
   gog:
     id: 2059810391
+  id:
+    gogExtra:
+      - 1955807217
+    lutris: the-house-of-da-vinci-3
+    steamExtra:
+      - 2423190
   installDir:
     The House of Da Vinci 3: {}
   launch:
@@ -733802,6 +733850,14 @@ The House of Tesla:
     "<home>/AppData/LocalLow/Blue Brain Games/The House of Tesla/Profiles":
       when:
         - store: steam
+    "<home>/Library/Application Support/Blue Brain Games/The House of Tesla/Backup":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Blue Brain Games/The House of Tesla/Profiles":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1740503101
   id:
@@ -809164,6 +809220,19 @@ Veil of Darkness:
           - store: steam
   steam:
     id: 2414320
+Veil of Mist:
+  id:
+    lutris: veil-of-mist
+  installDir:
+    Veil of Mist: {}
+  launch:
+    "<base>/Veil_of_Mist.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4171670
 Veiled Experts:
   files:
     "<winLocalAppData>/VeiledExperts/Saved/Config":
