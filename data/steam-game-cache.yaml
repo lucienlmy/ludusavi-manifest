@@ -555829,7 +555829,39 @@
         oslist: windows
       executable: Sam and Max VR.exe
       type: vr
-1431300: {}
+1431300:
+  installDir: Sand
+  launch:
+    - arguments: "-timestamps"
+      config:
+        betakey: "arslonga,automation,development,devreference,experimental,feature,internal,observer-int,platforms-int,playtest-ext,playtest-int,profiling,techart"
+        osarch: "64"
+        oslist: windows
+      description: Sand (no BE)
+      executable: Sand.exe
+      type: option1
+    - arguments: "-force-d3d12 -timestamps"
+      config:
+        betakey: "arslonga,automation,development,devreference,experimental,feature,internal,observer-int,platforms-int,playtest-ext,playtest-int,profiling,techart"
+        osarch: "64"
+        oslist: windows
+      description: Sand (no BE) (force DirectX 12)
+      executable: Sand.exe
+      type: option2
+    - arguments: "-battleye -timestamps"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Sand
+      executable: Sand_BE.exe
+      type: option3
+    - arguments: "-force-d3d12 -battleye -timestamps"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Sand (force DirectX 12)
+      executable: Sand_BE.exe
+      type: option3
 1431350:
   installDir: Santa Claus in Trouble
   launch:

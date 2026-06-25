@@ -241896,6 +241896,8 @@ Escape the Backrooms:
         - config
       when:
         - os: windows
+  id:
+    lutris: escape-the-backrooms
   installDir:
     EscapeTheBackrooms: {}
   launch:
@@ -607904,6 +607906,8 @@ Sand Land:
     lutris: sand-raiders-of-sophie
     steamExtra:
       - 2981610
+  installDir:
+    Sand: {}
   steam:
     id: 1431300
 "Sand:box":
