@@ -58084,6 +58084,8 @@ Dead or Alive 6 Last Round:
     steam: true
   pageId: 213727
   steam: 4144680
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\KoeiTecmo\\DEADORALIVE6 Last Round\\{{P|uid}}\\SYSTEMDATA}}"
 Dead or Alive Xtreme Venus Vacation:
   pageId: 131566
   renamedFrom:
@@ -170496,7 +170498,7 @@ Payday 3:
   pageId: 167361
   steam: 1272080
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\PAYDAY3\\Saved\\Config\\WindowsClient\\GameUserSettings.ini|{{P|localappdata}}\\PAYDAY3\\Saved\\Config\\WindowsClient\\Input.ini}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\PAYDAY3\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini|{{P|localappdata}}\\PAYDAY3\\Saved\\Config\\WindowsNoEditor\\Input.ini}}"
 "Payday: Aces High":
   pageId: 214936
   steam: 3456660

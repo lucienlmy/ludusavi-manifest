@@ -180219,9 +180219,10 @@ Dead or Alive 6 Last Round:
     steam: true
   files:
     "<winLocalAppData>/KoeiTecmo/DEADORALIVE6 Last Round/<storeUserId>/SYSTEMDATA":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Dead or Alive 6 Last Round: {}
   launch:
@@ -523806,12 +523807,12 @@ Payday 2:
     id: 218620
 Payday 3:
   files:
-    "<winLocalAppData>/PAYDAY3/Saved/Config/WindowsClient/GameUserSettings.ini":
+    "<winLocalAppData>/PAYDAY3/Saved/Config/WindowsNoEditor/GameUserSettings.ini":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/PAYDAY3/Saved/Config/WindowsClient/Input.ini":
+    "<winLocalAppData>/PAYDAY3/Saved/Config/WindowsNoEditor/Input.ini":
       tags:
         - config
       when:
