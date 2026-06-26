@@ -28187,6 +28187,31 @@ Akuya:
           - store: steam
   steam:
     id: 1904640
+Alabaster Dawn:
+  cloud:
+    steam: true
+  files:
+    "<xdgConfig>/Alabaster Dawn":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/Alabaster Dawn/Saves/Default":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: alabaster-dawn
+  installDir:
+    Alabaster Dawn: {}
+  launch:
+    "<base>/alabaster_dawn":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3110760
 "Aladdin in Nasira's Revenge":
   files:
     "<base>/slots.crd":
@@ -209057,6 +209082,7 @@ Draconic Route:
   id:
     gogExtra:
       - 1207659251
+    lutris: dracula-2-the-last-sanctuary
   installDir:
     Dracula The Last Sanctuary: {}
   launch:
@@ -335197,6 +335223,11 @@ Heroes of Science and Fiction:
         - os: windows
   gog:
     id: 1765610130
+  id:
+    gogExtra:
+      - 1604810943
+    steamExtra:
+      - 4844630
   installDir:
     Silence of the Siren: {}
   launch:
@@ -502574,6 +502605,8 @@ Omicroid:
   steam:
     id: 897210
 "Omikron: The Nomad Soul":
+  cloud:
+    steam: true
   files:
     "<base>/IAM/GAMES":
       tags:
@@ -508835,6 +508868,8 @@ Order Up VR (2019):
   steam:
     id: 312450
 Order of War:
+  cloud:
+    steam: true
   files:
     "<winDocuments>/order of war/save":
       tags:
@@ -508853,9 +508888,6 @@ Order of War:
       - when:
           - store: steam
     "<base>/oow_final_dx9.exe":
-      - when:
-          - store: steam
-    "<base>/oow_report.exe":
       - when:
           - store: steam
   steam:
@@ -569288,6 +569320,15 @@ ReSizE:
             store: steam
   steam:
     id: 634150
+"ReStory: Chill Electronics Repairs":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4146670
+      - 4146680
+  steam:
+    id: 3812600
 ReThink:
   cloud:
     steam: true
@@ -770953,13 +770994,12 @@ To a T:
   cloud:
     steam: true
   files:
-    "<home>/.local/share/Steam/steamapps/compatdata/1875320/pfx/drive_c/users/steamuser/AppData/Local/Project_T/Saved/SaveGames/Project_T/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Packages/AnnapurnaInteractive.ToAT_c96c51jf6wkvm/SystemAppData/wgs":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<winLocalAppData>/Project_T/Saved/SaveGames/*.sav":
-      when:
-        - store: steam
+        - os: windows
+          store: microsoft
   id:
     lutris: to-a-t
   installDir:

@@ -5322,6 +5322,7 @@ Abyssal Zone:
 Abyssus:
   cloud:
     steam: true
+    xbox: true
   pageId: 212309
   steam: 1721110
   steamSide:
@@ -8939,6 +8940,15 @@ Al Unser Jr. Arcade Racing:
   steam: 1904640
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAM*.DAT}}"
+Alabaster Dawn:
+  cloud:
+    steam: true
+  lutris: alabaster-dawn
+  pageId: 217966
+  steam: 3110760
+  templates:
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/Alabaster Dawn}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/Alabaster Dawn/Saves/Default}}"
 Aladdin Chess Adventures:
   pageId: 93516
 Aladdin Pinball:
@@ -67397,6 +67407,7 @@ Draconic Route:
   gog: 1207661563
   gogSide:
     - 1207659251
+  lutris: dracula-2-the-last-sanctuary
   pageId: 36414
   steam: 289820
   templates:
@@ -108646,8 +108657,12 @@ Heroes of Science and Fiction:
     gog: true
     steam: true
   gog: 1765610130
+  gogSide:
+    - 1604810943
   pageId: 215933
   steam: 2147380
+  steamSide:
+    - 4844630
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Oxymoron Games\\Silence of the Siren\\Saves\\|{{p|userprofile\\appdata\\locallow}}\\Oxymoron Games\\Silence of the Siren\\Autosaves\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Oxymoron Games/Silence of the Siren/Saves|{{p|linuxhome}}/.config/unity3d/Oxymoron Games/Silence of the Siren/Autosaves}}"
@@ -163523,6 +163538,8 @@ Omicroid:
   pageId: 109394
   steam: 897210
 "Omikron: The Nomad Soul":
+  cloud:
+    steam: true
   gog: 1207659190
   lutris: omikron-the-nomad-soul
   pageId: 654
@@ -165510,6 +165527,8 @@ Order Up VR (2019):
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Order of Battle - WW2\\SaveGames\\}}"
 Order of War:
+  cloud:
+    steam: true
   pageId: 23117
   steam: 34600
   templates:
@@ -185007,6 +185026,14 @@ ReSetna:
 ReSizE:
   pageId: 73213
   steam: 634150
+"ReStory: Chill Electronics Repairs":
+  cloud:
+    steam: true
+  pageId: 217969
+  steam: 3812600
+  steamSide:
+    - 4146670
+    - 4146680
 ReThink:
   cloud:
     steam: true
@@ -250366,6 +250393,8 @@ To a T:
   lutris: to-a-t
   pageId: 204847
   steam: 1875320
+  templates:
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\AnnapurnaInteractive.ToAT_c96c51jf6wkvm\\SystemAppData\\wgs\\}}"
 To the Capital:
   pageId: 55704
   steam: 574580

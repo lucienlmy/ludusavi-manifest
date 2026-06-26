@@ -8664,13 +8664,17 @@
   launch:
     - executable: Altair.exe
 34600:
+  cloud:
+    saves:
+      - path: "Order of War\\Save"
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Order of War
   launch:
     - executable: oow_final.exe
     - description: Launch in Safe Mode
       executable: oow_final_dx9.exe
-    - description: Report Error
-      executable: oow_report.exe
 34630:
   installDir: Massive Assault
   launch:
@@ -30006,6 +30010,11 @@
     - description: Launch
       executable: daikatana.exe
 243000:
+  cloud:
+    saves:
+      - path: IAM
+        pattern: Games*.*
+        root: gameinstall
   installDir: Omikron
   launch:
     - description: Launch
@@ -639559,6 +639568,47 @@
     koreana: "나는 군단이다: 스탠드 생존자"
     schinese: 我即军团：替身幸存者
     tchinese: 我即軍團：替身倖存者
+3110760:
+  cloud:
+    saves:
+      - path: "."
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: Alabaster Dawn/Saves/
+        os: Windows
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: WinAppDataLocal
+      - addPath: ".config/Alabaster Dawn/Saves/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+      - addPath: Alabaster Dawn/Saves/
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Alabaster Dawn
+  launch:
+    - config:
+        oslist: windows
+      description: without Steam Overlay
+      executable: alabaster_dawn.exe
+      type: option1
+    - config:
+        oslist: linux
+      executable: alabaster_dawn
+    - arguments: "--in-process-gpu"
+      config:
+        oslist: windows
+      description: "with Steam Overlay (WARNING: Might default to low-performance graphics)"
+      executable: alabaster_dawn.exe
+      type: option2
+  nameLocalized:
+    schinese: 皓白初晓
 3111030:
   cloud:
     saves:
@@ -649519,6 +649569,10 @@
         oslist: windows
       description: "Habbo Hotel: Origins [Spanish - XL Client]"
       executable: HabboHotel-oes-xl.exe
+3812600:
+  nameLocalized:
+    japanese: "リ・ストーリー: 思い出修理屋 (ReStory)"
+    schinese: 维修物语 (ReStory)
 3812660:
   cloud:
     saves:
