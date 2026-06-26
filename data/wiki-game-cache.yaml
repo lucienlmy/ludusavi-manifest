@@ -88581,8 +88581,8 @@ Flynn and Freckles:
   steam: 737520
   templates:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\HumbleBundle.FlynnSonofCrimson_q2mcdwmzx4qja\\LocalCache\\Local\\Flynn_Son_of_Crimson\\Data}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Flynn_Son_of_Crimson\\Data}}"
-    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HumbleBundle.FlynnSonofCrimson_q2mcdwmzx4qja\\LocalCache\\Local\\Flynn_Son_of_Crimson\\Data}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Local\\Flynn_Son_of_Crimson\\Data}}"
+    - "{{Game data/saves|Microsoft Store|{{P|appdata}}\\Packages\\HumbleBundle.FlynnSonofCrimson_q2mcdwmzx4qja\\LocalCache\\Local\\Flynn_Son_of_Crimson\\Data}}"
 Flyvalny 20!8:
   pageId: 87381
   steam: 800280
@@ -89808,6 +89808,7 @@ Formula Legends:
     - 1494837394
     - 1496854299
     - 1562896824
+    - 1669519209
     - 1861956202
     - 1871598025
     - 2067177842
@@ -89823,6 +89824,7 @@ Formula Legends:
     - 4216430
     - 4222670
     - 4362310
+    - 4362320
 Formula One 97:
   pageId: 77448
 Formula One 99:
@@ -115547,6 +115549,9 @@ Idol Showdown:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1742020\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BestoGameStudios\\Idol Showdown\\Saves}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1742020\\}}"
+Idols of Ash:
+  pageId: 217944
+  steam: 4450800
 Idolzzz:
   pageId: 75612
   steam: 743410
@@ -119456,11 +119461,21 @@ Iron Sea Defenders:
   pageId: 38827
   steam: 431750
 "Iron Sky: Invasion":
+  cloud:
+    gog: true
+  gog: 2125520369
+  gogSide:
+    - 1224274567
+    - 1675286861
+    - 1710225016
+    - 1911159206
   pageId: 40669
   steam: 224900
   steamSide:
     - 234860
     - 234880
+    - 547430
+    - 4216720
 Iron Snout:
   pageId: 37104
   steam: 424280
@@ -120425,6 +120440,7 @@ JDM Tuner Racing:
     - 1250900179
     - 1601175939
     - 1891590752
+    - 1946788969
   lutris: jdm-japanese-drift-master
   pageId: 203487
   steam: 1153410
@@ -159801,7 +159817,9 @@ No Mans Land:
   steam: 666560
 No More Heroes:
   cloud:
+    gog: true
     steam: true
+  gog: 1952635766
   lutris: no-more-heroes
   pageId: 168922
   steam: 1420290
@@ -159810,7 +159828,9 @@ No More Heroes:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\NMH\\saves\\}}"
 "No More Heroes 2: Desperate Struggle":
   cloud:
+    gog: true
     steam: true
+  gog: 2123918043
   pageId: 168925
   steam: 1420300
   templates:
@@ -159818,8 +159838,10 @@ No More Heroes:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\NMH2\\saves\\}}"
 No More Heroes 3:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1608160993
   pageId: 177067
   renamedFrom:
     - No More Heroes III
@@ -197632,6 +197654,7 @@ Sanabi:
   pageId: 191227
   steam: 1562700
   steamSide:
+    - 2610780
     - 3996620
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\WONDER POTION\\SNB\\*.data}}"
@@ -213316,8 +213339,10 @@ SpaceCoaster VR:
 SpaceCorn:
   pageId: 47521
   steam: 380580
-SpaceCraft:
+SpaceCraft (2026):
   pageId: 200775
+  renamedFrom:
+    - SpaceCraft
   steam: 3276050
 SpaceDweller:
   cloud:

@@ -23549,7 +23549,7 @@
       executable: IronSky.app
     - config:
         oslist: windows
-      description: Iron Sky Invasion - Compatibility Mode (DX9)
+      description: "Iron Sky Invasion - Compatibility Mode (DX9, no UHD) "
       executable: ISI_DX9.exe
     - config:
         oslist: linux
@@ -427575,6 +427575,12 @@
         oslist: linux
       executable: sevenchambers_steam_linux_x64
       type: default
+  nameLocalized:
+    french: "Sept Chambres : Aventure du Zodiaque"
+    german: "Sieben Kammern: Zodiac-Abenteuer"
+    italian: "Sette Camere: Avventura dello Zodiaco"
+    japanese: セブンチェンバーズ：ゾディアックアドベンチャー
+    spanish: "Siete Cámaras: Aventura del Zodiaco"
 984220:
   installDir: Alien911
   launch:
@@ -584741,7 +584747,24 @@
       description: in 1080p resolution
       executable: DOSBox.exe
       type: option3
-1804470: {}
+1804470:
+  cloud:
+    saves:
+      - path: Dreameffect/Duel Corp
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Dreameffect/Duel Corp
+        pattern: "*.bak"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Duel Corp
+  launch:
+    - executable: Duel Corp.exe
 1804710:
   installDir: Spartan
   launch:
@@ -642345,7 +642368,10 @@
     - config:
         oslist: windows
       executable: Chronoquartz.exe
-3276050: {}
+3276050:
+  installDir: SpaceCraft
+  launch:
+    - executable: SpaceCraft.exe
 3276190:
   nameLocalized:
     english: "The War of the Worlds: Siberia"
@@ -652340,6 +652366,21 @@
 4436520: {}
 4441710: {}
 4444610: {}
+4450800:
+  installDir: IdolsOfAsh
+  launch:
+    - config:
+        oslist: windows
+      executable: idols_of_ash.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: idols_of_ash.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Idols Of Ash.app
+      type: default
 4452700: {}
 4459850:
   nameLocalized:
