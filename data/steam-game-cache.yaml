@@ -198979,41 +198979,24 @@
       workingdir: "ph\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: "patch25-daily,patch26-daily,patch27-daily"
+        betakey: "gaas-daily,patch25-daily,patch26-daily,patch27-daily,patch28-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
       description: "Launch DL2 [RD, NO POPUPS]"
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
-    - arguments: "-nopopups"
+    - arguments: "-hidenomesh"
       config:
-        betakey: gaas-proto
+        betakey: "gaas-daily,patch28-daily,playtests-internal"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
-      description: "Launch DL2 [RD, NO POPUPS]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+      description: "Launch DL2 [RWP, HIDENOMESH]"
+      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rwp.exe"
       workingdir: "ph\\work\\bin\\x64"
     - config:
-        betakey: gaas-proto
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RD]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
-      workingdir: "ph\\work\\bin\\x64"
-    - arguments: "-nopopups -show_outpost=1"
-      config:
-        betakey: mph-pub
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RD, NO POPUPS]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
-      workingdir: "ph\\work\\bin\\x64"
-    - config:
-        betakey: "patch25-daily,patch26-daily,patch27-daily"
+        betakey: "patch25-daily,patch26-daily,patch27-daily,patch28-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
@@ -199021,21 +199004,12 @@
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
     - config:
-        betakey: "patch25-daily,patch26-daily,patch27-daily"
+        betakey: "patch25-daily,patch26-daily,patch27-daily,patch28-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
       description: "Launch DL2 [RWP]"
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rwp.exe"
-      workingdir: "ph\\work\\bin\\x64"
-    - arguments: "-nopopups"
-      config:
-        betakey: gaas2
-        osarch: "64"
-        oslist: windows
-        ownsdlc: "1263580"
-      description: "Launch DL2 [RD, NO POPUPS]"
-      executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
     - config:
         osarch: "64"
@@ -199045,13 +199019,13 @@
       executable: "DevTools\\bin\\editor_devtools_x64_rwe.exe"
       type: editor
       workingdir: "DevTools\\bin"
-    - arguments: "-nopopups"
+    - arguments: "-nopopups -hidenomesh"
       config:
-        betakey: gaas-daily
+        betakey: "gaas-daily,patch28-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "1263580"
-      description: "Launch DL2 [RD, NO POPUPS]"
+      description: "Launch DL2 [RD, NO POPUPS, HIDENOMESH]"
       executable: "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
       workingdir: "ph\\work\\bin\\x64"
   nameLocalized:
@@ -576744,12 +576718,14 @@
     - config:
         oslist: windows
       description: Launch Game
-      executable: "Bin\\Win64\\CrashTime5.exe"
+      executable: "Bin\\Win64\\CrashTime5-DX11.exe"
       type: default
     - config:
         oslist: windows
       description: Launch Configuration
       executable: "Bin\\Win64\\Launcher\\GameLauncher.exe"
+    - description: Launch Game (Legacy-DX9)
+      executable: "Bin\\Win64\\CrashTime5.exe"
 1687760:
   installDir: Exos Heroes
   launch:
@@ -646778,6 +646754,24 @@
         oslist: windows
       executable: SurvivingMarsPioneer.exe
       type: openxr
+3559510:
+  cloud:
+    saves:
+      - path: "NavilaSoftware\\CapsuleLover\\SaveData"
+        pattern: "*.nvlsav"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "NavilaSoftware\\CapsuleLover\\SaveData"
+        pattern: "*.jpg"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Capsule Lover
+  launch:
+    - executable: CapsuleLover.exe
+  nameLocalized:
+    japanese: カプセル恋人
+    schinese: 胶囊恋人
+    tchinese: 膠囊戀人
 3561320: {}
 3561600: {}
 3563700:

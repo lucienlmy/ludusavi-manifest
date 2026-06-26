@@ -37338,6 +37338,14 @@ Capsule Force:
 Capsule Jump:
   pageId: 82708
   steam: 798350
+Capsule Lover:
+  cloud:
+    steam: true
+  pageId: 217961
+  steam: 3559510
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\NavilaSoftware\\CapsuleLover\\SaveData}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\NavilaSoftware\\CapsuleLover\\SaveData}}"
 "Captain 13: Beyond the Hero":
   pageId: 71855
   steam: 704350
@@ -134922,6 +134930,8 @@ Long Arm of the Law:
 Long Count:
   pageId: 153832
   steam: 1190270
+"Long Drive North: Co-Op RV Simulator":
+  pageId: 217960
 Long Gone:
   lutris: long-gone
   pageId: 207284
@@ -263072,6 +263082,8 @@ Valiant:
     uplay: true
   pageId: 194791
   steam: 2741360
+  templates:
+    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\9662\\}}"
 "Valiant Hearts: The Great War":
   cloud:
     uplay: true

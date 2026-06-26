@@ -115467,6 +115467,24 @@ Capsule Jump:
             store: steam
   steam:
     id: 798350
+Capsule Lover:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/NavilaSoftware/CapsuleLover/SaveData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Capsule Lover: {}
+  launch:
+    "<base>/CapsuleLover.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3559510
 "Captain 13: Beyond the Hero":
   installDir:
     Captain 13 Beyond the Hero: {}
@@ -154714,10 +154732,13 @@ Crash Time 3:
   installDir:
     Crash Time Undercover: {}
   launch:
-    "<base>/Bin/Win64/CrashTime5.exe":
+    "<base>/Bin/Win64/CrashTime5-DX11.exe":
       - when:
           - os: windows
             store: steam
+    "<base>/Bin/Win64/CrashTime5.exe":
+      - when:
+          - store: steam
     "<base>/Bin/Win64/Launcher/GameLauncher.exe":
       - when:
           - os: windows
@@ -806727,6 +806748,12 @@ Valiant:
 "Valiant Hearts: Coming Home":
   cloud:
     uplay: true
+  files:
+    "<root>/savegames/<storeUserId>/9662":
+      tags:
+        - save
+      when:
+        - store: uplay
   installDir:
     Valiant Hearts Coming Home: {}
   launch:
