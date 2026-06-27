@@ -76560,6 +76560,30 @@ BeeFense BeeMastered:
             store: steam
   steam:
     id: 1640930
+Beecarbonize:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/CharlesGames/Beecarbonize/**/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/CharlesGames/Beecarbonize/*.save":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Beecarbonize: {}
+  launch:
+    "<base>/Beecarbonize.app/Contents/MacOS/Beecarbonize":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Beecarbonize.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2486750
 BeefeaterXO:
   installDir:
     BeefeaterXO: {}
@@ -484131,6 +484155,7 @@ Neoverse:
       - 1343250
       - 1375250
       - 1429010
+      - 1590520
   installDir:
     Neoverse: {}
   launch:
@@ -661543,6 +661568,11 @@ Spiral Clicker:
     id: 950860
 Spiral Knights:
   files:
+    "<home>/.java/.userPrefs/projectx":
+      tags:
+        - config
+      when:
+        - os: linux
     "<winAppData>/Spiral Knights":
       tags:
         - config
@@ -661551,14 +661581,19 @@ Spiral Knights:
   installDir:
     Spiral Knights: {}
   launch:
-    "<base>/Spiral Knights.app":
-      - when:
-          - os: mac
+    "<base>/java_vm/bin/java":
+      - arguments: "-Dcheck_unpacked=true -jar getdown-pro.jar . client"
+        when:
+          - os: linux
             store: steam
     "<base>/java_vm/bin/javaw.exe":
       - arguments: "-Dsun.java2d.d3d=false -Dcheck_unpacked=true -jar getdown-pro.jar . client"
         when:
           - os: windows
+            store: steam
+    "<base>/launch64.sh":
+      - when:
+          - os: mac
             store: steam
   steam:
     id: 99900
@@ -698340,6 +698375,11 @@ Sword Master VR:
     Sword Master VR: {}
   steam:
     id: 523710
+"Sword Sage: Awakening":
+  id:
+    lutris: sword-sage-awakening
+  steam:
+    id: 3846900
 Sword With Sauce:
   files:
     "<winLocalAppData>/SwordWithSauce/Saved/Config/WindowsNoEditor":

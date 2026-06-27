@@ -24917,6 +24917,11 @@ BeeFense BeeMastered:
     steam: true
   pageId: 181151
   steam: 1640930
+Beecarbonize:
+  cloud:
+    steam: true
+  pageId: 217975
+  steam: 2486750
 BeefeaterXO:
   pageId: 57964
   steam: 590430
@@ -157352,6 +157357,7 @@ Neoverse:
     - 1343250
     - 1375250
     - 1429010
+    - 1590520
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Tinogamez\\NEOVERSE\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\NEOVERSE_Data\\StreamingAssets\\sql.s3db}}"
@@ -214954,6 +214960,7 @@ Spiral Knights:
   steam: 99900
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Spiral Knights}}"
+    - "{{Game data/config|Linux|{{P|linuxhome}}/.java/.userPrefs/projectx}}"
 Spiral Splatter:
   pageId: 66450
   steam: 684870
@@ -226752,6 +226759,10 @@ Sword Master:
 Sword Master VR:
   pageId: 38983
   steam: 523710
+"Sword Sage: Awakening":
+  lutris: sword-sage-awakening
+  pageId: 217971
+  steam: 3846900
 Sword With Sauce:
   pageId: 56774
   steam: 581630

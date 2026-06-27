@@ -14680,14 +14680,11 @@
       executable: "java_vm\\bin\\javaw.exe"
     - config:
         oslist: macos
-      description: app launch
-      executable: Spiral Knights.app
-      type: default
-    - config:
-        oslist: macos
-      description: Spiral Knights with your own JVM
-      executable: run.sh
-      type: option2
+      executable: launch64.sh
+    - arguments: "-Dcheck_unpacked=true -jar getdown-pro.jar . client"
+      config:
+        oslist: linux
+      executable: "java_vm\\bin\\java"
 99910:
   installDir: Puzzle Pirates
   launch:
@@ -488765,10 +488762,18 @@
 1118520:
   cloud:
     saves:
-      - path: MySavedGames
+      - path: Paralives/Paralives/MySavedGames.mod
         pattern: "*"
         recursive: true
-        root: gameinstall
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Paralives/Paralives/MySavedGames.mod
+            replace: com.Paralives.Paralives/MySavedGames.mod
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: Paralives
   launch:
     - config:
@@ -622506,6 +622511,31 @@
       description: Launch Game
       executable: Pandemommyum.app
       type: default
+2486750:
+  cloud:
+    saves:
+      - path: CharlesGames/Beecarbonize
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: CharlesGames/Beecarbonize
+            replace: CharlesGames/Beecarbonize
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Beecarbonize
+  launch:
+    - config:
+        oslist: windows
+      executable: Beecarbonize.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "Beecarbonize.app\\Contents\\MacOS\\Beecarbonize"
+      type: default
 2486820:
   cloud:
     saves:
@@ -649936,6 +649966,10 @@
         oslist: macos
       executable: "Glass Masquerade 4.app\\Contents\\MacOS\\Glass Masquerade 4"
       type: default
+3846900:
+  nameLocalized:
+    schinese: 猿公剑
+    tchinese: 猿公劍
 3849000: {}
 3849030: {}
 3853780:
