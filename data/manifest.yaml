@@ -96013,6 +96013,7 @@ Bongo Cat:
     lutris: bongo-cat
     steamExtra:
       - 3487310
+      - 4856340
   installDir:
     BongoCat: {}
   launch:
@@ -116531,6 +116532,31 @@ Car Mechanic Simulator 2021:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: car-mechanic-simulator-2021
+    steamExtra:
+      - 1585850
+      - 1685720
+      - 1685721
+      - 1748990
+      - 1748991
+      - 1773800
+      - 1773801
+      - 1931780
+      - 1981550
+      - 2085260
+      - 2112230
+      - 2112231
+      - 2112232
+      - 2282030
+      - 2464230
+      - 2546830
+      - 2601200
+      - 2721070
+      - 2889700
+      - 3335470
+      - 3660210
+      - 4185010
   installDir:
     Car Mechanic Simulator 2021: {}
   launch:
@@ -234766,6 +234792,7 @@ Empire Deluxe Combined Edition:
 Empire Earth:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/Data/Saved Games":
       tags:
@@ -234793,6 +234820,7 @@ Empire Earth:
 Empire Earth II:
   cloud:
     gog: true
+    steam: true
   files:
     "<winAppData>/Sierra/Empire Earth II":
       tags:
@@ -308111,6 +308139,9 @@ Grand Theft Auto V Enhanced:
             store: steam
   steam:
     id: 3240220
+Grand Theft Auto VI:
+  id:
+    lutris: grand-theft-auto-vi
 "Grand Theft Auto: Episodes from Liberty City":
   files:
     "<winLocalAppData>/Rockstar Games/GTA IV/Settings/SETTINGS_EFLC.CFG":
@@ -417739,6 +417770,11 @@ Loria:
         - save
       when:
         - os: linux
+  id:
+    lutris: lorns-lure
+    steamExtra:
+      - 2948850
+      - 4166680
   installDir:
     "Lorn's Lure": {}
   launch:

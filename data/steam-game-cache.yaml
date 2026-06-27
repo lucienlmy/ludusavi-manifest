@@ -36053,6 +36053,32 @@
     japanese: Biohazard 4 (2005)
     koreana: Biohazard 4 (2005)
 254760:
+  cloud:
+    saves:
+      - path: Empire Earth/Data/Saved Games
+        pattern: "*.ees"
+        root: gameinstall
+      - path: Empire Earth - The Art of Conquest/Data/Saved Games
+        pattern: "*.ees"
+        root: gameinstall
+      - path: Empire Earth/Users/default/Civilizations
+        pattern: "*.civ"
+        root: gameinstall
+      - path: Empire Earth - The Art of Conquest/Users/default/Civilizations
+        pattern: "*.civ"
+        root: gameinstall
+      - path: Empire Earth/Data/Scenarios
+        pattern: "*.scn"
+        root: gameinstall
+      - path: Empire Earth - The Art of Conquest/Data/Scenarios
+        pattern: "*.scn"
+        root: gameinstall
+      - path: Empire Earth/Data/Campaigns
+        pattern: "*.ssa"
+        root: gameinstall
+      - path: Empire Earth - The Art of Conquest/Data/Campaigns
+        pattern: "*.ssa"
+        root: gameinstall
   installDir: Empire Earth Gold Edition
   launch:
     - config:
@@ -36068,6 +36094,44 @@
       type: option1
       workingdir: "Empire Earth - The Art of Conquest\\"
 254780:
+  cloud:
+    saves:
+      - path: Empire Earth II/savegame_SP
+        pattern: "*.sav"
+        root: WinMyDocuments
+      - path: Empire Earth II/savegame_MP
+        pattern: "*.sav"
+        root: WinMyDocuments
+      - path: Sierra/Empire Earth II/settings
+        pattern: "*.fav"
+        root: WinAppDataRoaming
+      - path: Sierra/Empire Earth II The Art of Supremacy/settings
+        pattern: "*.fav"
+        root: WinAppDataRoaming
+      - path: Empire Earth II The Art of Supremacy/savegame_SP
+        pattern: "*.sav"
+        root: WinMyDocuments
+      - path: Empire Earth II The Art of Supremacy/savegame_MP
+        pattern: "*.sav"
+        root: WinMyDocuments
+      - path: Empire Earth II/scenario
+        pattern: "*.scn"
+        root: WinMyDocuments
+      - path: Empire Earth II The Art of Supremacy/scenario_EE2X
+        pattern: "*.scn"
+        root: WinMyDocuments
+      - path: Empire Earth II/maps
+        pattern: "*.map"
+        root: WinMyDocuments
+      - path: Empire Earth II The Art of Supremacy/maps
+        pattern: "*.map"
+        root: WinMyDocuments
+      - path: Empire Earth II The Art of Supremacy/CustomCivs
+        pattern: "*.civ"
+        root: WinMyDocuments
+      - path: Empire Earth II The Art of Supremacy/CustomForces
+        pattern: "*.cqs"
+        root: WinMyDocuments
   installDir: Empire Earth II Gold Edition
   launch:
     - config:
@@ -36081,6 +36145,16 @@
       executable: EE2X.exe
       type: option1
 254800:
+  cloud:
+    saves:
+      - path: Empire Earth III/profiles
+        pattern: "*.ee3wsv"
+        recursive: true
+        root: WinMyDocuments
+      - path: Empire Earth III/profiles
+        pattern: "*.ee3sav"
+        recursive: true
+        root: WinMyDocuments
   installDir: Empire Earth III
   launch:
     - config:
@@ -40558,8 +40632,8 @@
   nameLocalized:
     japanese: サブノーティカ
     koreana: 서브노티카
-    sc_schinese: 深海迷航
-    schinese: 深海迷航
+    sc_schinese: Subnautica - 深海迷航
+    schinese: Subnautica - 深海迷航
 264730:
   installDir: Deadly30
   launch:

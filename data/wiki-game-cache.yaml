@@ -31097,6 +31097,7 @@ Bongo Cat:
   steam: 3419430
   steamSide:
     - 3487310
+    - 4856340
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Irox Games\\BongoCat\\}}"
 Bonkies:
@@ -37631,8 +37632,32 @@ Car Mechanic Simulator 2021:
   cloud:
     steam: true
     xbox: true
+  lutris: car-mechanic-simulator-2021
   pageId: 170669
   steam: 1190000
+  steamSide:
+    - 1585850
+    - 1685720
+    - 1685721
+    - 1748990
+    - 1748991
+    - 1773800
+    - 1773801
+    - 1931780
+    - 1981550
+    - 2085260
+    - 2112230
+    - 2112231
+    - 2112232
+    - 2282030
+    - 2464230
+    - 2546830
+    - 2601200
+    - 2721070
+    - 2889700
+    - 3335470
+    - 3660210
+    - 4185010
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator 2021}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Red Dot Games\\Car Mechanic Simulator 2021\\Save}}"
@@ -75704,6 +75729,7 @@ Empire Deluxe Combined Edition:
 Empire Earth:
   cloud:
     gog: true
+    steam: true
   gog: 1207658777
   lutris: empire-earth-gold-edition
   pageId: 7281
@@ -75717,6 +75743,7 @@ Empire Earth:
 Empire Earth II:
   cloud:
     gog: true
+    steam: true
   gog: 1207658844
   lutris: empire-earth-2
   pageId: 9412
@@ -99735,6 +99762,7 @@ Grand Theft Auto V Enhanced:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTAV Enhanced\\settings.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTAV Enhanced\\Profiles\\{{P|uid}}}}"
 Grand Theft Auto VI:
+  lutris: grand-theft-auto-vi
   pageId: 212191
 "Grand Theft Auto: Chinatown Wars":
   pageId: 168124
@@ -135499,8 +135527,12 @@ Loria:
 "Lorn's Lure":
   cloud:
     steam: true
+  lutris: lorns-lure
   pageId: 168868
   steam: 1417930
+  steamSide:
+    - 2948850
+    - 4166680
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Rubeki Games\\LornsLure}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Rubeki Games/LornsLure/}}"
