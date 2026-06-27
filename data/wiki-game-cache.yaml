@@ -90124,6 +90124,8 @@ Fortune Mill:
   pageId: 217283
   steam: 4731620
 "Fortune Summoners: Secret of the Elemental Stone":
+  cloud:
+    steam: true
   pageId: 778
   steam: 203510
   templates:
