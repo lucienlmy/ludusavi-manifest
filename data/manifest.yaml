@@ -650334,8 +650334,6 @@ Sonic the Hedgehog 2 (mobile decompilation):
   steam:
     id: 202530
 "Sonic the Hedgehog 4: Episode II":
-  cloud:
-    steam: true
   files:
     "<base>/Config":
       tags:

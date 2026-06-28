@@ -193173,6 +193173,7 @@ RollerCoaster Tycoon Adventures:
 RollerCoaster Tycoon Classic:
   cloud:
     gog: true
+    xbox: true
   gog: 1673898707
   lutris: rollercoaster-tycoon-classic
   pageId: 72515
@@ -211270,8 +211271,6 @@ Sonic the Hedgehog 2 (mobile decompilation):
     - "{{Game data/config|Windows|{{p|game}}\\main.conf}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Sonic_vis_save.dat|{{p|game}}\\data.txt}}"
 "Sonic the Hedgehog 4: Episode II":
-  cloud:
-    steam: true
   lutris: sonic-the-hedgehog-4-episode-ii
   pageId: 2905
   steam: 203650
