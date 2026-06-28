@@ -28198,7 +28198,7 @@ Alabaster Dawn:
         - os: linux
     "<xdgConfig>/Alabaster Dawn/Saves/Default":
       tags:
-        - config
+        - save
       when:
         - os: linux
   id:
@@ -44246,6 +44246,13 @@ Approaching Blocks:
             store: steam
   steam:
     id: 467390
+Appulse:
+  cloud:
+    steam: true
+  id:
+    lutris: appulse
+  steam:
+    id: 3498700
 April 24th:
   files:
     "<winLocalAppData>/April_24th/Saved/Config/WindowsNoEditor":
@@ -180314,6 +180321,11 @@ Dead or Alive 6 Last Round:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/KoeiTecmo/DEADORALIVE6 Last Round/<storeUserId>/GRAPHICSSETTING":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/KoeiTecmo/DEADORALIVE6 Last Round/<storeUserId>/SYSTEMDATA":
       tags:
         - save

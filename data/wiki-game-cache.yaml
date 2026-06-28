@@ -8948,7 +8948,7 @@ Alabaster Dawn:
   steam: 3110760
   templates:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/Alabaster Dawn}}"
-    - "{{Game data/config|Linux|{{P|xdgconfighome}}/Alabaster Dawn/Saves/Default}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Alabaster Dawn/Saves/Default}}"
 Aladdin Chess Adventures:
   pageId: 93516
 Aladdin Pinball:
@@ -14119,6 +14119,12 @@ Appointment With FEAR:
 Approaching Blocks:
   pageId: 42692
   steam: 467390
+Appulse:
+  cloud:
+    steam: true
+  lutris: appulse
+  pageId: 217992
+  steam: 3498700
 April 24th:
   pageId: 196825
   steam: 2907190
@@ -58133,7 +58139,8 @@ Dead or Alive 6 Last Round:
   pageId: 213727
   steam: 4144680
   templates:
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\KoeiTecmo\\DEADORALIVE6 Last Round\\{{P|uid}}\\SYSTEMDATA}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\KoeiTecmo\\DEADORALIVE6 Last Round\\{{P|uid}}\\GRAPHICSSETTING}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\KoeiTecmo\\DEADORALIVE6 Last Round\\{{P|uid}}\\SYSTEMDATA}}"
 Dead or Alive Xtreme Venus Vacation:
   pageId: 131566
   renamedFrom:
