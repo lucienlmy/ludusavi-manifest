@@ -25177,6 +25177,11 @@
         osCompare: "="
         root: WinAppDataLocal
         useInstead: MacAppSupport
+      - addPath: Epic/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgConfigHome
   installDir: Asylum
   launch:
     - config:
@@ -25190,7 +25195,6 @@
       executable: Asylum.app/Contents/MacOS/Asylum-Mac-Shipping
       type: default
     - config:
-        osarch: "64"
         oslist: linux
       description: Launch
       executable: Asylum.sh
@@ -636617,6 +636621,26 @@
         oslist: windows
       executable: GamingCafeSimulator.exe
       type: default
+2980260:
+  cloud:
+    saves:
+      - path: "\\Charlie Wagner\\Hypogea\\"
+        pattern: fullGameSave.vlt
+        root: WinAppDataLocalLow
+      - path: "\\Charlie Wagner\\Hypogea\\"
+        pattern: fullGameSave2.vlt
+        root: WinAppDataLocalLow
+      - path: "\\Charlie Wagner\\Hypogea\\"
+        pattern: fullGameSave3.vlt
+        root: WinAppDataLocalLow
+  installDir: Hypogea
+  launch:
+    - config:
+        oslist: windows
+      executable: Hypogea.exe
+      type: default
+  nameLocalized:
+    schinese: Hypogea/深岩之下
 2981650:
   cloud:
     saves:

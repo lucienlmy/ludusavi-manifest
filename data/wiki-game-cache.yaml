@@ -17712,6 +17712,7 @@ Asylum:
     gog: true
     steam: true
   gog: 1418166671
+  lutris: asylum--1
   pageId: 82213
   steam: 230210
   steamSide:
@@ -58255,6 +58256,9 @@ Deadhold:
 Deadhunt:
   pageId: 45010
   steam: 435250
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\GtEngine.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\}}"
 Deadlands Noir - That Old Time Religion:
   pageId: 47387
   steam: 383670
@@ -114169,6 +114173,15 @@ Hypnospace Outlaw:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Tendershoot\\HypnOS\\Enforcer*.sav|{{p|appdata}}\\Tendershoot\\HypnOS\\Enforcer*.sav}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Tendershoot/HypnOS}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/Tendershoot/HypnOS/Enforcer*.sav}}"
+Hypogea:
+  cloud:
+    steam: true
+  lutris: hypogea
+  pageId: 218008
+  steam: 2980260
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Charlie Wagner\\Hypogea}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Charlie Wagner\\Hypogea}}"
 Hyposphere:
   pageId: 43171
   steam: 461880

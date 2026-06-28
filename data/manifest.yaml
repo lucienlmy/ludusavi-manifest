@@ -55215,6 +55215,7 @@ Asylum:
   gog:
     id: 1418166671
   id:
+    lutris: asylum--1
     steamExtra:
       - 1311020
   installDir:
@@ -55230,8 +55231,7 @@ Asylum:
             store: steam
     "<base>/Asylum.sh":
       - when:
-          - bit: 64
-            os: linux
+          - os: linux
             store: steam
   steam:
     id: 230210
@@ -180709,6 +180709,17 @@ Deadhold:
   steam:
     id: 346930
 Deadhunt:
+  files:
+    "<base>/GtEngine.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Deadhunt: {}
   launch:
@@ -352209,6 +352220,30 @@ Hypnospace Outlaw:
             store: steam
   steam:
     id: 844590
+Hypogea:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Charlie Wagner/Hypogea":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: hypogea
+  installDir:
+    Hypogea: {}
+  launch:
+    "<base>/Hypogea.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Charlie Wagner/Hypogea:
+      tags:
+        - config
+  steam:
+    id: 2980260
 Hyposphere:
   files:
     "<winLocalAppData>/HyposphereOne/Saved/Config/WindowsNoEditor":
