@@ -56897,7 +56897,8 @@ Dave the Diver:
     - 3543180
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\nexon\\DAVE THE DIVER\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\nexon\\DAVE THE DIVER\\SteamSData\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Steam|{{P|userprofile}}\\AppData\\LocalLow\\nexon\\DAVE THE DIVER\\SteamSData\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Epic Games Launcher|{{P|userprofile}}\\AppData\\LocalLow\\mintrocket\\DAVE THE DIVER\\{{P|uid}}\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/nexon/DAVE THE DIVER/SData/|{{P|osxhome}}/Library/Application Support/com.nexon.dave/DAVE THE DIVER/SData/}}"
 Dave-Man:
   pageId: 154273
@@ -124359,6 +124360,11 @@ Kaya:
 Kayalina:
   pageId: 71918
   steam: 714000
+"Kayf-Life: Complete Edition":
+  cloud:
+    steam: true
+  pageId: 217994
+  steam: 1950750
 Kaz Ball:
   pageId: 78812
   steam: 766250

@@ -176407,11 +176407,17 @@ Dave the Diver:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/mintrocket/DAVE THE DIVER/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/nexon/DAVE THE DIVER/SteamSData/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
+          store: steam
     "<home>/Library/Application Support/com.nexon.dave/DAVE THE DIVER/SData":
       tags:
         - save
@@ -383730,6 +383736,11 @@ Kaya:
 Kayalina:
   steam:
     id: 714000
+"Kayf-Life: Complete Edition":
+  cloud:
+    steam: true
+  steam:
+    id: 1950750
 Kaz Ball:
   installDir:
     Kaz Ball: {}
