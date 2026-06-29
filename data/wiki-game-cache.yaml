@@ -79048,6 +79048,8 @@ Event-D:
 Eventide Escape:
   pageId: 81770
   steam: 676530
+Eventide Matter:
+  pageId: 218022
 Eventide Night:
   pageId: 61974
   steam: 616030
@@ -229503,6 +229505,8 @@ Tamashika:
     steam: true
   pageId: 201226
   steam: 2996080
+"Tamer: King of Dinosaurs":
+  pageId: 218021
 Tametsi:
   cloud:
     steam: true
