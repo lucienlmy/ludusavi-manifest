@@ -472045,6 +472045,16 @@ My Island:
             store: steam
   steam:
     id: 1004270
+My Kingdom for the Princess:
+  installDir:
+    My Kingdom for the Princess: {}
+  launch:
+    "<base>/MKFTP.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2347120
 My Lady:
   files:
     "<base>/game/saves":
@@ -484845,6 +484855,12 @@ NetherWorld:
 "Nethergate: Resurrection":
   cloud:
     gog: true
+  files:
+    Uses file explorer for first save.:
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1243419675
   installDir:

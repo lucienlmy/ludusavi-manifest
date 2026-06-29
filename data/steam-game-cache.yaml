@@ -148517,6 +148517,10 @@
         oslist: windows
       description: Launch in Desktop (Non-VR) Mode
       executable: launch.exe
+    - config:
+        oslist: android
+      executable: VRChat.apk
+      type: openxr
 438120: {}
 438130:
   cloud:
@@ -177486,6 +177490,8 @@
   launch:
     - executable: sppl1_en.exe
       type: default
+  nameLocalized:
+    schinese: sppl-魔女爱丽丝 第一章 春日已至1
 496360:
   cloud:
     saves:
@@ -320379,6 +320385,8 @@
   launch:
     - executable: sppl2_en.exe
       type: default
+  nameLocalized:
+    schinese: sppl-魔女爱丽丝 第一章 春日已至2
 762940:
   cloud:
     saves:
@@ -616107,6 +616115,13 @@
   nameLocalized:
     schinese: 霜港迷城
     tchinese: 霜港迷城
+2347120:
+  installDir: My Kingdom for the Princess
+  launch:
+    - config:
+        oslist: windows
+      description: My Kingdom for the Princess
+      executable: MKFTP.exe
 2347910:
   installDir: Seal WhatTheFun
   launch:

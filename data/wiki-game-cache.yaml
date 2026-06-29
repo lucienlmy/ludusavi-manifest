@@ -153365,6 +153365,9 @@ My House:
 My Island:
   pageId: 127567
   steam: 1004270
+My Kingdom for the Princess:
+  pageId: 218009
+  steam: 2347120
 My Lady:
   pageId: 38029
   steam: 457530
@@ -157634,6 +157637,8 @@ NetherWorld:
   gog: 1243419675
   pageId: 10301
   steam: 218020
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}|Uses file explorer for first save.}}"
 Netherguild:
   pageId: 204028
   steam: 1464220
