@@ -538538,9 +538538,16 @@ PockeDate! - Pocket Dating Simulator:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Pockedate/AKARI.INI":
+    "<winLocalAppData>/Pockedate/*.ini":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Pockedate/backupsave*.*":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     PockeDate: {}
   launch:

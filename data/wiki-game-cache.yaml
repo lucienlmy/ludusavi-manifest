@@ -66266,6 +66266,9 @@ Donjon Defense:
   steam: 757230
 Donkey Kong:
   pageId: 152480
+Donkey Kong 64:
+  malformed: true
+  pageId: 218016
 "Donkey Kong: Redux":
   pageId: 200596
 Donkey Xote:
@@ -175333,6 +175336,9 @@ PockeDate! - Pocket Dating Simulator:
     steam: true
   pageId: 199769
   steam: 3107350
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Pockedate\\*.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Pockedate\\backupsave*.*}}"
 Pocket Assault:
   pageId: 136739
   steam: 653130
