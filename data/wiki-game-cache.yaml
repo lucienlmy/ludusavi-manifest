@@ -225266,10 +225266,10 @@ SuperTuxKart:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\supertuxkart\\config-0.10\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/SuperTuxKart/config-0.10/}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/SuperTuxKart/config-0.10/}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/supertuxkart/config-0.10/}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\supertuxkart\\config-0.10\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/SuperTuxKart/config-0.10/}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/SuperTuxKart/config-0.10/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/supertuxkart/config-0.10/}}"
 SuperWurfels:
   pageId: 70094
   steam: 672880

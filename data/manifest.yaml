@@ -693787,7 +693787,7 @@ SuperTuxKart:
         - save
       when:
         - os: windows
-    "<xdgConfig>/SuperTuxKart/config-0.10":
+    "<xdgConfig>/supertuxkart/config-0.10":
       tags:
         - config
         - save
