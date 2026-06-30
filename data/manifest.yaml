@@ -161136,6 +161136,24 @@ Crush the Industry:
             store: steam
   steam:
     id: 1098610
+Crushed In Time:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DrawMeAPixel/CrushedInTime/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Crushed In Time: {}
+  launch:
+    "<base>/CrushedInTime.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3858650
 Crushing Blow:
   cloud:
     steam: true
@@ -600962,6 +600980,20 @@ RŌA:
         - config
   steam:
     id: 962390
+S.A.N.D.Y. Beach Cleaner:
+  id:
+    steamExtra:
+      - 4518150
+  installDir:
+    S.A.N.D.Y. - Beach Cleaner: {}
+  launch:
+    "<base>/SandyBeachCleaner.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3954990
 S.D.I.:
   installDir:
     Cinemaware Anthology 1986-1991: {}
@@ -685953,6 +685985,9 @@ Summer Challenge:
         - os: dos
   gog:
     id: 1820973446
+Summer Days in the Joyful Countryside:
+  steam:
+    id: 3606380
 Summer Daze at Hero-U:
   files:
     "<home>/.config/unity3d/Transolar Games/Tilly's Tale":
@@ -764954,6 +764989,7 @@ Thrifty Business:
         - os: mac
           store: steam
   id:
+    lutris: thrifty-business
     steamExtra:
       - 4091410
   installDir:
@@ -834866,6 +834902,19 @@ Wild West Online:
             store: steam
   steam:
     id: 842150
+Wild West Supermarket Simulator:
+  id:
+    steamExtra:
+      - 3698170
+  installDir:
+    Wild West Supermarket Simulator: {}
+  launch:
+    "<base>/Wild West Supermarket Simulator.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3690760
 Wild West VR:
   installDir:
     Wild West VR: {}

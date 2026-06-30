@@ -51879,6 +51879,11 @@ Crush the Industry:
     steam: true
   pageId: 203572
   steam: 1098610
+Crushed In Time:
+  cloud:
+    steam: true
+  pageId: 218030
+  steam: 3858650
 Crushing Blow:
   cloud:
     steam: true
@@ -195448,6 +195453,11 @@ RŌA:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\GoblinzStudio\\RobothoriumVisualNovel\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\GoblinzStudio\\RobothoriumVisualNovel\\}}"
+S.A.N.D.Y. Beach Cleaner:
+  pageId: 218028
+  steam: 3954990
+  steamSide:
+    - 4518150
 S.C.A.R.S.:
   pageId: 211945
 S.D.I.:
@@ -222897,6 +222907,9 @@ Summer Challenge:
   pageId: 162373
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.SGL|{{p|game}}\\*.RP?}}"
+Summer Days in the Joyful Countryside:
+  pageId: 218024
+  steam: 3606380
 Summer Daze at Hero-U:
   pageId: 151471
   steam: 1139490
@@ -248562,6 +248575,7 @@ Threes!:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Sirvo LLC\\Threes\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Sirvo LLC\\Threes\\threes_cloud.save | {{p|appdata}}\\Sirvo LLC\\Threes\\threes_local.save}}"
 Thrifty Business:
+  lutris: thrifty-business
   pageId: 215685
   steam: 3693650
   steamSide:
@@ -272517,6 +272531,11 @@ Wild West Online:
 "Wild West Saga:Idle Tycoon":
   pageId: 93684
   steam: 842150
+Wild West Supermarket Simulator:
+  pageId: 218026
+  steam: 3690760
+  steamSide:
+    - 3698170
 Wild West VR:
   pageId: 96643
   steam: 871270

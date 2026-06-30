@@ -647639,6 +647639,10 @@
         oslist: windows
       executable: Figure Shop Simulator.exe
       type: default
+3606380:
+  nameLocalized:
+    japanese: 田舎のじゅ〜し〜ず❤︎
+    schinese: 乱情小妹
 3606480: {}
 3606690:
   cloud:
@@ -648735,6 +648739,15 @@
     koreana: 최후의 주유소
     schinese: 最后的加油站
     tchinese: 最後的加油站
+3690760:
+  installDir: Wild West Supermarket Simulator
+  launch:
+    - config:
+        oslist: windows
+      executable: Wild West Supermarket Simulator.exe
+      type: default
+  nameLocalized:
+    schinese: 牛仔镇杂货铺 | Wild West Supermarket Simulator
 3692660:
   installDir: The New Flesh
   launch:
@@ -650114,6 +650127,23 @@
     schinese: 待钓之鱼
     tchinese: 待釣之魚
 3857790: {}
+3858650:
+  cloud:
+    saves:
+      - path: "DrawMeAPixel/CrushedInTime/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Crushed In Time
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CrushedInTime.exe
+      type: default
+  nameLocalized:
+    schinese: 时空迷踪
 3862670:
   cloud:
     saves:
@@ -650872,6 +650902,14 @@
         oslist: windows
       executable: Star Trek Infection.exe
       type: openxr
+3954990:
+  installDir: S.A.N.D.Y. - Beach Cleaner
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: SandyBeachCleaner.exe
+      type: default
 3957530: {}
 3961110:
   installDir: Sleepover reWake
