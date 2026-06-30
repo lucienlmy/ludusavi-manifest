@@ -97936,6 +97936,9 @@ Goblin Cleanup:
 Goblin Gearshop:
   pageId: 79342
   steam: 770500
+Goblin Getaway:
+  pageId: 218037
+  steam: 4193660
 Goblin Harvest - The Mighty Quest:
   cloud:
     steam: true
@@ -123062,7 +123065,7 @@ Just Cause 4:
   steam: 517630
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Square Enix\\Just Cause 4\\LocalData\\startup_settings.json|{{P|steam}}\\userdata\\{{P|uid}}\\517630\\remote\\local_settings.json}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\517630\\remote\\|{{P|userprofile\\documents}}\\Epic Games\\Square Enix\\Just Cause 4\\}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\517630\\remote\\|{{P|userprofile\\documents}}\\Square Enix\\Just Cause 4\\}}"
 Just Chatting:
   cloud:
     steam: true
@@ -169980,8 +169983,10 @@ Path of Exile:
     - 2855560
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Path of Exile\\*.ini}}"
-Path of Exile II:
+Path of Exile 2:
   pageId: 200006
+  renamedFrom:
+    - Path of Exile II
   steam: 2694490
   steamSide:
     - 3349410

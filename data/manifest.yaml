@@ -302686,6 +302686,9 @@ Goblin Gearshop:
             store: steam
   steam:
     id: 770500
+Goblin Getaway:
+  steam:
+    id: 4193660
 Goblin Harvest - The Mighty Quest:
   cloud:
     steam: true
@@ -379801,7 +379804,7 @@ Just Cause 4:
       when:
         - os: windows
           store: steam
-    "<winDocuments>/Epic Games/Square Enix/Just Cause 4":
+    "<winDocuments>/Square Enix/Just Cause 4":
       tags:
         - save
       when:
@@ -522401,7 +522404,7 @@ Path of Exile:
             store: steam
   steam:
     id: 238960
-Path of Exile II:
+Path of Exile 2:
   files:
     "<winDocuments>/My Games/Path of Exile 2/poe2_production_Config.ini":
       tags:
@@ -522423,6 +522426,8 @@ Path of Exile II:
             store: steam
   steam:
     id: 2694490
+Path of Exile II:
+  alias: Path of Exile 2
 Path of Giants:
   cloud:
     steam: true
