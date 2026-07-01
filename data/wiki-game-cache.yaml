@@ -244861,11 +244861,12 @@ The Sinking City Remastered:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TSCGame\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TSCGame\\Saved\\SaveGames\\}}"
 "The Sisters: Party of the Year":
+  lutris: the-sisters-party-of-the-year
   pageId: 179841
   steam: 1502540
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Microids\\Sisters Party Of The Year\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Microids\\Sisters Party Of The Year\\}}"
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Microids\\Sisters Party Of The Year}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Microids\\Sisters Party Of The Year}}"
 The Six Dragons:
   pageId: 113124
   steam: 749950

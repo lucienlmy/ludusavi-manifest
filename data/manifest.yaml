@@ -753797,6 +753797,8 @@ The Sinking City Remastered:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-sisters-party-of-the-year
   installDir:
     Sisters: {}
   launch:
