@@ -610532,6 +610532,8 @@ Saw:
   steam:
     id: 27300
 "Saw: Genesis":
+  id:
+    lutris: saw-genesis
   steam:
     id: 2865960
 Say Goodbye:
@@ -713042,6 +713044,11 @@ Terra Invicta:
         - os: windows
   gog:
     id: 1235051722
+  id:
+    gogExtra:
+      - 1926538687
+    steamExtra:
+      - 4713340
   installDir:
     Terra Invicta: {}
   launch:
@@ -741665,6 +741672,31 @@ The Loner:
       - 582340
   steam:
     id: 581890
+The Lonesome Guild:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 2120772153
+  id:
+    gogExtra:
+      - 1278722805
+    lutris: the-lonesome-guild
+    steamExtra:
+      - 3891830
+  installDir:
+    The Lonesome Guild: {}
+  launch:
+    "<base>/TheLonesomeGuild.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Tiny Bull Studios/TheLonesomeGuild:
+      tags:
+        - config
+  steam:
+    id: 1486450
 The Long Dark:
   cloud:
     epic: true

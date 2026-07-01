@@ -198555,6 +198555,7 @@ Saw:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Saw\\SawGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Saw\\SawGame\\Checkpoints\\default_checkpoint.sav}}"
 "Saw: Genesis":
+  lutris: saw-genesis
   pageId: 217293
   steam: 2865960
 Say Goodbye:
@@ -231405,8 +231406,12 @@ Terra Invicta:
     steam: true
     xbox: true
   gog: 1235051722
+  gogSide:
+    - 1926538687
   pageId: 172895
   steam: 1176470
+  steamSide:
+    - 4713340
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\TerraInvicta\\Saves}}"
 Terra Lander:
@@ -240869,6 +240874,20 @@ The Loner:
   steam: 581890
   steamSide:
     - 582340
+The Lonesome Guild:
+  cloud:
+    gog: true
+    steam: true
+  gog: 2120772153
+  gogSide:
+    - 1278722805
+  lutris: the-lonesome-guild
+  pageId: 218043
+  steam: 1486450
+  steamSide:
+    - 3891830
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Tiny Bull Studios\\TheLonesomeGuild}}"
 The Long Dark:
   cloud:
     epic: true

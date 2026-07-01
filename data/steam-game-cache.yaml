@@ -560909,6 +560909,34 @@
         oslist: windows
       executable: Evil_Inside.exe
       type: default
+1486450:
+  cloud:
+    saves:
+      - path: Tiny Bull Studios/TheLonesomeGuild/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: The Lonesome Guild
+  launch:
+    - config:
+        oslist: windows
+      executable: TheLonesomeGuild.exe
+      type: default
+  nameLocalized:
+    schinese: 孤独公会
 1486630:
   cloud:
     saves:
