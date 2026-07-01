@@ -58556,6 +58556,41 @@ Automaton Arena:
             store: steam
   steam:
     id: 1050850
+Automaton Lung:
+  cloud:
+    steam: true
+  files:
+    "<base>/Options":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: automaton-lung
+    steamExtra:
+      - 2242720
+  installDir:
+    AutomatonLung: {}
+  launch:
+    "<base>/AutomatonLung.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/alung.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/alung.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2158900
 Automatum:
   installDir:
     Automatum: {}
@@ -228437,8 +228472,21 @@ Echoes of Aetheria:
 Echoes of Aincrad:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/EchoesofAincrad/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/EchoesofAincrad/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: echoes-of-aincrad
+    steamExtra:
+      - 4148250
   steam:
     id: 2244210
 "Echoes of War: The Last Heartbeat":
@@ -425064,10 +425112,11 @@ Lyca:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Incremental_Game/*.sav":
+    "<winLocalAppData>/Incremental_Game":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: lyca
   installDir:
@@ -685363,6 +685412,9 @@ Suicideville:
 Suika Game:
   steam:
     id: 4572790
+Suika Game Planet:
+  steam:
+    id: 4650440
 Suikoden I & II HD Remaster Gate Rune and Dunan Unification Wars:
   cloud:
     steam: true
@@ -779478,6 +779530,10 @@ Tower of Fantasy:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 2088380
+      - 2147450
   installDir:
     Tower of Fantasy: {}
   launch:

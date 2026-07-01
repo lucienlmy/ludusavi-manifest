@@ -607313,6 +607313,24 @@
         oslist: linux
       executable: jbmod.sh
       type: default
+2158900:
+  cloud:
+    saves:
+      - path: saves
+        pattern: "*.alungdata"
+        recursive: true
+        root: gameinstall
+  installDir: AutomatonLung
+  launch:
+    - config:
+        oslist: windows
+      executable: AutomatonLung.exe
+    - config:
+        oslist: linux
+      executable: alung.x86_64
+    - config:
+        oslist: macos
+      executable: alung.app
 2159900:
   cloud:
     saves:
@@ -652828,6 +652846,13 @@
     schinese: Carpet Cleaning Simulator
 4637870: {}
 4638740: {}
+4650440:
+  nameLocalized:
+    english: Suika Game Planet
+    japanese: スイカゲーム ぷらねっと
+    koreana: 수박게임 플래닛
+    schinese: 西瓜游戏 Planet
+    tchinese: 西瓜遊戲 Planet
 4658830: {}
 4665290:
   nameLocalized:

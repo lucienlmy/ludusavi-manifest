@@ -18894,6 +18894,17 @@ Automaton Arena:
     steam: true
   pageId: 132196
   steam: 1050850
+Automaton Lung:
+  cloud:
+    steam: true
+  lutris: automaton-lung
+  pageId: 218052
+  steam: 2158900
+  steamSide:
+    - 2242720
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Options}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\saves}}"
 Automatum:
   pageId: 99780
   steam: 870680
@@ -73690,6 +73701,11 @@ Echoes of Aincrad:
   lutris: echoes-of-aincrad
   pageId: 214337
   steam: 2244210
+  steamSide:
+    - 4148250
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\EchoesofAincrad\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\EchoesofAincrad\\Saved\\SaveGames\\}}"
 "Echoes of War: The Last Heartbeat":
   pageId: 102409
   steam: 786710
@@ -137835,6 +137851,8 @@ Lyca:
   lutris: lyca
   pageId: 216928
   steam: 3421300
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Incremental_Game}}"
 Lycah:
   pageId: 65989
   steam: 681980
@@ -222772,6 +222790,9 @@ Suicideville:
 Suika Game:
   pageId: 218020
   steam: 4572790
+Suika Game Planet:
+  pageId: 218047
+  steam: 4650440
 Suikoden I & II HD Remaster Gate Rune and Dunan Unification Wars:
   cloud:
     steam: true
@@ -253377,6 +253398,9 @@ Tower of Eglathia:
 Tower of Fantasy:
   pageId: 180748
   steam: 2064650
+  steamSide:
+    - 2088380
+    - 2147450
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Hotta\\Saved\\Config\\WindowsNoEditor}}"
 Tower of Fate:
