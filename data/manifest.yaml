@@ -580059,6 +580059,8 @@ Restaurant Empire II:
         - save
       when:
         - os: windows
+  gog:
+    id: 1489865307
   installDir:
     Restaurant Empire 2: {}
   launch:

@@ -188704,6 +188704,7 @@ Restaurant Empire:
     - "{{Game data/config|Windows|{{p|game}}\\CONFIG.DAT}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Restaurant Empire II:
+  gog: 1489865307
   pageId: 41291
   steam: 32900
   templates:
