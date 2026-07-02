@@ -6235,9 +6235,11 @@ Adastra:
   pageId: 202344
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\Adastra-1513063297\\persistent}}"
-    - "{{Game data/config|Linux|~/.renpy/Adastra-1513063297/persistent}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/RenPy/Adastra-1513063297/persistent}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.renpy/Adastra-1513063297/persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Adastra-1513063297}}"
-    - "{{Game data/saves|Linux|~/.renpy/Adastra-1513063297}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/RenPy/Adastra-1513063297}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/Adastra-1513063297}}"
 AddForce:
   pageId: 70339
   steam: 681950
@@ -36489,6 +36491,8 @@ Call of Duty 2:
   templates:
     - "{{Game data/config|Windows|{{P|AppData}}\\Local\\Activision\\Call of Duty\\players}}"
 "Call of Duty: Black Ops Cold War":
+  cloud:
+    xbox: true
   lutris: call-of-duty-black-ops-cold-war
   pageId: 162705
   renamedFrom:
@@ -73592,10 +73596,10 @@ Echo (Echo Project):
   pageId: 202419
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\Echo-1433615853\\persistent}}"
-    - "{{Game data/config|OS X|{{p|machome}}/RenPy/Echo-1433615853/persistent}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/RenPy/Echo-1433615853/persistent}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.renpy/Echo-1433615853/persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Echo-1433615853/}}"
-    - "{{Game data/saves|OS X|{{p|machome}}/RenPy/Echo-1433615853/}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/RenPy/Echo-1433615853/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/Echo-1433615853/}}"
 Echo (Nobody Studio):
   pageId: 81372
@@ -198734,6 +198738,7 @@ Scarlet Hollow:
   templates:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.renpy/ScarletHollow/}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\RenPy\\ScarletHollow\\*.save}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/RenPy/ScarletHollow/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/ScarletHollow/}}"
 Scarlet Hood and the Wicked Wood:
   cloud:
@@ -199579,7 +199584,6 @@ Scritchy Scratchy:
     - 4428640
     - 4517590
   templates:
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.DefaultCompany.2D-URP.plist}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Lunch Money Games\\Scritchy Scratchy\\*.json}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json}}"
 Scroll2Read:

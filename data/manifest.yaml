@@ -613562,11 +613562,6 @@ Scritchy Scratchy:
         - save
       when:
         - os: mac
-    "<home>/Library/Preferences/com.DefaultCompany.2D-URP.plist":
-      tags:
-        - config
-      when:
-        - os: mac
   id:
     lutris: scritchy-scratchy
     steamExtra:
