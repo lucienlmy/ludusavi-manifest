@@ -437350,6 +437350,14 @@ Marvel Snap:
         - os: windows
   id:
     lutris: marvel-snap
+    steamExtra:
+      - 4465130
+      - 4465140
+      - 4465150
+      - 4465160
+      - 4465170
+      - 4465180
+      - 4465190
   installDir:
     MARVEL SNAP: {}
   launch:
@@ -487391,6 +487399,8 @@ Nexus 5X:
   steam:
     id: 1983990
 "Nexus: The Jupiter Incident":
+  cloud:
+    steam: true
   files:
     "<base>/save":
       tags:
