@@ -577183,6 +577183,7 @@ Remorses:
   gog:
     id: 1272977612
   id:
+    lutris: remothered-broken-porcelain
     steamExtra:
       - 1427750
   installDir:
@@ -577229,6 +577230,7 @@ Remorses:
       - 1312734826
       - 1375737309
       - 1994977416
+    lutris: remothered-tormented-fathers
     steamExtra:
       - 748290
       - 748291
