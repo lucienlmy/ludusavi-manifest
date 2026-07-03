@@ -36894,6 +36894,13 @@ Amygdala:
 An Abyss of Dreams:
   gog:
     id: 1190512807
+  id:
+    gogExtra:
+      - 1454004095
+    lutris: an-abyss-of-dreams
+    steamExtra:
+      - 4089130
+      - 4423300
   installDir:
     DansLAbimeDuReve: {}
   launch:
@@ -577188,9 +577195,16 @@ Remorses:
             store: steam
   steam:
     id: 1142390
+"Remothered: Broken Porcelain Remastered":
+  gog:
+    id: 1467668812
+  steam:
+    id: 4461560
 "Remothered: Red Nun's Legacy":
   gog:
     id: 1933416452
+  id:
+    lutris: remothered-red-nuns-legacy
   steam:
     id: 3335310
 "Remothered: Tormented Fathers":
@@ -577229,6 +577243,11 @@ Remorses:
             store: steam
   steam:
     id: 633360
+"Remothered: Tormented Fathers Remastered":
+  gog:
+    id: 1391035419
+  steam:
+    id: 4457050
 Remuage - MeltySensation:
   installDir:
     Remuage - MeltySensation: {}
