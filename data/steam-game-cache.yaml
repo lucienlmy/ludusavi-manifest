@@ -76696,6 +76696,8 @@
       description: Launch
       executable: Everlasting Summer.exe
       type: none
+  nameLocalized:
+    russian: Бесконечное Лето
 331480:
   cloud:
     saves:
@@ -648389,6 +648391,7 @@
 3641000: {}
 3641250: {}
 3641830: {}
+3642010: {}
 3643170:
   cloud:
     saves:
