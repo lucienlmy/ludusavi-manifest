@@ -98644,6 +98644,7 @@ Golden Krone Hotel:
   steam: 497800
 Golden Lap:
   cloud:
+    gog: true
     steam: true
   lutris: golden-lap
   pageId: 210281
@@ -151327,6 +151328,7 @@ Mortal Shell:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\MortalShell\\Dungeonhaven\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\MortalShell\\Dungeonhaven\\Saved\\SaveGames\\}}"
 Mortal Shell II:
+  lutris: mortal-shell-ii
   pageId: 205170
   steam: 2584270
 Mortal Sin:
@@ -157840,6 +157842,7 @@ Neuro (2018):
   steam: 845080
 Neuro Hunter:
   pageId: 36964
+  steam: 4899790
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\console.ini|{{p|game}}\\data\\mappings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\player\\}}"
@@ -209053,6 +209056,9 @@ Smogpunk 湮霾之地:
     steam: true
   pageId: 109938
   steam: 918160
+Smoke Town:
+  pageId: 218189
+  steam: 4624100
 Smoke and Sacrifice:
   cloud:
     steam: true
@@ -229960,6 +229966,8 @@ Tank On Tank Digital - West Front:
 "Tank Operations: European Campaign REMASTERED":
   pageId: 108996
   steam: 844860
+Tank Racer:
+  pageId: 218193
 Tank Royale:
   pageId: 130237
   steam: 929140
