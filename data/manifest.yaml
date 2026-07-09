@@ -385852,6 +385852,17 @@ Kid Chameleon:
     lutris: kid-chameleon
   steam:
     id: 34311
+Kid Chaos:
+  cloud:
+    steam: true
+  installDir:
+    Kid Chaos: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2394190
 "Kid's Safety With George Blessure":
   steam:
     id: 1117770
@@ -625949,12 +625960,6 @@ Shenzhen IO:
     origin: true
     steam: true
   files:
-    "<home>/.local/share/SHENZHEN IO/<storeUserId>":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<home>/Library/Application Support/SHENZHEN IO":
       tags:
         - config
@@ -625983,6 +625988,12 @@ Shenzhen IO:
       when:
         - os: windows
           store: microsoft
+    "<xdgData>/SHENZHEN IO/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   gog:
     id: 1640205738
   id:
