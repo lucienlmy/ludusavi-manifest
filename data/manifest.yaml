@@ -105949,6 +105949,7 @@ Bubsy Two-Fur:
   files:
     "<home>/Saved Games/Atari/Bubsy in The Purrfect Collection":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -182955,14 +182956,6 @@ Death Stranding:
       when:
         - os: windows
           store: steam
-    "<winDocuments>/Ocean/<storeUserId>/**/*.cfg":
-      when:
-        - os: windows
-          store: steam
-    "<winDocuments>/Ocean/<storeUserId>/**/*.dat":
-      when:
-        - os: windows
-          store: steam
   installDir:
     DEATH STRANDING 2 - ON THE BEACH: {}
   launch:
@@ -228716,6 +228709,14 @@ Echoes of Aincrad:
     lutris: echoes-of-aincrad
     steamExtra:
       - 4148250
+  installDir:
+    Echoes of Aincrad: {}
+  launch:
+    "<base>/EchoesofAincrad.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2244210
 "Echoes of War: The Last Heartbeat":
@@ -228755,6 +228756,8 @@ Echoes of the End:
         - save
       when:
         - os: windows
+  gog:
+    id: 1674598037
   id:
     lutris: echoes-of-the-end
   installDir:
@@ -630954,29 +630957,6 @@ SiNKR 3:
             store: steam
   steam:
     id: 1705580
-SiNiSistar 2:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Uu/SiNiSistar2/SaveData_S":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  installDir:
-    SiNiSistar 2: {}
-  launch:
-    "<base>/SiNiSistar2.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/SiNiSistar2.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 4466620
 Siam Twinstick:
   installDir:
     Siam Twinstick: {}
@@ -635277,6 +635257,35 @@ Singularity Roller:
             store: steam
   steam:
     id: 962220
+Sinisistar 2:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Uu/SiNiSistar2/SaveData_S":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1948328636
+  id:
+    gogExtra:
+      - 1124524122
+  installDir:
+    SiNiSistar 2: {}
+  launch:
+    "<base>/SiNiSistar2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SiNiSistar2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4466620
 "Sinistar: Unleashed":
   files:
     "<base>/save":
@@ -688998,6 +689007,15 @@ Super Bomb Rush!:
 Super Bomberman Collection:
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3756010/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: super-bomberman-collection
   installDir:
     Super Bomberman Collection: {}
   launch:
@@ -689006,6 +689024,10 @@ Super Bomberman Collection:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Konami/SUPER BOMBERMAN COLLECTION:
+      tags:
+        - config
   steam:
     id: 3756010
 Super Bomberman R:
