@@ -320131,6 +320131,10 @@ Half-Life 2:
   steam:
     id: 220
 Half-Life 2 RTX:
+  files:
+    "<base>/hl2rtx/save/*.*":
+      when:
+        - store: steam
   installDir:
     Half-Life 2 RTX: {}
   launch:
@@ -426985,6 +426989,8 @@ MORGENSHTERN:
         - config
       when:
         - os: windows
+  id:
+    lutris: mother-encore
 MPaliens:
   cloud:
     steam: true
@@ -626452,7 +626458,7 @@ Sherlock Holmes versus Jack the Ripper:
     Sherlock Holmes - Crimes and Punishments: {}
   launch:
     "<base>/Binaries/Win32/Sherlock.exe":
-      - arguments: "-NOSCREENMESSAGES"
+      - arguments: "-NOSCREENMESSAGES -nosettingslimitlow"
         when:
           - os: windows
             store: steam
@@ -626549,6 +626555,12 @@ Sherlock Holmes versus Jack the Ripper:
       - 1599822711
       - 1699586343
       - 2103148827
+    steamExtra:
+      - 2208700
+      - 2208701
+      - 2273910
+      - 2330080
+      - 2330100
   installDir:
     Sherlock Holmes The Awakened: {}
   launch:
@@ -754336,8 +754348,6 @@ The Sinking City 2:
     id: 1653226562
   id:
     lutris: the-sinking-city-2
-    steamExtra:
-      - 4684710
   steam:
     id: 2825860
 The Sinking City Remastered:
