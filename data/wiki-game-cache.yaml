@@ -200452,6 +200452,7 @@ Secret Agent Barbie:
   renamedFrom:
     - "Barbie: Secret Agent"
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Save\\GTPrefs.bin}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\}}"
 Secret Agent HD:
   cloud:
@@ -203727,8 +203728,11 @@ Sheepo:
     - "{{Game data/saves|Windows|{{p|localappdata}}/Sheepo_NoSteam/}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}/WIP/}}"
 "Sheepy: A Short Adventure":
+  lutris: sheepy-a-short-adventure
   pageId: 193109
   steam: 1568400
+  steamSide:
+    - 2779500
 "Sheila Rae, the Brave":
   pageId: 187064
 "ShellBlast: Legacy Edition":
