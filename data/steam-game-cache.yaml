@@ -592494,6 +592494,23 @@
     spanish: Festival Mundial JoJo Siwa
     tchinese: 喬喬·西瓦全球派對
     turkish: "JoJo Siwa Dünya Partisi "
+1910860:
+  installDir: GrimlordVR
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Grimlord/Grimlord_Steam.exe
+      type: othervr
+      workingdir: Grimlord
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Grimlord/Grimlord_Steam.exe
+      type: vr
+      workingdir: Grimlord
+    - executable: game.exe
+      type: none
 1911220:
   cloud:
     saves:
@@ -643812,6 +643829,17 @@
       type: default
   nameLocalized:
     schinese: "冥河 : 贪婪之刃"
+3290710:
+  installDir: RATSHAKER
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Ratshaker.exe
+      type: default
+  nameLocalized:
+    koreana: 랫셰이커™
+    schinese: 摇鼠灵™
 3291010:
   cloud:
     saves:
@@ -648128,6 +648156,7 @@
       type: default
   nameLocalized:
     japanese: 幻想少女大戦 - DREAM OF THE STRAY DREAMER -
+3576070: {}
 3576590:
   installDir: S3
   launch:
@@ -654044,6 +654073,8 @@
       executable: NTEGlobal/NTEGlobalLauncher.exe
       type: default
       workingdir: NTEGlobal
+  nameLocalized:
+    koreana: 이환
 4508570:
   nameLocalized:
     japanese: ヴェリタステイルズ：暗黒城の魔女

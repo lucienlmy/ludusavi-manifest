@@ -313115,6 +313115,19 @@ Grimind:
             store: steam
   steam:
     id: 265380
+Grimlord:
+  cloud:
+    steam: true
+  id:
+    lutris: grimlord
+  installDir:
+    GrimlordVR: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1910860
 Grimm & Tonic:
   installDir:
     Grimm & Tonic: {}
@@ -569273,6 +569286,25 @@ Rats for Breakfast:
             store: steam
   steam:
     id: 845690
+Ratshaker:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Ratshaker/Saved":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    RATSHAKER: {}
+  launch:
+    "<base>/Ratshaker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3290710
 Ratten Reich:
   installDir:
     Ratten Reich: {}
@@ -590789,6 +590821,8 @@ Robbo Millennium:
         - save
       when:
         - os: windows
+  gog:
+    id: 1682064786
   registry:
     HKEY_LOCAL_MACHINE/Software/L.K. Avalon/Robbo millennium:
       tags:
@@ -686356,6 +686390,9 @@ Suchawira World Traveler:
             store: steam
   steam:
     id: 1574270
+Sudden Attack Zero Point:
+  steam:
+    id: 3576070
 Sudden Strike:
   cloud:
     gog: true
