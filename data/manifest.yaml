@@ -359962,6 +359962,13 @@ Imprint-X:
             store: steam
   steam:
     id: 434310
+Imprinted:
+  id:
+    lutris: imprinted
+    steamExtra:
+      - 4442860
+  steam:
+    id: 3980340
 Imprisoned Light:
   cloud:
     steam: true
