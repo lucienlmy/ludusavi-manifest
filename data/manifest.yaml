@@ -564145,6 +564145,16 @@ RV There Yet?:
       when:
         - os: windows
           store: microsoft
+    "<winLocalAppData>/Ride/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Ride/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Ride: {}
   launch:
