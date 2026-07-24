@@ -53189,6 +53189,18 @@ Assault Suit Leynos:
             store: steam
   steam:
     id: 441350
+Assault Trooper:
+  files:
+    "<base>/Assault.cfg":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/Assault.sav":
+      tags:
+        - save
+      when:
+        - os: dos
 Assault of the Robots:
   installDir:
     Assault of the Robots: {}
@@ -438807,6 +438819,8 @@ Marvel Snap:
   steam:
     id: 1997040
 "Marvel Tōkon: Fighting Souls":
+  cloud:
+    steam: true
   id:
     lutris: marvel-tokon-fighting-souls
   steam:
