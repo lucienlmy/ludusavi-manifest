@@ -65054,8 +65054,10 @@ Disoriented:
 Disparity:
   pageId: 89304
   steam: 715460
-Dispatch:
+Dispatch (2020):
   pageId: 157273
+  renamedFrom:
+    - Dispatch
   steam: 1208740
 Dispatch (2025):
   cloud:
@@ -107296,6 +107298,7 @@ Hell is Us:
   cloud:
     epic: true
     steam: true
+    xbox: true
   lutris: hell-is-us
   pageId: 201505
   steam: 1620730
@@ -153696,6 +153699,8 @@ Muv-Luv:
     - "{{Game data/config|Windows|{{p|hkcu}}\\AGES3 Applications\\age\\muvluv_v16_eng\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\age\\muvluv_v16_eng\\Vmreg\\*.uuc|{{p|userprofile\\Documents}}\\age\\muvluv_v16_eng\\Vmreg\\*.uux}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\802880\\remote\\*.uuc|{{p|steam}}\\userdata\\{{p|uid}}\\802880\\remote\\*.uux}}"
+Muv-Luv Altered Fable:
+  pageId: 218786
 Muv-Luv Alternative:
   cloud:
     steam: true
@@ -239535,6 +239540,9 @@ The Immortal:
   steam: 1539080
 "The Immortals of Terra: A Perry Rhodan Adventure":
   pageId: 192747
+The Imperial Capital Burns - Muv-Luv Alternative Total Eclipse:
+  pageId: 218795
+  steam: 2630300
 The Imperial Gatekeeper:
   cloud:
     gog: true
@@ -243998,6 +244006,7 @@ The Planet Crafter:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1882985557
   gogSide:
     - 1178903637
@@ -244821,10 +244830,11 @@ The Rogue Prince of Persia:
 The Room:
   cloud:
     steam: true
+  lutris: the-room--1
   pageId: 20650
   steam: 288160
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fireproof Games\\The Room\\CustomGfxSettings.xml|{{P|hkcu}}\\Software\\Fireproof Games\\The Room\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Fireproof Games\\The Room\\CustomGfxSettings.xml|{{P|hkcu}}\\Software\\Fireproof Games\\The Room\\}}"
     - "{{Game data/config|Steam|{{p|steam}}/userdata/{{p|uid}}/288160/remote/GlobalData.sav}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/288160/remote/}}"
 "The Room 4: Old Sins":
