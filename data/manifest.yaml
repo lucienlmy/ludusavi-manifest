@@ -9262,6 +9262,10 @@ A Girls Fabric Face:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/TurnVex/A Girls Fabric Face:
+      tags:
+        - config
   steam:
     id: 603810
 "A Glider's Journey":
@@ -11246,6 +11250,17 @@ A Salem Witch Trial - Murder Mystery:
   steam:
     id: 1074520
 A Second Before Us:
+  files:
+    "<base>/Data/Options.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/DIMLE/A SECOND BEFORE US":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     A SECOND BEFORE US: {}
   launch:
@@ -11253,6 +11268,10 @@ A Second Before Us:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/DIMLE/A SECOND BEFORE US:
+      tags:
+        - config
   steam:
     id: 625370
 A Second Chance:
@@ -12459,12 +12478,20 @@ A Wise Use of Time:
   steam:
     id: 373470
 A Wolf in Autumn:
+  id:
+    lutris: a-wolf-in-autumn
+    steamExtra:
+      - 2733120
   installDir:
     A Wolf in Autumn: {}
   launch:
     "<base>/AWiA.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/David Szymanski/A Wolf in Autumn:
+      tags:
+        - config
   steam:
     id: 395270
 A Wonder:
@@ -41806,7 +41833,7 @@ Another Brick in the Mall:
           - os: windows
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Aggro Crab:
+    "HKEY_CURRENT_USER/Software/Aggro Crab/Another Crab's Treasure":
       tags:
         - config
   steam:
@@ -155732,9 +155759,11 @@ Crashout Crew:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Aggro Crab/CrashoutCrew/saves/<storeUserId>/*.sav":
+    "<home>/AppData/LocalLow/Aggro Crab/Crashout Crew/saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: crashout-crew
     steamExtra:
@@ -443069,6 +443098,17 @@ Meawja:
   steam:
     id: 679910
 Meccha Chameleon:
+  files:
+    "<winLocalAppData>/Chameleon/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Chameleon/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     MECCHA CHAMELEON: {}
   launch:
