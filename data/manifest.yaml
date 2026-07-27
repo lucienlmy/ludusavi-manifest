@@ -308143,6 +308143,11 @@ Gotcha Racing 2nd:
     id: 848960
 Gotcha! Extreme Paintball:
   files:
+    "<base>/GMedia/Profiles/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/Gotcha.cfg":
       tags:
         - config
@@ -424590,7 +424595,7 @@ Lukewarm Ironclad:
     id: 999450
 Lula 3D:
   files:
-    "<base>/Save":
+    "<base>/Run/Save":
       tags:
         - save
       when:
@@ -613010,6 +613015,11 @@ Scale the Depths:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/Glass Gecko Games/Scale The Depths/SettingsSaveFile.save":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1285127237
   id:
@@ -613027,6 +613037,10 @@ Scale the Depths:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Glass Gecko Games/Scale The Depths:
+      tags:
+        - config
   steam:
     id: 3198890
 "Scallywag's Honor":

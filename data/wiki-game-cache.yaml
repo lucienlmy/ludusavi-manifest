@@ -99815,6 +99815,7 @@ Gotcha! Extreme Paintball:
   pageId: 89780
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Gotcha.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\GMedia\\Profiles\\{{p|uid}}}}"
 Goth Girlfriend:
   pageId: 151389
   steam: 1084690
@@ -137863,7 +137864,7 @@ Lula 3D:
   pageId: 90839
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\CDV Software Entertainment AG\\Lula 3D\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Run\\Save\\}}"
 Lula Flipper:
   pageId: 92460
 Lula Virtual Babe:
@@ -199630,6 +199631,7 @@ Scale the Depths:
   steamSide:
     - 3821770
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Glass Gecko Games\\Scale The Depths\\SettingsSaveFile.save||{{p|hkcu}}\\Software\\Glass Gecko Games\\Scale The Depths\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Glass Gecko Games\\Scale The Depths}}"
 "Scallywag's Honor":
   cloud:
@@ -247520,6 +247522,8 @@ The Unseen:
 The Untold Story of Hengshui School:
   pageId: 91532
   steam: 682480
+The Untouchables:
+  pageId: 218838
 The Unwelcomed:
   pageId: 40335
   steam: 504560
