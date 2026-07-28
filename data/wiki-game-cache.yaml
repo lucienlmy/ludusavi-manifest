@@ -45178,6 +45178,8 @@ Clue/Cluedo:
     steam: true
   pageId: 209359
   steam: 2506480
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Marmalade Game Studio\\Cluedo}}"
 "Clue/Cluedo: The Classic Mystery Game":
   pageId: 93672
   steam: 794800
@@ -56915,6 +56917,8 @@ Darkstone:
     - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Darkstone Restoration:
+  cloud:
+    steam: true
   gog: 1180637450
   gogSide:
     - 1185833168
@@ -56922,6 +56926,9 @@ Darkstone Restoration:
   steam: 4557490
   steamSide:
     - 4716570
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt|{{p|game}}\\config\\glyphcache.bin|{{p|game}}\\gamepad_settings.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save\\games\\*.sav|{{p|game}}\\temp\\*.SAV}}"
 Darkwater:
   cloud:
     steam: true
@@ -104530,8 +104537,15 @@ Halo Wars 2:
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.BulldogThreshold_8wekyb3d8bbwe\\SystemAppData\\wgs\\0009000004A4B138_6FA9010088A3442BA8B18CF53D64D3E9\\0059769F9205496C9CE1349E2BD749A4\\}}"
     - "{{Game data/saves|Steam|{{p|game}}\\savegame\\}}"
 "Halo: Campaign Evolved":
+  cloud:
+    xbox: true
+  lutris: halo-campaign-evolved
   pageId: 210024
   steam: 2806050
+  steamSide:
+    - 4073600
+    - 4192200
+    - 4485640
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Meteorite}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Meteorite\\Saved\\SaveGames}}"
@@ -160848,6 +160862,8 @@ No More Room in Hell:
   templates:
     - "{{Game data/config|Windows|{{p|game}}/nmrih/cfg}}"
 No More Room in Hell 2:
+  cloud:
+    xbox: true
   pageId: 89831
   steam: 292000
 No More Snow:
@@ -218299,6 +218315,8 @@ Star Trek Timelines:
   steamSide:
     - 4054540
     - 4063520
+    - 4861560
+    - 4873370
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\STVoyager\\Saved\\SaveGames\\{{p|uid}}\\*.sav|{{p|localappdata}}\\STVoyager\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
 "Star Trek: Voyager - Elite Force":
@@ -254697,7 +254715,9 @@ Tower of Guns:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/TerriblePostureGames/TowerOfGuns/}}"
 Tower of Kalemonvo:
   cloud:
+    gog: true
     steam: true
+  gog: 1186556064
   lutris: tower-of-kalemonvo
   pageId: 202833
   steam: 2351860
