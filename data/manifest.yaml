@@ -273192,11 +273192,6 @@ Flower:
         - config
       when:
         - os: windows
-    "<winDocuments>/Flower/SAVEGAME.BIN":
-      tags:
-        - save
-      when:
-        - os: windows
     "<winLocalAppData>/GOG.com/Galaxy/Applications/51964741675694916/Storage/Shared/Files/SAVEGAME.BIN":
       tags:
         - save
@@ -376087,6 +376082,8 @@ Jay Walker:
   steam:
     id: 937320
 "Jay and Silent Bob: Chronic Blunt Punch":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Interabang Entertainment/Jay and Silent Bob_ Chronic Blunt Punch/*.jasbs":
       when:
@@ -576032,6 +576029,9 @@ Red Ocean:
   steam:
     id: 498630
 "Red Recon: 1944":
+  id:
+    steamExtra:
+      - 4711560
   steam:
     id: 3170130
 Red Riding Hood - Star Crossed Lovers:
@@ -728578,6 +728578,12 @@ The Dew:
   steam:
     id: 692950
 The Diamond Mystery of Rosemond Valley:
+  files:
+    "<base>/sg_*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Liquid/RVP:
       tags:
