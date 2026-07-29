@@ -28547,6 +28547,8 @@ Alan Wake II:
         - config
       when:
         - os: windows
+  id:
+    lutris: alan-wake-ii
 Alan Wake Remastered:
   cloud:
     epic: true
@@ -28557,6 +28559,8 @@ Alan Wake Remastered:
         - save
       when:
         - os: windows
+  id:
+    lutris: alan-wake-remastered
 "Alan Wake's American Nightmare":
   cloud:
     steam: true
@@ -524174,6 +524178,21 @@ Pass The Time:
 Pass The Time 2:
   steam:
     id: 715230
+Pass the Fear:
+  files:
+    "<home>/AppData/LocalLow/PlayMudStudio/Pass the fear/GameData/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Pass The Fear: {}
+  launch:
+    "<base>/PassTheFear.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3561220
 Pass the Wall:
   steam:
     id: 930450
