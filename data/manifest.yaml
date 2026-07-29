@@ -26097,6 +26097,17 @@ Aiball:
   steam:
     id: 490990
 Aiden:
+  files:
+    "<base>/AIDEN/Saved/Config/WindowsNoEditor/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/AIDEN/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     AIDEN: {}
   launch:
@@ -578954,6 +578965,11 @@ Relicta:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/PAway/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/PAway/Saved/SaveGames":
       tags:
         - save
@@ -801061,7 +801077,8 @@ Unbeatable:
     UNBEATABLE: {}
   launch:
     "<base>/UNBEATABLE.exe":
-      - when:
+      - arguments: "-customsongs"
+        when:
           - store: steam
   steam:
     id: 2240620
@@ -811328,6 +811345,7 @@ Vampire of the Sands:
     id: 1523990
 "Vampire: The Masquerade - Swansong":
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Vampire/Saved/Config/WindowsNoEditor":
@@ -811340,8 +811358,22 @@ Vampire of the Sands:
         - save
       when:
         - os: windows
+  gog:
+    id: 1745513769
   id:
+    gogExtra:
+      - 1309344369
+      - 1567265031
+      - 1640269001
+      - 1674183918
+      - 1859830883
+      - 2013310722
     lutris: vampire-the-masquerade-swansong
+    steamExtra:
+      - 1801880
+      - 1801881
+      - 1801882
+      - 2407740
   installDir:
     VTMS: {}
   launch:
