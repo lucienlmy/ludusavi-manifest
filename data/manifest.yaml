@@ -32562,6 +32562,13 @@ All You Need is Help:
 All Zombies Must Die!:
   cloud:
     steam: true
+  files:
+    "<winDocuments>/My Games/UnrealEngine3/Bzb2Game/Config/*.ini":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     All Zombies Must Die: {}
   launch:
@@ -94421,6 +94428,7 @@ Blue Reflection Quartet:
     "<winLocalAppData>/KoeiTecmo/BLUE REFLECTION Quartet":
       tags:
         - config
+        - save
       when:
         - os: windows
   installDir:
@@ -846930,10 +846938,13 @@ World of Goo 2:
       - 660060
       - 674290
       - 674300
+      - 709210
+      - 724020
       - 850440
       - 917250
       - 917260
       - 969070
+      - 1083250
   installDir:
     WOG: {}
   launch:
