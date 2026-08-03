@@ -8245,10 +8245,11 @@ A Bumpy Ride:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/ABumpyRide/Saved/SaveGames/Save.sav":
+    "<winLocalAppData>/ABumpyRide/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     A Bumpy Ride: {}
   launch:
@@ -125096,6 +125097,11 @@ Cellar:
             store: steam
   steam:
     id: 449060
+Cellar Keeper:
+  id:
+    lutris: cellar-keeper
+  steam:
+    id: 4935510
 "Cellfactor: Revolution":
   files:
     "<base>/RealityEngine.ini":
@@ -388500,6 +388506,12 @@ Killer Instinct:
   cloud:
     steam: true
   files:
+    "<root>/userdata/<storeUserId>/577940":
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
     "<winLocalAppData>/Packages/Microsoft.KillerInstinct-Win10_8wekyb3d8bbwe/Settings":
       tags:
         - config
