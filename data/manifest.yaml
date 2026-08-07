@@ -140414,6 +140414,8 @@ Clouzy!:
     "<winLocalAppData>/Clouzy/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  gog:
+    id: 1542061104
   id:
     steamExtra:
       - 1587520
@@ -374230,6 +374232,9 @@ Izeriya:
             store: steam
   steam:
     id: 463830
+"Izzy's Arcade":
+  steam:
+    id: 3560870
 I・S・U:
   cloud:
     steam: true
@@ -412552,6 +412557,10 @@ Light Apprentice:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Amazu Media/Light Apprentice:
+      tags:
+        - save
   steam:
     id: 569570
 Light Bearers:
@@ -515393,6 +515402,8 @@ Outerverse:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2076435096
   installDir:
     Outerverse: {}
   launch:
@@ -655222,6 +655233,10 @@ Soul Searching:
           - bit: 64
             os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Kayabros/Soul Searching:
+      tags:
+        - save
   steam:
     id: 586240
 Soul Shards:
@@ -748730,6 +748745,7 @@ The Mortuary Assistant:
   id:
     lutris: the-mortuary-assistant
     steamExtra:
+      - 1295940
       - 2080860
   installDir:
     The Mortuary Assistant: {}
@@ -755997,6 +756013,13 @@ The Secret of Tremendous Corporation:
             store: steam
   steam:
     id: 380140
+The Secret of Weepstone:
+  id:
+    lutris: the-secret-of-weepstone
+    steamExtra:
+      - 3876150
+  steam:
+    id: 3702100
 The Secrets of Jesus:
   installDir:
     The Secrets of Jesus: {}
