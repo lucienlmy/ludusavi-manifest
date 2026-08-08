@@ -12651,7 +12651,6 @@
 * [Hockey: Strategy of Success](https://www.pcgamingwiki.com/wiki/?curid=130535)
 * [Hockeysplit](https://www.pcgamingwiki.com/wiki/?curid=155799)
 * [Hoco Poco](https://www.pcgamingwiki.com/wiki/?curid=155394)
-* [Hocus Focus](https://www.pcgamingwiki.com/wiki/?curid=212657)
 * [Hocus Potions](https://www.pcgamingwiki.com/wiki/?curid=134593)
 * [HoD: A pirate adventure](https://www.pcgamingwiki.com/wiki/?curid=47201)
 * [Hodj 'n' Podj](https://www.pcgamingwiki.com/wiki/?curid=209045)
