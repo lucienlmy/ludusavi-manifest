@@ -159487,6 +159487,10 @@ Crimson Skies:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/Microsoft Games/Crimson Skies:
+      tags:
+        - config
 Crimson Snow:
   files:
     "<winLocalAppData>/CrimsonSnow/Saved/Config/WindowsNoEditor":
@@ -330504,10 +330508,20 @@ Heavy Rain:
         - save
       when:
         - os: windows
+          store: gog
+        - os: windows
           store: steam
     "<home>/Saved Games/HeavyRain/TEST00000-A/0":
       tags:
         - config
+      when:
+        - os: windows
+          store: gog
+        - os: windows
+          store: steam
+    "<home>/Saved Games/HeavyRainJP":
+      tags:
+        - save
       when:
         - os: windows
           store: steam
@@ -522055,6 +522069,11 @@ Pangeon:
             store: steam
   steam:
     id: 983670
+Panic 64:
+  id:
+    lutris: panic-64
+  steam:
+    id: 4752390
 Panic Diet!!:
   installDir:
     panic_diet: {}
@@ -539968,6 +539987,8 @@ Planet of Lana:
     gogExtra:
       - 2094167069
     lutris: planet-of-lana
+    steamExtra:
+      - 4464580
   installDir:
     Planet of Lana: {}
   launch:
@@ -579766,6 +579787,8 @@ Regular Human Basketball:
   steam:
     id: 661940
 Rehaunted:
+  id:
+    lutris: rehaunted
   steam:
     id: 4538140
 Rehtona:
