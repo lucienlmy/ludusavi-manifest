@@ -82839,6 +82839,7 @@ Bills Must Be Paid:
     lutris: bills-must-be-paid
     steamExtra:
       - 4577620
+      - 5020040
   installDir:
     Bills Must Be Paid: {}
   launch:
@@ -740500,7 +740501,7 @@ The Inner World:
             os: linux
             store: steam
   registry:
-    HKEY_CURRENT_USERSoftware/Studio Fizbin/The Last Wind Monk:
+    HKEY_CURRENT_USER/Software/Studio Fizbin/The Last Wind Monk:
       tags:
         - config
   steam:
