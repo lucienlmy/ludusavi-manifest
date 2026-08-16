@@ -22342,6 +22342,7 @@
 * [Roguemance](https://www.pcgamingwiki.com/wiki/?curid=79926)
 * [Rogues or Heroes](https://www.pcgamingwiki.com/wiki/?curid=51750)
 * [RogueVerse](https://www.pcgamingwiki.com/wiki/?curid=141845)
+* [Roketz](https://www.pcgamingwiki.com/wiki/?curid=219478)
 * [ROKH](https://www.pcgamingwiki.com/wiki/?curid=50952)
 * [Rolf Connect Coding](https://www.pcgamingwiki.com/wiki/?curid=173834)
 * [Rolf Connect Math](https://www.pcgamingwiki.com/wiki/?curid=181068)

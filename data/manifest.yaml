@@ -57118,6 +57118,28 @@ Atomaders 2:
         - save
       when:
         - os: windows
+Atomcraft:
+  files:
+    "<home>/.local/share/godot/app_userdata/Atomcraft":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/godot/app_userdata/Atomcraft":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Atomcraft: {}
+  launch:
+    "<base>/AtomCraft.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "'--rendering-method forward_plus --rendering-driver vulkan --render-thread separate"
+        when:
+          - store: steam
+  steam:
+    id: 2803490
 Atomega:
   cloud:
     steam: true
@@ -641989,6 +642011,8 @@ Sky Labyrinth:
 Sky Mercenaries:
   cloud:
     steam: true
+  gog:
+    id: 1866104143
   installDir:
     Sky Mercenaries: {}
   launch:
