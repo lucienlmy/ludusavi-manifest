@@ -158066,6 +158066,11 @@ Creature in the Well:
             store: steam
   steam:
     id: 852300
+Creature kitchen:
+  cloud:
+    gog: true
+  gog:
+    id: 1765156887
 Creatures:
   files:
     "<winDocuments>/Creatures/Creatures":
@@ -654531,6 +654536,8 @@ Sonic P-06:
         - config
       when:
         - os: windows
+  id:
+    lutris: sonic-p-06
 Sonic Pico Park:
   id:
     lutris: sonic-pico-park
@@ -747306,6 +747313,7 @@ The Lord of the Rings Online:
   files:
     "<winLocalAppData>/Aspyr/War in the North/*.sav":
       tags:
+        - config
         - save
       when:
         - os: windows
