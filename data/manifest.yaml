@@ -691851,6 +691851,11 @@ Sunless Sea:
   installDir:
     SunlessSea: {}
   launch:
+    "<base>/Sunless Sea":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
     "<base>/Sunless Sea.app":
       - when:
           - os: mac
@@ -691862,11 +691867,6 @@ Sunless Sea:
     "<base>/Sunless Sea.x86":
       - when:
           - bit: 32
-            os: linux
-            store: steam
-    "<base>/Sunless Sea.x86_64":
-      - when:
-          - bit: 64
             os: linux
             store: steam
   registry:
