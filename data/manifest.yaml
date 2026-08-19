@@ -124223,6 +124223,22 @@ Caver (TrainStory):
             store: steam
   steam:
     id: 1224710
+Cavern Adventurers:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    Cavern Adventurers: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2848360
 Cavern Craze VR:
   steam:
     id: 1020580
@@ -190789,6 +190805,22 @@ Demon Blade VR:
     Demon Blade VR: {}
   steam:
     id: 603340
+Demon Castle Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    DemonCastleStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4212210
 Demon Gaze Extra:
   cloud:
     steam: true
@@ -267956,6 +267988,22 @@ Final Frontier:
             store: steam
   steam:
     id: 1157830
+Final Frontier Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    FinalFrontierStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3936590
 Final Hope:
   files:
     "<base>/SavesDir/*.sav":
@@ -331062,6 +331110,22 @@ Hei:
             store: steam
   steam:
     id: 1026940
+Heian City Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    HeianCityStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3132250
 Heiankyo Alien:
   installDir:
     HeiankyoAlien: {}
@@ -375714,6 +375778,15 @@ Jack the Barbarian:
             store: steam
   steam:
     id: 852160
+Jack the Nipper:
+  installDir:
+    Jack the Nipper: {}
+  launch:
+    "<base>/Jack.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2072680
 Jack troubles:
   installDir:
     Jack troubles: {}
@@ -407314,6 +407387,22 @@ Legends of Ethernal:
             store: steam
   steam:
     id: 908480
+Legends of Heropolis DX:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    LegendsOfHeropolisDX: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3042830
 Legends of Iona RPG:
   cloud:
     steam: true
@@ -442702,6 +442791,17 @@ Match Connect Challenge:
             store: steam
   steam:
     id: 839820
+Match Day & International Match Day:
+  cloud:
+    steam: true
+  installDir:
+    Match Day: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2231000
 Match It!:
   installDir:
     Match It!: {}
@@ -552545,6 +552645,22 @@ Pro Strategy Football 2020:
             store: steam
   steam:
     id: 1099920
+Pro Wrestler Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    ProWrestlerStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3334710
 Pro Wrestling X:
   installDir:
     ProWrestlingX: {}
@@ -640663,6 +640779,22 @@ Skater XL:
     Skater XL: {}
   steam:
     id: 962730
+Skating Rink Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    SkatingRinkStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3601190
 Skaut Kwatermaster:
   files:
     "<base>/AVALON.INI":
@@ -643211,6 +643343,22 @@ Skyscraper Simulator:
             store: steam
   steam:
     id: 367600
+Skyship Quest Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    SkyshipQuestStory: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4424950
 Skystrider:
   cloud:
     steam: true
@@ -707762,6 +707910,22 @@ TUTUTUTU - Tea party:
             store: steam
   steam:
     id: 326590
+TV Studio Story:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    TV Studio Story: {}
+  launch:
+    "<base>/KairoGames.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2732020
 TV Trouble:
   installDir:
     TV Trouble: {}
