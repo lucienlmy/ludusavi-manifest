@@ -72606,6 +72606,8 @@ Dynasty Feud:
   pageId: 57018
   steam: 493180
 "Dynasty Warriors 3: Complete Edition Remastered":
+  cloud:
+    steam: true
   pageId: 208955
   steam: 3841510
 "Dynasty Warriors 4: Hyper":
@@ -117030,6 +117032,17 @@ Immortal Girl:
 Immortal Heroes:
   pageId: 76263
   steam: 741450
+Immortal Immanuel:
+  cloud:
+    steam: true
+  lutris: immortal-immanuel
+  pageId: 219521
+  steam: 2861740
+  steamSide:
+    - 3276850
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\userdata\\setting.json|{{P|game}}\\userdata\\setting\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\userdata\\database\\}|{{P|game}}\\userdata\\replay\\|{{P|game}}\\userdata\\save\\|{{P|game}}\\userdata\\snapshot\\}}"
 "Immortal Legacy: The Jade Cipher":
   cloud:
     steam: true
@@ -266416,6 +266429,8 @@ Vega Tank:
     steam: true
   pageId: 43277
   steam: 442860
+Vegas Jackpot:
+  pageId: 219519
 Vegas Party:
   pageId: 77859
   steam: 389330
