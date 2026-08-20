@@ -71650,6 +71650,9 @@ Battle Chess 4000:
   steam:
     id: 678620
 "Battle Chess: Game of Kings":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<root>/userdata/<storeUserId>/200150/remote":
       tags:
@@ -71662,6 +71665,8 @@ Battle Chess 4000:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1123635349
   installDir:
     Battlechess Game of Kings: {}
   launch:
@@ -121571,6 +121576,7 @@ Castles:
     id: 1207663063
   id:
     gogExtra:
+      - 1145335432
       - 1207658678
     lutris: castles
     steamExtra:
@@ -122493,8 +122499,10 @@ Cataclismo:
   id:
     gogExtra:
       - 1992101679
+      - 2062545933
     steamExtra:
       - 4396100
+      - 5001640
   installDir:
     Cataclismo: {}
   launch:
@@ -132134,6 +132142,22 @@ Chop:
             store: steam
   steam:
     id: 755920
+Chop Chop Inc.:
+  files:
+    "<home>/AppData/LocalLow/NullRef Entertainment/ChopChopInc":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ChopChopInc: {}
+  launch:
+    "<base>/ChopChopInc.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4369130
 Chop Chop Princess!:
   installDir:
     Chop Chop Princess: {}
@@ -173112,6 +173136,28 @@ Dark Burial:
     id: 569150
 "Dark Cases: The Blood Ruby Collector's Edition":
   alias: "Dark Cases: The Blood Ruby"
+Dark Castle:
+  cloud:
+    steam: true
+  installDir:
+    Dark Castle: {}
+  launch:
+    "<base>/Dark Castle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Linux/Dark Castle":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Linux"
+    "<base>/Win32/Dark Castle.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Win32"
+  steam:
+    id: 4706290
 Dark Chess:
   cloud:
     steam: true
@@ -350203,6 +350249,40 @@ How I Escaped Futa Prison:
             store: steam
   steam:
     id: 2269230
+How Many Dudes?:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/HowManyDudes/<storeUserId>":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/com.bscotch.hmd/<storeUserId>":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/HowManyDudes/<storeUserId>":
+      when:
+        - store: steam
+  id:
+    lutris: how-many-dudes
+    steamExtra:
+      - 4248000
+      - 4769790
+      - 4815310
+  installDir:
+    How Many Dudes: {}
+  launch:
+    "<base>/HowManyDudes.app/Contents/MacOS/HowManyDudes":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/HowManyDudes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3934270
 How Mosquito Became Human:
   steam:
     id: 862230
@@ -369314,6 +369394,7 @@ Interplanetary Hunter:
     id: 650220
 Interplay Solitaire:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/Interplay Entertainment Corp_/Interplay Solitaire/data/*.dat":
@@ -369349,6 +369430,8 @@ Interplay Solitaire:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1927749465
   installDir:
     Interplay Solitaire: {}
   launch:
@@ -391972,6 +392055,8 @@ Kingdom Heroes 2:
     "<base>/INTRPLAY/SHADOANP/*.DAT":
       when:
         - store: steam
+  gog:
+    id: 1560253148
   installDir:
     Kingdom II Shadoan: {}
   launch:
@@ -468975,6 +469060,7 @@ Mortal Shell II:
   id:
     lutris: mortal-shell-ii
     steamExtra:
+      - 4711720
       - 4711740
   installDir:
     Sparta: {}
@@ -569465,6 +569551,8 @@ Ragnarok Online 2:
   steam:
     id: 660330
 Rags to Riches:
+  gog:
+    id: 1773018230
   installDir:
     Rags to Riches: {}
   launch:
@@ -579102,6 +579190,8 @@ Redline Ultimate Racing:
   steam:
     id: 791570
 "Redneck Deer Huntin'":
+  gog:
+    id: 1647235151
   installDir:
     "Redneck Deer Huntin'": {}
   launch:
@@ -693978,6 +694068,8 @@ Super Catscape:
   steam:
     id: 1048260
 Super Cauldron:
+  gog:
+    id: 1129963925
   installDir:
     Super Cauldron: {}
   launch:
@@ -781920,6 +782012,8 @@ Tornado:
         - os: windows
         - os: mac
         - os: linux
+  gog:
+    id: 2089396593
   installDir:
     Tornado: {}
   launch:
@@ -814683,8 +814777,19 @@ Vaping Simulator:
   steam:
     id: 692540
 "Vapor World: Over the Mind":
+  cloud:
+    steam: true
   id:
     lutris: vapor-world-over-the-mind
+    steamExtra:
+      - 2203010
+  installDir:
+    Vapor World Over The Mind: {}
+  launch:
+    "<base>/Vapor World Over The Mind.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1996090
 VaporFly:

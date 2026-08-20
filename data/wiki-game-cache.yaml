@@ -23080,6 +23080,10 @@ Battle Chess 4000:
   pageId: 8632
   steam: 678620
 "Battle Chess: Game of Kings":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1123635349
   pageId: 45308
   steam: 200150
   templates:
@@ -39344,6 +39348,7 @@ Castles:
     gog: true
   gog: 1207663063
   gogSide:
+    - 1145335432
     - 1207658678
   lutris: castles
   pageId: 14491
@@ -39653,10 +39658,12 @@ Cataclismo:
   gog: 1966220998
   gogSide:
     - 1992101679
+    - 2062545933
   pageId: 196563
   steam: 1422440
   steamSide:
     - 4396100
+    - 5001640
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Sun\\Cataclismo\\SavesMP\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Sun\\Cataclismo\\SavesMP\\}}"
@@ -42565,6 +42572,7 @@ Chop:
   steam: 755920
 Chop Chop Inc.:
   pageId: 219338
+  steam: 4369130
 Chop Chop Princess!:
   pageId: 74948
   steam: 718740
@@ -55870,7 +55878,10 @@ Dark Burial:
     - "Dark Cases: The Blood Ruby Collector's Edition"
   steam: 569150
 Dark Castle:
+  cloud:
+    steam: true
   pageId: 204127
+  steam: 4706290
 Dark Chess:
   cloud:
     steam: true
@@ -113758,7 +113769,15 @@ How I Escaped Futa Prison:
   pageId: 184278
   steam: 2269230
 How Many Dudes?:
+  cloud:
+    steam: true
+  lutris: how-many-dudes
   pageId: 219134
+  steam: 3934270
+  steamSide:
+    - 4248000
+    - 4769790
+    - 4815310
 How Mosquito Became Human:
   pageId: 123431
   steam: 862230
@@ -119819,7 +119838,9 @@ Interplanetary Hunter:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\TJR Games\\Interplanetary - Enhanced Edition\\|{{P|game}}\\PlayerData\\}}"
 Interplay Solitaire:
   cloud:
+    gog: true
     steam: true
+  gog: 1927749465
   pageId: 62292
   steam: 630690
 Interpoint:
@@ -127348,6 +127369,7 @@ Kingdom Heroes 2:
 "Kingdom II: Shadoan":
   cloud:
     steam: true
+  gog: 1560253148
   pageId: 77442
   steam: 4352730
 "Kingdom O' Magic":
@@ -152679,6 +152701,7 @@ Mortal Shell II:
   pageId: 205170
   steam: 2584270
   steamSide:
+    - 4711720
     - 4711740
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}/MortalShell2/Saved/Config/Windows}}"
@@ -185411,6 +185434,7 @@ Ragnarok Online 2:
   pageId: 65614
   steam: 660330
 Rags to Riches:
+  gog: 1773018230
   pageId: 214786
   steam: 4353020
 Ragtag Adventurers:
@@ -188657,6 +188681,7 @@ Redline Ultimate Racing:
   pageId: 81504
   steam: 791570
 "Redneck Deer Huntin'":
+  gog: 1647235151
   pageId: 63943
   steam: 580930
 Redneck Kentucky and the Next Generation Chickens:
@@ -217963,7 +217988,7 @@ Spy Hunter:
 Spy Hunter (2003):
   pageId: 56849
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Midway\\SpyHunter\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Midway\\SpyHunter}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SPYHUNTER_PROFILES.DAT}}"
 "Spy Hunter: Nowhere to Run":
   pageId: 89938
@@ -225820,6 +225845,7 @@ Super Catscape:
   pageId: 132014
   steam: 1048260
 Super Cauldron:
+  gog: 1129963925
   pageId: 208282
   steam: 3799620
 Super Chain Crusher Horizon:
@@ -254601,6 +254627,7 @@ Torn Tales:
 Tornado:
   cloud:
     steam: true
+  gog: 2089396593
   pageId: 195299
   steam: 2557370
   templates:
@@ -266299,9 +266326,14 @@ Vaping Simulator:
   pageId: 69659
   steam: 692540
 "Vapor World: Over the Mind":
+  cloud:
+    steam: true
+    xbox: true
   lutris: vapor-world-over-the-mind
   pageId: 207029
   steam: 1996090
+  steamSide:
+    - 2203010
 VaporFly:
   pageId: 144188
   steam: 1119770
