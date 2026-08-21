@@ -608687,6 +608687,13 @@
   launch:
     - description: Play Game
       executable: Dreamcutter1.3.exe
+2163330:
+  installDir: Yet Another Zombie Survivors
+  launch:
+    - executable: Yet Another Zombie Survivors.exe
+      type: default
+  nameLocalized:
+    schinese: Yet Another Zombie Survivors - 又一个僵尸幸存者
 2165040: {}
 2165340:
   installDir: Quiz.com
@@ -641245,6 +641252,19 @@
     schinese: 失落星船：马拉松
     tchinese: 失落星船：馬拉松
 3065940:
+  cloud:
+    saves:
+      - path: "WW1 Game Series/Gallipoli/Steam/{64BitSteamID}"
+        pattern: SaveData_User.dat*
+        root: WinAppDataLocalLow
+  installDir: Gallipoli
+  launch:
+    - arguments: gallipoli
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Gallipoli/Gallipoli.exe
+      type: default
   nameLocalized:
     schinese: 加里波利
 3067930:
@@ -653850,6 +653870,10 @@
     schinese: ONE PIECE 海洋盛宴
     tchinese: ONE PIECE 海洋盛宴
     thai: ONE PIECE ภัตตาคารเลิศรสลอยทะเล (ชื่อชั่วคราว)
+3905450:
+  nameLocalized:
+    schinese: WheelMates (双轮成行)
+    tchinese: WheelMates (雙輪成行)
 3906660:
   cloud:
     saves:

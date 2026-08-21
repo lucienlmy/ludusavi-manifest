@@ -156498,6 +156498,8 @@ Crate Punks:
   steam:
     id: 517960
 Craving Wisps:
+  id:
+    lutris: craving-wisps
   steam:
     id: 4334910
 Crawl:
@@ -292983,6 +292985,30 @@ Gallery One:
   steam:
     id: 912260
 Gallipoli:
+  files:
+    "<home>/AppData/LocalLow/WW1 Game Series/Gallipoli/Steam/<storeUserId>/SaveData_User.dat*":
+      when:
+        - store: steam
+  id:
+    lutris: gallipoli
+    steamExtra:
+      - 4202450
+      - 4202460
+      - 4202470
+      - 4202490
+      - 4202500
+      - 4584010
+      - 4584020
+      - 4768090
+  installDir:
+    Gallipoli: {}
+  launch:
+    "<base>/Gallipoli/Gallipoli.exe":
+      - arguments: gallipoli
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3065940
 Gallows:
@@ -539894,6 +539920,7 @@ Planet Coaster 2:
       - 3902620
       - 4129920
       - 4492160
+      - 4961870
   installDir:
     Planet Coaster 2: {}
   launch:
@@ -733711,6 +733738,8 @@ The Eternal Life of Goldman:
   steam:
     id: 2254950
 The Eternal Woods:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/James Sutton/The Eternal Woods":
       when:
@@ -838028,6 +838057,11 @@ Wheel of Fate:
     Wheel of Fate: {}
   steam:
     id: 1105740
+WheelMates:
+  id:
+    lutris: wheelmates
+  steam:
+    id: 3905450
 Wheelbarrow Warrior:
   installDir:
     WheelbarrowWarrior: {}
@@ -856970,6 +857004,22 @@ Yet Another Zombie Defense HD:
             store: steam
   steam:
     id: 674750
+Yet Another Zombie Survivors:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 2265230
+      - 2281990
+      - 4377470
+  installDir:
+    Yet Another Zombie Survivors: {}
+  launch:
+    "<base>/Yet Another Zombie Survivors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2163330
 Yet another tower defence:
   files:
     "<home>/AppData/LocalLow/FantasyLi/YetAnotherTowerDefense/Save/*.sav":

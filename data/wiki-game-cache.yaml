@@ -50347,6 +50347,7 @@ Crate Punks:
   pageId: 53670
   steam: 517960
 Craving Wisps:
+  lutris: craving-wisps
   pageId: 217053
   steam: 4334910
 Crawl:
@@ -94912,8 +94913,18 @@ Gallery One:
   pageId: 104251
   steam: 912260
 Gallipoli:
+  lutris: gallipoli
   pageId: 218466
   steam: 3065940
+  steamSide:
+    - 4202450
+    - 4202460
+    - 4202470
+    - 4202490
+    - 4202500
+    - 4584010
+    - 4584020
+    - 4768090
 Gallows:
   pageId: 90606
   steam: 816550
@@ -176183,6 +176194,7 @@ Planet Coaster 2:
     - 3902620
     - 4129920
     - 4492160
+    - 4961870
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Coaster 2\\{{p|uid}}\\Config\\*.config.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Coaster 2\\{{p|uid}}\\Saves\\}}"
@@ -238597,6 +238609,8 @@ The Eternal Life of Goldman:
   pageId: 202873
   steam: 2254950
 The Eternal Woods:
+  cloud:
+    steam: true
   pageId: 218956
   steam: 4509630
   steamSide:
@@ -274150,6 +274164,10 @@ Wheel of Fortune (1998):
     - "{{Game data/config|Windows|{{p|game}}}}"
 "Wheel of Fortune: 2nd Edition":
   pageId: 200354
+WheelMates:
+  lutris: wheelmates
+  pageId: 219592
+  steam: 3905450
 Wheelbarrow Warrior:
   pageId: 108768
   steam: 729820
@@ -280353,6 +280371,16 @@ Yet Another Zombie Defense HD:
     steam: true
   pageId: 68148
   steam: 674750
+Yet Another Zombie Survivors:
+  cloud:
+    steam: true
+  malformed: true
+  pageId: 219595
+  steam: 2163330
+  steamSide:
+    - 2265230
+    - 2281990
+    - 4377470
 Yet another tower defence:
   pageId: 113770
   steam: 923890
