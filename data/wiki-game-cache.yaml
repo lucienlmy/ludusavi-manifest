@@ -174618,6 +174618,8 @@ Pin Town:
 "Pinata Smash: Incremental Circus":
   pageId: 219233
   steam: 4918810
+  steamSide:
+    - 4941930
 Pinball:
   pageId: 75471
   steam: 745120
@@ -207015,12 +207017,18 @@ SiN:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SE1\\cfg\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SE1\\SAVE\\}}"
-"SiN: Reloaded":
+SiN Reloaded:
   cloud:
     steam: true
+    xbox: true
   gog: 1627068096
+  lutris: sin-reloaded-1
   pageId: 163180
+  renamedFrom:
+    - "SiN: Reloaded"
   steam: 632950
+  steamSide:
+    - 4679680
 SiNKR:
   cloud:
     steam: true
@@ -235935,6 +235943,7 @@ The Blood of Dawnwalker:
   cloud:
     steam: true
     xbox: true
+  gog: 1889754300
   lutris: the-blood-of-dawnwalker
   pageId: 200865
   steam: 3751260

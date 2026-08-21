@@ -535182,6 +535182,9 @@ Pimp Tight:
   steam:
     id: 555100
 "Pinata Smash: Incremental Circus":
+  id:
+    steamExtra:
+      - 4941930
   steam:
     id: 4918810
 Pinball:
@@ -635376,13 +635379,19 @@ SiN:
           - store: steam
   steam:
     id: 1300
-"SiN: Reloaded":
+SiN Reloaded:
   cloud:
     steam: true
   gog:
     id: 1627068096
+  id:
+    lutris: sin-reloaded-1
+    steamExtra:
+      - 4679680
   steam:
     id: 632950
+"SiN: Reloaded":
+  alias: SiN Reloaded
 SiNKR:
   cloud:
     steam: true
@@ -725571,6 +725580,8 @@ The Blood Eclipse:
 The Blood of Dawnwalker:
   cloud:
     steam: true
+  gog:
+    id: 1889754300
   id:
     lutris: the-blood-of-dawnwalker
   steam:
@@ -745933,9 +745944,20 @@ The Legend of Excalipurr:
 "The Legend of Heroes: Zero no Kiseki Kai":
   alias: "The Legend of Heroes: Trails from Zero"
 The Legend of Khiimori:
+  files:
+    "<base>/LegendOfKhiimori/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/LegendOfKhiimori/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 3669260
+  installDir:
+    The Legend of Khiimori: {}
   steam:
     id: 2697000
 The Legend of Korra:
@@ -817539,10 +817561,24 @@ Vexius:
   steam:
     id: 757190
 Vholume:
+  files:
+    "<winLocalAppData>/VHOLUME/Saved/Ghosts/**/*.json.gz":
+      when:
+        - store: steam
+    "<winLocalAppData>/VHOLUME/Saved/SaveGames":
+      when:
+        - store: steam
   id:
     lutris: vholume
     steamExtra:
       - 4245250
+  installDir:
+    VHOLUME: {}
+  launch:
+    "<base>/VHOLUME/Binaries/Win64/VHOLUME-Win64-Shipping.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4131730
 ViKubb:
