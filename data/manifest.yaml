@@ -60865,6 +60865,9 @@ Awe of Despair:
             store: steam
   steam:
     id: 739730
+Awesome Cop:
+  id:
+    lutris: polda-2
 Awesome Machine:
   files:
     "<home>/AppData/LocalLow/Bellosoft/Awesome Machine/awesomeData.json":
@@ -93473,8 +93476,6 @@ Bloodthief:
   steam:
     id: 2533600
 Bloodville:
-  cloud:
-    steam: true
   id:
     lutris: bloodville
   steam:
@@ -295104,6 +295105,8 @@ Garrison Gauntlet:
         - save
       when:
         - os: windows
+  id:
+    lutris: garrys-mod
   installDir:
     GarrysMod: {}
   launch:
