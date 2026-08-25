@@ -121916,6 +121916,18 @@ Castlevania Dominus Collection:
             store: steam
   steam:
     id: 239250
+"Castlevania: Symphony of Horrors":
+  files:
+    "<winLocalAppData>/CastlevaniaSOH/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/CastlevaniaSOH/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 Castra:
   cloud:
     steam: true
@@ -494899,6 +494911,11 @@ Ninja Guy:
     id: 1195070
 "Ninja JaJaMaru: The Great Yokai Battle Hell":
   alias: "Ninja JaJaMaru: The Great Yokai Battle + Hell"
+"Ninja JaJaMaru: Yokai Night Parade":
+  cloud:
+    steam: true
+  steam:
+    id: 4173010
 Ninja Jump:
   installDir:
     Ninja jump: {}
@@ -522008,6 +522025,18 @@ Pakicetus:
             store: steam
   steam:
     id: 1105240
+Pako:
+  files:
+    "<base>/Pako.hi":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/Pako.sav":
+      tags:
+        - save
+      when:
+        - os: dos
 Palace of Cards:
   installDir:
     Palace-of-Cards: {}
@@ -613863,6 +613892,11 @@ Sanitarium:
         - config
   steam:
     id: 284050
+Sanitarium Enhanced:
+  gog:
+    id: 1517593592
+  steam:
+    id: 4980620
 Sanitarium Rush:
   installDir:
     Sanitarium Rush: {}
