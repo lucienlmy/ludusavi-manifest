@@ -32068,6 +32068,20 @@ Aliens&Asteroids:
   steam:
     id: 1549970
 "Aliens: Fireteam Elite 2":
+  files:
+    "<winLocalAppData>/AFE2/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - store: steam
+  id:
+    steamExtra:
+      - 4941380
+      - 4941390
+  installDir:
+    Aliens Fireteam Elite 2: {}
+  launch:
+    "<base>/AFE2.exe":
+      - when:
+          - store: steam
   steam:
     id: 3448650
 Alight:
@@ -99543,6 +99557,8 @@ Botfestation:
         - save
       when:
         - os: windows
+  gog:
+    id: 2062297091
   installDir:
     BotiByteland: {}
   steam:
@@ -112823,6 +112839,14 @@ Cabernet:
         - os: windows
   gog:
     id: 1333742671
+  id:
+    gogExtra:
+      - 1446164689
+      - 1986065499
+      - 2050610206
+    steamExtra:
+      - 3283960
+      - 3545650
   installDir:
     Cabernet: {}
   launch:
@@ -138695,6 +138719,7 @@ Click the Button:
     lutris: click-the-button
     steamExtra:
       - 4805850
+      - 5110650
   steam:
     id: 3946950
 Click to Continue:
@@ -219971,6 +219996,9 @@ Duel Jousting:
             store: steam
   steam:
     id: 751540
+Duel Princess:
+  gog:
+    id: 1387622228
 Duel Survival:
   installDir:
     Duel Survival: {}
@@ -229568,6 +229596,8 @@ Easy Delivery Co.:
         - save
       when:
         - os: windows
+  gog:
+    id: 1186701134
   installDir:
     Easy Delivery Co: {}
   launch:
@@ -286953,6 +286983,8 @@ Fruitbus:
         - save
       when:
         - os: windows
+  gog:
+    id: 1969775197
   installDir:
     Fruitbus: {}
   steam:
@@ -599029,6 +599061,11 @@ RollerCoaster Tycoon Classic:
             store: steam
   steam:
     id: 683900
+RollerCoaster Tycoon Wonderworks:
+  cloud:
+    steam: true
+  steam:
+    id: 4734550
 RollerCoaster Tycoon World:
   cloud:
     steam: true
