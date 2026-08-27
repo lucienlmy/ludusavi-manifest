@@ -48084,6 +48084,8 @@ Arkhelom 3D:
     HKEY_CURRENT_USER/Software/Gryphline/Endfield:
       tags:
         - config
+  steam:
+    id: 4732690
 Arkshot:
   installDir:
     Arkshot: {}
@@ -238298,6 +238300,31 @@ EndZ Village:
             store: steam
   steam:
     id: 999190
+Endacopia:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/Endacopia":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Endacopia/acsetup.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: endacopia
+  installDir:
+    Endacopia: {}
+  launch:
+    "<base>/Windows/Endacopia.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2684630
 Endangered:
   installDir:
     Endangered: {}
@@ -398526,6 +398553,8 @@ Kulzas Tomb:
   steam:
     id: 942920
 "Kumarn: The Wandering Spirit":
+  gog:
+    id: 1994955151
   id:
     lutris: kumarn-the-wandering-spirit
   steam:
@@ -434319,6 +434348,10 @@ Magic of Autumn:
   installDir:
     MTGA: {}
   launch:
+    "<base>/MTGA.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/MTGA.exe":
       - when:
           - bit: 64
@@ -451250,10 +451283,22 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version":
   cloud:
     steam: true
+  files:
+    "<base>/mgs4_savedata_win/<storeUserId>":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 3859630
       - 4184400
+  installDir:
+    METAL GEAR SOLID 4: {}
+  launch:
+    "<base>/Launcher/launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/launcher"
   steam:
     id: 2492670
 "Metal Gear Solid Delta: Snake Eater":
@@ -497992,8 +498037,6 @@ Nodiatis:
   steam:
     id: 541190
 Noel The Mortal Fate:
-  cloud:
-    steam: true
   files:
     "<base>/gamedata/noel1-sf2/noel_s*/www/save":
       tags:
@@ -675554,8 +675597,17 @@ Star Wars Outlaws:
   id:
     lutris: star-wars-yoda-stories
 "Star Wars: Zero Company":
+  files:
+    "<base>/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/SWZeroCompany/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: star-wars-zero-company
+  installDir:
+    Star Wars Zero Company: {}
   steam:
     id: 2075800
 Star Wolves:
