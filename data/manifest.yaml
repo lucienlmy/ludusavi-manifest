@@ -451327,8 +451327,11 @@ Metal Gear Solid - Master Collection Version:
     steam: true
   files:
     "<base>/mgs4_savedata_win/<storeUserId>":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     steamExtra:
       - 3859630
@@ -675676,15 +675679,23 @@ Star Wars Outlaws:
   id:
     lutris: star-wars-yoda-stories
 "Star Wars: Zero Company":
+  cloud:
+    steam: true
   files:
-    "<base>/**/*.sav":
+    "<winLocalAppData>/SWZeroCompany/Saved":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/SWZeroCompany/Saved/SaveGames/**/*.sav":
+        - os: windows
+    "<winLocalAppData>/SWZeroCompany/Saved/SaveGames/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: star-wars-zero-company
+    steamExtra:
+      - 3701350
   installDir:
     Star Wars Zero Company: {}
   steam:
@@ -837424,6 +837435,17 @@ Welkin Road:
         - config
   steam:
     id: 432720
+Well Dweller:
+  cloud:
+    steam: true
+  gog:
+    id: 1571381382
+  id:
+    lutris: well-dweller
+    steamExtra:
+      - 4540890
+  steam:
+    id: 3699590
 WellTown:
   installDir:
     Well Town: {}
@@ -840138,7 +840160,11 @@ Whirlight - No Time to Trip:
     "<home>/AppData/LocalLow/imaginarylab/Whirlight":
       when:
         - store: steam
+  gog:
+    id: 1783203305
   id:
+    gogExtra:
+      - 1187431124
     lutris: whirlight-no-time-to-trip
     steamExtra:
       - 3001300
