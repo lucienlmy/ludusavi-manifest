@@ -32878,6 +32878,26 @@ Allspace:
             store: steam
   steam:
     id: 1000860
+Allumeria:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Allumeria":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Allumeria: {}
+  launch:
+    "<base>/Allumeria.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3516590
 Allumette:
   installDir:
     Allumette: {}
@@ -730485,6 +730505,10 @@ The Curse of Womanland:
         - os: windows
         - os: windows
           store: steam
+  id:
+    lutris: the-curse-of-womanland
+    steamExtra:
+      - 4186990
   installDir:
     The Curse of Womanland: {}
   launch:
@@ -733716,6 +733740,7 @@ The Elementalist:
     id: 973410
 The Elephant Collection:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Library/Application Support/ElephantCollection/**/*.sol":

@@ -649891,6 +649891,24 @@
     english: Ballshit
     schinese: 无基之谈
     tchinese: 無基之談
+3516590:
+  cloud:
+    saves:
+      - path: My Games/Allumeria/cloud/
+        pattern: "*"
+        recursive: true
+        root: WinMyDocuments
+      - path: Allumeria/cloud/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Allumeria
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Allumeria.exe
+      type: default
 3516780:
   cloud:
     saves:
