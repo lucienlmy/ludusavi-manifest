@@ -39643,8 +39643,8 @@ Cat Quest III:
   pageId: 195906
   steam: 2305840
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Cat Quest III\\cq3_settings.dat}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Cat Quest III\\cq3_save*.dat}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Cat Quest III\\cq3_settings.dat}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Cat Quest III\\cq3_save*.dat|{{p|localappdata}}\\Cat Quest III\\cq3_autosave*.dat}}"
 Cat Simulator:
   pageId: 44629
   steam: 393390
@@ -67067,8 +67067,10 @@ Donjon Defense:
   steam: 757230
 Donkey Kong:
   pageId: 152480
-Donkey Kong 64:
+"Donkey Kong 64 (DK64: Rekongpiled)":
   pageId: 218016
+  renamedFrom:
+    - Donkey Kong 64
 "Donkey Kong: Redux":
   pageId: 200596
 Donkey Xote:
@@ -226233,6 +226235,8 @@ Super Chicken Catchers:
   pageId: 128455
   steam: 869750
 "Super Chipflake Ü: Quest for the Uncooked Schnitzel":
+  cloud:
+    steam: true
   lutris: super-chipflake-u-quest-for-the-uncooked-schnitzel
   pageId: 213843
   steam: 3064060
