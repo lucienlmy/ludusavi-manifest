@@ -3975,6 +3975,7 @@
 * [Building Block Heroes: Rush Edition](https://www.pcgamingwiki.com/wiki/?curid=93730)
 * [Building Blocks](https://www.pcgamingwiki.com/wiki/?curid=75482)
 * [Building Killer](https://www.pcgamingwiki.com/wiki/?curid=143848)
+* [Building Panic](https://www.pcgamingwiki.com/wiki/?curid=219927)
 * [Building Relationships](https://www.pcgamingwiki.com/wiki/?curid=209222)
 * [Building the Great Wall of China 2](https://www.pcgamingwiki.com/wiki/?curid=61598)
 * [Buildings Have Feelings Too!](https://www.pcgamingwiki.com/wiki/?curid=130634)

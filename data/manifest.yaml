@@ -350974,6 +350974,10 @@ How to Cope with Boredom and Loneliness:
   steam:
     id: 797390
 How to Fish:
+  id:
+    lutris: how-to-fish
+    steamExtra:
+      - 4539520
   installDir:
     How to Fish: {}
   launch:
@@ -502583,6 +502587,7 @@ OTTTD:
     id: 312630
 OTXO:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -585335,6 +585340,12 @@ Resonance of Fate 4K/HD Edition:
           store: microsoft
         - os: windows
           store: steam
+    "<winLocalAppData>/Packages/FocusHomeInteractiveSA.APlagueTaleFelons_4hny5m903y3g0/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: resonance-a-plague-tale-legacy
     steamExtra:
