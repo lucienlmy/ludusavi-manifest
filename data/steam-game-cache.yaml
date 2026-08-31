@@ -590512,6 +590512,45 @@
 1882261: {}
 1882262: {}
 1882370: {}
+1882500:
+  cloud:
+    saves:
+      - path: Cattails_Wildwood_Story
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/saves
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/colors
+        pattern: "*.png"
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/mods
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/demo_saves
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Cattails_Wildwood_Story
+            replace: com.falcondevelopment.cattailswildwoodstory
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Cattails Wildwood Story
+  launch:
+    - config:
+        oslist: windows
+      executable: Cattails - Wildwood Story.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: CattailsWildwoodStory.app
+      type: default
 1883260:
   cloud:
     saves:

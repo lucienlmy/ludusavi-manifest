@@ -40085,6 +40085,16 @@ Catsby:
     steam: true
   pageId: 60894
   steam: 590270
+"Cattails: Wildwood Story":
+  cloud:
+    steam: true
+  pageId: 219955
+  steam: 1882500
+  steamSide:
+    - 2004330
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Cattails_Wildwood_Story\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Cattails_Wildwood_Story\\saves\\}}"
 Cattle Admission Challenge:
   pageId: 155771
   steam: 1215500
