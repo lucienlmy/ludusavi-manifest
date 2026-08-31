@@ -112911,6 +112911,13 @@ Cabal Online:
         - os: windows
   id:
     lutris: cabelas-outdoor-adventures
+"Cabela's Sportsman's Challenge":
+  files:
+    "<base>/csc.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Cabernet:
   cloud:
     epic: true
@@ -474211,6 +474218,33 @@ Murders in Space:
         workingDir: "<base>/dosbox_windows"
   steam:
     id: 1255420
+Murders on the Yangtze River:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/OMESCAPE/山河旅探/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: murders-on-the-yangtze-river
+    steamExtra:
+      - 2068780
+      - 2808420
+  installDir:
+    山河旅探: {}
+  launch:
+    "<base>/shanhelvtan.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/shanhelvtan.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1746030
 "Murderwave: Digital Slaughter":
   installDir:
     Murderwave - Digital Slaughter: {}
