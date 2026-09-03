@@ -76690,6 +76690,14 @@ Beat Saber:
       - 4550640
       - 4550650
       - 4756020
+      - 4886340
+      - 4886350
+      - 4886360
+      - 4886370
+      - 4886380
+      - 4886390
+      - 4886400
+      - 4886410
   installDir:
     Beat Saber: {}
   steam:
@@ -268240,6 +268248,12 @@ Final Fantasy VII Remake Intergrade:
   steam:
     id: 1462040
 Final Fantasy VII Revelation:
+  cloud:
+    epic: true
+    steam: true
+  id:
+    steamExtra:
+      - 4910840
   steam:
     id: 4354570
 Final Fantasy VII Windows Edition:
@@ -358507,6 +358521,9 @@ IL-2 Sturmovik:
           - store: steam
   steam:
     id: 15320
+"IL-2 Sturmovik: Battle of Moscow":
+  steam:
+    id: 502870
 "IL-2 Sturmovik: Battle of Stalingrad":
   installDir:
     IL-2 Sturmovik Battle of Stalingrad: {}
@@ -388082,6 +388099,8 @@ Keeper:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1428536898
   id:
     lutris: keeper--5
   installDir:
@@ -441324,9 +441343,20 @@ Marshmallow Melee:
 "Marsupilami 2: Salsa Palombia":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Marsu2Steam/Saved/SaveGames/**/Slot *.sav":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4261810
+  installDir:
+    Marsupilami 2: {}
+  launch:
+    "<base>/Marsu2Steam.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3650170
 "Marsupilami: Hoobadventure":
@@ -447531,6 +447561,13 @@ Mega Balls:
   steam:
     id: 1185500
 Mega Coin Squad:
+  files:
+    "<xdgConfig>/unity3d/Big Pixel Studios/Mega Coin Squad/perfs":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   installDir:
     MegaCoinSquad: {}
   launch:
@@ -453214,6 +453251,7 @@ Metro 2033 Redux:
     id: 286690
 Metro 2039:
   cloud:
+    epic: true
     steam: true
   id:
     lutris: metro-2039
@@ -666033,6 +666071,8 @@ SpeedRunners:
   steam:
     id: 207140
 "SpeedRunners 2: King of Speed":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/tinyBuild/SpeedRunners 2":
       tags:
@@ -666041,6 +666081,12 @@ SpeedRunners:
         - os: windows
   id:
     lutris: speedrunners-2-king-of-speed
+  installDir:
+    Speedrunners 2 King of Speed: {}
+  launch:
+    "<base>/SpeedRunners 2.exe":
+      - when:
+          - store: steam
   steam:
     id: 3183760
 Speedball (2026):
@@ -689867,6 +689913,10 @@ Stupid Invaders:
       when:
         - os: windows
 Stupid Never Dies:
+  id:
+    lutris: stupid-never-dies
+    steamExtra:
+      - 4880100
   steam:
     id: 3486530
 Stupid Quest - Medieval Adventures:
