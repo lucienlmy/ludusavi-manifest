@@ -643643,6 +643643,7 @@
         oslist: windows
       executable: RLDB.exe
       type: default
+3149450: {}
 3149840:
   installDir: Skuf Fishing
   launch:
@@ -648993,7 +648994,13 @@
         root: WinAppDataLocal
   installDir: Dice A Million
   launch:
-    - executable: dice a million.exe
+    - config:
+        oslist: windows
+      executable: dice a million.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: diceamillion2.app
       type: default
 3430450:
   cloud:
