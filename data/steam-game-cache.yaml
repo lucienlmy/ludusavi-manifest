@@ -593494,6 +593494,7 @@
         oslist: windows
       executable: Soccer Story.exe
       type: default
+1912410: {}
 1912750:
   installDir: Terra Memoria
   launch:
@@ -644213,6 +644214,17 @@
   launch:
     - executable: basketball.exe
       type: default
+3170590:
+  cloud:
+    saves:
+      - path: "Mega Cat Studios/Backyard Hockey 02/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Backyard Hockey 02
+  launch:
+    - executable: hockey.exe
+      type: default
 3172440:
   cloud:
     saves:
@@ -659191,6 +659203,7 @@
 4953280: {}
 4980620: {}
 5036490: {}
+5067360: {}
 5093680: {}
 34004563: {}
 3221903386: {}
