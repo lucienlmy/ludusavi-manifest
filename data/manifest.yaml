@@ -263074,6 +263074,16 @@ Fatal Twelve:
       when:
         - os: windows
         - os: linux
+    "<home>/.renpy/FATAL TWELVE":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winAppData>/RenPy/FATAL TWELVE":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1435637537
   id:

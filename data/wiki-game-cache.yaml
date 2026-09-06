@@ -67809,6 +67809,8 @@ Dopamine:
   pageId: 220173
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
+"Dora's 3-D Pyramid Adventure":
+  pageId: 220216
 DoraKone:
   pageId: 132136
   steam: 1034880
@@ -85464,8 +85466,8 @@ Fatal Twelve:
     - 838130
     - 838140
   templates:
-    - "{{Game data/saves|Windows|{{P|game}}\\game\\saves}}"
-    - "{{Game data/saves|Linux|{{P|game}}/game/saves}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\game\\saves\\|{{P|appdata}}\\RenPy\\FATAL TWELVE\\}}"
+    - "{{Game data/saves|Linux|{{P|game}}/game/saves/|{{P|linuxhome}}/.renpy/FATAL TWELVE/}}"
 "Fatal Velocity: Physics Combat":
   pageId: 74317
   steam: 722620
