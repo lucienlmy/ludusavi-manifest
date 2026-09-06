@@ -29069,6 +29069,8 @@ Blaster Shooter GunGuy!:
 Blaster Simulator:
   pageId: 43322
   steam: 446450
+Blaster!:
+  pageId: 220207
 Blastercell:
   cloud:
     steam: true
@@ -67799,6 +67801,8 @@ Dopamine:
   pageId: 220171
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
+"Dora the Explorer: Dance to the Rescue":
+  pageId: 220204
 "Dora the Explorer: Fairytale Adventure":
   pageId: 220200
 "Dora the Explorer: Lost City Adventure":
@@ -82152,6 +82156,47 @@ FANTAVISION 202X:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Local\\fv\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Local\\fv\\Saved\\SaveGames\\}}"
+"FAR: Changing Tides":
+  cloud:
+    epic: true
+    steam: true
+    xbox: true
+  lutris: far-changing-tides
+  pageId: 169285
+  renamedFrom:
+    - "FAR: Changing Tides"
+    - "Far: Changing Tides"
+  steam: 1570010
+  steamSide:
+    - 1684390
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Okomotive\\FarChangingTides\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Okomotive\\FarChangingTides\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\FrontierDevelopmentsPlc.FARChangingTidesWindowsEdi_ft442cafaz8hg\\SystemAppData\\wgs\\{{p|uid}}\\}}"
+"FAR: Lone Sails":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1736537203
+  gogSide:
+    - 1601925106
+    - 1617205711
+  lutris: far-lone-sails
+  pageId: 61570
+  renamedFrom:
+    - "FAR: Lone Sails"
+    - "Far: Lone Sails"
+  steam: 609320
+  steamSide:
+    - 837840
+    - 837841
+    - 1390550
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Okomotive\\FarLoneSails\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Okomotive/FarLoneSails}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Okomotive\\FarLoneSails\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Okomotive/FarLoneSails/}}"
+    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/609320/remote/}}"
 "FARIA: Ghosts of the Stream":
   pageId: 41827
   steam: 504670
@@ -84668,45 +84713,6 @@ Far-Out:
   steam: 389860
   steamSide:
     - 503850
-"Far: Changing Tides":
-  cloud:
-    epic: true
-    steam: true
-    xbox: true
-  lutris: far-changing-tides
-  pageId: 169285
-  renamedFrom:
-    - "FAR: Changing Tides"
-  steam: 1570010
-  steamSide:
-    - 1684390
-  templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Okomotive\\FarChangingTides\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Okomotive\\FarChangingTides\\}}"
-    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\FrontierDevelopmentsPlc.FARChangingTidesWindowsEdi_ft442cafaz8hg\\SystemAppData\\wgs\\{{p|uid}}\\}}"
-"Far: Lone Sails":
-  cloud:
-    gog: true
-    steam: true
-  gog: 1736537203
-  gogSide:
-    - 1601925106
-    - 1617205711
-  lutris: far-lone-sails
-  pageId: 61570
-  renamedFrom:
-    - "FAR: Lone Sails"
-  steam: 609320
-  steamSide:
-    - 837840
-    - 837841
-    - 1390550
-  templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Okomotive\\FarLoneSails\\}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Okomotive/FarLoneSails}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Okomotive\\FarLoneSails\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Okomotive/FarLoneSails/}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/609320/remote/}}"
 FarSky:
   pageId: 16491
   steam: 286340
@@ -210575,6 +210581,7 @@ Slave Story:
   steam: 736520
 Slave Zero:
   gog: 1207662553
+  lutris: slave-zero
   pageId: 17952
   steam: 328470
   templates:
@@ -210585,6 +210592,7 @@ Slave Zero X:
     gog: true
     steam: true
   gog: 1524645937
+  lutris: slave-zero-x
   pageId: 178426
   steam: 1903910
   steamSide:
@@ -217648,7 +217656,6 @@ Spider-Man 3:
     - 391930
 SpiderHeck:
   cloud:
-    steam: true
     xbox: true
   lutris: spiderheck
   pageId: 194747
