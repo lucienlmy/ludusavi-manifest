@@ -596319,7 +596319,35 @@
         oslist: windows
       executable: MyTrainerIsAFutanari-32.exe
       type: default
-1950750: {}
+1950750:
+  cloud:
+    saves:
+      - path: klall/save
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: klall/save
+        pattern: "*.tga"
+        recursive: true
+        root: gameinstall
+      - path: klall/save
+        pattern: "*.hl*"
+        recursive: true
+        root: gameinstall
+  installDir: KAYF-LIFE Complete Edition
+  launch:
+    - arguments: "-game klall"
+      config:
+        oslist: windows
+      description: Normal Direct3D 9 way
+      executable: KAYF-LIFE.exe
+      type: default
+    - arguments: "-game klall -vulkan"
+      config:
+        oslist: windows
+      description: Vulkan (experimental)
+      executable: KAYF-LIFE.exe
+      type: option1
 1951000: {}
 1951230:
   cloud:

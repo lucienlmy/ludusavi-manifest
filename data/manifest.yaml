@@ -247327,6 +247327,8 @@ European Air War:
           store: steam
   gog:
     id: 1406464063
+  id:
+    lutris: european-air-war
   installDir:
     European Air War: {}
   launch:
@@ -253918,6 +253920,91 @@ FANTAVISION 202X:
         workingDir: "<base>/fv/Binaries/Win64"
   steam:
     id: 2353280
+"FAR: Changing Tides":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Okomotive/FarChangingTides":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/FrontierDevelopmentsPlc.FARChangingTidesWindowsEdi_ft442cafaz8hg/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  id:
+    lutris: far-changing-tides
+    steamExtra:
+      - 1684390
+  installDir:
+    FAR Changing Tides: {}
+  launch:
+    "<base>/FarChangingTides.exe":
+      - arguments: "-platform-steam"
+        when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Okomotive/FarChangingTides:
+      tags:
+        - config
+  steam:
+    id: 1570010
+"FAR: Lone Sails":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Okomotive/FarLoneSails":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Okomotive/FarLoneSails":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<root>/userdata/<storeUserId>/609320/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1736537203
+  id:
+    gogExtra:
+      - 1601925106
+      - 1617205711
+    lutris: far-lone-sails
+    steamExtra:
+      - 837840
+      - 837841
+      - 1390550
+  installDir:
+    FAR Lone Sails: {}
+  launch:
+    "<base>/Game/FarLoneSails.app/Contents/MacOS/FarLoneSails":
+      - arguments: "-platform-steam"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Game/FarLoneSails.exe":
+      - arguments: "-platform-steam"
+        when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Okomotive/FarLoneSails:
+      tags:
+        - config
+  steam:
+    id: 609320
 "FARIA: Ghosts of the Stream":
   installDir:
     FARIA Ghosts of the Stream: {}
@@ -260615,91 +260702,6 @@ Far-Out:
       - 503850
   steam:
     id: 389860
-"Far: Changing Tides":
-  cloud:
-    epic: true
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Okomotive/FarChangingTides":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Packages/FrontierDevelopmentsPlc.FARChangingTidesWindowsEdi_ft442cafaz8hg/SystemAppData/wgs/<storeUserId>":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
-  id:
-    lutris: far-changing-tides
-    steamExtra:
-      - 1684390
-  installDir:
-    FAR Changing Tides: {}
-  launch:
-    "<base>/FarChangingTides.exe":
-      - arguments: "-platform-steam"
-        when:
-          - os: windows
-            store: steam
-  registry:
-    HKEY_CURRENT_USER/Software/Okomotive/FarChangingTides:
-      tags:
-        - config
-  steam:
-    id: 1570010
-"Far: Lone Sails":
-  cloud:
-    gog: true
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Okomotive/FarLoneSails":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/Library/Application Support/Okomotive/FarLoneSails":
-      tags:
-        - config
-        - save
-      when:
-        - os: mac
-    "<root>/userdata/<storeUserId>/609320/remote":
-      tags:
-        - save
-      when:
-        - store: steam
-  gog:
-    id: 1736537203
-  id:
-    gogExtra:
-      - 1601925106
-      - 1617205711
-    lutris: far-lone-sails
-    steamExtra:
-      - 837840
-      - 837841
-      - 1390550
-  installDir:
-    FAR Lone Sails: {}
-  launch:
-    "<base>/Game/FarLoneSails.app/Contents/MacOS/FarLoneSails":
-      - arguments: "-platform-steam"
-        when:
-          - os: mac
-            store: steam
-    "<base>/Game/FarLoneSails.exe":
-      - arguments: "-platform-steam"
-        when:
-          - os: windows
-            store: steam
-  registry:
-    HKEY_CURRENT_USER/Software/Okomotive/FarLoneSails:
-      tags:
-        - config
-  steam:
-    id: 609320
 FarSky:
   files:
     "<home>/.FarSky":
@@ -387907,6 +387909,24 @@ Kayalina:
 "Kayf-Life: Complete Edition":
   cloud:
     steam: true
+  files:
+    "<base>/klall/save/**/*.hl*":
+      when:
+        - store: steam
+    "<base>/klall/save/**/*.sav":
+      when:
+        - store: steam
+    "<base>/klall/save/**/*.tga":
+      when:
+        - store: steam
+  installDir:
+    KAYF-LIFE Complete Edition: {}
+  launch:
+    "<base>/KAYF-LIFE.exe":
+      - arguments: "-game klall"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 1950750
 Kaz Ball:
@@ -646045,6 +646065,8 @@ Slave Zero:
         - os: windows
   gog:
     id: 1207662553
+  id:
+    lutris: slave-zero
   installDir:
     Slave Zero: {}
   launch:
@@ -646076,6 +646098,7 @@ Slave Zero X:
   gog:
     id: 1524645937
   id:
+    lutris: slave-zero-x
     steamExtra:
       - 1142990652
       - 1376464121
@@ -667970,8 +667993,6 @@ Spider-Man 3:
   steam:
     id: 278420
 SpiderHeck:
-  cloud:
-    steam: true
   files:
     "<home>/AppData/LocalLow/Neverjam Studio/SpiderHeckApp/SaveFile.es3":
       tags:
