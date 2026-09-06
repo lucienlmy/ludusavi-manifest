@@ -811078,11 +811078,6 @@ Until Then:
   installDir:
     Until Then: {}
   launch:
-    "<base>/launcher.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
     "<base>/launcher.sh":
       - when:
           - bit: 64
