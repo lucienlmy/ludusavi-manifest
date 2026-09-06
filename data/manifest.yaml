@@ -72005,7 +72005,8 @@ Battle High 2 A+:
   launch:
     "<base>/BattleHigh2A.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 755590
 Battle Ion:
@@ -74307,6 +74308,8 @@ Battleship Lonewolf 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: battleship-surface-thunder
 Battleships and Carriers - Pacific War:
   installDir:
     Battleships and Carriers - Pacific War: {}
@@ -95540,7 +95543,7 @@ Board Quizz Adventure:
             store: steam
   steam:
     id: 1032440
-Boardfall Zero:
+Boardfall:
   files:
     "<winLocalAppData>/BoardFall":
       tags:
@@ -95553,16 +95556,18 @@ Boardfall Zero:
       when:
         - os: windows
   id:
-    lutris: boardfall-zero
+    lutris: boardfall
   installDir:
-    Boardfall zero: {}
+    Boardfall: {}
   launch:
     "<base>/BoardFall.exe":
       - when:
           - os: windows
             store: steam
   steam:
-    id: 4152060
+    id: 4026170
+Boardfall Zero:
+  alias: Boardfall
 Boardwalk Carnival Game:
   installDir:
     Boardwalk Carnival Game: {}
@@ -192064,6 +192069,32 @@ Demon and Fairy:
 "Demon's Winter":
   gog:
     id: 1505505224
+"Demon's Wrath":
+  cloud:
+    steam: true
+  files:
+    "<base>/SavesDir":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Demon's Wrath": {}
+  launch:
+    "<base>/DW 0.12.0a3 mac.app/Contents/MacOS/Demon's Wrath":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/DW 0.12.0a3.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Demon's Wrath.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2173920
 "Demon: Hell Keeper":
   steam:
     id: 1117110
@@ -247347,6 +247378,8 @@ European Air War:
           store: steam
   gog:
     id: 1406464063
+  id:
+    lutris: european-air-war
   installDir:
     European Air War: {}
   launch:
@@ -387873,6 +387906,15 @@ Kawaii Rainbow Portal:
           - store: steam
   steam:
     id: 823920
+Kawaii Survivors:
+  installDir:
+    Kawaii Survivors: {}
+  launch:
+    "<base>/Kawaii Survivors-win32-x64/Kawaii Survivors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4138160
 Kawanakajima no Kassen:
   cloud:
     steam: true
@@ -433869,11 +433911,6 @@ Mafia III:
       - when:
           - os: mac
             store: steam
-    "<base>/mafia3definitiveedition.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 360430
 "Mafia: Definitive Edition":
@@ -445438,6 +445475,19 @@ Maze Bandit:
             store: steam
   steam:
     id: 621850
+Maze Dungeon:
+  cloud:
+    steam: true
+  files:
+    "<base>/Maze Dungeon_Data/Resources/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Maze Dungeon: {}
+  steam:
+    id: 1904030
 Maze Gold Run:
   cloud:
     steam: true
@@ -452164,6 +452214,7 @@ Metal Gear Solid - Master Collection Version:
       when:
         - os: windows
   id:
+    lutris: metal-gear-solid-peace-walker-master-collection-ve
     steamExtra:
       - 3859630
       - 4184360
@@ -452213,6 +452264,7 @@ Metal Gear Survive:
       when:
         - os: windows
   id:
+    lutris: metal-gear-solid-master-collection-vol-2-bonus-content
     steamExtra:
       - 3859630
       - 4184420
@@ -483503,6 +483555,8 @@ Nanairo Reincarnation:
   steam:
     id: 31800
 "Nancy Drew: Danger on Deception Island":
+  id:
+    lutris: nancy-drew-danger-on-deception-island
   installDir:
     Nancy Drew Danger on Deception Island: {}
   launch:
@@ -483838,6 +483892,8 @@ Nanairo Reincarnation:
   steam:
     id: 615730
 "Nancy Drew: The Haunted Carousel":
+  id:
+    lutris: nancy-drew-the-haunted-carousel
   installDir:
     Nancy Drew The Haunted Carousel: {}
   launch:
@@ -614757,6 +614813,15 @@ Sandbox Showdown:
             store: steam
   steam:
     id: 849600
+Sandbox Survivors:
+  installDir:
+    Sandbox Survivors: {}
+  launch:
+    "<base>/Sandbox Survivors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3351570
 Sandhill Architectures:
   cloud:
     steam: true
@@ -626081,14 +626146,19 @@ Servant of The People:
   steam:
     id: 1146600
 Servant of the Lake:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/RustyLake/ServantOfTheLake/Serialization/SaveFiles/**/*.json":
+    "<home>/AppData/LocalLow/RustyLake/ServantOfTheLake/Serialization/SaveFiles":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/RustyLake/ServantOfTheLake/Serialization/SaveFiles/*.json":
+        - os: windows
+    "<home>/AppData/LocalLow/RustyLake/ServantOfTheLake/Serialization/SaveFiles/Settings.json":
+      tags:
+        - config
       when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: servant-of-the-lake
     steamExtra:

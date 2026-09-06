@@ -97804,6 +97804,7 @@
   installDir: Mafia III
   launch:
     - config:
+        betakey: "public,newtest"
         osarch: "64"
         oslist: windows
       executable: mafia3definitiveedition.exe
@@ -97813,18 +97814,20 @@
       executable: Mafia3.app
       type: none
     - config:
+        betakey: "public,newtest"
         osarch: "64"
         oslist: windows
-      description: Mafia III Definitive Edition Launcher
+      description: "Mafia III: Definitive Edition Launcher"
       executable: launcher.exe
       type: option2
-    - config:
-        betakey: newtest
+    - arguments: /steam
+      config:
+        betakey: beta_qa_internal
         osarch: "64"
         oslist: windows
-      description: 2K Launcher
-      executable: "\\2KLauncher\\LauncherPatcher.exe"
-      type: default
+      description: "Mafia III: Definitive Edition (Profiling EXE)"
+      executable: whiskey_profiling.exe
+      type: option1
 360450:
   installDir: Kiai Resonance
   launch:
@@ -316562,8 +316565,10 @@
 755590:
   installDir: Battle High 2 A+
   launch:
-    - executable: BattleHigh2A.exe
-      type: none
+    - config:
+        oslist: windows
+      executable: BattleHigh2A.exe
+      type: default
 755600:
   installDir: Christmas Race
   launch:
@@ -592752,6 +592757,26 @@
         oslist: windows
       executable: World Championship Boxing Manager 2.exe
       type: default
+1904030:
+  cloud:
+    saves:
+      - path: Maze Dungeon_Data/Resources
+        pattern: "*.json"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Maze Dungeon
+  launch:
+    - config:
+        betakey: Maze Dungeon.exe
+        oslist: windows
+      executable: Maze Dungeon.exe
+      type: default
+  nameLocalized:
+    koreana: 메이즈 던전
+    schinese: 迷宫地牢
+    tchinese: 迷宫地牢
 1904480:
   cloud:
     saves:
@@ -609843,6 +609868,27 @@
   installDir: ProjectWATERFALL
   launch:
     - executable: ProjectWATERFALL/ProjectWATERFALL.exe
+2173920:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: "Demon's Wrath"
+  launch:
+    - config:
+        oslist: windows
+      executable: "Demon's Wrath.exe"
+      type: default
+    - config:
+        oslist: linux
+      executable: DW 0.12.0a3.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: "DW 0.12.0a3 mac.app\\Contents\\MacOS\\Demon's Wrath"
+      type: default
 2174380:
   cloud:
     saves:
@@ -647601,6 +647647,11 @@
   installDir: Alien Grounds
   launch:
     - executable: Windows/TP_PFS_noMulti.exe
+3351570:
+  installDir: Sandbox Survivors
+  launch:
+    - executable: Sandbox Survivors.exe
+      type: default
 3352140: {}
 3352690:
   cloud:
@@ -656382,6 +656433,13 @@
       executable: Netoo.app
       type: default
 4022950: {}
+4026170:
+  installDir: Boardfall
+  launch:
+    - config:
+        oslist: windows
+      executable: BoardFall.exe
+      type: default
 4026250:
   cloud:
     saves:
@@ -657016,6 +657074,11 @@
       executable: "VHOLUME\\Binaries\\Win64\\VHOLUME-Win64-Shipping.exe"
 4132890: {}
 4138130: {}
+4138160:
+  installDir: Kawaii Survivors
+  launch:
+    - executable: "Kawaii Survivors-win32-x64\\Kawaii Survivors.exe"
+      type: default
 4139880:
   installDir: Inner Voice
   launch:
