@@ -24008,6 +24008,7 @@ Battleship Lonewolf 2:
   steamSide:
     - 896780
 "Battleship: Surface Thunder":
+  lutris: battleship-surface-thunder
   pageId: 167187
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\DisplaySettings.ini}}"
@@ -31035,10 +31036,12 @@ Board Games VR:
 Board Quizz Adventure:
   pageId: 135191
   steam: 1032440
-Boardfall Zero:
-  lutris: boardfall-zero
+Boardfall:
+  lutris: boardfall
   pageId: 219258
-  steam: 4152060
+  renamedFrom:
+    - Boardfall Zero
+  steam: 4026170
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\BoardFall\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BoardFall\\}}"
@@ -61960,6 +61963,13 @@ Demon and Fairy:
 "Demon's Winter":
   gog: 1505505224
   pageId: 173826
+"Demon's Wrath":
+  cloud:
+    steam: true
+  pageId: 220198
+  steam: 2173920
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SavesDir\\*}}"
 "Demon: Hell Keeper":
   pageId: 144291
   steam: 1117110
@@ -67796,10 +67806,14 @@ Doors to the City:
 Dopamine:
   pageId: 51602
   steam: 527300
+"Dora the Explorer: Animal Adventures":
+  pageId: 220179
 "Dora the Explorer: Backpack Adventure":
   pageId: 220171
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
+"Dora the Explorer: Fairytale Adventure":
+  pageId: 220200
 "Dora the Explorer: Lost City Adventure":
   pageId: 220173
   templates:
@@ -125994,6 +126008,9 @@ Kawaii Neko Girls:
 Kawaii Rainbow Portal:
   pageId: 90072
   steam: 823920
+Kawaii Survivors:
+  pageId: 220185
+  steam: 4138160
 Kawanakajima no Kassen:
   cloud:
     steam: true
@@ -144822,6 +144839,13 @@ Maze And Dagger:
 Maze Bandit:
   pageId: 64504
   steam: 621850
+Maze Dungeon:
+  cloud:
+    steam: true
+  pageId: 220187
+  steam: 1904030
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Maze Dungeon_Data\\Resources\\*.json}}"
 Maze Gold Run:
   cloud:
     steam: true
@@ -147010,6 +147034,7 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid: Peace Walker - Master Collection Version":
   cloud:
     steam: true
+  lutris: metal-gear-solid-peace-walker-master-collection-ve
   pageId: 213731
   steam: 2492660
   steamSide:
@@ -147029,6 +147054,7 @@ Metal Gear Survive:
 "Metal Gear: Ghost Babel - Master Collection Version":
   cloud:
     steam: true
+  lutris: metal-gear-solid-master-collection-vol-2-bonus-content
   pageId: 217589
   steam: 3036720
   steamSide:
@@ -157527,6 +157553,7 @@ Nanairo Reincarnation:
   pageId: 41225
   steam: 31800
 "Nancy Drew: Danger on Deception Island":
+  lutris: nancy-drew-danger-on-deception-island
   pageId: 41222
   steam: 31840
 "Nancy Drew: Ghost Dogs of Moon Lake":
@@ -157607,6 +157634,7 @@ Nanairo Reincarnation:
   pageId: 61446
   steam: 615730
 "Nancy Drew: The Haunted Carousel":
+  lutris: nancy-drew-the-haunted-carousel
   pageId: 41226
   steam: 31820
 "Nancy Drew: The Haunting of Castle Malloy":
@@ -200521,6 +200549,9 @@ Sandbox Anything:
 Sandbox Showdown:
   pageId: 94485
   steam: 849600
+Sandbox Survivors:
+  pageId: 220201
+  steam: 3351570
 Sandhill Architectures:
   cloud:
     steam: true
@@ -204065,11 +204096,16 @@ Servant of The People:
   pageId: 150741
   steam: 1146600
 Servant of the Lake:
+  cloud:
+    steam: true
   lutris: servant-of-the-lake
   pageId: 204070
   steam: 3636770
   steamSide:
     - 3996940
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\RustyLake\\ServantOfTheLake\\Serialization\\SaveFiles\\Settings.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\RustyLake\\ServantOfTheLake\\Serialization\\SaveFiles\\}}"
 Servo:
   pageId: 34296
   steam: 305510
