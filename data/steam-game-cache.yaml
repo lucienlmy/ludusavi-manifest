@@ -568059,16 +568059,10 @@
   launch:
     - config:
         osarch: "64"
-        oslist: windows
-      executable: launcher.exe
-      type: default
-    - config:
-        osarch: "64"
         oslist: linux
       executable: launcher.sh
       type: default
     - config:
-        betakey: beta
         osarch: "64"
         oslist: windows
       description: Until Then (Vulkan)
@@ -568076,7 +568070,6 @@
       type: option1
     - arguments: "--d3d12"
       config:
-        betakey: beta
         osarch: "64"
         oslist: windows
       description: Until Then (DX12)
