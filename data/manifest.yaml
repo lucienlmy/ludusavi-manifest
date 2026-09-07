@@ -56146,6 +56146,8 @@ Atari Vault:
   steam:
     id: 400020
 "Atari: 80 Classic Games in One!":
+  id:
+    lutris: atari-80-classic-games-in-one
   installDir:
     Atari 80 Classic Games: {}
   launch:
@@ -775115,6 +775117,11 @@ Timberborn:
     "<winDocuments>/Timberborn/ExperimentalSaves":
       tags:
         - save
+      when:
+        - os: windows
+    "<winDocuments>/Timberborn/PlayerData":
+      tags:
+        - config
       when:
         - os: windows
     "<winDocuments>/Timberborn/Saves":
