@@ -81241,6 +81241,11 @@ Beyond Sunset:
       - when:
           - os: mac
             store: steam
+    "<base>/launchbeyond.sh":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
     "<base>/sunset.exe":
       - when:
           - os: windows
@@ -687402,6 +687407,8 @@ Stray:
         - os: windows
   id:
     lutris: stray
+    steamExtra:
+      - 2086160
   installDir:
     Stray: {}
   launch:
