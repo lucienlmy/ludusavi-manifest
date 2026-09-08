@@ -95999,6 +95999,8 @@ Boiling Bolt:
         - os: windows
   gog:
     id: 1866033492
+  id:
+    lutris: boiling-point-road-to-hell
   installDir:
     Boiling Point Road to Hell: {}
   launch:
@@ -181597,6 +181599,8 @@ Dead Rising Deluxe Remaster:
         - save
       when:
         - store: steam
+  id:
+    lutris: dead-rising-deluxe-remaster
   installDir:
     DEAD RISING DELUXE REMASTER: {}
   launch:
@@ -194530,6 +194534,8 @@ Despera Drops:
         - os: windows
   gog:
     id: 1207658985
+  id:
+    lutris: desperados-2-coopers-revenge
   installDir:
     Desperados 2: {}
   launch:
@@ -201193,6 +201199,12 @@ Dirty Jobs Simulator:
 Dirty Laundry:
   id:
     lutris: dirty-laundry
+  installDir:
+    Dirty Laundry: {}
+  launch:
+    "<base>/Dirty Laundry.exe":
+      - when:
+          - store: steam
   steam:
     id: 4610590
 Dis Pontibus:
@@ -326053,6 +326065,9 @@ Happy Wars:
             store: steam
   steam:
     id: 246280
+Happy Wheels:
+  steam:
+    id: 4705510
 Happy Words:
   installDir:
     HappyWords: {}
@@ -511411,6 +511426,7 @@ Onimod Land:
     id: 761600
 "Onimusha: Way of the Sword":
   cloud:
+    epic: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/3974650/remote/win64_save":
@@ -511418,6 +511434,11 @@ Onimod Land:
         - save
       when:
         - store: steam
+    "<winAppData>/Capcom/OnimushaWotS/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: onimusha-way-of-the-sword
   installDir:
@@ -546046,6 +546067,19 @@ Poly Bridge 3:
 Poly Defense:
   steam:
     id: 1031160
+Poly Fighter:
+  files:
+    "<home>/AppData/LocalLow/HeartLoop Games/Poly Fighter":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4398040
+  steam:
+    id: 3977340
 Poly Fishing:
   cloud:
     steam: true
@@ -809501,6 +809535,14 @@ Unknown:
         - save
       when:
         - os: windows
+  id:
+    lutris: unknown-9-awakening
+    steamExtra:
+      - 2280170
+      - 2385220
+      - 2385221
+      - 2385222
+      - 2385223
   installDir:
     Unknown 9 - Awakening: {}
   launch:
