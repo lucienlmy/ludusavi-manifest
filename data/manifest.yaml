@@ -319519,6 +319519,8 @@ Gunmetal Arcadia Zero:
 Gunmetal Gothic:
   id:
     lutris: gunmetal-gothic
+    steamExtra:
+      - 5005460
   steam:
     id: 2248150
 GunnRunner:
@@ -586216,9 +586218,13 @@ Resonance of Fate 4K/HD Edition:
         - config
       when:
         - os: windows
-          store: microsoft
-        - os: windows
           store: steam
+    "<winDocuments>/Resonance A Plague Tale Legacy/ENGINESETTINGS":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Packages/FocusHomeInteractiveSA.APlagueTaleFelons_4hny5m903y3g0/SystemAppData/wgs":
       tags:
         - save
@@ -815224,6 +815230,10 @@ Valheim:
         - config
       when:
         - os: linux
+  id:
+    lutris: valheim
+    steamExtra:
+      - 1620250
   installDir:
     Valheim: {}
   launch:
