@@ -55630,6 +55630,7 @@ Damn!:
   pageId: 69962
   steam: 680450
 Damnation:
+  lutris: damnation
   pageId: 41292
   steam: 12790
   templates:
@@ -71869,10 +71870,11 @@ Dungeon Nightmares:
   lutris: dungeon-nightmares
   pageId: 220341
 "Dungeon Nightmares II: The Memory":
+  lutris: dungeon-nightmares-ii-the-memory
   pageId: 34039
   steam: 382090
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\K Monkey\\Dungeon Nightmares II _ The Memory\\gameoptions.dat}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\K Monkey\\Dungeon Nightmares II : The Memory|{{p|userprofile}}\\AppData\\LocalLow\\K Monkey\\Dungeon Nightmares II _ The Memory\\gameoptions.dat}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/K Monkey/Dungeon Nightmares II/}}"
 Dungeon Of Dragon Knight:
   cloud:
