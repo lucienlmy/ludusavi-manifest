@@ -17565,6 +17565,7 @@
 * [Mr. Parkour](https://www.pcgamingwiki.com/wiki/?curid=165065)
 * [Mr. Parkour 2](https://www.pcgamingwiki.com/wiki/?curid=165067)
 * [Mr. Parkour 3](https://www.pcgamingwiki.com/wiki/?curid=165069)
+* [Mr. Pogo](https://www.pcgamingwiki.com/wiki/?curid=220446)
 * [Mr. Pumpkin Adventure](https://www.pcgamingwiki.com/wiki/?curid=42483)
 * [Mr. Shadow](https://www.pcgamingwiki.com/wiki/?curid=53099)
 * [Mr. Sweet](https://www.pcgamingwiki.com/wiki/?curid=92213)
