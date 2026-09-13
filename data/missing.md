@@ -22418,7 +22418,6 @@
 * [Rolf Connect Math](https://www.pcgamingwiki.com/wiki/?curid=181068)
 * [Roll Control](https://www.pcgamingwiki.com/wiki/?curid=171937)
 * [Roll'd](https://www.pcgamingwiki.com/wiki/?curid=37862)
-* [Rollcage Stage II](https://www.pcgamingwiki.com/wiki/?curid=133997)
 * [Rolled Out!](https://www.pcgamingwiki.com/wiki/?curid=171932)
 * [Roller](https://www.pcgamingwiki.com/wiki/?curid=93692)
 * [Roller Coaster Apocalypse VR](https://www.pcgamingwiki.com/wiki/?curid=91855)
