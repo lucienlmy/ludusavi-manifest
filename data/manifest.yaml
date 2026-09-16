@@ -88052,6 +88052,14 @@ Blackwood:
         - os: windows
   id:
     lutris: blackwood
+    steamExtra:
+      - 5237010
+  installDir:
+    BLACKWOOD: {}
+  launch:
+    "<base>/Blackwood.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_CURRENT_USER/SOFTWARE/AttritoM7 Productions/Blackwood:
       tags:
@@ -328094,6 +328102,7 @@ Harvest Life:
     id: 1246870
 "Harvest Moon: The Winds of Anthos":
   cloud:
+    epic: true
     steam: true
   files:
     "<home>/AppData/LocalLowNatsume Inc_/Harvest Moon_ The Winds of Anthos/<storeUserId>/*.sav":
@@ -483115,6 +483124,11 @@ NHRA Drag Racing:
 NHRA Drag Racing 2:
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Motorsims/NHRA2 Drag Racing/1.0:
+      tags:
+        - config
+NHRA Drag Racing Main Event:
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Motorsims/NHRA Pro Stock Drag Racing/1.0:
       tags:
         - config
 "NHRA Drag Racing: Quarter Mile Showdown":
@@ -639810,6 +639824,7 @@ Silent Gentleman:
         - os: windows
 Silent Hill 2:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -639885,6 +639900,7 @@ Silent Hill 3:
     lutris: silent-hill-4-the-room
 Silent Hill f:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -763906,6 +763922,9 @@ The Storytale:
       when:
         - os: mac
           store: steam
+  id:
+    steamExtra:
+      - 1682760
   installDir:
     The Strange Story Of Brian Fisher Chapter 2: {}
   launch:
@@ -782585,6 +782604,8 @@ Tomb Raider II:
   steam:
     id: 225320
 Tomb Raider IV-VI Remastered:
+  alias: Tomb Raider IV–VI Remastered
+Tomb Raider IV–VI Remastered:
   cloud:
     epic: true
     gog: true
