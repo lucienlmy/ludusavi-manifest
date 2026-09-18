@@ -416750,6 +416750,12 @@ Limbo:
         - save
       when:
         - store: steam
+    "<winLocalAppData>/Packages/16902PlaydeadAPS.PlaydeadsLIMBO_2m6wzp0cmt084/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<xdgData>/PlayDead/Limbo":
       tags:
         - config
@@ -764047,6 +764053,8 @@ The Storytale:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: the-strange-story-of-brian-fisher-chapter-1
   installDir:
     The Strange Story Of Brian Fisher Chapter 1: {}
   launch:
