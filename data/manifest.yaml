@@ -256137,11 +256137,6 @@ Factorio:
           - bit: 32
             os: windows
             store: steam
-    "<base>/bin/i386/factorio":
-      - when:
-          - bit: 32
-            os: linux
-            store: steam
     "<base>/bin/x64/Factorio.exe":
       - when:
           - bit: 64
@@ -767345,6 +767340,7 @@ The Vanishing of Ethan Carter:
     id: 258520
 The Vanishing of Ethan Carter Redux:
   cloud:
+    epic: true
     steam: true
   files:
     "<winDocuments>/My Games/The Vanishing of Ethan Carter Redux/SavedGames":
@@ -767358,10 +767354,13 @@ The Vanishing of Ethan Carter Redux:
       when:
         - os: windows
   gog:
-    id: 1207665373
+    id: 1442218265
   id:
     gogExtra:
       - 1207665543
+    lutris: the-vanishing-of-ethan-carter-redux
+    steamExtra:
+      - 319930
   installDir:
     The Vanishing of Ethan Carter Redux: {}
   launch:
@@ -849761,6 +849760,10 @@ WizzBall:
   steam:
     id: 629780
 "Wo Long 2: Wings of Ember":
+  id:
+    lutris: wo-long-2-wings-of-ember
+    steamExtra:
+      - 4818230
   steam:
     id: 4507990
 "Wo Long: Fallen Dynasty":

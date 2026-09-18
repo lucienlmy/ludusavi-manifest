@@ -19064,13 +19064,15 @@ Austin Cooper S Racing:
   pageId: 202392
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
-"Austin Powers Operation: Trivia":
-  pageId: 203470
 Austin Powers Pinball:
   pageId: 175673
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\Austin Powers Pinball|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\Austin Powers Pinball\\Display profile}}"
     - "{{Game data/saves|Windows|{{p|hklm}}\\SOFTWARE\\Wildfire Studios\\Austin Powers Pinball\\High scores}}"
+"Austin Powers: Operation: Trivia":
+  pageId: 203470
+  renamedFrom:
+    - "Austin Powers Operation: Trivia"
 Australia Did It:
   pageId: 210727
   steam: 2396130
@@ -22269,6 +22271,8 @@ Barbie Horse Trails:
     xbox: true
   pageId: 210109
   steam: 2786660
+Barbie Mermaid Adventure:
+  pageId: 220619
 Barbie Pet Rescue:
   pageId: 170646
 Barbie Rewind:
@@ -250150,12 +250154,16 @@ The Vanishing of Ethan Carter:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\The Vanishing of Ethan Carter\\AstronautsGame\\SaveData\\SaveGame_0.sav}}"
 The Vanishing of Ethan Carter Redux:
   cloud:
+    epic: true
     steam: true
-  gog: 1207665373
+  gog: 1442218265
   gogSide:
     - 1207665543
+  lutris: the-vanishing-of-ethan-carter-redux
   pageId: 28603
   steam: 400430
+  steamSide:
+    - 319930
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\EthanCarter\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\The Vanishing of Ethan Carter Redux\\SavedGames\\}}"
@@ -278274,8 +278282,11 @@ WizzBall:
 "Wo Long 2: Wings of Ember":
   cloud:
     xbox: true
+  lutris: wo-long-2-wings-of-ember
   pageId: 217452
   steam: 4507990
+  steamSide:
+    - 4818230
 "Wo Long: Fallen Dynasty":
   cloud:
     steam: true
