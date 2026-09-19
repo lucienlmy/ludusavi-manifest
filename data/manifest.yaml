@@ -9438,6 +9438,7 @@ A Grim Tale of Vices:
     id: 987140
 A Guidebook of Babel:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/StarryStarry/Babel/Steam/BabelCommonSave.*":
@@ -9450,6 +9451,12 @@ A Guidebook of Babel:
         - save
       when:
         - os: windows
+  gog:
+    id: 1757334912
+  id:
+    gogExtra:
+      - 1270706807
+      - 1948186806
   installDir:
     A Guidebook Of Babel: {}
   launch:
@@ -14865,6 +14872,10 @@ AR-K:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Gato Salvaje/ArkIII:
+      tags:
+        - config
   steam:
     id: 368890
 ARC:
@@ -26495,6 +26506,14 @@ Aion:
             store: steam
   steam:
     id: 261430
+Aion 2:
+  id:
+    lutris: aion-2
+    steamExtra:
+      - 4972180
+      - 4972320
+  steam:
+    id: 3393110
 Air:
   installDir:
     Air: {}
@@ -38722,6 +38741,17 @@ Ancients of Ooga:
   steam:
     id: 91810
 And All Would Cry Beware!:
+  files:
+    "<home>/AppData/LocalLow/Renegade Sector Games/AndAllWouldCryBeware/AndAllWouldCryBeware*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Renegade Sector Games/AndAllWouldCryBeware/CaptainMcCalleryOptions.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     And All Would Cry Beware!: {}
   launch:
@@ -39990,6 +40020,10 @@ Aniimo:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Aniimo/Aniimo:
+      tags:
+        - config
   steam:
     id: 4126040
 AnimVR:
@@ -148956,12 +148990,7 @@ Conan Chop Chop:
     id: 1061880
 Conan Exiles:
   files:
-    "<base>/ConanSandbox/Config":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<base>/ConanSandbox/Saved":
+    "<base>/ConanSandbox/Saved/*.db":
       tags:
         - save
       when:
@@ -184231,6 +184260,8 @@ Dear Esther:
         - store: steam
   gog:
     id: 1305464490
+  id:
+    lutris: dear-esther-landmark-edition
   installDir:
     Dear Esther Landmark Edition: {}
   launch:
@@ -224505,6 +224536,11 @@ Dungeons of Hinterberg:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/Microbird/Dungeons of Hinterberg/Steam/UserSettings.hbsettings":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Packages/CurveDigital.DungeonsOfHinterberg_1ezqdnbhnc70m/SystemAppData/wgs":
       tags:
         - save
@@ -224518,6 +224554,10 @@ Dungeons of Hinterberg:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Microbird/Dungeons of Hinterberg:
+      tags:
+        - config
   steam:
     id: 1983260
 Dungeons of Kragmor:
@@ -354380,6 +354420,24 @@ Hunter of Antiques:
 "Hunter: The Reckoning - Day for Night":
   cloud:
     steam: true
+  id:
+    lutris: hunter-the-reckoning-day-for-night--1
+  installDir:
+    Hunter The Reckoning — Day For Night: {}
+  launch:
+    "<base>/DayForNight":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
+    "<base>/DayForNight.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hunter The Reckoning Day For Night.app/Contents/MacOS/Hunter The Reckoning Day For Night":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 3133670
 "Hunter: The Reckoning - Deathwish":
@@ -627773,6 +627831,24 @@ Sexbot Quality Assurance Simulator:
             store: steam
   steam:
     id: 868380
+"Sexnatural: MILFs Must Be Filled":
+  installDir:
+    SEXNATURAL MILFs Must Be Filled 😈💦: {}
+  launch:
+    "<base>/SEXNATURAL MILFs Must Be Filled.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SEXNATURAL MILFs Must Be Filled.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SEXNATURAL MILFs Must Be Filled.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3920160
 Sextris Effect:
   installDir:
     SextrisEffect: {}
@@ -649547,6 +649623,14 @@ Slots & Daggers:
             store: steam
   steam:
     id: 333580
+Slow Roads:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4551650
+  steam:
+    id: 3431300
 Slow.Bullet VR:
   installDir:
     Slow.Bullet VR: {}
@@ -651650,6 +651734,24 @@ Sniper Commando Attack:
 Sniper Dan:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Denki Ltd/Sniper Dan/Continue.txt":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Denki Ltd/Sniper Dan/Photos/*.jpg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Denki Ltd/Sniper Dan/Progress.txt":
+      when:
+        - store: steam
+  installDir:
+    Sniper Dan: {}
+  launch:
+    "<base>/Sniper Dan.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2841650
 Sniper Elite:
@@ -655280,6 +655382,8 @@ Soldiers of the Universe:
         - os: windows
   gog:
     id: 1207658664
+  id:
+    lutris: soldiers-heroes-of-world-war-ii
   installDir:
     Soldiers Heroes of World War 2: {}
   launch:
@@ -741190,6 +741294,16 @@ The Grinch:
 "The Grinch 2: Saving Christmas":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Casual Brothers/The Grinch 2 Saving Christmas":
+      when:
+        - store: steam
+  installDir:
+    The Grinch 2 Saving Christmas: {}
+  launch:
+    "<base>/The Grinch 2 Saving Christmas.exe":
+      - when:
+          - store: steam
   steam:
     id: 3470930
 "The Grinch: Christmas Adventures":
@@ -767837,6 +767951,14 @@ The Walking Dead Onslaught:
     lutris: the-walking-dead-streets-of-survival--1
     steamExtra:
       - 4718570
+      - 4857030
+  installDir:
+    The Walking Dead Streets of Survival: {}
+  launch:
+    "<base>/TWD.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3777850
 "The Walking Dead: Survival Instinct":
@@ -810357,8 +810479,33 @@ United Heist:
 "United Heist: Facility Zero":
   cloud:
     steam: true
+  files:
+    "<home>/.local/share/\"United Heist- Facility Zero\"/*.tres":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/United Heist- Facility Zero/*.tres":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: united-heist-facility-zero
+  installDir:
+    United Heist Facility Zero: {}
+  launch:
+    "<base>/UnitedHeistFacilityZero.exe":
+      - arguments: "--rendering-driver d3d12"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - when:
+          - os: windows
+            store: steam
+    "<base>/UnitedHeistFacilityZero.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3387160
 United Tactics:
@@ -844589,6 +844736,15 @@ Wild West Online:
             store: steam
   steam:
     id: 743860
+Wild West Pioneers:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3700780
+      - 4102220
+  steam:
+    id: 3222640
 "Wild West Saga:Idle Tycoon":
   installDir:
     Wild West Saga: {}
