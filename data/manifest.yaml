@@ -73220,6 +73220,8 @@ Battle of Europe:
         - save
       when:
         - os: windows
+  id:
+    lutris: battle-of-europe
   installDir:
     Battle Of Europe: {}
   launch:
@@ -134973,6 +134975,12 @@ Chucky:
   steam:
     id: 999250
 "Chud Logic's: Gockbound":
+  installDir:
+    "Chud Logic's Gockbound": {}
+  launch:
+    "<base>/Chud Logic's Gockbound.exe":
+      - when:
+          - store: steam
   steam:
     id: 3802620
 Chunks:
@@ -208561,6 +208569,16 @@ Donkey Kong 64:
         - save
       when:
         - os: windows
+    "<xdgConfig>/DK64Recompiled":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/DK64Recompiled/saves":
+      tags:
+        - save
+      when:
+        - os: linux
 Donkey Xote:
   files:
     "<base>/SaveGame.sav":
@@ -217718,6 +217736,31 @@ Dress-up Traveller:
             store: steam
   steam:
     id: 1129010
+Dressmaker:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Cozy Lives/Dressmaker":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Documents/Cozy Lives/Dressmaker":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Dressmaker: {}
+  launch:
+    "<base>/Dressmaker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Dressmaker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4019220
 Drew and the Floating Labyrinth:
   files:
     "<base>/ ./save_data.txt":
@@ -313299,12 +313342,40 @@ Graveyard Keeper:
             os: linux
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Lazy Bear Games/Graveyard Keeper/setting:
+    HKEY_CURRENT_USER/Software/Lazy Bear Games/Graveyard Keeper:
       tags:
         - config
   steam:
     id: 599140
 Graveyard Keeper 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Lazy Bear Games/Graveyard Keeper 2/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Lazy Bear Games/Graveyard Keeper 2/*.info":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1546179524
+  id:
+    lutris: graveyard-keeper-ii
+  installDir:
+    Graveyard Keeper 2: {}
+  launch:
+    "<base>/GraveyardKeeper2.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Lazy Bear Games/Graveyard Keeper 2:
+      tags:
+        - config
   steam:
     id: 4358690
 Graveyard Shift:
@@ -326856,6 +326927,13 @@ Happy Wars:
   steam:
     id: 246280
 Happy Wheels:
+  files:
+    "<winAppData>/HappyWheels":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Happy Wheels: {}
   launch:
@@ -474386,6 +474464,11 @@ Mr. Pumpkin Adventure:
             store: steam
   steam:
     id: 491220
+Mr. Records:
+  gog:
+    id: 1897263287
+  steam:
+    id: 3053470
 Mr. Rescue:
   files:
     "<home>/.local/share/love/mrrescue/ (highscores and stats only)":
@@ -529981,6 +530064,24 @@ Pathways into Darkness:
 Patlabor the Case Files:
   cloud:
     steam: true
+  files:
+    "<home>/deck/.local/share/Steam/steamapps/compatdata/3275400/pfx/drive_c/users/steamuser/Documents/My Games/Patlabor/Saved/SaveGames/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/Patlabor/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Patlabor: {}
+  launch:
+    "<base>/Patlabor.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3275400
 Pato Box:
@@ -595359,10 +595460,20 @@ Rituals in the Dark:
 Rivage:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Rivage/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: rivage
     steamExtra:
       - 4465080
+  installDir:
+    Project Singularity: {}
+  launch:
+    "<base>/Rivage.exe":
+      - when:
+          - store: steam
   steam:
     id: 4094660
 Rivais Em Batalha:
@@ -741878,6 +741989,21 @@ The Guest:
         - config
   steam:
     id: 402040
+"The Guild 1 Remake: Europa 1410":
+  files:
+    "<winLocalAppData>/Europa1410/Saved/SaveGames/Games/**/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    The Guild - Europa 1410: {}
+  launch:
+    "<base>/Europa1410.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2977260
 The Guild 3:
   cloud:
     steam: true
@@ -741981,8 +742107,7 @@ The Guild II:
   steam:
     id: 39680
 "The Guild: Europa 1410":
-  steam:
-    id: 2977260
+  alias: "The Guild 1 Remake: Europa 1410"
 The Guilt and the Shadow:
   installDir:
     The Guilt and the Shadow: {}
@@ -840639,12 +840764,33 @@ Welkin Road:
 Well Dweller:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/WellDweller":
+      when:
+        - store: steam
+    "<winLocalAppData>/WellDweller/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<xdgConfig>/WellDweller":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/WellDweller/**/*.sav":
+      when:
+        - store: steam
   gog:
     id: 1571381382
   id:
     lutris: well-dweller
     steamExtra:
       - 4540890
+  installDir:
+    Well Dweller: {}
+  launch:
+    "<base>/WellDweller.exe":
+      - when:
+          - store: steam
   steam:
     id: 3699590
 WellTown:
