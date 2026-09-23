@@ -48959,6 +48959,9 @@ Control Resonant:
     - Control 2
     - "Control: Resonant"
   steam: 3669870
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Remedy\\CONTROLResonant\\renderer.ini}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3669870\\remote\\}}"
 Control Room Alpha:
   lutris: control-room-alpha
   pageId: 210829
