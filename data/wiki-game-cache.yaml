@@ -19917,6 +19917,8 @@ Axiom Verge 2:
 Axion:
   pageId: 45320
   steam: 380570
+Axis & Allies:
+  pageId: 220819
 Axis & Allies (2004):
   pageId: 8819
   renamedFrom:
@@ -19933,6 +19935,8 @@ Axis & Allies 1942 Online:
   steam: 898920
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\axisandalliesonline-desktop\\local-settings\\}}"
+"Axis & Allies: Iron Blitz":
+  pageId: 220817
 Axis Football 2015:
   pageId: 47273
   steam: 370090
@@ -102737,6 +102741,11 @@ Grim Seventh:
   renamedFrom:
     - "Grim Tales: The Wishes Collector's Edition"
   steam: 758580
+Grim Trials:
+  cloud:
+    steam: true
+  pageId: 220814
+  steam: 2621930
 Grim Wanderings:
   pageId: 82827
   steam: 799620
@@ -235041,6 +235050,7 @@ Terminal Velocity:
   gogSide:
     - 1624869208
     - 1645176851
+    - 1832512955
   lutris: terminator-dark-fate-defiance
   pageId: 175870
   steam: 1839950
@@ -235048,6 +235058,7 @@ Terminal Velocity:
     - 1839950
     - 2842170
     - 3650450
+    - 4157110
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\My Games\\Terminator Dark Fate\\profiles\\{{P|uid}}\\gameoptions.xml|{{p|userprofile\\documents}}\\My Games\\Terminator Dark Fate\\profiles\\{{P|uid}}\\hotkeys.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\Terminator Dark Fate\\profiles\\}}"
