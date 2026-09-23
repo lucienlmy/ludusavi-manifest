@@ -15570,6 +15570,7 @@
   launch:
     - executable: FEUpdater.exe
 115100:
+  state: outdated
   installDir: Costume Quest
   launch:
     - config:
@@ -16210,6 +16211,7 @@
   launch:
     - executable: Impire.exe
 202170:
+  state: outdated
   cloud:
     saves:
       - path: Feral Interactive/Sleeping Dogs/SaveData
@@ -63282,6 +63284,7 @@
       executable: HardWest.x86_64
       type: none
 307690:
+  state: outdated
   cloud:
     saves:
       - path: data
@@ -451076,6 +451079,7 @@
       executable: Night Catcher.exe
       type: none
 1036890:
+  state: outdated
   cloud:
     saves:
       - path: SW3/Saved/SaveGames
@@ -514783,6 +514787,7 @@
       executable: GraFi Halloween.exe
       type: default
 1172710:
+  state: outdated
   cloud:
     saves:
       - path: DuneSandbox/Saved/Cloud
@@ -554571,6 +554576,7 @@
       executable: Power to the People Demo.exe
       type: option1
 1413480:
+  state: outdated
   cloud:
     saves:
       - path: "Sega/smt3hd/{Steam3AccountID}"
@@ -573607,6 +573613,7 @@
     - executable: portal2.exe
       type: default
 1636440:
+  state: outdated
   cloud:
     saves:
       - path: Townfall/Saved/SaveGames
@@ -579143,6 +579150,7 @@
       executable: Granny 3.exe
       type: default
 1707620:
+  state: outdated
   cloud:
     saves:
       - path: Banzai Studios/GAZZLERS/
@@ -599406,6 +599414,7 @@
     schinese: 《地下城守护者黄金版™》
     tchinese: 《地城守護者黃金版™》
 1996770:
+  state: outdated
   cloud:
     saves:
       - path: Nightdive Studios/Turok 3/saves/
@@ -619852,6 +619861,8 @@
   installDir: "Hunchback's Dungeon"
   launch:
     - executable: hunchback.exe
+2369580:
+  state: outdated
 2369900:
   installDir: Castlevania Dominus Collection
   launch:
@@ -623403,6 +623414,7 @@
         oslist: windows
       executable: EnchantedPortals.exe
 2444750:
+  state: outdated
   cloud:
     saves:
       - path: Lizard Smoothie/Shape of Dreams/QuickSave
@@ -638879,6 +638891,7 @@
     japanese: トーエム2
     schinese: TOEM 2 摄影冒险2
 2902170:
+  state: outdated
   cloud:
     saves:
       - path: MahouPrototype/Saved/SaveGames
@@ -643586,6 +643599,8 @@
         oslist: windows
       executable: "Liar's Bar.exe"
       type: default
+3099790:
+  state: outdated
 3100370:
   cloud:
     saves:
@@ -648393,6 +648408,8 @@
   installDir: Retrowave 2
   launch:
     - executable: Retrowave 2.exe
+3333700:
+  state: outdated
 3333990: {}
 3334710:
   cloud:
@@ -649761,6 +649778,7 @@
     turkish: EA SPORTS FC™ 26
     ukrainian: EA SPORTS FC™ 26
 3407390:
+  state: outdated
   cloud:
     saves:
       - path: Amplitude Studios/Endless Legend 2/Save Files
@@ -650606,6 +650624,7 @@
     turkish: "Star Trek: Bilinmeyen Üsler"
     ukrainian: "Star Trek: Незвідані аванпости"
 3470930:
+  state: outdated
   cloud:
     saves:
       - path: Casual Brothers/The Grinch 2 Saving Christmas
@@ -653398,6 +653417,7 @@
     schinese: 遗忘之海
     tchinese: 遺忘之海
 3634520:
+  state: outdated
   cloud:
     saves:
       - path: Samson/Saved/SaveGames/
@@ -659694,6 +659714,7 @@
     schinese: Pickmos / 精灵皮可
     tchinese: Pickmos / 精靈皮可
 4358690:
+  state: outdated
   cloud:
     saves:
       - path: Lazy Bear Games/Graveyard Keeper 2
@@ -660986,6 +661007,8 @@
     russian: "Герой Королевства: Отголоски"
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
+5219090:
+  state: outdated
 5227630: {}
 5233100: {}
 5244970: {}
