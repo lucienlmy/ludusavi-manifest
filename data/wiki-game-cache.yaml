@@ -19794,6 +19794,9 @@ Away from beauty 色即是空:
 "Away: The Survival Series":
   pageId: 78768
   steam: 750200
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Away\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Away\\Saved\\SaveGames\\}}"
 Awe:
   cloud:
     steam: true
@@ -105880,6 +105883,8 @@ Hammer 2:
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\RewindApp\\Hammer2\\}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\RewindApp\\Hammer2\\}}"
+Hammer Boy:
+  pageId: 220867
 Hammer Heads:
   pageId: 16568
   steam: 3400
@@ -137871,8 +137876,11 @@ Lorelai:
 Lorelei and the Laser Eyes:
   cloud:
     steam: true
+  lutris: lorelei-and-the-laser-eyes
   pageId: 201507
   steam: 2008920
+  steamSide:
+    - 2940730
 Loren The Amazon Princess:
   cloud:
     steam: true
@@ -208422,6 +208430,7 @@ SiN Reloaded:
   steamSide:
     - 4679680
   templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\SiN Reloaded\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\SiN Reloaded\\base\\save\\*.pak.zst}}"
 SiNKR:
   cloud:
