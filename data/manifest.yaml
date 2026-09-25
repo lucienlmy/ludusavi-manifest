@@ -429493,6 +429493,11 @@ Luminous Combat:
           - store: steam
   steam:
     id: 827410
+Luminous Nights:
+  id:
+    lutris: luminous-nights--1
+  steam:
+    id: 1949610
 Lumo:
   cloud:
     steam: true
