@@ -15686,6 +15686,10 @@ AVSEQ:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/BIG ROBOT Ltd/AVSEQ:
+      tags:
+        - save
   steam:
     id: 207670
 AWA:
@@ -46110,12 +46114,7 @@ Arcade USA:
         - os: windows
 Arcadecraft:
   files:
-    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/ArcadeGame.txt":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/Milestones.txt":
+    "<winDocuments>/SavedGames/Arcadecraft":
       tags:
         - save
       when:
@@ -46123,11 +46122,6 @@ Arcadecraft:
     "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/Options.txt":
       tags:
         - config
-      when:
-        - os: windows
-    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/Scores.txt":
-      tags:
-        - save
       when:
         - os: windows
   installDir:
@@ -57338,7 +57332,6 @@ AtmaSphere:
   registry:
     HKEY_CURRENT_USER/Software/MazenGames/AtmaSphereFinal:
       tags:
-        - config
         - save
   steam:
     id: 753660
@@ -59128,6 +59121,12 @@ Australian Road Trains:
   steam:
     id: 964390
 Australian Trip:
+  files:
+    "<winLocalAppData>/AustralianTrip/User Data/Default/IndexedDB":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     AustralianTrip: {}
   launch:
@@ -60964,6 +60963,11 @@ Awakened:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/GenuineFlipFlopsGames(www.Genuineflip-flops.com)/Awakened:
+      tags:
+        - config
+        - save
   steam:
     id: 493770
 Awakening of Celestial:
@@ -61129,6 +61133,10 @@ Away:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Inversion Software/Away:
+      tags:
+        - config
   steam:
     id: 757910
 "Away From Earth: Moon":
@@ -62107,6 +62115,17 @@ Azai - TD:
   steam:
     id: 3014460
 Aztaka:
+  files:
+    "<base>/Aztaka.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Aztaka/Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Aztaka: {}
   launch:
@@ -177353,6 +177372,7 @@ Darkness Rollercoaster - Ultimate Shooter Edition:
       when:
         - os: windows
   id:
+    lutris: darkness-within-2-the-dark-lineage
     steamExtra:
       - 414640
   installDir:
@@ -177365,6 +177385,8 @@ Darkness Rollercoaster - Ultimate Shooter Edition:
   steam:
     id: 298950
 "Darkness Within: In Pursuit of Loath Nolder":
+  cloud:
+    steam: true
   files:
     "<winDocuments>/Darkness Within":
       tags:
@@ -177382,6 +177404,7 @@ Darkness Rollercoaster - Ultimate Shooter Edition:
       when:
         - os: windows
   id:
+    lutris: darkness-within-in-pursuit-of-loath-nolder
     steamExtra:
       - 414680
   installDir:
@@ -422222,8 +422245,15 @@ Look Outside:
     steam: true
   files:
     "<base>/save":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<base>/save/config.rmmzsave":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1582305837
   id:
@@ -448346,6 +448376,10 @@ Mechabellum:
   installDir:
     Mechabellum: {}
   launch:
+    "<base>/Mechabellum.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Mechabellum.exe":
       - when:
           - bit: 64
@@ -533414,6 +533448,10 @@ Perfect Universe:
 Perfect Weapon:
   gog:
     id: 2114931848
+  registry:
+    HKEY_LOCAL_MACHINE/Software/American Softworks/Perfect Weapon:
+      tags:
+        - config
 Perfect World International:
   installDir:
     PWI: {}
@@ -792233,10 +792271,16 @@ Train Sim World 7:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/TrainSimWorld7/Saved/SaveGames/<storeUserId>/*.sav":
+    "<winDocuments>/My Games/TrainSimWorld7/Saved/Config":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winDocuments>/My Games/TrainSimWorld7/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Train Sim World 7: {}
   launch:
