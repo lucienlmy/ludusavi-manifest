@@ -72456,6 +72456,8 @@ Battle Knights:
   steam:
     id: 1172400
 Battle Mages:
+  id:
+    lutris: battle-mages
   installDir:
     Battle Mages: {}
   launch:
@@ -72466,6 +72468,8 @@ Battle Mages:
   steam:
     id: 302470
 "Battle Mages: Sign of Darkness":
+  id:
+    lutris: battle-mages-sign-of-darkness
   installDir:
     Battle Mages Sign of Darkness: {}
   launch:
@@ -140634,6 +140638,8 @@ Close Combat:
         - os: windows
   gog:
     id: 1981721026
+  id:
+    lutris: close-combat-3-the-russian-front
   installDir:
     Close Combat 3 The Russian Front: {}
   launch:
@@ -140746,6 +140752,8 @@ Close Combat:
         - os: windows
   gog:
     id: 2016902862
+  id:
+    lutris: close-combat-5-invasion-normandy-utah-beach-to-che
   installDir:
     Close Combat 5 Invasion Normandy - Utah Beach to Cherbourg: {}
   launch:
@@ -140831,6 +140839,8 @@ Close Combat:
         - os: windows
   gog:
     id: 1714577252
+  id:
+    lutris: close-combat-4-the-battle-of-the-bulge
   installDir:
     Close Combat 4 The Battle of the Bulge: {}
   launch:
@@ -257312,6 +257322,8 @@ Fair Islands VR:
   steam:
     id: 526960
 Fair Strike:
+  id:
+    lutris: fair-strike
   installDir:
     Fair Strike: {}
   launch:
@@ -420965,6 +420977,8 @@ LocoSoccer:
   steam:
     id: 396360
 Locoland:
+  id:
+    lutris: locoland
   installDir:
     Locoland: {}
   launch:
@@ -514540,6 +514554,8 @@ Operation Warcade VR:
         - save
       when:
         - os: windows
+  id:
+    lutris: operation-matriarchy
   installDir:
     Operation Matriarchy: {}
   launch:
@@ -703600,6 +703616,11 @@ Superhot VR:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/com.superhotgame.shmcd/shmcd.save":
+      tags:
+        - save
+      when:
+        - os: mac
     "<xdgConfig>/unity3d/SUPERHOT_Team/SHMCD/config.cfg":
       tags:
         - config
