@@ -25834,6 +25834,8 @@ Aggelos:
   steam:
     id: 717310
 "Aggression: Europe Under Fire":
+  id:
+    lutris: aggression-europe-under-fire
   installDir:
     Aggression - Reign Over Europe: {}
   launch:
@@ -61853,6 +61855,17 @@ Axis Football 2021:
             store: steam
   steam:
     id: 1641830
+"Axol's Quest":
+  installDir:
+    "Axol's Quest": {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4029480
 "Axyos: Battlecards":
   files:
     "<winLocalAppData>/AXYOS_Battlecards/Saved/SaveGames/*.sav":
@@ -78966,6 +78979,8 @@ Bejeweled 2:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: bejeweled-2-deluxe
   installDir:
     Bejeweled 2 Deluxe: {}
   launch:
@@ -80351,6 +80366,8 @@ Bet on Man:
         - config
       when:
         - os: windows
+  id:
+    lutris: bet-on-soldier
   installDir:
     Bet On Soldier: {}
   launch:
@@ -733452,6 +733469,7 @@ The Cross Horror Game:
     gogExtra:
       - 1236960892
       - 1571077515
+    lutris: the-crows-eye
     steamExtra:
       - 585730
   installDir:
