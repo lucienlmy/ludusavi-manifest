@@ -514764,7 +514764,7 @@
         osarch: "64"
         oslist: windows
       description: R5 Launch
-      executable: start_protected_game.exe
+      executable: EAAntiCheat.GameServiceLauncher.exe
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
@@ -659610,6 +659610,10 @@
     czech: "Posel smrti: Pouto krve"
     english: "Messenger of Death: Blood Bond"
 4216180: {}
+4216280:
+  installDir: Dverghold
+  launch:
+    - executable: Dverghold.exe
 4221990:
   installDir: Fish Lab
   launch:
