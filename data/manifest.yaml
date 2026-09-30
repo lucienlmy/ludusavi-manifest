@@ -745967,6 +745967,8 @@ The Invisible Hours:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-invisible-hours
   installDir:
     TheInvisibleHours: {}
   launch:
@@ -857471,7 +857473,8 @@ Wuthering Waves:
     Wuthering Waves: {}
   launch:
     "<base>/Wuthering Waves.exe":
-      - when:
+      - arguments: "-krqlv=hd"
+        when:
           - bit: 64
             os: windows
             store: steam
