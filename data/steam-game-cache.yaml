@@ -834,14 +834,22 @@
         oslist: linux
       executable: run_steam.sh
     - config:
-        betakey: test
         oslist: macos
-      description: Mac OS X 10.13 and Later (Also Apple Silicon).
-      executable: MacOSX10.13/Defcon.app
+      description: Legacy Version of DEFCON (2012)
+      executable: 1.64/Defcon.app
+      type: option2
     - config:
-        betakey: test
-      description: Earlier than Mac OS X 10.13
-      executable: Original/Defcon.app
+        oslist: windows
+      description: Legacy Version of DEFCON (2012)
+      executable: 1.62/Defcon.exe
+      type: option2
+      workingdir: "1.62"
+    - config:
+        oslist: linux
+      description: Legacy version of DEFCON (2012)
+      executable: 1.62/run_steam.sh
+      type: option2
+      workingdir: "1.62"
 1530:
   installDir: Multiwinia
   launch:
