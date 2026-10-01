@@ -40272,6 +40272,7 @@ Cathedral 3-D:
 Catherine Classic:
   cloud:
     steam: true
+  malformed: true
   pageId: 124963
   steam: 893180
   templates:
@@ -88288,6 +88289,8 @@ FireStarter:
   pageId: 57497
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\BASE\\*.cfg}}"
+FireTeam:
+  pageId: 221014
 FireTry:
   cloud:
     steam: true
@@ -98469,6 +98472,8 @@ Gigantic Army:
 "Gigantosaurus: Dino Kart":
   pageId: 191293
   steam: 1770500
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\3DClouds\\GIG\\Saved\\SaveGames\\}}"
 "Gigantosaurus: The Game":
   pageId: 158920
   steam: 1177020
@@ -151733,6 +151738,7 @@ Momodora III:
   gog: 1079762750
   gogSide:
     - 2146639323
+  malformed: true
   pageId: 34172
   renamedFrom:
     - "Momodora: Reverie Under the Moonlight"
@@ -269922,6 +269928,8 @@ Violett:
 Viper:
   pageId: 155993
   steam: 1140530
+Viper (1994):
+  pageId: 221016
 Viper Attack:
   pageId: 145226
   steam: 897970
