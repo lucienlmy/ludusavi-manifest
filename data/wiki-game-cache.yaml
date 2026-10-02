@@ -4531,6 +4531,10 @@ ALTF4:
 AL･FINE:
   pageId: 52708
   steam: 545330
+AMA Superbike:
+  pageId: 221058
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\d3d.ini|{{p|game}}\\ControlMap.ini|{{p|game}}\\CommandMap.ini|{{p|game}}\\game.ini}}"
 AMAZEing Adventures:
   cloud:
     steam: true
@@ -34453,6 +34457,8 @@ Broken Spell 2:
     - "{{Game data/config|Windows|{{P|hklm}}\\SOFTWARE\\{{P|wow64}}\\Revolution\\BSTSD\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 "Broken Sword 4: The Angel of Death":
+  cloud:
+    gog: true
   gog: 1207658973
   lutris: broken-sword-4-the-angel-of-death
   pageId: 19662
@@ -47242,6 +47248,7 @@ Comanche:
     gog: true
     steam: true
   gog: 1835921084
+  lutris: comanche
   pageId: 145294
   steam: 879000
   steamSide:
@@ -47262,6 +47269,8 @@ Comanche 4:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\c4.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\c4plyr.sav}}"
+Comanche Gold:
+  pageId: 221066
 "Comanche: Maximum Overkill":
   pageId: 213419
 Comatose:
@@ -76833,6 +76842,11 @@ Elsword:
   steamSide:
     - 237310
     - 1011810
+"Elta: Defy All Gods":
+  cloud:
+    steam: true
+  pageId: 221064
+  steam: 2659410
 Elteria Adventures:
   pageId: 105499
   steam: 744200
@@ -100125,6 +100139,7 @@ Gods vs Humans:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Gods vs Humans}}"
 "Gods, Death & Reapers":
+  lutris: gods-death-and-reapers--2
   pageId: 207408
   steam: 3086590
 "Gods: Lands of Infinity":
@@ -114110,7 +114125,7 @@ Hot Takes:
   pageId: 199555
   steam: 2468400
 Hot Wheels Stunt Track Driver:
-  lutris: hot-wheels-stunt-track-driver/
+  lutris: hot-wheels-stunt-track-driver
   pageId: 11206
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\saves\\config.dat}}"
@@ -148442,6 +148457,8 @@ Metro Warp:
   lutris: metro-last-light
   pageId: 4547
   steam: 43160
+  steamSide:
+    - 245350
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\4A Games\\Metro LL\\{{p|uid}}\\user.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/MetroLL/{{p|uid}}/user.cfg}}"
@@ -163516,6 +163533,8 @@ Nocturnal 2:
   lutris: nocturnal-2
   pageId: 214059
   steam: 2847780
+  steamSide:
+    - 4325830
 Nocturnal Hunt:
   pageId: 76209
   steam: 635550
@@ -167663,6 +167682,7 @@ Onimod Land:
 "Onimusha 2: Samurai's Destiny":
   cloud:
     steam: true
+  lutris: onimusha-2-samurais-destiny
   pageId: 201496
   steam: 3046600
   templates:
@@ -267982,6 +268002,9 @@ Valkyrie Elysium:
     - "{{Game data/config|Windows|{{p|localappdata}}\\VALKYRIE_ELYSIUM\\Saved\\Config\\WindowsNoEditor\\{{note|Appears to contain no useful .ini files by default.}}}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\VALKYRIE_ELYSIUM\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\VALKYRIE ELYSIUM\\Steam\\{{p|uid}}\\}}"
+Valkyrie Saga:
+  pageId: 221062
+  steam: 2663150
 Valkyrie no Densetsu:
   pageId: 188943
 Valkyrius Prime:
