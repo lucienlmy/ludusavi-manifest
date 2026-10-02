@@ -56838,6 +56838,7 @@ Dark Old Sun:
     - 4693910
     - 4768220
     - 4768230
+    - 5236770
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\The5thFloor\\Saved\\SaveGames}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\The5thFloor\\Saved\\SaveGames}}"
@@ -58095,8 +58096,11 @@ Dawn of Corruption:
   pageId: 65208
   steam: 661730
 Dawn of Magic:
+  cloud:
+    steam: true
   lutris: dawn-of-magic
   pageId: 183738
+  steam: 4938460
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\tbm.ini}}"
 Dawn of Magic 2:
@@ -126542,7 +126546,7 @@ Katamari Damacy Reroll:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\katamaridamacy\\Saved\\SaveTemporary\\{{P|uid}}\\Setting\\|{{P|hkcu}}\\Software\\BANDAI NAMCO Entertainment\\katamaridamacy\\}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\katamaridamacy\\Saved\\SaveTemporary\\{{P|uid}}\\Setting\\}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\kataramidamacy\\Saved\\SaveGames\\{{P|uid}}}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\katamaridamacy\\Saved\\SaveGames\\{{P|uid}}}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\NAMCOBANDAIGamesInc.KatamariDamacyRerollWindows_gdy2aq6ez762w\\SystemAppData}}"
 Katamari Damacy Rolling LIVE:
   pageId: 206770
@@ -232954,6 +232958,7 @@ Tainted Fate:
 "Tainted Grail: The Fall of Avalon":
   cloud:
     steam: true
+    xbox: true
   gog: 1887281589
   gogSide:
     - 1376503597

@@ -116342,28 +116342,7 @@
       description: Launch
       executable: "./game.sh"
 386180:
-  installDir: Crossout
-  launch:
-    - arguments: "-steam"
-      config:
-        betakey: "[disabled]"
-        oslist: windows
-      executable: launcher.exe
-      type: default
-    - config:
-        osarch: "64"
-        oslist: windows
-      description: WarFlames Steam China Launcher
-      executable: WFCrossOutLauncher.exe
-    - arguments: "--rend-api auto --anticheat BattlEye"
-      description: Crossout
-      executable: "bin\\win64\\Crossout.exe"
-      type: default
-    - description: Crossout Launcher
-      executable: launcher.exe
-      type: config
   nameLocalized:
-    sc_schinese: 创世战车
     schinese: 创世战车
 386200:
   installDir: Survivor The Living Dead
@@ -661823,6 +661802,11 @@
     - config:
         oslist: windows
       executable: peg_champ_beta.exe
+      type: default
+4938460:
+  installDir: Dawn of Magic
+  launch:
+    - executable: DawnOfMagic.exe
       type: default
 4953280: {}
 4980620: {}
