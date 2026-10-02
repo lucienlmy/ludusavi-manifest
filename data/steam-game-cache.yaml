@@ -567334,6 +567334,38 @@
     ukrainian: Міс Феррі
     vietnamese: Hoa hậu lông
 1566200:
+  cloud:
+    saves:
+      - path: Excellent Rectangle/Tape to Tape/CustomLogos
+        pattern: "*.png"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Excellent Rectangle/Tape to Tape/CustomLogos
+        pattern: "*.png"
+        platforms:
+          - Linux
+        root: WinAppDataLocalLow
+      - path: Excellent Rectangle/Tape to Tape/TeamDataModels
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Excellent Rectangle/Tape to Tape/TeamDataModels
+        pattern: "*.json"
+        platforms:
+          - Linux
+        root: WinAppDataLocalLow
+      - path: Excellent Rectangle/Tape to Tape/BracketData
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Excellent Rectangle/Tape to Tape/BracketData
+        pattern: "*.json"
+        platforms:
+          - Linux
+        root: WinAppDataLocalLow
   installDir: Tape to Tape
   launch:
     - executable: Tape to Tape.exe
@@ -595720,6 +595752,11 @@
         oslist: windows
       executable: SOPA/Sopa.exe
       type: default
+    - config:
+        betakey: volatile
+        oslist: linux
+      executable: SOPA/Sopa.x86_64
+      type: default
 1935660:
   cloud:
     saves:
@@ -603483,6 +603520,32 @@
   nameLocalized:
     schinese: 猩红之雪
 2067820:
+  cloud:
+    saves:
+      - path: "The Wild Gentlemen\\Retrospace\\Saves\\profile0"
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: "The Wild Gentlemen\\Retrospace\\Saves\\profile1"
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: "The Wild Gentlemen\\Retrospace\\Saves\\profile2"
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: "The Wild Gentlemen\\Retrospace\\Saves"
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: RetroSpace
+  launch:
+    - config:
+        oslist: windows
+      executable: retrospace.exe
+      type: default
   nameLocalized:
     schinese: 复古时空
 2067850:
@@ -618686,6 +618749,38 @@
         oslist: windows
       executable: afl2.exe
       type: default
+2337860:
+  cloud:
+    saves:
+      - path: "Glowfish_Rangatang/Nubs!/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: "Glowfish_Rangatang/Nubs!/{64BitSteamID}/InputSettings"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Glowfish_Rangatang/Nubs!/{64BitSteamID}"
+            replace: "unity.Glowfish_Rangatang.Nubs!.{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Glowfish_Rangatang/Nubs!/{64BitSteamID}"
+            replace: ".config/unity3d/Glowfish_Rangatang/Nubs!/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Nubs!
+  launch:
+    - description: Play Nubs!
+      executable: Nubs!.exe
+      type: default
+  nameLocalized:
+    schinese: 呆呆大乱斗
 2337960:
   installDir: Venus the Flytrap
   launch:
@@ -635626,6 +635721,7 @@
       executable: roottrees.exe
       type: option1
   nameLocalized:
+    russian: Руттри мертвы
     schinese: 鲁特里一家死了（The Roottrees are Dead）
 2756920:
   cloud:
@@ -644110,7 +644206,7 @@
 3104410:
   installDir: Project Rogueteers
   launch:
-    - arguments: "-UserDir=RS_S2_User"
+    - arguments: "-UserDir=RS_S4_User"
       config:
         osarch: "64"
         oslist: windows
@@ -644125,7 +644221,7 @@
       description: 15001测试分支
       executable: launcher/rs_launcher.exe
       type: default
-    - arguments: "-lobby_server_id=21001 -server_list_label=test -UserDir=RS2_Test_User -RGAllLog -request_server_list"
+    - arguments: "-lobby_server_id=21001 -server_list_label=test -UserDir=RS4_Test_User -RGAllLog -request_server_list"
       config:
         betakey: "21001"
         osarch: "64"
@@ -644133,7 +644229,7 @@
       description: 21001测试分支
       executable: launcher/rs_launcher.exe
       type: default
-    - arguments: "-lobby_server_id=29001 -server_list_label=test -UserDir=RS_S2_User -request_server_list"
+    - arguments: "-lobby_server_id=29001 -server_list_label=test -UserDir=RS_S4_User -RGAllLog -request_server_list"
       config:
         betakey: "29001"
         osarch: "64"
@@ -644141,7 +644237,7 @@
       description: 29001测试分支
       executable: launcher/rs_launcher.exe
       type: default
-    - arguments: "-lobby_server_id=29002 -server_list_label=test -UserDir=RS2_Test_User -RGAllLog"
+    - arguments: "-lobby_server_id=29002 -server_list_label=test -UserDir=RS3_Test_User -RGAllLog"
       config:
         betakey: content-29002
         osarch: "64"
@@ -644157,7 +644253,7 @@
       description: 10001测试分支
       executable: launcher/rs_launcher.exe
       type: default
-    - arguments: "-UserDir=RS_S0_User -dist_channel=3 -dev_wegame"
+    - arguments: "-dist_channel=3 -dev_wegame -lobby_server_id=10002 -server_list_label=shipping -UserDir=RS_S3_User -RGAllLog -request_server_list"
       config:
         betakey: steam_china_only
         osarch: "64"
@@ -644165,14 +644261,14 @@
       description: 蒸汽10002测试分支
       executable: Rouge.exe
       type: default
-    - arguments: "-UserDir=RS_S2_User -dist_channel=3 -dev_wegame"
+    - arguments: "-UserDir=RS_S4_User -dist_channel=3 -dev_wegame"
       config:
         osarch: "64"
         oslist: windows
       description: 蒸汽平台正式分支
       executable: Rouge.exe
       type: default
-    - arguments: "-lobby_server_id=21002 -server_list_label=test -UserDir=RS2_Test_User -RGAllLog"
+    - arguments: "-lobby_server_id=21002 -server_list_label=test -UserDir=RS3_Test_User -RGAllLog"
       config:
         betakey: "21002"
         osarch: "64"
@@ -660821,6 +660917,9 @@
       type: default
 4414560: {}
 4415120:
+  installDir: Growing My Manhole
+  launch:
+    - executable: Growing My Manhole.exe
   nameLocalized:
     schinese: 万物皆可嗦
     tchinese: 萬物皆可嗦
