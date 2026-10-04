@@ -3440,6 +3440,8 @@ A Purrtato Tail - By the Light of the Elderstar:
     steam: true
   pageId: 88248
   steam: 661750
+A Question of Sport:
+  pageId: 221144
 A Quick Death:
   pageId: 64038
   steam: 654000
@@ -23390,6 +23392,8 @@ Battle Fleet 2:
 "Battle Fleet: Ground Assault":
   pageId: 92235
   steam: 400350
+  templates:
+    - "{{Game data/saves|Windows|{{p|HKEY_CURRENT_USER}}\\Software\\Capital j Media LLC\\Battle Fleet Ground Assault}}"
 "Battle For Crown: Multiplayer":
   pageId: 160840
   steam: 1330740
@@ -39884,6 +39888,8 @@ Castra:
     steam: true
   pageId: 139314
   steam: 1073140
+Castrol Honda Superbike World Champions:
+  pageId: 221140
 Casual Desktop Game:
   pageId: 125052
   steam: 1001860
@@ -87090,6 +87096,7 @@ Fields of Glory:
   cloud:
     gog: true
   gog: 1960412353
+  lutris: fields-of-glory
   pageId: 158647
   steam: 1237800
 Fields of Mistria:
@@ -153239,6 +153246,8 @@ Monty Python & the Quest for the Holy Grail:
   pageId: 90790
   templates:
     - "{{Game data/saves|Windows|{{p|windir}}\\7THLEVEL.INI|{{p|windir}}\\7THLEVEL.***}}"
+"Monty Python's Flying Circus: The Computer Game":
+  pageId: 221139
 "Monty Python's The Meaning of Life":
   pageId: 90741
 Monument:
@@ -192617,7 +192626,10 @@ RetroRealms Arcade:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\WayForward Technologies\\RetroRealms}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\WayForward Technologies\\RetroRealms\\_savedata\\}}"
 RetroSpace:
+  cloud:
+    steam: true
   lutris: retrospace
+  malformed: true
   pageId: 217010
   steam: 2067820
   steamSide:
@@ -200560,6 +200572,8 @@ Sailwind:
   steam: 1764530
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Raw Lion Workshop\\Sailwind}}"
+Saint & Greavsie:
+  pageId: 221146
 Saint Emiliana:
   cloud:
     gog: true
@@ -250745,6 +250759,8 @@ The Twilight Project:
   lutris: the-twilight-project
   pageId: 216792
   steam: 3838790
+The Twilight Zone (1988):
+  pageId: 221150
 The Twins:
   pageId: 156392
   steam: 1218570
@@ -253046,6 +253062,8 @@ Thomas Was Alone:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Mike Bithell\\Thomas Was Alone\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/unity.Mike Bithel.Thomas Was Alone.plist}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Mike Bithell/Thomas Was Alone/}}"
+Thomas the Tank Engine & Friends:
+  pageId: 221148
 Thomas the Tank Engine & Friends Pinball:
   pageId: 202878
 "Thor's Hammer":

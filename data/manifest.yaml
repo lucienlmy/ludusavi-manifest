@@ -72341,6 +72341,10 @@ Battle Fleet 2:
         when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Capital j Media LLC/Battle Fleet Ground Assault:
+      tags:
+        - save
   steam:
     id: 400350
 "Battle For Crown: Multiplayer":
@@ -267640,6 +267644,8 @@ Fields of Glory:
     gog: true
   gog:
     id: 1960412353
+  id:
+    lutris: fields-of-glory
   installDir:
     Fields of Glory: {}
   steam:
@@ -589692,6 +589698,8 @@ RetroRealms Arcade:
   steam:
     id: 2158030
 RetroSpace:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves":
       when:
