@@ -417267,6 +417267,8 @@ Like a Dragon 8:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: like-a-dragon-ishin
   installDir:
     LikeADragonIshin: {}
   launch:
