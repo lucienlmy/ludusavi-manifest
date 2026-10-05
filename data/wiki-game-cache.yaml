@@ -39888,6 +39888,8 @@ Castra:
     steam: true
   pageId: 139314
   steam: 1073140
+Castrol Honda Superbike 2000:
+  pageId: 221157
 Castrol Honda Superbike World Champions:
   pageId: 221140
 Casual Desktop Game:
@@ -68266,6 +68268,7 @@ Dopamine:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 "Dora the Explorer: Swiper's Big Adventure":
+  lutris: swipers-big-adventure
   pageId: 220291
 "Dora the Explorer: World Adventure!":
   pageId: 220288
@@ -75620,6 +75623,7 @@ Edmonton Trolley Car:
 "Edna & Harvey: The Puzzle":
   pageId: 134089
 Edolie:
+  lutris: edolie
   pageId: 48555
   steam: 349240
   steamSide:
@@ -172095,6 +172099,7 @@ Panzer Dragoon:
     gog: true
     steam: true
   gog: 1248489555
+  lutris: panzer-dragoon-remake
   pageId: 148404
   renamedFrom:
     - Panzer Dragoon (2020)
@@ -220248,6 +220253,10 @@ Stabby Machine:
 Stability:
   pageId: 64602
   steam: 667210
+Stable Masters:
+  pageId: 221160
+Stable Masters 2:
+  pageId: 221164
 Stable Orbit:
   pageId: 51598
   steam: 481190
