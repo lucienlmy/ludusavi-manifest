@@ -8465,6 +8465,8 @@ Aion 2:
   steamSide:
     - 4972180
     - 4972320
+  templates:
+    - "{{Game data/config|Windows|%localappdata%\\AION2\\Saved_Steam\\Config\\Windows}}"
 Air:
   pageId: 150026
   steam: 1144520
@@ -27221,6 +27223,7 @@ Binaries:
 Binary Domain:
   cloud:
     steam: true
+  lutris: binary-domain
   pageId: 2175
   steam: 203750
   templates:
@@ -38354,6 +38357,8 @@ CaptainMarlene:
 Captive:
   pageId: 88878
   steam: 802040
+Captive (1992):
+  pageId: 221256
 Captive of Fortune:
   cloud:
     steam: true
@@ -66908,6 +66913,11 @@ Dog In A Box:
 Dog Jam:
   pageId: 109356
   steam: 895120
+"Dog Man: Bark in Action":
+  cloud:
+    steam: true
+  pageId: 221235
+  steam: 4782240
 "Dog Man: Mission Impawsible":
   cloud:
     steam: true
@@ -97052,8 +97062,10 @@ Gears of War 4:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Packages\\Microsoft.SpartaUWP_8wekyb3d8bbwe\\LocalState\\GearGame\\Saved\\Config\\UWP\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Packages\\Microsoft.SpartaUWP_8wekyb3d8bbwe}}"
 "Gears of War: E-Day":
+  cloud:
+    steam: true
+    xbox: true
   lutris: gears-of-war-e-day
-  malformed: true
   pageId: 195567
   steam: 3010850
   steamSide:
@@ -97062,7 +97074,9 @@ Gears of War 4:
     - 4637200
     - 5028560
   templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\FairlightConcept\\Saved\\Config\\WinGDK}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Steam\\{{P|uid}}\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Saves\\}}"
 "Gears of War: Reloaded":
   cloud:
     steam: true
@@ -105707,6 +105721,8 @@ Half-Life Legacy:
   pageId: 160590
   steam: 812440
 "Half-Life: Alyx":
+  cloud:
+    steam: true
   lutris: half-life-alyx
   pageId: 152266
   steam: 546560
@@ -105984,6 +106000,12 @@ Halo 4:
     - "{{Game data/config|Steam|{{p|userprofile}}\\AppData\\LocalLow\\MCC\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.Chelan_8wekyb3d8bbwe\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\976730\\remote\\{{p|uid}}\\Saves\\}}"
+"Halo 5: Forge":
+  cloud:
+    xbox: true
+  pageId: 32871
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Packages\\Microsoft.Halo5Forge_8wekyb3d8bbwe\\LocalState}}"
 Halo Beats!:
   pageId: 156563
   steam: 1224900
@@ -123889,6 +123911,8 @@ Jersey Devil:
     - "{{Game data/saves|Windows|{{p|game}}\\bin\\SAVEGAME.DAT}}"
 "Jerusalem: The Three Roads to the Holy Land":
   pageId: 221100
+"Jessie's Wild West Rodeo":
+  pageId: 221254
 Jesters Poker:
   pageId: 87293
   steam: 800840
@@ -133917,6 +133941,7 @@ Lego Alpha Team:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Warner Bros. Interactive Entertainment\\LEGO Batman\\Saved Games}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Preferences/Feral Interactive/Lego Batman/Saved Games/}}"
 Lego Brawls:
+  lutris: lego-brawls
   pageId: 148381
   steam: 1731460
 Lego Bricktales:
@@ -134089,6 +134114,8 @@ Lego Jurassic World:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/352400/}}"
 "Lego Legacy: Heroes Unboxed":
   pageId: 166617
+Lego Legends of Chima Online:
+  pageId: 221249
 Lego Loco:
   pageId: 7943
   templates:
@@ -134127,6 +134154,10 @@ Lego Marvel Super Heroes 2:
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Feral Interactive/LEGO Marvel's Avengers/}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\405310\\remote\\savedgames\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Feral Interactive/LEGO Marvel's Avengers/SaveData/}}"
+Lego Minifigures Online:
+  lutris: lego-minifigures-online
+  pageId: 221252
+  steam: 324790
 "Lego My Style: Kindergarten":
   pageId: 107076
 "Lego My Style: Preschool":
@@ -134588,8 +134619,11 @@ Lenin - The Lion:
   pageId: 93349
   steam: 839850
 Lenin Street Geek Shop:
+  lutris: lenin-street-geek-shop
   pageId: 213023
   steam: 3225880
+  steamSide:
+    - 4336940
 "Lenna's Inception":
   cloud:
     steam: true
@@ -138074,6 +138108,8 @@ Lords of Magic:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
+"Lords of Midnight: The Citadel":
+  pageId: 221228
 Lords of New York:
   pageId: 52956
   steam: 404070
@@ -171375,6 +171411,7 @@ Pacific General:
   cloud:
     steam: true
   gog: 1430136184
+  lutris: pacific-general
   pageId: 131866
   steam: 1741130
   templates:
@@ -180067,8 +180104,8 @@ Post Void:
   pageId: 176344
   steam: 1285670
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Post_Void\\config.ini}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Post_Void\\savedata.ini}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Post_Void\\*\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Post_Void\\*\\savedata.dat}}"
 Post War Dreams:
   pageId: 62090
   steam: 616490
@@ -190120,6 +190157,8 @@ Red Game Without A Great Name:
 Red Gate:
   pageId: 135451
   steam: 1076600
+Red Ghost:
+  pageId: 221230
 "Red Goblin: Cursed Forest":
   pageId: 47877
   steam: 364480
@@ -194185,6 +194224,8 @@ Rimi Action RPG:
     steam: true
   pageId: 191516
   steam: 2118510
+Ring Cycle:
+  pageId: 221232
 "Ring II: Twilight of the Gods":
   pageId: 192574
 "Ring Runner: Flight of the Sages":
@@ -221314,11 +221355,6 @@ Star Trek Timelines:
     - "{{Game data/saves|Windows|C:\\Program Files (x86)\\Warp2\\ShipMain\\USR}}"
 "Star Trek: The Game Show":
   pageId: 175178
-"Star Trek: The Next Generation - A Final Unity":
-  pageId: 157332
-  templates:
-    - "{{Game data/config|DOS|{{p|game}}\\STTNG.INI}}"
-    - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\SAVEGAME.*}}"
 "Star Trek: The Next Generation - Birth of the Federation":
   pageId: 170478
   templates:
@@ -221330,6 +221366,13 @@ Star Trek Timelines:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\System\\khg.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
+"Star Trek: The Next Generation – A Final Unity":
+  pageId: 157332
+  renamedFrom:
+    - "Star Trek: The Next Generation - A Final Unity"
+  templates:
+    - "{{Game data/config|DOS|{{p|game}}\\STTNG.INI}}"
+    - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\SAVEGAME.*}}"
 "Star Trek: Voyager - Across the Unknown":
   cloud:
     epic: true
@@ -221609,8 +221652,13 @@ Star Wars Outlaws:
     - "{{Game data/config|Windows|{{p|game}}\\Game\\player.nfx|{{p|game}}\\Game\\player.nf1|{{p|HKCU}}\\Software\\LucasArts Entertainment Company LLC\\Star Wars Galactic Battlegrounds: Clone Campaigns\\1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\SaveGame}}"
 "Star Wars: Galactic Racer":
+  cloud:
+    steam: true
   pageId: 211969
   steam: 4078430
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\StarWarsGalacticRacer\\Saved\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\StarWarsGalacticRacer\\Saved\\SaveGames\\*.sav}}"
 "Star Wars: Galaxy of Heroes":
   pageId: 197901
 "Star Wars: Hunters":
@@ -283116,6 +283164,14 @@ Yogurt!:
 Yohjo Simulator:
   pageId: 33632
   steam: 415950
+Yoiyami Biscuit:
+  cloud:
+    steam: true
+  lutris: yoiyami-biscuit
+  pageId: 221237
+  steam: 3619760
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\*.ybs}}"
 "Yoiyami Dancers: Twilight Danmaku Dancers":
   cloud:
     steam: true
