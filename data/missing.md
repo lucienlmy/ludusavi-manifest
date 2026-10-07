@@ -5623,7 +5623,6 @@
 * [Corrupted Commander](https://www.pcgamingwiki.com/wiki/?curid=121247)
 * [Corruption](https://www.pcgamingwiki.com/wiki/?curid=93182)
 * [Corruption of Champions II](https://www.pcgamingwiki.com/wiki/?curid=190297)
-* [Corsairs: Battle of the Caribbean](https://www.pcgamingwiki.com/wiki/?curid=187532)
 * [Cortex](https://www.pcgamingwiki.com/wiki/?curid=103879)
 * [Cortex (2018)](https://www.pcgamingwiki.com/wiki/?curid=137386)
 * [Cortex Protocol](https://www.pcgamingwiki.com/wiki/?curid=93315)
