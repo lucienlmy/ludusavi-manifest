@@ -36873,6 +36873,7 @@ Cabal Online:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Cfg\\console.cfg}}"
     - "{{Game data/saves|Windows|{{p|ProgramData}}\\DNGH2 Saves\\}}"
 "Cabela's Dangerous Hunts 2013":
+  lutris: cabelas-dangerous-hunts-2013-demo
   pageId: 40707
   steam: 218860
   templates:
@@ -36913,6 +36914,8 @@ Cabal Online:
     - "{{Game data/config|Windows|{{p|game}}\\csc.ini}}"
 "Cabela's Ultimate Deer Hunt":
   pageId: 221391
+"Cabela's Ultimate Deer Hunt 2":
+  pageId: 221397
 Cabernet:
   cloud:
     epic: true
@@ -45383,6 +45386,9 @@ Clinically Dead:
   steamSide:
     - 4664770
     - 5184670
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Local\\Hellraiser\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Hellraiser\\Saved\\SaveGames\\}}"
 "Clive Barker's Jericho":
   lutris: clive-barkers-jericho
   pageId: 7720
@@ -49275,6 +49281,8 @@ Cook Serve Forever:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1000030\\remote\\1S_CSD3_CloudSave.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CSD3_Foodtruck\\}}"
 "Cook, Serve, Delicious: Re-Mustard!":
+  cloud:
+    steam: true
   pageId: 188858
   steam: 2139040
 Cook-Out:
@@ -55423,6 +55431,14 @@ DEFCON VR:
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\6 Faces Team\\DEPO\\DEPO_saved*}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1091320}}"
+DERELIKT:
+  pageId: 221403
+  steam: 3810510
+  steamSide:
+    - 5242870
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\settings.stg<ref>Plain-text JSON holding options (volume, sensitivity, invert axes, vibration, control overrides, display toggles, locale). In the demo the subfolder is named <code>Debug</code>; the <code>*</code> wildcard covers a different subfolder name in the full release.</ref>|{{P|hkcu}}\\Software\\Visuwyg\\DERELIKT<ref>Unity PlayerPrefs (window/resolution settings).</ref>}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\*.drt<ref>Each save slot is a JSON <code>save_&lt;card&gt;_&lt;slot&gt;.drt</code> file. In the demo the subfolder is named <code>Debug</code>.</ref>|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\data.ctg<ref>Save catalog (slot index, location, save time, play time, last-used slot); needed for the save slots to appear in the load menu.</ref>}}"
 DERU - The Art of Cooperation:
   cloud:
     steam: true
@@ -128712,6 +128728,7 @@ Kingdom Elemental:
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   cloud:
     steam: true
+    xbox: true
   pageId: 166570
   steam: 2552430
   templates:
@@ -128722,6 +128739,7 @@ Kingdom Hearts HD 1.5 + 2.5 ReMIX:
 Kingdom Hearts HD 2.8 Final Chapter Prologue:
   cloud:
     steam: true
+    xbox: true
   pageId: 166573
   steam: 2552440
   templates:
@@ -203665,6 +203683,7 @@ Scritchy Scratchy:
     - 4428640
     - 4517590
   templates:
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.DefaultCompany.2D-URP.plist<ref>{{Refcheck|user=Ngyikp|date=2026-07-02|comment=The CFBundleIdentifier for this game is generically named {{code|com.DefaultCompany.2D-URP}} shared with other games. Confirmed that changing game settings will modify this file.}}</ref>}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Lunch Money Games\\Scritchy Scratchy\\*.json}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json}}"
 Scroll2Read:
