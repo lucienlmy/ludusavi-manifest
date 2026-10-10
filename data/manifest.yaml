@@ -14352,6 +14352,13 @@ ALARA Prime:
   steam:
     id: 971700
 "ALFA: Antiterror":
+  files:
+    "<root><base> system.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
   installDir:
     ALFA Antiterror: {}
   launch:
@@ -63450,6 +63457,25 @@ BEAST:
             store: steam
   steam:
     id: 1145630
+BEAST CRIMES:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Link Häggman/BeastCrimes/NaninovelData/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    BeastCrimes: {}
+  launch:
+    "<base>/BeastCrimes/BeastCrimes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1571090
 "BEAST: Bio Exo Arena Suit Team":
   steam:
     id: 3239670
@@ -248523,6 +248549,8 @@ Eurofighter Typhoon:
         - save
       when:
         - os: windows
+  id:
+    lutris: eurofighter-typhoon
   installDir:
     Eurofighter Typhoon: {}
   launch:
@@ -304615,6 +304643,8 @@ Gladiator Trainer:
         - save
       when:
         - os: windows
+  id:
+    lutris: gladiator-sword-of-vengeance
   installDir:
     Gladiator Sword of Vengeance: {}
   launch:
@@ -675338,6 +675368,9 @@ Squad 51 vs. the Flying Saucers:
 Squad Z:
   steam:
     id: 784030
+Squadron 42:
+  steam:
+    id: 4045720
 Squadron 51:
   alias: Squad 51 vs. the Flying Saucers
 "Squadron: Sky Guardians":
