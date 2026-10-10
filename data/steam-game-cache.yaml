@@ -644471,6 +644471,22 @@
     schinese: 硝基特快
     tchinese: 硝基特快
 3090810:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Truckful
+  launch:
+    - config:
+        oslist: windows
+      executable: Truckful.exe
+    - config:
+        oslist: linux
+      executable: Truckful.x86_64
+    - config:
+        oslist: macos
+      executable: Truckful.app
   nameLocalized:
     japanese: Truckful / トラックフル
     koreana: Truckful / 트럭풀
