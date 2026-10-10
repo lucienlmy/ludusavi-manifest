@@ -6688,6 +6688,8 @@ $1 Ride:
         - os: windows
   gog:
     id: 1207660773
+  id:
+    lutris: 7th-legion
   installDir:
     7th Legion: {}
   launch:
@@ -76525,6 +76527,10 @@ Beasts and Bumpkins:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Worldweaver Productions/Beasts and Bumpkins:
+      tags:
+        - config
 Beasts of Bermuda:
   files:
     "<base>/BeastsOfBermuda/Saved/SaveGames/*.sav":
@@ -118844,18 +118850,38 @@ Car Park Capital:
   cloud:
     steam: true
   files:
-    "<base>/saves/**/*.cpcp":
+    "<base>/saves/*.cpcp":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+        - os: linux
     "<base>/saves/*.json":
+      tags:
+        - save
       when:
-        - store: steam
-    "<base>/saves/blueprints/**/*.cpbp":
+        - os: windows
+        - os: linux
+    "<base>/saves/blueprints/*.cpbp":
+      tags:
+        - save
       when:
-        - store: steam
-    "<base>/saves/scenarios/**/*.cpcs":
+        - os: windows
+        - os: linux
+    "<base>/saves/scenarios/*.cpcs":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+        - os: linux
+    "<base>/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+  id:
+    lutris: car-park-capital
   installDir:
     Car Park Capital: {}
   launch:
@@ -243345,6 +243371,8 @@ Epic Pinball:
         - os: dos
   gog:
     id: 1965302672
+  id:
+    lutris: epic-pinball
 Epic Quest of the 4 Crystals:
   cloud:
     steam: true
@@ -253885,6 +253913,9 @@ Extreme Painting Puzzles:
             store: steam
   steam:
     id: 927670
+Extreme Pinball:
+  id:
+    lutris: extrene-pinball
 Extreme Racing on Highway:
   installDir:
     Exteme Racing on Highway: {}
@@ -336267,6 +336298,11 @@ Help Will Come Tomorrow:
         - save
       when:
         - os: linux
+    "<home>/.config/unity3d/Arclight Creations/Help Will Come Tomorrow/Data/config.json":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/Arclight Creations/Help Will Come Tomorrow/Data":
       tags:
         - save
@@ -401031,6 +401067,8 @@ Krunker.io:
         - os: windows
   gog:
     id: 1207659196
+  id:
+    lutris: kknd2-krossfire
   installDir:
     KKND 2 Krossfire: {}
   steam:
@@ -668929,6 +668967,8 @@ Spartan:
   steam:
     id: 685050
 Spartan (2004):
+  id:
+    lutris: spartan
   installDir:
     Spartan: {}
   launch:
@@ -680139,6 +680179,8 @@ Star Wars Outlaws:
         - save
       when:
         - os: windows
+  id:
+    lutris: star-wars-the-clone-wars-republic-heroes
   installDir:
     Star Wars The Clone Wars: {}
   launch:
@@ -765390,6 +765432,7 @@ The Sinking City:
       - 2003312853
       - 2031063808
       - 2147483114
+    lutris: the-sinking-city
     steamExtra:
       - 887080
       - 975180
@@ -765454,6 +765497,8 @@ The Sinking City Remastered:
         - os: windows
   gog:
     id: 2018838490
+  id:
+    lutris: the-sinking-city-remastered
   installDir:
     The Sinking City: {}
   steam:
@@ -806628,6 +806673,8 @@ Tyrian:
         - os: dos
   gog:
     id: 1207658901
+  id:
+    lutris: tyrian
 "Tyrion Cuthbert: Attorney of the Arcane":
   files:
     "<home>/AppData/LocalLow/Diamondhenge Entertainment/Attorney of the Arcane/Save Data":
