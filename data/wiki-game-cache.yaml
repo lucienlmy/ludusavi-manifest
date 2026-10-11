@@ -23384,6 +23384,7 @@ Battle Chess 4000:
   gog: 1207663053
   gogSide:
     - 1207658676
+  lutris: battle-chess-4000
   pageId: 8634
   steam: 1769220
 "Battle Chess II: Chinese Chess":
@@ -23392,6 +23393,7 @@ Battle Chess 4000:
   gog: 1207663043
   gogSide:
     - 1207658676
+  lutris: battle-chess-ii-chinese-chess
   pageId: 8632
   steam: 678620
 "Battle Chess: Game of Kings":
@@ -23399,6 +23401,7 @@ Battle Chess 4000:
     gog: true
     steam: true
   gog: 1123635349
+  lutris: battle-chess-game-of-kingstm
   pageId: 45308
   steam: 200150
   templates:
@@ -25296,6 +25299,10 @@ Beat the Blitz:
 Beat the Dictators:
   pageId: 36648
   steam: 514550
+Beat the House:
+  pageId: 221489
+Beat the House 2:
+  pageId: 221492
 Beat the Rhythm VR:
   pageId: 94031
   steam: 781200
@@ -28713,6 +28720,7 @@ Blackthorn Arena:
   pageId: 153923
   steam: 1194930
 Blackthorne:
+  lutris: blackthorne
   pageId: 16677
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME.000}}"
@@ -36348,6 +36356,8 @@ Bytepath:
   steam: 760330
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\BYTEPATH}}"
+"Byzantine: The Betrayal":
+  pageId: 221496
 Bzzzt:
   cloud:
     steam: true
@@ -39268,6 +39278,8 @@ Carrier Deck:
 Carrier Trail:
   pageId: 126458
   steam: 1009920
+"Carrier: Fortress at Sea":
+  pageId: 221502
 Carrion:
   cloud:
     epic: true
@@ -44650,6 +44662,7 @@ Citywars Savage:
   steam: 910800
 "CivCity: Rome":
   gog: 1367477034
+  lutris: civcity-rome
   pageId: 41391
   steam: 3980
   templates:
@@ -48529,6 +48542,7 @@ Conflict Zone:
 "Conflict: Denied Ops":
   cloud:
     steam: true
+  lutris: conflict-denied-ops
   pageId: 26313
   steam: 8100
   templates:
@@ -94495,6 +94509,7 @@ Funny Yo:
   steamSide:
     - 681120
 Fur Fighters:
+  lutris: fur-fighters
   pageId: 175453
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\FUR_FIGHTERS.SAV}}"
@@ -96970,6 +96985,7 @@ Gateways:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Gateways/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/216290/}}"
 Gathering Sky:
+  lutris: gathering-sky
   pageId: 46891
   steam: 356250
   steamSide:
@@ -166256,6 +166272,7 @@ Of Kings And Men:
   steam: 430440
 Of Light and Darkness:
   gog: 1407917236
+  lutris: of-light-and-darkness-the-prophecy
   pageId: 58314
   steam: 557760
 Of Love And Sorrow:
@@ -166996,6 +167013,8 @@ OlympicVR:
 Omae Wa Mou Shindeiru:
   pageId: 93005
   steam: 851200
+Omar Sharif Bridge:
+  pageId: 221479
 Omar Sharif on Bridge:
   pageId: 221470
 Omega Agent:
@@ -168609,6 +168628,8 @@ Operation Wolfsburg:
 "Operation: Cheek Clapper":
   pageId: 149642
   steam: 1152670
+"Operation: Eco-Nightmare":
+  pageId: 221499
 "Operation: Followthrough":
   pageId: 205123
   steam: 3720530
@@ -200755,6 +200776,14 @@ Sacraboar:
 Sacrament:
   pageId: 74291
   steam: 734380
+Sacrata:
+  cloud:
+    steam: true
+  pageId: 221487
+  steam: 3201450
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Windows\\SACRATA\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Windows\\SACRATA\\Saved\\SaveGames\\}}"
 Sacred:
   gog: 1207658688
   lutris: sacred-gold
@@ -202163,6 +202192,8 @@ Sandwalkers:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\GoblinzStudio\\Sandwalkers\\saves|{{p|userprofile\\appdata\\locallow}}\\GoblinzStudio\\Sandwalkers\\Maps}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/GoblinzStudio/Sandwalkers/saves|{{p|osxhome}}/Library/Application Support/GoblinzStudio/Sandwalkers/Maps}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/GoblinzStudio/Sandwalkers/saves|{{p|linuxhome}}/.config/unity3d/GoblinzStudio/Sandwalkers/Maps}}"
+Sandwarriors:
+  pageId: 221482
 Sandwich Sudoku:
   pageId: 141278
   steam: 1117310
@@ -202609,6 +202640,8 @@ Savage Warriors:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SAVAGE_The_Shard_of_Gosen\\settings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SAVAGE_The_Shard_of_Gosen\\Saves\\}}"
+"Savage: The Ultimate Quest for Survival":
+  pageId: 221501
 Savana:
   pageId: 42071
   steam: 494970
@@ -207429,6 +207462,7 @@ Shattered Throne:
   pageId: 42655
   steam: 469710
 Shattered Union:
+  lutris: shattered-union
   pageId: 23702
   steam: 3960
 Shattered Universe:
@@ -210089,6 +210123,8 @@ Silkbulb test:
   steam: 2468250
 Silkolene Honda Motocross GP:
   pageId: 213328
+Silkroad Online:
+  pageId: 221497
 Silly Polly Beast:
   cloud:
     steam: true
@@ -226531,6 +226567,7 @@ Stronghold Kingdoms:
 Stronghold Legends:
   cloud:
     steam: true
+  lutris: stronghold-legends
   pageId: 40289
   steam: 40980
   steamSide:
@@ -281469,6 +281506,26 @@ Worms Revolution:
   lutris: worms-revolution
   pageId: 5687
   steam: 200170
+  steamSide:
+    - 200172
+    - 200173
+    - 200174
+    - 200175
+    - 200176
+    - 200177
+    - 200178
+    - 200179
+    - 200180
+    - 200181
+    - 200182
+    - 200183
+    - 200185
+    - 200186
+    - 200187
+    - 200188
+    - 200189
+    - 235230
+    - 2028056
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\Worms Revolution}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\200170\\}}"

@@ -72236,6 +72236,7 @@ Battle Chess 4000:
   id:
     gogExtra:
       - 1207658676
+    lutris: battle-chess-4000
   installDir:
     Battle Chess 4000: {}
   launch:
@@ -72264,6 +72265,7 @@ Battle Chess 4000:
   id:
     gogExtra:
       - 1207658676
+    lutris: battle-chess-ii-chinese-chess
   installDir:
     Battle Chess II Chinese Chess: {}
   launch:
@@ -72302,6 +72304,8 @@ Battle Chess 4000:
           store: steam
   gog:
     id: 1123635349
+  id:
+    lutris: battle-chess-game-of-kingstm
   installDir:
     Battlechess Game of Kings: {}
   launch:
@@ -88263,6 +88267,8 @@ Blackthorne:
         - save
       when:
         - os: windows
+  id:
+    lutris: blackthorne
 Blackwake:
   installDir:
     Blackwake: {}
@@ -138037,6 +138043,8 @@ Citywars Savage:
         - os: windows
   gog:
     id: 1367477034
+  id:
+    lutris: civcity-rome
   installDir:
     CivCity Rome: {}
   launch:
@@ -150321,6 +150329,8 @@ Conflict Zone:
         - save
       when:
         - os: windows
+  id:
+    lutris: conflict-denied-ops
   installDir:
     Conflict Denied Ops: {}
   launch:
@@ -290441,6 +290451,8 @@ Fur Fighters:
         - save
       when:
         - os: windows
+  id:
+    lutris: fur-fighters
 Fur Fun:
   files:
     "<base>/FurFun/Content/PaksWindowsNoEditor":
@@ -298097,6 +298109,7 @@ Gateways:
     id: 216290
 Gathering Sky:
   id:
+    lutris: gathering-sky
     steamExtra:
       - 393640
   installDir:
@@ -508503,6 +508516,8 @@ Of Kings And Men:
 Of Light and Darkness:
   gog:
     id: 1407917236
+  id:
+    lutris: of-light-and-darkness-the-prophecy
   installDir:
     Of Light and Darkness: {}
   launch:
@@ -613854,6 +613869,22 @@ Sacrament:
             store: steam
   steam:
     id: 734380
+Sacrata:
+  cloud:
+    steam: true
+  files:
+    "<base>/Windows/SACRATA/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Windows/SACRATA/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3201450
 Sacred:
   files:
     "<base>/SETTINGS.CFG":
@@ -634661,6 +634692,8 @@ Shattered Throne:
   steam:
     id: 469710
 Shattered Union:
+  id:
+    lutris: shattered-union
   installDir:
     Shattered Union: {}
   launch:
@@ -693576,6 +693609,7 @@ Stronghold Legends:
       when:
         - os: windows
   id:
+    lutris: stronghold-legends
     steamExtra:
       - 1802300
   installDir:
@@ -857876,6 +857910,26 @@ Worms Revolution:
     id: 1421309312
   id:
     lutris: worms-revolution
+    steamExtra:
+      - 200172
+      - 200173
+      - 200174
+      - 200175
+      - 200176
+      - 200177
+      - 200178
+      - 200179
+      - 200180
+      - 200181
+      - 200182
+      - 200183
+      - 200185
+      - 200186
+      - 200187
+      - 200188
+      - 200189
+      - 235230
+      - 2028056
   installDir:
     WormsRevolution: {}
   launch:
