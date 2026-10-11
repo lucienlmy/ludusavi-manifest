@@ -26988,6 +26988,8 @@ Big Hops:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Luckshot Games\\Big Hops}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Luckshot Games\\Big Hops}}"
+Big Job:
+  pageId: 221509
 Big Journey to Home:
   cloud:
     steam: true
@@ -37058,6 +37060,7 @@ Caesar IV:
 "Caesar's Revenge":
   cloud:
     steam: true
+  lutris: caesars-revenge
   pageId: 205051
   steam: 2166150
 CaesarIA:
@@ -37065,6 +37068,16 @@ CaesarIA:
   steam: 327640
   steamSide:
     - 340260
+Caesars Palace:
+  pageId: 221523
+Caesars Palace (1992):
+  pageId: 221526
+Caesars Palace (1997):
+  pageId: 221528
+Caesars Palace 2000:
+  pageId: 221532
+Caesars Palace Slots:
+  pageId: 221530
 Cafe Crush:
   cloud:
     steam: true
@@ -64643,6 +64656,8 @@ Die Already:
 Die Bloody Nazi Die!:
   pageId: 134484
   steam: 1050900
+Die DillyBillys:
+  pageId: 221512
 Die Drachen von Laas:
   pageId: 75230
   templates:
@@ -64817,6 +64832,8 @@ Dig and Shoot:
   pageId: 81464
   steam: 785070
 Dig or Die:
+  cloud:
+    steam: true
   pageId: 37553
   steam: 315460
 Dig to the Stars:
@@ -74166,6 +74183,7 @@ EA Sports PGA Tour:
 EA Sports WRC:
   cloud:
     steam: true
+  lutris: ea-sportstm-wrc
   pageId: 189778
   steam: 1849250
   templates:
@@ -108226,6 +108244,8 @@ Heart of Ember CH1:
 Heart of Eternity:
   pageId: 209265
   steam: 3863600
+  templates:
+    - "{{Game data/saves|Windows|C:\\Users\\(USERNAME)\\Documents\\Ñåðäöå Âå÷íîñòè}}"
 Heart of Evil:
   pageId: 206636
 "Heart of Moon : The Mask of Seasons":
@@ -154693,6 +154713,8 @@ Moto Racing 3D:
 Moto VR:
   pageId: 82804
   steam: 713500
+MotoGP 07:
+  pageId: 221511
 MotoGP 08:
   lutris: motogp-08
   pageId: 59781
@@ -162715,6 +162737,8 @@ Nihilumbra:
     steam: true
   pageId: 44126
   steam: 454130
+"Nile: Passage to Egypt":
+  pageId: 221514
 Nimbatus:
   cloud:
     steam: true
@@ -204850,6 +204874,7 @@ Sega Rally Championship:
     - "{{Game data/config|Windows|{{p|game}}\\RALLY.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SRALLY_0}}"
 Sega Rally Revo:
+  lutris: sega-rally-revo
   pageId: 59787
   steam: 10400
   steamSide:
@@ -235171,6 +235196,8 @@ Team Sonic Racing:
 Team Up VR (Beta):
   pageId: 108384
   steam: 916390
+"Team Xtreme: Operation Weather Disaster":
+  pageId: 221518
 Teamfight Manager:
   cloud:
     gog: true
@@ -270997,6 +271024,8 @@ Virtual Ninja VR:
 Virtual Pirate VR:
   pageId: 93120
   steam: 849870
+Virtual Pool:
+  pageId: 221534
 Virtual Pool 2:
   pageId: 195114
 Virtual Pool 3:
@@ -272379,6 +272408,7 @@ WORLDS at WAR (Monitors Only):
 "WRC 10: FIA World Rally Championship":
   cloud:
     steam: true
+  lutris: wrc-10-fia-world-rally-championship
   pageId: 167863
   steam: 1462810
   templates:
@@ -272397,6 +272427,7 @@ WORLDS at WAR (Monitors Only):
 "WRC 4: FIA World Rally Championship":
   cloud:
     steam: true
+  lutris: wrc-4-fia-world-rally-championship
   pageId: 40560
   steam: 256330
   templates:
@@ -272405,6 +272436,7 @@ WORLDS at WAR (Monitors Only):
 "WRC 5: FIA World Rally Championship":
   cloud:
     steam: true
+  lutris: wrc-5
   pageId: 46130
   steam: 354160
   steamSide:
@@ -272418,6 +272450,7 @@ WORLDS at WAR (Monitors Only):
 "WRC 6: FIA World Rally Championship":
   cloud:
     steam: true
+  lutris: wrc-6
   pageId: 39239
   steam: 458770
   templates:
@@ -272425,6 +272458,7 @@ WORLDS at WAR (Monitors Only):
 "WRC 7: FIA World Rally Championship":
   cloud:
     steam: true
+  lutris: wrc-7
   pageId: 69486
   steam: 621830
   templates:
@@ -272432,6 +272466,7 @@ WORLDS at WAR (Monitors Only):
 "WRC 8: FIA World Rally Championship":
   cloud:
     steam: true
+  lutris: wrc-8-fia-world-rally-championship
   pageId: 128666
   steam: 1004750
   templates:
@@ -272441,6 +272476,7 @@ WORLDS at WAR (Monitors Only):
   cloud:
     epic: true
     steam: true
+  lutris: wrc-9-fia-world-rally-championship
   pageId: 158653
   steam: 1267540
   templates:
@@ -272449,6 +272485,7 @@ WORLDS at WAR (Monitors Only):
 WRC Generations:
   cloud:
     steam: true
+  lutris: wrc-generations-the-fia-wrc-official-game
   pageId: 182983
   steam: 1953520
   templates:
@@ -272457,6 +272494,7 @@ WRC Generations:
 WRC Powerslide:
   cloud:
     steam: true
+  lutris: wrc-powerslide
   pageId: 55333
   steam: 256350
   templates:
@@ -273550,9 +273588,11 @@ WarBreeds:
     gog: true
     steam: true
   gog: 1979367321
+  lutris: warbreeds
   pageId: 187897
   steam: 2464660
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\WARBREED.CFG|{{p|game}}\\DATA\\prefs.dbg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\DATA\\SAVES\\}}"
 WarCommander:
   pageId: 208372
