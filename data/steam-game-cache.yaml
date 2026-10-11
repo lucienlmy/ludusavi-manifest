@@ -646638,6 +646638,18 @@
         oslist: windows
       executable: sab_ship.exe
       type: default
+3201450:
+  nameLocalized:
+    brazilian: SACRATA
+    english: SACRATA
+    french: SACRATA
+    german: SACRATA
+    japanese: SACRATA サクラタ
+    koreana: SACRATA 사크라타
+    russian: SACRATA
+    schinese: SACRATA 绯红裁决者
+    spanish: SACRATA
+    tchinese: SACRATA 緋紅裁決者
 3201470:
   cloud:
     saves:
