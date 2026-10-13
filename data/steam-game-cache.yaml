@@ -633337,6 +633337,13 @@
       type: editor
   nameLocalized:
     russian: Америка на шпалах
+2680280:
+  installDir: PAPERHEAD
+  launch:
+    - executable: PAPERHEAD.exe
+    - arguments: "-force-d3d11"
+      description: IF YOUR GAMES CRASHES ON THE DEFAULT LAUNCH OPTION USE THIS
+      executable: PAPERHEAD.exe
 2680330:
   cloud:
     saves:
@@ -661969,6 +661976,11 @@
       executable: SiNiSistar2.app
 4475520: {}
 4484200: {}
+4485020:
+  installDir: The Crimson Hunt
+  launch:
+    - executable: The Crimson Hunt.exe
+      type: default
 4487840:
   cloud:
     saves:

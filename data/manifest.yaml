@@ -371525,6 +371525,8 @@ Inspector - 生化战警:
   steam:
     id: 1153710
 "Inspector Gadget: Mad Time Party":
+  cloud:
+    gog: true
   installDir:
     Inspector Gadget - Mad Time Party: {}
   launch:
@@ -528292,6 +528294,26 @@ Papercraft:
             store: steam
   steam:
     id: 905660
+Paperhead:
+  cloud:
+    steam: true
+  id:
+    lutris: paperhead
+    steamExtra:
+      - 2682750
+      - 5113440
+      - 5113460
+  installDir:
+    PAPERHEAD: {}
+  launch:
+    "<base>/PAPERHEAD.exe":
+      - when:
+          - store: steam
+      - arguments: "-force-d3d11"
+        when:
+          - store: steam
+  steam:
+    id: 2680280
 "Papers, Please":
   cloud:
     steam: true
@@ -735180,6 +735202,19 @@ The Crimson Diamond:
             store: steam
   steam:
     id: 1098770
+The Crimson Hunt:
+  id:
+    lutris: the-crimson-hunt
+    steamExtra:
+      - 4662870
+  installDir:
+    The Crimson Hunt: {}
+  launch:
+    "<base>/The Crimson Hunt.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4485020
 The Crimson Maid:
   cloud:
     epic: true
