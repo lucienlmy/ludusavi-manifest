@@ -119266,6 +119266,9 @@ CarX Drift Racing Online:
         - config
   steam:
     id: 635260
+CarX Rally:
+  steam:
+    id: 3883610
 CarX Street:
   cloud:
     steam: true
@@ -485687,6 +485690,18 @@ NHRA Drag Racing Main Event:
         - config
       when:
         - os: windows
+"NHRA Drag Racing: Top Fuel Thunder":
+  files:
+    "<base>/UserData/Replay":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/UserData/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 "NHRA: Speed for All":
   alias: "NHRA Championship Drag Racing: Speed for All"
 NIGHT FALLEN:
@@ -607815,6 +607830,8 @@ Rugosi:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: rugrats-adventures-in-gameland
   installDir:
     Rugrats Advenutres in Gameland: {}
   launch:
