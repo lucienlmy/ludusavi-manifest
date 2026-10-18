@@ -35041,6 +35041,13 @@ Amalgam:
         - config
   steam:
     id: 1389950
+Amanagi:
+  files:
+    "<base>/SaveFile.dat":
+      tags:
+        - save
+      when:
+        - os: windows
 Amanda the Adventurer:
   files:
     "<home>/AppData/LocalLow/MangledMaw/Amanda The Adventurer":
@@ -41546,6 +41553,8 @@ Anno 1404:
         - save
       when:
         - os: windows
+  id:
+    lutris: anno-1404-history-edition
   installDir:
     Anno 1404 - History Edition: {}
   launch:
@@ -41581,6 +41590,8 @@ Anno 1503:
         - save
       when:
         - os: windows
+  id:
+    lutris: anno-1503-history-edition
   installDir:
     Anno 1503 - History Edition: {}
   launch:
@@ -41626,6 +41637,8 @@ Anno 1503:
         - config
       when:
         - os: windows
+  id:
+    lutris: anno-1602-history-edition
   installDir:
     Anno 1602 - History Edition: {}
   launch:
@@ -41683,6 +41696,8 @@ Anno 1701:
         - save
       when:
         - os: windows
+  id:
+    lutris: anno-1701-history-edition
   installDir:
     Anno 1701 - History Edition: {}
   launch:
@@ -50883,6 +50898,15 @@ Arthur and the Invisibles:
           - store: steam
   steam:
     id: 2471140
+"Arthur's Brainteasers":
+  installDir:
+    "Arthur's Thinking Games": {}
+  launch:
+    "<base>/Park.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3461500
 "Arthur's Camping Adventure":
   cloud:
     steam: true
@@ -51002,6 +51026,17 @@ Arthur and the Invisibles:
       when:
         - os: windows
 "Arthur's Reading Games":
+  alias: "Arthur's Reading Roundup"
+"Arthur's Reading Race":
+  installDir:
+    "Arthur's Reading Race": {}
+  launch:
+    "<base>/Launch Arthur's Reading Race.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2471160
+"Arthur's Reading Roundup":
   files:
     "<base>/1999/ARD/*.txt":
       when:
@@ -51015,15 +51050,6 @@ Arthur and the Invisibles:
         workingDir: "<base>/2001"
   steam:
     id: 4056610
-"Arthur's Reading Race":
-  installDir:
-    "Arthur's Reading Race": {}
-  launch:
-    "<base>/Launch Arthur's Reading Race.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2471160
 "Arthur's Sand Castle Contest":
   cloud:
     steam: true
@@ -51059,14 +51085,7 @@ Arthur and the Invisibles:
   steam:
     id: 2471150
 "Arthur's Thinking Games":
-  installDir:
-    "Arthur's Thinking Games": {}
-  launch:
-    "<base>/Park.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 3461500
+  alias: "Arthur's Brainteasers"
 Arthurian Legends:
   cloud:
     steam: true
@@ -68214,6 +68233,8 @@ Balls and Magnets:
 Balls of Steel:
   gog:
     id: 1207659165
+  id:
+    lutris: balls-of-steel
   installDir:
     Balls of Steel: {}
   launch:
@@ -115255,7 +115276,7 @@ Call of Duty Black Ops Cold War:
     Call of Duty Black Ops 6: {}
   launch:
     "<base>/bootstrapper.exe":
-      - arguments: cod.exe
+      - arguments: cod-cod24.exe
         when:
           - bit: 64
             os: windows
@@ -171557,6 +171578,11 @@ DEEEER Simulator:
     id: 1018800
 DEFCON:
   files:
+    "<base>/preferences.txt":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/.defcon":
       tags:
         - config
@@ -171573,6 +171599,11 @@ DEFCON:
         - config
       when:
         - os: mac
+    "<winLocalAppData>/Introversion/Defcon/preferences.txt":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207659075
   installDir:
@@ -393717,7 +393748,7 @@ Killing Time (2017):
   installDir:
     Killing Time Remastered: {}
   launch:
-    "<base>/imentet_Shipping_Steam_x64.exe":
+    "<base>/KillingTimeResurrected.exe":
       - when:
           - bit: 64
             os: windows
@@ -420325,6 +420356,13 @@ Little Big Adventure – Twinsen’s Quest:
     "Twinsen's Little Big Adventure Classic": {}
   steam:
     id: 397330
+"Little Big Adventure: Purple Empire":
+  cloud:
+    steam: true
+  gog:
+    id: 1842768333
+  steam:
+    id: 2352230
 Little Big Workshop:
   cloud:
     epic: true
@@ -434261,24 +434299,6 @@ MTV Celebrity Deathmatch:
     HKEY_LOCAL_MACHINE/SOFTWARE/Darkblack/MTVSkateboarding:
       tags:
         - config
-"MTX: Mototrax":
-  files:
-    "<base>/Game/Save":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<base>/Game/config.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: mtx-mototrax
-  registry:
-    "HKEY_CURRENT_USER/SOFTWARE/Aspyr Media/MTX: MotoTrax":
-      tags:
-        - config
 MU Legend:
   installDir:
     MU Legend: {}
@@ -440880,6 +440900,7 @@ Makeover Desire - HENSHIN GANBO:
       when:
         - os: windows
   id:
+    lutris: making-history-the-calm-the-storm
     steamExtra:
       - 371190
   installDir:
@@ -462583,7 +462604,7 @@ Mini Metro:
   installDir:
     MiniMetro: {}
   launch:
-    "<base>/MiniMetro.app/Contents/MacOS/MiniMetro":
+    "<base>/MiniMetro.app":
       - when:
           - os: mac
             store: steam
@@ -462635,7 +462656,7 @@ Mini Motorways:
   installDir:
     Mini Motorways: {}
   launch:
-    "<base>/Mini Motorways.app/Contents/MacOS/Mini Motorways":
+    "<base>/Mini Motorways.app":
       - when:
           - os: mac
             store: steam
@@ -575702,6 +575723,8 @@ Rails Across America:
         - save
       when:
         - os: windows
+  id:
+    lutris: rails-across-america
   installDir:
     Rails Across America: {}
   launch:
@@ -691010,6 +691033,18 @@ Stranded:
             store: steam
   steam:
     id: 295250
+Stranded (2003):
+  files:
+    "<base>/sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Stranded Alone:
   installDir:
     Stranded Alone: {}
@@ -727776,6 +727811,12 @@ The 11th Hour:
   steam:
     id: 255940
 "The 13th Doll: A Fan Game of The 7th Guest":
+  files:
+    "<home>/.config/unity3d/Attic Door Productions/The13thDoll":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1365954542
   installDir:
@@ -806431,12 +806472,7 @@ Twins of the Pasture:
   steam:
     id: 649580
 "Twinsen's Little Big Adventure 2 Remastered":
-  cloud:
-    steam: true
-  gog:
-    id: 1842768333
-  steam:
-    id: 2352230
+  alias: "Little Big Adventure: Purple Empire"
 "Twinsen's Little Big Adventure Remastered":
   alias: Little Big Adventure – Twinsen’s Quest
 Twinship:

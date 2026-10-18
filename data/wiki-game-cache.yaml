@@ -11235,6 +11235,10 @@ Amalgam:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Valve\\Source\\amalgam\\Settings}}"
     - "{{Game data/saves|Windows|{{p|game}}\\amalgam\\save\\||{{p|game}}\\amalgam\\cfg\\config.cfg<ref>{{Refcheck|user=Taylor.mabby654|date=2024-09-22|comment=Contains chapter progress}}</ref>}}"
+Amanagi:
+  pageId: 221894
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveFile.dat}}"
 Amanda the Adventurer:
   lutris: amanda-the-adventurer
   pageId: 189513
@@ -13369,6 +13373,7 @@ Anno 1404:
 "Anno 1404: History Edition":
   cloud:
     uplay: true
+  lutris: anno-1404-history-edition
   pageId: 161410
   steam: 1281630
   templates:
@@ -13384,6 +13389,7 @@ Anno 1503:
 "Anno 1503: History Edition":
   cloud:
     uplay: true
+  lutris: anno-1503-history-edition
   pageId: 161430
   steam: 2820110
   templates:
@@ -13398,6 +13404,7 @@ Anno 1503:
 "Anno 1602: History Edition":
   cloud:
     uplay: true
+  lutris: anno-1602-history-edition
   pageId: 161426
   steam: 2820130
   templates:
@@ -13416,6 +13423,7 @@ Anno 1701:
 "Anno 1701: History Edition":
   cloud:
     uplay: true
+  lutris: anno-1701-history-edition
   pageId: 161402
   steam: 2820140
   templates:
@@ -16382,6 +16390,11 @@ Arthur and the Revenge of Maltazard:
 "Arthur's Birthday":
   pageId: 147526
   steam: 2471140
+"Arthur's Brainteasers":
+  pageId: 193064
+  renamedFrom:
+    - "Arthur's Thinking Games"
+  steam: 3461500
 "Arthur's Camping Adventure":
   cloud:
     steam: true
@@ -16427,12 +16440,14 @@ Arthur and the Revenge of Maltazard:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
-"Arthur's Reading Games":
-  pageId: 193061
-  steam: 4056610
 "Arthur's Reading Race":
   pageId: 187051
   steam: 2471160
+"Arthur's Reading Roundup":
+  pageId: 193061
+  renamedFrom:
+    - "Arthur's Reading Games"
+  steam: 4056610
 "Arthur's Sand Castle Contest":
   cloud:
     steam: true
@@ -16443,9 +16458,6 @@ Arthur and the Revenge of Maltazard:
 "Arthur's Teacher Trouble":
   pageId: 186446
   steam: 2471150
-"Arthur's Thinking Games":
-  pageId: 193064
-  steam: 3461500
 Arthurian Legends:
   cloud:
     steam: true
@@ -22013,6 +22025,7 @@ Balls and Magnets:
   steam: 788320
 Balls of Steel:
   gog: 1207659165
+  lutris: balls-of-steel
   pageId: 13690
   steam: 358430
   templates:
@@ -55564,8 +55577,8 @@ DEFCON:
   pageId: 1357
   steam: 1520
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/uk.co.introversion.defcon.prefs{{note|Legacy (2012) release}}|{{p|osxhome}}/Library/Application Support/uk.co.introversion.defcon/preferences.txt{{note|20th Anniversary release}}}}"
+    - "{{Game data/config|Windows|{{p|game}}\\preferences.txt{{note|Legacy release|name=LegacyRelease}}|{{p|localappdata}}\\Introversion\\Defcon\\preferences.txt{{note|20th Anniversary release|name=RemasterRelease}}}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/uk.co.introversion.defcon.prefs{{note|name=LegacyRelease}}|{{p|osxhome}}/Library/Application Support/uk.co.introversion.defcon/preferences.txt{{note|name=RemasterRelease}}}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.defcon/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.defcon/}}"
 DEFCON VR:
@@ -119227,6 +119240,8 @@ In Memoriam:
   pageId: 115197
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\In_Memoriam_Save_Files\\}}"
+In Memoriam 2:
+  pageId: 221898
 In Memory:
   pageId: 114022
   steam: 933660
@@ -137161,6 +137176,14 @@ Little Big Adventure – Twinsen’s Quest:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\LBA\\UserDefault.xml}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
+"Little Big Adventure: Purple Empire":
+  cloud:
+    steam: true
+  gog: 1842768333
+  pageId: 185991
+  renamedFrom:
+    - "Twinsen's Little Big Adventure 2 Remastered"
+  steam: 2352230
 Little Big Workshop:
   cloud:
     epic: true
@@ -141638,12 +141661,6 @@ MTV Total Request Live Trivia:
   pageId: 207351
 "MTV: Music Generator":
   pageId: 220736
-"MTX: Mototrax":
-  lutris: mtx-mototrax
-  pageId: 191592
-  templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Aspyr Media\\MTX: MotoTrax|{{p|game}}\\Game\\config.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save\\}}"
 MU Legend:
   pageId: 103963
   steam: 874240
@@ -143866,6 +143883,7 @@ Makeover Desire - HENSHIN GANBO:
   pageId: 41098
   steam: 46770
 "Making History: The Calm & the Storm":
+  lutris: making-history-the-calm-the-storm
   pageId: 41394
   steam: 6250
   steamSide:
@@ -188242,6 +188260,7 @@ Rails Across America:
   cloud:
     epic: true
     steam: true
+  lutris: rails-across-america
   pageId: 191048
   steam: 2680190
   templates:
@@ -225893,6 +225912,11 @@ Strain Tactics:
 Stranded:
   pageId: 50238
   steam: 295250
+Stranded (2003):
+  pageId: 221893
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\sav}}"
 Stranded Alone:
   pageId: 80408
   steam: 780260
@@ -237610,6 +237634,7 @@ The 11th Hour:
   steam: 1107230
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Attic Door Productions\\The13thDoll\\}}"
+    - "{{Game data/config|Linux|~/.config/unity3d/Attic Door Productions/The13thDoll}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Attic Door Productions\\The13thDoll\\}}"
 The 13th Heir - Ragnarok Chapter 2:
   pageId: 78188
@@ -258462,6 +258487,7 @@ Totally Spies! Cyber Mission:
   pageId: 199092
   steam: 2793950
 Totally Spies! Totally Party:
+  state: outdated
   pageId: 122921
 "Totally Spies!: Swamp Monster Blues":
   pageId: 122940
@@ -264369,12 +264395,6 @@ Twinora:
 Twins of the Pasture:
   pageId: 64580
   steam: 649580
-"Twinsen's Little Big Adventure 2 Remastered":
-  cloud:
-    steam: true
-  gog: 1842768333
-  pageId: 185991
-  steam: 2352230
 Twinship:
   pageId: 127870
   steam: 1029920
