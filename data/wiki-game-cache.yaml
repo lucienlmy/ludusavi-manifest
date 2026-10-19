@@ -15170,6 +15170,11 @@ Archery Kings VR:
 Archery Practice VR:
   pageId: 57764
   steam: 587830
+Archi Vista:
+  pageId: 221965
+  steam: 2513150
+  steamSide:
+    - 5374740
 Archibald:
   pageId: 87978
   steam: 811360
@@ -50758,6 +50763,10 @@ Cozy Game Restoration:
   lutris: cozy-game-restoration
   pageId: 216715
   steam: 3581230
+  steamSide:
+    - 4668150
+    - 4742270
+    - 5338940
 Cozy Grove:
   cloud:
     epic: true
@@ -55774,6 +55783,8 @@ DOWN MEANS UP:
 "DPET : Desktop Pet Engine":
   pageId: 178357
   steam: 1980920
+DQ Tycoon:
+  pageId: 221959
 DR LIVESEY ROM AND DEATH EDITION:
   pageId: 202274
   steam: 2181930
@@ -98399,6 +98410,8 @@ Getting Over It with Bennett Foddy:
     steam: true
   pageId: 1951
   steam: 200630
+"Gettysburg: Civil War Battles":
+  pageId: 221964
 "Gettysburg: The Tide Turns":
   pageId: 65419
   steam: 602510
@@ -146977,6 +146990,8 @@ MediEvil (MediEvilRecomp):
 Medical verdict:
   pageId: 109300
   steam: 891310
+Medicalat:
+  pageId: 221953
 Medieval - Embers of War:
   cloud:
     steam: true
@@ -166391,8 +166406,10 @@ Octonaut - 星のタコ:
 Octopath Traveler:
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1323465345
   pageId: 133649
   steam: 921570
   steamSide:
@@ -196177,8 +196194,25 @@ Road Rash:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\RoadRash 95\\}}"
     - "{{Game data/saves|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\RoadRash 95\\}}"
 Road Redemption:
+  cloud:
+    gog: true
+  gog: 1293472819
+  gogSide:
+    - 1099740426
+    - 1580530983
+    - 1875799615
+    - 1900293362
+    - 2069506895
+    - 2081693308
   pageId: 20759
   steam: 300380
+  steamSide:
+    - 524890
+    - 625500
+    - 725880
+    - 727050
+    - 727440
+    - 1180010
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Road Redemption\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/documents/roadredemption}}"
@@ -196948,6 +196982,8 @@ Rock Paper Scissors Champion:
 Rock Simulator:
   pageId: 152937
   steam: 1187510
+Rock Tour:
+  pageId: 221957
 Rock Zombie:
   pageId: 49283
   steam: 328640
@@ -204555,6 +204591,20 @@ SeaWorld Adventure Parks Tycoon 2:
 Seabed Prelude:
   pageId: 57914
   steam: 529730
+Seabun:
+  cloud:
+    steam: true
+  pageId: 221955
+  steam: 4990820
+  steamSide:
+    - 5398240
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Seabun\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Seabun/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Seabun/}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Seabun\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Seabun/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Seabun/}}"
 Seacurity Breach:
   cloud:
     steam: true
@@ -258275,6 +258325,8 @@ Total Party Kill:
     steam: true
   pageId: 139244
   steam: 1091250
+Total Pinball 25:
+  pageId: 221961
 Total Pro Golf 3:
   pageId: 49847
   steam: 308320
@@ -265520,6 +265572,8 @@ Ultimate Chicken Horse:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Clever Endeavour Games\\Ultimate Chicken Horse\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/}}"
+"Ultimate Civil War Battles: Robert E. Lee vs Ulysses S. Grant":
+  pageId: 221967
 Ultimate Coaster X:
   pageId: 129647
   steam: 734330

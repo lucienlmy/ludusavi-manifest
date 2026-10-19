@@ -47117,6 +47117,12 @@ Archery Kings VR:
 Archery Practice VR:
   steam:
     id: 587830
+Archi Vista:
+  id:
+    steamExtra:
+      - 5374740
+  steam:
+    id: 2513150
 Archibald:
   installDir:
     Archibald: {}
@@ -156988,6 +156994,10 @@ Cows VS Vikings:
 Cozy Game Restoration:
   id:
     lutris: cozy-game-restoration
+    steamExtra:
+      - 4668150
+      - 4742270
+      - 5338940
   steam:
     id: 3581230
 Cozy Grove:
@@ -508351,6 +508361,7 @@ Octonaut - 星のタコ:
 Octopath Traveler:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/Octopath_Traveler/<storeUserId>/SaveGames":
@@ -508369,6 +508380,8 @@ Octopath Traveler:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1323465345
   id:
     steamExtra:
       - 1083770
@@ -540182,9 +540195,16 @@ Pilot Brothers:
   installDir:
     Pilot Brothers: {}
   launch:
-    "<base>/bin/Pilot Brothers.exe":
+    "<base>/bin/Launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+        workingDir: "<base>/bin"
+    "<base>/bin/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
         workingDir: "<base>/bin"
   steam:
@@ -599208,6 +599228,8 @@ Road Rash:
         - config
         - save
 Road Redemption:
+  cloud:
+    gog: true
   files:
     "<home>/.config/unity3d/DarkSeas/Road Redemption - Early Access":
       tags:
@@ -599244,6 +599266,23 @@ Road Redemption:
         - save
       when:
         - os: windows
+  gog:
+    id: 1293472819
+  id:
+    gogExtra:
+      - 1099740426
+      - 1580530983
+      - 1875799615
+      - 1900293362
+      - 2069506895
+      - 2081693308
+    steamExtra:
+      - 524890
+      - 625500
+      - 725880
+      - 727050
+      - 727440
+      - 1180010
   installDir:
     RoadRedemption: {}
   launch:
@@ -624953,6 +624992,33 @@ Seabed Prelude:
     Seabed Prelude: {}
   steam:
     id: 529730
+Seabun:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Seabun":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/Seabun":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Seabun":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5398240
+  steam:
+    id: 4990820
 Seacurity Breach:
   cloud:
     steam: true

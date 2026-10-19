@@ -80453,17 +80453,16 @@
   installDir: Pilot Brothers
   launch:
     - config:
+        osarch: "32"
         oslist: windows
-      description: Launch
-      executable: bin/Pilot Brothers.exe
+      executable: bin/Launcher-ia32.exe
+      type: default
       workingdir: bin
     - config:
-        betakey: internal
         osarch: "64"
         oslist: windows
-      description: Launcher
       executable: bin/launcher-x64.exe
-      type: option1
+      type: default
       workingdir: bin
 336770:
   installDir: Pilot Brothers 2
@@ -627975,6 +627974,7 @@
     - config:
         oslist: windows
       executable: DoronkoWanko.exe
+2513150: {}
 2513280:
   cloud:
     saves:
@@ -663498,6 +663498,29 @@
   installDir: Heroes Of Might And Magic III
   launch:
     - executable: Heroes3.exe
+  nameLocalized:
+    brazilian: Heroes Of Might And Magic III
+    danish: Heroes Of Might And Magic III
+    dutch: Heroes Of Might And Magic III
+    english: Heroes Of Might And Magic III
+    finnish: Heroes Of Might And Magic III
+    french: Heroes Of Might And Magic III
+    german: Heroes Of Might And Magic III
+    italian: Heroes of Might and Magic III
+    japanese: ヒーローズ・オブ・マイト・アンド・マジックIII
+    koreana: 히어로즈 오브 마이트 앤 매직 III
+    latam: Heroes of Might and Magic III
+    norwegian: Heroes Of Might And Magic III
+    polish: Heroes Of Might And Magic III
+    portuguese: Heroes Of Might And Magic III
+    russian: Heroes of Might and Magic III
+    schinese: 魔法门之英雄无敌III
+    spanish: Heroes of Might and Magic III
+    swedish: Heroes Of Might And Magic III
+    tchinese: 《魔法門之英雄無敵 III》
+    thai: Heroes Of Might And Magic III
+    turkish: Heroes Of Might And Magic III
+    ukrainian: Heroes Of Might And Magic III
 4928600: {}
 4932120: {}
 4935510:
@@ -663555,6 +663578,7 @@
       type: default
 4980620: {}
 4981370: {}
+4990820: {}
 4991240:
   installDir: Witch Cabin Cleanup
   launch:
