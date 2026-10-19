@@ -1268,6 +1268,8 @@ $1 Ride:
     - "{{Game data/saves|Windows|{{p|game}}\\SCORES.BST}}"
 3-D Ultra Pinball:
   pageId: 192442
+"3-D Ultra Pinball: Creep Night":
+  pageId: 221946
 "3-D Ultra Pinball: Thrillride":
   pageId: 196080
   templates:
