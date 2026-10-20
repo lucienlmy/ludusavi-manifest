@@ -38705,6 +38705,12 @@ Car Park Capital:
     - "{{Game data/config|Linux|{{p|game}}/settings.json}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\*.cpcp|{{p|game}}\\saves\\*.json|{{p|game}}\\saves\\blueprints\\*.cpbp|{{p|game}}\\saves\\scenarios\\*.cpcs}}"
     - "{{Game data/saves|Linux|{{p|game}}/saves/*.cpcp|{{p|game}}/saves/*.json|{{p|game}}/saves/blueprints\\*.cpbp|{{p|game}}/saves/scenarios/*.cpcs}}"
+Car Parking Multiplayer 2:
+  pageId: 221969
+  steam: 4252340
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Olzhas\\Car Parking 2\\GraphicsSettings.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Olzhas\\Car Parking 2\\SaveFile.es3}}"
 Car Puzzler:
   cloud:
     steam: true
@@ -55079,6 +55085,8 @@ CyberThreat:
   steam: 516590
 Cyberball:
   pageId: 208117
+Cyberball (1990):
+  pageId: 221975
 "Cyberbykes: Shadow Racer VR":
   pageId: 202639
 Cybercube:
@@ -88919,6 +88927,7 @@ Fires at Midnight:
 Fireside Feelings:
   cloud:
     steam: true
+  lutris: fireside-feelings
   pageId: 210113
   steam: 2990600
   steamSide:
@@ -160204,6 +160213,8 @@ Necromancer Accountant:
   steam: 696160
 "Necromania: Trap of Darkness":
   pageId: 212465
+Necromantics:
+  pageId: 221982
 Necromonads:
   pageId: 45884
   steam: 391630
@@ -165449,6 +165460,11 @@ Number Guesser:
 Number Hunt:
   pageId: 94517
   steam: 851770
+"Number Machine: Math Factory":
+  pageId: 221971
+  steam: 2231090
+  steamSide:
+    - 2243290
 Number World:
   cloud:
     steam: true
@@ -177211,6 +177227,8 @@ Pinball Mania:
 Pinball Parlor:
   pageId: 55720
   steam: 514570
+Pinball Prelude:
+  pageId: 221984
 Pinball Wicked:
   pageId: 64572
   steam: 595960
@@ -189553,8 +189571,11 @@ Re.poly:
   pageId: 174427
   steam: 1502770
 "ReBlade: The Death Spiral":
+  lutris: reblade-the-death-spiral
   pageId: 213212
   steam: 3489340
+  steamSide:
+    - 4513800
 ReBoot (2016):
   pageId: 52077
   renamedFrom:
@@ -192205,11 +192226,15 @@ Remote Control:
   steam: 4461560
 "Remothered: Red Nun's Legacy":
   cloud:
+    epic: true
+    steam: true
     xbox: true
   gog: 1933416452
   lutris: remothered-red-nuns-legacy
   pageId: 214598
   steam: 3335310
+  steamSide:
+    - 5312670
 "Remothered: Tormented Fathers":
   cloud:
     gog: true
@@ -193416,6 +193441,12 @@ Retribution:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
+Retrieval:
+  cloud:
+    steam: true
+  lutris: retrieval
+  pageId: 221979
+  steam: 2999120
 Retro Block VR:
   pageId: 64073
   steam: 660820
@@ -196395,6 +196426,7 @@ Roanoke:
   pageId: 81990
   steam: 795140
 "Roark's Attack on Titan Fan Game":
+  lutris: roarks-attack-on-titan-fan-game
   pageId: 205423
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\RoarkInc\\raot}}"
@@ -200033,6 +200065,8 @@ Rustmourne:
   lutris: rustmourne
   pageId: 217711
   steam: 3775210
+  steamSide:
+    - 5011020
 Rusty:
   pageId: 175137
 Rusty Hearts:
@@ -223422,6 +223456,8 @@ Stargazer Christmas:
 Stargazer Program:
   pageId: 93934
   steam: 828250
+Stargoose Warrior:
+  pageId: 221977
 Stargunner:
   cloud:
     gog: true
@@ -253119,8 +253155,12 @@ The Wolf Among Us:
 The Wolf Among Us 2:
   pageId: 154605
 The Wolf Among Us Remastered:
+  cloud:
+    steam: true
   pageId: 217307
   steam: 3884860
+  steamSide:
+    - 5280090
 "The Wolf's Bite":
   pageId: 65738
   steam: 656040

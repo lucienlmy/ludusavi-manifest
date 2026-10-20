@@ -119071,6 +119071,31 @@ Car Park Capital:
             store: steam
   steam:
     id: 3031880
+Car Parking Multiplayer 2:
+  files:
+    "<home>/AppData/LocalLow/Olzhas/Car Parking 2/GraphicsSettings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Olzhas/Car Parking 2/SaveFile.es3":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    CPM2: {}
+  launch:
+    "<base>/CPM2.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Car Parking 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4252340
 Car Puzzler:
   cloud:
     steam: true
@@ -272452,6 +272477,7 @@ Fireside Feelings:
   cloud:
     steam: true
   id:
+    lutris: fireside-feelings
     steamExtra:
       - 3805590
   installDir:
@@ -505351,6 +505377,12 @@ Number Hunt:
     Number Hunt: {}
   steam:
     id: 851770
+"Number Machine: Math Factory":
+  id:
+    steamExtra:
+      - 2243290
+  steam:
+    id: 2231090
 Number World:
   cloud:
     steam: true
@@ -579456,6 +579488,10 @@ Re;Lord 1 ~The Witch of Herfort and Stuffed Animals~:
   steam:
     id: 1502770
 "ReBlade: The Death Spiral":
+  id:
+    lutris: reblade-the-death-spiral
+    steamExtra:
+      - 4513800
   steam:
     id: 3489340
 ReBoot:
@@ -587469,10 +587505,15 @@ Remorses:
   steam:
     id: 4461560
 "Remothered: Red Nun's Legacy":
+  cloud:
+    epic: true
+    steam: true
   gog:
     id: 1933416452
   id:
     lutris: remothered-red-nuns-legacy
+    steamExtra:
+      - 5312670
   steam:
     id: 3335310
 "Remothered: Tormented Fathers":
@@ -590814,6 +590855,13 @@ Retreat to Enen:
           - store: steam
   steam:
     id: 1556490
+Retrieval:
+  cloud:
+    steam: true
+  id:
+    lutris: retrieval
+  steam:
+    id: 2999120
 Retro Block VR:
   installDir:
     Retro Block VR: {}
@@ -599806,6 +599854,8 @@ Roanoke:
         - config
       when:
         - os: windows
+  id:
+    lutris: roarks-attack-on-titan-fan-game
 Roarr! The Adventures of Rampage Rex:
   installDir:
     Roarr!: {}
@@ -611019,6 +611069,8 @@ Rustler:
 Rustmourne:
   id:
     lutris: rustmourne
+    steamExtra:
+      - 5011020
   steam:
     id: 3775210
 Rusty Hearts:
@@ -774183,6 +774235,11 @@ The Wolf Among Us:
   steam:
     id: 250320
 The Wolf Among Us Remastered:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 5280090
   steam:
     id: 3884860
 "The Wolf's Bite":

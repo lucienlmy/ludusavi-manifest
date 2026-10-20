@@ -614444,6 +614444,20 @@
   launch:
     - executable: game.exe
       type: none
+2231090:
+  nameLocalized:
+    brazilian: "Number Machine: Fábrica Matemática"
+    french: "Number Machine: Usine Mathématique"
+    german: "Number Machine: Mathematische Fabrik"
+    japanese: "Number Machine: 数学工場"
+    koreana: "Number Machine: 수학 공장"
+    latam: "Number Machine: Fábrica Matemática"
+    polish: "Number Machine: Matematyczna Fabryka"
+    portuguese: "Number Machine: Fábrica Matemática"
+    russian: "Number Machine: Математическая фабрика"
+    schinese: "Number Machine: 数学工厂"
+    spanish: "Number Machine: Fábrica Matemática"
+    ukrainian: "Number Machine: Математична фабрика"
 2231190:
   cloud:
     saves:
@@ -642667,6 +642681,7 @@
     tchinese: 異世界歸來的我錯過了愛情
     thai: กลับจากต่างโลก ฉันพลาดความรัก
     vietnamese: "Trở Về Từ Thế Giới Khác, Tôi Đã Bỏ Lỡ Tình Yêu"
+2999120: {}
 2999670: {}
 3001200:
   cloud:
@@ -661695,6 +661710,17 @@
     japanese: ねこねこマジック
     koreana: 먀법사
     schinese: 喵出法随
+4252340:
+  installDir: CPM2
+  launch:
+    - config:
+        oslist: windows
+      executable: Car Parking 2.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: CPM2.x86_64
+      type: default
 4253770:
   nameLocalized:
     japanese: 朧村正怪奇譚
