@@ -77428,6 +77428,8 @@ Beat Saber:
       - 4886390
       - 4886400
       - 4886410
+      - 5191250
+      - 5308330
   installDir:
     Beat Saber: {}
   steam:
@@ -150503,6 +150505,8 @@ Concubine:
         - save
       when:
         - os: windows
+  gog:
+    id: 1237009719
   id:
     lutris: concubine
   installDir:
@@ -397828,6 +397832,27 @@ Kinky Fight Club:
           - store: steam
   steam:
     id: 1237530
+"KinnikuNeko: Super Muscle Cat":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Kamotachi/KinnikuNeko SUPER MUSCLE CAT":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: kinnikuneko-super-muscle-cat
+  installDir:
+    KinnikuNeko SUPER MUSCLE CAT: {}
+  launch:
+    "<base>/KinnikuNeko SUPER MUSCLE CAT.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1332950
 "Kio's Adventure":
   steam:
     id: 612070
@@ -440235,6 +440260,8 @@ Mahjongg The Ultimate Collection 2:
   steam:
     id: 503480
 Mahou Arms:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/MagicalGirlDF/Saved/Config/WindowsNoEditor":
       tags:
@@ -472373,15 +472400,11 @@ Moonlighter:
     lutris: moonlighter-2-the-endless-vault
     steamExtra:
       - 3670000
-      - 4036250
       - 4935250
+      - 5026660
+      - 5031290
   installDir:
     Moonlighter 2 The Endless Vault: {}
-  launch:
-    "<base>/Moonlighter 2 The Endless Vault.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 2350790
 Moonlit Mayhem:
@@ -474682,6 +474705,8 @@ Moto Racer 3:
         - os: windows
   gog:
     id: 1207658897
+  id:
+    lutris: moto-racer-3-gold-edition
   installDir:
     Moto Racer Collection: {}
   launch:
@@ -492481,6 +492506,32 @@ Neon Boost:
             store: steam
   steam:
     id: 1057850
+"Neon Breaker: Endless Arcade":
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/NeonBreaker":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/NeonBreaker/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winLocalAppData>/NeonBreaker":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/NeonBreaker/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  steam:
+    id: 5054650
 Neon Brood:
   steam:
     id: 801360
@@ -733422,6 +733473,7 @@ The Book of Unwritten Tales:
     id: 1207659081
   id:
     steamExtra:
+      - 215180
       - 215200
   installDir:
     The Book of Unwritten Tales: {}
@@ -839947,6 +839999,18 @@ Warma:
             store: steam
   steam:
     id: 697630
+"Warmachine: Rogue-Scout":
+  cloud:
+    steam: true
+  installDir:
+    Warmachine Rogue-Scout: {}
+  launch:
+    "<base>/Warmachine Rogue-Scout.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 5006180
 "Warmachine: Tactics":
   files:
     "<winLocalAppData>/WarmachineGame/Saved/Config/WindowsNoEditor":
@@ -858709,6 +858773,9 @@ World of Goo 2:
       - 4972740
       - 4972760
       - 5130590
+      - 5130600
+      - 5130610
+      - 5130730
   installDir:
     WOG: {}
   launch:
