@@ -662392,6 +662392,10 @@
         oslist: linux
       executable: CPM2.x86_64
       type: default
+    - config:
+        oslist: macos
+      executable: CarParking2.app
+      type: default
 4253770:
   nameLocalized:
     japanese: 朧村正怪奇譚
@@ -663344,6 +663348,7 @@
 4434610: {}
 4435490: {}
 4436520: {}
+4436840: {}
 4440650: {}
 4441710: {}
 4444610: {}
