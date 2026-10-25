@@ -15385,6 +15385,27 @@ ASKA:
           - store: steam
   steam:
     id: 1898300
+ASPIS:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ASPIS/Saved/SaveGames/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: aspis
+  installDir:
+    ASPIS: {}
+  launch:
+    "<base>/Aspis.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3129420
 ASRECorp:
   installDir:
     ASRECorp: {}
@@ -275934,6 +275955,13 @@ Flex Apocalypse Racing:
             store: steam
   steam:
     id: 1000790
+Flick:
+  id:
+    lutris: flick
+    steamExtra:
+      - 5267890
+  steam:
+    id: 4450660
 FlickSync - Mad Hatter VR:
   installDir:
     FlickSync - Mad Hatter VR: {}
@@ -276533,6 +276561,11 @@ FlipWitch - Forbidden Sex Hex:
         - save
       when:
         - os: windows
+  gog:
+    id: 1196438244
+  id:
+    gogExtra:
+      - 1968799206
   installDir:
     FlipWitch Forbidden Sex Hex: {}
   launch:
@@ -290080,6 +290113,7 @@ Fruit for the Village:
     id: 528930
 Fruitbus:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Krillbite/Fruitbus":
@@ -350491,6 +350525,9 @@ Hookbots:
             store: steam
   steam:
     id: 1866180
+Hookeye:
+  steam:
+    id: 4670350
 Hooklings:
   installDir:
     Hooklings: {}
@@ -373657,6 +373694,9 @@ Interregnum-Alpha:
         - os: windows
   gog:
     id: 1500286266
+  id:
+    gogExtra:
+      - 1285751719
   installDir:
     Interrogation: {}
   launch:
@@ -462126,6 +462166,7 @@ MindsEye:
       - 1447749925
       - 1490532977
       - 1564697638
+      - 1716948078
       - 1749653555
       - 1779285224
       - 2010638935
@@ -501222,6 +501263,8 @@ No More Heroes:
   gog:
     id: 1952635766
   id:
+    gogExtra:
+      - 1993197743
     lutris: no-more-heroes
   installDir:
     No More Heroes: {}
@@ -501249,13 +501292,12 @@ No More Heroes:
         - os: windows
   gog:
     id: 2123918043
+  id:
+    gogExtra:
+      - 1993197743
   installDir:
     No More Heroes 2 Desperate Struggle: {}
   launch:
-    "<base>/ConfigurationTool.exe":
-      - arguments: en
-        when:
-          - store: steam
     "<base>/nmh2.exe":
       - when:
           - os: windows
@@ -501284,6 +501326,12 @@ No More Heroes 3:
         - os: windows
   gog:
     id: 1608160993
+  id:
+    gogExtra:
+      - 1251489693
+      - 1408957560
+      - 1944219414
+      - 1993197743
   installDir:
     No More Heroes 3: {}
   launch:
@@ -503231,6 +503279,13 @@ Nomad:
   steam:
     id: 378370
 Nomad Drive:
+  files:
+    "<home>/AppData/LocalLow/Indie Devil/Nomad Drive":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     lutris: nomad-drive
     steamExtra:
@@ -627292,6 +627347,26 @@ Secrets of Rætikon:
             store: steam
   steam:
     id: 246680
+Secrets of Velendar Castle - Escape Room:
+  files:
+    "<home>/AppData/LocalLow/mc2games/SecretsOfVelendarCastle":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1475441601
+  id:
+    lutris: secrets-of-velendar-castle-escape-room
+  installDir:
+    Secrets of Velendar Castle - Escape Room: {}
+  launch:
+    "<base>/SecretsOfVelendarCastle.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4016880
 Secrets of War:
   installDir:
     SecretsOfWar: {}
@@ -695755,6 +695830,7 @@ Stuart Little 2:
         - os: windows
 Stubbs the Zombie in Rebel Without a Pulse:
   cloud:
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/7800":
@@ -803861,6 +803937,11 @@ Tropico 3:
         - save
       when:
         - os: windows
+    "<winAppData>/Tropico 3/UserConfig2.lua":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207659056
   id:
@@ -848428,6 +848509,7 @@ While I Sleep I Am Debug:
     id: 619150
 While We Wait Here:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/While_We_Wait_Here/Saved/Config/Windows/GameUserSettings.ini":
@@ -848440,6 +848522,12 @@ While We Wait Here:
         - save
       when:
         - os: windows
+  gog:
+    id: 1985859739
+  id:
+    gogExtra:
+      - 1283879645
+      - 1866861783
   installDir:
     While We Wait Here: {}
   launch:
@@ -849901,6 +849989,7 @@ Wienne:
     id: 1180370
 Wife Quest:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Pippin Games/Wife Quest/*.save":
@@ -849911,7 +850000,13 @@ Wife Quest:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1465434701
   id:
+    gogExtra:
+      - 1196876641
+      - 1506609383
+      - 1863214247
     lutris: wife-quest
     steamExtra:
       - 1627460
