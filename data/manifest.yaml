@@ -5163,6 +5163,12 @@ $1 Ride:
             store: steam
   steam:
     id: 648580
+"4:AM":
+  id:
+    steamExtra:
+      - 4711490
+  steam:
+    id: 2537270
 "4:LOOP":
   steam:
     id: 3355360
@@ -113637,6 +113643,8 @@ CS2D:
         - save
       when:
         - os: windows
+  id:
+    lutris: csi-hard-evidence
   installDir:
     CSI Hard Evidence: {}
   launch:
@@ -113646,6 +113654,8 @@ CS2D:
   steam:
     id: 21730
 "CSI: NY - The Game":
+  id:
+    lutris: csi-ny-the-game
   installDir:
     CSI New York: {}
   launch:
@@ -171524,6 +171534,8 @@ D3D Inside:
 "D: The Game":
   gog:
     id: 1852354510
+  id:
+    lutris: d-the-game
   installDir:
     D: {}
   launch:
@@ -352473,6 +352485,8 @@ Hot Wheels Unleashed:
         - save
       when:
         - os: windows
+  id:
+    lutris: hot-wheels-unleashedtm-2-turbocharged
   installDir:
     HOT WHEELS UNLEASHED™ 2 - Turbocharged: {}
   launch:
@@ -352512,6 +352526,8 @@ Hot Wheels World Race:
         - save
       when:
         - os: windows
+  id:
+    lutris: hot-wheelstm-worlds-best-drivertm
   installDir:
     Hot Wheels WBD: {}
   launch:
@@ -485615,6 +485631,8 @@ NBA 2K25:
 NBA 2K26:
   cloud:
     steam: true
+  id:
+    lutris: nba-2k26
   installDir:
     NBA 2K26: {}
   launch:
@@ -485626,6 +485644,18 @@ NBA 2K26:
 NBA 2K27:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/2K Sports/NBA 2K27/VideoSettings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/79ACB67D.NBA2K27PC_yn88nk35a38zw/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     NBA 2K27: {}
   launch:
@@ -587208,13 +587238,22 @@ Reka:
         - os: windows
   id:
     lutris: reka
+    steamExtra:
+      - 1783630
+      - 3179550
   installDir:
     Reka: {}
   launch:
     "<base>/Reka.exe":
-      - when:
-          - os: windows
-            store: steam
+      - arguments: "-force-d3d11"
+        when:
+          - store: steam
+      - arguments: "-force-d3d12"
+        when:
+          - store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - store: steam
   steam:
     id: 1737870
 Rekindling:
@@ -661150,6 +661189,7 @@ Song of Farca:
     id: 1435670
 Song of Horror:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -661166,6 +661206,7 @@ Song of Horror:
   gog:
     id: 1957403324
   id:
+    lutris: song-of-horror
     steamExtra:
       - 1151730
       - 1157230
@@ -805587,6 +805628,12 @@ Tube Tycoon:
             store: steam
   steam:
     id: 611040
+Tube2K:
+  id:
+    steamExtra:
+      - 4907870
+  steam:
+    id: 756510
 TubeLife:
   cloud:
     steam: true
