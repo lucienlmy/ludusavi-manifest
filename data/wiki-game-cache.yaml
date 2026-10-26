@@ -7466,6 +7466,13 @@ Afterparty:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Night School Studio\\Afterparty}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Night School Studio\\Afterparty\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\762220\\}}"
+"Aftershock: Coastline":
+  lutris: aftershock-coastline
+  pageId: 222403
+  steam: 2450040
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Alex Rassloff\\Aftershock: Coastline}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Alex Rassloff\\Aftershock_ Coastline\\SaveData}}"
 Again:
   pageId: 87309
   steam: 810570
@@ -75918,15 +75925,27 @@ Ecotone:
   pageId: 34837
   steam: 446070
 Ecstatica:
+  cloud:
+    gog: true
+    steam: true
   gog: 1333226285
+  gogSide:
+    - 1335460878
+    - 1942439921
   pageId: 164114
   steam: 4834840
+  steamSide:
+    - 5418140
+    - 5418150
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/config|Windows|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saved\\}}"
 Ecstatica II:
+  cloud:
+    gog: true
+    steam: true
   gog: 1434747230
   pageId: 166171
   steam: 4834850
@@ -152956,7 +152975,6 @@ Momodora III:
   gog: 1079762750
   gogSide:
     - 2146639323
-  malformed: true
   pageId: 34172
   renamedFrom:
     - "Momodora: Reverie Under the Moonlight"
@@ -176574,6 +176592,8 @@ Phantom Astronaut Lucid VR:
   pageId: 149344
   steam: 1146810
 Phantom Blade Zero:
+  cloud:
+    steam: true
   lutris: phantom-blade-0
   pageId: 208385
   steam: 4115450
@@ -227970,11 +227990,18 @@ Stupid Raft Battle Simulator:
   cloud:
     steam: true
   gog: 1777704954
+  gogSide:
+    - 1411519552
+    - 1729223972
+    - 1947569167
+    - 2108929928
   lutris: stygian-outer-gods
   pageId: 202155
   steam: 2581410
   steamSide:
     - 4060460
+    - 5404580
+    - 5445690
 "Stygian: Reign of the Old Ones":
   cloud:
     gog: true
@@ -279902,6 +279929,8 @@ William and the Lands of Rage:
 "William's Love Prelude":
   pageId: 155775
   steam: 1215650
+Williams Arcade Classics:
+  pageId: 222406
 Willow:
   pageId: 218455
 "Willowbrook Stables: Search for the Golden Horseshoes":

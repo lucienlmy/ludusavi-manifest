@@ -31532,6 +31532,7 @@
 * [William and the Lands of Rage](https://www.pcgamingwiki.com/wiki/?curid=155560)
 * [William Shatner's TekWar](https://www.pcgamingwiki.com/wiki/?curid=31980)
 * [William's Love Prelude](https://www.pcgamingwiki.com/wiki/?curid=155775)
+* [Williams Arcade Classics](https://www.pcgamingwiki.com/wiki/?curid=222406)
 * [Willow](https://www.pcgamingwiki.com/wiki/?curid=218455)
 * [Willowbrooke Post](https://www.pcgamingwiki.com/wiki/?curid=114264)
 * [Willowisp VR](https://www.pcgamingwiki.com/wiki/?curid=74682)

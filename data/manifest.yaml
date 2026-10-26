@@ -23472,6 +23472,29 @@ Afterparty:
         - config
   steam:
     id: 762220
+"Aftershock: Coastline":
+  files:
+    "<home>/AppData/LocalLow/Alex Rassloff/Aftershock_ Coastline/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: aftershock-coastline
+  installDir:
+    Aftershock Coastline: {}
+  launch:
+    "<base>/Aftershock Coastline.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Alex Rassloff/Aftershock: Coastline":
+      tags:
+        - config
+  steam:
+    id: 2450040
 Again:
   steam:
     id: 810570
@@ -233541,6 +233564,9 @@ Ecotone:
   steam:
     id: 446070
 Ecstatica:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/saved":
       tags:
@@ -233551,9 +233577,25 @@ Ecstatica:
         - os: windows
   gog:
     id: 1333226285
+  id:
+    gogExtra:
+      - 1335460878
+      - 1942439921
+    steamExtra:
+      - 5418140
+      - 5418150
+  installDir:
+    Ecstatica: {}
+  launch:
+    "<base>/Ecstatica.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834840
 Ecstatica II:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/saved":
       tags:
@@ -233564,6 +233606,12 @@ Ecstatica II:
         - os: windows
   gog:
     id: 1434747230
+  installDir:
+    Ecstatica II: {}
+  launch:
+    "<base>/Ecstatica II.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834850
 Ectolibrium:
@@ -538216,6 +538264,8 @@ Phantom Astronaut Lucid VR:
   steam:
     id: 1146810
 Phantom Blade Zero:
+  cloud:
+    steam: true
   id:
     lutris: phantom-blade-0
   steam:
@@ -696293,9 +696343,16 @@ Stupid Raft Battle Simulator:
   gog:
     id: 1777704954
   id:
+    gogExtra:
+      - 1411519552
+      - 1729223972
+      - 1947569167
+      - 2108929928
     lutris: stygian-outer-gods
     steamExtra:
       - 4060460
+      - 5404580
+      - 5445690
   installDir:
     Stygian - Outer Gods: {}
   launch:
