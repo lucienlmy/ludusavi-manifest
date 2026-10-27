@@ -8338,18 +8338,17 @@
   launch:
     - executable: Tropico2.exe
 33540:
+  cloud:
+    saves:
+      - path: profiles
+        pattern: "*"
+        root: gameinstall
   installDir: Dawn of Magic II
   launch:
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: launcher-x64.exe
+    - executable: dawnofmagic2.exe
       type: default
-    - config:
-        osarch: "32"
-        oslist: windows
-      executable: launcher-ia32.exe
-      type: default
+  nameLocalized:
+    russian: "Магия Крови: Время Теней"
 33570:
   installDir: Patrician III
   launch:
@@ -615338,6 +615337,16 @@
   launch:
     - arguments: "-uplay_steam_mode -sound2d"
       executable: "bin\\WatchDogsLegion.exe"
+2239670:
+  installDir: Glory to the Heroes
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GloryToTheHeroes.exe
+      type: default
+  nameLocalized:
+    ukrainian: Героям Слава
 2239710:
   installDir: Into the Dead Our Darkest Days
   launch:
@@ -664455,10 +664464,17 @@
       executable: peg_champ_beta.exe
       type: default
 4938460:
+  cloud:
+    saves:
+      - path: profiles
+        pattern: "*"
+        root: gameinstall
   installDir: Dawn of Magic
   launch:
     - executable: DawnOfMagic.exe
       type: default
+  nameLocalized:
+    russian: Магия Крови
 4953280: {}
 4959180:
   installDir: Blaster!
@@ -664668,5 +664684,8 @@
 5460970: {}
 5461430: {}
 5464760: {}
+5480400: {}
+5480410: {}
+5480430: {}
 34004563: {}
 3221903386: {}

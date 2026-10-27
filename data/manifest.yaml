@@ -180328,19 +180328,14 @@ Dawn of Magic 2:
     id: 1839978015
   id:
     lutris: dawn-of-magic-2
+    steamExtra:
+      - 33550
   installDir:
     Dawn of Magic II: {}
   launch:
-    "<base>/launcher-ia32.exe":
+    "<base>/dawnofmagic2.exe":
       - when:
-          - bit: 32
-            os: windows
-            store: steam
-    "<base>/launcher-x64.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
+          - store: steam
   steam:
     id: 33540
 Dawn of Man:
@@ -307174,6 +307169,17 @@ Glory of Deep Skies:
         - os: windows
   id:
     lutris: touhou-mukyuushi-glory-of-deep-skies
+Glory of the Heroes:
+  installDir:
+    Glory to the Heroes: {}
+  launch:
+    "<base>/GloryToTheHeroes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2239670
 Glory of the Self-Styled Diehard Girl:
   installDir:
     Glory of the Self-Styled Diehard girl: {}
@@ -514408,6 +514414,9 @@ One More Roll:
             store: steam
   steam:
     id: 911520
+One Mote:
+  steam:
+    id: 5480410
 One Move Away:
   files:
     "<home>/AppData/LocalLow/Ramage Games/One Move Away/<storeUserId>/*.sav":
@@ -596794,6 +596803,9 @@ Ring the City:
             store: steam
   steam:
     id: 1070320
+Ringfort:
+  steam:
+    id: 5480400
 Ringies:
   installDir:
     Ringies: {}
@@ -784219,6 +784231,9 @@ Tiny Mortals VR:
     Tiny Mortals VR: {}
   steam:
     id: 1061460
+Tiny Night Market:
+  steam:
+    id: 5480430
 Tiny Pasture:
   cloud:
     steam: true
