@@ -168015,6 +168015,19 @@ Cuit:
   steam:
     id: 614890
 Culdcept The First:
+  files:
+    "<home>/Saved Games/Culdcept The First/*.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Culdcept The First: {}
+  launch:
+    "<base>/S-Tribute.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3825600
 "Culina: Hands in the Kitchen":
@@ -207332,6 +207345,19 @@ Dog Jam:
 "Dog Man: Bark in Action":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Floor 84 Studio/Dog Man_ Bark in Action/<storeUserId>/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dog Man Bark in Action: {}
+  launch:
+    "<base>/Dog Man Bark in Action.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4782240
 "Dog Man: Mission Impawsible":
@@ -420417,6 +420443,16 @@ Link the animals:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Zelda_LA/achievements":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Zelda_LA/advanced":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Zelda_LA/settings":
       tags:
         - config
@@ -420425,6 +420461,16 @@ Link the animals:
     "<xdgData>/Zelda_LA/SaveFiles":
       tags:
         - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/achievements":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/advanced":
+      tags:
+        - config
       when:
         - os: linux
     "<xdgData>/Zelda_LA/settings":
@@ -437244,6 +437290,7 @@ Madison:
     lutris: madison
     steamExtra:
       - 1949860
+      - 2624150
   installDir:
     MADiSON: {}
   launch:
@@ -503498,6 +503545,12 @@ Nomad Drive:
       - 4451030
       - 4568400
       - 5199100
+  installDir:
+    Nomad Drive: {}
+  launch:
+    "<base>/Nomad Drive.exe":
+      - when:
+          - store: steam
   steam:
     id: 2223980
 Nomad Fleet:
@@ -504448,6 +504501,13 @@ Northgard Battlegrounds:
   id:
     steamExtra:
       - 5090100
+  installDir:
+    Northgard Battlegrounds: {}
+  launch:
+    "<base>/Northgard Battlegrounds.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4487060
 Northland:
@@ -592057,6 +592117,22 @@ Retro Racers 2:
             store: steam
   steam:
     id: 887870
+Retro Racing 2:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Mr Qwak/Retro Racing 2/player":
+      when:
+        - store: steam
+  installDir:
+    Retro Racing 2: {}
+  launch:
+    "<base>/retroracing_2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3739960
 Retro Racing City:
   steam:
     id: 1027110
@@ -664372,6 +664448,20 @@ SoulSet:
             store: steam
   steam:
     id: 589860
+SoulTrap:
+  files:
+    "<base>/Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Microforum/SoulTrap:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/Software/WOW6432Node/Microforum/SoulTrap:
+      tags:
+        - config
 SoulWorker:
   installDir:
     Soulworker_GB: {}
@@ -716084,6 +716174,9 @@ TTT Classic:
     "<base>/ttt/karma.txt":
       when:
         - store: steam
+    "<base>/ttt/sprays/*.wad":
+      when:
+        - store: steam
     "<base>/ttt/voice_ban.dt":
       when:
         - store: steam
@@ -716091,12 +716184,17 @@ TTT Classic:
       when:
         - store: steam
   installDir:
-    TTT Classic: {}
+    TTTClassic: {}
   launch:
     "<base>/ttt.exe":
-      - arguments: "-game ttt -gl -steam -secure"
+      - arguments: "-game ttt -gl -steam -secure -addons"
         when:
           - os: windows
+            store: steam
+    "<base>/ttt.sh":
+      - arguments: "-steam -game ttt -addons -gl -secure"
+        when:
+          - os: linux
             store: steam
   steam:
     id: 4570530
@@ -829654,10 +829752,21 @@ Virtually Real Life:
   steam:
     id: 1209610
 Virtue and a Sledgehammer:
+  files:
+    "<base>/Sledgehammer/UserDir/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
   id:
     lutris: virtue-and-a-sledgehammer
     steamExtra:
       - 3743280
+  installDir:
+    Virtue and a Sledgehammer: {}
+  launch:
+    "<base>/Virtue and a Sledgehammer.exe":
+      - arguments: "-UserDir=\".\\UserDir\""
+        when:
+          - store: steam
   steam:
     id: 3743260
 Virtuelle Moorhuhn Jagd:
