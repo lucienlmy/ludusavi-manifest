@@ -11032,9 +11032,13 @@ Alphaman:
 Alpine Skater:
   pageId: 210287
   steam: 3994690
+"Alpine Ski Racing 2007: Bode Miller vs. Hermann Maier":
+  pageId: 222434
 Alpine Ski VR:
   pageId: 53956
   steam: 553110
+Alpine Skiing 2005:
+  pageId: 222450
 Alt-Frequencies:
   cloud:
     gog: true
@@ -20189,6 +20193,9 @@ Ayakashigami:
   steamSide:
     - 4091500
     - 4091520
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Aya\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Aya\\Saved\\SaveGames}}"
 Ayni Fairyland:
   pageId: 108230
   steam: 885790
@@ -60282,6 +60289,9 @@ Deadweight:
 "Deadzone: Rogue 2":
   pageId: 216591
   steam: 4465790
+  templates:
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Oak\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Oak\\Saved\\SaveGames\\}}"
 Deal or No Deal:
   pageId: 90806
 "Deal or No Deal: Secret Vault Games":
@@ -98307,6 +98317,15 @@ Genius! NAZI-GIRL GoePPels-Chan ep2:
 Genius! NAZI-GIRL GoePPels-Chan ep3:
   pageId: 141821
   steam: 1111220
+Gennady:
+  gog: 1268630104
+  pageId: 222441
+  steam: 2430010
+  steamSide:
+    - 5456610
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Feed 64\\Gennady\\stable\\config.json|{{P|appdata}}\\Feed 64\\Gennady\\stable\\345961400\\controls.dat}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Feed 64\\Gennady\\stable\\345961400\\savegame.dat}}"
 Geno The Fallen King:
   pageId: 154041
   steam: 972180
@@ -171443,6 +171462,7 @@ Over the Hedge:
 Over the Hill:
   cloud:
     steam: true
+  gog: 1442763024
   lutris: over-the-hill
   pageId: 205758
   renamedFrom:
@@ -187188,6 +187208,9 @@ Qvadriga:
   steam: 297760
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Turnopia\\Qvadriga\\}}"
+Qwak Reborn:
+  pageId: 222461
+  steam: 4704570
 "Qwerty's Prison":
   pageId: 141024
   steam: 1103000
@@ -187793,9 +187816,15 @@ RTAG rise:
 RTL Biathlon 2009:
   pageId: 79490
   steam: 374090
+RTL Ski Jumping 2005:
+  pageId: 222452
+RTL Ski Jumping 2006:
+  pageId: 222445
 RTL Ski Jumping 2007:
   pageId: 79492
   steam: 374090
+RTL Skispringen 2004:
+  pageId: 222459
 "RTS Commander: Smash the Rebels":
   pageId: 81604
   steam: 765370
@@ -192730,6 +192759,7 @@ Remote Control:
 "Remothered: Red Nun's Legacy":
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
   gog: 1933416452
@@ -192737,6 +192767,8 @@ Remote Control:
   pageId: 214598
   steam: 3335310
   steamSide:
+    - 5312420
+    - 5312450
     - 5312670
 "Remothered: Tormented Fathers":
   cloud:
@@ -246855,9 +246887,9 @@ The Legend of Viccess:
     - "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)"
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Save\\global.sav|{{P|game}}\\shipofharkinian.json}}"
-    - "{{Game data/config|Linux|{{P|game}}/Save/global.sav|{{P|game}}/shipofharkinian.json}}"
+    - "{{Game data/config|Linux|{{P|game}}/Save/global.sav|{{P|game}}/shipofharkinian.json|{{P|xdgdatahome}}/soh/Save/global.sav|{{P|xdgdatahome}}/soh/shipofharkinian.json}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save\\file*.sav}}"
-    - "{{Game data/saves|Linux|{{P|game}}/Save/file*.sav}}"
+    - "{{Game data/saves|Linux|{{P|game}}/Save/file*.sav|{{P|xdgdatahome}}/soh/Save/file*.sav}}"
 "The Legend of Zelda: Twilight Princess (Dusklight)":
   pageId: 216508
   renamedFrom:
@@ -280654,6 +280686,8 @@ Winx Club:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini|{{p|game}}\\winx.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Media\\Saved}}"
+WipEout Omega Collection:
+  pageId: 222435
 Wipe Out VR:
   pageId: 55151
   steam: 553630

@@ -623932,6 +623932,10 @@
       type: option1
   nameLocalized:
     japanese: スローン・アンド・リバティ
+2430010:
+  nameLocalized:
+    schinese: 怒汉阿根
+    tchinese: 怒漢阿根
 2430280:
   cloud:
     saves:
@@ -646524,8 +646528,11 @@
   installDir: Ayasa Shadows of Silence
   launch:
     - config:
-        osarch: "64"
+        oslist: windows
       executable: Aya.exe
+    - config:
+        oslist: linux
+      executable: Aya.sh
   nameLocalized:
     schinese: 寂静之国的波斯菊
     tchinese: 寂靜之國的波斯菊
@@ -650581,7 +650588,93 @@
     koreana: 프로레슬링 스토리 (Pro Wrestler Story)
     schinese: 摔跤擂台物语 (Pro Wrestler Story)
     tchinese: 摔角擂臺物語 (Pro Wrestler Story)
-3335310: {}
+3335310:
+  cloud:
+    saves:
+      - path: Remothered3/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: REMT
+  launch:
+    - config:
+        betakey: "internal_main_ci_dev, external_qa, internal_bug_test, hdr_test, internal_performance_test1"
+        osarch: "64"
+        oslist: windows
+      description: Development
+      executable: "Remothered\\Binaries\\Win64\\Remothered.exe"
+      type: option1
+    - config:
+        betakey: "internal_main_ci_dev, external_qa, internal_bug_test, internal_release_candidate, external_tryevidence, hdr_test, internal_performance_test1"
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: option2
+    - config:
+        betakey: internal_feature_test2
+        osarch: "64"
+        oslist: windows
+      description: Test
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Test.exe"
+      type: option3
+    - config:
+        betakey: "external_gold, external_demoshowcase, external_press"
+        osarch: "64"
+        oslist: windows
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: default
+    - config:
+        betakey: external_steamreview
+      executable: Remothered.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Remothered.exe
+    - config:
+        betakey: "internal_main_ci_dev, external_qa, internal_bug_test, hdr_test, internal_performance_test1"
+        osarch: "64"
+        oslist: windows
+      description: Test
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Test.exe"
+      type: option3
+    - config:
+        betakey: internal_feature_test1
+        osarch: "64"
+        oslist: windows
+      description: Development
+      executable: "Remothered\\Binaries\\Win64\\Remothered.exe"
+      type: option1
+    - config:
+        betakey: internal_feature_test1
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: option2
+    - config:
+        betakey: internal_feature_test1
+        osarch: "64"
+        oslist: windows
+      description: Test
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Test.exe"
+      type: option3
+    - config:
+        betakey: internal_feature_test2
+        osarch: "64"
+        oslist: windows
+      description: Development
+      executable: "Remothered\\Binaries\\Win64\\Remothered.exe"
+      type: option1
+    - config:
+        betakey: internal_feature_test2
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: option2
 3335460:
   nameLocalized:
     brazilian: "Broken Sword - O Espelho Fumegante: Reforged"
@@ -664097,6 +664190,7 @@
 4694470:
   nameLocalized:
     schinese: 清扫至天明
+4704570: {}
 4704690:
   installDir: MECCHA CHAMELEON
   launch:
@@ -664240,6 +664334,18 @@
 4752390: {}
 4757750: {}
 4760480:
+  cloud:
+    saves:
+      - path: My Games/YaE_Absolute/savegames
+        pattern: Save*
+        root: WinMyDocuments
+      - path: My Games/YaE_Absolute/savegames
+        pattern: tmp_cur_sshot.tga
+        root: WinMyDocuments
+  installDir: You Are Empty Absolute Edition
+  launch:
+    - executable: you_are_empty.exe
+      type: default
   nameLocalized:
     russian: "You Are Empty: Абсолютное издание"
     ukrainian: "You Are Empty: Абсолютне видання"

@@ -62303,9 +62303,16 @@ Ayakashigami:
   cloud:
     steam: true
   files:
-    "<base>/Aya/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Aya/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Aya/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: ayasa-shadows-of-silence
     steamExtra:
@@ -62316,7 +62323,11 @@ Ayakashigami:
   launch:
     "<base>/Aya.exe":
       - when:
-          - bit: 64
+          - os: windows
+            store: steam
+    "<base>/Aya.sh":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 3146120
@@ -185510,6 +185521,19 @@ Deadweight:
   steam:
     id: 3228590
 "Deadzone: Rogue 2":
+  files:
+    "<winLocalAppData>/Oak/Saved/Config/Windows":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Oak/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 4465790
 "Dealer's Life":
@@ -301391,6 +301415,30 @@ Genius! NAZI-GIRL GoePPels-Chan ep3:
             store: steam
   steam:
     id: 1111220
+Gennady:
+  files:
+    "<winAppData>/Feed 64/Gennady/stable/345961400/controls.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Feed 64/Gennady/stable/345961400/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Feed 64/Gennady/stable/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1268630104
+  id:
+    steamExtra:
+      - 5456610
+  steam:
+    id: 2430010
 Geno The Fallen King:
   installDir:
     Geno The Fallen King 1: {}
@@ -523279,6 +523327,8 @@ Over the Hill:
         - config
       when:
         - os: windows
+  gog:
+    id: 1442763024
   id:
     lutris: over-the-hill
     steamExtra:
@@ -571502,6 +571552,9 @@ Qvadriga:
         - config
   steam:
     id: 297760
+Qwak Reborn:
+  steam:
+    id: 4704570
 "Qwerty's Prison":
   installDir:
     "Qwerty's Prison": {}
@@ -588356,13 +588409,29 @@ Remorses:
 "Remothered: Red Nun's Legacy":
   cloud:
     epic: true
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Remothered3/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1933416452
   id:
     lutris: remothered-red-nuns-legacy
     steamExtra:
+      - 5312420
+      - 5312450
       - 5312670
+  installDir:
+    REMT: {}
+  launch:
+    "<base>/Remothered.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3335310
 "Remothered: Tormented Fathers":
@@ -754582,6 +754651,21 @@ The Legend of Viccess:
       when:
         - os: windows
         - os: linux
+    "<xdgData>/soh/Save/file*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/soh/Save/global.sav":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/soh/shipofharkinian.json":
+      tags:
+        - config
+      when:
+        - os: linux
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
 "The Legend of Zelda: Twilight Princess (Dusk)":
@@ -867775,6 +867859,12 @@ You Are Empty:
         - save
       when:
         - os: windows
+  installDir:
+    You Are Empty Absolute Edition: {}
+  launch:
+    "<base>/you_are_empty.exe":
+      - when:
+          - store: steam
   steam:
     id: 4760480
 You Are God:
