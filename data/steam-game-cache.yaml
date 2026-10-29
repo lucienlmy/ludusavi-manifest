@@ -568968,7 +568968,6 @@
   nameLocalized:
     japanese: 大航海時代 Origin
     koreana: 대항해시대 오리진
-    schinese: 大航海时代：起源
     tchinese: 大航海時代：起源
 1574480:
   cloud:
@@ -639702,6 +639701,13 @@
     schinese: " 闹鬼爪子 Haunted Paws"
     tchinese: 鬧鬼爪子 Haunted Paws
 2861210:
+  cloud:
+    saves:
+      - path: HYPNOS/Saved/SaveGames/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Hypnos
   launch:
     - config:
@@ -661138,6 +661144,19 @@
     koreana: 서큐블레스 Succubless
     schinese: 魅魔赐福 Succubless
     tchinese: 魅魔賜福 Succubless
+4037830:
+  cloud:
+    saves:
+      - path: "Xenosensory/{64BitSteamID}"
+        pattern: "*.dat"
+        root: WinAppDataLocal
+  installDir: Xenosensory
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Xenosensory.exe
+      type: default
 4038610: {}
 4039320: {}
 4041890:
@@ -665071,6 +665090,7 @@
 5396900: {}
 5442080: {}
 5450950: {}
+5459380: {}
 5460730: {}
 5460970: {}
 5461430: {}
