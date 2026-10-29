@@ -10858,6 +10858,49 @@ A Place Out Here:
           - store: steam
   steam:
     id: 3149450
+A Place for Every Potion:
+  files:
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/GlobalProgress":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/PlayerProgress":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/PlayerSettings":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/CubeQuad/A Place for Every Potion/PotionsPersistentData_*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/GlobalProgress":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/PlayerProgress":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/PlayerSettings":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/CubeQuad/A Place for Every Potion/PotionsPersistentData_*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    A Place for Every Potion: {}
+  launch:
+    "<base>/A Place for Every Potion.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/A Place for Every Potion.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 5189500
 A Place for the Unwilling:
   cloud:
     steam: true
@@ -39916,6 +39959,13 @@ Angry Birds:
     "<winAppData>/Rovio/Angry Birds/settings.lua":
       tags:
         - config
+      when:
+        - os: windows
+Angry Birds Epic:
+  files:
+    "<home>/AppData/LocalLow/Rovio Entertainment Ltd_/Epic/prefs/player":
+      tags:
+        - save
       when:
         - os: windows
 Angry Birds Rio:
@@ -75271,6 +75321,10 @@ Battlestar Galactica Deadlock:
   installDir:
     BattlestarGalacticaScatteredHopes: {}
   launch:
+    "<base>/BattlestarGalacticaScatteredHopes.app/Contents/MacOS/Battlestar Galactica Scattered Hopes":
+      - when:
+          - os: mac
+            store: steam
     "<base>/BattlestarGalacticaScatteredHopes.exe":
       - when:
           - bit: 64
@@ -383664,6 +383718,9 @@ Jim Is Moving Out!:
 Jimmy Kamikaze:
   steam:
     id: 918370
+Jimmy Neutron vs. Jimmy Negatron:
+  id:
+    lutris: jimmy-neutron-vs-jimmy-negatron
 "Jimmy Neutron: Boy Genius":
   files:
     "<base>/JimmyGameX.tsk":
@@ -383884,6 +383941,14 @@ Jockey Rush:
   steam:
     id: 500680
 Joe & Mac Retro Collection:
+  installDir:
+    Joe & Mac Retro Collection: {}
+  launch:
+    "<base>/Joe & Mac.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3672840
 Joe & Mac Returns:
@@ -485408,6 +485473,7 @@ NASCAR Heat Evolution:
       when:
         - os: windows
   id:
+    lutris: nascar-heat-evolution
     steamExtra:
       - 524630
       - 525180
@@ -538421,8 +538487,23 @@ Phantom Astronaut Lucid VR:
 Phantom Blade Zero:
   cloud:
     steam: true
+  files:
+    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>/**/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: phantom-blade-0
+    steamExtra:
+      - 5041150
+  installDir:
+    PBZ: {}
+  launch:
+    "<base>/steam/PBZ.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4115450
 Phantom Brave PC:
@@ -629458,6 +629539,7 @@ Sengoku Neet:
 Sengoku Rance:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/SaveData":
       tags:
@@ -648162,6 +648244,9 @@ Skate City:
             store: steam
   steam:
     id: 1361670
+Skate Shop Simulator:
+  steam:
+    id: 1919480
 Skate Story:
   cloud:
     gog: true
@@ -674816,6 +674901,9 @@ Spirit Arena:
             store: steam
   steam:
     id: 2113850
+Spirit Crossing:
+  steam:
+    id: 2321960
 Spirit Fighters:
   installDir:
     Spirit Fighters: {}
@@ -859476,6 +859564,8 @@ World of Goo (2008):
         - os: windows
   gog:
     id: 1421855536
+  id:
+    lutris: world-of-goo
   installDir:
     World of Goo: {}
   launch:
