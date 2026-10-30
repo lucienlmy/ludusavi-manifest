@@ -4858,6 +4858,8 @@ ASTRONEST VR:
 ASTROPUPPA:
   pageId: 153372
   steam: 1184470
+"ATAC: The Secret War Against Drugs":
+  pageId: 222626
 ATLYSS:
   cloud:
     steam: true
@@ -156075,6 +156077,8 @@ Moustache Mountain:
   pageId: 43857
   steam: 457520
 Mouthwashing:
+  cloud:
+    xbox: true
   lutris: mouthwashing
   pageId: 198242
   steam: 2475490
@@ -238920,6 +238924,8 @@ The Adventures of Nick & Willikins:
 The Adventures of Perseus:
   pageId: 129829
   steam: 1031590
+The Adventures of Pinocchio:
+  pageId: 222624
 The Adventures of Robin Hood:
   pageId: 221623
 "The Adventures of Sam Carlisle: The Hunt for the Lost Treasure":
@@ -252260,6 +252266,7 @@ The Swordsmen X:
 The Séance of Blake Manor:
   cloud:
     steam: true
+    xbox: true
   lutris: the-seance-of-blake-manor
   pageId: 165507
   renamedFrom:
@@ -254026,7 +254033,9 @@ The Wolf Among Us:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\TelltaleGames.TheWolfAmongUs-ATelltaleGamesSeries_4p9dzwrngadje\\SystemAppData\\wgs}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/TheWolfAmongUs/}}"
 The Wolf Among Us 2:
+  lutris: the-wolf-among-us-2
   pageId: 154605
+  steam: 1884870
 The Wolf Among Us Remastered:
   cloud:
     steam: true
@@ -258556,6 +258565,8 @@ Too Many F*cking Nazis:
 Too Many Toys!:
   pageId: 221023
   steam: 5028390
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Jakub T & 4ydam\\Too Many Toys!\\*.es3}}"
 Too Many Weapons:
   pageId: 62974
   steam: 646280
