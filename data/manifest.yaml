@@ -116941,6 +116941,17 @@ Campus Notes - forget me not.:
         - config
       when:
         - os: windows
+"Can 'Em All":
+  installDir:
+    "Can 'Em All": {}
+  launch:
+    "<base>/Can 'Em All.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5133900
 Can You Eat by Yourself:
   steam:
     id: 761720
@@ -184167,6 +184178,9 @@ Dead of Night:
   steam:
     id: 656630
 Dead of the Brain:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<home>/.pcx/DeadoftheBrain/*.bin":
       when:
@@ -184234,6 +184248,8 @@ Dead of the Brain:
     "<winAppData>/PCX/DeadoftheBrain/persistent":
       when:
         - store: steam
+  gog:
+    id: 1645689113
   id:
     lutris: dead-of-the-brain
   installDir:
@@ -416692,7 +416708,7 @@ Level Devil:
   cloud:
     steam: true
   files:
-    "<xdgConfig>/share/leveldevil":
+    "<xdgData>/leveldevil":
       tags:
         - config
       when:
@@ -789688,6 +789704,25 @@ Tonetaker VR:
     Tonetaker VR: {}
   steam:
     id: 1145050
+Tonic Trouble:
+  files:
+    "<base>/GAMEDATA/OPTIONS":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/GAMEDATA/SaveGame":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDir>/UBISOFT/UBI.INI":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: tonic-trouble
 Tonic Trouble Special Edition:
   files:
     "<base>/GameData/Options":
