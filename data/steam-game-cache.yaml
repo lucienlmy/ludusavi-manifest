@@ -655540,7 +655540,17 @@
   launch:
     - executable: ArthurSC.exe
       type: default
-3581230: {}
+3581230:
+  installDir: Cozy Game Restoration
+  launch:
+    - config:
+        oslist: macos
+      executable: CozyGameRestoration.app
+      type: default
+    - config:
+        oslist: windows
+      executable: CozyGameRestoration.exe
+      type: default
 3582980:
   cloud:
     saves:
