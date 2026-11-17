@@ -595511,7 +595511,10 @@
         oslist: windows
       executable: Backfirewall_.exe
       type: default
-1920290: {}
+1920290:
+  nameLocalized:
+    japanese: BARKOUR バークール
+    schinese: BARKOUR 汪牌特工
 1920430:
   cloud:
     saves:
@@ -608906,7 +608909,7 @@
     saves:
       - path: Test_C/Saved/SaveGames
         pattern: "*.sav"
-        root: gameinstall
+        root: WinAppDataLocal
   installDir: PROJECT QUARANTINE
   launch:
     - executable: Test_C.exe
@@ -667486,7 +667489,13 @@
     - arguments: "--use-webgpu-adapter=d3d11"
       description: "Box Flow [DirectX 11 (Linux / Mac / black screen)]"
       executable: box-flow.exe
-4918810: {}
+4918810:
+  installDir: Pinata Smash Incremental Circus
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Pinata Smash Incremental Circus.exe
 4921760:
   installDir: Heroes Of Might And Magic III
   launch:
@@ -668084,6 +668093,16 @@
     - config:
         oslist: linux
       executable: Heartfall.x86_64
+5261050:
+  cloud:
+    saves:
+      - path: FoxSpiritSweethearts/saves
+        pattern: "*.json"
+        root: gameinstall
+  installDir: Fox Spirit Sweethearts
+  launch:
+    - executable: fox-spirit-sweethearts.exe
+      type: default
 5266240:
   cloud:
     saves:
@@ -668185,5 +668204,6 @@
     schinese: 炸了还是烟花
 5511700: {}
 5527800: {}
+5582480: {}
 34004563: {}
 3221903386: {}

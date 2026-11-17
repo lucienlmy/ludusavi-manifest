@@ -53671,6 +53671,8 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    lutris: assassins-creed-iii-remastered
   installDir:
     "Assassin's Creed III Remastered": {}
   steam:
@@ -53910,6 +53912,7 @@ Asphyxia:
       when:
         - os: windows
   id:
+    lutris: assassins-creed-shadows
     steamExtra:
       - 3362550
       - 3362570
@@ -53994,6 +53997,8 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    lutris: assassins-creed-unity
   installDir:
     "Assassin's Creed Unity": {}
   launch:
@@ -286266,6 +286271,19 @@ Fox Hime Zero:
             store: steam
   steam:
     id: 844930
+"Fox Spirit Sweethearts: Complete Edition":
+  files:
+    "<base>/FoxSpiritSweethearts/saves/*.json":
+      when:
+        - store: steam
+  installDir:
+    Fox Spirit Sweethearts: {}
+  launch:
+    "<base>/fox-spirit-sweethearts.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 5261050
 Fox and Bunny:
   installDir:
     Fox and Bunny: {}
@@ -360951,6 +360969,8 @@ I Am Alive:
         - os: windows
   gog:
     id: 1632475257
+  id:
+    lutris: i-am-alive
   installDir:
     I am Alive: {}
   steam:
@@ -495032,7 +495052,7 @@ Neon Drive:
         - save
       when:
         - os: windows
-    "<home>/Library/Application Support/unity.Fraoula.Neon Drive":
+    "<home>/Library/Application Support/Fraoula/Neon Drive/NeonDrive.sav":
       tags:
         - save
       when:
@@ -509385,6 +509405,7 @@ OMORI:
         - os: windows
           store: steam
   id:
+    lutris: omsi-2
     steamExtra:
       - 271390
       - 299350
@@ -509414,6 +509435,9 @@ OMORI:
             store: steam
   steam:
     id: 252530
+"OMSI: The Bus Simulator":
+  id:
+    lutris: omsi-the-bus-simulator
 ONE:
   cloud:
     steam: true
@@ -543441,6 +543465,14 @@ Pimp Tight:
   id:
     steamExtra:
       - 4941930
+  installDir:
+    Pinata Smash Incremental Circus: {}
+  launch:
+    "<base>/Pinata Smash Incremental Circus.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4918810
 Pinball:
@@ -824870,6 +824902,9 @@ VTree Beach Volleyball:
             store: steam
   steam:
     id: 855160
+"VVVVK: Road of Eternal Night":
+  steam:
+    id: 5582480
 VVVVV:
   installDir:
     VVVVV: {}
