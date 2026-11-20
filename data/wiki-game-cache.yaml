@@ -639,7 +639,7 @@ $1 Ride:
   pageId: 18518
   steam: 242820
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\JeppeCarlsen\\140}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\JeppeCarlsen\\140\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.JeppeCarlsen.140.plist}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/JeppeCarlsen/140/prefs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\140.sav}}"
@@ -20046,6 +20046,7 @@ Awaria:
     - 3394230
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\vanripper\\Awaria}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/vanripper/Awaria/prefs}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\vanripper\\Awaria}}"
 Away:
   pageId: 113144
@@ -20835,15 +20836,6 @@ BR Logic Pack:
 "BRAINPIPE: A Plunge to Unhumanity":
   pageId: 41281
   steam: 35800
-"BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT":
-  lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
-  pageId: 201707
-  steam: 3191050
-  steamSide:
-    - 3476440
-  templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Aviao\\config.cfg}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Aviao\\}}"
 "BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO":
   pageId: 218107
   steam: 4241920
@@ -32011,7 +32003,7 @@ Bomber Crew:
     - 765960
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Runner Duck\\Bomber Crew\\}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Runner Duck/Bomber Crew/perfs}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Runner Duck/Bomber Crew/prefs}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Runner Duck\\Bomber Crew\\*.dat}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Runner Duck/Bomber Crew/*.dat}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Runner Duck/Bomber Crew/*.dat}}"
@@ -33886,6 +33878,21 @@ Brazilian Adventure:
     steam: true
   pageId: 79372
   steam: 764880
+Brazilian Drug Dealer 3:
+  gog: 1298669607
+  gogSide:
+    - 1391632422
+    - 2011757279
+  lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
+  pageId: 201707
+  renamedFrom:
+    - "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT"
+  steam: 3191050
+  steamSide:
+    - 3476440
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Aviao\\config.cfg}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Aviao\\}}"
 Brazilian Root:
   pageId: 89984
   steam: 809500
@@ -36719,6 +36726,8 @@ Bygone Dreams:
     steam: true
   pageId: 184835
   steam: 951620
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|localappdata}}\\AppData\\Local\\Wa\\Saved\\SaveGames}}}}"
 "Bygone Worlds: Drama at the Odeion":
   pageId: 77952
   steam: 758840
@@ -64026,7 +64035,7 @@ Despotism 3k:
   steam: 699920
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Konfa Games\\Despotism3k\\}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Konfa Games/Despotism3k/perfs}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Konfa Games/Despotism3k/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Konfa Games\\Despotism3k\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Konfa Games/Despotism3k/*.dat}}"
 Dess M-8:
@@ -86184,6 +86193,7 @@ Fantom Feast:
   steam: 962280
 Fantôme Rapport -Intermezzo-:
   pageId: 218283
+  steam: 3622860
 Fap Queen:
   pageId: 120502
   steam: 942140
@@ -93323,9 +93333,9 @@ Fotonica:
   steam: 253290
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Santa Ragione\\FOTONICA\\}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Santa Ragione/FOTONICA/perfs}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Santa Ragione/FOTONICA/prefs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\SOFTWARE\\Santa Ragione\\FOTONICA\\}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Santa Ragione/FOTONICA/perfs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Santa Ragione/FOTONICA/prefs}}"
 Foul Play:
   cloud:
     steam: true
@@ -112852,9 +112862,10 @@ Hidden Folks:
   pageId: 39622
   steam: 435400
   templates:
-    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/unity3d/Adriaan de Jongh/Hidden Folks}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Adriaan de Jongh\\Hidden Folks\\}}"
-    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/unity3d/Adriaan de Jongh/Hidden Folks}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Adriaan de Jongh\\Hidden Folks\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Adriaan de Jongh/Hidden Folks/perfs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Adriaan de Jongh\\Hidden Folks\\*.data}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Adriaan de Jongh/Hidden Folks/*.data}}"
 Hidden Life:
   pageId: 88681
   steam: 801410
@@ -131793,6 +131804,7 @@ Korwin The Game:
   pageId: 46208
   steam: 375030
 "Koshmar: The Last Reverie":
+  gog: 1429035916
   lutris: koshmar-the-last-reverie
   pageId: 215490
   steam: 2882720
@@ -131963,12 +131975,23 @@ KrissX:
 Kristala:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gog: 2052069523
+  gogSide:
+    - 1389773565
+    - 1541632216
+    - 1730693353
+    - 1731891413
+    - 1830954867
+    - 1981264863
+    - 2048031151
   lutris: kristala
   pageId: 203139
   steam: 1206410
   steamSide:
     - 2493530
+    - 4602480
     - 4602520
     - 4602530
     - 4602540
@@ -145955,10 +145978,19 @@ Mark After Dark:
   steam: 713980
 Mark of the Deep:
   cloud:
+    epic: true
     steam: true
     xbox: true
+  gog: 1749756718
+  gogSide:
+    - 1268617634
+    - 1594619696
+  lutris: mark-of-the-deep
   pageId: 218126
   steam: 1933370
+  steamSide:
+    - 3480440
+    - 4374400
 Mark of the Ninja:
   cloud:
     steam: true
@@ -148236,9 +148268,9 @@ Mega Coin Squad:
   steam: 312510
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Big Pixel Studios\\Mega Coin Squad\\}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Big Pixel Studios/Mega Coin Squad/perfs}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Big Pixel Studios/Mega Coin Squad/prefs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Big Pixel Studios\\Mega Coin Squad\\}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Big Pixel Studios/Mega Coin Squad/perfs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Big Pixel Studios/Mega Coin Squad/prefs}}"
 Mega Hasan:
   pageId: 155594
   steam: 1217100
@@ -158570,6 +158602,9 @@ My Super Tower 3:
 My Sweet Floating in the Void:
   pageId: 193186
   steam: 2738740
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Oculus Digital\\My Sweet Floating In The Void}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Oculus Digital\\My Sweet Floating In The Void\\mysweetsave.game}}"
 My Sweet Waifu:
   pageId: 87491
   steam: 793760
@@ -162238,9 +162273,10 @@ Neon Drive:
     - 487240
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Fraoula\\Neon Drive\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Fraoula/Neon Drive/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fraoula\\Neon Drive\\NeonDrive.sav}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Fraoula/Neon Drive/NeonDrive.sav}}"
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/unity3d/Fraoula/Neon Drive/prefs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Fraoula/Neon Drive/NeonDrive.sav}}"
 Neon Exile:
   pageId: 141701
   steam: 505020
@@ -162849,6 +162885,7 @@ Never Alone:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/E_Line Media/Never Alone/scprofile.dat}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/295790/}}"
 Never Alone 2:
+  lutris: never-alone-2
   pageId: 194321
   steam: 2154420
 Never Breakup:
@@ -178423,10 +178460,15 @@ Pimp Tight:
 Pin Town:
   pageId: 178231
 "Pinata Smash: Incremental Circus":
+  cloud:
+    steam: true
   pageId: 219233
   steam: 4918810
   steamSide:
     - 4941930
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\punkfuncgames\\Piñata Smash_ Incremental Circus\\save.dat}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\4918810\\remote\\save.dat}}"
 Pinball:
   pageId: 75471
   steam: 745120
@@ -179252,7 +179294,7 @@ Pixel Piracy:
     - 365970
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\VitaliKirpuProductions\\Pixel Piracy\\}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/VitaliKirpuProductions/Pixel Piracy/perfs}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/VitaliKirpuProductions/Pixel Piracy/prefs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveFile\\PixelPiracy\\}}"
     - "{{Game data/saves|Linux|{{p|game}}/SaveFile/PixelPiracy/}}"
 Pixel Privateers:
@@ -188989,10 +189031,11 @@ Race the Sun:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Flippfly\\RaceTheSun\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Flippfly.RaceTheSun.plist}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Flippfly/RaceTheSun/}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Flippfly/RaceTheSun/prefs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Flippfly\\RaceTheSun\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\253030\\remote\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/unity.Flippfly.RaceTheSun.plist}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Flippfly/RaceTheSun/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Flippfly/RaceTheSun/prefs}}"
 Race to Mars:
   pageId: 15682
   renamedFrom:
@@ -213099,7 +213142,7 @@ Sir Whoopass:
   steam: 242880
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\x64\\s\\SaveGames\\|{{p|game}}\\x86\\s\\SaveGames\\|{{p|hkcu}}\\SOFTWARE\\Big Robot\\SirYouAreBeingHunted\\}}"
-    - "{{Game data/config|Linux|{{p|game}}/s/SaveGames/|{{p|xdgconfighome}}/unity3d/Big Robot/SirYouAreBeingHunted/perfs}}"
+    - "{{Game data/config|Linux|{{p|game}}/s/SaveGames/|{{p|xdgconfighome}}/unity3d/Big Robot/SirYouAreBeingHunted/prefs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\x64\\s\\SaveGames\\World*\\|{{p|game}}\\x86\\s\\SaveGames\\World*\\}}"
     - "{{Game data/saves|Linux|{{p|game}}/s/SaveGames/World*/}}"
 Siralim:
@@ -218285,6 +218328,9 @@ Soul Axiom:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Wales Interactive\\SoulAxiom\\}}"
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\279900\\remote\\OptionsData<!--File, not a folder-->}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\279900\\remote\\GameData<!--File, not a folder-->}}"
+Soul Blade:
+  pageId: 223362
+  steam: 2658410
 Soul Devourer:
   pageId: 201817
   steam: 2530620
@@ -240183,8 +240229,10 @@ The Antidote:
 The Apartment:
   pageId: 80529
   steam: 752020
-The Apartment (2026):
+The Apartment (2027):
   pageId: 215106
+  renamedFrom:
+    - The Apartment (2026)
   steam: 4333430
 The Apocalyptic Game About Penguins 4:
   pageId: 202337
@@ -241825,6 +241873,7 @@ The Citadel:
 The Citadel Project:
   cloud:
     steam: true
+  gog: 1622151550
   pageId: 222847
   steam: 4795460
   steamSide:
@@ -256575,6 +256624,8 @@ Thrushbriar Hall:
 "Thrust & Shoot: Flight School":
   pageId: 66279
   steam: 663100
+Thrust Twist + Turn:
+  pageId: 223370
 Thrusty Ship:
   pageId: 125829
   steam: 942520
@@ -288246,9 +288297,9 @@ Zenzizenzic:
   steam: 327500
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ruud Koorevaar\\Zenzizenzic\\}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Ruud Koorevaar/Zenzizenzic/perfs}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Ruud Koorevaar/Zenzizenzic/prefs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Ruud Koorevaar\\Zenzizenzic\\}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Ruud Koorevaar/Zenzizenzic/perfs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Ruud Koorevaar/Zenzizenzic/prefs}}"
 Zeon 25:
   cloud:
     steam: true
