@@ -50671,10 +50671,10 @@
       description: Launch Linux
       executable: Tabletop Simulator.x86_64
       type: default
-    - arguments: "-force-metal"
+    - arguments: "-force-glcore"
       config:
         oslist: macos
-      description: Metal
+      description: OpenGL Core (Legacy)
       executable: Tabletop Simulator.app
     - arguments: "-force-vulkan"
       config:
@@ -667324,7 +667324,11 @@
     koreana: 테일 스위퍼
     schinese: 童话清道夫
     tchinese: 童話清道夫
-4767480: {}
+4767480:
+  nameLocalized:
+    japanese: ロード オブ ザ フォールン II
+    schinese: Lords of the Fallen II 堕落之主2
+    tchinese: Lords of the Fallen II  墮落之主2
 4769040: {}
 4782240:
   cloud:
@@ -667413,9 +667417,39 @@
   launch:
     - executable: por2launch.exe
       type: default
-4834780: {}
-4834790: {}
-4834810: {}
+4834780:
+  cloud:
+    saves:
+      - path: Saved Games
+        pattern: "*.ss1"
+        root: gameinstall
+  installDir: Warlords IV Heroes of Etheria
+  launch:
+    - executable: Warlords4.exe
+      type: default
+4834790:
+  cloud:
+    saves:
+      - path: Theocracy/save
+        pattern: "*"
+        recursive: true
+        root: WinSavedGames
+  installDir: Theocracy
+  launch:
+    - executable: theocracy-0.6.85.exe
+      type: default
+    - description: Configure Theocracy
+      executable: config.exe
+      type: config
+4834810:
+  cloud:
+    saves:
+      - path: Save_g
+        pattern: "*.*"
+        root: gameinstall
+  installDir: Soldiers at War
+  launch:
+    - executable: SAW_Game.exe
 4834830: {}
 4834840:
   cloud:

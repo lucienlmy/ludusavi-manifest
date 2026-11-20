@@ -83173,6 +83173,8 @@ Extreme Assault:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
 Extreme Boards & Blades:
   pageId: 221703
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\xboards.ini}}"
 Extreme Bullrider:
   pageId: 222118
 Extreme Burger Defense:
@@ -86915,6 +86917,7 @@ Fast Food Tycoon 2:
   cloud:
     gog: true
   gog: 1175067557
+  lutris: pizza-connection-2
   pageId: 60702
   steam: 599000
   templates:
@@ -179777,6 +179780,7 @@ Pizza Connection 3:
   gogSide:
     - 1377044054
     - 1838508915
+  lutris: pizza-connection-3
   pageId: 62759
   steam: 588160
   steamSide:
@@ -217047,9 +217051,14 @@ Soldiers Lost Forever (1914-1918):
   pageId: 99510
   steam: 508630
 Soldiers at War:
+  cloud:
+    gog: true
+    steam: true
   gog: 1731348684
   pageId: 218358
   steam: 4834810
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Save_g\\}}"
 Soldiers of Anarchy:
   pageId: 192412
 Soldiers of Freedom:
@@ -255562,12 +255571,16 @@ TheoTown:
     - "{{Game data/config|Windows|{{P|userprofile}}\\TheoTown\\settings.json|{{P|userprofile}}\\TheoTown\\key_mapping.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\TheoTown\\regions}}"
 Theocracy:
+  cloud:
+    gog: true
+    steam: true
   gog: 1355762673
   pageId: 75256
   steam: 4834790
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\.gamesettings|{{p|game}}\\mvos.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\*.tsg}}"
+    - "{{Game data/saves|Steam|{{p|userprofile}}\\Saved Games\\Theocracy\\save\\*.tsg}}"
 Theocracy (2022):
   pageId: 186681
   steam: 2195530
@@ -265960,7 +265973,7 @@ Tungulus:
 "Tunguska: Legend of Faith":
   pageId: 210697
   templates:
-    - "{{Game data/config|Windows|C:\\Windows\\tunguska.ini}}"
+    - "{{Game data/config|Windows|C:\\Windows\\tunguska.ini|{{p|game}}\\TUNGUS.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\TUNGUSKA.S**}}"
 "Tunguska: The Visitation":
   cloud:
@@ -273721,6 +273734,8 @@ Virtua Fighter 5 R.E.V.O. World Stage:
     - "{{Game data/config|Microsoft Store|{{p|appdata}}\\SEGA\\VFREVO\\MicrosoftStore\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\SEGA\\VFREVO\\Steam\\{{p|uid}}\\system}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\SEGAofAmericaInc.a9115ca5cs_s751p9cej88mt\\SystemAppData\\wgs\\}}"
+Virtua Fighter Crossroads:
+  pageId: 223386
 Virtua Fighter PC:
   lutris: virtua-fighter-pc
   pageId: 20984
@@ -277815,6 +277830,9 @@ Warlords III:
     - "{{Game data/config|Windows|{{p|game}}\\*.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves|{{p|game}}\\CAMPAIGN|{{p|game}}\\SCENARIO}}"
 "Warlords IV: Heroes of Etheria":
+  cloud:
+    gog: true
+    steam: true
   gog: 1462962180
   pageId: 171469
   steam: 4834780
