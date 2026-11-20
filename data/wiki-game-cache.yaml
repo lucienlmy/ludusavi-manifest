@@ -108198,6 +108198,16 @@ HardCube:
     steam: true
   pageId: 35146
   steam: 493730
+Hardcoded:
+  pageId: 223371
+  steam: 2693710
+  templates:
+    - "{{Game data/config| Linux | {{p|linuxhome}}/.local/share/godot/app_userdata/HARDCODED/gamesettings.json}}"
+    - "{{Game data/config| Windows | {{p|appdata}}\\Godot\\app_userdata\\HARDCODED}}"
+    - "{{Game data/config| OS X | {{p|osxhome}}/.godot/app_userdata/HARDCODED}}"
+    - "{{Game data/saves| Linux | {{p|linuxhome}}/.local/share/godot/app_userdata/HARDCODED/savefile0.json | {{p|linuxhome}}/.local/share/godot/app_userdata/HARDCODED/savefile1.json | {{p|linuxhome}}/.local/share/godot/app_userdata/HARDCODED/savefile2.json | {{p|linuxhome}}/.local/share/godot/app_userdata/HARDCODED/savefile3.json }}"
+    - "{{Game data/saves| Windows | {{p|appdata}}\\Godot\\app_userdata\\HARDCODED}}"
+    - "{{Game data/saves| OS X | {{p|osxhome}}/.godot/app_userdata/HARDCODED}}"
 Hardcore Bunny Jumper:
   pageId: 135161
   steam: 1076320
@@ -126504,6 +126514,8 @@ Jump Off The Bridge:
   steam: 1057780
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Jump_Off_The_Bridge\\}}"
+Jump Raven:
+  pageId: 223373
 Jump Space:
   cloud:
     steam: true

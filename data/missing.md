@@ -14478,6 +14478,7 @@
 * [Jump Boy](https://www.pcgamingwiki.com/wiki/?curid=156449)
 * [Jump Jumpz](https://www.pcgamingwiki.com/wiki/?curid=122158)
 * [Jump Like A Pirate](https://www.pcgamingwiki.com/wiki/?curid=56570)
+* [Jump Raven](https://www.pcgamingwiki.com/wiki/?curid=223373)
 * [Jump Space](https://www.pcgamingwiki.com/wiki/?curid=208885)
 * [Jump Stars](https://www.pcgamingwiki.com/wiki/?curid=62745)
 * [Jump Stop](https://www.pcgamingwiki.com/wiki/?curid=79298)

@@ -635547,6 +635547,30 @@
     - config:
         oslist: windows
       executable: Garten of Banban 7.exe
+2693710:
+  cloud:
+    saves:
+      - path: save_files
+        pattern: "*.json"
+        root: gameinstall
+  installDir: HARDCODED
+  launch:
+    - config:
+        oslist: windows
+      executable: hardcoded.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: hardcoded
+      type: default
+    - config:
+        oslist: macos
+      executable: hardcoded.app
+    - arguments: "--rendering-driver opengl3 opengl3_es"
+      config:
+        oslist: windows
+      description: OpenGL ES3
+      executable: hardcoded.exe
 2694420:
   cloud:
     saves:
