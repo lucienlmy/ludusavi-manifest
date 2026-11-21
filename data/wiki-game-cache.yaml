@@ -31676,6 +31676,8 @@ Boardfall:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BoardFall\\}}"
 Boards and Blades 2:
   pageId: 221699
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\System\\BB2.ini}}"
 Boardwalk Carnival Game:
   pageId: 144496
   steam: 1140950
@@ -103056,6 +103058,7 @@ Grand Theft Auto V:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTA V\\settings.xml}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Rockstar Games\\GTA V\\Profiles\\{{P|uid}}|{{P|programdata}}\\Socialclub\\Player\\}}"
 Grand Theft Auto V Enhanced:
+  lutris: grand-theft-auto-v-enhanced
   pageId: 201889
   steam: 3240220
   templates:
@@ -157167,6 +157170,8 @@ Mugsters:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Reinkout Games\\Mugsters\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Reinkout Games\\Mugsters\\Saves\\}}"
 Mukti:
+  gog: 1127682353
+  lutris: mukti
   pageId: 105579
   steam: 760250
 "Mula: The Cycle of Shadow":
@@ -187097,6 +187102,8 @@ Q*bert (1999):
 Q-YO Blaster:
   pageId: 79344
   steam: 772610
+"Q.A.D: Quintessential Art of Destruction":
+  pageId: 223390
 Q.U.B.E.:
   lutris: qube
   pageId: 5022
@@ -224919,6 +224926,8 @@ Starazius:
     steam: true
   pageId: 149547
   steam: 1157100
+Starball:
+  pageId: 223394
 Starbase:
   cloud:
     steam: true

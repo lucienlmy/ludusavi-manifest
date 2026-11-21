@@ -96835,6 +96835,13 @@ Boardfall:
     id: 4026170
 Boardfall Zero:
   alias: Boardfall
+Boards and Blades 2:
+  files:
+    "<base>/System/BB2.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Boardwalk Carnival Game:
   installDir:
     Boardwalk Carnival Game: {}
@@ -315649,6 +315656,8 @@ Grand Theft Auto V Enhanced:
         - config
       when:
         - os: windows
+  id:
+    lutris: grand-theft-auto-v-enhanced
   installDir:
     Grand Theft Auto V Enhanced: {}
   launch:
@@ -479843,6 +479852,10 @@ Mugsters:
   steam:
     id: 712180
 Mukti:
+  gog:
+    id: 1127682353
+  id:
+    lutris: mukti
   steam:
     id: 760250
 "Mula: The Cycle of Shadow":
